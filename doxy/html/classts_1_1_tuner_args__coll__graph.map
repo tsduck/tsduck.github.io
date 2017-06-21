@@ -1,0 +1,18 @@
+<map id="ts::TunerArgs" name="ts::TunerArgs">
+<area shape="rect" id="node2" href="$classts_1_1_variable.html" title="ts::Variable\&lt; std::\lstring \&gt;" alt="" coords="49,41,175,82"/>
+<area shape="rect" id="node3" href="$classts_1_1_variable.html" title="ts::Variable\&lt; Polarization \&gt;" alt="" coords="22,107,202,133"/>
+<area shape="rect" id="node4" href="$classts_1_1_variable.html" title="ts::Variable\&lt; uint32_t \&gt;" alt="" coords="33,157,191,184"/>
+<area shape="rect" id="node5" href="$classts_1_1_variable.html" title="ts::Variable\&lt; DeliverySystem \&gt;" alt="" coords="9,208,215,235"/>
+<area shape="rect" id="node6" href="$classts_1_1_variable.html" title="ts::Variable\&lt; Hierarchy \&gt;" alt="" coords="28,259,196,285"/>
+<area shape="rect" id="node7" href="$classts_1_1_variable.html" title="ts::Variable\&lt; Pilot \&gt;" alt="" coords="43,309,181,336"/>
+<area shape="rect" id="node8" href="$classts_1_1_variable.html" title="ts::Variable\&lt; size_t \&gt;" alt="" coords="39,360,185,387"/>
+<area shape="rect" id="node9" href="$classts_1_1_variable.html" title="ts::Variable\&lt; uint64_t \&gt;" alt="" coords="33,411,191,437"/>
+<area shape="rect" id="node10" href="$classts_1_1_variable.html" title="ts::Variable\&lt; Modulation \&gt;" alt="" coords="25,461,199,488"/>
+<area shape="rect" id="node11" href="$classts_1_1_variable.html" title="ts::Variable\&lt; GuardInterval \&gt;" alt="" coords="17,512,207,539"/>
+<area shape="rect" id="node12" href="$classts_1_1_variable.html" title="ts::Variable\&lt; ts::LNB \&gt;" alt="" coords="33,563,191,589"/>
+<area shape="rect" id="node13" href="$classts_1_1_variable.html" title="ts::Variable\&lt; SpectralInversion \&gt;" alt="" coords="5,613,219,640"/>
+<area shape="rect" id="node14" href="$classts_1_1_variable.html" title="ts::Variable\&lt; RollOff \&gt;" alt="" coords="35,664,189,691"/>
+<area shape="rect" id="node15" href="$classts_1_1_variable.html" title="ts::Variable\&lt; Transmission\lMode \&gt;" alt="" coords="23,715,201,757"/>
+<area shape="rect" id="node16" href="$classts_1_1_variable.html" title="ts::Variable\&lt; BandWidth \&gt;" alt="" coords="24,781,200,808"/>
+<area shape="rect" id="node17" href="$classts_1_1_variable.html" title="ts::Variable\&lt; InnerFEC \&gt;" alt="" coords="28,849,196,876"/>
+</map>

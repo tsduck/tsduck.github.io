@@ -1,0 +1,4 @@
+<map id="ts::TelnetConnection" name="ts::TelnetConnection">
+<area shape="rect" id="node2" href="$classts_1_1_t_c_p_connection.html" title="Base class for a TCP/IP session. " alt="" coords="9,80,144,107"/>
+<area shape="rect" id="node3" href="$classts_1_1_t_c_p_socket.html" title="Base class for TCP/IP sockets. " alt="" coords="22,5,131,32"/>
+</map>

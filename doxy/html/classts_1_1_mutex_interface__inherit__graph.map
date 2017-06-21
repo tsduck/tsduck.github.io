@@ -1,0 +1,4 @@
+<map id="ts::MutexInterface" name="ts::MutexInterface">
+<area shape="rect" id="node2" href="$classts_1_1_mutex.html" title="A mutex implementation which is compatible with the ts::Thread class. " alt="" coords="5,80,83,107"/>
+<area shape="rect" id="node3" href="$classts_1_1_null_mutex.html" title="Empty mutex implementation. " alt="" coords="107,80,207,107"/>
+</map>

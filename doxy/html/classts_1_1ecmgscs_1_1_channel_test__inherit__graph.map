@@ -1,0 +1,4 @@
+<map id="ts::ecmgscs::ChannelTest" name="ts::ecmgscs::ChannelTest">
+<area shape="rect" id="node2" href="$classts_1_1tlv_1_1_channel_message.html" title="Base class for DVB SimulCrypt TLV messages operating on channels. " alt="" coords="11,80,175,107"/>
+<area shape="rect" id="node3" href="$classts_1_1tlv_1_1_message.html" title="Abstract base class for TLV messages. " alt="" coords="35,5,151,32"/>
+</map>
