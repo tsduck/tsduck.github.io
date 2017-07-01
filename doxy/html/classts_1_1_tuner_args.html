@@ -34,7 +34,7 @@
  <tr style="height: 56px;">
   <td id="projectlogo"><img src="tsduck-32.png"/></td>
    <td id="projectalign"><span id="projectname">TSDuck</span>
-    <span id="projectnumber">Version 3.0</span>
+    <span id="projectnumber">Version 3.1</span>
     <span id="projectbrief">(TSDuck - The MPEG Transport Stream Toolkit)</span>
    </td>
    <td>        <div id="MSearchBox" class="MSearchBoxInactive">
@@ -129,10 +129,18 @@ Collaboration diagram for ts::TunerArgs:</div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
-<tr class="memitem:abe6fedd2dd6c6d0021410ffb0c137325"><td class="memItemLeft" align="right" valign="top"><a id="abe6fedd2dd6c6d0021410ffb0c137325"></a>
-&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classts_1_1_tuner_args.html#abe6fedd2dd6c6d0021410ffb0c137325">TunerArgs</a> ()</td></tr>
-<tr class="memdesc:abe6fedd2dd6c6d0021410ffb0c137325"><td class="mdescLeft">&#160;</td><td class="mdescRight">Default constructor. <br /></td></tr>
-<tr class="separator:abe6fedd2dd6c6d0021410ffb0c137325"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7210c8e24a304edb42eba585c5396a1f"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classts_1_1_tuner_args.html#a7210c8e24a304edb42eba585c5396a1f">TunerArgs</a> (bool info_only=false, bool allow_short_options=true)</td></tr>
+<tr class="memdesc:a7210c8e24a304edb42eba585c5396a1f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Default constructor.  <a href="#a7210c8e24a304edb42eba585c5396a1f">More...</a><br /></td></tr>
+<tr class="separator:a7210c8e24a304edb42eba585c5396a1f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a183fce699e6d477d3ae6e3eafebbf711"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classts_1_1_tuner_args.html#a183fce699e6d477d3ae6e3eafebbf711">addHelp</a> (<a class="el" href="classts_1_1_args.html">Args</a> &amp;args) const</td></tr>
+<tr class="memdesc:a183fce699e6d477d3ae6e3eafebbf711"><td class="mdescLeft">&#160;</td><td class="mdescRight">Add help about command line options in an <a class="el" href="classts_1_1_args.html" title="An encapsulation of command line syntax and analysis. ">Args</a>.  <a href="#a183fce699e6d477d3ae6e3eafebbf711">More...</a><br /></td></tr>
+<tr class="separator:a183fce699e6d477d3ae6e3eafebbf711"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6aebecfe61114ec0ddcc7cfe96762df4"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classts_1_1_tuner_args.html#a6aebecfe61114ec0ddcc7cfe96762df4">configureTuner</a> (<a class="el" href="classts_1_1_tuner.html">Tuner</a> &amp;tuner, <a class="el" href="classts_1_1_report_interface.html">ReportInterface</a> &amp;report) const</td></tr>
+<tr class="memdesc:a6aebecfe61114ec0ddcc7cfe96762df4"><td class="mdescLeft">&#160;</td><td class="mdescRight">Open a tuner and configure it according to the parameters in this object.  <a href="#a6aebecfe61114ec0ddcc7cfe96762df4">More...</a><br /></td></tr>
+<tr class="separator:a6aebecfe61114ec0ddcc7cfe96762df4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa2396941b40db3c00154c5d173aa368d"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classts_1_1_tuner_args.html#aa2396941b40db3c00154c5d173aa368d">defineOptions</a> (<a class="el" href="classts_1_1_args.html">Args</a> &amp;args) const</td></tr>
+<tr class="memdesc:aa2396941b40db3c00154c5d173aa368d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Define command line options in an <a class="el" href="classts_1_1_args.html" title="An encapsulation of command line syntax and analysis. ">Args</a>.  <a href="#aa2396941b40db3c00154c5d173aa368d">More...</a><br /></td></tr>
+<tr class="separator:aa2396941b40db3c00154c5d173aa368d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a2abdea7e913acd135cb8cbb73ac5e7c5"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classts_1_1_tuner_args.html#a2abdea7e913acd135cb8cbb73ac5e7c5">hasTuningInfo</a> () const</td></tr>
 <tr class="memdesc:a2abdea7e913acd135cb8cbb73ac5e7c5"><td class="mdescLeft">&#160;</td><td class="mdescRight">Check if actual tuning information is set.  <a href="#a2abdea7e913acd135cb8cbb73ac5e7c5">More...</a><br /></td></tr>
 <tr class="separator:a2abdea7e913acd135cb8cbb73ac5e7c5"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -143,18 +151,15 @@ Public Member Functions</h2></td></tr>
 void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classts_1_1_tuner_args.html#a3d96f685cc1ec03c6af12648d61598ee">reset</a> ()</td></tr>
 <tr class="memdesc:a3d96f685cc1ec03c6af12648d61598ee"><td class="mdescLeft">&#160;</td><td class="mdescRight">Reset all values, they become "unset". <br /></td></tr>
 <tr class="separator:a3d96f685cc1ec03c6af12648d61598ee"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6c0d91c162420d16e31295cc4e2b4cae"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classts_1_1_tuner_args.html#a6c0d91c162420d16e31295cc4e2b4cae">tune</a> (<a class="el" href="classts_1_1_tuner.html">Tuner</a> &amp;tuner, <a class="el" href="namespacets.html#a95070d4f89e857c918f449f9c770afd3">TunerParametersPtr</a> &amp;params, <a class="el" href="classts_1_1_report_interface.html">ReportInterface</a> &amp;report) const</td></tr>
+<tr class="memdesc:a6c0d91c162420d16e31295cc4e2b4cae"><td class="mdescLeft">&#160;</td><td class="mdescRight">Tune to the specified parameters.  <a href="#a6c0d91c162420d16e31295cc4e2b4cae">More...</a><br /></td></tr>
+<tr class="separator:a6c0d91c162420d16e31295cc4e2b4cae"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-static-methods"></a>
 Static Public Member Functions</h2></td></tr>
-<tr class="memitem:a7e3123f49cb853227859407e8d470a1d"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classts_1_1_tuner_args.html#a7e3123f49cb853227859407e8d470a1d">AddHelp</a> (<a class="el" href="classts_1_1_args.html">Args</a> &amp;args, bool allow_short_options=true)</td></tr>
-<tr class="memdesc:a7e3123f49cb853227859407e8d470a1d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Add help about command line options in an <a class="el" href="classts_1_1_args.html" title="An encapsulation of command line syntax and analysis. ">Args</a>.  <a href="#a7e3123f49cb853227859407e8d470a1d">More...</a><br /></td></tr>
-<tr class="separator:a7e3123f49cb853227859407e8d470a1d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ac0886292f9f0c318db6e7e0ea43f1c67"><td class="memItemLeft" align="right" valign="top">static std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classts_1_1_tuner_args.html#ac0886292f9f0c318db6e7e0ea43f1c67">DefaultZapFile</a> (<a class="el" href="namespacets.html#a0bfe51c83f30216c9beaac7fc31f96d2">TunerType</a> type)</td></tr>
 <tr class="memdesc:ac0886292f9f0c318db6e7e0ea43f1c67"><td class="mdescLeft">&#160;</td><td class="mdescRight">Default zap file name for a given tuner type.  <a href="#ac0886292f9f0c318db6e7e0ea43f1c67">More...</a><br /></td></tr>
 <tr class="separator:ac0886292f9f0c318db6e7e0ea43f1c67"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a4834b7c256785ce4f960e6ffec7fd5b3"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classts_1_1_tuner_args.html#a4834b7c256785ce4f960e6ffec7fd5b3">DefineOptions</a> (<a class="el" href="classts_1_1_args.html">Args</a> &amp;args, bool allow_short_options=true)</td></tr>
-<tr class="memdesc:a4834b7c256785ce4f960e6ffec7fd5b3"><td class="mdescLeft">&#160;</td><td class="mdescRight">Define command line options in an <a class="el" href="classts_1_1_args.html" title="An encapsulation of command line syntax and analysis. ">Args</a>.  <a href="#a4834b7c256785ce4f960e6ffec7fd5b3">More...</a><br /></td></tr>
-<tr class="separator:a4834b7c256785ce4f960e6ffec7fd5b3"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-attribs"></a>
 Public Attributes</h2></td></tr>
@@ -170,6 +175,18 @@ Public Attributes</h2></td></tr>
 <a class="el" href="classts_1_1_variable.html">Variable</a>&lt; <a class="el" href="namespacets.html#af4ee613ab8c2346d8201038e5e9a94af">DeliverySystem</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classts_1_1_tuner_args.html#a593b7ef62a6981043209fb37d3cd7dd2">delivery_system</a></td></tr>
 <tr class="memdesc:a593b7ef62a6981043209fb37d3cd7dd2"><td class="mdescLeft">&#160;</td><td class="mdescRight">Delivery system (DS_DVB_*). <br /></td></tr>
 <tr class="separator:a593b7ef62a6981043209fb37d3cd7dd2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7b15bbbbb863f54e943ffe1b179c6a83"><td class="memItemLeft" align="right" valign="top"><a id="a7b15bbbbb863f54e943ffe1b179c6a83"></a>
+size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classts_1_1_tuner_args.html#a7b15bbbbb863f54e943ffe1b179c6a83">demux_buffer_size</a></td></tr>
+<tr class="memdesc:a7b15bbbbb863f54e943ffe1b179c6a83"><td class="mdescLeft">&#160;</td><td class="mdescRight">Demux buffer size in bytes (Linux-specific). <br /></td></tr>
+<tr class="separator:a7b15bbbbb863f54e943ffe1b179c6a83"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af1ceedbac94eb7a1ba3e1c40c9d5400f"><td class="memItemLeft" align="right" valign="top"><a id="af1ceedbac94eb7a1ba3e1c40c9d5400f"></a>
+size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classts_1_1_tuner_args.html#af1ceedbac94eb7a1ba3e1c40c9d5400f">demux_queue_size</a></td></tr>
+<tr class="memdesc:af1ceedbac94eb7a1ba3e1c40c9d5400f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Max number of queued media samples (Windows-specific). <br /></td></tr>
+<tr class="separator:af1ceedbac94eb7a1ba3e1c40c9d5400f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aad1aa9892e62edeee7d0d1c0d1bda8e9"><td class="memItemLeft" align="right" valign="top"><a id="aad1aa9892e62edeee7d0d1c0d1bda8e9"></a>
+std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classts_1_1_tuner_args.html#aad1aa9892e62edeee7d0d1c0d1bda8e9">device_name</a></td></tr>
+<tr class="memdesc:aad1aa9892e62edeee7d0d1c0d1bda8e9"><td class="mdescLeft">&#160;</td><td class="mdescRight">Name of tuner device. <br /></td></tr>
+<tr class="separator:aad1aa9892e62edeee7d0d1c0d1bda8e9"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:acda0a27cae822f950198dd0aa9c942e2"><td class="memItemLeft" align="right" valign="top"><a id="acda0a27cae822f950198dd0aa9c942e2"></a>
 <a class="el" href="classts_1_1_variable.html">Variable</a>&lt; <a class="el" href="namespacets.html#aba02cdc67c6160675835a56352ee020e">InnerFEC</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classts_1_1_tuner_args.html#acda0a27cae822f950198dd0aa9c942e2">fec_hp</a></td></tr>
 <tr class="memdesc:acda0a27cae822f950198dd0aa9c942e2"><td class="mdescLeft">&#160;</td><td class="mdescRight">High priority stream code rate. <br /></td></tr>
@@ -214,6 +231,10 @@ Public Attributes</h2></td></tr>
 <a class="el" href="classts_1_1_variable.html">Variable</a>&lt; <a class="el" href="namespacets.html#a251a9b6fe6d16b09d8a76c227cddae90">Polarization</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classts_1_1_tuner_args.html#a386005e6c1f2ef68841ae2082d36e2b9">polarity</a></td></tr>
 <tr class="memdesc:a386005e6c1f2ef68841ae2082d36e2b9"><td class="mdescLeft">&#160;</td><td class="mdescRight">Polarity. <br /></td></tr>
 <tr class="separator:a386005e6c1f2ef68841ae2082d36e2b9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2c414e166858ab5789a6d6bd5f1906ce"><td class="memItemLeft" align="right" valign="top"><a id="a2c414e166858ab5789a6d6bd5f1906ce"></a>
+<a class="el" href="namespacets.html#a2c690abc5d90fe5ba7c3ec0237afc348">MilliSecond</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classts_1_1_tuner_args.html#a2c414e166858ab5789a6d6bd5f1906ce">receive_timeout</a></td></tr>
+<tr class="memdesc:a2c414e166858ab5789a6d6bd5f1906ce"><td class="mdescLeft">&#160;</td><td class="mdescRight">Packet received timeout in milliseconds. <br /></td></tr>
+<tr class="separator:a2c414e166858ab5789a6d6bd5f1906ce"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a427a59435da2e476eb1eea701ffbeefc"><td class="memItemLeft" align="right" valign="top"><a id="a427a59435da2e476eb1eea701ffbeefc"></a>
 <a class="el" href="classts_1_1_variable.html">Variable</a>&lt; <a class="el" href="namespacets.html#aba55fc1506e1299dbed38c039463201f">RollOff</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classts_1_1_tuner_args.html#a427a59435da2e476eb1eea701ffbeefc">roll_off</a></td></tr>
 <tr class="memdesc:a427a59435da2e476eb1eea701ffbeefc"><td class="mdescLeft">&#160;</td><td class="mdescRight">Roll-off factor (DVB-S2 only). <br /></td></tr>
@@ -222,6 +243,10 @@ Public Attributes</h2></td></tr>
 <a class="el" href="classts_1_1_variable.html">Variable</a>&lt; size_t &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classts_1_1_tuner_args.html#abf72115fd47bae65bb8535a8ec32485a">satellite_number</a></td></tr>
 <tr class="memdesc:abf72115fd47bae65bb8535a8ec32485a"><td class="mdescLeft">&#160;</td><td class="mdescRight">For DiSeqC (usually 0). <br /></td></tr>
 <tr class="separator:abf72115fd47bae65bb8535a8ec32485a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8f6e76a161ff2fc75f88c52aedb9529f"><td class="memItemLeft" align="right" valign="top"><a id="a8f6e76a161ff2fc75f88c52aedb9529f"></a>
+<a class="el" href="namespacets.html#a2c690abc5d90fe5ba7c3ec0237afc348">MilliSecond</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classts_1_1_tuner_args.html#a8f6e76a161ff2fc75f88c52aedb9529f">signal_timeout</a></td></tr>
+<tr class="memdesc:a8f6e76a161ff2fc75f88c52aedb9529f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Signal locking timeout in milliseconds. <br /></td></tr>
+<tr class="separator:a8f6e76a161ff2fc75f88c52aedb9529f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ab52cc6c60a5c29555949cd393da7a12f"><td class="memItemLeft" align="right" valign="top"><a id="ab52cc6c60a5c29555949cd393da7a12f"></a>
 <a class="el" href="classts_1_1_variable.html">Variable</a>&lt; uint32_t &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classts_1_1_tuner_args.html#ab52cc6c60a5c29555949cd393da7a12f">symbol_rate</a></td></tr>
 <tr class="memdesc:ab52cc6c60a5c29555949cd393da7a12f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Symbol rate. <br /></td></tr>
@@ -242,7 +267,45 @@ Public Attributes</h2></td></tr>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>Command line arguments for DVB tuners. </p>
 <p>All values may be "set" or "unset", depending on command line arguments. All options for all types of tuners are included here. </p>
-</div><h2 class="groupheader">Member Function Documentation</h2>
+</div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
+<a id="a7210c8e24a304edb42eba585c5396a1f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7210c8e24a304edb42eba585c5396a1f">&#9670;&nbsp;</a></span>TunerArgs()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">ts::TunerArgs::TunerArgs </td>
+          <td>(</td>
+          <td class="paramtype">bool&#160;</td>
+          <td class="paramname"><em>info_only</em> = <code>false</code>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">bool&#160;</td>
+          <td class="paramname"><em>allow_short_options</em> = <code>true</code>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Default constructor. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">info_only</td><td>If true, the tuner will not be used to tune, just to get information. </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">allow_short_options</td><td>If true, allow short one-letter options. </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<h2 class="groupheader">Member Function Documentation</h2>
 <a id="a2abdea7e913acd135cb8cbb73ac5e7c5"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a2abdea7e913acd135cb8cbb73ac5e7c5">&#9670;&nbsp;</a></span>hasTuningInfo()</h2>
 
@@ -271,90 +334,52 @@ Public Attributes</h2></td></tr>
 
 </div>
 </div>
-<a id="a4834b7c256785ce4f960e6ffec7fd5b3"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a4834b7c256785ce4f960e6ffec7fd5b3">&#9670;&nbsp;</a></span>DefineOptions()</h2>
+<a id="aa2396941b40db3c00154c5d173aa368d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa2396941b40db3c00154c5d173aa368d">&#9670;&nbsp;</a></span>defineOptions()</h2>
 
 <div class="memitem">
 <div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">static void ts::TunerArgs::DefineOptions </td>
+          <td class="memname">void ts::TunerArgs::defineOptions </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="classts_1_1_args.html">Args</a> &amp;&#160;</td>
-          <td class="paramname"><em>args</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">bool&#160;</td>
-          <td class="paramname"><em>allow_short_options</em> = <code>true</code>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
+          <td class="paramname"><em>args</em></td><td>)</td>
+          <td> const</td>
         </tr>
       </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">static</span></span>  </td>
-  </tr>
-</table>
 </div><div class="memdoc">
 
 <p>Define command line options in an <a class="el" href="classts_1_1_args.html" title="An encapsulation of command line syntax and analysis. ">Args</a>. </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramdir">[in,out]</td><td class="paramname">args</td><td>Command line arguments to update. </td></tr>
-    <tr><td class="paramdir">[in]</td><td class="paramname">allow_short_options</td><td>If true, allow short one-letter options. If false, disable them, possibly to avoid interferences with other options. </td></tr>
   </table>
   </dd>
 </dl>
 
 </div>
 </div>
-<a id="a7e3123f49cb853227859407e8d470a1d"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a7e3123f49cb853227859407e8d470a1d">&#9670;&nbsp;</a></span>AddHelp()</h2>
+<a id="a183fce699e6d477d3ae6e3eafebbf711"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a183fce699e6d477d3ae6e3eafebbf711">&#9670;&nbsp;</a></span>addHelp()</h2>
 
 <div class="memitem">
 <div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">static void ts::TunerArgs::AddHelp </td>
+          <td class="memname">void ts::TunerArgs::addHelp </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="classts_1_1_args.html">Args</a> &amp;&#160;</td>
-          <td class="paramname"><em>args</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">bool&#160;</td>
-          <td class="paramname"><em>allow_short_options</em> = <code>true</code>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
+          <td class="paramname"><em>args</em></td><td>)</td>
+          <td> const</td>
         </tr>
       </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">static</span></span>  </td>
-  </tr>
-</table>
 </div><div class="memdoc">
 
 <p>Add help about command line options in an <a class="el" href="classts_1_1_args.html" title="An encapsulation of command line syntax and analysis. ">Args</a>. </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramdir">[in,out]</td><td class="paramname">args</td><td>Command line arguments to update. </td></tr>
-    <tr><td class="paramdir">[in]</td><td class="paramname">allow_short_options</td><td>If true, allow short one-letter options. If false, disable them, possibly to avoid interferences with other options. </td></tr>
   </table>
   </dd>
 </dl>
@@ -378,12 +403,95 @@ Public Attributes</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Load arguments from command line. </p>
-<dl class="params"><dt>Parameters</dt><dd>
+<p><a class="el" href="classts_1_1_args.html" title="An encapsulation of command line syntax and analysis. ">Args</a> error indicator is set in case of incorrect arguments. </p><dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramdir">[in,out]</td><td class="paramname">args</td><td>Command line arguments. <a class="el" href="classts_1_1_args.html" title="An encapsulation of command line syntax and analysis. ">Args</a> error indicator is set in case of incorrect arguments. </td></tr>
+    <tr><td class="paramdir">[in,out]</td><td class="paramname">args</td><td>Command line arguments. </td></tr>
   </table>
   </dd>
 </dl>
+
+</div>
+</div>
+<a id="a6aebecfe61114ec0ddcc7cfe96762df4"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6aebecfe61114ec0ddcc7cfe96762df4">&#9670;&nbsp;</a></span>configureTuner()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool ts::TunerArgs::configureTuner </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classts_1_1_tuner.html">Tuner</a> &amp;&#160;</td>
+          <td class="paramname"><em>tuner</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classts_1_1_report_interface.html">ReportInterface</a> &amp;&#160;</td>
+          <td class="paramname"><em>report</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Open a tuner and configure it according to the parameters in this object. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in,out]</td><td class="paramname">tuner</td><td>The tuner to open and configure. </td></tr>
+    <tr><td class="paramdir">[in,out]</td><td class="paramname">report</td><td>Where to report errors. </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>True on success, false on error. </dd></dl>
+
+</div>
+</div>
+<a id="a6c0d91c162420d16e31295cc4e2b4cae"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6c0d91c162420d16e31295cc4e2b4cae">&#9670;&nbsp;</a></span>tune()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool ts::TunerArgs::tune </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classts_1_1_tuner.html">Tuner</a> &amp;&#160;</td>
+          <td class="paramname"><em>tuner</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="namespacets.html#a95070d4f89e857c918f449f9c770afd3">TunerParametersPtr</a> &amp;&#160;</td>
+          <td class="paramname"><em>params</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classts_1_1_report_interface.html">ReportInterface</a> &amp;&#160;</td>
+          <td class="paramname"><em>report</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Tune to the specified parameters. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in,out]</td><td class="paramname">tuner</td><td>The tuner to configure. </td></tr>
+    <tr><td class="paramdir">[out]</td><td class="paramname">params</td><td>Safe pointer to tuning parameters. </td></tr>
+    <tr><td class="paramdir">[in,out]</td><td class="paramname">report</td><td>Where to report errors. </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>True on success, false on error. </dd></dl>
 
 </div>
 </div>

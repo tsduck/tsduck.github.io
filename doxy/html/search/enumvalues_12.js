@@ -1,6 +1,6 @@
 var searchData=
 [
-  ['udp',['UDP',['../classts_1_1_tables_logger_options.html#a07260c237a8d34c4249576319e3d188fab645c6762d561d056ba050d9dd0d31a1',1,'ts::TablesLoggerOptions']]],
+  ['udp',['UDP',['../classts_1_1_tables_logger_args.html#a428ea98fd41b3a5c66068a84727f2bc5a199695f73778fb3d9fd0c2105912c86b',1,'ts::TablesLoggerArgs']]],
   ['uint16',['UINT16',['../classts_1_1_args.html#ada57b307e21cd62d9eb7439dd2dcbfd1a890d4479bf50fff2d46e44fe74442375',1,'ts::Args']]],
   ['uint32',['UINT32',['../classts_1_1_args.html#ada57b307e21cd62d9eb7439dd2dcbfd1abf1fb79110d373d2837d292168c19c9e',1,'ts::Args']]],
   ['uint8',['UINT8',['../classts_1_1_args.html#ada57b307e21cd62d9eb7439dd2dcbfd1af17abfe4f237dbef89c0ba76fcc34cd7',1,'ts::Args']]],

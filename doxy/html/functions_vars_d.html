@@ -34,7 +34,7 @@
  <tr style="height: 56px;">
   <td id="projectlogo"><img src="tsduck-32.png"/></td>
    <td id="projectalign"><span id="projectname">TSDuck</span>
-    <span id="projectnumber">Version 3.0</span>
+    <span id="projectnumber">Version 3.1</span>
     <span id="projectbrief">(TSDuck - The MPEG Transport Stream Toolkit)</span>
    </td>
    <td>        <div id="MSearchBox" class="MSearchBoxInactive">
@@ -150,7 +150,7 @@ $(document).ready(function(){initNavTree('functions_vars_d.html','');});
 , <a class="el" href="classts_1_1_tuner_parameters_d_v_b_t.html#a4c442d2afee66ccc7c15224e824f4322">ts::TunerParametersDVBT</a>
 </li>
 <li>DEFAULT_LOG_SIZE
-: <a class="el" href="classts_1_1_tables_logger_options.html#a4f88bbae2196d2e545fc19284aad1ebc">ts::TablesLoggerOptions</a>
+: <a class="el" href="classts_1_1_tables_logger_args.html#a88e31dbc7771d4e96ed0f25cc00595ca">ts::TablesLoggerArgs</a>
 </li>
 <li>DEFAULT_MODULATION
 : <a class="el" href="classts_1_1_tuner_parameters_a_t_s_c.html#aaa49a00ebb53f12dea471d7b2fdc3963">ts::TunerParametersATSC</a>
@@ -205,6 +205,12 @@ $(document).ready(function(){initNavTree('functions_vars_d.html','');});
 <li>delta_pic_order_always_zero_flag
 : <a class="el" href="classts_1_1_a_v_c_sequence_parameter_set.html#aaf0922aec2be56574261563b4c690a30">ts::AVCSequenceParameterSet</a>
 </li>
+<li>demux_buffer_size
+: <a class="el" href="classts_1_1_tuner_args.html#a7b15bbbbb863f54e943ffe1b179c6a83">ts::TunerArgs</a>
+</li>
+<li>demux_queue_size
+: <a class="el" href="classts_1_1_tuner_args.html#af1ceedbac94eb7a1ba3e1c40c9d5400f">ts::TunerArgs</a>
+</li>
 <li>description
 : <a class="el" href="classts_1_1_t_s_analyzer_1_1_p_i_d_context.html#a1e4d349c5f76d0164edc798cc545c42a">ts::TSAnalyzer::PIDContext</a>
 </li>
@@ -214,13 +220,17 @@ $(document).ready(function(){initNavTree('functions_vars_d.html','');});
 <li>descs
 : <a class="el" href="classts_1_1_abstract_descriptors_table.html#ac599ba6b4614e8b10bb945ffa520d398">ts::AbstractDescriptorsTable</a>
 , <a class="el" href="classts_1_1_abstract_transport_list_table.html#a1d0aee64237d3bae60a8e94388ed3319">ts::AbstractTransportListTable</a>
+, <a class="el" href="classts_1_1_e_i_t_1_1_event.html#aac969409e70ada1e2b78e325a9a989d8">ts::EIT::Event</a>
 , <a class="el" href="classts_1_1_p_m_t.html#a0b2fa73c4f75a30bb8531b91ad03c472">ts::PMT</a>
 , <a class="el" href="structts_1_1_p_m_t_1_1_stream.html#a63cace5cbe265d7dd8b2cb718b21dd45">ts::PMT::Stream</a>
 , <a class="el" href="classts_1_1_s_d_t_1_1_service.html#a853187d5a8a4f3171d6a6fb283739601">ts::SDT::Service</a>
 , <a class="el" href="classts_1_1_t_o_t.html#acbc134cbc5e1a78132594db6775b769f">ts::TOT</a>
 </li>
 <li>destination
-: <a class="el" href="classts_1_1_tables_logger_options.html#ab510e4e015051b463b596d52619a4837">ts::TablesLoggerOptions</a>
+: <a class="el" href="classts_1_1_tables_logger_args.html#af35fc5b3bdd97f8f4bc6c8a80bc4af2e">ts::TablesLoggerArgs</a>
+</li>
+<li>device_name
+: <a class="el" href="classts_1_1_tuner_args.html#aad1aa9892e62edeee7d0d1c0d1bda8e9">ts::TunerArgs</a>
 </li>
 <li>direct_8x8_inference_flag
 : <a class="el" href="classts_1_1_a_v_c_sequence_parameter_set.html#a5d53977b7ec487bd8745797f05829112">ts::AVCSequenceParameterSet</a>
@@ -229,16 +239,19 @@ $(document).ready(function(){initNavTree('functions_vars_d.html','');});
 : <a class="el" href="structts_1_1_section_demux_1_1_status.html#af52a2a9acc7e816509962694719c8f91">ts::SectionDemux::Status</a>
 </li>
 <li>diversified
-: <a class="el" href="classts_1_1_tables_logger_options.html#adb112c3951374b5deba48b84282382ce">ts::TablesLoggerOptions</a>
+: <a class="el" href="classts_1_1_tables_logger_args.html#a285e112f3e42b8806f1965028cb431db">ts::TablesLoggerArgs</a>
 </li>
 <li>dpb_output_delay_length_minus1
 : <a class="el" href="classts_1_1_a_v_c_h_r_d_parameters.html#abd3c30a78bf170794061357b5f36437b">ts::AVCHRDParameters</a>
 </li>
 <li>dump
-: <a class="el" href="classts_1_1_p_s_i_logger_options.html#abdea0d9e4ed184cfc24bf629d022b20c">ts::PSILoggerOptions</a>
+: <a class="el" href="classts_1_1_p_s_i_logger_args.html#aaa2972d263582e3c8b37209b9d8c734c">ts::PSILoggerArgs</a>
 </li>
 <li>duplicated
 : <a class="el" href="classts_1_1_t_s_analyzer_1_1_p_i_d_context.html#aa41ec9524d66cd21a509a0778f9e0729">ts::TSAnalyzer::PIDContext</a>
+</li>
+<li>duration
+: <a class="el" href="classts_1_1_e_i_t_1_1_event.html#abb47ae9d2daf3a0246cc9fcac7960318">ts::EIT::Event</a>
 </li>
 </ul>
 </div><!-- contents -->

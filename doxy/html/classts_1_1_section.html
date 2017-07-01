@@ -34,7 +34,7 @@
  <tr style="height: 56px;">
   <td id="projectlogo"><img src="tsduck-32.png"/></td>
    <td id="projectalign"><span id="projectname">TSDuck</span>
-    <span id="projectnumber">Version 3.0</span>
+    <span id="projectnumber">Version 3.1</span>
     <span id="projectbrief">(TSDuck - The MPEG Transport Stream Toolkit)</span>
    </td>
    <td>        <div id="MSearchBox" class="MSearchBoxInactive">
@@ -135,9 +135,6 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a51824dc8a4acff0e178d4dfb684dfbff"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classts_1_1_section.html">Section</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classts_1_1_section.html#a51824dc8a4acff0e178d4dfb684dfbff">copy</a> (const <a class="el" href="classts_1_1_section.html">Section</a> &amp;other)</td></tr>
 <tr class="memdesc:a51824dc8a4acff0e178d4dfb684dfbff"><td class="mdescLeft">&#160;</td><td class="mdescRight">Duplication.  <a href="#a51824dc8a4acff0e178d4dfb684dfbff">More...</a><br /></td></tr>
 <tr class="separator:a51824dc8a4acff0e178d4dfb684dfbff"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a2f7920759a08a245760531a7e0294113"><td class="memItemLeft" align="right" valign="top">std::ostream &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classts_1_1_section.html#a2f7920759a08a245760531a7e0294113">display</a> (std::ostream &amp;strm, int indent=0, <a class="el" href="namespacets.html#a1de171688c3a6ff71896a8f3e5817c11">CASFamily</a> cas=<a class="el" href="namespacets.html#a1de171688c3a6ff71896a8f3e5817c11a79bba7cbc9e78632bc132244f9c83d9e">CAS_OTHER</a>, bool no_header=false) const</td></tr>
-<tr class="memdesc:a2f7920759a08a245760531a7e0294113"><td class="mdescLeft">&#160;</td><td class="mdescRight">Display the section on an output stream with full interpretation.  <a href="#a2f7920759a08a245760531a7e0294113">More...</a><br /></td></tr>
-<tr class="separator:a2f7920759a08a245760531a7e0294113"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:af2c4961b19d6ab2a1515b14627cc79c1"><td class="memItemLeft" align="right" valign="top">std::ostream &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classts_1_1_section.html#af2c4961b19d6ab2a1515b14627cc79c1">dump</a> (std::ostream &amp;strm, int indent=0, <a class="el" href="namespacets.html#a1de171688c3a6ff71896a8f3e5817c11">CASFamily</a> cas=<a class="el" href="namespacets.html#a1de171688c3a6ff71896a8f3e5817c11a79bba7cbc9e78632bc132244f9c83d9e">CAS_OTHER</a>, bool no_header=false) const</td></tr>
 <tr class="memdesc:af2c4961b19d6ab2a1515b14627cc79c1"><td class="mdescLeft">&#160;</td><td class="mdescRight">Hexa dump the section on an output stream without interpretation of the payload.  <a href="#af2c4961b19d6ab2a1515b14627cc79c1">More...</a><br /></td></tr>
 <tr class="separator:af2c4961b19d6ab2a1515b14627cc79c1"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -2037,58 +2034,6 @@ Static Public Member Functions</h2></td></tr>
   <table class="params">
     <tr><td class="paramdir">[in,out]</td><td class="paramname">strm</td><td>A standard stream in output mode. </td></tr>
     <tr><td class="paramdir">[in,out]</td><td class="paramname">report</td><td>Where to report errors. </td></tr>
-  </table>
-  </dd>
-</dl>
-<dl class="section return"><dt>Returns</dt><dd>A reference to the <em>strm</em> object. </dd></dl>
-
-</div>
-</div>
-<a id="a2f7920759a08a245760531a7e0294113"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a2f7920759a08a245760531a7e0294113">&#9670;&nbsp;</a></span>display()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">std::ostream&amp; ts::Section::display </td>
-          <td>(</td>
-          <td class="paramtype">std::ostream &amp;&#160;</td>
-          <td class="paramname"><em>strm</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">int&#160;</td>
-          <td class="paramname"><em>indent</em> = <code>0</code>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype"><a class="el" href="namespacets.html#a1de171688c3a6ff71896a8f3e5817c11">CASFamily</a>&#160;</td>
-          <td class="paramname"><em>cas</em> = <code><a class="el" href="namespacets.html#a1de171688c3a6ff71896a8f3e5817c11a79bba7cbc9e78632bc132244f9c83d9e">CAS_OTHER</a></code>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">bool&#160;</td>
-          <td class="paramname"><em>no_header</em> = <code>false</code>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td> const</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Display the section on an output stream with full interpretation. </p>
-<dl class="params"><dt>Parameters</dt><dd>
-  <table class="params">
-    <tr><td class="paramdir">[in,out]</td><td class="paramname">strm</td><td>A standard stream in output mode (text mode). </td></tr>
-    <tr><td class="paramdir">[in]</td><td class="paramname">indent</td><td>Indicates the base indentation of lines. </td></tr>
-    <tr><td class="paramdir">[in]</td><td class="paramname">cas</td><td>CAS family, for CAS-specific information. </td></tr>
-    <tr><td class="paramdir">[in]</td><td class="paramname">no_header</td><td>If true, do not display the section header. </td></tr>
   </table>
   </dd>
 </dl>

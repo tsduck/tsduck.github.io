@@ -34,7 +34,7 @@
  <tr style="height: 56px;">
   <td id="projectlogo"><img src="tsduck-32.png"/></td>
    <td id="projectalign"><span id="projectname">TSDuck</span>
-    <span id="projectnumber">Version 3.0</span>
+    <span id="projectnumber">Version 3.1</span>
     <span id="projectbrief">(TSDuck - The MPEG Transport Stream Toolkit)</span>
    </td>
    <td>        <div id="MSearchBox" class="MSearchBoxInactive">
@@ -98,10 +98,10 @@ $(document).ready(function(){initNavTree('functions_r.html','');});
 : <a class="el" href="structts_1_1_parental_rating_descriptor_1_1_entry.html#a38bb3f523aa3afc1cecd67609035bab8">ts::ParentalRatingDescriptor::Entry</a>
 </li>
 <li>raw_dump
-: <a class="el" href="classts_1_1_tables_logger_options.html#aaa022057b1aa105570f589245f5df5e6">ts::TablesLoggerOptions</a>
+: <a class="el" href="classts_1_1_tables_display_args.html#a334eeb031f2fbb911c5cf170cec750dd">ts::TablesDisplayArgs</a>
 </li>
 <li>raw_flags
-: <a class="el" href="classts_1_1_tables_logger_options.html#a0f455224e1d82af54b8e30797274a783">ts::TablesLoggerOptions</a>
+: <a class="el" href="classts_1_1_tables_display_args.html#a7354de52ce6319861d870dc86a9cd7d3">ts::TablesDisplayArgs</a>
 </li>
 <li>rbsp_trailing_bits_count
 : <a class="el" href="classts_1_1_a_v_c_sequence_parameter_set.html#a9d1a0e4ff7d1775886010b2e94d5b5dc">ts::AVCSequenceParameterSet</a>
@@ -153,6 +153,9 @@ $(document).ready(function(){initNavTree('functions_r.html','');});
 , <a class="el" href="classts_1_1tlv_1_1_connection.html#aaf5caa0a050e3246100e02b9973e469f">ts::tlv::Connection&lt; MUTEX &gt;</a>
 , <a class="el" href="classts_1_1_tuner.html#a5b06159b2fd41ec07cd74725e2566f78">ts::Tuner</a>
 , <a class="el" href="classts_1_1_u_d_p_socket.html#a2957534de3179a2de54f187395b3fd23">ts::UDPSocket</a>
+</li>
+<li>receive_timeout
+: <a class="el" href="classts_1_1_tuner_args.html#a2c414e166858ab5789a6d6bd5f1906ce">ts::TunerArgs</a>
 </li>
 <li>receiveTimeout()
 : <a class="el" href="classts_1_1_tuner.html#a527700ece555e368968a7a63ed69ddab">ts::Tuner</a>
@@ -240,7 +243,8 @@ $(document).ready(function(){initNavTree('functions_r.html','');});
 : <a class="el" href="classts_1_1_descriptor.html#a58d3bae4427602c3b3b427a7600a8f56">ts::Descriptor</a>
 </li>
 <li>report()
-: <a class="el" href="classts_1_1_t_s_analyzer_report.html#a35644c286ef9c97eb539d09aa2c0a8aa">ts::TSAnalyzerReport</a>
+: <a class="el" href="classts_1_1_d_t_v_properties.html#a29755c3c68a74f3197b1c6efb3800d87">ts::DTVProperties</a>
+, <a class="el" href="classts_1_1_t_s_analyzer_report.html#a35644c286ef9c97eb539d09aa2c0a8aa">ts::TSAnalyzerReport</a>
 </li>
 <li>ReportBuffer()
 : <a class="el" href="classts_1_1_report_buffer.html#a66da4448de9cff29da086a9f4e348c85">ts::ReportBuffer&lt; MUTEX &gt;</a>
@@ -253,7 +257,7 @@ $(document).ready(function(){initNavTree('functions_r.html','');});
 : <a class="el" href="classts_1_1_t_s_analyzer_report.html#aaa7b2d2cbbc0ff6b66c1635a16d70369">ts::TSAnalyzerReport</a>
 </li>
 <li>ReportFile()
-: <a class="el" href="classts_1_1_report_file.html#a4e62464e33a45cc1c51624f5c45e082d">ts::ReportFile&lt; MUTEX &gt;</a>
+: <a class="el" href="classts_1_1_report_file.html#aec1a2b1781714a92d115af3687f1d1e0">ts::ReportFile&lt; MUTEX &gt;</a>
 </li>
 <li>ReportInterface()
 : <a class="el" href="classts_1_1_report_interface.html#a595c7f6cc87b242d54fb0daf9a790014">ts::ReportInterface</a>
@@ -277,14 +281,14 @@ $(document).ready(function(){initNavTree('functions_r.html','');});
 : <a class="el" href="classts_1_1_a_v_c_sequence_parameter_set.html#a221edd55f755927c4559ca6b6107d3c7">ts::AVCSequenceParameterSet</a>
 </li>
 <li>reset()
-: <a class="el" href="classts_1_1_a_v_c_parser.html#af16d0d26e46cdfdbc0cf09b1f99fd1ac">ts::AVCParser</a>
+: <a class="el" href="classts_1_1_a_v_c_parser.html#a37bf21b6374d165b080446c81612548c">ts::AVCParser</a>
 , <a class="el" href="classts_1_1_bit_stream.html#a160f2e71af9ce7c80015f0980c799eee">ts::BitStream</a>
 , <a class="el" href="classts_1_1_config_file.html#ac9eb07d9a3c04db7db2bab18fc06a8e7">ts::ConfigFile</a>
 , <a class="el" href="classts_1_1_config_section.html#a3ac44e2861afbb1da404ce84ef942139">ts::ConfigSection</a>
 , <a class="el" href="classts_1_1_c_r_c32.html#ae37304414a85b23f07d82f3a45b2986b">ts::CRC32</a>
 , <a class="el" href="classts_1_1_cycling_packetizer.html#a6005b6b7bd74608a340fbf3624e5e753">ts::CyclingPacketizer</a>
 , <a class="el" href="classts_1_1_packetizer.html#ad4ddd430584ff22c604a80bb2e24d7ae">ts::Packetizer</a>
-, <a class="el" href="classts_1_1_p_c_r_analyzer.html#a18b967110e79729dbcee0d836322dd80">ts::PCRAnalyzer</a>
+, <a class="el" href="classts_1_1_p_c_r_analyzer.html#a15688d3103e97fd816e2f89d53812d34">ts::PCRAnalyzer</a>
 , <a class="el" href="classts_1_1_p_e_s_demux.html#a57f2966de76a7a053cafadef05211506">ts::PESDemux</a>
 , <a class="el" href="classts_1_1_safe_ptr.html#abd8313fa54cdeb0d0d69fa89f0d65f34">ts::SafePtr&lt; T, MUTEX &gt;</a>
 , <a class="el" href="classts_1_1_section_demux.html#a30ebc2b396220eefdf315e976620b121">ts::SectionDemux</a>
@@ -296,7 +300,7 @@ $(document).ready(function(){initNavTree('functions_r.html','');});
 , <a class="el" href="classts_1_1_variable.html#ad826e4a63f49b96fa9928e08a41ed97c">ts::Variable&lt; T &gt;</a>
 </li>
 <li>resetAndUseDTS()
-: <a class="el" href="classts_1_1_p_c_r_analyzer.html#a6f3c20a2f51b717dbea6b388a2f21ea6">ts::PCRAnalyzer</a>
+: <a class="el" href="classts_1_1_p_c_r_analyzer.html#a5b5673801f17b0e51269ba6f8ac677ee">ts::PCRAnalyzer</a>
 </li>
 <li>resetInterrupted()
 : <a class="el" href="classts_1_1_user_interrupt.html#abacd005a0409db04c8d0035b50fd2e72">ts::UserInterrupt</a>
@@ -378,7 +382,8 @@ $(document).ready(function(){initNavTree('functions_r.html','');});
 : <a class="el" href="classts_1_1_service.html#a6714af4f0f1fb06c562f1aa786ae6fd2a390baead0944a4dee9715101b4abdb7c">ts::Service</a>
 </li>
 <li>running_status
-: <a class="el" href="classts_1_1_s_d_t_1_1_service.html#af71c0010502829f1003357b686158284">ts::SDT::Service</a>
+: <a class="el" href="classts_1_1_e_i_t_1_1_event.html#a4abcb31d29b85901a5574117f85c060f">ts::EIT::Event</a>
+, <a class="el" href="classts_1_1_s_d_t_1_1_service.html#af71c0010502829f1003357b686158284">ts::SDT::Service</a>
 </li>
 </ul>
 </div><!-- contents -->

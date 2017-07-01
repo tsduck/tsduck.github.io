@@ -8,6 +8,7 @@ var classts_1_1_t_o_t =
     [ "timeOffsetFormat", "classts_1_1_t_o_t.html#a932ebbb40e2c9f070403cf81e141f813", null ],
     [ "serialize", "classts_1_1_t_o_t.html#aadb0d23aa567015dec3646d63137fdb5", null ],
     [ "deserialize", "classts_1_1_t_o_t.html#a3078493232dd7f953aa5cee2d6044e49", null ],
+    [ "DisplaySection", "classts_1_1_t_o_t.html#a87b20333d2459978f65934e1e4f6cfe4", null ],
     [ "utc_time", "classts_1_1_t_o_t.html#a49e1c0483e541c6dc51e6ba5297b534b", null ],
     [ "regions", "classts_1_1_t_o_t.html#a62e283fe16767a7a9c7ef86b938b3013", null ],
     [ "descs", "classts_1_1_t_o_t.html#acbc134cbc5e1a78132594db6775b769f", null ]

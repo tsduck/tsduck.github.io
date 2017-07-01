@@ -11,9 +11,9 @@ var ts_hexa_8h =
       [ "BINARY", "ts_hexa_8h.html#a490e158f46bf3d8b610cd81e9d6290e6aa2c1167b4fcf2a5d1568688b0179bfde", null ],
       [ "BIN_NIBBLE", "ts_hexa_8h.html#a490e158f46bf3d8b610cd81e9d6290e6af4e06c4aeb812eae8a2e2c07a8bdae49", null ]
     ] ],
-    [ "Hexa", "ts_hexa_8h.html#a4d9ee887544e71739d41c8d232713810", null ],
-    [ "Hexa", "ts_hexa_8h.html#af0496a2d440855ca46460e514163f02d", null ],
-    [ "Hexa", "ts_hexa_8h.html#af6248cd3b8e37e484466afb10546be6b", null ],
-    [ "AppendHexa", "ts_hexa_8h.html#a019e56b429c16aadd2615f18007b2b65", null ],
+    [ "Hexa", "ts_hexa_8h.html#a518c3129e643fa3c679f061fcfcf271f", null ],
+    [ "Hexa", "ts_hexa_8h.html#a53f40d1dde25f4d00aaf466483bf334f", null ],
+    [ "Hexa", "ts_hexa_8h.html#a87da430dda0a1f7b381eabba762d48da", null ],
+    [ "AppendHexa", "ts_hexa_8h.html#a8e5760f774441c48a9c5f8138b0f2fdb", null ],
     [ "DEFAULT_LINE_WIDTH", "ts_hexa_8h.html#a050606272cf6b103a06890be6325a576", null ]
 ];

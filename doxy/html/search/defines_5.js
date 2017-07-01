@@ -44,6 +44,7 @@ var searchData=
   ['tsdeclareexception',['tsDeclareException',['../ts_exception_8h.html#a3f30604ff0d3a51b578bb744426d1fe0',1,'tsException.h']]],
   ['tsdeclaresingleton',['tsDeclareSingleton',['../ts_singleton_manager_8h.html#a34b8105ee049b713dcc96cb63a05de93',1,'tsSingletonManager.h']]],
   ['tsdefinesingleton',['tsDefineSingleton',['../ts_singleton_manager_8h.html#aee6b63de3682c99e11687f2dfd2aabff',1,'tsSingletonManager.h']]],
+  ['tsduck_5fsource',['TSDUCK_SOURCE',['../ts_platform_8h.html#a018c8aa689b1d1828c9e6d307084e9b8',1,'tsPlatform.h']]],
   ['tsduckdll',['TSDUCKDLL',['../ts_platform_8h.html#ae1cda62454d23e62fb576be3783aec47',1,'tsPlatform.h']]],
   ['tsgentab_5fdeclare_5fplugin',['TSGENTAB_DECLARE_PLUGIN',['../ts_gen_tab_plugin_8h.html#a71abc865c85ab384b44a25c2ad871617',1,'tsGenTabPlugin.h']]],
   ['tsplugin_5fdeclare_5finput',['TSPLUGIN_DECLARE_INPUT',['../ts_plugin_8h.html#a3484d931736f865aacfcd21e4337e5c8',1,'tsPlugin.h']]],

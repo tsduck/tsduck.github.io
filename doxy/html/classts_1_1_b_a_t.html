@@ -34,7 +34,7 @@
  <tr style="height: 56px;">
   <td id="projectlogo"><img src="tsduck-32.png"/></td>
    <td id="projectalign"><span id="projectname">TSDuck</span>
-    <span id="projectnumber">Version 3.0</span>
+    <span id="projectnumber">Version 3.1</span>
     <span id="projectbrief">(TSDuck - The MPEG Transport Stream Toolkit)</span>
    </td>
    <td>        <div id="MSearchBox" class="MSearchBoxInactive">
@@ -93,6 +93,7 @@ $(document).ready(function(){initNavTree('classts_1_1_b_a_t.html','');});
 <div class="header">
   <div class="summary">
 <a href="#pub-methods">Public Member Functions</a> &#124;
+<a href="#pub-static-methods">Static Public Member Functions</a> &#124;
 <a href="#pub-attribs">Public Attributes</a> &#124;
 <a href="classts_1_1_b_a_t-members.html">List of all members</a>  </div>
   <div class="headertitle">
@@ -154,6 +155,12 @@ virtual&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="c
 <tr class="memdesc:a8370f08a385a16905f44426e0dad8c2b inherit pub_methods_classts_1_1_abstract_table"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the table_id.  <a href="classts_1_1_abstract_table.html#a8370f08a385a16905f44426e0dad8c2b">More...</a><br /></td></tr>
 <tr class="separator:a8370f08a385a16905f44426e0dad8c2b inherit pub_methods_classts_1_1_abstract_table"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-static-methods"></a>
+Static Public Member Functions</h2></td></tr>
+<tr class="memitem:a007c97036cb9bf619d4621b2ad3bc1df"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classts_1_1_b_a_t.html#a007c97036cb9bf619d4621b2ad3bc1df">DisplaySection</a> (std::ostream &amp;strm, const <a class="el" href="classts_1_1_section.html">ts::Section</a> &amp;section, int indent)</td></tr>
+<tr class="memdesc:a007c97036cb9bf619d4621b2ad3bc1df"><td class="mdescLeft">&#160;</td><td class="mdescRight">A static method to display a <a class="el" href="classts_1_1_b_a_t.html" title="Representation of a Bouquet Association Table (BAT). ">BAT</a> section.  <a href="#a007c97036cb9bf619d4621b2ad3bc1df">More...</a><br /></td></tr>
+<tr class="separator:a007c97036cb9bf619d4621b2ad3bc1df"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-attribs"></a>
 Public Attributes</h2></td></tr>
 <tr class="memitem:a2fe8759789be71d9a8553d6d1e41fc18"><td class="memItemLeft" align="right" valign="top"><a id="a2fe8759789be71d9a8553d6d1e41fc18"></a>
@@ -193,6 +200,10 @@ Additional Inherited Members</h2></td></tr>
 typedef std::map&lt; <a class="el" href="structts_1_1_transport_stream_id.html">TransportStreamId</a>, <a class="el" href="classts_1_1_descriptor_list.html">DescriptorList</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classts_1_1_abstract_transport_list_table.html#a367db2bce0c949a87c42ccab88c47470">TransportMap</a></td></tr>
 <tr class="memdesc:a367db2bce0c949a87c42ccab88c47470 inherit pub_types_classts_1_1_abstract_transport_list_table"><td class="mdescLeft">&#160;</td><td class="mdescRight">List of <a class="el" href="classts_1_1_descriptor_list.html" title="List of MPEG PSI/SI descriptors. ">DescriptorList</a>'s, indexed by <a class="el" href="structts_1_1_transport_stream_id.html" title="Identification of a transport stream. ">TransportStreamId</a>. <br /></td></tr>
 <tr class="separator:a367db2bce0c949a87c42ccab88c47470 inherit pub_types_classts_1_1_abstract_transport_list_table"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="inherit_header pub_types_classts_1_1_abstract_table"><td colspan="2" onclick="javascript:toggleInherit('pub_types_classts_1_1_abstract_table')"><img src="closed.png" alt="-"/>&#160;Public Types inherited from <a class="el" href="classts_1_1_abstract_table.html">ts::AbstractTable</a></td></tr>
+<tr class="memitem:ac295a4146d5de274dd6bddb7b54cf482 inherit pub_types_classts_1_1_abstract_table"><td class="memItemLeft" align="right" valign="top">typedef void(*&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classts_1_1_abstract_table.html#ac295a4146d5de274dd6bddb7b54cf482">DisplaySectionFunction</a>) (std::ostream &amp;strm, const <a class="el" href="classts_1_1_section.html">ts::Section</a> &amp;section, int indent)</td></tr>
+<tr class="memdesc:ac295a4146d5de274dd6bddb7b54cf482 inherit pub_types_classts_1_1_abstract_table"><td class="mdescLeft">&#160;</td><td class="mdescRight">Profile of a function to display a section.  <a href="classts_1_1_abstract_table.html#ac295a4146d5de274dd6bddb7b54cf482">More...</a><br /></td></tr>
+<tr class="separator:ac295a4146d5de274dd6bddb7b54cf482 inherit pub_types_classts_1_1_abstract_table"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="inherit_header pro_methods_classts_1_1_abstract_transport_list_table"><td colspan="2" onclick="javascript:toggleInherit('pro_methods_classts_1_1_abstract_transport_list_table')"><img src="closed.png" alt="-"/>&#160;Protected Member Functions inherited from <a class="el" href="classts_1_1_abstract_transport_list_table.html">ts::AbstractTransportListTable</a></td></tr>
 <tr class="memitem:a2a6e77cd0fe6785e865adb999a17fea4 inherit pro_methods_classts_1_1_abstract_transport_list_table"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classts_1_1_abstract_transport_list_table.html#a2a6e77cd0fe6785e865adb999a17fea4">AbstractTransportListTable</a> (<a class="el" href="namespacets.html#a3c2cbf0a41a7db2577a737cc9568e3cb">TID</a> tid, uint16_t tid_ext, uint8_t <a class="el" href="classts_1_1_abstract_long_table.html#a60a7651ae92e479f9cf7a06e4cb6aa0e">version</a>, bool <a class="el" href="classts_1_1_abstract_long_table.html#a3fdecd0bf9b625b145140f2f0037dcd0">is_current</a>)</td></tr>
 <tr class="memdesc:a2a6e77cd0fe6785e865adb999a17fea4 inherit pro_methods_classts_1_1_abstract_transport_list_table"><td class="mdescLeft">&#160;</td><td class="mdescRight">Constructor for subclasses.  <a href="classts_1_1_abstract_transport_list_table.html#a2a6e77cd0fe6785e865adb999a17fea4">More...</a><br /></td></tr>
@@ -208,6 +219,10 @@ typedef std::map&lt; <a class="el" href="structts_1_1_transport_stream_id.html">
 <tr class="memitem:a7f0d1263ee174e73addd9e46fdb24f0b inherit pro_methods_classts_1_1_abstract_table"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classts_1_1_abstract_table.html#a7f0d1263ee174e73addd9e46fdb24f0b">AbstractTable</a> (<a class="el" href="namespacets.html#a3c2cbf0a41a7db2577a737cc9568e3cb">TID</a> tid)</td></tr>
 <tr class="memdesc:a7f0d1263ee174e73addd9e46fdb24f0b inherit pro_methods_classts_1_1_abstract_table"><td class="mdescLeft">&#160;</td><td class="mdescRight">Protected constructor for subclasses.  <a href="classts_1_1_abstract_table.html#a7f0d1263ee174e73addd9e46fdb24f0b">More...</a><br /></td></tr>
 <tr class="separator:a7f0d1263ee174e73addd9e46fdb24f0b inherit pro_methods_classts_1_1_abstract_table"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="inherit_header pro_static_methods_classts_1_1_abstract_table"><td colspan="2" onclick="javascript:toggleInherit('pro_static_methods_classts_1_1_abstract_table')"><img src="closed.png" alt="-"/>&#160;Static Protected Member Functions inherited from <a class="el" href="classts_1_1_abstract_table.html">ts::AbstractTable</a></td></tr>
+<tr class="memitem:a0336f7c12983bda29ea8a4735d826ecb inherit pro_static_methods_classts_1_1_abstract_table"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classts_1_1_abstract_table.html#a0336f7c12983bda29ea8a4735d826ecb">displayExtraData</a> (std::ostream &amp;strm, const void *data, size_t size, int indent)</td></tr>
+<tr class="memdesc:a0336f7c12983bda29ea8a4735d826ecb inherit pro_static_methods_classts_1_1_abstract_table"><td class="mdescLeft">&#160;</td><td class="mdescRight">A utility method to dump extraneous bytes after the expected section data.  <a href="classts_1_1_abstract_table.html#a0336f7c12983bda29ea8a4735d826ecb">More...</a><br /></td></tr>
+<tr class="separator:a0336f7c12983bda29ea8a4735d826ecb inherit pro_static_methods_classts_1_1_abstract_table"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="inherit_header pro_attribs_classts_1_1_abstract_transport_list_table"><td colspan="2" onclick="javascript:toggleInherit('pro_attribs_classts_1_1_abstract_transport_list_table')"><img src="closed.png" alt="-"/>&#160;Protected Attributes inherited from <a class="el" href="classts_1_1_abstract_transport_list_table.html">ts::AbstractTransportListTable</a></td></tr>
 <tr class="memitem:a3e491504f87d5b81947cf288109dbf68 inherit pro_attribs_classts_1_1_abstract_transport_list_table"><td class="memItemLeft" align="right" valign="top">uint16_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classts_1_1_abstract_transport_list_table.html#a3e491504f87d5b81947cf288109dbf68">_tid_ext</a></td></tr>
 <tr class="memdesc:a3e491504f87d5b81947cf288109dbf68 inherit pro_attribs_classts_1_1_abstract_transport_list_table"><td class="mdescLeft">&#160;</td><td class="mdescRight">Table id extension.  <a href="classts_1_1_abstract_transport_list_table.html#a3e491504f87d5b81947cf288109dbf68">More...</a><br /></td></tr>
@@ -305,6 +320,59 @@ bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="clas
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramdir">[in]</td><td class="paramname">table</td><td>Binary table to deserialize. </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<h2 class="groupheader">Member Function Documentation</h2>
+<a id="a007c97036cb9bf619d4621b2ad3bc1df"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a007c97036cb9bf619d4621b2ad3bc1df">&#9670;&nbsp;</a></span>DisplaySection()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static void ts::BAT::DisplaySection </td>
+          <td>(</td>
+          <td class="paramtype">std::ostream &amp;&#160;</td>
+          <td class="paramname"><em>strm</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="classts_1_1_section.html">ts::Section</a> &amp;&#160;</td>
+          <td class="paramname"><em>section</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>indent</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>A static method to display a <a class="el" href="classts_1_1_b_a_t.html" title="Representation of a Bouquet Association Table (BAT). ">BAT</a> section. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in,out]</td><td class="paramname">strm</td><td>Output text stream. </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">section</td><td>A safe pointer to the section to display. </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">indent</td><td>Indentation width. </td></tr>
   </table>
   </dd>
 </dl>

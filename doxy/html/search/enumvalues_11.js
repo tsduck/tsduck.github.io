@@ -1,6 +1,6 @@
 var searchData=
 [
-  ['text',['TEXT',['../classts_1_1_tables_logger_options.html#a07260c237a8d34c4249576319e3d188fac1a21b7b24b814f51868fc8ece0f2bd8',1,'ts::TablesLoggerOptions']]],
+  ['text',['TEXT',['../classts_1_1_tables_logger_args.html#a428ea98fd41b3a5c66068a84727f2bc5afdafec0e775adec8d3beb80e31c0c0ea',1,'ts::TablesLoggerArgs']]],
   ['tid_5fbat',['TID_BAT',['../namespacets.html#ae56343654e2b01380409afc12dd2b037a538224f74a11c7311e8f680ddeb51b8b',1,'ts']]],
   ['tid_5fcas_5ffirst',['TID_CAS_FIRST',['../namespacets.html#ae56343654e2b01380409afc12dd2b037ad7334af40fe461845b49c7cefecf72a5',1,'ts']]],
   ['tid_5fcas_5flast',['TID_CAS_LAST',['../namespacets.html#ae56343654e2b01380409afc12dd2b037a3cf423368589ea4bd3385a0b08dce31f',1,'ts']]],

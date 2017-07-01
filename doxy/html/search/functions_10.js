@@ -32,7 +32,7 @@ var searchData=
   ['removesuffix',['RemoveSuffix',['../namespacets.html#ac8e582bc1154c776bf39bbbdb2a82cd3',1,'ts']]],
   ['renamefile',['RenameFile',['../namespacets.html#ae78dad2dfbfc59bacd7d7103b6ae394d',1,'ts']]],
   ['replacepayload',['replacePayload',['../classts_1_1_descriptor.html#a58d3bae4427602c3b3b427a7600a8f56',1,'ts::Descriptor::replacePayload(const void *data, size_t size)'],['../classts_1_1_descriptor.html#a99a81c0c530d0029e1c45d7eeb1fdd57',1,'ts::Descriptor::replacePayload(const ByteBlock &amp;payload)']]],
-  ['report',['report',['../classts_1_1_t_s_analyzer_report.html#a35644c286ef9c97eb539d09aa2c0a8aa',1,'ts::TSAnalyzerReport']]],
+  ['report',['report',['../classts_1_1_d_t_v_properties.html#a29755c3c68a74f3197b1c6efb3800d87',1,'ts::DTVProperties::report()'],['../classts_1_1_t_s_analyzer_report.html#a35644c286ef9c97eb539d09aa2c0a8aa',1,'ts::TSAnalyzerReport::report()']]],
   ['reportbuffer',['ReportBuffer',['../classts_1_1_report_buffer.html#a66da4448de9cff29da086a9f4e348c85',1,'ts::ReportBuffer']]],
   ['reportdemuxerrors',['reportDemuxErrors',['../classts_1_1_p_s_i_logger.html#ab8103b2db18c95e85b53b7e8dddbd0a8',1,'ts::PSILogger::reportDemuxErrors()'],['../classts_1_1_tables_logger.html#a2a2e409a788934b49d814e79c6c7e020',1,'ts::TablesLogger::reportDemuxErrors()']]],
   ['reporterrors',['reportErrors',['../classts_1_1_t_s_analyzer_report.html#aaa7b2d2cbbc0ff6b66c1635a16d70369',1,'ts::TSAnalyzerReport']]],

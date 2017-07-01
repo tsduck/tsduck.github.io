@@ -14,7 +14,7 @@ var searchData=
   ['updatepollfiles',['updatePollFiles',['../classts_1_1_poll_files_listener.html#a335834426d7a5c8f54a92f284208883d',1,'ts::PollFilesListener']]],
   ['uppercasevalue',['UpperCaseValue',['../namespacets.html#a109c37b26251bd268a268d566743076c',1,'ts']]],
   ['useaes128dvs042',['useAES128DVS042',['../classts_1_1_abstract_descrambler.html#ac69dd433a901089bcac9afcda4ee7845',1,'ts::AbstractDescrambler']]],
-  ['usecout',['useCout',['../classts_1_1_tables_logger_options.html#a7c23e542aff756147516a154aa962afa',1,'ts::TablesLoggerOptions']]],
+  ['usecout',['useCout',['../classts_1_1_tables_logger_args.html#a8779eb7d6bb60de382f6cd42adfb42ee',1,'ts::TablesLoggerArgs']]],
   ['usedvbcsa',['useDVBCSA',['../classts_1_1_abstract_descrambler.html#a7062cac11cda36bdd9e9b61547e75931',1,'ts::AbstractDescrambler']]],
   ['usehighband',['useHighBand',['../classts_1_1_l_n_b.html#abd69c59726c72cdc508577f353ccd82b',1,'ts::LNB']]],
   ['usejointtermination',['useJointTermination',['../classts_1_1_t_s_p.html#a248377e16e286a2a8e3d87bddc619760',1,'ts::TSP::useJointTermination(bool on)=0'],['../classts_1_1_t_s_p.html#a37b217190b215c6c946b4a30bc5c6327',1,'ts::TSP::useJointTermination() const =0'],['../classts_1_1tsp_1_1_joint_termination.html#a99f9c721aa965318185fc8703f1fd677',1,'ts::tsp::JointTermination::useJointTermination(bool on)'],['../classts_1_1tsp_1_1_joint_termination.html#aced73a98698953cf5bfe418685af1b2b',1,'ts::tsp::JointTermination::useJointTermination() const']]],

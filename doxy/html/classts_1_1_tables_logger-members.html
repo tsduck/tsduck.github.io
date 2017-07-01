@@ -34,7 +34,7 @@
  <tr style="height: 56px;">
   <td id="projectlogo"><img src="tsduck-32.png"/></td>
    <td id="projectalign"><span id="projectname">TSDuck</span>
-    <span id="projectnumber">Version 3.0</span>
+    <span id="projectnumber">Version 3.1</span>
     <span id="projectbrief">(TSDuck - The MPEG Transport Stream Toolkit)</span>
    </td>
    <td>        <div id="MSearchBox" class="MSearchBoxInactive">
@@ -99,13 +99,16 @@ $(document).ready(function(){initNavTree('classts_1_1_tables_logger.html','');})
 <p>This is the complete list of members for <a class="el" href="classts_1_1_tables_logger.html">ts::TablesLogger</a>, including all inherited members.</p>
 <table class="directory">
   <tr class="even"><td class="entry"><a class="el" href="classts_1_1_tables_logger.html#a9bedc058c9ac057d5fc64226761eafd7">completed</a>() const</td><td class="entry"><a class="el" href="classts_1_1_tables_logger.html">ts::TablesLogger</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
+  <tr><td class="entry"><a class="el" href="classts_1_1_tables_display.html#ad4d09314dbe9e421934cf4e44b78fb84">displaySection</a>(std::ostream &amp;strm, const Section &amp;section, int indent=0, CASFamily cas=CAS_OTHER, bool no_header=false)</td><td class="entry"><a class="el" href="classts_1_1_tables_display.html">ts::TablesDisplay</a></td><td class="entry"><span class="mlabel">private</span></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="classts_1_1_tables_display.html#a44a0bcdb3d11db13f32438ad0735e5ea">displayTable</a>(std::ostream &amp;strm, const BinaryTable &amp;table, int indent=0, CASFamily cas=CAS_OTHER)</td><td class="entry"><a class="el" href="classts_1_1_tables_display.html">ts::TablesDisplay</a></td><td class="entry"><span class="mlabel">private</span></td></tr>
   <tr><td class="entry"><a class="el" href="classts_1_1_tables_logger.html#a73a4dad62a00f6e336139b44f126d7e9">feedPacket</a>(const TSPacket &amp;pkt)</td><td class="entry"><a class="el" href="classts_1_1_tables_logger.html">ts::TablesLogger</a></td><td class="entry"></td></tr>
   <tr class="even"><td class="entry"><a class="el" href="classts_1_1_tables_logger.html#a00a2dd90e8878af0912bd7281b0f4397">hasErrors</a>() const</td><td class="entry"><a class="el" href="classts_1_1_tables_logger.html">ts::TablesLogger</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
   <tr><td class="entry"><a class="el" href="classts_1_1_tables_logger.html#a2a2e409a788934b49d814e79c6c7e020">reportDemuxErrors</a>(std::ostream &amp;strm)</td><td class="entry"><a class="el" href="classts_1_1_tables_logger.html">ts::TablesLogger</a></td><td class="entry"></td></tr>
-  <tr class="even"><td class="entry"><a class="el" href="classts_1_1_tables_logger.html#afa10db30f9a94039e7869f129fa5b442">TablesLogger</a>(TablesLoggerOptions &amp;options)</td><td class="entry"><a class="el" href="classts_1_1_tables_logger.html">ts::TablesLogger</a></td><td class="entry"></td></tr>
-  <tr><td class="entry"><a class="el" href="classts_1_1_section_handler_interface.html#ab39cae3e7c445020ad972521da307e11">~SectionHandlerInterface</a>()</td><td class="entry"><a class="el" href="classts_1_1_section_handler_interface.html">ts::SectionHandlerInterface</a></td><td class="entry"><span class="mlabel">inline</span><span class="mlabel">private</span><span class="mlabel">virtual</span></td></tr>
-  <tr class="even"><td class="entry"><a class="el" href="classts_1_1_table_handler_interface.html#ad7d173cefb702811191149005151c4ab">~TableHandlerInterface</a>()</td><td class="entry"><a class="el" href="classts_1_1_table_handler_interface.html">ts::TableHandlerInterface</a></td><td class="entry"><span class="mlabel">inline</span><span class="mlabel">private</span><span class="mlabel">virtual</span></td></tr>
-  <tr><td class="entry"><a class="el" href="classts_1_1_tables_logger.html#acc5519960a258058701f27e30bc479d3">~TablesLogger</a>()</td><td class="entry"><a class="el" href="classts_1_1_tables_logger.html">ts::TablesLogger</a></td><td class="entry"></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="classts_1_1_tables_display.html#a722f759cde01db27cab8eb1f15b4b393">TablesDisplay</a>(const TablesDisplayArgs &amp;options=TablesDisplayArgs())</td><td class="entry"><a class="el" href="classts_1_1_tables_display.html">ts::TablesDisplay</a></td><td class="entry"><span class="mlabel">explicit</span><span class="mlabel">private</span></td></tr>
+  <tr><td class="entry"><a class="el" href="classts_1_1_tables_logger.html#a2b07fab7472f265e3bf7728acec567ba">TablesLogger</a>(const TablesLoggerArgs &amp;options, ReportInterface &amp;report)</td><td class="entry"><a class="el" href="classts_1_1_tables_logger.html">ts::TablesLogger</a></td><td class="entry"></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="classts_1_1_section_handler_interface.html#ab39cae3e7c445020ad972521da307e11">~SectionHandlerInterface</a>()</td><td class="entry"><a class="el" href="classts_1_1_section_handler_interface.html">ts::SectionHandlerInterface</a></td><td class="entry"><span class="mlabel">inline</span><span class="mlabel">private</span><span class="mlabel">virtual</span></td></tr>
+  <tr><td class="entry"><a class="el" href="classts_1_1_table_handler_interface.html#ad7d173cefb702811191149005151c4ab">~TableHandlerInterface</a>()</td><td class="entry"><a class="el" href="classts_1_1_table_handler_interface.html">ts::TableHandlerInterface</a></td><td class="entry"><span class="mlabel">inline</span><span class="mlabel">private</span><span class="mlabel">virtual</span></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="classts_1_1_tables_logger.html#acc5519960a258058701f27e30bc479d3">~TablesLogger</a>()</td><td class="entry"><a class="el" href="classts_1_1_tables_logger.html">ts::TablesLogger</a></td><td class="entry"></td></tr>
 </table></div><!-- contents -->
 </div><!-- doc-content -->
 <!-- HTML footer for doxygen 1.8.12-->

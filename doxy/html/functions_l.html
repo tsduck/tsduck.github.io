@@ -34,7 +34,7 @@
  <tr style="height: 56px;">
   <td id="projectlogo"><img src="tsduck-32.png"/></td>
    <td id="projectalign"><span id="projectname">TSDuck</span>
-    <span id="projectnumber">Version 3.0</span>
+    <span id="projectnumber">Version 3.1</span>
     <span id="projectbrief">(TSDuck - The MPEG Transport Stream Toolkit)</span>
    </td>
    <td>        <div id="MSearchBox" class="MSearchBoxInactive">
@@ -115,6 +115,9 @@ $(document).ready(function(){initNavTree('functions_l.html','');});
 <li>last_pkt
 : <a class="el" href="classts_1_1_t_s_analyzer_1_1_e_t_i_d_context.html#aec26f455dfbfa8210e2f3b7bd6590ba8">ts::TSAnalyzer::ETIDContext</a>
 </li>
+<li>last_table_id
+: <a class="el" href="classts_1_1_e_i_t.html#aba27f4b27a7a8a8a33c01daed6129809">ts::EIT</a>
+</li>
 <li>last_version
 : <a class="el" href="classts_1_1_t_s_analyzer_1_1_e_t_i_d_context.html#a66aa816c17d3692dc146d0cf7be07f4b">ts::TSAnalyzer::ETIDContext</a>
 </li>
@@ -170,7 +173,7 @@ $(document).ready(function(){initNavTree('functions_l.html','');});
 : <a class="el" href="classts_1_1_t_c_p_server.html#a0f67505dd6d91b1693861a5108d2e066">ts::TCPServer</a>
 </li>
 <li>LNB()
-: <a class="el" href="classts_1_1_l_n_b.html#a1ceebfe11a5c62e9c018f758ced7f047">ts::LNB</a>
+: <a class="el" href="classts_1_1_l_n_b.html#a03ccaec6d7d5c9c0daac57905c12efb6">ts::LNB</a>
 </li>
 <li>lnb
 : <a class="el" href="classts_1_1_tuner_args.html#a3595c919b5d003905d6658f72d1a6788">ts::TunerArgs</a>
@@ -178,7 +181,10 @@ $(document).ready(function(){initNavTree('functions_l.html','');});
 </li>
 <li>load()
 : <a class="el" href="classts_1_1_config_file.html#a310ff9ca4344ea7ab78dc59c3e1bf549">ts::ConfigFile</a>
+, <a class="el" href="classts_1_1_p_s_i_logger_args.html#ab6b919997003ed0c24ca8dd8442075a5">ts::PSILoggerArgs</a>
 , <a class="el" href="classts_1_1_shared_library.html#a173981348985ff75fb1cb032b61ccd13">ts::SharedLibrary</a>
+, <a class="el" href="classts_1_1_tables_display_args.html#a614df32796b894174b3589b4460e2421">ts::TablesDisplayArgs</a>
+, <a class="el" href="classts_1_1_tables_logger_args.html#aa4cfcc36a5c27597d0a90b8a5ebcafbd">ts::TablesLoggerArgs</a>
 , <a class="el" href="classts_1_1_tuner_args.html#ae889d534608a7cd29fcb05e0c6c1020d">ts::TunerArgs</a>
 </li>
 <li>LoadFile()
@@ -196,11 +202,14 @@ $(document).ready(function(){initNavTree('functions_l.html','');});
 <li>locateByPID()
 : <a class="el" href="classts_1_1_audio_language_options.html#afd8469f1ae20eca45ea09e44b8925cf3">ts::AudioLanguageOptions</a>
 </li>
+<li>locateTLV()
+: <a class="el" href="classts_1_1_t_l_v_syntax.html#a9369ac353f3ec2700ccc6fdc99f1b8b6">ts::TLVSyntax</a>
+</li>
 <li>lockErrorCode()
 : <a class="el" href="classts_1_1_resident_buffer.html#ab9294ca094d642c4105045e9a7c94474">ts::ResidentBuffer&lt; T &gt;</a>
 </li>
 <li>log()
-: <a class="el" href="classts_1_1_report_interface.html#a254aa17a6df18b77f395c55d83753449">ts::ReportInterface</a>
+: <a class="el" href="classts_1_1_report_interface.html#a3d7dc9f2bc0881a23b434c48adc7cfaf">ts::ReportInterface</a>
 </li>
 <li>log2_max_frame_num_minus4
 : <a class="el" href="classts_1_1_a_v_c_sequence_parameter_set.html#a26fc175bad6a20be8f5eadfe739cd2f6">ts::AVCSequenceParameterSet</a>
@@ -215,13 +224,13 @@ $(document).ready(function(){initNavTree('functions_l.html','');});
 : <a class="el" href="classts_1_1_a_v_c_sequence_parameter_set.html#a508f6457ad191d59d97b90ea6b45b3a9">ts::AVCSequenceParameterSet</a>
 </li>
 <li>log_size
-: <a class="el" href="classts_1_1_tables_logger_options.html#a6fda2ea8f27769e1a83871db0deff091">ts::TablesLoggerOptions</a>
+: <a class="el" href="classts_1_1_tables_logger_args.html#a1db8e44a0ab31bd0a9db48aabc5b74a1">ts::TablesLoggerArgs</a>
 </li>
 <li>logger
-: <a class="el" href="classts_1_1_tables_logger_options.html#a0f8f1189f61aa331690754a326490394">ts::TablesLoggerOptions</a>
+: <a class="el" href="classts_1_1_tables_logger_args.html#a19f8d3ab52095bd53de1e9c3901f04db">ts::TablesLoggerArgs</a>
 </li>
 <li>LogicalChannelNumberDescriptor()
-: <a class="el" href="classts_1_1_logical_channel_number_descriptor.html#a52647ccf941c2471eb748b38bb8cc8ab">ts::LogicalChannelNumberDescriptor</a>
+: <a class="el" href="classts_1_1_logical_channel_number_descriptor.html#a603538f69cf3f7c70eaede35f84a685f">ts::LogicalChannelNumberDescriptor</a>
 </li>
 <li>low_delay_hrd_flag
 : <a class="el" href="classts_1_1_a_v_c_v_u_i_parameters.html#a1aaafb42f9766c802354f227f82926fa">ts::AVCVUIParameters</a>

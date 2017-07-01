@@ -1,0 +1,36 @@
+var classts_1_1_tables_logger_args =
+[
+    [ "SuperClass", "classts_1_1_tables_logger_args.html#a93011b266eefc4a10816974de132b26f", null ],
+    [ "Mode", "classts_1_1_tables_logger_args.html#a428ea98fd41b3a5c66068a84727f2bc5", [
+      [ "TEXT", "classts_1_1_tables_logger_args.html#a428ea98fd41b3a5c66068a84727f2bc5afdafec0e775adec8d3beb80e31c0c0ea", null ],
+      [ "BINARY", "classts_1_1_tables_logger_args.html#a428ea98fd41b3a5c66068a84727f2bc5abacf8b60eddda75f29747ad79b480b6d", null ],
+      [ "UDP", "classts_1_1_tables_logger_args.html#a428ea98fd41b3a5c66068a84727f2bc5a199695f73778fb3d9fd0c2105912c86b", null ]
+    ] ],
+    [ "TablesLoggerArgs", "classts_1_1_tables_logger_args.html#a785665c1bdd34d7f00381ee0de0cd653", null ],
+    [ "~TablesLoggerArgs", "classts_1_1_tables_logger_args.html#aa08388f5c9e90886ecf2f72a62812263", null ],
+    [ "useCout", "classts_1_1_tables_logger_args.html#a8779eb7d6bb60de382f6cd42adfb42ee", null ],
+    [ "defineOptions", "classts_1_1_tables_logger_args.html#aabf285f5b53558bdd071f6f4ca55b62f", null ],
+    [ "addHelp", "classts_1_1_tables_logger_args.html#a2f0f51142229eb3f7f775d6ff5170e04", null ],
+    [ "load", "classts_1_1_tables_logger_args.html#aa4cfcc36a5c27597d0a90b8a5ebcafbd", null ],
+    [ "mode", "classts_1_1_tables_logger_args.html#a973e48de0ed1bf3ecd9432565275a180", null ],
+    [ "destination", "classts_1_1_tables_logger_args.html#af35fc5b3bdd97f8f4bc6c8a80bc4af2e", null ],
+    [ "multi_files", "classts_1_1_tables_logger_args.html#a9590ffc2966651f7998c424c4192531b", null ],
+    [ "flush", "classts_1_1_tables_logger_args.html#a57c38e0fd77dfd8a553f2ffbeda86dfe", null ],
+    [ "udp_local", "classts_1_1_tables_logger_args.html#aa725502cc3044630dd2aa07f1f32752a", null ],
+    [ "udp_ttl", "classts_1_1_tables_logger_args.html#a6debb368997b59eded3954975af951c6", null ],
+    [ "udp_raw", "classts_1_1_tables_logger_args.html#ac508d78ae208f3a90c62a7050d317e0d", null ],
+    [ "all_sections", "classts_1_1_tables_logger_args.html#af2f86788aa266f46b477d55c050f29c6", null ],
+    [ "max_tables", "classts_1_1_tables_logger_args.html#a27f84ee40036f3acbe7549ebf1ad09f8", null ],
+    [ "time_stamp", "classts_1_1_tables_logger_args.html#a5f4c94dcb276f777505ab5c97c7c8d77", null ],
+    [ "packet_index", "classts_1_1_tables_logger_args.html#a0c308067d8836156a4236f80d02333d0", null ],
+    [ "diversified", "classts_1_1_tables_logger_args.html#a285e112f3e42b8806f1965028cb431db", null ],
+    [ "logger", "classts_1_1_tables_logger_args.html#a19f8d3ab52095bd53de1e9c3901f04db", null ],
+    [ "log_size", "classts_1_1_tables_logger_args.html#a1db8e44a0ab31bd0a9db48aabc5b74a1", null ],
+    [ "negate_tid", "classts_1_1_tables_logger_args.html#a508f82dd465a15a62ffd953ee38d0952", null ],
+    [ "negate_tidext", "classts_1_1_tables_logger_args.html#a6a5c3786f0674e1504686eb47110cb2f", null ],
+    [ "pid", "classts_1_1_tables_logger_args.html#af9a6a54b1de10f4156e03f7f926fd834", null ],
+    [ "add_pmt_pids", "classts_1_1_tables_logger_args.html#ad78e2573cad859c494d88269199611f3", null ],
+    [ "tid", "classts_1_1_tables_logger_args.html#a596d6d9141f3e64ab8b361321a0658a9", null ],
+    [ "tidext", "classts_1_1_tables_logger_args.html#a8cc15246e0c112fae32ef8ae4da7eda5", null ],
+    [ "DEFAULT_LOG_SIZE", "classts_1_1_tables_logger_args.html#a88e31dbc7771d4e96ed0f25cc00595ca", null ]
+];

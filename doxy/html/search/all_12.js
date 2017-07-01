@@ -2,8 +2,8 @@ var searchData=
 [
   ['randomgenerator',['RandomGenerator',['../classts_1_1_random_generator.html',1,'ts']]],
   ['rating',['rating',['../structts_1_1_parental_rating_descriptor_1_1_entry.html#a38bb3f523aa3afc1cecd67609035bab8',1,'ts::ParentalRatingDescriptor::Entry']]],
-  ['raw_5fdump',['raw_dump',['../classts_1_1_tables_logger_options.html#aaa022057b1aa105570f589245f5df5e6',1,'ts::TablesLoggerOptions']]],
-  ['raw_5fflags',['raw_flags',['../classts_1_1_tables_logger_options.html#a0f455224e1d82af54b8e30797274a783',1,'ts::TablesLoggerOptions']]],
+  ['raw_5fdump',['raw_dump',['../classts_1_1_tables_display_args.html#a334eeb031f2fbb911c5cf170cec750dd',1,'ts::TablesDisplayArgs']]],
+  ['raw_5fflags',['raw_flags',['../classts_1_1_tables_display_args.html#a7354de52ce6319861d870dc86a9cd7d3',1,'ts::TablesDisplayArgs']]],
   ['rbsp_5ftrailing_5fbits_5fcount',['rbsp_trailing_bits_count',['../classts_1_1_a_v_c_sequence_parameter_set.html#a9d1a0e4ff7d1775886010b2e94d5b5dc',1,'ts::AVCSequenceParameterSet']]],
   ['rbsp_5ftrailing_5fbits_5fvalid',['rbsp_trailing_bits_valid',['../classts_1_1_a_v_c_sequence_parameter_set.html#abefaee20c318be64446e5599fe9f0f69',1,'ts::AVCSequenceParameterSet']]],
   ['rbsptrailingbits',['rbspTrailingBits',['../classts_1_1_a_v_c_parser.html#ac19db9e001cf696cfd44f1a9435434e2',1,'ts::AVCParser']]],
@@ -15,6 +15,7 @@ var searchData=
   ['readerstatevector',['ReaderStateVector',['../namespacets_1_1pcsc.html#a22192552d76342573638b5faa47a53de',1,'ts::pcsc']]],
   ['ready',['ready',['../classts_1_1_random_generator.html#a99784c0122030f9c3a7efd0c49e2ce2a',1,'ts::RandomGenerator::ready()'],['../classts_1_1_system_random_generator.html#ad12d19204d359fbefbe4baa9e662253a',1,'ts::SystemRandomGenerator::ready()']]],
   ['receive',['receive',['../classts_1_1_dektec_input_plugin.html#a0b554ee3f42455392781f6ec2558ee46',1,'ts::DektecInputPlugin::receive()'],['../classts_1_1_input_plugin.html#ab22293e49a5aedf27cf05d2093e4cbf7',1,'ts::InputPlugin::receive()'],['../classts_1_1_t_c_p_connection.html#a825b8ad7c4404790e229532bb8dff9ef',1,'ts::TCPConnection::receive(void *buffer, size_t max_size, size_t &amp;ret_size, const AbortInterface *abort=0, ReportInterface &amp;report=(*ts::CerrReport::Instance()))'],['../classts_1_1_t_c_p_connection.html#a0b0f164646d4f5bcdd3b22babd300552',1,'ts::TCPConnection::receive(void *buffer, size_t size, const AbortInterface *abort=0, ReportInterface &amp;report=(*ts::CerrReport::Instance()))'],['../classts_1_1_telnet_connection.html#a11bbd4bfd789e87b5c08caf3b9ce24ee',1,'ts::TelnetConnection::receive()'],['../classts_1_1tlv_1_1_connection.html#aaf5caa0a050e3246100e02b9973e469f',1,'ts::tlv::Connection::receive()'],['../classts_1_1_tuner.html#a5b06159b2fd41ec07cd74725e2566f78',1,'ts::Tuner::receive()'],['../classts_1_1_u_d_p_socket.html#a2957534de3179a2de54f187395b3fd23',1,'ts::UDPSocket::receive()']]],
+  ['receive_5ftimeout',['receive_timeout',['../classts_1_1_tuner_args.html#a2c414e166858ab5789a6d6bd5f1906ce',1,'ts::TunerArgs']]],
   ['receivetimeout',['receiveTimeout',['../classts_1_1_tuner.html#a527700ece555e368968a7a63ed69ddab',1,'ts::Tuner']]],
   ['recomputecrc',['recomputeCRC',['../classts_1_1_section.html#a48df03e049b92a4b0d52ddfb781d9247',1,'ts::Section']]],
   ['recomputestatistics',['recomputeStatistics',['../classts_1_1_t_s_analyzer.html#a092bd20d7f91e30db3257023d62e9099',1,'ts::TSAnalyzer']]],
@@ -46,7 +47,7 @@ var searchData=
   ['repetition',['repetition',['../structts_1_1_file_name_rate.html#a25d71c1dc22d62e4562a851c9b054dc6',1,'ts::FileNameRate']]],
   ['repetition_5fts',['repetition_ts',['../classts_1_1_t_s_analyzer_1_1_e_t_i_d_context.html#ae47d4d3c68412d329e382aea27522240',1,'ts::TSAnalyzer::ETIDContext']]],
   ['replacepayload',['replacePayload',['../classts_1_1_descriptor.html#a58d3bae4427602c3b3b427a7600a8f56',1,'ts::Descriptor::replacePayload(const void *data, size_t size)'],['../classts_1_1_descriptor.html#a99a81c0c530d0029e1c45d7eeb1fdd57',1,'ts::Descriptor::replacePayload(const ByteBlock &amp;payload)']]],
-  ['report',['report',['../classts_1_1_t_s_analyzer_report.html#a35644c286ef9c97eb539d09aa2c0a8aa',1,'ts::TSAnalyzerReport']]],
+  ['report',['report',['../classts_1_1_d_t_v_properties.html#a29755c3c68a74f3197b1c6efb3800d87',1,'ts::DTVProperties::report()'],['../classts_1_1_t_s_analyzer_report.html#a35644c286ef9c97eb539d09aa2c0a8aa',1,'ts::TSAnalyzerReport::report()']]],
   ['reportbuffer',['ReportBuffer',['../classts_1_1_report_buffer.html',1,'ts::ReportBuffer&lt; MUTEX &gt;'],['../classts_1_1_report_buffer.html#a66da4448de9cff29da086a9f4e348c85',1,'ts::ReportBuffer::ReportBuffer()']]],
   ['reportdemuxerrors',['reportDemuxErrors',['../classts_1_1_p_s_i_logger.html#ab8103b2db18c95e85b53b7e8dddbd0a8',1,'ts::PSILogger::reportDemuxErrors()'],['../classts_1_1_tables_logger.html#a2a2e409a788934b49d814e79c6c7e020',1,'ts::TablesLogger::reportDemuxErrors()']]],
   ['reporterrors',['reportErrors',['../classts_1_1_t_s_analyzer_report.html#aaa7b2d2cbbc0ff6b66c1635a16d70369',1,'ts::TSAnalyzerReport']]],
@@ -104,6 +105,6 @@ var searchData=
   ['rs_5fsize',['RS_SIZE',['../namespacets.html#abf0f257912dcfc16c5df6ca735ac95a4',1,'ts']]],
   ['run',['run',['../classutest_1_1_cpp_unit_main.html#a29baed16762fb6d1ea888b149a974b97',1,'utest::CppUnitMain']]],
   ['running',['RUNNING',['../classts_1_1_service.html#a6714af4f0f1fb06c562f1aa786ae6fd2a390baead0944a4dee9715101b4abdb7c',1,'ts::Service']]],
-  ['running_5fstatus',['running_status',['../classts_1_1_s_d_t_1_1_service.html#af71c0010502829f1003357b686158284',1,'ts::SDT::Service']]],
+  ['running_5fstatus',['running_status',['../classts_1_1_e_i_t_1_1_event.html#a4abcb31d29b85901a5574117f85c060f',1,'ts::EIT::Event::running_status()'],['../classts_1_1_s_d_t_1_1_service.html#af71c0010502829f1003357b686158284',1,'ts::SDT::Service::running_status()']]],
   ['runningstatus',['RunningStatus',['../namespacets_1_1names.html#abb1cfe80807bf798cadb459efff62517',1,'ts::names']]]
 ];

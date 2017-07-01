@@ -7,6 +7,7 @@ var searchData=
   ['last_5fpcr',['last_pcr',['../classts_1_1_t_s_analyzer_1_1_p_i_d_context.html#a5d792113ee968150aca241d473aaa4ab',1,'ts::TSAnalyzer::PIDContext']]],
   ['last_5fpcr_5fpkt',['last_pcr_pkt',['../classts_1_1_t_s_analyzer_1_1_p_i_d_context.html#aa86174b7432c75ecbba29251ac703a6c',1,'ts::TSAnalyzer::PIDContext']]],
   ['last_5fpkt',['last_pkt',['../classts_1_1_t_s_analyzer_1_1_e_t_i_d_context.html#aec26f455dfbfa8210e2f3b7bd6590ba8',1,'ts::TSAnalyzer::ETIDContext']]],
+  ['last_5ftable_5fid',['last_table_id',['../classts_1_1_e_i_t.html#aba27f4b27a7a8a8a33c01daed6129809',1,'ts::EIT']]],
   ['last_5fversion',['last_version',['../classts_1_1_t_s_analyzer_1_1_e_t_i_d_context.html#a66aa816c17d3692dc146d0cf7be07f4b',1,'ts::TSAnalyzer::ETIDContext']]],
   ['lcn',['lcn',['../structts_1_1_h_d_simulcast_logical_channel_descriptor_1_1_entry.html#a51a9540872256afcaa734fb59714e44e',1,'ts::HDSimulcastLogicalChannelDescriptor::Entry::lcn()'],['../structts_1_1_logical_channel_number_descriptor_1_1_entry.html#a35135293bda84cbca433e2540571b1c5',1,'ts::LogicalChannelNumberDescriptor::Entry::lcn()']]],
   ['lead_5fcw',['lead_CW',['../classts_1_1ecmgscs_1_1_channel_status.html#ade2b47a30869399fefd4c9776b493f9e',1,'ts::ecmgscs::ChannelStatus']]],
@@ -21,8 +22,8 @@ var searchData=
   ['log2_5fmax_5fmv_5flength_5fhorizontal',['log2_max_mv_length_horizontal',['../classts_1_1_a_v_c_v_u_i_parameters.html#aa277079d127110baf43bcf647c599f74',1,'ts::AVCVUIParameters']]],
   ['log2_5fmax_5fmv_5flength_5fvertical',['log2_max_mv_length_vertical',['../classts_1_1_a_v_c_v_u_i_parameters.html#af3626d24fb3f4b1cda765c8d2c342862',1,'ts::AVCVUIParameters']]],
   ['log2_5fmax_5fpic_5forder_5fcnt_5flsb_5fminus4',['log2_max_pic_order_cnt_lsb_minus4',['../classts_1_1_a_v_c_sequence_parameter_set.html#a508f6457ad191d59d97b90ea6b45b3a9',1,'ts::AVCSequenceParameterSet']]],
-  ['log_5fsize',['log_size',['../classts_1_1_tables_logger_options.html#a6fda2ea8f27769e1a83871db0deff091',1,'ts::TablesLoggerOptions']]],
-  ['logger',['logger',['../classts_1_1_tables_logger_options.html#a0f8f1189f61aa331690754a326490394',1,'ts::TablesLoggerOptions']]],
+  ['log_5fsize',['log_size',['../classts_1_1_tables_logger_args.html#a1db8e44a0ab31bd0a9db48aabc5b74a1',1,'ts::TablesLoggerArgs']]],
+  ['logger',['logger',['../classts_1_1_tables_logger_args.html#a19f8d3ab52095bd53de1e9c3901f04db',1,'ts::TablesLoggerArgs']]],
   ['long_5fsection_5fheader_5fsize',['LONG_SECTION_HEADER_SIZE',['../namespacets.html#a3ca1a0c82a63583f56aab8f16f80278e',1,'ts']]],
   ['low_5fdelay_5fhrd_5fflag',['low_delay_hrd_flag',['../classts_1_1_a_v_c_v_u_i_parameters.html#a1aaafb42f9766c802354f227f82926fa',1,'ts::AVCVUIParameters']]]
 ];

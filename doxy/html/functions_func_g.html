@@ -34,7 +34,7 @@
  <tr style="height: 56px;">
   <td id="projectlogo"><img src="tsduck-32.png"/></td>
    <td id="projectalign"><span id="projectname">TSDuck</span>
-    <span id="projectnumber">Version 3.0</span>
+    <span id="projectnumber">Version 3.1</span>
     <span id="projectbrief">(TSDuck - The MPEG Transport Stream Toolkit)</span>
    </td>
    <td>        <div id="MSearchBox" class="MSearchBoxInactive">
@@ -158,6 +158,12 @@ $(document).ready(function(){initNavTree('functions_func_g.html','');});
 <li>getBufferSize()
 : <a class="el" href="classts_1_1_t_s_file_input_buffered.html#ad822c0cfa080b21be2c42d4fb1398557">ts::TSFileInputBuffered</a>
 </li>
+<li>getByCommand()
+: <a class="el" href="classts_1_1_d_t_v_properties.html#a5bf801b353041fd757edcced7546c501">ts::DTVProperties</a>
+</li>
+<li>getByIndex()
+: <a class="el" href="classts_1_1_d_t_v_properties.html#ae14183c8ad4bfbd0b6a9dd24411a64fd">ts::DTVProperties</a>
+</li>
 <li>getCAControlled()
 : <a class="el" href="classts_1_1_service.html#aff1f5c6f1d65932633f2a2f45f8c9072">ts::Service</a>
 </li>
@@ -220,9 +226,6 @@ $(document).ready(function(){initNavTree('functions_func_g.html','');});
 <li>getFlags()
 : <a class="el" href="classts_1_1_args.html#a60fd9ab72d5b612ce4f2cc2cf1f8cc1d">ts::Args</a>
 </li>
-<li>getForceS2API()
-: <a class="el" href="classts_1_1_tuner.html#a3629923d37c2840b6f5cec6880f6247a">ts::Tuner</a>
-</li>
 <li>getForwardSeekableCount()
 : <a class="el" href="classts_1_1_t_s_file_input_buffered.html#a100ff828909fc4ea0098ad0a8d6ad728">ts::TSFileInputBuffered</a>
 </li>
@@ -264,6 +267,9 @@ $(document).ready(function(){initNavTree('functions_func_g.html','');});
 <li>getIntValues()
 : <a class="el" href="classts_1_1_args.html#ae327851cc4a8f9acf1151a7d3ab00f0a">ts::Args</a>
 </li>
+<li>getIoctlParam()
+: <a class="el" href="classts_1_1_d_t_v_properties.html#a4b28221e16fac91f8d66297bca746b2a">ts::DTVProperties</a>
+</li>
 <li>getLanguageCode()
 : <a class="el" href="classts_1_1_audio_language_options.html#a38b4122335577a6ed8c675ed0a108439">ts::AudioLanguageOptions</a>
 </li>
@@ -274,6 +280,9 @@ $(document).ready(function(){initNavTree('functions_func_g.html','');});
 </li>
 <li>getLCN()
 : <a class="el" href="classts_1_1_service.html#a83d714e490829d34293a2be21e829e58">ts::Service</a>
+</li>
+<li>getLengthSize()
+: <a class="el" href="classts_1_1_t_l_v_syntax.html#a1c03d03a74cafc2dcaafae35770fbb25">ts::TLVSyntax</a>
 </li>
 <li>getLocalAddress()
 : <a class="el" href="classts_1_1_t_c_p_socket.html#a3020dbb2906e67e0d90ed2c0abb68f86">ts::TCPSocket</a>
@@ -303,6 +312,9 @@ $(document).ready(function(){initNavTree('functions_func_g.html','');});
 <li>getNextPacket()
 : <a class="el" href="classts_1_1_packetizer.html#a890351f4821fb5727414e900699060f4">ts::Packetizer</a>
 </li>
+<li>getNIT()
+: <a class="el" href="classts_1_1_t_s_scanner.html#a3ce34d832c3cc2c119a70aa35ffae130">ts::TSScanner</a>
+</li>
 <li>GetNormalPriority()
 : <a class="el" href="classts_1_1_thread_attributes.html#a8bf34851813abd890f3bf080c339d9bd">ts::ThreadAttributes</a>
 </li>
@@ -313,9 +325,7 @@ $(document).ready(function(){initNavTree('functions_func_g.html','');});
 : <a class="el" href="structts_1_1_t_s_packet.html#afdd9f3e87083997bf1020a757c348a1d">ts::TSPacket</a>
 </li>
 <li>getOptions()
-: <a class="el" href="classts_1_1_p_s_i_logger_options.html#a4999403b2800dbe2b2f50a5283c84a8d">ts::PSILoggerOptions</a>
-, <a class="el" href="classts_1_1_tables_logger_options.html#af232470d6c65162b5ab6fc89fc7b60e3">ts::TablesLoggerOptions</a>
-, <a class="el" href="classts_1_1_t_s_analyzer_options.html#a44eb2c995e296d4a3d7dffbaf10d1717">ts::TSAnalyzerOptions</a>
+: <a class="el" href="classts_1_1_t_s_analyzer_options.html#a44eb2c995e296d4a3d7dffbaf10d1717">ts::TSAnalyzerOptions</a>
 </li>
 <li>getPacketCount()
 : <a class="el" href="classts_1_1_t_s_file_input.html#a3a4912c92b64440b465811f86297d629">ts::TSFileInput</a>
@@ -324,6 +334,9 @@ $(document).ready(function(){initNavTree('functions_func_g.html','');});
 </li>
 <li>getPackets()
 : <a class="el" href="classts_1_1_one_shot_packetizer.html#a936ec7a119ef139dde0821aed788b132">ts::OneShotPacketizer</a>
+</li>
+<li>getPAT()
+: <a class="el" href="classts_1_1_t_s_scanner.html#a8fb446a6bc52e9eb6a8a94ca1b8fd928">ts::TSScanner</a>
 </li>
 <li>getPayload()
 : <a class="el" href="structts_1_1_t_s_packet.html#aedce751417a47da0e6182a37dbdb22e6">ts::TSPacket</a>
@@ -383,11 +396,17 @@ $(document).ready(function(){initNavTree('functions_func_g.html','');});
 <li>getScrambling()
 : <a class="el" href="structts_1_1_t_s_packet.html#a66ed396628d32f1f5c8f2d6bf3f23de6">ts::TSPacket</a>
 </li>
+<li>getSDT()
+: <a class="el" href="classts_1_1_t_s_scanner.html#a26174a8637d7a81596591326c0a4fabb">ts::TSScanner</a>
+</li>
 <li>getSectionNames()
 : <a class="el" href="classts_1_1_config_file.html#a3c3e3965040c1d95b0e79dc18023c932">ts::ConfigFile</a>
 </li>
 <li>getServiceIds()
 : <a class="el" href="classts_1_1_t_s_analyzer.html#a8750c947e22d210616e055cde3fdcb54">ts::TSAnalyzer</a>
+</li>
+<li>getServices()
+: <a class="el" href="classts_1_1_t_s_scanner.html#a145434985de60e80f0fd2557bad2509a">ts::TSScanner</a>
 </li>
 <li>getShell()
 : <a class="el" href="classts_1_1_args.html#af16f7877bf5e74f78cbb86a6773aee42">ts::Args</a>
@@ -422,6 +441,12 @@ $(document).ready(function(){initNavTree('functions_func_g.html','');});
 <li>getSystemTime()
 : <a class="el" href="classts_1_1_monotonic.html#a4a0260ac0e0f1d2efa9c88966ca22019">ts::Monotonic</a>
 </li>
+<li>getTagAndLength()
+: <a class="el" href="classts_1_1_t_l_v_syntax.html#a02594154433d7d4582b9d5b6d82ae07b">ts::TLVSyntax</a>
+</li>
+<li>getTagSize()
+: <a class="el" href="classts_1_1_t_l_v_syntax.html#a9b83746f80e2e95e73be69583344e475">ts::TLVSyntax</a>
+</li>
 <li>getTEI()
 : <a class="el" href="structts_1_1_t_s_packet.html#a29db32831b40bbd6e7d84089392a0605">ts::TSPacket</a>
 </li>
@@ -430,6 +455,9 @@ $(document).ready(function(){initNavTree('functions_func_g.html','');});
 </li>
 <li>getTSId()
 : <a class="el" href="classts_1_1_service.html#a6db11c6bc60f3baf7f82a54af71e2bde">ts::Service</a>
+</li>
+<li>getTunerParameters()
+: <a class="el" href="classts_1_1_t_s_scanner.html#a9d720728e6891a560b559629300edda8">ts::TSScanner</a>
 </li>
 <li>getType()
 : <a class="el" href="classts_1_1_service.html#a6c1bbfddd0b377951e1181ddea997ca8">ts::Service</a>
@@ -453,10 +481,10 @@ $(document).ready(function(){initNavTree('functions_func_g.html','');});
 : <a class="el" href="classts_1_1_guard_condition.html#afc9a11e9c15cc4be00e2228d86ea0ad2">ts::GuardCondition</a>
 </li>
 <li>GuardConditionError()
-: <a class="el" href="classts_1_1_guard_condition_1_1_guard_condition_error.html#ae3fd1b34f30f6b543dc36fde63098960">ts::GuardCondition::GuardConditionError</a>
+: <a class="el" href="classts_1_1_guard_condition_1_1_guard_condition_error.html#a2325e5be437ae233895534e6762bdd19">ts::GuardCondition::GuardConditionError</a>
 </li>
 <li>GuardError()
-: <a class="el" href="classts_1_1_guard_1_1_guard_error.html#a4d7b2d0b92bafa375654d76860a51bb2">ts::Guard::GuardError</a>
+: <a class="el" href="classts_1_1_guard_1_1_guard_error.html#a777ba72f63a07bfb590f171c67fd34e6">ts::Guard::GuardError</a>
 </li>
 </ul>
 </div><!-- contents -->

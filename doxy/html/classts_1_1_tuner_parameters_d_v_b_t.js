@@ -2,8 +2,10 @@ var classts_1_1_tuner_parameters_d_v_b_t =
 [
     [ "TunerParametersDVBT", "classts_1_1_tuner_parameters_d_v_b_t.html#a2556f70acce1fa2baec3b12750fa5055", null ],
     [ "theoreticalBitrate", "classts_1_1_tuner_parameters_d_v_b_t.html#abb517245eb3a7ba7f3e9d4f434df9167", null ],
+    [ "shortDescription", "classts_1_1_tuner_parameters_d_v_b_t.html#ad0d0071755f948dc6bec18ffdb3c03b6", null ],
     [ "toZapFormat", "classts_1_1_tuner_parameters_d_v_b_t.html#aa9ad5798022395dc414305d4cce040ea", null ],
     [ "toPluginOptions", "classts_1_1_tuner_parameters_d_v_b_t.html#a7ea6cb23581df44f8dd3d475423f30d7", null ],
+    [ "displayParameters", "classts_1_1_tuner_parameters_d_v_b_t.html#a84ea3dadde673589278779b47630530c", null ],
     [ "fromZapFormat", "classts_1_1_tuner_parameters_d_v_b_t.html#aa7452361b8419f3eb21cf79df94c5c89", null ],
     [ "zapFieldCount", "classts_1_1_tuner_parameters_d_v_b_t.html#a78b476e79b742a4e27ec8b2f2793fcec", null ],
     [ "copy", "classts_1_1_tuner_parameters_d_v_b_t.html#a24c5fe85fac6bf55105d7e0d2ca4037b", null ],

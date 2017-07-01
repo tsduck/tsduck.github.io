@@ -122,6 +122,7 @@ var ts_modulation_8h =
     [ "Channel", "ts_modulation_8h.html#a59845761f6311695e77a339d57575053", null ],
     [ "OffsetCount", "ts_modulation_8h.html#af7fe3e31b06d147f1f8bb049c99c4adb", null ],
     [ "InBand", "ts_modulation_8h.html#a3b8db4cf78858fef2adbd14638d378b6", null ],
+    [ "Description", "ts_modulation_8h.html#af335edf9c6bbcc9a853a3cf0bcdf7d1c", null ],
     [ "Frequency", "ts_modulation_8h.html#a35eed0d43ad803c6ea5f0b8435899ebc", null ],
     [ "Channel", "ts_modulation_8h.html#a28d6d72abb9873e20d359f0cda824bfd", null ],
     [ "OffsetCount", "ts_modulation_8h.html#a2003be9d6a444d4afc6eba813ec9e3cf", null ],

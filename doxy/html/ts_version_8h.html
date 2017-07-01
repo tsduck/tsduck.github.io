@@ -34,7 +34,7 @@
  <tr style="height: 56px;">
   <td id="projectlogo"><img src="tsduck-32.png"/></td>
    <td id="projectalign"><span id="projectname">TSDuck</span>
-    <span id="projectnumber">Version 3.0</span>
+    <span id="projectnumber">Version 3.1</span>
     <span id="projectbrief">(TSDuck - The MPEG Transport Stream Toolkit)</span>
    </td>
    <td>        <div id="MSearchBox" class="MSearchBoxInactive">
@@ -95,7 +95,8 @@ $(document).ready(function(){initNavTree('ts_version_8h.html','');});
 <a href="#namespaces">Namespaces</a> &#124;
 <a href="#define-members">Macros</a> &#124;
 <a href="#enum-members">Enumerations</a> &#124;
-<a href="#func-members">Functions</a>  </div>
+<a href="#func-members">Functions</a> &#124;
+<a href="#var-members">Variables</a>  </div>
   <div class="headertitle">
 <div class="title">tsVersion.h File Reference</div>  </div>
 </div><!--header-->
@@ -117,7 +118,7 @@ Macros</h2></td></tr>
 <tr class="memdesc:aa811b69ed27cccdeeabe80e50ebebcf8"><td class="mdescLeft">&#160;</td><td class="mdescRight">TSDuck major version. <br /></td></tr>
 <tr class="separator:aa811b69ed27cccdeeabe80e50ebebcf8"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:adecb62ccbf8f0ec472263a3c7979c090"><td class="memItemLeft" align="right" valign="top"><a id="adecb62ccbf8f0ec472263a3c7979c090"></a>
-#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="ts_version_8h.html#adecb62ccbf8f0ec472263a3c7979c090">TS_VERSION_MINOR</a>&#160;&#160;&#160;0</td></tr>
+#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="ts_version_8h.html#adecb62ccbf8f0ec472263a3c7979c090">TS_VERSION_MINOR</a>&#160;&#160;&#160;1</td></tr>
 <tr class="memdesc:adecb62ccbf8f0ec472263a3c7979c090"><td class="mdescLeft">&#160;</td><td class="mdescRight">TSDuck minor version. <br /></td></tr>
 <tr class="separator:adecb62ccbf8f0ec472263a3c7979c090"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
@@ -126,13 +127,17 @@ Enumerations</h2></td></tr>
 <tr class="memitem:a3b76963ba3c3e6d12b29fc10bd4642fa"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacets.html#a3b76963ba3c3e6d12b29fc10bd4642fa">ts::VersionFormat</a> { <br />
 &#160;&#160;<a class="el" href="namespacets.html#a3b76963ba3c3e6d12b29fc10bd4642faaba95baa6c3dc575f82d5ced4879619d7">ts::VERSION_SHORT</a>, 
 <br />
+&#160;&#160;<a class="el" href="namespacets.html#a3b76963ba3c3e6d12b29fc10bd4642faacc4a4738370590fc3b4b29e660bdb518">ts::VERSION_GLOBAL</a>, 
+<br />
 &#160;&#160;<a class="el" href="namespacets.html#a3b76963ba3c3e6d12b29fc10bd4642faa9ca9a7309972b9095446810f08664ccc">ts::VERSION_LONG</a>, 
 <br />
 &#160;&#160;<a class="el" href="namespacets.html#a3b76963ba3c3e6d12b29fc10bd4642faa7c8baaececaedc8e028bea2f04926e68">ts::VERSION_DATE</a>, 
 <br />
 &#160;&#160;<a class="el" href="namespacets.html#a3b76963ba3c3e6d12b29fc10bd4642faae14179522627d36a7ace0c4cb4be8c8d">ts::VERSION_NSIS</a>, 
 <br />
-&#160;&#160;<a class="el" href="namespacets.html#a3b76963ba3c3e6d12b29fc10bd4642faaf20bd58a733e0b559edac6ea4fe88b2a">ts::VERSION_DEKTEC</a>
+&#160;&#160;<a class="el" href="namespacets.html#a3b76963ba3c3e6d12b29fc10bd4642faaf20bd58a733e0b559edac6ea4fe88b2a">ts::VERSION_DEKTEC</a>, 
+<br />
+&#160;&#160;<a class="el" href="namespacets.html#a3b76963ba3c3e6d12b29fc10bd4642faa1beccd6420073a2a8eae48f62ce86341">ts::VERSION_FILES</a>
 <br />
  }<tr class="memdesc:a3b76963ba3c3e6d12b29fc10bd4642fa"><td class="mdescLeft">&#160;</td><td class="mdescRight">Types of version formatting, for predefined option &ndash;version.  <a href="namespacets.html#a3b76963ba3c3e6d12b29fc10bd4642fa">More...</a><br /></td></tr>
 </td></tr>
@@ -140,9 +145,18 @@ Enumerations</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
 Functions</h2></td></tr>
-<tr class="memitem:a3929fee7098814eabc9d8b829aff812c"><td class="memItemLeft" align="right" valign="top">std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacets.html#a3929fee7098814eabc9d8b829aff812c">ts::GetVersion</a> (VersionFormat format=VERSION_SHORT, const std::string &amp;applicationName=std::string())</td></tr>
-<tr class="memdesc:a3929fee7098814eabc9d8b829aff812c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the TSDuck formatted version number.  <a href="namespacets.html#a3929fee7098814eabc9d8b829aff812c">More...</a><br /></td></tr>
-<tr class="separator:a3929fee7098814eabc9d8b829aff812c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa8bd9929f8fc64be7b9501f3f2a8d49d"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacets.html#aa8bd9929f8fc64be7b9501f3f2a8d49d">ts::GetRevision</a> (const std::string &amp;fileName=std::string(), bool includeLibrary=true)</td></tr>
+<tr class="memdesc:aa8bd9929f8fc64be7b9501f3f2a8d49d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the TSDuck revision number as integer from a binary file.  <a href="namespacets.html#aa8bd9929f8fc64be7b9501f3f2a8d49d">More...</a><br /></td></tr>
+<tr class="separator:aa8bd9929f8fc64be7b9501f3f2a8d49d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a24c8d044d7cd371d0da9fc1043420325"><td class="memItemLeft" align="right" valign="top">std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacets.html#a24c8d044d7cd371d0da9fc1043420325">ts::GetVersion</a> (VersionFormat format=VERSION_SHORT, const std::string &amp;applicationName=std::string(), const std::string &amp;revisionFile=std::string())</td></tr>
+<tr class="memdesc:a24c8d044d7cd371d0da9fc1043420325"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the TSDuck formatted version number.  <a href="namespacets.html#a24c8d044d7cd371d0da9fc1043420325">More...</a><br /></td></tr>
+<tr class="separator:a24c8d044d7cd371d0da9fc1043420325"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="var-members"></a>
+Variables</h2></td></tr>
+<tr class="memitem:a4afcbbc5e6e8a897709aa196e0b87559"><td class="memItemLeft" align="right" valign="top">const Enumeration&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacets.html#a4afcbbc5e6e8a897709aa196e0b87559">ts::VersionFormatEnum</a></td></tr>
+<tr class="memdesc:a4afcbbc5e6e8a897709aa196e0b87559"><td class="mdescLeft">&#160;</td><td class="mdescRight"><a class="el" href="classts_1_1_enumeration.html" title="Enumeration of int/string pairs. ">Enumeration</a> description of <a class="el" href="namespacets.html#a3b76963ba3c3e6d12b29fc10bd4642fa" title="Types of version formatting, for predefined option –version. ">ts::VersionFormat</a>.  <a href="namespacets.html#a4afcbbc5e6e8a897709aa196e0b87559">More...</a><br /></td></tr>
+<tr class="separator:a4afcbbc5e6e8a897709aa196e0b87559"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>Version identification of TSDuck. </p>

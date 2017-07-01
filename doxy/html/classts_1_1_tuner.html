@@ -34,7 +34,7 @@
  <tr style="height: 56px;">
   <td id="projectlogo"><img src="tsduck-32.png"/></td>
    <td id="projectalign"><span id="projectname">TSDuck</span>
-    <span id="projectnumber">Version 3.0</span>
+    <span id="projectnumber">Version 3.1</span>
     <span id="projectbrief">(TSDuck - The MPEG Transport Stream Toolkit)</span>
    </td>
    <td>        <div id="MSearchBox" class="MSearchBoxInactive">
@@ -135,9 +135,6 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a4da08e22ea9ad04d692dac5c8134b1cf"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classts_1_1_tuner.html#a4da08e22ea9ad04d692dac5c8134b1cf">getCurrentTuning</a> (<a class="el" href="classts_1_1_tuner_parameters.html">TunerParameters</a> &amp;params, bool reset_unknown, <a class="el" href="classts_1_1_report_interface.html">ReportInterface</a> &amp;report)</td></tr>
 <tr class="memdesc:a4da08e22ea9ad04d692dac5c8134b1cf"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the current tuning parameters.  <a href="#a4da08e22ea9ad04d692dac5c8134b1cf">More...</a><br /></td></tr>
 <tr class="separator:a4da08e22ea9ad04d692dac5c8134b1cf"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a3629923d37c2840b6f5cec6880f6247a"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classts_1_1_tuner.html#a3629923d37c2840b6f5cec6880f6247a">getForceS2API</a> () const</td></tr>
-<tr class="memdesc:a3629923d37c2840b6f5cec6880f6247a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Check if usage of S2API is forced in all cases (Linux-specific).  <a href="#a3629923d37c2840b6f5cec6880f6247a">More...</a><br /></td></tr>
-<tr class="separator:a3629923d37c2840b6f5cec6880f6247a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a18ef502473f5447f03b8dfbf7452edf2"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classts_1_1_tuner.html#a18ef502473f5447f03b8dfbf7452edf2">hasDeliverySystem</a> (<a class="el" href="namespacets.html#af4ee613ab8c2346d8201038e5e9a94af">DeliverySystem</a> ds) const</td></tr>
 <tr class="memdesc:a18ef502473f5447f03b8dfbf7452edf2"><td class="mdescLeft">&#160;</td><td class="mdescRight">Check if the tuner supports the specified delivery system.  <a href="#a18ef502473f5447f03b8dfbf7452edf2">More...</a><br /></td></tr>
 <tr class="separator:a18ef502473f5447f03b8dfbf7452edf2"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -159,9 +156,6 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a7bfb5322af6cc72b733151602d8d8e3f"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classts_1_1_tuner.html#a7bfb5322af6cc72b733151602d8d8e3f">setDemuxBufferSize</a> (size_t s)</td></tr>
 <tr class="memdesc:a7bfb5322af6cc72b733151602d8d8e3f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set the demux buffer size in bytes.  <a href="#a7bfb5322af6cc72b733151602d8d8e3f">More...</a><br /></td></tr>
 <tr class="separator:a7bfb5322af6cc72b733151602d8d8e3f"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a58a6d46956871f2359d3bea04caa14ff"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classts_1_1_tuner.html#a58a6d46956871f2359d3bea04caa14ff">setForceS2API</a> (bool force)</td></tr>
-<tr class="memdesc:a58a6d46956871f2359d3bea04caa14ff"><td class="mdescLeft">&#160;</td><td class="mdescRight">Force usage of S2API in all cases (Linux-specific).  <a href="#a58a6d46956871f2359d3bea04caa14ff">More...</a><br /></td></tr>
-<tr class="separator:a58a6d46956871f2359d3bea04caa14ff"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a9a388b009588fd4d4cdc973bd8044a77"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classts_1_1_tuner.html#a9a388b009588fd4d4cdc973bd8044a77">setReceiveTimeout</a> (<a class="el" href="namespacets.html#a2c690abc5d90fe5ba7c3ec0237afc348">MilliSecond</a> t, <a class="el" href="classts_1_1_report_interface.html">ReportInterface</a> &amp;report)</td></tr>
 <tr class="memdesc:a9a388b009588fd4d4cdc973bd8044a77"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set the timeout for receive operations.  <a href="#a9a388b009588fd4d4cdc973bd8044a77">More...</a><br /></td></tr>
 <tr class="separator:a9a388b009588fd4d4cdc973bd8044a77"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -195,12 +189,12 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:ab4adb12b0e94c28bfd088508d4293396"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classts_1_1_tuner.html#ab4adb12b0e94c28bfd088508d4293396">tune</a> (const <a class="el" href="classts_1_1_tuner_parameters.html">TunerParameters</a> &amp;params, <a class="el" href="classts_1_1_report_interface.html">ReportInterface</a> &amp;report)</td></tr>
 <tr class="memdesc:ab4adb12b0e94c28bfd088508d4293396"><td class="mdescLeft">&#160;</td><td class="mdescRight">Tune to the specified parameters.  <a href="#ab4adb12b0e94c28bfd088508d4293396">More...</a><br /></td></tr>
 <tr class="separator:ab4adb12b0e94c28bfd088508d4293396"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af6e7f350483ebcf30b0a468acf62f062"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classts_1_1_tuner.html#af6e7f350483ebcf30b0a468acf62f062">tune</a> (<a class="el" href="classts_1_1_d_t_v_properties.html">DTVProperties</a> &amp;props, <a class="el" href="classts_1_1_report_interface.html">ReportInterface</a> &amp;report)</td></tr>
+<tr class="memdesc:af6e7f350483ebcf30b0a468acf62f062"><td class="mdescLeft">&#160;</td><td class="mdescRight">Perform a tune operation (Linux-specific).  <a href="#af6e7f350483ebcf30b0a468acf62f062">More...</a><br /></td></tr>
+<tr class="separator:af6e7f350483ebcf30b0a468acf62f062"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ab3ddd21fccf863bf418fd1c81e42af2c"><td class="memItemLeft" align="right" valign="top"><a class="el" href="namespacets.html#a0bfe51c83f30216c9beaac7fc31f96d2">TunerType</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classts_1_1_tuner.html#ab3ddd21fccf863bf418fd1c81e42af2c">tunerType</a> () const</td></tr>
 <tr class="memdesc:ab3ddd21fccf863bf418fd1c81e42af2c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the tuner type.  <a href="#ab3ddd21fccf863bf418fd1c81e42af2c">More...</a><br /></td></tr>
 <tr class="separator:ab3ddd21fccf863bf418fd1c81e42af2c"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a0850dab869d52a3b90e532cd342ecbbe"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classts_1_1_tuner.html#a0850dab869d52a3b90e532cd342ecbbe">tuneS2API</a> (DTVProperties &amp;props, <a class="el" href="classts_1_1_report_interface.html">ReportInterface</a> &amp;report)</td></tr>
-<tr class="memdesc:a0850dab869d52a3b90e532cd342ecbbe"><td class="mdescLeft">&#160;</td><td class="mdescRight">Perform a tune operation using S2API (Linux-specific).  <a href="#a0850dab869d52a3b90e532cd342ecbbe">More...</a><br /></td></tr>
-<tr class="separator:a0850dab869d52a3b90e532cd342ecbbe"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-static-methods"></a>
 Static Public Member Functions</h2></td></tr>
@@ -691,7 +685,7 @@ static const <a class="el" href="namespacets.html#a2c690abc5d90fe5ba7c3ec0237afc
 </div>
 </div>
 <a id="ab4adb12b0e94c28bfd088508d4293396"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ab4adb12b0e94c28bfd088508d4293396">&#9670;&nbsp;</a></span>tune()</h2>
+<h2 class="memtitle"><span class="permalink"><a href="#ab4adb12b0e94c28bfd088508d4293396">&#9670;&nbsp;</a></span>tune() <span class="overload">[1/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -1082,78 +1076,16 @@ static const <a class="el" href="namespacets.html#a2c690abc5d90fe5ba7c3ec0237afc
 
 </div>
 </div>
-<a id="a58a6d46956871f2359d3bea04caa14ff"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a58a6d46956871f2359d3bea04caa14ff">&#9670;&nbsp;</a></span>setForceS2API()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">void ts::Tuner::setForceS2API </td>
-          <td>(</td>
-          <td class="paramtype">bool&#160;</td>
-          <td class="paramname"><em>force</em></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>Force usage of S2API in all cases (Linux-specific). </p>
-<dl class="params"><dt>Parameters</dt><dd>
-  <table class="params">
-    <tr><td class="paramdir">[in]</td><td class="paramname">force</td><td>If true, the S2API is used in all cases. By default, S2API, when supported, is used only with DVB-S/S2. </td></tr>
-  </table>
-  </dd>
-</dl>
-
-</div>
-</div>
-<a id="a3629923d37c2840b6f5cec6880f6247a"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a3629923d37c2840b6f5cec6880f6247a">&#9670;&nbsp;</a></span>getForceS2API()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">bool ts::Tuner::getForceS2API </td>
-          <td>(</td>
-          <td class="paramname"></td><td>)</td>
-          <td> const</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>Check if usage of S2API is forced in all cases (Linux-specific). </p>
-<dl class="section return"><dt>Returns</dt><dd>If true, the S2API is used in all cases. By default, S2API, when supported, is used only with DVB-S/S2. </dd></dl>
-
-</div>
-</div>
-<a id="a0850dab869d52a3b90e532cd342ecbbe"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a0850dab869d52a3b90e532cd342ecbbe">&#9670;&nbsp;</a></span>tuneS2API()</h2>
+<a id="af6e7f350483ebcf30b0a468acf62f062"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af6e7f350483ebcf30b0a468acf62f062">&#9670;&nbsp;</a></span>tune() <span class="overload">[2/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">bool ts::Tuner::tuneS2API </td>
+          <td class="memname">bool ts::Tuner::tune </td>
           <td>(</td>
-          <td class="paramtype">DTVProperties &amp;&#160;</td>
+          <td class="paramtype"><a class="el" href="classts_1_1_d_t_v_properties.html">DTVProperties</a> &amp;&#160;</td>
           <td class="paramname"><em>props</em>, </td>
         </tr>
         <tr>
@@ -1170,10 +1102,10 @@ static const <a class="el" href="namespacets.html#a2c690abc5d90fe5ba7c3ec0237afc
       </table>
 </div><div class="memdoc">
 
-<p>Perform a tune operation using S2API (Linux-specific). </p>
+<p>Perform a tune operation (Linux-specific). </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramdir">[in,out]</td><td class="paramname">props</td><td>S2API DTV properties. </td></tr>
+    <tr><td class="paramdir">[in,out]</td><td class="paramname">props</td><td>DTV properties. </td></tr>
     <tr><td class="paramdir">[in,out]</td><td class="paramname">report</td><td>Where to report errors. </td></tr>
   </table>
   </dd>

@@ -49,7 +49,6 @@ var classts_1_1_section =
     [ "recomputeCRC", "classts_1_1_section.html#a48df03e049b92a4b0d52ddfb781d9247", null ],
     [ "read", "classts_1_1_section.html#aef72cfc81d74235182ea03b3b944feb3", null ],
     [ "write", "classts_1_1_section.html#a31c41ca9dfc2a9d42d7bc50f59bf74c1", null ],
-    [ "display", "classts_1_1_section.html#a2f7920759a08a245760531a7e0294113", null ],
     [ "dump", "classts_1_1_section.html#af2c4961b19d6ab2a1515b14627cc79c1", null ],
     [ "LoadFile", "classts_1_1_section.html#aef82fd1108eb29e8a1628bcc2d9782e4", null ],
     [ "LoadFile", "classts_1_1_section.html#a7c9f05f7a55ad5c282c50cf49fa70fc9", null ]

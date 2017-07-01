@@ -1,5 +1,6 @@
 var searchData=
 [
+  ['largestlength',['LargestLength',['../namespacets.html#a55c92f5de6d04087bd9e9183fbe6648b',1,'ts']]],
   ['lasterrorcode',['LastErrorCode',['../namespacets.html#aa816d1f04480538021fee6d480570238',1,'ts']]],
   ['lastsectionnumber',['lastSectionNumber',['../classts_1_1_section.html#aed7dd364a623de081cf2094561ef0629',1,'ts::Section']]],
   ['lastsocketerrorcode',['LastSocketErrorCode',['../namespacets.html#a2268d9defcbb4b19c04791493a616ad5',1,'ts']]],
@@ -15,7 +16,7 @@ var searchData=
   ['listprocessors',['ListProcessors',['../namespacets_1_1tsp.html#a118c48e80d65973aff7f192349f530a5',1,'ts::tsp']]],
   ['listreaders',['ListReaders',['../namespacets_1_1pcsc.html#a6f57cd666fd2c371c5d8134cada3c344',1,'ts::pcsc']]],
   ['lnb',['LNB',['../classts_1_1_l_n_b.html#a03ccaec6d7d5c9c0daac57905c12efb6',1,'ts::LNB::LNB()'],['../classts_1_1_l_n_b.html#a1ceebfe11a5c62e9c018f758ced7f047',1,'ts::LNB::LNB(uint64_t frequency)'],['../classts_1_1_l_n_b.html#ae4045f05c77fa3266ce4fccc651f919b',1,'ts::LNB::LNB(uint64_t low_frequency, uint64_t high_frequency, uint64_t switch_frequency)'],['../classts_1_1_l_n_b.html#a27565261252dac3628a97b50e2d33a12',1,'ts::LNB::LNB(const char *s)'],['../classts_1_1_l_n_b.html#afb1741818751ea3a30e6901f99ac25d4',1,'ts::LNB::LNB(const std::string &amp;s)']]],
-  ['load',['load',['../classts_1_1_config_file.html#a310ff9ca4344ea7ab78dc59c3e1bf549',1,'ts::ConfigFile::load()'],['../classts_1_1_shared_library.html#a173981348985ff75fb1cb032b61ccd13',1,'ts::SharedLibrary::load()'],['../classts_1_1_tuner_args.html#ae889d534608a7cd29fcb05e0c6c1020d',1,'ts::TunerArgs::load()']]],
+  ['load',['load',['../classts_1_1_config_file.html#a310ff9ca4344ea7ab78dc59c3e1bf549',1,'ts::ConfigFile::load()'],['../classts_1_1_p_s_i_logger_args.html#ab6b919997003ed0c24ca8dd8442075a5',1,'ts::PSILoggerArgs::load()'],['../classts_1_1_shared_library.html#a173981348985ff75fb1cb032b61ccd13',1,'ts::SharedLibrary::load()'],['../classts_1_1_tables_display_args.html#a614df32796b894174b3589b4460e2421',1,'ts::TablesDisplayArgs::load()'],['../classts_1_1_tables_logger_args.html#aa4cfcc36a5c27597d0a90b8a5ebcafbd',1,'ts::TablesLoggerArgs::load()'],['../classts_1_1_tuner_args.html#ae889d534608a7cd29fcb05e0c6c1020d',1,'ts::TunerArgs::load()']]],
   ['loadappendstrings',['LoadAppendStrings',['../namespacets.html#ae191ded5f90ee4a10ebdf42e127c2269',1,'ts']]],
   ['loadfile',['LoadFile',['../classts_1_1_section.html#aef82fd1108eb29e8a1628bcc2d9782e4',1,'ts::Section::LoadFile(SectionPtrVector &amp;sections, std::istream &amp;strm, CRC32::Validation crc_op=CRC32::IGNORE, ReportInterface &amp;report=(*ts::CerrReport::Instance()))'],['../classts_1_1_section.html#a7c9f05f7a55ad5c282c50cf49fa70fc9',1,'ts::Section::LoadFile(SectionPtrVector &amp;sections, const std::string &amp;file_name, CRC32::Validation crc_op=CRC32::IGNORE, ReportInterface &amp;report=(*ts::CerrReport::Instance()))']]],
   ['loadstrings',['LoadStrings',['../namespacets.html#aa176777d53302df102a85c1f6d138c32',1,'ts']]],
@@ -23,6 +24,7 @@ var searchData=
   ['localtoutc',['localToUTC',['../classts_1_1_time.html#a8ea921e79fc5a94511499cdd6f63089d',1,'ts::Time']]],
   ['locatebypid',['locateByPID',['../classts_1_1_audio_language_options.html#afd8469f1ae20eca45ea09e44b8925cf3',1,'ts::AudioLanguageOptions']]],
   ['locatepattern',['LocatePattern',['../namespacets.html#a41d108b4eca6c486c304a6557daee280',1,'ts']]],
+  ['locatetlv',['locateTLV',['../classts_1_1_t_l_v_syntax.html#a9369ac353f3ec2700ccc6fdc99f1b8b6',1,'ts::TLVSyntax']]],
   ['lockerrorcode',['lockErrorCode',['../classts_1_1_resident_buffer.html#ab9294ca094d642c4105045e9a7c94474',1,'ts::ResidentBuffer']]],
   ['log',['log',['../classts_1_1_report_interface.html#a254aa17a6df18b77f395c55d83753449',1,'ts::ReportInterface::log(int severity, const std::string &amp;msg)'],['../classts_1_1_report_interface.html#a3d7dc9f2bc0881a23b434c48adc7cfaf',1,'ts::ReportInterface::log(int severity, const char *format,...)']]],
   ['logicalchannelnumberdescriptor',['LogicalChannelNumberDescriptor',['../classts_1_1_logical_channel_number_descriptor.html#a9a9576e64dd0e2e27eeca5ae7a1cea02',1,'ts::LogicalChannelNumberDescriptor::LogicalChannelNumberDescriptor()'],['../classts_1_1_logical_channel_number_descriptor.html#a603538f69cf3f7c70eaede35f84a685f',1,'ts::LogicalChannelNumberDescriptor::LogicalChannelNumberDescriptor(const Descriptor &amp;bin)'],['../classts_1_1_logical_channel_number_descriptor.html#a52647ccf941c2471eb748b38bb8cc8ab',1,'ts::LogicalChannelNumberDescriptor::LogicalChannelNumberDescriptor(int service_id, int lcn,...)']]],

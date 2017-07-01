@@ -2,6 +2,8 @@ var searchData=
 [
   ['main',['main',['../classts_1_1_thread.html#a9ee5bd4acae9b413edc711134ef34e76',1,'ts::Thread']]],
   ['matchatr',['MatchATR',['../namespacets_1_1pcsc.html#af6a7cd15d07e43eee0a59951e86179b2',1,'ts::pcsc']]],
+  ['maxdecimalwidth',['MaxDecimalWidth',['../namespacets.html#a8c295dd82cb73c63d7d728bdfca3f38d',1,'ts']]],
+  ['maxhexawidth',['MaxHexaWidth',['../namespacets.html#a9ebd618d1519a261d2bd1a165abdaa1d',1,'ts']]],
   ['maximumbitrate',['maximumBitRate',['../classts_1_1_video_attributes.html#a33a1ffeec8be3b8fc1f9e2a52e983acc',1,'ts::VideoAttributes']]],
   ['maxivsize',['maxIVSize',['../classts_1_1_cipher_chaining.html#ac3bc8535776f3b6cf2874f65f5db615e',1,'ts::CipherChaining']]],
   ['maxkeysize',['maxKeySize',['../classts_1_1_a_e_s.html#aeddc15942e675b647f8e7c316eff3ecc',1,'ts::AES::maxKeySize()'],['../classts_1_1_block_cipher.html#a292f5bf8aa9d88721dd86c249db44d21',1,'ts::BlockCipher::maxKeySize()'],['../classts_1_1_cipher_chaining.html#a21547e25f86a77b669c7c0fb9c3a3930',1,'ts::CipherChaining::maxKeySize()'],['../classts_1_1_d_e_s.html#ab92d0ac87c0b6f497032d6d644581e3e',1,'ts::DES::maxKeySize()'],['../classts_1_1_t_d_e_s.html#a49a35d78fa94b71a02840746c1832b57',1,'ts::TDES::maxKeySize()']]],

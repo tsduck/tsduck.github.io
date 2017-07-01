@@ -1,6 +1,6 @@
 var classts_1_1_tables_logger =
 [
-    [ "TablesLogger", "classts_1_1_tables_logger.html#afa10db30f9a94039e7869f129fa5b442", null ],
+    [ "TablesLogger", "classts_1_1_tables_logger.html#a2b07fab7472f265e3bf7728acec567ba", null ],
     [ "~TablesLogger", "classts_1_1_tables_logger.html#acc5519960a258058701f27e30bc479d3", null ],
     [ "feedPacket", "classts_1_1_tables_logger.html#a73a4dad62a00f6e336139b44f126d7e9", null ],
     [ "hasErrors", "classts_1_1_tables_logger.html#a00a2dd90e8878af0912bd7281b0f4397", null ],

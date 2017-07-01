@@ -1,4 +1,5 @@
 <map id="ts::PSILogger" name="ts::PSILogger">
-<area shape="rect" id="node2" href="$classts_1_1_table_handler_interface.html" title="Table handler interface. " alt="" coords="5,5,175,32"/>
-<area shape="rect" id="node3" href="$classts_1_1_section_handler_interface.html" title="Abstract interface to receive MPEG Section from a SectionDemux. " alt="" coords="199,5,381,32"/>
+<area shape="rect" id="node2" href="$classts_1_1_tables_display.html" title="A class to display PSI/SI tables. " alt="" coords="5,5,129,32"/>
+<area shape="rect" id="node3" href="$classts_1_1_table_handler_interface.html" title="Table handler interface. " alt="" coords="153,5,323,32"/>
+<area shape="rect" id="node4" href="$classts_1_1_section_handler_interface.html" title="Abstract interface to receive MPEG Section from a SectionDemux. " alt="" coords="347,5,529,32"/>
 </map>

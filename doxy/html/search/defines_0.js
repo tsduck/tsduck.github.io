@@ -15,7 +15,6 @@ var searchData=
   ['_5f_5fmsc',['__msc',['../ts_platform_8h.html#ad9f7e8bf8ffb2c0575e58571680bda82',1,'tsPlatform.h']]],
   ['_5f_5fpowerpc',['__powerpc',['../ts_platform_8h.html#abd91a22e783f7e55e3c97525f5ed65dd',1,'tsPlatform.h']]],
   ['_5f_5fpowerpc64',['__powerpc64',['../ts_platform_8h.html#a13888afd30cfa7888fa256449f198057',1,'tsPlatform.h']]],
-  ['_5f_5fs2api',['__s2api',['../ts_platform_8h.html#af033a0165c0a865fcfe8df75b2ad55c0',1,'tsPlatform.h']]],
   ['_5f_5fsolaris',['__solaris',['../ts_platform_8h.html#ab56071e0484561d70fc72613ddfd286f',1,'tsPlatform.h']]],
   ['_5f_5fsparc',['__sparc',['../ts_platform_8h.html#a8b6f1a5d9433e82f11aee23d02832d4f',1,'tsPlatform.h']]],
   ['_5f_5fstxp70',['__stxp70',['../ts_platform_8h.html#aa346d1a3e7fde5d8c0d63dd7a8d619ac',1,'tsPlatform.h']]],

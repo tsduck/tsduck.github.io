@@ -23,7 +23,6 @@ var classts_1_1_binary_table =
     [ "sectionCount", "classts_1_1_binary_table.html#a8aa0bf525bef3eef5821cabad1ae94c7", null ],
     [ "totalSize", "classts_1_1_binary_table.html#a174b8562a392c9dfd1dc252dbffabe81", null ],
     [ "sectionAt", "classts_1_1_binary_table.html#a466a957657f3c2e8bb719e582b5b714f", null ],
-    [ "display", "classts_1_1_binary_table.html#a87e1752046bcfbbb3102f56f8b1ab301", null ],
     [ "write", "classts_1_1_binary_table.html#a617f8e70aebc58ac73dd9174a9675891", null ],
     [ "save", "classts_1_1_binary_table.html#a632da56c3f02e16b541f851fbb4e2198", null ],
     [ "save", "classts_1_1_binary_table.html#a63dda1561393180f0ff92b6ad7de472b", null ]

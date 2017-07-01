@@ -4,5 +4,6 @@
 <area shape="rect" id="node4" href="$classts_1_1_standalone_table_demux.html" title="A SectionDemux which extracts MPEG tables without external handler. " alt="" coords="223,107,403,133"/>
 <area shape="rect" id="node5" href="$classts_1_1_tables_logger.html" title="This class logs sections and tables. " alt="" coords="253,157,372,184"/>
 <area shape="rect" id="node6" href="$classts_1_1_t_s_analyzer.html" title="A class which analyzes a complete transport stream. " alt="" coords="258,208,367,235"/>
+<area shape="rect" id="node8" href="$classts_1_1_t_s_scanner.html" title="A class which scans the services of a transport stream. " alt="" coords="259,259,366,285"/>
 <area shape="rect" id="node7" href="$classts_1_1_t_s_analyzer_report.html" title="A subclass of TSAnalyzer with reporting capabilities. " alt="" coords="451,208,599,235"/>
 </map>

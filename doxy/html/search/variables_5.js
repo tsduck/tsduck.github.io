@@ -5,8 +5,6 @@ var searchData=
   ['ecm_5frep_5fperiod',['ECM_rep_period',['../classts_1_1ecmgscs_1_1_channel_status.html#a29b2e5a05772429b6799912c5caba398',1,'ts::ecmgscs::ChannelStatus']]],
   ['eitpf_5fpresent',['EITpf_present',['../classts_1_1_s_d_t_1_1_service.html#a2e4e197d2ddf064aff87837de28c37ea',1,'ts::SDT::Service']]],
   ['eits_5fpresent',['EITs_present',['../classts_1_1_s_d_t_1_1_service.html#a8e6f6af41caa23dce41f5dcf6058160b',1,'ts::SDT::Service']]],
-  ['emm_5fgroup',['emm_group',['../classts_1_1_tables_logger_options.html#a3fbc2ff3a81e908c60831fe11fd195be',1,'ts::TablesLoggerOptions']]],
-  ['emm_5fua',['emm_ua',['../classts_1_1_tables_logger_options.html#a61522108352e5c676cf6d57d7adb74ec',1,'ts::TablesLoggerOptions']]],
   ['emptypacket',['EmptyPacket',['../namespacets.html#ab772207b2b6d2c9383cf2ede5069ee5d',1,'ts']]],
   ['entries',['entries',['../classts_1_1_content_descriptor.html#ac2686b9096f7c2760639baa05cedbdb1',1,'ts::ContentDescriptor::entries()'],['../classts_1_1_extended_event_descriptor.html#a28e961a84efe45475aee159a57dc2989',1,'ts::ExtendedEventDescriptor::entries()'],['../classts_1_1_h_d_simulcast_logical_channel_descriptor.html#a064d76dd2a994128c1ca8a097bb1e8b9',1,'ts::HDSimulcastLogicalChannelDescriptor::entries()'],['../classts_1_1_i_s_o639_language_descriptor.html#a3a0387cb6e1e7401a510f9730b3ddaa6',1,'ts::ISO639LanguageDescriptor::entries()'],['../classts_1_1_logical_channel_number_descriptor.html#af9ac15e636fa0ca13f7ded1483188de9',1,'ts::LogicalChannelNumberDescriptor::entries()'],['../classts_1_1_parental_rating_descriptor.html#aa55ac2a47bbee56d6d3bd87297eb14db',1,'ts::ParentalRatingDescriptor::entries()'],['../classts_1_1_service_list_descriptor.html#af692b41984af101d767b39b53ba6db0e',1,'ts::ServiceListDescriptor::entries()'],['../classts_1_1_s_s_u_data_broadcast_id_descriptor.html#a68484783d6a0181c7d21177fceee9ca1',1,'ts::SSUDataBroadcastIdDescriptor::entries()'],['../classts_1_1_s_s_u_linkage_descriptor.html#a96779ebc046aecef9a7be1cd826ae365',1,'ts::SSULinkageDescriptor::entries()']]],
   ['epoch',['Epoch',['../classts_1_1_time.html#aaddf023d4de5d142e36f599e34ae0294',1,'ts::Time']]],
@@ -17,6 +15,7 @@ var searchData=
   ['etid',['etid',['../classts_1_1_t_s_analyzer_1_1_e_t_i_d_context.html#ae20ff83b718a193b5437c59ccea76820',1,'ts::TSAnalyzer::ETIDContext']]],
   ['event_5fname',['event_name',['../classts_1_1_short_event_descriptor.html#af45a3c8d36ca9cd5706707035c1a50d8',1,'ts::ShortEventDescriptor']]],
   ['event_5fstate',['event_state',['../structts_1_1pcsc_1_1_reader_state.html#a323321fc14b78bfdb2b24859b2050c5c',1,'ts::pcsc::ReaderState']]],
+  ['events',['events',['../classts_1_1_e_i_t.html#a56097a3e172e94f6a4b0e50e4c9f92b9',1,'ts::EIT']]],
   ['exp_5fdiscont',['exp_discont',['../classts_1_1_t_s_analyzer_1_1_p_i_d_context.html#acf250e41401a8cafc1883c565e371de1',1,'ts::TSAnalyzer::PIDContext']]],
   ['extension',['Extension',['../classts_1_1_shared_library.html#a031829777734e4c015741bfb7953d350',1,'ts::SharedLibrary']]]
 ];
