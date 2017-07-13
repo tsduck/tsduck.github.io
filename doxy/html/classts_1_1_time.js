@@ -63,7 +63,7 @@ var classts_1_1_time =
     [ "NextYearLocalTime", "classts_1_1_time.html#aaf1ffad5a1bcdb9703cad4e7ea05dbb9", null ],
     [ "Win32FileTimeToMilliSecond", "classts_1_1_time.html#a065fd90017d9782055b23550217123b7", null ],
     [ "Win32FileTimeToUTC", "classts_1_1_time.html#a419e2185515df154691bd5dae35b09db", null ],
-    [ "UnixTimeToUTC", "classts_1_1_time.html#a146c42379455c27cc237b0e7c0b3d3df", null ],
+    [ "UnixTimeToUTC", "classts_1_1_time.html#ab24b5d828b8a81673a40a9883042ae10", null ],
     [ "UnixRealTimeClockNanoSeconds", "classts_1_1_time.html#ad789e1ea8e7265bdb53f48d998a4fbfe", null ],
     [ "UnixRealTimeClock", "classts_1_1_time.html#a62def7e4f6dd4e01f45b82a9ad2c4535", null ],
     [ "Epoch", "classts_1_1_time.html#aaddf023d4de5d142e36f599e34ae0294", null ],

@@ -5,6 +5,7 @@ var classts_1_1_logical_channel_number_descriptor =
     [ "LogicalChannelNumberDescriptor", "classts_1_1_logical_channel_number_descriptor.html#a9a9576e64dd0e2e27eeca5ae7a1cea02", null ],
     [ "LogicalChannelNumberDescriptor", "classts_1_1_logical_channel_number_descriptor.html#a603538f69cf3f7c70eaede35f84a685f", null ],
     [ "LogicalChannelNumberDescriptor", "classts_1_1_logical_channel_number_descriptor.html#a52647ccf941c2471eb748b38bb8cc8ab", null ],
+    [ "DisplayDescriptor", "classts_1_1_logical_channel_number_descriptor.html#acdde9dda0768f52ee3259df04c6c7245", null ],
     [ "serialize", "classts_1_1_logical_channel_number_descriptor.html#a518531a09993b9f43fd82dda8edf4180", null ],
     [ "deserialize", "classts_1_1_logical_channel_number_descriptor.html#a259f301de7b381ba5cee6aead389f606", null ],
     [ "MAX_ENTRIES", "classts_1_1_logical_channel_number_descriptor.html#aaaff039853b72294e8966a451dcf21ab", null ],

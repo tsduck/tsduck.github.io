@@ -5,7 +5,7 @@ var classts_1_1_p_a_t =
     [ "PAT", "classts_1_1_p_a_t.html#a2f6f0c0283c39f30f3e85b384872bf48", null ],
     [ "serialize", "classts_1_1_p_a_t.html#a72dc41b3230eeb2fce49d500264eeda7", null ],
     [ "deserialize", "classts_1_1_p_a_t.html#a70369fc3c23ab9b2eb26d69b0910816d", null ],
-    [ "DisplaySection", "classts_1_1_p_a_t.html#a991e6641da72720a94b2e29ccc5a8e84", null ],
+    [ "DisplaySection", "classts_1_1_p_a_t.html#a25be086882a266f6b33ef0b3142eb339", null ],
     [ "ts_id", "classts_1_1_p_a_t.html#ab0d44134d1ba1b85b07e26e70242c9a5", null ],
     [ "nit_pid", "classts_1_1_p_a_t.html#a83b9c566cceb9f6722a552b3a5c1b1f9", null ],
     [ "pmts", "classts_1_1_p_a_t.html#a42a48e20069d2fb67026f115ac477009", null ]

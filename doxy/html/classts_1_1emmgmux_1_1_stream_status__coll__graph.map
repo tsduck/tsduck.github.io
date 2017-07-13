@@ -1,5 +1,5 @@
 <map id="ts::emmgmux::StreamStatus" name="ts::emmgmux::StreamStatus">
-<area shape="rect" id="node2" href="$classts_1_1tlv_1_1_stream_message.html" title="Base class for DVB SimulCrypt TLV messages operating on streams. " alt="" coords="21,155,180,181"/>
-<area shape="rect" id="node3" href="$classts_1_1tlv_1_1_channel_message.html" title="Base class for DVB SimulCrypt TLV messages operating on channels. " alt="" coords="19,80,183,107"/>
-<area shape="rect" id="node4" href="$classts_1_1tlv_1_1_message.html" title="Abstract base class for TLV messages. " alt="" coords="43,5,159,32"/>
+<area shape="rect" id="node2" href="$classts_1_1tlv_1_1_stream_message.html" title="Base class for DVB SimulCrypt TLV messages operating on streams. " alt="" coords="23,155,179,181"/>
+<area shape="rect" id="node3" href="$classts_1_1tlv_1_1_channel_message.html" title="Base class for DVB SimulCrypt TLV messages operating on channels. " alt="" coords="20,80,181,107"/>
+<area shape="rect" id="node4" href="$classts_1_1tlv_1_1_message.html" title="Abstract base class for TLV messages. " alt="" coords="43,5,158,32"/>
 </map>

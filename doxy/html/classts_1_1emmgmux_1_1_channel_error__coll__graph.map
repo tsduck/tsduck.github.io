@@ -1,4 +1,4 @@
 <map id="ts::emmgmux::ChannelError" name="ts::emmgmux::ChannelError">
-<area shape="rect" id="node2" href="$classts_1_1tlv_1_1_channel_message.html" title="Base class for DVB SimulCrypt TLV messages operating on channels. " alt="" coords="17,80,181,107"/>
-<area shape="rect" id="node3" href="$classts_1_1tlv_1_1_message.html" title="Abstract base class for TLV messages. " alt="" coords="41,5,157,32"/>
+<area shape="rect" id="node2" href="$classts_1_1tlv_1_1_channel_message.html" title="Base class for DVB SimulCrypt TLV messages operating on channels. " alt="" coords="17,80,179,107"/>
+<area shape="rect" id="node3" href="$classts_1_1tlv_1_1_message.html" title="Abstract base class for TLV messages. " alt="" coords="41,5,155,32"/>
 </map>

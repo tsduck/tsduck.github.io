@@ -140,9 +140,6 @@ void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="clas
 <tr class="memitem:a58f5f2b86733858e3068d507aa2e63ed"><td class="memItemLeft" align="right" valign="top">size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classts_1_1_descriptor_list.html#a58f5f2b86733858e3068d507aa2e63ed">count</a> () const</td></tr>
 <tr class="memdesc:a58f5f2b86733858e3068d507aa2e63ed"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the number of descriptors in the list.  <a href="#a58f5f2b86733858e3068d507aa2e63ed">More...</a><br /></td></tr>
 <tr class="separator:a58f5f2b86733858e3068d507aa2e63ed"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aa1e3f3ae11ec6de0d5789c1c4235380b"><td class="memItemLeft" align="right" valign="top">std::ostream &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classts_1_1_descriptor_list.html#aa1e3f3ae11ec6de0d5789c1c4235380b">display</a> (std::ostream &amp;strm, int indent=0, <a class="el" href="namespacets.html#a3c2cbf0a41a7db2577a737cc9568e3cb">TID</a> tid=<a class="el" href="namespacets.html#ae56343654e2b01380409afc12dd2b037ad51c95d1eb15054cb4f69437a5207ecf">TID_NULL</a>) const</td></tr>
-<tr class="memdesc:aa1e3f3ae11ec6de0d5789c1c4235380b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Display the descriptor list on an output stream.  <a href="#aa1e3f3ae11ec6de0d5789c1c4235380b">More...</a><br /></td></tr>
-<tr class="separator:aa1e3f3ae11ec6de0d5789c1c4235380b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a53d7e46f2928ced7e02544a2a0d13152"><td class="memItemLeft" align="right" valign="top">size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classts_1_1_descriptor_list.html#a53d7e46f2928ced7e02544a2a0d13152">lengthSerialize</a> (uint8_t *&amp;addr, size_t &amp;size, size_t start=0) const</td></tr>
 <tr class="memdesc:a53d7e46f2928ced7e02544a2a0d13152"><td class="mdescLeft">&#160;</td><td class="mdescRight">Same as <a class="el" href="classts_1_1_descriptor_list.html#a65fd9e8f041ac2ff8dd84d390ce45b48" title="Serialize the content of the descriptor list. ">serialize()</a>, but prepend a 2-byte length field before the descriptor list.  <a href="#a53d7e46f2928ced7e02544a2a0d13152">More...</a><br /></td></tr>
 <tr class="separator:a53d7e46f2928ced7e02544a2a0d13152"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -938,51 +935,6 @@ template&lt;class DESC &gt; </div>
   </dd>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>The index of the first descriptor that could not be serialized (or <a class="el" href="classts_1_1_descriptor_list.html#a58f5f2b86733858e3068d507aa2e63ed" title="Get the number of descriptors in the list. ">count()</a> if all descriptors were serialized). In the first case, the returned index can be used as <em>start</em> parameter to serialized the rest of the list (in another section for instance). </dd></dl>
-
-</div>
-</div>
-<a id="aa1e3f3ae11ec6de0d5789c1c4235380b"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aa1e3f3ae11ec6de0d5789c1c4235380b">&#9670;&nbsp;</a></span>display()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">std::ostream&amp; ts::DescriptorList::display </td>
-          <td>(</td>
-          <td class="paramtype">std::ostream &amp;&#160;</td>
-          <td class="paramname"><em>strm</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">int&#160;</td>
-          <td class="paramname"><em>indent</em> = <code>0</code>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype"><a class="el" href="namespacets.html#a3c2cbf0a41a7db2577a737cc9568e3cb">TID</a>&#160;</td>
-          <td class="paramname"><em>tid</em> = <code><a class="el" href="namespacets.html#ae56343654e2b01380409afc12dd2b037ad51c95d1eb15054cb4f69437a5207ecf">TID_NULL</a></code>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td> const</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Display the descriptor list on an output stream. </p>
-<dl class="params"><dt>Parameters</dt><dd>
-  <table class="params">
-    <tr><td class="paramdir">[in,out]</td><td class="paramname">strm</td><td>Output stream (text output). </td></tr>
-    <tr><td class="paramdir">[in]</td><td class="paramname">indent</td><td>Indentation width. </td></tr>
-    <tr><td class="paramdir">[in]</td><td class="paramname">tid</td><td>Table id of table containing the descriptor list. This is optional. Used by some descriptors the interpretation of which may vary depending on the table that they are in. </td></tr>
-  </table>
-  </dd>
-</dl>
-<dl class="section return"><dt>Returns</dt><dd>A reference to <em>strm</em>. </dd></dl>
 
 </div>
 </div>

@@ -1,16 +1,16 @@
 <map id="ts::BlockCipher" name="ts::BlockCipher">
-<area shape="rect" id="node2" href="$classts_1_1_a_e_s.html" title="AES block cipher. " alt="" coords="197,65,265,92"/>
-<area shape="rect" id="node3" href="$classts_1_1_cipher_chaining.html" title="Base class of all cipher chaining modes. " alt="" coords="165,116,296,143"/>
-<area shape="rect" id="node14" href="$classts_1_1_d_e_s.html" title="DES block cipher. " alt="" coords="196,167,265,193"/>
-<area shape="rect" id="node15" href="$classts_1_1_t_d_e_s.html" title="Triple&#45;DES block cipher. " alt="" coords="192,217,269,244"/>
-<area shape="rect" id="node4" href="$classts_1_1_cipher_chaining_template.html" title="ts::CipherChainingTemplate\l\&lt; ts::AES \&gt;" alt="" coords="344,42,528,83"/>
-<area shape="rect" id="node6" href="$classts_1_1_cipher_chaining_template.html" title="Base class of all cipher chaining modes, template version. " alt="" coords="344,175,528,217"/>
-<area shape="rect" id="node5" href="$classts_1_1_d_v_s042.html" title="ts::DVS042\&lt; ts::AES \&gt;" alt="" coords="579,5,739,32"/>
-<area shape="rect" id="node7" href="$classts_1_1_c_b_c.html" title="Cipher Block Chaining (CBC) mode. " alt="" coords="586,56,733,83"/>
-<area shape="rect" id="node8" href="$classts_1_1_c_t_s1.html" title="Cipher text Stealing (CTS) mode, alternative 1. " alt="" coords="584,107,735,133"/>
-<area shape="rect" id="node9" href="$classts_1_1_c_t_s2.html" title="Cipher text Stealing (CTS) mode, alternative 2. " alt="" coords="584,157,735,184"/>
-<area shape="rect" id="node10" href="$classts_1_1_c_t_s3.html" title="Cipher text Stealing (CTS) mode, alternative 3. " alt="" coords="584,208,735,235"/>
-<area shape="rect" id="node11" href="$classts_1_1_c_t_s4.html" title="Cipher text Stealing (CTS) mode, alternative 4. " alt="" coords="584,259,735,285"/>
-<area shape="rect" id="node12" href="$classts_1_1_d_v_s042.html" title="DVS 042 cipher block chaining mode. " alt="" coords="576,309,743,336"/>
-<area shape="rect" id="node13" href="$classts_1_1_e_c_b.html" title="Electronic Code Book (ECB) mode. " alt="" coords="587,360,732,387"/>
+<area shape="rect" id="node2" href="$classts_1_1_a_e_s.html" title="AES block cipher. " alt="" coords="194,65,262,92"/>
+<area shape="rect" id="node3" href="$classts_1_1_cipher_chaining.html" title="Base class of all cipher chaining modes. " alt="" coords="164,116,292,143"/>
+<area shape="rect" id="node14" href="$classts_1_1_d_e_s.html" title="DES block cipher. " alt="" coords="194,167,262,193"/>
+<area shape="rect" id="node15" href="$classts_1_1_t_d_e_s.html" title="Triple&#45;DES block cipher. " alt="" coords="191,217,265,244"/>
+<area shape="rect" id="node4" href="$classts_1_1_cipher_chaining_template.html" title="ts::CipherChainingTemplate\l\&lt; ts::AES \&gt;" alt="" coords="340,42,521,83"/>
+<area shape="rect" id="node6" href="$classts_1_1_cipher_chaining_template.html" title="Base class of all cipher chaining modes, template version. " alt="" coords="340,175,521,217"/>
+<area shape="rect" id="node5" href="$classts_1_1_d_v_s042.html" title="ts::DVS042\&lt; ts::AES \&gt;" alt="" coords="571,5,729,32"/>
+<area shape="rect" id="node7" href="$classts_1_1_c_b_c.html" title="Cipher Block Chaining (CBC) mode. " alt="" coords="580,56,720,83"/>
+<area shape="rect" id="node8" href="$classts_1_1_c_t_s1.html" title="Cipher text Stealing (CTS) mode, alternative 1. " alt="" coords="577,107,723,133"/>
+<area shape="rect" id="node9" href="$classts_1_1_c_t_s2.html" title="Cipher text Stealing (CTS) mode, alternative 2. " alt="" coords="577,157,723,184"/>
+<area shape="rect" id="node10" href="$classts_1_1_c_t_s3.html" title="Cipher text Stealing (CTS) mode, alternative 3. " alt="" coords="577,208,723,235"/>
+<area shape="rect" id="node11" href="$classts_1_1_c_t_s4.html" title="Cipher text Stealing (CTS) mode, alternative 4. " alt="" coords="577,259,723,285"/>
+<area shape="rect" id="node12" href="$classts_1_1_d_v_s042.html" title="DVS 042 cipher block chaining mode. " alt="" coords="569,309,731,336"/>
+<area shape="rect" id="node13" href="$classts_1_1_e_c_b.html" title="Electronic Code Book (ECB) mode. " alt="" coords="580,360,720,387"/>
 </map>

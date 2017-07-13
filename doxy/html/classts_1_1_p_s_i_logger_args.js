@@ -1,6 +1,5 @@
 var classts_1_1_p_s_i_logger_args =
 [
-    [ "SuperClass", "classts_1_1_p_s_i_logger_args.html#a5d32301effe2ade326f2d501544bafed", null ],
     [ "PSILoggerArgs", "classts_1_1_p_s_i_logger_args.html#a03a61b26136cb321d525b63986f92ccb", null ],
     [ "~PSILoggerArgs", "classts_1_1_p_s_i_logger_args.html#a5447873a6fae4e70e752b621b1b9b43b", null ],
     [ "defineOptions", "classts_1_1_p_s_i_logger_args.html#abcd0413725b7f5168947a0402e0b48df", null ],

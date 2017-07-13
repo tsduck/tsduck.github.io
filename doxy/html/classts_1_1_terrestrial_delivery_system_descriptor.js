@@ -4,6 +4,7 @@ var classts_1_1_terrestrial_delivery_system_descriptor =
     [ "TerrestrialDeliverySystemDescriptor", "classts_1_1_terrestrial_delivery_system_descriptor.html#a857fdb75074acdf8c0af3c9609c3002e", null ],
     [ "serialize", "classts_1_1_terrestrial_delivery_system_descriptor.html#af7b90fdc3614563b92cea7de6289b2be", null ],
     [ "deserialize", "classts_1_1_terrestrial_delivery_system_descriptor.html#a95939e5c8e3009e78ba51a5d68a756c7", null ],
+    [ "DisplayDescriptor", "classts_1_1_terrestrial_delivery_system_descriptor.html#ab8e554a34890d9d3682af9b891061707", null ],
     [ "centre_frequency", "classts_1_1_terrestrial_delivery_system_descriptor.html#a52aa0bb63ecf4ff533007266f7dd5353", null ],
     [ "bandwidth", "classts_1_1_terrestrial_delivery_system_descriptor.html#a5e7a6c403992cd2faa04c82c89ea0789", null ],
     [ "high_priority", "classts_1_1_terrestrial_delivery_system_descriptor.html#a7e88dfd52af9078ef4839ff456bbfa2d", null ],

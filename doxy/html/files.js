@@ -1,5 +1,8 @@
 var files =
 [
+    [ "tsAACDescriptor.h", "ts_a_a_c_descriptor_8h.html", [
+      [ "AACDescriptor", "classts_1_1_a_a_c_descriptor.html", "classts_1_1_a_a_c_descriptor" ]
+    ] ],
     [ "tsAbortInterface.h", "ts_abort_interface_8h.html", [
       [ "AbortInterface", "classts_1_1_abort_interface.html", "classts_1_1_abort_interface" ]
     ] ],
@@ -11,6 +14,7 @@ var files =
     [ "tsAbstractAVCStructure.h", "ts_abstract_a_v_c_structure_8h.html", [
       [ "AbstractAVCStructure", "classts_1_1_abstract_a_v_c_structure.html", "classts_1_1_abstract_a_v_c_structure" ]
     ] ],
+    [ "tsAbstractCASDate.h", "ts_abstract_c_a_s_date_8h.html", "ts_abstract_c_a_s_date_8h" ],
     [ "tsAbstractDeliverySystemDescriptor.h", "ts_abstract_delivery_system_descriptor_8h.html", [
       [ "AbstractDeliverySystemDescriptor", "classts_1_1_abstract_delivery_system_descriptor.html", "classts_1_1_abstract_delivery_system_descriptor" ]
     ] ],
@@ -40,6 +44,9 @@ var files =
     [ "tsAlgorithm.h", "ts_algorithm_8h.html", "ts_algorithm_8h" ],
     [ "tsApplicationSharedLibrary.h", "ts_application_shared_library_8h.html", [
       [ "ApplicationSharedLibrary", "classts_1_1_application_shared_library.html", "classts_1_1_application_shared_library" ]
+    ] ],
+    [ "tsApplicationSignallingDescriptor.h", "ts_application_signalling_descriptor_8h.html", [
+      [ "ApplicationSignallingDescriptor", "classts_1_1_application_signalling_descriptor.html", "classts_1_1_application_signalling_descriptor" ]
     ] ],
     [ "tsArgs.h", "ts_args_8h.html", [
       [ "Args", "classts_1_1_args.html", "classts_1_1_args" ],
@@ -85,13 +92,20 @@ var files =
       [ "BouquetNameDescriptor", "classts_1_1_bouquet_name_descriptor.html", "classts_1_1_bouquet_name_descriptor" ]
     ] ],
     [ "tsByteBlock.h", "ts_byte_block_8h.html", "ts_byte_block_8h" ],
-    [ "tsCADescriptor.h", "ts_c_a_descriptor_8h.html", [
-      [ "CADescriptor", "classts_1_1_c_a_descriptor.html", "classts_1_1_c_a_descriptor" ]
+    [ "tsCableDeliverySystemDescriptor.h", "ts_cable_delivery_system_descriptor_8h.html", [
+      [ "CableDeliverySystemDescriptor", "classts_1_1_cable_delivery_system_descriptor.html", "classts_1_1_cable_delivery_system_descriptor" ]
     ] ],
+    [ "tsCADescriptor.h", "ts_c_a_descriptor_8h.html", "ts_c_a_descriptor_8h" ],
     [ "tsCAIdentifierDescriptor.h", "ts_c_a_identifier_descriptor_8h.html", [
       [ "CAIdentifierDescriptor", "classts_1_1_c_a_identifier_descriptor.html", "classts_1_1_c_a_identifier_descriptor" ]
     ] ],
     [ "tsCASFamily.h", "ts_c_a_s_family_8h.html", "ts_c_a_s_family_8h" ],
+    [ "tsCASMapper.h", "ts_c_a_s_mapper_8h.html", [
+      [ "CASMapper", "classts_1_1_c_a_s_mapper.html", "classts_1_1_c_a_s_mapper" ]
+    ] ],
+    [ "tsCASSelectionArgs.h", "ts_c_a_s_selection_args_8h.html", [
+      [ "CASSelectionArgs", "classts_1_1_c_a_s_selection_args.html", "classts_1_1_c_a_s_selection_args" ]
+    ] ],
     [ "tsCAT.h", "ts_c_a_t_8h.html", [
       [ "CAT", "classts_1_1_c_a_t.html", "classts_1_1_c_a_t" ]
     ] ],
@@ -107,6 +121,9 @@ var files =
       [ "COM", "classts_1_1_c_o_m.html", "classts_1_1_c_o_m" ]
     ] ],
     [ "tsComIds.h", "ts_com_ids_8h.html", null ],
+    [ "tsComponentDescriptor.h", "ts_component_descriptor_8h.html", [
+      [ "ComponentDescriptor", "classts_1_1_component_descriptor.html", "classts_1_1_component_descriptor" ]
+    ] ],
     [ "tsComPtr.h", "ts_com_ptr_8h.html", "ts_com_ptr_8h" ],
     [ "tsComUtils.h", "ts_com_utils_8h.html", "ts_com_utils_8h" ],
     [ "tsCondition.h", "ts_condition_8h.html", [
@@ -138,6 +155,9 @@ var files =
     [ "tsCyclingPacketizer.h", "ts_cycling_packetizer_8h.html", [
       [ "CyclingPacketizer", "classts_1_1_cycling_packetizer.html", "classts_1_1_cycling_packetizer" ]
     ] ],
+    [ "tsDataBroadcastDescriptor.h", "ts_data_broadcast_descriptor_8h.html", [
+      [ "DataBroadcastDescriptor", "classts_1_1_data_broadcast_descriptor.html", "classts_1_1_data_broadcast_descriptor" ]
+    ] ],
     [ "tsDataBroadcastIdDescriptor.h", "ts_data_broadcast_id_descriptor_8h.html", [
       [ "DataBroadcastIdDescriptor", "classts_1_1_data_broadcast_id_descriptor.html", "classts_1_1_data_broadcast_id_descriptor" ]
     ] ],
@@ -156,18 +176,32 @@ var files =
       [ "DES", "classts_1_1_d_e_s.html", "classts_1_1_d_e_s" ]
     ] ],
     [ "tsDescriptor.h", "ts_descriptor_8h.html", "ts_descriptor_8h" ],
-    [ "tsDescriptorList.h", "ts_descriptor_list_8h.html", "ts_descriptor_list_8h" ],
+    [ "tsDescriptorList.h", "ts_descriptor_list_8h.html", [
+      [ "DescriptorList", "classts_1_1_descriptor_list.html", "classts_1_1_descriptor_list" ]
+    ] ],
     [ "tsDirectShowUtils.h", "ts_direct_show_utils_8h.html", "ts_direct_show_utils_8h" ],
     [ "tsDoubleCheckLock.h", "ts_double_check_lock_8h.html", [
       [ "DoubleCheckLock", "classts_1_1_double_check_lock.html", "classts_1_1_double_check_lock" ],
       [ "Reader", "classts_1_1_double_check_lock_1_1_reader.html", "classts_1_1_double_check_lock_1_1_reader" ],
       [ "Writer", "classts_1_1_double_check_lock_1_1_writer.html", "classts_1_1_double_check_lock_1_1_writer" ]
     ] ],
+    [ "tsDTSDescriptor.h", "ts_d_t_s_descriptor_8h.html", [
+      [ "DTSDescriptor", "classts_1_1_d_t_s_descriptor.html", "classts_1_1_d_t_s_descriptor" ]
+    ] ],
     [ "tsDTVProperties.h", "ts_d_t_v_properties_8h.html", [
       [ "DTVProperties", "classts_1_1_d_t_v_properties.html", "classts_1_1_d_t_v_properties" ]
     ] ],
     [ "tsDVS042.h", "ts_d_v_s042_8h.html", [
       [ "DVS042", "classts_1_1_d_v_s042.html", "classts_1_1_d_v_s042" ]
+    ] ],
+    [ "tsEacemPreferredNameIdentifierDescriptor.h", "ts_eacem_preferred_name_identifier_descriptor_8h.html", [
+      [ "EacemPreferredNameIdentifierDescriptor", "classts_1_1_eacem_preferred_name_identifier_descriptor.html", "classts_1_1_eacem_preferred_name_identifier_descriptor" ]
+    ] ],
+    [ "tsEacemPreferredNameListDescriptor.h", "ts_eacem_preferred_name_list_descriptor_8h.html", [
+      [ "EacemPreferredNameListDescriptor", "classts_1_1_eacem_preferred_name_list_descriptor.html", "classts_1_1_eacem_preferred_name_list_descriptor" ]
+    ] ],
+    [ "tsEacemStreamIdentifierDescriptor.h", "ts_eacem_stream_identifier_descriptor_8h.html", [
+      [ "EacemStreamIdentifierDescriptor", "classts_1_1_eacem_stream_identifier_descriptor.html", "classts_1_1_eacem_stream_identifier_descriptor" ]
     ] ],
     [ "tsECB.h", "ts_e_c_b_8h.html", [
       [ "ECB", "classts_1_1_e_c_b.html", "classts_1_1_e_c_b" ]
@@ -192,6 +226,10 @@ var files =
     ] ],
     [ "tsETID.h", "ts_e_t_i_d_8h.html", [
       [ "ETID", "classts_1_1_e_t_i_d.html", "classts_1_1_e_t_i_d" ]
+    ] ],
+    [ "tsEutelsatChannelNumberDescriptor.h", "ts_eutelsat_channel_number_descriptor_8h.html", [
+      [ "Entry", "structts_1_1_eutelsat_channel_number_descriptor_1_1_entry.html", "structts_1_1_eutelsat_channel_number_descriptor_1_1_entry" ],
+      [ "EutelsatChannelNumberDescriptor", "classts_1_1_eutelsat_channel_number_descriptor.html", "classts_1_1_eutelsat_channel_number_descriptor" ]
     ] ],
     [ "tsException.h", "ts_exception_8h.html", "ts_exception_8h" ],
     [ "tsExtendedEventDescriptor.h", "ts_extended_event_descriptor_8h.html", [
@@ -238,6 +276,9 @@ var files =
       [ "LinkageDescriptor", "classts_1_1_linkage_descriptor.html", "classts_1_1_linkage_descriptor" ]
     ] ],
     [ "tsLNB.h", "ts_l_n_b_8h.html", "ts_l_n_b_8h" ],
+    [ "tsLocalTimeOffsetDescriptor.h", "ts_local_time_offset_descriptor_8h.html", [
+      [ "LocalTimeOffsetDescriptor", "classts_1_1_local_time_offset_descriptor.html", "classts_1_1_local_time_offset_descriptor" ]
+    ] ],
     [ "tsLogicalChannelNumberDescriptor.h", "ts_logical_channel_number_descriptor_8h.html", [
       [ "Entry", "structts_1_1_logical_channel_number_descriptor_1_1_entry.html", "structts_1_1_logical_channel_number_descriptor_1_1_entry" ],
       [ "LogicalChannelNumberDescriptor", "classts_1_1_logical_channel_number_descriptor.html", "classts_1_1_logical_channel_number_descriptor" ]
@@ -245,8 +286,14 @@ var files =
     [ "tsMD5.h", "ts_m_d5_8h.html", [
       [ "MD5", "classts_1_1_m_d5.html", "classts_1_1_m_d5" ]
     ] ],
+    [ "tsMediaGuardDate.h", "ts_media_guard_date_8h.html", [
+      [ "MediaGuardDate", "classts_1_1_media_guard_date.html", "classts_1_1_media_guard_date" ]
+    ] ],
     [ "tsMediaTypeUtils.h", "ts_media_type_utils_8h.html", "ts_media_type_utils_8h" ],
     [ "tsMemoryUtils.h", "ts_memory_utils_8h.html", "ts_memory_utils_8h" ],
+    [ "tsMessageDescriptor.h", "ts_message_descriptor_8h.html", [
+      [ "MessageDescriptor", "classts_1_1_message_descriptor.html", "classts_1_1_message_descriptor" ]
+    ] ],
     [ "tsMessageQueue.h", "ts_message_queue_8h.html", [
       [ "MessageQueue", "classts_1_1_message_queue.html", "classts_1_1_message_queue" ]
     ] ],
@@ -360,8 +407,14 @@ var files =
     [ "tsRingNode.h", "ts_ring_node_8h.html", [
       [ "RingNode", "classts_1_1_ring_node.html", "classts_1_1_ring_node" ]
     ] ],
+    [ "tsSafeAccessDate.h", "ts_safe_access_date_8h.html", [
+      [ "SafeAccessDate", "classts_1_1_safe_access_date.html", "classts_1_1_safe_access_date" ]
+    ] ],
     [ "tsSafePtr.h", "ts_safe_ptr_8h.html", [
       [ "SafePtr", "classts_1_1_safe_ptr.html", "classts_1_1_safe_ptr" ]
+    ] ],
+    [ "tsSatelliteDeliverySystemDescriptor.h", "ts_satellite_delivery_system_descriptor_8h.html", [
+      [ "SatelliteDeliverySystemDescriptor", "classts_1_1_satellite_delivery_system_descriptor.html", "classts_1_1_satellite_delivery_system_descriptor" ]
     ] ],
     [ "tsScrambling.h", "ts_scrambling_8h.html", [
       [ "Scrambling", "classts_1_1_scrambling.html", "classts_1_1_scrambling" ]
@@ -432,6 +485,12 @@ var files =
       [ "StreamIdentifierDescriptor", "classts_1_1_stream_identifier_descriptor.html", "classts_1_1_stream_identifier_descriptor" ]
     ] ],
     [ "tsStringUtils.h", "ts_string_utils_8h.html", "ts_string_utils_8h" ],
+    [ "tsSubtitlingDescriptor.h", "ts_subtitling_descriptor_8h.html", [
+      [ "SubtitlingDescriptor", "classts_1_1_subtitling_descriptor.html", "classts_1_1_subtitling_descriptor" ]
+    ] ],
+    [ "tsSupplementaryAudioDescriptor.h", "ts_supplementary_audio_descriptor_8h.html", [
+      [ "SupplementaryAudioDescriptor", "classts_1_1_supplementary_audio_descriptor.html", "classts_1_1_supplementary_audio_descriptor" ]
+    ] ],
     [ "tsSystemMonitor.h", "ts_system_monitor_8h.html", [
       [ "SystemMonitor", "classts_1_1_system_monitor.html", "classts_1_1_system_monitor" ]
     ] ],
@@ -463,6 +522,9 @@ var files =
     ] ],
     [ "tsTDT.h", "ts_t_d_t_8h.html", [
       [ "TDT", "classts_1_1_t_d_t.html", "classts_1_1_t_d_t" ]
+    ] ],
+    [ "tsTeletextDescriptor.h", "ts_teletext_descriptor_8h.html", [
+      [ "TeletextDescriptor", "classts_1_1_teletext_descriptor.html", "classts_1_1_teletext_descriptor" ]
     ] ],
     [ "tsTelnetConnection.h", "ts_telnet_connection_8h.html", [
       [ "TelnetConnection", "classts_1_1_telnet_connection.html", "classts_1_1_telnet_connection" ]
@@ -566,7 +628,16 @@ var files =
     [ "tsVariable.h", "ts_variable_8h.html", [
       [ "Variable", "classts_1_1_variable.html", "classts_1_1_variable" ]
     ] ],
+    [ "tsVBIDataDescriptor.h", "ts_v_b_i_data_descriptor_8h.html", [
+      [ "VBIDataDescriptor", "classts_1_1_v_b_i_data_descriptor.html", "classts_1_1_v_b_i_data_descriptor" ]
+    ] ],
+    [ "tsVBITeletextDescriptor.h", "ts_v_b_i_teletext_descriptor_8h.html", [
+      [ "VBITeletextDescriptor", "classts_1_1_v_b_i_teletext_descriptor.html", "classts_1_1_v_b_i_teletext_descriptor" ]
+    ] ],
     [ "tsVersion.h", "ts_version_8h.html", "ts_version_8h" ],
+    [ "tsViaccessDate.h", "ts_viaccess_date_8h.html", [
+      [ "ViaccessDate", "classts_1_1_viaccess_date.html", "classts_1_1_viaccess_date" ]
+    ] ],
     [ "tsVideoAttributes.h", "ts_video_attributes_8h.html", [
       [ "VideoAttributes", "classts_1_1_video_attributes.html", "classts_1_1_video_attributes" ]
     ] ],

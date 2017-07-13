@@ -147,6 +147,9 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:ae1f172c069cf4ab0ab4156cf966d3cbf"><td class="memItemLeft" align="right" valign="top"><a class="el" href="namespacets.html#a9cdec7a120783847f53fbf71e5eb49f6">PacketCounter</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classts_1_1_section.html#ae1f172c069cf4ab0ab4156cf966d3cbf">getLastTSPacketIndex</a> () const</td></tr>
 <tr class="memdesc:ae1f172c069cf4ab0ab4156cf966d3cbf"><td class="mdescLeft">&#160;</td><td class="mdescRight">Index of last TS packet of the section in the demultiplexed stream.  <a href="#ae1f172c069cf4ab0ab4156cf966d3cbf">More...</a><br /></td></tr>
 <tr class="separator:ae1f172c069cf4ab0ab4156cf966d3cbf"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6fea276b19e6e4a95381820f43973f90"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classts_1_1_section.html#a6fea276b19e6e4a95381820f43973f90">hasDiversifiedPayload</a> () const</td></tr>
+<tr class="memdesc:a6fea276b19e6e4a95381820f43973f90"><td class="mdescLeft">&#160;</td><td class="mdescRight">Check if the section has a "diversified" payload.  <a href="#a6fea276b19e6e4a95381820f43973f90">More...</a><br /></td></tr>
+<tr class="separator:a6fea276b19e6e4a95381820f43973f90"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a5fc58719e1f6496b2f565a33b2a2b383"><td class="memItemLeft" align="right" valign="top">size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classts_1_1_section.html#a5fc58719e1f6496b2f565a33b2a2b383">headerSize</a> () const</td></tr>
 <tr class="memdesc:a5fc58719e1f6496b2f565a33b2a2b383"><td class="mdescLeft">&#160;</td><td class="mdescRight">Size of the section header.  <a href="#a5fc58719e1f6496b2f565a33b2a2b383">More...</a><br /></td></tr>
 <tr class="separator:a5fc58719e1f6496b2f565a33b2a2b383"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -1955,6 +1958,26 @@ Static Public Member Functions</h2></td></tr>
   </table>
   </dd>
 </dl>
+
+</div>
+</div>
+<a id="a6fea276b19e6e4a95381820f43973f90"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6fea276b19e6e4a95381820f43973f90">&#9670;&nbsp;</a></span>hasDiversifiedPayload()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool ts::Section::hasDiversifiedPayload </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Check if the section has a "diversified" payload. </p>
+<p>A payload is "diversified" if its size is 2 bytes or more and if it contains at least 2 different byte values (not all 0x00 or not all 0xFF for instance). </p><dl class="section return"><dt>Returns</dt><dd>True if the payload is diversified. </dd></dl>
 
 </div>
 </div>

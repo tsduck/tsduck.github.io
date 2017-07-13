@@ -1,5 +1,5 @@
 <map id="ts::TCPConnection" name="ts::TCPConnection">
-<area shape="rect" id="node2" href="$classts_1_1_t_c_p_socket.html" title="Base class for TCP/IP sockets. " alt="" coords="18,171,127,197"/>
-<area shape="rect" id="node3" href="$classts_1_1_mutex.html" title="A mutex implementation which is compatible with the ts::Thread class. " alt="" coords="34,81,111,108"/>
-<area shape="rect" id="node4" href="$classts_1_1_mutex_interface.html" title="Interface class for mutex objects. " alt="" coords="9,5,137,32"/>
+<area shape="rect" id="node2" href="$classts_1_1_t_c_p_socket.html" title="Base class for TCP/IP sockets. " alt="" coords="17,171,124,197"/>
+<area shape="rect" id="node3" href="$classts_1_1_mutex.html" title="A mutex implementation which is compatible with the ts::Thread class. " alt="" coords="32,81,109,108"/>
+<area shape="rect" id="node4" href="$classts_1_1_mutex_interface.html" title="Interface class for mutex objects. " alt="" coords="7,5,134,32"/>
 </map>

@@ -23,6 +23,5 @@ var classts_1_1_descriptor_list =
     [ "search", "classts_1_1_descriptor_list.html#aa066423061a5e6badb758d3d782c85fd", null ],
     [ "binarySize", "classts_1_1_descriptor_list.html#a3ab9c99b46dd609caad3978cf244edb2", null ],
     [ "serialize", "classts_1_1_descriptor_list.html#a65fd9e8f041ac2ff8dd84d390ce45b48", null ],
-    [ "lengthSerialize", "classts_1_1_descriptor_list.html#a53d7e46f2928ced7e02544a2a0d13152", null ],
-    [ "display", "classts_1_1_descriptor_list.html#aa1e3f3ae11ec6de0d5789c1c4235380b", null ]
+    [ "lengthSerialize", "classts_1_1_descriptor_list.html#a53d7e46f2928ced7e02544a2a0d13152", null ]
 ];

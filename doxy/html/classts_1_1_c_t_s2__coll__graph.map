@@ -1,6 +1,6 @@
 <map id="ts::CTS2&lt; CIPHER &gt;" name="ts::CTS2&lt; CIPHER &gt;">
-<area shape="rect" id="node2" href="$classts_1_1_cipher_chaining_template.html" title="Base class of all cipher chaining modes, template version. " alt="" coords="13,261,197,303"/>
-<area shape="rect" id="node3" href="$classts_1_1_cipher_chaining.html" title="Base class of all cipher chaining modes. " alt="" coords="40,185,171,212"/>
-<area shape="rect" id="node4" href="$classts_1_1_block_cipher.html" title="Abstract interface of block ciphers. " alt="" coords="5,81,117,108"/>
-<area shape="rect" id="node5" href="$classts_1_1_byte_block.html" title="Definition of a generic block of bytes. " alt="" coords="141,81,243,108"/>
+<area shape="rect" id="node2" href="$classts_1_1_cipher_chaining_template.html" title="Base class of all cipher chaining modes, template version. " alt="" coords="14,261,195,303"/>
+<area shape="rect" id="node3" href="$classts_1_1_cipher_chaining.html" title="Base class of all cipher chaining modes. " alt="" coords="41,185,169,212"/>
+<area shape="rect" id="node4" href="$classts_1_1_block_cipher.html" title="Abstract interface of block ciphers. " alt="" coords="5,81,116,108"/>
+<area shape="rect" id="node5" href="$classts_1_1_byte_block.html" title="Definition of a generic block of bytes. " alt="" coords="141,81,242,108"/>
 </map>

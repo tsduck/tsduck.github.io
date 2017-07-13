@@ -1,6 +1,5 @@
 var classts_1_1_tables_logger_args =
 [
-    [ "SuperClass", "classts_1_1_tables_logger_args.html#a93011b266eefc4a10816974de132b26f", null ],
     [ "Mode", "classts_1_1_tables_logger_args.html#a428ea98fd41b3a5c66068a84727f2bc5", [
       [ "TEXT", "classts_1_1_tables_logger_args.html#a428ea98fd41b3a5c66068a84727f2bc5afdafec0e775adec8d3beb80e31c0c0ea", null ],
       [ "BINARY", "classts_1_1_tables_logger_args.html#a428ea98fd41b3a5c66068a84727f2bc5abacf8b60eddda75f29747ad79b480b6d", null ],

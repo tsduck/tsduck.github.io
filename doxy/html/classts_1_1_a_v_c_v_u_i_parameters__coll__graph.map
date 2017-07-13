@@ -1,5 +1,5 @@
 <map id="ts::AVCVUIParameters" name="ts::AVCVUIParameters">
 <area shape="rect" id="node2" href="$classts_1_1_abstract_a_v_c_structure.html" title="Base class for AVC sub&#45;structures inside access units. " alt="" coords="5,81,176,108"/>
-<area shape="rect" id="node4" href="$classts_1_1_a_v_c_h_r_d_parameters.html" title="AVC HRD (Hypothetical Reference Decoder) parameters. " alt="" coords="113,157,279,184"/>
-<area shape="rect" id="node3" href="$classts_1_1_abstract_a_v_c_data.html" title="Abstract base class for AVC data, either access units or structures. " alt="" coords="17,5,164,32"/>
+<area shape="rect" id="node4" href="$classts_1_1_a_v_c_h_r_d_parameters.html" title="AVC HRD (Hypothetical Reference Decoder) parameters. " alt="" coords="112,157,275,184"/>
+<area shape="rect" id="node3" href="$classts_1_1_abstract_a_v_c_data.html" title="Abstract base class for AVC data, either access units or structures. " alt="" coords="19,5,163,32"/>
 </map>

@@ -1,5 +1,6 @@
 var classts_1_1_abstract_descriptor =
 [
+    [ "DisplayDescriptorFunction", "classts_1_1_abstract_descriptor.html#a0cadfdd8a567109576c0a4ea309e2caa", null ],
     [ "~AbstractDescriptor", "classts_1_1_abstract_descriptor.html#ad1dccbc99421623b33ae1cc40bb98621", null ],
     [ "AbstractDescriptor", "classts_1_1_abstract_descriptor.html#a6eb65262249dbea98be0f5fb8871953a", null ],
     [ "isValid", "classts_1_1_abstract_descriptor.html#a2f62e08de71513b241401b3ef77f4ea2", null ],

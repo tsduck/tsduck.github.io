@@ -5,7 +5,7 @@ var searchData=
   ['waitforprompt',['waitForPrompt',['../classts_1_1_telnet_connection.html#a01a5042d3afde6dd1fcedd0c93319681',1,'ts::TelnetConnection']]],
   ['waitfortermination',['waitForTermination',['../classts_1_1_thread.html#a12dfa09a199489d4d06d223c685d0cbf',1,'ts::Thread']]],
   ['waitwork',['waitWork',['../classts_1_1tsp_1_1_plugin_executor.html#abfd01fb1b9e8d16b778bcd97382857ec',1,'ts::tsp::PluginExecutor']]],
-  ['warning',['Warning',['../structts_1_1_severity.html#a10bb9659b83b5cde84012d46eb62bded',1,'ts::Severity::Warning()'],['../classts_1_1_report_interface.html#a25688d99afc5b334b3918ad0cff3a1fd',1,'ts::ReportInterface::warning(const std::string &amp;msg)'],['../classts_1_1_report_interface.html#a79cc181ca8b1679c8948b9e4433cd6f5',1,'ts::ReportInterface::warning(const char *format,...)']]],
+  ['warning',['warning',['../classts_1_1_report_interface.html#a25688d99afc5b334b3918ad0cff3a1fd',1,'ts::ReportInterface::warning(const std::string &amp;msg)'],['../classts_1_1_report_interface.html#a79cc181ca8b1679c8948b9e4433cd6f5',1,'ts::ReportInterface::warning(const char *format,...)'],['../structts_1_1_severity.html#a10bb9659b83b5cde84012d46eb62bded',1,'ts::Severity::Warning()']]],
   ['what',['what',['../classts_1_1_exception.html#a5b72eaed9e95c16d83be696591d37e30',1,'ts::Exception']]],
   ['wide_5foffset',['WIDE_OFFSET',['../namespacets_1_1hexa.html#a490e158f46bf3d8b610cd81e9d6290e6aab927353510dad33d735f4e7b262f2f8',1,'ts::hexa']]],
   ['win32filetimetomillisecond',['Win32FileTimeToMilliSecond',['../classts_1_1_time.html#a065fd90017d9782055b23550217123b7',1,'ts::Time']]],

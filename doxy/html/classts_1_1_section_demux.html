@@ -107,7 +107,7 @@ Inheritance diagram for ts::SectionDemux:</div>
 <div class="dyncontent">
 <div class="center"><img src="classts_1_1_section_demux__inherit__graph.png" border="0" usemap="#ts_1_1_section_demux_inherit__map" alt="Inheritance graph"/></div>
 <map name="ts_1_1_section_demux_inherit__map" id="ts_1_1_section_demux_inherit__map">
-<area shape="rect" id="node2" href="classts_1_1_standalone_table_demux.html" title="A SectionDemux which extracts MPEG tables without external handler. " alt="" coords="5,80,185,107"/>
+<area shape="rect" id="node2" href="classts_1_1_standalone_table_demux.html" title="A SectionDemux which extracts MPEG tables without external handler. " alt="" coords="5,80,184,107"/>
 </map>
 <center><span class="legend">[<a target="top" href="graph_legend.html">legend</a>]</span></center></div>
 <table class="memberdecls">
@@ -129,6 +129,9 @@ virtual&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="c
 <tr class="memitem:a7b2626b77463a0b4a58f25fdc2c99c83"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classts_1_1_section_demux.html#a7b2626b77463a0b4a58f25fdc2c99c83">addPID</a> (<a class="el" href="namespacets.html#a90e2f5f7d7011d87cc23a8fef31958dc">PID</a> pid)</td></tr>
 <tr class="memdesc:a7b2626b77463a0b4a58f25fdc2c99c83"><td class="mdescLeft">&#160;</td><td class="mdescRight">Add one PID to filter.  <a href="#a7b2626b77463a0b4a58f25fdc2c99c83">More...</a><br /></td></tr>
 <tr class="separator:a7b2626b77463a0b4a58f25fdc2c99c83"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a455351670299d6591785c095c6e38534"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classts_1_1_section_demux.html#a455351670299d6591785c095c6e38534">addPIDs</a> (const <a class="el" href="namespacets.html#ab1d1f2460b477bc70d2e394204a2c09b">PIDSet</a> &amp;pids)</td></tr>
+<tr class="memdesc:a455351670299d6591785c095c6e38534"><td class="mdescLeft">&#160;</td><td class="mdescRight">Add several PID's to filter.  <a href="#a455351670299d6591785c095c6e38534">More...</a><br /></td></tr>
+<tr class="separator:a455351670299d6591785c095c6e38534"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ad679088a1239180f349d2b4469fd9065"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classts_1_1_section_demux.html#ad679088a1239180f349d2b4469fd9065">feedPacket</a> (const <a class="el" href="structts_1_1_t_s_packet.html">TSPacket</a> &amp;pkt)</td></tr>
 <tr class="memdesc:ad679088a1239180f349d2b4469fd9065"><td class="mdescLeft">&#160;</td><td class="mdescRight">The following method feeds the demux with a TS packet.  <a href="#ad679088a1239180f349d2b4469fd9065">More...</a><br /></td></tr>
 <tr class="separator:ad679088a1239180f349d2b4469fd9065"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -295,6 +298,40 @@ virtual&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="c
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramdir">[in]</td><td class="paramname">pid</td><td>The new PID to filter. </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="a455351670299d6591785c095c6e38534"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a455351670299d6591785c095c6e38534">&#9670;&nbsp;</a></span>addPIDs()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void ts::SectionDemux::addPIDs </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="namespacets.html#ab1d1f2460b477bc70d2e394204a2c09b">PIDSet</a> &amp;&#160;</td>
+          <td class="paramname"><em>pids</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Add several PID's to filter. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">pids</td><td>The list of new PID's to filter. </td></tr>
   </table>
   </dd>
 </dl>

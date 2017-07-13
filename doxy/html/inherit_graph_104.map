@@ -1,8 +1,3 @@
 <map id="Graphical Class Hierarchy" name="Graphical Class Hierarchy">
-<area shape="rect" id="node1" href="$classts_1_1_t_c_p_socket.html" title="Base class for TCP/IP sockets. " alt="" coords="5,97,115,123"/>
-<area shape="rect" id="node2" href="$classts_1_1_t_c_p_connection.html" title="Base class for a TCP/IP session. " alt="" coords="163,71,297,98"/>
-<area shape="rect" id="node6" href="$classts_1_1_t_c_p_server.html" title="Implementation of a TCP/IP server. " alt="" coords="177,122,283,149"/>
-<area shape="rect" id="node3" href="$classts_1_1tlv_1_1_connection.html" title="ts::tlv::Connection\l\&lt; ts::Mutex \&gt;" alt="" coords="352,5,481,47"/>
-<area shape="rect" id="node4" href="$classts_1_1_telnet_connection.html" title="Implementation of a half&#45;duplex line oriented telnet connection. " alt="" coords="345,71,488,98"/>
-<area shape="rect" id="node5" href="$classts_1_1tlv_1_1_connection.html" title="TCP connection using TLV messages. " alt="" coords="352,123,481,164"/>
+<area shape="rect" id="node1" href="$classts_1_1_section.html" title="Representation of MPEG PSI/SI sections. " alt="" coords="5,5,91,32"/>
 </map>

@@ -1,4 +1,4 @@
 <map id="ts::DektecControl" name="ts::DektecControl">
-<area shape="rect" id="node2" href="$classts_1_1_args.html" title="An encapsulation of command line syntax and analysis. " alt="" coords="37,80,105,107"/>
-<area shape="rect" id="node3" href="$classts_1_1_report_interface.html" title="Abstract interface for event reporting and monitoring. " alt="" coords="5,5,136,32"/>
+<area shape="rect" id="node2" href="$classts_1_1_args.html" title="An encapsulation of command line syntax and analysis. " alt="" coords="35,80,103,107"/>
+<area shape="rect" id="node3" href="$classts_1_1_report_interface.html" title="Abstract interface for event reporting and monitoring. " alt="" coords="5,5,133,32"/>
 </map>

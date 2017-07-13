@@ -299,9 +299,9 @@ Static Public Member Functions</h2></td></tr>
 <tr class="memitem:ad789e1ea8e7265bdb53f48d998a4fbfe"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="namespacets.html#acd890ba84c12ced734201afae32a3e95">NanoSecond</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classts_1_1_time.html#ad789e1ea8e7265bdb53f48d998a4fbfe">UnixRealTimeClockNanoSeconds</a> (const <a class="el" href="namespacets.html#a2c690abc5d90fe5ba7c3ec0237afc348">MilliSecond</a> &amp;delay=0)</td></tr>
 <tr class="memdesc:ad789e1ea8e7265bdb53f48d998a4fbfe"><td class="mdescLeft">&#160;</td><td class="mdescRight">This static routine gets the current real time clock and adds a delay in milliseconds (UNIX systems only).  <a href="#ad789e1ea8e7265bdb53f48d998a4fbfe">More...</a><br /></td></tr>
 <tr class="separator:ad789e1ea8e7265bdb53f48d998a4fbfe"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a146c42379455c27cc237b0e7c0b3d3df"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="classts_1_1_time.html">Time</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classts_1_1_time.html#a146c42379455c27cc237b0e7c0b3d3df">UnixTimeToUTC</a> (const time_t &amp;unixTime)</td></tr>
-<tr class="memdesc:a146c42379455c27cc237b0e7c0b3d3df"><td class="mdescLeft">&#160;</td><td class="mdescRight">This static routine converts a UNIX <code>time_t</code> to a UTC time (UNIX systems only).  <a href="#a146c42379455c27cc237b0e7c0b3d3df">More...</a><br /></td></tr>
-<tr class="separator:a146c42379455c27cc237b0e7c0b3d3df"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab24b5d828b8a81673a40a9883042ae10"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="classts_1_1_time.html">Time</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classts_1_1_time.html#ab24b5d828b8a81673a40a9883042ae10">UnixTimeToUTC</a> (const uint32_t unixTime)</td></tr>
+<tr class="memdesc:ab24b5d828b8a81673a40a9883042ae10"><td class="mdescLeft">&#160;</td><td class="mdescRight">This static routine converts a UNIX <code>time_t</code> to a UTC time.  <a href="#ab24b5d828b8a81673a40a9883042ae10">More...</a><br /></td></tr>
+<tr class="separator:ab24b5d828b8a81673a40a9883042ae10"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a065fd90017d9782055b23550217123b7"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="namespacets.html#a2c690abc5d90fe5ba7c3ec0237afc348">MilliSecond</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classts_1_1_time.html#a065fd90017d9782055b23550217123b7">Win32FileTimeToMilliSecond</a> (const ::FILETIME &amp;fileTime)</td></tr>
 <tr class="memdesc:a065fd90017d9782055b23550217123b7"><td class="mdescLeft">&#160;</td><td class="mdescRight">This static routine converts a Win32 <code>FILETIME</code> to <code>MilliSecond</code> (Microsoft Windows only).  <a href="#a065fd90017d9782055b23550217123b7">More...</a><br /></td></tr>
 <tr class="separator:a065fd90017d9782055b23550217123b7"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -2014,8 +2014,8 @@ static const <a class="el" href="classts_1_1_time.html">Time</a>&#160;</td><td c
 
 </div>
 </div>
-<a id="a146c42379455c27cc237b0e7c0b3d3df"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a146c42379455c27cc237b0e7c0b3d3df">&#9670;&nbsp;</a></span>UnixTimeToUTC()</h2>
+<a id="ab24b5d828b8a81673a40a9883042ae10"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab24b5d828b8a81673a40a9883042ae10">&#9670;&nbsp;</a></span>UnixTimeToUTC()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -2026,7 +2026,7 @@ static const <a class="el" href="classts_1_1_time.html">Time</a>&#160;</td><td c
         <tr>
           <td class="memname">static <a class="el" href="classts_1_1_time.html">Time</a> ts::Time::UnixTimeToUTC </td>
           <td>(</td>
-          <td class="paramtype">const time_t &amp;&#160;</td>
+          <td class="paramtype">const uint32_t&#160;</td>
           <td class="paramname"><em>unixTime</em></td><td>)</td>
           <td></td>
         </tr>
@@ -2038,8 +2038,7 @@ static const <a class="el" href="classts_1_1_time.html">Time</a>&#160;</td><td c
 </table>
 </div><div class="memdoc">
 
-<p>This static routine converts a UNIX <code>time_t</code> to a UTC time (UNIX systems only). </p>
-<p>This function is available on UNIX systems only and should not be used on portable software.</p>
+<p>This static routine converts a UNIX <code>time_t</code> to a UTC time. </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramdir">[in]</td><td class="paramname">unixTime</td><td>A UNIX <code>time_t</code> value. </td></tr>

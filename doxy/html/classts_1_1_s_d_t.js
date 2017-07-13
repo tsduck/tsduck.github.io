@@ -10,7 +10,7 @@ var classts_1_1_s_d_t =
     [ "findService", "classts_1_1_s_d_t.html#a84e6292d4dff626844a10fc9e1be237c", null ],
     [ "serialize", "classts_1_1_s_d_t.html#ae031dc65dff1ca7b9894f68a0a5d9946", null ],
     [ "deserialize", "classts_1_1_s_d_t.html#ab2cb52e0490beb1f8b8d684350412b78", null ],
-    [ "DisplaySection", "classts_1_1_s_d_t.html#ae4834303730247984f80239cbc7712d7", null ],
+    [ "DisplaySection", "classts_1_1_s_d_t.html#a268744888b28dd5197afea61ea263d59", null ],
     [ "ts_id", "classts_1_1_s_d_t.html#ad1dbf1237d7d48b429d24e6449fae66a", null ],
     [ "onetw_id", "classts_1_1_s_d_t.html#accfbe139457d20a7d35d806e6e8a0a57", null ],
     [ "services", "classts_1_1_s_d_t.html#a7f15ed84f4666e767cc2b87132d824f2", null ]

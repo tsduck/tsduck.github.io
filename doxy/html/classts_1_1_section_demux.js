@@ -6,6 +6,7 @@ var classts_1_1_section_demux =
     [ "feedPacket", "classts_1_1_section_demux.html#ad679088a1239180f349d2b4469fd9065", null ],
     [ "setPIDFilter", "classts_1_1_section_demux.html#aec7973d74931594c013913f49cacdb85", null ],
     [ "addPID", "classts_1_1_section_demux.html#a7b2626b77463a0b4a58f25fdc2c99c83", null ],
+    [ "addPIDs", "classts_1_1_section_demux.html#a455351670299d6591785c095c6e38534", null ],
     [ "removePID", "classts_1_1_section_demux.html#a98487f57c79ac0213a942aa0e3d4b6cb", null ],
     [ "setTableHandler", "classts_1_1_section_demux.html#afc550bc263cd6d4a1b6b17b0b932592e", null ],
     [ "setSectionHandler", "classts_1_1_section_demux.html#a5a5ce7eba2347da6f6da50d7f63183c7", null ],

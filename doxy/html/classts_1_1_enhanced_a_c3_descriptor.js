@@ -3,6 +3,7 @@ var classts_1_1_enhanced_a_c3_descriptor =
     [ "EnhancedAC3Descriptor", "classts_1_1_enhanced_a_c3_descriptor.html#a8846ea5f1692a1683ad751b857bcf19c", null ],
     [ "EnhancedAC3Descriptor", "classts_1_1_enhanced_a_c3_descriptor.html#ac0d3dc7a4d1f6a4b6658b7072865a715", null ],
     [ "merge", "classts_1_1_enhanced_a_c3_descriptor.html#a84e0bb23f3c93579b424bf8dfeaaf1e2", null ],
+    [ "DisplayDescriptor", "classts_1_1_enhanced_a_c3_descriptor.html#a875933696142730c4e4b534581fd1d27", null ],
     [ "serialize", "classts_1_1_enhanced_a_c3_descriptor.html#aecd1cec2488ddb50c2202bd0f5eb6103", null ],
     [ "deserialize", "classts_1_1_enhanced_a_c3_descriptor.html#a20345ef2a93f4e4ddffd63e2fc5fec8e", null ],
     [ "component_type", "classts_1_1_enhanced_a_c3_descriptor.html#addb4b9ea6b0936c1d7358eb726cd2abf", null ],

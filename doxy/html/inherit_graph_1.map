@@ -1,8 +1,7 @@
 <map id="Graphical Class Hierarchy" name="Graphical Class Hierarchy">
-<area shape="rect" id="node1" href="$classts_1_1_abstract_a_v_c_data.html" title="Abstract base class for AVC data, either access units or structures. " alt="" coords="5,31,152,57"/>
-<area shape="rect" id="node2" href="$classts_1_1_abstract_a_v_c_access_unit.html" title="Base class for AVC access units, aka NALunits. " alt="" coords="200,5,387,32"/>
-<area shape="rect" id="node4" href="$classts_1_1_abstract_a_v_c_structure.html" title="Base class for AVC sub&#45;structures inside access units. " alt="" coords="208,56,379,83"/>
-<area shape="rect" id="node3" href="$classts_1_1_a_v_c_sequence_parameter_set.html" title="Representation of an AVC sequence parameter set access unit. " alt="" coords="435,5,641,32"/>
-<area shape="rect" id="node5" href="$classts_1_1_a_v_c_h_r_d_parameters.html" title="AVC HRD (Hypothetical Reference Decoder) parameters. " alt="" coords="455,56,621,83"/>
-<area shape="rect" id="node6" href="$classts_1_1_a_v_c_v_u_i_parameters.html" title="AVC VUI (Video Usability Information) parameters. " alt="" coords="459,107,617,133"/>
+<area shape="rect" id="node1" href="$classts_1_1_abstract_audio_video_attributes.html" title="Abstract base class for MPEG audio and video attributes. " alt="" coords="5,81,217,108"/>
+<area shape="rect" id="node2" href="$classts_1_1_a_c3_attributes.html" title="AC&#45;3 (DD) and Enhanced&#45;AC&#45;3 (DD+) audio attributes. " alt="" coords="269,5,392,32"/>
+<area shape="rect" id="node3" href="$classts_1_1_audio_attributes.html" title="Audio attributes for MPEG&#45;1 / MPEG&#45;2 audio. " alt="" coords="265,56,396,83"/>
+<area shape="rect" id="node4" href="$classts_1_1_a_v_c_attributes.html" title="Video attributes for Advanced Video Coding. " alt="" coords="269,107,393,133"/>
+<area shape="rect" id="node5" href="$classts_1_1_video_attributes.html" title="Video attributes for MPEG&#45;1 and MPEG&#45;2. " alt="" coords="265,157,396,184"/>
 </map>

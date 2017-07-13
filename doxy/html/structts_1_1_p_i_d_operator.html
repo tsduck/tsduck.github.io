@@ -105,15 +105,23 @@ $(document).ready(function(){initNavTree('structts_1_1_p_i_d_operator.html','');
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
-<tr class="memitem:aadf450802c78266469eee06c8fdad6dc"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structts_1_1_p_i_d_operator.html#aadf450802c78266469eee06c8fdad6dc">PIDOperator</a> (<a class="el" href="namespacets.html#a90e2f5f7d7011d87cc23a8fef31958dc">PID</a> pid_=0, uint32_t oper_=0)</td></tr>
-<tr class="memdesc:aadf450802c78266469eee06c8fdad6dc"><td class="mdescLeft">&#160;</td><td class="mdescRight">Constructor.  <a href="#aadf450802c78266469eee06c8fdad6dc">More...</a><br /></td></tr>
-<tr class="separator:aadf450802c78266469eee06c8fdad6dc"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:acdd3e41867d0c51371c43c14b20a2abc"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structts_1_1_p_i_d_operator.html#acdd3e41867d0c51371c43c14b20a2abc">PIDOperator</a> (<a class="el" href="namespacets.html#a90e2f5f7d7011d87cc23a8fef31958dc">PID</a> pid_=0, bool is_emm_=false, uint16_t cas_id_=0, uint32_t oper_=0)</td></tr>
+<tr class="memdesc:acdd3e41867d0c51371c43c14b20a2abc"><td class="mdescLeft">&#160;</td><td class="mdescRight">Constructor.  <a href="#acdd3e41867d0c51371c43c14b20a2abc">More...</a><br /></td></tr>
+<tr class="separator:acdd3e41867d0c51371c43c14b20a2abc"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aaf9d1a1877427ab99041593dc69fc5a3"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structts_1_1_p_i_d_operator.html#aaf9d1a1877427ab99041593dc69fc5a3">operator&lt;</a> (const <a class="el" href="structts_1_1_p_i_d_operator.html">PIDOperator</a> &amp;po) const</td></tr>
 <tr class="memdesc:aaf9d1a1877427ab99041593dc69fc5a3"><td class="mdescLeft">&#160;</td><td class="mdescRight">Comparison operator.  <a href="#aaf9d1a1877427ab99041593dc69fc5a3">More...</a><br /></td></tr>
 <tr class="separator:aaf9d1a1877427ab99041593dc69fc5a3"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-attribs"></a>
 Public Attributes</h2></td></tr>
+<tr class="memitem:ac1a50cb3c3356be933bbf7d88e459fa0"><td class="memItemLeft" align="right" valign="top"><a id="ac1a50cb3c3356be933bbf7d88e459fa0"></a>
+uint16_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structts_1_1_p_i_d_operator.html#ac1a50cb3c3356be933bbf7d88e459fa0">cas_id</a></td></tr>
+<tr class="memdesc:ac1a50cb3c3356be933bbf7d88e459fa0"><td class="mdescLeft">&#160;</td><td class="mdescRight">CAS identifier. <br /></td></tr>
+<tr class="separator:ac1a50cb3c3356be933bbf7d88e459fa0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a88fa61005cec19ca4bee5463a1f49d26"><td class="memItemLeft" align="right" valign="top"><a id="a88fa61005cec19ca4bee5463a1f49d26"></a>
+bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structts_1_1_p_i_d_operator.html#a88fa61005cec19ca4bee5463a1f49d26">is_emm</a></td></tr>
+<tr class="memdesc:a88fa61005cec19ca4bee5463a1f49d26"><td class="mdescLeft">&#160;</td><td class="mdescRight">True for EMM PID, false for ECM PID. <br /></td></tr>
+<tr class="separator:a88fa61005cec19ca4bee5463a1f49d26"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aafba614ee26baffa7a261af12427fa59"><td class="memItemLeft" align="right" valign="top"><a id="aafba614ee26baffa7a261af12427fa59"></a>
 uint32_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structts_1_1_p_i_d_operator.html#aafba614ee26baffa7a261af12427fa59">oper</a></td></tr>
 <tr class="memdesc:aafba614ee26baffa7a261af12427fa59"><td class="mdescLeft">&#160;</td><td class="mdescRight">Operator id. <br /></td></tr>
@@ -126,20 +134,29 @@ uint32_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>Association of a PID and an <em>operator</em> id (CAS-specific). </p>
 </div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
-<a id="aadf450802c78266469eee06c8fdad6dc"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aadf450802c78266469eee06c8fdad6dc">&#9670;&nbsp;</a></span>PIDOperator()</h2>
+<a id="acdd3e41867d0c51371c43c14b20a2abc"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#acdd3e41867d0c51371c43c14b20a2abc">&#9670;&nbsp;</a></span>PIDOperator()</h2>
 
 <div class="memitem">
 <div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
       <table class="memname">
         <tr>
           <td class="memname">ts::PIDOperator::PIDOperator </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="namespacets.html#a90e2f5f7d7011d87cc23a8fef31958dc">PID</a>&#160;</td>
           <td class="paramname"><em>pid_</em> = <code>0</code>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">bool&#160;</td>
+          <td class="paramname"><em>is_emm_</em> = <code>false</code>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">uint16_t&#160;</td>
+          <td class="paramname"><em>cas_id_</em> = <code>0</code>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
@@ -153,17 +170,14 @@ uint32_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="
           <td></td><td></td>
         </tr>
       </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
-  </tr>
-</table>
 </div><div class="memdoc">
 
 <p>Constructor. </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramdir">[in]</td><td class="paramname">pid_</td><td>PID value. </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">is_emm_</td><td>True for EMM PID, false for ECM PID. </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">cas_id_</td><td>CAS identifier. </td></tr>
     <tr><td class="paramdir">[in]</td><td class="paramname">oper_</td><td>CAS-specific operator id. </td></tr>
   </table>
   </dd>
@@ -177,9 +191,6 @@ uint32_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="
 
 <div class="memitem">
 <div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
       <table class="memname">
         <tr>
           <td class="memname">bool ts::PIDOperator::operator&lt; </td>
@@ -189,11 +200,6 @@ uint32_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="
           <td> const</td>
         </tr>
       </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
-  </tr>
-</table>
 </div><div class="memdoc">
 
 <p>Comparison operator. </p>

@@ -93,6 +93,7 @@ $(document).ready(function(){initNavTree('classts_1_1_tables_display.html','');}
 <div class="header">
   <div class="summary">
 <a href="#pub-methods">Public Member Functions</a> &#124;
+<a href="#pro-methods">Protected Member Functions</a> &#124;
 <a href="classts_1_1_tables_display-members.html">List of all members</a>  </div>
   <div class="headertitle">
 <div class="title">ts::TablesDisplay Class Reference</div>  </div>
@@ -101,33 +102,115 @@ $(document).ready(function(){initNavTree('classts_1_1_tables_display.html','');}
 
 <p>A class to display PSI/SI tables.  
  <a href="classts_1_1_tables_display.html#details">More...</a></p>
-<div class="dynheader">
-Inheritance diagram for ts::TablesDisplay:</div>
-<div class="dyncontent">
-<div class="center"><img src="classts_1_1_tables_display__inherit__graph.png" border="0" usemap="#ts_1_1_tables_display_inherit__map" alt="Inheritance graph"/></div>
-<map name="ts_1_1_tables_display_inherit__map" id="ts_1_1_tables_display_inherit__map">
-<area shape="rect" id="node2" href="classts_1_1_p_s_i_logger.html" title="This class logs sections and tables. " alt="" coords="5,80,108,107"/>
-<area shape="rect" id="node3" href="classts_1_1_tables_logger.html" title="This class logs sections and tables. " alt="" coords="132,80,251,107"/>
-</map>
-<center><span class="legend">[<a target="top" href="graph_legend.html">legend</a>]</span></center></div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
-<tr class="memitem:a722f759cde01db27cab8eb1f15b4b393"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classts_1_1_tables_display.html#a722f759cde01db27cab8eb1f15b4b393">TablesDisplay</a> (const <a class="el" href="classts_1_1_tables_display_args.html">TablesDisplayArgs</a> &amp;options=<a class="el" href="classts_1_1_tables_display_args.html">TablesDisplayArgs</a>())</td></tr>
-<tr class="memdesc:a722f759cde01db27cab8eb1f15b4b393"><td class="mdescLeft">&#160;</td><td class="mdescRight">Constructor.  <a href="#a722f759cde01db27cab8eb1f15b4b393">More...</a><br /></td></tr>
-<tr class="separator:a722f759cde01db27cab8eb1f15b4b393"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ad4d09314dbe9e421934cf4e44b78fb84"><td class="memItemLeft" align="right" valign="top">std::ostream &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classts_1_1_tables_display.html#ad4d09314dbe9e421934cf4e44b78fb84">displaySection</a> (std::ostream &amp;strm, const <a class="el" href="classts_1_1_section.html">Section</a> &amp;section, int indent=0, <a class="el" href="namespacets.html#a1de171688c3a6ff71896a8f3e5817c11">CASFamily</a> cas=<a class="el" href="namespacets.html#a1de171688c3a6ff71896a8f3e5817c11a79bba7cbc9e78632bc132244f9c83d9e">CAS_OTHER</a>, bool no_header=false)</td></tr>
-<tr class="memdesc:ad4d09314dbe9e421934cf4e44b78fb84"><td class="mdescLeft">&#160;</td><td class="mdescRight">Display a section on the output stream.  <a href="#ad4d09314dbe9e421934cf4e44b78fb84">More...</a><br /></td></tr>
-<tr class="separator:ad4d09314dbe9e421934cf4e44b78fb84"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a44a0bcdb3d11db13f32438ad0735e5ea"><td class="memItemLeft" align="right" valign="top">std::ostream &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classts_1_1_tables_display.html#a44a0bcdb3d11db13f32438ad0735e5ea">displayTable</a> (std::ostream &amp;strm, const <a class="el" href="classts_1_1_binary_table.html">BinaryTable</a> &amp;table, int indent=0, <a class="el" href="namespacets.html#a1de171688c3a6ff71896a8f3e5817c11">CASFamily</a> cas=<a class="el" href="namespacets.html#a1de171688c3a6ff71896a8f3e5817c11a79bba7cbc9e78632bc132244f9c83d9e">CAS_OTHER</a>)</td></tr>
-<tr class="memdesc:a44a0bcdb3d11db13f32438ad0735e5ea"><td class="mdescLeft">&#160;</td><td class="mdescRight">Display a table on the output stream.  <a href="#a44a0bcdb3d11db13f32438ad0735e5ea">More...</a><br /></td></tr>
-<tr class="separator:a44a0bcdb3d11db13f32438ad0735e5ea"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a695136746ed13ce5aa427ffeabb02b71"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classts_1_1_tables_display.html#a695136746ed13ce5aa427ffeabb02b71">TablesDisplay</a> (const <a class="el" href="classts_1_1_tables_display_args.html">TablesDisplayArgs</a> &amp;options, <a class="el" href="classts_1_1_report_interface.html">ReportInterface</a> &amp;<a class="el" href="classts_1_1_tables_display.html#a7c35267a0272010b254e1044e7af8790">report</a>)</td></tr>
+<tr class="memdesc:a695136746ed13ce5aa427ffeabb02b71"><td class="mdescLeft">&#160;</td><td class="mdescRight">Constructor.  <a href="#a695136746ed13ce5aa427ffeabb02b71">More...</a><br /></td></tr>
+<tr class="separator:a695136746ed13ce5aa427ffeabb02b71"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6c3c3196d1a654dc0b59783616915b31"><td class="memItemLeft" align="right" valign="top"><a id="a6c3c3196d1a654dc0b59783616915b31"></a>
+virtual&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classts_1_1_tables_display.html#a6c3c3196d1a654dc0b59783616915b31">~TablesDisplay</a> ()</td></tr>
+<tr class="memdesc:a6c3c3196d1a654dc0b59783616915b31"><td class="mdescLeft">&#160;</td><td class="mdescRight">Virtual destructor. <br /></td></tr>
+<tr class="separator:a6c3c3196d1a654dc0b59783616915b31"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:adf6072e2673eed8be80c027665fd5889"><td class="memItemLeft" align="right" valign="top">virtual std::ostream &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classts_1_1_tables_display.html#adf6072e2673eed8be80c027665fd5889">displayDescriptor</a> (const <a class="el" href="classts_1_1_descriptor.html">Descriptor</a> &amp;desc, int indent=0, <a class="el" href="namespacets.html#a3c2cbf0a41a7db2577a737cc9568e3cb">TID</a> tid=<a class="el" href="namespacets.html#ae56343654e2b01380409afc12dd2b037ad51c95d1eb15054cb4f69437a5207ecf">TID_NULL</a>, <a class="el" href="namespacets.html#ab9a8367d7529bc4d441c8e4e61e31984">PDS</a> pds=0, <a class="el" href="namespacets.html#a1de171688c3a6ff71896a8f3e5817c11">CASFamily</a> cas=<a class="el" href="namespacets.html#a1de171688c3a6ff71896a8f3e5817c11a79bba7cbc9e78632bc132244f9c83d9e">CAS_OTHER</a>)</td></tr>
+<tr class="memdesc:adf6072e2673eed8be80c027665fd5889"><td class="mdescLeft">&#160;</td><td class="mdescRight">Display a descriptor on the output stream.  <a href="#adf6072e2673eed8be80c027665fd5889">More...</a><br /></td></tr>
+<tr class="separator:adf6072e2673eed8be80c027665fd5889"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac9974836bca4706219b4a57ad0ffadad"><td class="memItemLeft" align="right" valign="top">virtual std::ostream &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classts_1_1_tables_display.html#ac9974836bca4706219b4a57ad0ffadad">displayDescriptorData</a> (<a class="el" href="namespacets.html#a6d34ed2bcf670e7b2a310f660ca900ee">DID</a> did, const uint8_t *payload, size_t size, int indent=0, <a class="el" href="namespacets.html#a3c2cbf0a41a7db2577a737cc9568e3cb">TID</a> tid=<a class="el" href="namespacets.html#ae56343654e2b01380409afc12dd2b037ad51c95d1eb15054cb4f69437a5207ecf">TID_NULL</a>, <a class="el" href="namespacets.html#ab9a8367d7529bc4d441c8e4e61e31984">PDS</a> pds=0, <a class="el" href="namespacets.html#a1de171688c3a6ff71896a8f3e5817c11">CASFamily</a> cas=<a class="el" href="namespacets.html#a1de171688c3a6ff71896a8f3e5817c11a79bba7cbc9e78632bc132244f9c83d9e">CAS_OTHER</a>)</td></tr>
+<tr class="memdesc:ac9974836bca4706219b4a57ad0ffadad"><td class="mdescLeft">&#160;</td><td class="mdescRight">Display the payload of a descriptor on the output stream.  <a href="#ac9974836bca4706219b4a57ad0ffadad">More...</a><br /></td></tr>
+<tr class="separator:ac9974836bca4706219b4a57ad0ffadad"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:afed1d64a21d3d45005e0e88a72727ed7"><td class="memItemLeft" align="right" valign="top">virtual std::ostream &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classts_1_1_tables_display.html#afed1d64a21d3d45005e0e88a72727ed7">displayDescriptorList</a> (const void *data, size_t size, int indent=0, <a class="el" href="namespacets.html#a3c2cbf0a41a7db2577a737cc9568e3cb">TID</a> tid=<a class="el" href="namespacets.html#ae56343654e2b01380409afc12dd2b037ad51c95d1eb15054cb4f69437a5207ecf">TID_NULL</a>, <a class="el" href="namespacets.html#ab9a8367d7529bc4d441c8e4e61e31984">PDS</a> pds=0, <a class="el" href="namespacets.html#a1de171688c3a6ff71896a8f3e5817c11">CASFamily</a> cas=<a class="el" href="namespacets.html#a1de171688c3a6ff71896a8f3e5817c11a79bba7cbc9e78632bc132244f9c83d9e">CAS_OTHER</a>)</td></tr>
+<tr class="memdesc:afed1d64a21d3d45005e0e88a72727ed7"><td class="mdescLeft">&#160;</td><td class="mdescRight">Display a list of descriptors from a memory area.  <a href="#afed1d64a21d3d45005e0e88a72727ed7">More...</a><br /></td></tr>
+<tr class="separator:afed1d64a21d3d45005e0e88a72727ed7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ace0e30426cbb8b1e362a4ade8e33d735"><td class="memItemLeft" align="right" valign="top">virtual std::ostream &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classts_1_1_tables_display.html#ace0e30426cbb8b1e362a4ade8e33d735">displayDescriptorList</a> (const <a class="el" href="classts_1_1_descriptor_list.html">DescriptorList</a> &amp;list, int indent=0, <a class="el" href="namespacets.html#a3c2cbf0a41a7db2577a737cc9568e3cb">TID</a> tid=<a class="el" href="namespacets.html#ae56343654e2b01380409afc12dd2b037ad51c95d1eb15054cb4f69437a5207ecf">TID_NULL</a>, <a class="el" href="namespacets.html#ab9a8367d7529bc4d441c8e4e61e31984">PDS</a> pds=0, <a class="el" href="namespacets.html#a1de171688c3a6ff71896a8f3e5817c11">CASFamily</a> cas=<a class="el" href="namespacets.html#a1de171688c3a6ff71896a8f3e5817c11a79bba7cbc9e78632bc132244f9c83d9e">CAS_OTHER</a>)</td></tr>
+<tr class="memdesc:ace0e30426cbb8b1e362a4ade8e33d735"><td class="mdescLeft">&#160;</td><td class="mdescRight">Display a list of descriptors.  <a href="#ace0e30426cbb8b1e362a4ade8e33d735">More...</a><br /></td></tr>
+<tr class="separator:ace0e30426cbb8b1e362a4ade8e33d735"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3d59b8b4aa609c18dd6d50c029619b58"><td class="memItemLeft" align="right" valign="top">virtual std::ostream &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classts_1_1_tables_display.html#a3d59b8b4aa609c18dd6d50c029619b58">displayExtraData</a> (const void *data, size_t size, int indent=0)</td></tr>
+<tr class="memdesc:a3d59b8b4aa609c18dd6d50c029619b58"><td class="mdescLeft">&#160;</td><td class="mdescRight">A utility method to dump extraneous bytes after expected data.  <a href="#a3d59b8b4aa609c18dd6d50c029619b58">More...</a><br /></td></tr>
+<tr class="separator:a3d59b8b4aa609c18dd6d50c029619b58"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a06fc7191fc4a550e62d1fbbf0b1ce7c5"><td class="memItemLeft" align="right" valign="top">virtual std::ostream &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classts_1_1_tables_display.html#a06fc7191fc4a550e62d1fbbf0b1ce7c5">displaySection</a> (const <a class="el" href="classts_1_1_section.html">Section</a> &amp;section, int indent=0, <a class="el" href="namespacets.html#a1de171688c3a6ff71896a8f3e5817c11">CASFamily</a> cas=<a class="el" href="namespacets.html#a1de171688c3a6ff71896a8f3e5817c11a79bba7cbc9e78632bc132244f9c83d9e">CAS_OTHER</a>, bool no_header=false)</td></tr>
+<tr class="memdesc:a06fc7191fc4a550e62d1fbbf0b1ce7c5"><td class="mdescLeft">&#160;</td><td class="mdescRight">Display a section on the output stream.  <a href="#a06fc7191fc4a550e62d1fbbf0b1ce7c5">More...</a><br /></td></tr>
+<tr class="separator:a06fc7191fc4a550e62d1fbbf0b1ce7c5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9381049a01db8d8e6329c2c892ba353f"><td class="memItemLeft" align="right" valign="top">virtual std::ostream &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classts_1_1_tables_display.html#a9381049a01db8d8e6329c2c892ba353f">displaySectionData</a> (const <a class="el" href="classts_1_1_section.html">Section</a> &amp;section, int indent=0, <a class="el" href="namespacets.html#a1de171688c3a6ff71896a8f3e5817c11">CASFamily</a> cas=<a class="el" href="namespacets.html#a1de171688c3a6ff71896a8f3e5817c11a79bba7cbc9e78632bc132244f9c83d9e">CAS_OTHER</a>)</td></tr>
+<tr class="memdesc:a9381049a01db8d8e6329c2c892ba353f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Display the payload of a section on the output stream.  <a href="#a9381049a01db8d8e6329c2c892ba353f">More...</a><br /></td></tr>
+<tr class="separator:a9381049a01db8d8e6329c2c892ba353f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad934eccad48df481b370d2e55b2a8268"><td class="memItemLeft" align="right" valign="top">virtual std::ostream &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classts_1_1_tables_display.html#ad934eccad48df481b370d2e55b2a8268">displayTable</a> (const <a class="el" href="classts_1_1_binary_table.html">BinaryTable</a> &amp;table, int indent=0, <a class="el" href="namespacets.html#a1de171688c3a6ff71896a8f3e5817c11">CASFamily</a> cas=<a class="el" href="namespacets.html#a1de171688c3a6ff71896a8f3e5817c11a79bba7cbc9e78632bc132244f9c83d9e">CAS_OTHER</a>)</td></tr>
+<tr class="memdesc:ad934eccad48df481b370d2e55b2a8268"><td class="mdescLeft">&#160;</td><td class="mdescRight">Display a table on the output stream.  <a href="#ad934eccad48df481b370d2e55b2a8268">More...</a><br /></td></tr>
+<tr class="separator:ad934eccad48df481b370d2e55b2a8268"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af26207ac93f8a9120df0d2064089629d"><td class="memItemLeft" align="right" valign="top"><a id="af26207ac93f8a9120df0d2064089629d"></a>
+virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classts_1_1_tables_display.html#af26207ac93f8a9120df0d2064089629d">flush</a> ()</td></tr>
+<tr class="memdesc:af26207ac93f8a9120df0d2064089629d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Flush the text output. <br /></td></tr>
+<tr class="separator:af26207ac93f8a9120df0d2064089629d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad7ba8e122b2d59a71273e6c616849d7f"><td class="memItemLeft" align="right" valign="top">virtual std::ostream &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classts_1_1_tables_display.html#ad7ba8e122b2d59a71273e6c616849d7f">logSectionData</a> (const <a class="el" href="classts_1_1_section.html">Section</a> &amp;section, const std::string &amp;header=std::string(), size_t max_bytes=0, <a class="el" href="namespacets.html#a1de171688c3a6ff71896a8f3e5817c11">CASFamily</a> cas=<a class="el" href="namespacets.html#a1de171688c3a6ff71896a8f3e5817c11a79bba7cbc9e78632bc132244f9c83d9e">CAS_OTHER</a>)</td></tr>
+<tr class="memdesc:ad7ba8e122b2d59a71273e6c616849d7f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Display the payload of a section on the output stream as a one-line "log" message.  <a href="#ad7ba8e122b2d59a71273e6c616849d7f">More...</a><br /></td></tr>
+<tr class="separator:ad7ba8e122b2d59a71273e6c616849d7f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a20a027360a3472959fed44195ba0f81f"><td class="memItemLeft" align="right" valign="top">std::ostream &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classts_1_1_tables_display.html#a20a027360a3472959fed44195ba0f81f">out</a> ()</td></tr>
+<tr class="memdesc:a20a027360a3472959fed44195ba0f81f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the current output stream.  <a href="#a20a027360a3472959fed44195ba0f81f">More...</a><br /></td></tr>
+<tr class="separator:a20a027360a3472959fed44195ba0f81f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a47e64591146b65bb6fefd4fe8ad6b7a6"><td class="memItemLeft" align="right" valign="top">virtual bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classts_1_1_tables_display.html#a47e64591146b65bb6fefd4fe8ad6b7a6">redirect</a> (const std::string &amp;file_name=std::string())</td></tr>
+<tr class="memdesc:a47e64591146b65bb6fefd4fe8ad6b7a6"><td class="mdescLeft">&#160;</td><td class="mdescRight">Redirect the output stream to a file.  <a href="#a47e64591146b65bb6fefd4fe8ad6b7a6">More...</a><br /></td></tr>
+<tr class="separator:a47e64591146b65bb6fefd4fe8ad6b7a6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7c35267a0272010b254e1044e7af8790"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classts_1_1_report_interface.html">ReportInterface</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classts_1_1_tables_display.html#a7c35267a0272010b254e1044e7af8790">report</a> ()</td></tr>
+<tr class="memdesc:a7c35267a0272010b254e1044e7af8790"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the current output report.  <a href="#a7c35267a0272010b254e1044e7af8790">More...</a><br /></td></tr>
+<tr class="separator:a7c35267a0272010b254e1044e7af8790"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pro-methods"></a>
+Protected Member Functions</h2></td></tr>
+<tr class="memitem:ac6b9ced53730739c9fbf99420b2acdb6"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="namespacets.html#a1de171688c3a6ff71896a8f3e5817c11">CASFamily</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classts_1_1_tables_display.html#ac6b9ced53730739c9fbf99420b2acdb6">casFamily</a> (<a class="el" href="namespacets.html#a1de171688c3a6ff71896a8f3e5817c11">CASFamily</a> cas) const</td></tr>
+<tr class="memdesc:ac6b9ced53730739c9fbf99420b2acdb6"><td class="mdescLeft">&#160;</td><td class="mdescRight">The actual CAS family to use.  <a href="#ac6b9ced53730739c9fbf99420b2acdb6">More...</a><br /></td></tr>
+<tr class="separator:ac6b9ced53730739c9fbf99420b2acdb6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0180bb193c1bd2b2b5dfe34c35d0a6d4"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classts_1_1_tables_display.html#a0180bb193c1bd2b2b5dfe34c35d0a6d4">displayTLV</a> (const uint8_t *data, size_t tlvStart, size_t tlvSize, size_t dataOffset, int indent, int innerIndent, const <a class="el" href="classts_1_1_t_l_v_syntax.html">TLVSyntax</a> &amp;tlv)</td></tr>
+<tr class="memdesc:a0180bb193c1bd2b2b5dfe34c35d0a6d4"><td class="mdescLeft">&#160;</td><td class="mdescRight">Display a memory area containing a list of TLV records.  <a href="#a0180bb193c1bd2b2b5dfe34c35d0a6d4">More...</a><br /></td></tr>
+<tr class="separator:a0180bb193c1bd2b2b5dfe34c35d0a6d4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a390fe00193869813a8f3844514b809f9"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classts_1_1_tables_display.html#a390fe00193869813a8f3844514b809f9">displayUnkownDescriptor</a> (<a class="el" href="namespacets.html#a6d34ed2bcf670e7b2a310f660ca900ee">DID</a> did, const uint8_t *payload, size_t size, int indent, <a class="el" href="namespacets.html#a3c2cbf0a41a7db2577a737cc9568e3cb">TID</a> tid, <a class="el" href="namespacets.html#ab9a8367d7529bc4d441c8e4e61e31984">PDS</a> pds)</td></tr>
+<tr class="memdesc:a390fe00193869813a8f3844514b809f9"><td class="mdescLeft">&#160;</td><td class="mdescRight">Display the content of an unknown descriptor.  <a href="#a390fe00193869813a8f3844514b809f9">More...</a><br /></td></tr>
+<tr class="separator:a390fe00193869813a8f3844514b809f9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a57d1732dbb6d1b42c29d908b192c51f3"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classts_1_1_tables_display.html#a57d1732dbb6d1b42c29d908b192c51f3">displayUnkownSectionData</a> (const <a class="el" href="classts_1_1_section.html">ts::Section</a> &amp;section, int indent)</td></tr>
+<tr class="memdesc:a57d1732dbb6d1b42c29d908b192c51f3"><td class="mdescLeft">&#160;</td><td class="mdescRight">Display the content of an unknown section.  <a href="#a57d1732dbb6d1b42c29d908b192c51f3">More...</a><br /></td></tr>
+<tr class="separator:a57d1732dbb6d1b42c29d908b192c51f3"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>A class to display PSI/SI tables. </p>
 </div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
-<a id="a722f759cde01db27cab8eb1f15b4b393"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a722f759cde01db27cab8eb1f15b4b393">&#9670;&nbsp;</a></span>TablesDisplay()</h2>
+<a id="a695136746ed13ce5aa427ffeabb02b71"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a695136746ed13ce5aa427ffeabb02b71">&#9670;&nbsp;</a></span>TablesDisplay()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">ts::TablesDisplay::TablesDisplay </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="classts_1_1_tables_display_args.html">TablesDisplayArgs</a> &amp;&#160;</td>
+          <td class="paramname"><em>options</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classts_1_1_report_interface.html">ReportInterface</a> &amp;&#160;</td>
+          <td class="paramname"><em>report</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Constructor. </p>
+<p>By default, all displays are done on <code>std::cout</code>. Use <a class="el" href="classts_1_1_tables_display.html#a47e64591146b65bb6fefd4fe8ad6b7a6" title="Redirect the output stream to a file. ">redirect()</a> to redirect the output to a file. </p><dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">options</td><td>Table logging options. </td></tr>
+    <tr><td class="paramdir">[in,out]</td><td class="paramname">report</td><td>Where to log errors. </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<h2 class="groupheader">Member Function Documentation</h2>
+<a id="ad934eccad48df481b370d2e55b2a8268"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad934eccad48df481b370d2e55b2a8268">&#9670;&nbsp;</a></span>displayTable()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -136,46 +219,8 @@ Public Member Functions</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">ts::TablesDisplay::TablesDisplay </td>
+          <td class="memname">virtual std::ostream&amp; ts::TablesDisplay::displayTable </td>
           <td>(</td>
-          <td class="paramtype">const <a class="el" href="classts_1_1_tables_display_args.html">TablesDisplayArgs</a> &amp;&#160;</td>
-          <td class="paramname"><em>options</em> = <code><a class="el" href="classts_1_1_tables_display_args.html">TablesDisplayArgs</a>()</code></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">explicit</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>Constructor. </p>
-<dl class="params"><dt>Parameters</dt><dd>
-  <table class="params">
-    <tr><td class="paramdir">[in]</td><td class="paramname">options</td><td>Table logging options. </td></tr>
-  </table>
-  </dd>
-</dl>
-
-</div>
-</div>
-<h2 class="groupheader">Member Function Documentation</h2>
-<a id="a44a0bcdb3d11db13f32438ad0735e5ea"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a44a0bcdb3d11db13f32438ad0735e5ea">&#9670;&nbsp;</a></span>displayTable()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">std::ostream&amp; ts::TablesDisplay::displayTable </td>
-          <td>(</td>
-          <td class="paramtype">std::ostream &amp;&#160;</td>
-          <td class="paramname"><em>strm</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
           <td class="paramtype">const <a class="el" href="classts_1_1_binary_table.html">BinaryTable</a> &amp;&#160;</td>
           <td class="paramname"><em>table</em>, </td>
         </tr>
@@ -197,37 +242,38 @@ Public Member Functions</h2></td></tr>
           <td></td><td></td>
         </tr>
       </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
 </div><div class="memdoc">
 
 <p>Display a table on the output stream. </p>
 <p>The content of the table is interpreted according to the table id. </p><dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramdir">[in,out]</td><td class="paramname">strm</td><td>Output text stream. </td></tr>
     <tr><td class="paramdir">[in]</td><td class="paramname">table</td><td>The table to display. </td></tr>
     <tr><td class="paramdir">[in]</td><td class="paramname">indent</td><td>Indentation width. </td></tr>
     <tr><td class="paramdir">[in]</td><td class="paramname">cas</td><td>CAS family of the table. If different from CAS_OTHER, override the CAS family in <a class="el" href="classts_1_1_tables_display_args.html" title="Command line arguments to display PSI/SI tables. ">TablesDisplayArgs</a>. </td></tr>
   </table>
   </dd>
 </dl>
-<dl class="section return"><dt>Returns</dt><dd>A reference to <em>strm</em>. </dd></dl>
+<dl class="section return"><dt>Returns</dt><dd>A reference to the output stream. </dd></dl>
 
 </div>
 </div>
-<a id="ad4d09314dbe9e421934cf4e44b78fb84"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ad4d09314dbe9e421934cf4e44b78fb84">&#9670;&nbsp;</a></span>displaySection()</h2>
+<a id="a06fc7191fc4a550e62d1fbbf0b1ce7c5"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a06fc7191fc4a550e62d1fbbf0b1ce7c5">&#9670;&nbsp;</a></span>displaySection()</h2>
 
 <div class="memitem">
 <div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">std::ostream&amp; ts::TablesDisplay::displaySection </td>
+          <td class="memname">virtual std::ostream&amp; ts::TablesDisplay::displaySection </td>
           <td>(</td>
-          <td class="paramtype">std::ostream &amp;&#160;</td>
-          <td class="paramname"><em>strm</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
           <td class="paramtype">const <a class="el" href="classts_1_1_section.html">Section</a> &amp;&#160;</td>
           <td class="paramname"><em>section</em>, </td>
         </tr>
@@ -255,12 +301,16 @@ Public Member Functions</h2></td></tr>
           <td></td><td></td>
         </tr>
       </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
 </div><div class="memdoc">
 
 <p>Display a section on the output stream. </p>
 <p>The content of the table is interpreted according to the table id. </p><dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramdir">[in,out]</td><td class="paramname">strm</td><td>Output text stream. </td></tr>
     <tr><td class="paramdir">[in]</td><td class="paramname">section</td><td>The section to display. </td></tr>
     <tr><td class="paramdir">[in]</td><td class="paramname">indent</td><td>Indentation width. </td></tr>
     <tr><td class="paramdir">[in]</td><td class="paramname">cas</td><td>CAS family of the table. If different from CAS_OTHER, override the CAS family in <a class="el" href="classts_1_1_tables_display_args.html" title="Command line arguments to display PSI/SI tables. ">TablesDisplayArgs</a>. </td></tr>
@@ -268,7 +318,782 @@ Public Member Functions</h2></td></tr>
   </table>
   </dd>
 </dl>
-<dl class="section return"><dt>Returns</dt><dd>A reference to <em>strm</em>. </dd></dl>
+<dl class="section return"><dt>Returns</dt><dd>A reference to the output stream. </dd></dl>
+
+</div>
+</div>
+<a id="a9381049a01db8d8e6329c2c892ba353f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9381049a01db8d8e6329c2c892ba353f">&#9670;&nbsp;</a></span>displaySectionData()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual std::ostream&amp; ts::TablesDisplay::displaySectionData </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="classts_1_1_section.html">Section</a> &amp;&#160;</td>
+          <td class="paramname"><em>section</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>indent</em> = <code>0</code>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="namespacets.html#a1de171688c3a6ff71896a8f3e5817c11">CASFamily</a>&#160;</td>
+          <td class="paramname"><em>cas</em> = <code><a class="el" href="namespacets.html#a1de171688c3a6ff71896a8f3e5817c11a79bba7cbc9e78632bc132244f9c83d9e">CAS_OTHER</a></code>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Display the payload of a section on the output stream. </p>
+<p>The content of the table is interpreted according to the table id. </p><dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">section</td><td>The section to display. </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">indent</td><td>Indentation width. </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">cas</td><td>CAS family of the table. If different from CAS_OTHER, override the CAS family in <a class="el" href="classts_1_1_tables_display_args.html" title="Command line arguments to display PSI/SI tables. ">TablesDisplayArgs</a>. </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>A reference to the output stream. </dd></dl>
+
+</div>
+</div>
+<a id="ad7ba8e122b2d59a71273e6c616849d7f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad7ba8e122b2d59a71273e6c616849d7f">&#9670;&nbsp;</a></span>logSectionData()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual std::ostream&amp; ts::TablesDisplay::logSectionData </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="classts_1_1_section.html">Section</a> &amp;&#160;</td>
+          <td class="paramname"><em>section</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const std::string &amp;&#160;</td>
+          <td class="paramname"><em>header</em> = <code>std::string()</code>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">size_t&#160;</td>
+          <td class="paramname"><em>max_bytes</em> = <code>0</code>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="namespacets.html#a1de171688c3a6ff71896a8f3e5817c11">CASFamily</a>&#160;</td>
+          <td class="paramname"><em>cas</em> = <code><a class="el" href="namespacets.html#a1de171688c3a6ff71896a8f3e5817c11a79bba7cbc9e78632bc132244f9c83d9e">CAS_OTHER</a></code>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Display the payload of a section on the output stream as a one-line "log" message. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">section</td><td>The section to display. </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">header</td><td>Header string to display as prefix on the line. </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">max_bytes</td><td>Maximum number of bytes to log from the section. 0 means unlimited. </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">cas</td><td>CAS family of the table. If different from CAS_OTHER, override the CAS family in <a class="el" href="classts_1_1_tables_display_args.html" title="Command line arguments to display PSI/SI tables. ">TablesDisplayArgs</a>. </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>A reference to the output stream. </dd></dl>
+
+</div>
+</div>
+<a id="adf6072e2673eed8be80c027665fd5889"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#adf6072e2673eed8be80c027665fd5889">&#9670;&nbsp;</a></span>displayDescriptor()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual std::ostream&amp; ts::TablesDisplay::displayDescriptor </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="classts_1_1_descriptor.html">Descriptor</a> &amp;&#160;</td>
+          <td class="paramname"><em>desc</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>indent</em> = <code>0</code>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="namespacets.html#a3c2cbf0a41a7db2577a737cc9568e3cb">TID</a>&#160;</td>
+          <td class="paramname"><em>tid</em> = <code><a class="el" href="namespacets.html#ae56343654e2b01380409afc12dd2b037ad51c95d1eb15054cb4f69437a5207ecf">TID_NULL</a></code>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="namespacets.html#ab9a8367d7529bc4d441c8e4e61e31984">PDS</a>&#160;</td>
+          <td class="paramname"><em>pds</em> = <code>0</code>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="namespacets.html#a1de171688c3a6ff71896a8f3e5817c11">CASFamily</a>&#160;</td>
+          <td class="paramname"><em>cas</em> = <code><a class="el" href="namespacets.html#a1de171688c3a6ff71896a8f3e5817c11a79bba7cbc9e78632bc132244f9c83d9e">CAS_OTHER</a></code>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Display a descriptor on the output stream. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">desc</td><td>The descriptor to display. </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">indent</td><td>Indentation width. </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">tid</td><td>Table id of table containing the descriptors. This is optional. Used by some descriptors the interpretation of which may vary depending on the table that they are in. </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">pds</td><td>Private Data Specifier. Used to interpret private descriptors. </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">cas</td><td>CAS family of the table. If different from CAS_OTHER, override the CAS family in <a class="el" href="classts_1_1_tables_display_args.html" title="Command line arguments to display PSI/SI tables. ">TablesDisplayArgs</a>. </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>A reference to the output stream. </dd></dl>
+
+</div>
+</div>
+<a id="ac9974836bca4706219b4a57ad0ffadad"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac9974836bca4706219b4a57ad0ffadad">&#9670;&nbsp;</a></span>displayDescriptorData()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual std::ostream&amp; ts::TablesDisplay::displayDescriptorData </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="namespacets.html#a6d34ed2bcf670e7b2a310f660ca900ee">DID</a>&#160;</td>
+          <td class="paramname"><em>did</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const uint8_t *&#160;</td>
+          <td class="paramname"><em>payload</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">size_t&#160;</td>
+          <td class="paramname"><em>size</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>indent</em> = <code>0</code>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="namespacets.html#a3c2cbf0a41a7db2577a737cc9568e3cb">TID</a>&#160;</td>
+          <td class="paramname"><em>tid</em> = <code><a class="el" href="namespacets.html#ae56343654e2b01380409afc12dd2b037ad51c95d1eb15054cb4f69437a5207ecf">TID_NULL</a></code>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="namespacets.html#ab9a8367d7529bc4d441c8e4e61e31984">PDS</a>&#160;</td>
+          <td class="paramname"><em>pds</em> = <code>0</code>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="namespacets.html#a1de171688c3a6ff71896a8f3e5817c11">CASFamily</a>&#160;</td>
+          <td class="paramname"><em>cas</em> = <code><a class="el" href="namespacets.html#a1de171688c3a6ff71896a8f3e5817c11a79bba7cbc9e78632bc132244f9c83d9e">CAS_OTHER</a></code>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Display the payload of a descriptor on the output stream. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">did</td><td><a class="el" href="classts_1_1_descriptor.html" title="Representation of a MPEG PSI/SI descriptors in binary format. ">Descriptor</a> id. </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">payload</td><td>Address of the descriptor payload. </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">size</td><td>Size in bytes of the descriptor payload. </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">indent</td><td>Indentation width. </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">tid</td><td>Table id of table containing the descriptors. This is optional. Used by some descriptors the interpretation of which may vary depending on the table that they are in. </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">pds</td><td>Private Data Specifier. Used to interpret private descriptors. </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">cas</td><td>CAS family of the table. If different from CAS_OTHER, override the CAS family in <a class="el" href="classts_1_1_tables_display_args.html" title="Command line arguments to display PSI/SI tables. ">TablesDisplayArgs</a>. </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>A reference to the output stream. </dd></dl>
+
+</div>
+</div>
+<a id="afed1d64a21d3d45005e0e88a72727ed7"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#afed1d64a21d3d45005e0e88a72727ed7">&#9670;&nbsp;</a></span>displayDescriptorList() <span class="overload">[1/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual std::ostream&amp; ts::TablesDisplay::displayDescriptorList </td>
+          <td>(</td>
+          <td class="paramtype">const void *&#160;</td>
+          <td class="paramname"><em>data</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">size_t&#160;</td>
+          <td class="paramname"><em>size</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>indent</em> = <code>0</code>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="namespacets.html#a3c2cbf0a41a7db2577a737cc9568e3cb">TID</a>&#160;</td>
+          <td class="paramname"><em>tid</em> = <code><a class="el" href="namespacets.html#ae56343654e2b01380409afc12dd2b037ad51c95d1eb15054cb4f69437a5207ecf">TID_NULL</a></code>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="namespacets.html#ab9a8367d7529bc4d441c8e4e61e31984">PDS</a>&#160;</td>
+          <td class="paramname"><em>pds</em> = <code>0</code>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="namespacets.html#a1de171688c3a6ff71896a8f3e5817c11">CASFamily</a>&#160;</td>
+          <td class="paramname"><em>cas</em> = <code><a class="el" href="namespacets.html#a1de171688c3a6ff71896a8f3e5817c11a79bba7cbc9e78632bc132244f9c83d9e">CAS_OTHER</a></code>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Display a list of descriptors from a memory area. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">data</td><td>Address of the descriptor list. </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">size</td><td>Size in bytes of the descriptor list. </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">indent</td><td>Indentation width. </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">tid</td><td>Table id of table containing the descriptors. This is optional. Used by some descriptors the interpretation of which may vary depending on the table that they are in. </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">pds</td><td>Private Data Specifier. Used to interpret private descriptors. </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">cas</td><td>CAS family of the table. If different from CAS_OTHER, override the CAS family in <a class="el" href="classts_1_1_tables_display_args.html" title="Command line arguments to display PSI/SI tables. ">TablesDisplayArgs</a>. </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>A reference to the output stream. </dd></dl>
+
+</div>
+</div>
+<a id="ace0e30426cbb8b1e362a4ade8e33d735"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ace0e30426cbb8b1e362a4ade8e33d735">&#9670;&nbsp;</a></span>displayDescriptorList() <span class="overload">[2/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual std::ostream&amp; ts::TablesDisplay::displayDescriptorList </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="classts_1_1_descriptor_list.html">DescriptorList</a> &amp;&#160;</td>
+          <td class="paramname"><em>list</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>indent</em> = <code>0</code>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="namespacets.html#a3c2cbf0a41a7db2577a737cc9568e3cb">TID</a>&#160;</td>
+          <td class="paramname"><em>tid</em> = <code><a class="el" href="namespacets.html#ae56343654e2b01380409afc12dd2b037ad51c95d1eb15054cb4f69437a5207ecf">TID_NULL</a></code>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="namespacets.html#ab9a8367d7529bc4d441c8e4e61e31984">PDS</a>&#160;</td>
+          <td class="paramname"><em>pds</em> = <code>0</code>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="namespacets.html#a1de171688c3a6ff71896a8f3e5817c11">CASFamily</a>&#160;</td>
+          <td class="paramname"><em>cas</em> = <code><a class="el" href="namespacets.html#a1de171688c3a6ff71896a8f3e5817c11a79bba7cbc9e78632bc132244f9c83d9e">CAS_OTHER</a></code>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Display a list of descriptors. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">list</td><td><a class="el" href="classts_1_1_descriptor.html" title="Representation of a MPEG PSI/SI descriptors in binary format. ">Descriptor</a> list. </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">indent</td><td>Indentation width. </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">tid</td><td>Table id of table containing the descriptors. This is optional. Used by some descriptors the interpretation of which may vary depending on the table that they are in. </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">pds</td><td>Private Data Specifier. Used to interpret private descriptors. </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">cas</td><td>CAS family of the table. If different from CAS_OTHER, override the CAS family in <a class="el" href="classts_1_1_tables_display_args.html" title="Command line arguments to display PSI/SI tables. ">TablesDisplayArgs</a>. </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>A reference to the output stream. </dd></dl>
+
+</div>
+</div>
+<a id="a3d59b8b4aa609c18dd6d50c029619b58"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3d59b8b4aa609c18dd6d50c029619b58">&#9670;&nbsp;</a></span>displayExtraData()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual std::ostream&amp; ts::TablesDisplay::displayExtraData </td>
+          <td>(</td>
+          <td class="paramtype">const void *&#160;</td>
+          <td class="paramname"><em>data</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">size_t&#160;</td>
+          <td class="paramname"><em>size</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>indent</em> = <code>0</code>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>A utility method to dump extraneous bytes after expected data. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">data</td><td>Address of extra data to dump. </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">size</td><td>Size of extra data to dump. </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">indent</td><td>Indentation width. </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>A reference to the output stream. </dd></dl>
+
+</div>
+</div>
+<a id="a47e64591146b65bb6fefd4fe8ad6b7a6"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a47e64591146b65bb6fefd4fe8ad6b7a6">&#9670;&nbsp;</a></span>redirect()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual bool ts::TablesDisplay::redirect </td>
+          <td>(</td>
+          <td class="paramtype">const std::string &amp;&#160;</td>
+          <td class="paramname"><em>file_name</em> = <code>std::string()</code></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Redirect the output stream to a file. </p>
+<p>The previous file is closed. </p><dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">file_name</td><td>The file name to create. If empty, reset to <code>std::cout</code>. </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>True on success, false on error. </dd></dl>
+
+</div>
+</div>
+<a id="a20a027360a3472959fed44195ba0f81f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a20a027360a3472959fed44195ba0f81f">&#9670;&nbsp;</a></span>out()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::ostream&amp; ts::TablesDisplay::out </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Get the current output stream. </p>
+<dl class="section return"><dt>Returns</dt><dd>A reference to the output stream. </dd></dl>
+
+</div>
+</div>
+<a id="a7c35267a0272010b254e1044e7af8790"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7c35267a0272010b254e1044e7af8790">&#9670;&nbsp;</a></span>report()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="classts_1_1_report_interface.html">ReportInterface</a>&amp; ts::TablesDisplay::report </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Get the current output report. </p>
+<dl class="section return"><dt>Returns</dt><dd>A reference to the current output report. </dd></dl>
+
+</div>
+</div>
+<a id="a57d1732dbb6d1b42c29d908b192c51f3"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a57d1732dbb6d1b42c29d908b192c51f3">&#9670;&nbsp;</a></span>displayUnkownSectionData()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void ts::TablesDisplay::displayUnkownSectionData </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="classts_1_1_section.html">ts::Section</a> &amp;&#160;</td>
+          <td class="paramname"><em>section</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>indent</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Display the content of an unknown section. </p>
+<p>The command-line formatting options are used to analyze the content. </p><dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">section</td><td>The section to display. </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">indent</td><td>Indentation width. </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="a390fe00193869813a8f3844514b809f9"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a390fe00193869813a8f3844514b809f9">&#9670;&nbsp;</a></span>displayUnkownDescriptor()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void ts::TablesDisplay::displayUnkownDescriptor </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="namespacets.html#a6d34ed2bcf670e7b2a310f660ca900ee">DID</a>&#160;</td>
+          <td class="paramname"><em>did</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const uint8_t *&#160;</td>
+          <td class="paramname"><em>payload</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">size_t&#160;</td>
+          <td class="paramname"><em>size</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>indent</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="namespacets.html#a3c2cbf0a41a7db2577a737cc9568e3cb">TID</a>&#160;</td>
+          <td class="paramname"><em>tid</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="namespacets.html#ab9a8367d7529bc4d441c8e4e61e31984">PDS</a>&#160;</td>
+          <td class="paramname"><em>pds</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Display the content of an unknown descriptor. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">did</td><td><a class="el" href="classts_1_1_descriptor.html" title="Representation of a MPEG PSI/SI descriptors in binary format. ">Descriptor</a> id. </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">payload</td><td>Address of the descriptor payload. </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">size</td><td>Size in bytes of the descriptor payload. </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">indent</td><td>Indentation width. </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">tid</td><td>Table id of table containing the descriptors. </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">pds</td><td>Private Data Specifier. Used to interpret private descriptors. </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="ac6b9ced53730739c9fbf99420b2acdb6"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac6b9ced53730739c9fbf99420b2acdb6">&#9670;&nbsp;</a></span>casFamily()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual <a class="el" href="namespacets.html#a1de171688c3a6ff71896a8f3e5817c11">CASFamily</a> ts::TablesDisplay::casFamily </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="namespacets.html#a1de171688c3a6ff71896a8f3e5817c11">CASFamily</a>&#160;</td>
+          <td class="paramname"><em>cas</em></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>The actual CAS family to use. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">cas</td><td>CAS family of the table. If different from CAS_OTHER, can be overridden by subclass. </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>The actual CAS family to use. </dd></dl>
+
+</div>
+</div>
+<a id="a0180bb193c1bd2b2b5dfe34c35d0a6d4"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0180bb193c1bd2b2b5dfe34c35d0a6d4">&#9670;&nbsp;</a></span>displayTLV()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void ts::TablesDisplay::displayTLV </td>
+          <td>(</td>
+          <td class="paramtype">const uint8_t *&#160;</td>
+          <td class="paramname"><em>data</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">size_t&#160;</td>
+          <td class="paramname"><em>tlvStart</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">size_t&#160;</td>
+          <td class="paramname"><em>tlvSize</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">size_t&#160;</td>
+          <td class="paramname"><em>dataOffset</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>indent</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>innerIndent</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="classts_1_1_t_l_v_syntax.html">TLVSyntax</a> &amp;&#160;</td>
+          <td class="paramname"><em>tlv</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Display a memory area containing a list of TLV records. </p>
+<p>The displayed area extends from <em>data</em> to <em>data</em> + <em>tlvStart</em> + <em>tlvSize</em>.</p><ul>
+<li>From <em>data</em> to <em>data</em> + <em>tlvStart</em> : Raw data.</li>
+<li>From <em>data</em> + <em>tlvStart</em> to <em>data</em> + <em>tlvStart</em> + <em>tlvSize</em> : TLV records.</li>
+</ul>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">data</td><td>Starting address of memory area. </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">tlvStart</td><td>Starting index of TLV records after <em>data</em>. </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">tlvSize</td><td>Size in bytes of the TLV area. </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">dataOffset</td><td>Display offset of <em>data</em>. </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">indent</td><td>Left margin size. </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">innerIndent</td><td>Inner margin size. </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">tlv</td><td>TLV syntax. </td></tr>
+  </table>
+  </dd>
+</dl>
 
 </div>
 </div>

@@ -47,6 +47,7 @@ var classts_1_1_section =
     [ "setFirstTSPacketIndex", "classts_1_1_section.html#a8f9ef3ee343491d6c73992f451465496", null ],
     [ "setLastTSPacketIndex", "classts_1_1_section.html#acd8c003a6ba8ec8d2cd7c483cc614e14", null ],
     [ "recomputeCRC", "classts_1_1_section.html#a48df03e049b92a4b0d52ddfb781d9247", null ],
+    [ "hasDiversifiedPayload", "classts_1_1_section.html#a6fea276b19e6e4a95381820f43973f90", null ],
     [ "read", "classts_1_1_section.html#aef72cfc81d74235182ea03b3b944feb3", null ],
     [ "write", "classts_1_1_section.html#a31c41ca9dfc2a9d42d7bc50f59bf74c1", null ],
     [ "dump", "classts_1_1_section.html#af2c4961b19d6ab2a1515b14627cc79c1", null ],

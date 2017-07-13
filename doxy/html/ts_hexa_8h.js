@@ -9,7 +9,8 @@ var ts_hexa_8h =
       [ "BPL", "ts_hexa_8h.html#a490e158f46bf3d8b610cd81e9d6290e6ad7ef6d80730180cbdfcf918c83b1ce78", null ],
       [ "C_STYLE", "ts_hexa_8h.html#a490e158f46bf3d8b610cd81e9d6290e6ae202598d56ce4d427b4442c1cc1c502a", null ],
       [ "BINARY", "ts_hexa_8h.html#a490e158f46bf3d8b610cd81e9d6290e6aa2c1167b4fcf2a5d1568688b0179bfde", null ],
-      [ "BIN_NIBBLE", "ts_hexa_8h.html#a490e158f46bf3d8b610cd81e9d6290e6af4e06c4aeb812eae8a2e2c07a8bdae49", null ]
+      [ "BIN_NIBBLE", "ts_hexa_8h.html#a490e158f46bf3d8b610cd81e9d6290e6af4e06c4aeb812eae8a2e2c07a8bdae49", null ],
+      [ "COMPACT", "ts_hexa_8h.html#a490e158f46bf3d8b610cd81e9d6290e6a960e37464c75e1bc8993643ff4a1fa5e", null ]
     ] ],
     [ "Hexa", "ts_hexa_8h.html#a518c3129e643fa3c679f061fcfcf271f", null ],
     [ "Hexa", "ts_hexa_8h.html#a53f40d1dde25f4d00aaf466483bf334f", null ],

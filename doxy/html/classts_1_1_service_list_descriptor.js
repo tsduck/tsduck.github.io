@@ -7,6 +7,7 @@ var classts_1_1_service_list_descriptor =
     [ "ServiceListDescriptor", "classts_1_1_service_list_descriptor.html#af20253239423a8c0c99eb8836f677247", null ],
     [ "serialize", "classts_1_1_service_list_descriptor.html#ae0091026fdc9fdfe4f05ea5220808726", null ],
     [ "deserialize", "classts_1_1_service_list_descriptor.html#acb16d0273c0250642480018339b9b74e", null ],
+    [ "DisplayDescriptor", "classts_1_1_service_list_descriptor.html#a12b8dafeb1226419654b5296dcb33f84", null ],
     [ "MAX_ENTRIES", "classts_1_1_service_list_descriptor.html#a8ee45ff9ab356f079fd6380d73f02de4", null ],
     [ "entries", "classts_1_1_service_list_descriptor.html#af692b41984af101d767b39b53ba6db0e", null ]
 ];
