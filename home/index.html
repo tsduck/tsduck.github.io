@@ -1,0 +1,221 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html lang="en">
+  <head profile="http://www.w3.org/2005/10/profile">
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>TSDuck</title>
+    <link type="image/png" rel="icon" href="favicon.png">
+    <link type="text/css" rel="stylesheet" href="default.css"/>
+    <link type="text/css" rel="stylesheet" href="fontawesome.css"/>
+    <script type="text/javascript" src="functions.js"></script>
+  </head>
+  <body>
+    <nav class="w3-sidenav w3-collapse w3-white w3-animate-left w3-card-2" style="z-index:3;width:250px;" id="mySidenav">
+      <a href="#" class="w3-sidenav-top w3-border-bottom w3-large"><img src="tsduck.png" style="width:80%;"/></a>
+      <a href="javascript:void(0)" onclick="w3_close()" class="w3-text-teal w3-hide-large w3-closenav w3-large">Close <i class="fa fa-remove"></i></a>
+      <div class="w3-accordion">
+        <a onclick="myAccordion('menu-documentation')" href="javascript:void(0)">Content <i class="fa fa-caret-down"></i></a>
+        <div id="menu-documentation" class="w3-accordion-content w3-animate-left w3-padding">
+          <a href="#tsduck">Introduction to TSDuck</a>
+          <a href="#tsp">The TS processor</a>
+          <a href="#castest">Example: A CAS test bed</a>
+          <a href="#prog">Using TSDuck as a library</a>
+          <a href="#avail">Availability</a>
+          <a href="#license">License</a>
+        </div>
+      </div>
+      <div class="w3-accordion">
+        <a onclick="myAccordion('menu-download')" href="javascript:void(0)">Download <i class="fa fa-caret-down"></i></a>
+        <div id="menu-download" class="w3-accordion-content w3-animate-left w3-padding">
+          <a href="https://github.com/tsduck/tsduck/releases">Binaries</a>
+          <a href="https://github.com/tsduck/tsduck/raw/master/doc/tsduck.pdf">User's Guide</a>
+          <a href="https://github.com/tsduck/tsduck/raw/master/doc/tsduck-presentation.pdf">Presentation</a>
+        </div>
+      </div>
+      <div class="w3-accordion">
+        <a onclick="myAccordion('menu-source')" href="javascript:void(0)">Source code <i class="fa fa-caret-down"></i></a>
+        <div id="menu-source" class="w3-accordion-content w3-animate-left w3-padding">
+          <a href="https://github.com/tsduck/tsduck">Git repository on GitHub</a>
+          <a href="../doxy/html/index.html">Doxygen documentation</a>
+        </div>
+      </div>
+      <div class="w3-accordion">
+        <a onclick="myAccordion('menu-other')" href="javascript:void(0)">Web resources <i class="fa fa-caret-down"></i></a>
+        <div id="menu-other" class="w3-accordion-content w3-animate-left w3-padding">
+          <a href="https://tsduck.github.io/">TSDuck Web site</a>
+          <a href="https://github.com/tsduck/tsduck/issues">Report a problem</a>
+        </div>
+      </div>
+    </nav>
+    <div class="w3-overlay w3-hide-large w3-animate-opacity" onclick="w3_close()" style="cursor:pointer" id="myOverlay"></div>
+    <div class="w3-main" style="margin-left:250px;">
+      <div id="myTop" class="w3-top w3-container w3-padding-16 w3-theme w3-large">
+        <i class="fa fa-bars w3-opennav w3-hide-large w3-xlarge w3-margin-left w3-margin-right" onclick="w3_open()"></i>
+        <span id="myIntro" class="w3-hide">TSDuck</span>
+      </div>
+      <header class="w3-container w3-theme w3-padding-16" style="padding-left:32px">
+        <h1 class="w3-xxxlarge w3-padding-16">TSDuck</h1>
+      </header>
+      <div class="w3-container w3-padding-32" style="padding-left:32px">
+
+        <div class="anchor" id="tsduck"><h2>TSDuck, The MPEG Transport Stream Toolkit</h2></div>
+
+        <p>TSDuck is an extensible toolkit for MPEG/DVB transport streams.
+          TSDuck is ideally used in digital television systems for test, monitoring, integration debug, lab, demo and more.
+          In practice, TSDuck can be used for:</p>
+        <ul>
+          <li>Transport stream acquisition or transmodulation.</li>
+          <li>Analyzing transport streams, visualizing the PSI/SI signalization.</li>
+          <li>Monitoring conditions on the stream.</li>
+          <li>Working on live transport streams, DVB-S/C/T, ASI, IP, or on offline transport stream files.</li>
+          <li>On-the-fly transformation or injection on the content and signalization.</li>
+          <li>Using specialized hardware such as cheap DVB tuners (USB, PCI, etc) or professional Dektec devices.</li>
+          <li>Emulating a CAS head-end using DVB SimulCrypt interfaces to ECMG or EMMG.</li>
+          <li>Content scrambling or descrambling.</li>
+          <li>And more...</li>
+        </ul>
+        <p>TSDuck is developed in C++ in a very modular architecture.
+          It is easy to extend it through plugins.
+          In fact, the primary requirement for TSDuck architecture was:
+          When I want to do something TSDuck cannot do right now, I want the new feature to be
+          implemented within a couple of hours. Most of the time, the target is reached.</p>
+        <p>To be so easily extended, TSDuck needed to be simple. TSDuck is a collection of
+          command line tools and plugins. There is no sophisticated GUI. Each utility or plugin
+          performs only one elementary feature but they can be combined in any order.</p>
+
+        <div class="anchor" id="tsp"><h2>TSP, the transport stream processor</h2></div>
+
+        <p>The most important TSDuck tool is <i>tsp</i>, the transport stream processor.
+          It is a flexible transport stream processing framework.
+          Running <i>tsp</i> is a combination of elementary processing operations using plugins.</p>
+        <p>In each invocation of <i>tsp</i>, there are:</p>
+        <ul>
+          <li>One input plugin which receives a TS from various possible sources.</li>
+          <li>Any number of packet processing plugins which can perform any transformation
+            on the packets in transit.
+          <li>One output plugin which sends the TS to various possible destinations.</li>
+        </ul>
+        <p>This is illustrated in the diagram below:</p>
+        <div class="w3-center"><img src="tsp.png"/></div>        
+        <p>The currently existing input and output plugins can work on TS files,
+          UDP/IP (multicast or unicast), DVB sources using cheap tuners,
+          professional Dektec modulators and ASI devices.</p>
+
+        <div class="anchor" id="castest"><h2>Example: A CAS test bed</h2></div>
+
+        <p>The following diagram illustrates a real-life example.
+          To test a Conditional Access System and signalization, <i>tsp</i>
+          is used to create a new transport stream from a live source.
+          One real TS is received as input using a cheap USB or PCI DVB-T tuner.
+          This TS and all its services are renamed, creating a "new TS" in the network.
+          To test the CAS, <i>tsp</i> interacts with a real ECMG and a real EMMG
+          using the standard DVB SimulCrypt protocols.
+          One service, initially in the clear, is scrambled.
+          <i>tsp</i> generates the control words, scrambles the content and
+          inserts ECM's and EMM's. Finally, a set-top box receives all live
+          transponders plus the new one we create.</p>
+        <div class="w3-center"><img src="castest.png"/></div>
+        <p>Everything is done in one single <i>tsp</i> process.
+          The command is the following. For clarity, the details such as tuning parameters,
+          access criteria, IP addresses and ports, are represented as environment variables.</p>
+<pre>
+tsp -I dvb -u $UHF_INPUT                                      \
+    -P tsrename -t 9 -a                                       \
+    -P svrename direct8 -i 0x0901 -l 41 -n "Direct 8 Test"    \
+    -P svrename bfmtv -i 0x0903 -l 42 -n "BFM TV Test"        \
+    -P svrename 'i>tele' -i 0x0904 -l 43 -n "i>TELE Test"     \
+    -P svrename virgin17 -i 0x0905 -l 44 -n "Virgin 17 Test"  \
+    -P svrename gulli -i 0x0906 -l 45 -n "Gulli Test"         \
+    -P svrename france4 -i 0x0907 -l 46 -n "France 4 Test"    \
+    -P svrename 0x02FF -i 0x09FF                              \
+    -P scrambler GulliTest -e $ECMG -s $SUPER_CAS_ID          \
+                 -p $PMT_CADESC_PRIVATE -a $AC                \
+                 -b $ECM_BITRATE --pid $ECM_PID               \
+    -P cat -c -a $CAS_ID/$EMM_PID/$CAT_CADESC_PRIVATE         \
+    -P datainject -r -s $MUX_SERVER_PORT                      \
+                  -b $EMM_MAX_BITRATE -p $EMM_PID             \
+    -O dektec -u $UHF_OUTPUT --convolution 2/3 --guard 1/32
+</pre>
+        <p>This command is complex but rational. The option -I on the first line specifies the input
+          plugin and its arguments. Here, the input plugin is <i>dvb</i> which drives DVB tuners.
+          Each option -P specifies a packet processor plugin and its options. The plugins <i>tsrename</i>
+          and <i>svrenams</i> respectively rename the transport stream and a service. The plugin
+          <i>scrambler</i> is a DVB scrambler on one service. It generates control words,
+          interactq with a standard ECMG and insert ECM's. It also updates the PMT of the service
+          to declare the ECM PID. The plugin <i>cat</i> modifies or creates the CAT to declare
+          a new EMM stream. The plugin <i>datainject</i> implements a DVB SimulCrypt
+          EMM/PDG inserter. It is used by a standard EMMG to insert EMM's.
+          Finally, the option -O on the last line specifies the output plugin and its arguments.
+          Here, the output plugin is <i>dektec</i> which drives a Dektec modulator, a PCIe board
+          in the computer.</p>
+        <p>For more details, refer to the
+          <a href="https://github.com/tsduck/tsduck/raw/master/doc/tsduck.pdf">TSDuck User's Guide</a>.</p>
+        <p>Of course, such a complex command should be maintained and edited in a shell script.
+          Unless of course you enjoy retyping it every time.</p>
+        <p>Because of its modular structure, TSDuck is better used with a shell.
+          On Windows systems, you may use PowerShell or Cygwin.</p>
+
+        <div class="anchor" id="prog"><h2>Using TSDuck as a library</h2></div>
+
+        <p>TSDuck can also be used as an MPEG/DVB C++ library for your own applications.
+          Most of the TSDuck code is located into a large shareable library.
+          The utilities and plugins are usually only small wrappers around the TSDuck library.
+          You may use the TSDuck library to develop new plugins or create completely
+          indepent applications.</p>
+        <p>All C++ classes in the TSDuck library are
+          <a href="../doxy/html/index.html">documented using Doxygen</a>.</p>
+          
+        <div class="anchor" id="avail"><h2>Availability</h2></div>
+        
+        <p>TSDuck is open source and released under the BSD license.
+          It is developed in C++ and designed to be portable.
+          TSDuck is built and tested for Windows, Linux and MacOS.
+          Please see the list of useful links in the side menu.</p>
+        <p>Pre-built binary packages are available for Windows, Fedora and Ubuntu.</p>
+        <p>Support for specialized hardware, DVB tuners and Dektec devices,
+          is available on Windows and Linux only. On 64-bit Windows, if you use
+          DVB tuners which come with 32-bit drivers, you must use the 32-bit
+          version of TSDuck. The 64-bit version of TSDuck cannot work with 32-bit
+          drivers. But 32-bit DVB drivers and 32-bit TSDuck can work on 64-bit Windows.</p>
+        <p>Please report problems using the <a href="https://github.com/tsduck/tsduck/issues">issue tracker</a>.</p>
+
+        <div class="anchor" id="license"><h2>License</h2></div>
+
+        <p>TSDuck is released under the terms of the license which is commonly referred
+          to as "BSD 2-Clause License" or "Simplified BSD License" or "FreeBSD License".
+          See <a href="http://opensource.org/licenses/BSD-2-Clause" target="_blank">
+            http://opensource.org/licenses/BSD-2-Clause</a></p>
+        <div class="w3-container w3-sand w3-leftbar" style="font-style:italic;">
+          <p>Copyright (c) 2005-2017, Thierry Lelégard<br/>
+            All rights reserved.</p>
+          <p>Redistribution and use in source and binary forms, with or without
+            modification, are permitted provided that the following conditions are met:</p>
+          <ol>
+            <li>Redistributions of source code must retain the above copyright notice,
+              this list of conditions and the following disclaimer.</li>
+            <li>Redistributions in binary form must reproduce the above copyright
+              notice, this list of conditions and the following disclaimer in the
+              documentation and/or other materials provided with the distribution.</li>
+          </ol>
+          <p>This software is provided by the copyright holders and contributors "as is"
+            and any express or implied warranties, including, but not limited to, the
+            implied warranties of merchantability and fitness for a particular purpose
+            are disclaimed. in no event shall the copyright owner or contributors be
+            liable for any direct, indirect, incidental, special, exemplary, or
+            consequential damages (including, but not limited to, procurement of
+            substitute goods or services; loss of use, data, or profits; or business
+            interruption) however caused and on any theory of liability, whether in
+            contract, strict liability, or tort (including negligence or otherwise)
+            arising in any way out of the use of this software, even if advised of
+            the possibility of such damage.</p>
+        </div>
+
+      </div>
+      <footer class="w3-container w3-theme w3-padding-16" style="padding-left:32px">
+        <p>TSDuck is Free and Open Source |
+          <a href="http://tsduck.github.io/" target="_blank">Web Site</a> |
+          <a href="https://github.com/tsduck/tsduck/issues" target="_blank">Report a problem</a></p>
+      </footer>
+    </div>
+  </body>
+</html>
