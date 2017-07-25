@@ -5,8 +5,6 @@ var classts_1_1_byte_block =
     [ "ByteBlock", "classts_1_1_byte_block.html#a80be9f60168ae059f069e430b78d6968", null ],
     [ "ByteBlock", "classts_1_1_byte_block.html#a99c213014fb618fe3867e7e17bc2f6c9", null ],
     [ "ByteBlock", "classts_1_1_byte_block.html#a7bc1a4acd08e0fe38ef4123c97776bb1", null ],
-    [ "data", "classts_1_1_byte_block.html#a86dd4c2de608fc27a17ae456855b7c30", null ],
-    [ "data", "classts_1_1_byte_block.html#abd94ae8486f333c74336c2d835e3eac7", null ],
     [ "copy", "classts_1_1_byte_block.html#a1821e56f4042abeb785411fd236c7d29", null ],
     [ "erase", "classts_1_1_byte_block.html#a4f4e5173313f66a25b6c844371f399f8", null ],
     [ "enlarge", "classts_1_1_byte_block.html#a8ce86502a1c8d31ea663dac574207604", null ],

@@ -80,7 +80,7 @@ var searchData=
   ['_7etablehandlerinterface',['~TableHandlerInterface',['../classts_1_1_table_handler_interface.html#ad7d173cefb702811191149005151c4ab',1,'ts::TableHandlerInterface']]],
   ['_7etablesdisplay',['~TablesDisplay',['../classts_1_1_tables_display.html#a6c3c3196d1a654dc0b59783616915b31',1,'ts::TablesDisplay']]],
   ['_7etablesdisplayargs',['~TablesDisplayArgs',['../classts_1_1_tables_display_args.html#afa806280d392e281ed9624ffc1d7e96f',1,'ts::TablesDisplayArgs']]],
-  ['_7etableslogger',['~TablesLogger',['../classts_1_1_tables_logger.html#acc5519960a258058701f27e30bc479d3',1,'ts::TablesLogger']]],
+  ['_7etableslogger',['~TablesLogger',['../classts_1_1_tables_logger.html#aa8a5977fe5cacba2c568441a44e8f87c',1,'ts::TablesLogger']]],
   ['_7etablesloggerargs',['~TablesLoggerArgs',['../classts_1_1_tables_logger_args.html#aa08388f5c9e90886ecf2f72a62812263',1,'ts::TablesLoggerArgs']]],
   ['_7etcpsocket',['~TCPSocket',['../classts_1_1_t_c_p_socket.html#a1d7b3b6ae5fee312d87896c733131f93',1,'ts::TCPSocket']]],
   ['_7ethread',['~Thread',['../classts_1_1_thread.html#ad92ae8bd1ab07fad9ff15b9ee3c993f6',1,'ts::Thread']]],

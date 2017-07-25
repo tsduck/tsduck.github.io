@@ -1,6 +1,5 @@
 var searchData=
 [
-  ['data',['data',['../classts_1_1_byte_block.html#a86dd4c2de608fc27a17ae456855b7c30',1,'ts::ByteBlock::data() const'],['../classts_1_1_byte_block.html#abd94ae8486f333c74336c2d835e3eac7',1,'ts::ByteBlock::data()']]],
   ['databroadcastid',['DataBroadcastId',['../namespacets_1_1names.html#afa4b12b39e167d9f0b7ee3eeebb3ae89',1,'ts::names']]],
   ['databroadcastiddescriptor',['DataBroadcastIdDescriptor',['../classts_1_1_data_broadcast_id_descriptor.html#acfeb436f6f160a609473bb80b9a04d17',1,'ts::DataBroadcastIdDescriptor::DataBroadcastIdDescriptor(uint16_t id=0)'],['../classts_1_1_data_broadcast_id_descriptor.html#ab409722e24ebe06f9ceb41936ffa2008',1,'ts::DataBroadcastIdDescriptor::DataBroadcastIdDescriptor(const Descriptor &amp;bin)']]],
   ['dataprovision',['DataProvision',['../classts_1_1emmgmux_1_1_data_provision.html#a70bb472a14f53779bc7f959e9e86c11c',1,'ts::emmgmux::DataProvision::DataProvision()'],['../classts_1_1emmgmux_1_1_data_provision.html#ae69b90512d00e7ee69e2b5f68864e17a',1,'ts::emmgmux::DataProvision::DataProvision(const tlv::MessageFactory &amp;fact)']]],

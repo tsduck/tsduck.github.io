@@ -28,6 +28,7 @@ var searchData=
   ['lockerrorcode',['lockErrorCode',['../classts_1_1_resident_buffer.html#ab9294ca094d642c4105045e9a7c94474',1,'ts::ResidentBuffer']]],
   ['log',['log',['../classts_1_1_report_interface.html#a254aa17a6df18b77f395c55d83753449',1,'ts::ReportInterface::log(int severity, const std::string &amp;msg)'],['../classts_1_1_report_interface.html#a3d7dc9f2bc0881a23b434c48adc7cfaf',1,'ts::ReportInterface::log(int severity, const char *format,...)']]],
   ['logicalchannelnumberdescriptor',['LogicalChannelNumberDescriptor',['../classts_1_1_logical_channel_number_descriptor.html#a9a9576e64dd0e2e27eeca5ae7a1cea02',1,'ts::LogicalChannelNumberDescriptor::LogicalChannelNumberDescriptor()'],['../classts_1_1_logical_channel_number_descriptor.html#a603538f69cf3f7c70eaede35f84a685f',1,'ts::LogicalChannelNumberDescriptor::LogicalChannelNumberDescriptor(const Descriptor &amp;bin)'],['../classts_1_1_logical_channel_number_descriptor.html#a52647ccf941c2471eb748b38bb8cc8ab',1,'ts::LogicalChannelNumberDescriptor::LogicalChannelNumberDescriptor(int service_id, int lcn,...)']]],
+  ['logsection',['logSection',['../classts_1_1_tables_logger.html#a941778cc013196cf8a7befe3631b394c',1,'ts::TablesLogger']]],
   ['logsectiondata',['logSectionData',['../classts_1_1_tables_display.html#ad7ba8e122b2d59a71273e6c616849d7f',1,'ts::TablesDisplay']]],
   ['lowercasevalue',['LowerCaseValue',['../namespacets.html#a14a774ecfc4c9d96443b20df10ba22b2',1,'ts']]],
   ['lowfrequency',['lowFrequency',['../classts_1_1_l_n_b.html#a3bab2732e9ed1ba1f97086ff30aebef1',1,'ts::LNB']]]

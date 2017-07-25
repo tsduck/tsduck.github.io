@@ -1,6 +1,5 @@
 var searchData=
 [
-  ['data',['data',['../classts_1_1_byte_block.html#a86dd4c2de608fc27a17ae456855b7c30',1,'ts::ByteBlock::data() const'],['../classts_1_1_byte_block.html#abd94ae8486f333c74336c2d835e3eac7',1,'ts::ByteBlock::data()']]],
   ['data_5fbroadcast_5fid',['data_broadcast_id',['../classts_1_1_data_broadcast_id_descriptor.html#ac60777c6464bda24a2a42a4215245430',1,'ts::DataBroadcastIdDescriptor']]],
   ['data_5fchannel_5fid',['data_channel_id',['../structts_1_1emmgmux_1_1_tags.html#a811d01187582347ab2b89c4413dfda15aa302c002a055912151f1d331ccf27344',1,'ts::emmgmux::Tags']]],
   ['data_5fid',['data_id',['../structts_1_1emmgmux_1_1_tags.html#a811d01187582347ab2b89c4413dfda15a6ee09ce09085f635b128eed8931dabf6',1,'ts::emmgmux::Tags::data_id()'],['../classts_1_1emmgmux_1_1_stream_setup.html#a479d3ae89696419c8d050e58a350aa06',1,'ts::emmgmux::StreamSetup::data_id()'],['../classts_1_1emmgmux_1_1_stream_status.html#a9beb0e2e2e4d0f631cb16ed8021b7bdc',1,'ts::emmgmux::StreamStatus::data_id()'],['../classts_1_1emmgmux_1_1_data_provision.html#a9c025568aef324b13188c1db770c2e62',1,'ts::emmgmux::DataProvision::data_id()']]],

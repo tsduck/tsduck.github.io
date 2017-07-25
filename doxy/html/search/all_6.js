@@ -1,7 +1,8 @@
 var searchData=
 [
   ['factory',['Factory',['../classts_1_1_tuner_parameters.html#ae9090da5be9aa433810481bd8317ab10',1,'ts::TunerParameters::Factory()'],['../classts_1_1ecmgscs_1_1_protocol.html#a76305ffe1b5de3f2050371fb7c319543',1,'ts::ecmgscs::Protocol::factory()'],['../classts_1_1emmgmux_1_1_protocol.html#a7bb7491162eb96803ee924646d593802',1,'ts::emmgmux::Protocol::factory()'],['../classts_1_1tlv_1_1_message_factory.html#a0fd56ca894d62f8d8efc018b650c6a89',1,'ts::tlv::MessageFactory::factory()'],['../classts_1_1tlv_1_1_protocol.html#aa644f028113cc0e105738afc0deb0f6a',1,'ts::tlv::Protocol::factory()']]],
-  ['fatal',['Fatal',['../structts_1_1_severity.html#a69c5602f643bc6626deac73466fbb962',1,'ts::Severity::Fatal()'],['../classts_1_1_report_interface.html#adc5a601e0f8b662cf2230ab3ec221277',1,'ts::ReportInterface::fatal(const std::string &amp;msg)'],['../classts_1_1_report_interface.html#a211b241dabf5306b97d8b89ed6246dbd',1,'ts::ReportInterface::fatal(const char *format,...)']]],
+  ['fatal',['fatal',['../classts_1_1_report_interface.html#adc5a601e0f8b662cf2230ab3ec221277',1,'ts::ReportInterface::fatal(const std::string &amp;msg)'],['../classts_1_1_report_interface.html#a211b241dabf5306b97d8b89ed6246dbd',1,'ts::ReportInterface::fatal(const char *format,...)'],['../structts_1_1_severity.html#a69c5602f643bc6626deac73466fbb962',1,'ts::Severity::Fatal()']]],
+  ['fatalerror',['FatalError',['../namespacets.html#a026d43091fa662ad1d16b323994a77e5',1,'ts']]],
   ['fatalmemoryallocation',['FatalMemoryAllocation',['../namespacets.html#a440dc142daf576dd4c291aa41ccb23ef',1,'ts']]],
   ['fec_5f1_5f2',['FEC_1_2',['../namespacets.html#aba02cdc67c6160675835a56352ee020eaea4156395c7a42ffcfd54537b3b44cf5',1,'ts']]],
   ['fec_5f1_5f3',['FEC_1_3',['../namespacets.html#aba02cdc67c6160675835a56352ee020eaef4f7e3dfc2b6589bc2b7840207ff771',1,'ts']]],

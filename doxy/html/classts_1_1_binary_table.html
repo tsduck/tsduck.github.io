@@ -34,7 +34,7 @@
  <tr style="height: 56px;">
   <td id="projectlogo"><img src="tsduck-32.png"/></td>
    <td id="projectalign"><span id="projectname">TSDuck</span>
-    <span id="projectnumber">Version 3.1</span>
+    <span id="projectnumber">Version 3.2</span>
     <span id="projectbrief">(TSDuck - The MPEG Transport Stream Toolkit)</span>
    </td>
    <td>        <div id="MSearchBox" class="MSearchBoxInactive">
@@ -132,6 +132,9 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:ac299ba677ebb3780a2f2c2d6b7f33e99"><td class="memItemLeft" align="right" valign="top"><a class="el" href="namespacets.html#a9cdec7a120783847f53fbf71e5eb49f6">PacketCounter</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classts_1_1_binary_table.html#ac299ba677ebb3780a2f2c2d6b7f33e99">getLastTSPacketIndex</a> () const</td></tr>
 <tr class="memdesc:ac299ba677ebb3780a2f2c2d6b7f33e99"><td class="mdescLeft">&#160;</td><td class="mdescRight">Index of last TS packet of the table in the demultiplexed stream.  <a href="#ac299ba677ebb3780a2f2c2d6b7f33e99">More...</a><br /></td></tr>
 <tr class="separator:ac299ba677ebb3780a2f2c2d6b7f33e99"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a20e40f1d5453d65d1f23df9168ddf9cc"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classts_1_1_binary_table.html#a20e40f1d5453d65d1f23df9168ddf9cc">isShortSection</a> () const</td></tr>
+<tr class="memdesc:a20e40f1d5453d65d1f23df9168ddf9cc"><td class="mdescLeft">&#160;</td><td class="mdescRight">Check if this is a table with one short section.  <a href="#a20e40f1d5453d65d1f23df9168ddf9cc">More...</a><br /></td></tr>
+<tr class="separator:a20e40f1d5453d65d1f23df9168ddf9cc"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a00976cf2d7d939d1990747bcf1fd3564"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classts_1_1_binary_table.html#a00976cf2d7d939d1990747bcf1fd3564">isValid</a> () const</td></tr>
 <tr class="memdesc:a00976cf2d7d939d1990747bcf1fd3564"><td class="mdescLeft">&#160;</td><td class="mdescRight">Check if the table is valid.  <a href="#a00976cf2d7d939d1990747bcf1fd3564">More...</a><br /></td></tr>
 <tr class="separator:a00976cf2d7d939d1990747bcf1fd3564"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -859,6 +862,26 @@ Public Member Functions</h2></td></tr>
   </dd>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>A safe pointer to the section or a null pointer if the specified section is not present. </dd></dl>
+
+</div>
+</div>
+<a id="a20e40f1d5453d65d1f23df9168ddf9cc"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a20e40f1d5453d65d1f23df9168ddf9cc">&#9670;&nbsp;</a></span>isShortSection()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool ts::BinaryTable::isShortSection </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Check if this is a table with one short section. </p>
+<dl class="section return"><dt>Returns</dt><dd>True if this is a table with one short section. </dd></dl>
 
 </div>
 </div>

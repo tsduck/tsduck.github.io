@@ -29,6 +29,7 @@ var classts_1_1_tables_logger_args =
     [ "negate_tidext", "classts_1_1_tables_logger_args.html#a6a5c3786f0674e1504686eb47110cb2f", null ],
     [ "pid", "classts_1_1_tables_logger_args.html#af9a6a54b1de10f4156e03f7f926fd834", null ],
     [ "add_pmt_pids", "classts_1_1_tables_logger_args.html#ad78e2573cad859c494d88269199611f3", null ],
+    [ "no_duplicate", "classts_1_1_tables_logger_args.html#ae1eed65b618d30a126ac78d73dacce9d", null ],
     [ "tid", "classts_1_1_tables_logger_args.html#a596d6d9141f3e64ab8b361321a0658a9", null ],
     [ "tidext", "classts_1_1_tables_logger_args.html#a8cc15246e0c112fae32ef8ae4da7eda5", null ],
     [ "DEFAULT_LOG_SIZE", "classts_1_1_tables_logger_args.html#a88e31dbc7771d4e96ed0f25cc00595ca", null ]

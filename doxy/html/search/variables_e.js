@@ -17,6 +17,7 @@ var searchData=
   ['next_5fchange',['next_change',['../structts_1_1_t_o_t_1_1_region.html#a3bf3c83dda2fd4db7c1497736fe032e6',1,'ts::TOT::Region']]],
   ['next_5ftime_5foffset',['next_time_offset',['../structts_1_1_t_o_t_1_1_region.html#a3384e3a7985df62e3f9655d1e83d5bfd',1,'ts::TOT::Region']]],
   ['nit_5fpid',['nit_pid',['../classts_1_1_p_a_t.html#a83b9c566cceb9f6722a552b3a5c1b1f9',1,'ts::PAT']]],
+  ['no_5fduplicate',['no_duplicate',['../classts_1_1_tables_logger_args.html#ae1eed65b618d30a126ac78d73dacce9d',1,'ts::TablesLoggerArgs']]],
   ['no_5fmpe_5ffec',['no_mpe_fec',['../classts_1_1_terrestrial_delivery_system_descriptor.html#a3bffa9b61c0f6bd1829aa0786184e8cb',1,'ts::TerrestrialDeliverySystemDescriptor']]],
   ['no_5ftime_5fslicing',['no_time_slicing',['../classts_1_1_terrestrial_delivery_system_descriptor.html#a889a35f795d60996ba2e0fab8c0175e8',1,'ts::TerrestrialDeliverySystemDescriptor']]],
   ['nominal_5fcp_5fduration',['nominal_CP_duration',['../classts_1_1ecmgscs_1_1_stream_setup.html#a594ab9ec970bf9f7786e1efebf19db9e',1,'ts::ecmgscs::StreamSetup']]],

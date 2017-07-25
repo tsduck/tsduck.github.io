@@ -6,7 +6,7 @@ var NAVTREE =
       [ "Code structure", "index.html#codestruct", null ]
     ] ],
     [ "Building TSDuck", "building.html", [
-      [ "Pre-requisistes: build tools", "building.html#buildreq", [
+      [ "Pre-requisites: build tools", "building.html#buildreq", [
         [ "Windows", "building.html#reqwindows", null ],
         [ "Fedora", "building.html#reqfedora", null ],
         [ "Red Hat Entreprise Linux, CentOS", "building.html#reqrhel", null ],
@@ -35,6 +35,11 @@ var NAVTREE =
         [ "Plugin Executors", "devplugin.html#pdevexec", null ],
         [ "Transport packets buffer", "devplugin.html#pdevbuffer", null ]
       ] ]
+    ] ],
+    [ "Using the TSDuck library", "usinglibrary.html", [
+      [ "Pre-requisites", "usinglibrary.html#libreq", null ],
+      [ "Building applications on Linux", "usinglibrary.html#liblinux", null ],
+      [ "Building applications on Windows", "usinglibrary.html#libwindows", null ]
     ] ],
     [ "Namespaces", null, [
       [ "Namespace List", "namespaces.html", "namespaces" ],
@@ -75,26 +80,26 @@ var NAVTREEINDEX =
 [
 "annotated.html",
 "classts_1_1_abstract_c_a_s_date.html#a9f1425d597dd9578f9d723eb24b5ca52",
-"classts_1_1_byte_block.html#a11ae9e2d987ec8876b8cb7d5008a058f",
-"classts_1_1_content_descriptor.html#a882b3b3cb41d0a086d192022191fb347",
-"classts_1_1_enumeration.html#a9d4ec7ac5f2163b3562a0991fbc88957",
-"classts_1_1_n_i_t.html#a01b34817434ba360032a9388d777983e",
-"classts_1_1_report_interface.html#a254aa17a6df18b77f395c55d83753449",
-"classts_1_1_service.html#a2008f52f9fde3b11f415dbf40c6cfb58",
-"classts_1_1_t_c_p_socket.html#a4311488ae2bd8fa1ebc46539581af0fd",
-"classts_1_1_t_s_file_input_buffered.html",
-"classts_1_1_time_1_1_time_error.html#ab769d0f572caf57904920324946be6e2",
-"classts_1_1_variable.html#a66cf19b44a000eb5282e382125631c54",
-"classts_1_1tlv_1_1_analyzer.html#ace5ebd50653b672ac57d790d05a53d66",
-"functions_u.html",
-"structts_1_1_t_s_packet.html#a031a030674f0ddd59434d92e381218df",
-"ts_a_e_s_8h.html",
-"ts_m_p_e_g_8h.html#a0071f2918a8c95ab8f3c188250ce2b7fab2f1ecd8398a5712afd7d79d08f767a0",
-"ts_m_p_e_g_8h.html#ad3b474791d0063369fb7eb5b3c5d9593afeee380154bc20a319f2880d67db5c96",
-"ts_m_p_e_g_8h.html#ae56343654e2b01380409afc12dd2b037a8b549c5cdb8039f18d5907a9af1b5488",
-"ts_names_8h.html#af1f745ab758469ab5f5db3f2d3b277f8",
-"ts_s_h_a512_8h.html",
-"tstlv_8h.html#a12a42dcab7269ac98cadff2465c74874a28871ee343a98c2a0ab2b921a8387443"
+"classts_1_1_byte_block.html#a0d576ca01fec298267f6862313a4b93b",
+"classts_1_1_content_descriptor.html#aaaadf10de3b6e795d92da998ff8309c9",
+"classts_1_1_enumeration.html#aafa681d752f62a47ffa64724908b3cfe",
+"classts_1_1_n_i_t.html#a3f989999f8a93dff64dfe38bf1156162",
+"classts_1_1_report_interface.html#a25688d99afc5b334b3918ad0cff3a1fd",
+"classts_1_1_service.html#a220d0a7d86e0ee6cf13e97c0a2c79d90",
+"classts_1_1_t_c_p_socket.html#a4e777fe03dfd3d2e909bc3df14e679ad",
+"classts_1_1_t_s_file_input_buffered.html#a09467cd4f7df589b1946528f47471f4c",
+"classts_1_1_time.html#ae4e45247f49519e79424302e5a2072a0",
+"classts_1_1_variable.html#a3317d72882164f98714e7a41a347c7d5",
+"classts_1_1tlv_1_1_analyzer.html#a08cef096fa72f55e94a922f117bc5427",
+"functions_r.html",
+"structts_1_1_t_o_t_1_1_region.html#acdbe9d0ad26477ba30e4d9ccf4470846",
+"structts_1_1tsp_1_1_options_1_1_plugin_options.html#accbe6ca927575822e09c9c1647adb585",
+"ts_m_j_d_8h.html#a825344141ed756c464e741feafbf826c",
+"ts_m_p_e_g_8h.html#ad3b474791d0063369fb7eb5b3c5d9593ad55f828edd163550e9862ba3f2ed7a3d",
+"ts_m_p_e_g_8h.html#ae56343654e2b01380409afc12dd2b037a757f75e7ce72d3dda6ff995aaaf96983",
+"ts_names_8h.html#acf3691bc95eb87539955552801997b0d",
+"ts_resident_buffer_8h.html",
+"tsp_output_executor_8h.html"
 ];
 
 var SYNCONMSG = 'click to disable panel synchronisation';

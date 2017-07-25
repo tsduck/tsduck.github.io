@@ -63,6 +63,7 @@ var searchData=
   ['log_5fsize',['log_size',['../classts_1_1_tables_logger_args.html#a1db8e44a0ab31bd0a9db48aabc5b74a1',1,'ts::TablesLoggerArgs']]],
   ['logger',['logger',['../classts_1_1_tables_logger_args.html#a19f8d3ab52095bd53de1e9c3901f04db',1,'ts::TablesLoggerArgs']]],
   ['logicalchannelnumberdescriptor',['LogicalChannelNumberDescriptor',['../classts_1_1_logical_channel_number_descriptor.html',1,'ts::LogicalChannelNumberDescriptor'],['../classts_1_1_logical_channel_number_descriptor.html#a9a9576e64dd0e2e27eeca5ae7a1cea02',1,'ts::LogicalChannelNumberDescriptor::LogicalChannelNumberDescriptor()'],['../classts_1_1_logical_channel_number_descriptor.html#a603538f69cf3f7c70eaede35f84a685f',1,'ts::LogicalChannelNumberDescriptor::LogicalChannelNumberDescriptor(const Descriptor &amp;bin)'],['../classts_1_1_logical_channel_number_descriptor.html#a52647ccf941c2471eb748b38bb8cc8ab',1,'ts::LogicalChannelNumberDescriptor::LogicalChannelNumberDescriptor(int service_id, int lcn,...)']]],
+  ['logsection',['logSection',['../classts_1_1_tables_logger.html#a941778cc013196cf8a7befe3631b394c',1,'ts::TablesLogger']]],
   ['logsectiondata',['logSectionData',['../classts_1_1_tables_display.html#ad7ba8e122b2d59a71273e6c616849d7f',1,'ts::TablesDisplay']]],
   ['long_5fsection_5fheader_5fsize',['LONG_SECTION_HEADER_SIZE',['../namespacets.html#a3ca1a0c82a63583f56aab8f16f80278e',1,'ts']]],
   ['low_5fdelay_5fhrd_5fflag',['low_delay_hrd_flag',['../classts_1_1_a_v_c_v_u_i_parameters.html#a1aaafb42f9766c802354f227f82926fa',1,'ts::AVCVUIParameters']]],
