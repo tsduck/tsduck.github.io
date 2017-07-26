@@ -139,12 +139,13 @@ tsp -I dvb -u $UHF_INPUT                                      \
         <p>This command is complex but rational. The option -I on the first line specifies the input
           plugin and its arguments. Here, the input plugin is <i>dvb</i> which drives DVB tuners.
           Each option -P specifies a packet processor plugin and its options. The plugins <i>tsrename</i>
-          and <i>svrenams</i> respectively rename the transport stream and a service. The plugin
+          and <i>svrename</i> respectively rename the transport stream and a service. The plugin
           <i>scrambler</i> is a DVB scrambler on one service. It generates control words,
-          interactq with a standard ECMG and insert ECM's. It also updates the PMT of the service
+          interacts with a standard ECMG and insert ECM's. It also updates the PMT of the service
           to declare the ECM PID. The plugin <i>cat</i> modifies or creates the CAT to declare
           a new EMM stream. The plugin <i>datainject</i> implements a DVB SimulCrypt
-          EMM/PDG inserter. It is used by a standard EMMG to insert EMM's.
+          EMM/PDG inserter. It is used as a server by a standard EMMG to insert EMM's,
+          just as if it was a MUX.
           Finally, the option -O on the last line specifies the output plugin and its arguments.
           Here, the output plugin is <i>dektec</i> which drives a Dektec modulator, a PCIe board
           in the computer.</p>
@@ -152,8 +153,9 @@ tsp -I dvb -u $UHF_INPUT                                      \
           <a href="https://github.com/tsduck/tsduck/raw/master/doc/tsduck.pdf">TSDuck User's Guide</a>.</p>
         <p>Of course, such a complex command should be maintained and edited in a shell script.
           Unless of course you enjoy retyping it every time.</p>
-        <p>Because of its modular structure, TSDuck is better used with a shell.
-          On Windows systems, you may use PowerShell or Cygwin.</p>
+        <p>Because of its modular structure, TSDuck is better used with a flexible shell.
+          On Windows systems, you may use PowerShell, Cygwin or MSys (DOS command line windows
+          should now be reserved to polymorphic deviants only).</p>
 
         <div class="anchor" id="prog"><h2>Using TSDuck as a library</h2></div>
 
@@ -161,23 +163,28 @@ tsp -I dvb -u $UHF_INPUT                                      \
           Most of the TSDuck code is located into a large shareable library.
           The utilities and plugins are usually only small wrappers around the TSDuck library.
           You may use the TSDuck library to develop new plugins or create completely
-          indepent applications.</p>
+          independent applications.</p>
         <p>All C++ classes in the TSDuck library are
           <a href="../doxy/html/index.html">documented using Doxygen</a>.</p>
-          
+        <p>There is a binary installer for the TSDuck development environment too.
+          So, there is no need to rebuild TSDuck first.
+          See more details <a href="../doxy/html/usinglibrary.html">here</a>.</p>
+
         <div class="anchor" id="avail"><h2>Availability</h2></div>
         
         <p>TSDuck is open source and released under the BSD license.
           It is developed in C++ and designed to be portable.
           TSDuck is built and tested for Windows, Linux and MacOS.
           Please see the list of useful links in the side menu.</p>
-        <p>Pre-built binary packages are available for Windows, Fedora and Ubuntu.</p>
+        <p>Pre-built binary packages are available for Windows, Fedora,
+          Ubuntu and Red Hat / CentOS.</p>
         <p>Support for specialized hardware, DVB tuners and Dektec devices,
           is available on Windows and Linux only. On 64-bit Windows, if you use
           DVB tuners which come with 32-bit drivers, you must use the 32-bit
           version of TSDuck. The 64-bit version of TSDuck cannot work with 32-bit
           drivers. But 32-bit DVB drivers and 32-bit TSDuck can work on 64-bit Windows.</p>
-        <p>Please report problems using the <a href="https://github.com/tsduck/tsduck/issues">issue tracker</a>.</p>
+        <p>Please report problems using the
+          <a href="https://github.com/tsduck/tsduck/issues">issue tracker</a>.</p>
 
         <div class="anchor" id="license"><h2>License</h2></div>
 
