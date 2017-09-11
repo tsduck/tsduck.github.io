@@ -14,16 +14,17 @@
 <area shape="rect" id="node15" href="$classts_1_1_h_d_simulcast_logical_channel_descriptor.html" title="Representation of a HD_simulcast_logical_channel_descriptor. " alt="" coords="211,661,417,703"/>
 <area shape="rect" id="node16" href="$classts_1_1_i_s_o639_language_descriptor.html" title="Representation of an ISO_639_language_descriptor. " alt="" coords="215,727,413,754"/>
 <area shape="rect" id="node17" href="$classts_1_1_linkage_descriptor.html" title="Representation of a generic linkage_descriptor. " alt="" coords="241,778,387,805"/>
-<area shape="rect" id="node18" href="$classts_1_1_logical_channel_number_descriptor.html" title="Representation of a logical_channel_number_descriptor. " alt="" coords="227,829,401,871"/>
-<area shape="rect" id="node19" href="$classts_1_1_network_name_descriptor.html" title="Representation of a network_name_descriptor. " alt="" coords="223,895,405,922"/>
-<area shape="rect" id="node20" href="$classts_1_1_parental_rating_descriptor.html" title="Representation of an parental_rating_descriptor. " alt="" coords="221,946,407,973"/>
-<area shape="rect" id="node21" href="$classts_1_1_private_data_specifier_descriptor.html" title="Representation of a private_data_specifier_descriptor. " alt="" coords="235,997,393,1039"/>
-<area shape="rect" id="node22" href="$classts_1_1_service_descriptor.html" title="Representation of a service_descriptor. " alt="" coords="243,1063,385,1090"/>
-<area shape="rect" id="node23" href="$classts_1_1_service_list_descriptor.html" title="Representation of a service_list_descriptor. " alt="" coords="233,1114,395,1141"/>
-<area shape="rect" id="node24" href="$classts_1_1_short_event_descriptor.html" title="Representation of an short_event_descriptor. " alt="" coords="233,1165,395,1191"/>
-<area shape="rect" id="node25" href="$classts_1_1_s_s_u_data_broadcast_id_descriptor.html" title="Representation of a data_broadcast_id_descriptor for system software update. " alt="" coords="203,1215,425,1242"/>
-<area shape="rect" id="node26" href="$classts_1_1_s_s_u_linkage_descriptor.html" title="Representation of a linkage_descriptor for system software update. " alt="" coords="228,1266,400,1293"/>
-<area shape="rect" id="node27" href="$classts_1_1_s_t_d_descriptor.html" title="Representation of an STD_descriptor. " alt="" coords="251,1317,377,1343"/>
-<area shape="rect" id="node28" href="$classts_1_1_stream_identifier_descriptor.html" title="Representation of a stream_identifier_descriptor. " alt="" coords="219,1367,409,1394"/>
+<area shape="rect" id="node18" href="$classts_1_1_local_time_offset_descriptor.html" title="Representation of a local_time_offset_descriptor. " alt="" coords="217,829,411,855"/>
+<area shape="rect" id="node19" href="$classts_1_1_logical_channel_number_descriptor.html" title="Representation of a logical_channel_number_descriptor. " alt="" coords="227,880,401,921"/>
+<area shape="rect" id="node20" href="$classts_1_1_network_name_descriptor.html" title="Representation of a network_name_descriptor. " alt="" coords="223,946,405,973"/>
+<area shape="rect" id="node21" href="$classts_1_1_parental_rating_descriptor.html" title="Representation of an parental_rating_descriptor. " alt="" coords="221,997,407,1023"/>
+<area shape="rect" id="node22" href="$classts_1_1_private_data_specifier_descriptor.html" title="Representation of a private_data_specifier_descriptor. " alt="" coords="235,1048,393,1089"/>
+<area shape="rect" id="node23" href="$classts_1_1_service_descriptor.html" title="Representation of a service_descriptor. " alt="" coords="243,1114,385,1141"/>
+<area shape="rect" id="node24" href="$classts_1_1_service_list_descriptor.html" title="Representation of a service_list_descriptor. " alt="" coords="233,1165,395,1191"/>
+<area shape="rect" id="node25" href="$classts_1_1_short_event_descriptor.html" title="Representation of an short_event_descriptor. " alt="" coords="233,1215,395,1242"/>
+<area shape="rect" id="node26" href="$classts_1_1_s_s_u_data_broadcast_id_descriptor.html" title="Representation of a data_broadcast_id_descriptor for system software update. " alt="" coords="203,1266,425,1293"/>
+<area shape="rect" id="node27" href="$classts_1_1_s_s_u_linkage_descriptor.html" title="Representation of a linkage_descriptor for system software update. " alt="" coords="228,1317,400,1343"/>
+<area shape="rect" id="node28" href="$classts_1_1_s_t_d_descriptor.html" title="Representation of an STD_descriptor. " alt="" coords="251,1367,377,1394"/>
+<area shape="rect" id="node29" href="$classts_1_1_stream_identifier_descriptor.html" title="Representation of a stream_identifier_descriptor. " alt="" coords="219,1418,409,1445"/>
 <area shape="rect" id="node3" href="$classts_1_1_terrestrial_delivery_system_descriptor.html" title="Representation of a terrestrial_delivery_system_descriptor. " alt="" coords="473,5,661,47"/>
 </map>

@@ -110,9 +110,6 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:acfd70b4ca28afcd13036127d0faf7922"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classts_1_1_e_t_i_d.html#acfd70b4ca28afcd13036127d0faf7922">ETID</a> (<a class="el" href="namespacets.html#a3c2cbf0a41a7db2577a737cc9568e3cb">TID</a> <a class="el" href="classts_1_1_e_t_i_d.html#a28a996791ada2360455d186d2cfcc4c0">tid</a>, uint16_t tid_ext)</td></tr>
 <tr class="memdesc:acfd70b4ca28afcd13036127d0faf7922"><td class="mdescLeft">&#160;</td><td class="mdescRight">Constructor from a long table id and tid-ext.  <a href="#acfd70b4ca28afcd13036127d0faf7922">More...</a><br /></td></tr>
 <tr class="separator:acfd70b4ca28afcd13036127d0faf7922"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ac667914d1dffadda467fc63e9cc7469f"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classts_1_1_e_t_i_d.html#ac667914d1dffadda467fc63e9cc7469f">ETID</a> (const <a class="el" href="classts_1_1_e_t_i_d.html">ETID</a> &amp;e)</td></tr>
-<tr class="memdesc:ac667914d1dffadda467fc63e9cc7469f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Copy constructor.  <a href="#ac667914d1dffadda467fc63e9cc7469f">More...</a><br /></td></tr>
-<tr class="separator:ac667914d1dffadda467fc63e9cc7469f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:abd86b7ffb5405ec49b2d237073f6024c"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classts_1_1_e_t_i_d.html#abd86b7ffb5405ec49b2d237073f6024c">isLongSection</a> () const</td></tr>
 <tr class="memdesc:abd86b7ffb5405ec49b2d237073f6024c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Check if the table is a long one.  <a href="#abd86b7ffb5405ec49b2d237073f6024c">More...</a><br /></td></tr>
 <tr class="separator:abd86b7ffb5405ec49b2d237073f6024c"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -128,9 +125,6 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a33765dd7bcba52819242b6037f199619"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classts_1_1_e_t_i_d.html#a33765dd7bcba52819242b6037f199619">operator&lt;=</a> (const <a class="el" href="classts_1_1_e_t_i_d.html">ETID</a> &amp;e) const</td></tr>
 <tr class="memdesc:a33765dd7bcba52819242b6037f199619"><td class="mdescLeft">&#160;</td><td class="mdescRight">Comparison operator.  <a href="#a33765dd7bcba52819242b6037f199619">More...</a><br /></td></tr>
 <tr class="separator:a33765dd7bcba52819242b6037f199619"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aa138eb7a6a01746c887aa5f10533d383"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classts_1_1_e_t_i_d.html">ETID</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classts_1_1_e_t_i_d.html#aa138eb7a6a01746c887aa5f10533d383">operator=</a> (const <a class="el" href="classts_1_1_e_t_i_d.html">ETID</a> &amp;e)</td></tr>
-<tr class="memdesc:aa138eb7a6a01746c887aa5f10533d383"><td class="mdescLeft">&#160;</td><td class="mdescRight">Assignment operator.  <a href="#aa138eb7a6a01746c887aa5f10533d383">More...</a><br /></td></tr>
-<tr class="separator:aa138eb7a6a01746c887aa5f10533d383"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a10bc9072a95b3bf297ce6b38888093ee"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classts_1_1_e_t_i_d.html#a10bc9072a95b3bf297ce6b38888093ee">operator==</a> (const <a class="el" href="classts_1_1_e_t_i_d.html">ETID</a> &amp;e) const</td></tr>
 <tr class="memdesc:a10bc9072a95b3bf297ce6b38888093ee"><td class="mdescLeft">&#160;</td><td class="mdescRight">Comparison operator.  <a href="#a10bc9072a95b3bf297ce6b38888093ee">More...</a><br /></td></tr>
 <tr class="separator:a10bc9072a95b3bf297ce6b38888093ee"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -152,7 +146,7 @@ Public Member Functions</h2></td></tr>
 <p>For convenience, it is sometimes useful to identify tables using an "extended TID", a combination of TID and TIDext. On one PID, two tables with the same TID but with different TIDext are considered as distinct tables. By convention, the TIDext is always zero with short sections. </p>
 </div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a id="ae5d492123219cf1257d810f5a1410ec8"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ae5d492123219cf1257d810f5a1410ec8">&#9670;&nbsp;</a></span>ETID() <span class="overload">[1/3]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#ae5d492123219cf1257d810f5a1410ec8">&#9670;&nbsp;</a></span>ETID() <span class="overload">[1/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -170,7 +164,7 @@ Public Member Functions</h2></td></tr>
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">explicit</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
@@ -186,7 +180,7 @@ Public Member Functions</h2></td></tr>
 </div>
 </div>
 <a id="acfd70b4ca28afcd13036127d0faf7922"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#acfd70b4ca28afcd13036127d0faf7922">&#9670;&nbsp;</a></span>ETID() <span class="overload">[2/3]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#acfd70b4ca28afcd13036127d0faf7922">&#9670;&nbsp;</a></span>ETID() <span class="overload">[2/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -224,40 +218,6 @@ Public Member Functions</h2></td></tr>
   <table class="params">
     <tr><td class="paramdir">[in]</td><td class="paramname">tid</td><td>Table id. </td></tr>
     <tr><td class="paramdir">[in]</td><td class="paramname">tid_ext</td><td>Table id extension. </td></tr>
-  </table>
-  </dd>
-</dl>
-
-</div>
-</div>
-<a id="ac667914d1dffadda467fc63e9cc7469f"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ac667914d1dffadda467fc63e9cc7469f">&#9670;&nbsp;</a></span>ETID() <span class="overload">[3/3]</span></h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">ts::ETID::ETID </td>
-          <td>(</td>
-          <td class="paramtype">const <a class="el" href="classts_1_1_e_t_i_d.html">ETID</a> &amp;&#160;</td>
-          <td class="paramname"><em>e</em></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>Copy constructor. </p>
-<dl class="params"><dt>Parameters</dt><dd>
-  <table class="params">
-    <tr><td class="paramdir">[in]</td><td class="paramname">e</td><td>Other instance to copy. </td></tr>
   </table>
   </dd>
 </dl>
@@ -584,41 +544,6 @@ Public Member Functions</h2></td></tr>
   </dd>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>True is this object &gt;= <em>e</em>. </dd></dl>
-
-</div>
-</div>
-<a id="aa138eb7a6a01746c887aa5f10533d383"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aa138eb7a6a01746c887aa5f10533d383">&#9670;&nbsp;</a></span>operator=()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="classts_1_1_e_t_i_d.html">ETID</a>&amp; ts::ETID::operator= </td>
-          <td>(</td>
-          <td class="paramtype">const <a class="el" href="classts_1_1_e_t_i_d.html">ETID</a> &amp;&#160;</td>
-          <td class="paramname"><em>e</em></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>Assignment operator. </p>
-<dl class="params"><dt>Parameters</dt><dd>
-  <table class="params">
-    <tr><td class="paramdir">[in]</td><td class="paramname">e</td><td>Other instance to copy. </td></tr>
-  </table>
-  </dd>
-</dl>
-<dl class="section return"><dt>Returns</dt><dd>A reference to this object. </dd></dl>
 
 </div>
 </div>

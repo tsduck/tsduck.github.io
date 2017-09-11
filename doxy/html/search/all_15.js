@@ -23,10 +23,11 @@ var searchData=
   ['unixrealtimeclock',['UnixRealTimeClock',['../classts_1_1_time.html#a62def7e4f6dd4e01f45b82a9ad2c4535',1,'ts::Time']]],
   ['unixrealtimeclocknanoseconds',['UnixRealTimeClockNanoSeconds',['../classts_1_1_time.html#ad789e1ea8e7265bdb53f48d998a4fbfe',1,'ts::Time']]],
   ['unixtimetoutc',['UnixTimeToUTC',['../classts_1_1_time.html#ab24b5d828b8a81673a40a9883042ae10',1,'ts::Time']]],
-  ['unknown',['UNKNOWN',['../classts_1_1_d_t_v_properties.html#afda549a53a0f12a2b00ca03d13210e9a',1,'ts::DTVProperties::UNKNOWN()'],['../classts_1_1_enumeration.html#a178408127108246c77c418dd5a559268',1,'ts::Enumeration::UNKNOWN()']]],
+  ['unknown',['Unknown',['../classts_1_1_x_m_l.html#a599e582aa75e1ec4887c12dff16b2c04',1,'ts::XML::Unknown()'],['../classts_1_1_d_t_v_properties.html#afda549a53a0f12a2b00ca03d13210e9a',1,'ts::DTVProperties::UNKNOWN()'],['../classts_1_1_enumeration.html#a178408127108246c77c418dd5a559268',1,'ts::Enumeration::UNKNOWN()']]],
   ['unknown_5ferror',['unknown_error',['../structts_1_1ecmgscs_1_1_errors.html#a5e5abf0d3020e42a2a42071d9a3cb1cfa6defecde0874a64dbcdbe171d1eed050',1,'ts::ecmgscs::Errors::unknown_error()'],['../structts_1_1emmgmux_1_1_errors.html#a1e77320d82540c48f9616be50ba638f7abe6685cb8d3e24fbaf41a1097fc63075',1,'ts::emmgmux::Errors::unknown_error()']]],
   ['unknowncommandtag',['UnknownCommandTag',['../namespacets_1_1tlv.html#a8a60aed0fb72f9faef47e8c7e5beef94adebd0f22afefae49a8cc46bb30728c80',1,'ts::tlv']]],
   ['unknownparametertag',['UnknownParameterTag',['../namespacets_1_1tlv.html#a8a60aed0fb72f9faef47e8c7e5beef94ace9d0d66f2322e4a186ade5fb1a791cb',1,'ts::tlv']]],
+  ['unlimited',['UNLIMITED',['../classts_1_1_x_m_l.html#a832bce257051df370f71eeaf103357f9',1,'ts::XML']]],
   ['unlimited_5fcount',['UNLIMITED_COUNT',['../classts_1_1_args.html#abe59313ed20c5d691cb198f870df8992',1,'ts::Args']]],
   ['unlimited_5fvalue',['UNLIMITED_VALUE',['../classts_1_1_args.html#a0547bf1ea95668127d5d2a7c9f82c08a',1,'ts::Args']]],
   ['unload',['unload',['../classts_1_1_shared_library.html#ad087a2ca418d1690ae99cfebfaa63c47',1,'ts::SharedLibrary']]],
@@ -53,5 +54,6 @@ var searchData=
   ['utctolocal',['UTCToLocal',['../classts_1_1_time.html#a44962fefd850acb1460dab5ec4e55f5c',1,'ts::Time']]],
   ['utest',['utest',['../namespaceutest.html',1,'']]],
   ['utestcppunitmain_2eh',['utestCppUnitMain.h',['../utest_cpp_unit_main_8h.html',1,'']]],
-  ['utestcppunittest_2eh',['utestCppUnitTest.h',['../utest_cpp_unit_test_8h.html',1,'']]]
+  ['utestcppunittest_2eh',['utestCppUnitTest.h',['../utest_cpp_unit_test_8h.html',1,'']]],
+  ['utf8equal',['UTF8Equal',['../namespacets.html#a01e79b01dfffb2f98110ed6f08aa06e0',1,'ts::UTF8Equal(const std::string &amp;s1, const std::string &amp;s2, bool caseSensitive=true, const std::locale &amp;loc=std::locale::classic())'],['../namespacets.html#a686c463a326c31420a044ea39982b2ba',1,'ts::UTF8Equal(const char *s1, const char *s2, bool caseSensitive=true, const std::locale &amp;loc=std::locale::classic())']]]
 ];

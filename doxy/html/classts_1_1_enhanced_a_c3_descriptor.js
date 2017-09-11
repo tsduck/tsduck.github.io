@@ -6,6 +6,8 @@ var classts_1_1_enhanced_a_c3_descriptor =
     [ "DisplayDescriptor", "classts_1_1_enhanced_a_c3_descriptor.html#a875933696142730c4e4b534581fd1d27", null ],
     [ "serialize", "classts_1_1_enhanced_a_c3_descriptor.html#aecd1cec2488ddb50c2202bd0f5eb6103", null ],
     [ "deserialize", "classts_1_1_enhanced_a_c3_descriptor.html#a20345ef2a93f4e4ddffd63e2fc5fec8e", null ],
+    [ "toXML", "classts_1_1_enhanced_a_c3_descriptor.html#ac2a88f98fd7121bdf9416fc7ffa3c744", null ],
+    [ "fromXML", "classts_1_1_enhanced_a_c3_descriptor.html#a3f164f5a01d61adab41911fa8c7cadf8", null ],
     [ "component_type", "classts_1_1_enhanced_a_c3_descriptor.html#addb4b9ea6b0936c1d7358eb726cd2abf", null ],
     [ "bsid", "classts_1_1_enhanced_a_c3_descriptor.html#a74ac2659d2ad4d8c175109fa9910969a", null ],
     [ "mainid", "classts_1_1_enhanced_a_c3_descriptor.html#af0025ee98e57c49f508e5ac6801ecc8b", null ],

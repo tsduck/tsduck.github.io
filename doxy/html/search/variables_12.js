@@ -8,14 +8,16 @@ var searchData=
   ['reader',['reader',['../structts_1_1pcsc_1_1_reader_state.html#a7a704ad7946e92462daa0f4f31f37916',1,'ts::pcsc::ReaderState']]],
   ['receive_5ftimeout',['receive_timeout',['../classts_1_1_tuner_args.html#a2c414e166858ab5789a6d6bd5f1906ce',1,'ts::TunerArgs']]],
   ['referenced',['referenced',['../classts_1_1_t_s_analyzer_1_1_p_i_d_context.html#a31c7af1f79a7625e7c06b07d92779ab8',1,'ts::TSAnalyzer::PIDContext']]],
-  ['region_5fid',['region_id',['../structts_1_1_t_o_t_1_1_region.html#acdbe9d0ad26477ba30e4d9ccf4470846',1,'ts::TOT::Region']]],
-  ['regions',['regions',['../classts_1_1_t_o_t.html#a62e283fe16767a7a9c7ef86b938b3013',1,'ts::TOT']]],
+  ['region_5fid',['region_id',['../structts_1_1_local_time_offset_descriptor_1_1_region.html#a877f33fe322ee4e42c047cfb80ee8dcd',1,'ts::LocalTimeOffsetDescriptor::Region']]],
+  ['regions',['regions',['../classts_1_1_local_time_offset_descriptor.html#adb5d392af2dadd9ad911e643bab154e2',1,'ts::LocalTimeOffsetDescriptor::regions()'],['../classts_1_1_t_o_t.html#a62e283fe16767a7a9c7ef86b938b3013',1,'ts::TOT::regions()']]],
   ['repetition',['repetition',['../structts_1_1_file_name_rate.html#a25d71c1dc22d62e4562a851c9b054dc6',1,'ts::FileNameRate']]],
   ['repetition_5fts',['repetition_ts',['../classts_1_1_t_s_analyzer_1_1_e_t_i_d_context.html#ae47d4d3c68412d329e382aea27522240',1,'ts::TSAnalyzer::ETIDContext']]],
   ['reserved_5fzero_5f4bits',['reserved_zero_4bits',['../classts_1_1_a_v_c_sequence_parameter_set.html#a221edd55f755927c4559ca6b6107d3c7',1,'ts::AVCSequenceParameterSet']]],
+  ['retry_5fcount',['retry_count',['../structts_1_1_file_name_rate.html#a26c596cc5894da4ef92c32ab6ce46222',1,'ts::FileNameRate']]],
   ['roll_5foff',['roll_off',['../classts_1_1_tuner_args.html#a427a59435da2e476eb1eea701ffbeefc',1,'ts::TunerArgs::roll_off()'],['../classts_1_1_tuner_parameters_d_v_b_s.html#a0469d57264f04cddd2d5acd6468bc926',1,'ts::TunerParametersDVBS::roll_off()']]],
   ['rolloffenum',['RollOffEnum',['../namespacets.html#ab758471be44b695330f04987b17b76ee',1,'ts']]],
   ['rounds',['ROUNDS',['../classts_1_1_d_e_s.html#a71eaf55112b98fc3ed0c96b3d36cae0a',1,'ts::DES::ROUNDS()'],['../classts_1_1_t_d_e_s.html#adcae5119b3e04926d52f59e46082b3ff',1,'ts::TDES::ROUNDS()']]],
   ['rs_5fsize',['RS_SIZE',['../namespacets.html#abf0f257912dcfc16c5df6ca735ac95a4',1,'ts']]],
-  ['running_5fstatus',['running_status',['../classts_1_1_e_i_t_1_1_event.html#a4abcb31d29b85901a5574117f85c060f',1,'ts::EIT::Event::running_status()'],['../classts_1_1_s_d_t_1_1_service.html#af71c0010502829f1003357b686158284',1,'ts::SDT::Service::running_status()']]]
+  ['running_5fstatus',['running_status',['../classts_1_1_e_i_t_1_1_event.html#a4abcb31d29b85901a5574117f85c060f',1,'ts::EIT::Event::running_status()'],['../structts_1_1_r_s_t_1_1_event.html#a13d83f535503c7c8a59a7a4cd548f9a7',1,'ts::RST::Event::running_status()'],['../classts_1_1_s_d_t_1_1_service.html#af71c0010502829f1003357b686158284',1,'ts::SDT::Service::running_status()']]],
+  ['runningstatusnames',['RunningStatusNames',['../classts_1_1_r_s_t.html#a84fea2be95f05fb9e06d5b638d82acb8',1,'ts::RST']]]
 ];

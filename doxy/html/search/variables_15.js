@@ -10,6 +10,7 @@ var searchData=
   ['universal_5flnb_5flow_5ffrequency',['UNIVERSAL_LNB_LOW_FREQUENCY',['../classts_1_1_l_n_b.html#a2ebb4cd1cfd0cbb1a6ae9b2d4408265c',1,'ts::LNB']]],
   ['universal_5flnb_5fswitch_5ffrequency',['UNIVERSAL_LNB_SWITCH_FREQUENCY',['../classts_1_1_l_n_b.html#adbe2fe40764c9eee1a533bba8ae078c1',1,'ts::LNB']]],
   ['unknown',['UNKNOWN',['../classts_1_1_d_t_v_properties.html#afda549a53a0f12a2b00ca03d13210e9a',1,'ts::DTVProperties::UNKNOWN()'],['../classts_1_1_enumeration.html#a178408127108246c77c418dd5a559268',1,'ts::Enumeration::UNKNOWN()']]],
+  ['unlimited',['UNLIMITED',['../classts_1_1_x_m_l.html#a832bce257051df370f71eeaf103357f9',1,'ts::XML']]],
   ['unlimited_5fcount',['UNLIMITED_COUNT',['../classts_1_1_args.html#abe59313ed20c5d691cb198f870df8992',1,'ts::Args']]],
   ['unlimited_5fvalue',['UNLIMITED_VALUE',['../classts_1_1_args.html#a0547bf1ea95668127d5d2a7c9f82c08a',1,'ts::Args']]],
   ['unreferenced_5fpid_5flist',['unreferenced_pid_list',['../classts_1_1_t_s_analyzer_options.html#a517cc5e6ceadabaf7c66251a8a9a11d0',1,'ts::TSAnalyzerOptions']]],

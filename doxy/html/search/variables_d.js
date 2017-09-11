@@ -21,6 +21,7 @@ var searchData=
   ['max_5fpsi_5flong_5fsection_5fpayload_5fsize',['MAX_PSI_LONG_SECTION_PAYLOAD_SIZE',['../namespacets.html#a9dbf4df8ac2396dbc2f3fc9211451325',1,'ts']]],
   ['max_5fpsi_5fsection_5fsize',['MAX_PSI_SECTION_SIZE',['../namespacets.html#a834064d29ff78658ed2c6af46e140953',1,'ts']]],
   ['max_5fpsi_5fshort_5fsection_5fpayload_5fsize',['MAX_PSI_SHORT_SECTION_PAYLOAD_SIZE',['../namespacets.html#aaa15d5086d8e3e1b4d826a5823b7a8cf',1,'ts']]],
+  ['max_5fregion',['MAX_REGION',['../classts_1_1_local_time_offset_descriptor.html#afbde51a9a0cefb7ffad5dff5572210ef',1,'ts::LocalTimeOffsetDescriptor']]],
   ['max_5frepetition_5fts',['max_repetition_ts',['../classts_1_1_t_s_analyzer_1_1_e_t_i_d_context.html#a04f0895b922f6187f3e4822aabf69c8d',1,'ts::TSAnalyzer::ETIDContext']]],
   ['max_5frounds',['MAX_ROUNDS',['../classts_1_1_a_e_s.html#a33281c8278a427fdbc14bbf6e04a83c2',1,'ts::AES']]],
   ['max_5fstreams',['max_streams',['../classts_1_1ecmgscs_1_1_channel_status.html#aec4d39f175d68abf5b0e9f3d516c2e06',1,'ts::ecmgscs::ChannelStatus']]],

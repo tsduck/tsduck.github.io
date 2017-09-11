@@ -49,6 +49,8 @@ var ts_string_utils_8h =
     [ "OnOff", "ts_string_utils_8h.html#a8cf6b498027908f096a0f9162897912e", null ],
     [ "SimilarStrings", "ts_string_utils_8h.html#aab8264fdcc13f105f5b88ed29a1f5c14", null ],
     [ "SimilarStrings", "ts_string_utils_8h.html#a8157d774bb7d87d33a907874e575630a", null ],
+    [ "ContainSimilarString", "ts_string_utils_8h.html#a421ce903fdd013396c358ceb6087806f", null ],
+    [ "FindSimilar", "ts_string_utils_8h.html#a3c82d111aa00925f8764d179cdbcccc9", null ],
     [ "HexaDecode", "ts_string_utils_8h.html#acd7d283185f503c985d9ac0dd8049e2d", null ],
     [ "HexaDecode", "ts_string_utils_8h.html#a1d4a51962a177e62402915c9aedd6724", null ],
     [ "HexaDecodeAndAppend", "ts_string_utils_8h.html#af30dd41c88e3c79134b27e3e95ba7962", null ],

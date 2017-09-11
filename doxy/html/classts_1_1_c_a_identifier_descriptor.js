@@ -6,5 +6,7 @@ var classts_1_1_c_a_identifier_descriptor =
     [ "DisplayDescriptor", "classts_1_1_c_a_identifier_descriptor.html#a22b3ad5df1dad6a6dac2718f7098f8f9", null ],
     [ "serialize", "classts_1_1_c_a_identifier_descriptor.html#a9d51a0a2328a1fcaa39d59c677db787b", null ],
     [ "deserialize", "classts_1_1_c_a_identifier_descriptor.html#ab0afad108333015bdcca917ca118adfa", null ],
+    [ "toXML", "classts_1_1_c_a_identifier_descriptor.html#acd286c75234b34e79d2b76c5d721bf89", null ],
+    [ "fromXML", "classts_1_1_c_a_identifier_descriptor.html#a0002220439f7697cb5ece454eb198dae", null ],
     [ "casids", "classts_1_1_c_a_identifier_descriptor.html#ace809aa936778c7d8b573946119bc28d", null ]
 ];

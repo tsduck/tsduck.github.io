@@ -2,6 +2,7 @@ var ts_sys_utils_8h =
 [
     [ "ProcessMetrics", "structts_1_1_process_metrics.html", "structts_1_1_process_metrics" ],
     [ "TS_EXECUTABLE_SUFFIX", "ts_sys_utils_8h.html#a355d1a628448377ff5bb2d0690bc11b3", null ],
+    [ "TS_COMMAND_PATH", "ts_sys_utils_8h.html#affcfdf9c5e245501889f1bf987c956dc", null ],
     [ "ProcessId", "ts_sys_utils_8h.html#ade1d7cf3ca2437414d1d4238149a2d5b", null ],
     [ "Environment", "ts_sys_utils_8h.html#a193fcb3d69633d775555333ad51c9cc1", null ],
     [ "VernacularFilePath", "ts_sys_utils_8h.html#af2b6fa8094989e30357301a679aa7a79", null ],

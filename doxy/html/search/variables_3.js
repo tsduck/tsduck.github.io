@@ -45,7 +45,7 @@ var searchData=
   ['constraint_5fset3_5fflag',['constraint_set3_flag',['../classts_1_1_a_v_c_sequence_parameter_set.html#acbcb52500fb60eaabce6a1b43f11da03',1,'ts::AVCSequenceParameterSet']]],
   ['content_5fnibble_5flevel_5f1',['content_nibble_level_1',['../structts_1_1_content_descriptor_1_1_entry.html#a89711378567658fc2e383fb9ccdfc80d',1,'ts::ContentDescriptor::Entry']]],
   ['content_5fnibble_5flevel_5f2',['content_nibble_level_2',['../structts_1_1_content_descriptor_1_1_entry.html#a5658e3fd78624e6765b0474afb6ff160',1,'ts::ContentDescriptor::Entry']]],
-  ['country',['country',['../structts_1_1_t_o_t_1_1_region.html#a8fe2cb64dd430baf2e2f52dbeae94673',1,'ts::TOT::Region']]],
+  ['country',['country',['../structts_1_1_local_time_offset_descriptor_1_1_region.html#adbd6fafccc12915b491651b9f2f965d9',1,'ts::LocalTimeOffsetDescriptor::Region']]],
   ['country_5favailability',['country_availability',['../classts_1_1_country_availability_descriptor.html#ad3a931bfb950440436577a4d6e0be359',1,'ts::CountryAvailabilityDescriptor']]],
   ['country_5fcodes',['country_codes',['../classts_1_1_country_availability_descriptor.html#a368bbf56f7a5320cf62366f0144f73d8',1,'ts::CountryAvailabilityDescriptor']]],
   ['cp',['CP',['../structts_1_1ecmgscs_1_1_c_p_c_w_combination.html#a032c49a2a6d01438df18b9634acd4dd9',1,'ts::ecmgscs::CPCWCombination']]],

@@ -7,6 +7,8 @@ var classts_1_1_extended_event_descriptor =
     [ "splitAndAdd", "classts_1_1_extended_event_descriptor.html#a966aa754f001f0b41c9536870f01fca2", null ],
     [ "serialize", "classts_1_1_extended_event_descriptor.html#aa09ecfd07c924513ebc4d2f4445bd832", null ],
     [ "deserialize", "classts_1_1_extended_event_descriptor.html#ac85dbf1b1180883e7ae28cfc6392bd1e", null ],
+    [ "toXML", "classts_1_1_extended_event_descriptor.html#a6cec41484cd446961591752071220d9b", null ],
+    [ "fromXML", "classts_1_1_extended_event_descriptor.html#a247a50a43b28d51a61ba75a59de665c5", null ],
     [ "NormalizeNumbering", "classts_1_1_extended_event_descriptor.html#adbad11a12d4db18ad1ded5d8fa39a705", null ],
     [ "DisplayDescriptor", "classts_1_1_extended_event_descriptor.html#a00afa5ee1feeb2c75bea8979b3f0aa67", null ],
     [ "descriptor_number", "classts_1_1_extended_event_descriptor.html#a97f13b05ce3d7827b55cf7810f82dba5", null ],

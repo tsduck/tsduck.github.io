@@ -10,6 +10,8 @@ var classts_1_1_e_i_t =
     [ "isPresentFollowing", "classts_1_1_e_i_t.html#a31d996ad12ed7d2fdb55bf0353e2e79e", null ],
     [ "serialize", "classts_1_1_e_i_t.html#acc4752ba96c4dc36ec420f270fc2424e", null ],
     [ "deserialize", "classts_1_1_e_i_t.html#a37caaae6d81a8f0500e99d08d83a57fd", null ],
+    [ "toXML", "classts_1_1_e_i_t.html#a10cb2dcbc4be4c972df605158e3067cb", null ],
+    [ "fromXML", "classts_1_1_e_i_t.html#a60214a74ca754a858bb42c8cafd27bc2", null ],
     [ "DisplaySection", "classts_1_1_e_i_t.html#a061863954c2466af18ad8d0449e5a493", null ],
     [ "service_id", "classts_1_1_e_i_t.html#ade03cf26bd8b59dd7a32f6dd34c4498d", null ],
     [ "ts_id", "classts_1_1_e_i_t.html#a39112f2ce64a80503d5d4ea698b77d09", null ],

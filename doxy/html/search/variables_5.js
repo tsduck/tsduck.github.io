@@ -14,9 +14,10 @@ var searchData=
   ['error_5finformation',['error_information',['../classts_1_1ecmgscs_1_1_channel_error.html#a9a0ee48ba03ae4effe8d4d794f873227',1,'ts::ecmgscs::ChannelError::error_information()'],['../classts_1_1ecmgscs_1_1_stream_error.html#a5e9198385c7e9f4f2421c4cfd0b10b0b',1,'ts::ecmgscs::StreamError::error_information()'],['../classts_1_1emmgmux_1_1_channel_error.html#ac53f2460b9982ac33365e5b452493982',1,'ts::emmgmux::ChannelError::error_information()'],['../classts_1_1emmgmux_1_1_stream_error.html#aba5ed157e3b5b076f430b03910f6b3ff',1,'ts::emmgmux::StreamError::error_information()']]],
   ['error_5fstatus',['error_status',['../classts_1_1ecmgscs_1_1_channel_error.html#ad07b2074819eaf6245759099b84e1fd3',1,'ts::ecmgscs::ChannelError::error_status()'],['../classts_1_1ecmgscs_1_1_stream_error.html#a2b55465e92ecfe883296b1a7d758a9ee',1,'ts::ecmgscs::StreamError::error_status()'],['../classts_1_1emmgmux_1_1_channel_error.html#a43186e834936953434b38e24f1bf8d39',1,'ts::emmgmux::ChannelError::error_status()'],['../classts_1_1emmgmux_1_1_stream_error.html#a17298a2026e5dfb367b56fdf2835996e',1,'ts::emmgmux::StreamError::error_status()']]],
   ['etid',['etid',['../classts_1_1_t_s_analyzer_1_1_e_t_i_d_context.html#ae20ff83b718a193b5437c59ccea76820',1,'ts::TSAnalyzer::ETIDContext']]],
+  ['event_5fid',['event_id',['../structts_1_1_r_s_t_1_1_event.html#a8429a9daddee9cfd670a4b7d0ddd9d29',1,'ts::RST::Event']]],
   ['event_5fname',['event_name',['../classts_1_1_short_event_descriptor.html#af45a3c8d36ca9cd5706707035c1a50d8',1,'ts::ShortEventDescriptor']]],
   ['event_5fstate',['event_state',['../structts_1_1pcsc_1_1_reader_state.html#a323321fc14b78bfdb2b24859b2050c5c',1,'ts::pcsc::ReaderState']]],
-  ['events',['events',['../classts_1_1_e_i_t.html#a56097a3e172e94f6a4b0e50e4c9f92b9',1,'ts::EIT']]],
+  ['events',['events',['../classts_1_1_e_i_t.html#a56097a3e172e94f6a4b0e50e4c9f92b9',1,'ts::EIT::events()'],['../classts_1_1_r_s_t.html#a2e9297bb321f45707b5842140be09070',1,'ts::RST::events()']]],
   ['exp_5fdiscont',['exp_discont',['../classts_1_1_t_s_analyzer_1_1_p_i_d_context.html#acf250e41401a8cafc1883c565e371de1',1,'ts::TSAnalyzer::PIDContext']]],
   ['extension',['Extension',['../classts_1_1_shared_library.html#a031829777734e4c015741bfb7953d350',1,'ts::SharedLibrary']]]
 ];

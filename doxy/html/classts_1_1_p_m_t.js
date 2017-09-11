@@ -6,6 +6,8 @@ var classts_1_1_p_m_t =
     [ "PMT", "classts_1_1_p_m_t.html#ab34c332707c2f392f477a3077b7db4c4", null ],
     [ "serialize", "classts_1_1_p_m_t.html#a71ae5f20953288b4d7a7941a1b31fce1", null ],
     [ "deserialize", "classts_1_1_p_m_t.html#a7890e73c6d44af4327dbdb919c5beb49", null ],
+    [ "toXML", "classts_1_1_p_m_t.html#a3a9371d8ec9b0d1a0c7d292acffa8ca7", null ],
+    [ "fromXML", "classts_1_1_p_m_t.html#adc84333bcbf0e64faf592f5abf9cb79d", null ],
     [ "DisplaySection", "classts_1_1_p_m_t.html#af040bab18d890fa9a8ec9c57f70f1bbb", null ],
     [ "service_id", "classts_1_1_p_m_t.html#a756517f870e764d3519fc5c93cdb0f16", null ],
     [ "pcr_pid", "classts_1_1_p_m_t.html#a929a7f3abf8bcb7a096f6290a0b1cc01", null ],

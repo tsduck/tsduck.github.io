@@ -20,5 +20,6 @@ var searchData=
   ['usejointtermination',['useJointTermination',['../classts_1_1_t_s_p.html#a248377e16e286a2a8e3d87bddc619760',1,'ts::TSP::useJointTermination(bool on)=0'],['../classts_1_1_t_s_p.html#a37b217190b215c6c946b4a30bc5c6327',1,'ts::TSP::useJointTermination() const =0'],['../classts_1_1tsp_1_1_joint_termination.html#a99f9c721aa965318185fc8703f1fd677',1,'ts::tsp::JointTermination::useJointTermination(bool on)'],['../classts_1_1tsp_1_1_joint_termination.html#aced73a98698953cf5bfe418685af1b2b',1,'ts::tsp::JointTermination::useJointTermination() const']]],
   ['userhomedirectory',['UserHomeDirectory',['../namespacets.html#a710c83d83ca1de817a6df4f30c056615',1,'ts']]],
   ['userinterrupt',['UserInterrupt',['../classts_1_1_user_interrupt.html#a89c516bdcc1b87a05f29d204465af7c5',1,'ts::UserInterrupt']]],
-  ['utctolocal',['UTCToLocal',['../classts_1_1_time.html#a44962fefd850acb1460dab5ec4e55f5c',1,'ts::Time']]]
+  ['utctolocal',['UTCToLocal',['../classts_1_1_time.html#a44962fefd850acb1460dab5ec4e55f5c',1,'ts::Time']]],
+  ['utf8equal',['UTF8Equal',['../namespacets.html#a01e79b01dfffb2f98110ed6f08aa06e0',1,'ts::UTF8Equal(const std::string &amp;s1, const std::string &amp;s2, bool caseSensitive=true, const std::locale &amp;loc=std::locale::classic())'],['../namespacets.html#a686c463a326c31420a044ea39982b2ba',1,'ts::UTF8Equal(const char *s1, const char *s2, bool caseSensitive=true, const std::locale &amp;loc=std::locale::classic())']]]
 ];

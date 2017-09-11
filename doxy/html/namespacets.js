@@ -82,6 +82,7 @@ var namespacets =
     [ "ECB", "classts_1_1_e_c_b.html", "classts_1_1_e_c_b" ],
     [ "ECMGClient", "classts_1_1_e_c_m_g_client.html", "classts_1_1_e_c_m_g_client" ],
     [ "ECMGClientHandlerInterface", "classts_1_1_e_c_m_g_client_handler_interface.html", "classts_1_1_e_c_m_g_client_handler_interface" ],
+    [ "EDID", "classts_1_1_e_d_i_d.html", "classts_1_1_e_d_i_d" ],
     [ "EIT", "classts_1_1_e_i_t.html", "classts_1_1_e_i_t" ],
     [ "EnhancedAC3Descriptor", "classts_1_1_enhanced_a_c3_descriptor.html", "classts_1_1_enhanced_a_c3_descriptor" ],
     [ "Enumeration", "classts_1_1_enumeration.html", "classts_1_1_enumeration" ],
@@ -90,6 +91,7 @@ var namespacets =
     [ "Exception", "classts_1_1_exception.html", "classts_1_1_exception" ],
     [ "ExtendedEventDescriptor", "classts_1_1_extended_event_descriptor.html", "classts_1_1_extended_event_descriptor" ],
     [ "FileNameRate", "structts_1_1_file_name_rate.html", "structts_1_1_file_name_rate" ],
+    [ "FileNameRateList", "classts_1_1_file_name_rate_list.html", "classts_1_1_file_name_rate_list" ],
     [ "ForkPipe", "classts_1_1_fork_pipe.html", "classts_1_1_fork_pipe" ],
     [ "GenTabPlugin", "classts_1_1_gen_tab_plugin.html", "classts_1_1_gen_tab_plugin" ],
     [ "Guard", "classts_1_1_guard.html", "classts_1_1_guard" ],
@@ -147,8 +149,10 @@ var namespacets =
     [ "ReportFile", "classts_1_1_report_file.html", "classts_1_1_report_file" ],
     [ "ReportHandler", "classts_1_1_report_handler.html", "classts_1_1_report_handler" ],
     [ "ReportInterface", "classts_1_1_report_interface.html", "classts_1_1_report_interface" ],
+    [ "ReportWithPrefix", "classts_1_1_report_with_prefix.html", "classts_1_1_report_with_prefix" ],
     [ "ResidentBuffer", "classts_1_1_resident_buffer.html", "classts_1_1_resident_buffer" ],
     [ "RingNode", "classts_1_1_ring_node.html", "classts_1_1_ring_node" ],
+    [ "RST", "classts_1_1_r_s_t.html", "classts_1_1_r_s_t" ],
     [ "SafeAccessDate", "classts_1_1_safe_access_date.html", "classts_1_1_safe_access_date" ],
     [ "SafePtr", "classts_1_1_safe_ptr.html", "classts_1_1_safe_ptr" ],
     [ "SatelliteDeliverySystemDescriptor", "classts_1_1_satellite_delivery_system_descriptor.html", "classts_1_1_satellite_delivery_system_descriptor" ],
@@ -187,6 +191,7 @@ var namespacets =
     [ "TableHandlerInterface", "classts_1_1_table_handler_interface.html", "classts_1_1_table_handler_interface" ],
     [ "TablesDisplay", "classts_1_1_tables_display.html", "classts_1_1_tables_display" ],
     [ "TablesDisplayArgs", "classts_1_1_tables_display_args.html", "classts_1_1_tables_display_args" ],
+    [ "TablesFactory", "classts_1_1_tables_factory.html", "classts_1_1_tables_factory" ],
     [ "TablesLogger", "classts_1_1_tables_logger.html", "classts_1_1_tables_logger" ],
     [ "TablesLoggerArgs", "classts_1_1_tables_logger_args.html", "classts_1_1_tables_logger_args" ],
     [ "TCPConnection", "classts_1_1_t_c_p_connection.html", "classts_1_1_t_c_p_connection" ],
@@ -231,5 +236,7 @@ var namespacets =
     [ "VBIDataDescriptor", "classts_1_1_v_b_i_data_descriptor.html", "classts_1_1_v_b_i_data_descriptor" ],
     [ "VBITeletextDescriptor", "classts_1_1_v_b_i_teletext_descriptor.html", "classts_1_1_v_b_i_teletext_descriptor" ],
     [ "ViaccessDate", "classts_1_1_viaccess_date.html", "classts_1_1_viaccess_date" ],
-    [ "VideoAttributes", "classts_1_1_video_attributes.html", "classts_1_1_video_attributes" ]
+    [ "VideoAttributes", "classts_1_1_video_attributes.html", "classts_1_1_video_attributes" ],
+    [ "XML", "classts_1_1_x_m_l.html", "classts_1_1_x_m_l" ],
+    [ "XMLTables", "classts_1_1_x_m_l_tables.html", "classts_1_1_x_m_l_tables" ]
 ];

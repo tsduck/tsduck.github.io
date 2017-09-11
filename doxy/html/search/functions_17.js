@@ -1,5 +1,6 @@
 var searchData=
 [
-  ['year',['year',['../classts_1_1_abstract_c_a_s_date.html#a7d6057e03e8a6f83503bc3a5cb892c59',1,'ts::AbstractCASDate::year()'],['../classts_1_1_simul_crypt_date.html#ae33e1020bbccf0cd91917df3eee2da66',1,'ts::SimulCryptDate::year()']]],
-  ['yesno',['YesNo',['../namespacets.html#a5bd917f9a32dab4b5f8d0adfb66356e0',1,'ts']]]
+  ['xml',['XML',['../classts_1_1_x_m_l.html#a753c9b22fcf69bc8a69798f496905a0b',1,'ts::XML']]],
+  ['xmlname',['xmlName',['../classts_1_1_abstract_descriptor.html#a2a27b41eeea3ad3308cc0d5e64721c95',1,'ts::AbstractDescriptor::xmlName()'],['../classts_1_1_abstract_table.html#a6510e2d4be62fb55a33816f9c6411abb',1,'ts::AbstractTable::xmlName()']]],
+  ['xmltables',['XMLTables',['../classts_1_1_x_m_l_tables.html#aa882bb20f43e1625f601fd7c3c1f3342',1,'ts::XMLTables']]]
 ];

@@ -7,6 +7,8 @@ var classts_1_1_s_s_u_data_broadcast_id_descriptor =
     [ "SSUDataBroadcastIdDescriptor", "classts_1_1_s_s_u_data_broadcast_id_descriptor.html#a4df4a2f62e1fb18b51ce929328683755", null ],
     [ "serialize", "classts_1_1_s_s_u_data_broadcast_id_descriptor.html#ab12cab7bf79330ff549f82fd7c14c4be", null ],
     [ "deserialize", "classts_1_1_s_s_u_data_broadcast_id_descriptor.html#af6d51ffa25727494b26f983148ce0b64", null ],
+    [ "toXML", "classts_1_1_s_s_u_data_broadcast_id_descriptor.html#a570edfd11b1ee04214da7005feaa7364", null ],
+    [ "fromXML", "classts_1_1_s_s_u_data_broadcast_id_descriptor.html#a0627be7fd6c735a0c188fa538bf8f564", null ],
     [ "entries", "classts_1_1_s_s_u_data_broadcast_id_descriptor.html#a68484783d6a0181c7d21177fceee9ca1", null ],
     [ "private_data", "classts_1_1_s_s_u_data_broadcast_id_descriptor.html#a935b3f52d1a7d58530741da498a0f52d", null ]
 ];

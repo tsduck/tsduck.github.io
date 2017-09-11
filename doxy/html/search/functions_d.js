@@ -21,6 +21,7 @@ var searchData=
   ['nextyearlocaltime',['NextYearLocalTime',['../classts_1_1_time.html#aaf1ffad5a1bcdb9703cad4e7ea05dbb9',1,'ts::Time']]],
   ['nextyearutc',['NextYearUTC',['../classts_1_1_time.html#a1e5bf71bb2d8b037f5cff2fb0ef86566',1,'ts::Time']]],
   ['nit',['NIT',['../classts_1_1_n_i_t.html#a543d285f56cf11e76159738dc488d752',1,'ts::NIT::NIT(bool is_actual=true, uint8_t vers=0, bool cur=true, uint16_t id=0)'],['../classts_1_1_n_i_t.html#aef5ef499573f91b0d22bb1ef85213b72',1,'ts::NIT::NIT(const BinaryTable &amp;table)']]],
+  ['nodedepth',['NodeDepth',['../classts_1_1_x_m_l.html#a194b879c005fa6e4b0816e7c4827dc7f',1,'ts::XML']]],
   ['normalized',['normalized',['../structts_1_1_transport_stream_id.html#a709eed3d7ecb3817c37a437300a355a8',1,'ts::TransportStreamId']]],
   ['normalizenumbering',['NormalizeNumbering',['../classts_1_1_extended_event_descriptor.html#adbad11a12d4db18ad1ded5d8fa39a705',1,'ts::ExtendedEventDescriptor']]],
   ['notifysettingchange',['NotifySettingChange',['../namespacets.html#a3cbc8576c34486ae43e406b3631121ae',1,'ts']]]

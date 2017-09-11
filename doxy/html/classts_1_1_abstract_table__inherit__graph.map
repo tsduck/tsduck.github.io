@@ -1,7 +1,8 @@
 <map id="ts::AbstractTable" name="ts::AbstractTable">
 <area shape="rect" id="node2" href="$classts_1_1_abstract_long_table.html" title="Abstract base class for MPEG PSI/SI tables with long sections. " alt="" coords="175,196,324,223"/>
-<area shape="rect" id="node13" href="$classts_1_1_t_d_t.html" title="Representation of a Time &amp; Date Table (TDT) " alt="" coords="217,247,281,273"/>
-<area shape="rect" id="node14" href="$classts_1_1_t_o_t.html" title="Representation of a Time Offset Table (TOT) " alt="" coords="217,297,282,324"/>
+<area shape="rect" id="node13" href="$classts_1_1_r_s_t.html" title="Representation of a Running Status Table (RST). " alt="" coords="216,247,283,273"/>
+<area shape="rect" id="node14" href="$classts_1_1_t_d_t.html" title="Representation of a Time &amp; Date Table (TDT) " alt="" coords="217,297,281,324"/>
+<area shape="rect" id="node15" href="$classts_1_1_t_o_t.html" title="Representation of a Time Offset Table (TOT) " alt="" coords="217,348,282,375"/>
 <area shape="rect" id="node3" href="$classts_1_1_abstract_descriptors_table.html" title="Base class for MPEG tables containing only a list of descriptors (eg. " alt="" coords="372,53,559,80"/>
 <area shape="rect" id="node6" href="$classts_1_1_abstract_transport_list_table.html" title="Abstract base class for tables containing a list of transport stream descriptions. " alt="" coords="383,105,548,146"/>
 <area shape="rect" id="node9" href="$classts_1_1_e_i_t.html" title="Representation of an Event Information Table (EIT) " alt="" coords="435,171,495,197"/>

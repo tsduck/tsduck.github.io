@@ -6,6 +6,8 @@ var classts_1_1_country_availability_descriptor =
     [ "DisplayDescriptor", "classts_1_1_country_availability_descriptor.html#af6d6af1535e4f2fc48106d285a743b2d", null ],
     [ "serialize", "classts_1_1_country_availability_descriptor.html#a35de8dbdbf40f07908f03db2350e1ef2", null ],
     [ "deserialize", "classts_1_1_country_availability_descriptor.html#a06bad835412957a84d5e9bb4d0cd1488", null ],
+    [ "toXML", "classts_1_1_country_availability_descriptor.html#a226881bac406af7b613deff51625496e", null ],
+    [ "fromXML", "classts_1_1_country_availability_descriptor.html#ada49d038cc04a9d841009d78513822f0", null ],
     [ "country_availability", "classts_1_1_country_availability_descriptor.html#ad3a931bfb950440436577a4d6e0be359", null ],
     [ "country_codes", "classts_1_1_country_availability_descriptor.html#a368bbf56f7a5320cf62366f0144f73d8", null ]
 ];

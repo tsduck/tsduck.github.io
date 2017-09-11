@@ -2,6 +2,8 @@ var classts_1_1_descriptor =
 [
     [ "Descriptor", "classts_1_1_descriptor.html#aba099cf3b459b58b5aa6a904c02bad39", null ],
     [ "Descriptor", "classts_1_1_descriptor.html#a19ad22ab0bd93d045cb2970d9bf84565", null ],
+    [ "Descriptor", "classts_1_1_descriptor.html#aeb9ea2c8331789a1b42566cb5bf22cac", null ],
+    [ "Descriptor", "classts_1_1_descriptor.html#a8be92d7bf2e4b2c20905096343171e56", null ],
     [ "Descriptor", "classts_1_1_descriptor.html#a980d8f403b846cb435812b9487d37d2d", null ],
     [ "Descriptor", "classts_1_1_descriptor.html#a425fad875902852a9a8cf739f2d05bad", null ],
     [ "Descriptor", "classts_1_1_descriptor.html#a2fcf23f304cd91a341db05762e465860", null ],
@@ -10,6 +12,7 @@ var classts_1_1_descriptor =
     [ "isValid", "classts_1_1_descriptor.html#adfc7476b20ff558968c5e0e9ee15371b", null ],
     [ "invalidate", "classts_1_1_descriptor.html#a2d17cd038e93958274d4e12085ef5fd8", null ],
     [ "tag", "classts_1_1_descriptor.html#aa8ae34ef40d5e3bb3fc612592f3cac39", null ],
+    [ "edid", "classts_1_1_descriptor.html#aadc378b47ddcc88057830086c4474532", null ],
     [ "content", "classts_1_1_descriptor.html#ad2860a82ba8c90feecc294a66ba2a931", null ],
     [ "size", "classts_1_1_descriptor.html#a2a477f047c0bebf31ea0f54c09bdff89", null ],
     [ "payload", "classts_1_1_descriptor.html#abf9e0971fdc5b49c421184efb6b7f3f6", null ],
