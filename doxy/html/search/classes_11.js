@@ -22,7 +22,7 @@ var searchData=
   ['timeerror',['TimeError',['../classts_1_1_time_1_1_time_error.html',1,'ts::Time']]],
   ['tlvsyntax',['TLVSyntax',['../classts_1_1_t_l_v_syntax.html',1,'ts']]],
   ['tot',['TOT',['../classts_1_1_t_o_t.html',1,'ts']]],
-  ['traits',['Traits',['../structts_1_1emmgmux_1_1_traits.html',1,'ts::emmgmux::Traits'],['../structts_1_1ecmgscs_1_1_traits.html',1,'ts::ecmgscs::Traits']]],
+  ['traits',['Traits',['../structts_1_1ecmgscs_1_1_traits.html',1,'ts::ecmgscs::Traits'],['../structts_1_1emmgmux_1_1_traits.html',1,'ts::emmgmux::Traits']]],
   ['transportstreamid',['TransportStreamId',['../structts_1_1_transport_stream_id.html',1,'ts']]],
   ['tsanalyzer',['TSAnalyzer',['../classts_1_1_t_s_analyzer.html',1,'ts']]],
   ['tsanalyzeroptions',['TSAnalyzerOptions',['../classts_1_1_t_s_analyzer_options.html',1,'ts']]],

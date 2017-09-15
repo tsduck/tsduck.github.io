@@ -1,4 +1,4 @@
 <map id="ts::ecmgscs::ChannelError" name="ts::ecmgscs::ChannelError">
-<area shape="rect" id="node2" href="$classts_1_1tlv_1_1_channel_message.html" title="Base class for DVB SimulCrypt TLV messages operating on channels. " alt="" coords="13,80,175,107"/>
-<area shape="rect" id="node3" href="$classts_1_1tlv_1_1_message.html" title="Abstract base class for TLV messages. " alt="" coords="37,5,151,32"/>
+<area shape="rect" id="node2" href="$classts_1_1tlv_1_1_channel_message.html" title="Base class for DVB SimulCrypt TLV messages operating on channels. " alt="" coords="13,79,176,104"/>
+<area shape="rect" id="node3" href="$classts_1_1tlv_1_1_message.html" title="Abstract base class for TLV messages. " alt="" coords="38,5,152,31"/>
 </map>

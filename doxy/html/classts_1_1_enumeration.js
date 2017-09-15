@@ -12,7 +12,7 @@ var classts_1_1_enumeration =
     [ "empty", "classts_1_1_enumeration.html#a9376253ed7cb95519507fa33715a21dc", null ],
     [ "add", "classts_1_1_enumeration.html#aafa681d752f62a47ffa64724908b3cfe", null ],
     [ "value", "classts_1_1_enumeration.html#a68c5d25f5470eb02f47c4c63a4848b25", null ],
-    [ "name", "classts_1_1_enumeration.html#a511153c32747fb8375425dc61496bd2b", null ],
+    [ "name", "classts_1_1_enumeration.html#a2e7f20902ce655019c1aad9360da1b7f", null ],
     [ "names", "classts_1_1_enumeration.html#ad4d6b4a4edb839e74bd49674521fdb29", null ],
     [ "names", "classts_1_1_enumeration.html#a2cee0f8b36e7dccd697ca5a0e4829146", null ],
     [ "nameList", "classts_1_1_enumeration.html#a37f8caf4e26bae8e4ec92a0e2d174126", null ],

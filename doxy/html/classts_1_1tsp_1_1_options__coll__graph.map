@@ -1,5 +1,5 @@
 <map id="ts::tsp::Options" name="ts::tsp::Options">
-<area shape="rect" id="node2" href="$classts_1_1_args.html" title="An encapsulation of command line syntax and analysis. " alt="" coords="35,89,103,115"/>
-<area shape="rect" id="node3" href="$classts_1_1_report_interface.html" title="Abstract interface for event reporting and monitoring. " alt="" coords="5,5,133,32"/>
-<area shape="rect" id="node4" href="$structts_1_1tsp_1_1_options_1_1_plugin_options.html" title="Class containing the options for one plugin. " alt="" coords="127,81,283,123"/>
+<area shape="rect" id="node2" href="$classts_1_1_args.html" title="An encapsulation of command line syntax and analysis. " alt="" coords="38,87,104,112"/>
+<area shape="rect" id="node3" href="$classts_1_1_report_interface.html" title="Abstract interface for event reporting and monitoring. " alt="" coords="5,5,136,31"/>
+<area shape="rect" id="node4" href="$structts_1_1tsp_1_1_options_1_1_plugin_options.html" title="Class containing the options for one plugin. " alt="" coords="128,80,283,119"/>
 </map>

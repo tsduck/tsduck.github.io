@@ -14,7 +14,7 @@ var searchData=
   ['repetition_5fts',['repetition_ts',['../classts_1_1_t_s_analyzer_1_1_e_t_i_d_context.html#ae47d4d3c68412d329e382aea27522240',1,'ts::TSAnalyzer::ETIDContext']]],
   ['reserved_5fzero_5f4bits',['reserved_zero_4bits',['../classts_1_1_a_v_c_sequence_parameter_set.html#a221edd55f755927c4559ca6b6107d3c7',1,'ts::AVCSequenceParameterSet']]],
   ['retry_5fcount',['retry_count',['../structts_1_1_file_name_rate.html#a26c596cc5894da4ef92c32ab6ce46222',1,'ts::FileNameRate']]],
-  ['roll_5foff',['roll_off',['../classts_1_1_tuner_args.html#a427a59435da2e476eb1eea701ffbeefc',1,'ts::TunerArgs::roll_off()'],['../classts_1_1_tuner_parameters_d_v_b_s.html#a0469d57264f04cddd2d5acd6468bc926',1,'ts::TunerParametersDVBS::roll_off()']]],
+  ['roll_5foff',['roll_off',['../classts_1_1_satellite_delivery_system_descriptor.html#a79c8fd40bbbf20da4821220e6c55978b',1,'ts::SatelliteDeliverySystemDescriptor::roll_off()'],['../classts_1_1_tuner_args.html#a427a59435da2e476eb1eea701ffbeefc',1,'ts::TunerArgs::roll_off()'],['../classts_1_1_tuner_parameters_d_v_b_s.html#a0469d57264f04cddd2d5acd6468bc926',1,'ts::TunerParametersDVBS::roll_off()']]],
   ['rolloffenum',['RollOffEnum',['../namespacets.html#ab758471be44b695330f04987b17b76ee',1,'ts']]],
   ['rounds',['ROUNDS',['../classts_1_1_d_e_s.html#a71eaf55112b98fc3ed0c96b3d36cae0a',1,'ts::DES::ROUNDS()'],['../classts_1_1_t_d_e_s.html#adcae5119b3e04926d52f59e46082b3ff',1,'ts::TDES::ROUNDS()']]],
   ['rs_5fsize',['RS_SIZE',['../namespacets.html#abf0f257912dcfc16c5df6ca735ac95a4',1,'ts']]],

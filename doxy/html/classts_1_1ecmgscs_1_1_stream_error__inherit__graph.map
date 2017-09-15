@@ -1,5 +1,5 @@
 <map id="ts::ecmgscs::StreamError" name="ts::ecmgscs::StreamError">
-<area shape="rect" id="node2" href="$classts_1_1tlv_1_1_stream_message.html" title="Base class for DVB SimulCrypt TLV messages operating on streams. " alt="" coords="13,155,169,181"/>
-<area shape="rect" id="node3" href="$classts_1_1tlv_1_1_channel_message.html" title="Base class for DVB SimulCrypt TLV messages operating on channels. " alt="" coords="11,80,172,107"/>
-<area shape="rect" id="node4" href="$classts_1_1tlv_1_1_message.html" title="Abstract base class for TLV messages. " alt="" coords="34,5,149,32"/>
+<area shape="rect" id="node2" href="$classts_1_1tlv_1_1_stream_message.html" title="Base class for DVB SimulCrypt TLV messages operating on streams. " alt="" coords="13,152,170,177"/>
+<area shape="rect" id="node3" href="$classts_1_1tlv_1_1_channel_message.html" title="Base class for DVB SimulCrypt TLV messages operating on channels. " alt="" coords="9,79,173,104"/>
+<area shape="rect" id="node4" href="$classts_1_1tlv_1_1_message.html" title="Abstract base class for TLV messages. " alt="" coords="34,5,148,31"/>
 </map>

@@ -1,6 +1,6 @@
 <map id="ts::NIT" name="ts::NIT">
-<area shape="rect" id="node2" href="$classts_1_1_abstract_transport_list_table.html" title="Abstract base class for tables containing a list of transport stream descriptions. " alt="" coords="117,171,283,212"/>
-<area shape="rect" id="node3" href="$classts_1_1_abstract_long_table.html" title="Abstract base class for MPEG PSI/SI tables with long sections. " alt="" coords="5,81,155,108"/>
-<area shape="rect" id="node4" href="$classts_1_1_abstract_table.html" title="Abstract base class for MPEG PSI/SI tables. " alt="" coords="19,5,141,32"/>
-<area shape="rect" id="node5" href="$classts_1_1_descriptor_list.html" title="List of MPEG PSI/SI descriptors. " alt="" coords="179,81,301,108"/>
+<area shape="rect" id="node2" href="$classts_1_1_abstract_transport_list_table.html" title="Abstract base class for tables containing a list of transport stream descriptions. " alt="" coords="116,167,281,205"/>
+<area shape="rect" id="node3" href="$classts_1_1_abstract_long_table.html" title="Abstract base class for MPEG PSI/SI tables with long sections. " alt="" coords="5,80,155,105"/>
+<area shape="rect" id="node4" href="$classts_1_1_abstract_table.html" title="Abstract base class for MPEG PSI/SI tables. " alt="" coords="20,5,140,31"/>
+<area shape="rect" id="node5" href="$classts_1_1_descriptor_list.html" title="List of MPEG PSI/SI descriptors. " alt="" coords="178,80,299,105"/>
 </map>

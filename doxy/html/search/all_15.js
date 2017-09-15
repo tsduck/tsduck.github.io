@@ -45,6 +45,7 @@ var searchData=
   ['usedvbcsa',['useDVBCSA',['../classts_1_1_abstract_descrambler.html#a7062cac11cda36bdd9e9b61547e75931',1,'ts::AbstractDescrambler']]],
   ['usehighband',['useHighBand',['../classts_1_1_l_n_b.html#abd69c59726c72cdc508577f353ccd82b',1,'ts::LNB']]],
   ['usejointtermination',['useJointTermination',['../classts_1_1_t_s_p.html#a248377e16e286a2a8e3d87bddc619760',1,'ts::TSP::useJointTermination(bool on)=0'],['../classts_1_1_t_s_p.html#a37b217190b215c6c946b4a30bc5c6327',1,'ts::TSP::useJointTermination() const =0'],['../classts_1_1tsp_1_1_joint_termination.html#a99f9c721aa965318185fc8703f1fd677',1,'ts::tsp::JointTermination::useJointTermination(bool on)'],['../classts_1_1tsp_1_1_joint_termination.html#aced73a98698953cf5bfe418685af1b2b',1,'ts::tsp::JointTermination::useJointTermination() const']]],
+  ['user_5fdefined_5fid',['user_defined_id',['../classts_1_1_linkage_descriptor_1_1_extended_event_linkage_info.html#ade92e48b379fe9e470e846aae144530b',1,'ts::LinkageDescriptor::ExtendedEventLinkageInfo']]],
   ['user_5fnibble_5f1',['user_nibble_1',['../structts_1_1_content_descriptor_1_1_entry.html#ad0e3c51bd960b10804c54387334fb4f3',1,'ts::ContentDescriptor::Entry']]],
   ['user_5fnibble_5f2',['user_nibble_2',['../structts_1_1_content_descriptor_1_1_entry.html#a5fc187b784d9c428ce49d3ea50ca8152',1,'ts::ContentDescriptor::Entry']]],
   ['userhomedirectory',['UserHomeDirectory',['../namespacets.html#a710c83d83ca1de817a6df4f30c056615',1,'ts']]],

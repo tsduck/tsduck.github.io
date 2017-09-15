@@ -78,6 +78,9 @@ var files =
     [ "tsAVCSequenceParameterSet.h", "ts_a_v_c_sequence_parameter_set_8h.html", [
       [ "AVCSequenceParameterSet", "classts_1_1_a_v_c_sequence_parameter_set.html", "classts_1_1_a_v_c_sequence_parameter_set" ]
     ] ],
+    [ "tsAVCVideoDescriptor.h", "ts_a_v_c_video_descriptor_8h.html", [
+      [ "AVCVideoDescriptor", "classts_1_1_a_v_c_video_descriptor.html", "classts_1_1_a_v_c_video_descriptor" ]
+    ] ],
     [ "tsAVCVUIParameters.h", "ts_a_v_c_v_u_i_parameters_8h.html", [
       [ "AVCVUIParameters", "classts_1_1_a_v_c_v_u_i_parameters.html", "classts_1_1_a_v_c_v_u_i_parameters" ]
     ] ],
@@ -287,7 +290,10 @@ var files =
       [ "ISO639LanguageDescriptor", "classts_1_1_i_s_o639_language_descriptor.html", "classts_1_1_i_s_o639_language_descriptor" ]
     ] ],
     [ "tsLinkageDescriptor.h", "ts_linkage_descriptor_8h.html", [
-      [ "LinkageDescriptor", "classts_1_1_linkage_descriptor.html", "classts_1_1_linkage_descriptor" ]
+      [ "EventLinkageInfo", "classts_1_1_linkage_descriptor_1_1_event_linkage_info.html", "classts_1_1_linkage_descriptor_1_1_event_linkage_info" ],
+      [ "ExtendedEventLinkageInfo", "classts_1_1_linkage_descriptor_1_1_extended_event_linkage_info.html", "classts_1_1_linkage_descriptor_1_1_extended_event_linkage_info" ],
+      [ "LinkageDescriptor", "classts_1_1_linkage_descriptor.html", "classts_1_1_linkage_descriptor" ],
+      [ "MobileHandoverInfo", "classts_1_1_linkage_descriptor_1_1_mobile_handover_info.html", "classts_1_1_linkage_descriptor_1_1_mobile_handover_info" ]
     ] ],
     [ "tsLNB.h", "ts_l_n_b_8h.html", "ts_l_n_b_8h" ],
     [ "tsLocalTimeOffsetDescriptor.h", "ts_local_time_offset_descriptor_8h.html", [
@@ -429,6 +435,9 @@ var files =
       [ "Event", "structts_1_1_r_s_t_1_1_event.html", "structts_1_1_r_s_t_1_1_event" ],
       [ "RST", "classts_1_1_r_s_t.html", "classts_1_1_r_s_t" ]
     ] ],
+    [ "tsS2SatelliteDeliverySystemDescriptor.h", "ts_s2_satellite_delivery_system_descriptor_8h.html", [
+      [ "S2SatelliteDeliverySystemDescriptor", "classts_1_1_s2_satellite_delivery_system_descriptor.html", "classts_1_1_s2_satellite_delivery_system_descriptor" ]
+    ] ],
     [ "tsSafeAccessDate.h", "ts_safe_access_date_8h.html", [
       [ "SafeAccessDate", "classts_1_1_safe_access_date.html", "classts_1_1_safe_access_date" ]
     ] ],
@@ -510,6 +519,7 @@ var files =
     ] ],
     [ "tsStringUtils.h", "ts_string_utils_8h.html", "ts_string_utils_8h" ],
     [ "tsSubtitlingDescriptor.h", "ts_subtitling_descriptor_8h.html", [
+      [ "Entry", "structts_1_1_subtitling_descriptor_1_1_entry.html", "structts_1_1_subtitling_descriptor_1_1_entry" ],
       [ "SubtitlingDescriptor", "classts_1_1_subtitling_descriptor.html", "classts_1_1_subtitling_descriptor" ]
     ] ],
     [ "tsSupplementaryAudioDescriptor.h", "ts_supplementary_audio_descriptor_8h.html", [
@@ -550,6 +560,7 @@ var files =
       [ "TDT", "classts_1_1_t_d_t.html", "classts_1_1_t_d_t" ]
     ] ],
     [ "tsTeletextDescriptor.h", "ts_teletext_descriptor_8h.html", [
+      [ "Entry", "structts_1_1_teletext_descriptor_1_1_entry.html", "structts_1_1_teletext_descriptor_1_1_entry" ],
       [ "TeletextDescriptor", "classts_1_1_teletext_descriptor.html", "classts_1_1_teletext_descriptor" ]
     ] ],
     [ "tsTelnetConnection.h", "ts_telnet_connection_8h.html", [

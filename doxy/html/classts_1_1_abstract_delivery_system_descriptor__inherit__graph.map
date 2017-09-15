@@ -1,4 +1,5 @@
 <map id="ts::AbstractDeliverySystemDescriptor" name="ts::AbstractDeliverySystemDescriptor">
-<area shape="rect" id="node3" href="$classts_1_1_terrestrial_delivery_system_descriptor.html" title="Representation of a terrestrial_delivery_system_descriptor. " alt="" coords="5,169,193,211"/>
-<area shape="rect" id="node2" href="$classts_1_1_abstract_descriptor.html" title="Abstract base class for MPEG PSI/SI descriptors. " alt="" coords="25,5,174,32"/>
+<area shape="rect" id="node3" href="$classts_1_1_satellite_delivery_system_descriptor.html" title="Representation of a satellite_delivery_system_descriptor. " alt="" coords="5,165,184,204"/>
+<area shape="rect" id="node4" href="$classts_1_1_terrestrial_delivery_system_descriptor.html" title="Representation of a terrestrial_delivery_system_descriptor. " alt="" coords="209,165,399,204"/>
+<area shape="rect" id="node2" href="$classts_1_1_abstract_descriptor.html" title="Abstract base class for MPEG PSI/SI descriptors. " alt="" coords="125,5,273,31"/>
 </map>

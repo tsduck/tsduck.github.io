@@ -34,7 +34,7 @@
  <tr style="height: 56px;">
   <td id="projectlogo"><img src="tsduck-32.png"/></td>
    <td id="projectalign"><span id="projectname">TSDuck</span>
-    <span id="projectnumber">Version 3.2</span>
+    <span id="projectnumber">Version 3.3</span>
     <span id="projectbrief">(TSDuck - The MPEG Transport Stream Toolkit)</span>
    </td>
    <td>        <div id="MSearchBox" class="MSearchBoxInactive">
@@ -169,6 +169,9 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a5f49785ad33f735718a5d9df6249ee2a"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classts_1_1_x_m_l.html#a8390441714520f38915fa63783756a9e">Text</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classts_1_1_x_m_l.html#a5f49785ad33f735718a5d9df6249ee2a">addHexaText</a> (<a class="el" href="classts_1_1_x_m_l.html#a26f880956a579ee4a9fc7b7db75d37ed">Element</a> *parent, const <a class="el" href="classts_1_1_byte_block.html">ByteBlock</a> &amp;data)</td></tr>
 <tr class="memdesc:a5f49785ad33f735718a5d9df6249ee2a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Add a new text containing hexadecimal data inside a node.  <a href="#a5f49785ad33f735718a5d9df6249ee2a">More...</a><br /></td></tr>
 <tr class="separator:a5f49785ad33f735718a5d9df6249ee2a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0d3ca1837b5867cc273ceccb5952f942"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classts_1_1_x_m_l.html#a8390441714520f38915fa63783756a9e">Text</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classts_1_1_x_m_l.html#a0d3ca1837b5867cc273ceccb5952f942">addText</a> (<a class="el" href="classts_1_1_x_m_l.html#a26f880956a579ee4a9fc7b7db75d37ed">Element</a> *parent, const std::string &amp;text)</td></tr>
+<tr class="memdesc:a0d3ca1837b5867cc273ceccb5952f942"><td class="mdescLeft">&#160;</td><td class="mdescRight">Add a new text inside a node.  <a href="#a0d3ca1837b5867cc273ceccb5952f942">More...</a><br /></td></tr>
+<tr class="separator:a0d3ca1837b5867cc273ceccb5952f942"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a5e40c140e4f871916bbf6e4336574699"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="classts_1_1_x_m_l.html#a4d8bf5d6538c75c00d63c7f6cc88f633">Attribute</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classts_1_1_x_m_l.html#a5e40c140e4f871916bbf6e4336574699">findAttribute</a> (const <a class="el" href="classts_1_1_x_m_l.html#a26f880956a579ee4a9fc7b7db75d37ed">Element</a> *elem, const std::string &amp;name, bool silent=false)</td></tr>
 <tr class="memdesc:a5e40c140e4f871916bbf6e4336574699"><td class="mdescLeft">&#160;</td><td class="mdescRight">Find an attribute, case-insensitive, in an <a class="el" href="classts_1_1_x_m_l.html" title="XML utility class with error reporting. ">XML</a> element.  <a href="#a5e40c140e4f871916bbf6e4336574699">More...</a><br /></td></tr>
 <tr class="separator:a5e40c140e4f871916bbf6e4336574699"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -191,15 +194,32 @@ Public Member Functions</h2></td></tr>
 <tr class="memdesc:a1e58dadd6e511bac5c6af070cb099508"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get an enumeration attribute of an <a class="el" href="classts_1_1_x_m_l.html" title="XML utility class with error reporting. ">XML</a> element.  <a href="#a1e58dadd6e511bac5c6af070cb099508">More...</a><br /></td></tr>
 <tr class="separator:a1e58dadd6e511bac5c6af070cb099508"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ab0e32726b0e22a23a667dca5cf1cc6c0"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classts_1_1_x_m_l.html#ab0e32726b0e22a23a667dca5cf1cc6c0">getHexaText</a> (<a class="el" href="classts_1_1_byte_block.html">ByteBlock</a> &amp;data, const <a class="el" href="classts_1_1_x_m_l.html#a26f880956a579ee4a9fc7b7db75d37ed">Element</a> *elem, size_t minSize=0, size_t maxSize=<a class="el" href="classts_1_1_x_m_l.html#a832bce257051df370f71eeaf103357f9">UNLIMITED</a>)</td></tr>
-<tr class="memdesc:ab0e32726b0e22a23a667dca5cf1cc6c0"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get a text child of an element containing hexadecimal data).  <a href="#ab0e32726b0e22a23a667dca5cf1cc6c0">More...</a><br /></td></tr>
+<tr class="memdesc:ab0e32726b0e22a23a667dca5cf1cc6c0"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get a text child of an element containing hexadecimal data.  <a href="#ab0e32726b0e22a23a667dca5cf1cc6c0">More...</a><br /></td></tr>
 <tr class="separator:ab0e32726b0e22a23a667dca5cf1cc6c0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad16949bcf47b067bf0cd6aab7fcd9f16"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classts_1_1_x_m_l.html#ad16949bcf47b067bf0cd6aab7fcd9f16">getHexaTextChild</a> (<a class="el" href="classts_1_1_byte_block.html">ByteBlock</a> &amp;data, const <a class="el" href="classts_1_1_x_m_l.html#a26f880956a579ee4a9fc7b7db75d37ed">Element</a> *elem, const std::string &amp;name, bool required=false, size_t minSize=0, size_t maxSize=<a class="el" href="classts_1_1_x_m_l.html#a832bce257051df370f71eeaf103357f9">UNLIMITED</a>)</td></tr>
+<tr class="memdesc:ad16949bcf47b067bf0cd6aab7fcd9f16"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get text in a child containing hexadecimal data.  <a href="#ad16949bcf47b067bf0cd6aab7fcd9f16">More...</a><br /></td></tr>
+<tr class="separator:ad16949bcf47b067bf0cd6aab7fcd9f16"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ac471062b17b586264e4c950bc2a9a0f3"><td class="memTemplParams" colspan="2">template&lt;typename INT &gt; </td></tr>
 <tr class="memitem:ac471062b17b586264e4c950bc2a9a0f3"><td class="memTemplItemLeft" align="right" valign="top">bool&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="classts_1_1_x_m_l.html#ac471062b17b586264e4c950bc2a9a0f3">getIntAttribute</a> (INT &amp;value, const <a class="el" href="classts_1_1_x_m_l.html#a26f880956a579ee4a9fc7b7db75d37ed">Element</a> *elem, const std::string &amp;name, bool required=false, INT defValue=0, INT minValue=std::numeric_limits&lt; INT &gt;::min(), INT maxValue=std::numeric_limits&lt; INT &gt;::max())</td></tr>
 <tr class="memdesc:ac471062b17b586264e4c950bc2a9a0f3"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get an integer attribute of an <a class="el" href="classts_1_1_x_m_l.html" title="XML utility class with error reporting. ">XML</a> element.  <a href="#ac471062b17b586264e4c950bc2a9a0f3">More...</a><br /></td></tr>
 <tr class="separator:ac471062b17b586264e4c950bc2a9a0f3"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ac3d928936c39b21696987df12ffd9858"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classts_1_1_x_m_l.html#ac3d928936c39b21696987df12ffd9858">getText</a> (std::string &amp;data, const <a class="el" href="classts_1_1_x_m_l.html#a26f880956a579ee4a9fc7b7db75d37ed">Element</a> *elem, bool trim=true)</td></tr>
-<tr class="memdesc:ac3d928936c39b21696987df12ffd9858"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get text children of an element.  <a href="#ac3d928936c39b21696987df12ffd9858">More...</a><br /></td></tr>
-<tr class="separator:ac3d928936c39b21696987df12ffd9858"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a200252914e84e3464f215632baec98a0"><td class="memTemplParams" colspan="2">template&lt;typename INT &gt; </td></tr>
+<tr class="memitem:a200252914e84e3464f215632baec98a0"><td class="memTemplItemLeft" align="right" valign="top">bool&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="classts_1_1_x_m_l.html#a200252914e84e3464f215632baec98a0">getIntEnumAttribute</a> (INT &amp;value, const <a class="el" href="classts_1_1_enumeration.html">Enumeration</a> &amp;definition, const <a class="el" href="classts_1_1_x_m_l.html#a26f880956a579ee4a9fc7b7db75d37ed">Element</a> *elem, const std::string &amp;name, bool required=false, INT defValue=INT(0))</td></tr>
+<tr class="memdesc:a200252914e84e3464f215632baec98a0"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get an enumeration attribute of an <a class="el" href="classts_1_1_x_m_l.html" title="XML utility class with error reporting. ">XML</a> element.  <a href="#a200252914e84e3464f215632baec98a0">More...</a><br /></td></tr>
+<tr class="separator:a200252914e84e3464f215632baec98a0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab01b901d2025d28b335918331c65b568"><td class="memTemplParams" colspan="2">template&lt;typename INT &gt; </td></tr>
+<tr class="memitem:ab01b901d2025d28b335918331c65b568"><td class="memTemplItemLeft" align="right" valign="top">bool&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="classts_1_1_x_m_l.html#ab01b901d2025d28b335918331c65b568">getOptionalIntAttribute</a> (<a class="el" href="classts_1_1_variable.html">Variable</a>&lt; INT &gt; &amp;value, const <a class="el" href="classts_1_1_x_m_l.html#a26f880956a579ee4a9fc7b7db75d37ed">Element</a> *elem, const std::string &amp;name, INT minValue=std::numeric_limits&lt; INT &gt;::min(), INT maxValue=std::numeric_limits&lt; INT &gt;::max())</td></tr>
+<tr class="memdesc:ab01b901d2025d28b335918331c65b568"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get an optional integer attribute of an <a class="el" href="classts_1_1_x_m_l.html" title="XML utility class with error reporting. ">XML</a> element.  <a href="#ab01b901d2025d28b335918331c65b568">More...</a><br /></td></tr>
+<tr class="separator:ab01b901d2025d28b335918331c65b568"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aca5003b366d5382c6d293037d961b49c"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classts_1_1_x_m_l.html#aca5003b366d5382c6d293037d961b49c">getText</a> (std::string &amp;data, const <a class="el" href="classts_1_1_x_m_l.html#a26f880956a579ee4a9fc7b7db75d37ed">Element</a> *elem, bool trim=true, size_t minSize=0, size_t maxSize=<a class="el" href="classts_1_1_x_m_l.html#a832bce257051df370f71eeaf103357f9">UNLIMITED</a>)</td></tr>
+<tr class="memdesc:aca5003b366d5382c6d293037d961b49c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get text children of an element.  <a href="#aca5003b366d5382c6d293037d961b49c">More...</a><br /></td></tr>
+<tr class="separator:aca5003b366d5382c6d293037d961b49c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8a9b9a5d6a6f911d9d051a6d6d283103"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classts_1_1_x_m_l.html#a8a9b9a5d6a6f911d9d051a6d6d283103">getTextChild</a> (std::string &amp;data, const <a class="el" href="classts_1_1_x_m_l.html#a26f880956a579ee4a9fc7b7db75d37ed">Element</a> *elem, const std::string &amp;name, bool trim=true, bool required=false, const std::string &amp;defValue=std::string(), size_t minSize=0, size_t maxSize=<a class="el" href="classts_1_1_x_m_l.html#a832bce257051df370f71eeaf103357f9">UNLIMITED</a>)</td></tr>
+<tr class="memdesc:a8a9b9a5d6a6f911d9d051a6d6d283103"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get text in a child of an element.  <a href="#a8a9b9a5d6a6f911d9d051a6d6d283103">More...</a><br /></td></tr>
+<tr class="separator:a8a9b9a5d6a6f911d9d051a6d6d283103"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1c6b114309f3eb1b364bcfd92e954113"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classts_1_1_x_m_l.html#a1c6b114309f3eb1b364bcfd92e954113">getTimeAttribute</a> (<a class="el" href="namespacets.html#a38592708fbf21dafd004afa1136586c7">Second</a> &amp;value, const <a class="el" href="classts_1_1_x_m_l.html#a26f880956a579ee4a9fc7b7db75d37ed">Element</a> *elem, const std::string &amp;name, bool required=false, <a class="el" href="namespacets.html#a38592708fbf21dafd004afa1136586c7">Second</a> defValue=0)</td></tr>
+<tr class="memdesc:a1c6b114309f3eb1b364bcfd92e954113"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get a time attribute of an <a class="el" href="classts_1_1_x_m_l.html" title="XML utility class with error reporting. ">XML</a> element in "hh:mm:ss" format.  <a href="#a1c6b114309f3eb1b364bcfd92e954113">More...</a><br /></td></tr>
+<tr class="separator:a1c6b114309f3eb1b364bcfd92e954113"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ac97a1029b686a6d887c37225c9ba2033"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classts_1_1_x_m_l.html#a26f880956a579ee4a9fc7b7db75d37ed">Element</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classts_1_1_x_m_l.html#ac97a1029b686a6d887c37225c9ba2033">initializeDocument</a> (<a class="el" href="classts_1_1_x_m_l.html#aa3eebabfe9cada260757d951f505508a">Document</a> *doc, const std::string &amp;rootName, const std::string &amp;declaration=std::string())</td></tr>
 <tr class="memdesc:ac97a1029b686a6d887c37225c9ba2033"><td class="mdescLeft">&#160;</td><td class="mdescRight">Initialize an <a class="el" href="classts_1_1_x_m_l.html" title="XML utility class with error reporting. ">XML</a> document.  <a href="#ac97a1029b686a6d887c37225c9ba2033">More...</a><br /></td></tr>
 <tr class="separator:ac97a1029b686a6d887c37225c9ba2033"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -228,6 +248,17 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a89c3b3d395313654651cbdbafd7affe1"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="classts_1_1_x_m_l.html#a89c3b3d395313654651cbdbafd7affe1">setIntAttribute</a> (<a class="el" href="classts_1_1_x_m_l.html#a26f880956a579ee4a9fc7b7db75d37ed">Element</a> *element, const std::string &amp;name, INT value, bool hexa=false)</td></tr>
 <tr class="memdesc:a89c3b3d395313654651cbdbafd7affe1"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set an attribute with an integer value to a node.  <a href="#a89c3b3d395313654651cbdbafd7affe1">More...</a><br /></td></tr>
 <tr class="separator:a89c3b3d395313654651cbdbafd7affe1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a113bc20d9ee062f4b2be286c0532691f"><td class="memTemplParams" colspan="2">template&lt;typename INT &gt; </td></tr>
+<tr class="memitem:a113bc20d9ee062f4b2be286c0532691f"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="classts_1_1_x_m_l.html#a113bc20d9ee062f4b2be286c0532691f">setIntEnumAttribute</a> (const <a class="el" href="classts_1_1_enumeration.html">Enumeration</a> &amp;definition, <a class="el" href="classts_1_1_x_m_l.html#a26f880956a579ee4a9fc7b7db75d37ed">Element</a> *element, const std::string &amp;name, INT value)</td></tr>
+<tr class="memdesc:a113bc20d9ee062f4b2be286c0532691f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set an enumeration attribute of a node.  <a href="#a113bc20d9ee062f4b2be286c0532691f">More...</a><br /></td></tr>
+<tr class="separator:a113bc20d9ee062f4b2be286c0532691f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a23f4903250a0a417c6ab22684ec82c40"><td class="memTemplParams" colspan="2">template&lt;typename INT &gt; </td></tr>
+<tr class="memitem:a23f4903250a0a417c6ab22684ec82c40"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="classts_1_1_x_m_l.html#a23f4903250a0a417c6ab22684ec82c40">setOptionalIntAttribute</a> (<a class="el" href="classts_1_1_x_m_l.html#a26f880956a579ee4a9fc7b7db75d37ed">Element</a> *element, const std::string &amp;name, const <a class="el" href="classts_1_1_variable.html">Variable</a>&lt; INT &gt; &amp;value, bool hexa=false)</td></tr>
+<tr class="memdesc:a23f4903250a0a417c6ab22684ec82c40"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set an optional attribute with an integer value to a node.  <a href="#a23f4903250a0a417c6ab22684ec82c40">More...</a><br /></td></tr>
+<tr class="separator:a23f4903250a0a417c6ab22684ec82c40"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1a24e8138c9e854822c715e7c1a8a8c1"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classts_1_1_x_m_l.html#a1a24e8138c9e854822c715e7c1a8a8c1">setTimeAttribute</a> (<a class="el" href="classts_1_1_x_m_l.html#a26f880956a579ee4a9fc7b7db75d37ed">Element</a> *element, const std::string &amp;name, <a class="el" href="namespacets.html#a38592708fbf21dafd004afa1136586c7">Second</a> value)</td></tr>
+<tr class="memdesc:a1a24e8138c9e854822c715e7c1a8a8c1"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set a time attribute of an <a class="el" href="classts_1_1_x_m_l.html" title="XML utility class with error reporting. ">XML</a> element in "hh:mm:ss" format.  <a href="#a1a24e8138c9e854822c715e7c1a8a8c1">More...</a><br /></td></tr>
+<tr class="separator:a1a24e8138c9e854822c715e7c1a8a8c1"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a3463073447548b5f8ed957285102ae8b"><td class="memItemLeft" align="right" valign="top">std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classts_1_1_x_m_l.html#a3463073447548b5f8ed957285102ae8b">toString</a> (const <a class="el" href="classts_1_1_x_m_l.html#aa3eebabfe9cada260757d951f505508a">Document</a> &amp;doc, int indent=2)</td></tr>
 <tr class="memdesc:a3463073447548b5f8ed957285102ae8b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Convert a document to an <a class="el" href="classts_1_1_x_m_l.html" title="XML utility class with error reporting. ">XML</a> string.  <a href="#a3463073447548b5f8ed957285102ae8b">More...</a><br /></td></tr>
 <tr class="separator:a3463073447548b5f8ed957285102ae8b"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -237,12 +268,15 @@ Public Member Functions</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-static-methods"></a>
 Static Public Member Functions</h2></td></tr>
+<tr class="memitem:a0c8c80bed43b4cf1746bf875e22a8134"><td class="memItemLeft" align="right" valign="top">static bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classts_1_1_x_m_l.html#a0c8c80bed43b4cf1746bf875e22a8134">DateTimeFromString</a> (<a class="el" href="classts_1_1_time.html">Time</a> &amp;value, const std::string &amp;str)</td></tr>
+<tr class="memdesc:a0c8c80bed43b4cf1746bf875e22a8134"><td class="mdescLeft">&#160;</td><td class="mdescRight">Convert a string into a date/time, as required in attributes.  <a href="#a0c8c80bed43b4cf1746bf875e22a8134">More...</a><br /></td></tr>
+<tr class="separator:a0c8c80bed43b4cf1746bf875e22a8134"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad995ce5e8a8705111f58688fd69204d9"><td class="memItemLeft" align="right" valign="top">static std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classts_1_1_x_m_l.html#ad995ce5e8a8705111f58688fd69204d9">DateTimeToString</a> (const <a class="el" href="classts_1_1_time.html">Time</a> &amp;value)</td></tr>
+<tr class="memdesc:ad995ce5e8a8705111f58688fd69204d9"><td class="mdescLeft">&#160;</td><td class="mdescRight">Convert a date/time into a string, as required in attributes.  <a href="#ad995ce5e8a8705111f58688fd69204d9">More...</a><br /></td></tr>
+<tr class="separator:ad995ce5e8a8705111f58688fd69204d9"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a39b7aac2512ccf8ab44c3d934e74c05c"><td class="memItemLeft" align="right" valign="top">static const char *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classts_1_1_x_m_l.html#a39b7aac2512ccf8ab44c3d934e74c05c">ElementName</a> (const <a class="el" href="classts_1_1_x_m_l.html#a26f880956a579ee4a9fc7b7db75d37ed">Element</a> *e)</td></tr>
 <tr class="memdesc:a39b7aac2512ccf8ab44c3d934e74c05c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Safely return a name of an <a class="el" href="classts_1_1_x_m_l.html" title="XML utility class with error reporting. ">XML</a> element.  <a href="#a39b7aac2512ccf8ab44c3d934e74c05c">More...</a><br /></td></tr>
 <tr class="separator:a39b7aac2512ccf8ab44c3d934e74c05c"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a4489e3bddd96f821ce222251a292c48a"><td class="memItemLeft" align="right" valign="top">static bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classts_1_1_x_m_l.html#a4489e3bddd96f821ce222251a292c48a">FromString</a> (<a class="el" href="classts_1_1_time.html">Time</a> &amp;value, const std::string &amp;str)</td></tr>
-<tr class="memdesc:a4489e3bddd96f821ce222251a292c48a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Convert a string into a time, as required in attributes.  <a href="#a4489e3bddd96f821ce222251a292c48a">More...</a><br /></td></tr>
-<tr class="separator:a4489e3bddd96f821ce222251a292c48a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:abb823c1aaa3e2249f12b4018fc596bb7"><td class="memItemLeft" align="right" valign="top">static bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classts_1_1_x_m_l.html#abb823c1aaa3e2249f12b4018fc596bb7">HaveSameName</a> (const <a class="el" href="classts_1_1_x_m_l.html#a26f880956a579ee4a9fc7b7db75d37ed">Element</a> *e1, const <a class="el" href="classts_1_1_x_m_l.html#a26f880956a579ee4a9fc7b7db75d37ed">Element</a> *e2)</td></tr>
 <tr class="memdesc:abb823c1aaa3e2249f12b4018fc596bb7"><td class="mdescLeft">&#160;</td><td class="mdescRight">Check if two <a class="el" href="classts_1_1_x_m_l.html" title="XML utility class with error reporting. ">XML</a> elements have the same name, case-insensitive.  <a href="#abb823c1aaa3e2249f12b4018fc596bb7">More...</a><br /></td></tr>
 <tr class="separator:abb823c1aaa3e2249f12b4018fc596bb7"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -252,9 +286,12 @@ Static Public Member Functions</h2></td></tr>
 <tr class="memitem:af3065ed283f3d645255cb48427803cd6"><td class="memItemLeft" align="right" valign="top">static std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classts_1_1_x_m_l.html#af3065ed283f3d645255cb48427803cd6">SearchFile</a> (const std::string &amp;fileName)</td></tr>
 <tr class="memdesc:af3065ed283f3d645255cb48427803cd6"><td class="mdescLeft">&#160;</td><td class="mdescRight">Search a file.  <a href="#af3065ed283f3d645255cb48427803cd6">More...</a><br /></td></tr>
 <tr class="separator:af3065ed283f3d645255cb48427803cd6"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ad495194d49e92001bf50ec23ac6041dc"><td class="memItemLeft" align="right" valign="top">static std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classts_1_1_x_m_l.html#ad495194d49e92001bf50ec23ac6041dc">ToString</a> (const <a class="el" href="classts_1_1_time.html">Time</a> &amp;value)</td></tr>
-<tr class="memdesc:ad495194d49e92001bf50ec23ac6041dc"><td class="mdescLeft">&#160;</td><td class="mdescRight">Convert a time into a string, as required in attributes.  <a href="#ad495194d49e92001bf50ec23ac6041dc">More...</a><br /></td></tr>
-<tr class="separator:ad495194d49e92001bf50ec23ac6041dc"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad285a1f2bdd1b92b4f3379aba4d0ffee"><td class="memItemLeft" align="right" valign="top">static bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classts_1_1_x_m_l.html#ad285a1f2bdd1b92b4f3379aba4d0ffee">TimeFromString</a> (<a class="el" href="namespacets.html#a38592708fbf21dafd004afa1136586c7">Second</a> &amp;value, const std::string &amp;str)</td></tr>
+<tr class="memdesc:ad285a1f2bdd1b92b4f3379aba4d0ffee"><td class="mdescLeft">&#160;</td><td class="mdescRight">Convert a string into a time, as required in attributes.  <a href="#ad285a1f2bdd1b92b4f3379aba4d0ffee">More...</a><br /></td></tr>
+<tr class="separator:ad285a1f2bdd1b92b4f3379aba4d0ffee"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae701023dab5f42db5a2d7f71870d337b"><td class="memItemLeft" align="right" valign="top">static std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classts_1_1_x_m_l.html#ae701023dab5f42db5a2d7f71870d337b">TimeToString</a> (<a class="el" href="namespacets.html#a38592708fbf21dafd004afa1136586c7">Second</a> value)</td></tr>
+<tr class="memdesc:ae701023dab5f42db5a2d7f71870d337b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Convert a time into a string, as required in attributes.  <a href="#ae701023dab5f42db5a2d7f71870d337b">More...</a><br /></td></tr>
+<tr class="separator:ae701023dab5f42db5a2d7f71870d337b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-static-attribs"></a>
 Static Public Attributes</h2></td></tr>
@@ -980,6 +1017,81 @@ template&lt;typename INT &gt; </div>
 
 </div>
 </div>
+<a id="ab01b901d2025d28b335918331c65b568"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab01b901d2025d28b335918331c65b568">&#9670;&nbsp;</a></span>getOptionalIntAttribute()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename INT &gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool ts::XML::getOptionalIntAttribute </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classts_1_1_variable.html">Variable</a>&lt; INT &gt; &amp;&#160;</td>
+          <td class="paramname"><em>value</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="classts_1_1_x_m_l.html#a26f880956a579ee4a9fc7b7db75d37ed">Element</a> *&#160;</td>
+          <td class="paramname"><em>elem</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const std::string &amp;&#160;</td>
+          <td class="paramname"><em>name</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">INT&#160;</td>
+          <td class="paramname"><em>minValue</em> = <code>std::numeric_limits&lt;INT&gt;::min()</code>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">INT&#160;</td>
+          <td class="paramname"><em>maxValue</em> = <code>std::numeric_limits&lt;INT&gt;::max()</code>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Get an optional integer attribute of an <a class="el" href="classts_1_1_x_m_l.html" title="XML utility class with error reporting. ">XML</a> element. </p>
+<dl class="tparams"><dt>Template Parameters</dt><dd>
+  <table class="tparams">
+    <tr><td class="paramname">INT</td><td>An integer type. </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[out]</td><td class="paramname">value</td><td>Returned value of the attribute. If the attribute is ot present, the variable is reset. </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">elem</td><td>An <a class="el" href="classts_1_1_x_m_l.html" title="XML utility class with error reporting. ">XML</a> element. </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">name</td><td>Name of the attribute. </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">minValue</td><td>Minimum allowed value for the attribute. </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">maxValue</td><td>Maximum allowed value for the attribute. </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>True on success, false on error. </dd></dl>
+
+</div>
+</div>
 <a id="a1e58dadd6e511bac5c6af070cb099508"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a1e58dadd6e511bac5c6af070cb099508">&#9670;&nbsp;</a></span>getEnumAttribute()</h2>
 
@@ -1032,6 +1144,88 @@ template&lt;typename INT &gt; </div>
 
 <p>Get an enumeration attribute of an <a class="el" href="classts_1_1_x_m_l.html" title="XML utility class with error reporting. ">XML</a> element. </p>
 <p>Integer literals and integer values are accepted in the attribute. </p><dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[out]</td><td class="paramname">value</td><td>Returned value of the attribute. </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">definition</td><td>The definition of enumeration values. </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">elem</td><td>An <a class="el" href="classts_1_1_x_m_l.html" title="XML utility class with error reporting. ">XML</a> element. </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">name</td><td>Name of the attribute. </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">required</td><td>If true, generate an error if the attribute is not found. </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">defValue</td><td>Default value to return if the attribute is not present. </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>True on success, false on error. </dd></dl>
+
+</div>
+</div>
+<a id="a200252914e84e3464f215632baec98a0"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a200252914e84e3464f215632baec98a0">&#9670;&nbsp;</a></span>getIntEnumAttribute()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename INT &gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool ts::XML::getIntEnumAttribute </td>
+          <td>(</td>
+          <td class="paramtype">INT &amp;&#160;</td>
+          <td class="paramname"><em>value</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="classts_1_1_enumeration.html">Enumeration</a> &amp;&#160;</td>
+          <td class="paramname"><em>definition</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="classts_1_1_x_m_l.html#a26f880956a579ee4a9fc7b7db75d37ed">Element</a> *&#160;</td>
+          <td class="paramname"><em>elem</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const std::string &amp;&#160;</td>
+          <td class="paramname"><em>name</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">bool&#160;</td>
+          <td class="paramname"><em>required</em> = <code>false</code>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">INT&#160;</td>
+          <td class="paramname"><em>defValue</em> = <code>INT(0)</code>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Get an enumeration attribute of an <a class="el" href="classts_1_1_x_m_l.html" title="XML utility class with error reporting. ">XML</a> element. </p>
+<p>Integer literals and integer values are accepted in the attribute. </p><dl class="tparams"><dt>Template Parameters</dt><dd>
+  <table class="tparams">
+    <tr><td class="paramname">INT</td><td>An integer type. </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramdir">[out]</td><td class="paramname">value</td><td>Returned value of the attribute. </td></tr>
     <tr><td class="paramdir">[in]</td><td class="paramname">definition</td><td>The definition of enumeration values. </td></tr>
@@ -1105,6 +1299,65 @@ template&lt;typename INT &gt; </div>
 
 </div>
 </div>
+<a id="a1c6b114309f3eb1b364bcfd92e954113"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1c6b114309f3eb1b364bcfd92e954113">&#9670;&nbsp;</a></span>getTimeAttribute()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool ts::XML::getTimeAttribute </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="namespacets.html#a38592708fbf21dafd004afa1136586c7">Second</a> &amp;&#160;</td>
+          <td class="paramname"><em>value</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="classts_1_1_x_m_l.html#a26f880956a579ee4a9fc7b7db75d37ed">Element</a> *&#160;</td>
+          <td class="paramname"><em>elem</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const std::string &amp;&#160;</td>
+          <td class="paramname"><em>name</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">bool&#160;</td>
+          <td class="paramname"><em>required</em> = <code>false</code>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="namespacets.html#a38592708fbf21dafd004afa1136586c7">Second</a>&#160;</td>
+          <td class="paramname"><em>defValue</em> = <code>0</code>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Get a time attribute of an <a class="el" href="classts_1_1_x_m_l.html" title="XML utility class with error reporting. ">XML</a> element in "hh:mm:ss" format. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[out]</td><td class="paramname">value</td><td>Returned value of the attribute. </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">elem</td><td>An <a class="el" href="classts_1_1_x_m_l.html" title="XML utility class with error reporting. ">XML</a> element. </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">name</td><td>Name of the attribute. </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">required</td><td>If true, generate an error if the attribute is not found. </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">defValue</td><td>Default value to return if the attribute is not present. </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>True on success, false on error. </dd></dl>
+
+</div>
+</div>
 <a id="a339b16ab63ae7cbad89d962e0e4d5af2"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a339b16ab63ae7cbad89d962e0e4d5af2">&#9670;&nbsp;</a></span>getChildren()</h2>
 
@@ -1164,8 +1417,88 @@ template&lt;typename INT &gt; </div>
 
 </div>
 </div>
-<a id="ac3d928936c39b21696987df12ffd9858"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ac3d928936c39b21696987df12ffd9858">&#9670;&nbsp;</a></span>getText()</h2>
+<a id="a8a9b9a5d6a6f911d9d051a6d6d283103"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8a9b9a5d6a6f911d9d051a6d6d283103">&#9670;&nbsp;</a></span>getTextChild()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool ts::XML::getTextChild </td>
+          <td>(</td>
+          <td class="paramtype">std::string &amp;&#160;</td>
+          <td class="paramname"><em>data</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="classts_1_1_x_m_l.html#a26f880956a579ee4a9fc7b7db75d37ed">Element</a> *&#160;</td>
+          <td class="paramname"><em>elem</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const std::string &amp;&#160;</td>
+          <td class="paramname"><em>name</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">bool&#160;</td>
+          <td class="paramname"><em>trim</em> = <code>true</code>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">bool&#160;</td>
+          <td class="paramname"><em>required</em> = <code>false</code>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const std::string &amp;&#160;</td>
+          <td class="paramname"><em>defValue</em> = <code>std::string()</code>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">size_t&#160;</td>
+          <td class="paramname"><em>minSize</em> = <code>0</code>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">size_t&#160;</td>
+          <td class="paramname"><em>maxSize</em> = <code><a class="el" href="classts_1_1_x_m_l.html#a832bce257051df370f71eeaf103357f9">UNLIMITED</a></code>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Get text in a child of an element. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[out]</td><td class="paramname">data</td><td>The content of the text in the child element. </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">elem</td><td>An <a class="el" href="classts_1_1_x_m_l.html" title="XML utility class with error reporting. ">XML</a> element. </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">name</td><td>Name of the child element to search. </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">trim</td><td>If true, remove leading and trailing spaces. </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">required</td><td>If true, generate an error if the child element is not found. </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">defValue</td><td>Default value to return if the child element is not present. </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">minSize</td><td>Minimum allowed size for the value string. </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">maxSize</td><td>Maximum allowed size for the value string. </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>True on success, false on error. </dd></dl>
+
+</div>
+</div>
+<a id="aca5003b366d5382c6d293037d961b49c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aca5003b366d5382c6d293037d961b49c">&#9670;&nbsp;</a></span>getText()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -1186,7 +1519,19 @@ template&lt;typename INT &gt; </div>
           <td class="paramkey"></td>
           <td></td>
           <td class="paramtype">bool&#160;</td>
-          <td class="paramname"><em>trim</em> = <code>true</code>&#160;</td>
+          <td class="paramname"><em>trim</em> = <code>true</code>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">size_t&#160;</td>
+          <td class="paramname"><em>minSize</em> = <code>0</code>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">size_t&#160;</td>
+          <td class="paramname"><em>maxSize</em> = <code><a class="el" href="classts_1_1_x_m_l.html#a832bce257051df370f71eeaf103357f9">UNLIMITED</a></code>&#160;</td>
         </tr>
         <tr>
           <td></td>
@@ -1202,6 +1547,74 @@ template&lt;typename INT &gt; </div>
     <tr><td class="paramdir">[out]</td><td class="paramname">data</td><td>The content of the text children. </td></tr>
     <tr><td class="paramdir">[in]</td><td class="paramname">elem</td><td>An <a class="el" href="classts_1_1_x_m_l.html" title="XML utility class with error reporting. ">XML</a> containing text. </td></tr>
     <tr><td class="paramdir">[in]</td><td class="paramname">trim</td><td>If true, remove leading and trailing spaces. </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">minSize</td><td>Minimum allowed size for the value string. </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">maxSize</td><td>Maximum allowed size for the value string. </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>True on success, false on error. </dd></dl>
+
+</div>
+</div>
+<a id="ad16949bcf47b067bf0cd6aab7fcd9f16"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad16949bcf47b067bf0cd6aab7fcd9f16">&#9670;&nbsp;</a></span>getHexaTextChild()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool ts::XML::getHexaTextChild </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classts_1_1_byte_block.html">ByteBlock</a> &amp;&#160;</td>
+          <td class="paramname"><em>data</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="classts_1_1_x_m_l.html#a26f880956a579ee4a9fc7b7db75d37ed">Element</a> *&#160;</td>
+          <td class="paramname"><em>elem</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const std::string &amp;&#160;</td>
+          <td class="paramname"><em>name</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">bool&#160;</td>
+          <td class="paramname"><em>required</em> = <code>false</code>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">size_t&#160;</td>
+          <td class="paramname"><em>minSize</em> = <code>0</code>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">size_t&#160;</td>
+          <td class="paramname"><em>maxSize</em> = <code><a class="el" href="classts_1_1_x_m_l.html#a832bce257051df370f71eeaf103357f9">UNLIMITED</a></code>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Get text in a child containing hexadecimal data. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[out]</td><td class="paramname">data</td><td>The content of the text in the child element. </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">elem</td><td>An <a class="el" href="classts_1_1_x_m_l.html" title="XML utility class with error reporting. ">XML</a> element. </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">name</td><td>Name of the child element to search. </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">required</td><td>If true, generate an error if the child element is not found. </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">minSize</td><td>Minimum allowed size for the value string. </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">maxSize</td><td>Maximum allowed size for the value string. </td></tr>
   </table>
   </dd>
 </dl>
@@ -1247,7 +1660,7 @@ template&lt;typename INT &gt; </div>
       </table>
 </div><div class="memdoc">
 
-<p>Get a text child of an element containing hexadecimal data). </p>
+<p>Get a text child of an element containing hexadecimal data. </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramdir">[out]</td><td class="paramname">data</td><td>Buffer receiving the decoded hexadecimal data. </td></tr>
@@ -1337,6 +1750,135 @@ template&lt;typename INT &gt; </div>
   <table class="params">
     <tr><td class="paramdir">[in,out]</td><td class="paramname">parent</td><td>Parent node. </td></tr>
     <tr><td class="paramdir">[in]</td><td class="paramname">childName</td><td>Name of new child element to create. </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>New child element or null on error. </dd></dl>
+
+</div>
+</div>
+<a id="a0d3ca1837b5867cc273ceccb5952f942"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0d3ca1837b5867cc273ceccb5952f942">&#9670;&nbsp;</a></span>addText()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="classts_1_1_x_m_l.html#a8390441714520f38915fa63783756a9e">Text</a>* ts::XML::addText </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classts_1_1_x_m_l.html#a26f880956a579ee4a9fc7b7db75d37ed">Element</a> *&#160;</td>
+          <td class="paramname"><em>parent</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const std::string &amp;&#160;</td>
+          <td class="paramname"><em>text</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Add a new text inside a node. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in,out]</td><td class="paramname">parent</td><td>Parent node. </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">text</td><td>Text string to add. </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>New child element or null on error. </dd></dl>
+
+</div>
+</div>
+<a id="ac6ce35cf4432672f1b1d6020c3d42600"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac6ce35cf4432672f1b1d6020c3d42600">&#9670;&nbsp;</a></span>addHexaText() <span class="overload">[1/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="classts_1_1_x_m_l.html#a8390441714520f38915fa63783756a9e">Text</a>* ts::XML::addHexaText </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classts_1_1_x_m_l.html#a26f880956a579ee4a9fc7b7db75d37ed">Element</a> *&#160;</td>
+          <td class="paramname"><em>parent</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const void *&#160;</td>
+          <td class="paramname"><em>data</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">size_t&#160;</td>
+          <td class="paramname"><em>size</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Add a new text containing hexadecimal data inside a node. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in,out]</td><td class="paramname">parent</td><td>Parent node. </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">data</td><td>Address of binary data. </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">size</td><td>Size in bytes of binary data. </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>New child element or null on error. </dd></dl>
+
+</div>
+</div>
+<a id="a5f49785ad33f735718a5d9df6249ee2a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5f49785ad33f735718a5d9df6249ee2a">&#9670;&nbsp;</a></span>addHexaText() <span class="overload">[2/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="classts_1_1_x_m_l.html#a8390441714520f38915fa63783756a9e">Text</a>* ts::XML::addHexaText </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classts_1_1_x_m_l.html#a26f880956a579ee4a9fc7b7db75d37ed">Element</a> *&#160;</td>
+          <td class="paramname"><em>parent</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="classts_1_1_byte_block.html">ByteBlock</a> &amp;&#160;</td>
+          <td class="paramname"><em>data</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Add a new text containing hexadecimal data inside a node. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in,out]</td><td class="paramname">parent</td><td>Parent node. </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">data</td><td>Binary data. </td></tr>
   </table>
   </dd>
 </dl>
@@ -1499,6 +2041,73 @@ template&lt;typename INT &gt; </div>
 
 </div>
 </div>
+<a id="a23f4903250a0a417c6ab22684ec82c40"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a23f4903250a0a417c6ab22684ec82c40">&#9670;&nbsp;</a></span>setOptionalIntAttribute()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename INT &gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void ts::XML::setOptionalIntAttribute </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classts_1_1_x_m_l.html#a26f880956a579ee4a9fc7b7db75d37ed">Element</a> *&#160;</td>
+          <td class="paramname"><em>element</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const std::string &amp;&#160;</td>
+          <td class="paramname"><em>name</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="classts_1_1_variable.html">Variable</a>&lt; INT &gt; &amp;&#160;</td>
+          <td class="paramname"><em>value</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">bool&#160;</td>
+          <td class="paramname"><em>hexa</em> = <code>false</code>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Set an optional attribute with an integer value to a node. </p>
+<dl class="tparams"><dt>Template Parameters</dt><dd>
+  <table class="tparams">
+    <tr><td class="paramname">INT</td><td>An integer type. </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in,out]</td><td class="paramname">element</td><td>The element which receives the attribute. </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">name</td><td>Attribute name. </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">value</td><td>Attribute optional value. If the variable is not set, no attribute is set. </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">hexa</td><td>If true, use an hexadecimal representation (0x...). </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
 <a id="adc1eb88b72700eecb1d6259c8e307fce"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#adc1eb88b72700eecb1d6259c8e307fce">&#9670;&nbsp;</a></span>setEnumAttribute()</h2>
 
@@ -1538,6 +2147,73 @@ template&lt;typename INT &gt; </div>
 </div><div class="memdoc">
 
 <p>Set an enumeration attribute of a node. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">definition</td><td>The definition of enumeration values. </td></tr>
+    <tr><td class="paramdir">[in,out]</td><td class="paramname">element</td><td>The element which receives the attribute. </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">name</td><td>Attribute name. </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">value</td><td>Attribute value. </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="a113bc20d9ee062f4b2be286c0532691f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a113bc20d9ee062f4b2be286c0532691f">&#9670;&nbsp;</a></span>setIntEnumAttribute()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename INT &gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void ts::XML::setIntEnumAttribute </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="classts_1_1_enumeration.html">Enumeration</a> &amp;&#160;</td>
+          <td class="paramname"><em>definition</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classts_1_1_x_m_l.html#a26f880956a579ee4a9fc7b7db75d37ed">Element</a> *&#160;</td>
+          <td class="paramname"><em>element</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const std::string &amp;&#160;</td>
+          <td class="paramname"><em>name</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">INT&#160;</td>
+          <td class="paramname"><em>value</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Set an enumeration attribute of a node. </p>
+<dl class="tparams"><dt>Template Parameters</dt><dd>
+  <table class="tparams">
+    <tr><td class="paramname">INT</td><td>An integer type. </td></tr>
+  </table>
+  </dd>
+</dl>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramdir">[in]</td><td class="paramname">definition</td><td>The definition of enumeration values. </td></tr>
@@ -1594,29 +2270,29 @@ template&lt;typename INT &gt; </div>
 
 </div>
 </div>
-<a id="ac6ce35cf4432672f1b1d6020c3d42600"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ac6ce35cf4432672f1b1d6020c3d42600">&#9670;&nbsp;</a></span>addHexaText() <span class="overload">[1/2]</span></h2>
+<a id="a1a24e8138c9e854822c715e7c1a8a8c1"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1a24e8138c9e854822c715e7c1a8a8c1">&#9670;&nbsp;</a></span>setTimeAttribute()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="classts_1_1_x_m_l.html#a8390441714520f38915fa63783756a9e">Text</a>* ts::XML::addHexaText </td>
+          <td class="memname">void ts::XML::setTimeAttribute </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="classts_1_1_x_m_l.html#a26f880956a579ee4a9fc7b7db75d37ed">Element</a> *&#160;</td>
-          <td class="paramname"><em>parent</em>, </td>
+          <td class="paramname"><em>element</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">const void *&#160;</td>
-          <td class="paramname"><em>data</em>, </td>
+          <td class="paramtype">const std::string &amp;&#160;</td>
+          <td class="paramname"><em>name</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">size_t&#160;</td>
-          <td class="paramname"><em>size</em>&#160;</td>
+          <td class="paramtype"><a class="el" href="namespacets.html#a38592708fbf21dafd004afa1136586c7">Second</a>&#160;</td>
+          <td class="paramname"><em>value</em>&#160;</td>
         </tr>
         <tr>
           <td></td>
@@ -1626,21 +2302,20 @@ template&lt;typename INT &gt; </div>
       </table>
 </div><div class="memdoc">
 
-<p>Add a new text containing hexadecimal data inside a node. </p>
+<p>Set a time attribute of an <a class="el" href="classts_1_1_x_m_l.html" title="XML utility class with error reporting. ">XML</a> element in "hh:mm:ss" format. </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramdir">[in,out]</td><td class="paramname">parent</td><td>Parent node. </td></tr>
-    <tr><td class="paramdir">[in]</td><td class="paramname">data</td><td>Address of binary data. </td></tr>
-    <tr><td class="paramdir">[in]</td><td class="paramname">size</td><td>Size in bytes of binary data. </td></tr>
+    <tr><td class="paramdir">[in,out]</td><td class="paramname">element</td><td>The element which receives the attribute. </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">name</td><td>Attribute name. </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">value</td><td>Attribute value. </td></tr>
   </table>
   </dd>
 </dl>
-<dl class="section return"><dt>Returns</dt><dd>New child element or null on error. </dd></dl>
 
 </div>
 </div>
-<a id="a5f49785ad33f735718a5d9df6249ee2a"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a5f49785ad33f735718a5d9df6249ee2a">&#9670;&nbsp;</a></span>addHexaText() <span class="overload">[2/2]</span></h2>
+<a id="ad995ce5e8a8705111f58688fd69204d9"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad995ce5e8a8705111f58688fd69204d9">&#9670;&nbsp;</a></span>DateTimeToString()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -1649,44 +2324,33 @@ template&lt;typename INT &gt; </div>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="classts_1_1_x_m_l.html#a8390441714520f38915fa63783756a9e">Text</a>* ts::XML::addHexaText </td>
+          <td class="memname">static std::string ts::XML::DateTimeToString </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="classts_1_1_x_m_l.html#a26f880956a579ee4a9fc7b7db75d37ed">Element</a> *&#160;</td>
-          <td class="paramname"><em>parent</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
+          <td class="paramtype">const <a class="el" href="classts_1_1_time.html">Time</a> &amp;&#160;</td>
+          <td class="paramname"><em>value</em></td><td>)</td>
           <td></td>
-          <td class="paramtype">const <a class="el" href="classts_1_1_byte_block.html">ByteBlock</a> &amp;&#160;</td>
-          <td class="paramname"><em>data</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
         </tr>
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
 
-<p>Add a new text containing hexadecimal data inside a node. </p>
+<p>Convert a date/time into a string, as required in attributes. </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramdir">[in,out]</td><td class="paramname">parent</td><td>Parent node. </td></tr>
-    <tr><td class="paramdir">[in]</td><td class="paramname">data</td><td>Binary data. </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">value</td><td><a class="el" href="classts_1_1_time.html" title="The Time class implements a basic representation of time. ">Time</a> value. </td></tr>
   </table>
   </dd>
 </dl>
-<dl class="section return"><dt>Returns</dt><dd>New child element or null on error. </dd></dl>
+<dl class="section return"><dt>Returns</dt><dd>The corresponding string. </dd></dl>
 
 </div>
 </div>
-<a id="ad495194d49e92001bf50ec23ac6041dc"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ad495194d49e92001bf50ec23ac6041dc">&#9670;&nbsp;</a></span>ToString()</h2>
+<a id="ae701023dab5f42db5a2d7f71870d337b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae701023dab5f42db5a2d7f71870d337b">&#9670;&nbsp;</a></span>TimeToString()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -1695,9 +2359,9 @@ template&lt;typename INT &gt; </div>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">static std::string ts::XML::ToString </td>
+          <td class="memname">static std::string ts::XML::TimeToString </td>
           <td>(</td>
-          <td class="paramtype">const <a class="el" href="classts_1_1_time.html">Time</a> &amp;&#160;</td>
+          <td class="paramtype"><a class="el" href="namespacets.html#a38592708fbf21dafd004afa1136586c7">Second</a>&#160;</td>
           <td class="paramname"><em>value</em></td><td>)</td>
           <td></td>
         </tr>
@@ -1720,8 +2384,8 @@ template&lt;typename INT &gt; </div>
 
 </div>
 </div>
-<a id="a4489e3bddd96f821ce222251a292c48a"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a4489e3bddd96f821ce222251a292c48a">&#9670;&nbsp;</a></span>FromString()</h2>
+<a id="a0c8c80bed43b4cf1746bf875e22a8134"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0c8c80bed43b4cf1746bf875e22a8134">&#9670;&nbsp;</a></span>DateTimeFromString()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -1730,9 +2394,55 @@ template&lt;typename INT &gt; </div>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">static bool ts::XML::FromString </td>
+          <td class="memname">static bool ts::XML::DateTimeFromString </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="classts_1_1_time.html">Time</a> &amp;&#160;</td>
+          <td class="paramname"><em>value</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const std::string &amp;&#160;</td>
+          <td class="paramname"><em>str</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Convert a string into a date/time, as required in attributes. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in,out]</td><td class="paramname">value</td><td><a class="el" href="classts_1_1_time.html" title="The Time class implements a basic representation of time. ">Time</a> value. Unmodified in case of error. </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">str</td><td><a class="el" href="classts_1_1_time.html" title="The Time class implements a basic representation of time. ">Time</a> value as a string. </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>True on success, false on error. </dd></dl>
+
+</div>
+</div>
+<a id="ad285a1f2bdd1b92b4f3379aba4d0ffee"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad285a1f2bdd1b92b4f3379aba4d0ffee">&#9670;&nbsp;</a></span>TimeFromString()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static bool ts::XML::TimeFromString </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="namespacets.html#a38592708fbf21dafd004afa1136586c7">Second</a> &amp;&#160;</td>
           <td class="paramname"><em>value</em>, </td>
         </tr>
         <tr>

@@ -5,6 +5,8 @@ var classts_1_1_s_s_u_data_broadcast_id_descriptor =
     [ "SSUDataBroadcastIdDescriptor", "classts_1_1_s_s_u_data_broadcast_id_descriptor.html#ae2fb29f8ac7ee7193cf2ddfb289fd74e", null ],
     [ "SSUDataBroadcastIdDescriptor", "classts_1_1_s_s_u_data_broadcast_id_descriptor.html#ab018cd1f64f68ea4a4ed17564a44dc20", null ],
     [ "SSUDataBroadcastIdDescriptor", "classts_1_1_s_s_u_data_broadcast_id_descriptor.html#a4df4a2f62e1fb18b51ce929328683755", null ],
+    [ "SSUDataBroadcastIdDescriptor", "classts_1_1_s_s_u_data_broadcast_id_descriptor.html#a811edf5e04a813609e17852451744c1e", null ],
+    [ "toDataBroadcastIdDescriptor", "classts_1_1_s_s_u_data_broadcast_id_descriptor.html#ae7de9700cfaafaa10115444989daff70", null ],
     [ "serialize", "classts_1_1_s_s_u_data_broadcast_id_descriptor.html#ab12cab7bf79330ff549f82fd7c14c4be", null ],
     [ "deserialize", "classts_1_1_s_s_u_data_broadcast_id_descriptor.html#af6d51ffa25727494b26f983148ce0b64", null ],
     [ "toXML", "classts_1_1_s_s_u_data_broadcast_id_descriptor.html#a570edfd11b1ee04214da7005feaa7364", null ],

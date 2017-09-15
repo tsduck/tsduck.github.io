@@ -17,6 +17,7 @@ var searchData=
   ['handlesection',['handleSection',['../classts_1_1_section_handler_interface.html#ad1527a287cbbffbe59083d314628eda3',1,'ts::SectionHandlerInterface::handleSection()'],['../classts_1_1_tables_logger.html#a6c61d8343f9d11ba5f12f81b5b097deb',1,'ts::TablesLogger::handleSection()']]],
   ['handletable',['handleTable',['../classts_1_1_abstract_descrambler.html#a230cf1165a66e677acc7a76393eafe7e',1,'ts::AbstractDescrambler::handleTable()'],['../classts_1_1_table_handler_interface.html#a80f643525a8398d9571c8dba1fe4095e',1,'ts::TableHandlerInterface::handleTable()'],['../classts_1_1_tables_logger.html#a3214240c891229227d7a1f794dc5a8cc',1,'ts::TablesLogger::handleTable()']]],
   ['handlevideostartcode',['handleVideoStartCode',['../classts_1_1_p_e_s_handler_interface.html#a6bafbb234898caf6b10761a3c725d1cf',1,'ts::PESHandlerInterface']]],
+  ['handover_5ftype',['handover_type',['../classts_1_1_linkage_descriptor_1_1_mobile_handover_info.html#a3bdc0f3640213c8411f7575a5069a843',1,'ts::LinkageDescriptor::MobileHandoverInfo']]],
   ['has_5fac_5fdelay_5fstart',['has_AC_delay_start',['../classts_1_1ecmgscs_1_1_channel_status.html#ab63c91d1bb17f5d49de331e2ad139aa6',1,'ts::ecmgscs::ChannelStatus']]],
   ['has_5fac_5fdelay_5fstop',['has_AC_delay_stop',['../classts_1_1ecmgscs_1_1_channel_status.html#a2261d5625e243ed9954a359c2c5d87ee',1,'ts::ecmgscs::ChannelStatus']]],
   ['has_5faccess_5fcriteria',['has_access_criteria',['../classts_1_1ecmgscs_1_1_c_w_provision.html#aebdc0860ae074f51cfc5f51a3bcbec2f',1,'ts::ecmgscs::CWProvision']]],

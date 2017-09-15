@@ -1,14 +1,14 @@
 <map id="ts::Args" name="ts::Args">
-<area shape="rect" id="node3" href="$classts_1_1_dektec_control.html" title="A class implementing the tsdektec control utility. " alt="" coords="5,155,128,181"/>
-<area shape="rect" id="node4" href="$classts_1_1_gen_tab_plugin.html" title="Abstract base class of all tsgentab plugins. " alt="" coords="152,155,275,181"/>
-<area shape="rect" id="node5" href="$classts_1_1_plugin.html" title="Base class of all tsp plugins. " alt="" coords="299,155,376,181"/>
-<area shape="rect" id="node12" href="$classts_1_1_t_s_analyzer_options.html" title="Report options for the class TSAnalyzer. " alt="" coords="401,155,554,181"/>
-<area shape="rect" id="node13" href="$classts_1_1tsp_1_1_options.html" title="Transport stream processor command&#45;line options. " alt="" coords="579,155,691,181"/>
-<area shape="rect" id="node2" href="$classts_1_1_report_interface.html" title="Abstract interface for event reporting and monitoring. " alt="" coords="273,5,401,32"/>
-<area shape="rect" id="node6" href="$classts_1_1_input_plugin.html" title="Input tsp plugin interface. " alt="" coords="129,229,234,256"/>
-<area shape="rect" id="node8" href="$classts_1_1_output_plugin.html" title="Output tsp plugin interface. " alt="" coords="279,229,395,256"/>
-<area shape="rect" id="node10" href="$classts_1_1_processor_plugin.html" title="Packet processing tsp plugin interface. " alt="" coords="436,229,572,256"/>
-<area shape="rect" id="node7" href="$classts_1_1_dektec_input_plugin.html" title="Dektec input plugin for tsp. " alt="" coords="88,304,235,331"/>
-<area shape="rect" id="node9" href="$classts_1_1_dektec_output_plugin.html" title="Dektec output plugin for tsp. " alt="" coords="259,304,416,331"/>
-<area shape="rect" id="node11" href="$classts_1_1_abstract_descrambler.html" title="Abstract base class for DVB descrambler plugins. " alt="" coords="440,304,603,331"/>
+<area shape="rect" id="node3" href="$classts_1_1_dektec_control.html" title="A class implementing the tsdektec control utility. " alt="" coords="5,152,129,177"/>
+<area shape="rect" id="node4" href="$classts_1_1_gen_tab_plugin.html" title="Abstract base class of all tsgentab plugins. " alt="" coords="152,152,275,177"/>
+<area shape="rect" id="node5" href="$classts_1_1_plugin.html" title="Base class of all tsp plugins. " alt="" coords="300,152,376,177"/>
+<area shape="rect" id="node12" href="$classts_1_1_t_s_analyzer_options.html" title="Report options for the class TSAnalyzer. " alt="" coords="399,152,553,177"/>
+<area shape="rect" id="node13" href="$classts_1_1tsp_1_1_options.html" title="Transport stream processor command&#45;line options. " alt="" coords="577,152,688,177"/>
+<area shape="rect" id="node2" href="$classts_1_1_report_interface.html" title="Abstract interface for event reporting and monitoring. " alt="" coords="272,5,403,31"/>
+<area shape="rect" id="node6" href="$classts_1_1_input_plugin.html" title="Input tsp plugin interface. " alt="" coords="130,225,236,251"/>
+<area shape="rect" id="node8" href="$classts_1_1_output_plugin.html" title="Output tsp plugin interface. " alt="" coords="280,225,396,251"/>
+<area shape="rect" id="node10" href="$classts_1_1_processor_plugin.html" title="Packet processing tsp plugin interface. " alt="" coords="436,225,573,251"/>
+<area shape="rect" id="node7" href="$classts_1_1_dektec_input_plugin.html" title="Dektec input plugin for tsp. " alt="" coords="88,299,235,324"/>
+<area shape="rect" id="node9" href="$classts_1_1_dektec_output_plugin.html" title="Dektec output plugin for tsp. " alt="" coords="259,299,417,324"/>
+<area shape="rect" id="node11" href="$classts_1_1_abstract_descrambler.html" title="Abstract base class for DVB descrambler plugins. " alt="" coords="440,299,604,324"/>
 </map>

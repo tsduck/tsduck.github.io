@@ -9,5 +9,6 @@ var classts_1_1_content_descriptor =
     [ "toXML", "classts_1_1_content_descriptor.html#a0ae606e23d787802b912ad1b90154fda", null ],
     [ "fromXML", "classts_1_1_content_descriptor.html#ac3e3f15c5923277ee1c9232ae4ac9e62", null ],
     [ "DisplayDescriptor", "classts_1_1_content_descriptor.html#a882b3b3cb41d0a086d192022191fb347", null ],
-    [ "entries", "classts_1_1_content_descriptor.html#ac2686b9096f7c2760639baa05cedbdb1", null ]
+    [ "entries", "classts_1_1_content_descriptor.html#ac2686b9096f7c2760639baa05cedbdb1", null ],
+    [ "MAX_ENTRIES", "classts_1_1_content_descriptor.html#adf22a1e97dbe28b7710d90a9e237d747", null ]
 ];

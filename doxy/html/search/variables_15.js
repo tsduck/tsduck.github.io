@@ -16,6 +16,7 @@ var searchData=
   ['unreferenced_5fpid_5flist',['unreferenced_pid_list',['../classts_1_1_t_s_analyzer_options.html#a517cc5e6ceadabaf7c66251a8a9a11d0',1,'ts::TSAnalyzerOptions']]],
   ['update_5ftype',['update_type',['../structts_1_1_s_s_u_data_broadcast_id_descriptor_1_1_entry.html#a02341dba85538b663da5e63c089855e0',1,'ts::SSUDataBroadcastIdDescriptor::Entry']]],
   ['update_5fversion',['update_version',['../structts_1_1_s_s_u_data_broadcast_id_descriptor_1_1_entry.html#a38904b961ec78d3d8318bf8edebadfc6',1,'ts::SSUDataBroadcastIdDescriptor::Entry']]],
+  ['user_5fdefined_5fid',['user_defined_id',['../classts_1_1_linkage_descriptor_1_1_extended_event_linkage_info.html#ade92e48b379fe9e470e846aae144530b',1,'ts::LinkageDescriptor::ExtendedEventLinkageInfo']]],
   ['user_5fnibble_5f1',['user_nibble_1',['../structts_1_1_content_descriptor_1_1_entry.html#ad0e3c51bd960b10804c54387334fb4f3',1,'ts::ContentDescriptor::Entry']]],
   ['user_5fnibble_5f2',['user_nibble_2',['../structts_1_1_content_descriptor_1_1_entry.html#a5fc187b784d9c428ce49d3ea50ca8152',1,'ts::ContentDescriptor::Entry']]],
   ['utc_5ftime',['utc_time',['../classts_1_1_t_d_t.html#a858b754db4d776a064561f803c887941',1,'ts::TDT::utc_time()'],['../classts_1_1_t_o_t.html#a49e1c0483e541c6dc51e6ba5297b534b',1,'ts::TOT::utc_time()']]]

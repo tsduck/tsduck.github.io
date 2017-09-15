@@ -5,6 +5,8 @@ var classts_1_1_s_s_u_linkage_descriptor =
     [ "SSULinkageDescriptor", "classts_1_1_s_s_u_linkage_descriptor.html#a10d3388e47c58adbac7fe7129a969938", null ],
     [ "SSULinkageDescriptor", "classts_1_1_s_s_u_linkage_descriptor.html#a6c8d47da11500e4a1f365e593800e5c7", null ],
     [ "SSULinkageDescriptor", "classts_1_1_s_s_u_linkage_descriptor.html#ac9133ab4887ec302ffc782defa981e7e", null ],
+    [ "SSULinkageDescriptor", "classts_1_1_s_s_u_linkage_descriptor.html#a036e16ee0025e26f95bef87c5f01b559", null ],
+    [ "toLinkageDescriptor", "classts_1_1_s_s_u_linkage_descriptor.html#a50ebe396053fa7ee4b68e1221731ae6b", null ],
     [ "serialize", "classts_1_1_s_s_u_linkage_descriptor.html#a39e83574394d297df04ee67ec675698d", null ],
     [ "deserialize", "classts_1_1_s_s_u_linkage_descriptor.html#a09bc8a3d6b4f929774ad5579d7e5eee8", null ],
     [ "toXML", "classts_1_1_s_s_u_linkage_descriptor.html#ad7d77f6a63fb7a57c3bc922b1dee7a6a", null ],

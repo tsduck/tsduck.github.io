@@ -40,6 +40,7 @@ var searchData=
   ['addsections',['addSections',['../classts_1_1_binary_table.html#abb644205b486ffa163645b5032024338',1,'ts::BinaryTable::addSections()'],['../classts_1_1_cycling_packetizer.html#a1842f105b06fbf579d459bdeac8f3713',1,'ts::CyclingPacketizer::addSections()']]],
   ['addservice',['addService',['../classts_1_1_t_s_analyzer_1_1_p_i_d_context.html#a5e430ac1f7149a77b25659eda827c804',1,'ts::TSAnalyzer::PIDContext']]],
   ['addtable',['addTable',['../classts_1_1_cycling_packetizer.html#adfbea040b90ff23d814f0f443df263c0',1,'ts::CyclingPacketizer::addTable(const BinaryTable &amp;table, MilliSecond repetition_rate=0)'],['../classts_1_1_cycling_packetizer.html#ae29e3557ed9260f46df5b6b19d5da705',1,'ts::CyclingPacketizer::addTable(const AbstractTable &amp;table, MilliSecond repetition_rate=0)']]],
+  ['addtext',['addText',['../classts_1_1_x_m_l.html#a0d3ca1837b5867cc273ceccb5952f942',1,'ts::XML']]],
   ['addtotalpackets',['addTotalPackets',['../classts_1_1tsp_1_1_joint_termination.html#a2f2e46bb584b48d1d82377841a6431a0',1,'ts::tsp::JointTermination']]],
   ['addviaccess',['addViaccess',['../classts_1_1_p_i_d_operator_set.html#abe641704c3d216298ea0d1d70f8bce46',1,'ts::PIDOperatorSet']]],
   ['aes',['AES',['../classts_1_1_a_e_s.html#a5f15e9c886282843f6892a676e1e15e0',1,'ts::AES']]],
@@ -102,5 +103,6 @@ var searchData=
   ['avcprofile',['AVCProfile',['../namespacets_1_1names.html#a75154949852a2a6c92f2286dec9c396d',1,'ts::names']]],
   ['avcsequenceparameterset',['AVCSequenceParameterSet',['../classts_1_1_a_v_c_sequence_parameter_set.html#a7e4196f2a71f04b3f479897ba902bf4c',1,'ts::AVCSequenceParameterSet']]],
   ['avcunittype',['AVCUnitType',['../namespacets_1_1names.html#a029b8df6273f970475cd67754456867e',1,'ts::names']]],
+  ['avcvideodescriptor',['AVCVideoDescriptor',['../classts_1_1_a_v_c_video_descriptor.html#a4655796de01ae822380d8af55f5e45b3',1,'ts::AVCVideoDescriptor::AVCVideoDescriptor()'],['../classts_1_1_a_v_c_video_descriptor.html#ad1ede3407cc1b84deff90ea0bb7255db',1,'ts::AVCVideoDescriptor::AVCVideoDescriptor(const Descriptor &amp;bin)']]],
   ['avcvuiparameters',['AVCVUIParameters',['../classts_1_1_a_v_c_v_u_i_parameters.html#a45e3e62348c5e9db7f56b2c99118ff29',1,'ts::AVCVUIParameters']]]
 ];

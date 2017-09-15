@@ -1,5 +1,6 @@
 var searchData=
 [
+  ['handover_5ftype',['handover_type',['../classts_1_1_linkage_descriptor_1_1_mobile_handover_info.html#a3bdc0f3640213c8411f7575a5069a843',1,'ts::LinkageDescriptor::MobileHandoverInfo']]],
   ['has_5fac_5fdelay_5fstart',['has_AC_delay_start',['../classts_1_1ecmgscs_1_1_channel_status.html#ab63c91d1bb17f5d49de331e2ad139aa6',1,'ts::ecmgscs::ChannelStatus']]],
   ['has_5fac_5fdelay_5fstop',['has_AC_delay_stop',['../classts_1_1ecmgscs_1_1_channel_status.html#a2261d5625e243ed9954a359c2c5d87ee',1,'ts::ecmgscs::ChannelStatus']]],
   ['has_5faccess_5fcriteria',['has_access_criteria',['../classts_1_1ecmgscs_1_1_c_w_provision.html#aebdc0860ae074f51cfc5f51a3bcbec2f',1,'ts::ecmgscs::CWProvision']]],

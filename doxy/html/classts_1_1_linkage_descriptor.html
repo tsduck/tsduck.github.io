@@ -34,7 +34,7 @@
  <tr style="height: 56px;">
   <td id="projectlogo"><img src="tsduck-32.png"/></td>
    <td id="projectalign"><span id="projectname">TSDuck</span>
-    <span id="projectnumber">Version 3.2</span>
+    <span id="projectnumber">Version 3.3</span>
     <span id="projectbrief">(TSDuck - The MPEG Transport Stream Toolkit)</span>
    </td>
    <td>        <div id="MSearchBox" class="MSearchBoxInactive">
@@ -92,6 +92,8 @@ $(document).ready(function(){initNavTree('classts_1_1_linkage_descriptor.html','
 
 <div class="header">
   <div class="summary">
+<a href="#nested-classes">Classes</a> &#124;
+<a href="#pub-types">Public Types</a> &#124;
 <a href="#pub-methods">Public Member Functions</a> &#124;
 <a href="#pub-static-methods">Static Public Member Functions</a> &#124;
 <a href="#pub-attribs">Public Attributes</a> &#124;
@@ -108,7 +110,7 @@ Inheritance diagram for ts::LinkageDescriptor:</div>
 <div class="dyncontent">
 <div class="center"><img src="classts_1_1_linkage_descriptor__inherit__graph.png" border="0" usemap="#ts_1_1_linkage_descriptor_inherit__map" alt="Inheritance graph"/></div>
 <map name="ts_1_1_linkage_descriptor_inherit__map" id="ts_1_1_linkage_descriptor_inherit__map">
-<area shape="rect" id="node2" href="classts_1_1_abstract_descriptor.html" title="Abstract base class for MPEG PSI/SI descriptors. " alt="" coords="5,5,155,32"/>
+<area shape="rect" id="node2" href="classts_1_1_abstract_descriptor.html" title="Abstract base class for MPEG PSI/SI descriptors. " alt="" coords="5,5,154,31"/>
 </map>
 <center><span class="legend">[<a target="top" href="graph_legend.html">legend</a>]</span></center></div>
 <div class="dynheader">
@@ -116,11 +118,32 @@ Collaboration diagram for ts::LinkageDescriptor:</div>
 <div class="dyncontent">
 <div class="center"><img src="classts_1_1_linkage_descriptor__coll__graph.png" border="0" usemap="#ts_1_1_linkage_descriptor_coll__map" alt="Collaboration graph"/></div>
 <map name="ts_1_1_linkage_descriptor_coll__map" id="ts_1_1_linkage_descriptor_coll__map">
-<area shape="rect" id="node2" href="classts_1_1_abstract_descriptor.html" title="Abstract base class for MPEG PSI/SI descriptors. " alt="" coords="5,81,155,108"/>
-<area shape="rect" id="node3" href="classts_1_1_byte_block.html" title="Definition of a generic block of bytes. " alt="" coords="179,81,280,108"/>
+<area shape="rect" id="node2" href="classts_1_1_abstract_descriptor.html" title="Abstract base class for MPEG PSI/SI descriptors. " alt="" coords="201,5,349,31"/>
+<area shape="rect" id="node3" href="classts_1_1_linkage_descriptor_1_1_event_linkage_info.html" title="Definition of event_linkage_info when linkage_type == LINKAGE_EVENT. " alt="" coords="202,55,348,93"/>
+<area shape="rect" id="node4" href="classts_1_1_byte_block.html" title="Definition of a generic block of bytes. " alt="" coords="226,117,324,143"/>
+<area shape="rect" id="node6" href="classts_1_1_linkage_descriptor_1_1_mobile_handover_info.html" title="Definition of mobile_hand&#45;over_info when linkage_type == LINKAGE_HAND_OVER. " alt="" coords="201,167,349,205"/>
 </map>
 <center><span class="legend">[<a target="top" href="graph_legend.html">legend</a>]</span></center></div>
 <table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="nested-classes"></a>
+Classes</h2></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classts_1_1_linkage_descriptor_1_1_event_linkage_info.html">EventLinkageInfo</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Definition of event_linkage_info when linkage_type == LINKAGE_EVENT.  <a href="classts_1_1_linkage_descriptor_1_1_event_linkage_info.html#details">More...</a><br /></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classts_1_1_linkage_descriptor_1_1_extended_event_linkage_info.html">ExtendedEventLinkageInfo</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Definition of extended_event_linkage_info when linkage_type in LINKAGE_EXT_EVENT_MIN .  <a href="classts_1_1_linkage_descriptor_1_1_extended_event_linkage_info.html#details">More...</a><br /></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classts_1_1_linkage_descriptor_1_1_mobile_handover_info.html">MobileHandoverInfo</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Definition of mobile_hand-over_info when linkage_type == LINKAGE_HAND_OVER.  <a href="classts_1_1_linkage_descriptor_1_1_mobile_handover_info.html#details">More...</a><br /></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-types"></a>
+Public Types</h2></td></tr>
+<tr class="memitem:a247806795668597df456f9f18b6bd680"><td class="memItemLeft" align="right" valign="top"><a id="a247806795668597df456f9f18b6bd680"></a>
+typedef std::list&lt; <a class="el" href="classts_1_1_linkage_descriptor_1_1_extended_event_linkage_info.html">ExtendedEventLinkageInfo</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classts_1_1_linkage_descriptor.html#a247806795668597df456f9f18b6bd680">ExtendedEventLinkageList</a></td></tr>
+<tr class="memdesc:a247806795668597df456f9f18b6bd680"><td class="mdescLeft">&#160;</td><td class="mdescRight">List of extended event info. <br /></td></tr>
+<tr class="separator:a247806795668597df456f9f18b6bd680"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
 <tr class="memitem:a0ca45e22a0c23671c56217af8aea1363"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classts_1_1_linkage_descriptor.html#a0ca45e22a0c23671c56217af8aea1363">LinkageDescriptor</a> (uint16_t ts=0, uint16_t onetw=0, uint16_t service=0, uint8_t ltype=0)</td></tr>
@@ -129,6 +152,10 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:ae3d05495aedf6e6cf7c934ea15691eda"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classts_1_1_linkage_descriptor.html#ae3d05495aedf6e6cf7c934ea15691eda">LinkageDescriptor</a> (const <a class="el" href="classts_1_1_descriptor.html">Descriptor</a> &amp;bin)</td></tr>
 <tr class="memdesc:ae3d05495aedf6e6cf7c934ea15691eda"><td class="mdescLeft">&#160;</td><td class="mdescRight">Constructor from a binary descriptor.  <a href="#ae3d05495aedf6e6cf7c934ea15691eda">More...</a><br /></td></tr>
 <tr class="separator:ae3d05495aedf6e6cf7c934ea15691eda"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aec974adeba90fccf5cc90d7898e1f87a"><td class="memItemLeft" align="right" valign="top"><a id="aec974adeba90fccf5cc90d7898e1f87a"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classts_1_1_linkage_descriptor.html#aec974adeba90fccf5cc90d7898e1f87a">clear</a> ()</td></tr>
+<tr class="memdesc:aec974adeba90fccf5cc90d7898e1f87a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Clear object content. <br /></td></tr>
+<tr class="separator:aec974adeba90fccf5cc90d7898e1f87a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a9549e91ee85c981b4d0a60d81d3d2014"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classts_1_1_linkage_descriptor.html#a9549e91ee85c981b4d0a60d81d3d2014">deserialize</a> (const <a class="el" href="classts_1_1_descriptor.html">Descriptor</a> &amp;)</td></tr>
 <tr class="memdesc:a9549e91ee85c981b4d0a60d81d3d2014"><td class="mdescLeft">&#160;</td><td class="mdescRight">This abstract method deserializes a binary descriptor.  <a href="#a9549e91ee85c981b4d0a60d81d3d2014">More...</a><br /></td></tr>
 <tr class="separator:a9549e91ee85c981b4d0a60d81d3d2014"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -182,10 +209,22 @@ Static Public Member Functions</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-attribs"></a>
 Public Attributes</h2></td></tr>
+<tr class="memitem:a32c2c488cbdbf55d37e3e295bce9df71"><td class="memItemLeft" align="right" valign="top"><a id="a32c2c488cbdbf55d37e3e295bce9df71"></a>
+<a class="el" href="classts_1_1_linkage_descriptor_1_1_event_linkage_info.html">EventLinkageInfo</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classts_1_1_linkage_descriptor.html#a32c2c488cbdbf55d37e3e295bce9df71">event_linkage_info</a></td></tr>
+<tr class="memdesc:a32c2c488cbdbf55d37e3e295bce9df71"><td class="mdescLeft">&#160;</td><td class="mdescRight">event_linkage_info when linkage_type == LINKAGE_EVENT. <br /></td></tr>
+<tr class="separator:a32c2c488cbdbf55d37e3e295bce9df71"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a76ea226a9edb01d99ceab903b44a853a"><td class="memItemLeft" align="right" valign="top"><a id="a76ea226a9edb01d99ceab903b44a853a"></a>
+<a class="el" href="classts_1_1_linkage_descriptor.html#a247806795668597df456f9f18b6bd680">ExtendedEventLinkageList</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classts_1_1_linkage_descriptor.html#a76ea226a9edb01d99ceab903b44a853a">extended_event_linkage_info</a></td></tr>
+<tr class="memdesc:a76ea226a9edb01d99ceab903b44a853a"><td class="mdescLeft">&#160;</td><td class="mdescRight">extended_event_linkage_info when linkage_type in LINKAGE_EXT_EVENT_MIN .. LINKAGE_EXT_EVENT_MAX. <br /></td></tr>
+<tr class="separator:a76ea226a9edb01d99ceab903b44a853a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:adfbcc5ee51f09369736160608ad53b13"><td class="memItemLeft" align="right" valign="top"><a id="adfbcc5ee51f09369736160608ad53b13"></a>
 uint8_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classts_1_1_linkage_descriptor.html#adfbcc5ee51f09369736160608ad53b13">linkage_type</a></td></tr>
 <tr class="memdesc:adfbcc5ee51f09369736160608ad53b13"><td class="mdescLeft">&#160;</td><td class="mdescRight">Linkage type, LINKAGE_* constants, eg <a class="el" href="namespacets.html#a567862128828cb0aca97f42b61800495a43b03312d6d4c2d01b57841004c8fe93" title="Information service. ">ts::LINKAGE_INFO</a>. <br /></td></tr>
 <tr class="separator:adfbcc5ee51f09369736160608ad53b13"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a95fb6e40bd370b3dea384bc10f8d4907"><td class="memItemLeft" align="right" valign="top"><a id="a95fb6e40bd370b3dea384bc10f8d4907"></a>
+<a class="el" href="classts_1_1_linkage_descriptor_1_1_mobile_handover_info.html">MobileHandoverInfo</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classts_1_1_linkage_descriptor.html#a95fb6e40bd370b3dea384bc10f8d4907">mobile_handover_info</a></td></tr>
+<tr class="memdesc:a95fb6e40bd370b3dea384bc10f8d4907"><td class="mdescLeft">&#160;</td><td class="mdescRight">mobile_hand-over_info when linkage_type == LINKAGE_HAND_OVER. <br /></td></tr>
+<tr class="separator:a95fb6e40bd370b3dea384bc10f8d4907"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a50860cf161397b55f8a84f29eee5ad6a"><td class="memItemLeft" align="right" valign="top"><a id="a50860cf161397b55f8a84f29eee5ad6a"></a>
 uint16_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classts_1_1_linkage_descriptor.html#a50860cf161397b55f8a84f29eee5ad6a">onetw_id</a></td></tr>
 <tr class="memdesc:a50860cf161397b55f8a84f29eee5ad6a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Original network id. <br /></td></tr>

@@ -34,7 +34,7 @@
  <tr style="height: 56px;">
   <td id="projectlogo"><img src="tsduck-32.png"/></td>
    <td id="projectalign"><span id="projectname">TSDuck</span>
-    <span id="projectnumber">Version 3.2</span>
+    <span id="projectnumber">Version 3.3</span>
     <span id="projectbrief">(TSDuck - The MPEG Transport Stream Toolkit)</span>
    </td>
    <td>        <div id="MSearchBox" class="MSearchBoxInactive">
@@ -221,6 +221,9 @@ Classes</h2></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classts_1_1_a_v_c_sequence_parameter_set.html">AVCSequenceParameterSet</a></td></tr>
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Representation of an AVC sequence parameter set access unit.  <a href="classts_1_1_a_v_c_sequence_parameter_set.html#details">More...</a><br /></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classts_1_1_a_v_c_video_descriptor.html">AVCVideoDescriptor</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Representation of an AVC_video_descriptor.  <a href="classts_1_1_a_v_c_video_descriptor.html#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classts_1_1_a_v_c_v_u_i_parameters.html">AVCVUIParameters</a></td></tr>
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">AVC VUI (Video Usability Information) parameters.  <a href="classts_1_1_a_v_c_v_u_i_parameters.html#details">More...</a><br /></td></tr>
@@ -581,6 +584,9 @@ Classes</h2></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classts_1_1_r_s_t.html">RST</a></td></tr>
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Representation of a Running Status Table (<a class="el" href="classts_1_1_r_s_t.html" title="Representation of a Running Status Table (RST). ">RST</a>).  <a href="classts_1_1_r_s_t.html#details">More...</a><br /></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classts_1_1_s2_satellite_delivery_system_descriptor.html">S2SatelliteDeliverySystemDescriptor</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Representation of an S2_satellite_delivery_system_descriptor.  <a href="classts_1_1_s2_satellite_delivery_system_descriptor.html#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classts_1_1_safe_access_date.html">SafeAccessDate</a></td></tr>
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Representation of a SafeAccess date.  <a href="classts_1_1_safe_access_date.html#details">More...</a><br /></td></tr>
@@ -1605,7 +1611,13 @@ Enumerations</h2></td></tr>
 <br />
 &#160;&#160;<a class="el" href="namespacets.html#a567862128828cb0aca97f42b61800495a07dbe3437e1105857351731655663b82">LINKAGE_IP_NOTIFY</a> = 0x0B, 
 <br />
-&#160;&#160;<a class="el" href="namespacets.html#a567862128828cb0aca97f42b61800495a90eddc622703c3465952fb452cf442d3">LINKAGE_INT_BAT_NIT</a> = 0x0C
+&#160;&#160;<a class="el" href="namespacets.html#a567862128828cb0aca97f42b61800495a90eddc622703c3465952fb452cf442d3">LINKAGE_INT_BAT_NIT</a> = 0x0C, 
+<br />
+&#160;&#160;<a class="el" href="namespacets.html#a567862128828cb0aca97f42b61800495a84d7a56e2ec1ffa22bc2fce997a31f87">LINKAGE_EVENT</a> = 0x0D, 
+<br />
+&#160;&#160;<a class="el" href="namespacets.html#a567862128828cb0aca97f42b61800495a860be49031aef09f40bcc5496dd350b4">LINKAGE_EXT_EVENT_MIN</a> = 0x0E, 
+<br />
+&#160;&#160;<a class="el" href="namespacets.html#a567862128828cb0aca97f42b61800495a0b7411f58c6d969360a7c3e7105b224e">LINKAGE_EXT_EVENT_MAX</a> = 0x1F
 <br />
  }<tr class="memdesc:a567862128828cb0aca97f42b61800495"><td class="mdescLeft">&#160;</td><td class="mdescRight">Linkage type values (in linkage_descriptor)  <a href="namespacets.html#a567862128828cb0aca97f42b61800495">More...</a><br /></td></tr>
 </td></tr>
@@ -2651,6 +2663,9 @@ Functions</h2></td></tr>
 <tr class="memitem:aa71d9ebe7b3844665f2d9c236188ad68"><td class="memItemLeft" align="right" valign="top">uint8_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacets.html#aa71d9ebe7b3844665f2d9c236188ad68">EncodeBCD</a> (int i)</td></tr>
 <tr class="memdesc:aa71d9ebe7b3844665f2d9c236188ad68"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return a one-byte Binary Coded Decimal (BCD) representation of an integer.  <a href="#aa71d9ebe7b3844665f2d9c236188ad68">More...</a><br /></td></tr>
 <tr class="separator:aa71d9ebe7b3844665f2d9c236188ad68"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1b7ac007f81ef1170028c43e9ad1fdd0"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacets.html#a1b7ac007f81ef1170028c43e9ad1fdd0">EncodeBCD</a> (uint8_t *bcd, size_t bcd_count, uint32_t value)</td></tr>
+<tr class="memdesc:a1b7ac007f81ef1170028c43e9ad1fdd0"><td class="mdescLeft">&#160;</td><td class="mdescRight">Encode a Binary Coded Decimal (BCD) string.  <a href="#a1b7ac007f81ef1170028c43e9ad1fdd0">More...</a><br /></td></tr>
+<tr class="separator:a1b7ac007f81ef1170028c43e9ad1fdd0"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a80fc214dd82608d324ad17bd751ac2ad"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacets.html#a80fc214dd82608d324ad17bd751ac2ad">EncodeMJD</a> (const <a class="el" href="classts_1_1_time.html">Time</a> &amp;time, uint8_t *mjd, size_t mjd_size)</td></tr>
 <tr class="memdesc:a80fc214dd82608d324ad17bd751ac2ad"><td class="mdescLeft">&#160;</td><td class="mdescRight">Convert a <a class="el" href="classts_1_1_time.html" title="The Time class implements a basic representation of time. ">ts::Time</a> into a Modified Julian Date (MJD).  <a href="#a80fc214dd82608d324ad17bd751ac2ad">More...</a><br /></td></tr>
 <tr class="separator:a80fc214dd82608d324ad17bd751ac2ad"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -2929,6 +2944,18 @@ Functions</h2></td></tr>
 <tr class="memitem:a4ec83efdcf4e64a1ede8fc6f2440e38a"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacets.html#a4ec83efdcf4e64a1ede8fc6f2440e38a">GetUInt32LE</a> (const void *p, uint32_t &amp;i)</td></tr>
 <tr class="memdesc:a4ec83efdcf4e64a1ede8fc6f2440e38a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Inlined function getting a 32-bit unsigned integer from serialized data in little endian representation.  <a href="#a4ec83efdcf4e64a1ede8fc6f2440e38a">More...</a><br /></td></tr>
 <tr class="separator:a4ec83efdcf4e64a1ede8fc6f2440e38a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1e2d8e1563352afa4d1f62fa500b1247"><td class="memItemLeft" align="right" valign="top">uint64_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacets.html#a1e2d8e1563352afa4d1f62fa500b1247">GetUInt40</a> (const void *p)</td></tr>
+<tr class="memdesc:a1e2d8e1563352afa4d1f62fa500b1247"><td class="mdescLeft">&#160;</td><td class="mdescRight">Inlined function getting a 40-bit unsigned integer from serialized data in big endian representation.  <a href="#a1e2d8e1563352afa4d1f62fa500b1247">More...</a><br /></td></tr>
+<tr class="separator:a1e2d8e1563352afa4d1f62fa500b1247"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:afb37bbde38d2cc4b59ae4c91fb83e4ca"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacets.html#afb37bbde38d2cc4b59ae4c91fb83e4ca">GetUInt40</a> (const void *p, uint64_t &amp;i)</td></tr>
+<tr class="memdesc:afb37bbde38d2cc4b59ae4c91fb83e4ca"><td class="mdescLeft">&#160;</td><td class="mdescRight">Inlined function getting a 40-bit unsigned integer from serialized data in big endian representation.  <a href="#afb37bbde38d2cc4b59ae4c91fb83e4ca">More...</a><br /></td></tr>
+<tr class="separator:afb37bbde38d2cc4b59ae4c91fb83e4ca"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aab22ce6eb30737ef8d6db72b06141c2f"><td class="memItemLeft" align="right" valign="top">uint64_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacets.html#aab22ce6eb30737ef8d6db72b06141c2f">GetUInt40BE</a> (const void *p)</td></tr>
+<tr class="memdesc:aab22ce6eb30737ef8d6db72b06141c2f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Inlined function getting a 40-bit unsigned integer from serialized data in big endian representation.  <a href="#aab22ce6eb30737ef8d6db72b06141c2f">More...</a><br /></td></tr>
+<tr class="separator:aab22ce6eb30737ef8d6db72b06141c2f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6cf8f9871997cc975ebef0046b81e31a"><td class="memItemLeft" align="right" valign="top">uint64_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacets.html#a6cf8f9871997cc975ebef0046b81e31a">GetUInt40LE</a> (const void *p)</td></tr>
+<tr class="memdesc:a6cf8f9871997cc975ebef0046b81e31a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Inlined function getting a 40-bit unsigned integer from serialized data in little endian representation.  <a href="#a6cf8f9871997cc975ebef0046b81e31a">More...</a><br /></td></tr>
+<tr class="separator:a6cf8f9871997cc975ebef0046b81e31a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a34d8f836756fd5acb9ec38c0732fb15b"><td class="memItemLeft" align="right" valign="top">uint64_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacets.html#a34d8f836756fd5acb9ec38c0732fb15b">GetUInt64</a> (const void *p)</td></tr>
 <tr class="memdesc:a34d8f836756fd5acb9ec38c0732fb15b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Inlined function getting a 64-bit unsigned integer from serialized data in big endian representation.  <a href="#a34d8f836756fd5acb9ec38c0732fb15b">More...</a><br /></td></tr>
 <tr class="separator:a34d8f836756fd5acb9ec38c0732fb15b"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -5561,6 +5588,12 @@ const <a class="el" href="classts_1_1_enumeration.html">Enumeration</a>&#160;</t
 </td></tr>
 <tr><td class="fieldname"><a id="a567862128828cb0aca97f42b61800495a90eddc622703c3465952fb452cf442d3"></a>LINKAGE_INT_BAT_NIT&#160;</td><td class="fielddoc"><p>TS containing INT <a class="el" href="classts_1_1_b_a_t.html" title="Representation of a Bouquet Association Table (BAT). ">BAT</a> or <a class="el" href="classts_1_1_n_i_t.html" title="Representation of a Network Information Table (NIT) ">NIT</a>. </p>
 </td></tr>
+<tr><td class="fieldname"><a id="a567862128828cb0aca97f42b61800495a84d7a56e2ec1ffa22bc2fce997a31f87"></a>LINKAGE_EVENT&#160;</td><td class="fielddoc"><p>Event linkage. </p>
+</td></tr>
+<tr><td class="fieldname"><a id="a567862128828cb0aca97f42b61800495a860be49031aef09f40bcc5496dd350b4"></a>LINKAGE_EXT_EVENT_MIN&#160;</td><td class="fielddoc"><p>Extented event linkage, first value. </p>
+</td></tr>
+<tr><td class="fieldname"><a id="a567862128828cb0aca97f42b61800495a0b7411f58c6d969360a7c3e7105b224e"></a>LINKAGE_EXT_EVENT_MAX&#160;</td><td class="fielddoc"><p>Extented event linkage, last value. </p>
+</td></tr>
 </table>
 
 </div>
@@ -6036,7 +6069,7 @@ template&lt;typename ELEMENT , class CONTAINER &gt; </div>
 </div>
 </div>
 <a id="aa71d9ebe7b3844665f2d9c236188ad68"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aa71d9ebe7b3844665f2d9c236188ad68">&#9670;&nbsp;</a></span>EncodeBCD()</h2>
+<h2 class="memtitle"><span class="permalink"><a href="#aa71d9ebe7b3844665f2d9c236188ad68">&#9670;&nbsp;</a></span>EncodeBCD() <span class="overload">[1/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -6105,6 +6138,50 @@ template&lt;typename ELEMENT , class CONTAINER &gt; </div>
   </dd>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>The decoded integer value. </dd></dl>
+
+</div>
+</div>
+<a id="a1b7ac007f81ef1170028c43e9ad1fdd0"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1b7ac007f81ef1170028c43e9ad1fdd0">&#9670;&nbsp;</a></span>EncodeBCD() <span class="overload">[2/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void ts::EncodeBCD </td>
+          <td>(</td>
+          <td class="paramtype">uint8_t *&#160;</td>
+          <td class="paramname"><em>bcd</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">size_t&#160;</td>
+          <td class="paramname"><em>bcd_count</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">uint32_t&#160;</td>
+          <td class="paramname"><em>value</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Encode a Binary Coded Decimal (BCD) string. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[out]</td><td class="paramname">bcd</td><td>Address of an array of bytes. Its size must be at least (<em>bcd_count</em> + 1) / 2 bytes. </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">bcd_count</td><td>Number of BCD digits. Note that <em>bcd_count</em> can be even. </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">value</td><td>The value to encode. </td></tr>
+  </table>
+  </dd>
+</dl>
 
 </div>
 </div>
@@ -9110,6 +9187,41 @@ template&lt;typename INT &gt; </div>
 
 </div>
 </div>
+<a id="a1e2d8e1563352afa4d1f62fa500b1247"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1e2d8e1563352afa4d1f62fa500b1247">&#9670;&nbsp;</a></span>GetUInt40() <span class="overload">[1/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">uint64_t ts::GetUInt40 </td>
+          <td>(</td>
+          <td class="paramtype">const void *&#160;</td>
+          <td class="paramname"><em>p</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Inlined function getting a 40-bit unsigned integer from serialized data in big endian representation. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">p</td><td>An address pointing to a 40-bit unsigned integer in big endian representation. </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>The 40-bit unsigned integer in native byte order, deserialized from <em>p</em>. </dd></dl>
+
+</div>
+</div>
 <a id="ac90ccc17acabae9276cea7a69fe85cfc"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#ac90ccc17acabae9276cea7a69fe85cfc">&#9670;&nbsp;</a></span>GetUInt16BE() <span class="overload">[1/2]</span></h2>
 
@@ -9250,6 +9362,41 @@ template&lt;typename INT &gt; </div>
 
 </div>
 </div>
+<a id="aab22ce6eb30737ef8d6db72b06141c2f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aab22ce6eb30737ef8d6db72b06141c2f">&#9670;&nbsp;</a></span>GetUInt40BE()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">uint64_t ts::GetUInt40BE </td>
+          <td>(</td>
+          <td class="paramtype">const void *&#160;</td>
+          <td class="paramname"><em>p</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Inlined function getting a 40-bit unsigned integer from serialized data in big endian representation. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">p</td><td>An address pointing to a 40-bit unsigned integer in big endian representation. </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>The 40-bit unsigned integer in native byte order, deserialized from <em>p</em>. </dd></dl>
+
+</div>
+</div>
 <a id="a4afd90bdfe6e1a70c534da4b2a0f1657"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a4afd90bdfe6e1a70c534da4b2a0f1657">&#9670;&nbsp;</a></span>GetUInt16LE() <span class="overload">[1/2]</span></h2>
 
@@ -9387,6 +9534,41 @@ template&lt;typename INT &gt; </div>
   </dd>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>The 64-bit unsigned integer in native byte order, deserialized from <em>p</em>. </dd></dl>
+
+</div>
+</div>
+<a id="a6cf8f9871997cc975ebef0046b81e31a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6cf8f9871997cc975ebef0046b81e31a">&#9670;&nbsp;</a></span>GetUInt40LE()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">uint64_t ts::GetUInt40LE </td>
+          <td>(</td>
+          <td class="paramtype">const void *&#160;</td>
+          <td class="paramname"><em>p</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Inlined function getting a 40-bit unsigned integer from serialized data in little endian representation. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">p</td><td>An address pointing to a 40-bit unsigned integer in little endian representation. </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>The 40-bit unsigned integer in native byte order, deserialized from <em>p</em>. </dd></dl>
 
 </div>
 </div>
@@ -10021,6 +10203,51 @@ template&lt;typename INT &gt; </div>
   <table class="params">
     <tr><td class="paramdir">[in]</td><td class="paramname">p</td><td>An address pointing to a 32-bit unsigned integer in big endian representation. </td></tr>
     <tr><td class="paramdir">[out]</td><td class="paramname">i</td><td>The 32-bit unsigned integer in native byte order, deserialized from <em>p</em>. </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="afb37bbde38d2cc4b59ae4c91fb83e4ca"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#afb37bbde38d2cc4b59ae4c91fb83e4ca">&#9670;&nbsp;</a></span>GetUInt40() <span class="overload">[2/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void ts::GetUInt40 </td>
+          <td>(</td>
+          <td class="paramtype">const void *&#160;</td>
+          <td class="paramname"><em>p</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">uint64_t &amp;&#160;</td>
+          <td class="paramname"><em>i</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Inlined function getting a 40-bit unsigned integer from serialized data in big endian representation. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">p</td><td>An address pointing to a 40-bit unsigned integer in big endian representation. </td></tr>
+    <tr><td class="paramdir">[out]</td><td class="paramname">i</td><td>The 64-bit unsigned integer in native byte order, deserialized from <em>p</em>. </td></tr>
   </table>
   </dd>
 </dl>

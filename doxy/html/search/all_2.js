@@ -2,6 +2,7 @@ var searchData=
 [
   ['b',['b',['../structts_1_1_t_s_packet.html#a5d2ab718be92f16c651649a06deb9f3f',1,'ts::TSPacket']]],
   ['back',['back',['../classts_1_1_bit_stream.html#ac92f197a7b71d106efd02ae32ba27e16',1,'ts::BitStream']]],
+  ['backwards_5fcompatibility_5findicator',['backwards_compatibility_indicator',['../classts_1_1_s2_satellite_delivery_system_descriptor.html#aef5eca4b957048f8705fab723ca39403',1,'ts::S2SatelliteDeliverySystemDescriptor']]],
   ['bandwidth',['bandwidth',['../structts_1_1emmgmux_1_1_tags.html#a811d01187582347ab2b89c4413dfda15ab8e4bd6587c618bd630d4c5d9d3a08cc',1,'ts::emmgmux::Tags::bandwidth()'],['../classts_1_1emmgmux_1_1_stream_b_w_request.html#ade4bdfa53f7cce57e03be275be416b93',1,'ts::emmgmux::StreamBWRequest::bandwidth()'],['../classts_1_1emmgmux_1_1_stream_b_w_allocation.html#a18621414aff58e056fc57827e908a708',1,'ts::emmgmux::StreamBWAllocation::bandwidth()'],['../classts_1_1_terrestrial_delivery_system_descriptor.html#a5e7a6c403992cd2faa04c82c89ea0789',1,'ts::TerrestrialDeliverySystemDescriptor::bandwidth()'],['../classts_1_1_tuner_args.html#a762f00da7a59d6651928a1e985432e76',1,'ts::TunerArgs::bandwidth()'],['../classts_1_1_tuner_parameters_d_v_b_t.html#ae83d4d33d76156abc900e6cd6befcd95',1,'ts::TunerParametersDVBT::bandwidth()'],['../namespacets.html#a14bb51c4b1573092910ab6fdec459e31',1,'ts::BandWidth()']]],
   ['bandwidthcodefromhz',['BandWidthCodeFromHz',['../namespacets.html#afa8a052d6addf8a3d5d796113412763b',1,'ts']]],
   ['bandwidthenum',['BandWidthEnum',['../namespacets.html#ae74c1bbf55da052525039a4dcd57281c',1,'ts']]],

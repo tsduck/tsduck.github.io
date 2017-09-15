@@ -1,6 +1,6 @@
 var searchData=
 [
-  ['data_5fbroadcast_5fid',['data_broadcast_id',['../classts_1_1_data_broadcast_id_descriptor.html#ac60777c6464bda24a2a42a4215245430',1,'ts::DataBroadcastIdDescriptor']]],
+  ['data_5fbroadcast_5fid',['data_broadcast_id',['../classts_1_1_data_broadcast_descriptor.html#a4087379e684f41ce85ee2d48f0440ad7',1,'ts::DataBroadcastDescriptor::data_broadcast_id()'],['../classts_1_1_data_broadcast_id_descriptor.html#ac60777c6464bda24a2a42a4215245430',1,'ts::DataBroadcastIdDescriptor::data_broadcast_id()']]],
   ['data_5fid',['data_id',['../classts_1_1emmgmux_1_1_stream_setup.html#a479d3ae89696419c8d050e58a350aa06',1,'ts::emmgmux::StreamSetup::data_id()'],['../classts_1_1emmgmux_1_1_stream_status.html#a9beb0e2e2e4d0f631cb16ed8021b7bdc',1,'ts::emmgmux::StreamStatus::data_id()'],['../classts_1_1emmgmux_1_1_data_provision.html#a9c025568aef324b13188c1db770c2e62',1,'ts::emmgmux::DataProvision::data_id()']]],
   ['data_5ftype',['data_type',['../classts_1_1emmgmux_1_1_stream_setup.html#afcf212dc9c9fff4a992de839c5ecc034',1,'ts::emmgmux::StreamSetup::data_type()'],['../classts_1_1emmgmux_1_1_stream_status.html#a135fcc20ef52913f5e7c6a53e81b72e9',1,'ts::emmgmux::StreamStatus::data_type()']]],
   ['datagram',['datagram',['../classts_1_1emmgmux_1_1_data_provision.html#a9df7425233d700a9ed4d6622f3382631',1,'ts::emmgmux::DataProvision']]],
@@ -55,5 +55,6 @@ var searchData=
   ['dta_5fmax_5fio_5fsize',['DTA_MAX_IO_SIZE',['../namespacets.html#a7bb82b6cb4a761e4fc84a9b6bc7cca42',1,'ts']]],
   ['dump',['dump',['../classts_1_1_p_s_i_logger_args.html#aaa2972d263582e3c8b37209b9d8c734c',1,'ts::PSILoggerArgs']]],
   ['duplicated',['duplicated',['../classts_1_1_t_s_analyzer_1_1_p_i_d_context.html#aa41ec9524d66cd21a509a0778f9e0729',1,'ts::TSAnalyzer::PIDContext']]],
-  ['duration',['duration',['../classts_1_1_e_i_t_1_1_event.html#abb47ae9d2daf3a0246cc9fcac7960318',1,'ts::EIT::Event']]]
+  ['duration',['duration',['../classts_1_1_e_i_t_1_1_event.html#abb47ae9d2daf3a0246cc9fcac7960318',1,'ts::EIT::Event']]],
+  ['dvbs2',['dvbS2',['../classts_1_1_satellite_delivery_system_descriptor.html#ab6a6369c7e450e453a02f26076351aea',1,'ts::SatelliteDeliverySystemDescriptor']]]
 ];

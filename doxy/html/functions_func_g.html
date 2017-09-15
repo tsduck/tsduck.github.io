@@ -34,7 +34,7 @@
  <tr style="height: 56px;">
   <td id="projectlogo"><img src="tsduck-32.png"/></td>
    <td id="projectalign"><span id="projectname">TSDuck</span>
-    <span id="projectnumber">Version 3.2</span>
+    <span id="projectnumber">Version 3.3</span>
     <span id="projectbrief">(TSDuck - The MPEG Transport Stream Toolkit)</span>
    </td>
    <td>        <div id="MSearchBox" class="MSearchBoxInactive">
@@ -282,6 +282,9 @@ $(document).ready(function(){initNavTree('functions_func_g.html','');});
 <li>getHexaText()
 : <a class="el" href="classts_1_1_x_m_l.html#ab0e32726b0e22a23a667dca5cf1cc6c0">ts::XML</a>
 </li>
+<li>getHexaTextChild()
+: <a class="el" href="classts_1_1_x_m_l.html#ad16949bcf47b067bf0cd6aab7fcd9f16">ts::XML</a>
+</li>
 <li>GetHighPriority()
 : <a class="el" href="classts_1_1_thread_attributes.html#af4a9f39d35317238d26cbeefd74f6ecd">ts::ThreadAttributes</a>
 </li>
@@ -293,6 +296,9 @@ $(document).ready(function(){initNavTree('functions_func_g.html','');});
 </li>
 <li>getIntAttribute()
 : <a class="el" href="classts_1_1_x_m_l.html#ac471062b17b586264e4c950bc2a9a0f3">ts::XML</a>
+</li>
+<li>getIntEnumAttribute()
+: <a class="el" href="classts_1_1_x_m_l.html#a200252914e84e3464f215632baec98a0">ts::XML</a>
 </li>
 <li>getIntValue()
 : <a class="el" href="classts_1_1_args.html#abe03d27d33ee49b83d3fc0a09c7ecce1">ts::Args</a>
@@ -357,6 +363,9 @@ $(document).ready(function(){initNavTree('functions_func_g.html','');});
 <li>getOPCR()
 : <a class="el" href="structts_1_1_t_s_packet.html#afdd9f3e87083997bf1020a757c348a1d">ts::TSPacket</a>
 </li>
+<li>getOptionalIntAttribute()
+: <a class="el" href="classts_1_1_x_m_l.html#ab01b901d2025d28b335918331c65b568">ts::XML</a>
+</li>
 <li>getOptions()
 : <a class="el" href="classts_1_1_t_s_analyzer_options.html#a44eb2c995e296d4a3d7dffbaf10d1717">ts::TSAnalyzerOptions</a>
 </li>
@@ -372,7 +381,7 @@ $(document).ready(function(){initNavTree('functions_func_g.html','');});
 : <a class="el" href="classts_1_1_t_s_scanner.html#a8fb446a6bc52e9eb6a8a94ca1b8fd928">ts::TSScanner</a>
 </li>
 <li>getPayload()
-: <a class="el" href="structts_1_1_t_s_packet.html#ad42ea24b2adf28d9db6a4534eae49aaa">ts::TSPacket</a>
+: <a class="el" href="structts_1_1_t_s_packet.html#aedce751417a47da0e6182a37dbdb22e6">ts::TSPacket</a>
 </li>
 <li>getPayloadSize()
 : <a class="el" href="structts_1_1_t_s_packet.html#af35f6a2987cef7f8fa5d536d832326aa">ts::TSPacket</a>
@@ -493,7 +502,7 @@ $(document).ready(function(){initNavTree('functions_func_g.html','');});
 : <a class="el" href="classts_1_1_monotonic.html#a4a0260ac0e0f1d2efa9c88966ca22019">ts::Monotonic</a>
 </li>
 <li>getTableFactory()
-: <a class="el" href="classts_1_1_tables_factory.html#ac80ddde4b42c90e8b27a554147afe604">ts::TablesFactory</a>
+: <a class="el" href="classts_1_1_tables_factory.html#a056fd2535323524c4a70442c7e5ea5cf">ts::TablesFactory</a>
 </li>
 <li>getTables()
 : <a class="el" href="classts_1_1_x_m_l_tables.html#adf1b7a7320634dc3d44f744af2cc241c">ts::XMLTables</a>
@@ -508,7 +517,13 @@ $(document).ready(function(){initNavTree('functions_func_g.html','');});
 : <a class="el" href="structts_1_1_t_s_packet.html#a29db32831b40bbd6e7d84089392a0605">ts::TSPacket</a>
 </li>
 <li>getText()
-: <a class="el" href="classts_1_1_x_m_l.html#ac3d928936c39b21696987df12ffd9858">ts::XML</a>
+: <a class="el" href="classts_1_1_x_m_l.html#aca5003b366d5382c6d293037d961b49c">ts::XML</a>
+</li>
+<li>getTextChild()
+: <a class="el" href="classts_1_1_x_m_l.html#a8a9b9a5d6a6f911d9d051a6d6d283103">ts::XML</a>
+</li>
+<li>getTimeAttribute()
+: <a class="el" href="classts_1_1_x_m_l.html#a1c6b114309f3eb1b364bcfd92e954113">ts::XML</a>
 </li>
 <li>getTimeStamp()
 : <a class="el" href="classts_1_1_async_report.html#a2b835cc4420a2a81c5f36c50cd3e0347">ts::AsyncReport</a>
@@ -541,10 +556,10 @@ $(document).ready(function(){initNavTree('functions_func_g.html','');});
 : <a class="el" href="classts_1_1_guard_condition.html#afc9a11e9c15cc4be00e2228d86ea0ad2">ts::GuardCondition</a>
 </li>
 <li>GuardConditionError()
-: <a class="el" href="classts_1_1_guard_condition_1_1_guard_condition_error.html#a24f5b06d32207599b794e87ba0009042">ts::GuardCondition::GuardConditionError</a>
+: <a class="el" href="classts_1_1_guard_condition_1_1_guard_condition_error.html#a2325e5be437ae233895534e6762bdd19">ts::GuardCondition::GuardConditionError</a>
 </li>
 <li>GuardError()
-: <a class="el" href="classts_1_1_guard_1_1_guard_error.html#a777ba72f63a07bfb590f171c67fd34e6">ts::Guard::GuardError</a>
+: <a class="el" href="classts_1_1_guard_1_1_guard_error.html#a38d8b6b55f5c2cc0eba2b3723ee59c2e">ts::Guard::GuardError</a>
 </li>
 </ul>
 </div><!-- contents -->
