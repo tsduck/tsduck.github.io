@@ -48,10 +48,10 @@ html{overflow-x:hidden}
 h1,h2,h3,h4,h5,h6,.w3-slim,.w3-wide{font-family:"Segoe UI",Arial,sans-serif}
 h1{font-size:36px}
 h2{font-size:30px}
-h3{font-size:24px}
-h4{font-size:20px}
-h5{font-size:18px}
-h6{font-size:16px}
+h3{font-size:20px}
+h4{font-size:18px}
+h5{font-size:16px}
+h6{font-size:14px}
 .w3-serif{font-family:"Times New Roman",Times,serif}
 h1,h2,h3,h4,h5,h6{font-weight:400;margin:10px 0}
 .w3-wide{letter-spacing:4px}
@@ -573,3 +573,5 @@ pre{border-left:4px solid #009688}
     height:60px; /* fixed header height*/
     margin:-60px 0 0; /* negative fixed header height */
 }
+
+emcode{font-family:monospace; font-size:1em}

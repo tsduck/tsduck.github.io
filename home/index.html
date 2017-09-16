@@ -19,6 +19,7 @@
           <a href="#tsduck">Introduction to TSDuck</a>
           <a href="#tsp">The TS processor</a>
           <a href="#castest">Example: A CAS test bed</a>
+          <a href="#tstabcomp">The PSI/SI table compiler</a>
           <a href="#prog">Using TSDuck as a library</a>
           <a href="#avail">Availability</a>
           <a href="#license">License</a>
@@ -99,7 +100,7 @@
           <li>One output plugin which sends the TS to various possible destinations.</li>
         </ul>
         <p>This is illustrated in the diagram below:</p>
-        <div class="w3-center"><img src="tsp.png"/></div>        
+        <div class="w3-center"><img src="tsp.png"/></div>
         <p>The currently existing input and output plugins can work on TS files,
           UDP/IP (multicast or unicast), DVB sources using cheap tuners,
           professional Dektec modulators and ASI devices.</p>
@@ -160,6 +161,107 @@ tsp -I dvb -u $UHF_INPUT                                      \
           On Windows systems, you may use PowerShell, Cygwin or MSys (DOS command line windows
           should now be reserved to polymorphic deviants only).</p>
 
+        <div class="anchor" id="tstabcomp"><h2>The PSI/SI table compiler</h2></div>
+
+        <p>TSDuck provides many ways to manipulate PSI/SI and other types of MPEG tables.
+          Tables can be extracted, examined, injected or modified on the fly using specific
+          plugins for <i>tsp</i>.</p>
+        <p>Tables can be manipulated in several formats:</p>
+        <ul>
+          <li>Transport stream files: Sections and tables are extracted ("<i>depacketized</i>")
+            from or inserted ("<i>packetized</i>") into TS packets in transport streams.</li>
+          <li>Section files: These binary files contain sections. Each section is stored in
+            raw binary format. Sections are simply concatenated without any encapsulation.</li>
+          <li>XML files: TSDuck defines a specific XML syntax to represent most standard
+            PS/SI tables and descriptors. XML being a text format, such tables can be edited
+            or created by hand using any text editor.</li>
+        </ul>
+        <p>TSDuck utilities manipulate tables in any of these formats and converts between
+          them. Specifically, the command <i>tstabcomp</i> is a table compiler. It takes
+          XML source files as input, compiles the tables they contain and output binary
+          section files. Thus, you can create any arbitrary table from scratch and build
+          the corresponding binary sections to inject them in a transport stream.</p>
+
+        <h3>Sample XML source file</h3>
+
+        <p>The expected XML input format is fully documented in the TSDuck user's guide.
+          Briefly, an input XML file uses <emcode>&lt;tsduck&gt;</emcode> as root node. The root node contains
+          any number of tables. The following sample XML file contains the definition for
+          simple (and incomplete) PAT and PMT:</p>
+<pre>
+&lt;?xml version="1.0" encoding="UTF-8"?&gt;
+&lt;tsduck&gt;
+
+  &lt;PAT version="8" transport_stream_id="0x0012" network_PID="0x0010"&gt;
+    &lt;service service_id="0x0001" program_map_PID="0x1234"/&gt;
+    &lt;service service_id="0x0002" program_map_PID="0x0678"/&gt;
+  &lt;/PAT&gt;
+
+  &lt;PMT version="4" service_id="0x0456" PCR_PID="0x1234"&gt;
+    &lt;CA_descriptor CA_system_id="0x0777" CA_PID="0x0251"/&gt;
+    &lt;component elementary_PID="0x0567" stream_type="0x12"&gt;
+      &lt;CA_descriptor CA_system_id="0x4444" CA_PID="0x0252"/&gt;
+      &lt;ISO_639_language_descriptor&gt;
+        &lt;language code="fre" audio_type="0x45"/&gt;
+        &lt;language code="deu" audio_type="0x78"/&gt;
+      &lt;/ISO_639_language_descriptor&gt;
+    &lt;/component&gt;
+  &lt;/PMT&gt;
+
+&lt;/tsduck&gt;
+</pre>
+
+        <h3>Also a decompiler</h3>
+
+        <p>The command <i>tstabcomp</i> is also a table decompiler. If the input file is
+          a binary section file, <i>tstabcomp</i> analyzes the tables and recreates the
+          corresponding XML file.</p>
+        <p>In the absence of a specialized plugin, this is the most generic way to modify
+          a binary table in a stream:</p>
+        <ul>
+          <li>Extract selected binary tables from a stream using the <i>tstables</i> utility
+            or the <i>tables</i> plugin for <i>tsp</i>. Use the option
+            <emcode>--binary-output</emcode> to save the tables in binary section format.</li>
+          <li>Decompile the binary file using <i>tstabcomp</i>.</li>
+          <li>Edit the resulting XML file and make all required modifications.</li>
+          <li>Recompile the edited XML file using <i>tstabcomp</i>.</li>
+          <li>Inject the resulting binary file in the stream using the <i>inject</i>
+            plugin for <i>tsp</i>.</li>
+        </ul>
+        <p>Let's look at the various steps in a real example. We need to reproduce the case
+          of a broadcast stream (satellite, terrestrial, whatever) with a specially crafted
+          NIT. The plugin <i>nit</i> in <i>tsp</i> provides a convenient way to modify a NIT
+          on the fly. But let's assume that the modifications we need are so specific that
+          this plugin cannot do what we want.</p>
+        <p>First, we capture the original NIT from the live stream:</p>
+<pre>
+tsp -I dvb --uhf 24 \
+    -P tables --pid 16 --tid 0x40 --max 1 --bin nit.bin \
+    -O drop
+</pre>
+        <p>Then, we decompile the binary table into an XML file. The input file being a
+          binary file <emcode>nit.bin</emcode>, <i>tstabcomp</i> decompiles it into the
+          XML file <emcode>nit.xml</emcode>.</p>
+<pre>
+tstabcomp nit.bin
+</pre>
+        <p>Now, manually edit the XML file using any text editor and apply the specific
+          modifications we need. Then, recompile the XML file into a binary table.</p>
+<pre>
+tstabcomp nit.xml
+</pre>
+        <p>Finally, we inject the recreated <emcode>nit.bin</emcode> into the stream.
+          We capture the real live stream from the antenna, we replace the NIT on
+          PID 16 on the fly with our modified NIT file and we reinject the modified
+          stream into a Dektec modulator on the same frequency.</p>
+<pre>
+tsp -I dvb --uhf 24 \
+    -P inject nit.bin --pid 16 --replace --stuffing \
+    -O dektec --uhf 24 --convolution 2/3 --guard 1/32
+</pre>
+        <p>Now, we can plug a set-top box or TV set on the output of the modulator
+          and test the result.</p>
+
         <div class="anchor" id="prog"><h2>Using TSDuck as a library</h2></div>
 
         <p>TSDuck can also be used as an MPEG/DVB C++ library for your own applications.
@@ -174,7 +276,7 @@ tsp -I dvb -u $UHF_INPUT                                      \
           See more details <a href="../doxy/html/usinglibrary.html">here</a>.</p>
 
         <div class="anchor" id="avail"><h2>Availability</h2></div>
-        
+
         <p>TSDuck is open source and released under the BSD license.
           It is developed in C++ and designed to be portable.
           TSDuck is built and tested for Windows, Linux and MacOS.
