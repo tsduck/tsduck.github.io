@@ -8,6 +8,8 @@ var searchData=
   ['cas_5fsafeaccess',['CAS_SAFEACCESS',['../namespacets.html#a1de171688c3a6ff71896a8f3e5817c11a6c7174e9a4df3ea5e3140ecf412de773',1,'ts']]],
   ['cas_5fthalescrypt',['CAS_THALESCRYPT',['../namespacets.html#a1de171688c3a6ff71896a8f3e5817c11acd138ce077fb1c0d2b69f7e14c39202c',1,'ts']]],
   ['cas_5fviaccess',['CAS_VIACCESS',['../namespacets.html#a1de171688c3a6ff71896a8f3e5817c11a31588d8b5cdb65efd8fd6f62e85af5c8',1,'ts']]],
+  ['case_5finsensitive',['CASE_INSENSITIVE',['../namespacets.html#acabdd963f028076d6599f6712b236b47a98c9aec7e38af499ba50d11cc78c7ed6',1,'ts']]],
+  ['case_5fsensitive',['CASE_SENSITIVE',['../namespacets.html#acabdd963f028076d6599f6712b236b47a7a39a55c5b22c9b352ea346bcebb06fd',1,'ts']]],
   ['casid_5fmediaguard_5fmax',['CASID_MEDIAGUARD_MAX',['../namespacets.html#a443b2a4f497204a667fde32be9d72277a21faff0f81464fe7ffc1f23920531f1b',1,'ts']]],
   ['casid_5fmediaguard_5fmin',['CASID_MEDIAGUARD_MIN',['../namespacets.html#a443b2a4f497204a667fde32be9d72277a1183fa7863df85531cc8c790879136cd',1,'ts']]],
   ['casid_5fnagra_5fmax',['CASID_NAGRA_MAX',['../namespacets.html#a443b2a4f497204a667fde32be9d72277aaf747ad50c2a7ac79e63a8c6b89ddc83',1,'ts']]],

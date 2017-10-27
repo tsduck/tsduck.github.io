@@ -34,7 +34,7 @@
  <tr style="height: 56px;">
   <td id="projectlogo"><img src="tsduck-32.png"/></td>
    <td id="projectalign"><span id="projectname">TSDuck</span>
-    <span id="projectnumber">Version 3.3</span>
+    <span id="projectnumber">Version 3.4</span>
     <span id="projectbrief">(TSDuck - The MPEG Transport Stream Toolkit)</span>
    </td>
    <td>        <div id="MSearchBox" class="MSearchBoxInactive">
@@ -94,24 +94,21 @@ $(document).ready(function(){initNavTree('functions_func_g.html','');});
 &#160;
 
 <h3><a id="index_g"></a>- g -</h3><ul>
-<li>generate()
-: <a class="el" href="classts_1_1_gen_tab_plugin.html#a0c5903883d1e2c1fdde5aefcc7e9f88e">ts::GenTabPlugin</a>
-</li>
 <li>generateECM()
 : <a class="el" href="classts_1_1_e_c_m_g_client.html#a520f4cd2c553094fbd90d0a7fdf22a36">ts::ECMGClient</a>
 </li>
-<li>GenTabPlugin()
-: <a class="el" href="classts_1_1_gen_tab_plugin.html#a6034884cf362aee9550c0ca541284200">ts::GenTabPlugin</a>
-</li>
 <li>get()
 : <a class="el" href="classts_1_1_simul_crypt_date.html#a9d07d1dbb95d3bf7652ac1eaeb696dfc">ts::SimulCryptDate</a>
-, <a class="el" href="classts_1_1tlv_1_1_message_factory.html#a5d0b7b60bfd272fb270300c5c1e4ba95">ts::tlv::MessageFactory</a>
+, <a class="el" href="classts_1_1tlv_1_1_message_factory.html#a4680c4cb013b63a2c88fe56f440e6ea5">ts::tlv::MessageFactory</a>
 </li>
 <li>getAC3Attributes()
 : <a class="el" href="classts_1_1_p_e_s_demux.html#ae860d07ba08ea40018bb7b770e8a9b6b">ts::PESDemux</a>
 </li>
 <li>getAFSize()
 : <a class="el" href="structts_1_1_t_s_packet.html#a40c02e5e83a0b7c18fcd76c6aeca306f">ts::TSPacket</a>
+</li>
+<li>GetAllNames()
+: <a class="el" href="classts_1_1_d_v_b_charset.html#ae36eb8bf788b5b0500944b868f11fab8">ts::DVBCharset</a>
 </li>
 <li>GetAllTuners()
 : <a class="el" href="classts_1_1_tuner.html#aaaaa7f553ab98dc5b43d80da462c1968">ts::Tuner</a>
@@ -150,7 +147,7 @@ $(document).ready(function(){initNavTree('functions_func_g.html','');});
 : <a class="el" href="classts_1_1_args.html#a3dab1afd0d25f2301e8b9b72f25be5a6">ts::Args</a>
 </li>
 <li>getBitrate()
-: <a class="el" href="classts_1_1_abstract_descrambler.html#a48e3302432369f0aa08c5f0912a336ff">ts::AbstractDescrambler</a>
+: <a class="el" href="classts_1_1_abstract_descrambler.html#adb01c9ee98c6c1361e9685aee308e123">ts::AbstractDescrambler</a>
 , <a class="el" href="classts_1_1_dektec_input_plugin.html#a10bd68678966c9ee71f7be8599fca75d">ts::DektecInputPlugin</a>
 , <a class="el" href="classts_1_1_dektec_output_plugin.html#ab52cbe1f84ecf9fb1cd44243abce6af8">ts::DektecOutputPlugin</a>
 , <a class="el" href="classts_1_1_plugin.html#a0cd4e1ccb90dab43b09b75793bbdb01b">ts::Plugin</a>
@@ -182,8 +179,14 @@ $(document).ready(function(){initNavTree('functions_func_g.html','');});
 <li>getCC()
 : <a class="el" href="structts_1_1_t_s_packet.html#a59063009e2ac50f46eb0441450068753">ts::TSPacket</a>
 </li>
+<li>GetCharCodeTable()
+: <a class="el" href="classts_1_1_d_v_b_charset.html#a8660e7721ce61d0ee5a334146e55b1ed">ts::DVBCharset</a>
+</li>
+<li>GetCharset()
+: <a class="el" href="classts_1_1_d_v_b_charset.html#a9e80025f46bee31e14a4801f566767fb">ts::DVBCharset</a>
+</li>
 <li>getChildren()
-: <a class="el" href="classts_1_1_x_m_l.html#a339b16ab63ae7cbad89d962e0e4d5af2">ts::XML</a>
+: <a class="el" href="classts_1_1_x_m_l.html#a01f50d1f36e8e0da51939032fd661473">ts::XML</a>
 </li>
 <li>getCompound()
 : <a class="el" href="classts_1_1tlv_1_1_message_factory.html#ad652d12a0f30f1850a95c8bba1c0a99f">ts::tlv::MessageFactory</a>
@@ -223,9 +226,6 @@ $(document).ready(function(){initNavTree('functions_func_g.html','');});
 </li>
 <li>getEITsPresent()
 : <a class="el" href="classts_1_1_service.html#a533fcca7dd62b5a8bd188d52d5ad7167">ts::Service</a>
-</li>
-<li>getEntryNames()
-: <a class="el" href="classts_1_1_config_section.html#a7ee4cb725f9a26407f6e0f2e3ceb3a2b">ts::ConfigSection</a>
 </li>
 <li>getEnumAttribute()
 : <a class="el" href="classts_1_1_x_m_l.html#a1e58dadd6e511bac5c6af070cb099508">ts::XML</a>
@@ -323,6 +323,9 @@ $(document).ready(function(){initNavTree('functions_func_g.html','');});
 <li>getLengthSize()
 : <a class="el" href="classts_1_1_t_l_v_syntax.html#a1c03d03a74cafc2dcaafae35770fbb25">ts::TLVSyntax</a>
 </li>
+<li>getLine()
+: <a class="el" href="classts_1_1_u_string.html#aac95d367fa19ad64b1e977341bd9f39b">ts::UString</a>
+</li>
 <li>getLocalAddress()
 : <a class="el" href="classts_1_1_t_c_p_socket.html#a3020dbb2906e67e0d90ed2c0abb68f86">ts::TCPSocket</a>
 </li>
@@ -345,8 +348,8 @@ $(document).ready(function(){initNavTree('functions_func_g.html','');});
 : <a class="el" href="classts_1_1_thread_attributes.html#ae07b8bc8b99b43627472e40d496504e5">ts::ThreadAttributes</a>
 </li>
 <li>getName()
-: <a class="el" href="classts_1_1_service.html#adfeaae29b50b75bdbeb82bb4a2a772da">ts::Service</a>
-, <a class="el" href="classts_1_1_t_s_analyzer_1_1_service_context.html#a761efad55e1d2d6e835c0e7424e68bcd">ts::TSAnalyzer::ServiceContext</a>
+: <a class="el" href="classts_1_1_service.html#a2d58d15f0335ceaddb5afb74a6df8a8a">ts::Service</a>
+, <a class="el" href="classts_1_1_t_s_analyzer_1_1_service_context.html#a703d0880104938de97c21a4c8192809f">ts::TSAnalyzer::ServiceContext</a>
 </li>
 <li>getNextPacket()
 : <a class="el" href="classts_1_1_packetizer.html#a890351f4821fb5727414e900699060f4">ts::Packetizer</a>
@@ -423,8 +426,8 @@ $(document).ready(function(){initNavTree('functions_func_g.html','');});
 , <a class="el" href="structts_1_1_t_s_packet.html#ad2690e75fdbd0a014720e51aaf4d2a6f">ts::TSPacket</a>
 </li>
 <li>getProvider()
-: <a class="el" href="classts_1_1_service.html#ad1b944746e41a788187a903e480b707a">ts::Service</a>
-, <a class="el" href="classts_1_1_t_s_analyzer_1_1_service_context.html#a3259914844d37fb64ff5c28c09fcf11e">ts::TSAnalyzer::ServiceContext</a>
+: <a class="el" href="classts_1_1_service.html#ac624888fb2b5d4d6d8ca76e05fce86d9">ts::Service</a>
+, <a class="el" href="classts_1_1_t_s_analyzer_1_1_service_context.html#ad9bb876d8659ab1c9418c8b576e6b7ee">ts::TSAnalyzer::ServiceContext</a>
 </li>
 <li>getPTS()
 : <a class="el" href="structts_1_1_t_s_packet.html#a379296ebd180cef7b237f1b7d66db524">ts::TSPacket</a>
@@ -459,9 +462,6 @@ $(document).ready(function(){initNavTree('functions_func_g.html','');});
 <li>getSectionDisplay()
 : <a class="el" href="classts_1_1_tables_factory.html#a5ffd1db79b8d2c37ce0c2a3f07e3ba52">ts::TablesFactory</a>
 </li>
-<li>getSectionNames()
-: <a class="el" href="classts_1_1_config_file.html#a3c3e3965040c1d95b0e79dc18023c932">ts::ConfigFile</a>
-</li>
 <li>getServiceIds()
 : <a class="el" href="classts_1_1_t_s_analyzer.html#a8750c947e22d210616e055cde3fdcb54">ts::TSAnalyzer</a>
 </li>
@@ -477,6 +477,7 @@ $(document).ready(function(){initNavTree('functions_func_g.html','');});
 </li>
 <li>getSourcePID()
 : <a class="el" href="classts_1_1_p_e_s_packet.html#a611944b57430a07a7d63bf72a5136c83">ts::PESPacket</a>
+, <a class="el" href="classts_1_1_t2_m_i_packet.html#a84da32fcb2199e9e1e4787862dd1acb2">ts::T2MIPacket</a>
 </li>
 <li>getStackSize()
 : <a class="el" href="classts_1_1_thread_attributes.html#aba7f2df338dbcdf073c10eaf01ecc87e">ts::ThreadAttributes</a>
@@ -520,7 +521,7 @@ $(document).ready(function(){initNavTree('functions_func_g.html','');});
 : <a class="el" href="classts_1_1_x_m_l.html#aca5003b366d5382c6d293037d961b49c">ts::XML</a>
 </li>
 <li>getTextChild()
-: <a class="el" href="classts_1_1_x_m_l.html#a8a9b9a5d6a6f911d9d051a6d6d283103">ts::XML</a>
+: <a class="el" href="classts_1_1_x_m_l.html#a4ab0b7071d70ed31a7295eee7b2a1642">ts::XML</a>
 </li>
 <li>getTimeAttribute()
 : <a class="el" href="classts_1_1_x_m_l.html#a1c6b114309f3eb1b364bcfd92e954113">ts::XML</a>
@@ -536,6 +537,9 @@ $(document).ready(function(){initNavTree('functions_func_g.html','');});
 </li>
 <li>getType()
 : <a class="el" href="classts_1_1_service.html#a6c1bbfddd0b377951e1181ddea997ca8">ts::Service</a>
+</li>
+<li>GetUnixClock()
+: <a class="el" href="classts_1_1_time.html#ab0e5812b6a3d59c448ab64e947621644">ts::Time</a>
 </li>
 <li>getUnreferencedPIDs()
 : <a class="el" href="classts_1_1_t_s_analyzer.html#a0816326dcd369dbc2f8dfecaff5d712d">ts::TSAnalyzer</a>
@@ -556,10 +560,10 @@ $(document).ready(function(){initNavTree('functions_func_g.html','');});
 : <a class="el" href="classts_1_1_guard_condition.html#afc9a11e9c15cc4be00e2228d86ea0ad2">ts::GuardCondition</a>
 </li>
 <li>GuardConditionError()
-: <a class="el" href="classts_1_1_guard_condition_1_1_guard_condition_error.html#a2325e5be437ae233895534e6762bdd19">ts::GuardCondition::GuardConditionError</a>
+: <a class="el" href="classts_1_1_guard_condition_1_1_guard_condition_error.html#a24f5b06d32207599b794e87ba0009042">ts::GuardCondition::GuardConditionError</a>
 </li>
 <li>GuardError()
-: <a class="el" href="classts_1_1_guard_1_1_guard_error.html#a38d8b6b55f5c2cc0eba2b3723ee59c2e">ts::Guard::GuardError</a>
+: <a class="el" href="classts_1_1_guard_1_1_guard_error.html#a777ba72f63a07bfb590f171c67fd34e6">ts::Guard::GuardError</a>
 </li>
 </ul>
 </div><!-- contents -->

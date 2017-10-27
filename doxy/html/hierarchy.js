@@ -32,63 +32,73 @@ var hierarchy =
       [ "ts::SafeAccessDate", "classts_1_1_safe_access_date.html", null ],
       [ "ts::ViaccessDate", "classts_1_1_viaccess_date.html", null ]
     ] ],
-    [ "ts::AbstractDescriptor", "classts_1_1_abstract_descriptor.html", [
-      [ "ts::AbstractDeliverySystemDescriptor", "classts_1_1_abstract_delivery_system_descriptor.html", [
-        [ "ts::SatelliteDeliverySystemDescriptor", "classts_1_1_satellite_delivery_system_descriptor.html", null ],
-        [ "ts::TerrestrialDeliverySystemDescriptor", "classts_1_1_terrestrial_delivery_system_descriptor.html", null ]
+    [ "ts::AbstractDemux", "classts_1_1_abstract_demux.html", [
+      [ "ts::PESDemux", "classts_1_1_p_e_s_demux.html", null ],
+      [ "ts::SectionDemux", "classts_1_1_section_demux.html", [
+        [ "ts::StandaloneTableDemux", "classts_1_1_standalone_table_demux.html", null ]
       ] ],
-      [ "ts::AC3Descriptor", "classts_1_1_a_c3_descriptor.html", null ],
-      [ "ts::AVCVideoDescriptor", "classts_1_1_a_v_c_video_descriptor.html", null ],
-      [ "ts::BouquetNameDescriptor", "classts_1_1_bouquet_name_descriptor.html", null ],
-      [ "ts::CADescriptor", "classts_1_1_c_a_descriptor.html", null ],
-      [ "ts::CAIdentifierDescriptor", "classts_1_1_c_a_identifier_descriptor.html", null ],
-      [ "ts::ContentDescriptor", "classts_1_1_content_descriptor.html", null ],
-      [ "ts::CountryAvailabilityDescriptor", "classts_1_1_country_availability_descriptor.html", null ],
-      [ "ts::DataBroadcastDescriptor", "classts_1_1_data_broadcast_descriptor.html", null ],
-      [ "ts::DataBroadcastIdDescriptor", "classts_1_1_data_broadcast_id_descriptor.html", null ],
-      [ "ts::EacemStreamIdentifierDescriptor", "classts_1_1_eacem_stream_identifier_descriptor.html", null ],
-      [ "ts::EnhancedAC3Descriptor", "classts_1_1_enhanced_a_c3_descriptor.html", null ],
-      [ "ts::EutelsatChannelNumberDescriptor", "classts_1_1_eutelsat_channel_number_descriptor.html", null ],
-      [ "ts::ExtendedEventDescriptor", "classts_1_1_extended_event_descriptor.html", null ],
-      [ "ts::HDSimulcastLogicalChannelDescriptor", "classts_1_1_h_d_simulcast_logical_channel_descriptor.html", null ],
-      [ "ts::ISO639LanguageDescriptor", "classts_1_1_i_s_o639_language_descriptor.html", null ],
-      [ "ts::LinkageDescriptor", "classts_1_1_linkage_descriptor.html", null ],
-      [ "ts::LocalTimeOffsetDescriptor", "classts_1_1_local_time_offset_descriptor.html", null ],
-      [ "ts::LogicalChannelNumberDescriptor", "classts_1_1_logical_channel_number_descriptor.html", null ],
-      [ "ts::MessageDescriptor", "classts_1_1_message_descriptor.html", null ],
-      [ "ts::NetworkNameDescriptor", "classts_1_1_network_name_descriptor.html", null ],
-      [ "ts::ParentalRatingDescriptor", "classts_1_1_parental_rating_descriptor.html", null ],
-      [ "ts::PrivateDataSpecifierDescriptor", "classts_1_1_private_data_specifier_descriptor.html", null ],
-      [ "ts::S2SatelliteDeliverySystemDescriptor", "classts_1_1_s2_satellite_delivery_system_descriptor.html", null ],
-      [ "ts::ServiceDescriptor", "classts_1_1_service_descriptor.html", null ],
-      [ "ts::ServiceListDescriptor", "classts_1_1_service_list_descriptor.html", null ],
-      [ "ts::ShortEventDescriptor", "classts_1_1_short_event_descriptor.html", null ],
-      [ "ts::SSUDataBroadcastIdDescriptor", "classts_1_1_s_s_u_data_broadcast_id_descriptor.html", null ],
-      [ "ts::SSULinkageDescriptor", "classts_1_1_s_s_u_linkage_descriptor.html", null ],
-      [ "ts::STDDescriptor", "classts_1_1_s_t_d_descriptor.html", null ],
-      [ "ts::StreamIdentifierDescriptor", "classts_1_1_stream_identifier_descriptor.html", null ],
-      [ "ts::SubtitlingDescriptor", "classts_1_1_subtitling_descriptor.html", null ],
-      [ "ts::SupplementaryAudioDescriptor", "classts_1_1_supplementary_audio_descriptor.html", null ],
-      [ "ts::TeletextDescriptor", "classts_1_1_teletext_descriptor.html", null ]
+      [ "ts::T2MIDemux", "classts_1_1_t2_m_i_demux.html", null ]
     ] ],
-    [ "ts::AbstractTable", "classts_1_1_abstract_table.html", [
-      [ "ts::AbstractLongTable", "classts_1_1_abstract_long_table.html", [
-        [ "ts::AbstractDescriptorsTable", "classts_1_1_abstract_descriptors_table.html", [
-          [ "ts::CAT", "classts_1_1_c_a_t.html", null ],
-          [ "ts::TSDT", "classts_1_1_t_s_d_t.html", null ]
+    [ "ts::AbstractSignalization", "classts_1_1_abstract_signalization.html", [
+      [ "ts::AbstractDescriptor", "classts_1_1_abstract_descriptor.html", [
+        [ "ts::AbstractDeliverySystemDescriptor", "classts_1_1_abstract_delivery_system_descriptor.html", [
+          [ "ts::SatelliteDeliverySystemDescriptor", "classts_1_1_satellite_delivery_system_descriptor.html", null ],
+          [ "ts::TerrestrialDeliverySystemDescriptor", "classts_1_1_terrestrial_delivery_system_descriptor.html", null ]
         ] ],
-        [ "ts::AbstractTransportListTable", "classts_1_1_abstract_transport_list_table.html", [
-          [ "ts::BAT", "classts_1_1_b_a_t.html", null ],
-          [ "ts::NIT", "classts_1_1_n_i_t.html", null ]
-        ] ],
-        [ "ts::EIT", "classts_1_1_e_i_t.html", null ],
-        [ "ts::PAT", "classts_1_1_p_a_t.html", null ],
-        [ "ts::PMT", "classts_1_1_p_m_t.html", null ],
-        [ "ts::SDT", "classts_1_1_s_d_t.html", null ]
+        [ "ts::AC3Descriptor", "classts_1_1_a_c3_descriptor.html", null ],
+        [ "ts::AVCVideoDescriptor", "classts_1_1_a_v_c_video_descriptor.html", null ],
+        [ "ts::BouquetNameDescriptor", "classts_1_1_bouquet_name_descriptor.html", null ],
+        [ "ts::CADescriptor", "classts_1_1_c_a_descriptor.html", null ],
+        [ "ts::CAIdentifierDescriptor", "classts_1_1_c_a_identifier_descriptor.html", null ],
+        [ "ts::ContentDescriptor", "classts_1_1_content_descriptor.html", null ],
+        [ "ts::CountryAvailabilityDescriptor", "classts_1_1_country_availability_descriptor.html", null ],
+        [ "ts::DataBroadcastDescriptor", "classts_1_1_data_broadcast_descriptor.html", null ],
+        [ "ts::DataBroadcastIdDescriptor", "classts_1_1_data_broadcast_id_descriptor.html", null ],
+        [ "ts::EacemStreamIdentifierDescriptor", "classts_1_1_eacem_stream_identifier_descriptor.html", null ],
+        [ "ts::EnhancedAC3Descriptor", "classts_1_1_enhanced_a_c3_descriptor.html", null ],
+        [ "ts::EutelsatChannelNumberDescriptor", "classts_1_1_eutelsat_channel_number_descriptor.html", null ],
+        [ "ts::ExtendedEventDescriptor", "classts_1_1_extended_event_descriptor.html", null ],
+        [ "ts::HDSimulcastLogicalChannelDescriptor", "classts_1_1_h_d_simulcast_logical_channel_descriptor.html", null ],
+        [ "ts::ISO639LanguageDescriptor", "classts_1_1_i_s_o639_language_descriptor.html", null ],
+        [ "ts::LinkageDescriptor", "classts_1_1_linkage_descriptor.html", null ],
+        [ "ts::LocalTimeOffsetDescriptor", "classts_1_1_local_time_offset_descriptor.html", null ],
+        [ "ts::LogicalChannelNumberDescriptor", "classts_1_1_logical_channel_number_descriptor.html", null ],
+        [ "ts::MessageDescriptor", "classts_1_1_message_descriptor.html", null ],
+        [ "ts::NetworkNameDescriptor", "classts_1_1_network_name_descriptor.html", null ],
+        [ "ts::ParentalRatingDescriptor", "classts_1_1_parental_rating_descriptor.html", null ],
+        [ "ts::PrivateDataSpecifierDescriptor", "classts_1_1_private_data_specifier_descriptor.html", null ],
+        [ "ts::S2SatelliteDeliverySystemDescriptor", "classts_1_1_s2_satellite_delivery_system_descriptor.html", null ],
+        [ "ts::ServiceDescriptor", "classts_1_1_service_descriptor.html", null ],
+        [ "ts::ServiceListDescriptor", "classts_1_1_service_list_descriptor.html", null ],
+        [ "ts::ShortEventDescriptor", "classts_1_1_short_event_descriptor.html", null ],
+        [ "ts::SSUDataBroadcastIdDescriptor", "classts_1_1_s_s_u_data_broadcast_id_descriptor.html", null ],
+        [ "ts::SSULinkageDescriptor", "classts_1_1_s_s_u_linkage_descriptor.html", null ],
+        [ "ts::STDDescriptor", "classts_1_1_s_t_d_descriptor.html", null ],
+        [ "ts::StreamIdentifierDescriptor", "classts_1_1_stream_identifier_descriptor.html", null ],
+        [ "ts::SubtitlingDescriptor", "classts_1_1_subtitling_descriptor.html", null ],
+        [ "ts::SupplementaryAudioDescriptor", "classts_1_1_supplementary_audio_descriptor.html", null ],
+        [ "ts::T2MIDescriptor", "classts_1_1_t2_m_i_descriptor.html", null ],
+        [ "ts::TeletextDescriptor", "classts_1_1_teletext_descriptor.html", null ]
       ] ],
-      [ "ts::RST", "classts_1_1_r_s_t.html", null ],
-      [ "ts::TDT", "classts_1_1_t_d_t.html", null ],
-      [ "ts::TOT", "classts_1_1_t_o_t.html", null ]
+      [ "ts::AbstractTable", "classts_1_1_abstract_table.html", [
+        [ "ts::AbstractLongTable", "classts_1_1_abstract_long_table.html", [
+          [ "ts::AbstractDescriptorsTable", "classts_1_1_abstract_descriptors_table.html", [
+            [ "ts::CAT", "classts_1_1_c_a_t.html", null ],
+            [ "ts::TSDT", "classts_1_1_t_s_d_t.html", null ]
+          ] ],
+          [ "ts::AbstractTransportListTable", "classts_1_1_abstract_transport_list_table.html", [
+            [ "ts::BAT", "classts_1_1_b_a_t.html", null ],
+            [ "ts::NIT", "classts_1_1_n_i_t.html", null ]
+          ] ],
+          [ "ts::EIT", "classts_1_1_e_i_t.html", null ],
+          [ "ts::PAT", "classts_1_1_p_a_t.html", null ],
+          [ "ts::PMT", "classts_1_1_p_m_t.html", null ],
+          [ "ts::SDT", "classts_1_1_s_d_t.html", null ]
+        ] ],
+        [ "ts::RST", "classts_1_1_r_s_t.html", null ],
+        [ "ts::TDT", "classts_1_1_t_d_t.html", null ],
+        [ "ts::TOT", "classts_1_1_t_o_t.html", null ]
+      ] ]
     ] ],
     [ "ts::tlv::Analyzer", "classts_1_1tlv_1_1_analyzer.html", null ],
     [ "ts::ApplicationSignallingDescriptor", "classts_1_1_application_signalling_descriptor.html", null ],
@@ -128,8 +138,6 @@ var hierarchy =
     [ "ts::ComPtr<::ITuner >", "classts_1_1_com_ptr.html", null ],
     [ "ts::ComPtr<::ITuningSpace >", "classts_1_1_com_ptr.html", null ],
     [ "ts::Condition", "classts_1_1_condition.html", null ],
-    [ "ts::ConfigFile", "classts_1_1_config_file.html", null ],
-    [ "ts::ConfigSection", "classts_1_1_config_section.html", null ],
     [ "ts::ecmgscs::CPCWCombination", "structts_1_1ecmgscs_1_1_c_p_c_w_combination.html", null ],
     [ "utest::CppUnitMain", "classutest_1_1_cpp_unit_main.html", null ],
     [ "ts::CRC32", "classts_1_1_c_r_c32.html", null ],
@@ -139,10 +147,17 @@ var hierarchy =
     [ "ts::DoubleCheckLock", "classts_1_1_double_check_lock.html", null ],
     [ "ts::DTSDescriptor", "classts_1_1_d_t_s_descriptor.html", null ],
     [ "ts::DTVProperties", "classts_1_1_d_t_v_properties.html", null ],
+    [ "ts::DVBCharset", "classts_1_1_d_v_b_charset.html", [
+      [ "ts::DVBCharsetSingleByte", "classts_1_1_d_v_b_charset_single_byte.html", null ],
+      [ "ts::DVBCharsetUTF16", "classts_1_1_d_v_b_charset_u_t_f16.html", null ],
+      [ "ts::DVBCharsetUTF8", "classts_1_1_d_v_b_charset_u_t_f8.html", null ]
+    ] ],
     [ "ts::EacemPreferredNameIdentifierDescriptor", "classts_1_1_eacem_preferred_name_identifier_descriptor.html", null ],
     [ "ts::EacemPreferredNameListDescriptor", "classts_1_1_eacem_preferred_name_list_descriptor.html", null ],
     [ "ts::ECMGClientHandlerInterface", "classts_1_1_e_c_m_g_client_handler_interface.html", null ],
     [ "ts::EDID", "classts_1_1_e_d_i_d.html", null ],
+    [ "ts::SSUDataBroadcastIdDescriptor::Entry", "structts_1_1_s_s_u_data_broadcast_id_descriptor_1_1_entry.html", null ],
+    [ "ts::SSULinkageDescriptor::Entry", "structts_1_1_s_s_u_linkage_descriptor_1_1_entry.html", null ],
     [ "ts::SubtitlingDescriptor::Entry", "structts_1_1_subtitling_descriptor_1_1_entry.html", null ],
     [ "ts::EutelsatChannelNumberDescriptor::Entry", "structts_1_1_eutelsat_channel_number_descriptor_1_1_entry.html", null ],
     [ "ts::TeletextDescriptor::Entry", "structts_1_1_teletext_descriptor_1_1_entry.html", null ],
@@ -151,10 +166,8 @@ var hierarchy =
     [ "ts::ISO639LanguageDescriptor::Entry", "structts_1_1_i_s_o639_language_descriptor_1_1_entry.html", null ],
     [ "ts::LogicalChannelNumberDescriptor::Entry", "structts_1_1_logical_channel_number_descriptor_1_1_entry.html", null ],
     [ "ts::ParentalRatingDescriptor::Entry", "structts_1_1_parental_rating_descriptor_1_1_entry.html", null ],
-    [ "ts::ServiceListDescriptor::Entry", "structts_1_1_service_list_descriptor_1_1_entry.html", null ],
     [ "ts::ContentDescriptor::Entry", "structts_1_1_content_descriptor_1_1_entry.html", null ],
-    [ "ts::SSUDataBroadcastIdDescriptor::Entry", "structts_1_1_s_s_u_data_broadcast_id_descriptor_1_1_entry.html", null ],
-    [ "ts::SSULinkageDescriptor::Entry", "structts_1_1_s_s_u_linkage_descriptor_1_1_entry.html", null ],
+    [ "ts::ServiceListDescriptor::Entry", "structts_1_1_service_list_descriptor_1_1_entry.html", null ],
     [ "ts::Enumeration", "classts_1_1_enumeration.html", null ],
     [ "ts::ecmgscs::Errors", "structts_1_1ecmgscs_1_1_errors.html", null ],
     [ "ts::emmgmux::Errors", "structts_1_1emmgmux_1_1_errors.html", null ],
@@ -167,6 +180,8 @@ var hierarchy =
       [ "ts::Exception", "classts_1_1_exception.html", [
         [ "ts::Args::ArgsError", "classts_1_1_args_1_1_args_error.html", null ],
         [ "ts::Condition::ConditionError", "classts_1_1_condition_1_1_condition_error.html", null ],
+        [ "ts::DVBCharset::DuplicateDVBCharset", "classts_1_1_d_v_b_charset_1_1_duplicate_d_v_b_charset.html", null ],
+        [ "ts::DVBCharset::InvalidDVBCharset", "classts_1_1_d_v_b_charset_1_1_invalid_d_v_b_charset.html", null ],
         [ "ts::Guard::GuardError", "classts_1_1_guard_1_1_guard_error.html", null ],
         [ "ts::GuardCondition::GuardConditionError", "classts_1_1_guard_condition_1_1_guard_condition_error.html", null ],
         [ "ts::ImplementationError", "classts_1_1_implementation_error.html", null ],
@@ -264,6 +279,9 @@ var hierarchy =
       [ "ts::Mutex", "classts_1_1_mutex.html", null ],
       [ "ts::NullMutex", "classts_1_1_null_mutex.html", null ]
     ] ],
+    [ "ts::Names", "classts_1_1_names.html", null ],
+    [ "ts::NamesDVB", "classts_1_1_names_d_v_b.html", null ],
+    [ "ts::NamesOUI", "classts_1_1_names_o_u_i.html", null ],
     [ "ts::Object", "classts_1_1_object.html", [
       [ "ts::TunerParameters", "classts_1_1_tuner_parameters.html", [
         [ "ts::TunerParametersATSC", "classts_1_1_tuner_parameters_a_t_s_c.html", null ],
@@ -282,7 +300,6 @@ var hierarchy =
     ] ],
     [ "ts::tlv::MessageFactory::Parameter", "structts_1_1tlv_1_1_message_factory_1_1_parameter.html", null ],
     [ "ts::PCRAnalyzer", "classts_1_1_p_c_r_analyzer.html", null ],
-    [ "ts::PESDemux", "classts_1_1_p_e_s_demux.html", null ],
     [ "ts::PESHandlerInterface", "classts_1_1_p_e_s_handler_interface.html", [
       [ "ts::TSAnalyzer", "classts_1_1_t_s_analyzer.html", [
         [ "ts::TSAnalyzerReport", "classts_1_1_t_s_analyzer_report.html", null ]
@@ -311,7 +328,6 @@ var hierarchy =
     [ "ts::ReportInterface", "classts_1_1_report_interface.html", [
       [ "ts::Args", "classts_1_1_args.html", [
         [ "ts::DektecControl", "classts_1_1_dektec_control.html", null ],
-        [ "ts::GenTabPlugin", "classts_1_1_gen_tab_plugin.html", null ],
         [ "ts::Plugin", "classts_1_1_plugin.html", [
           [ "ts::InputPlugin", "classts_1_1_input_plugin.html", [
             [ "ts::DektecInputPlugin", "classts_1_1_dektec_input_plugin.html", null ]
@@ -350,9 +366,6 @@ var hierarchy =
     [ "ts::SafePtr< TunerParameters, Mutex >", "classts_1_1_safe_ptr.html", null ],
     [ "ts::Scrambling", "classts_1_1_scrambling.html", null ],
     [ "ts::Section", "classts_1_1_section.html", null ],
-    [ "ts::SectionDemux", "classts_1_1_section_demux.html", [
-      [ "ts::StandaloneTableDemux", "classts_1_1_standalone_table_demux.html", null ]
-    ] ],
     [ "ts::SectionHandlerInterface", "classts_1_1_section_handler_interface.html", [
       [ "ts::PSILogger", "classts_1_1_p_s_i_logger.html", null ],
       [ "ts::TablesLogger", "classts_1_1_tables_logger.html", null ],
@@ -379,14 +392,20 @@ var hierarchy =
     [ "ts::SignalAllocator", "classts_1_1_signal_allocator.html", null ],
     [ "ts::SimulCryptDate", "classts_1_1_simul_crypt_date.html", null ],
     [ "ts::SingletonManager", "classts_1_1_singleton_manager.html", null ],
-    [ "ts::SectionDemux::Status", "structts_1_1_section_demux_1_1_status.html", null ],
+    [ "ts::StaticReferencesDVB", "classts_1_1_static_references_d_v_b.html", null ],
     [ "ts::PCRAnalyzer::Status", "structts_1_1_p_c_r_analyzer_1_1_status.html", null ],
+    [ "ts::SectionDemux::Status", "structts_1_1_section_demux_1_1_status.html", null ],
     [ "ts::PMT::Stream", "structts_1_1_p_m_t_1_1_stream.html", null ],
+    [ "ts::T2MIHandlerInterface", "classts_1_1_t2_m_i_handler_interface.html", [
+      [ "ts::TSAnalyzer", "classts_1_1_t_s_analyzer.html", null ]
+    ] ],
+    [ "ts::T2MIPacket", "classts_1_1_t2_m_i_packet.html", null ],
     [ "ts::TableHandlerInterface", "classts_1_1_table_handler_interface.html", [
       [ "ts::AbstractDescrambler", "classts_1_1_abstract_descrambler.html", null ],
       [ "ts::CASMapper", "classts_1_1_c_a_s_mapper.html", null ],
       [ "ts::PSILogger", "classts_1_1_p_s_i_logger.html", null ],
       [ "ts::StandaloneTableDemux", "classts_1_1_standalone_table_demux.html", null ],
+      [ "ts::T2MIDemux", "classts_1_1_t2_m_i_demux.html", null ],
       [ "ts::TablesLogger", "classts_1_1_tables_logger.html", null ],
       [ "ts::TSAnalyzer", "classts_1_1_t_s_analyzer.html", null ],
       [ "ts::TSScanner", "classts_1_1_t_s_scanner.html", null ]
@@ -395,8 +414,8 @@ var hierarchy =
     [ "ts::TablesDisplayArgs", "classts_1_1_tables_display_args.html", null ],
     [ "ts::TablesFactory", "classts_1_1_tables_factory.html", null ],
     [ "ts::TablesLoggerArgs", "classts_1_1_tables_logger_args.html", null ],
-    [ "ts::emmgmux::Tags", "structts_1_1emmgmux_1_1_tags.html", null ],
     [ "ts::ecmgscs::Tags", "structts_1_1ecmgscs_1_1_tags.html", null ],
+    [ "ts::emmgmux::Tags", "structts_1_1emmgmux_1_1_tags.html", null ],
     [ "ts::TCPSocket", "classts_1_1_t_c_p_socket.html", [
       [ "ts::TCPConnection", "classts_1_1_t_c_p_connection.html", [
         [ "ts::tlv::Connection< ts::Mutex >", "classts_1_1tlv_1_1_connection.html", null ],
@@ -416,8 +435,8 @@ var hierarchy =
     [ "ts::ThreadAttributes", "classts_1_1_thread_attributes.html", null ],
     [ "ts::Time", "classts_1_1_time.html", null ],
     [ "ts::TLVSyntax", "classts_1_1_t_l_v_syntax.html", null ],
-    [ "ts::ecmgscs::Traits", "structts_1_1ecmgscs_1_1_traits.html", null ],
     [ "ts::emmgmux::Traits", "structts_1_1emmgmux_1_1_traits.html", null ],
+    [ "ts::ecmgscs::Traits", "structts_1_1ecmgscs_1_1_traits.html", null ],
     [ "ts::TransportStreamId", "structts_1_1_transport_stream_id.html", null ],
     [ "ts::TSFileInput", "classts_1_1_t_s_file_input.html", [
       [ "ts::TSFileInputBuffered", "classts_1_1_t_s_file_input_buffered.html", null ]
@@ -428,6 +447,9 @@ var hierarchy =
     [ "ts::TSPacket", "structts_1_1_t_s_packet.html", null ],
     [ "ts::Tuner", "classts_1_1_tuner.html", null ],
     [ "ts::TunerArgs", "classts_1_1_tuner_args.html", null ],
+    [ "u16string", null, [
+      [ "ts::UString", "classts_1_1_u_string.html", null ]
+    ] ],
     [ "ts::UDPSocket", "classts_1_1_u_d_p_socket.html", null ],
     [ "ts::UID", "classts_1_1_u_i_d.html", null ],
     [ "ts::Variable< T >", "classts_1_1_variable.html", null ],
@@ -447,6 +469,7 @@ var hierarchy =
     [ "ts::Variable< std::string >", "classts_1_1_variable.html", null ],
     [ "ts::Variable< TransmissionMode >", "classts_1_1_variable.html", null ],
     [ "ts::Variable< ts::LNB >", "classts_1_1_variable.html", null ],
+    [ "ts::Variable< ts::UString >", "classts_1_1_variable.html", null ],
     [ "ts::Variable< uint16_t >", "classts_1_1_variable.html", null ],
     [ "ts::Variable< uint32_t >", "classts_1_1_variable.html", null ],
     [ "ts::Variable< uint64_t >", "classts_1_1_variable.html", null ],

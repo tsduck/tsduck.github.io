@@ -34,7 +34,7 @@
  <tr style="height: 56px;">
   <td id="projectlogo"><img src="tsduck-32.png"/></td>
    <td id="projectalign"><span id="projectname">TSDuck</span>
-    <span id="projectnumber">Version 3.3</span>
+    <span id="projectnumber">Version 3.4</span>
     <span id="projectbrief">(TSDuck - The MPEG Transport Stream Toolkit)</span>
    </td>
    <td>        <div id="MSearchBox" class="MSearchBoxInactive">
@@ -109,6 +109,8 @@ $(document).ready(function(){initNavTree('classts_1_1_time.html','');});
 Collaboration diagram for ts::Time:</div>
 <div class="dyncontent">
 <div class="center"><img src="classts_1_1_time__coll__graph.png" border="0" usemap="#ts_1_1_time_coll__map" alt="Collaboration graph"/></div>
+<map name="ts_1_1_time_coll__map" id="ts_1_1_time_coll__map">
+</map>
 <center><span class="legend">[<a target="top" href="graph_legend.html">legend</a>]</span></center></div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="nested-classes"></a>
@@ -245,6 +247,9 @@ Static Public Member Functions</h2></td></tr>
 <tr class="memitem:a02cc8655318b777ae337d141eac9082b"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="classts_1_1_time.html">Time</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classts_1_1_time.html#a02cc8655318b777ae337d141eac9082b">CurrentUTC</a> ()</td></tr>
 <tr class="memdesc:a02cc8655318b777ae337d141eac9082b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Static method returning the current UTC time.  <a href="#a02cc8655318b777ae337d141eac9082b">More...</a><br /></td></tr>
 <tr class="separator:a02cc8655318b777ae337d141eac9082b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab0e5812b6a3d59c448ab64e947621644"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classts_1_1_time.html#ab0e5812b6a3d59c448ab64e947621644">GetUnixClock</a> (::timespec &amp;result, clockid_t clock, const <a class="el" href="namespacets.html#a2c690abc5d90fe5ba7c3ec0237afc348">MilliSecond</a> &amp;delay=0)</td></tr>
+<tr class="memdesc:ab0e5812b6a3d59c448ab64e947621644"><td class="mdescLeft">&#160;</td><td class="mdescRight">This static routine gets a system clock and adds a delay in milliseconds (UNIX systems only).  <a href="#ab0e5812b6a3d59c448ab64e947621644">More...</a><br /></td></tr>
+<tr class="separator:ab0e5812b6a3d59c448ab64e947621644"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a19dfcad5ac9e229d8823495f868b78f1"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="classts_1_1_time.html">Time</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classts_1_1_time.html#a19dfcad5ac9e229d8823495f868b78f1">NextHourLocalTime</a> ()</td></tr>
 <tr class="memdesc:a19dfcad5ac9e229d8823495f868b78f1"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the beginning of the next hour, local time.  <a href="#a19dfcad5ac9e229d8823495f868b78f1">More...</a><br /></td></tr>
 <tr class="separator:a19dfcad5ac9e229d8823495f868b78f1"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -293,12 +298,9 @@ Static Public Member Functions</h2></td></tr>
 <tr class="memitem:a125c1692630c437179f719d83d25513c"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="classts_1_1_time.html">Time</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classts_1_1_time.html#a125c1692630c437179f719d83d25513c">TomorrowUTC</a> ()</td></tr>
 <tr class="memdesc:a125c1692630c437179f719d83d25513c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the beginning of the next day, UTC.  <a href="#a125c1692630c437179f719d83d25513c">More...</a><br /></td></tr>
 <tr class="separator:a125c1692630c437179f719d83d25513c"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a62def7e4f6dd4e01f45b82a9ad2c4535"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classts_1_1_time.html#a62def7e4f6dd4e01f45b82a9ad2c4535">UnixRealTimeClock</a> (::timespec &amp;result, const <a class="el" href="namespacets.html#a2c690abc5d90fe5ba7c3ec0237afc348">MilliSecond</a> &amp;delay=0)</td></tr>
-<tr class="memdesc:a62def7e4f6dd4e01f45b82a9ad2c4535"><td class="mdescLeft">&#160;</td><td class="mdescRight">This static routine gets the current real time clock and adds a delay in milliseconds (UNIX systems only).  <a href="#a62def7e4f6dd4e01f45b82a9ad2c4535">More...</a><br /></td></tr>
-<tr class="separator:a62def7e4f6dd4e01f45b82a9ad2c4535"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ad789e1ea8e7265bdb53f48d998a4fbfe"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="namespacets.html#acd890ba84c12ced734201afae32a3e95">NanoSecond</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classts_1_1_time.html#ad789e1ea8e7265bdb53f48d998a4fbfe">UnixRealTimeClockNanoSeconds</a> (const <a class="el" href="namespacets.html#a2c690abc5d90fe5ba7c3ec0237afc348">MilliSecond</a> &amp;delay=0)</td></tr>
-<tr class="memdesc:ad789e1ea8e7265bdb53f48d998a4fbfe"><td class="mdescLeft">&#160;</td><td class="mdescRight">This static routine gets the current real time clock and adds a delay in milliseconds (UNIX systems only).  <a href="#ad789e1ea8e7265bdb53f48d998a4fbfe">More...</a><br /></td></tr>
-<tr class="separator:ad789e1ea8e7265bdb53f48d998a4fbfe"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac3b1dafdfe8ec80e5b30ae31ef92d46a"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="namespacets.html#acd890ba84c12ced734201afae32a3e95">NanoSecond</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classts_1_1_time.html#ac3b1dafdfe8ec80e5b30ae31ef92d46a">UnixClockNanoSeconds</a> (clockid_t clock, const <a class="el" href="namespacets.html#a2c690abc5d90fe5ba7c3ec0237afc348">MilliSecond</a> &amp;delay=0)</td></tr>
+<tr class="memdesc:ac3b1dafdfe8ec80e5b30ae31ef92d46a"><td class="mdescLeft">&#160;</td><td class="mdescRight">This static routine gets a system clock and adds a delay in milliseconds (UNIX systems only).  <a href="#ac3b1dafdfe8ec80e5b30ae31ef92d46a">More...</a><br /></td></tr>
+<tr class="separator:ac3b1dafdfe8ec80e5b30ae31ef92d46a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ab24b5d828b8a81673a40a9883042ae10"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="classts_1_1_time.html">Time</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classts_1_1_time.html#ab24b5d828b8a81673a40a9883042ae10">UnixTimeToUTC</a> (const uint32_t unixTime)</td></tr>
 <tr class="memdesc:ab24b5d828b8a81673a40a9883042ae10"><td class="mdescLeft">&#160;</td><td class="mdescRight">This static routine converts a UNIX <code>time_t</code> to a UTC time.  <a href="#ab24b5d828b8a81673a40a9883042ae10">More...</a><br /></td></tr>
 <tr class="separator:ab24b5d828b8a81673a40a9883042ae10"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -2049,8 +2051,8 @@ static const <a class="el" href="classts_1_1_time.html">Time</a>&#160;</td><td c
 
 </div>
 </div>
-<a id="ad789e1ea8e7265bdb53f48d998a4fbfe"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ad789e1ea8e7265bdb53f48d998a4fbfe">&#9670;&nbsp;</a></span>UnixRealTimeClockNanoSeconds()</h2>
+<a id="ac3b1dafdfe8ec80e5b30ae31ef92d46a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac3b1dafdfe8ec80e5b30ae31ef92d46a">&#9670;&nbsp;</a></span>UnixClockNanoSeconds()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -2059,46 +2061,10 @@ static const <a class="el" href="classts_1_1_time.html">Time</a>&#160;</td><td c
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">static <a class="el" href="namespacets.html#acd890ba84c12ced734201afae32a3e95">NanoSecond</a> ts::Time::UnixRealTimeClockNanoSeconds </td>
+          <td class="memname">static <a class="el" href="namespacets.html#acd890ba84c12ced734201afae32a3e95">NanoSecond</a> ts::Time::UnixClockNanoSeconds </td>
           <td>(</td>
-          <td class="paramtype">const <a class="el" href="namespacets.html#a2c690abc5d90fe5ba7c3ec0237afc348">MilliSecond</a> &amp;&#160;</td>
-          <td class="paramname"><em>delay</em> = <code>0</code></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">static</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>This static routine gets the current real time clock and adds a delay in milliseconds (UNIX systems only). </p>
-<p>This function ensures that no overflow is possible. This function is available on UNIX systems only and should not be used on portable software.</p>
-<dl class="params"><dt>Parameters</dt><dd>
-  <table class="params">
-    <tr><td class="paramdir">[in]</td><td class="paramname">delay</td><td>Number of milliseconds to add to the current real time clock. </td></tr>
-  </table>
-  </dd>
-</dl>
-<dl class="section return"><dt>Returns</dt><dd>Absolute time in nanoseconds. </dd></dl>
-
-</div>
-</div>
-<a id="a62def7e4f6dd4e01f45b82a9ad2c4535"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a62def7e4f6dd4e01f45b82a9ad2c4535">&#9670;&nbsp;</a></span>UnixRealTimeClock()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">static void ts::Time::UnixRealTimeClock </td>
-          <td>(</td>
-          <td class="paramtype">::timespec &amp;&#160;</td>
-          <td class="paramname"><em>result</em>, </td>
+          <td class="paramtype">clockid_t&#160;</td>
+          <td class="paramname"><em>clock</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
@@ -2119,11 +2085,65 @@ static const <a class="el" href="classts_1_1_time.html">Time</a>&#160;</td><td c
 </table>
 </div><div class="memdoc">
 
-<p>This static routine gets the current real time clock and adds a delay in milliseconds (UNIX systems only). </p>
+<p>This static routine gets a system clock and adds a delay in milliseconds (UNIX systems only). </p>
+<p>This function ensures that no overflow is possible. This function is available on UNIX systems only and should not be used on portable software.</p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">clock</td><td>Clock id, usually <code>CLOCK_REALTIME</code> or <code>CLOCK_MONOTONIC</code>. </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">delay</td><td>Number of milliseconds to add to the current clock. </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>Absolute time in nanoseconds according to <em>clock</em>. </dd></dl>
+
+</div>
+</div>
+<a id="ab0e5812b6a3d59c448ab64e947621644"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab0e5812b6a3d59c448ab64e947621644">&#9670;&nbsp;</a></span>GetUnixClock()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static void ts::Time::GetUnixClock </td>
+          <td>(</td>
+          <td class="paramtype">::timespec &amp;&#160;</td>
+          <td class="paramname"><em>result</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">clockid_t&#160;</td>
+          <td class="paramname"><em>clock</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="namespacets.html#a2c690abc5d90fe5ba7c3ec0237afc348">MilliSecond</a> &amp;&#160;</td>
+          <td class="paramname"><em>delay</em> = <code>0</code>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>This static routine gets a system clock and adds a delay in milliseconds (UNIX systems only). </p>
 <p>This function ensures that no overflow is possible. This function is available on UNIX systems only and should not be used on portable software.</p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramdir">[out]</td><td class="paramname">result</td><td>A returned UNIX <code>timespec</code> value. </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">clock</td><td>Clock id, usually <code>CLOCK_REALTIME</code> or <code>CLOCK_MONOTONIC</code>. </td></tr>
     <tr><td class="paramdir">[in]</td><td class="paramname">delay</td><td>Number of milliseconds to add to the current real time clock. </td></tr>
   </table>
   </dd>

@@ -6,5 +6,5 @@ var structts_1_1_teletext_descriptor_1_1_entry =
     [ "magazineNumber", "structts_1_1_teletext_descriptor_1_1_entry.html#abbbbce1483db05bdaf7773e37a2573f0", null ],
     [ "teletext_type", "structts_1_1_teletext_descriptor_1_1_entry.html#aca4fbe5697899473c562761de041d80b", null ],
     [ "page_number", "structts_1_1_teletext_descriptor_1_1_entry.html#abe3e7a18884d717b194d9fb23e4a1187", null ],
-    [ "language_code", "structts_1_1_teletext_descriptor_1_1_entry.html#a79fc365c1ab78935c6a6c7f83a127610", null ]
+    [ "language_code", "structts_1_1_teletext_descriptor_1_1_entry.html#a5449512b8d9aeb9dd0d59a9d34e4321b", null ]
 ];

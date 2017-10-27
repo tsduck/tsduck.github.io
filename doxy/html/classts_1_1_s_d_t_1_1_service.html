@@ -34,7 +34,7 @@
  <tr style="height: 56px;">
   <td id="projectlogo"><img src="tsduck-32.png"/></td>
    <td id="projectalign"><span id="projectname">TSDuck</span>
-    <span id="projectnumber">Version 3.3</span>
+    <span id="projectnumber">Version 3.4</span>
     <span id="projectbrief">(TSDuck - The MPEG Transport Stream Toolkit)</span>
    </td>
    <td>        <div id="MSearchBox" class="MSearchBoxInactive">
@@ -117,21 +117,24 @@ Public Member Functions</h2></td></tr>
 &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classts_1_1_s_d_t_1_1_service.html#ad88e035bead0da7d15b5f9d600a67c37">Service</a> ()</td></tr>
 <tr class="memdesc:ad88e035bead0da7d15b5f9d600a67c37"><td class="mdescLeft">&#160;</td><td class="mdescRight">Default constructor: <br /></td></tr>
 <tr class="separator:ad88e035bead0da7d15b5f9d600a67c37"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a1d7ce014c863fa51243d3de3b6387b27"><td class="memItemLeft" align="right" valign="top">std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classts_1_1_s_d_t_1_1_service.html#a1d7ce014c863fa51243d3de3b6387b27">providerName</a> () const</td></tr>
-<tr class="memdesc:a1d7ce014c863fa51243d3de3b6387b27"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the provider name.  <a href="#a1d7ce014c863fa51243d3de3b6387b27">More...</a><br /></td></tr>
-<tr class="separator:a1d7ce014c863fa51243d3de3b6387b27"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a96c3e3588d6be8a582fa630f5122d2f9"><td class="memItemLeft" align="right" valign="top">std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classts_1_1_s_d_t_1_1_service.html#a96c3e3588d6be8a582fa630f5122d2f9">serviceName</a> () const</td></tr>
-<tr class="memdesc:a96c3e3588d6be8a582fa630f5122d2f9"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the service name.  <a href="#a96c3e3588d6be8a582fa630f5122d2f9">More...</a><br /></td></tr>
-<tr class="separator:a96c3e3588d6be8a582fa630f5122d2f9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac8537fb7527267af514e59f775228f8e"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classts_1_1_s_d_t_1_1_service.html#ac8537fb7527267af514e59f775228f8e">locateServiceDescriptor</a> (<a class="el" href="classts_1_1_service_descriptor.html">ServiceDescriptor</a> &amp;desc, const <a class="el" href="classts_1_1_d_v_b_charset.html">DVBCharset</a> *charset=0) const</td></tr>
+<tr class="memdesc:ac8537fb7527267af514e59f775228f8e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Locate and deserialize the first DVB service_descriptor inside the entry.  <a href="#ac8537fb7527267af514e59f775228f8e">More...</a><br /></td></tr>
+<tr class="separator:ac8537fb7527267af514e59f775228f8e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac735d4d99d3dc53dbbb75d86266db202"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classts_1_1_u_string.html">UString</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classts_1_1_s_d_t_1_1_service.html#ac735d4d99d3dc53dbbb75d86266db202">providerName</a> (const <a class="el" href="classts_1_1_d_v_b_charset.html">DVBCharset</a> *charset=0) const</td></tr>
+<tr class="memdesc:ac735d4d99d3dc53dbbb75d86266db202"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the provider name.  <a href="#ac735d4d99d3dc53dbbb75d86266db202">More...</a><br /></td></tr>
+<tr class="separator:ac735d4d99d3dc53dbbb75d86266db202"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a87ae755a084005977bbe314405750603"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classts_1_1_u_string.html">UString</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classts_1_1_s_d_t_1_1_service.html#a87ae755a084005977bbe314405750603">serviceName</a> (const <a class="el" href="classts_1_1_d_v_b_charset.html">DVBCharset</a> *charset=0) const</td></tr>
+<tr class="memdesc:a87ae755a084005977bbe314405750603"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the service name.  <a href="#a87ae755a084005977bbe314405750603">More...</a><br /></td></tr>
+<tr class="separator:a87ae755a084005977bbe314405750603"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a44681cd32711da410d547bcc4a4664f5"><td class="memItemLeft" align="right" valign="top">uint8_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classts_1_1_s_d_t_1_1_service.html#a44681cd32711da410d547bcc4a4664f5">serviceType</a> () const</td></tr>
 <tr class="memdesc:a44681cd32711da410d547bcc4a4664f5"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the service type.  <a href="#a44681cd32711da410d547bcc4a4664f5">More...</a><br /></td></tr>
 <tr class="separator:a44681cd32711da410d547bcc4a4664f5"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a9f8e643f8263d4c038c6c4ec49389041"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classts_1_1_s_d_t_1_1_service.html#a9f8e643f8263d4c038c6c4ec49389041">setName</a> (const std::string &amp;name, uint8_t service_type=1)</td></tr>
-<tr class="memdesc:a9f8e643f8263d4c038c6c4ec49389041"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set the service name.  <a href="#a9f8e643f8263d4c038c6c4ec49389041">More...</a><br /></td></tr>
-<tr class="separator:a9f8e643f8263d4c038c6c4ec49389041"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a097e68fdf6bc1b87790ad6a4e396f911"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classts_1_1_s_d_t_1_1_service.html#a097e68fdf6bc1b87790ad6a4e396f911">setProvider</a> (const std::string &amp;provider, uint8_t service_type=1)</td></tr>
-<tr class="memdesc:a097e68fdf6bc1b87790ad6a4e396f911"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set the provider name.  <a href="#a097e68fdf6bc1b87790ad6a4e396f911">More...</a><br /></td></tr>
-<tr class="separator:a097e68fdf6bc1b87790ad6a4e396f911"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6bf30a1108166633d86420ca1ffb0a2f"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classts_1_1_s_d_t_1_1_service.html#a6bf30a1108166633d86420ca1ffb0a2f">setName</a> (const <a class="el" href="classts_1_1_u_string.html">UString</a> &amp;name, uint8_t service_type=1, const <a class="el" href="classts_1_1_d_v_b_charset.html">DVBCharset</a> *charset=0)</td></tr>
+<tr class="memdesc:a6bf30a1108166633d86420ca1ffb0a2f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set the service name.  <a href="#a6bf30a1108166633d86420ca1ffb0a2f">More...</a><br /></td></tr>
+<tr class="separator:a6bf30a1108166633d86420ca1ffb0a2f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad7763da43e3d8e9d32501088030c7ec3"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classts_1_1_s_d_t_1_1_service.html#ad7763da43e3d8e9d32501088030c7ec3">setProvider</a> (const <a class="el" href="classts_1_1_u_string.html">UString</a> &amp;provider, uint8_t service_type=1, const <a class="el" href="classts_1_1_d_v_b_charset.html">DVBCharset</a> *charset=0)</td></tr>
+<tr class="memdesc:ad7763da43e3d8e9d32501088030c7ec3"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set the provider name.  <a href="#ad7763da43e3d8e9d32501088030c7ec3">More...</a><br /></td></tr>
+<tr class="separator:ad7763da43e3d8e9d32501088030c7ec3"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a91e5af0913980baf385c897dd2febd4b"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classts_1_1_s_d_t_1_1_service.html#a91e5af0913980baf385c897dd2febd4b">setType</a> (uint8_t service_type)</td></tr>
 <tr class="memdesc:a91e5af0913980baf385c897dd2febd4b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set the service type.  <a href="#a91e5af0913980baf385c897dd2febd4b">More...</a><br /></td></tr>
 <tr class="separator:a91e5af0913980baf385c897dd2febd4b"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -182,63 +185,86 @@ uint8_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="c
 
 </div>
 </div>
-<a id="a96c3e3588d6be8a582fa630f5122d2f9"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a96c3e3588d6be8a582fa630f5122d2f9">&#9670;&nbsp;</a></span>serviceName()</h2>
+<a id="a87ae755a084005977bbe314405750603"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a87ae755a084005977bbe314405750603">&#9670;&nbsp;</a></span>serviceName()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">std::string ts::SDT::Service::serviceName </td>
+          <td class="memname"><a class="el" href="classts_1_1_u_string.html">UString</a> ts::SDT::Service::serviceName </td>
           <td>(</td>
-          <td class="paramname"></td><td>)</td>
+          <td class="paramtype">const <a class="el" href="classts_1_1_d_v_b_charset.html">DVBCharset</a> *&#160;</td>
+          <td class="paramname"><em>charset</em> = <code>0</code></td><td>)</td>
           <td> const</td>
         </tr>
       </table>
 </div><div class="memdoc">
 
 <p>Get the service name. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">charset</td><td>If not zero, character set to use without explicit table code. </td></tr>
+  </table>
+  </dd>
+</dl>
 <dl class="section return"><dt>Returns</dt><dd>The service name, as found from the first DVB "service descriptor", if there is one in the list. </dd></dl>
 
 </div>
 </div>
-<a id="a1d7ce014c863fa51243d3de3b6387b27"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a1d7ce014c863fa51243d3de3b6387b27">&#9670;&nbsp;</a></span>providerName()</h2>
+<a id="ac735d4d99d3dc53dbbb75d86266db202"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac735d4d99d3dc53dbbb75d86266db202">&#9670;&nbsp;</a></span>providerName()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">std::string ts::SDT::Service::providerName </td>
+          <td class="memname"><a class="el" href="classts_1_1_u_string.html">UString</a> ts::SDT::Service::providerName </td>
           <td>(</td>
-          <td class="paramname"></td><td>)</td>
+          <td class="paramtype">const <a class="el" href="classts_1_1_d_v_b_charset.html">DVBCharset</a> *&#160;</td>
+          <td class="paramname"><em>charset</em> = <code>0</code></td><td>)</td>
           <td> const</td>
         </tr>
       </table>
 </div><div class="memdoc">
 
 <p>Get the provider name. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">charset</td><td>If not zero, character set to use without explicit table code. </td></tr>
+  </table>
+  </dd>
+</dl>
 <dl class="section return"><dt>Returns</dt><dd>The provider name, as found from the first DVB "service descriptor", if there is one in the list. </dd></dl>
 
 </div>
 </div>
-<a id="a9f8e643f8263d4c038c6c4ec49389041"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a9f8e643f8263d4c038c6c4ec49389041">&#9670;&nbsp;</a></span>setName()</h2>
+<a id="a6bf30a1108166633d86420ca1ffb0a2f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6bf30a1108166633d86420ca1ffb0a2f">&#9670;&nbsp;</a></span>setName()</h2>
 
 <div class="memitem">
 <div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
       <table class="memname">
         <tr>
           <td class="memname">void ts::SDT::Service::setName </td>
           <td>(</td>
-          <td class="paramtype">const std::string &amp;&#160;</td>
+          <td class="paramtype">const <a class="el" href="classts_1_1_u_string.html">UString</a> &amp;&#160;</td>
           <td class="paramname"><em>name</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
           <td class="paramtype">uint8_t&#160;</td>
-          <td class="paramname"><em>service_type</em> = <code>1</code>&#160;</td>
+          <td class="paramname"><em>service_type</em> = <code>1</code>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="classts_1_1_d_v_b_charset.html">DVBCharset</a> *&#160;</td>
+          <td class="paramname"><em>charset</em> = <code>0</code>&#160;</td>
         </tr>
         <tr>
           <td></td>
@@ -246,6 +272,11 @@ uint8_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="c
           <td></td><td></td>
         </tr>
       </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
 </div><div class="memdoc">
 
 <p>Set the service name. </p>
@@ -254,29 +285,39 @@ uint8_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="c
   <table class="params">
     <tr><td class="paramdir">[in]</td><td class="paramname">name</td><td>New service name. </td></tr>
     <tr><td class="paramdir">[in]</td><td class="paramname">service_type</td><td>If there is no service_descriptor, a new one is added with the specified <em>service</em> type. The default service_type is 1, ie. "digital television service". Ignored if a service_descriptor already exists. </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">charset</td><td>If not zero, character set to use for decoding without explicit table code and preferred character set for DVB encoding. </td></tr>
   </table>
   </dd>
 </dl>
 
 </div>
 </div>
-<a id="a097e68fdf6bc1b87790ad6a4e396f911"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a097e68fdf6bc1b87790ad6a4e396f911">&#9670;&nbsp;</a></span>setProvider()</h2>
+<a id="ad7763da43e3d8e9d32501088030c7ec3"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad7763da43e3d8e9d32501088030c7ec3">&#9670;&nbsp;</a></span>setProvider()</h2>
 
 <div class="memitem">
 <div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
       <table class="memname">
         <tr>
           <td class="memname">void ts::SDT::Service::setProvider </td>
           <td>(</td>
-          <td class="paramtype">const std::string &amp;&#160;</td>
+          <td class="paramtype">const <a class="el" href="classts_1_1_u_string.html">UString</a> &amp;&#160;</td>
           <td class="paramname"><em>provider</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
           <td class="paramtype">uint8_t&#160;</td>
-          <td class="paramname"><em>service_type</em> = <code>1</code>&#160;</td>
+          <td class="paramname"><em>service_type</em> = <code>1</code>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="classts_1_1_d_v_b_charset.html">DVBCharset</a> *&#160;</td>
+          <td class="paramname"><em>charset</em> = <code>0</code>&#160;</td>
         </tr>
         <tr>
           <td></td>
@@ -284,6 +325,11 @@ uint8_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="c
           <td></td><td></td>
         </tr>
       </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
 </div><div class="memdoc">
 
 <p>Set the provider name. </p>
@@ -292,6 +338,7 @@ uint8_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="c
   <table class="params">
     <tr><td class="paramdir">[in]</td><td class="paramname">provider</td><td>New provider name. </td></tr>
     <tr><td class="paramdir">[in]</td><td class="paramname">service_type</td><td>If there is no service_descriptor, a new one is added with the specified <em>service</em> type. The default service_type is 1, ie. "digital television service". Ignored if a service_descriptor already exists. </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">charset</td><td>If not zero, character set to use for decoding without explicit table code and preferred character set for DVB encoding. </td></tr>
   </table>
   </dd>
 </dl>
@@ -322,6 +369,44 @@ uint8_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="c
   </table>
   </dd>
 </dl>
+
+</div>
+</div>
+<a id="ac8537fb7527267af514e59f775228f8e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac8537fb7527267af514e59f775228f8e">&#9670;&nbsp;</a></span>locateServiceDescriptor()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool ts::SDT::Service::locateServiceDescriptor </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classts_1_1_service_descriptor.html">ServiceDescriptor</a> &amp;&#160;</td>
+          <td class="paramname"><em>desc</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="classts_1_1_d_v_b_charset.html">DVBCharset</a> *&#160;</td>
+          <td class="paramname"><em>charset</em> = <code>0</code>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Locate and deserialize the first DVB service_descriptor inside the entry. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[out]</td><td class="paramname">desc</td><td>Returned content of the service descriptor. </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">charset</td><td>If not zero, character set to use without explicit table code. </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>True if found and valid, false otherwise. </dd></dl>
 
 </div>
 </div>

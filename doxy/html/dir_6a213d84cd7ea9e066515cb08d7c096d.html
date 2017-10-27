@@ -34,7 +34,7 @@
  <tr style="height: 56px;">
   <td id="projectlogo"><img src="tsduck-32.png"/></td>
    <td id="projectalign"><span id="projectname">TSDuck</span>
-    <span id="projectnumber">Version 3.3</span>
+    <span id="projectnumber">Version 3.4</span>
     <span id="projectbrief">(TSDuck - The MPEG Transport Stream Toolkit)</span>
    </td>
    <td>        <div id="MSearchBox" class="MSearchBoxInactive">
@@ -138,6 +138,9 @@ Files</h2></td></tr>
 <tr class="memitem:ts_abstract_delivery_system_descriptor_8h"><td class="memItemLeft" align="right" valign="top">file &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="ts_abstract_delivery_system_descriptor_8h.html">tsAbstractDeliverySystemDescriptor.h</a></td></tr>
 <tr class="memdesc:ts_abstract_delivery_system_descriptor_8h"><td class="mdescLeft">&#160;</td><td class="mdescRight">Abstract base class for DVB delivery system descriptors. <br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ts_abstract_demux_8h"><td class="memItemLeft" align="right" valign="top">file &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="ts_abstract_demux_8h.html">tsAbstractDemux.h</a></td></tr>
+<tr class="memdesc:ts_abstract_demux_8h"><td class="mdescLeft">&#160;</td><td class="mdescRight">Abstract base class for all sorts of demux from TS packets. <br /></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ts_abstract_descrambler_8h"><td class="memItemLeft" align="right" valign="top">file &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="ts_abstract_descrambler_8h.html">tsAbstractDescrambler.h</a></td></tr>
 <tr class="memdesc:ts_abstract_descrambler_8h"><td class="mdescLeft">&#160;</td><td class="mdescRight">Abstract base class for DVB descrambler plugins. <br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -149,6 +152,9 @@ Files</h2></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ts_abstract_long_table_8h"><td class="memItemLeft" align="right" valign="top">file &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="ts_abstract_long_table_8h.html">tsAbstractLongTable.h</a></td></tr>
 <tr class="memdesc:ts_abstract_long_table_8h"><td class="mdescLeft">&#160;</td><td class="mdescRight">Abstract base class for MPEG PSI/SI tables with long sections. <br /></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ts_abstract_signalization_8h"><td class="memItemLeft" align="right" valign="top">file &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="ts_abstract_signalization_8h.html">tsAbstractSignalization.h</a></td></tr>
+<tr class="memdesc:ts_abstract_signalization_8h"><td class="mdescLeft">&#160;</td><td class="mdescRight">Abstract base class for MPEG PSI/SI tables and descriptors. <br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ts_abstract_table_8h"><td class="memItemLeft" align="right" valign="top">file &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="ts_abstract_table_8h.html">tsAbstractTable.h</a></td></tr>
 <tr class="memdesc:ts_abstract_table_8h"><td class="mdescLeft">&#160;</td><td class="mdescRight">Abstract base class for MPEG PSI/SI tables. <br /></td></tr>
@@ -264,12 +270,6 @@ Files</h2></td></tr>
 <tr class="memitem:ts_condition_8h"><td class="memItemLeft" align="right" valign="top">file &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="ts_condition_8h.html">tsCondition.h</a></td></tr>
 <tr class="memdesc:ts_condition_8h"><td class="mdescLeft">&#160;</td><td class="mdescRight">Declare the <a class="el" href="classts_1_1_condition.html" title="Implementation of the synchronization condition design pattern. ">ts::Condition</a> class. <br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ts_config_file_8h"><td class="memItemLeft" align="right" valign="top">file &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="ts_config_file_8h.html">tsConfigFile.h</a></td></tr>
-<tr class="memdesc:ts_config_file_8h"><td class="mdescLeft">&#160;</td><td class="mdescRight">Configuration files management. <br /></td></tr>
-<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ts_config_section_8h"><td class="memItemLeft" align="right" valign="top">file &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="ts_config_section_8h.html">tsConfigSection.h</a></td></tr>
-<tr class="memdesc:ts_config_section_8h"><td class="mdescLeft">&#160;</td><td class="mdescRight">Representation of a "configuration section". <br /></td></tr>
-<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ts_content_descriptor_8h"><td class="memItemLeft" align="right" valign="top">file &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="ts_content_descriptor_8h.html">tsContentDescriptor.h</a></td></tr>
 <tr class="memdesc:ts_content_descriptor_8h"><td class="mdescLeft">&#160;</td><td class="mdescRight">Representation of a content_descriptor. <br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -329,6 +329,18 @@ Files</h2></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ts_d_t_s_descriptor_8h"><td class="memItemLeft" align="right" valign="top">file &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="ts_d_t_s_descriptor_8h.html">tsDTSDescriptor.h</a></td></tr>
 <tr class="memdesc:ts_d_t_s_descriptor_8h"><td class="mdescLeft">&#160;</td><td class="mdescRight">Representation of a DTS_descriptor. <br /></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ts_d_v_b_charset_8h"><td class="memItemLeft" align="right" valign="top">file &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="ts_d_v_b_charset_8h.html">tsDVBCharset.h</a></td></tr>
+<tr class="memdesc:ts_d_v_b_charset_8h"><td class="mdescLeft">&#160;</td><td class="mdescRight">Declaration of abstract class DVBCharset. <br /></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ts_d_v_b_charset_single_byte_8h"><td class="memItemLeft" align="right" valign="top">file &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="ts_d_v_b_charset_single_byte_8h.html">tsDVBCharsetSingleByte.h</a></td></tr>
+<tr class="memdesc:ts_d_v_b_charset_single_byte_8h"><td class="mdescLeft">&#160;</td><td class="mdescRight">Declaration of class DVBCharsetSingleByte. <br /></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ts_d_v_b_charset_u_t_f16_8h"><td class="memItemLeft" align="right" valign="top">file &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="ts_d_v_b_charset_u_t_f16_8h.html">tsDVBCharsetUTF16.h</a></td></tr>
+<tr class="memdesc:ts_d_v_b_charset_u_t_f16_8h"><td class="mdescLeft">&#160;</td><td class="mdescRight">Declaration of class DVBCharsetUTF16. <br /></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ts_d_v_b_charset_u_t_f8_8h"><td class="memItemLeft" align="right" valign="top">file &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="ts_d_v_b_charset_u_t_f8_8h.html">tsDVBCharsetUTF8.h</a></td></tr>
+<tr class="memdesc:ts_d_v_b_charset_u_t_f8_8h"><td class="mdescLeft">&#160;</td><td class="mdescRight">Declaration of class DVBCharsetUTF8. <br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ts_d_v_s042_8h"><td class="memItemLeft" align="right" valign="top">file &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="ts_d_v_s042_8h.html">tsDVS042.h</a></td></tr>
 <tr class="memdesc:ts_d_v_s042_8h"><td class="mdescLeft">&#160;</td><td class="mdescRight">DVS 042 cipher block chaining mode. <br /></td></tr>
@@ -392,9 +404,6 @@ Files</h2></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ts_format_8h"><td class="memItemLeft" align="right" valign="top">file &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="ts_format_8h.html">tsFormat.h</a></td></tr>
 <tr class="memdesc:ts_format_8h"><td class="mdescLeft">&#160;</td><td class="mdescRight">Build a string using printf-like format. <br /></td></tr>
-<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ts_gen_tab_plugin_8h"><td class="memItemLeft" align="right" valign="top">file &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="ts_gen_tab_plugin_8h.html">tsGenTabPlugin.h</a></td></tr>
-<tr class="memdesc:ts_gen_tab_plugin_8h"><td class="mdescLeft">&#160;</td><td class="mdescRight">Definition of the API of a tsgentab plugin. <br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ts_guard_8h"><td class="memItemLeft" align="right" valign="top">file &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="ts_guard_8h.html">tsGuard.h</a></td></tr>
 <tr class="memdesc:ts_guard_8h"><td class="mdescLeft">&#160;</td><td class="mdescRight">Automatic guard class for mutex (<a class="el" href="classts_1_1_mutex_interface.html" title="Interface class for mutex objects. ">ts::MutexInterface</a>). <br /></td></tr>
@@ -475,7 +484,7 @@ Files</h2></td></tr>
 <tr class="memdesc:ts_mutex_interface_8h"><td class="mdescLeft">&#160;</td><td class="mdescRight">Interface class for mutex objects. <br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ts_names_8h"><td class="memItemLeft" align="right" valign="top">file &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="ts_names_8h.html">tsNames.h</a></td></tr>
-<tr class="memdesc:ts_names_8h"><td class="mdescLeft">&#160;</td><td class="mdescRight">Names of various MPEG entities (namespace <a class="el" href="namespacets_1_1names.html" title="Namespace for functions returning MPEG/DVB names. ">ts::names</a>) <br /></td></tr>
+<tr class="memdesc:ts_names_8h"><td class="mdescLeft">&#160;</td><td class="mdescRight">Names of various MPEG entities. <br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ts_network_name_descriptor_8h"><td class="memItemLeft" align="right" valign="top">file &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="ts_network_name_descriptor_8h.html">tsNetworkNameDescriptor.h</a></td></tr>
 <tr class="memdesc:ts_network_name_descriptor_8h"><td class="mdescLeft">&#160;</td><td class="mdescRight">Representation of a network_name_descriptor. <br /></td></tr>
@@ -654,6 +663,9 @@ Files</h2></td></tr>
 <tr class="memitem:ts_static_instance_8h"><td class="memItemLeft" align="right" valign="top">file &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="ts_static_instance_8h.html">tsStaticInstance.h</a></td></tr>
 <tr class="memdesc:ts_static_instance_8h"><td class="mdescLeft">&#160;</td><td class="mdescRight">Declare the initialization-order-safe macros for static object instances. <br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ts_static_references_d_v_b_8h"><td class="memItemLeft" align="right" valign="top">file &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="ts_static_references_d_v_b_8h.html">tsStaticReferencesDVB.h</a></td></tr>
+<tr class="memdesc:ts_static_references_d_v_b_8h"><td class="mdescLeft">&#160;</td><td class="mdescRight">Artificial references to all DVB items, for use with static library. <br /></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ts_s_t_d_descriptor_8h"><td class="memItemLeft" align="right" valign="top">file &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="ts_s_t_d_descriptor_8h.html">tsSTDDescriptor.h</a></td></tr>
 <tr class="memdesc:ts_s_t_d_descriptor_8h"><td class="mdescLeft">&#160;</td><td class="mdescRight">Representation of an STD_descriptor. <br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -677,6 +689,18 @@ Files</h2></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ts_sys_utils_8h"><td class="memItemLeft" align="right" valign="top">file &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="ts_sys_utils_8h.html">tsSysUtils.h</a></td></tr>
 <tr class="memdesc:ts_sys_utils_8h"><td class="mdescLeft">&#160;</td><td class="mdescRight">Various system utilities. <br /></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ts_t2_m_i_demux_8h"><td class="memItemLeft" align="right" valign="top">file &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="ts_t2_m_i_demux_8h.html">tsT2MIDemux.h</a></td></tr>
+<tr class="memdesc:ts_t2_m_i_demux_8h"><td class="mdescLeft">&#160;</td><td class="mdescRight">This class analyzes T2-MI from TS packets. <br /></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ts_t2_m_i_descriptor_8h"><td class="memItemLeft" align="right" valign="top">file &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="ts_t2_m_i_descriptor_8h.html">tsT2MIDescriptor.h</a></td></tr>
+<tr class="memdesc:ts_t2_m_i_descriptor_8h"><td class="mdescLeft">&#160;</td><td class="mdescRight">Representation of a T2MI_descriptor. <br /></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ts_t2_m_i_handler_interface_8h"><td class="memItemLeft" align="right" valign="top">file &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="ts_t2_m_i_handler_interface_8h.html">tsT2MIHandlerInterface.h</a></td></tr>
+<tr class="memdesc:ts_t2_m_i_handler_interface_8h"><td class="mdescLeft">&#160;</td><td class="mdescRight">T2-MI demux handler interface. <br /></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ts_t2_m_i_packet_8h"><td class="memItemLeft" align="right" valign="top">file &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="ts_t2_m_i_packet_8h.html">tsT2MIPacket.h</a></td></tr>
+<tr class="memdesc:ts_t2_m_i_packet_8h"><td class="mdescLeft">&#160;</td><td class="mdescRight">Representation of DVB T2-MI (DVB-T2 Modulator Interface) packets. <br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ts_table_handler_interface_8h"><td class="memItemLeft" align="right" valign="top">file &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="ts_table_handler_interface_8h.html">tsTableHandlerInterface.h</a></td></tr>
 <tr class="memdesc:ts_table_handler_interface_8h"><td class="mdescLeft">&#160;</td><td class="mdescRight">Table handler interface. <br /></td></tr>
@@ -831,17 +855,20 @@ Files</h2></td></tr>
 <tr class="memitem:ts_tuner_utils_8h"><td class="memItemLeft" align="right" valign="top">file &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="ts_tuner_utils_8h.html">tsTunerUtils.h</a></td></tr>
 <tr class="memdesc:ts_tuner_utils_8h"><td class="mdescLeft">&#160;</td><td class="mdescRight">Some utilities for DVB tuners. <br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ts_u_char_8h"><td class="memItemLeft" align="right" valign="top">file &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="ts_u_char_8h.html">tsUChar.h</a></td></tr>
+<tr class="memdesc:ts_u_char_8h"><td class="mdescLeft">&#160;</td><td class="mdescRight">Unicode characters. <br /></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ts_u_d_p_socket_8h"><td class="memItemLeft" align="right" valign="top">file &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="ts_u_d_p_socket_8h.html">tsUDPSocket.h</a></td></tr>
 <tr class="memdesc:ts_u_d_p_socket_8h"><td class="mdescLeft">&#160;</td><td class="mdescRight">UDP Socket. <br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ts_u_i_d_8h"><td class="memItemLeft" align="right" valign="top">file &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="ts_u_i_d_8h.html">tsUID.h</a></td></tr>
 <tr class="memdesc:ts_u_i_d_8h"><td class="mdescLeft">&#160;</td><td class="mdescRight">A singleton which generates 64-bit UID, unique integer. <br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ts_unicode_utils_8h"><td class="memItemLeft" align="right" valign="top">file &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="ts_unicode_utils_8h.html">tsUnicodeUtils.h</a></td></tr>
-<tr class="memdesc:ts_unicode_utils_8h"><td class="mdescLeft">&#160;</td><td class="mdescRight">Declare some utilities on Unicode strings. <br /></td></tr>
-<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ts_user_interrupt_8h"><td class="memItemLeft" align="right" valign="top">file &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="ts_user_interrupt_8h.html">tsUserInterrupt.h</a></td></tr>
 <tr class="memdesc:ts_user_interrupt_8h"><td class="mdescLeft">&#160;</td><td class="mdescRight">User interrupt handling (Ctrl+C). <br /></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ts_u_string_8h"><td class="memItemLeft" align="right" valign="top">file &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="ts_u_string_8h.html">tsUString.h</a></td></tr>
+<tr class="memdesc:ts_u_string_8h"><td class="mdescLeft">&#160;</td><td class="mdescRight">Unicode string. <br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ts_variable_8h"><td class="memItemLeft" align="right" valign="top">file &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="ts_variable_8h.html">tsVariable.h</a></td></tr>
 <tr class="memdesc:ts_variable_8h"><td class="mdescLeft">&#160;</td><td class="mdescRight">Declare the <a class="el" href="classts_1_1_variable.html" title="A template class which defines a variable which can be either initialized or uninitialized. ">ts::Variable</a> template class. <br /></td></tr>

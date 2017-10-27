@@ -29,8 +29,6 @@ var searchData=
   ['comptr_3c_3a_3aituningspace_20_3e',['ComPtr&lt;::ITuningSpace &gt;',['../classts_1_1_com_ptr.html',1,'ts']]],
   ['condition',['Condition',['../classts_1_1_condition.html',1,'ts']]],
   ['conditionerror',['ConditionError',['../classts_1_1_condition_1_1_condition_error.html',1,'ts::Condition']]],
-  ['configfile',['ConfigFile',['../classts_1_1_config_file.html',1,'ts']]],
-  ['configsection',['ConfigSection',['../classts_1_1_config_section.html',1,'ts']]],
   ['connection',['Connection',['../classts_1_1tlv_1_1_connection.html',1,'ts::tlv']]],
   ['connection_3c_20ts_3a_3amutex_20_3e',['Connection&lt; ts::Mutex &gt;',['../classts_1_1tlv_1_1_connection.html',1,'ts::tlv']]],
   ['contentdescriptor',['ContentDescriptor',['../classts_1_1_content_descriptor.html',1,'ts']]],

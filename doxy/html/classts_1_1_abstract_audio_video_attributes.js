@@ -5,6 +5,6 @@ var classts_1_1_abstract_audio_video_attributes =
     [ "isValid", "classts_1_1_abstract_audio_video_attributes.html#ad6868f6d1e816357f133ee9ab4551336", null ],
     [ "invalidate", "classts_1_1_abstract_audio_video_attributes.html#a5a9feb6f6c5c825a29e4462b1bc7b13e", null ],
     [ "moreBinaryData", "classts_1_1_abstract_audio_video_attributes.html#aaa27bab70b76ae2085ff66442c340cbf", null ],
-    [ "operator std::string", "classts_1_1_abstract_audio_video_attributes.html#aca1b3de03fb6a6647598c38b3df2d98e", null ],
+    [ "toString", "classts_1_1_abstract_audio_video_attributes.html#ae404990105a05496499b252995030880", null ],
     [ "_is_valid", "classts_1_1_abstract_audio_video_attributes.html#ae93c110893c944d6f3d339252c83c0c9", null ]
 ];

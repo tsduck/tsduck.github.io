@@ -34,7 +34,7 @@
  <tr style="height: 56px;">
   <td id="projectlogo"><img src="tsduck-32.png"/></td>
    <td id="projectalign"><span id="projectname">TSDuck</span>
-    <span id="projectnumber">Version 3.3</span>
+    <span id="projectnumber">Version 3.4</span>
     <span id="projectbrief">(TSDuck - The MPEG Transport Stream Toolkit)</span>
    </td>
    <td>        <div id="MSearchBox" class="MSearchBoxInactive">
@@ -142,10 +142,19 @@ $(document).ready(function(){initNavTree('functions_func_h.html','');});
 : <a class="el" href="classts_1_1_section_handler_interface.html#ad1527a287cbbffbe59083d314628eda3">ts::SectionHandlerInterface</a>
 , <a class="el" href="classts_1_1_tables_logger.html#a6c61d8343f9d11ba5f12f81b5b097deb">ts::TablesLogger</a>
 </li>
+<li>handleT2MINewPID()
+: <a class="el" href="classts_1_1_t2_m_i_handler_interface.html#a91ec4f670045ec11e0d28ddc1e4caf9a">ts::T2MIHandlerInterface</a>
+</li>
+<li>handleT2MIPacket()
+: <a class="el" href="classts_1_1_t2_m_i_handler_interface.html#a9df1c610c9da5b1eeb6947122415e357">ts::T2MIHandlerInterface</a>
+</li>
 <li>handleTable()
-: <a class="el" href="classts_1_1_abstract_descrambler.html#a230cf1165a66e677acc7a76393eafe7e">ts::AbstractDescrambler</a>
+: <a class="el" href="classts_1_1_abstract_descrambler.html#a036923d884e3f32182fc8465d09be324">ts::AbstractDescrambler</a>
 , <a class="el" href="classts_1_1_table_handler_interface.html#a80f643525a8398d9571c8dba1fe4095e">ts::TableHandlerInterface</a>
 , <a class="el" href="classts_1_1_tables_logger.html#a3214240c891229227d7a1f794dc5a8cc">ts::TablesLogger</a>
+</li>
+<li>handleTSPacket()
+: <a class="el" href="classts_1_1_t2_m_i_handler_interface.html#a55e368b3332dba67c873eb2b7b61ef0b">ts::T2MIHandlerInterface</a>
 </li>
 <li>handleVideoStartCode()
 : <a class="el" href="classts_1_1_p_e_s_handler_interface.html#a6bafbb234898caf6b10761a3c725d1cf">ts::PESHandlerInterface</a>
@@ -218,7 +227,7 @@ $(document).ready(function(){initNavTree('functions_func_h.html','');});
 : <a class="el" href="structts_1_1_t_s_packet.html#a44804d440cfbecbc0da9ec1a042229e3">ts::TSPacket</a>
 </li>
 <li>hasPMTPID()
-: <a class="el" href="classts_1_1_service.html#a30efcb11f9ea8f6c1464e5396288f049">ts::Service</a>
+: <a class="el" href="classts_1_1_service.html#a5163091ffb069ec27c7a239526452b44">ts::Service</a>
 </li>
 <li>hasPort()
 : <a class="el" href="classts_1_1_socket_address.html#a3f54a28c0834ecf7c53e595dc389d27c">ts::SocketAddress</a>
@@ -227,13 +236,13 @@ $(document).ready(function(){initNavTree('functions_func_h.html','');});
 : <a class="el" href="classts_1_1tlv_1_1_message.html#a85ef74f32d9db2cfe9439a657b3171b2">ts::tlv::Message</a>
 </li>
 <li>hasProvider()
-: <a class="el" href="classts_1_1_service.html#ae72ee388d1e3622af6f3260b35d2d3a7">ts::Service</a>
+: <a class="el" href="classts_1_1_service.html#adf85123ed41a5eaa193b6e03271d0a28">ts::Service</a>
 </li>
 <li>hasPTS()
 : <a class="el" href="structts_1_1_t_s_packet.html#a0370af5c97820c7f95691dca4fae7f54">ts::TSPacket</a>
 </li>
 <li>hasRunningStatus()
-: <a class="el" href="classts_1_1_service.html#add1e250fbca6e7f019f7758836f20ee3">ts::Service</a>
+: <a class="el" href="classts_1_1_service.html#a666ff5b8547b9dd71a3d716978360d04">ts::Service</a>
 </li>
 <li>hasTSId()
 : <a class="el" href="classts_1_1_service.html#a92dd2b6e2d8eed12c25243bcc29108bd">ts::Service</a>
@@ -242,7 +251,7 @@ $(document).ready(function(){initNavTree('functions_func_h.html','');});
 : <a class="el" href="classts_1_1_tuner_args.html#a2abdea7e913acd135cb8cbb73ac5e7c5">ts::TunerArgs</a>
 </li>
 <li>hasType()
-: <a class="el" href="classts_1_1_service.html#a6cb0ad7c21476916fd8175d873691b0b">ts::Service</a>
+: <a class="el" href="classts_1_1_service.html#a220d0a7d86e0ee6cf13e97c0a2c79d90">ts::Service</a>
 </li>
 <li>hasValidSync()
 : <a class="el" href="structts_1_1_t_s_packet.html#aadf9aa667a3e83e2c56d34d8a7dba067">ts::TSPacket</a>
@@ -254,7 +263,7 @@ $(document).ready(function(){initNavTree('functions_func_h.html','');});
 : <a class="el" href="classts_1_1_x_m_l.html#abb823c1aaa3e2249f12b4018fc596bb7">ts::XML</a>
 </li>
 <li>HDSimulcastLogicalChannelDescriptor()
-: <a class="el" href="classts_1_1_h_d_simulcast_logical_channel_descriptor.html#abb3e62f29b638ba3187325415d8f8862">ts::HDSimulcastLogicalChannelDescriptor</a>
+: <a class="el" href="classts_1_1_h_d_simulcast_logical_channel_descriptor.html#a66a749fc97a159f31c818b7e43f212e7">ts::HDSimulcastLogicalChannelDescriptor</a>
 </li>
 <li>header()
 : <a class="el" href="classts_1_1_p_e_s_packet.html#aa39a4286919bd2e5b36e1d206d4b98cf">ts::PESPacket</a>

@@ -1,5 +1,6 @@
 var searchData=
 [
+  ['value',['VALUE',['../namespacets_1_1names.html#ad01b2604fc1b9fcaa4cbcbea333d8bfcab312b4ea29910f06d3ea92f34d8c01f8',1,'ts::names']]],
   ['version_5fdate',['VERSION_DATE',['../namespacets.html#a3b76963ba3c3e6d12b29fc10bd4642faa7c8baaececaedc8e028bea2f04926e68',1,'ts']]],
   ['version_5fdektec',['VERSION_DEKTEC',['../namespacets.html#a3b76963ba3c3e6d12b29fc10bd4642faaf20bd58a733e0b559edac6ea4fe88b2a',1,'ts']]],
   ['version_5ffiles',['VERSION_FILES',['../namespacets.html#a3b76963ba3c3e6d12b29fc10bd4642faa1beccd6420073a2a8eae48f62ce86341',1,'ts']]],

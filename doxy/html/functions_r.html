@@ -34,7 +34,7 @@
  <tr style="height: 56px;">
   <td id="projectlogo"><img src="tsduck-32.png"/></td>
    <td id="projectalign"><span id="projectname">TSDuck</span>
-    <span id="projectnumber">Version 3.3</span>
+    <span id="projectnumber">Version 3.4</span>
     <span id="projectbrief">(TSDuck - The MPEG Transport Stream Toolkit)</span>
    </td>
    <td>        <div id="MSearchBox" class="MSearchBoxInactive">
@@ -182,7 +182,7 @@ $(document).ready(function(){initNavTree('functions_r.html','');});
 : <a class="el" href="classts_1_1_t_s_analyzer_1_1_p_i_d_context.html#a31c7af1f79a7625e7c06b07d92779ab8">ts::TSAnalyzer::PIDContext</a>
 </li>
 <li>refreshModeName()
-: <a class="el" href="classts_1_1_video_attributes.html#ab43f3dc9fe9a327498b600a64ba427bd">ts::VideoAttributes</a>
+: <a class="el" href="classts_1_1_video_attributes.html#a31b3befa941346d6b5b18c91fd34ff1c">ts::VideoAttributes</a>
 </li>
 <li>Region()
 : <a class="el" href="structts_1_1_local_time_offset_descriptor_1_1_region.html#a7d2e33524492e663d6ff63eca9191788">ts::LocalTimeOffsetDescriptor::Region</a>
@@ -213,6 +213,7 @@ $(document).ready(function(){initNavTree('functions_r.html','');});
 <li>reload()
 : <a class="el" href="classts_1_1_p_e_s_packet.html#ab05514affe79808206c02b05ef2a5f01">ts::PESPacket</a>
 , <a class="el" href="classts_1_1_section.html#ab31ccf5e3e87d382649e5ccd71f7910d">ts::Section</a>
+, <a class="el" href="classts_1_1_t2_m_i_packet.html#a831a72969d73945329930134aa03bbde">ts::T2MIPacket</a>
 </li>
 <li>remainingBitCount()
 : <a class="el" href="classts_1_1_bit_stream.html#a759abbfe66d2b2dc8229dd5c7284282e">ts::BitStream</a>
@@ -222,6 +223,9 @@ $(document).ready(function(){initNavTree('functions_r.html','');});
 </li>
 <li>remainingBytes()
 : <a class="el" href="classts_1_1_a_v_c_parser.html#a5210f186447090b4c3b0cf50080db875">ts::AVCParser</a>
+</li>
+<li>remove()
+: <a class="el" href="classts_1_1_u_string.html#a0b852b7b506c47a395158d6e67b1237f">ts::UString</a>
 </li>
 <li>removeAll()
 : <a class="el" href="classts_1_1_cycling_packetizer.html#a77945604df2b38d585f779e99e919550">ts::CyclingPacketizer</a>
@@ -236,11 +240,16 @@ $(document).ready(function(){initNavTree('functions_r.html','');});
 : <a class="el" href="classts_1_1_descriptor_list.html#a7e1ddd1818eab8b8bf696a578391f187">ts::DescriptorList</a>
 </li>
 <li>removePID()
-: <a class="el" href="classts_1_1_p_e_s_demux.html#ae0c5768013adffc9ea83d6b6845078a3">ts::PESDemux</a>
-, <a class="el" href="classts_1_1_section_demux.html#a98487f57c79ac0213a942aa0e3d4b6cb">ts::SectionDemux</a>
+: <a class="el" href="classts_1_1_abstract_demux.html#af91b7696b93dc51bee12bc4c49f80c3a">ts::AbstractDemux</a>
+</li>
+<li>removePrefix()
+: <a class="el" href="classts_1_1_u_string.html#a9f0d4e4c2225f3f68a5817240e5ebc3b">ts::UString</a>
 </li>
 <li>removeSections()
 : <a class="el" href="classts_1_1_cycling_packetizer.html#a7a1d715a1cab4c4926de0b135c5c73c0">ts::CyclingPacketizer</a>
+</li>
+<li>removeSuffix()
+: <a class="el" href="classts_1_1_u_string.html#aba59b1e7cbe22ffa6eee81dfafacda32">ts::UString</a>
 </li>
 <li>repetition
 : <a class="el" href="structts_1_1_file_name_rate.html#a25d71c1dc22d62e4562a851c9b054dc6">ts::FileNameRate</a>
@@ -267,7 +276,7 @@ $(document).ready(function(){initNavTree('functions_r.html','');});
 : <a class="el" href="classts_1_1_x_m_l.html#a8137713edd8024d713d26ae53d703913">ts::XML</a>
 </li>
 <li>reportErrors()
-: <a class="el" href="classts_1_1_t_s_analyzer_report.html#aaa7b2d2cbbc0ff6b66c1635a16d70369">ts::TSAnalyzerReport</a>
+: <a class="el" href="classts_1_1_t_s_analyzer_report.html#aca59a38dbb0453ea629efe9e81219709">ts::TSAnalyzerReport</a>
 </li>
 <li>ReportFile()
 : <a class="el" href="classts_1_1_report_file.html#a4e62464e33a45cc1c51624f5c45e082d">ts::ReportFile&lt; MUTEX &gt;</a>
@@ -276,19 +285,19 @@ $(document).ready(function(){initNavTree('functions_r.html','');});
 : <a class="el" href="classts_1_1_report_interface.html#a595c7f6cc87b242d54fb0daf9a790014">ts::ReportInterface</a>
 </li>
 <li>reportNormalized()
-: <a class="el" href="classts_1_1_t_s_analyzer_report.html#ad9bd8eec125974eb908becfb3ae176b2">ts::TSAnalyzerReport</a>
+: <a class="el" href="classts_1_1_t_s_analyzer_report.html#a1c06c38562cf923c17161465896cbbab">ts::TSAnalyzerReport</a>
 </li>
 <li>reportPIDs()
-: <a class="el" href="classts_1_1_t_s_analyzer_report.html#a177e699086f7a41632ba17dd3a7b5350">ts::TSAnalyzerReport</a>
+: <a class="el" href="classts_1_1_t_s_analyzer_report.html#ad8ba653b109afc83823aedf2991832d7">ts::TSAnalyzerReport</a>
 </li>
 <li>reportServices()
-: <a class="el" href="classts_1_1_t_s_analyzer_report.html#a1eebe2c25ed262b2d19d95c5d3268e8b">ts::TSAnalyzerReport</a>
+: <a class="el" href="classts_1_1_t_s_analyzer_report.html#acdefe40ffdc226f72e9eb613c2c022de">ts::TSAnalyzerReport</a>
 </li>
 <li>reportTables()
-: <a class="el" href="classts_1_1_t_s_analyzer_report.html#aa8a86b137aa2bfe281c219e1d53cb674">ts::TSAnalyzerReport</a>
+: <a class="el" href="classts_1_1_t_s_analyzer_report.html#af450e7ac44d89e3fc960f086f81cd1a0">ts::TSAnalyzerReport</a>
 </li>
 <li>reportTS()
-: <a class="el" href="classts_1_1_t_s_analyzer_report.html#a6224b187ada55850aa6c355ecebfc275">ts::TSAnalyzerReport</a>
+: <a class="el" href="classts_1_1_t_s_analyzer_report.html#a8e4a5db0cd59cd08dac3ef799e267096">ts::TSAnalyzerReport</a>
 </li>
 <li>ReportWithPrefix()
 : <a class="el" href="classts_1_1_report_with_prefix.html#abe3cf650709e8f66db3f7caa2810c0c4">ts::ReportWithPrefix</a>
@@ -296,21 +305,21 @@ $(document).ready(function(){initNavTree('functions_r.html','');});
 <li>requiredPDS()
 : <a class="el" href="classts_1_1_abstract_descriptor.html#afa66b72c160f30afb1f643a2325ae19b">ts::AbstractDescriptor</a>
 </li>
+<li>reserved
+: <a class="el" href="classts_1_1_t2_m_i_descriptor.html#a3a4427c5940b8520f72e6ed1726844ed">ts::T2MIDescriptor</a>
+</li>
 <li>reserved_zero_4bits
 : <a class="el" href="classts_1_1_a_v_c_sequence_parameter_set.html#a221edd55f755927c4559ca6b6107d3c7">ts::AVCSequenceParameterSet</a>
 </li>
 <li>reset()
-: <a class="el" href="classts_1_1_a_v_c_parser.html#af16d0d26e46cdfdbc0cf09b1f99fd1ac">ts::AVCParser</a>
+: <a class="el" href="classts_1_1_abstract_demux.html#abeeb5c91df69f76eea4c45529f416230">ts::AbstractDemux</a>
+, <a class="el" href="classts_1_1_a_v_c_parser.html#a37bf21b6374d165b080446c81612548c">ts::AVCParser</a>
 , <a class="el" href="classts_1_1_bit_stream.html#a160f2e71af9ce7c80015f0980c799eee">ts::BitStream</a>
-, <a class="el" href="classts_1_1_config_file.html#ac9eb07d9a3c04db7db2bab18fc06a8e7">ts::ConfigFile</a>
-, <a class="el" href="classts_1_1_config_section.html#a3ac44e2861afbb1da404ce84ef942139">ts::ConfigSection</a>
 , <a class="el" href="classts_1_1_c_r_c32.html#ae37304414a85b23f07d82f3a45b2986b">ts::CRC32</a>
 , <a class="el" href="classts_1_1_cycling_packetizer.html#a6005b6b7bd74608a340fbf3624e5e753">ts::CyclingPacketizer</a>
 , <a class="el" href="classts_1_1_packetizer.html#ad4ddd430584ff22c604a80bb2e24d7ae">ts::Packetizer</a>
-, <a class="el" href="classts_1_1_p_c_r_analyzer.html#a18b967110e79729dbcee0d836322dd80">ts::PCRAnalyzer</a>
-, <a class="el" href="classts_1_1_p_e_s_demux.html#a57f2966de76a7a053cafadef05211506">ts::PESDemux</a>
+, <a class="el" href="classts_1_1_p_c_r_analyzer.html#a15688d3103e97fd816e2f89d53812d34">ts::PCRAnalyzer</a>
 , <a class="el" href="classts_1_1_safe_ptr.html#abd8313fa54cdeb0d0d69fa89f0d65f34">ts::SafePtr&lt; T, MUTEX &gt;</a>
-, <a class="el" href="classts_1_1_section_demux.html#a30ebc2b396220eefdf315e976620b121">ts::SectionDemux</a>
 , <a class="el" href="structts_1_1_section_demux_1_1_status.html#a8a789b231b82a51b6867996c7a0a8fd4">ts::SectionDemux::Status</a>
 , <a class="el" href="classts_1_1_simul_crypt_date.html#a8cee92db015d93b9d36c813d67be0afe">ts::SimulCryptDate</a>
 , <a class="el" href="classts_1_1_standalone_table_demux.html#ae3d349a91675406290baa3cc46741fc3">ts::StandaloneTableDemux</a>
@@ -328,8 +337,7 @@ $(document).ready(function(){initNavTree('functions_r.html','');});
 : <a class="el" href="classts_1_1_report_buffer.html#a8a5dcea5e0874a1cfededf7a5204ca70">ts::ReportBuffer&lt; MUTEX &gt;</a>
 </li>
 <li>resetPID()
-: <a class="el" href="classts_1_1_p_e_s_demux.html#a002cfe6b61e8e12ade5975aada1ca53d">ts::PESDemux</a>
-, <a class="el" href="classts_1_1_section_demux.html#a09d71a990c08c7d01342e6338ad93f4b">ts::SectionDemux</a>
+: <a class="el" href="classts_1_1_abstract_demux.html#aa822bbec8af387dccb824136daf402b1">ts::AbstractDemux</a>
 , <a class="el" href="classts_1_1_standalone_table_demux.html#a3e4d0a02b905374fc5c54dc85d4f5572">ts::StandaloneTableDemux</a>
 </li>
 <li>ResidentBuffer()

@@ -6,6 +6,8 @@ var searchData=
   ['bid_5ftvnumeric_5feutelsat',['BID_TVNUMERIC_EUTELSAT',['../namespacets.html#a0071f2918a8c95ab8f3c188250ce2b7fa3e5052a523c8b6a8bea580345275540b',1,'ts']]],
   ['bin_5fnibble',['BIN_NIBBLE',['../namespacets_1_1hexa.html#a490e158f46bf3d8b610cd81e9d6290e6af4e06c4aeb812eae8a2e2c07a8bdae49',1,'ts::hexa']]],
   ['binary',['BINARY',['../classts_1_1_tables_logger_args.html#a428ea98fd41b3a5c66068a84727f2bc5abacf8b60eddda75f29747ad79b480b6d',1,'ts::TablesLoggerArgs::BINARY()'],['../namespacets_1_1hexa.html#a490e158f46bf3d8b610cd81e9d6290e6aa2c1167b4fcf2a5d1568688b0179bfde',1,'ts::hexa::BINARY()']]],
+  ['both',['BOTH',['../namespacets_1_1names.html#ad01b2604fc1b9fcaa4cbcbea333d8bfcaddc440e9d72a20a3c31c54951bf4475f',1,'ts::names']]],
+  ['both_5ffirst',['BOTH_FIRST',['../namespacets_1_1names.html#ad01b2604fc1b9fcaa4cbcbea333d8bfcafa14db057955786747855425d6a9edf2',1,'ts::names']]],
   ['bpl',['BPL',['../namespacets_1_1hexa.html#a490e158f46bf3d8b610cd81e9d6290e6ad7ef6d80730180cbdfcf918c83b1ce78',1,'ts::hexa']]],
   ['bw_5f5_5fmhz',['BW_5_MHZ',['../namespacets.html#a14bb51c4b1573092910ab6fdec459e31a48d8795184580cd5ceeee470bf3e8aa0',1,'ts']]],
   ['bw_5f6_5fmhz',['BW_6_MHZ',['../namespacets.html#a14bb51c4b1573092910ab6fdec459e31a35a58784bef0d136add5b6ab207f89bb',1,'ts']]],

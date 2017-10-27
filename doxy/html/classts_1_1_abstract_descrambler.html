@@ -34,7 +34,7 @@
  <tr style="height: 56px;">
   <td id="projectlogo"><img src="tsduck-32.png"/></td>
    <td id="projectalign"><span id="projectname">TSDuck</span>
-    <span id="projectnumber">Version 3.3</span>
+    <span id="projectnumber">Version 3.4</span>
     <span id="projectbrief">(TSDuck - The MPEG Transport Stream Toolkit)</span>
    </td>
    <td>        <div id="MSearchBox" class="MSearchBoxInactive">
@@ -137,15 +137,15 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:af403e53db1b9ae0be21a634e3cb1a274"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classts_1_1_abstract_descrambler.html#af403e53db1b9ae0be21a634e3cb1a274">AbstractDescrambler</a> (<a class="el" href="classts_1_1_t_s_p.html">TSP</a> *<a class="el" href="classts_1_1_plugin.html#a2085f82883d44e626b974ba4afb97e00">tsp</a>, const std::string &amp;description=&quot;&quot;, const std::string &amp;syntax=&quot;&quot;, const std::string &amp;help=&quot;&quot;)</td></tr>
 <tr class="memdesc:af403e53db1b9ae0be21a634e3cb1a274"><td class="mdescLeft">&#160;</td><td class="mdescRight">Constructor.  <a href="#af403e53db1b9ae0be21a634e3cb1a274">More...</a><br /></td></tr>
 <tr class="separator:af403e53db1b9ae0be21a634e3cb1a274"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a48e3302432369f0aa08c5f0912a336ff"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="namespacets.html#ab979eee2ee2eef80c6f655146d4c3961">BitRate</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classts_1_1_abstract_descrambler.html#a48e3302432369f0aa08c5f0912a336ff">getBitrate</a> ()</td></tr>
-<tr class="memdesc:a48e3302432369f0aa08c5f0912a336ff"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the plugin bitrate.  <a href="#a48e3302432369f0aa08c5f0912a336ff">More...</a><br /></td></tr>
-<tr class="separator:a48e3302432369f0aa08c5f0912a336ff"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aed8314db38c47db4a984558a25062c64"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="classts_1_1_processor_plugin.html#ae2d04b1fe8008d7221d26a14f35bfba2">Status</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classts_1_1_abstract_descrambler.html#aed8314db38c47db4a984558a25062c64">processPacket</a> (<a class="el" href="structts_1_1_t_s_packet.html">TSPacket</a> &amp;, bool &amp;, bool &amp;)</td></tr>
-<tr class="memdesc:aed8314db38c47db4a984558a25062c64"><td class="mdescLeft">&#160;</td><td class="mdescRight">Packet processing interface.  <a href="#aed8314db38c47db4a984558a25062c64">More...</a><br /></td></tr>
-<tr class="separator:aed8314db38c47db4a984558a25062c64"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ac64a819ad0c07aa53a794309fdce938a"><td class="memItemLeft" align="right" valign="top">virtual bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classts_1_1_abstract_descrambler.html#ac64a819ad0c07aa53a794309fdce938a">stop</a> ()</td></tr>
-<tr class="memdesc:ac64a819ad0c07aa53a794309fdce938a"><td class="mdescLeft">&#160;</td><td class="mdescRight">The main application invokes <a class="el" href="classts_1_1_abstract_descrambler.html#ac64a819ad0c07aa53a794309fdce938a" title="The main application invokes stop() to terminate the plugin. ">stop()</a> to terminate the plugin.  <a href="#ac64a819ad0c07aa53a794309fdce938a">More...</a><br /></td></tr>
-<tr class="separator:ac64a819ad0c07aa53a794309fdce938a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:adb01c9ee98c6c1361e9685aee308e123"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="namespacets.html#ab979eee2ee2eef80c6f655146d4c3961">BitRate</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classts_1_1_abstract_descrambler.html#adb01c9ee98c6c1361e9685aee308e123">getBitrate</a> () override</td></tr>
+<tr class="memdesc:adb01c9ee98c6c1361e9685aee308e123"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the plugin bitrate.  <a href="#adb01c9ee98c6c1361e9685aee308e123">More...</a><br /></td></tr>
+<tr class="separator:adb01c9ee98c6c1361e9685aee308e123"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8b0b452d3995ba72a40bfc4e53166b3c"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="classts_1_1_processor_plugin.html#ae2d04b1fe8008d7221d26a14f35bfba2">Status</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classts_1_1_abstract_descrambler.html#a8b0b452d3995ba72a40bfc4e53166b3c">processPacket</a> (<a class="el" href="structts_1_1_t_s_packet.html">TSPacket</a> &amp;, bool &amp;, bool &amp;) override</td></tr>
+<tr class="memdesc:a8b0b452d3995ba72a40bfc4e53166b3c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Packet processing interface.  <a href="#a8b0b452d3995ba72a40bfc4e53166b3c">More...</a><br /></td></tr>
+<tr class="separator:a8b0b452d3995ba72a40bfc4e53166b3c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a765d46ac28f7f6162cc2f71633469aa2"><td class="memItemLeft" align="right" valign="top">virtual bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classts_1_1_abstract_descrambler.html#a765d46ac28f7f6162cc2f71633469aa2">stop</a> () override</td></tr>
+<tr class="memdesc:a765d46ac28f7f6162cc2f71633469aa2"><td class="mdescLeft">&#160;</td><td class="mdescRight">The main application invokes <a class="el" href="classts_1_1_abstract_descrambler.html#a765d46ac28f7f6162cc2f71633469aa2" title="The main application invokes stop() to terminate the plugin. ">stop()</a> to terminate the plugin.  <a href="#a765d46ac28f7f6162cc2f71633469aa2">More...</a><br /></td></tr>
+<tr class="separator:a765d46ac28f7f6162cc2f71633469aa2"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="inherit_header pub_methods_classts_1_1_processor_plugin"><td colspan="2" onclick="javascript:toggleInherit('pub_methods_classts_1_1_processor_plugin')"><img src="closed.png" alt="-"/>&#160;Public Member Functions inherited from <a class="el" href="classts_1_1_processor_plugin.html">ts::ProcessorPlugin</a></td></tr>
 <tr class="memitem:a644ca61f36ca05e7375313bb449cf8d4 inherit pub_methods_classts_1_1_processor_plugin"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classts_1_1_processor_plugin.html#a644ca61f36ca05e7375313bb449cf8d4">ProcessorPlugin</a> (<a class="el" href="classts_1_1_t_s_p.html">TSP</a> *tsp_, const std::string &amp;description=&quot;&quot;, const std::string &amp;syntax=&quot;&quot;, const std::string &amp;help=&quot;&quot;)</td></tr>
 <tr class="memdesc:a644ca61f36ca05e7375313bb449cf8d4 inherit pub_methods_classts_1_1_processor_plugin"><td class="mdescLeft">&#160;</td><td class="mdescRight">Constructor.  <a href="classts_1_1_processor_plugin.html#a644ca61f36ca05e7375313bb449cf8d4">More...</a><br /></td></tr>
@@ -292,6 +292,9 @@ virtual&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="c
 <tr class="memitem:a0bdcce502b43adc3894922e7faad3c06 inherit pub_methods_classts_1_1_report_interface"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classts_1_1_report_interface.html#a0bdcce502b43adc3894922e7faad3c06">debug</a> (const std::string &amp;msg)</td></tr>
 <tr class="memdesc:a0bdcce502b43adc3894922e7faad3c06 inherit pub_methods_classts_1_1_report_interface"><td class="mdescLeft">&#160;</td><td class="mdescRight">Report a debug message.  <a href="classts_1_1_report_interface.html#a0bdcce502b43adc3894922e7faad3c06">More...</a><br /></td></tr>
 <tr class="separator:a0bdcce502b43adc3894922e7faad3c06 inherit pub_methods_classts_1_1_report_interface"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2ffa3c60b37b2b75345842c8c291edfe inherit pub_methods_classts_1_1_report_interface"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classts_1_1_report_interface.html#a2ffa3c60b37b2b75345842c8c291edfe">debug</a> (const <a class="el" href="classts_1_1_u_string.html">UString</a> &amp;msg)</td></tr>
+<tr class="memdesc:a2ffa3c60b37b2b75345842c8c291edfe inherit pub_methods_classts_1_1_report_interface"><td class="mdescLeft">&#160;</td><td class="mdescRight">Report a debug message.  <a href="classts_1_1_report_interface.html#a2ffa3c60b37b2b75345842c8c291edfe">More...</a><br /></td></tr>
+<tr class="separator:a2ffa3c60b37b2b75345842c8c291edfe inherit pub_methods_classts_1_1_report_interface"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aa55e12245f5da67d31536f9916b92868 inherit pub_methods_classts_1_1_report_interface"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classts_1_1_report_interface.html#aa55e12245f5da67d31536f9916b92868">debug</a> (const char *format,...)</td></tr>
 <tr class="memdesc:aa55e12245f5da67d31536f9916b92868 inherit pub_methods_classts_1_1_report_interface"><td class="mdescLeft">&#160;</td><td class="mdescRight">Report a debug message with a printf-like interface.  <a href="classts_1_1_report_interface.html#aa55e12245f5da67d31536f9916b92868">More...</a><br /></td></tr>
 <tr class="separator:aa55e12245f5da67d31536f9916b92868 inherit pub_methods_classts_1_1_report_interface"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -301,24 +304,36 @@ virtual&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="c
 <tr class="memitem:abf2d2abc3ea94658c15a46eff708bd4b inherit pub_methods_classts_1_1_report_interface"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classts_1_1_report_interface.html#abf2d2abc3ea94658c15a46eff708bd4b">error</a> (const std::string &amp;msg)</td></tr>
 <tr class="memdesc:abf2d2abc3ea94658c15a46eff708bd4b inherit pub_methods_classts_1_1_report_interface"><td class="mdescLeft">&#160;</td><td class="mdescRight">Report an error message.  <a href="classts_1_1_report_interface.html#abf2d2abc3ea94658c15a46eff708bd4b">More...</a><br /></td></tr>
 <tr class="separator:abf2d2abc3ea94658c15a46eff708bd4b inherit pub_methods_classts_1_1_report_interface"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a020f6f15ac1e012f5899ca9219729652 inherit pub_methods_classts_1_1_report_interface"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classts_1_1_report_interface.html#a020f6f15ac1e012f5899ca9219729652">error</a> (const <a class="el" href="classts_1_1_u_string.html">UString</a> &amp;msg)</td></tr>
+<tr class="memdesc:a020f6f15ac1e012f5899ca9219729652 inherit pub_methods_classts_1_1_report_interface"><td class="mdescLeft">&#160;</td><td class="mdescRight">Report an error message.  <a href="classts_1_1_report_interface.html#a020f6f15ac1e012f5899ca9219729652">More...</a><br /></td></tr>
+<tr class="separator:a020f6f15ac1e012f5899ca9219729652 inherit pub_methods_classts_1_1_report_interface"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a78b090c54cc1473031e2bcf37fac47d9 inherit pub_methods_classts_1_1_report_interface"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classts_1_1_report_interface.html#a78b090c54cc1473031e2bcf37fac47d9">error</a> (const char *format,...)</td></tr>
 <tr class="memdesc:a78b090c54cc1473031e2bcf37fac47d9 inherit pub_methods_classts_1_1_report_interface"><td class="mdescLeft">&#160;</td><td class="mdescRight">Report an error message with a printf-like interface.  <a href="classts_1_1_report_interface.html#a78b090c54cc1473031e2bcf37fac47d9">More...</a><br /></td></tr>
 <tr class="separator:a78b090c54cc1473031e2bcf37fac47d9 inherit pub_methods_classts_1_1_report_interface"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:adc5a601e0f8b662cf2230ab3ec221277 inherit pub_methods_classts_1_1_report_interface"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classts_1_1_report_interface.html#adc5a601e0f8b662cf2230ab3ec221277">fatal</a> (const std::string &amp;msg)</td></tr>
 <tr class="memdesc:adc5a601e0f8b662cf2230ab3ec221277 inherit pub_methods_classts_1_1_report_interface"><td class="mdescLeft">&#160;</td><td class="mdescRight">Report a fatal error message.  <a href="classts_1_1_report_interface.html#adc5a601e0f8b662cf2230ab3ec221277">More...</a><br /></td></tr>
 <tr class="separator:adc5a601e0f8b662cf2230ab3ec221277 inherit pub_methods_classts_1_1_report_interface"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a67fbe739f68e5733ba501dde23dba001 inherit pub_methods_classts_1_1_report_interface"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classts_1_1_report_interface.html#a67fbe739f68e5733ba501dde23dba001">fatal</a> (const <a class="el" href="classts_1_1_u_string.html">UString</a> &amp;msg)</td></tr>
+<tr class="memdesc:a67fbe739f68e5733ba501dde23dba001 inherit pub_methods_classts_1_1_report_interface"><td class="mdescLeft">&#160;</td><td class="mdescRight">Report a fatal error message.  <a href="classts_1_1_report_interface.html#a67fbe739f68e5733ba501dde23dba001">More...</a><br /></td></tr>
+<tr class="separator:a67fbe739f68e5733ba501dde23dba001 inherit pub_methods_classts_1_1_report_interface"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a211b241dabf5306b97d8b89ed6246dbd inherit pub_methods_classts_1_1_report_interface"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classts_1_1_report_interface.html#a211b241dabf5306b97d8b89ed6246dbd">fatal</a> (const char *format,...)</td></tr>
 <tr class="memdesc:a211b241dabf5306b97d8b89ed6246dbd inherit pub_methods_classts_1_1_report_interface"><td class="mdescLeft">&#160;</td><td class="mdescRight">Report a fatal error message with a printf-like interface.  <a href="classts_1_1_report_interface.html#a211b241dabf5306b97d8b89ed6246dbd">More...</a><br /></td></tr>
 <tr class="separator:a211b241dabf5306b97d8b89ed6246dbd inherit pub_methods_classts_1_1_report_interface"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ae1834573e0a885d838f2538bb2007bb4 inherit pub_methods_classts_1_1_report_interface"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classts_1_1_report_interface.html#ae1834573e0a885d838f2538bb2007bb4">info</a> (const std::string &amp;msg)</td></tr>
 <tr class="memdesc:ae1834573e0a885d838f2538bb2007bb4 inherit pub_methods_classts_1_1_report_interface"><td class="mdescLeft">&#160;</td><td class="mdescRight">Report an informational message.  <a href="classts_1_1_report_interface.html#ae1834573e0a885d838f2538bb2007bb4">More...</a><br /></td></tr>
 <tr class="separator:ae1834573e0a885d838f2538bb2007bb4 inherit pub_methods_classts_1_1_report_interface"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9b7813fa07979615fdaa7dbfcaf516b5 inherit pub_methods_classts_1_1_report_interface"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classts_1_1_report_interface.html#a9b7813fa07979615fdaa7dbfcaf516b5">info</a> (const <a class="el" href="classts_1_1_u_string.html">UString</a> &amp;msg)</td></tr>
+<tr class="memdesc:a9b7813fa07979615fdaa7dbfcaf516b5 inherit pub_methods_classts_1_1_report_interface"><td class="mdescLeft">&#160;</td><td class="mdescRight">Report an informational message.  <a href="classts_1_1_report_interface.html#a9b7813fa07979615fdaa7dbfcaf516b5">More...</a><br /></td></tr>
+<tr class="separator:a9b7813fa07979615fdaa7dbfcaf516b5 inherit pub_methods_classts_1_1_report_interface"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a76faaefb71a3e63e5090ffc1dc536c0a inherit pub_methods_classts_1_1_report_interface"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classts_1_1_report_interface.html#a76faaefb71a3e63e5090ffc1dc536c0a">info</a> (const char *format,...)</td></tr>
 <tr class="memdesc:a76faaefb71a3e63e5090ffc1dc536c0a inherit pub_methods_classts_1_1_report_interface"><td class="mdescLeft">&#160;</td><td class="mdescRight">Report an informational message with a printf-like interface.  <a href="classts_1_1_report_interface.html#a76faaefb71a3e63e5090ffc1dc536c0a">More...</a><br /></td></tr>
 <tr class="separator:a76faaefb71a3e63e5090ffc1dc536c0a inherit pub_methods_classts_1_1_report_interface"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a254aa17a6df18b77f395c55d83753449 inherit pub_methods_classts_1_1_report_interface"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classts_1_1_report_interface.html#a254aa17a6df18b77f395c55d83753449">log</a> (int severity, const std::string &amp;msg)</td></tr>
 <tr class="memdesc:a254aa17a6df18b77f395c55d83753449 inherit pub_methods_classts_1_1_report_interface"><td class="mdescLeft">&#160;</td><td class="mdescRight">Report a message with an explicit severity.  <a href="classts_1_1_report_interface.html#a254aa17a6df18b77f395c55d83753449">More...</a><br /></td></tr>
 <tr class="separator:a254aa17a6df18b77f395c55d83753449 inherit pub_methods_classts_1_1_report_interface"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a24e2715b14c2e8fcae35c4331690d2f5 inherit pub_methods_classts_1_1_report_interface"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classts_1_1_report_interface.html#a24e2715b14c2e8fcae35c4331690d2f5">log</a> (int severity, const <a class="el" href="classts_1_1_u_string.html">UString</a> &amp;msg)</td></tr>
+<tr class="memdesc:a24e2715b14c2e8fcae35c4331690d2f5 inherit pub_methods_classts_1_1_report_interface"><td class="mdescLeft">&#160;</td><td class="mdescRight">Report a message with an explicit severity.  <a href="classts_1_1_report_interface.html#a24e2715b14c2e8fcae35c4331690d2f5">More...</a><br /></td></tr>
+<tr class="separator:a24e2715b14c2e8fcae35c4331690d2f5 inherit pub_methods_classts_1_1_report_interface"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a3d7dc9f2bc0881a23b434c48adc7cfaf inherit pub_methods_classts_1_1_report_interface"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classts_1_1_report_interface.html#a3d7dc9f2bc0881a23b434c48adc7cfaf">log</a> (int severity, const char *format,...)</td></tr>
 <tr class="memdesc:a3d7dc9f2bc0881a23b434c48adc7cfaf inherit pub_methods_classts_1_1_report_interface"><td class="mdescLeft">&#160;</td><td class="mdescRight">Report a message with an explicit severity and a printf-like interface.  <a href="classts_1_1_report_interface.html#a3d7dc9f2bc0881a23b434c48adc7cfaf">More...</a><br /></td></tr>
 <tr class="separator:a3d7dc9f2bc0881a23b434c48adc7cfaf inherit pub_methods_classts_1_1_report_interface"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -328,6 +343,9 @@ virtual&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="c
 <tr class="memitem:abe07a387d8ba06493104cfea62c33de6 inherit pub_methods_classts_1_1_report_interface"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classts_1_1_report_interface.html#abe07a387d8ba06493104cfea62c33de6">severe</a> (const std::string &amp;msg)</td></tr>
 <tr class="memdesc:abe07a387d8ba06493104cfea62c33de6 inherit pub_methods_classts_1_1_report_interface"><td class="mdescLeft">&#160;</td><td class="mdescRight">Report a severe error message.  <a href="classts_1_1_report_interface.html#abe07a387d8ba06493104cfea62c33de6">More...</a><br /></td></tr>
 <tr class="separator:abe07a387d8ba06493104cfea62c33de6 inherit pub_methods_classts_1_1_report_interface"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab3e4ac20c6fb191ee1d440b2fc5c4d41 inherit pub_methods_classts_1_1_report_interface"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classts_1_1_report_interface.html#ab3e4ac20c6fb191ee1d440b2fc5c4d41">severe</a> (const <a class="el" href="classts_1_1_u_string.html">UString</a> &amp;msg)</td></tr>
+<tr class="memdesc:ab3e4ac20c6fb191ee1d440b2fc5c4d41 inherit pub_methods_classts_1_1_report_interface"><td class="mdescLeft">&#160;</td><td class="mdescRight">Report a severe error message.  <a href="classts_1_1_report_interface.html#ab3e4ac20c6fb191ee1d440b2fc5c4d41">More...</a><br /></td></tr>
+<tr class="separator:ab3e4ac20c6fb191ee1d440b2fc5c4d41 inherit pub_methods_classts_1_1_report_interface"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a934735948454d57b2bc8ce414ed94ab1 inherit pub_methods_classts_1_1_report_interface"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classts_1_1_report_interface.html#a934735948454d57b2bc8ce414ed94ab1">severe</a> (const char *format,...)</td></tr>
 <tr class="memdesc:a934735948454d57b2bc8ce414ed94ab1 inherit pub_methods_classts_1_1_report_interface"><td class="mdescLeft">&#160;</td><td class="mdescRight">Report a severe error message with a printf-like interface.  <a href="classts_1_1_report_interface.html#a934735948454d57b2bc8ce414ed94ab1">More...</a><br /></td></tr>
 <tr class="separator:a934735948454d57b2bc8ce414ed94ab1 inherit pub_methods_classts_1_1_report_interface"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -337,12 +355,18 @@ virtual&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="c
 <tr class="memitem:ac8bc50b8a76f50225a71042a119d36c1 inherit pub_methods_classts_1_1_report_interface"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classts_1_1_report_interface.html#ac8bc50b8a76f50225a71042a119d36c1">verbose</a> (const std::string &amp;msg)</td></tr>
 <tr class="memdesc:ac8bc50b8a76f50225a71042a119d36c1 inherit pub_methods_classts_1_1_report_interface"><td class="mdescLeft">&#160;</td><td class="mdescRight">Report a verbose message.  <a href="classts_1_1_report_interface.html#ac8bc50b8a76f50225a71042a119d36c1">More...</a><br /></td></tr>
 <tr class="separator:ac8bc50b8a76f50225a71042a119d36c1 inherit pub_methods_classts_1_1_report_interface"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:adf0578dc1998c830293f9f69180b4ec4 inherit pub_methods_classts_1_1_report_interface"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classts_1_1_report_interface.html#adf0578dc1998c830293f9f69180b4ec4">verbose</a> (const <a class="el" href="classts_1_1_u_string.html">UString</a> &amp;msg)</td></tr>
+<tr class="memdesc:adf0578dc1998c830293f9f69180b4ec4 inherit pub_methods_classts_1_1_report_interface"><td class="mdescLeft">&#160;</td><td class="mdescRight">Report a verbose message.  <a href="classts_1_1_report_interface.html#adf0578dc1998c830293f9f69180b4ec4">More...</a><br /></td></tr>
+<tr class="separator:adf0578dc1998c830293f9f69180b4ec4 inherit pub_methods_classts_1_1_report_interface"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a4393caa697ba326a056643d71cc37ba1 inherit pub_methods_classts_1_1_report_interface"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classts_1_1_report_interface.html#a4393caa697ba326a056643d71cc37ba1">verbose</a> (const char *format,...)</td></tr>
 <tr class="memdesc:a4393caa697ba326a056643d71cc37ba1 inherit pub_methods_classts_1_1_report_interface"><td class="mdescLeft">&#160;</td><td class="mdescRight">Report a verbose message with a printf-like interface.  <a href="classts_1_1_report_interface.html#a4393caa697ba326a056643d71cc37ba1">More...</a><br /></td></tr>
 <tr class="separator:a4393caa697ba326a056643d71cc37ba1 inherit pub_methods_classts_1_1_report_interface"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a25688d99afc5b334b3918ad0cff3a1fd inherit pub_methods_classts_1_1_report_interface"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classts_1_1_report_interface.html#a25688d99afc5b334b3918ad0cff3a1fd">warning</a> (const std::string &amp;msg)</td></tr>
 <tr class="memdesc:a25688d99afc5b334b3918ad0cff3a1fd inherit pub_methods_classts_1_1_report_interface"><td class="mdescLeft">&#160;</td><td class="mdescRight">Report a warning message.  <a href="classts_1_1_report_interface.html#a25688d99afc5b334b3918ad0cff3a1fd">More...</a><br /></td></tr>
 <tr class="separator:a25688d99afc5b334b3918ad0cff3a1fd inherit pub_methods_classts_1_1_report_interface"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9e570970d205562202cd5d8bb88004b6 inherit pub_methods_classts_1_1_report_interface"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classts_1_1_report_interface.html#a9e570970d205562202cd5d8bb88004b6">warning</a> (const <a class="el" href="classts_1_1_u_string.html">UString</a> &amp;msg)</td></tr>
+<tr class="memdesc:a9e570970d205562202cd5d8bb88004b6 inherit pub_methods_classts_1_1_report_interface"><td class="mdescLeft">&#160;</td><td class="mdescRight">Report a warning message.  <a href="classts_1_1_report_interface.html#a9e570970d205562202cd5d8bb88004b6">More...</a><br /></td></tr>
+<tr class="separator:a9e570970d205562202cd5d8bb88004b6 inherit pub_methods_classts_1_1_report_interface"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a79cc181ca8b1679c8948b9e4433cd6f5 inherit pub_methods_classts_1_1_report_interface"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classts_1_1_report_interface.html#a79cc181ca8b1679c8948b9e4433cd6f5">warning</a> (const char *format,...)</td></tr>
 <tr class="memdesc:a79cc181ca8b1679c8948b9e4433cd6f5 inherit pub_methods_classts_1_1_report_interface"><td class="mdescLeft">&#160;</td><td class="mdescRight">Report a warning message with a printf-like interface.  <a href="classts_1_1_report_interface.html#a79cc181ca8b1679c8948b9e4433cd6f5">More...</a><br /></td></tr>
 <tr class="separator:a79cc181ca8b1679c8948b9e4433cd6f5 inherit pub_methods_classts_1_1_report_interface"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -358,9 +382,9 @@ Protected Member Functions</h2></td></tr>
 <tr class="memitem:a51849c588a972e21c81e8af1a3ef2660"><td class="memItemLeft" align="right" valign="top">virtual bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classts_1_1_abstract_descrambler.html#a51849c588a972e21c81e8af1a3ef2660">decipherECM</a> (const uint8_t *ecm, size_t ecm_size, uint8_t *cw_even, uint8_t *cw_odd)=0</td></tr>
 <tr class="memdesc:a51849c588a972e21c81e8af1a3ef2660"><td class="mdescLeft">&#160;</td><td class="mdescRight">Decipher an ECM, return the two control words.  <a href="#a51849c588a972e21c81e8af1a3ef2660">More...</a><br /></td></tr>
 <tr class="separator:a51849c588a972e21c81e8af1a3ef2660"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a230cf1165a66e677acc7a76393eafe7e"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classts_1_1_abstract_descrambler.html#a230cf1165a66e677acc7a76393eafe7e">handleTable</a> (<a class="el" href="classts_1_1_section_demux.html">SectionDemux</a> &amp;, const <a class="el" href="classts_1_1_binary_table.html">BinaryTable</a> &amp;)</td></tr>
-<tr class="memdesc:a230cf1165a66e677acc7a76393eafe7e"><td class="mdescLeft">&#160;</td><td class="mdescRight">This hook is invoked when a complete table is available.  <a href="#a230cf1165a66e677acc7a76393eafe7e">More...</a><br /></td></tr>
-<tr class="separator:a230cf1165a66e677acc7a76393eafe7e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a036923d884e3f32182fc8465d09be324"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classts_1_1_abstract_descrambler.html#a036923d884e3f32182fc8465d09be324">handleTable</a> (<a class="el" href="classts_1_1_section_demux.html">SectionDemux</a> &amp;, const <a class="el" href="classts_1_1_binary_table.html">BinaryTable</a> &amp;) override</td></tr>
+<tr class="memdesc:a036923d884e3f32182fc8465d09be324"><td class="mdescLeft">&#160;</td><td class="mdescRight">This hook is invoked when a complete table is available.  <a href="#a036923d884e3f32182fc8465d09be324">More...</a><br /></td></tr>
+<tr class="separator:a036923d884e3f32182fc8465d09be324"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a060ed913b01c736e2431b1e40c6ff950"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classts_1_1_abstract_descrambler.html#a060ed913b01c736e2431b1e40c6ff950">setIV</a> (const <a class="el" href="classts_1_1_byte_block.html">ByteBlock</a> &amp;iv)</td></tr>
 <tr class="memdesc:a060ed913b01c736e2431b1e40c6ff950"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set initialization vector for chained modes (not DVB-CSA).  <a href="#a060ed913b01c736e2431b1e40c6ff950">More...</a><br /></td></tr>
 <tr class="separator:a060ed913b01c736e2431b1e40c6ff950"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -513,8 +537,8 @@ volatile int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" hr
 </div>
 </div>
 <h2 class="groupheader">Member Function Documentation</h2>
-<a id="ac64a819ad0c07aa53a794309fdce938a"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ac64a819ad0c07aa53a794309fdce938a">&#9670;&nbsp;</a></span>stop()</h2>
+<a id="a765d46ac28f7f6162cc2f71633469aa2"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a765d46ac28f7f6162cc2f71633469aa2">&#9670;&nbsp;</a></span>stop()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -531,20 +555,20 @@ volatile int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" hr
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">virtual</span></span>  </td>
+<span class="mlabels"><span class="mlabel">override</span><span class="mlabel">virtual</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
 
-<p>The main application invokes <a class="el" href="classts_1_1_abstract_descrambler.html#ac64a819ad0c07aa53a794309fdce938a" title="The main application invokes stop() to terminate the plugin. ">stop()</a> to terminate the plugin. </p>
+<p>The main application invokes <a class="el" href="classts_1_1_abstract_descrambler.html#a765d46ac28f7f6162cc2f71633469aa2" title="The main application invokes stop() to terminate the plugin. ">stop()</a> to terminate the plugin. </p>
 <p>Must be implemented by subclasses. </p><dl class="section return"><dt>Returns</dt><dd>True on success, false on error (ie. not started). </dd></dl>
 
 <p>Implements <a class="el" href="classts_1_1_plugin.html#aa25369317e3e5d99800eb41c8c82aa0d">ts::Plugin</a>.</p>
 
 </div>
 </div>
-<a id="a48e3302432369f0aa08c5f0912a336ff"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a48e3302432369f0aa08c5f0912a336ff">&#9670;&nbsp;</a></span>getBitrate()</h2>
+<a id="adb01c9ee98c6c1361e9685aee308e123"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#adb01c9ee98c6c1361e9685aee308e123">&#9670;&nbsp;</a></span>getBitrate()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -561,13 +585,13 @@ volatile int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" hr
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">virtual</span></span>  </td>
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">override</span><span class="mlabel">virtual</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
 
 <p>Get the plugin bitrate. </p>
-<p>The main application may invoke <a class="el" href="classts_1_1_abstract_descrambler.html#a48e3302432369f0aa08c5f0912a336ff" title="Get the plugin bitrate. ">getBitrate()</a> at any time. The semantics depends on the capability.</p><ul>
+<p>The main application may invoke <a class="el" href="classts_1_1_abstract_descrambler.html#adb01c9ee98c6c1361e9685aee308e123" title="Get the plugin bitrate. ">getBitrate()</a> at any time. The semantics depends on the capability.</p><ul>
 <li>Input plugin: Returns the current input bitrate of the device. Useful for real-time devices only.</li>
 <li>Output plugin: Returns the current output bitrate which is used by the device.</li>
 <li>Packet processing plugin: Return the current bitrate at the output of the packet processor. This can be used by packet processors which influence the bitrate by removing packets or introducing delays.</li>
@@ -578,8 +602,8 @@ volatile int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" hr
 
 </div>
 </div>
-<a id="aed8314db38c47db4a984558a25062c64"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aed8314db38c47db4a984558a25062c64">&#9670;&nbsp;</a></span>processPacket()</h2>
+<a id="a8b0b452d3995ba72a40bfc4e53166b3c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8b0b452d3995ba72a40bfc4e53166b3c">&#9670;&nbsp;</a></span>processPacket()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -613,20 +637,20 @@ volatile int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" hr
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">virtual</span></span>  </td>
+<span class="mlabels"><span class="mlabel">override</span><span class="mlabel">virtual</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
 
 <p>Packet processing interface. </p>
-<p>The main application invokes <a class="el" href="classts_1_1_abstract_descrambler.html#aed8314db38c47db4a984558a25062c64" title="Packet processing interface. ">processPacket()</a> to let the shared library process one TS packet.</p>
+<p>The main application invokes <a class="el" href="classts_1_1_abstract_descrambler.html#a8b0b452d3995ba72a40bfc4e53166b3c" title="Packet processing interface. ">processPacket()</a> to let the shared library process one TS packet.</p>
 <p>Dropping packets affect the output bitrate if the output device is a real-time one. With such devices, it is better to replace the undesired packet with a null packet.</p>
 <p>Dropping a packet or changing its PID (including replacing a packet with a null one) affects the continuity counters of the other packets of the original PID.</p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramdir">[in,out]</td><td class="paramname">pkt</td><td>The TS packet to process. </td></tr>
     <tr><td class="paramdir">[in,out]</td><td class="paramname">flush</td><td>Initially set to false. If the method sets <em>flush</em> to true, the packet and all previously processed and buffered packets should be passed to the next processor as soon as possible. </td></tr>
-    <tr><td class="paramdir">[in,out]</td><td class="paramname">bitrate_changed</td><td>Initially set to false. If the method sets <em>bitrate_changed</em> to true, tsp should call the <a class="el" href="classts_1_1_abstract_descrambler.html#a48e3302432369f0aa08c5f0912a336ff" title="Get the plugin bitrate. ">getBitrate()</a> callback as soon as possible. </td></tr>
+    <tr><td class="paramdir">[in,out]</td><td class="paramname">bitrate_changed</td><td>Initially set to false. If the method sets <em>bitrate_changed</em> to true, tsp should call the <a class="el" href="classts_1_1_abstract_descrambler.html#adb01c9ee98c6c1361e9685aee308e123" title="Get the plugin bitrate. ">getBitrate()</a> callback as soon as possible. </td></tr>
   </table>
   </dd>
 </dl>
@@ -945,8 +969,8 @@ volatile int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" hr
 
 </div>
 </div>
-<a id="a230cf1165a66e677acc7a76393eafe7e"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a230cf1165a66e677acc7a76393eafe7e">&#9670;&nbsp;</a></span>handleTable()</h2>
+<a id="a036923d884e3f32182fc8465d09be324"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a036923d884e3f32182fc8465d09be324">&#9670;&nbsp;</a></span>handleTable()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -974,7 +998,7 @@ volatile int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" hr
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">protected</span><span class="mlabel">virtual</span></span>  </td>
+<span class="mlabels"><span class="mlabel">override</span><span class="mlabel">protected</span><span class="mlabel">virtual</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">

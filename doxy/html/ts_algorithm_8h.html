@@ -34,7 +34,7 @@
  <tr style="height: 56px;">
   <td id="projectlogo"><img src="tsduck-32.png"/></td>
    <td id="projectalign"><span id="projectname">TSDuck</span>
-    <span id="projectnumber">Version 3.3</span>
+    <span id="projectnumber">Version 3.4</span>
     <span id="projectbrief">(TSDuck - The MPEG Transport Stream Toolkit)</span>
    </td>
    <td>        <div id="MSearchBox" class="MSearchBoxInactive">
@@ -118,6 +118,22 @@ Functions</h2></td></tr>
 <tr class="memitem:ae0c0c67e025cd6ee1b5a1d6839e12c52"><td class="memTemplItemLeft" align="right" valign="top">bool&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespacets.html#ae0c0c67e025cd6ee1b5a1d6839e12c52">ts::EnumerateCombinations</a> (const std::set&lt; T &gt; &amp;values, const std::set&lt; T &gt; &amp;fixed, size_t size, UnaryPredicate predicate)</td></tr>
 <tr class="memdesc:ae0c0c67e025cd6ee1b5a1d6839e12c52"><td class="mdescLeft">&#160;</td><td class="mdescRight">Enumerate all 'k'-elements combinations of a 'n'-elements set.  <a href="namespacets.html#ae0c0c67e025cd6ee1b5a1d6839e12c52">More...</a><br /></td></tr>
 <tr class="separator:ae0c0c67e025cd6ee1b5a1d6839e12c52"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa6b6a6e38fa8a09c74ee44d0d178674e"><td class="memTemplParams" colspan="2">template&lt;class CONTAINER &gt; </td></tr>
+<tr class="memitem:aa6b6a6e38fa8a09c74ee44d0d178674e"><td class="memTemplItemLeft" align="right" valign="top">size_t&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespacets.html#aa6b6a6e38fa8a09c74ee44d0d178674e">ts::LargestSize</a> (const CONTAINER &amp;container)</td></tr>
+<tr class="memdesc:aa6b6a6e38fa8a09c74ee44d0d178674e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the size of the largest object in a container of objects having a <code>size()</code> method.  <a href="namespacets.html#aa6b6a6e38fa8a09c74ee44d0d178674e">More...</a><br /></td></tr>
+<tr class="separator:aa6b6a6e38fa8a09c74ee44d0d178674e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6c9bcbb95fcd260d306ccaa4c1aaa071"><td class="memTemplParams" colspan="2">template&lt;class MAP &gt; </td></tr>
+<tr class="memitem:a6c9bcbb95fcd260d306ccaa4c1aaa071"><td class="memTemplItemLeft" align="right" valign="top">std::list&lt; typename MAP::key_type &gt;&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespacets.html#a6c9bcbb95fcd260d306ccaa4c1aaa071">ts::MapKeys</a> (const MAP &amp;container)</td></tr>
+<tr class="memdesc:a6c9bcbb95fcd260d306ccaa4c1aaa071"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the list of all keys in a map.  <a href="namespacets.html#a6c9bcbb95fcd260d306ccaa4c1aaa071">More...</a><br /></td></tr>
+<tr class="separator:a6c9bcbb95fcd260d306ccaa4c1aaa071"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a207d6ae9aa19fc106efe2e9a719147e5"><td class="memTemplParams" colspan="2">template&lt;class MAP &gt; </td></tr>
+<tr class="memitem:a207d6ae9aa19fc106efe2e9a719147e5"><td class="memTemplItemLeft" align="right" valign="top">std::list&lt; typename MAP::mapped_type &gt;&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespacets.html#a207d6ae9aa19fc106efe2e9a719147e5">ts::MapValues</a> (const MAP &amp;container)</td></tr>
+<tr class="memdesc:a207d6ae9aa19fc106efe2e9a719147e5"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the list of all values in a map.  <a href="namespacets.html#a207d6ae9aa19fc106efe2e9a719147e5">More...</a><br /></td></tr>
+<tr class="separator:a207d6ae9aa19fc106efe2e9a719147e5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:acddffca0f4b799c16fb4a62a3b67d026"><td class="memTemplParams" colspan="2">template&lt;class CONTAINER &gt; </td></tr>
+<tr class="memitem:acddffca0f4b799c16fb4a62a3b67d026"><td class="memTemplItemLeft" align="right" valign="top">size_t&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespacets.html#acddffca0f4b799c16fb4a62a3b67d026">ts::SmallestSize</a> (const CONTAINER &amp;container)</td></tr>
+<tr class="memdesc:acddffca0f4b799c16fb4a62a3b67d026"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the size of the smallest object in a container of objects having a <code>size()</code> method.  <a href="namespacets.html#acddffca0f4b799c16fb4a62a3b67d026">More...</a><br /></td></tr>
+<tr class="separator:acddffca0f4b799c16fb4a62a3b67d026"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>Miscellaneous C++ algorithms supplementing the standard &lt;algorithm&gt;. </p>

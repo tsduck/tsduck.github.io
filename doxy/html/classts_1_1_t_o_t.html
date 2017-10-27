@@ -34,7 +34,7 @@
  <tr style="height: 56px;">
   <td id="projectlogo"><img src="tsduck-32.png"/></td>
    <td id="projectalign"><span id="projectname">TSDuck</span>
-    <span id="projectnumber">Version 3.3</span>
+    <span id="projectnumber">Version 3.4</span>
     <span id="projectbrief">(TSDuck - The MPEG Transport Stream Toolkit)</span>
    </td>
    <td>        <div id="MSearchBox" class="MSearchBoxInactive">
@@ -109,7 +109,8 @@ Inheritance diagram for ts::TOT:</div>
 <div class="dyncontent">
 <div class="center"><img src="classts_1_1_t_o_t__inherit__graph.png" border="0" usemap="#ts_1_1_t_o_t_inherit__map" alt="Inheritance graph"/></div>
 <map name="ts_1_1_t_o_t_inherit__map" id="ts_1_1_t_o_t_inherit__map">
-<area shape="rect" id="node2" href="classts_1_1_abstract_table.html" title="Abstract base class for MPEG PSI/SI tables. " alt="" coords="5,5,125,31"/>
+<area shape="rect" id="node2" href="classts_1_1_abstract_table.html" title="Abstract base class for MPEG PSI/SI tables. " alt="" coords="27,79,147,104"/>
+<area shape="rect" id="node3" href="classts_1_1_abstract_signalization.html" title="Abstract base class for MPEG PSI/SI tables and descriptors. " alt="" coords="5,5,169,31"/>
 </map>
 <center><span class="legend">[<a target="top" href="graph_legend.html">legend</a>]</span></center></div>
 <div class="dynheader">
@@ -117,9 +118,10 @@ Collaboration diagram for ts::TOT:</div>
 <div class="dyncontent">
 <div class="center"><img src="classts_1_1_t_o_t__coll__graph.png" border="0" usemap="#ts_1_1_t_o_t_coll__map" alt="Collaboration graph"/></div>
 <map name="ts_1_1_t_o_t_coll__map" id="ts_1_1_t_o_t_coll__map">
-<area shape="rect" id="node2" href="classts_1_1_abstract_table.html" title="Abstract base class for MPEG PSI/SI tables. " alt="" coords="5,6,125,31"/>
-<area shape="rect" id="node3" href="classts_1_1_time.html" title="The Time class implements a basic representation of time. " alt="" coords="150,6,218,31"/>
-<area shape="rect" id="node4" href="classts_1_1_descriptor_list.html" title="List of MPEG PSI/SI descriptors. " alt="" coords="334,6,455,31"/>
+<area shape="rect" id="node2" href="classts_1_1_abstract_table.html" title="Abstract base class for MPEG PSI/SI tables. " alt="" coords="27,81,147,106"/>
+<area shape="rect" id="node3" href="classts_1_1_abstract_signalization.html" title="Abstract base class for MPEG PSI/SI tables and descriptors. " alt="" coords="5,5,169,31"/>
+<area shape="rect" id="node4" href="classts_1_1_time.html" title="The Time class implements a basic representation of time. " alt="" coords="172,81,240,106"/>
+<area shape="rect" id="node5" href="classts_1_1_descriptor_list.html" title="List of MPEG PSI/SI descriptors. " alt="" coords="356,81,477,106"/>
 </map>
 <center><span class="legend">[<a target="top" href="graph_legend.html">legend</a>]</span></center></div>
 <table class="memberdecls">
@@ -139,41 +141,46 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a5097681e96c89fbf06e5f2429097e95f"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classts_1_1_t_o_t.html#a5097681e96c89fbf06e5f2429097e95f">TOT</a> (const <a class="el" href="classts_1_1_time.html">Time</a> &amp;<a class="el" href="classts_1_1_t_o_t.html#a49e1c0483e541c6dc51e6ba5297b534b">utc_time</a>=<a class="el" href="classts_1_1_time.html#aaddf023d4de5d142e36f599e34ae0294">Time::Epoch</a>)</td></tr>
 <tr class="memdesc:a5097681e96c89fbf06e5f2429097e95f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Default constructor.  <a href="#a5097681e96c89fbf06e5f2429097e95f">More...</a><br /></td></tr>
 <tr class="separator:a5097681e96c89fbf06e5f2429097e95f"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ad772d2739bac6797f824ad0779244714"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classts_1_1_t_o_t.html#ad772d2739bac6797f824ad0779244714">TOT</a> (const <a class="el" href="classts_1_1_binary_table.html">BinaryTable</a> &amp;table)</td></tr>
-<tr class="memdesc:ad772d2739bac6797f824ad0779244714"><td class="mdescLeft">&#160;</td><td class="mdescRight">Constructor from a binary table.  <a href="#ad772d2739bac6797f824ad0779244714">More...</a><br /></td></tr>
-<tr class="separator:ad772d2739bac6797f824ad0779244714"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a3078493232dd7f953aa5cee2d6044e49"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classts_1_1_t_o_t.html#a3078493232dd7f953aa5cee2d6044e49">deserialize</a> (const <a class="el" href="classts_1_1_binary_table.html">BinaryTable</a> &amp;table)</td></tr>
-<tr class="memdesc:a3078493232dd7f953aa5cee2d6044e49"><td class="mdescLeft">&#160;</td><td class="mdescRight">This abstract method deserializes a binary table.  <a href="#a3078493232dd7f953aa5cee2d6044e49">More...</a><br /></td></tr>
-<tr class="separator:a3078493232dd7f953aa5cee2d6044e49"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a976e53b1856eb5ae50522fe463b785da"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classts_1_1_t_o_t.html#a976e53b1856eb5ae50522fe463b785da">fromXML</a> (<a class="el" href="classts_1_1_x_m_l.html">XML</a> &amp;xml, const <a class="el" href="classts_1_1_x_m_l.html#a26f880956a579ee4a9fc7b7db75d37ed">XML::Element</a> *element)</td></tr>
-<tr class="memdesc:a976e53b1856eb5ae50522fe463b785da"><td class="mdescLeft">&#160;</td><td class="mdescRight">This abstract converts an <a class="el" href="classts_1_1_x_m_l.html" title="XML utility class with error reporting. ">XML</a> structure to a table.  <a href="#a976e53b1856eb5ae50522fe463b785da">More...</a><br /></td></tr>
-<tr class="separator:a976e53b1856eb5ae50522fe463b785da"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae608e9587d8be2e9000998bf2e704927"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classts_1_1_t_o_t.html#ae608e9587d8be2e9000998bf2e704927">TOT</a> (const <a class="el" href="classts_1_1_binary_table.html">BinaryTable</a> &amp;table, const <a class="el" href="classts_1_1_d_v_b_charset.html">DVBCharset</a> *charset=0)</td></tr>
+<tr class="memdesc:ae608e9587d8be2e9000998bf2e704927"><td class="mdescLeft">&#160;</td><td class="mdescRight">Constructor from a binary table.  <a href="#ae608e9587d8be2e9000998bf2e704927">More...</a><br /></td></tr>
+<tr class="separator:ae608e9587d8be2e9000998bf2e704927"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ace7b17db51d0b49d052ca4cd7ebb5d8c"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classts_1_1_t_o_t.html#ace7b17db51d0b49d052ca4cd7ebb5d8c">deserialize</a> (const <a class="el" href="classts_1_1_binary_table.html">BinaryTable</a> &amp;table, const <a class="el" href="classts_1_1_d_v_b_charset.html">DVBCharset</a> *=0) override</td></tr>
+<tr class="memdesc:ace7b17db51d0b49d052ca4cd7ebb5d8c"><td class="mdescLeft">&#160;</td><td class="mdescRight">This abstract method deserializes a binary table.  <a href="#ace7b17db51d0b49d052ca4cd7ebb5d8c">More...</a><br /></td></tr>
+<tr class="separator:ace7b17db51d0b49d052ca4cd7ebb5d8c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1bc822177a6bc8f3c4df5ddd55977861"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classts_1_1_t_o_t.html#a1bc822177a6bc8f3c4df5ddd55977861">fromXML</a> (<a class="el" href="classts_1_1_x_m_l.html">XML</a> &amp;, const <a class="el" href="classts_1_1_x_m_l.html#a26f880956a579ee4a9fc7b7db75d37ed">XML::Element</a> *) override</td></tr>
+<tr class="memdesc:a1bc822177a6bc8f3c4df5ddd55977861"><td class="mdescLeft">&#160;</td><td class="mdescRight">This abstract converts an <a class="el" href="classts_1_1_x_m_l.html" title="XML utility class with error reporting. ">XML</a> structure to a table or descriptor.  <a href="#a1bc822177a6bc8f3c4df5ddd55977861">More...</a><br /></td></tr>
+<tr class="separator:a1bc822177a6bc8f3c4df5ddd55977861"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ab683d5c310a3b4d4689af88b8d55a73c"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classts_1_1_time.html">Time</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classts_1_1_t_o_t.html#ab683d5c310a3b4d4689af88b8d55a73c">localTime</a> (const <a class="el" href="classts_1_1_t_o_t.html#ac58420f21ecc095f55e8b040c9e14cd5">Region</a> &amp;region) const</td></tr>
 <tr class="memdesc:ab683d5c310a3b4d4689af88b8d55a73c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the local time according to a region description.  <a href="#ab683d5c310a3b4d4689af88b8d55a73c">More...</a><br /></td></tr>
 <tr class="separator:ab683d5c310a3b4d4689af88b8d55a73c"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aadb0d23aa567015dec3646d63137fdb5"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classts_1_1_t_o_t.html#aadb0d23aa567015dec3646d63137fdb5">serialize</a> (<a class="el" href="classts_1_1_binary_table.html">BinaryTable</a> &amp;table) const</td></tr>
-<tr class="memdesc:aadb0d23aa567015dec3646d63137fdb5"><td class="mdescLeft">&#160;</td><td class="mdescRight">This abstract method serializes a table.  <a href="#aadb0d23aa567015dec3646d63137fdb5">More...</a><br /></td></tr>
-<tr class="separator:aadb0d23aa567015dec3646d63137fdb5"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a2339a16a2058f41d428adb8f2932339d"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="classts_1_1_x_m_l.html#a26f880956a579ee4a9fc7b7db75d37ed">XML::Element</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classts_1_1_t_o_t.html#a2339a16a2058f41d428adb8f2932339d">toXML</a> (<a class="el" href="classts_1_1_x_m_l.html">XML</a> &amp;xml, <a class="el" href="classts_1_1_x_m_l.html#a26f880956a579ee4a9fc7b7db75d37ed">XML::Element</a> *parent) const</td></tr>
-<tr class="memdesc:a2339a16a2058f41d428adb8f2932339d"><td class="mdescLeft">&#160;</td><td class="mdescRight">This abstract method converts the table to <a class="el" href="classts_1_1_x_m_l.html" title="XML utility class with error reporting. ">XML</a>.  <a href="#a2339a16a2058f41d428adb8f2932339d">More...</a><br /></td></tr>
-<tr class="separator:a2339a16a2058f41d428adb8f2932339d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a35658747d0782b7c251e4ad6a6e7505c"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classts_1_1_t_o_t.html#a35658747d0782b7c251e4ad6a6e7505c">serialize</a> (<a class="el" href="classts_1_1_binary_table.html">BinaryTable</a> &amp;table, const <a class="el" href="classts_1_1_d_v_b_charset.html">DVBCharset</a> *=0) const override</td></tr>
+<tr class="memdesc:a35658747d0782b7c251e4ad6a6e7505c"><td class="mdescLeft">&#160;</td><td class="mdescRight">This abstract method serializes a table.  <a href="#a35658747d0782b7c251e4ad6a6e7505c">More...</a><br /></td></tr>
+<tr class="separator:a35658747d0782b7c251e4ad6a6e7505c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:abd038dd4c544bbc32194baba3e39585d"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="classts_1_1_x_m_l.html#a26f880956a579ee4a9fc7b7db75d37ed">XML::Element</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classts_1_1_t_o_t.html#abd038dd4c544bbc32194baba3e39585d">toXML</a> (<a class="el" href="classts_1_1_x_m_l.html">XML</a> &amp;, <a class="el" href="classts_1_1_x_m_l.html#a26f880956a579ee4a9fc7b7db75d37ed">XML::Element</a> *) const override</td></tr>
+<tr class="memdesc:abd038dd4c544bbc32194baba3e39585d"><td class="mdescLeft">&#160;</td><td class="mdescRight">This abstract method converts this object to <a class="el" href="classts_1_1_x_m_l.html" title="XML utility class with error reporting. ">XML</a>.  <a href="#abd038dd4c544bbc32194baba3e39585d">More...</a><br /></td></tr>
+<tr class="separator:abd038dd4c544bbc32194baba3e39585d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="inherit_header pub_methods_classts_1_1_abstract_table"><td colspan="2" onclick="javascript:toggleInherit('pub_methods_classts_1_1_abstract_table')"><img src="closed.png" alt="-"/>&#160;Public Member Functions inherited from <a class="el" href="classts_1_1_abstract_table.html">ts::AbstractTable</a></td></tr>
 <tr class="memitem:a22e67478af17af58d3597c102f5d3b9b inherit pub_methods_classts_1_1_abstract_table"><td class="memItemLeft" align="right" valign="top"><a id="a22e67478af17af58d3597c102f5d3b9b"></a>
 virtual&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classts_1_1_abstract_table.html#a22e67478af17af58d3597c102f5d3b9b">~AbstractTable</a> ()</td></tr>
 <tr class="memdesc:a22e67478af17af58d3597c102f5d3b9b inherit pub_methods_classts_1_1_abstract_table"><td class="mdescLeft">&#160;</td><td class="mdescRight">Virtual destructor. <br /></td></tr>
 <tr class="separator:a22e67478af17af58d3597c102f5d3b9b inherit pub_methods_classts_1_1_abstract_table"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:af53d60d4cfd74f7898dc076ea21ab19e inherit pub_methods_classts_1_1_abstract_table"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classts_1_1_abstract_table.html#af53d60d4cfd74f7898dc076ea21ab19e">invalidate</a> ()</td></tr>
-<tr class="memdesc:af53d60d4cfd74f7898dc076ea21ab19e inherit pub_methods_classts_1_1_abstract_table"><td class="mdescLeft">&#160;</td><td class="mdescRight">Invalidate the table.  <a href="classts_1_1_abstract_table.html#af53d60d4cfd74f7898dc076ea21ab19e">More...</a><br /></td></tr>
-<tr class="separator:af53d60d4cfd74f7898dc076ea21ab19e inherit pub_methods_classts_1_1_abstract_table"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a4ebc653b99460ef09e1af9127136bfd7 inherit pub_methods_classts_1_1_abstract_table"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classts_1_1_abstract_table.html#a4ebc653b99460ef09e1af9127136bfd7">isValid</a> () const</td></tr>
-<tr class="memdesc:a4ebc653b99460ef09e1af9127136bfd7 inherit pub_methods_classts_1_1_abstract_table"><td class="mdescLeft">&#160;</td><td class="mdescRight">Check if the table is valid.  <a href="classts_1_1_abstract_table.html#a4ebc653b99460ef09e1af9127136bfd7">More...</a><br /></td></tr>
-<tr class="separator:a4ebc653b99460ef09e1af9127136bfd7 inherit pub_methods_classts_1_1_abstract_table"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a8370f08a385a16905f44426e0dad8c2b inherit pub_methods_classts_1_1_abstract_table"><td class="memItemLeft" align="right" valign="top"><a class="el" href="namespacets.html#a3c2cbf0a41a7db2577a737cc9568e3cb">TID</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classts_1_1_abstract_table.html#a8370f08a385a16905f44426e0dad8c2b">tableId</a> () const</td></tr>
 <tr class="memdesc:a8370f08a385a16905f44426e0dad8c2b inherit pub_methods_classts_1_1_abstract_table"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the table_id.  <a href="classts_1_1_abstract_table.html#a8370f08a385a16905f44426e0dad8c2b">More...</a><br /></td></tr>
 <tr class="separator:a8370f08a385a16905f44426e0dad8c2b inherit pub_methods_classts_1_1_abstract_table"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a6510e2d4be62fb55a33816f9c6411abb inherit pub_methods_classts_1_1_abstract_table"><td class="memItemLeft" align="right" valign="top">std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classts_1_1_abstract_table.html#a6510e2d4be62fb55a33816f9c6411abb">xmlName</a> () const</td></tr>
-<tr class="memdesc:a6510e2d4be62fb55a33816f9c6411abb inherit pub_methods_classts_1_1_abstract_table"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the XMl node name representing this table.  <a href="classts_1_1_abstract_table.html#a6510e2d4be62fb55a33816f9c6411abb">More...</a><br /></td></tr>
-<tr class="separator:a6510e2d4be62fb55a33816f9c6411abb inherit pub_methods_classts_1_1_abstract_table"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="inherit_header pub_methods_classts_1_1_abstract_signalization"><td colspan="2" onclick="javascript:toggleInherit('pub_methods_classts_1_1_abstract_signalization')"><img src="closed.png" alt="-"/>&#160;Public Member Functions inherited from <a class="el" href="classts_1_1_abstract_signalization.html">ts::AbstractSignalization</a></td></tr>
+<tr class="memitem:a368aed5aa23c4932881acceb12a7ccf5 inherit pub_methods_classts_1_1_abstract_signalization"><td class="memItemLeft" align="right" valign="top"><a id="a368aed5aa23c4932881acceb12a7ccf5"></a>
+virtual&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classts_1_1_abstract_signalization.html#a368aed5aa23c4932881acceb12a7ccf5">~AbstractSignalization</a> ()</td></tr>
+<tr class="memdesc:a368aed5aa23c4932881acceb12a7ccf5 inherit pub_methods_classts_1_1_abstract_signalization"><td class="mdescLeft">&#160;</td><td class="mdescRight">Virtual destructor. <br /></td></tr>
+<tr class="separator:a368aed5aa23c4932881acceb12a7ccf5 inherit pub_methods_classts_1_1_abstract_signalization"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1aca8115129275bdd9c384e822301f0a inherit pub_methods_classts_1_1_abstract_signalization"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classts_1_1_abstract_signalization.html#a1aca8115129275bdd9c384e822301f0a">invalidate</a> ()</td></tr>
+<tr class="memdesc:a1aca8115129275bdd9c384e822301f0a inherit pub_methods_classts_1_1_abstract_signalization"><td class="mdescLeft">&#160;</td><td class="mdescRight">Invalidate this object.  <a href="classts_1_1_abstract_signalization.html#a1aca8115129275bdd9c384e822301f0a">More...</a><br /></td></tr>
+<tr class="separator:a1aca8115129275bdd9c384e822301f0a inherit pub_methods_classts_1_1_abstract_signalization"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af7aa8ceb8b698ab219c05a36b0e97291 inherit pub_methods_classts_1_1_abstract_signalization"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classts_1_1_abstract_signalization.html#af7aa8ceb8b698ab219c05a36b0e97291">isValid</a> () const</td></tr>
+<tr class="memdesc:af7aa8ceb8b698ab219c05a36b0e97291 inherit pub_methods_classts_1_1_abstract_signalization"><td class="mdescLeft">&#160;</td><td class="mdescRight">Check if this object is valid.  <a href="classts_1_1_abstract_signalization.html#af7aa8ceb8b698ab219c05a36b0e97291">More...</a><br /></td></tr>
+<tr class="separator:af7aa8ceb8b698ab219c05a36b0e97291 inherit pub_methods_classts_1_1_abstract_signalization"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac1e97eef4f39320c61192c6bde591dca inherit pub_methods_classts_1_1_abstract_signalization"><td class="memItemLeft" align="right" valign="top">std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classts_1_1_abstract_signalization.html#ac1e97eef4f39320c61192c6bde591dca">xmlName</a> () const</td></tr>
+<tr class="memdesc:ac1e97eef4f39320c61192c6bde591dca inherit pub_methods_classts_1_1_abstract_signalization"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the XMl node name representing this table or descriptor.  <a href="classts_1_1_abstract_signalization.html#ac1e97eef4f39320c61192c6bde591dca">More...</a><br /></td></tr>
+<tr class="separator:ac1e97eef4f39320c61192c6bde591dca inherit pub_methods_classts_1_1_abstract_signalization"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-static-methods"></a>
 Static Public Member Functions</h2></td></tr>
@@ -205,22 +212,40 @@ Additional Inherited Members</h2></td></tr>
 <tr class="memitem:a868e27dcea4503335666c46c6b8bde6d inherit pro_methods_classts_1_1_abstract_table"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classts_1_1_abstract_table.html#a868e27dcea4503335666c46c6b8bde6d">AbstractTable</a> (<a class="el" href="namespacets.html#a3c2cbf0a41a7db2577a737cc9568e3cb">TID</a> tid, const char *xml_name)</td></tr>
 <tr class="memdesc:a868e27dcea4503335666c46c6b8bde6d inherit pro_methods_classts_1_1_abstract_table"><td class="mdescLeft">&#160;</td><td class="mdescRight">Protected constructor for subclasses.  <a href="classts_1_1_abstract_table.html#a868e27dcea4503335666c46c6b8bde6d">More...</a><br /></td></tr>
 <tr class="separator:a868e27dcea4503335666c46c6b8bde6d inherit pro_methods_classts_1_1_abstract_table"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a8fca59064e87d29eb77bd5455145f4e3 inherit pro_methods_classts_1_1_abstract_table"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classts_1_1_abstract_table.html#a8fca59064e87d29eb77bd5455145f4e3">checkXMLName</a> (<a class="el" href="classts_1_1_x_m_l.html">XML</a> &amp;xml, const <a class="el" href="classts_1_1_x_m_l.html#a26f880956a579ee4a9fc7b7db75d37ed">XML::Element</a> *element) const</td></tr>
-<tr class="memdesc:a8fca59064e87d29eb77bd5455145f4e3 inherit pro_methods_classts_1_1_abstract_table"><td class="mdescLeft">&#160;</td><td class="mdescRight">Check that an <a class="el" href="classts_1_1_x_m_l.html" title="XML utility class with error reporting. ">XML</a> element has the right name for this table.  <a href="classts_1_1_abstract_table.html#a8fca59064e87d29eb77bd5455145f4e3">More...</a><br /></td></tr>
-<tr class="separator:a8fca59064e87d29eb77bd5455145f4e3 inherit pro_methods_classts_1_1_abstract_table"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="inherit_header pro_methods_classts_1_1_abstract_signalization"><td colspan="2" onclick="javascript:toggleInherit('pro_methods_classts_1_1_abstract_signalization')"><img src="closed.png" alt="-"/>&#160;Protected Member Functions inherited from <a class="el" href="classts_1_1_abstract_signalization.html">ts::AbstractSignalization</a></td></tr>
+<tr class="memitem:a5d4cc35ff3c30d6eb82b640b9ea60cd3 inherit pro_methods_classts_1_1_abstract_signalization"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classts_1_1_abstract_signalization.html#a5d4cc35ff3c30d6eb82b640b9ea60cd3">AbstractSignalization</a> (const char *xml_name)</td></tr>
+<tr class="memdesc:a5d4cc35ff3c30d6eb82b640b9ea60cd3 inherit pro_methods_classts_1_1_abstract_signalization"><td class="mdescLeft">&#160;</td><td class="mdescRight">Protected constructor for subclasses.  <a href="classts_1_1_abstract_signalization.html#a5d4cc35ff3c30d6eb82b640b9ea60cd3">More...</a><br /></td></tr>
+<tr class="separator:a5d4cc35ff3c30d6eb82b640b9ea60cd3 inherit pro_methods_classts_1_1_abstract_signalization"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a75310559ce93be9e8ac2d1435ac556c9 inherit pro_methods_classts_1_1_abstract_signalization"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classts_1_1_abstract_signalization.html#a75310559ce93be9e8ac2d1435ac556c9">AbstractSignalization</a> (const <a class="el" href="classts_1_1_abstract_signalization.html">AbstractSignalization</a> &amp;other)</td></tr>
+<tr class="memdesc:a75310559ce93be9e8ac2d1435ac556c9 inherit pro_methods_classts_1_1_abstract_signalization"><td class="mdescLeft">&#160;</td><td class="mdescRight">Copy constructor.  <a href="classts_1_1_abstract_signalization.html#a75310559ce93be9e8ac2d1435ac556c9">More...</a><br /></td></tr>
+<tr class="separator:a75310559ce93be9e8ac2d1435ac556c9 inherit pro_methods_classts_1_1_abstract_signalization"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1e4c55a748466e540661323200b0bf44 inherit pro_methods_classts_1_1_abstract_signalization"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classts_1_1_abstract_signalization.html#a1e4c55a748466e540661323200b0bf44">checkXMLName</a> (<a class="el" href="classts_1_1_x_m_l.html">XML</a> &amp;xml, const <a class="el" href="classts_1_1_x_m_l.html#a26f880956a579ee4a9fc7b7db75d37ed">XML::Element</a> *element) const</td></tr>
+<tr class="memdesc:a1e4c55a748466e540661323200b0bf44 inherit pro_methods_classts_1_1_abstract_signalization"><td class="mdescLeft">&#160;</td><td class="mdescRight">Check that an <a class="el" href="classts_1_1_x_m_l.html" title="XML utility class with error reporting. ">XML</a> element has the right name for this table.  <a href="classts_1_1_abstract_signalization.html#a1e4c55a748466e540661323200b0bf44">More...</a><br /></td></tr>
+<tr class="separator:a1e4c55a748466e540661323200b0bf44 inherit pro_methods_classts_1_1_abstract_signalization"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab1dffa39cccc9bd7ae4bef3fe074bbaa inherit pro_methods_classts_1_1_abstract_signalization"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classts_1_1_abstract_signalization.html">AbstractSignalization</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classts_1_1_abstract_signalization.html#ab1dffa39cccc9bd7ae4bef3fe074bbaa">operator=</a> (const <a class="el" href="classts_1_1_abstract_signalization.html">AbstractSignalization</a> &amp;other)</td></tr>
+<tr class="memdesc:ab1dffa39cccc9bd7ae4bef3fe074bbaa inherit pro_methods_classts_1_1_abstract_signalization"><td class="mdescLeft">&#160;</td><td class="mdescRight">Assignment operator.  <a href="classts_1_1_abstract_signalization.html#ab1dffa39cccc9bd7ae4bef3fe074bbaa">More...</a><br /></td></tr>
+<tr class="separator:ab1dffa39cccc9bd7ae4bef3fe074bbaa inherit pro_methods_classts_1_1_abstract_signalization"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="inherit_header pro_static_methods_classts_1_1_abstract_signalization"><td colspan="2" onclick="javascript:toggleInherit('pro_static_methods_classts_1_1_abstract_signalization')"><img src="closed.png" alt="-"/>&#160;Static Protected Member Functions inherited from <a class="el" href="classts_1_1_abstract_signalization.html">ts::AbstractSignalization</a></td></tr>
+<tr class="memitem:a861d449ce53da7fdb3dd92135b91b022 inherit pro_static_methods_classts_1_1_abstract_signalization"><td class="memItemLeft" align="right" valign="top">static bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classts_1_1_abstract_signalization.html#a861d449ce53da7fdb3dd92135b91b022">SerializeFixedLength</a> (<a class="el" href="classts_1_1_byte_block.html">ByteBlock</a> &amp;bb, const <a class="el" href="classts_1_1_u_string.html">UString</a> &amp;str, const size_t size, const <a class="el" href="classts_1_1_d_v_b_charset.html">DVBCharset</a> *charset=0)</td></tr>
+<tr class="memdesc:a861d449ce53da7fdb3dd92135b91b022 inherit pro_static_methods_classts_1_1_abstract_signalization"><td class="mdescLeft">&#160;</td><td class="mdescRight">This static method serializes a DVB string with a required fixed size.  <a href="classts_1_1_abstract_signalization.html#a861d449ce53da7fdb3dd92135b91b022">More...</a><br /></td></tr>
+<tr class="separator:a861d449ce53da7fdb3dd92135b91b022 inherit pro_static_methods_classts_1_1_abstract_signalization"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae02743b0076183fb615027b8bc88b26a inherit pro_static_methods_classts_1_1_abstract_signalization"><td class="memItemLeft" align="right" valign="top">static bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classts_1_1_abstract_signalization.html#ae02743b0076183fb615027b8bc88b26a">SerializeLanguageCode</a> (<a class="el" href="classts_1_1_byte_block.html">ByteBlock</a> &amp;bb, const <a class="el" href="classts_1_1_u_string.html">UString</a> &amp;str, const <a class="el" href="classts_1_1_d_v_b_charset.html">DVBCharset</a> *charset=0)</td></tr>
+<tr class="memdesc:ae02743b0076183fb615027b8bc88b26a inherit pro_static_methods_classts_1_1_abstract_signalization"><td class="mdescLeft">&#160;</td><td class="mdescRight">This abstract method serializes a 3-byte language or country code.  <a href="classts_1_1_abstract_signalization.html#ae02743b0076183fb615027b8bc88b26a">More...</a><br /></td></tr>
+<tr class="separator:ae02743b0076183fb615027b8bc88b26a inherit pro_static_methods_classts_1_1_abstract_signalization"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="inherit_header pro_attribs_classts_1_1_abstract_table"><td colspan="2" onclick="javascript:toggleInherit('pro_attribs_classts_1_1_abstract_table')"><img src="closed.png" alt="-"/>&#160;Protected Attributes inherited from <a class="el" href="classts_1_1_abstract_table.html">ts::AbstractTable</a></td></tr>
-<tr class="memitem:a5730fc001c44c13974576331159a02dc inherit pro_attribs_classts_1_1_abstract_table"><td class="memItemLeft" align="right" valign="top"><a id="a5730fc001c44c13974576331159a02dc"></a>
-bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classts_1_1_abstract_table.html#a5730fc001c44c13974576331159a02dc">_is_valid</a></td></tr>
-<tr class="memdesc:a5730fc001c44c13974576331159a02dc inherit pro_attribs_classts_1_1_abstract_table"><td class="mdescLeft">&#160;</td><td class="mdescRight">It is the responsibility of the subclasses to set the valid flag. <br /></td></tr>
-<tr class="separator:a5730fc001c44c13974576331159a02dc inherit pro_attribs_classts_1_1_abstract_table"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aaf93d7ef2b8c8430e95a487e3eaebaaa inherit pro_attribs_classts_1_1_abstract_table"><td class="memItemLeft" align="right" valign="top"><a id="aaf93d7ef2b8c8430e95a487e3eaebaaa"></a>
 <a class="el" href="namespacets.html#a3c2cbf0a41a7db2577a737cc9568e3cb">TID</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classts_1_1_abstract_table.html#aaf93d7ef2b8c8430e95a487e3eaebaaa">_table_id</a></td></tr>
 <tr class="memdesc:aaf93d7ef2b8c8430e95a487e3eaebaaa inherit pro_attribs_classts_1_1_abstract_table"><td class="mdescLeft">&#160;</td><td class="mdescRight">The table id can be modified by subclasses only. <br /></td></tr>
 <tr class="separator:aaf93d7ef2b8c8430e95a487e3eaebaaa inherit pro_attribs_classts_1_1_abstract_table"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a5706a08b60445d4ec2dc4618f3676505 inherit pro_attribs_classts_1_1_abstract_table"><td class="memItemLeft" align="right" valign="top"><a id="a5706a08b60445d4ec2dc4618f3676505"></a>
-const char *const&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classts_1_1_abstract_table.html#a5706a08b60445d4ec2dc4618f3676505">_xml_name</a></td></tr>
-<tr class="memdesc:a5706a08b60445d4ec2dc4618f3676505 inherit pro_attribs_classts_1_1_abstract_table"><td class="mdescLeft">&#160;</td><td class="mdescRight"><a class="el" href="classts_1_1_x_m_l.html" title="XML utility class with error reporting. ">XML</a> table name. <br /></td></tr>
-<tr class="separator:a5706a08b60445d4ec2dc4618f3676505 inherit pro_attribs_classts_1_1_abstract_table"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="inherit_header pro_attribs_classts_1_1_abstract_signalization"><td colspan="2" onclick="javascript:toggleInherit('pro_attribs_classts_1_1_abstract_signalization')"><img src="closed.png" alt="-"/>&#160;Protected Attributes inherited from <a class="el" href="classts_1_1_abstract_signalization.html">ts::AbstractSignalization</a></td></tr>
+<tr class="memitem:a656c83e401104eb45581a2867fe758dc inherit pro_attribs_classts_1_1_abstract_signalization"><td class="memItemLeft" align="right" valign="top"><a id="a656c83e401104eb45581a2867fe758dc"></a>
+bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classts_1_1_abstract_signalization.html#a656c83e401104eb45581a2867fe758dc">_is_valid</a></td></tr>
+<tr class="memdesc:a656c83e401104eb45581a2867fe758dc inherit pro_attribs_classts_1_1_abstract_signalization"><td class="mdescLeft">&#160;</td><td class="mdescRight">It is the responsibility of the subclasses to set the valid flag. <br /></td></tr>
+<tr class="separator:a656c83e401104eb45581a2867fe758dc inherit pro_attribs_classts_1_1_abstract_signalization"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:adbdb079a82724b6fb5e6af93ad37afb0 inherit pro_attribs_classts_1_1_abstract_signalization"><td class="memItemLeft" align="right" valign="top"><a id="adbdb079a82724b6fb5e6af93ad37afb0"></a>
+const char *const&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classts_1_1_abstract_signalization.html#adbdb079a82724b6fb5e6af93ad37afb0">_xml_name</a></td></tr>
+<tr class="memdesc:adbdb079a82724b6fb5e6af93ad37afb0 inherit pro_attribs_classts_1_1_abstract_signalization"><td class="mdescLeft">&#160;</td><td class="mdescRight"><a class="el" href="classts_1_1_x_m_l.html" title="XML utility class with error reporting. ">XML</a> table or descriptor name in UTF-8 representation. <br /></td></tr>
+<tr class="separator:adbdb079a82724b6fb5e6af93ad37afb0 inherit pro_attribs_classts_1_1_abstract_signalization"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>Representation of a <a class="el" href="classts_1_1_time.html" title="The Time class implements a basic representation of time. ">Time</a> Offset Table (<a class="el" href="classts_1_1_t_o_t.html" title="Representation of a Time Offset Table (TOT) ">TOT</a>) </p>
@@ -251,8 +276,8 @@ const char *const&#160;</td><td class="memItemRight" valign="bottom"><a class="e
 
 </div>
 </div>
-<a id="ad772d2739bac6797f824ad0779244714"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ad772d2739bac6797f824ad0779244714">&#9670;&nbsp;</a></span>TOT() <span class="overload">[2/2]</span></h2>
+<a id="ae608e9587d8be2e9000998bf2e704927"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae608e9587d8be2e9000998bf2e704927">&#9670;&nbsp;</a></span>TOT() <span class="overload">[2/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -261,8 +286,18 @@ const char *const&#160;</td><td class="memItemRight" valign="bottom"><a class="e
           <td class="memname">ts::TOT::TOT </td>
           <td>(</td>
           <td class="paramtype">const <a class="el" href="classts_1_1_binary_table.html">BinaryTable</a> &amp;&#160;</td>
-          <td class="paramname"><em>table</em></td><td>)</td>
+          <td class="paramname"><em>table</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
           <td></td>
+          <td class="paramtype">const <a class="el" href="classts_1_1_d_v_b_charset.html">DVBCharset</a> *&#160;</td>
+          <td class="paramname"><em>charset</em> = <code>0</code>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -271,6 +306,7 @@ const char *const&#160;</td><td class="memItemRight" valign="bottom"><a class="e
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramdir">[in]</td><td class="paramname">table</td><td>Binary table to deserialize. </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">charset</td><td>If not zero, character set to use without explicit table code. </td></tr>
   </table>
   </dd>
 </dl>
@@ -340,8 +376,8 @@ const char *const&#160;</td><td class="memItemRight" valign="bottom"><a class="e
 
 </div>
 </div>
-<a id="aadb0d23aa567015dec3646d63137fdb5"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aadb0d23aa567015dec3646d63137fdb5">&#9670;&nbsp;</a></span>serialize()</h2>
+<a id="a35658747d0782b7c251e4ad6a6e7505c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a35658747d0782b7c251e4ad6a6e7505c">&#9670;&nbsp;</a></span>serialize()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -353,13 +389,23 @@ const char *const&#160;</td><td class="memItemRight" valign="bottom"><a class="e
           <td class="memname">virtual void ts::TOT::serialize </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="classts_1_1_binary_table.html">BinaryTable</a> &amp;&#160;</td>
-          <td class="paramname"><em>bin</em></td><td>)</td>
-          <td> const</td>
+          <td class="paramname"><em>bin</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="classts_1_1_d_v_b_charset.html">DVBCharset</a> *&#160;</td>
+          <td class="paramname"><em>charset</em> = <code>0</code>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td> const</td>
         </tr>
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">virtual</span></span>  </td>
+<span class="mlabels"><span class="mlabel">override</span><span class="mlabel">virtual</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
@@ -368,16 +414,17 @@ const char *const&#160;</td><td class="memItemRight" valign="bottom"><a class="e
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramdir">[out]</td><td class="paramname">bin</td><td>A binary table object. Its content is replaced with a binary representation of this object. </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">charset</td><td>If not zero, default character set to use. </td></tr>
   </table>
   </dd>
 </dl>
 
-<p>Implements <a class="el" href="classts_1_1_abstract_table.html#a6c8a5e79455e6b6e5d68df8b7c1e516e">ts::AbstractTable</a>.</p>
+<p>Implements <a class="el" href="classts_1_1_abstract_table.html#a9e18dd5e456ba5b138261d5e0a1cd861">ts::AbstractTable</a>.</p>
 
 </div>
 </div>
-<a id="a3078493232dd7f953aa5cee2d6044e49"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a3078493232dd7f953aa5cee2d6044e49">&#9670;&nbsp;</a></span>deserialize()</h2>
+<a id="ace7b17db51d0b49d052ca4cd7ebb5d8c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ace7b17db51d0b49d052ca4cd7ebb5d8c">&#9670;&nbsp;</a></span>deserialize()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -389,13 +436,23 @@ const char *const&#160;</td><td class="memItemRight" valign="bottom"><a class="e
           <td class="memname">virtual void ts::TOT::deserialize </td>
           <td>(</td>
           <td class="paramtype">const <a class="el" href="classts_1_1_binary_table.html">BinaryTable</a> &amp;&#160;</td>
-          <td class="paramname"><em>bin</em></td><td>)</td>
+          <td class="paramname"><em>bin</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
           <td></td>
+          <td class="paramtype">const <a class="el" href="classts_1_1_d_v_b_charset.html">DVBCharset</a> *&#160;</td>
+          <td class="paramname"><em>charset</em> = <code>0</code>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
         </tr>
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">virtual</span></span>  </td>
+<span class="mlabels"><span class="mlabel">override</span><span class="mlabel">virtual</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
@@ -404,16 +461,17 @@ const char *const&#160;</td><td class="memItemRight" valign="bottom"><a class="e
 <p>In case of success, this object is replaced with the interpreted content of <em>bin</em>. In case of error, this object is invalidated. </p><dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramdir">[in]</td><td class="paramname">bin</td><td>A binary table to interpret according to the table subclass. </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">charset</td><td>If not zero, character set to use without explicit table code. </td></tr>
   </table>
   </dd>
 </dl>
 
-<p>Implements <a class="el" href="classts_1_1_abstract_table.html#a18fe0f9c7c5649d55a8e7c11b897034d">ts::AbstractTable</a>.</p>
+<p>Implements <a class="el" href="classts_1_1_abstract_table.html#afb04e5884ab2d39edac84a8690e81426">ts::AbstractTable</a>.</p>
 
 </div>
 </div>
-<a id="a2339a16a2058f41d428adb8f2932339d"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a2339a16a2058f41d428adb8f2932339d">&#9670;&nbsp;</a></span>toXML()</h2>
+<a id="abd038dd4c544bbc32194baba3e39585d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#abd038dd4c544bbc32194baba3e39585d">&#9670;&nbsp;</a></span>toXML()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -441,12 +499,12 @@ const char *const&#160;</td><td class="memItemRight" valign="bottom"><a class="e
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">virtual</span></span>  </td>
+<span class="mlabels"><span class="mlabel">override</span><span class="mlabel">virtual</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
 
-<p>This abstract method converts the table to <a class="el" href="classts_1_1_x_m_l.html" title="XML utility class with error reporting. ">XML</a>. </p>
+<p>This abstract method converts this object to <a class="el" href="classts_1_1_x_m_l.html" title="XML utility class with error reporting. ">XML</a>. </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramdir">[in,out]</td><td class="paramname">xml</td><td><a class="el" href="classts_1_1_x_m_l.html" title="XML utility class with error reporting. ">XML</a> utility for error reporting </td></tr>
@@ -456,12 +514,12 @@ const char *const&#160;</td><td class="memItemRight" valign="bottom"><a class="e
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>The new <a class="el" href="classts_1_1_x_m_l.html" title="XML utility class with error reporting. ">XML</a> element. </dd></dl>
 
-<p>Implements <a class="el" href="classts_1_1_abstract_table.html#a34a0fd8c46f8dccb42a59ae23d9140cf">ts::AbstractTable</a>.</p>
+<p>Implements <a class="el" href="classts_1_1_abstract_signalization.html#a80ac02976ec3b04275379d1fffe82a07">ts::AbstractSignalization</a>.</p>
 
 </div>
 </div>
-<a id="a976e53b1856eb5ae50522fe463b785da"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a976e53b1856eb5ae50522fe463b785da">&#9670;&nbsp;</a></span>fromXML()</h2>
+<a id="a1bc822177a6bc8f3c4df5ddd55977861"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1bc822177a6bc8f3c4df5ddd55977861">&#9670;&nbsp;</a></span>fromXML()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -489,12 +547,12 @@ const char *const&#160;</td><td class="memItemRight" valign="bottom"><a class="e
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">virtual</span></span>  </td>
+<span class="mlabels"><span class="mlabel">override</span><span class="mlabel">virtual</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
 
-<p>This abstract converts an <a class="el" href="classts_1_1_x_m_l.html" title="XML utility class with error reporting. ">XML</a> structure to a table. </p>
+<p>This abstract converts an <a class="el" href="classts_1_1_x_m_l.html" title="XML utility class with error reporting. ">XML</a> structure to a table or descriptor. </p>
 <p>In case of success, this object is replaced with the interpreted content of the <a class="el" href="classts_1_1_x_m_l.html" title="XML utility class with error reporting. ">XML</a> structure. In case of error, this object is invalidated. </p><dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramdir">[in,out]</td><td class="paramname">xml</td><td><a class="el" href="classts_1_1_x_m_l.html" title="XML utility class with error reporting. ">XML</a> utility for error reporting </td></tr>
@@ -503,7 +561,7 @@ const char *const&#160;</td><td class="memItemRight" valign="bottom"><a class="e
   </dd>
 </dl>
 
-<p>Implements <a class="el" href="classts_1_1_abstract_table.html#a5afeafbfd59de728ae8335854761997d">ts::AbstractTable</a>.</p>
+<p>Implements <a class="el" href="classts_1_1_abstract_signalization.html#a9260490d00924a4fb9d230dc35d772d5">ts::AbstractSignalization</a>.</p>
 
 </div>
 </div>

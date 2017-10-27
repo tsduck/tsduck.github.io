@@ -34,7 +34,7 @@
  <tr style="height: 56px;">
   <td id="projectlogo"><img src="tsduck-32.png"/></td>
    <td id="projectalign"><span id="projectname">TSDuck</span>
-    <span id="projectnumber">Version 3.3</span>
+    <span id="projectnumber">Version 3.4</span>
     <span id="projectbrief">(TSDuck - The MPEG Transport Stream Toolkit)</span>
    </td>
    <td>        <div id="MSearchBox" class="MSearchBoxInactive">
@@ -136,6 +136,9 @@ virtual&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="c
 <tr class="memitem:ad934eccad48df481b370d2e55b2a8268"><td class="memItemLeft" align="right" valign="top">virtual std::ostream &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classts_1_1_tables_display.html#ad934eccad48df481b370d2e55b2a8268">displayTable</a> (const <a class="el" href="classts_1_1_binary_table.html">BinaryTable</a> &amp;table, int indent=0, <a class="el" href="namespacets.html#a1de171688c3a6ff71896a8f3e5817c11">CASFamily</a> cas=<a class="el" href="namespacets.html#a1de171688c3a6ff71896a8f3e5817c11a79bba7cbc9e78632bc132244f9c83d9e">CAS_OTHER</a>)</td></tr>
 <tr class="memdesc:ad934eccad48df481b370d2e55b2a8268"><td class="mdescLeft">&#160;</td><td class="mdescRight">Display a table on the output stream.  <a href="#ad934eccad48df481b370d2e55b2a8268">More...</a><br /></td></tr>
 <tr class="separator:ad934eccad48df481b370d2e55b2a8268"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a81d1af06f1e527ba91587abf28e99702"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="classts_1_1_d_v_b_charset.html">DVBCharset</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classts_1_1_tables_display.html#a81d1af06f1e527ba91587abf28e99702">dvbCharset</a> () const</td></tr>
+<tr class="memdesc:a81d1af06f1e527ba91587abf28e99702"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the default DVB character set for DVB strings without table code.  <a href="#a81d1af06f1e527ba91587abf28e99702">More...</a><br /></td></tr>
+<tr class="separator:a81d1af06f1e527ba91587abf28e99702"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:af26207ac93f8a9120df0d2064089629d"><td class="memItemLeft" align="right" valign="top"><a id="af26207ac93f8a9120df0d2064089629d"></a>
 virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classts_1_1_tables_display.html#af26207ac93f8a9120df0d2064089629d">flush</a> ()</td></tr>
 <tr class="memdesc:af26207ac93f8a9120df0d2064089629d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Flush the text output. <br /></td></tr>
@@ -155,6 +158,9 @@ virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" hr
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pro-methods"></a>
 Protected Member Functions</h2></td></tr>
+<tr class="memitem:a7247d526bec1edb3ddc23698c3752a0c"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="namespacets.html#ab9a8367d7529bc4d441c8e4e61e31984">PDS</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classts_1_1_tables_display.html#a7247d526bec1edb3ddc23698c3752a0c">actualPDS</a> (<a class="el" href="namespacets.html#ab9a8367d7529bc4d441c8e4e61e31984">PDS</a> pds) const</td></tr>
+<tr class="memdesc:a7247d526bec1edb3ddc23698c3752a0c"><td class="mdescLeft">&#160;</td><td class="mdescRight">The actual private data specifier to use.  <a href="#a7247d526bec1edb3ddc23698c3752a0c">More...</a><br /></td></tr>
+<tr class="separator:a7247d526bec1edb3ddc23698c3752a0c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ac6b9ced53730739c9fbf99420b2acdb6"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="namespacets.html#a1de171688c3a6ff71896a8f3e5817c11">CASFamily</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classts_1_1_tables_display.html#ac6b9ced53730739c9fbf99420b2acdb6">casFamily</a> (<a class="el" href="namespacets.html#a1de171688c3a6ff71896a8f3e5817c11">CASFamily</a> cas) const</td></tr>
 <tr class="memdesc:ac6b9ced53730739c9fbf99420b2acdb6"><td class="mdescLeft">&#160;</td><td class="mdescRight">The actual CAS family to use.  <a href="#ac6b9ced53730739c9fbf99420b2acdb6">More...</a><br /></td></tr>
 <tr class="separator:ac6b9ced53730739c9fbf99420b2acdb6"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -832,6 +838,34 @@ Protected Member Functions</h2></td></tr>
 
 </div>
 </div>
+<a id="a81d1af06f1e527ba91587abf28e99702"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a81d1af06f1e527ba91587abf28e99702">&#9670;&nbsp;</a></span>dvbCharset()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">const <a class="el" href="classts_1_1_d_v_b_charset.html">DVBCharset</a>* ts::TablesDisplay::dvbCharset </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Get the default DVB character set for DVB strings without table code. </p>
+<dl class="section return"><dt>Returns</dt><dd>The default DVB character set. </dd></dl>
+
+</div>
+</div>
 <a id="a7c35267a0272010b254e1044e7af8790"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a7c35267a0272010b254e1044e7af8790">&#9670;&nbsp;</a></span>report()</h2>
 
@@ -1010,6 +1044,41 @@ Protected Member Functions</h2></td></tr>
   </dd>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>The actual CAS family to use. </dd></dl>
+
+</div>
+</div>
+<a id="a7247d526bec1edb3ddc23698c3752a0c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7247d526bec1edb3ddc23698c3752a0c">&#9670;&nbsp;</a></span>actualPDS()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual <a class="el" href="namespacets.html#ab9a8367d7529bc4d441c8e4e61e31984">PDS</a> ts::TablesDisplay::actualPDS </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="namespacets.html#ab9a8367d7529bc4d441c8e4e61e31984">PDS</a>&#160;</td>
+          <td class="paramname"><em>pds</em></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>The actual private data specifier to use. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">pds</td><td>Current PDS, typically from a private_data_specifier_descriptor. </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>The actual PDS to use. </dd></dl>
 
 </div>
 </div>

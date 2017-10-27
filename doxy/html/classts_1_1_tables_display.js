@@ -13,10 +13,12 @@ var classts_1_1_tables_display =
     [ "displayExtraData", "classts_1_1_tables_display.html#a3d59b8b4aa609c18dd6d50c029619b58", null ],
     [ "redirect", "classts_1_1_tables_display.html#a47e64591146b65bb6fefd4fe8ad6b7a6", null ],
     [ "out", "classts_1_1_tables_display.html#a20a027360a3472959fed44195ba0f81f", null ],
+    [ "dvbCharset", "classts_1_1_tables_display.html#a81d1af06f1e527ba91587abf28e99702", null ],
     [ "report", "classts_1_1_tables_display.html#a7c35267a0272010b254e1044e7af8790", null ],
     [ "flush", "classts_1_1_tables_display.html#af26207ac93f8a9120df0d2064089629d", null ],
     [ "displayUnkownSectionData", "classts_1_1_tables_display.html#a57d1732dbb6d1b42c29d908b192c51f3", null ],
     [ "displayUnkownDescriptor", "classts_1_1_tables_display.html#a390fe00193869813a8f3844514b809f9", null ],
     [ "casFamily", "classts_1_1_tables_display.html#ac6b9ced53730739c9fbf99420b2acdb6", null ],
+    [ "actualPDS", "classts_1_1_tables_display.html#a7247d526bec1edb3ddc23698c3752a0c", null ],
     [ "displayTLV", "classts_1_1_tables_display.html#a0180bb193c1bd2b2b5dfe34c35d0a6d4", null ]
 ];

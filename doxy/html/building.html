@@ -34,7 +34,7 @@
  <tr style="height: 56px;">
   <td id="projectlogo"><img src="tsduck-32.png"/></td>
    <td id="projectalign"><span id="projectname">TSDuck</span>
-    <span id="projectnumber">Version 3.3</span>
+    <span id="projectnumber">Version 3.4</span>
     <span id="projectbrief">(TSDuck - The MPEG Transport Stream Toolkit)</span>
    </td>
    <td>        <div id="MSearchBox" class="MSearchBoxInactive">
@@ -140,9 +140,7 @@ Fedora</h2>
 Red Hat Entreprise Linux, CentOS</h2>
 <ul>
 <li>Setup for a TSDuck native build: <div class="fragment"><div class="line">yum install gcc-c++ doxygen graphviz curl pcsc-tools pcsc-lite-devel cppunit-devel</div></div><!-- fragment --></li>
-<li>Additionally, building TSDuck on Linux requires GCC 5.x or higher. On RHEL/CentOS 7.3 (latest release as of this writing), GCC is installed with version 4.8.5 and building TSDuck fails. To install GCC 5.* on CentOS, execute the following commands: <div class="fragment"><div class="line">yum install centos-release-scl</div><div class="line">yum install devtoolset-4-gcc*</div></div><!-- fragment --></li>
-<li>Then in you <code>.bashrc</code> file, add: <div class="fragment"><div class="line">source /opt/rh/devtoolset-4/enable</div></div><!-- fragment --></li>
-<li>Please note that it is not possible to build a 32-bit TSDuck on a 64-bit CentOS since the i386 packages are not available for the GCC 5.x runtime.</li>
+<li>Setup to build 32-bit TSDuck on 64-bit system (command <code>make m32</code>): <div class="fragment"><div class="line">yum install glibc-devel.i686 libstdc++-devel.i686 pcsc-lite-devel.i686 cppunit-devel.i686</div></div><!-- fragment --></li>
 </ul>
 <h2><a class="anchor" id="requbuntu"></a>
 Ubuntu</h2>

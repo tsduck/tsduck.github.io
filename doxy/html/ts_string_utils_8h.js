@@ -62,6 +62,5 @@ var ts_string_utils_8h =
     [ "AppendContainer", "ts_string_utils_8h.html#ae6e4e88a9c2f7064573fd90c72ff156d", null ],
     [ "AppendContainer", "ts_string_utils_8h.html#ae621d83bb5d17fa06d18f342a75cb06f", null ],
     [ "AssignContainer", "ts_string_utils_8h.html#ad4243f1bbc2cce04db3982f9684f29b7", null ],
-    [ "AssignContainer", "ts_string_utils_8h.html#ac7b00c4b99bf91b332b150c7c6492f15", null ],
-    [ "LargestLength", "ts_string_utils_8h.html#a55c92f5de6d04087bd9e9183fbe6648b", null ]
+    [ "AssignContainer", "ts_string_utils_8h.html#ac7b00c4b99bf91b332b150c7c6492f15", null ]
 ];

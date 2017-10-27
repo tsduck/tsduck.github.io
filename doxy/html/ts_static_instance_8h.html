@@ -34,7 +34,7 @@
  <tr style="height: 56px;">
   <td id="projectlogo"><img src="tsduck-32.png"/></td>
    <td id="projectalign"><span id="projectname">TSDuck</span>
-    <span id="projectnumber">Version 3.3</span>
+    <span id="projectnumber">Version 3.4</span>
     <span id="projectbrief">(TSDuck - The MPEG Transport Stream Toolkit)</span>
    </td>
    <td>        <div id="MSearchBox" class="MSearchBoxInactive">
@@ -106,9 +106,9 @@ Macros</h2></td></tr>
 <tr class="memitem:abc69775def67c588d36910aefd827b9e"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="ts_static_instance_8h.html#abc69775def67c588d36910aefd827b9e">TS_STATIC_INSTANCE</a>(ObjectClass,  ObjectArgs,  StaticInstanceClass)</td></tr>
 <tr class="memdesc:abc69775def67c588d36910aefd827b9e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Local declaration of a static object regardless of modules initialization order.  <a href="#abc69775def67c588d36910aefd827b9e">More...</a><br /></td></tr>
 <tr class="separator:abc69775def67c588d36910aefd827b9e"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ae223d88fdbecc3f22d3db96bcbf09929"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="ts_static_instance_8h.html#ae223d88fdbecc3f22d3db96bcbf09929">TS_STATIC_INSTANCE_DECLARATION</a>(ObjectClass,  StaticInstanceClass)</td></tr>
-<tr class="memdesc:ae223d88fdbecc3f22d3db96bcbf09929"><td class="mdescLeft">&#160;</td><td class="mdescRight">Declaration of a static object regardless of modules initialization order.  <a href="#ae223d88fdbecc3f22d3db96bcbf09929">More...</a><br /></td></tr>
-<tr class="separator:ae223d88fdbecc3f22d3db96bcbf09929"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a71780053a45d5fee9242f146812234f6"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="ts_static_instance_8h.html#a71780053a45d5fee9242f146812234f6">TS_STATIC_INSTANCE_DECLARATION</a>(ObjectClass,  ClassAttributes,  StaticInstanceClass)</td></tr>
+<tr class="memdesc:a71780053a45d5fee9242f146812234f6"><td class="mdescLeft">&#160;</td><td class="mdescRight">Declaration of a static object regardless of modules initialization order.  <a href="#a71780053a45d5fee9242f146812234f6">More...</a><br /></td></tr>
+<tr class="separator:a71780053a45d5fee9242f146812234f6"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ac807bb137d13176b0e8a9416794d6851"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="ts_static_instance_8h.html#ac807bb137d13176b0e8a9416794d6851">TS_STATIC_INSTANCE_DEFINITION</a>(ObjectClass,  ObjectArgs,  StaticInstancePath,  StaticInstanceClass)</td></tr>
 <tr class="memdesc:ac807bb137d13176b0e8a9416794d6851"><td class="mdescLeft">&#160;</td><td class="mdescRight">Definition of a static object regardless of modules initialization order.  <a href="#ac807bb137d13176b0e8a9416794d6851">More...</a><br /></td></tr>
 <tr class="separator:ac807bb137d13176b0e8a9416794d6851"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -116,8 +116,8 @@ Macros</h2></td></tr>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>Declare the initialization-order-safe macros for static object instances. </p>
 </div><h2 class="groupheader">Macro Definition Documentation</h2>
-<a id="ae223d88fdbecc3f22d3db96bcbf09929"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ae223d88fdbecc3f22d3db96bcbf09929">&#9670;&nbsp;</a></span>TS_STATIC_INSTANCE_DECLARATION</h2>
+<a id="a71780053a45d5fee9242f146812234f6"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a71780053a45d5fee9242f146812234f6">&#9670;&nbsp;</a></span>TS_STATIC_INSTANCE_DECLARATION</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -127,6 +127,12 @@ Macros</h2></td></tr>
           <td>(</td>
           <td class="paramtype">&#160;</td>
           <td class="paramname">ObjectClass, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname">ClassAttributes, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
@@ -144,12 +150,13 @@ Macros</h2></td></tr>
 
 <p>Declaration of a static object regardless of modules initialization order. </p>
 <p>This macro expands to the <em>declaration</em> part of the static instance. See <a class="el" href="ts_static_instance_8h.html#abc69775def67c588d36910aefd827b9e">TS_STATIC_INSTANCE</a> for more details on the usage of static instances.</p>
-<p>The macro <a class="el" href="ts_static_instance_8h.html#ae223d88fdbecc3f22d3db96bcbf09929">TS_STATIC_INSTANCE_DECLARATION</a> is used in cunjunction with its counterpart <a class="el" href="ts_static_instance_8h.html#ac807bb137d13176b0e8a9416794d6851">TS_STATIC_INSTANCE_DEFINITION</a>. They are used when the static instance must be publicly accessible or declared in a specific namespace.</p>
+<p>The macro <a class="el" href="ts_static_instance_8h.html#a71780053a45d5fee9242f146812234f6">TS_STATIC_INSTANCE_DECLARATION</a> is used in cunjunction with its counterpart <a class="el" href="ts_static_instance_8h.html#ac807bb137d13176b0e8a9416794d6851">TS_STATIC_INSTANCE_DEFINITION</a>. They are used when the static instance must be publicly accessible or declared in a specific namespace.</p>
 <p>Most of the time, a static instance is used privately inside a module and declared in the anonymous namespace. In this general case, the macro <a class="el" href="ts_static_instance_8h.html#abc69775def67c588d36910aefd827b9e">TS_STATIC_INSTANCE</a> is a simpler alternative.</p>
-<p>In the unusual case where you need to make a static instance publicly available, use the macro <a class="el" href="ts_static_instance_8h.html#ae223d88fdbecc3f22d3db96bcbf09929">TS_STATIC_INSTANCE_DECLARATION</a> in the header file and the macro <a class="el" href="ts_static_instance_8h.html#ac807bb137d13176b0e8a9416794d6851">TS_STATIC_INSTANCE_DEFINITION</a> in the C++ body file as illustrated below.</p>
-<p>In the header file (.h) of the module, we declare a static instance of <code>std::string</code> in the namespace <code>ts::foo</code>. </p><div class="fragment"><div class="line"><span class="keyword">namespace </span><a class="code" href="namespacets.html">ts</a> {</div><div class="line">    <span class="keyword">namespace </span>foo {</div><div class="line">        <a class="code" href="ts_static_instance_8h.html#ae223d88fdbecc3f22d3db96bcbf09929">TS_STATIC_INSTANCE_DECLARATION</a>(std::string, Bar);</div><div class="line">    }</div><div class="line">}</div></div><!-- fragment --><p>In the definition body file (.cpp) of the module: </p><div class="fragment"><div class="line"><a class="code" href="ts_static_instance_8h.html#ac807bb137d13176b0e8a9416794d6851">TS_STATIC_INSTANCE_DEFINITION</a>(std::string, (<span class="stringliteral">&quot;initial value&quot;</span>), ts::foo::Bar, Bar);</div></div><!-- fragment --><p>In application code, we use the static instance of string as follow: </p><div class="fragment"><div class="line">std::cout &lt;&lt; <span class="stringliteral">&quot;static string instance: &quot;</span> &lt;&lt; ts::foo::Bar::Instance() &lt;&lt; std::endl;</div></div><!-- fragment --><dl class="params"><dt>Parameters</dt><dd>
+<p>In the unusual case where you need to make a static instance publicly available, use the macro <a class="el" href="ts_static_instance_8h.html#a71780053a45d5fee9242f146812234f6">TS_STATIC_INSTANCE_DECLARATION</a> in the header file and the macro <a class="el" href="ts_static_instance_8h.html#ac807bb137d13176b0e8a9416794d6851">TS_STATIC_INSTANCE_DEFINITION</a> in the C++ body file as illustrated below.</p>
+<p>In the header file (.h) of the module, we declare a static instance of <code>std::string</code> in the namespace <code>ts::foo</code>. </p><div class="fragment"><div class="line"><span class="keyword">namespace </span><a class="code" href="namespacets.html">ts</a> {</div><div class="line">    <span class="keyword">namespace </span>foo {</div><div class="line">        <a class="code" href="ts_static_instance_8h.html#a71780053a45d5fee9242f146812234f6">TS_STATIC_INSTANCE_DECLARATION</a>(std::string, <a class="code" href="ts_platform_8h.html#ae1cda62454d23e62fb576be3783aec47">TSDUCKDLL</a>, Bar);</div><div class="line">    }</div><div class="line">}</div></div><!-- fragment --><p>In the definition body file (.cpp) of the module: </p><div class="fragment"><div class="line"><a class="code" href="ts_static_instance_8h.html#ac807bb137d13176b0e8a9416794d6851">TS_STATIC_INSTANCE_DEFINITION</a>(std::string, (<span class="stringliteral">&quot;initial value&quot;</span>), ts::foo::Bar, Bar);</div></div><!-- fragment --><p>In application code, we use the static instance of string as follow: </p><div class="fragment"><div class="line">std::cout &lt;&lt; <span class="stringliteral">&quot;static string instance: &quot;</span> &lt;&lt; ts::foo::Bar::Instance() &lt;&lt; std::endl;</div></div><!-- fragment --><dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramname">ObjectClass</td><td>The name of the class of the static object. This must be an existing class. </td></tr>
+    <tr><td class="paramname">ClassAttributes</td><td>Attributes of StaticInstanceClass, typically TSDUCKDLL or empty. </td></tr>
     <tr><td class="paramname">StaticInstanceClass</td><td>The name of the new class which encapsulates the static instance. This class is declared by the expansion of the macro.</td></tr>
   </table>
   </dd>
@@ -211,7 +218,7 @@ Macros</h2></td></tr>
 </dl>
 <dl class="section see"><dt>See also</dt><dd><a class="el" href="ts_static_instance_8h.html#abc69775def67c588d36910aefd827b9e" title="Local declaration of a static object regardless of modules initialization order. ">TS_STATIC_INSTANCE</a> for more details on the usage of static instances. </dd>
 <dd>
-<a class="el" href="ts_static_instance_8h.html#ae223d88fdbecc3f22d3db96bcbf09929" title="Declaration of a static object regardless of modules initialization order. ">TS_STATIC_INSTANCE_DECLARATION</a> for the <em>declaration</em> part and usage examples. </dd></dl>
+<a class="el" href="ts_static_instance_8h.html#a71780053a45d5fee9242f146812234f6" title="Declaration of a static object regardless of modules initialization order. ">TS_STATIC_INSTANCE_DECLARATION</a> for the <em>declaration</em> part and usage examples. </dd></dl>
 
 </div>
 </div>
@@ -257,7 +264,7 @@ Macros</h2></td></tr>
 <p>To avoid this, you may simply ban all static objects in your coding rules. However, if you find this too restrictive, alternate solutions must be found.</p>
 <p>The obvious solution is the singleton pattern (see the file <a class="el" href="ts_singleton_manager_8h.html">tsSingletonManager.h</a>). In this pattern, no object is constructed at initialization. A pointer is statically initialized to zero, which is guaranteed to work. The first time the object is requested, it is allocated, stored in this static pointer and reused every other time. However, for this to work in a multithreaded environment, the test-and-creation sequence must be protected by a mutex in the same module. And this mutex must be ... statically initialized !</p>
 <p>So, there is still a requirement for a solution for the mutex, at least. And this solution is intrinsicly thread-unsafe. So, the solution must reduce the race condition risk to the minimum, typically by making the best effort to create the critical static objects as soon as possible, hopefully before the creation of the first thread.</p>
-<p>This is the purpose of the macros <a class="el" href="ts_static_instance_8h.html#ae223d88fdbecc3f22d3db96bcbf09929">TS_STATIC_INSTANCE_DECLARATION</a> and <a class="el" href="ts_static_instance_8h.html#ac807bb137d13176b0e8a9416794d6851">TS_STATIC_INSTANCE_DEFINITION</a> with the associated "shortcut" macro <a class="el" href="ts_static_instance_8h.html#abc69775def67c588d36910aefd827b9e">TS_STATIC_INSTANCE</a>.</p>
+<p>This is the purpose of the macros <a class="el" href="ts_static_instance_8h.html#a71780053a45d5fee9242f146812234f6">TS_STATIC_INSTANCE_DECLARATION</a> and <a class="el" href="ts_static_instance_8h.html#ac807bb137d13176b0e8a9416794d6851">TS_STATIC_INSTANCE_DEFINITION</a> with the associated "shortcut" macro <a class="el" href="ts_static_instance_8h.html#abc69775def67c588d36910aefd827b9e">TS_STATIC_INSTANCE</a>.</p>
 <h3>Using the TS_STATIC_INSTANCE macros</h3>
 <p>You need a static object. The type for this object is the parameter <em>ObjectClass</em> in the various TS_STATIC_INSTANCE macros.</p>
 <p>The macros create an encapsulating local class for each static object. The name of this local class is the parameter <em>StaticInstanceClass</em> in the macros. This class has one public static method named <code>Instance()</code> which returns a reference to the static object. The static object is allocated during the initialization of the application, no later than during the initialization of the module where it is defined but possibly earlier if the static object is referenced before the initialization of the module where it is defined.</p>

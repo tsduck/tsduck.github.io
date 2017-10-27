@@ -1,17 +1,19 @@
 <map id="ts::Exception" name="ts::Exception">
-<area shape="rect" id="node3" href="$classts_1_1_args_1_1_args_error.html" title="Internal application error in command line argument handling. " alt="" coords="341,5,472,31"/>
-<area shape="rect" id="node4" href="$classts_1_1_condition_1_1_condition_error.html" title="Fatal low&#45;level condition/threading error. " alt="" coords="327,55,486,93"/>
-<area shape="rect" id="node5" href="$classts_1_1_guard_1_1_guard_error.html" title="Fatal low&#45;level mutex guard error. " alt="" coords="331,117,482,143"/>
-<area shape="rect" id="node6" href="$classts_1_1_guard_condition_1_1_guard_condition_error.html" title="Fatal low&#45;level condition guard error. " alt="" coords="331,167,482,205"/>
-<area shape="rect" id="node7" href="$classts_1_1_implementation_error.html" title="Implementation error. " alt="" coords="326,229,486,255"/>
-<area shape="rect" id="node8" href="$classts_1_1_invalid_value.html" title="Exception for generic invalid value error. " alt="" coords="351,279,462,304"/>
-<area shape="rect" id="node9" href="$classts_1_1_monotonic_1_1_monotonic_error.html" title="Low&#45;level monotonic clock error. " alt="" coords="322,328,491,367"/>
-<area shape="rect" id="node10" href="$classts_1_1_mutex_1_1_mutex_error.html" title="Fatal low&#45;level mutex error. " alt="" coords="332,391,481,416"/>
-<area shape="rect" id="node11" href="$classts_1_1_thread_1_1_thread_error.html" title="Fatal low&#45;level threading error. " alt="" coords="326,440,487,465"/>
-<area shape="rect" id="node12" href="$classts_1_1_time_1_1_time_error.html" title="Fatal low&#45;level time error. " alt="" coords="339,489,474,515"/>
-<area shape="rect" id="node13" href="$classts_1_1tlv_1_1_deserialization_internal_error.html" title="Exception raised by deserialization of messages. " alt="" coords="333,539,480,577"/>
-<area shape="rect" id="node14" href="$classts_1_1_t_s_packet_1_1_adaptation_field_error.html" title="Internal error: access a non&#45;existent adaptation field. " alt="" coords="322,601,490,640"/>
-<area shape="rect" id="node15" href="$classts_1_1_tuner_parameters_1_1_incompatible_tuner_parameters_error.html" title="Exception thrown when assigning incompatible parameter types. " alt="" coords="303,664,510,716"/>
-<area shape="rect" id="node16" href="$classts_1_1_unimplemented_method.html" title="Unimplemented method error. " alt="" coords="318,740,495,765"/>
-<area shape="rect" id="node17" href="$classts_1_1_uninitialized_variable.html" title="Uninitialized variable error. " alt="" coords="327,789,486,815"/>
+<area shape="rect" id="node3" href="$classts_1_1_args_1_1_args_error.html" title="Internal application error in command line argument handling. " alt="" coords="354,5,485,31"/>
+<area shape="rect" id="node4" href="$classts_1_1_condition_1_1_condition_error.html" title="Fatal low&#45;level condition/threading error. " alt="" coords="340,55,499,93"/>
+<area shape="rect" id="node5" href="$classts_1_1_d_v_b_charset_1_1_duplicate_d_v_b_charset.html" title="Exception thrown when registering duplicate charsets. " alt="" coords="331,117,507,156"/>
+<area shape="rect" id="node6" href="$classts_1_1_d_v_b_charset_1_1_invalid_d_v_b_charset.html" title="Exception thrown when registering invalid charsets. " alt="" coords="303,180,536,205"/>
+<area shape="rect" id="node7" href="$classts_1_1_guard_1_1_guard_error.html" title="Fatal low&#45;level mutex guard error. " alt="" coords="344,229,494,255"/>
+<area shape="rect" id="node8" href="$classts_1_1_guard_condition_1_1_guard_condition_error.html" title="Fatal low&#45;level condition guard error. " alt="" coords="343,279,495,317"/>
+<area shape="rect" id="node9" href="$classts_1_1_implementation_error.html" title="Implementation error. " alt="" coords="339,341,499,367"/>
+<area shape="rect" id="node10" href="$classts_1_1_invalid_value.html" title="Exception for generic invalid value error. " alt="" coords="364,391,475,416"/>
+<area shape="rect" id="node11" href="$classts_1_1_monotonic_1_1_monotonic_error.html" title="Low&#45;level monotonic clock error. " alt="" coords="334,440,504,479"/>
+<area shape="rect" id="node12" href="$classts_1_1_mutex_1_1_mutex_error.html" title="Fatal low&#45;level mutex error. " alt="" coords="345,503,494,528"/>
+<area shape="rect" id="node13" href="$classts_1_1_thread_1_1_thread_error.html" title="Fatal low&#45;level threading error. " alt="" coords="339,552,500,577"/>
+<area shape="rect" id="node14" href="$classts_1_1_time_1_1_time_error.html" title="Fatal low&#45;level time error. " alt="" coords="352,601,486,627"/>
+<area shape="rect" id="node15" href="$classts_1_1tlv_1_1_deserialization_internal_error.html" title="Exception raised by deserialization of messages. " alt="" coords="346,651,493,689"/>
+<area shape="rect" id="node16" href="$classts_1_1_t_s_packet_1_1_adaptation_field_error.html" title="Internal error: access a non&#45;existent adaptation field. " alt="" coords="335,713,503,752"/>
+<area shape="rect" id="node17" href="$classts_1_1_tuner_parameters_1_1_incompatible_tuner_parameters_error.html" title="Exception thrown when assigning incompatible parameter types. " alt="" coords="315,776,523,828"/>
+<area shape="rect" id="node18" href="$classts_1_1_unimplemented_method.html" title="Unimplemented method error. " alt="" coords="331,852,508,877"/>
+<area shape="rect" id="node19" href="$classts_1_1_uninitialized_variable.html" title="Uninitialized variable error. " alt="" coords="340,901,499,927"/>
 </map>

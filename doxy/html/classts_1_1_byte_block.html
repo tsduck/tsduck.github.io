@@ -34,7 +34,7 @@
  <tr style="height: 56px;">
   <td id="projectlogo"><img src="tsduck-32.png"/></td>
    <td id="projectalign"><span id="projectname">TSDuck</span>
-    <span id="projectnumber">Version 3.3</span>
+    <span id="projectnumber">Version 3.4</span>
     <span id="projectbrief">(TSDuck - The MPEG Transport Stream Toolkit)</span>
    </td>
    <td>        <div id="MSearchBox" class="MSearchBoxInactive">
@@ -106,11 +106,15 @@ $(document).ready(function(){initNavTree('classts_1_1_byte_block.html','');});
 Inheritance diagram for ts::ByteBlock:</div>
 <div class="dyncontent">
 <div class="center"><img src="classts_1_1_byte_block__inherit__graph.png" border="0" usemap="#ts_1_1_byte_block_inherit__map" alt="Inheritance graph"/></div>
+<map name="ts_1_1_byte_block_inherit__map" id="ts_1_1_byte_block_inherit__map">
+</map>
 <center><span class="legend">[<a target="top" href="graph_legend.html">legend</a>]</span></center></div>
 <div class="dynheader">
 Collaboration diagram for ts::ByteBlock:</div>
 <div class="dyncontent">
 <div class="center"><img src="classts_1_1_byte_block__coll__graph.png" border="0" usemap="#ts_1_1_byte_block_coll__map" alt="Collaboration graph"/></div>
+<map name="ts_1_1_byte_block_coll__map" id="ts_1_1_byte_block_coll__map">
+</map>
 <center><span class="legend">[<a target="top" href="graph_legend.html">legend</a>]</span></center></div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-types"></a>
@@ -134,6 +138,9 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a7bc1a4acd08e0fe38ef4123c97776bb1"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classts_1_1_byte_block.html#a7bc1a4acd08e0fe38ef4123c97776bb1">ByteBlock</a> (const char *str)</td></tr>
 <tr class="memdesc:a7bc1a4acd08e0fe38ef4123c97776bb1"><td class="mdescLeft">&#160;</td><td class="mdescRight">Constructor from a C string.  <a href="#a7bc1a4acd08e0fe38ef4123c97776bb1">More...</a><br /></td></tr>
 <tr class="separator:a7bc1a4acd08e0fe38ef4123c97776bb1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8f770fd8a3a83e56c7f0f8e30d9e0cb6"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classts_1_1_byte_block.html#a8f770fd8a3a83e56c7f0f8e30d9e0cb6">ByteBlock</a> (std::initializer_list&lt; uint8_t &gt; init)</td></tr>
+<tr class="memdesc:a8f770fd8a3a83e56c7f0f8e30d9e0cb6"><td class="mdescLeft">&#160;</td><td class="mdescRight">Constructor from an initializer list.  <a href="#a8f770fd8a3a83e56c7f0f8e30d9e0cb6">More...</a><br /></td></tr>
+<tr class="separator:a8f770fd8a3a83e56c7f0f8e30d9e0cb6"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ade837f143dc1a4e3657754010baa2024"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classts_1_1_byte_block.html#ade837f143dc1a4e3657754010baa2024">append</a> (const void *data, size_type size)</td></tr>
 <tr class="memdesc:ade837f143dc1a4e3657754010baa2024"><td class="mdescLeft">&#160;</td><td class="mdescRight">Append raw data to a byte block.  <a href="#ade837f143dc1a4e3657754010baa2024">More...</a><br /></td></tr>
 <tr class="separator:ade837f143dc1a4e3657754010baa2024"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -228,6 +235,12 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a6f26589d74cc95bc30a759a95979e813"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classts_1_1_byte_block.html#a6f26589d74cc95bc30a759a95979e813">appendUInt8</a> (uint8_t i)</td></tr>
 <tr class="memdesc:a6f26589d74cc95bc30a759a95979e813"><td class="mdescLeft">&#160;</td><td class="mdescRight">Append an integer in big endian representation at the end.  <a href="#a6f26589d74cc95bc30a759a95979e813">More...</a><br /></td></tr>
 <tr class="separator:a6f26589d74cc95bc30a759a95979e813"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a63d09f634aed123d8aecb5386b358c2e"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classts_1_1_byte_block.html#a63d09f634aed123d8aecb5386b358c2e">appendUTF8</a> (const <a class="el" href="classts_1_1_u_string.html">UString</a> &amp;s)</td></tr>
+<tr class="memdesc:a63d09f634aed123d8aecb5386b358c2e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Append a unicode string in UTF-8 representation to a byte block.  <a href="#a63d09f634aed123d8aecb5386b358c2e">More...</a><br /></td></tr>
+<tr class="separator:a63d09f634aed123d8aecb5386b358c2e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac9e5309a79c41deea9b701a56f923725"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classts_1_1_byte_block.html#ac9e5309a79c41deea9b701a56f923725">appendUTF8WithByteLength</a> (const <a class="el" href="classts_1_1_u_string.html">UString</a> &amp;s)</td></tr>
+<tr class="memdesc:ac9e5309a79c41deea9b701a56f923725"><td class="mdescLeft">&#160;</td><td class="mdescRight">Append a unicode string in UTF-8 representation to a byte block with one-byte preceding length.  <a href="#ac9e5309a79c41deea9b701a56f923725">More...</a><br /></td></tr>
+<tr class="separator:ac9e5309a79c41deea9b701a56f923725"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a1821e56f4042abeb785411fd236c7d29"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classts_1_1_byte_block.html#a1821e56f4042abeb785411fd236c7d29">copy</a> (const void *data, size_type size)</td></tr>
 <tr class="memdesc:a1821e56f4042abeb785411fd236c7d29"><td class="mdescLeft">&#160;</td><td class="mdescRight">Replace the content of a byte block.  <a href="#a1821e56f4042abeb785411fd236c7d29">More...</a><br /></td></tr>
 <tr class="separator:a1821e56f4042abeb785411fd236c7d29"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -243,7 +256,7 @@ Public Member Functions</h2></td></tr>
 <p>This is a subclass of <code>std::vector</code> on <code>uint8_t</code>. </p>
 </div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a id="a8e2d09f916b97c68412a6b855affcddf"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a8e2d09f916b97c68412a6b855affcddf">&#9670;&nbsp;</a></span>ByteBlock() <span class="overload">[1/4]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a8e2d09f916b97c68412a6b855affcddf">&#9670;&nbsp;</a></span>ByteBlock() <span class="overload">[1/5]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -277,7 +290,7 @@ Public Member Functions</h2></td></tr>
 </div>
 </div>
 <a id="a80be9f60168ae059f069e430b78d6968"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a80be9f60168ae059f069e430b78d6968">&#9670;&nbsp;</a></span>ByteBlock() <span class="overload">[2/4]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a80be9f60168ae059f069e430b78d6968">&#9670;&nbsp;</a></span>ByteBlock() <span class="overload">[2/5]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -314,7 +327,7 @@ Public Member Functions</h2></td></tr>
 </div>
 </div>
 <a id="a99c213014fb618fe3867e7e17bc2f6c9"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a99c213014fb618fe3867e7e17bc2f6c9">&#9670;&nbsp;</a></span>ByteBlock() <span class="overload">[3/4]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a99c213014fb618fe3867e7e17bc2f6c9">&#9670;&nbsp;</a></span>ByteBlock() <span class="overload">[3/5]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -351,7 +364,7 @@ Public Member Functions</h2></td></tr>
 </div>
 </div>
 <a id="a7bc1a4acd08e0fe38ef4123c97776bb1"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a7bc1a4acd08e0fe38ef4123c97776bb1">&#9670;&nbsp;</a></span>ByteBlock() <span class="overload">[4/4]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a7bc1a4acd08e0fe38ef4123c97776bb1">&#9670;&nbsp;</a></span>ByteBlock() <span class="overload">[4/5]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -370,6 +383,32 @@ Public Member Functions</h2></td></tr>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramdir">[in]</td><td class="paramname">str</td><td>Address of a nul-terminated string. The content of the byte block is the content of the string, excluding the terminating nul character. </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="a8f770fd8a3a83e56c7f0f8e30d9e0cb6"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8f770fd8a3a83e56c7f0f8e30d9e0cb6">&#9670;&nbsp;</a></span>ByteBlock() <span class="overload">[5/5]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">ts::ByteBlock::ByteBlock </td>
+          <td>(</td>
+          <td class="paramtype">std::initializer_list&lt; uint8_t &gt;&#160;</td>
+          <td class="paramname"><em>init</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Constructor from an initializer list. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">init</td><td>Initializer list. </td></tr>
   </table>
   </dd>
 </dl>
@@ -585,6 +624,58 @@ Public Member Functions</h2></td></tr>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramdir">[in]</td><td class="paramname">s</td><td>String to append. </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="a63d09f634aed123d8aecb5386b358c2e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a63d09f634aed123d8aecb5386b358c2e">&#9670;&nbsp;</a></span>appendUTF8()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void ts::ByteBlock::appendUTF8 </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="classts_1_1_u_string.html">UString</a> &amp;&#160;</td>
+          <td class="paramname"><em>s</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Append a unicode string in UTF-8 representation to a byte block. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">s</td><td>String to append. </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="ac9e5309a79c41deea9b701a56f923725"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac9e5309a79c41deea9b701a56f923725">&#9670;&nbsp;</a></span>appendUTF8WithByteLength()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void ts::ByteBlock::appendUTF8WithByteLength </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="classts_1_1_u_string.html">UString</a> &amp;&#160;</td>
+          <td class="paramname"><em>s</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Append a unicode string in UTF-8 representation to a byte block with one-byte preceding length. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">s</td><td>String to append. UTF-8 representation is trunctated to 255 if necessary so that the length fits in one byte. </td></tr>
   </table>
   </dd>
 </dl>

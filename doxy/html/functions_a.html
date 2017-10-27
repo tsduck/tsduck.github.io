@@ -34,7 +34,7 @@
  <tr style="height: 56px;">
   <td id="projectlogo"><img src="tsduck-32.png"/></td>
    <td id="projectalign"><span id="projectname">TSDuck</span>
-    <span id="projectnumber">Version 3.3</span>
+    <span id="projectnumber">Version 3.4</span>
     <span id="projectbrief">(TSDuck - The MPEG Transport Stream Toolkit)</span>
    </td>
    <td>        <div id="MSearchBox" class="MSearchBoxInactive">
@@ -116,17 +116,23 @@ $(document).ready(function(){initNavTree('functions_a.html','');});
 <li>AbstractDeliverySystemDescriptor()
 : <a class="el" href="classts_1_1_abstract_delivery_system_descriptor.html#a552a2c18c1b46e1540ab683e27b52e0f">ts::AbstractDeliverySystemDescriptor</a>
 </li>
+<li>AbstractDemux()
+: <a class="el" href="classts_1_1_abstract_demux.html#aed13c8941edb46a0f80ba4488aba06d6">ts::AbstractDemux</a>
+</li>
 <li>AbstractDescrambler()
 : <a class="el" href="classts_1_1_abstract_descrambler.html#af403e53db1b9ae0be21a634e3cb1a274">ts::AbstractDescrambler</a>
 </li>
 <li>AbstractDescriptor()
-: <a class="el" href="classts_1_1_abstract_descriptor.html#a5a2f2c698da0fd4f3472c059e3380c3c">ts::AbstractDescriptor</a>
+: <a class="el" href="classts_1_1_abstract_descriptor.html#a45ece03d4b8e66ea3bd8db343a471ecd">ts::AbstractDescriptor</a>
 </li>
 <li>AbstractDescriptorsTable()
-: <a class="el" href="classts_1_1_abstract_descriptors_table.html#a73a490acd5e8f6411075a08317de2cb6">ts::AbstractDescriptorsTable</a>
+: <a class="el" href="classts_1_1_abstract_descriptors_table.html#a57dd10ccc01e4bfce4d4797e38a0075d">ts::AbstractDescriptorsTable</a>
 </li>
 <li>AbstractLongTable()
 : <a class="el" href="classts_1_1_abstract_long_table.html#ad351f74e21b6149dec818966a88aa949">ts::AbstractLongTable</a>
+</li>
+<li>AbstractSignalization()
+: <a class="el" href="classts_1_1_abstract_signalization.html#a5d4cc35ff3c30d6eb82b640b9ea60cd3">ts::AbstractSignalization</a>
 </li>
 <li>AbstractTable()
 : <a class="el" href="classts_1_1_abstract_table.html#a868e27dcea4503335666c46c6b8bde6d">ts::AbstractTable</a>
@@ -166,6 +172,9 @@ $(document).ready(function(){initNavTree('functions_a.html','');});
 </li>
 <li>activate()
 : <a class="el" href="classts_1_1_user_interrupt.html#ad2dac74c374082331be30165de479e5f">ts::UserInterrupt</a>
+</li>
+<li>actualPDS()
+: <a class="el" href="classts_1_1_tables_display.html#a7247d526bec1edb3ddc23698c3752a0c">ts::TablesDisplay</a>
 </li>
 <li>AdaptationFieldError()
 : <a class="el" href="classts_1_1_t_s_packet_1_1_adaptation_field_error.html#a8f95109b404f2674f42f726c9b571fad">ts::TSPacket::AdaptationFieldError</a>
@@ -222,11 +231,10 @@ $(document).ready(function(){initNavTree('functions_a.html','');});
 : <a class="el" href="classts_1_1_u_d_p_socket.html#a65ef307901cadee3b5d918b9820f346a">ts::UDPSocket</a>
 </li>
 <li>addPID()
-: <a class="el" href="classts_1_1_p_e_s_demux.html#a280b5c4a72d56a8a4774a7e3c20413f0">ts::PESDemux</a>
-, <a class="el" href="classts_1_1_section_demux.html#a7b2626b77463a0b4a58f25fdc2c99c83">ts::SectionDemux</a>
+: <a class="el" href="classts_1_1_abstract_demux.html#aa71fd7117f35be69e3d02f001ad896e6">ts::AbstractDemux</a>
 </li>
 <li>addPIDs()
-: <a class="el" href="classts_1_1_section_demux.html#a455351670299d6591785c095c6e38534">ts::SectionDemux</a>
+: <a class="el" href="classts_1_1_abstract_demux.html#a6f16607b21eda1934624042a2b5aac2e">ts::AbstractDemux</a>
 </li>
 <li>addPrivateDataSpecifier()
 : <a class="el" href="classts_1_1_descriptor_list.html#a38476422e99ca85569f5f5367cc2ac2b">ts::DescriptorList</a>
@@ -255,7 +263,7 @@ $(document).ready(function(){initNavTree('functions_a.html','');});
 : <a class="el" href="classts_1_1_cycling_packetizer.html#adfbea040b90ff23d814f0f443df263c0">ts::CyclingPacketizer</a>
 </li>
 <li>addText()
-: <a class="el" href="classts_1_1_x_m_l.html#a0d3ca1837b5867cc273ceccb5952f942">ts::XML</a>
+: <a class="el" href="classts_1_1_x_m_l.html#abfcee9751c6fe4e0d5dfb2516faf505a">ts::XML</a>
 </li>
 <li>addTotalPackets()
 : <a class="el" href="classts_1_1tsp_1_1_joint_termination.html#a2f2e46bb584b48d1d82377841a6431a0">ts::tsp::JointTermination</a>
@@ -265,6 +273,9 @@ $(document).ready(function(){initNavTree('functions_a.html','');});
 </li>
 <li>AES()
 : <a class="el" href="classts_1_1_a_e_s.html#a5f15e9c886282843f6892a676e1e15e0">ts::AES</a>
+</li>
+<li>afterCallingHandler()
+: <a class="el" href="classts_1_1_abstract_demux.html#a882c79c2e1a79a50549ea2432bc17c87">ts::AbstractDemux</a>
 </li>
 <li>algo
 : <a class="el" href="classts_1_1_cipher_chaining.html#a5ccb20cd987f3b4f6f52d2b9058c1d39">ts::CipherChaining</a>
@@ -288,7 +299,7 @@ $(document).ready(function(){initNavTree('functions_a.html','');});
 : <a class="el" href="classts_1_1_cycling_packetizer.html#a61a75ad5555e266f968c32d9a8644873a8e290319384abd57acffd6a195cbc9b1">ts::CyclingPacketizer</a>
 </li>
 <li>analyze()
-: <a class="el" href="classts_1_1_args.html#a94a1a3624f78b4bbce3cb4b7ecd672f7">ts::Args</a>
+: <a class="el" href="classts_1_1_args.html#a87042b896d06ab4bf7c68d2c6d95c73b">ts::Args</a>
 , <a class="el" href="classts_1_1_t_s_analyzer_options.html#add88a41987b0fa6bfe4037ddd2388aaf">ts::TSAnalyzerOptions</a>
 </li>
 <li>Analyzer()
@@ -310,8 +321,7 @@ $(document).ready(function(){initNavTree('functions_a.html','');});
 : <a class="el" href="classts_1_1_time.html#a6553a48572a89e40f76829b9cf11852f">ts::Time</a>
 </li>
 <li>append()
-: <a class="el" href="classts_1_1_byte_block.html#abf75343150abcccf5182fde852a92562">ts::ByteBlock</a>
-, <a class="el" href="classts_1_1_config_section.html#a6505f82a7c9d0f6f2f799af57d9f0062">ts::ConfigSection</a>
+: <a class="el" href="classts_1_1_byte_block.html#a414de53443d26210ec10be958d6f7715">ts::ByteBlock</a>
 </li>
 <li>appendInt16()
 : <a class="el" href="classts_1_1_byte_block.html#a86b2744fe09beb97aa6516839293fa13">ts::ByteBlock</a>
@@ -391,6 +401,12 @@ $(document).ready(function(){initNavTree('functions_a.html','');});
 <li>appendUInt8()
 : <a class="el" href="classts_1_1_byte_block.html#a6f26589d74cc95bc30a759a95979e813">ts::ByteBlock</a>
 </li>
+<li>appendUTF8()
+: <a class="el" href="classts_1_1_byte_block.html#a63d09f634aed123d8aecb5386b358c2e">ts::ByteBlock</a>
+</li>
+<li>appendUTF8WithByteLength()
+: <a class="el" href="classts_1_1_byte_block.html#ac9e5309a79c41deea9b701a56f923725">ts::ByteBlock</a>
+</li>
 <li>ApplicationSharedLibrary()
 : <a class="el" href="classts_1_1_application_shared_library.html#a859ad944b8fba7efc21bdb37292362fd">ts::ApplicationSharedLibrary</a>
 </li>
@@ -422,10 +438,13 @@ $(document).ready(function(){initNavTree('functions_a.html','');});
 : <a class="el" href="classts_1_1_video_attributes.html#a1860fa931731f20e24b90ea4810ceba7">ts::VideoAttributes</a>
 </li>
 <li>aspectRatioName()
-: <a class="el" href="classts_1_1_video_attributes.html#afbaaecfe268a261d53a97a932db651d8">ts::VideoAttributes</a>
+: <a class="el" href="classts_1_1_video_attributes.html#a3c55e31eb2b2e1687caf97a3893dbb5f">ts::VideoAttributes</a>
 </li>
 <li>assign()
 : <a class="el" href="classts_1_1_com_ptr.html#aebd29383a1b1ce32e0b94485b421c22b">ts::ComPtr&lt; COMCLASS &gt;</a>
+</li>
+<li>assignFromUTF8()
+: <a class="el" href="classts_1_1_u_string.html#a967764daaa4aff678e7cc605a6cd1ed5">ts::UString</a>
 </li>
 <li>asvc
 : <a class="el" href="classts_1_1_a_c3_descriptor.html#a5e89dceea4727a7b88b8e1313b8fea45">ts::AC3Descriptor</a>
@@ -450,7 +469,7 @@ $(document).ready(function(){initNavTree('functions_a.html','');});
 : <a class="el" href="classts_1_1_x_m_l.html#a4d8bf5d6538c75c00d63c7f6cc88f633">ts::XML</a>
 </li>
 <li>attributes
-: <a class="el" href="classts_1_1_t_s_analyzer_1_1_p_i_d_context.html#aaed6a5075e4cda082ee567a58384792a">ts::TSAnalyzer::PIDContext</a>
+: <a class="el" href="classts_1_1_t_s_analyzer_1_1_p_i_d_context.html#a77c3e24d7f909b7f86bc1eb5f84c3988">ts::TSAnalyzer::PIDContext</a>
 </li>
 <li>audio_type
 : <a class="el" href="structts_1_1_i_s_o639_language_descriptor_1_1_entry.html#a90fa42109ce6c2338c11b6a69945a0f9">ts::ISO639LanguageDescriptor::Entry</a>
@@ -459,7 +478,7 @@ $(document).ready(function(){initNavTree('functions_a.html','');});
 : <a class="el" href="classts_1_1_audio_attributes.html#adf184e6f60e18cdb76e48bfc26f9e339">ts::AudioAttributes</a>
 </li>
 <li>audioCodingDescription()
-: <a class="el" href="classts_1_1_a_c3_attributes.html#a7f310d312e494c48db93f305d5a3ed63">ts::AC3Attributes</a>
+: <a class="el" href="classts_1_1_a_c3_attributes.html#a28fb6d7e6164760cd12736e5fc85bb7c">ts::AC3Attributes</a>
 </li>
 <li>audioCodingMode()
 : <a class="el" href="classts_1_1_a_c3_attributes.html#a21f984e508bf9f3433d1dcc6976aee5a">ts::AC3Attributes</a>
@@ -492,7 +511,7 @@ $(document).ready(function(){initNavTree('functions_a.html','');});
 : <a class="el" href="classts_1_1_a_v_c_sequence_parameter_set.html#a7e4196f2a71f04b3f479897ba902bf4c">ts::AVCSequenceParameterSet</a>
 </li>
 <li>AVCVideoDescriptor()
-: <a class="el" href="classts_1_1_a_v_c_video_descriptor.html#a4655796de01ae822380d8af55f5e45b3">ts::AVCVideoDescriptor</a>
+: <a class="el" href="classts_1_1_a_v_c_video_descriptor.html#ada9119966adaee27e610a51d11a21246">ts::AVCVideoDescriptor</a>
 </li>
 <li>AVCVUIParameters()
 : <a class="el" href="classts_1_1_a_v_c_v_u_i_parameters.html#a45e3e62348c5e9db7f56b2c99118ff29">ts::AVCVUIParameters</a>

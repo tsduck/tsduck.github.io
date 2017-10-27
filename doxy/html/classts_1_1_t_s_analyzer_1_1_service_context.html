@@ -34,7 +34,7 @@
  <tr style="height: 56px;">
   <td id="projectlogo"><img src="tsduck-32.png"/></td>
    <td id="projectalign"><span id="projectname">TSDuck</span>
-    <span id="projectnumber">Version 3.3</span>
+    <span id="projectnumber">Version 3.4</span>
     <span id="projectbrief">(TSDuck - The MPEG Transport Stream Toolkit)</span>
    </td>
    <td>        <div id="MSearchBox" class="MSearchBoxInactive">
@@ -102,6 +102,14 @@ $(document).ready(function(){initNavTree('classts_1_1_t_s_analyzer_1_1_service_c
 
 <p>This protected inner class contains the analysis context for one service.  
  <a href="classts_1_1_t_s_analyzer_1_1_service_context.html#details">More...</a></p>
+<div class="dynheader">
+Collaboration diagram for ts::TSAnalyzer::ServiceContext:</div>
+<div class="dyncontent">
+<div class="center"><img src="classts_1_1_t_s_analyzer_1_1_service_context__coll__graph.png" border="0" usemap="#ts_1_1_t_s_analyzer_1_1_service_context_coll__map" alt="Collaboration graph"/></div>
+<map name="ts_1_1_t_s_analyzer_1_1_service_context_coll__map" id="ts_1_1_t_s_analyzer_1_1_service_context_coll__map">
+<area shape="rect" id="node2" href="classts_1_1_u_string.html" title="An implementation of UTF&#45;16 strings. " alt="" coords="66,80,150,105"/>
+</map>
+<center><span class="legend">[<a target="top" href="graph_legend.html">legend</a>]</span></center></div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
@@ -112,12 +120,12 @@ Public Member Functions</h2></td></tr>
 &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classts_1_1_t_s_analyzer_1_1_service_context.html#abe7483b1e041c3d5a87f1302e2cfc700">~ServiceContext</a> ()</td></tr>
 <tr class="memdesc:abe7483b1e041c3d5a87f1302e2cfc700"><td class="mdescLeft">&#160;</td><td class="mdescRight">Destructor. <br /></td></tr>
 <tr class="separator:abe7483b1e041c3d5a87f1302e2cfc700"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a761efad55e1d2d6e835c0e7424e68bcd"><td class="memItemLeft" align="right" valign="top">std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classts_1_1_t_s_analyzer_1_1_service_context.html#a761efad55e1d2d6e835c0e7424e68bcd">getName</a> () const</td></tr>
-<tr class="memdesc:a761efad55e1d2d6e835c0e7424e68bcd"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get a displayable service name.  <a href="#a761efad55e1d2d6e835c0e7424e68bcd">More...</a><br /></td></tr>
-<tr class="separator:a761efad55e1d2d6e835c0e7424e68bcd"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a3259914844d37fb64ff5c28c09fcf11e"><td class="memItemLeft" align="right" valign="top">std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classts_1_1_t_s_analyzer_1_1_service_context.html#a3259914844d37fb64ff5c28c09fcf11e">getProvider</a> () const</td></tr>
-<tr class="memdesc:a3259914844d37fb64ff5c28c09fcf11e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get a displayable provider name.  <a href="#a3259914844d37fb64ff5c28c09fcf11e">More...</a><br /></td></tr>
-<tr class="separator:a3259914844d37fb64ff5c28c09fcf11e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a703d0880104938de97c21a4c8192809f"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classts_1_1_u_string.html">UString</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classts_1_1_t_s_analyzer_1_1_service_context.html#a703d0880104938de97c21a4c8192809f">getName</a> () const</td></tr>
+<tr class="memdesc:a703d0880104938de97c21a4c8192809f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get a displayable service name.  <a href="#a703d0880104938de97c21a4c8192809f">More...</a><br /></td></tr>
+<tr class="separator:a703d0880104938de97c21a4c8192809f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad9bb876d8659ab1c9418c8b576e6b7ee"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classts_1_1_u_string.html">UString</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classts_1_1_t_s_analyzer_1_1_service_context.html#ad9bb876d8659ab1c9418c8b576e6b7ee">getProvider</a> () const</td></tr>
+<tr class="memdesc:ad9bb876d8659ab1c9418c8b576e6b7ee"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get a displayable provider name.  <a href="#ad9bb876d8659ab1c9418c8b576e6b7ee">More...</a><br /></td></tr>
+<tr class="separator:ad9bb876d8659ab1c9418c8b576e6b7ee"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-attribs"></a>
 Public Attributes</h2></td></tr>
@@ -129,10 +137,14 @@ uint32_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="
 bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classts_1_1_t_s_analyzer_1_1_service_context.html#a5d9fde00f446bbda1c5896f784a301df">carry_ssu</a></td></tr>
 <tr class="memdesc:a5d9fde00f446bbda1c5896f784a301df"><td class="mdescLeft">&#160;</td><td class="mdescRight">Carry System Software Update. <br /></td></tr>
 <tr class="separator:a5d9fde00f446bbda1c5896f784a301df"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a1589c27d00ec0808a40fdf5ea9093388"><td class="memItemLeft" align="right" valign="top"><a id="a1589c27d00ec0808a40fdf5ea9093388"></a>
-std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classts_1_1_t_s_analyzer_1_1_service_context.html#a1589c27d00ec0808a40fdf5ea9093388">name</a></td></tr>
-<tr class="memdesc:a1589c27d00ec0808a40fdf5ea9093388"><td class="mdescLeft">&#160;</td><td class="mdescRight"><a class="el" href="classts_1_1_service.html" title="Describe a DVB service. ">Service</a> name. <br /></td></tr>
-<tr class="separator:a1589c27d00ec0808a40fdf5ea9093388"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3c809919e9387b046bd2c4cf2676885f"><td class="memItemLeft" align="right" valign="top"><a id="a3c809919e9387b046bd2c4cf2676885f"></a>
+bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classts_1_1_t_s_analyzer_1_1_service_context.html#a3c809919e9387b046bd2c4cf2676885f">carry_t2mi</a></td></tr>
+<tr class="memdesc:a3c809919e9387b046bd2c4cf2676885f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Carry T2-MI encasulated data. <br /></td></tr>
+<tr class="separator:a3c809919e9387b046bd2c4cf2676885f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a25ad30a5c066caeba5f3577a63656285"><td class="memItemLeft" align="right" valign="top"><a id="a25ad30a5c066caeba5f3577a63656285"></a>
+<a class="el" href="classts_1_1_u_string.html">UString</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classts_1_1_t_s_analyzer_1_1_service_context.html#a25ad30a5c066caeba5f3577a63656285">name</a></td></tr>
+<tr class="memdesc:a25ad30a5c066caeba5f3577a63656285"><td class="mdescLeft">&#160;</td><td class="mdescRight"><a class="el" href="classts_1_1_service.html" title="Describe a DVB service. ">Service</a> name. <br /></td></tr>
+<tr class="separator:a25ad30a5c066caeba5f3577a63656285"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a98d7395d3f3a0769f99dc3c293f9b9e8"><td class="memItemLeft" align="right" valign="top"><a id="a98d7395d3f3a0769f99dc3c293f9b9e8"></a>
 uint16_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classts_1_1_t_s_analyzer_1_1_service_context.html#a98d7395d3f3a0769f99dc3c293f9b9e8">orig_netw_id</a></td></tr>
 <tr class="memdesc:a98d7395d3f3a0769f99dc3c293f9b9e8"><td class="mdescLeft">&#160;</td><td class="mdescRight">Original network id. <br /></td></tr>
@@ -149,10 +161,10 @@ size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="cl
 <a class="el" href="namespacets.html#a90e2f5f7d7011d87cc23a8fef31958dc">PID</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classts_1_1_t_s_analyzer_1_1_service_context.html#aaa3b538258d78894f00e23693d13b4dd">pmt_pid</a></td></tr>
 <tr class="memdesc:aaa3b538258d78894f00e23693d13b4dd"><td class="mdescLeft">&#160;</td><td class="mdescRight">PID of <a class="el" href="classts_1_1_p_m_t.html" title="Representation of a Program Map Table (PMT) ">PMT</a>. <br /></td></tr>
 <tr class="separator:aaa3b538258d78894f00e23693d13b4dd"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a37e6c4a15f06687b7899c4e525e686d8"><td class="memItemLeft" align="right" valign="top"><a id="a37e6c4a15f06687b7899c4e525e686d8"></a>
-std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classts_1_1_t_s_analyzer_1_1_service_context.html#a37e6c4a15f06687b7899c4e525e686d8">provider</a></td></tr>
-<tr class="memdesc:a37e6c4a15f06687b7899c4e525e686d8"><td class="mdescLeft">&#160;</td><td class="mdescRight"><a class="el" href="classts_1_1_service.html" title="Describe a DVB service. ">Service</a> provider name. <br /></td></tr>
-<tr class="separator:a37e6c4a15f06687b7899c4e525e686d8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aaccd1527e34ab4ec502d8053217f07f5"><td class="memItemLeft" align="right" valign="top"><a id="aaccd1527e34ab4ec502d8053217f07f5"></a>
+<a class="el" href="classts_1_1_u_string.html">UString</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classts_1_1_t_s_analyzer_1_1_service_context.html#aaccd1527e34ab4ec502d8053217f07f5">provider</a></td></tr>
+<tr class="memdesc:aaccd1527e34ab4ec502d8053217f07f5"><td class="mdescLeft">&#160;</td><td class="mdescRight"><a class="el" href="classts_1_1_service.html" title="Describe a DVB service. ">Service</a> provider name. <br /></td></tr>
+<tr class="separator:aaccd1527e34ab4ec502d8053217f07f5"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aa14d128b67568f98eda4f37ea0ef02f7"><td class="memItemLeft" align="right" valign="top"><a id="aa14d128b67568f98eda4f37ea0ef02f7"></a>
 size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classts_1_1_t_s_analyzer_1_1_service_context.html#aa14d128b67568f98eda4f37ea0ef02f7">scrambled_pid_cnt</a></td></tr>
 <tr class="memdesc:aa14d128b67568f98eda4f37ea0ef02f7"><td class="mdescLeft">&#160;</td><td class="mdescRight">Number of scrambled PID's. <br /></td></tr>
@@ -200,14 +212,14 @@ uint64_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="
 </div>
 </div>
 <h2 class="groupheader">Member Function Documentation</h2>
-<a id="a761efad55e1d2d6e835c0e7424e68bcd"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a761efad55e1d2d6e835c0e7424e68bcd">&#9670;&nbsp;</a></span>getName()</h2>
+<a id="a703d0880104938de97c21a4c8192809f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a703d0880104938de97c21a4c8192809f">&#9670;&nbsp;</a></span>getName()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">std::string ts::TSAnalyzer::ServiceContext::getName </td>
+          <td class="memname"><a class="el" href="classts_1_1_u_string.html">UString</a> ts::TSAnalyzer::ServiceContext::getName </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td> const</td>
@@ -220,14 +232,14 @@ uint64_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="
 
 </div>
 </div>
-<a id="a3259914844d37fb64ff5c28c09fcf11e"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a3259914844d37fb64ff5c28c09fcf11e">&#9670;&nbsp;</a></span>getProvider()</h2>
+<a id="ad9bb876d8659ab1c9418c8b576e6b7ee"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad9bb876d8659ab1c9418c8b576e6b7ee">&#9670;&nbsp;</a></span>getProvider()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">std::string ts::TSAnalyzer::ServiceContext::getProvider </td>
+          <td class="memname"><a class="el" href="classts_1_1_u_string.html">UString</a> ts::TSAnalyzer::ServiceContext::getProvider </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td> const</td>

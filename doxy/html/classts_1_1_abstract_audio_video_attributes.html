@@ -34,7 +34,7 @@
  <tr style="height: 56px;">
   <td id="projectlogo"><img src="tsduck-32.png"/></td>
    <td id="projectalign"><span id="projectname">TSDuck</span>
-    <span id="projectnumber">Version 3.3</span>
+    <span id="projectnumber">Version 3.4</span>
     <span id="projectbrief">(TSDuck - The MPEG Transport Stream Toolkit)</span>
    </td>
    <td>        <div id="MSearchBox" class="MSearchBoxInactive">
@@ -133,9 +133,9 @@ virtual&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="c
 <tr class="memitem:aaa27bab70b76ae2085ff66442c340cbf"><td class="memItemLeft" align="right" valign="top">virtual bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classts_1_1_abstract_audio_video_attributes.html#aaa27bab70b76ae2085ff66442c340cbf">moreBinaryData</a> (const void *addr, size_t size)=0</td></tr>
 <tr class="memdesc:aaa27bab70b76ae2085ff66442c340cbf"><td class="mdescLeft">&#160;</td><td class="mdescRight">Provides an audio/video binary data to be analyzed by this instance.  <a href="#aaa27bab70b76ae2085ff66442c340cbf">More...</a><br /></td></tr>
 <tr class="separator:aaa27bab70b76ae2085ff66442c340cbf"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aca1b3de03fb6a6647598c38b3df2d98e"><td class="memItemLeft" align="right" valign="top">virtual&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classts_1_1_abstract_audio_video_attributes.html#aca1b3de03fb6a6647598c38b3df2d98e">operator std::string</a> () const =0</td></tr>
-<tr class="memdesc:aca1b3de03fb6a6647598c38b3df2d98e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Conversion operator to a string.  <a href="#aca1b3de03fb6a6647598c38b3df2d98e">More...</a><br /></td></tr>
-<tr class="separator:aca1b3de03fb6a6647598c38b3df2d98e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae404990105a05496499b252995030880"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="classts_1_1_u_string.html">UString</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classts_1_1_abstract_audio_video_attributes.html#ae404990105a05496499b252995030880">toString</a> () const =0</td></tr>
+<tr class="memdesc:ae404990105a05496499b252995030880"><td class="mdescLeft">&#160;</td><td class="mdescRight">Conversion to a string.  <a href="#ae404990105a05496499b252995030880">More...</a><br /></td></tr>
+<tr class="separator:ae404990105a05496499b252995030880"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pro-attribs"></a>
 Protected Attributes</h2></td></tr>
@@ -246,12 +246,12 @@ Protected Attributes</h2></td></tr>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>True if the attributes object becomes valid or has new values. </dd></dl>
 
-<p>Implemented in <a class="el" href="classts_1_1_a_v_c_attributes.html#a0533e7c94f933ff545215e3970b4761a">ts::AVCAttributes</a>, <a class="el" href="classts_1_1_video_attributes.html#a02e5dfbe38ca41f938c927fe872492a4">ts::VideoAttributes</a>, <a class="el" href="classts_1_1_a_c3_attributes.html#aab5f0400e797950c2d7b9f2b2137acc5">ts::AC3Attributes</a>, and <a class="el" href="classts_1_1_audio_attributes.html#a1a3ad5b1b459ebba0ce87a0e270fefda">ts::AudioAttributes</a>.</p>
+<p>Implemented in <a class="el" href="classts_1_1_a_v_c_attributes.html#aa2d47d7e7457a46de360120361aed9c0">ts::AVCAttributes</a>, <a class="el" href="classts_1_1_video_attributes.html#a381a5457eaf0f582d4c647fb81a702a3">ts::VideoAttributes</a>, <a class="el" href="classts_1_1_a_c3_attributes.html#adb50d8eec3fc4af73f8428fd1436aaab">ts::AC3Attributes</a>, and <a class="el" href="classts_1_1_audio_attributes.html#a694eb3ece49a73641039b88233d96765">ts::AudioAttributes</a>.</p>
 
 </div>
 </div>
-<a id="aca1b3de03fb6a6647598c38b3df2d98e"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aca1b3de03fb6a6647598c38b3df2d98e">&#9670;&nbsp;</a></span>operator std::string()</h2>
+<a id="ae404990105a05496499b252995030880"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae404990105a05496499b252995030880">&#9670;&nbsp;</a></span>toString()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -260,7 +260,7 @@ Protected Attributes</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">virtual ts::AbstractAudioVideoAttributes::operator std::string </td>
+          <td class="memname">virtual <a class="el" href="classts_1_1_u_string.html">UString</a> ts::AbstractAudioVideoAttributes::toString </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td> const</td>
@@ -273,10 +273,10 @@ Protected Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Conversion operator to a string. </p>
+<p>Conversion to a string. </p>
 <dl class="section return"><dt>Returns</dt><dd>A string representing the content of this object. </dd></dl>
 
-<p>Implemented in <a class="el" href="classts_1_1_a_v_c_attributes.html#a2d390fe6f0e5317b4cf98e5585e611e9">ts::AVCAttributes</a>, <a class="el" href="classts_1_1_video_attributes.html#a3c16d87f4f73e3c13f1de1a97e5bdb62">ts::VideoAttributes</a>, <a class="el" href="classts_1_1_a_c3_attributes.html#a0c2913e2e19ed8896c4b88fdefa0cb0b">ts::AC3Attributes</a>, and <a class="el" href="classts_1_1_audio_attributes.html#a095a15fda69e1f325cff89cd8237e373">ts::AudioAttributes</a>.</p>
+<p>Implemented in <a class="el" href="classts_1_1_a_v_c_attributes.html#a6786cb30c77de64a4784b0b292b733d5">ts::AVCAttributes</a>, <a class="el" href="classts_1_1_video_attributes.html#a715fca7148ffd97dafce23c61aa43444">ts::VideoAttributes</a>, <a class="el" href="classts_1_1_a_c3_attributes.html#a5eb8c36d8421f7077678447adf433b99">ts::AC3Attributes</a>, and <a class="el" href="classts_1_1_audio_attributes.html#a7611ab4c71bc14e641d42d08752b37dc">ts::AudioAttributes</a>.</p>
 
 </div>
 </div>

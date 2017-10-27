@@ -34,7 +34,7 @@
  <tr style="height: 56px;">
   <td id="projectlogo"><img src="tsduck-32.png"/></td>
    <td id="projectalign"><span id="projectname">TSDuck</span>
-    <span id="projectnumber">Version 3.3</span>
+    <span id="projectnumber">Version 3.4</span>
     <span id="projectbrief">(TSDuck - The MPEG Transport Stream Toolkit)</span>
    </td>
    <td>        <div id="MSearchBox" class="MSearchBoxInactive">
@@ -92,6 +92,7 @@ $(document).ready(function(){initNavTree('namespacets_1_1names.html','');});
 
 <div class="header">
   <div class="summary">
+<a href="#enum-members">Enumerations</a> &#124;
 <a href="#func-members">Functions</a>  </div>
   <div class="headertitle">
 <div class="title">ts::names Namespace Reference</div>  </div>
@@ -101,110 +102,180 @@ $(document).ready(function(){initNavTree('namespacets_1_1names.html','');});
 <p>Namespace for functions returning MPEG/DVB names.  
 <a href="#details">More...</a></p>
 <table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="enum-members"></a>
+Enumerations</h2></td></tr>
+<tr class="memitem:ad01b2604fc1b9fcaa4cbcbea333d8bfc"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacets_1_1names.html#ad01b2604fc1b9fcaa4cbcbea333d8bfc">Flags</a> { <br />
+&#160;&#160;<b>NAME</b> = 0x0000, 
+<br />
+&#160;&#160;<a class="el" href="namespacets_1_1names.html#ad01b2604fc1b9fcaa4cbcbea333d8bfcab312b4ea29910f06d3ea92f34d8c01f8">VALUE</a> = 0x0001, 
+<br />
+&#160;&#160;<a class="el" href="namespacets_1_1names.html#ad01b2604fc1b9fcaa4cbcbea333d8bfcadb593d99c9208513a8e63da85dbc6038">FIRST</a> = 0x0002, 
+<br />
+&#160;&#160;<a class="el" href="namespacets_1_1names.html#ad01b2604fc1b9fcaa4cbcbea333d8bfca79d7ca23e25e4e818ccb4cabe1444d90">HEXA</a> = 0x0004, 
+<br />
+&#160;&#160;<a class="el" href="namespacets_1_1names.html#ad01b2604fc1b9fcaa4cbcbea333d8bfcaa37c237e351482643a74c6ecd9354a81">DECIMAL</a> = 0x0008, 
+<br />
+&#160;&#160;<a class="el" href="namespacets_1_1names.html#ad01b2604fc1b9fcaa4cbcbea333d8bfcaddc440e9d72a20a3c31c54951bf4475f">BOTH</a> = HEXA | DECIMAL, 
+<br />
+&#160;&#160;<a class="el" href="namespacets_1_1names.html#ad01b2604fc1b9fcaa4cbcbea333d8bfca880dc6646255f54e867a69c9f38a87f8">HEXA_FIRST</a> = FIRST | HEXA, 
+<br />
+&#160;&#160;<a class="el" href="namespacets_1_1names.html#ad01b2604fc1b9fcaa4cbcbea333d8bfca2de9175d5a1ffe3bb0fdcffa6b04a87a">DECIMAL_FIRST</a> = FIRST | DECIMAL, 
+<br />
+&#160;&#160;<a class="el" href="namespacets_1_1names.html#ad01b2604fc1b9fcaa4cbcbea333d8bfcafa14db057955786747855425d6a9edf2">BOTH_FIRST</a> = FIRST | HEXA | DECIMAL
+<br />
+ }<tr class="memdesc:ad01b2604fc1b9fcaa4cbcbea333d8bfc"><td class="mdescLeft">&#160;</td><td class="mdescRight">Flags to be used in the formating of MPEG/DVB names.  <a href="namespacets_1_1names.html#ad01b2604fc1b9fcaa4cbcbea333d8bfc">More...</a><br /></td></tr>
+</td></tr>
+<tr class="separator:ad01b2604fc1b9fcaa4cbcbea333d8bfc"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
 Functions</h2></td></tr>
-<tr class="memitem:a22bc04f46c9152427bb1e1db33a55555"><td class="memItemLeft" align="right" valign="top">std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacets_1_1names.html#a22bc04f46c9152427bb1e1db33a55555">AC3ComponentType</a> (uint8_t t)</td></tr>
-<tr class="memdesc:a22bc04f46c9152427bb1e1db33a55555"><td class="mdescLeft">&#160;</td><td class="mdescRight">Name of AC-3 Component Type.  <a href="#a22bc04f46c9152427bb1e1db33a55555">More...</a><br /></td></tr>
-<tr class="separator:a22bc04f46c9152427bb1e1db33a55555"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:af1f745ab758469ab5f5db3f2d3b277f8"><td class="memItemLeft" align="right" valign="top">std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacets_1_1names.html#af1f745ab758469ab5f5db3f2d3b277f8">AspectRatio</a> (uint8_t a)</td></tr>
-<tr class="memdesc:af1f745ab758469ab5f5db3f2d3b277f8"><td class="mdescLeft">&#160;</td><td class="mdescRight">Name of aspect ratio values (in MPEG-1/2 video sequence header).  <a href="#af1f745ab758469ab5f5db3f2d3b277f8">More...</a><br /></td></tr>
-<tr class="separator:af1f745ab758469ab5f5db3f2d3b277f8"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ae078b1770dad4cee1b9c6fcd9eb709ce"><td class="memItemLeft" align="right" valign="top">std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacets_1_1names.html#ae078b1770dad4cee1b9c6fcd9eb709ce">AudioType</a> (uint8_t at)</td></tr>
-<tr class="memdesc:ae078b1770dad4cee1b9c6fcd9eb709ce"><td class="mdescLeft">&#160;</td><td class="mdescRight">Name of audio type (in ISO639 Language <a class="el" href="classts_1_1_descriptor.html" title="Representation of a MPEG PSI/SI descriptors in binary format. ">Descriptor</a>).  <a href="#ae078b1770dad4cee1b9c6fcd9eb709ce">More...</a><br /></td></tr>
-<tr class="separator:ae078b1770dad4cee1b9c6fcd9eb709ce"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a75154949852a2a6c92f2286dec9c396d"><td class="memItemLeft" align="right" valign="top">std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacets_1_1names.html#a75154949852a2a6c92f2286dec9c396d">AVCProfile</a> (int p)</td></tr>
-<tr class="memdesc:a75154949852a2a6c92f2286dec9c396d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Name of AVC (ISO 14496-10, ITU H.264) profile.  <a href="#a75154949852a2a6c92f2286dec9c396d">More...</a><br /></td></tr>
-<tr class="separator:a75154949852a2a6c92f2286dec9c396d"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a029b8df6273f970475cd67754456867e"><td class="memItemLeft" align="right" valign="top">std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacets_1_1names.html#a029b8df6273f970475cd67754456867e">AVCUnitType</a> (uint8_t ut)</td></tr>
-<tr class="memdesc:a029b8df6273f970475cd67754456867e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Name of AVC (ISO 14496-10, ITU H.264) access unit (aka "NALunit") type.  <a href="#a029b8df6273f970475cd67754456867e">More...</a><br /></td></tr>
-<tr class="separator:a029b8df6273f970475cd67754456867e"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a7f17eb5252daa6f09218f5c88ea17b70"><td class="memItemLeft" align="right" valign="top">std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacets_1_1names.html#a7f17eb5252daa6f09218f5c88ea17b70">BouquetId</a> (uint16_t id)</td></tr>
-<tr class="memdesc:a7f17eb5252daa6f09218f5c88ea17b70"><td class="mdescLeft">&#160;</td><td class="mdescRight">Name of Bouquet Id.  <a href="#a7f17eb5252daa6f09218f5c88ea17b70">More...</a><br /></td></tr>
-<tr class="separator:a7f17eb5252daa6f09218f5c88ea17b70"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aacfd9c0b23e3d30b94c819f9e395454b"><td class="memItemLeft" align="right" valign="top">std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacets_1_1names.html#aacfd9c0b23e3d30b94c819f9e395454b">CASFamily</a> (<a class="el" href="namespacets.html#a1de171688c3a6ff71896a8f3e5817c11">ts::CASFamily</a> cas)</td></tr>
-<tr class="memdesc:aacfd9c0b23e3d30b94c819f9e395454b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Name of Conditional Access Families.  <a href="#aacfd9c0b23e3d30b94c819f9e395454b">More...</a><br /></td></tr>
-<tr class="separator:aacfd9c0b23e3d30b94c819f9e395454b"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a6714ceb9125781a7c9c3300032d26476"><td class="memItemLeft" align="right" valign="top">std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacets_1_1names.html#a6714ceb9125781a7c9c3300032d26476">CASId</a> (uint16_t casid)</td></tr>
-<tr class="memdesc:a6714ceb9125781a7c9c3300032d26476"><td class="mdescLeft">&#160;</td><td class="mdescRight">Name of Conditional Access System Id (in CA <a class="el" href="classts_1_1_descriptor.html" title="Representation of a MPEG PSI/SI descriptors in binary format. ">Descriptor</a>).  <a href="#a6714ceb9125781a7c9c3300032d26476">More...</a><br /></td></tr>
-<tr class="separator:a6714ceb9125781a7c9c3300032d26476"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aad518e0c12fb6210c071deb2775bae3b"><td class="memItemLeft" align="right" valign="top">std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacets_1_1names.html#aad518e0c12fb6210c071deb2775bae3b">ChromaFormat</a> (uint8_t c)</td></tr>
-<tr class="memdesc:aad518e0c12fb6210c071deb2775bae3b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Name of Chroma format values (in MPEG-1/2 video sequence header).  <a href="#aad518e0c12fb6210c071deb2775bae3b">More...</a><br /></td></tr>
-<tr class="separator:aad518e0c12fb6210c071deb2775bae3b"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a7c961d1e9baa0fb990b197b3a7f9a902"><td class="memItemLeft" align="right" valign="top">std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacets_1_1names.html#a7c961d1e9baa0fb990b197b3a7f9a902">ComponentType</a> (uint16_t ct)</td></tr>
-<tr class="memdesc:a7c961d1e9baa0fb990b197b3a7f9a902"><td class="mdescLeft">&#160;</td><td class="mdescRight">Name of Component Type (in Component <a class="el" href="classts_1_1_descriptor.html" title="Representation of a MPEG PSI/SI descriptors in binary format. ">Descriptor</a>).  <a href="#a7c961d1e9baa0fb990b197b3a7f9a902">More...</a><br /></td></tr>
-<tr class="separator:a7c961d1e9baa0fb990b197b3a7f9a902"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ac2a5772eb487bae99cd2e4c3fd8bbab4"><td class="memItemLeft" align="right" valign="top">std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacets_1_1names.html#ac2a5772eb487bae99cd2e4c3fd8bbab4">Content</a> (uint8_t c)</td></tr>
-<tr class="memdesc:ac2a5772eb487bae99cd2e4c3fd8bbab4"><td class="mdescLeft">&#160;</td><td class="mdescRight">Name of content name (in Content <a class="el" href="classts_1_1_descriptor.html" title="Representation of a MPEG PSI/SI descriptors in binary format. ">Descriptor</a>).  <a href="#ac2a5772eb487bae99cd2e4c3fd8bbab4">More...</a><br /></td></tr>
-<tr class="separator:ac2a5772eb487bae99cd2e4c3fd8bbab4"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:afa4b12b39e167d9f0b7ee3eeebb3ae89"><td class="memItemLeft" align="right" valign="top">std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacets_1_1names.html#afa4b12b39e167d9f0b7ee3eeebb3ae89">DataBroadcastId</a> (uint16_t id)</td></tr>
-<tr class="memdesc:afa4b12b39e167d9f0b7ee3eeebb3ae89"><td class="mdescLeft">&#160;</td><td class="mdescRight">Name of Data broadcast id (in Data Broadcast Id <a class="el" href="classts_1_1_descriptor.html" title="Representation of a MPEG PSI/SI descriptors in binary format. ">Descriptor</a>).  <a href="#afa4b12b39e167d9f0b7ee3eeebb3ae89">More...</a><br /></td></tr>
-<tr class="separator:afa4b12b39e167d9f0b7ee3eeebb3ae89"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ab2c8fde5bd034984289d4be6618fa1dc"><td class="memItemLeft" align="right" valign="top">std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacets_1_1names.html#ab2c8fde5bd034984289d4be6618fa1dc">DID</a> (uint8_t did, uint32_t pds=0)</td></tr>
-<tr class="memdesc:ab2c8fde5bd034984289d4be6618fa1dc"><td class="mdescLeft">&#160;</td><td class="mdescRight">Name of <a class="el" href="classts_1_1_descriptor.html" title="Representation of a MPEG PSI/SI descriptors in binary format. ">Descriptor</a> ID.  <a href="#ab2c8fde5bd034984289d4be6618fa1dc">More...</a><br /></td></tr>
-<tr class="separator:ab2c8fde5bd034984289d4be6618fa1dc"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:acf3691bc95eb87539955552801997b0d"><td class="memItemLeft" align="right" valign="top">std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacets_1_1names.html#acf3691bc95eb87539955552801997b0d">DTSBitRateCode</a> (uint8_t c)</td></tr>
-<tr class="memdesc:acf3691bc95eb87539955552801997b0d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Name of DTS Audio Bit Rate Code.  <a href="#acf3691bc95eb87539955552801997b0d">More...</a><br /></td></tr>
-<tr class="separator:acf3691bc95eb87539955552801997b0d"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a6bbedad104035c3902f872eda6c7c01a"><td class="memItemLeft" align="right" valign="top">std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacets_1_1names.html#a6bbedad104035c3902f872eda6c7c01a">DTSExtendedSurroundMode</a> (uint8_t mode)</td></tr>
-<tr class="memdesc:a6bbedad104035c3902f872eda6c7c01a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Name of DTS Audio Extended Surround Mode.  <a href="#a6bbedad104035c3902f872eda6c7c01a">More...</a><br /></td></tr>
-<tr class="separator:a6bbedad104035c3902f872eda6c7c01a"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a95965998f2dbf2dbf3cb95f6e5f29258"><td class="memItemLeft" align="right" valign="top">std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacets_1_1names.html#a95965998f2dbf2dbf3cb95f6e5f29258">DTSSampleRateCode</a> (uint8_t c)</td></tr>
-<tr class="memdesc:a95965998f2dbf2dbf3cb95f6e5f29258"><td class="mdescLeft">&#160;</td><td class="mdescRight">Name of DTS Audio Sample Rate code.  <a href="#a95965998f2dbf2dbf3cb95f6e5f29258">More...</a><br /></td></tr>
-<tr class="separator:a95965998f2dbf2dbf3cb95f6e5f29258"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a1fb218de4aeaced9e98a0173d1daa963"><td class="memItemLeft" align="right" valign="top">std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacets_1_1names.html#a1fb218de4aeaced9e98a0173d1daa963">DTSSurroundMode</a> (uint8_t mode)</td></tr>
-<tr class="memdesc:a1fb218de4aeaced9e98a0173d1daa963"><td class="mdescLeft">&#160;</td><td class="mdescRight">Name of DTS Audio Surround Mode.  <a href="#a1fb218de4aeaced9e98a0173d1daa963">More...</a><br /></td></tr>
-<tr class="separator:a1fb218de4aeaced9e98a0173d1daa963"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:abbd62253dc86604864e89d190ab4f068"><td class="memItemLeft" align="right" valign="top">std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacets_1_1names.html#abbd62253dc86604864e89d190ab4f068">EDID</a> (uint8_t edid, uint32_t pds=0)</td></tr>
-<tr class="memdesc:abbd62253dc86604864e89d190ab4f068"><td class="mdescLeft">&#160;</td><td class="mdescRight">Name of Extended descriptor ID.  <a href="#abbd62253dc86604864e89d190ab4f068">More...</a><br /></td></tr>
-<tr class="separator:abbd62253dc86604864e89d190ab4f068"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ab39fb5b680d757a01c531e83ca7bda6d"><td class="memItemLeft" align="right" valign="top">std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacets_1_1names.html#ab39fb5b680d757a01c531e83ca7bda6d">LinkageType</a> (uint8_t lt)</td></tr>
-<tr class="memdesc:ab39fb5b680d757a01c531e83ca7bda6d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Name of linkage type (in Linkage <a class="el" href="classts_1_1_descriptor.html" title="Representation of a MPEG PSI/SI descriptors in binary format. ">Descriptor</a>).  <a href="#ab39fb5b680d757a01c531e83ca7bda6d">More...</a><br /></td></tr>
-<tr class="separator:ab39fb5b680d757a01c531e83ca7bda6d"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a5e2c814bfaabcf3ea011b4ac554d677b"><td class="memItemLeft" align="right" valign="top">std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacets_1_1names.html#a5e2c814bfaabcf3ea011b4ac554d677b">OUI</a> (uint32_t oui)</td></tr>
-<tr class="memdesc:a5e2c814bfaabcf3ea011b4ac554d677b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Name of OUI (IEEE-assigned Organizationally Unique Identifier), 24 bits.  <a href="#a5e2c814bfaabcf3ea011b4ac554d677b">More...</a><br /></td></tr>
-<tr class="separator:a5e2c814bfaabcf3ea011b4ac554d677b"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ac4e333a6c283151aed6614a2ff73084f"><td class="memItemLeft" align="right" valign="top">std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacets_1_1names.html#ac4e333a6c283151aed6614a2ff73084f">PESStartCode</a> (uint8_t code)</td></tr>
-<tr class="memdesc:ac4e333a6c283151aed6614a2ff73084f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Name of PES start code value.  <a href="#ac4e333a6c283151aed6614a2ff73084f">More...</a><br /></td></tr>
-<tr class="separator:ac4e333a6c283151aed6614a2ff73084f"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ad86537858504930e840e3fbc941d8b86"><td class="memItemLeft" align="right" valign="top">std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacets_1_1names.html#ad86537858504930e840e3fbc941d8b86">PrivateDataSpecifier</a> (uint32_t pds)</td></tr>
-<tr class="memdesc:ad86537858504930e840e3fbc941d8b86"><td class="mdescLeft">&#160;</td><td class="mdescRight">Name of Private Data Specifier.  <a href="#ad86537858504930e840e3fbc941d8b86">More...</a><br /></td></tr>
-<tr class="separator:ad86537858504930e840e3fbc941d8b86"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:abb1cfe80807bf798cadb459efff62517"><td class="memItemLeft" align="right" valign="top">std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacets_1_1names.html#abb1cfe80807bf798cadb459efff62517">RunningStatus</a> (uint8_t rs)</td></tr>
-<tr class="memdesc:abb1cfe80807bf798cadb459efff62517"><td class="mdescLeft">&#160;</td><td class="mdescRight">Name of Running Status (in <a class="el" href="classts_1_1_s_d_t.html" title="Representation of a Service Description Table (SDT). ">SDT</a>).  <a href="#abb1cfe80807bf798cadb459efff62517">More...</a><br /></td></tr>
-<tr class="separator:abb1cfe80807bf798cadb459efff62517"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:adf42beafb6dda78e47a5d375aaa3d5cb"><td class="memItemLeft" align="right" valign="top">std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacets_1_1names.html#adf42beafb6dda78e47a5d375aaa3d5cb">ScramblingControl</a> (uint8_t sc)</td></tr>
-<tr class="memdesc:adf42beafb6dda78e47a5d375aaa3d5cb"><td class="mdescLeft">&#160;</td><td class="mdescRight">Name of scrambling control value in TS header.  <a href="#adf42beafb6dda78e47a5d375aaa3d5cb">More...</a><br /></td></tr>
-<tr class="separator:adf42beafb6dda78e47a5d375aaa3d5cb"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a95046a192b1afe15b66418c1b1a06759"><td class="memItemLeft" align="right" valign="top">std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacets_1_1names.html#a95046a192b1afe15b66418c1b1a06759">ServiceType</a> (uint8_t st)</td></tr>
-<tr class="memdesc:a95046a192b1afe15b66418c1b1a06759"><td class="mdescLeft">&#160;</td><td class="mdescRight">Name of service type (in <a class="el" href="classts_1_1_service.html" title="Describe a DVB service. ">Service</a> <a class="el" href="classts_1_1_descriptor.html" title="Representation of a MPEG PSI/SI descriptors in binary format. ">Descriptor</a>).  <a href="#a95046a192b1afe15b66418c1b1a06759">More...</a><br /></td></tr>
-<tr class="separator:a95046a192b1afe15b66418c1b1a06759"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a6bde5c04414967b8fd19c0de8bb161d9"><td class="memItemLeft" align="right" valign="top">std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacets_1_1names.html#a6bde5c04414967b8fd19c0de8bb161d9">StreamId</a> (uint8_t sid)</td></tr>
-<tr class="memdesc:a6bde5c04414967b8fd19c0de8bb161d9"><td class="mdescLeft">&#160;</td><td class="mdescRight">Name of Stream ID (in PES header).  <a href="#a6bde5c04414967b8fd19c0de8bb161d9">More...</a><br /></td></tr>
-<tr class="separator:a6bde5c04414967b8fd19c0de8bb161d9"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ad5dfdb313b5131af39a4a11a838c92e0"><td class="memItemLeft" align="right" valign="top">std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacets_1_1names.html#ad5dfdb313b5131af39a4a11a838c92e0">StreamType</a> (uint8_t st)</td></tr>
-<tr class="memdesc:ad5dfdb313b5131af39a4a11a838c92e0"><td class="mdescLeft">&#160;</td><td class="mdescRight">Name of Stream type (in <a class="el" href="classts_1_1_p_m_t.html" title="Representation of a Program Map Table (PMT) ">PMT</a>).  <a href="#ad5dfdb313b5131af39a4a11a838c92e0">More...</a><br /></td></tr>
-<tr class="separator:ad5dfdb313b5131af39a4a11a838c92e0"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a32c582b1418cb8a44bb4db70d20ea445"><td class="memItemLeft" align="right" valign="top">std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacets_1_1names.html#a32c582b1418cb8a44bb4db70d20ea445">SubtitlingType</a> (uint8_t st)</td></tr>
-<tr class="memdesc:a32c582b1418cb8a44bb4db70d20ea445"><td class="mdescLeft">&#160;</td><td class="mdescRight">Name of subtitling type (in Subtitling <a class="el" href="classts_1_1_descriptor.html" title="Representation of a MPEG PSI/SI descriptors in binary format. ">Descriptor</a>).  <a href="#a32c582b1418cb8a44bb4db70d20ea445">More...</a><br /></td></tr>
-<tr class="separator:a32c582b1418cb8a44bb4db70d20ea445"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a8b4f99724f69424f4fedf93a6d7fbd62"><td class="memItemLeft" align="right" valign="top">std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacets_1_1names.html#a8b4f99724f69424f4fedf93a6d7fbd62">TeletextType</a> (uint8_t tt)</td></tr>
-<tr class="memdesc:a8b4f99724f69424f4fedf93a6d7fbd62"><td class="mdescLeft">&#160;</td><td class="mdescRight">Name of Teletext type (in Teletext <a class="el" href="classts_1_1_descriptor.html" title="Representation of a MPEG PSI/SI descriptors in binary format. ">Descriptor</a>).  <a href="#a8b4f99724f69424f4fedf93a6d7fbd62">More...</a><br /></td></tr>
-<tr class="separator:a8b4f99724f69424f4fedf93a6d7fbd62"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a4557019c0d86b0b6d0f5df0b99368595"><td class="memItemLeft" align="right" valign="top">std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacets_1_1names.html#a4557019c0d86b0b6d0f5df0b99368595">TID</a> (uint8_t tid, <a class="el" href="namespacets.html#a1de171688c3a6ff71896a8f3e5817c11">ts::CASFamily</a> cas=<a class="el" href="namespacets.html#a1de171688c3a6ff71896a8f3e5817c11a79bba7cbc9e78632bc132244f9c83d9e">CAS_OTHER</a>)</td></tr>
-<tr class="memdesc:a4557019c0d86b0b6d0f5df0b99368595"><td class="mdescLeft">&#160;</td><td class="mdescRight">Name of Table ID.  <a href="#a4557019c0d86b0b6d0f5df0b99368595">More...</a><br /></td></tr>
-<tr class="separator:a4557019c0d86b0b6d0f5df0b99368595"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a46853616849200471ec9ad2a18e5acc5"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classts_1_1_u_string.html">UString</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacets_1_1names.html#a46853616849200471ec9ad2a18e5acc5">AC3ComponentType</a> (uint8_t t, <a class="el" href="namespacets_1_1names.html#ad01b2604fc1b9fcaa4cbcbea333d8bfc">Flags</a> flags=NAME)</td></tr>
+<tr class="memdesc:a46853616849200471ec9ad2a18e5acc5"><td class="mdescLeft">&#160;</td><td class="mdescRight">Name of AC-3 Component Type.  <a href="#a46853616849200471ec9ad2a18e5acc5">More...</a><br /></td></tr>
+<tr class="separator:a46853616849200471ec9ad2a18e5acc5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a89fad3f668bf1aede1f9f06b345488e2"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classts_1_1_u_string.html">UString</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacets_1_1names.html#a89fad3f668bf1aede1f9f06b345488e2">AspectRatio</a> (uint8_t a, <a class="el" href="namespacets_1_1names.html#ad01b2604fc1b9fcaa4cbcbea333d8bfc">Flags</a> flags=NAME)</td></tr>
+<tr class="memdesc:a89fad3f668bf1aede1f9f06b345488e2"><td class="mdescLeft">&#160;</td><td class="mdescRight">Name of aspect ratio values (in MPEG-1/2 video sequence header).  <a href="#a89fad3f668bf1aede1f9f06b345488e2">More...</a><br /></td></tr>
+<tr class="separator:a89fad3f668bf1aede1f9f06b345488e2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa5298cf279fee9b277ca2a1e19ddd17a"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classts_1_1_u_string.html">UString</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacets_1_1names.html#aa5298cf279fee9b277ca2a1e19ddd17a">AudioType</a> (uint8_t at, <a class="el" href="namespacets_1_1names.html#ad01b2604fc1b9fcaa4cbcbea333d8bfc">Flags</a> flags=NAME)</td></tr>
+<tr class="memdesc:aa5298cf279fee9b277ca2a1e19ddd17a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Name of audio type (in ISO639 Language <a class="el" href="classts_1_1_descriptor.html" title="Representation of a MPEG PSI/SI descriptors in binary format. ">Descriptor</a>).  <a href="#aa5298cf279fee9b277ca2a1e19ddd17a">More...</a><br /></td></tr>
+<tr class="separator:aa5298cf279fee9b277ca2a1e19ddd17a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad14d85dcd8b220578dffd5a1b51058e0"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classts_1_1_u_string.html">UString</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacets_1_1names.html#ad14d85dcd8b220578dffd5a1b51058e0">AVCProfile</a> (int p, <a class="el" href="namespacets_1_1names.html#ad01b2604fc1b9fcaa4cbcbea333d8bfc">Flags</a> flags=NAME)</td></tr>
+<tr class="memdesc:ad14d85dcd8b220578dffd5a1b51058e0"><td class="mdescLeft">&#160;</td><td class="mdescRight">Name of AVC (ISO 14496-10, ITU H.264) profile.  <a href="#ad14d85dcd8b220578dffd5a1b51058e0">More...</a><br /></td></tr>
+<tr class="separator:ad14d85dcd8b220578dffd5a1b51058e0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae2fdd082098b77ed9ff2fee836aaed1a"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classts_1_1_u_string.html">UString</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacets_1_1names.html#ae2fdd082098b77ed9ff2fee836aaed1a">AVCUnitType</a> (uint8_t ut, <a class="el" href="namespacets_1_1names.html#ad01b2604fc1b9fcaa4cbcbea333d8bfc">Flags</a> flags=NAME)</td></tr>
+<tr class="memdesc:ae2fdd082098b77ed9ff2fee836aaed1a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Name of AVC (ISO 14496-10, ITU H.264) access unit (aka "NALunit") type.  <a href="#ae2fdd082098b77ed9ff2fee836aaed1a">More...</a><br /></td></tr>
+<tr class="separator:ae2fdd082098b77ed9ff2fee836aaed1a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1a91570fdf82c3fd637172e58b7afe4b"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classts_1_1_u_string.html">UString</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacets_1_1names.html#a1a91570fdf82c3fd637172e58b7afe4b">BouquetId</a> (uint16_t id, <a class="el" href="namespacets_1_1names.html#ad01b2604fc1b9fcaa4cbcbea333d8bfc">Flags</a> flags=NAME)</td></tr>
+<tr class="memdesc:a1a91570fdf82c3fd637172e58b7afe4b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Name of Bouquet Id.  <a href="#a1a91570fdf82c3fd637172e58b7afe4b">More...</a><br /></td></tr>
+<tr class="separator:a1a91570fdf82c3fd637172e58b7afe4b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a02c8d6a9b5ea1e0f4e5200b07ca2741b"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classts_1_1_u_string.html">UString</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacets_1_1names.html#a02c8d6a9b5ea1e0f4e5200b07ca2741b">CASFamily</a> (<a class="el" href="namespacets.html#a1de171688c3a6ff71896a8f3e5817c11">ts::CASFamily</a> cas)</td></tr>
+<tr class="memdesc:a02c8d6a9b5ea1e0f4e5200b07ca2741b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Name of Conditional Access Families.  <a href="#a02c8d6a9b5ea1e0f4e5200b07ca2741b">More...</a><br /></td></tr>
+<tr class="separator:a02c8d6a9b5ea1e0f4e5200b07ca2741b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aef40f646f1f64dd4efb754fceba312ff"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classts_1_1_u_string.html">UString</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacets_1_1names.html#aef40f646f1f64dd4efb754fceba312ff">CASId</a> (uint16_t casid, <a class="el" href="namespacets_1_1names.html#ad01b2604fc1b9fcaa4cbcbea333d8bfc">Flags</a> flags=NAME)</td></tr>
+<tr class="memdesc:aef40f646f1f64dd4efb754fceba312ff"><td class="mdescLeft">&#160;</td><td class="mdescRight">Name of Conditional Access System Id (in CA <a class="el" href="classts_1_1_descriptor.html" title="Representation of a MPEG PSI/SI descriptors in binary format. ">Descriptor</a>).  <a href="#aef40f646f1f64dd4efb754fceba312ff">More...</a><br /></td></tr>
+<tr class="separator:aef40f646f1f64dd4efb754fceba312ff"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a132833862e76077f1db16ff08ea9561b"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classts_1_1_u_string.html">UString</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacets_1_1names.html#a132833862e76077f1db16ff08ea9561b">ChromaFormat</a> (uint8_t c, <a class="el" href="namespacets_1_1names.html#ad01b2604fc1b9fcaa4cbcbea333d8bfc">Flags</a> flags=NAME)</td></tr>
+<tr class="memdesc:a132833862e76077f1db16ff08ea9561b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Name of Chroma format values (in MPEG-1/2 video sequence header).  <a href="#a132833862e76077f1db16ff08ea9561b">More...</a><br /></td></tr>
+<tr class="separator:a132833862e76077f1db16ff08ea9561b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a477381facf0820b9ea24afd147ad5801"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classts_1_1_u_string.html">UString</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacets_1_1names.html#a477381facf0820b9ea24afd147ad5801">ComponentType</a> (uint16_t ct, <a class="el" href="namespacets_1_1names.html#ad01b2604fc1b9fcaa4cbcbea333d8bfc">Flags</a> flags=NAME)</td></tr>
+<tr class="memdesc:a477381facf0820b9ea24afd147ad5801"><td class="mdescLeft">&#160;</td><td class="mdescRight">Name of Component Type (in Component <a class="el" href="classts_1_1_descriptor.html" title="Representation of a MPEG PSI/SI descriptors in binary format. ">Descriptor</a>).  <a href="#a477381facf0820b9ea24afd147ad5801">More...</a><br /></td></tr>
+<tr class="separator:a477381facf0820b9ea24afd147ad5801"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a64eb10d85c6de1de6fef2b4e0aa214b8"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classts_1_1_u_string.html">UString</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacets_1_1names.html#a64eb10d85c6de1de6fef2b4e0aa214b8">Content</a> (uint8_t c, <a class="el" href="namespacets_1_1names.html#ad01b2604fc1b9fcaa4cbcbea333d8bfc">Flags</a> flags=NAME)</td></tr>
+<tr class="memdesc:a64eb10d85c6de1de6fef2b4e0aa214b8"><td class="mdescLeft">&#160;</td><td class="mdescRight">Name of content name (in Content <a class="el" href="classts_1_1_descriptor.html" title="Representation of a MPEG PSI/SI descriptors in binary format. ">Descriptor</a>).  <a href="#a64eb10d85c6de1de6fef2b4e0aa214b8">More...</a><br /></td></tr>
+<tr class="separator:a64eb10d85c6de1de6fef2b4e0aa214b8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8c42180fc80c7901a51d15878253fe79"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classts_1_1_u_string.html">UString</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacets_1_1names.html#a8c42180fc80c7901a51d15878253fe79">DataBroadcastId</a> (uint16_t id, <a class="el" href="namespacets_1_1names.html#ad01b2604fc1b9fcaa4cbcbea333d8bfc">Flags</a> flags=NAME)</td></tr>
+<tr class="memdesc:a8c42180fc80c7901a51d15878253fe79"><td class="mdescLeft">&#160;</td><td class="mdescRight">Name of Data broadcast id (in Data Broadcast Id <a class="el" href="classts_1_1_descriptor.html" title="Representation of a MPEG PSI/SI descriptors in binary format. ">Descriptor</a>).  <a href="#a8c42180fc80c7901a51d15878253fe79">More...</a><br /></td></tr>
+<tr class="separator:a8c42180fc80c7901a51d15878253fe79"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab19ab1f27655d9be5cd35a1649ee745a"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classts_1_1_u_string.html">UString</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacets_1_1names.html#ab19ab1f27655d9be5cd35a1649ee745a">DID</a> (uint8_t did, uint32_t pds=0, <a class="el" href="namespacets_1_1names.html#ad01b2604fc1b9fcaa4cbcbea333d8bfc">Flags</a> flags=NAME)</td></tr>
+<tr class="memdesc:ab19ab1f27655d9be5cd35a1649ee745a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Name of <a class="el" href="classts_1_1_descriptor.html" title="Representation of a MPEG PSI/SI descriptors in binary format. ">Descriptor</a> ID.  <a href="#ab19ab1f27655d9be5cd35a1649ee745a">More...</a><br /></td></tr>
+<tr class="separator:ab19ab1f27655d9be5cd35a1649ee745a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a932d5d10adb35058597ea29e32e20967"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classts_1_1_u_string.html">UString</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacets_1_1names.html#a932d5d10adb35058597ea29e32e20967">DTSBitRateCode</a> (uint8_t c, <a class="el" href="namespacets_1_1names.html#ad01b2604fc1b9fcaa4cbcbea333d8bfc">Flags</a> flags=NAME)</td></tr>
+<tr class="memdesc:a932d5d10adb35058597ea29e32e20967"><td class="mdescLeft">&#160;</td><td class="mdescRight">Name of DTS Audio Bit Rate Code.  <a href="#a932d5d10adb35058597ea29e32e20967">More...</a><br /></td></tr>
+<tr class="separator:a932d5d10adb35058597ea29e32e20967"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad78c9943e15c45dfc3de7ebba9a9ad77"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classts_1_1_u_string.html">UString</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacets_1_1names.html#ad78c9943e15c45dfc3de7ebba9a9ad77">DTSExtendedSurroundMode</a> (uint8_t mode, <a class="el" href="namespacets_1_1names.html#ad01b2604fc1b9fcaa4cbcbea333d8bfc">Flags</a> flags=NAME)</td></tr>
+<tr class="memdesc:ad78c9943e15c45dfc3de7ebba9a9ad77"><td class="mdescLeft">&#160;</td><td class="mdescRight">Name of DTS Audio Extended Surround Mode.  <a href="#ad78c9943e15c45dfc3de7ebba9a9ad77">More...</a><br /></td></tr>
+<tr class="separator:ad78c9943e15c45dfc3de7ebba9a9ad77"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a14785704e7f280b650938570b35feba8"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classts_1_1_u_string.html">UString</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacets_1_1names.html#a14785704e7f280b650938570b35feba8">DTSSampleRateCode</a> (uint8_t c, <a class="el" href="namespacets_1_1names.html#ad01b2604fc1b9fcaa4cbcbea333d8bfc">Flags</a> flags=NAME)</td></tr>
+<tr class="memdesc:a14785704e7f280b650938570b35feba8"><td class="mdescLeft">&#160;</td><td class="mdescRight">Name of DTS Audio Sample Rate code.  <a href="#a14785704e7f280b650938570b35feba8">More...</a><br /></td></tr>
+<tr class="separator:a14785704e7f280b650938570b35feba8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae16d125254b8bb99eddf29a0521b06c8"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classts_1_1_u_string.html">UString</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacets_1_1names.html#ae16d125254b8bb99eddf29a0521b06c8">DTSSurroundMode</a> (uint8_t mode, <a class="el" href="namespacets_1_1names.html#ad01b2604fc1b9fcaa4cbcbea333d8bfc">Flags</a> flags=NAME)</td></tr>
+<tr class="memdesc:ae16d125254b8bb99eddf29a0521b06c8"><td class="mdescLeft">&#160;</td><td class="mdescRight">Name of DTS Audio Surround Mode.  <a href="#ae16d125254b8bb99eddf29a0521b06c8">More...</a><br /></td></tr>
+<tr class="separator:ae16d125254b8bb99eddf29a0521b06c8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a545398e37a24c689295144a7bc935ebb"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classts_1_1_u_string.html">UString</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacets_1_1names.html#a545398e37a24c689295144a7bc935ebb">EDID</a> (uint8_t edid, <a class="el" href="namespacets_1_1names.html#ad01b2604fc1b9fcaa4cbcbea333d8bfc">Flags</a> flags=NAME)</td></tr>
+<tr class="memdesc:a545398e37a24c689295144a7bc935ebb"><td class="mdescLeft">&#160;</td><td class="mdescRight">Name of Extended descriptor ID.  <a href="#a545398e37a24c689295144a7bc935ebb">More...</a><br /></td></tr>
+<tr class="separator:a545398e37a24c689295144a7bc935ebb"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad514e12f0319df0576fdd52d64066521"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classts_1_1_u_string.html">UString</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacets_1_1names.html#ad514e12f0319df0576fdd52d64066521">LinkageType</a> (uint8_t lt, <a class="el" href="namespacets_1_1names.html#ad01b2604fc1b9fcaa4cbcbea333d8bfc">Flags</a> flags=NAME)</td></tr>
+<tr class="memdesc:ad514e12f0319df0576fdd52d64066521"><td class="mdescLeft">&#160;</td><td class="mdescRight">Name of linkage type (in Linkage <a class="el" href="classts_1_1_descriptor.html" title="Representation of a MPEG PSI/SI descriptors in binary format. ">Descriptor</a>).  <a href="#ad514e12f0319df0576fdd52d64066521">More...</a><br /></td></tr>
+<tr class="separator:ad514e12f0319df0576fdd52d64066521"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9ae93223e43e1c60b2fcda250fa92969"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classts_1_1_u_string.html">UString</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacets_1_1names.html#a9ae93223e43e1c60b2fcda250fa92969">NetworkId</a> (uint16_t id, <a class="el" href="namespacets_1_1names.html#ad01b2604fc1b9fcaa4cbcbea333d8bfc">Flags</a> flags=NAME)</td></tr>
+<tr class="memdesc:a9ae93223e43e1c60b2fcda250fa92969"><td class="mdescLeft">&#160;</td><td class="mdescRight">Name of Network Id.  <a href="#a9ae93223e43e1c60b2fcda250fa92969">More...</a><br /></td></tr>
+<tr class="separator:a9ae93223e43e1c60b2fcda250fa92969"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a88581a66015c339793f0a28a7230ccdd"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classts_1_1_u_string.html">UString</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacets_1_1names.html#a88581a66015c339793f0a28a7230ccdd">OriginalNetworkId</a> (uint16_t id, <a class="el" href="namespacets_1_1names.html#ad01b2604fc1b9fcaa4cbcbea333d8bfc">Flags</a> flags=NAME)</td></tr>
+<tr class="memdesc:a88581a66015c339793f0a28a7230ccdd"><td class="mdescLeft">&#160;</td><td class="mdescRight">Name of Original Network Id.  <a href="#a88581a66015c339793f0a28a7230ccdd">More...</a><br /></td></tr>
+<tr class="separator:a88581a66015c339793f0a28a7230ccdd"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae0119ce83d3dd6ed7f101b77e2346d30"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classts_1_1_u_string.html">UString</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacets_1_1names.html#ae0119ce83d3dd6ed7f101b77e2346d30">OUI</a> (uint32_t oui, <a class="el" href="namespacets_1_1names.html#ad01b2604fc1b9fcaa4cbcbea333d8bfc">Flags</a> flags=NAME)</td></tr>
+<tr class="memdesc:ae0119ce83d3dd6ed7f101b77e2346d30"><td class="mdescLeft">&#160;</td><td class="mdescRight">Name of OUI (IEEE-assigned Organizationally Unique Identifier), 24 bits.  <a href="#ae0119ce83d3dd6ed7f101b77e2346d30">More...</a><br /></td></tr>
+<tr class="separator:ae0119ce83d3dd6ed7f101b77e2346d30"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:afe9708f86c70bc4c15af05fffe55820e"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classts_1_1_u_string.html">UString</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacets_1_1names.html#afe9708f86c70bc4c15af05fffe55820e">PESStartCode</a> (uint8_t code, <a class="el" href="namespacets_1_1names.html#ad01b2604fc1b9fcaa4cbcbea333d8bfc">Flags</a> flags=NAME)</td></tr>
+<tr class="memdesc:afe9708f86c70bc4c15af05fffe55820e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Name of PES start code value.  <a href="#afe9708f86c70bc4c15af05fffe55820e">More...</a><br /></td></tr>
+<tr class="separator:afe9708f86c70bc4c15af05fffe55820e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3a7fb3d2fcc76ec24ad460e56250650e"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classts_1_1_u_string.html">UString</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacets_1_1names.html#a3a7fb3d2fcc76ec24ad460e56250650e">PrivateDataSpecifier</a> (uint32_t pds, <a class="el" href="namespacets_1_1names.html#ad01b2604fc1b9fcaa4cbcbea333d8bfc">Flags</a> flags=NAME)</td></tr>
+<tr class="memdesc:a3a7fb3d2fcc76ec24ad460e56250650e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Name of Private Data Specifier.  <a href="#a3a7fb3d2fcc76ec24ad460e56250650e">More...</a><br /></td></tr>
+<tr class="separator:a3a7fb3d2fcc76ec24ad460e56250650e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ace88c53b9ff3a63ba611dcb8352d4d98"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classts_1_1_u_string.html">UString</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacets_1_1names.html#ace88c53b9ff3a63ba611dcb8352d4d98">RunningStatus</a> (uint8_t rs, <a class="el" href="namespacets_1_1names.html#ad01b2604fc1b9fcaa4cbcbea333d8bfc">Flags</a> flags=NAME)</td></tr>
+<tr class="memdesc:ace88c53b9ff3a63ba611dcb8352d4d98"><td class="mdescLeft">&#160;</td><td class="mdescRight">Name of Running Status (in <a class="el" href="classts_1_1_s_d_t.html" title="Representation of a Service Description Table (SDT). ">SDT</a>).  <a href="#ace88c53b9ff3a63ba611dcb8352d4d98">More...</a><br /></td></tr>
+<tr class="separator:ace88c53b9ff3a63ba611dcb8352d4d98"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a68bf116100941cfa9d79ae0487e735ab"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classts_1_1_u_string.html">UString</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacets_1_1names.html#a68bf116100941cfa9d79ae0487e735ab">ScramblingControl</a> (uint8_t sc, <a class="el" href="namespacets_1_1names.html#ad01b2604fc1b9fcaa4cbcbea333d8bfc">Flags</a> flags=NAME)</td></tr>
+<tr class="memdesc:a68bf116100941cfa9d79ae0487e735ab"><td class="mdescLeft">&#160;</td><td class="mdescRight">Name of scrambling control value in TS header.  <a href="#a68bf116100941cfa9d79ae0487e735ab">More...</a><br /></td></tr>
+<tr class="separator:a68bf116100941cfa9d79ae0487e735ab"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a25d269fa7c7116b61ae074b86012f461"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classts_1_1_u_string.html">UString</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacets_1_1names.html#a25d269fa7c7116b61ae074b86012f461">ServiceType</a> (uint8_t st, <a class="el" href="namespacets_1_1names.html#ad01b2604fc1b9fcaa4cbcbea333d8bfc">Flags</a> flags=NAME)</td></tr>
+<tr class="memdesc:a25d269fa7c7116b61ae074b86012f461"><td class="mdescLeft">&#160;</td><td class="mdescRight">Name of service type (in <a class="el" href="classts_1_1_service.html" title="Describe a DVB service. ">Service</a> <a class="el" href="classts_1_1_descriptor.html" title="Representation of a MPEG PSI/SI descriptors in binary format. ">Descriptor</a>).  <a href="#a25d269fa7c7116b61ae074b86012f461">More...</a><br /></td></tr>
+<tr class="separator:a25d269fa7c7116b61ae074b86012f461"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5744819d03a9b248dd01a8ff443241ca"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classts_1_1_u_string.html">UString</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacets_1_1names.html#a5744819d03a9b248dd01a8ff443241ca">StreamId</a> (uint8_t sid, <a class="el" href="namespacets_1_1names.html#ad01b2604fc1b9fcaa4cbcbea333d8bfc">Flags</a> flags=NAME)</td></tr>
+<tr class="memdesc:a5744819d03a9b248dd01a8ff443241ca"><td class="mdescLeft">&#160;</td><td class="mdescRight">Name of Stream ID (in PES header).  <a href="#a5744819d03a9b248dd01a8ff443241ca">More...</a><br /></td></tr>
+<tr class="separator:a5744819d03a9b248dd01a8ff443241ca"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0ad6094ccb78b1ea30568b7354928fd4"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classts_1_1_u_string.html">UString</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacets_1_1names.html#a0ad6094ccb78b1ea30568b7354928fd4">StreamType</a> (uint8_t st, <a class="el" href="namespacets_1_1names.html#ad01b2604fc1b9fcaa4cbcbea333d8bfc">Flags</a> flags=NAME)</td></tr>
+<tr class="memdesc:a0ad6094ccb78b1ea30568b7354928fd4"><td class="mdescLeft">&#160;</td><td class="mdescRight">Name of Stream type (in <a class="el" href="classts_1_1_p_m_t.html" title="Representation of a Program Map Table (PMT) ">PMT</a>).  <a href="#a0ad6094ccb78b1ea30568b7354928fd4">More...</a><br /></td></tr>
+<tr class="separator:a0ad6094ccb78b1ea30568b7354928fd4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:adb1b1ce25d79d80067e1e5a5878d074b"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classts_1_1_u_string.html">UString</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacets_1_1names.html#adb1b1ce25d79d80067e1e5a5878d074b">SubtitlingType</a> (uint8_t st, <a class="el" href="namespacets_1_1names.html#ad01b2604fc1b9fcaa4cbcbea333d8bfc">Flags</a> flags=NAME)</td></tr>
+<tr class="memdesc:adb1b1ce25d79d80067e1e5a5878d074b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Name of subtitling type (in Subtitling <a class="el" href="classts_1_1_descriptor.html" title="Representation of a MPEG PSI/SI descriptors in binary format. ">Descriptor</a>).  <a href="#adb1b1ce25d79d80067e1e5a5878d074b">More...</a><br /></td></tr>
+<tr class="separator:adb1b1ce25d79d80067e1e5a5878d074b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:abcbffa236179c3caa6e36a5466fe22f6"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classts_1_1_u_string.html">UString</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacets_1_1names.html#abcbffa236179c3caa6e36a5466fe22f6">T2MIPacketType</a> (uint8_t type, <a class="el" href="namespacets_1_1names.html#ad01b2604fc1b9fcaa4cbcbea333d8bfc">Flags</a> flags=NAME)</td></tr>
+<tr class="memdesc:abcbffa236179c3caa6e36a5466fe22f6"><td class="mdescLeft">&#160;</td><td class="mdescRight">Name of T2-MI packet type.  <a href="#abcbffa236179c3caa6e36a5466fe22f6">More...</a><br /></td></tr>
+<tr class="separator:abcbffa236179c3caa6e36a5466fe22f6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a636b74bd49f3d7cc68cb2bc4930b8aa0"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classts_1_1_u_string.html">UString</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacets_1_1names.html#a636b74bd49f3d7cc68cb2bc4930b8aa0">TeletextType</a> (uint8_t tt, <a class="el" href="namespacets_1_1names.html#ad01b2604fc1b9fcaa4cbcbea333d8bfc">Flags</a> flags=NAME)</td></tr>
+<tr class="memdesc:a636b74bd49f3d7cc68cb2bc4930b8aa0"><td class="mdescLeft">&#160;</td><td class="mdescRight">Name of Teletext type (in Teletext <a class="el" href="classts_1_1_descriptor.html" title="Representation of a MPEG PSI/SI descriptors in binary format. ">Descriptor</a>).  <a href="#a636b74bd49f3d7cc68cb2bc4930b8aa0">More...</a><br /></td></tr>
+<tr class="separator:a636b74bd49f3d7cc68cb2bc4930b8aa0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a60256fa31ed342e9a5f264cd94cd4796"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classts_1_1_u_string.html">UString</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacets_1_1names.html#a60256fa31ed342e9a5f264cd94cd4796">TID</a> (uint8_t tid, <a class="el" href="namespacets.html#a1de171688c3a6ff71896a8f3e5817c11">ts::CASFamily</a> cas=<a class="el" href="namespacets.html#a1de171688c3a6ff71896a8f3e5817c11a79bba7cbc9e78632bc132244f9c83d9e">CAS_OTHER</a>, <a class="el" href="namespacets_1_1names.html#ad01b2604fc1b9fcaa4cbcbea333d8bfc">Flags</a> flags=NAME)</td></tr>
+<tr class="memdesc:a60256fa31ed342e9a5f264cd94cd4796"><td class="mdescLeft">&#160;</td><td class="mdescRight">Name of Table ID.  <a href="#a60256fa31ed342e9a5f264cd94cd4796">More...</a><br /></td></tr>
+<tr class="separator:a60256fa31ed342e9a5f264cd94cd4796"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>Namespace for functions returning MPEG/DVB names. </p>
-</div><h2 class="groupheader">Function Documentation</h2>
-<a id="a4557019c0d86b0b6d0f5df0b99368595"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a4557019c0d86b0b6d0f5df0b99368595">&#9670;&nbsp;</a></span>TID()</h2>
+</div><h2 class="groupheader">Enumeration Type Documentation</h2>
+<a id="ad01b2604fc1b9fcaa4cbcbea333d8bfc"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad01b2604fc1b9fcaa4cbcbea333d8bfc">&#9670;&nbsp;</a></span>Flags</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">std::string ts::names::TID </td>
+          <td class="memname">enum <a class="el" href="namespacets_1_1names.html#ad01b2604fc1b9fcaa4cbcbea333d8bfc">ts::names::Flags</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Flags to be used in the formating of MPEG/DVB names. </p>
+<p>Values can be or'ed. </p>
+<table class="fieldtable">
+<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="ad01b2604fc1b9fcaa4cbcbea333d8bfcab312b4ea29910f06d3ea92f34d8c01f8"></a>VALUE&#160;</td><td class="fielddoc"><p>Name only, no value. This is the default. </p>
+</td></tr>
+<tr><td class="fieldname"><a id="ad01b2604fc1b9fcaa4cbcbea333d8bfcadb593d99c9208513a8e63da85dbc6038"></a>FIRST&#160;</td><td class="fielddoc"><p>Include the value: "name (value)". </p>
+</td></tr>
+<tr><td class="fieldname"><a id="ad01b2604fc1b9fcaa4cbcbea333d8bfca79d7ca23e25e4e818ccb4cabe1444d90"></a>HEXA&#160;</td><td class="fielddoc"><p>Same with value first: "value (name)". </p>
+</td></tr>
+<tr><td class="fieldname"><a id="ad01b2604fc1b9fcaa4cbcbea333d8bfcaa37c237e351482643a74c6ecd9354a81"></a>DECIMAL&#160;</td><td class="fielddoc"><p>Value in hexadecimal. This is the default. </p>
+</td></tr>
+<tr><td class="fieldname"><a id="ad01b2604fc1b9fcaa4cbcbea333d8bfcaddc440e9d72a20a3c31c54951bf4475f"></a>BOTH&#160;</td><td class="fielddoc"><p>Value in decimal. Both USE_DECIMAL and USE_HEXA can be specified. </p>
+</td></tr>
+<tr><td class="fieldname"><a id="ad01b2604fc1b9fcaa4cbcbea333d8bfca880dc6646255f54e867a69c9f38a87f8"></a>HEXA_FIRST&#160;</td><td class="fielddoc"><p>Value in decimal and hexadecimal. </p>
+</td></tr>
+<tr><td class="fieldname"><a id="ad01b2604fc1b9fcaa4cbcbea333d8bfca2de9175d5a1ffe3bb0fdcffa6b04a87a"></a>DECIMAL_FIRST&#160;</td><td class="fielddoc"><p>Value in hexadecimal in first position. </p>
+</td></tr>
+<tr><td class="fieldname"><a id="ad01b2604fc1b9fcaa4cbcbea333d8bfcafa14db057955786747855425d6a9edf2"></a>BOTH_FIRST&#160;</td><td class="fielddoc"><p>Value in decimal in first position. </p>
+</td></tr>
+</table>
+
+</div>
+</div>
+<h2 class="groupheader">Function Documentation</h2>
+<a id="a60256fa31ed342e9a5f264cd94cd4796"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a60256fa31ed342e9a5f264cd94cd4796">&#9670;&nbsp;</a></span>TID()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="classts_1_1_u_string.html">UString</a> ts::names::TID </td>
           <td>(</td>
           <td class="paramtype">uint8_t&#160;</td>
           <td class="paramname"><em>tid</em>, </td>
@@ -213,7 +284,13 @@ Functions</h2></td></tr>
           <td class="paramkey"></td>
           <td></td>
           <td class="paramtype"><a class="el" href="namespacets.html#a1de171688c3a6ff71896a8f3e5817c11">ts::CASFamily</a>&#160;</td>
-          <td class="paramname"><em>cas</em> = <code><a class="el" href="namespacets.html#a1de171688c3a6ff71896a8f3e5817c11a79bba7cbc9e78632bc132244f9c83d9e">CAS_OTHER</a></code>&#160;</td>
+          <td class="paramname"><em>cas</em> = <code><a class="el" href="namespacets.html#a1de171688c3a6ff71896a8f3e5817c11a79bba7cbc9e78632bc132244f9c83d9e">CAS_OTHER</a></code>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="namespacets_1_1names.html#ad01b2604fc1b9fcaa4cbcbea333d8bfc">Flags</a>&#160;</td>
+          <td class="paramname"><em>flags</em> = <code>NAME</code>&#160;</td>
         </tr>
         <tr>
           <td></td>
@@ -228,6 +305,7 @@ Functions</h2></td></tr>
   <table class="params">
     <tr><td class="paramdir">[in]</td><td class="paramname">tid</td><td>Table id. </td></tr>
     <tr><td class="paramdir">[in]</td><td class="paramname">cas</td><td>CAS family for EMM/ECM table ids. </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">flags</td><td>Presentation flags. </td></tr>
   </table>
   </dd>
 </dl>
@@ -235,14 +313,14 @@ Functions</h2></td></tr>
 
 </div>
 </div>
-<a id="ab2c8fde5bd034984289d4be6618fa1dc"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ab2c8fde5bd034984289d4be6618fa1dc">&#9670;&nbsp;</a></span>DID()</h2>
+<a id="ab19ab1f27655d9be5cd35a1649ee745a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab19ab1f27655d9be5cd35a1649ee745a">&#9670;&nbsp;</a></span>DID()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">std::string ts::names::DID </td>
+          <td class="memname"><a class="el" href="classts_1_1_u_string.html">UString</a> ts::names::DID </td>
           <td>(</td>
           <td class="paramtype">uint8_t&#160;</td>
           <td class="paramname"><em>did</em>, </td>
@@ -251,7 +329,13 @@ Functions</h2></td></tr>
           <td class="paramkey"></td>
           <td></td>
           <td class="paramtype">uint32_t&#160;</td>
-          <td class="paramname"><em>pds</em> = <code>0</code>&#160;</td>
+          <td class="paramname"><em>pds</em> = <code>0</code>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="namespacets_1_1names.html#ad01b2604fc1b9fcaa4cbcbea333d8bfc">Flags</a>&#160;</td>
+          <td class="paramname"><em>flags</em> = <code>NAME</code>&#160;</td>
         </tr>
         <tr>
           <td></td>
@@ -266,6 +350,7 @@ Functions</h2></td></tr>
   <table class="params">
     <tr><td class="paramdir">[in]</td><td class="paramname">did</td><td><a class="el" href="classts_1_1_descriptor.html" title="Representation of a MPEG PSI/SI descriptors in binary format. ">Descriptor</a> ID. </td></tr>
     <tr><td class="paramdir">[in]</td><td class="paramname">pds</td><td>Private data specified if <em>did</em> &gt;= 0x80. </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">flags</td><td>Presentation flags. </td></tr>
   </table>
   </dd>
 </dl>
@@ -273,14 +358,14 @@ Functions</h2></td></tr>
 
 </div>
 </div>
-<a id="abbd62253dc86604864e89d190ab4f068"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#abbd62253dc86604864e89d190ab4f068">&#9670;&nbsp;</a></span>EDID()</h2>
+<a id="a545398e37a24c689295144a7bc935ebb"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a545398e37a24c689295144a7bc935ebb">&#9670;&nbsp;</a></span>EDID()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">std::string ts::names::EDID </td>
+          <td class="memname"><a class="el" href="classts_1_1_u_string.html">UString</a> ts::names::EDID </td>
           <td>(</td>
           <td class="paramtype">uint8_t&#160;</td>
           <td class="paramname"><em>edid</em>, </td>
@@ -288,8 +373,8 @@ Functions</h2></td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">uint32_t&#160;</td>
-          <td class="paramname"><em>pds</em> = <code>0</code>&#160;</td>
+          <td class="paramtype"><a class="el" href="namespacets_1_1names.html#ad01b2604fc1b9fcaa4cbcbea333d8bfc">Flags</a>&#160;</td>
+          <td class="paramname"><em>flags</em> = <code>NAME</code>&#160;</td>
         </tr>
         <tr>
           <td></td>
@@ -303,7 +388,7 @@ Functions</h2></td></tr>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramdir">[in]</td><td class="paramname">edid</td><td>Extended descriptor ID. </td></tr>
-    <tr><td class="paramdir">[in]</td><td class="paramname">pds</td><td>Private data specified if <em>edid</em> &gt;= 0x80. </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">flags</td><td>Presentation flags. </td></tr>
   </table>
   </dd>
 </dl>
@@ -311,18 +396,28 @@ Functions</h2></td></tr>
 
 </div>
 </div>
-<a id="ad86537858504930e840e3fbc941d8b86"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ad86537858504930e840e3fbc941d8b86">&#9670;&nbsp;</a></span>PrivateDataSpecifier()</h2>
+<a id="a3a7fb3d2fcc76ec24ad460e56250650e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3a7fb3d2fcc76ec24ad460e56250650e">&#9670;&nbsp;</a></span>PrivateDataSpecifier()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">std::string ts::names::PrivateDataSpecifier </td>
+          <td class="memname"><a class="el" href="classts_1_1_u_string.html">UString</a> ts::names::PrivateDataSpecifier </td>
           <td>(</td>
           <td class="paramtype">uint32_t&#160;</td>
-          <td class="paramname"><em>pds</em></td><td>)</td>
+          <td class="paramname"><em>pds</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
           <td></td>
+          <td class="paramtype"><a class="el" href="namespacets_1_1names.html#ad01b2604fc1b9fcaa4cbcbea333d8bfc">Flags</a>&#160;</td>
+          <td class="paramname"><em>flags</em> = <code>NAME</code>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -331,6 +426,7 @@ Functions</h2></td></tr>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramdir">[in]</td><td class="paramname">pds</td><td>Private Data Specifier. </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">flags</td><td>Presentation flags. </td></tr>
   </table>
   </dd>
 </dl>
@@ -338,18 +434,28 @@ Functions</h2></td></tr>
 
 </div>
 </div>
-<a id="ad5dfdb313b5131af39a4a11a838c92e0"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ad5dfdb313b5131af39a4a11a838c92e0">&#9670;&nbsp;</a></span>StreamType()</h2>
+<a id="a0ad6094ccb78b1ea30568b7354928fd4"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0ad6094ccb78b1ea30568b7354928fd4">&#9670;&nbsp;</a></span>StreamType()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">std::string ts::names::StreamType </td>
+          <td class="memname"><a class="el" href="classts_1_1_u_string.html">UString</a> ts::names::StreamType </td>
           <td>(</td>
           <td class="paramtype">uint8_t&#160;</td>
-          <td class="paramname"><em>st</em></td><td>)</td>
+          <td class="paramname"><em>st</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
           <td></td>
+          <td class="paramtype"><a class="el" href="namespacets_1_1names.html#ad01b2604fc1b9fcaa4cbcbea333d8bfc">Flags</a>&#160;</td>
+          <td class="paramname"><em>flags</em> = <code>NAME</code>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -358,6 +464,7 @@ Functions</h2></td></tr>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramdir">[in]</td><td class="paramname">st</td><td>Stream type (in <a class="el" href="classts_1_1_p_m_t.html" title="Representation of a Program Map Table (PMT) ">PMT</a>). </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">flags</td><td>Presentation flags. </td></tr>
   </table>
   </dd>
 </dl>
@@ -365,18 +472,28 @@ Functions</h2></td></tr>
 
 </div>
 </div>
-<a id="a6bde5c04414967b8fd19c0de8bb161d9"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a6bde5c04414967b8fd19c0de8bb161d9">&#9670;&nbsp;</a></span>StreamId()</h2>
+<a id="a5744819d03a9b248dd01a8ff443241ca"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5744819d03a9b248dd01a8ff443241ca">&#9670;&nbsp;</a></span>StreamId()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">std::string ts::names::StreamId </td>
+          <td class="memname"><a class="el" href="classts_1_1_u_string.html">UString</a> ts::names::StreamId </td>
           <td>(</td>
           <td class="paramtype">uint8_t&#160;</td>
-          <td class="paramname"><em>sid</em></td><td>)</td>
+          <td class="paramname"><em>sid</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
           <td></td>
+          <td class="paramtype"><a class="el" href="namespacets_1_1names.html#ad01b2604fc1b9fcaa4cbcbea333d8bfc">Flags</a>&#160;</td>
+          <td class="paramname"><em>flags</em> = <code>NAME</code>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -385,6 +502,7 @@ Functions</h2></td></tr>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramdir">[in]</td><td class="paramname">sid</td><td>Stream ID (in PES header). </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">flags</td><td>Presentation flags. </td></tr>
   </table>
   </dd>
 </dl>
@@ -392,18 +510,28 @@ Functions</h2></td></tr>
 
 </div>
 </div>
-<a id="ac4e333a6c283151aed6614a2ff73084f"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ac4e333a6c283151aed6614a2ff73084f">&#9670;&nbsp;</a></span>PESStartCode()</h2>
+<a id="afe9708f86c70bc4c15af05fffe55820e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#afe9708f86c70bc4c15af05fffe55820e">&#9670;&nbsp;</a></span>PESStartCode()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">std::string ts::names::PESStartCode </td>
+          <td class="memname"><a class="el" href="classts_1_1_u_string.html">UString</a> ts::names::PESStartCode </td>
           <td>(</td>
           <td class="paramtype">uint8_t&#160;</td>
-          <td class="paramname"><em>code</em></td><td>)</td>
+          <td class="paramname"><em>code</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
           <td></td>
+          <td class="paramtype"><a class="el" href="namespacets_1_1names.html#ad01b2604fc1b9fcaa4cbcbea333d8bfc">Flags</a>&#160;</td>
+          <td class="paramname"><em>flags</em> = <code>NAME</code>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -412,6 +540,7 @@ Functions</h2></td></tr>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramdir">[in]</td><td class="paramname">code</td><td>PES start code value. </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">flags</td><td>Presentation flags. </td></tr>
   </table>
   </dd>
 </dl>
@@ -419,18 +548,28 @@ Functions</h2></td></tr>
 
 </div>
 </div>
-<a id="af1f745ab758469ab5f5db3f2d3b277f8"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#af1f745ab758469ab5f5db3f2d3b277f8">&#9670;&nbsp;</a></span>AspectRatio()</h2>
+<a id="a89fad3f668bf1aede1f9f06b345488e2"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a89fad3f668bf1aede1f9f06b345488e2">&#9670;&nbsp;</a></span>AspectRatio()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">std::string ts::names::AspectRatio </td>
+          <td class="memname"><a class="el" href="classts_1_1_u_string.html">UString</a> ts::names::AspectRatio </td>
           <td>(</td>
           <td class="paramtype">uint8_t&#160;</td>
-          <td class="paramname"><em>a</em></td><td>)</td>
+          <td class="paramname"><em>a</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
           <td></td>
+          <td class="paramtype"><a class="el" href="namespacets_1_1names.html#ad01b2604fc1b9fcaa4cbcbea333d8bfc">Flags</a>&#160;</td>
+          <td class="paramname"><em>flags</em> = <code>NAME</code>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -439,6 +578,7 @@ Functions</h2></td></tr>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramdir">[in]</td><td class="paramname">a</td><td>Aspect ratio value (in MPEG-1/2 video sequence header). </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">flags</td><td>Presentation flags. </td></tr>
   </table>
   </dd>
 </dl>
@@ -446,18 +586,28 @@ Functions</h2></td></tr>
 
 </div>
 </div>
-<a id="aad518e0c12fb6210c071deb2775bae3b"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aad518e0c12fb6210c071deb2775bae3b">&#9670;&nbsp;</a></span>ChromaFormat()</h2>
+<a id="a132833862e76077f1db16ff08ea9561b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a132833862e76077f1db16ff08ea9561b">&#9670;&nbsp;</a></span>ChromaFormat()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">std::string ts::names::ChromaFormat </td>
+          <td class="memname"><a class="el" href="classts_1_1_u_string.html">UString</a> ts::names::ChromaFormat </td>
           <td>(</td>
           <td class="paramtype">uint8_t&#160;</td>
-          <td class="paramname"><em>c</em></td><td>)</td>
+          <td class="paramname"><em>c</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
           <td></td>
+          <td class="paramtype"><a class="el" href="namespacets_1_1names.html#ad01b2604fc1b9fcaa4cbcbea333d8bfc">Flags</a>&#160;</td>
+          <td class="paramname"><em>flags</em> = <code>NAME</code>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -466,6 +616,7 @@ Functions</h2></td></tr>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramdir">[in]</td><td class="paramname">c</td><td>Chroma format value (in MPEG-1/2 video sequence header). </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">flags</td><td>Presentation flags. </td></tr>
   </table>
   </dd>
 </dl>
@@ -473,18 +624,28 @@ Functions</h2></td></tr>
 
 </div>
 </div>
-<a id="a029b8df6273f970475cd67754456867e"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a029b8df6273f970475cd67754456867e">&#9670;&nbsp;</a></span>AVCUnitType()</h2>
+<a id="ae2fdd082098b77ed9ff2fee836aaed1a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae2fdd082098b77ed9ff2fee836aaed1a">&#9670;&nbsp;</a></span>AVCUnitType()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">std::string ts::names::AVCUnitType </td>
+          <td class="memname"><a class="el" href="classts_1_1_u_string.html">UString</a> ts::names::AVCUnitType </td>
           <td>(</td>
           <td class="paramtype">uint8_t&#160;</td>
-          <td class="paramname"><em>ut</em></td><td>)</td>
+          <td class="paramname"><em>ut</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
           <td></td>
+          <td class="paramtype"><a class="el" href="namespacets_1_1names.html#ad01b2604fc1b9fcaa4cbcbea333d8bfc">Flags</a>&#160;</td>
+          <td class="paramname"><em>flags</em> = <code>NAME</code>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -493,6 +654,7 @@ Functions</h2></td></tr>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramdir">[in]</td><td class="paramname">ut</td><td>AVC access unit type. </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">flags</td><td>Presentation flags. </td></tr>
   </table>
   </dd>
 </dl>
@@ -500,18 +662,28 @@ Functions</h2></td></tr>
 
 </div>
 </div>
-<a id="a75154949852a2a6c92f2286dec9c396d"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a75154949852a2a6c92f2286dec9c396d">&#9670;&nbsp;</a></span>AVCProfile()</h2>
+<a id="ad14d85dcd8b220578dffd5a1b51058e0"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad14d85dcd8b220578dffd5a1b51058e0">&#9670;&nbsp;</a></span>AVCProfile()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">std::string ts::names::AVCProfile </td>
+          <td class="memname"><a class="el" href="classts_1_1_u_string.html">UString</a> ts::names::AVCProfile </td>
           <td>(</td>
           <td class="paramtype">int&#160;</td>
-          <td class="paramname"><em>p</em></td><td>)</td>
+          <td class="paramname"><em>p</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
           <td></td>
+          <td class="paramtype"><a class="el" href="namespacets_1_1names.html#ad01b2604fc1b9fcaa4cbcbea333d8bfc">Flags</a>&#160;</td>
+          <td class="paramname"><em>flags</em> = <code>NAME</code>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -520,6 +692,7 @@ Functions</h2></td></tr>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramdir">[in]</td><td class="paramname">p</td><td>AVC profile. </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">flags</td><td>Presentation flags. </td></tr>
   </table>
   </dd>
 </dl>
@@ -527,18 +700,28 @@ Functions</h2></td></tr>
 
 </div>
 </div>
-<a id="a95046a192b1afe15b66418c1b1a06759"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a95046a192b1afe15b66418c1b1a06759">&#9670;&nbsp;</a></span>ServiceType()</h2>
+<a id="a25d269fa7c7116b61ae074b86012f461"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a25d269fa7c7116b61ae074b86012f461">&#9670;&nbsp;</a></span>ServiceType()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">std::string ts::names::ServiceType </td>
+          <td class="memname"><a class="el" href="classts_1_1_u_string.html">UString</a> ts::names::ServiceType </td>
           <td>(</td>
           <td class="paramtype">uint8_t&#160;</td>
-          <td class="paramname"><em>st</em></td><td>)</td>
+          <td class="paramname"><em>st</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
           <td></td>
+          <td class="paramtype"><a class="el" href="namespacets_1_1names.html#ad01b2604fc1b9fcaa4cbcbea333d8bfc">Flags</a>&#160;</td>
+          <td class="paramname"><em>flags</em> = <code>NAME</code>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -547,6 +730,7 @@ Functions</h2></td></tr>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramdir">[in]</td><td class="paramname">st</td><td><a class="el" href="classts_1_1_service.html" title="Describe a DVB service. ">Service</a> type (in <a class="el" href="classts_1_1_service.html" title="Describe a DVB service. ">Service</a> <a class="el" href="classts_1_1_descriptor.html" title="Representation of a MPEG PSI/SI descriptors in binary format. ">Descriptor</a>). </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">flags</td><td>Presentation flags. </td></tr>
   </table>
   </dd>
 </dl>
@@ -554,18 +738,28 @@ Functions</h2></td></tr>
 
 </div>
 </div>
-<a id="ab39fb5b680d757a01c531e83ca7bda6d"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ab39fb5b680d757a01c531e83ca7bda6d">&#9670;&nbsp;</a></span>LinkageType()</h2>
+<a id="ad514e12f0319df0576fdd52d64066521"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad514e12f0319df0576fdd52d64066521">&#9670;&nbsp;</a></span>LinkageType()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">std::string ts::names::LinkageType </td>
+          <td class="memname"><a class="el" href="classts_1_1_u_string.html">UString</a> ts::names::LinkageType </td>
           <td>(</td>
           <td class="paramtype">uint8_t&#160;</td>
-          <td class="paramname"><em>lt</em></td><td>)</td>
+          <td class="paramname"><em>lt</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
           <td></td>
+          <td class="paramtype"><a class="el" href="namespacets_1_1names.html#ad01b2604fc1b9fcaa4cbcbea333d8bfc">Flags</a>&#160;</td>
+          <td class="paramname"><em>flags</em> = <code>NAME</code>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -574,6 +768,7 @@ Functions</h2></td></tr>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramdir">[in]</td><td class="paramname">lt</td><td>Linkage type (in Linkage <a class="el" href="classts_1_1_descriptor.html" title="Representation of a MPEG PSI/SI descriptors in binary format. ">Descriptor</a>). </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">flags</td><td>Presentation flags. </td></tr>
   </table>
   </dd>
 </dl>
@@ -581,18 +776,28 @@ Functions</h2></td></tr>
 
 </div>
 </div>
-<a id="a32c582b1418cb8a44bb4db70d20ea445"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a32c582b1418cb8a44bb4db70d20ea445">&#9670;&nbsp;</a></span>SubtitlingType()</h2>
+<a id="adb1b1ce25d79d80067e1e5a5878d074b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#adb1b1ce25d79d80067e1e5a5878d074b">&#9670;&nbsp;</a></span>SubtitlingType()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">std::string ts::names::SubtitlingType </td>
+          <td class="memname"><a class="el" href="classts_1_1_u_string.html">UString</a> ts::names::SubtitlingType </td>
           <td>(</td>
           <td class="paramtype">uint8_t&#160;</td>
-          <td class="paramname"><em>st</em></td><td>)</td>
+          <td class="paramname"><em>st</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
           <td></td>
+          <td class="paramtype"><a class="el" href="namespacets_1_1names.html#ad01b2604fc1b9fcaa4cbcbea333d8bfc">Flags</a>&#160;</td>
+          <td class="paramname"><em>flags</em> = <code>NAME</code>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -601,6 +806,7 @@ Functions</h2></td></tr>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramdir">[in]</td><td class="paramname">st</td><td>Subtitling type (in Subtitling <a class="el" href="classts_1_1_descriptor.html" title="Representation of a MPEG PSI/SI descriptors in binary format. ">Descriptor</a>). </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">flags</td><td>Presentation flags. </td></tr>
   </table>
   </dd>
 </dl>
@@ -608,18 +814,28 @@ Functions</h2></td></tr>
 
 </div>
 </div>
-<a id="a8b4f99724f69424f4fedf93a6d7fbd62"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a8b4f99724f69424f4fedf93a6d7fbd62">&#9670;&nbsp;</a></span>TeletextType()</h2>
+<a id="a636b74bd49f3d7cc68cb2bc4930b8aa0"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a636b74bd49f3d7cc68cb2bc4930b8aa0">&#9670;&nbsp;</a></span>TeletextType()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">std::string ts::names::TeletextType </td>
+          <td class="memname"><a class="el" href="classts_1_1_u_string.html">UString</a> ts::names::TeletextType </td>
           <td>(</td>
           <td class="paramtype">uint8_t&#160;</td>
-          <td class="paramname"><em>tt</em></td><td>)</td>
+          <td class="paramname"><em>tt</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
           <td></td>
+          <td class="paramtype"><a class="el" href="namespacets_1_1names.html#ad01b2604fc1b9fcaa4cbcbea333d8bfc">Flags</a>&#160;</td>
+          <td class="paramname"><em>flags</em> = <code>NAME</code>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -628,6 +844,7 @@ Functions</h2></td></tr>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramdir">[in]</td><td class="paramname">tt</td><td>Teletext type (in Teletext <a class="el" href="classts_1_1_descriptor.html" title="Representation of a MPEG PSI/SI descriptors in binary format. ">Descriptor</a>). </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">flags</td><td>Presentation flags. </td></tr>
   </table>
   </dd>
 </dl>
@@ -635,18 +852,28 @@ Functions</h2></td></tr>
 
 </div>
 </div>
-<a id="a6714ceb9125781a7c9c3300032d26476"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a6714ceb9125781a7c9c3300032d26476">&#9670;&nbsp;</a></span>CASId()</h2>
+<a id="aef40f646f1f64dd4efb754fceba312ff"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aef40f646f1f64dd4efb754fceba312ff">&#9670;&nbsp;</a></span>CASId()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">std::string ts::names::CASId </td>
+          <td class="memname"><a class="el" href="classts_1_1_u_string.html">UString</a> ts::names::CASId </td>
           <td>(</td>
           <td class="paramtype">uint16_t&#160;</td>
-          <td class="paramname"><em>casid</em></td><td>)</td>
+          <td class="paramname"><em>casid</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
           <td></td>
+          <td class="paramtype"><a class="el" href="namespacets_1_1names.html#ad01b2604fc1b9fcaa4cbcbea333d8bfc">Flags</a>&#160;</td>
+          <td class="paramname"><em>flags</em> = <code>NAME</code>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -655,6 +882,7 @@ Functions</h2></td></tr>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramdir">[in]</td><td class="paramname">casid</td><td>Conditional Access System Id (in CA <a class="el" href="classts_1_1_descriptor.html" title="Representation of a MPEG PSI/SI descriptors in binary format. ">Descriptor</a>). </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">flags</td><td>Presentation flags. </td></tr>
   </table>
   </dd>
 </dl>
@@ -662,14 +890,14 @@ Functions</h2></td></tr>
 
 </div>
 </div>
-<a id="aacfd9c0b23e3d30b94c819f9e395454b"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aacfd9c0b23e3d30b94c819f9e395454b">&#9670;&nbsp;</a></span>CASFamily()</h2>
+<a id="a02c8d6a9b5ea1e0f4e5200b07ca2741b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a02c8d6a9b5ea1e0f4e5200b07ca2741b">&#9670;&nbsp;</a></span>CASFamily()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">std::string ts::names::CASFamily </td>
+          <td class="memname"><a class="el" href="classts_1_1_u_string.html">UString</a> ts::names::CASFamily </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="namespacets.html#a1de171688c3a6ff71896a8f3e5817c11">ts::CASFamily</a>&#160;</td>
           <td class="paramname"><em>cas</em></td><td>)</td>
@@ -689,18 +917,28 @@ Functions</h2></td></tr>
 
 </div>
 </div>
-<a id="abb1cfe80807bf798cadb459efff62517"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#abb1cfe80807bf798cadb459efff62517">&#9670;&nbsp;</a></span>RunningStatus()</h2>
+<a id="ace88c53b9ff3a63ba611dcb8352d4d98"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ace88c53b9ff3a63ba611dcb8352d4d98">&#9670;&nbsp;</a></span>RunningStatus()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">std::string ts::names::RunningStatus </td>
+          <td class="memname"><a class="el" href="classts_1_1_u_string.html">UString</a> ts::names::RunningStatus </td>
           <td>(</td>
           <td class="paramtype">uint8_t&#160;</td>
-          <td class="paramname"><em>rs</em></td><td>)</td>
+          <td class="paramname"><em>rs</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
           <td></td>
+          <td class="paramtype"><a class="el" href="namespacets_1_1names.html#ad01b2604fc1b9fcaa4cbcbea333d8bfc">Flags</a>&#160;</td>
+          <td class="paramname"><em>flags</em> = <code>NAME</code>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -709,6 +947,7 @@ Functions</h2></td></tr>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramdir">[in]</td><td class="paramname">rs</td><td>Running Status (in <a class="el" href="classts_1_1_s_d_t.html" title="Representation of a Service Description Table (SDT). ">SDT</a>). </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">flags</td><td>Presentation flags. </td></tr>
   </table>
   </dd>
 </dl>
@@ -716,18 +955,28 @@ Functions</h2></td></tr>
 
 </div>
 </div>
-<a id="ae078b1770dad4cee1b9c6fcd9eb709ce"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ae078b1770dad4cee1b9c6fcd9eb709ce">&#9670;&nbsp;</a></span>AudioType()</h2>
+<a id="aa5298cf279fee9b277ca2a1e19ddd17a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa5298cf279fee9b277ca2a1e19ddd17a">&#9670;&nbsp;</a></span>AudioType()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">std::string ts::names::AudioType </td>
+          <td class="memname"><a class="el" href="classts_1_1_u_string.html">UString</a> ts::names::AudioType </td>
           <td>(</td>
           <td class="paramtype">uint8_t&#160;</td>
-          <td class="paramname"><em>at</em></td><td>)</td>
+          <td class="paramname"><em>at</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
           <td></td>
+          <td class="paramtype"><a class="el" href="namespacets_1_1names.html#ad01b2604fc1b9fcaa4cbcbea333d8bfc">Flags</a>&#160;</td>
+          <td class="paramname"><em>flags</em> = <code>NAME</code>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -736,6 +985,7 @@ Functions</h2></td></tr>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramdir">[in]</td><td class="paramname">at</td><td>Audio type (in ISO639 Language <a class="el" href="classts_1_1_descriptor.html" title="Representation of a MPEG PSI/SI descriptors in binary format. ">Descriptor</a>). </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">flags</td><td>Presentation flags. </td></tr>
   </table>
   </dd>
 </dl>
@@ -743,18 +993,28 @@ Functions</h2></td></tr>
 
 </div>
 </div>
-<a id="a7c961d1e9baa0fb990b197b3a7f9a902"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a7c961d1e9baa0fb990b197b3a7f9a902">&#9670;&nbsp;</a></span>ComponentType()</h2>
+<a id="a477381facf0820b9ea24afd147ad5801"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a477381facf0820b9ea24afd147ad5801">&#9670;&nbsp;</a></span>ComponentType()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">std::string ts::names::ComponentType </td>
+          <td class="memname"><a class="el" href="classts_1_1_u_string.html">UString</a> ts::names::ComponentType </td>
           <td>(</td>
           <td class="paramtype">uint16_t&#160;</td>
-          <td class="paramname"><em>ct</em></td><td>)</td>
+          <td class="paramname"><em>ct</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
           <td></td>
+          <td class="paramtype"><a class="el" href="namespacets_1_1names.html#ad01b2604fc1b9fcaa4cbcbea333d8bfc">Flags</a>&#160;</td>
+          <td class="paramname"><em>flags</em> = <code>NAME</code>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -763,6 +1023,7 @@ Functions</h2></td></tr>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramdir">[in]</td><td class="paramname">ct</td><td>Component Type (in Component <a class="el" href="classts_1_1_descriptor.html" title="Representation of a MPEG PSI/SI descriptors in binary format. ">Descriptor</a>). Combination of stream_content (4 bits) and component_type (8 bits). </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">flags</td><td>Presentation flags. </td></tr>
   </table>
   </dd>
 </dl>
@@ -770,18 +1031,28 @@ Functions</h2></td></tr>
 
 </div>
 </div>
-<a id="a22bc04f46c9152427bb1e1db33a55555"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a22bc04f46c9152427bb1e1db33a55555">&#9670;&nbsp;</a></span>AC3ComponentType()</h2>
+<a id="a46853616849200471ec9ad2a18e5acc5"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a46853616849200471ec9ad2a18e5acc5">&#9670;&nbsp;</a></span>AC3ComponentType()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">std::string ts::names::AC3ComponentType </td>
+          <td class="memname"><a class="el" href="classts_1_1_u_string.html">UString</a> ts::names::AC3ComponentType </td>
           <td>(</td>
           <td class="paramtype">uint8_t&#160;</td>
-          <td class="paramname"><em>t</em></td><td>)</td>
+          <td class="paramname"><em>t</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
           <td></td>
+          <td class="paramtype"><a class="el" href="namespacets_1_1names.html#ad01b2604fc1b9fcaa4cbcbea333d8bfc">Flags</a>&#160;</td>
+          <td class="paramname"><em>flags</em> = <code>NAME</code>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -790,6 +1061,7 @@ Functions</h2></td></tr>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramdir">[in]</td><td class="paramname">t</td><td>AC-3 Component Type. </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">flags</td><td>Presentation flags. </td></tr>
   </table>
   </dd>
 </dl>
@@ -797,18 +1069,28 @@ Functions</h2></td></tr>
 
 </div>
 </div>
-<a id="a95965998f2dbf2dbf3cb95f6e5f29258"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a95965998f2dbf2dbf3cb95f6e5f29258">&#9670;&nbsp;</a></span>DTSSampleRateCode()</h2>
+<a id="a14785704e7f280b650938570b35feba8"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a14785704e7f280b650938570b35feba8">&#9670;&nbsp;</a></span>DTSSampleRateCode()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">std::string ts::names::DTSSampleRateCode </td>
+          <td class="memname"><a class="el" href="classts_1_1_u_string.html">UString</a> ts::names::DTSSampleRateCode </td>
           <td>(</td>
           <td class="paramtype">uint8_t&#160;</td>
-          <td class="paramname"><em>c</em></td><td>)</td>
+          <td class="paramname"><em>c</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
           <td></td>
+          <td class="paramtype"><a class="el" href="namespacets_1_1names.html#ad01b2604fc1b9fcaa4cbcbea333d8bfc">Flags</a>&#160;</td>
+          <td class="paramname"><em>flags</em> = <code>NAME</code>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -817,6 +1099,7 @@ Functions</h2></td></tr>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramdir">[in]</td><td class="paramname">c</td><td>DTS Audio Sample Rate code. </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">flags</td><td>Presentation flags. </td></tr>
   </table>
   </dd>
 </dl>
@@ -824,18 +1107,28 @@ Functions</h2></td></tr>
 
 </div>
 </div>
-<a id="acf3691bc95eb87539955552801997b0d"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#acf3691bc95eb87539955552801997b0d">&#9670;&nbsp;</a></span>DTSBitRateCode()</h2>
+<a id="a932d5d10adb35058597ea29e32e20967"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a932d5d10adb35058597ea29e32e20967">&#9670;&nbsp;</a></span>DTSBitRateCode()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">std::string ts::names::DTSBitRateCode </td>
+          <td class="memname"><a class="el" href="classts_1_1_u_string.html">UString</a> ts::names::DTSBitRateCode </td>
           <td>(</td>
           <td class="paramtype">uint8_t&#160;</td>
-          <td class="paramname"><em>c</em></td><td>)</td>
+          <td class="paramname"><em>c</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
           <td></td>
+          <td class="paramtype"><a class="el" href="namespacets_1_1names.html#ad01b2604fc1b9fcaa4cbcbea333d8bfc">Flags</a>&#160;</td>
+          <td class="paramname"><em>flags</em> = <code>NAME</code>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -844,6 +1137,7 @@ Functions</h2></td></tr>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramdir">[in]</td><td class="paramname">c</td><td>DTS Audio Bit Rate Code. </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">flags</td><td>Presentation flags. </td></tr>
   </table>
   </dd>
 </dl>
@@ -851,18 +1145,28 @@ Functions</h2></td></tr>
 
 </div>
 </div>
-<a id="a1fb218de4aeaced9e98a0173d1daa963"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a1fb218de4aeaced9e98a0173d1daa963">&#9670;&nbsp;</a></span>DTSSurroundMode()</h2>
+<a id="ae16d125254b8bb99eddf29a0521b06c8"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae16d125254b8bb99eddf29a0521b06c8">&#9670;&nbsp;</a></span>DTSSurroundMode()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">std::string ts::names::DTSSurroundMode </td>
+          <td class="memname"><a class="el" href="classts_1_1_u_string.html">UString</a> ts::names::DTSSurroundMode </td>
           <td>(</td>
           <td class="paramtype">uint8_t&#160;</td>
-          <td class="paramname"><em>mode</em></td><td>)</td>
+          <td class="paramname"><em>mode</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
           <td></td>
+          <td class="paramtype"><a class="el" href="namespacets_1_1names.html#ad01b2604fc1b9fcaa4cbcbea333d8bfc">Flags</a>&#160;</td>
+          <td class="paramname"><em>flags</em> = <code>NAME</code>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -871,6 +1175,7 @@ Functions</h2></td></tr>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramdir">[in]</td><td class="paramname">mode</td><td>DTS Audio Surround Mode. </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">flags</td><td>Presentation flags. </td></tr>
   </table>
   </dd>
 </dl>
@@ -878,18 +1183,28 @@ Functions</h2></td></tr>
 
 </div>
 </div>
-<a id="a6bbedad104035c3902f872eda6c7c01a"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a6bbedad104035c3902f872eda6c7c01a">&#9670;&nbsp;</a></span>DTSExtendedSurroundMode()</h2>
+<a id="ad78c9943e15c45dfc3de7ebba9a9ad77"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad78c9943e15c45dfc3de7ebba9a9ad77">&#9670;&nbsp;</a></span>DTSExtendedSurroundMode()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">std::string ts::names::DTSExtendedSurroundMode </td>
+          <td class="memname"><a class="el" href="classts_1_1_u_string.html">UString</a> ts::names::DTSExtendedSurroundMode </td>
           <td>(</td>
           <td class="paramtype">uint8_t&#160;</td>
-          <td class="paramname"><em>mode</em></td><td>)</td>
+          <td class="paramname"><em>mode</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
           <td></td>
+          <td class="paramtype"><a class="el" href="namespacets_1_1names.html#ad01b2604fc1b9fcaa4cbcbea333d8bfc">Flags</a>&#160;</td>
+          <td class="paramname"><em>flags</em> = <code>NAME</code>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -898,6 +1213,7 @@ Functions</h2></td></tr>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramdir">[in]</td><td class="paramname">mode</td><td>DTS Audio Extended Surround Mode. </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">flags</td><td>Presentation flags. </td></tr>
   </table>
   </dd>
 </dl>
@@ -905,18 +1221,28 @@ Functions</h2></td></tr>
 
 </div>
 </div>
-<a id="ac2a5772eb487bae99cd2e4c3fd8bbab4"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ac2a5772eb487bae99cd2e4c3fd8bbab4">&#9670;&nbsp;</a></span>Content()</h2>
+<a id="a64eb10d85c6de1de6fef2b4e0aa214b8"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a64eb10d85c6de1de6fef2b4e0aa214b8">&#9670;&nbsp;</a></span>Content()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">std::string ts::names::Content </td>
+          <td class="memname"><a class="el" href="classts_1_1_u_string.html">UString</a> ts::names::Content </td>
           <td>(</td>
           <td class="paramtype">uint8_t&#160;</td>
-          <td class="paramname"><em>c</em></td><td>)</td>
+          <td class="paramname"><em>c</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
           <td></td>
+          <td class="paramtype"><a class="el" href="namespacets_1_1names.html#ad01b2604fc1b9fcaa4cbcbea333d8bfc">Flags</a>&#160;</td>
+          <td class="paramname"><em>flags</em> = <code>NAME</code>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -925,6 +1251,7 @@ Functions</h2></td></tr>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramdir">[in]</td><td class="paramname">c</td><td>Content name. </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">flags</td><td>Presentation flags. </td></tr>
   </table>
   </dd>
 </dl>
@@ -932,18 +1259,28 @@ Functions</h2></td></tr>
 
 </div>
 </div>
-<a id="adf42beafb6dda78e47a5d375aaa3d5cb"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#adf42beafb6dda78e47a5d375aaa3d5cb">&#9670;&nbsp;</a></span>ScramblingControl()</h2>
+<a id="a68bf116100941cfa9d79ae0487e735ab"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a68bf116100941cfa9d79ae0487e735ab">&#9670;&nbsp;</a></span>ScramblingControl()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">std::string ts::names::ScramblingControl </td>
+          <td class="memname"><a class="el" href="classts_1_1_u_string.html">UString</a> ts::names::ScramblingControl </td>
           <td>(</td>
           <td class="paramtype">uint8_t&#160;</td>
-          <td class="paramname"><em>sc</em></td><td>)</td>
+          <td class="paramname"><em>sc</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
           <td></td>
+          <td class="paramtype"><a class="el" href="namespacets_1_1names.html#ad01b2604fc1b9fcaa4cbcbea333d8bfc">Flags</a>&#160;</td>
+          <td class="paramname"><em>flags</em> = <code>NAME</code>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -952,6 +1289,7 @@ Functions</h2></td></tr>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramdir">[in]</td><td class="paramname">sc</td><td><a class="el" href="classts_1_1_scrambling.html" title="DVB-CSA (Digital Video Broadcasting Common Scrambling Algorithm). ">Scrambling</a> control value in TS header </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">flags</td><td>Presentation flags. </td></tr>
   </table>
   </dd>
 </dl>
@@ -959,18 +1297,28 @@ Functions</h2></td></tr>
 
 </div>
 </div>
-<a id="a7f17eb5252daa6f09218f5c88ea17b70"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a7f17eb5252daa6f09218f5c88ea17b70">&#9670;&nbsp;</a></span>BouquetId()</h2>
+<a id="a1a91570fdf82c3fd637172e58b7afe4b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1a91570fdf82c3fd637172e58b7afe4b">&#9670;&nbsp;</a></span>BouquetId()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">std::string ts::names::BouquetId </td>
+          <td class="memname"><a class="el" href="classts_1_1_u_string.html">UString</a> ts::names::BouquetId </td>
           <td>(</td>
           <td class="paramtype">uint16_t&#160;</td>
-          <td class="paramname"><em>id</em></td><td>)</td>
+          <td class="paramname"><em>id</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
           <td></td>
+          <td class="paramtype"><a class="el" href="namespacets_1_1names.html#ad01b2604fc1b9fcaa4cbcbea333d8bfc">Flags</a>&#160;</td>
+          <td class="paramname"><em>flags</em> = <code>NAME</code>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -979,6 +1327,7 @@ Functions</h2></td></tr>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramdir">[in]</td><td class="paramname">id</td><td>Bouquet Id. </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">flags</td><td>Presentation flags. </td></tr>
   </table>
   </dd>
 </dl>
@@ -986,18 +1335,104 @@ Functions</h2></td></tr>
 
 </div>
 </div>
-<a id="afa4b12b39e167d9f0b7ee3eeebb3ae89"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#afa4b12b39e167d9f0b7ee3eeebb3ae89">&#9670;&nbsp;</a></span>DataBroadcastId()</h2>
+<a id="a88581a66015c339793f0a28a7230ccdd"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a88581a66015c339793f0a28a7230ccdd">&#9670;&nbsp;</a></span>OriginalNetworkId()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">std::string ts::names::DataBroadcastId </td>
+          <td class="memname"><a class="el" href="classts_1_1_u_string.html">UString</a> ts::names::OriginalNetworkId </td>
           <td>(</td>
           <td class="paramtype">uint16_t&#160;</td>
-          <td class="paramname"><em>id</em></td><td>)</td>
+          <td class="paramname"><em>id</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
           <td></td>
+          <td class="paramtype"><a class="el" href="namespacets_1_1names.html#ad01b2604fc1b9fcaa4cbcbea333d8bfc">Flags</a>&#160;</td>
+          <td class="paramname"><em>flags</em> = <code>NAME</code>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Name of Original Network Id. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">id</td><td>Original Network Id. </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">flags</td><td>Presentation flags. </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>The corresponding name. </dd></dl>
+
+</div>
+</div>
+<a id="a9ae93223e43e1c60b2fcda250fa92969"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9ae93223e43e1c60b2fcda250fa92969">&#9670;&nbsp;</a></span>NetworkId()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="classts_1_1_u_string.html">UString</a> ts::names::NetworkId </td>
+          <td>(</td>
+          <td class="paramtype">uint16_t&#160;</td>
+          <td class="paramname"><em>id</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="namespacets_1_1names.html#ad01b2604fc1b9fcaa4cbcbea333d8bfc">Flags</a>&#160;</td>
+          <td class="paramname"><em>flags</em> = <code>NAME</code>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Name of Network Id. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">id</td><td>Network Id. </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">flags</td><td>Presentation flags. </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>The corresponding name. </dd></dl>
+
+</div>
+</div>
+<a id="a8c42180fc80c7901a51d15878253fe79"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8c42180fc80c7901a51d15878253fe79">&#9670;&nbsp;</a></span>DataBroadcastId()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="classts_1_1_u_string.html">UString</a> ts::names::DataBroadcastId </td>
+          <td>(</td>
+          <td class="paramtype">uint16_t&#160;</td>
+          <td class="paramname"><em>id</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="namespacets_1_1names.html#ad01b2604fc1b9fcaa4cbcbea333d8bfc">Flags</a>&#160;</td>
+          <td class="paramname"><em>flags</em> = <code>NAME</code>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -1006,6 +1441,7 @@ Functions</h2></td></tr>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramdir">[in]</td><td class="paramname">id</td><td>Data broadcast id (in Data Broadcast Id <a class="el" href="classts_1_1_descriptor.html" title="Representation of a MPEG PSI/SI descriptors in binary format. ">Descriptor</a>). </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">flags</td><td>Presentation flags. </td></tr>
   </table>
   </dd>
 </dl>
@@ -1013,18 +1449,28 @@ Functions</h2></td></tr>
 
 </div>
 </div>
-<a id="a5e2c814bfaabcf3ea011b4ac554d677b"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a5e2c814bfaabcf3ea011b4ac554d677b">&#9670;&nbsp;</a></span>OUI()</h2>
+<a id="ae0119ce83d3dd6ed7f101b77e2346d30"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae0119ce83d3dd6ed7f101b77e2346d30">&#9670;&nbsp;</a></span>OUI()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">std::string ts::names::OUI </td>
+          <td class="memname"><a class="el" href="classts_1_1_u_string.html">UString</a> ts::names::OUI </td>
           <td>(</td>
           <td class="paramtype">uint32_t&#160;</td>
-          <td class="paramname"><em>oui</em></td><td>)</td>
+          <td class="paramname"><em>oui</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
           <td></td>
+          <td class="paramtype"><a class="el" href="namespacets_1_1names.html#ad01b2604fc1b9fcaa4cbcbea333d8bfc">Flags</a>&#160;</td>
+          <td class="paramname"><em>flags</em> = <code>NAME</code>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -1033,6 +1479,45 @@ Functions</h2></td></tr>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramdir">[in]</td><td class="paramname">oui</td><td>Organizationally Unique Identifier), 24 bits. </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">flags</td><td>Presentation flags. </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>The corresponding name. </dd></dl>
+
+</div>
+</div>
+<a id="abcbffa236179c3caa6e36a5466fe22f6"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#abcbffa236179c3caa6e36a5466fe22f6">&#9670;&nbsp;</a></span>T2MIPacketType()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="classts_1_1_u_string.html">UString</a> ts::names::T2MIPacketType </td>
+          <td>(</td>
+          <td class="paramtype">uint8_t&#160;</td>
+          <td class="paramname"><em>type</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="namespacets_1_1names.html#ad01b2604fc1b9fcaa4cbcbea333d8bfc">Flags</a>&#160;</td>
+          <td class="paramname"><em>flags</em> = <code>NAME</code>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Name of T2-MI packet type. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">type</td><td>T2-MI packet type. </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">flags</td><td>Presentation flags. </td></tr>
   </table>
   </dd>
 </dl>

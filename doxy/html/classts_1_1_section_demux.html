@@ -34,7 +34,7 @@
  <tr style="height: 56px;">
   <td id="projectlogo"><img src="tsduck-32.png"/></td>
    <td id="projectalign"><span id="projectname">TSDuck</span>
-    <span id="projectnumber">Version 3.3</span>
+    <span id="projectnumber">Version 3.4</span>
     <span id="projectbrief">(TSDuck - The MPEG Transport Stream Toolkit)</span>
    </td>
    <td>        <div id="MSearchBox" class="MSearchBoxInactive">
@@ -93,7 +93,9 @@ $(document).ready(function(){initNavTree('classts_1_1_section_demux.html','');})
 <div class="header">
   <div class="summary">
 <a href="#nested-classes">Classes</a> &#124;
+<a href="#pub-types">Public Types</a> &#124;
 <a href="#pub-methods">Public Member Functions</a> &#124;
+<a href="#pro-methods">Protected Member Functions</a> &#124;
 <a href="classts_1_1_section_demux-members.html">List of all members</a>  </div>
   <div class="headertitle">
 <div class="title">ts::SectionDemux Class Reference</div>  </div>
@@ -107,7 +109,16 @@ Inheritance diagram for ts::SectionDemux:</div>
 <div class="dyncontent">
 <div class="center"><img src="classts_1_1_section_demux__inherit__graph.png" border="0" usemap="#ts_1_1_section_demux_inherit__map" alt="Inheritance graph"/></div>
 <map name="ts_1_1_section_demux_inherit__map" id="ts_1_1_section_demux_inherit__map">
-<area shape="rect" id="node2" href="classts_1_1_standalone_table_demux.html" title="A SectionDemux which extracts MPEG tables without external handler. " alt="" coords="5,79,186,104"/>
+<area shape="rect" id="node3" href="classts_1_1_standalone_table_demux.html" title="A SectionDemux which extracts MPEG tables without external handler. " alt="" coords="5,152,186,177"/>
+<area shape="rect" id="node2" href="classts_1_1_abstract_demux.html" title="Abstract base class for all sorts of demux from TS packets. " alt="" coords="31,5,161,31"/>
+</map>
+<center><span class="legend">[<a target="top" href="graph_legend.html">legend</a>]</span></center></div>
+<div class="dynheader">
+Collaboration diagram for ts::SectionDemux:</div>
+<div class="dyncontent">
+<div class="center"><img src="classts_1_1_section_demux__coll__graph.png" border="0" usemap="#ts_1_1_section_demux_coll__map" alt="Collaboration graph"/></div>
+<map name="ts_1_1_section_demux_coll__map" id="ts_1_1_section_demux_coll__map">
+<area shape="rect" id="node2" href="classts_1_1_abstract_demux.html" title="Abstract base class for all sorts of demux from TS packets. " alt="" coords="5,5,136,31"/>
 </map>
 <center><span class="legend">[<a target="top" href="graph_legend.html">legend</a>]</span></center></div>
 <table class="memberdecls">
@@ -116,6 +127,13 @@ Classes</h2></td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structts_1_1_section_demux_1_1_status.html">Status</a></td></tr>
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Demux status information.  <a href="structts_1_1_section_demux_1_1_status.html#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-types"></a>
+Public Types</h2></td></tr>
+<tr class="memitem:a6c7ab61a2ccc348adbd540b058d14e01"><td class="memItemLeft" align="right" valign="top"><a id="a6c7ab61a2ccc348adbd540b058d14e01"></a>
+typedef <a class="el" href="classts_1_1_abstract_demux.html">AbstractDemux</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classts_1_1_section_demux.html#a6c7ab61a2ccc348adbd540b058d14e01">SuperClass</a></td></tr>
+<tr class="memdesc:a6c7ab61a2ccc348adbd540b058d14e01"><td class="mdescLeft">&#160;</td><td class="mdescRight">Explicit reference to superclass. <br /></td></tr>
+<tr class="separator:a6c7ab61a2ccc348adbd540b058d14e01"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
@@ -126,39 +144,75 @@ Public Member Functions</h2></td></tr>
 virtual&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classts_1_1_section_demux.html#a6c7de32ca4712a3af2c224e4146b5214">~SectionDemux</a> ()</td></tr>
 <tr class="memdesc:a6c7de32ca4712a3af2c224e4146b5214"><td class="mdescLeft">&#160;</td><td class="mdescRight">Destructor. <br /></td></tr>
 <tr class="separator:a6c7de32ca4712a3af2c224e4146b5214"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a7b2626b77463a0b4a58f25fdc2c99c83"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classts_1_1_section_demux.html#a7b2626b77463a0b4a58f25fdc2c99c83">addPID</a> (<a class="el" href="namespacets.html#a90e2f5f7d7011d87cc23a8fef31958dc">PID</a> pid)</td></tr>
-<tr class="memdesc:a7b2626b77463a0b4a58f25fdc2c99c83"><td class="mdescLeft">&#160;</td><td class="mdescRight">Add one PID to filter.  <a href="#a7b2626b77463a0b4a58f25fdc2c99c83">More...</a><br /></td></tr>
-<tr class="separator:a7b2626b77463a0b4a58f25fdc2c99c83"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a455351670299d6591785c095c6e38534"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classts_1_1_section_demux.html#a455351670299d6591785c095c6e38534">addPIDs</a> (const <a class="el" href="namespacets.html#ab1d1f2460b477bc70d2e394204a2c09b">PIDSet</a> &amp;pids)</td></tr>
-<tr class="memdesc:a455351670299d6591785c095c6e38534"><td class="mdescLeft">&#160;</td><td class="mdescRight">Add several PID's to filter.  <a href="#a455351670299d6591785c095c6e38534">More...</a><br /></td></tr>
-<tr class="separator:a455351670299d6591785c095c6e38534"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ad679088a1239180f349d2b4469fd9065"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classts_1_1_section_demux.html#ad679088a1239180f349d2b4469fd9065">feedPacket</a> (const <a class="el" href="structts_1_1_t_s_packet.html">TSPacket</a> &amp;pkt)</td></tr>
-<tr class="memdesc:ad679088a1239180f349d2b4469fd9065"><td class="mdescLeft">&#160;</td><td class="mdescRight">The following method feeds the demux with a TS packet.  <a href="#ad679088a1239180f349d2b4469fd9065">More...</a><br /></td></tr>
-<tr class="separator:ad679088a1239180f349d2b4469fd9065"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a10eb64779211ee63543f87d28785d70f"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classts_1_1_section_demux.html#a10eb64779211ee63543f87d28785d70f">feedPacket</a> (const <a class="el" href="structts_1_1_t_s_packet.html">TSPacket</a> &amp;pkt) override</td></tr>
+<tr class="memdesc:a10eb64779211ee63543f87d28785d70f"><td class="mdescLeft">&#160;</td><td class="mdescRight">The following method feeds the demux with a TS packet.  <a href="#a10eb64779211ee63543f87d28785d70f">More...</a><br /></td></tr>
+<tr class="separator:a10eb64779211ee63543f87d28785d70f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a76a038eebc7a088f982d5edd4ee1af73"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classts_1_1_section_demux.html#a76a038eebc7a088f982d5edd4ee1af73">getStatus</a> (<a class="el" href="structts_1_1_section_demux_1_1_status.html">Status</a> &amp;status) const</td></tr>
 <tr class="memdesc:a76a038eebc7a088f982d5edd4ee1af73"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the current status of the demux.  <a href="#a76a038eebc7a088f982d5edd4ee1af73">More...</a><br /></td></tr>
 <tr class="separator:a76a038eebc7a088f982d5edd4ee1af73"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a5159f5f60de4f2b375576b6698de5772"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classts_1_1_section_demux.html#a5159f5f60de4f2b375576b6698de5772">hasErrors</a> () const</td></tr>
 <tr class="memdesc:a5159f5f60de4f2b375576b6698de5772"><td class="mdescLeft">&#160;</td><td class="mdescRight">Check if the demux has errors.  <a href="#a5159f5f60de4f2b375576b6698de5772">More...</a><br /></td></tr>
 <tr class="separator:a5159f5f60de4f2b375576b6698de5772"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a98487f57c79ac0213a942aa0e3d4b6cb"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classts_1_1_section_demux.html#a98487f57c79ac0213a942aa0e3d4b6cb">removePID</a> (<a class="el" href="namespacets.html#a90e2f5f7d7011d87cc23a8fef31958dc">PID</a> pid)</td></tr>
-<tr class="memdesc:a98487f57c79ac0213a942aa0e3d4b6cb"><td class="mdescLeft">&#160;</td><td class="mdescRight">Remove one PID to filter.  <a href="#a98487f57c79ac0213a942aa0e3d4b6cb">More...</a><br /></td></tr>
-<tr class="separator:a98487f57c79ac0213a942aa0e3d4b6cb"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a30ebc2b396220eefdf315e976620b121"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classts_1_1_section_demux.html#a30ebc2b396220eefdf315e976620b121">reset</a> ()</td></tr>
-<tr class="memdesc:a30ebc2b396220eefdf315e976620b121"><td class="mdescLeft">&#160;</td><td class="mdescRight">Reset the analysis context.  <a href="#a30ebc2b396220eefdf315e976620b121">More...</a><br /></td></tr>
-<tr class="separator:a30ebc2b396220eefdf315e976620b121"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a09d71a990c08c7d01342e6338ad93f4b"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classts_1_1_section_demux.html#a09d71a990c08c7d01342e6338ad93f4b">resetPID</a> (<a class="el" href="namespacets.html#a90e2f5f7d7011d87cc23a8fef31958dc">PID</a> pid)</td></tr>
-<tr class="memdesc:a09d71a990c08c7d01342e6338ad93f4b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Reset the analysis context for one single PID.  <a href="#a09d71a990c08c7d01342e6338ad93f4b">More...</a><br /></td></tr>
-<tr class="separator:a09d71a990c08c7d01342e6338ad93f4b"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aec7973d74931594c013913f49cacdb85"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classts_1_1_section_demux.html#aec7973d74931594c013913f49cacdb85">setPIDFilter</a> (const <a class="el" href="namespacets.html#ab1d1f2460b477bc70d2e394204a2c09b">PIDSet</a> &amp;pid_filter)</td></tr>
-<tr class="memdesc:aec7973d74931594c013913f49cacdb85"><td class="mdescLeft">&#160;</td><td class="mdescRight">Replace the list of PID's to filter.  <a href="#aec7973d74931594c013913f49cacdb85">More...</a><br /></td></tr>
-<tr class="separator:aec7973d74931594c013913f49cacdb85"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a5a5ce7eba2347da6f6da50d7f63183c7"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classts_1_1_section_demux.html#a5a5ce7eba2347da6f6da50d7f63183c7">setSectionHandler</a> (<a class="el" href="classts_1_1_section_handler_interface.html">SectionHandlerInterface</a> *h)</td></tr>
 <tr class="memdesc:a5a5ce7eba2347da6f6da50d7f63183c7"><td class="mdescLeft">&#160;</td><td class="mdescRight">Replace the section handler.  <a href="#a5a5ce7eba2347da6f6da50d7f63183c7">More...</a><br /></td></tr>
 <tr class="separator:a5a5ce7eba2347da6f6da50d7f63183c7"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:afc550bc263cd6d4a1b6b17b0b932592e"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classts_1_1_section_demux.html#afc550bc263cd6d4a1b6b17b0b932592e">setTableHandler</a> (<a class="el" href="classts_1_1_table_handler_interface.html">TableHandlerInterface</a> *h)</td></tr>
 <tr class="memdesc:afc550bc263cd6d4a1b6b17b0b932592e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Replace the table handler.  <a href="#afc550bc263cd6d4a1b6b17b0b932592e">More...</a><br /></td></tr>
 <tr class="separator:afc550bc263cd6d4a1b6b17b0b932592e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="inherit_header pub_methods_classts_1_1_abstract_demux"><td colspan="2" onclick="javascript:toggleInherit('pub_methods_classts_1_1_abstract_demux')"><img src="closed.png" alt="-"/>&#160;Public Member Functions inherited from <a class="el" href="classts_1_1_abstract_demux.html">ts::AbstractDemux</a></td></tr>
+<tr class="memitem:ab944874e9ec7789c2ee28c4b1ac8bbde inherit pub_methods_classts_1_1_abstract_demux"><td class="memItemLeft" align="right" valign="top"><a id="ab944874e9ec7789c2ee28c4b1ac8bbde"></a>
+virtual&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classts_1_1_abstract_demux.html#ab944874e9ec7789c2ee28c4b1ac8bbde">~AbstractDemux</a> ()</td></tr>
+<tr class="memdesc:ab944874e9ec7789c2ee28c4b1ac8bbde inherit pub_methods_classts_1_1_abstract_demux"><td class="mdescLeft">&#160;</td><td class="mdescRight">Destructor. <br /></td></tr>
+<tr class="separator:ab944874e9ec7789c2ee28c4b1ac8bbde inherit pub_methods_classts_1_1_abstract_demux"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa71fd7117f35be69e3d02f001ad896e6 inherit pub_methods_classts_1_1_abstract_demux"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classts_1_1_abstract_demux.html#aa71fd7117f35be69e3d02f001ad896e6">addPID</a> (<a class="el" href="namespacets.html#a90e2f5f7d7011d87cc23a8fef31958dc">PID</a> pid)</td></tr>
+<tr class="memdesc:aa71fd7117f35be69e3d02f001ad896e6 inherit pub_methods_classts_1_1_abstract_demux"><td class="mdescLeft">&#160;</td><td class="mdescRight">Add one PID to filter.  <a href="classts_1_1_abstract_demux.html#aa71fd7117f35be69e3d02f001ad896e6">More...</a><br /></td></tr>
+<tr class="separator:aa71fd7117f35be69e3d02f001ad896e6 inherit pub_methods_classts_1_1_abstract_demux"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6f16607b21eda1934624042a2b5aac2e inherit pub_methods_classts_1_1_abstract_demux"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classts_1_1_abstract_demux.html#a6f16607b21eda1934624042a2b5aac2e">addPIDs</a> (const <a class="el" href="namespacets.html#ab1d1f2460b477bc70d2e394204a2c09b">PIDSet</a> &amp;pids)</td></tr>
+<tr class="memdesc:a6f16607b21eda1934624042a2b5aac2e inherit pub_methods_classts_1_1_abstract_demux"><td class="mdescLeft">&#160;</td><td class="mdescRight">Add several PID's to filter.  <a href="classts_1_1_abstract_demux.html#a6f16607b21eda1934624042a2b5aac2e">More...</a><br /></td></tr>
+<tr class="separator:a6f16607b21eda1934624042a2b5aac2e inherit pub_methods_classts_1_1_abstract_demux"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa728b209f4142c33cad63b03f24aeef8 inherit pub_methods_classts_1_1_abstract_demux"><td class="memItemLeft" align="right" valign="top">virtual size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classts_1_1_abstract_demux.html#aa728b209f4142c33cad63b03f24aeef8">pidCount</a> () const</td></tr>
+<tr class="memdesc:aa728b209f4142c33cad63b03f24aeef8 inherit pub_methods_classts_1_1_abstract_demux"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the current number of PID's being filtered.  <a href="classts_1_1_abstract_demux.html#aa728b209f4142c33cad63b03f24aeef8">More...</a><br /></td></tr>
+<tr class="separator:aa728b209f4142c33cad63b03f24aeef8 inherit pub_methods_classts_1_1_abstract_demux"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af91b7696b93dc51bee12bc4c49f80c3a inherit pub_methods_classts_1_1_abstract_demux"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classts_1_1_abstract_demux.html#af91b7696b93dc51bee12bc4c49f80c3a">removePID</a> (<a class="el" href="namespacets.html#a90e2f5f7d7011d87cc23a8fef31958dc">PID</a> pid)</td></tr>
+<tr class="memdesc:af91b7696b93dc51bee12bc4c49f80c3a inherit pub_methods_classts_1_1_abstract_demux"><td class="mdescLeft">&#160;</td><td class="mdescRight">Remove one PID to filter.  <a href="classts_1_1_abstract_demux.html#af91b7696b93dc51bee12bc4c49f80c3a">More...</a><br /></td></tr>
+<tr class="separator:af91b7696b93dc51bee12bc4c49f80c3a inherit pub_methods_classts_1_1_abstract_demux"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:abeeb5c91df69f76eea4c45529f416230 inherit pub_methods_classts_1_1_abstract_demux"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classts_1_1_abstract_demux.html#abeeb5c91df69f76eea4c45529f416230">reset</a> ()</td></tr>
+<tr class="memdesc:abeeb5c91df69f76eea4c45529f416230 inherit pub_methods_classts_1_1_abstract_demux"><td class="mdescLeft">&#160;</td><td class="mdescRight">Reset the demux.  <a href="classts_1_1_abstract_demux.html#abeeb5c91df69f76eea4c45529f416230">More...</a><br /></td></tr>
+<tr class="separator:abeeb5c91df69f76eea4c45529f416230 inherit pub_methods_classts_1_1_abstract_demux"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa822bbec8af387dccb824136daf402b1 inherit pub_methods_classts_1_1_abstract_demux"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classts_1_1_abstract_demux.html#aa822bbec8af387dccb824136daf402b1">resetPID</a> (<a class="el" href="namespacets.html#a90e2f5f7d7011d87cc23a8fef31958dc">PID</a> pid)</td></tr>
+<tr class="memdesc:aa822bbec8af387dccb824136daf402b1 inherit pub_methods_classts_1_1_abstract_demux"><td class="mdescLeft">&#160;</td><td class="mdescRight">Reset the demuxing context for one single PID.  <a href="classts_1_1_abstract_demux.html#aa822bbec8af387dccb824136daf402b1">More...</a><br /></td></tr>
+<tr class="separator:aa822bbec8af387dccb824136daf402b1 inherit pub_methods_classts_1_1_abstract_demux"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab516f9aefa5e64499bf4752882a637ad inherit pub_methods_classts_1_1_abstract_demux"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classts_1_1_abstract_demux.html#ab516f9aefa5e64499bf4752882a637ad">setPIDFilter</a> (const <a class="el" href="namespacets.html#ab1d1f2460b477bc70d2e394204a2c09b">PIDSet</a> &amp;pid_filter)</td></tr>
+<tr class="memdesc:ab516f9aefa5e64499bf4752882a637ad inherit pub_methods_classts_1_1_abstract_demux"><td class="mdescLeft">&#160;</td><td class="mdescRight">Replace the list of PID's to filter.  <a href="classts_1_1_abstract_demux.html#ab516f9aefa5e64499bf4752882a637ad">More...</a><br /></td></tr>
+<tr class="separator:ab516f9aefa5e64499bf4752882a637ad inherit pub_methods_classts_1_1_abstract_demux"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pro-methods"></a>
+Protected Member Functions</h2></td></tr>
+<tr class="memitem:a43a704795d14f15c00a7b3078d5089f1"><td class="memItemLeft" align="right" valign="top"><a id="a43a704795d14f15c00a7b3078d5089f1"></a>
+virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classts_1_1_section_demux.html#a43a704795d14f15c00a7b3078d5089f1">immediateReset</a> () override</td></tr>
+<tr class="memdesc:a43a704795d14f15c00a7b3078d5089f1"><td class="mdescLeft">&#160;</td><td class="mdescRight">Reset the demux immediately. <br /></td></tr>
+<tr class="separator:a43a704795d14f15c00a7b3078d5089f1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a96860d43f2cf1fa025d045ed9d000c4a"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classts_1_1_section_demux.html#a96860d43f2cf1fa025d045ed9d000c4a">immediateResetPID</a> (<a class="el" href="namespacets.html#a90e2f5f7d7011d87cc23a8fef31958dc">PID</a> pid) override</td></tr>
+<tr class="memdesc:a96860d43f2cf1fa025d045ed9d000c4a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Reset the demuxing context for one single PID immediately.  <a href="#a96860d43f2cf1fa025d045ed9d000c4a">More...</a><br /></td></tr>
+<tr class="separator:a96860d43f2cf1fa025d045ed9d000c4a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="inherit_header pro_methods_classts_1_1_abstract_demux"><td colspan="2" onclick="javascript:toggleInherit('pro_methods_classts_1_1_abstract_demux')"><img src="closed.png" alt="-"/>&#160;Protected Member Functions inherited from <a class="el" href="classts_1_1_abstract_demux.html">ts::AbstractDemux</a></td></tr>
+<tr class="memitem:aed13c8941edb46a0f80ba4488aba06d6 inherit pro_methods_classts_1_1_abstract_demux"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classts_1_1_abstract_demux.html#aed13c8941edb46a0f80ba4488aba06d6">AbstractDemux</a> (const <a class="el" href="namespacets.html#ab1d1f2460b477bc70d2e394204a2c09b">PIDSet</a> &amp;pid_filter=<a class="el" href="namespacets.html#aa38c792159073aeb903a73f38eef3519">NoPID</a>)</td></tr>
+<tr class="memdesc:aed13c8941edb46a0f80ba4488aba06d6 inherit pro_methods_classts_1_1_abstract_demux"><td class="mdescLeft">&#160;</td><td class="mdescRight">Constructor.  <a href="classts_1_1_abstract_demux.html#aed13c8941edb46a0f80ba4488aba06d6">More...</a><br /></td></tr>
+<tr class="separator:aed13c8941edb46a0f80ba4488aba06d6 inherit pro_methods_classts_1_1_abstract_demux"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a882c79c2e1a79a50549ea2432bc17c87 inherit pro_methods_classts_1_1_abstract_demux"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classts_1_1_abstract_demux.html#a882c79c2e1a79a50549ea2432bc17c87">afterCallingHandler</a> (bool executeDelayedOperations=true)</td></tr>
+<tr class="memdesc:a882c79c2e1a79a50549ea2432bc17c87 inherit pro_methods_classts_1_1_abstract_demux"><td class="mdescLeft">&#160;</td><td class="mdescRight">Helper for subclass, after invoking an application-defined handler.  <a href="classts_1_1_abstract_demux.html#a882c79c2e1a79a50549ea2432bc17c87">More...</a><br /></td></tr>
+<tr class="separator:a882c79c2e1a79a50549ea2432bc17c87 inherit pro_methods_classts_1_1_abstract_demux"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aed0774fadab9480cd1a632a3fd7fb430 inherit pro_methods_classts_1_1_abstract_demux"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classts_1_1_abstract_demux.html#aed0774fadab9480cd1a632a3fd7fb430">beforeCallingHandler</a> (<a class="el" href="namespacets.html#a90e2f5f7d7011d87cc23a8fef31958dc">PID</a> pid=<a class="el" href="namespacets.html#aa49ea8a46f549e6396e453119f0e6aa2ada7de7f0f513344653d9796e75a35526">PID_NULL</a>)</td></tr>
+<tr class="memdesc:aed0774fadab9480cd1a632a3fd7fb430 inherit pro_methods_classts_1_1_abstract_demux"><td class="mdescLeft">&#160;</td><td class="mdescRight">Helper for subclass, before invoking an application-defined handler.  <a href="classts_1_1_abstract_demux.html#aed0774fadab9480cd1a632a3fd7fb430">More...</a><br /></td></tr>
+<tr class="separator:aed0774fadab9480cd1a632a3fd7fb430 inherit pro_methods_classts_1_1_abstract_demux"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="inherited"></a>
+Additional Inherited Members</h2></td></tr>
+<tr class="inherit_header pro_attribs_classts_1_1_abstract_demux"><td colspan="2" onclick="javascript:toggleInherit('pro_attribs_classts_1_1_abstract_demux')"><img src="closed.png" alt="-"/>&#160;Protected Attributes inherited from <a class="el" href="classts_1_1_abstract_demux.html">ts::AbstractDemux</a></td></tr>
+<tr class="memitem:a50a41e649f26188b3f812696460acf87 inherit pro_attribs_classts_1_1_abstract_demux"><td class="memItemLeft" align="right" valign="top"><a id="a50a41e649f26188b3f812696460acf87"></a>
+<a class="el" href="namespacets.html#ab1d1f2460b477bc70d2e394204a2c09b">PIDSet</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classts_1_1_abstract_demux.html#a50a41e649f26188b3f812696460acf87">_pid_filter</a></td></tr>
+<tr class="memdesc:a50a41e649f26188b3f812696460acf87 inherit pro_attribs_classts_1_1_abstract_demux"><td class="mdescLeft">&#160;</td><td class="mdescRight">Current set of filtered PID's, directly accessible to subclasses. <br /></td></tr>
+<tr class="separator:a50a41e649f26188b3f812696460acf87 inherit pro_attribs_classts_1_1_abstract_demux"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>This class rebuilds MPEG tables and sections from TS packets. </p>
@@ -210,8 +264,8 @@ virtual&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="c
 </div>
 </div>
 <h2 class="groupheader">Member Function Documentation</h2>
-<a id="ad679088a1239180f349d2b4469fd9065"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ad679088a1239180f349d2b4469fd9065">&#9670;&nbsp;</a></span>feedPacket()</h2>
+<a id="a10eb64779211ee63543f87d28785d70f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a10eb64779211ee63543f87d28785d70f">&#9670;&nbsp;</a></span>feedPacket()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -220,7 +274,7 @@ virtual&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="c
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">void ts::SectionDemux::feedPacket </td>
+          <td class="memname">virtual void ts::SectionDemux::feedPacket </td>
           <td>(</td>
           <td class="paramtype">const <a class="el" href="structts_1_1_t_s_packet.html">TSPacket</a> &amp;&#160;</td>
           <td class="paramname"><em>pkt</em></td><td>)</td>
@@ -229,7 +283,7 @@ virtual&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="c
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+<span class="mlabels"><span class="mlabel">override</span><span class="mlabel">virtual</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
@@ -237,130 +291,12 @@ virtual&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="c
 <p>The following method feeds the demux with a TS packet. </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramdir">[in]</td><td class="paramname">pkt</td><td>A TS packet. If the PID of the packet is not in the PID filter, it is ignored. Thus, a TS packet reader can simply pass all TS packets to the demux. </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">pkt</td><td>A TS packet. </td></tr>
   </table>
   </dd>
 </dl>
 
-</div>
-</div>
-<a id="aec7973d74931594c013913f49cacdb85"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aec7973d74931594c013913f49cacdb85">&#9670;&nbsp;</a></span>setPIDFilter()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">void ts::SectionDemux::setPIDFilter </td>
-          <td>(</td>
-          <td class="paramtype">const <a class="el" href="namespacets.html#ab1d1f2460b477bc70d2e394204a2c09b">PIDSet</a> &amp;&#160;</td>
-          <td class="paramname"><em>pid_filter</em></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Replace the list of PID's to filter. </p>
-<dl class="params"><dt>Parameters</dt><dd>
-  <table class="params">
-    <tr><td class="paramdir">[in]</td><td class="paramname">pid_filter</td><td>The list of PID's to filter. </td></tr>
-  </table>
-  </dd>
-</dl>
-
-</div>
-</div>
-<a id="a7b2626b77463a0b4a58f25fdc2c99c83"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a7b2626b77463a0b4a58f25fdc2c99c83">&#9670;&nbsp;</a></span>addPID()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">void ts::SectionDemux::addPID </td>
-          <td>(</td>
-          <td class="paramtype"><a class="el" href="namespacets.html#a90e2f5f7d7011d87cc23a8fef31958dc">PID</a>&#160;</td>
-          <td class="paramname"><em>pid</em></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>Add one PID to filter. </p>
-<dl class="params"><dt>Parameters</dt><dd>
-  <table class="params">
-    <tr><td class="paramdir">[in]</td><td class="paramname">pid</td><td>The new PID to filter. </td></tr>
-  </table>
-  </dd>
-</dl>
-
-</div>
-</div>
-<a id="a455351670299d6591785c095c6e38534"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a455351670299d6591785c095c6e38534">&#9670;&nbsp;</a></span>addPIDs()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">void ts::SectionDemux::addPIDs </td>
-          <td>(</td>
-          <td class="paramtype">const <a class="el" href="namespacets.html#ab1d1f2460b477bc70d2e394204a2c09b">PIDSet</a> &amp;&#160;</td>
-          <td class="paramname"><em>pids</em></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>Add several PID's to filter. </p>
-<dl class="params"><dt>Parameters</dt><dd>
-  <table class="params">
-    <tr><td class="paramdir">[in]</td><td class="paramname">pids</td><td>The list of new PID's to filter. </td></tr>
-  </table>
-  </dd>
-</dl>
-
-</div>
-</div>
-<a id="a98487f57c79ac0213a942aa0e3d4b6cb"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a98487f57c79ac0213a942aa0e3d4b6cb">&#9670;&nbsp;</a></span>removePID()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">void ts::SectionDemux::removePID </td>
-          <td>(</td>
-          <td class="paramtype"><a class="el" href="namespacets.html#a90e2f5f7d7011d87cc23a8fef31958dc">PID</a>&#160;</td>
-          <td class="paramname"><em>pid</em></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Remove one PID to filter. </p>
-<dl class="params"><dt>Parameters</dt><dd>
-  <table class="params">
-    <tr><td class="paramdir">[in]</td><td class="paramname">pid</td><td>The PID to no longer filter. </td></tr>
-  </table>
-  </dd>
-</dl>
+<p>Implements <a class="el" href="classts_1_1_abstract_demux.html#ac6a081bbd331cb010bba7577ce4215bd">ts::AbstractDemux</a>.</p>
 
 </div>
 </div>
@@ -432,52 +368,6 @@ virtual&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="c
 
 </div>
 </div>
-<a id="a30ebc2b396220eefdf315e976620b121"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a30ebc2b396220eefdf315e976620b121">&#9670;&nbsp;</a></span>reset()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">void ts::SectionDemux::reset </td>
-          <td>(</td>
-          <td class="paramname"></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Reset the analysis context. </p>
-<p>Partially built sections and tables are dropped. Useful when the transport stream changes. The PID filter and the handlers are not modified. </p>
-
-</div>
-</div>
-<a id="a09d71a990c08c7d01342e6338ad93f4b"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a09d71a990c08c7d01342e6338ad93f4b">&#9670;&nbsp;</a></span>resetPID()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">void ts::SectionDemux::resetPID </td>
-          <td>(</td>
-          <td class="paramtype"><a class="el" href="namespacets.html#a90e2f5f7d7011d87cc23a8fef31958dc">PID</a>&#160;</td>
-          <td class="paramname"><em>pid</em></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Reset the analysis context for one single PID. </p>
-<p>Forget all previously analyzed sections on this PID. </p><dl class="params"><dt>Parameters</dt><dd>
-  <table class="params">
-    <tr><td class="paramdir">[in]</td><td class="paramname">pid</td><td>The PID to reset. </td></tr>
-  </table>
-  </dd>
-</dl>
-
-</div>
-</div>
 <a id="a76a038eebc7a088f982d5edd4ee1af73"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a76a038eebc7a088f982d5edd4ee1af73">&#9670;&nbsp;</a></span>getStatus()</h2>
 
@@ -537,6 +427,42 @@ virtual&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="c
 
 <p>Check if the demux has errors. </p>
 <dl class="section return"><dt>Returns</dt><dd>True if any error counter is not zero. </dd></dl>
+
+</div>
+</div>
+<a id="a96860d43f2cf1fa025d045ed9d000c4a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a96860d43f2cf1fa025d045ed9d000c4a">&#9670;&nbsp;</a></span>immediateResetPID()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual void ts::SectionDemux::immediateResetPID </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="namespacets.html#a90e2f5f7d7011d87cc23a8fef31958dc">PID</a>&#160;</td>
+          <td class="paramname"><em>pid</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">override</span><span class="mlabel">protected</span><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Reset the demuxing context for one single PID immediately. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">pid</td><td>The PID to reset. </td></tr>
+  </table>
+  </dd>
+</dl>
+
+<p>Reimplemented from <a class="el" href="classts_1_1_abstract_demux.html#a38bacaef69ecf2f39d15dfdd984f08fe">ts::AbstractDemux</a>.</p>
 
 </div>
 </div>

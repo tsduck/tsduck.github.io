@@ -34,7 +34,7 @@
  <tr style="height: 56px;">
   <td id="projectlogo"><img src="tsduck-32.png"/></td>
    <td id="projectalign"><span id="projectname">TSDuck</span>
-    <span id="projectnumber">Version 3.3</span>
+    <span id="projectnumber">Version 3.4</span>
     <span id="projectbrief">(TSDuck - The MPEG Transport Stream Toolkit)</span>
    </td>
    <td>        <div id="MSearchBox" class="MSearchBoxInactive">
@@ -110,7 +110,8 @@ Inheritance diagram for ts::ExtendedEventDescriptor:</div>
 <div class="dyncontent">
 <div class="center"><img src="classts_1_1_extended_event_descriptor__inherit__graph.png" border="0" usemap="#ts_1_1_extended_event_descriptor_inherit__map" alt="Inheritance graph"/></div>
 <map name="ts_1_1_extended_event_descriptor_inherit__map" id="ts_1_1_extended_event_descriptor_inherit__map">
-<area shape="rect" id="node2" href="classts_1_1_abstract_descriptor.html" title="Abstract base class for MPEG PSI/SI descriptors. " alt="" coords="26,5,175,31"/>
+<area shape="rect" id="node2" href="classts_1_1_abstract_descriptor.html" title="Abstract base class for MPEG PSI/SI descriptors. " alt="" coords="26,79,175,104"/>
+<area shape="rect" id="node3" href="classts_1_1_abstract_signalization.html" title="Abstract base class for MPEG PSI/SI tables and descriptors. " alt="" coords="19,5,182,31"/>
 </map>
 <center><span class="legend">[<a target="top" href="graph_legend.html">legend</a>]</span></center></div>
 <div class="dynheader">
@@ -118,7 +119,9 @@ Collaboration diagram for ts::ExtendedEventDescriptor:</div>
 <div class="dyncontent">
 <div class="center"><img src="classts_1_1_extended_event_descriptor__coll__graph.png" border="0" usemap="#ts_1_1_extended_event_descriptor_coll__map" alt="Collaboration graph"/></div>
 <map name="ts_1_1_extended_event_descriptor_coll__map" id="ts_1_1_extended_event_descriptor_coll__map">
-<area shape="rect" id="node2" href="classts_1_1_abstract_descriptor.html" title="Abstract base class for MPEG PSI/SI descriptors. " alt="" coords="26,5,175,31"/>
+<area shape="rect" id="node2" href="classts_1_1_abstract_descriptor.html" title="Abstract base class for MPEG PSI/SI descriptors. " alt="" coords="17,80,166,105"/>
+<area shape="rect" id="node3" href="classts_1_1_abstract_signalization.html" title="Abstract base class for MPEG PSI/SI tables and descriptors. " alt="" coords="5,5,169,31"/>
+<area shape="rect" id="node4" href="classts_1_1_u_string.html" title="An implementation of UTF&#45;16 strings. " alt="" coords="197,80,281,105"/>
 </map>
 <center><span class="legend">[<a target="top" href="graph_legend.html">legend</a>]</span></center></div>
 <table class="memberdecls">
@@ -141,65 +144,64 @@ Public Member Functions</h2></td></tr>
 &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classts_1_1_extended_event_descriptor.html#af749f842ce2b63be7324d163c0a63963">ExtendedEventDescriptor</a> ()</td></tr>
 <tr class="memdesc:af749f842ce2b63be7324d163c0a63963"><td class="mdescLeft">&#160;</td><td class="mdescRight">Default constructor. <br /></td></tr>
 <tr class="separator:af749f842ce2b63be7324d163c0a63963"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a2eac4b8e22ac5c8ae6945c6b7066885b"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classts_1_1_extended_event_descriptor.html#a2eac4b8e22ac5c8ae6945c6b7066885b">ExtendedEventDescriptor</a> (const <a class="el" href="classts_1_1_descriptor.html">Descriptor</a> &amp;bin)</td></tr>
-<tr class="memdesc:a2eac4b8e22ac5c8ae6945c6b7066885b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Constructor from a binary descriptor.  <a href="#a2eac4b8e22ac5c8ae6945c6b7066885b">More...</a><br /></td></tr>
-<tr class="separator:a2eac4b8e22ac5c8ae6945c6b7066885b"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ac85dbf1b1180883e7ae28cfc6392bd1e"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classts_1_1_extended_event_descriptor.html#ac85dbf1b1180883e7ae28cfc6392bd1e">deserialize</a> (const <a class="el" href="classts_1_1_descriptor.html">Descriptor</a> &amp;)</td></tr>
-<tr class="memdesc:ac85dbf1b1180883e7ae28cfc6392bd1e"><td class="mdescLeft">&#160;</td><td class="mdescRight">This abstract method deserializes a binary descriptor.  <a href="#ac85dbf1b1180883e7ae28cfc6392bd1e">More...</a><br /></td></tr>
-<tr class="separator:ac85dbf1b1180883e7ae28cfc6392bd1e"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a247a50a43b28d51a61ba75a59de665c5"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classts_1_1_extended_event_descriptor.html#a247a50a43b28d51a61ba75a59de665c5">fromXML</a> (<a class="el" href="classts_1_1_x_m_l.html">XML</a> &amp;xml, const <a class="el" href="classts_1_1_x_m_l.html#a26f880956a579ee4a9fc7b7db75d37ed">XML::Element</a> *element)</td></tr>
-<tr class="memdesc:a247a50a43b28d51a61ba75a59de665c5"><td class="mdescLeft">&#160;</td><td class="mdescRight">This abstract converts an <a class="el" href="classts_1_1_x_m_l.html" title="XML utility class with error reporting. ">XML</a> structure to a descriptor.  <a href="#a247a50a43b28d51a61ba75a59de665c5">More...</a><br /></td></tr>
-<tr class="separator:a247a50a43b28d51a61ba75a59de665c5"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aa09ecfd07c924513ebc4d2f4445bd832"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classts_1_1_extended_event_descriptor.html#aa09ecfd07c924513ebc4d2f4445bd832">serialize</a> (<a class="el" href="classts_1_1_descriptor.html">Descriptor</a> &amp;) const</td></tr>
-<tr class="memdesc:aa09ecfd07c924513ebc4d2f4445bd832"><td class="mdescLeft">&#160;</td><td class="mdescRight">This abstract method serializes a descriptor.  <a href="#aa09ecfd07c924513ebc4d2f4445bd832">More...</a><br /></td></tr>
-<tr class="separator:aa09ecfd07c924513ebc4d2f4445bd832"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a966aa754f001f0b41c9536870f01fca2"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classts_1_1_extended_event_descriptor.html#a966aa754f001f0b41c9536870f01fca2">splitAndAdd</a> (<a class="el" href="classts_1_1_descriptor_list.html">DescriptorList</a> &amp;dlist) const</td></tr>
-<tr class="memdesc:a966aa754f001f0b41c9536870f01fca2"><td class="mdescLeft">&#160;</td><td class="mdescRight">Split into several descriptors if neccesary and add them in a descriptor list.  <a href="#a966aa754f001f0b41c9536870f01fca2">More...</a><br /></td></tr>
-<tr class="separator:a966aa754f001f0b41c9536870f01fca2"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a6cec41484cd446961591752071220d9b"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="classts_1_1_x_m_l.html#a26f880956a579ee4a9fc7b7db75d37ed">XML::Element</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classts_1_1_extended_event_descriptor.html#a6cec41484cd446961591752071220d9b">toXML</a> (<a class="el" href="classts_1_1_x_m_l.html">XML</a> &amp;xml, <a class="el" href="classts_1_1_x_m_l.html#a26f880956a579ee4a9fc7b7db75d37ed">XML::Element</a> *parent) const</td></tr>
-<tr class="memdesc:a6cec41484cd446961591752071220d9b"><td class="mdescLeft">&#160;</td><td class="mdescRight">This abstract method converts the descriptor to <a class="el" href="classts_1_1_x_m_l.html" title="XML utility class with error reporting. ">XML</a>.  <a href="#a6cec41484cd446961591752071220d9b">More...</a><br /></td></tr>
-<tr class="separator:a6cec41484cd446961591752071220d9b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aaf130fb234af71f43df93e8b2019a5df"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classts_1_1_extended_event_descriptor.html#aaf130fb234af71f43df93e8b2019a5df">ExtendedEventDescriptor</a> (const <a class="el" href="classts_1_1_descriptor.html">Descriptor</a> &amp;bin, const <a class="el" href="classts_1_1_d_v_b_charset.html">DVBCharset</a> *charset=0)</td></tr>
+<tr class="memdesc:aaf130fb234af71f43df93e8b2019a5df"><td class="mdescLeft">&#160;</td><td class="mdescRight">Constructor from a binary descriptor.  <a href="#aaf130fb234af71f43df93e8b2019a5df">More...</a><br /></td></tr>
+<tr class="separator:aaf130fb234af71f43df93e8b2019a5df"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a480ccc30d3d553a7c20c7b0d91e28586"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classts_1_1_extended_event_descriptor.html#a480ccc30d3d553a7c20c7b0d91e28586">deserialize</a> (const <a class="el" href="classts_1_1_descriptor.html">Descriptor</a> &amp;, const <a class="el" href="classts_1_1_d_v_b_charset.html">DVBCharset</a> *=0) override</td></tr>
+<tr class="memdesc:a480ccc30d3d553a7c20c7b0d91e28586"><td class="mdescLeft">&#160;</td><td class="mdescRight">This abstract method deserializes a binary descriptor.  <a href="#a480ccc30d3d553a7c20c7b0d91e28586">More...</a><br /></td></tr>
+<tr class="separator:a480ccc30d3d553a7c20c7b0d91e28586"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:abecb77f98b9cc86ed1b7a1a545f2313e"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classts_1_1_extended_event_descriptor.html#abecb77f98b9cc86ed1b7a1a545f2313e">fromXML</a> (<a class="el" href="classts_1_1_x_m_l.html">XML</a> &amp;, const <a class="el" href="classts_1_1_x_m_l.html#a26f880956a579ee4a9fc7b7db75d37ed">XML::Element</a> *) override</td></tr>
+<tr class="memdesc:abecb77f98b9cc86ed1b7a1a545f2313e"><td class="mdescLeft">&#160;</td><td class="mdescRight">This abstract converts an <a class="el" href="classts_1_1_x_m_l.html" title="XML utility class with error reporting. ">XML</a> structure to a table or descriptor.  <a href="#abecb77f98b9cc86ed1b7a1a545f2313e">More...</a><br /></td></tr>
+<tr class="separator:abecb77f98b9cc86ed1b7a1a545f2313e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4b6664a6051c472b6e3a8061c2bd40b7"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classts_1_1_extended_event_descriptor.html#a4b6664a6051c472b6e3a8061c2bd40b7">serialize</a> (<a class="el" href="classts_1_1_descriptor.html">Descriptor</a> &amp;, const <a class="el" href="classts_1_1_d_v_b_charset.html">DVBCharset</a> *=0) const override</td></tr>
+<tr class="memdesc:a4b6664a6051c472b6e3a8061c2bd40b7"><td class="mdescLeft">&#160;</td><td class="mdescRight">This abstract method serializes a descriptor.  <a href="#a4b6664a6051c472b6e3a8061c2bd40b7">More...</a><br /></td></tr>
+<tr class="separator:a4b6664a6051c472b6e3a8061c2bd40b7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a497e795b4e134ed98e4facf4f59e904d"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classts_1_1_extended_event_descriptor.html#a497e795b4e134ed98e4facf4f59e904d">splitAndAdd</a> (<a class="el" href="classts_1_1_descriptor_list.html">DescriptorList</a> &amp;dlist, const <a class="el" href="classts_1_1_d_v_b_charset.html">DVBCharset</a> *charset=0) const</td></tr>
+<tr class="memdesc:a497e795b4e134ed98e4facf4f59e904d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Split into several descriptors if neccesary and add them in a descriptor list.  <a href="#a497e795b4e134ed98e4facf4f59e904d">More...</a><br /></td></tr>
+<tr class="separator:a497e795b4e134ed98e4facf4f59e904d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a66f1ed5bd9f5582654f3da60c6026fc4"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="classts_1_1_x_m_l.html#a26f880956a579ee4a9fc7b7db75d37ed">XML::Element</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classts_1_1_extended_event_descriptor.html#a66f1ed5bd9f5582654f3da60c6026fc4">toXML</a> (<a class="el" href="classts_1_1_x_m_l.html">XML</a> &amp;, <a class="el" href="classts_1_1_x_m_l.html#a26f880956a579ee4a9fc7b7db75d37ed">XML::Element</a> *) const override</td></tr>
+<tr class="memdesc:a66f1ed5bd9f5582654f3da60c6026fc4"><td class="mdescLeft">&#160;</td><td class="mdescRight">This abstract method converts this object to <a class="el" href="classts_1_1_x_m_l.html" title="XML utility class with error reporting. ">XML</a>.  <a href="#a66f1ed5bd9f5582654f3da60c6026fc4">More...</a><br /></td></tr>
+<tr class="separator:a66f1ed5bd9f5582654f3da60c6026fc4"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="inherit_header pub_methods_classts_1_1_abstract_descriptor"><td colspan="2" onclick="javascript:toggleInherit('pub_methods_classts_1_1_abstract_descriptor')"><img src="closed.png" alt="-"/>&#160;Public Member Functions inherited from <a class="el" href="classts_1_1_abstract_descriptor.html">ts::AbstractDescriptor</a></td></tr>
-<tr class="memitem:a5a2f2c698da0fd4f3472c059e3380c3c inherit pub_methods_classts_1_1_abstract_descriptor"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classts_1_1_abstract_descriptor.html#a5a2f2c698da0fd4f3472c059e3380c3c">AbstractDescriptor</a> (const <a class="el" href="classts_1_1_abstract_descriptor.html">AbstractDescriptor</a> &amp;other)</td></tr>
-<tr class="memdesc:a5a2f2c698da0fd4f3472c059e3380c3c inherit pub_methods_classts_1_1_abstract_descriptor"><td class="mdescLeft">&#160;</td><td class="mdescRight">Copy constructor.  <a href="classts_1_1_abstract_descriptor.html#a5a2f2c698da0fd4f3472c059e3380c3c">More...</a><br /></td></tr>
-<tr class="separator:a5a2f2c698da0fd4f3472c059e3380c3c inherit pub_methods_classts_1_1_abstract_descriptor"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ad1dccbc99421623b33ae1cc40bb98621 inherit pub_methods_classts_1_1_abstract_descriptor"><td class="memItemLeft" align="right" valign="top"><a id="ad1dccbc99421623b33ae1cc40bb98621"></a>
 virtual&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classts_1_1_abstract_descriptor.html#ad1dccbc99421623b33ae1cc40bb98621">~AbstractDescriptor</a> ()</td></tr>
 <tr class="memdesc:ad1dccbc99421623b33ae1cc40bb98621 inherit pub_methods_classts_1_1_abstract_descriptor"><td class="mdescLeft">&#160;</td><td class="mdescRight">Virtual destructor. <br /></td></tr>
 <tr class="separator:ad1dccbc99421623b33ae1cc40bb98621 inherit pub_methods_classts_1_1_abstract_descriptor"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aaeba20cf91979955b3067ec6160e406e inherit pub_methods_classts_1_1_abstract_descriptor"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classts_1_1_abstract_descriptor.html#aaeba20cf91979955b3067ec6160e406e">deserialize</a> (const <a class="el" href="classts_1_1_descriptor_list.html">DescriptorList</a> &amp;dlist, size_t index)</td></tr>
-<tr class="memdesc:aaeba20cf91979955b3067ec6160e406e inherit pub_methods_classts_1_1_abstract_descriptor"><td class="mdescLeft">&#160;</td><td class="mdescRight">Deserialize a descriptor from a descriptor list.  <a href="classts_1_1_abstract_descriptor.html#aaeba20cf91979955b3067ec6160e406e">More...</a><br /></td></tr>
-<tr class="separator:aaeba20cf91979955b3067ec6160e406e inherit pub_methods_classts_1_1_abstract_descriptor"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:acce99ab3523b3878082dfc40880eb4a3 inherit pub_methods_classts_1_1_abstract_descriptor"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classts_1_1_abstract_descriptor.html#acce99ab3523b3878082dfc40880eb4a3">invalidate</a> ()</td></tr>
-<tr class="memdesc:acce99ab3523b3878082dfc40880eb4a3 inherit pub_methods_classts_1_1_abstract_descriptor"><td class="mdescLeft">&#160;</td><td class="mdescRight">Invalidate the descriptor.  <a href="classts_1_1_abstract_descriptor.html#acce99ab3523b3878082dfc40880eb4a3">More...</a><br /></td></tr>
-<tr class="separator:acce99ab3523b3878082dfc40880eb4a3 inherit pub_methods_classts_1_1_abstract_descriptor"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a87a8920d3d2523e9452a5804d33a8ec5 inherit pub_methods_classts_1_1_abstract_descriptor"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classts_1_1_abstract_descriptor.html#a87a8920d3d2523e9452a5804d33a8ec5">deserialize</a> (const <a class="el" href="classts_1_1_descriptor_list.html">DescriptorList</a> &amp;dlist, size_t index, const <a class="el" href="classts_1_1_d_v_b_charset.html">DVBCharset</a> *charset=0)</td></tr>
+<tr class="memdesc:a87a8920d3d2523e9452a5804d33a8ec5 inherit pub_methods_classts_1_1_abstract_descriptor"><td class="mdescLeft">&#160;</td><td class="mdescRight">Deserialize a descriptor from a descriptor list.  <a href="classts_1_1_abstract_descriptor.html#a87a8920d3d2523e9452a5804d33a8ec5">More...</a><br /></td></tr>
+<tr class="separator:a87a8920d3d2523e9452a5804d33a8ec5 inherit pub_methods_classts_1_1_abstract_descriptor"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a8acad1c54650e12e041d7d147bdf2ba9 inherit pub_methods_classts_1_1_abstract_descriptor"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classts_1_1_abstract_descriptor.html#a8acad1c54650e12e041d7d147bdf2ba9">isPrivateDescriptor</a> () const</td></tr>
 <tr class="memdesc:a8acad1c54650e12e041d7d147bdf2ba9 inherit pub_methods_classts_1_1_abstract_descriptor"><td class="mdescLeft">&#160;</td><td class="mdescRight">Check if this descriptor is a private descriptor.  <a href="classts_1_1_abstract_descriptor.html#a8acad1c54650e12e041d7d147bdf2ba9">More...</a><br /></td></tr>
 <tr class="separator:a8acad1c54650e12e041d7d147bdf2ba9 inherit pub_methods_classts_1_1_abstract_descriptor"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a2f62e08de71513b241401b3ef77f4ea2 inherit pub_methods_classts_1_1_abstract_descriptor"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classts_1_1_abstract_descriptor.html#a2f62e08de71513b241401b3ef77f4ea2">isValid</a> () const</td></tr>
-<tr class="memdesc:a2f62e08de71513b241401b3ef77f4ea2 inherit pub_methods_classts_1_1_abstract_descriptor"><td class="mdescLeft">&#160;</td><td class="mdescRight">Check if the descriptor is valid.  <a href="classts_1_1_abstract_descriptor.html#a2f62e08de71513b241401b3ef77f4ea2">More...</a><br /></td></tr>
-<tr class="separator:a2f62e08de71513b241401b3ef77f4ea2 inherit pub_methods_classts_1_1_abstract_descriptor"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ae1c5cf752d5cbb0ae98407a9279e9f7e inherit pub_methods_classts_1_1_abstract_descriptor"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classts_1_1_abstract_descriptor.html">AbstractDescriptor</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classts_1_1_abstract_descriptor.html#ae1c5cf752d5cbb0ae98407a9279e9f7e">operator=</a> (const <a class="el" href="classts_1_1_abstract_descriptor.html">AbstractDescriptor</a> &amp;other)</td></tr>
-<tr class="memdesc:ae1c5cf752d5cbb0ae98407a9279e9f7e inherit pub_methods_classts_1_1_abstract_descriptor"><td class="mdescLeft">&#160;</td><td class="mdescRight">Assignment operator.  <a href="classts_1_1_abstract_descriptor.html#ae1c5cf752d5cbb0ae98407a9279e9f7e">More...</a><br /></td></tr>
-<tr class="separator:ae1c5cf752d5cbb0ae98407a9279e9f7e inherit pub_methods_classts_1_1_abstract_descriptor"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:afa66b72c160f30afb1f643a2325ae19b inherit pub_methods_classts_1_1_abstract_descriptor"><td class="memItemLeft" align="right" valign="top"><a class="el" href="namespacets.html#ab9a8367d7529bc4d441c8e4e61e31984">PDS</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classts_1_1_abstract_descriptor.html#afa66b72c160f30afb1f643a2325ae19b">requiredPDS</a> () const</td></tr>
 <tr class="memdesc:afa66b72c160f30afb1f643a2325ae19b inherit pub_methods_classts_1_1_abstract_descriptor"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the required private data specifier.  <a href="classts_1_1_abstract_descriptor.html#afa66b72c160f30afb1f643a2325ae19b">More...</a><br /></td></tr>
 <tr class="separator:afa66b72c160f30afb1f643a2325ae19b inherit pub_methods_classts_1_1_abstract_descriptor"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:adbe5ac625d65123062037d7af5eb0b93 inherit pub_methods_classts_1_1_abstract_descriptor"><td class="memItemLeft" align="right" valign="top"><a class="el" href="namespacets.html#a6d34ed2bcf670e7b2a310f660ca900ee">DID</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classts_1_1_abstract_descriptor.html#adbe5ac625d65123062037d7af5eb0b93">tag</a> () const</td></tr>
 <tr class="memdesc:adbe5ac625d65123062037d7af5eb0b93 inherit pub_methods_classts_1_1_abstract_descriptor"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the descriptor tag.  <a href="classts_1_1_abstract_descriptor.html#adbe5ac625d65123062037d7af5eb0b93">More...</a><br /></td></tr>
 <tr class="separator:adbe5ac625d65123062037d7af5eb0b93 inherit pub_methods_classts_1_1_abstract_descriptor"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a2a27b41eeea3ad3308cc0d5e64721c95 inherit pub_methods_classts_1_1_abstract_descriptor"><td class="memItemLeft" align="right" valign="top">std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classts_1_1_abstract_descriptor.html#a2a27b41eeea3ad3308cc0d5e64721c95">xmlName</a> () const</td></tr>
-<tr class="memdesc:a2a27b41eeea3ad3308cc0d5e64721c95 inherit pub_methods_classts_1_1_abstract_descriptor"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the XMl node name representing this descriptor.  <a href="classts_1_1_abstract_descriptor.html#a2a27b41eeea3ad3308cc0d5e64721c95">More...</a><br /></td></tr>
-<tr class="separator:a2a27b41eeea3ad3308cc0d5e64721c95 inherit pub_methods_classts_1_1_abstract_descriptor"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="inherit_header pub_methods_classts_1_1_abstract_signalization"><td colspan="2" onclick="javascript:toggleInherit('pub_methods_classts_1_1_abstract_signalization')"><img src="closed.png" alt="-"/>&#160;Public Member Functions inherited from <a class="el" href="classts_1_1_abstract_signalization.html">ts::AbstractSignalization</a></td></tr>
+<tr class="memitem:a368aed5aa23c4932881acceb12a7ccf5 inherit pub_methods_classts_1_1_abstract_signalization"><td class="memItemLeft" align="right" valign="top"><a id="a368aed5aa23c4932881acceb12a7ccf5"></a>
+virtual&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classts_1_1_abstract_signalization.html#a368aed5aa23c4932881acceb12a7ccf5">~AbstractSignalization</a> ()</td></tr>
+<tr class="memdesc:a368aed5aa23c4932881acceb12a7ccf5 inherit pub_methods_classts_1_1_abstract_signalization"><td class="mdescLeft">&#160;</td><td class="mdescRight">Virtual destructor. <br /></td></tr>
+<tr class="separator:a368aed5aa23c4932881acceb12a7ccf5 inherit pub_methods_classts_1_1_abstract_signalization"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1aca8115129275bdd9c384e822301f0a inherit pub_methods_classts_1_1_abstract_signalization"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classts_1_1_abstract_signalization.html#a1aca8115129275bdd9c384e822301f0a">invalidate</a> ()</td></tr>
+<tr class="memdesc:a1aca8115129275bdd9c384e822301f0a inherit pub_methods_classts_1_1_abstract_signalization"><td class="mdescLeft">&#160;</td><td class="mdescRight">Invalidate this object.  <a href="classts_1_1_abstract_signalization.html#a1aca8115129275bdd9c384e822301f0a">More...</a><br /></td></tr>
+<tr class="separator:a1aca8115129275bdd9c384e822301f0a inherit pub_methods_classts_1_1_abstract_signalization"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af7aa8ceb8b698ab219c05a36b0e97291 inherit pub_methods_classts_1_1_abstract_signalization"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classts_1_1_abstract_signalization.html#af7aa8ceb8b698ab219c05a36b0e97291">isValid</a> () const</td></tr>
+<tr class="memdesc:af7aa8ceb8b698ab219c05a36b0e97291 inherit pub_methods_classts_1_1_abstract_signalization"><td class="mdescLeft">&#160;</td><td class="mdescRight">Check if this object is valid.  <a href="classts_1_1_abstract_signalization.html#af7aa8ceb8b698ab219c05a36b0e97291">More...</a><br /></td></tr>
+<tr class="separator:af7aa8ceb8b698ab219c05a36b0e97291 inherit pub_methods_classts_1_1_abstract_signalization"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac1e97eef4f39320c61192c6bde591dca inherit pub_methods_classts_1_1_abstract_signalization"><td class="memItemLeft" align="right" valign="top">std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classts_1_1_abstract_signalization.html#ac1e97eef4f39320c61192c6bde591dca">xmlName</a> () const</td></tr>
+<tr class="memdesc:ac1e97eef4f39320c61192c6bde591dca inherit pub_methods_classts_1_1_abstract_signalization"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the XMl node name representing this table or descriptor.  <a href="classts_1_1_abstract_signalization.html#ac1e97eef4f39320c61192c6bde591dca">More...</a><br /></td></tr>
+<tr class="separator:ac1e97eef4f39320c61192c6bde591dca inherit pub_methods_classts_1_1_abstract_signalization"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-static-methods"></a>
 Static Public Member Functions</h2></td></tr>
 <tr class="memitem:a00afa5ee1feeb2c75bea8979b3f0aa67"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classts_1_1_extended_event_descriptor.html#a00afa5ee1feeb2c75bea8979b3f0aa67">DisplayDescriptor</a> (<a class="el" href="classts_1_1_tables_display.html">TablesDisplay</a> &amp;display, <a class="el" href="namespacets.html#a6d34ed2bcf670e7b2a310f660ca900ee">DID</a> did, const uint8_t *payload, size_t size, int indent, <a class="el" href="namespacets.html#a3c2cbf0a41a7db2577a737cc9568e3cb">TID</a> tid, <a class="el" href="namespacets.html#ab9a8367d7529bc4d441c8e4e61e31984">PDS</a> pds)</td></tr>
 <tr class="memdesc:a00afa5ee1feeb2c75bea8979b3f0aa67"><td class="mdescLeft">&#160;</td><td class="mdescRight">Static method to display a descriptor.  <a href="#a00afa5ee1feeb2c75bea8979b3f0aa67">More...</a><br /></td></tr>
 <tr class="separator:a00afa5ee1feeb2c75bea8979b3f0aa67"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:adbad11a12d4db18ad1ded5d8fa39a705"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classts_1_1_extended_event_descriptor.html#adbad11a12d4db18ad1ded5d8fa39a705">NormalizeNumbering</a> (uint8_t *desc_list_addr, size_t desc_list_size)</td></tr>
-<tr class="memdesc:adbad11a12d4db18ad1ded5d8fa39a705"><td class="mdescLeft">&#160;</td><td class="mdescRight">Normalize all <a class="el" href="classts_1_1_extended_event_descriptor.html" title="Representation of a extended_event_descriptor. ">ExtendedEventDescriptor</a> in a descriptor list.  <a href="#adbad11a12d4db18ad1ded5d8fa39a705">More...</a><br /></td></tr>
-<tr class="separator:adbad11a12d4db18ad1ded5d8fa39a705"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aca3b3ed2fb480ca7b78e71e275b3a07f"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classts_1_1_extended_event_descriptor.html#aca3b3ed2fb480ca7b78e71e275b3a07f">NormalizeNumbering</a> (uint8_t *desc_list_addr, size_t desc_list_size, const <a class="el" href="classts_1_1_d_v_b_charset.html">DVBCharset</a> *charset=0)</td></tr>
+<tr class="memdesc:aca3b3ed2fb480ca7b78e71e275b3a07f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Normalize all <a class="el" href="classts_1_1_extended_event_descriptor.html" title="Representation of a extended_event_descriptor. ">ExtendedEventDescriptor</a> in a descriptor list.  <a href="#aca3b3ed2fb480ca7b78e71e275b3a07f">More...</a><br /></td></tr>
+<tr class="separator:aca3b3ed2fb480ca7b78e71e275b3a07f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-attribs"></a>
 Public Attributes</h2></td></tr>
@@ -211,18 +213,18 @@ uint8_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="c
 <a class="el" href="classts_1_1_extended_event_descriptor.html#a85edd28d6130fabfbaf468ed033beebd">EntryList</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classts_1_1_extended_event_descriptor.html#a28e961a84efe45475aee159a57dc2989">entries</a></td></tr>
 <tr class="memdesc:a28e961a84efe45475aee159a57dc2989"><td class="mdescLeft">&#160;</td><td class="mdescRight">The list of item entries. <br /></td></tr>
 <tr class="separator:a28e961a84efe45475aee159a57dc2989"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aa6ee9e22e929122c2c2272f10ef4d22c"><td class="memItemLeft" align="right" valign="top"><a id="aa6ee9e22e929122c2c2272f10ef4d22c"></a>
-std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classts_1_1_extended_event_descriptor.html#aa6ee9e22e929122c2c2272f10ef4d22c">language_code</a></td></tr>
-<tr class="memdesc:aa6ee9e22e929122c2c2272f10ef4d22c"><td class="mdescLeft">&#160;</td><td class="mdescRight">ISO-639 language code, 3 characters. <br /></td></tr>
-<tr class="separator:aa6ee9e22e929122c2c2272f10ef4d22c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a22c194769fbef0cc3c5ca4213a2ba478"><td class="memItemLeft" align="right" valign="top"><a id="a22c194769fbef0cc3c5ca4213a2ba478"></a>
+<a class="el" href="classts_1_1_u_string.html">UString</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classts_1_1_extended_event_descriptor.html#a22c194769fbef0cc3c5ca4213a2ba478">language_code</a></td></tr>
+<tr class="memdesc:a22c194769fbef0cc3c5ca4213a2ba478"><td class="mdescLeft">&#160;</td><td class="mdescRight">ISO-639 language code, 3 characters. <br /></td></tr>
+<tr class="separator:a22c194769fbef0cc3c5ca4213a2ba478"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a17a96cbcffd83e18c0b9523722848956"><td class="memItemLeft" align="right" valign="top"><a id="a17a96cbcffd83e18c0b9523722848956"></a>
 uint8_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classts_1_1_extended_event_descriptor.html#a17a96cbcffd83e18c0b9523722848956">last_descriptor_number</a></td></tr>
 <tr class="memdesc:a17a96cbcffd83e18c0b9523722848956"><td class="mdescLeft">&#160;</td><td class="mdescRight">See ETSI 300 468, 6.2.15. <br /></td></tr>
 <tr class="separator:a17a96cbcffd83e18c0b9523722848956"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a808d7a418e21a881c775c2b518c64572"><td class="memItemLeft" align="right" valign="top"><a id="a808d7a418e21a881c775c2b518c64572"></a>
-std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classts_1_1_extended_event_descriptor.html#a808d7a418e21a881c775c2b518c64572">text</a></td></tr>
-<tr class="memdesc:a808d7a418e21a881c775c2b518c64572"><td class="mdescLeft">&#160;</td><td class="mdescRight">See ETSI 300 468, 6.2.15. <br /></td></tr>
-<tr class="separator:a808d7a418e21a881c775c2b518c64572"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4381fe1ce8983c94059f3ef6c9ca05f5"><td class="memItemLeft" align="right" valign="top"><a id="a4381fe1ce8983c94059f3ef6c9ca05f5"></a>
+<a class="el" href="classts_1_1_u_string.html">UString</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classts_1_1_extended_event_descriptor.html#a4381fe1ce8983c94059f3ef6c9ca05f5">text</a></td></tr>
+<tr class="memdesc:a4381fe1ce8983c94059f3ef6c9ca05f5"><td class="mdescLeft">&#160;</td><td class="mdescRight">See ETSI 300 468, 6.2.15. <br /></td></tr>
+<tr class="separator:a4381fe1ce8983c94059f3ef6c9ca05f5"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="inherited"></a>
 Additional Inherited Members</h2></td></tr>
@@ -230,14 +232,33 @@ Additional Inherited Members</h2></td></tr>
 <tr class="memitem:a45ece03d4b8e66ea3bd8db343a471ecd inherit pro_methods_classts_1_1_abstract_descriptor"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classts_1_1_abstract_descriptor.html#a45ece03d4b8e66ea3bd8db343a471ecd">AbstractDescriptor</a> (<a class="el" href="namespacets.html#a6d34ed2bcf670e7b2a310f660ca900ee">DID</a> <a class="el" href="classts_1_1_abstract_descriptor.html#adbe5ac625d65123062037d7af5eb0b93">tag</a>, const char *xml_name, <a class="el" href="namespacets.html#ab9a8367d7529bc4d441c8e4e61e31984">PDS</a> pds=0)</td></tr>
 <tr class="memdesc:a45ece03d4b8e66ea3bd8db343a471ecd inherit pro_methods_classts_1_1_abstract_descriptor"><td class="mdescLeft">&#160;</td><td class="mdescRight">Protected constructor for subclasses.  <a href="classts_1_1_abstract_descriptor.html#a45ece03d4b8e66ea3bd8db343a471ecd">More...</a><br /></td></tr>
 <tr class="separator:a45ece03d4b8e66ea3bd8db343a471ecd inherit pro_methods_classts_1_1_abstract_descriptor"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ae8886bc1b6ddbfc1d9fddfc554545d39 inherit pro_methods_classts_1_1_abstract_descriptor"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classts_1_1_abstract_descriptor.html#ae8886bc1b6ddbfc1d9fddfc554545d39">checkXMLName</a> (<a class="el" href="classts_1_1_x_m_l.html">XML</a> &amp;xml, const <a class="el" href="classts_1_1_x_m_l.html#a26f880956a579ee4a9fc7b7db75d37ed">XML::Element</a> *element) const</td></tr>
-<tr class="memdesc:ae8886bc1b6ddbfc1d9fddfc554545d39 inherit pro_methods_classts_1_1_abstract_descriptor"><td class="mdescLeft">&#160;</td><td class="mdescRight">Check that an <a class="el" href="classts_1_1_x_m_l.html" title="XML utility class with error reporting. ">XML</a> element has the right name for this descriptor.  <a href="classts_1_1_abstract_descriptor.html#ae8886bc1b6ddbfc1d9fddfc554545d39">More...</a><br /></td></tr>
-<tr class="separator:ae8886bc1b6ddbfc1d9fddfc554545d39 inherit pro_methods_classts_1_1_abstract_descriptor"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a682b71fe10051927d6ecc1eeb7135815 inherit pro_methods_classts_1_1_abstract_descriptor"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classts_1_1_abstract_descriptor.html#a682b71fe10051927d6ecc1eeb7135815">serializeEnd</a> (<a class="el" href="classts_1_1_descriptor.html">Descriptor</a> &amp;bin, const <a class="el" href="namespacets.html#a1542787fc9df4215c6c94d816c50c818">ByteBlockPtr</a> &amp;bbp) const</td></tr>
+<tr class="memdesc:a682b71fe10051927d6ecc1eeb7135815 inherit pro_methods_classts_1_1_abstract_descriptor"><td class="mdescLeft">&#160;</td><td class="mdescRight">Tool for serialization: complete a serialization.  <a href="classts_1_1_abstract_descriptor.html#a682b71fe10051927d6ecc1eeb7135815">More...</a><br /></td></tr>
+<tr class="separator:a682b71fe10051927d6ecc1eeb7135815 inherit pro_methods_classts_1_1_abstract_descriptor"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2039c886589fa10a8120ba325f5f8bdb inherit pro_methods_classts_1_1_abstract_descriptor"><td class="memItemLeft" align="right" valign="top"><a class="el" href="namespacets.html#a1542787fc9df4215c6c94d816c50c818">ByteBlockPtr</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classts_1_1_abstract_descriptor.html#a2039c886589fa10a8120ba325f5f8bdb">serializeStart</a> () const</td></tr>
+<tr class="memdesc:a2039c886589fa10a8120ba325f5f8bdb inherit pro_methods_classts_1_1_abstract_descriptor"><td class="mdescLeft">&#160;</td><td class="mdescRight">Tool for serialization: get a byte buffer for serialization.  <a href="classts_1_1_abstract_descriptor.html#a2039c886589fa10a8120ba325f5f8bdb">More...</a><br /></td></tr>
+<tr class="separator:a2039c886589fa10a8120ba325f5f8bdb inherit pro_methods_classts_1_1_abstract_descriptor"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="inherit_header pro_methods_classts_1_1_abstract_signalization"><td colspan="2" onclick="javascript:toggleInherit('pro_methods_classts_1_1_abstract_signalization')"><img src="closed.png" alt="-"/>&#160;Protected Member Functions inherited from <a class="el" href="classts_1_1_abstract_signalization.html">ts::AbstractSignalization</a></td></tr>
+<tr class="memitem:a5d4cc35ff3c30d6eb82b640b9ea60cd3 inherit pro_methods_classts_1_1_abstract_signalization"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classts_1_1_abstract_signalization.html#a5d4cc35ff3c30d6eb82b640b9ea60cd3">AbstractSignalization</a> (const char *xml_name)</td></tr>
+<tr class="memdesc:a5d4cc35ff3c30d6eb82b640b9ea60cd3 inherit pro_methods_classts_1_1_abstract_signalization"><td class="mdescLeft">&#160;</td><td class="mdescRight">Protected constructor for subclasses.  <a href="classts_1_1_abstract_signalization.html#a5d4cc35ff3c30d6eb82b640b9ea60cd3">More...</a><br /></td></tr>
+<tr class="separator:a5d4cc35ff3c30d6eb82b640b9ea60cd3 inherit pro_methods_classts_1_1_abstract_signalization"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a75310559ce93be9e8ac2d1435ac556c9 inherit pro_methods_classts_1_1_abstract_signalization"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classts_1_1_abstract_signalization.html#a75310559ce93be9e8ac2d1435ac556c9">AbstractSignalization</a> (const <a class="el" href="classts_1_1_abstract_signalization.html">AbstractSignalization</a> &amp;other)</td></tr>
+<tr class="memdesc:a75310559ce93be9e8ac2d1435ac556c9 inherit pro_methods_classts_1_1_abstract_signalization"><td class="mdescLeft">&#160;</td><td class="mdescRight">Copy constructor.  <a href="classts_1_1_abstract_signalization.html#a75310559ce93be9e8ac2d1435ac556c9">More...</a><br /></td></tr>
+<tr class="separator:a75310559ce93be9e8ac2d1435ac556c9 inherit pro_methods_classts_1_1_abstract_signalization"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1e4c55a748466e540661323200b0bf44 inherit pro_methods_classts_1_1_abstract_signalization"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classts_1_1_abstract_signalization.html#a1e4c55a748466e540661323200b0bf44">checkXMLName</a> (<a class="el" href="classts_1_1_x_m_l.html">XML</a> &amp;xml, const <a class="el" href="classts_1_1_x_m_l.html#a26f880956a579ee4a9fc7b7db75d37ed">XML::Element</a> *element) const</td></tr>
+<tr class="memdesc:a1e4c55a748466e540661323200b0bf44 inherit pro_methods_classts_1_1_abstract_signalization"><td class="mdescLeft">&#160;</td><td class="mdescRight">Check that an <a class="el" href="classts_1_1_x_m_l.html" title="XML utility class with error reporting. ">XML</a> element has the right name for this table.  <a href="classts_1_1_abstract_signalization.html#a1e4c55a748466e540661323200b0bf44">More...</a><br /></td></tr>
+<tr class="separator:a1e4c55a748466e540661323200b0bf44 inherit pro_methods_classts_1_1_abstract_signalization"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab1dffa39cccc9bd7ae4bef3fe074bbaa inherit pro_methods_classts_1_1_abstract_signalization"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classts_1_1_abstract_signalization.html">AbstractSignalization</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classts_1_1_abstract_signalization.html#ab1dffa39cccc9bd7ae4bef3fe074bbaa">operator=</a> (const <a class="el" href="classts_1_1_abstract_signalization.html">AbstractSignalization</a> &amp;other)</td></tr>
+<tr class="memdesc:ab1dffa39cccc9bd7ae4bef3fe074bbaa inherit pro_methods_classts_1_1_abstract_signalization"><td class="mdescLeft">&#160;</td><td class="mdescRight">Assignment operator.  <a href="classts_1_1_abstract_signalization.html#ab1dffa39cccc9bd7ae4bef3fe074bbaa">More...</a><br /></td></tr>
+<tr class="separator:ab1dffa39cccc9bd7ae4bef3fe074bbaa inherit pro_methods_classts_1_1_abstract_signalization"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="inherit_header pro_static_methods_classts_1_1_abstract_signalization"><td colspan="2" onclick="javascript:toggleInherit('pro_static_methods_classts_1_1_abstract_signalization')"><img src="closed.png" alt="-"/>&#160;Static Protected Member Functions inherited from <a class="el" href="classts_1_1_abstract_signalization.html">ts::AbstractSignalization</a></td></tr>
+<tr class="memitem:a861d449ce53da7fdb3dd92135b91b022 inherit pro_static_methods_classts_1_1_abstract_signalization"><td class="memItemLeft" align="right" valign="top">static bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classts_1_1_abstract_signalization.html#a861d449ce53da7fdb3dd92135b91b022">SerializeFixedLength</a> (<a class="el" href="classts_1_1_byte_block.html">ByteBlock</a> &amp;bb, const <a class="el" href="classts_1_1_u_string.html">UString</a> &amp;str, const size_t size, const <a class="el" href="classts_1_1_d_v_b_charset.html">DVBCharset</a> *charset=0)</td></tr>
+<tr class="memdesc:a861d449ce53da7fdb3dd92135b91b022 inherit pro_static_methods_classts_1_1_abstract_signalization"><td class="mdescLeft">&#160;</td><td class="mdescRight">This static method serializes a DVB string with a required fixed size.  <a href="classts_1_1_abstract_signalization.html#a861d449ce53da7fdb3dd92135b91b022">More...</a><br /></td></tr>
+<tr class="separator:a861d449ce53da7fdb3dd92135b91b022 inherit pro_static_methods_classts_1_1_abstract_signalization"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae02743b0076183fb615027b8bc88b26a inherit pro_static_methods_classts_1_1_abstract_signalization"><td class="memItemLeft" align="right" valign="top">static bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classts_1_1_abstract_signalization.html#ae02743b0076183fb615027b8bc88b26a">SerializeLanguageCode</a> (<a class="el" href="classts_1_1_byte_block.html">ByteBlock</a> &amp;bb, const <a class="el" href="classts_1_1_u_string.html">UString</a> &amp;str, const <a class="el" href="classts_1_1_d_v_b_charset.html">DVBCharset</a> *charset=0)</td></tr>
+<tr class="memdesc:ae02743b0076183fb615027b8bc88b26a inherit pro_static_methods_classts_1_1_abstract_signalization"><td class="mdescLeft">&#160;</td><td class="mdescRight">This abstract method serializes a 3-byte language or country code.  <a href="classts_1_1_abstract_signalization.html#ae02743b0076183fb615027b8bc88b26a">More...</a><br /></td></tr>
+<tr class="separator:ae02743b0076183fb615027b8bc88b26a inherit pro_static_methods_classts_1_1_abstract_signalization"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="inherit_header pro_attribs_classts_1_1_abstract_descriptor"><td colspan="2" onclick="javascript:toggleInherit('pro_attribs_classts_1_1_abstract_descriptor')"><img src="closed.png" alt="-"/>&#160;Protected Attributes inherited from <a class="el" href="classts_1_1_abstract_descriptor.html">ts::AbstractDescriptor</a></td></tr>
-<tr class="memitem:afd789308dbc53d7b6efaebfd429d4e8e inherit pro_attribs_classts_1_1_abstract_descriptor"><td class="memItemLeft" align="right" valign="top"><a id="afd789308dbc53d7b6efaebfd429d4e8e"></a>
-bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classts_1_1_abstract_descriptor.html#afd789308dbc53d7b6efaebfd429d4e8e">_is_valid</a></td></tr>
-<tr class="memdesc:afd789308dbc53d7b6efaebfd429d4e8e inherit pro_attribs_classts_1_1_abstract_descriptor"><td class="mdescLeft">&#160;</td><td class="mdescRight">It is the responsibility of the subclasses to set the valid flag. <br /></td></tr>
-<tr class="separator:afd789308dbc53d7b6efaebfd429d4e8e inherit pro_attribs_classts_1_1_abstract_descriptor"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a53bd8fcd27200d220c6283bd1775c0cd inherit pro_attribs_classts_1_1_abstract_descriptor"><td class="memItemLeft" align="right" valign="top"><a id="a53bd8fcd27200d220c6283bd1775c0cd"></a>
 <a class="el" href="namespacets.html#ab9a8367d7529bc4d441c8e4e61e31984">PDS</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classts_1_1_abstract_descriptor.html#a53bd8fcd27200d220c6283bd1775c0cd">_required_pds</a></td></tr>
 <tr class="memdesc:a53bd8fcd27200d220c6283bd1775c0cd inherit pro_attribs_classts_1_1_abstract_descriptor"><td class="mdescLeft">&#160;</td><td class="mdescRight">Required private data specified. <br /></td></tr>
@@ -246,17 +267,22 @@ bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="clas
 <a class="el" href="namespacets.html#a6d34ed2bcf670e7b2a310f660ca900ee">DID</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classts_1_1_abstract_descriptor.html#a082368ef5443867889659323c6842912">_tag</a></td></tr>
 <tr class="memdesc:a082368ef5443867889659323c6842912 inherit pro_attribs_classts_1_1_abstract_descriptor"><td class="mdescLeft">&#160;</td><td class="mdescRight">The descriptor tag can be modified by subclasses only. <br /></td></tr>
 <tr class="separator:a082368ef5443867889659323c6842912 inherit pro_attribs_classts_1_1_abstract_descriptor"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a66adbcb71fad0510f476cd0edb6d4e46 inherit pro_attribs_classts_1_1_abstract_descriptor"><td class="memItemLeft" align="right" valign="top"><a id="a66adbcb71fad0510f476cd0edb6d4e46"></a>
-const char *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classts_1_1_abstract_descriptor.html#a66adbcb71fad0510f476cd0edb6d4e46">_xml_name</a></td></tr>
-<tr class="memdesc:a66adbcb71fad0510f476cd0edb6d4e46 inherit pro_attribs_classts_1_1_abstract_descriptor"><td class="mdescLeft">&#160;</td><td class="mdescRight"><a class="el" href="classts_1_1_x_m_l.html" title="XML utility class with error reporting. ">XML</a> descriptor name. <br /></td></tr>
-<tr class="separator:a66adbcb71fad0510f476cd0edb6d4e46 inherit pro_attribs_classts_1_1_abstract_descriptor"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="inherit_header pro_attribs_classts_1_1_abstract_signalization"><td colspan="2" onclick="javascript:toggleInherit('pro_attribs_classts_1_1_abstract_signalization')"><img src="closed.png" alt="-"/>&#160;Protected Attributes inherited from <a class="el" href="classts_1_1_abstract_signalization.html">ts::AbstractSignalization</a></td></tr>
+<tr class="memitem:a656c83e401104eb45581a2867fe758dc inherit pro_attribs_classts_1_1_abstract_signalization"><td class="memItemLeft" align="right" valign="top"><a id="a656c83e401104eb45581a2867fe758dc"></a>
+bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classts_1_1_abstract_signalization.html#a656c83e401104eb45581a2867fe758dc">_is_valid</a></td></tr>
+<tr class="memdesc:a656c83e401104eb45581a2867fe758dc inherit pro_attribs_classts_1_1_abstract_signalization"><td class="mdescLeft">&#160;</td><td class="mdescRight">It is the responsibility of the subclasses to set the valid flag. <br /></td></tr>
+<tr class="separator:a656c83e401104eb45581a2867fe758dc inherit pro_attribs_classts_1_1_abstract_signalization"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:adbdb079a82724b6fb5e6af93ad37afb0 inherit pro_attribs_classts_1_1_abstract_signalization"><td class="memItemLeft" align="right" valign="top"><a id="adbdb079a82724b6fb5e6af93ad37afb0"></a>
+const char *const&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classts_1_1_abstract_signalization.html#adbdb079a82724b6fb5e6af93ad37afb0">_xml_name</a></td></tr>
+<tr class="memdesc:adbdb079a82724b6fb5e6af93ad37afb0 inherit pro_attribs_classts_1_1_abstract_signalization"><td class="mdescLeft">&#160;</td><td class="mdescRight"><a class="el" href="classts_1_1_x_m_l.html" title="XML utility class with error reporting. ">XML</a> table or descriptor name in UTF-8 representation. <br /></td></tr>
+<tr class="separator:adbdb079a82724b6fb5e6af93ad37afb0 inherit pro_attribs_classts_1_1_abstract_signalization"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>Representation of a extended_event_descriptor. </p>
 <dl class="section see"><dt>See also</dt><dd>ETSI 300 468, 6.2.15. </dd></dl>
 </div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
-<a id="a2eac4b8e22ac5c8ae6945c6b7066885b"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a2eac4b8e22ac5c8ae6945c6b7066885b">&#9670;&nbsp;</a></span>ExtendedEventDescriptor()</h2>
+<a id="aaf130fb234af71f43df93e8b2019a5df"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aaf130fb234af71f43df93e8b2019a5df">&#9670;&nbsp;</a></span>ExtendedEventDescriptor()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -265,8 +291,18 @@ const char *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" hr
           <td class="memname">ts::ExtendedEventDescriptor::ExtendedEventDescriptor </td>
           <td>(</td>
           <td class="paramtype">const <a class="el" href="classts_1_1_descriptor.html">Descriptor</a> &amp;&#160;</td>
-          <td class="paramname"><em>bin</em></td><td>)</td>
+          <td class="paramname"><em>bin</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
           <td></td>
+          <td class="paramtype">const <a class="el" href="classts_1_1_d_v_b_charset.html">DVBCharset</a> *&#160;</td>
+          <td class="paramname"><em>charset</em> = <code>0</code>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -275,6 +311,7 @@ const char *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" hr
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramdir">[in]</td><td class="paramname">bin</td><td>A binary descriptor to deserialize. </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">charset</td><td>If not zero, character set to use without explicit table code. </td></tr>
   </table>
   </dd>
 </dl>
@@ -282,8 +319,8 @@ const char *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" hr
 </div>
 </div>
 <h2 class="groupheader">Member Function Documentation</h2>
-<a id="a966aa754f001f0b41c9536870f01fca2"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a966aa754f001f0b41c9536870f01fca2">&#9670;&nbsp;</a></span>splitAndAdd()</h2>
+<a id="a497e795b4e134ed98e4facf4f59e904d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a497e795b4e134ed98e4facf4f59e904d">&#9670;&nbsp;</a></span>splitAndAdd()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -292,8 +329,18 @@ const char *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" hr
           <td class="memname">void ts::ExtendedEventDescriptor::splitAndAdd </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="classts_1_1_descriptor_list.html">DescriptorList</a> &amp;&#160;</td>
-          <td class="paramname"><em>dlist</em></td><td>)</td>
-          <td> const</td>
+          <td class="paramname"><em>dlist</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="classts_1_1_d_v_b_charset.html">DVBCharset</a> *&#160;</td>
+          <td class="paramname"><em>charset</em> = <code>0</code>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td> const</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -302,14 +349,67 @@ const char *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" hr
 <p>Split the content into several <a class="el" href="classts_1_1_extended_event_descriptor.html" title="Representation of a extended_event_descriptor. ">ExtendedEventDescriptor</a> if the content is too long and add them in a descriptor list. </p><dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramdir">[in,out]</td><td class="paramname">dlist</td><td>List of descriptors. </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">charset</td><td>If not zero, default character set to use. </td></tr>
   </table>
   </dd>
 </dl>
 
 </div>
 </div>
-<a id="aa09ecfd07c924513ebc4d2f4445bd832"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aa09ecfd07c924513ebc4d2f4445bd832">&#9670;&nbsp;</a></span>serialize()</h2>
+<a id="aca3b3ed2fb480ca7b78e71e275b3a07f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aca3b3ed2fb480ca7b78e71e275b3a07f">&#9670;&nbsp;</a></span>NormalizeNumbering()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static void ts::ExtendedEventDescriptor::NormalizeNumbering </td>
+          <td>(</td>
+          <td class="paramtype">uint8_t *&#160;</td>
+          <td class="paramname"><em>desc_list_addr</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">size_t&#160;</td>
+          <td class="paramname"><em>desc_list_size</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="classts_1_1_d_v_b_charset.html">DVBCharset</a> *&#160;</td>
+          <td class="paramname"><em>charset</em> = <code>0</code>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Normalize all <a class="el" href="classts_1_1_extended_event_descriptor.html" title="Representation of a extended_event_descriptor. ">ExtendedEventDescriptor</a> in a descriptor list. </p>
+<p>Update all descriptor_number and last_descriptor_number per language. </p><dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in,out]</td><td class="paramname">desc_list_addr</td><td>Address of a serialized descriptor list. </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">desc_list_size</td><td><a class="el" href="classts_1_1_descriptor.html" title="Representation of a MPEG PSI/SI descriptors in binary format. ">Descriptor</a> list size in bytes. </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">charset</td><td>If not zero, character set to use without explicit table code. </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="a4b6664a6051c472b6e3a8061c2bd40b7"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4b6664a6051c472b6e3a8061c2bd40b7">&#9670;&nbsp;</a></span>serialize()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -321,13 +421,23 @@ const char *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" hr
           <td class="memname">virtual void ts::ExtendedEventDescriptor::serialize </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="classts_1_1_descriptor.html">Descriptor</a> &amp;&#160;</td>
-          <td class="paramname"><em>bin</em></td><td>)</td>
-          <td> const</td>
+          <td class="paramname"><em>bin</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="classts_1_1_d_v_b_charset.html">DVBCharset</a> *&#160;</td>
+          <td class="paramname"><em>charset</em> = <code>0</code>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td> const</td>
         </tr>
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">virtual</span></span>  </td>
+<span class="mlabels"><span class="mlabel">override</span><span class="mlabel">virtual</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
@@ -336,16 +446,17 @@ const char *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" hr
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramdir">[out]</td><td class="paramname">bin</td><td>A binary descriptor object. Its content is replaced with a binary representation of this object. </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">charset</td><td>If not zero, default character set to use. </td></tr>
   </table>
   </dd>
 </dl>
 
-<p>Implements <a class="el" href="classts_1_1_abstract_descriptor.html#aefaf020153650e77708ebabb82661e25">ts::AbstractDescriptor</a>.</p>
+<p>Implements <a class="el" href="classts_1_1_abstract_descriptor.html#ac4e081cb7d778e1d17337bb15132f5c6">ts::AbstractDescriptor</a>.</p>
 
 </div>
 </div>
-<a id="ac85dbf1b1180883e7ae28cfc6392bd1e"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ac85dbf1b1180883e7ae28cfc6392bd1e">&#9670;&nbsp;</a></span>deserialize()</h2>
+<a id="a480ccc30d3d553a7c20c7b0d91e28586"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a480ccc30d3d553a7c20c7b0d91e28586">&#9670;&nbsp;</a></span>deserialize()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -357,13 +468,23 @@ const char *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" hr
           <td class="memname">virtual void ts::ExtendedEventDescriptor::deserialize </td>
           <td>(</td>
           <td class="paramtype">const <a class="el" href="classts_1_1_descriptor.html">Descriptor</a> &amp;&#160;</td>
-          <td class="paramname"><em>bin</em></td><td>)</td>
+          <td class="paramname"><em>bin</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
           <td></td>
+          <td class="paramtype">const <a class="el" href="classts_1_1_d_v_b_charset.html">DVBCharset</a> *&#160;</td>
+          <td class="paramname"><em>charset</em> = <code>0</code>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
         </tr>
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">virtual</span></span>  </td>
+<span class="mlabels"><span class="mlabel">override</span><span class="mlabel">virtual</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
@@ -372,16 +493,17 @@ const char *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" hr
 <p>In case of success, this object is replaced with the interpreted content of <em>bin</em>. In case of error, this object is invalidated. </p><dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramdir">[in]</td><td class="paramname">bin</td><td>A binary descriptor to interpret according to the descriptor subclass. </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">charset</td><td>If not zero, character set to use without explicit table code. </td></tr>
   </table>
   </dd>
 </dl>
 
-<p>Implements <a class="el" href="classts_1_1_abstract_descriptor.html#a59dc107b7fc8e9600d6134d1178b81a0">ts::AbstractDescriptor</a>.</p>
+<p>Implements <a class="el" href="classts_1_1_abstract_descriptor.html#a76cb1a2d6598b84d856c6e63f9c33b01">ts::AbstractDescriptor</a>.</p>
 
 </div>
 </div>
-<a id="a6cec41484cd446961591752071220d9b"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a6cec41484cd446961591752071220d9b">&#9670;&nbsp;</a></span>toXML()</h2>
+<a id="a66f1ed5bd9f5582654f3da60c6026fc4"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a66f1ed5bd9f5582654f3da60c6026fc4">&#9670;&nbsp;</a></span>toXML()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -409,12 +531,12 @@ const char *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" hr
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">virtual</span></span>  </td>
+<span class="mlabels"><span class="mlabel">override</span><span class="mlabel">virtual</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
 
-<p>This abstract method converts the descriptor to <a class="el" href="classts_1_1_x_m_l.html" title="XML utility class with error reporting. ">XML</a>. </p>
+<p>This abstract method converts this object to <a class="el" href="classts_1_1_x_m_l.html" title="XML utility class with error reporting. ">XML</a>. </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramdir">[in,out]</td><td class="paramname">xml</td><td><a class="el" href="classts_1_1_x_m_l.html" title="XML utility class with error reporting. ">XML</a> utility for error reporting </td></tr>
@@ -424,12 +546,12 @@ const char *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" hr
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>The new <a class="el" href="classts_1_1_x_m_l.html" title="XML utility class with error reporting. ">XML</a> element. </dd></dl>
 
-<p>Implements <a class="el" href="classts_1_1_abstract_descriptor.html#a23ec70833c5ba5828940b1844ca105f5">ts::AbstractDescriptor</a>.</p>
+<p>Implements <a class="el" href="classts_1_1_abstract_signalization.html#a80ac02976ec3b04275379d1fffe82a07">ts::AbstractSignalization</a>.</p>
 
 </div>
 </div>
-<a id="a247a50a43b28d51a61ba75a59de665c5"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a247a50a43b28d51a61ba75a59de665c5">&#9670;&nbsp;</a></span>fromXML()</h2>
+<a id="abecb77f98b9cc86ed1b7a1a545f2313e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#abecb77f98b9cc86ed1b7a1a545f2313e">&#9670;&nbsp;</a></span>fromXML()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -457,12 +579,12 @@ const char *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" hr
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">virtual</span></span>  </td>
+<span class="mlabels"><span class="mlabel">override</span><span class="mlabel">virtual</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
 
-<p>This abstract converts an <a class="el" href="classts_1_1_x_m_l.html" title="XML utility class with error reporting. ">XML</a> structure to a descriptor. </p>
+<p>This abstract converts an <a class="el" href="classts_1_1_x_m_l.html" title="XML utility class with error reporting. ">XML</a> structure to a table or descriptor. </p>
 <p>In case of success, this object is replaced with the interpreted content of the <a class="el" href="classts_1_1_x_m_l.html" title="XML utility class with error reporting. ">XML</a> structure. In case of error, this object is invalidated. </p><dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramdir">[in,out]</td><td class="paramname">xml</td><td><a class="el" href="classts_1_1_x_m_l.html" title="XML utility class with error reporting. ">XML</a> utility for error reporting </td></tr>
@@ -471,52 +593,7 @@ const char *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" hr
   </dd>
 </dl>
 
-<p>Implements <a class="el" href="classts_1_1_abstract_descriptor.html#a7e2958e15eca96a2abed63b06bcc913f">ts::AbstractDescriptor</a>.</p>
-
-</div>
-</div>
-<a id="adbad11a12d4db18ad1ded5d8fa39a705"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#adbad11a12d4db18ad1ded5d8fa39a705">&#9670;&nbsp;</a></span>NormalizeNumbering()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">static void ts::ExtendedEventDescriptor::NormalizeNumbering </td>
-          <td>(</td>
-          <td class="paramtype">uint8_t *&#160;</td>
-          <td class="paramname"><em>desc_list_addr</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">size_t&#160;</td>
-          <td class="paramname"><em>desc_list_size</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">static</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>Normalize all <a class="el" href="classts_1_1_extended_event_descriptor.html" title="Representation of a extended_event_descriptor. ">ExtendedEventDescriptor</a> in a descriptor list. </p>
-<p>Update all descriptor_number and last_descriptor_number per language. </p><dl class="params"><dt>Parameters</dt><dd>
-  <table class="params">
-    <tr><td class="paramdir">[in,out]</td><td class="paramname">desc_list_addr</td><td>Address of a serialized descriptor list. </td></tr>
-    <tr><td class="paramdir">[in]</td><td class="paramname">desc_list_size</td><td><a class="el" href="classts_1_1_descriptor.html" title="Representation of a MPEG PSI/SI descriptors in binary format. ">Descriptor</a> list size in bytes. </td></tr>
-  </table>
-  </dd>
-</dl>
+<p>Implements <a class="el" href="classts_1_1_abstract_signalization.html#a9260490d00924a4fb9d230dc35d772d5">ts::AbstractSignalization</a>.</p>
 
 </div>
 </div>

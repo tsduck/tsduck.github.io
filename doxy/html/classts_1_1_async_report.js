@@ -6,5 +6,5 @@ var classts_1_1_async_report =
     [ "setTimeStamp", "classts_1_1_async_report.html#aa75cb391ffdde4ea229caa4837d3156e", null ],
     [ "getTimeStamp", "classts_1_1_async_report.html#a2b835cc4420a2a81c5f36c50cd3e0347", null ],
     [ "terminate", "classts_1_1_async_report.html#a9a8d6cd529ddc4ea5667aa2b3fc7294f", null ],
-    [ "writeLog", "classts_1_1_async_report.html#abfe679b971cec9fec72422f1ecbcd916", null ]
+    [ "writeLog", "classts_1_1_async_report.html#a2e86e9ec56a7741a0b410376ab1b3c25", null ]
 ];

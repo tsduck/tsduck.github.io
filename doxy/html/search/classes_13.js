@@ -17,6 +17,7 @@ var searchData=
   ['variable_3c_20std_3a_3astring_20_3e',['Variable&lt; std::string &gt;',['../classts_1_1_variable.html',1,'ts']]],
   ['variable_3c_20transmissionmode_20_3e',['Variable&lt; TransmissionMode &gt;',['../classts_1_1_variable.html',1,'ts']]],
   ['variable_3c_20ts_3a_3alnb_20_3e',['Variable&lt; ts::LNB &gt;',['../classts_1_1_variable.html',1,'ts']]],
+  ['variable_3c_20ts_3a_3austring_20_3e',['Variable&lt; ts::UString &gt;',['../classts_1_1_variable.html',1,'ts']]],
   ['variable_3c_20uint16_5ft_20_3e',['Variable&lt; uint16_t &gt;',['../classts_1_1_variable.html',1,'ts']]],
   ['variable_3c_20uint32_5ft_20_3e',['Variable&lt; uint32_t &gt;',['../classts_1_1_variable.html',1,'ts']]],
   ['variable_3c_20uint64_5ft_20_3e',['Variable&lt; uint64_t &gt;',['../classts_1_1_variable.html',1,'ts']]],
