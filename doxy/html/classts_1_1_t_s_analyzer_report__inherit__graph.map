@@ -1,7 +1,7 @@
 <map id="ts::TSAnalyzerReport" name="ts::TSAnalyzerReport">
-<area shape="rect" id="node2" href="$classts_1_1_t_s_analyzer.html" title="A class which analyzes a complete transport stream. " alt="" coords="235,80,344,105"/>
-<area shape="rect" id="node3" href="$classts_1_1_table_handler_interface.html" title="Table handler interface. " alt="" coords="12,5,181,31"/>
-<area shape="rect" id="node4" href="$classts_1_1_section_handler_interface.html" title="Abstract interface to receive MPEG Section from a SectionDemux. " alt="" coords="5,55,187,80"/>
-<area shape="rect" id="node5" href="$classts_1_1_p_e_s_handler_interface.html" title="Abstract interface to be notified of PES packets using a PESDemux. " alt="" coords="14,104,179,129"/>
-<area shape="rect" id="node6" href="$classts_1_1_t2_m_i_handler_interface.html" title="T2&#45;MI demux handler interface. " alt="" coords="12,153,180,179"/>
+<area shape="rect" id="node2" href="$classts_1_1_t_s_analyzer.html" title="A class which analyzes a complete transport stream. " alt="" coords="235,81,344,108"/>
+<area shape="rect" id="node3" href="$classts_1_1_table_handler_interface.html" title="Table handler interface. " alt="" coords="11,5,181,32"/>
+<area shape="rect" id="node4" href="$classts_1_1_section_handler_interface.html" title="Abstract interface to receive MPEG Section from a SectionDemux. " alt="" coords="5,56,187,83"/>
+<area shape="rect" id="node5" href="$classts_1_1_p_e_s_handler_interface.html" title="Abstract interface to be notified of PES packets using a PESDemux. " alt="" coords="14,107,178,133"/>
+<area shape="rect" id="node6" href="$classts_1_1_t2_m_i_handler_interface.html" title="T2&#45;MI demux handler interface. " alt="" coords="13,157,179,184"/>
 </map>

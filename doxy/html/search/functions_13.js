@@ -107,7 +107,7 @@ var searchData=
   ['tsp',['TSP',['../classts_1_1_t_s_p.html#a2bbffdcbc64677a2fa44535795fa3b0d',1,'ts::TSP']]],
   ['tsscanner',['TSScanner',['../classts_1_1_t_s_scanner.html#a940f5d223cffc9aa55ab08a5e9de4e3c',1,'ts::TSScanner']]],
   ['tune',['tune',['../classts_1_1_tuner.html#ab4adb12b0e94c28bfd088508d4293396',1,'ts::Tuner::tune(const TunerParameters &amp;params, ReportInterface &amp;report)'],['../classts_1_1_tuner.html#af6e7f350483ebcf30b0a468acf62f062',1,'ts::Tuner::tune(DTVProperties &amp;props, ReportInterface &amp;report)'],['../classts_1_1_tuner_args.html#a6c0d91c162420d16e31295cc4e2b4cae',1,'ts::TunerArgs::tune()']]],
-  ['tuner',['Tuner',['../classts_1_1_tuner.html#a06851c36769d526b5a66607bb3b355fe',1,'ts::Tuner::Tuner()'],['../classts_1_1_tuner.html#a977865f799c3fd825b29539d8e7e3fa2',1,'ts::Tuner::Tuner(const std::string &amp;device_name, bool info_only, ReportInterface &amp;report)']]],
+  ['tuner',['Tuner',['../classts_1_1_tuner.html#adbe63f4a1ae9741ef9e50e5c684d84ab',1,'ts::Tuner::Tuner(const std::string &amp;device_name=std::string())'],['../classts_1_1_tuner.html#a977865f799c3fd825b29539d8e7e3fa2',1,'ts::Tuner::Tuner(const std::string &amp;device_name, bool info_only, ReportInterface &amp;report)']]],
   ['tunerargs',['TunerArgs',['../classts_1_1_tuner_args.html#a7210c8e24a304edb42eba585c5396a1f',1,'ts::TunerArgs']]],
   ['tunerparameters',['TunerParameters',['../classts_1_1_tuner_parameters.html#a61540a6154bb71f46e4a5b5b3fb73b8d',1,'ts::TunerParameters']]],
   ['tunerparametersatsc',['TunerParametersATSC',['../classts_1_1_tuner_parameters_a_t_s_c.html#a199712570a1b71620fac2d504cd3fe36',1,'ts::TunerParametersATSC']]],

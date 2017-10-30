@@ -1,4 +1,4 @@
 <map id="ts::AbstractAVCAccessUnit" name="ts::AbstractAVCAccessUnit">
-<area shape="rect" id="node3" href="$classts_1_1_a_v_c_sequence_parameter_set.html" title="Representation of an AVC sequence parameter set access unit. " alt="" coords="5,152,213,177"/>
-<area shape="rect" id="node2" href="$classts_1_1_abstract_a_v_c_data.html" title="Abstract base class for AVC data, either access units or structures. " alt="" coords="38,5,181,31"/>
+<area shape="rect" id="node3" href="$classts_1_1_a_v_c_sequence_parameter_set.html" title="Representation of an AVC sequence parameter set access unit. " alt="" coords="5,155,212,181"/>
+<area shape="rect" id="node2" href="$classts_1_1_abstract_a_v_c_data.html" title="Abstract base class for AVC data, either access units or structures. " alt="" coords="35,5,182,32"/>
 </map>

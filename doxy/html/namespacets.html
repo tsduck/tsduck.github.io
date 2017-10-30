@@ -3152,9 +3152,6 @@ Functions</h2></td></tr>
 <tr class="memitem:a0714110392df200b95fa492fdfb63eac"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacets.html#a0714110392df200b95fa492fdfb63eac">IsPrintable</a> (<a class="el" href="namespacets.html#a7e3244e77fae7815254d87d2ebdb7bd0">UChar</a> c)</td></tr>
 <tr class="memdesc:a0714110392df200b95fa492fdfb63eac"><td class="mdescLeft">&#160;</td><td class="mdescRight">Check if a character is printable according to the current C locale.  <a href="#a0714110392df200b95fa492fdfb63eac">More...</a><br /></td></tr>
 <tr class="separator:a0714110392df200b95fa492fdfb63eac"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aee27fac7041403178f5dceb53fb721b8"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacets.html#aee27fac7041403178f5dceb53fb721b8">IsPrintable</a> (int c)</td></tr>
-<tr class="memdesc:aee27fac7041403178f5dceb53fb721b8"><td class="mdescLeft">&#160;</td><td class="mdescRight">Make sure european characters are detected as printable, even if isprint(3) does not.  <a href="#aee27fac7041403178f5dceb53fb721b8">More...</a><br /></td></tr>
-<tr class="separator:aee27fac7041403178f5dceb53fb721b8"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ab3ce043219049a0ad153a92d9df2be6f"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacets.html#ab3ce043219049a0ad153a92d9df2be6f">IsSectionST</a> (uint8_t st)</td></tr>
 <tr class="memdesc:ab3ce043219049a0ad153a92d9df2be6f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Check if an stream type value indicates a stream carrying sections.  <a href="#ab3ce043219049a0ad153a92d9df2be6f">More...</a><br /></td></tr>
 <tr class="separator:ab3ce043219049a0ad153a92d9df2be6f"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -3275,12 +3272,6 @@ void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="name
 <tr class="memitem:aa92d4bead498ab54f7e99a780e1d1419"><td class="memTemplItemLeft" align="right" valign="top">std::string&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespacets.html#aa92d4bead498ab54f7e99a780e1d1419">PercentageString</a> (INT value, INT total)</td></tr>
 <tr class="memdesc:aa92d4bead498ab54f7e99a780e1d1419"><td class="mdescLeft">&#160;</td><td class="mdescRight">Format a percentage string.  <a href="#aa92d4bead498ab54f7e99a780e1d1419">More...</a><br /></td></tr>
 <tr class="separator:aa92d4bead498ab54f7e99a780e1d1419"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a5ae930748c773797e40b2c4d80163509"><td class="memItemLeft" align="right" valign="top">std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacets.html#a5ae930748c773797e40b2c4d80163509">Printable</a> (const std::string &amp;s, char replacement='.')</td></tr>
-<tr class="memdesc:a5ae930748c773797e40b2c4d80163509"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return a printable version of a string.  <a href="#a5ae930748c773797e40b2c4d80163509">More...</a><br /></td></tr>
-<tr class="separator:a5ae930748c773797e40b2c4d80163509"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a105a245fbc25ba78e9512b6c473ccae6"><td class="memItemLeft" align="right" valign="top">std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacets.html#a105a245fbc25ba78e9512b6c473ccae6">Printable</a> (const void *data, size_t size, char replacement='.')</td></tr>
-<tr class="memdesc:a105a245fbc25ba78e9512b6c473ccae6"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return a printable version of a string.  <a href="#a105a245fbc25ba78e9512b6c473ccae6">More...</a><br /></td></tr>
-<tr class="separator:a105a245fbc25ba78e9512b6c473ccae6"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aeb825a99d11021d5b9fb46fd09d847ab"><td class="memTemplParams" colspan="2">template&lt;typename INT &gt; </td></tr>
 <tr class="memitem:aeb825a99d11021d5b9fb46fd09d847ab"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespacets.html#aeb825a99d11021d5b9fb46fd09d847ab">PutInt</a> (void *p, INT i)</td></tr>
 <tr class="memdesc:aeb825a99d11021d5b9fb46fd09d847ab"><td class="mdescLeft">&#160;</td><td class="mdescRight">Template function serializing an integer data in big endian representation.  <a href="#aeb825a99d11021d5b9fb46fd09d847ab">More...</a><br /></td></tr>
@@ -18208,116 +18199,6 @@ template&lt;class CONTAINER &gt; </div>
 
 </div>
 </div>
-<a id="aee27fac7041403178f5dceb53fb721b8"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aee27fac7041403178f5dceb53fb721b8">&#9670;&nbsp;</a></span>IsPrintable() <span class="overload">[1/2]</span></h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">bool ts::IsPrintable </td>
-          <td>(</td>
-          <td class="paramtype">int&#160;</td>
-          <td class="paramname"><em>c</em></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Make sure european characters are detected as printable, even if isprint(3) does not. </p>
-<dl class="params"><dt>Parameters</dt><dd>
-  <table class="params">
-    <tr><td class="paramdir">[in]</td><td class="paramname">c</td><td>An integer containing a character. </td></tr>
-  </table>
-  </dd>
-</dl>
-<dl class="section return"><dt>Returns</dt><dd>True if <em>c</em> is a printable character, including extended european character. </dd></dl>
-
-</div>
-</div>
-<a id="a5ae930748c773797e40b2c4d80163509"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a5ae930748c773797e40b2c4d80163509">&#9670;&nbsp;</a></span>Printable() <span class="overload">[1/2]</span></h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">std::string ts::Printable </td>
-          <td>(</td>
-          <td class="paramtype">const std::string &amp;&#160;</td>
-          <td class="paramname"><em>s</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">char&#160;</td>
-          <td class="paramname"><em>replacement</em> = <code>'.'</code>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Return a printable version of a string. </p>
-<dl class="params"><dt>Parameters</dt><dd>
-  <table class="params">
-    <tr><td class="paramdir">[in]</td><td class="paramname">s</td><td>A string. </td></tr>
-    <tr><td class="paramdir">[in]</td><td class="paramname">replacement</td><td>The character which replaces non-printable characters. </td></tr>
-  </table>
-  </dd>
-</dl>
-<dl class="section return"><dt>Returns</dt><dd>A copy of <em>s</em> where non-printable characters are replaced by <em>replacement</em>. </dd></dl>
-
-</div>
-</div>
-<a id="a105a245fbc25ba78e9512b6c473ccae6"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a105a245fbc25ba78e9512b6c473ccae6">&#9670;&nbsp;</a></span>Printable() <span class="overload">[2/2]</span></h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">std::string ts::Printable </td>
-          <td>(</td>
-          <td class="paramtype">const void *&#160;</td>
-          <td class="paramname"><em>data</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">size_t&#160;</td>
-          <td class="paramname"><em>size</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">char&#160;</td>
-          <td class="paramname"><em>replacement</em> = <code>'.'</code>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Return a printable version of a string. </p>
-<dl class="params"><dt>Parameters</dt><dd>
-  <table class="params">
-    <tr><td class="paramdir">[in]</td><td class="paramname">data</td><td>Address of string data. </td></tr>
-    <tr><td class="paramdir">[in]</td><td class="paramname">size</td><td>String length in bytes. </td></tr>
-    <tr><td class="paramdir">[in]</td><td class="paramname">replacement</td><td>The character which replaces non-printable characters. </td></tr>
-  </table>
-  </dd>
-</dl>
-<dl class="section return"><dt>Returns</dt><dd>A copy of the string where non-printable characters are replaced by <em>replacement</em>. </dd></dl>
-
-</div>
-</div>
 <a id="a64e55c368064694ae66e6fa3454180ed"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a64e55c368064694ae66e6fa3454180ed">&#9670;&nbsp;</a></span>ToLower() <span class="overload">[1/2]</span></h2>
 
@@ -21807,7 +21688,7 @@ template&lt;class CONTAINER &gt; </div>
 </div>
 </div>
 <a id="a0714110392df200b95fa492fdfb63eac"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a0714110392df200b95fa492fdfb63eac">&#9670;&nbsp;</a></span>IsPrintable() <span class="overload">[2/2]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a0714110392df200b95fa492fdfb63eac">&#9670;&nbsp;</a></span>IsPrintable()</h2>
 
 <div class="memitem">
 <div class="memproto">

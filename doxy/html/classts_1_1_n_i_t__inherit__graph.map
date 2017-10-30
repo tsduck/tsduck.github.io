@@ -1,6 +1,6 @@
 <map id="ts::NIT" name="ts::NIT">
-<area shape="rect" id="node2" href="$classts_1_1_abstract_transport_list_table.html" title="Abstract base class for tables containing a list of transport stream descriptions. " alt="" coords="5,225,171,264"/>
-<area shape="rect" id="node3" href="$classts_1_1_abstract_long_table.html" title="Abstract base class for MPEG PSI/SI tables with long sections. " alt="" coords="13,152,163,177"/>
-<area shape="rect" id="node4" href="$classts_1_1_abstract_table.html" title="Abstract base class for MPEG PSI/SI tables. " alt="" coords="28,79,148,104"/>
-<area shape="rect" id="node5" href="$classts_1_1_abstract_signalization.html" title="Abstract base class for MPEG PSI/SI tables and descriptors. " alt="" coords="6,5,170,31"/>
+<area shape="rect" id="node2" href="$classts_1_1_abstract_transport_list_table.html" title="Abstract base class for tables containing a list of transport stream descriptions. " alt="" coords="5,229,172,271"/>
+<area shape="rect" id="node3" href="$classts_1_1_abstract_long_table.html" title="Abstract base class for MPEG PSI/SI tables with long sections. " alt="" coords="13,155,164,181"/>
+<area shape="rect" id="node4" href="$classts_1_1_abstract_table.html" title="Abstract base class for MPEG PSI/SI tables. " alt="" coords="27,80,150,107"/>
+<area shape="rect" id="node5" href="$classts_1_1_abstract_signalization.html" title="Abstract base class for MPEG PSI/SI tables and descriptors. " alt="" coords="7,5,171,32"/>
 </map>

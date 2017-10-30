@@ -1,4 +1,4 @@
 <map id="ts::AVCSequenceParameterSet" name="ts::AVCSequenceParameterSet">
-<area shape="rect" id="node2" href="$classts_1_1_abstract_a_v_c_access_unit.html" title="Base class for AVC access units, aka NALunits. " alt="" coords="19,79,200,104"/>
-<area shape="rect" id="node3" href="$classts_1_1_abstract_a_v_c_data.html" title="Abstract base class for AVC data, either access units or structures. " alt="" coords="38,5,181,31"/>
+<area shape="rect" id="node2" href="$classts_1_1_abstract_a_v_c_access_unit.html" title="Base class for AVC access units, aka NALunits. " alt="" coords="15,80,202,107"/>
+<area shape="rect" id="node3" href="$classts_1_1_abstract_a_v_c_data.html" title="Abstract base class for AVC data, either access units or structures. " alt="" coords="35,5,182,32"/>
 </map>

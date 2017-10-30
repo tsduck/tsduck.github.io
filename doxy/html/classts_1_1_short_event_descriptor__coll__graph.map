@@ -1,5 +1,5 @@
 <map id="ts::ShortEventDescriptor" name="ts::ShortEventDescriptor">
-<area shape="rect" id="node2" href="$classts_1_1_abstract_descriptor.html" title="Abstract base class for MPEG PSI/SI descriptors. " alt="" coords="17,80,166,105"/>
-<area shape="rect" id="node3" href="$classts_1_1_abstract_signalization.html" title="Abstract base class for MPEG PSI/SI tables and descriptors. " alt="" coords="5,5,169,31"/>
-<area shape="rect" id="node4" href="$classts_1_1_u_string.html" title="An implementation of UTF&#45;16 strings. " alt="" coords="197,80,281,105"/>
+<area shape="rect" id="node2" href="$classts_1_1_abstract_descriptor.html" title="Abstract base class for MPEG PSI/SI descriptors. " alt="" coords="16,81,167,108"/>
+<area shape="rect" id="node3" href="$classts_1_1_abstract_signalization.html" title="Abstract base class for MPEG PSI/SI tables and descriptors. " alt="" coords="5,5,169,32"/>
+<area shape="rect" id="node4" href="$classts_1_1_u_string.html" title="An implementation of UTF&#45;16 strings. " alt="" coords="198,81,283,108"/>
 </map>

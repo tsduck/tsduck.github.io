@@ -1,8 +1,5 @@
 var NAVTREEINDEX27 =
 {
-"ts_u_char_8h.html#ae61121a3d9eaec6436d7d4ac8e039411":[6,0,263,395],
-"ts_u_char_8h.html#ae625b11c483bb683b37048b20cf60d95":[6,0,263,737],
-"ts_u_char_8h.html#ae68b17e3f18c9af17592d7a2d60bb82d":[6,0,263,252],
 "ts_u_char_8h.html#ae6c03d8a506ccd4dc504ed8b6364eb33":[6,0,263,498],
 "ts_u_char_8h.html#ae7232d518b6c50a03ce8958bcf69cca6":[6,0,263,373],
 "ts_u_char_8h.html#ae7789541fb6b293eb6ab2f4327f5b6f2":[6,0,263,193],
