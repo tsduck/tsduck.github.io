@@ -1,4 +1,4 @@
 <map id="ts::TSP" name="ts::TSP">
-<area shape="rect" id="node2" href="$classts_1_1_report_interface.html" title="Abstract interface for event reporting and monitoring. " alt="" coords="5,5,136,32"/>
-<area shape="rect" id="node3" href="$classts_1_1_abort_interface.html" title="An interface to check for abort. " alt="" coords="160,5,283,32"/>
+<area shape="rect" id="node2" href="$classts_1_1_report_interface.html" title="Abstract interface for event reporting and monitoring. " alt="" coords="5,5,136,31"/>
+<area shape="rect" id="node3" href="$classts_1_1_abort_interface.html" title="An interface to check for abort. " alt="" coords="160,5,283,31"/>
 </map>

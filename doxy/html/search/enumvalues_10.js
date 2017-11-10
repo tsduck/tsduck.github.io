@@ -31,7 +31,7 @@ var searchData=
   ['sid_5freserved',['SID_RESERVED',['../namespacets.html#a6a2873593dbf2b644a7963a5591fd2f0a4c443b38b1a84e543e20d57264aa6379',1,'ts']]],
   ['sid_5fvideo',['SID_VIDEO',['../namespacets.html#a6a2873593dbf2b644a7963a5591fd2f0a5f96a0ced61943cdc0cc820b51d0c112',1,'ts']]],
   ['sid_5fvideo_5fmask',['SID_VIDEO_MASK',['../namespacets.html#a6a2873593dbf2b644a7963a5591fd2f0ab274521e20ec99ccd72a00b710627e0f',1,'ts']]],
-  ['single_5fline',['SINGLE_LINE',['../namespacets_1_1hexa.html#a490e158f46bf3d8b610cd81e9d6290e6a81202455d73eaaa35bbae5f64ee82831',1,'ts::hexa']]],
+  ['single_5fline',['SINGLE_LINE',['../classts_1_1_u_string.html#a95e758037651fab003f10b568b08cb46ab48832764b88fc047c7240a4db697bf6',1,'ts::UString::SINGLE_LINE()'],['../namespacets_1_1hexa.html#a490e158f46bf3d8b610cd81e9d6290e6a81202455d73eaaa35bbae5f64ee82831',1,'ts::hexa::SINGLE_LINE()']]],
   ['spinv_5fauto',['SPINV_AUTO',['../namespacets.html#aef665dc6784989ee4169c6a792999de6a9f96b4a4bf08cb75508f5d8b73da8de9',1,'ts']]],
   ['spinv_5foff',['SPINV_OFF',['../namespacets.html#aef665dc6784989ee4169c6a792999de6ade6f08713a3d3dd389b77bb339694788',1,'ts']]],
   ['spinv_5fon',['SPINV_ON',['../namespacets.html#aef665dc6784989ee4169c6a792999de6a6da7a9cc1e62915ca3a0713b0351ef4e',1,'ts']]],

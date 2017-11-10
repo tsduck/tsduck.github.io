@@ -121,6 +121,30 @@ Collaboration diagram for ts::UString:</div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-types"></a>
 Public Types</h2></td></tr>
+<tr class="memitem:a95e758037651fab003f10b568b08cb46"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classts_1_1_u_string.html#a95e758037651fab003f10b568b08cb46">HexaFlags</a> { <br />
+&#160;&#160;<a class="el" href="classts_1_1_u_string.html#a95e758037651fab003f10b568b08cb46aa7bd3c423691aa596e8b2caa703e5e2e">HEXA</a> = 0x0001, 
+<br />
+&#160;&#160;<a class="el" href="classts_1_1_u_string.html#a95e758037651fab003f10b568b08cb46a7b28ae996daf573879de011a9272213e">ASCII</a> = 0x0002, 
+<br />
+&#160;&#160;<a class="el" href="classts_1_1_u_string.html#a95e758037651fab003f10b568b08cb46a1fe85f01480cd855bab2b74584decc18">OFFSET</a> = 0x0004, 
+<br />
+&#160;&#160;<a class="el" href="classts_1_1_u_string.html#a95e758037651fab003f10b568b08cb46aeb77a0b83f6ffb378b7aa4bfd2ea92ec">WIDE_OFFSET</a> = 0x0008, 
+<br />
+&#160;&#160;<a class="el" href="classts_1_1_u_string.html#a95e758037651fab003f10b568b08cb46ab48832764b88fc047c7240a4db697bf6">SINGLE_LINE</a> = 0x0010, 
+<br />
+&#160;&#160;<a class="el" href="classts_1_1_u_string.html#a95e758037651fab003f10b568b08cb46a5bd17b48ecd9481285308f1de417c869">BPL</a> = 0x0020, 
+<br />
+&#160;&#160;<a class="el" href="classts_1_1_u_string.html#a95e758037651fab003f10b568b08cb46a4a731657054e8daa7bcdc57addbdf2e8">C_STYLE</a> = 0x0040, 
+<br />
+&#160;&#160;<a class="el" href="classts_1_1_u_string.html#a95e758037651fab003f10b568b08cb46ab64e5ff12cf560fa6b044102cb03ba57">BINARY</a> = 0x0080, 
+<br />
+&#160;&#160;<a class="el" href="classts_1_1_u_string.html#a95e758037651fab003f10b568b08cb46ae537565b2b54076ff5177385d44b0e9f">BIN_NIBBLE</a> = 0x0100, 
+<br />
+&#160;&#160;<a class="el" href="classts_1_1_u_string.html#a95e758037651fab003f10b568b08cb46addb530d5c14f429cbf46e9496ea22ed5">COMPACT</a> = 0x0200
+<br />
+ }<tr class="memdesc:a95e758037651fab003f10b568b08cb46"><td class="mdescLeft">&#160;</td><td class="mdescRight">Flags for the <a class="el" href="classts_1_1_u_string.html#a363dc649e2381f6d52d8aa96c2b88af8" title="Format a string containing an hexadecimal value. ">Hexa()</a> family of methods.  <a href="classts_1_1_u_string.html#a95e758037651fab003f10b568b08cb46">More...</a><br /></td></tr>
+</td></tr>
+<tr class="separator:a95e758037651fab003f10b568b08cb46"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aee7ce465657a81ff26b97df471188cb0"><td class="memItemLeft" align="right" valign="top"><a id="aee7ce465657a81ff26b97df471188cb0"></a>
 typedef std::u16string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classts_1_1_u_string.html#aee7ce465657a81ff26b97df471188cb0">SuperClass</a></td></tr>
 <tr class="memdesc:aee7ce465657a81ff26b97df471188cb0"><td class="mdescLeft">&#160;</td><td class="mdescRight">Explicit reference to superclass. <br /></td></tr>
@@ -154,7 +178,7 @@ Public Member Functions</h2></td></tr>
 <tr class="memdesc:a1a34703f374f7946dc6e29591b330ae8"><td class="mdescLeft">&#160;</td><td class="mdescRight">Constructor using a null-terminated Unicode string.  <a href="#a1a34703f374f7946dc6e29591b330ae8">More...</a><br /></td></tr>
 <tr class="separator:a1a34703f374f7946dc6e29591b330ae8"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a9ff90a3d47d9103fc41846448834a7dd"><td class="memTemplParams" colspan="2">template&lt;class InputIt &gt; </td></tr>
-<tr class="memitem:a9ff90a3d47d9103fc41846448834a7dd"><td class="memTemplItemLeft" align="right" valign="top">&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="classts_1_1_u_string.html#a9ff90a3d47d9103fc41846448834a7dd">UString</a> (InputIt first, InputIt last, const allocator_type &amp;alloc=allocator_type())</td></tr>
+<tr class="memitem:a9ff90a3d47d9103fc41846448834a7dd"><td class="memTemplItemLeft" align="right" valign="top">&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="classts_1_1_u_string.html#a9ff90a3d47d9103fc41846448834a7dd">UString</a> (InputIt first, InputIt <a class="el" href="classts_1_1_u_string.html#a8e5fc68d56c4f4e06929ae588819f055">last</a>, const allocator_type &amp;alloc=allocator_type())</td></tr>
 <tr class="memdesc:a9ff90a3d47d9103fc41846448834a7dd"><td class="mdescLeft">&#160;</td><td class="mdescRight">Constructor from iterators.  <a href="#a9ff90a3d47d9103fc41846448834a7dd">More...</a><br /></td></tr>
 <tr class="separator:a9ff90a3d47d9103fc41846448834a7dd"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aa2ef21f8e1a9ac503c71375b8dbe0aa2"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classts_1_1_u_string.html#aa2ef21f8e1a9ac503c71375b8dbe0aa2">UString</a> (std::initializer_list&lt; <a class="el" href="namespacets.html#a7e3244e77fae7815254d87d2ebdb7bd0">UChar</a> &gt; init, const allocator_type &amp;alloc=allocator_type())</td></tr>
@@ -169,6 +193,12 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:af88905c4e822ed8b392d0e00a44f2324"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classts_1_1_u_string.html#af88905c4e822ed8b392d0e00a44f2324">UString</a> (const char *utf8, size_type count)</td></tr>
 <tr class="memdesc:af88905c4e822ed8b392d0e00a44f2324"><td class="mdescLeft">&#160;</td><td class="mdescRight">Constructor from an UTF-8 string.  <a href="#af88905c4e822ed8b392d0e00a44f2324">More...</a><br /></td></tr>
 <tr class="separator:af88905c4e822ed8b392d0e00a44f2324"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af0fa13dc84b89c0c90a0b1f7e7e87030"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classts_1_1_u_string.html#af0fa13dc84b89c0c90a0b1f7e7e87030">appendDump</a> (const void *data, size_type size, uint32_t flags=<a class="el" href="classts_1_1_u_string.html#a95e758037651fab003f10b568b08cb46aa7bd3c423691aa596e8b2caa703e5e2e">HEXA</a>, size_type indent=0, size_type line_width=<a class="el" href="classts_1_1_u_string.html#abb53f302e6507cbd34844f1b0a49f663">DEFAULT_HEXA_LINE_WIDTH</a>, size_type init_offset=0, size_type inner_indent=0)</td></tr>
+<tr class="memdesc:af0fa13dc84b89c0c90a0b1f7e7e87030"><td class="mdescLeft">&#160;</td><td class="mdescRight">Append a multi-line string containing the hexadecimal dump of a memory area.  <a href="#af0fa13dc84b89c0c90a0b1f7e7e87030">More...</a><br /></td></tr>
+<tr class="separator:af0fa13dc84b89c0c90a0b1f7e7e87030"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9c7b1b093a337106fbf885e2dafa8c2d"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classts_1_1_u_string.html#a9c7b1b093a337106fbf885e2dafa8c2d">appendDump</a> (const <a class="el" href="classts_1_1_byte_block.html">ByteBlock</a> &amp;bb, uint32_t flags=<a class="el" href="classts_1_1_u_string.html#a95e758037651fab003f10b568b08cb46aa7bd3c423691aa596e8b2caa703e5e2e">HEXA</a>, size_type indent=0, size_type line_width=<a class="el" href="classts_1_1_u_string.html#abb53f302e6507cbd34844f1b0a49f663">DEFAULT_HEXA_LINE_WIDTH</a>, size_type init_offset=0, size_type inner_indent=0)</td></tr>
+<tr class="memdesc:a9c7b1b093a337106fbf885e2dafa8c2d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Append a multi-line string containing the hexadecimal dump of a memory area.  <a href="#a9c7b1b093a337106fbf885e2dafa8c2d">More...</a><br /></td></tr>
+<tr class="separator:a9c7b1b093a337106fbf885e2dafa8c2d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a9ee876ece8dca88451f3a0ceefc503c5"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classts_1_1_u_string.html">UString</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classts_1_1_u_string.html#a9ee876ece8dca88451f3a0ceefc503c5">assignFromUTF8</a> (const std::string &amp;utf8)</td></tr>
 <tr class="memdesc:a9ee876ece8dca88451f3a0ceefc503c5"><td class="mdescLeft">&#160;</td><td class="mdescRight">Convert an UTF-8 string into this object.  <a href="#a9ee876ece8dca88451f3a0ceefc503c5">More...</a><br /></td></tr>
 <tr class="separator:a9ee876ece8dca88451f3a0ceefc503c5"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -193,6 +223,12 @@ void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="clas
 void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classts_1_1_u_string.html#ad04eb8789b348d7a142d54b057a45fc2">convertToUpper</a> ()</td></tr>
 <tr class="memdesc:ad04eb8789b348d7a142d54b057a45fc2"><td class="mdescLeft">&#160;</td><td class="mdescRight">Convert the string to uper-case. <br /></td></tr>
 <tr class="separator:ad04eb8789b348d7a142d54b057a45fc2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab0f3c24b274ab1c047ba1ab030637707"><td class="memItemLeft" align="right" valign="top">size_type&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classts_1_1_u_string.html#ab0f3c24b274ab1c047ba1ab030637707">displayPosition</a> (size_type count, size_type from=0, <a class="el" href="namespacets.html#a192e3a523b2e9cdb0a27852f1b3e8423">StringDirection</a> direction=<a class="el" href="namespacets.html#a192e3a523b2e9cdb0a27852f1b3e8423aeb97c1482353aa7767b83ad2c356b401">LEFT_TO_RIGHT</a>) const</td></tr>
+<tr class="memdesc:ab0f3c24b274ab1c047ba1ab030637707"><td class="mdescLeft">&#160;</td><td class="mdescRight">Count displayed positions inside a string.  <a href="#ab0f3c24b274ab1c047ba1ab030637707">More...</a><br /></td></tr>
+<tr class="separator:ab0f3c24b274ab1c047ba1ab030637707"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a884d555d9f3cf21ff9d77d086d9f2009"><td class="memItemLeft" align="right" valign="top"><a class="el" href="namespacets.html#a7e3244e77fae7815254d87d2ebdb7bd0">UChar</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classts_1_1_u_string.html#a884d555d9f3cf21ff9d77d086d9f2009">end</a> ()</td></tr>
+<tr class="memdesc:a884d555d9f3cf21ff9d77d086d9f2009"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the address after the last character in the string (C++17).  <a href="#a884d555d9f3cf21ff9d77d086d9f2009">More...</a><br /></td></tr>
+<tr class="separator:a884d555d9f3cf21ff9d77d086d9f2009"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ad68009763ba4fd4c4cc238e0d63c183a"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classts_1_1_u_string.html#ad68009763ba4fd4c4cc238e0d63c183a">endWith</a> (const <a class="el" href="classts_1_1_u_string.html">UString</a> &amp;suffix, <a class="el" href="namespacets.html#acabdd963f028076d6599f6712b236b47">CaseSensitivity</a> cs=<a class="el" href="namespacets.html#acabdd963f028076d6599f6712b236b47a7a39a55c5b22c9b352ea346bcebb06fd">CASE_SENSITIVE</a>) const</td></tr>
 <tr class="memdesc:ad68009763ba4fd4c4cc238e0d63c183a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Check if a string ends with a specified suffix.  <a href="#ad68009763ba4fd4c4cc238e0d63c183a">More...</a><br /></td></tr>
 <tr class="separator:ad68009763ba4fd4c4cc238e0d63c183a"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -203,6 +239,12 @@ void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="clas
 <tr class="memitem:aac95d367fa19ad64b1e977341bd9f39b"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classts_1_1_u_string.html#aac95d367fa19ad64b1e977341bd9f39b">getLine</a> (std::istream &amp;strm)</td></tr>
 <tr class="memdesc:aac95d367fa19ad64b1e977341bd9f39b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Read one UTF-8 line from a text file and load it into this object.  <a href="#aac95d367fa19ad64b1e977341bd9f39b">More...</a><br /></td></tr>
 <tr class="separator:aac95d367fa19ad64b1e977341bd9f39b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af6634e93e875208d9885cb4aed8f40e7"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classts_1_1_u_string.html#af6634e93e875208d9885cb4aed8f40e7">hexaDecode</a> (<a class="el" href="classts_1_1_byte_block.html">ByteBlock</a> &amp;result)</td></tr>
+<tr class="memdesc:af6634e93e875208d9885cb4aed8f40e7"><td class="mdescLeft">&#160;</td><td class="mdescRight">Interpret this string as a sequence of hexadecimal digits (ignore blanks).  <a href="#af6634e93e875208d9885cb4aed8f40e7">More...</a><br /></td></tr>
+<tr class="separator:af6634e93e875208d9885cb4aed8f40e7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6558e492a4fdb922d54cd5388cab536b"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classts_1_1_u_string.html#a6558e492a4fdb922d54cd5388cab536b">hexaDecodeAppend</a> (<a class="el" href="classts_1_1_byte_block.html">ByteBlock</a> &amp;result)</td></tr>
+<tr class="memdesc:a6558e492a4fdb922d54cd5388cab536b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Interpret this string as a sequence of hexadecimal digits (ignore blanks).  <a href="#a6558e492a4fdb922d54cd5388cab536b">More...</a><br /></td></tr>
+<tr class="separator:a6558e492a4fdb922d54cd5388cab536b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a01a3bb4ddae1f320c30e45cbb090057c"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classts_1_1_u_string.html#a01a3bb4ddae1f320c30e45cbb090057c">justify</a> (const <a class="el" href="classts_1_1_u_string.html">UString</a> &amp;right, size_type <a class="el" href="classts_1_1_u_string.html#a34c9e8a315f34bbc971b029af58555a3">width</a>, <a class="el" href="namespacets.html#a7e3244e77fae7815254d87d2ebdb7bd0">UChar</a> pad=<a class="el" href="namespacets.html#aa0b82d207cbd796a6e1b23a1b7622d21">SPACE</a>)</td></tr>
 <tr class="memdesc:a01a3bb4ddae1f320c30e45cbb090057c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Justify string, pad in the middle.  <a href="#a01a3bb4ddae1f320c30e45cbb090057c">More...</a><br /></td></tr>
 <tr class="separator:a01a3bb4ddae1f320c30e45cbb090057c"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -215,6 +257,9 @@ void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="clas
 <tr class="memitem:a9cf158d9fad6f15a2c542610711f7e3f"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classts_1_1_u_string.html#a9cf158d9fad6f15a2c542610711f7e3f">justifyRight</a> (size_type <a class="el" href="classts_1_1_u_string.html#a34c9e8a315f34bbc971b029af58555a3">width</a>, <a class="el" href="namespacets.html#a7e3244e77fae7815254d87d2ebdb7bd0">UChar</a> pad=<a class="el" href="namespacets.html#aa0b82d207cbd796a6e1b23a1b7622d21">SPACE</a>, bool truncate=false)</td></tr>
 <tr class="memdesc:a9cf158d9fad6f15a2c542610711f7e3f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Right-justified (pad and optionally truncate) string.  <a href="#a9cf158d9fad6f15a2c542610711f7e3f">More...</a><br /></td></tr>
 <tr class="separator:a9cf158d9fad6f15a2c542610711f7e3f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8e5fc68d56c4f4e06929ae588819f055"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="namespacets.html#a7e3244e77fae7815254d87d2ebdb7bd0">UChar</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classts_1_1_u_string.html#a8e5fc68d56c4f4e06929ae588819f055">last</a> () const</td></tr>
+<tr class="memdesc:a8e5fc68d56c4f4e06929ae588819f055"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the address after the last character in the string.  <a href="#a8e5fc68d56c4f4e06929ae588819f055">More...</a><br /></td></tr>
+<tr class="separator:a8e5fc68d56c4f4e06929ae588819f055"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a0b852b7b506c47a395158d6e67b1237f"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classts_1_1_u_string.html#a0b852b7b506c47a395158d6e67b1237f">remove</a> (const <a class="el" href="classts_1_1_u_string.html">UString</a> &amp;substr)</td></tr>
 <tr class="memdesc:a0b852b7b506c47a395158d6e67b1237f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Remove all occurences of a substring.  <a href="#a0b852b7b506c47a395158d6e67b1237f">More...</a><br /></td></tr>
 <tr class="separator:a0b852b7b506c47a395158d6e67b1237f"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -227,6 +272,10 @@ void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="clas
 <tr class="memitem:aba59b1e7cbe22ffa6eee81dfafacda32"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classts_1_1_u_string.html#aba59b1e7cbe22ffa6eee81dfafacda32">removeSuffix</a> (const <a class="el" href="classts_1_1_u_string.html">UString</a> &amp;suffix, <a class="el" href="namespacets.html#acabdd963f028076d6599f6712b236b47">CaseSensitivity</a> cs=<a class="el" href="namespacets.html#acabdd963f028076d6599f6712b236b47a7a39a55c5b22c9b352ea346bcebb06fd">CASE_SENSITIVE</a>)</td></tr>
 <tr class="memdesc:aba59b1e7cbe22ffa6eee81dfafacda32"><td class="mdescLeft">&#160;</td><td class="mdescRight">Remove a suffix in string.  <a href="#aba59b1e7cbe22ffa6eee81dfafacda32">More...</a><br /></td></tr>
 <tr class="separator:aba59b1e7cbe22ffa6eee81dfafacda32"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af33fc61eb3d72d8d190f62b712294527"><td class="memItemLeft" align="right" valign="top"><a id="af33fc61eb3d72d8d190f62b712294527"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classts_1_1_u_string.html#af33fc61eb3d72d8d190f62b712294527">reverse</a> ()</td></tr>
+<tr class="memdesc:af33fc61eb3d72d8d190f62b712294527"><td class="mdescLeft">&#160;</td><td class="mdescRight">Reverse the order of characters in the string. <br /></td></tr>
+<tr class="separator:af33fc61eb3d72d8d190f62b712294527"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aca4693cea00a3e14d15e15bc91631a97"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classts_1_1_u_string.html#aca4693cea00a3e14d15e15bc91631a97">similar</a> (const <a class="el" href="classts_1_1_u_string.html">UString</a> &amp;other) const</td></tr>
 <tr class="memdesc:aca4693cea00a3e14d15e15bc91631a97"><td class="mdescLeft">&#160;</td><td class="mdescRight">Check if two strings are identical, case-insensitive and ignoring blanks.  <a href="#aca4693cea00a3e14d15e15bc91631a97">More...</a><br /></td></tr>
 <tr class="separator:aca4693cea00a3e14d15e15bc91631a97"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -251,18 +300,18 @@ void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="clas
 <tr class="memitem:a8d5bbc6b19f8bf00a70e2ec0d7e9afa8"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classts_1_1_u_string.html#a8d5bbc6b19f8bf00a70e2ec0d7e9afa8">substitute</a> (const <a class="el" href="classts_1_1_u_string.html">UString</a> &amp;value, const <a class="el" href="classts_1_1_u_string.html">UString</a> &amp;replacement)</td></tr>
 <tr class="memdesc:a8d5bbc6b19f8bf00a70e2ec0d7e9afa8"><td class="mdescLeft">&#160;</td><td class="mdescRight">Substitute all occurences of a string with another one.  <a href="#a8d5bbc6b19f8bf00a70e2ec0d7e9afa8">More...</a><br /></td></tr>
 <tr class="separator:a8d5bbc6b19f8bf00a70e2ec0d7e9afa8"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a56450a15e82d8a7f64844f34d58b629b"><td class="memItemLeft" align="right" valign="top">size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classts_1_1_u_string.html#a56450a15e82d8a7f64844f34d58b629b">toDVB</a> (uint8_t *&amp;buffer, size_t &amp;size, size_t start=0, size_t count=<a class="el" href="classts_1_1_u_string.html#aab6ad2cee0b7043e14e3c833c6e3d263">NPOS</a>, const <a class="el" href="classts_1_1_d_v_b_charset.html">DVBCharset</a> *charset=0) const</td></tr>
-<tr class="memdesc:a56450a15e82d8a7f64844f34d58b629b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Encode this UTF-16 string into a DVB string.  <a href="#a56450a15e82d8a7f64844f34d58b629b">More...</a><br /></td></tr>
-<tr class="separator:a56450a15e82d8a7f64844f34d58b629b"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:abc3c2d97cc89516ca2136472f9723c26"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classts_1_1_byte_block.html">ByteBlock</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classts_1_1_u_string.html#abc3c2d97cc89516ca2136472f9723c26">toDVB</a> (size_t start=0, size_t count=<a class="el" href="classts_1_1_u_string.html#aab6ad2cee0b7043e14e3c833c6e3d263">NPOS</a>, const <a class="el" href="classts_1_1_d_v_b_charset.html">DVBCharset</a> *charset=0) const</td></tr>
-<tr class="memdesc:abc3c2d97cc89516ca2136472f9723c26"><td class="mdescLeft">&#160;</td><td class="mdescRight">Encode this UTF-16 string into a DVB string.  <a href="#abc3c2d97cc89516ca2136472f9723c26">More...</a><br /></td></tr>
-<tr class="separator:abc3c2d97cc89516ca2136472f9723c26"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a2e3a8d60797f49ca406e10ae80ceb3ad"><td class="memItemLeft" align="right" valign="top">size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classts_1_1_u_string.html#a2e3a8d60797f49ca406e10ae80ceb3ad">toDVBWithByteLength</a> (uint8_t *&amp;buffer, size_t &amp;size, size_t start=0, size_t count=<a class="el" href="classts_1_1_u_string.html#aab6ad2cee0b7043e14e3c833c6e3d263">NPOS</a>, const <a class="el" href="classts_1_1_d_v_b_charset.html">DVBCharset</a> *charset=0) const</td></tr>
-<tr class="memdesc:a2e3a8d60797f49ca406e10ae80ceb3ad"><td class="mdescLeft">&#160;</td><td class="mdescRight">Encode this UTF-16 string into a DVB string (preceded by its one-byte length).  <a href="#a2e3a8d60797f49ca406e10ae80ceb3ad">More...</a><br /></td></tr>
-<tr class="separator:a2e3a8d60797f49ca406e10ae80ceb3ad"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a5a9eed6b9969042d886f8aa97c33f2b6"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classts_1_1_byte_block.html">ByteBlock</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classts_1_1_u_string.html#a5a9eed6b9969042d886f8aa97c33f2b6">toDVBWithByteLength</a> (size_t start=0, size_t count=<a class="el" href="classts_1_1_u_string.html#aab6ad2cee0b7043e14e3c833c6e3d263">NPOS</a>, const <a class="el" href="classts_1_1_d_v_b_charset.html">DVBCharset</a> *charset=0) const</td></tr>
-<tr class="memdesc:a5a9eed6b9969042d886f8aa97c33f2b6"><td class="mdescLeft">&#160;</td><td class="mdescRight">Encode this UTF-16 string into a DVB string (preceded by its one-byte length).  <a href="#a5a9eed6b9969042d886f8aa97c33f2b6">More...</a><br /></td></tr>
-<tr class="separator:a5a9eed6b9969042d886f8aa97c33f2b6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5c92ff6f2e93e196e28f688f0cd8d23c"><td class="memItemLeft" align="right" valign="top">size_type&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classts_1_1_u_string.html#a5c92ff6f2e93e196e28f688f0cd8d23c">toDVB</a> (uint8_t *&amp;buffer, size_t &amp;size, size_type start=0, size_type count=<a class="el" href="classts_1_1_u_string.html#aab6ad2cee0b7043e14e3c833c6e3d263">NPOS</a>, const <a class="el" href="classts_1_1_d_v_b_charset.html">DVBCharset</a> *charset=0) const</td></tr>
+<tr class="memdesc:a5c92ff6f2e93e196e28f688f0cd8d23c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Encode this UTF-16 string into a DVB string.  <a href="#a5c92ff6f2e93e196e28f688f0cd8d23c">More...</a><br /></td></tr>
+<tr class="separator:a5c92ff6f2e93e196e28f688f0cd8d23c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:abb507ace0bbbf6687a60cf6b588d95f3"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classts_1_1_byte_block.html">ByteBlock</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classts_1_1_u_string.html#abb507ace0bbbf6687a60cf6b588d95f3">toDVB</a> (size_type start=0, size_type count=<a class="el" href="classts_1_1_u_string.html#aab6ad2cee0b7043e14e3c833c6e3d263">NPOS</a>, const <a class="el" href="classts_1_1_d_v_b_charset.html">DVBCharset</a> *charset=0) const</td></tr>
+<tr class="memdesc:abb507ace0bbbf6687a60cf6b588d95f3"><td class="mdescLeft">&#160;</td><td class="mdescRight">Encode this UTF-16 string into a DVB string.  <a href="#abb507ace0bbbf6687a60cf6b588d95f3">More...</a><br /></td></tr>
+<tr class="separator:abb507ace0bbbf6687a60cf6b588d95f3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac0efc4cc015bce842bce7a92ec62a414"><td class="memItemLeft" align="right" valign="top">size_type&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classts_1_1_u_string.html#ac0efc4cc015bce842bce7a92ec62a414">toDVBWithByteLength</a> (uint8_t *&amp;buffer, size_t &amp;size, size_type start=0, size_type count=<a class="el" href="classts_1_1_u_string.html#aab6ad2cee0b7043e14e3c833c6e3d263">NPOS</a>, const <a class="el" href="classts_1_1_d_v_b_charset.html">DVBCharset</a> *charset=0) const</td></tr>
+<tr class="memdesc:ac0efc4cc015bce842bce7a92ec62a414"><td class="mdescLeft">&#160;</td><td class="mdescRight">Encode this UTF-16 string into a DVB string (preceded by its one-byte length).  <a href="#ac0efc4cc015bce842bce7a92ec62a414">More...</a><br /></td></tr>
+<tr class="separator:ac0efc4cc015bce842bce7a92ec62a414"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5823ba0c6efa73513a15815c32f56e03"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classts_1_1_byte_block.html">ByteBlock</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classts_1_1_u_string.html#a5823ba0c6efa73513a15815c32f56e03">toDVBWithByteLength</a> (size_type start=0, size_type count=<a class="el" href="classts_1_1_u_string.html#aab6ad2cee0b7043e14e3c833c6e3d263">NPOS</a>, const <a class="el" href="classts_1_1_d_v_b_charset.html">DVBCharset</a> *charset=0) const</td></tr>
+<tr class="memdesc:a5823ba0c6efa73513a15815c32f56e03"><td class="mdescLeft">&#160;</td><td class="mdescRight">Encode this UTF-16 string into a DVB string (preceded by its one-byte length).  <a href="#a5823ba0c6efa73513a15815c32f56e03">More...</a><br /></td></tr>
+<tr class="separator:a5823ba0c6efa73513a15815c32f56e03"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aab282b998920f3c08215565de93ea44f"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classts_1_1_u_string.html">UString</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classts_1_1_u_string.html#aab282b998920f3c08215565de93ea44f">toHTML</a> () const</td></tr>
 <tr class="memdesc:aab282b998920f3c08215565de93ea44f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return the string in a suitable HTML representation.  <a href="#aab282b998920f3c08215565de93ea44f">More...</a><br /></td></tr>
 <tr class="separator:aab282b998920f3c08215565de93ea44f"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -301,6 +350,9 @@ void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="clas
 <tr class="memitem:a13b73b9d3c2aabc966f75067a2f7e677"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classts_1_1_u_string.html">UString</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classts_1_1_u_string.html#a13b73b9d3c2aabc966f75067a2f7e677">toRemovedSuffix</a> (const <a class="el" href="classts_1_1_u_string.html">UString</a> &amp;suffix, <a class="el" href="namespacets.html#acabdd963f028076d6599f6712b236b47">CaseSensitivity</a> cs=<a class="el" href="namespacets.html#acabdd963f028076d6599f6712b236b47a7a39a55c5b22c9b352ea346bcebb06fd">CASE_SENSITIVE</a>) const</td></tr>
 <tr class="memdesc:a13b73b9d3c2aabc966f75067a2f7e677"><td class="mdescLeft">&#160;</td><td class="mdescRight">Remove a suffix in string.  <a href="#a13b73b9d3c2aabc966f75067a2f7e677">More...</a><br /></td></tr>
 <tr class="separator:a13b73b9d3c2aabc966f75067a2f7e677"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa5cab66002ed3a2c4c16b8fb32e61c53"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classts_1_1_u_string.html">UString</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classts_1_1_u_string.html#aa5cab66002ed3a2c4c16b8fb32e61c53">toReversed</a> () const</td></tr>
+<tr class="memdesc:aa5cab66002ed3a2c4c16b8fb32e61c53"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return a copy of the string where characters are reversed.  <a href="#aa5cab66002ed3a2c4c16b8fb32e61c53">More...</a><br /></td></tr>
+<tr class="separator:aa5cab66002ed3a2c4c16b8fb32e61c53"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a1678f1645abba2cba8d3bae907116000"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classts_1_1_u_string.html">UString</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classts_1_1_u_string.html#a1678f1645abba2cba8d3bae907116000">toSplitLines</a> (size_type maxWidth, const <a class="el" href="classts_1_1_u_string.html">UString</a> &amp;otherSeparators=<a class="el" href="classts_1_1_u_string.html">UString</a>(), const <a class="el" href="classts_1_1_u_string.html">UString</a> &amp;nextMargin=<a class="el" href="classts_1_1_u_string.html">UString</a>(), bool forceSplit=false, const <a class="el" href="classts_1_1_u_string.html">UString</a> lineSeparator=<a class="el" href="classts_1_1_u_string.html">UString</a>(1, <a class="el" href="namespacets.html#a1f22b94dcc18ebb1ca080df4a0962533">LINE_FEED</a>)) const</td></tr>
 <tr class="memdesc:a1678f1645abba2cba8d3bae907116000"><td class="mdescLeft">&#160;</td><td class="mdescRight">Split a string into multiple lines which are not longer than a specified maximum width.  <a href="#a1678f1645abba2cba8d3bae907116000">More...</a><br /></td></tr>
 <tr class="separator:a1678f1645abba2cba8d3bae907116000"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -325,18 +377,44 @@ void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="clas
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-static-methods"></a>
 Static Public Member Functions</h2></td></tr>
+<tr class="memitem:a7b158f71eccccebe0f571898fdb0956f"><td class="memTemplParams" colspan="2">template&lt;class CONTAINER &gt; </td></tr>
+<tr class="memitem:a7b158f71eccccebe0f571898fdb0956f"><td class="memTemplItemLeft" align="right" valign="top">static CONTAINER &amp;&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="classts_1_1_u_string.html#a7b158f71eccccebe0f571898fdb0956f">Append</a> (CONTAINER &amp;container, int argc, const char *const argv[])</td></tr>
+<tr class="memdesc:a7b158f71eccccebe0f571898fdb0956f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Append an array of C-strings to a container of strings.  <a href="#a7b158f71eccccebe0f571898fdb0956f">More...</a><br /></td></tr>
+<tr class="separator:a7b158f71eccccebe0f571898fdb0956f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:adbb773145eef27188125e102d1f491c5"><td class="memTemplParams" colspan="2">template&lt;class CONTAINER &gt; </td></tr>
+<tr class="memitem:adbb773145eef27188125e102d1f491c5"><td class="memTemplItemLeft" align="right" valign="top">static CONTAINER &amp;&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="classts_1_1_u_string.html#adbb773145eef27188125e102d1f491c5">Append</a> (CONTAINER &amp;container, int argc, char *const argv[])</td></tr>
+<tr class="memdesc:adbb773145eef27188125e102d1f491c5"><td class="mdescLeft">&#160;</td><td class="mdescRight">Append an array of C-strings to a container of strings.  <a href="#adbb773145eef27188125e102d1f491c5">More...</a><br /></td></tr>
+<tr class="separator:adbb773145eef27188125e102d1f491c5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a47539b2921afa55f75b49bee47770dc5"><td class="memTemplParams" colspan="2">template&lt;class CONTAINER &gt; </td></tr>
+<tr class="memitem:a47539b2921afa55f75b49bee47770dc5"><td class="memTemplItemLeft" align="right" valign="top">static CONTAINER &amp;&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="classts_1_1_u_string.html#a47539b2921afa55f75b49bee47770dc5">Assign</a> (CONTAINER &amp;container, int argc, const char *const argv[])</td></tr>
+<tr class="memdesc:a47539b2921afa55f75b49bee47770dc5"><td class="mdescLeft">&#160;</td><td class="mdescRight">Assign an array of C-strings to a container of strings.  <a href="#a47539b2921afa55f75b49bee47770dc5">More...</a><br /></td></tr>
+<tr class="separator:a47539b2921afa55f75b49bee47770dc5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2e3bb6eaa7ad0eb248c94d5ea40e5aef"><td class="memTemplParams" colspan="2">template&lt;class CONTAINER &gt; </td></tr>
+<tr class="memitem:a2e3bb6eaa7ad0eb248c94d5ea40e5aef"><td class="memTemplItemLeft" align="right" valign="top">static CONTAINER &amp;&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="classts_1_1_u_string.html#a2e3bb6eaa7ad0eb248c94d5ea40e5aef">Assign</a> (CONTAINER &amp;container, int argc, char *const argv[])</td></tr>
+<tr class="memdesc:a2e3bb6eaa7ad0eb248c94d5ea40e5aef"><td class="mdescLeft">&#160;</td><td class="mdescRight">Assign an array of C-strings to a container of strings.  <a href="#a2e3bb6eaa7ad0eb248c94d5ea40e5aef">More...</a><br /></td></tr>
+<tr class="separator:a2e3bb6eaa7ad0eb248c94d5ea40e5aef"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a2944af208289c54c40a82b6c819a8e8a"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classts_1_1_u_string.html#a2944af208289c54c40a82b6c819a8e8a">ConvertUTF16ToUTF8</a> (const <a class="el" href="namespacets.html#a7e3244e77fae7815254d87d2ebdb7bd0">UChar</a> *&amp;inStart, const <a class="el" href="namespacets.html#a7e3244e77fae7815254d87d2ebdb7bd0">UChar</a> *inEnd, char *&amp;outStart, char *outEnd)</td></tr>
 <tr class="memdesc:a2944af208289c54c40a82b6c819a8e8a"><td class="mdescLeft">&#160;</td><td class="mdescRight">General routine to convert from UTF-16 to UTF-8.  <a href="#a2944af208289c54c40a82b6c819a8e8a">More...</a><br /></td></tr>
 <tr class="separator:a2944af208289c54c40a82b6c819a8e8a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ab2fdb093c4b8ffaa02144aa5e9f2fcfe"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classts_1_1_u_string.html#ab2fdb093c4b8ffaa02144aa5e9f2fcfe">ConvertUTF8ToUTF16</a> (const char *&amp;inStart, const char *inEnd, <a class="el" href="namespacets.html#a7e3244e77fae7815254d87d2ebdb7bd0">UChar</a> *&amp;outStart, <a class="el" href="namespacets.html#a7e3244e77fae7815254d87d2ebdb7bd0">UChar</a> *outEnd)</td></tr>
 <tr class="memdesc:ab2fdb093c4b8ffaa02144aa5e9f2fcfe"><td class="mdescLeft">&#160;</td><td class="mdescRight">General routine to convert from UTF-8 to UTF-16.  <a href="#ab2fdb093c4b8ffaa02144aa5e9f2fcfe">More...</a><br /></td></tr>
 <tr class="separator:ab2fdb093c4b8ffaa02144aa5e9f2fcfe"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6b6447e83a805ab1d7cbd81ce8cd973a"><td class="memTemplParams" colspan="2">template&lt;typename INT &gt; </td></tr>
+<tr class="memitem:a6b6447e83a805ab1d7cbd81ce8cd973a"><td class="memTemplItemLeft" align="right" valign="top">static <a class="el" href="classts_1_1_u_string.html">UString</a>&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="classts_1_1_u_string.html#a6b6447e83a805ab1d7cbd81ce8cd973a">Decimal</a> (INT value, size_type min_width=0, bool right_justified=true, const <a class="el" href="classts_1_1_u_string.html">UString</a> &amp;separator=<a class="el" href="classts_1_1_u_string.html#a9bd59e53d29608b017496aa06cf4092f">DEFAULT_THOUSANDS_SEPARATOR</a>, bool force_sign=false)</td></tr>
+<tr class="memdesc:a6b6447e83a805ab1d7cbd81ce8cd973a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Format a string containing a decimal value.  <a href="#a6b6447e83a805ab1d7cbd81ce8cd973a">More...</a><br /></td></tr>
+<tr class="separator:a6b6447e83a805ab1d7cbd81ce8cd973a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac55f25f55f2cdc5ac4c203348f62c5c6"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="classts_1_1_u_string.html">UString</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classts_1_1_u_string.html#ac55f25f55f2cdc5ac4c203348f62c5c6">Dump</a> (const void *data, size_type size, uint32_t flags=<a class="el" href="classts_1_1_u_string.html#a95e758037651fab003f10b568b08cb46aa7bd3c423691aa596e8b2caa703e5e2e">HEXA</a>, size_type indent=0, size_type line_width=<a class="el" href="classts_1_1_u_string.html#abb53f302e6507cbd34844f1b0a49f663">DEFAULT_HEXA_LINE_WIDTH</a>, size_type init_offset=0, size_type inner_indent=0)</td></tr>
+<tr class="memdesc:ac55f25f55f2cdc5ac4c203348f62c5c6"><td class="mdescLeft">&#160;</td><td class="mdescRight">Build a multi-line string containing the hexadecimal dump of a memory area.  <a href="#ac55f25f55f2cdc5ac4c203348f62c5c6">More...</a><br /></td></tr>
+<tr class="separator:ac55f25f55f2cdc5ac4c203348f62c5c6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aed5d06223a12ccb05bacf97e160c5d77"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="classts_1_1_u_string.html">UString</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classts_1_1_u_string.html#aed5d06223a12ccb05bacf97e160c5d77">Dump</a> (const <a class="el" href="classts_1_1_byte_block.html">ByteBlock</a> &amp;bb, uint32_t flags=<a class="el" href="classts_1_1_u_string.html#a95e758037651fab003f10b568b08cb46aa7bd3c423691aa596e8b2caa703e5e2e">HEXA</a>, size_type indent=0, size_type line_width=<a class="el" href="classts_1_1_u_string.html#abb53f302e6507cbd34844f1b0a49f663">DEFAULT_HEXA_LINE_WIDTH</a>, size_type init_offset=0, size_type inner_indent=0)</td></tr>
+<tr class="memdesc:aed5d06223a12ccb05bacf97e160c5d77"><td class="mdescLeft">&#160;</td><td class="mdescRight">Build a multi-line string containing the hexadecimal dump of a memory area.  <a href="#aed5d06223a12ccb05bacf97e160c5d77">More...</a><br /></td></tr>
+<tr class="separator:aed5d06223a12ccb05bacf97e160c5d77"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ab16c26a8d856cbead7185eb3a733b235"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="classts_1_1_u_string.html">UString</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classts_1_1_u_string.html#ab16c26a8d856cbead7185eb3a733b235">FromDVB</a> (const std::string &amp;dvb, const <a class="el" href="classts_1_1_d_v_b_charset.html">DVBCharset</a> *charset=0)</td></tr>
 <tr class="memdesc:ab16c26a8d856cbead7185eb3a733b235"><td class="mdescLeft">&#160;</td><td class="mdescRight">Convert a DVB string into UTF-16.  <a href="#ab16c26a8d856cbead7185eb3a733b235">More...</a><br /></td></tr>
 <tr class="separator:ab16c26a8d856cbead7185eb3a733b235"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:af1a770b278271a413c1a0e02ecf70e0f"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="classts_1_1_u_string.html">UString</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classts_1_1_u_string.html#af1a770b278271a413c1a0e02ecf70e0f">FromDVB</a> (const uint8_t *dvb, size_t dvbSize, const <a class="el" href="classts_1_1_d_v_b_charset.html">DVBCharset</a> *charset=0)</td></tr>
-<tr class="memdesc:af1a770b278271a413c1a0e02ecf70e0f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Convert a DVB string into UTF-16.  <a href="#af1a770b278271a413c1a0e02ecf70e0f">More...</a><br /></td></tr>
-<tr class="separator:af1a770b278271a413c1a0e02ecf70e0f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a94a10ffa3104cf15fdca38a1e01b3be6"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="classts_1_1_u_string.html">UString</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classts_1_1_u_string.html#a94a10ffa3104cf15fdca38a1e01b3be6">FromDVB</a> (const uint8_t *dvb, size_type dvbSize, const <a class="el" href="classts_1_1_d_v_b_charset.html">DVBCharset</a> *charset=0)</td></tr>
+<tr class="memdesc:a94a10ffa3104cf15fdca38a1e01b3be6"><td class="mdescLeft">&#160;</td><td class="mdescRight">Convert a DVB string into UTF-16.  <a href="#a94a10ffa3104cf15fdca38a1e01b3be6">More...</a><br /></td></tr>
+<tr class="separator:a94a10ffa3104cf15fdca38a1e01b3be6"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a5d0944b55ecf6f9507cba1213e4eedea"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="classts_1_1_u_string.html">UString</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classts_1_1_u_string.html#a5d0944b55ecf6f9507cba1213e4eedea">FromDVBWithByteLength</a> (const uint8_t *&amp;buffer, size_t &amp;size, const <a class="el" href="classts_1_1_d_v_b_charset.html">DVBCharset</a> *charset=0)</td></tr>
 <tr class="memdesc:a5d0944b55ecf6f9507cba1213e4eedea"><td class="mdescLeft">&#160;</td><td class="mdescRight">Convert a DVB string into UTF-16 (preceded by its one-byte length).  <a href="#a5d0944b55ecf6f9507cba1213e4eedea">More...</a><br /></td></tr>
 <tr class="separator:a5d0944b55ecf6f9507cba1213e4eedea"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -349,8 +427,12 @@ Static Public Member Functions</h2></td></tr>
 <tr class="memitem:a6f1dde40bb81fda96e23d91512c6ee0e"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="classts_1_1_u_string.html">UString</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classts_1_1_u_string.html#a6f1dde40bb81fda96e23d91512c6ee0e">FromUTF8</a> (const char *utf8, size_type count)</td></tr>
 <tr class="memdesc:a6f1dde40bb81fda96e23d91512c6ee0e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Convert an UTF-8 string into UTF-16.  <a href="#a6f1dde40bb81fda96e23d91512c6ee0e">More...</a><br /></td></tr>
 <tr class="separator:a6f1dde40bb81fda96e23d91512c6ee0e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a363dc649e2381f6d52d8aa96c2b88af8"><td class="memTemplParams" colspan="2">template&lt;typename INT &gt; </td></tr>
+<tr class="memitem:a363dc649e2381f6d52d8aa96c2b88af8"><td class="memTemplItemLeft" align="right" valign="top">static <a class="el" href="classts_1_1_u_string.html">UString</a>&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="classts_1_1_u_string.html#a363dc649e2381f6d52d8aa96c2b88af8">Hexa</a> (INT value, size_type <a class="el" href="classts_1_1_u_string.html#a34c9e8a315f34bbc971b029af58555a3">width</a>=0, const <a class="el" href="classts_1_1_u_string.html">UString</a> &amp;separator=<a class="el" href="classts_1_1_u_string.html">UString</a>(), bool use_prefix=true, bool use_upper=true)</td></tr>
+<tr class="memdesc:a363dc649e2381f6d52d8aa96c2b88af8"><td class="mdescLeft">&#160;</td><td class="mdescRight">Format a string containing an hexadecimal value.  <a href="#a363dc649e2381f6d52d8aa96c2b88af8">More...</a><br /></td></tr>
+<tr class="separator:a363dc649e2381f6d52d8aa96c2b88af8"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a9657437f5f6f6390c61c5b26af559ea0"><td class="memTemplParams" colspan="2">template&lt;class ITERATOR &gt; </td></tr>
-<tr class="memitem:a9657437f5f6f6390c61c5b26af559ea0"><td class="memTemplItemLeft" align="right" valign="top">static <a class="el" href="classts_1_1_u_string.html">UString</a>&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="classts_1_1_u_string.html#a9657437f5f6f6390c61c5b26af559ea0">Join</a> (ITERATOR begin, ITERATOR end, const <a class="el" href="classts_1_1_u_string.html">UString</a> &amp;separator=<a class="el" href="classts_1_1_u_string.html">UString</a>(&quot;, &quot;))</td></tr>
+<tr class="memitem:a9657437f5f6f6390c61c5b26af559ea0"><td class="memTemplItemLeft" align="right" valign="top">static <a class="el" href="classts_1_1_u_string.html">UString</a>&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="classts_1_1_u_string.html#a9657437f5f6f6390c61c5b26af559ea0">Join</a> (ITERATOR begin, ITERATOR <a class="el" href="classts_1_1_u_string.html#a884d555d9f3cf21ff9d77d086d9f2009">end</a>, const <a class="el" href="classts_1_1_u_string.html">UString</a> &amp;separator=<a class="el" href="classts_1_1_u_string.html">UString</a>(&quot;, &quot;))</td></tr>
 <tr class="memdesc:a9657437f5f6f6390c61c5b26af559ea0"><td class="mdescLeft">&#160;</td><td class="mdescRight">Join a part of a container of strings into one big string.  <a href="#a9657437f5f6f6390c61c5b26af559ea0">More...</a><br /></td></tr>
 <tr class="separator:a9657437f5f6f6390c61c5b26af559ea0"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ad8a35447d73cb37f1d9d7694eee29cc8"><td class="memTemplParams" colspan="2">template&lt;class CONTAINER &gt; </td></tr>
@@ -369,13 +451,21 @@ Static Public Member Functions</h2></td></tr>
 <tr class="memdesc:a3b7049b2f840423a0106dc8e1935f5d6"><td class="mdescLeft">&#160;</td><td class="mdescRight">Format a boolean value as "on" or "off".  <a href="#a3b7049b2f840423a0106dc8e1935f5d6">More...</a><br /></td></tr>
 <tr class="separator:a3b7049b2f840423a0106dc8e1935f5d6"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a07da2bc1e89e32d230c2ee5011d43a61"><td class="memTemplParams" colspan="2">template&lt;class ITERATOR &gt; </td></tr>
-<tr class="memitem:a07da2bc1e89e32d230c2ee5011d43a61"><td class="memTemplItemLeft" align="right" valign="top">static bool&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="classts_1_1_u_string.html#a07da2bc1e89e32d230c2ee5011d43a61">Save</a> (ITERATOR begin, ITERATOR end, const std::string &amp;fileName, bool append=false)</td></tr>
+<tr class="memitem:a07da2bc1e89e32d230c2ee5011d43a61"><td class="memTemplItemLeft" align="right" valign="top">static bool&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="classts_1_1_u_string.html#a07da2bc1e89e32d230c2ee5011d43a61">Save</a> (ITERATOR begin, ITERATOR <a class="el" href="classts_1_1_u_string.html#a884d555d9f3cf21ff9d77d086d9f2009">end</a>, const std::string &amp;fileName, bool append=false)</td></tr>
 <tr class="memdesc:a07da2bc1e89e32d230c2ee5011d43a61"><td class="mdescLeft">&#160;</td><td class="mdescRight">Save strings from a container into a file, in UTF-8 format, one per line.  <a href="#a07da2bc1e89e32d230c2ee5011d43a61">More...</a><br /></td></tr>
 <tr class="separator:a07da2bc1e89e32d230c2ee5011d43a61"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a058848180707280605e60824bb80017f"><td class="memTemplParams" colspan="2">template&lt;class CONTAINER &gt; </td></tr>
 <tr class="memitem:a058848180707280605e60824bb80017f"><td class="memTemplItemLeft" align="right" valign="top">static bool&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="classts_1_1_u_string.html#a058848180707280605e60824bb80017f">Save</a> (const CONTAINER &amp;container, const std::string &amp;fileName, bool append=false)</td></tr>
 <tr class="memdesc:a058848180707280605e60824bb80017f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Save strings from a container into a file, in UTF-8 format, one per line.  <a href="#a058848180707280605e60824bb80017f">More...</a><br /></td></tr>
 <tr class="separator:a058848180707280605e60824bb80017f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af7f019a070c0a77d35be1eeba6b4af4f"><td class="memTemplParams" colspan="2">template&lt;class ITERATOR &gt; </td></tr>
+<tr class="memitem:af7f019a070c0a77d35be1eeba6b4af4f"><td class="memTemplItemLeft" align="right" valign="top">static bool&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="classts_1_1_u_string.html#af7f019a070c0a77d35be1eeba6b4af4f">Save</a> (ITERATOR begin, ITERATOR <a class="el" href="classts_1_1_u_string.html#a884d555d9f3cf21ff9d77d086d9f2009">end</a>, std::ostream &amp;strm)</td></tr>
+<tr class="memdesc:af7f019a070c0a77d35be1eeba6b4af4f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Save strings from a container into a stream, in UTF-8 format, one per line.  <a href="#af7f019a070c0a77d35be1eeba6b4af4f">More...</a><br /></td></tr>
+<tr class="separator:af7f019a070c0a77d35be1eeba6b4af4f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a12b19e0136941b78723c0aa8e89f1b26"><td class="memTemplParams" colspan="2">template&lt;class CONTAINER &gt; </td></tr>
+<tr class="memitem:a12b19e0136941b78723c0aa8e89f1b26"><td class="memTemplItemLeft" align="right" valign="top">static bool&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="classts_1_1_u_string.html#a12b19e0136941b78723c0aa8e89f1b26">Save</a> (const CONTAINER &amp;container, std::ostream &amp;strm)</td></tr>
+<tr class="memdesc:a12b19e0136941b78723c0aa8e89f1b26"><td class="mdescLeft">&#160;</td><td class="mdescRight">Save strings from a container into a file, in UTF-8 format, one per line.  <a href="#a12b19e0136941b78723c0aa8e89f1b26">More...</a><br /></td></tr>
+<tr class="separator:a12b19e0136941b78723c0aa8e89f1b26"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:af22c1f90aff1a79985d15b5edd864355"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="classts_1_1_u_string.html">UString</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classts_1_1_u_string.html#af22c1f90aff1a79985d15b5edd864355">TrueFalse</a> (bool b)</td></tr>
 <tr class="memdesc:af22c1f90aff1a79985d15b5edd864355"><td class="mdescLeft">&#160;</td><td class="mdescRight">Format a boolean value as "true" or "false".  <a href="#af22c1f90aff1a79985d15b5edd864355">More...</a><br /></td></tr>
 <tr class="separator:af22c1f90aff1a79985d15b5edd864355"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -385,6 +475,14 @@ Static Public Member Functions</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-static-attribs"></a>
 Static Public Attributes</h2></td></tr>
+<tr class="memitem:abb53f302e6507cbd34844f1b0a49f663"><td class="memItemLeft" align="right" valign="top"><a id="abb53f302e6507cbd34844f1b0a49f663"></a>
+static const size_type&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classts_1_1_u_string.html#abb53f302e6507cbd34844f1b0a49f663">DEFAULT_HEXA_LINE_WIDTH</a> = 78</td></tr>
+<tr class="memdesc:abb53f302e6507cbd34844f1b0a49f663"><td class="mdescLeft">&#160;</td><td class="mdescRight">Default line width for the <a class="el" href="classts_1_1_u_string.html#a363dc649e2381f6d52d8aa96c2b88af8" title="Format a string containing an hexadecimal value. ">Hexa()</a> family of methods. <br /></td></tr>
+<tr class="separator:abb53f302e6507cbd34844f1b0a49f663"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9bd59e53d29608b017496aa06cf4092f"><td class="memItemLeft" align="right" valign="top"><a id="a9bd59e53d29608b017496aa06cf4092f"></a>
+static const <a class="el" href="classts_1_1_u_string.html">UString</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classts_1_1_u_string.html#a9bd59e53d29608b017496aa06cf4092f">DEFAULT_THOUSANDS_SEPARATOR</a></td></tr>
+<tr class="memdesc:a9bd59e53d29608b017496aa06cf4092f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Default separator string for groups of thousands, a comma. <br /></td></tr>
+<tr class="separator:a9bd59e53d29608b017496aa06cf4092f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aab6ad2cee0b7043e14e3c833c6e3d263"><td class="memItemLeft" align="right" valign="top">static const size_type&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classts_1_1_u_string.html#aab6ad2cee0b7043e14e3c833c6e3d263">NPOS</a></td></tr>
 <tr class="memdesc:aab6ad2cee0b7043e14e3c833c6e3d263"><td class="mdescLeft">&#160;</td><td class="mdescRight">An alternative value for the standard <code>npos</code> value.  <a href="#aab6ad2cee0b7043e14e3c833c6e3d263">More...</a><br /></td></tr>
 <tr class="separator:aab6ad2cee0b7043e14e3c833c6e3d263"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -392,20 +490,59 @@ Static Public Attributes</h2></td></tr>
 static const char *const&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classts_1_1_u_string.html#a2b6e270e77a9a7377f73cb0b698b4044">UTF8_BOM</a></td></tr>
 <tr class="memdesc:a2b6e270e77a9a7377f73cb0b698b4044"><td class="mdescLeft">&#160;</td><td class="mdescRight">The 3-byte so-called "UTF-8 Byte Order Mark". <br /></td></tr>
 <tr class="separator:a2b6e270e77a9a7377f73cb0b698b4044"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ab0e48219259c59bcfd9089f3cabb7f55"><td class="memItemLeft" align="right" valign="top"><a id="ab0e48219259c59bcfd9089f3cabb7f55"></a>
-static const size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classts_1_1_u_string.html#ab0e48219259c59bcfd9089f3cabb7f55">UTF8_BOM_SIZE</a> = 3</td></tr>
-<tr class="memdesc:ab0e48219259c59bcfd9089f3cabb7f55"><td class="mdescLeft">&#160;</td><td class="mdescRight">Size in bytes of the so-called "UTF-8 Byte Order Mark". <br /></td></tr>
-<tr class="separator:ab0e48219259c59bcfd9089f3cabb7f55"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a56adcf2a989d3cd88c31e6b81d7b2720"><td class="memItemLeft" align="right" valign="top"><a id="a56adcf2a989d3cd88c31e6b81d7b2720"></a>
-static const size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classts_1_1_u_string.html#a56adcf2a989d3cd88c31e6b81d7b2720">UTF8_CHAR_MAX_SIZE</a> = 4</td></tr>
-<tr class="memdesc:a56adcf2a989d3cd88c31e6b81d7b2720"><td class="mdescLeft">&#160;</td><td class="mdescRight">Maximum size in bytes of an UTF-8 encoded character. <br /></td></tr>
-<tr class="separator:a56adcf2a989d3cd88c31e6b81d7b2720"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aec4534a29dd91c13770d304d07b08fdc"><td class="memItemLeft" align="right" valign="top"><a id="aec4534a29dd91c13770d304d07b08fdc"></a>
+static const size_type&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classts_1_1_u_string.html#aec4534a29dd91c13770d304d07b08fdc">UTF8_BOM_SIZE</a> = 3</td></tr>
+<tr class="memdesc:aec4534a29dd91c13770d304d07b08fdc"><td class="mdescLeft">&#160;</td><td class="mdescRight">Size in bytes of the so-called "UTF-8 Byte Order Mark". <br /></td></tr>
+<tr class="separator:aec4534a29dd91c13770d304d07b08fdc"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a49492a6e6d9e8eb532264f7d1f780c6a"><td class="memItemLeft" align="right" valign="top"><a id="a49492a6e6d9e8eb532264f7d1f780c6a"></a>
+static const size_type&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classts_1_1_u_string.html#a49492a6e6d9e8eb532264f7d1f780c6a">UTF8_CHAR_MAX_SIZE</a> = 4</td></tr>
+<tr class="memdesc:a49492a6e6d9e8eb532264f7d1f780c6a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Maximum size in bytes of an UTF-8 encoded character. <br /></td></tr>
+<tr class="separator:a49492a6e6d9e8eb532264f7d1f780c6a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>An implementation of UTF-16 strings. </p>
 <p>This class is an extension of <code>std::u16string</code> with additional services.</p>
 <p>Warning for maintainers: The standard classes <code>std::u16string</code> and <code>std::basic_string</code> do not have virtual destructors. The means that if a <a class="el" href="classts_1_1_u_string.html" title="An implementation of UTF-16 strings. ">UString</a> is destroyed through, for instance, a <code>std::u16string*</code>, the destructor for the class <a class="el" href="classts_1_1_u_string.html" title="An implementation of UTF-16 strings. ">UString</a> will not be invoked. This is not a problem as long as the <a class="el" href="classts_1_1_u_string.html" title="An implementation of UTF-16 strings. ">UString</a> subclass does not have any field to destroy, which is the case for the current implementation. When modifying the <a class="el" href="classts_1_1_u_string.html" title="An implementation of UTF-16 strings. ">UString</a> class, make sure to avoid any issue with the absence of virtual destructor in the parent class. </p>
-</div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
+</div><h2 class="groupheader">Member Enumeration Documentation</h2>
+<a id="a95e758037651fab003f10b568b08cb46"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a95e758037651fab003f10b568b08cb46">&#9670;&nbsp;</a></span>HexaFlags</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">enum <a class="el" href="classts_1_1_u_string.html#a95e758037651fab003f10b568b08cb46">ts::UString::HexaFlags</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Flags for the <a class="el" href="classts_1_1_u_string.html#a363dc649e2381f6d52d8aa96c2b88af8" title="Format a string containing an hexadecimal value. ">Hexa()</a> family of methods. </p>
+<table class="fieldtable">
+<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="a95e758037651fab003f10b568b08cb46aa7bd3c423691aa596e8b2caa703e5e2e"></a>HEXA&#160;</td><td class="fielddoc"><p>Dump hexa values. </p>
+</td></tr>
+<tr><td class="fieldname"><a id="a95e758037651fab003f10b568b08cb46a7b28ae996daf573879de011a9272213e"></a>ASCII&#160;</td><td class="fielddoc"><p>Dump ascii values. </p>
+</td></tr>
+<tr><td class="fieldname"><a id="a95e758037651fab003f10b568b08cb46a1fe85f01480cd855bab2b74584decc18"></a>OFFSET&#160;</td><td class="fielddoc"><p>Display address offsets. </p>
+</td></tr>
+<tr><td class="fieldname"><a id="a95e758037651fab003f10b568b08cb46aeb77a0b83f6ffb378b7aa4bfd2ea92ec"></a>WIDE_OFFSET&#160;</td><td class="fielddoc"><p>Always wide offset. </p>
+</td></tr>
+<tr><td class="fieldname"><a id="a95e758037651fab003f10b568b08cb46ab48832764b88fc047c7240a4db697bf6"></a>SINGLE_LINE&#160;</td><td class="fielddoc"><p>Hexa on one single line, no line feed, ignore other flags. </p>
+</td></tr>
+<tr><td class="fieldname"><a id="a95e758037651fab003f10b568b08cb46a5bd17b48ecd9481285308f1de417c869"></a>BPL&#160;</td><td class="fielddoc"><p>Interpret <em>max_line_width</em> as number of displayed Bytes Per Line (BPL). </p>
+</td></tr>
+<tr><td class="fieldname"><a id="a95e758037651fab003f10b568b08cb46a4a731657054e8daa7bcdc57addbdf2e8"></a>C_STYLE&#160;</td><td class="fielddoc"><p>C-style hexa value ("0xXX," instead of "XX"). </p>
+</td></tr>
+<tr><td class="fieldname"><a id="a95e758037651fab003f10b568b08cb46ab64e5ff12cf560fa6b044102cb03ba57"></a>BINARY&#160;</td><td class="fielddoc"><p>Dump binary values ("XXXXXXXX" binary digits). </p>
+</td></tr>
+<tr><td class="fieldname"><a id="a95e758037651fab003f10b568b08cb46ae537565b2b54076ff5177385d44b0e9f"></a>BIN_NIBBLE&#160;</td><td class="fielddoc"><p>Binary values are grouped by nibble ("XXXX XXXX"). </p>
+</td></tr>
+<tr><td class="fieldname"><a id="a95e758037651fab003f10b568b08cb46addb530d5c14f429cbf46e9496ea22ed5"></a>COMPACT&#160;</td><td class="fielddoc"><p>Same as SINGLE_LINE but use a compact display without space. </p>
+</td></tr>
+</table>
+
+</div>
+</div>
+<h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a id="a7a31440c72d769f58289151ad46f7513"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a7a31440c72d769f58289151ad46f7513">&#9670;&nbsp;</a></span>UString() <span class="overload">[1/12]</span></h2>
 
@@ -1336,8 +1473,8 @@ template&lt;class InputIt &gt; </div>
 
 </div>
 </div>
-<a id="af1a770b278271a413c1a0e02ecf70e0f"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#af1a770b278271a413c1a0e02ecf70e0f">&#9670;&nbsp;</a></span>FromDVB() <span class="overload">[2/2]</span></h2>
+<a id="a94a10ffa3104cf15fdca38a1e01b3be6"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a94a10ffa3104cf15fdca38a1e01b3be6">&#9670;&nbsp;</a></span>FromDVB() <span class="overload">[2/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -1354,7 +1491,7 @@ template&lt;class InputIt &gt; </div>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">size_t&#160;</td>
+          <td class="paramtype">size_type&#160;</td>
           <td class="paramname"><em>dvbSize</em>, </td>
         </tr>
         <tr>
@@ -1444,14 +1581,14 @@ template&lt;class InputIt &gt; </div>
 
 </div>
 </div>
-<a id="a56450a15e82d8a7f64844f34d58b629b"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a56450a15e82d8a7f64844f34d58b629b">&#9670;&nbsp;</a></span>toDVB() <span class="overload">[1/2]</span></h2>
+<a id="a5c92ff6f2e93e196e28f688f0cd8d23c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5c92ff6f2e93e196e28f688f0cd8d23c">&#9670;&nbsp;</a></span>toDVB() <span class="overload">[1/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">size_t ts::UString::toDVB </td>
+          <td class="memname">size_type ts::UString::toDVB </td>
           <td>(</td>
           <td class="paramtype">uint8_t *&amp;&#160;</td>
           <td class="paramname"><em>buffer</em>, </td>
@@ -1465,13 +1602,13 @@ template&lt;class InputIt &gt; </div>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">size_t&#160;</td>
+          <td class="paramtype">size_type&#160;</td>
           <td class="paramname"><em>start</em> = <code>0</code>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">size_t&#160;</td>
+          <td class="paramtype">size_type&#160;</td>
           <td class="paramname"><em>count</em> = <code><a class="el" href="classts_1_1_u_string.html#aab6ad2cee0b7043e14e3c833c6e3d263">NPOS</a></code>, </td>
         </tr>
         <tr>
@@ -1503,8 +1640,8 @@ template&lt;class InputIt &gt; </div>
 
 </div>
 </div>
-<a id="abc3c2d97cc89516ca2136472f9723c26"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#abc3c2d97cc89516ca2136472f9723c26">&#9670;&nbsp;</a></span>toDVB() <span class="overload">[2/2]</span></h2>
+<a id="abb507ace0bbbf6687a60cf6b588d95f3"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#abb507ace0bbbf6687a60cf6b588d95f3">&#9670;&nbsp;</a></span>toDVB() <span class="overload">[2/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -1512,13 +1649,13 @@ template&lt;class InputIt &gt; </div>
         <tr>
           <td class="memname"><a class="el" href="classts_1_1_byte_block.html">ByteBlock</a> ts::UString::toDVB </td>
           <td>(</td>
-          <td class="paramtype">size_t&#160;</td>
+          <td class="paramtype">size_type&#160;</td>
           <td class="paramname"><em>start</em> = <code>0</code>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">size_t&#160;</td>
+          <td class="paramtype">size_type&#160;</td>
           <td class="paramname"><em>count</em> = <code><a class="el" href="classts_1_1_u_string.html#aab6ad2cee0b7043e14e3c833c6e3d263">NPOS</a></code>, </td>
         </tr>
         <tr>
@@ -1548,14 +1685,14 @@ template&lt;class InputIt &gt; </div>
 
 </div>
 </div>
-<a id="a2e3a8d60797f49ca406e10ae80ceb3ad"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a2e3a8d60797f49ca406e10ae80ceb3ad">&#9670;&nbsp;</a></span>toDVBWithByteLength() <span class="overload">[1/2]</span></h2>
+<a id="ac0efc4cc015bce842bce7a92ec62a414"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac0efc4cc015bce842bce7a92ec62a414">&#9670;&nbsp;</a></span>toDVBWithByteLength() <span class="overload">[1/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">size_t ts::UString::toDVBWithByteLength </td>
+          <td class="memname">size_type ts::UString::toDVBWithByteLength </td>
           <td>(</td>
           <td class="paramtype">uint8_t *&amp;&#160;</td>
           <td class="paramname"><em>buffer</em>, </td>
@@ -1569,13 +1706,13 @@ template&lt;class InputIt &gt; </div>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">size_t&#160;</td>
+          <td class="paramtype">size_type&#160;</td>
           <td class="paramname"><em>start</em> = <code>0</code>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">size_t&#160;</td>
+          <td class="paramtype">size_type&#160;</td>
           <td class="paramname"><em>count</em> = <code><a class="el" href="classts_1_1_u_string.html#aab6ad2cee0b7043e14e3c833c6e3d263">NPOS</a></code>, </td>
         </tr>
         <tr>
@@ -1607,8 +1744,8 @@ template&lt;class InputIt &gt; </div>
 
 </div>
 </div>
-<a id="a5a9eed6b9969042d886f8aa97c33f2b6"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a5a9eed6b9969042d886f8aa97c33f2b6">&#9670;&nbsp;</a></span>toDVBWithByteLength() <span class="overload">[2/2]</span></h2>
+<a id="a5823ba0c6efa73513a15815c32f56e03"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5823ba0c6efa73513a15815c32f56e03">&#9670;&nbsp;</a></span>toDVBWithByteLength() <span class="overload">[2/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -1616,13 +1753,13 @@ template&lt;class InputIt &gt; </div>
         <tr>
           <td class="memname"><a class="el" href="classts_1_1_byte_block.html">ByteBlock</a> ts::UString::toDVBWithByteLength </td>
           <td>(</td>
-          <td class="paramtype">size_t&#160;</td>
+          <td class="paramtype">size_type&#160;</td>
           <td class="paramname"><em>start</em> = <code>0</code>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">size_t&#160;</td>
+          <td class="paramtype">size_type&#160;</td>
           <td class="paramname"><em>count</em> = <code><a class="el" href="classts_1_1_u_string.html#aab6ad2cee0b7043e14e3c833c6e3d263">NPOS</a></code>, </td>
         </tr>
         <tr>
@@ -1668,7 +1805,128 @@ template&lt;class InputIt &gt; </div>
 </div><div class="memdoc">
 
 <p>Get the display width in characters. </p>
-<p>Any combining diacritical character is not counted in the width since it is combined with the preceding character. </p><dl class="section return"><dt>Returns</dt><dd>The display width in characters. </dd></dl>
+<p>Any combining diacritical character is not counted in the width since it is combined with the preceding character. Similarly, any surrogate pair is considered as one single character. As a general rule, <a class="el" href="classts_1_1_u_string.html#a34c9e8a315f34bbc971b029af58555a3" title="Get the display width in characters. ">width()</a> is always lower than or equal to length(), the number of characters in the string. </p><dl class="section return"><dt>Returns</dt><dd>The display width in characters. </dd></dl>
+
+</div>
+</div>
+<a id="ab0f3c24b274ab1c047ba1ab030637707"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab0f3c24b274ab1c047ba1ab030637707">&#9670;&nbsp;</a></span>displayPosition()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">size_type ts::UString::displayPosition </td>
+          <td>(</td>
+          <td class="paramtype">size_type&#160;</td>
+          <td class="paramname"><em>count</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">size_type&#160;</td>
+          <td class="paramname"><em>from</em> = <code>0</code>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="namespacets.html#a192e3a523b2e9cdb0a27852f1b3e8423">StringDirection</a>&#160;</td>
+          <td class="paramname"><em>direction</em> = <code><a class="el" href="namespacets.html#a192e3a523b2e9cdb0a27852f1b3e8423aeb97c1482353aa7767b83ad2c356b401">LEFT_TO_RIGHT</a></code>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Count displayed positions inside a string. </p>
+<p>Any combining diacritical character is not counted in display position. Similarly, any surrogate pair is considered as one single character. </p><dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">count</td><td>Number of display positions to move. </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">from</td><td>Starting index in the string. This is an index, not a display position. </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">direction</td><td>Direction to move when counting display positions. When counting RIGHT_TO_LEFT, <em>from</em> is the position after the right-most character. </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>The index in the string after moving. When the display position is outside the string, return length() when moving LEFT_TO_RIGHT and return zero when moving RIGHT_TO_LEFT. The returned index is never in the middle of a combining diacritical sequence or of a surrogate pair, always at the start of this sequence. </dd></dl>
+
+</div>
+</div>
+<a id="a8e5fc68d56c4f4e06929ae588819f055"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8e5fc68d56c4f4e06929ae588819f055">&#9670;&nbsp;</a></span>last()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">const <a class="el" href="namespacets.html#a7e3244e77fae7815254d87d2ebdb7bd0">UChar</a>* ts::UString::last </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Get the address after the last character in the string. </p>
+<dl class="section return"><dt>Returns</dt><dd>The address after the last character in the string. </dd></dl>
+
+</div>
+</div>
+<a id="a884d555d9f3cf21ff9d77d086d9f2009"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a884d555d9f3cf21ff9d77d086d9f2009">&#9670;&nbsp;</a></span>end()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="namespacets.html#a7e3244e77fae7815254d87d2ebdb7bd0">UChar</a>* ts::UString::end </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Get the address after the last character in the string (C++17). </p>
+<dl class="section return"><dt>Returns</dt><dd>The address after the last character in the string. </dd></dl>
+
+</div>
+</div>
+<a id="aa5cab66002ed3a2c4c16b8fb32e61c53"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa5cab66002ed3a2c4c16b8fb32e61c53">&#9670;&nbsp;</a></span>toReversed()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="classts_1_1_u_string.html">UString</a> ts::UString::toReversed </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Return a copy of the string where characters are reversed. </p>
+<dl class="section return"><dt>Returns</dt><dd>A copy of the string where characters are reversed. </dd></dl>
 
 </div>
 </div>
@@ -3184,7 +3442,7 @@ template&lt;class CONTAINER &gt; </div>
 </div>
 </div>
 <a id="a07da2bc1e89e32d230c2ee5011d43a61"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a07da2bc1e89e32d230c2ee5011d43a61">&#9670;&nbsp;</a></span>Save() <span class="overload">[1/2]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a07da2bc1e89e32d230c2ee5011d43a61">&#9670;&nbsp;</a></span>Save() <span class="overload">[1/4]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -3252,7 +3510,7 @@ template&lt;class ITERATOR &gt; </div>
 </div>
 </div>
 <a id="a058848180707280605e60824bb80017f"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a058848180707280605e60824bb80017f">&#9670;&nbsp;</a></span>Save() <span class="overload">[2/2]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a058848180707280605e60824bb80017f">&#9670;&nbsp;</a></span>Save() <span class="overload">[2/4]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -3305,6 +3563,121 @@ template&lt;class CONTAINER &gt; </div>
     <tr><td class="paramdir">[in]</td><td class="paramname">container</td><td>A container of <a class="el" href="classts_1_1_u_string.html" title="An implementation of UTF-16 strings. ">UString</a> containing all strings to save. </td></tr>
     <tr><td class="paramdir">[in]</td><td class="paramname">fileName</td><td>The name of the text file where to save the strings. </td></tr>
     <tr><td class="paramdir">[in]</td><td class="paramname">append</td><td>If true, append the strings at the end of the file. If false (the default), overwrite the file if it already existed. </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>True on success, false on error (mostly file errors). </dd></dl>
+
+</div>
+</div>
+<a id="af7f019a070c0a77d35be1eeba6b4af4f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af7f019a070c0a77d35be1eeba6b4af4f">&#9670;&nbsp;</a></span>Save() <span class="overload">[3/4]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;class ITERATOR &gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static bool ts::UString::Save </td>
+          <td>(</td>
+          <td class="paramtype">ITERATOR&#160;</td>
+          <td class="paramname"><em>begin</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">ITERATOR&#160;</td>
+          <td class="paramname"><em>end</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">std::ostream &amp;&#160;</td>
+          <td class="paramname"><em>strm</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Save strings from a container into a stream, in UTF-8 format, one per line. </p>
+<p>The strings must be located in a container and are accessed through iterators. </p><dl class="tparams"><dt>Template Parameters</dt><dd>
+  <table class="tparams">
+    <tr><td class="paramname">ITERATOR</td><td>An iterator class over <a class="el" href="classts_1_1_u_string.html" title="An implementation of UTF-16 strings. ">UString</a> as defined by the C++ Standard Template Library (STL). </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">begin</td><td>An iterator pointing to the first string. </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">end</td><td>An iterator pointing <em>after</em> the last string. </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">strm</td><td>Output stream. </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>True on success, false on error (mostly file errors). </dd></dl>
+
+</div>
+</div>
+<a id="a12b19e0136941b78723c0aa8e89f1b26"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a12b19e0136941b78723c0aa8e89f1b26">&#9670;&nbsp;</a></span>Save() <span class="overload">[4/4]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;class CONTAINER &gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static bool ts::UString::Save </td>
+          <td>(</td>
+          <td class="paramtype">const CONTAINER &amp;&#160;</td>
+          <td class="paramname"><em>container</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">std::ostream &amp;&#160;</td>
+          <td class="paramname"><em>strm</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Save strings from a container into a file, in UTF-8 format, one per line. </p>
+<dl class="tparams"><dt>Template Parameters</dt><dd>
+  <table class="tparams">
+    <tr><td class="paramname">CONTAINER</td><td>A container class of <a class="el" href="classts_1_1_u_string.html" title="An implementation of UTF-16 strings. ">UString</a> as defined by the C++ Standard Template Library (STL). </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">container</td><td>A container of <a class="el" href="classts_1_1_u_string.html" title="An implementation of UTF-16 strings. ">UString</a> containing all strings to save. </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">strm</td><td>Output stream. </td></tr>
   </table>
   </dd>
 </dl>
@@ -3545,6 +3918,750 @@ template&lt;class CONTAINER &gt; </div>
   </dd>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>True on success, false on error (invalid string). </dd></dl>
+
+</div>
+</div>
+<a id="a6b6447e83a805ab1d7cbd81ce8cd973a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6b6447e83a805ab1d7cbd81ce8cd973a">&#9670;&nbsp;</a></span>Decimal()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename INT &gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static <a class="el" href="classts_1_1_u_string.html">UString</a> ts::UString::Decimal </td>
+          <td>(</td>
+          <td class="paramtype">INT&#160;</td>
+          <td class="paramname"><em>value</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">size_type&#160;</td>
+          <td class="paramname"><em>min_width</em> = <code>0</code>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">bool&#160;</td>
+          <td class="paramname"><em>right_justified</em> = <code>true</code>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="classts_1_1_u_string.html">UString</a> &amp;&#160;</td>
+          <td class="paramname"><em>separator</em> = <code><a class="el" href="classts_1_1_u_string.html#a9bd59e53d29608b017496aa06cf4092f">DEFAULT_THOUSANDS_SEPARATOR</a></code>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">bool&#160;</td>
+          <td class="paramname"><em>force_sign</em> = <code>false</code>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Format a string containing a decimal value. </p>
+<dl class="tparams"><dt>Template Parameters</dt><dd>
+  <table class="tparams">
+    <tr><td class="paramname">INT</td><td>An integer type. </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">value</td><td>The integer value to format. </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">min_width</td><td>Minimum width of the returned string. Padded with spaces if larger than the number of characters in the formatted number. </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">right_justified</td><td>If true (the default), return a right-justified string. When false, return a left-justified string. Ignored if <em>min_width</em> is lower than the number of characters in the formatted number. </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">separator</td><td>Separator string for groups of thousands, a comma by default. </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">force_sign</td><td>If true, force a '+' sign for positive values. </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>The formatted string. </dd></dl>
+
+</div>
+</div>
+<a id="a363dc649e2381f6d52d8aa96c2b88af8"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a363dc649e2381f6d52d8aa96c2b88af8">&#9670;&nbsp;</a></span>Hexa()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename INT &gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static <a class="el" href="classts_1_1_u_string.html">UString</a> ts::UString::Hexa </td>
+          <td>(</td>
+          <td class="paramtype">INT&#160;</td>
+          <td class="paramname"><em>value</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">size_type&#160;</td>
+          <td class="paramname"><em>width</em> = <code>0</code>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="classts_1_1_u_string.html">UString</a> &amp;&#160;</td>
+          <td class="paramname"><em>separator</em> = <code><a class="el" href="classts_1_1_u_string.html">UString</a>()</code>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">bool&#160;</td>
+          <td class="paramname"><em>use_prefix</em> = <code>true</code>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">bool&#160;</td>
+          <td class="paramname"><em>use_upper</em> = <code>true</code>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Format a string containing an hexadecimal value. </p>
+<dl class="tparams"><dt>Template Parameters</dt><dd>
+  <table class="tparams">
+    <tr><td class="paramname">INT</td><td>An integer type. </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">value</td><td>The integer value to format. </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">width</td><td>Width of the formatted number, not including the optional prefix and separator. By default, use the "natural" size of <em>INT</em> (e.g. 8 for 32-bit integer). </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">separator</td><td>Separator string for groups of 4 digits, empty by default. </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">use_prefix</td><td>If true, prepend the standard hexa prefix "0x". </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">use_upper</td><td>If true, use upper-case hexadecimal digits. </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>The formatted string. </dd></dl>
+
+</div>
+</div>
+<a id="ac55f25f55f2cdc5ac4c203348f62c5c6"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac55f25f55f2cdc5ac4c203348f62c5c6">&#9670;&nbsp;</a></span>Dump() <span class="overload">[1/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static <a class="el" href="classts_1_1_u_string.html">UString</a> ts::UString::Dump </td>
+          <td>(</td>
+          <td class="paramtype">const void *&#160;</td>
+          <td class="paramname"><em>data</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">size_type&#160;</td>
+          <td class="paramname"><em>size</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">uint32_t&#160;</td>
+          <td class="paramname"><em>flags</em> = <code><a class="el" href="classts_1_1_u_string.html#a95e758037651fab003f10b568b08cb46aa7bd3c423691aa596e8b2caa703e5e2e">HEXA</a></code>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">size_type&#160;</td>
+          <td class="paramname"><em>indent</em> = <code>0</code>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">size_type&#160;</td>
+          <td class="paramname"><em>line_width</em> = <code><a class="el" href="classts_1_1_u_string.html#abb53f302e6507cbd34844f1b0a49f663">DEFAULT_HEXA_LINE_WIDTH</a></code>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">size_type&#160;</td>
+          <td class="paramname"><em>init_offset</em> = <code>0</code>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">size_type&#160;</td>
+          <td class="paramname"><em>inner_indent</em> = <code>0</code>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Build a multi-line string containing the hexadecimal dump of a memory area. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">data</td><td>Starting address of the memory area to dump. </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">size</td><td>Size in bytes of the memory area to dump. </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">flags</td><td>A combination of option flags indicating how to format the data. This is typically the result of or'ed values from the enum type HexaFlags. </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">indent</td><td>Each line is indented by this number of characters. </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">line_width</td><td>Maximum number of characters per line. If the flag BPL is specified, <em>line_width</em> is interpreted as the number of displayed byte values per line. </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">init_offset</td><td>If the flag OFFSET is specified, an offset in the memory area is displayed at the beginning of each line. In this case, <em>init_offset</em> specified the offset value for the first byte. </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">inner_indent</td><td>Add this indentation before hexa/ascii dump, after offset. </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>A string containing the formatted hexadecimal dump. Lines are separated with embedded new-line characters. </dd></dl>
+<dl class="section see"><dt>See also</dt><dd><a class="el" href="classts_1_1_u_string.html#a95e758037651fab003f10b568b08cb46" title="Flags for the Hexa() family of methods. ">HexaFlags</a> </dd></dl>
+
+</div>
+</div>
+<a id="aed5d06223a12ccb05bacf97e160c5d77"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aed5d06223a12ccb05bacf97e160c5d77">&#9670;&nbsp;</a></span>Dump() <span class="overload">[2/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static <a class="el" href="classts_1_1_u_string.html">UString</a> ts::UString::Dump </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="classts_1_1_byte_block.html">ByteBlock</a> &amp;&#160;</td>
+          <td class="paramname"><em>bb</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">uint32_t&#160;</td>
+          <td class="paramname"><em>flags</em> = <code><a class="el" href="classts_1_1_u_string.html#a95e758037651fab003f10b568b08cb46aa7bd3c423691aa596e8b2caa703e5e2e">HEXA</a></code>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">size_type&#160;</td>
+          <td class="paramname"><em>indent</em> = <code>0</code>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">size_type&#160;</td>
+          <td class="paramname"><em>line_width</em> = <code><a class="el" href="classts_1_1_u_string.html#abb53f302e6507cbd34844f1b0a49f663">DEFAULT_HEXA_LINE_WIDTH</a></code>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">size_type&#160;</td>
+          <td class="paramname"><em>init_offset</em> = <code>0</code>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">size_type&#160;</td>
+          <td class="paramname"><em>inner_indent</em> = <code>0</code>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Build a multi-line string containing the hexadecimal dump of a memory area. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">bb</td><td>Byte block to dump. </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">flags</td><td>A combination of option flags indicating how to format the data. This is typically the result of or'ed values from the enum type HexaFlags. </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">indent</td><td>Each line is indented by this number of characters. </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">line_width</td><td>Maximum number of characters per line. If the flag BPL is specified, <em>line_width</em> is interpreted as the number of displayed byte values per line. </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">init_offset</td><td>If the flag OFFSET is specified, an offset in the memory area is displayed at the beginning of each line. In this case, <em>init_offset</em> specified the offset value for the first byte. </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">inner_indent</td><td>Add this indentation before hexa/ascii dump, after offset. </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>A string containing the formatted hexadecimal dump. Lines are separated with embedded new-line characters. </dd></dl>
+<dl class="section see"><dt>See also</dt><dd><a class="el" href="classts_1_1_u_string.html#a95e758037651fab003f10b568b08cb46" title="Flags for the Hexa() family of methods. ">HexaFlags</a> </dd></dl>
+
+</div>
+</div>
+<a id="af0fa13dc84b89c0c90a0b1f7e7e87030"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af0fa13dc84b89c0c90a0b1f7e7e87030">&#9670;&nbsp;</a></span>appendDump() <span class="overload">[1/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void ts::UString::appendDump </td>
+          <td>(</td>
+          <td class="paramtype">const void *&#160;</td>
+          <td class="paramname"><em>data</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">size_type&#160;</td>
+          <td class="paramname"><em>size</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">uint32_t&#160;</td>
+          <td class="paramname"><em>flags</em> = <code><a class="el" href="classts_1_1_u_string.html#a95e758037651fab003f10b568b08cb46aa7bd3c423691aa596e8b2caa703e5e2e">HEXA</a></code>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">size_type&#160;</td>
+          <td class="paramname"><em>indent</em> = <code>0</code>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">size_type&#160;</td>
+          <td class="paramname"><em>line_width</em> = <code><a class="el" href="classts_1_1_u_string.html#abb53f302e6507cbd34844f1b0a49f663">DEFAULT_HEXA_LINE_WIDTH</a></code>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">size_type&#160;</td>
+          <td class="paramname"><em>init_offset</em> = <code>0</code>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">size_type&#160;</td>
+          <td class="paramname"><em>inner_indent</em> = <code>0</code>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Append a multi-line string containing the hexadecimal dump of a memory area. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">data</td><td>Starting address of the memory area to dump. </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">size</td><td>Size in bytes of the memory area to dump. </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">flags</td><td>A combination of option flags indicating how to format the data. This is typically the result of or'ed values from the enum type HexaFlags. </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">indent</td><td>Each line is indented by this number of characters. </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">line_width</td><td>Maximum number of characters per line. If the flag BPL is specified, <em>line_width</em> is interpreted as the number of displayed byte values per line. </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">init_offset</td><td>If the flag OFFSET is specified, an offset in the memory area is displayed at the beginning of each line. In this case, <em>init_offset</em> specified the offset value for the first byte. </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">inner_indent</td><td>Add this indentation before hexa/ascii dump, after offset. </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section see"><dt>See also</dt><dd><a class="el" href="classts_1_1_u_string.html#a95e758037651fab003f10b568b08cb46" title="Flags for the Hexa() family of methods. ">HexaFlags</a> </dd></dl>
+
+</div>
+</div>
+<a id="a9c7b1b093a337106fbf885e2dafa8c2d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9c7b1b093a337106fbf885e2dafa8c2d">&#9670;&nbsp;</a></span>appendDump() <span class="overload">[2/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void ts::UString::appendDump </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="classts_1_1_byte_block.html">ByteBlock</a> &amp;&#160;</td>
+          <td class="paramname"><em>bb</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">uint32_t&#160;</td>
+          <td class="paramname"><em>flags</em> = <code><a class="el" href="classts_1_1_u_string.html#a95e758037651fab003f10b568b08cb46aa7bd3c423691aa596e8b2caa703e5e2e">HEXA</a></code>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">size_type&#160;</td>
+          <td class="paramname"><em>indent</em> = <code>0</code>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">size_type&#160;</td>
+          <td class="paramname"><em>line_width</em> = <code><a class="el" href="classts_1_1_u_string.html#abb53f302e6507cbd34844f1b0a49f663">DEFAULT_HEXA_LINE_WIDTH</a></code>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">size_type&#160;</td>
+          <td class="paramname"><em>init_offset</em> = <code>0</code>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">size_type&#160;</td>
+          <td class="paramname"><em>inner_indent</em> = <code>0</code>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Append a multi-line string containing the hexadecimal dump of a memory area. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">bb</td><td>Byte block to dump. </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">flags</td><td>A combination of option flags indicating how to format the data. This is typically the result of or'ed values from the enum type HexaFlags. </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">indent</td><td>Each line is indented by this number of characters. </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">line_width</td><td>Maximum number of characters per line. If the flag BPL is specified, <em>line_width</em> is interpreted as the number of displayed byte values per line. </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">init_offset</td><td>If the flag OFFSET is specified, an offset in the memory area is displayed at the beginning of each line. In this case, <em>init_offset</em> specified the offset value for the first byte. </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">inner_indent</td><td>Add this indentation before hexa/ascii dump, after offset. </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section see"><dt>See also</dt><dd><a class="el" href="classts_1_1_u_string.html#a95e758037651fab003f10b568b08cb46" title="Flags for the Hexa() family of methods. ">HexaFlags</a> </dd></dl>
+
+</div>
+</div>
+<a id="af6634e93e875208d9885cb4aed8f40e7"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af6634e93e875208d9885cb4aed8f40e7">&#9670;&nbsp;</a></span>hexaDecode()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool ts::UString::hexaDecode </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classts_1_1_byte_block.html">ByteBlock</a> &amp;&#160;</td>
+          <td class="paramname"><em>result</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Interpret this string as a sequence of hexadecimal digits (ignore blanks). </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[out]</td><td class="paramname">result</td><td>Decoded bytes. </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>True on success, false on error (invalid hexa format). When returning false, the result contains everything that could be decoded before getting the error. </dd></dl>
+
+</div>
+</div>
+<a id="a6558e492a4fdb922d54cd5388cab536b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6558e492a4fdb922d54cd5388cab536b">&#9670;&nbsp;</a></span>hexaDecodeAppend()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool ts::UString::hexaDecodeAppend </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classts_1_1_byte_block.html">ByteBlock</a> &amp;&#160;</td>
+          <td class="paramname"><em>result</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Interpret this string as a sequence of hexadecimal digits (ignore blanks). </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in,out]</td><td class="paramname">result</td><td>The decoded bytes are added at the end of the previous content. </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>True on success, false on error (invalid hexa format). When returning false, the result contains everything that could be decoded before getting the error. </dd></dl>
+
+</div>
+</div>
+<a id="a7b158f71eccccebe0f571898fdb0956f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7b158f71eccccebe0f571898fdb0956f">&#9670;&nbsp;</a></span>Append() <span class="overload">[1/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;class CONTAINER &gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static CONTAINER&amp; ts::UString::Append </td>
+          <td>(</td>
+          <td class="paramtype">CONTAINER &amp;&#160;</td>
+          <td class="paramname"><em>container</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>argc</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const char *const&#160;</td>
+          <td class="paramname"><em>argv</em>[]&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Append an array of C-strings to a container of strings. </p>
+<p>All C-strings from an array are appended at the end of a container. The <em>argc</em> / <em>argv</em> pair is typically received by a main program from a command line. </p><dl class="tparams"><dt>Template Parameters</dt><dd>
+  <table class="tparams">
+    <tr><td class="paramname">CONTAINER</td><td>A container class of <a class="el" href="classts_1_1_u_string.html" title="An implementation of UTF-16 strings. ">UString</a> as defined by the C++ Standard Template Library (STL). </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in,out]</td><td class="paramname">container</td><td>A container of <a class="el" href="classts_1_1_u_string.html" title="An implementation of UTF-16 strings. ">UString</a>. </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">argc</td><td>The number of C-strings in <em>argv</em>. </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">argv</td><td>An array of C-strings. </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>A reference to <em>container</em>. </dd></dl>
+
+</div>
+</div>
+<a id="adbb773145eef27188125e102d1f491c5"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#adbb773145eef27188125e102d1f491c5">&#9670;&nbsp;</a></span>Append() <span class="overload">[2/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;class CONTAINER &gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static CONTAINER&amp; ts::UString::Append </td>
+          <td>(</td>
+          <td class="paramtype">CONTAINER &amp;&#160;</td>
+          <td class="paramname"><em>container</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>argc</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">char *const&#160;</td>
+          <td class="paramname"><em>argv</em>[]&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Append an array of C-strings to a container of strings. </p>
+<p>All C-strings from an array are appended at the end of a container. The <em>argc</em> / <em>argv</em> pair is typically received by a main program from a command line. </p><dl class="tparams"><dt>Template Parameters</dt><dd>
+  <table class="tparams">
+    <tr><td class="paramname">CONTAINER</td><td>A container class of <a class="el" href="classts_1_1_u_string.html" title="An implementation of UTF-16 strings. ">UString</a> as defined by the C++ Standard Template Library (STL). </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in,out]</td><td class="paramname">container</td><td>A container of <a class="el" href="classts_1_1_u_string.html" title="An implementation of UTF-16 strings. ">UString</a>. </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">argc</td><td>The number of C-strings in <em>argv</em>. </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">argv</td><td>An array of C-strings. </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>A reference to <em>container</em>. </dd></dl>
+
+</div>
+</div>
+<a id="a47539b2921afa55f75b49bee47770dc5"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a47539b2921afa55f75b49bee47770dc5">&#9670;&nbsp;</a></span>Assign() <span class="overload">[1/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;class CONTAINER &gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static CONTAINER&amp; ts::UString::Assign </td>
+          <td>(</td>
+          <td class="paramtype">CONTAINER &amp;&#160;</td>
+          <td class="paramname"><em>container</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>argc</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const char *const&#160;</td>
+          <td class="paramname"><em>argv</em>[]&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Assign an array of C-strings to a container of strings. </p>
+<p>The container is assigned using all C-strings from an array. The <em>argc</em> / <em>argv</em> pair is typically received by a main program from a command line. </p><dl class="tparams"><dt>Template Parameters</dt><dd>
+  <table class="tparams">
+    <tr><td class="paramname">CONTAINER</td><td>A container class of <a class="el" href="classts_1_1_u_string.html" title="An implementation of UTF-16 strings. ">UString</a> as defined by the C++ Standard Template Library (STL). </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[out]</td><td class="paramname">container</td><td>A container of <a class="el" href="classts_1_1_u_string.html" title="An implementation of UTF-16 strings. ">UString</a>. </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">argc</td><td>The number of C-strings in <em>argv</em>. </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">argv</td><td>An array of C-strings. </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>A reference to <em>container</em>. </dd></dl>
+
+</div>
+</div>
+<a id="a2e3bb6eaa7ad0eb248c94d5ea40e5aef"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2e3bb6eaa7ad0eb248c94d5ea40e5aef">&#9670;&nbsp;</a></span>Assign() <span class="overload">[2/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;class CONTAINER &gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static CONTAINER&amp; ts::UString::Assign </td>
+          <td>(</td>
+          <td class="paramtype">CONTAINER &amp;&#160;</td>
+          <td class="paramname"><em>container</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>argc</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">char *const&#160;</td>
+          <td class="paramname"><em>argv</em>[]&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Assign an array of C-strings to a container of strings. </p>
+<p>The container is assigned using all C-strings from an array. The <em>argc</em> / <em>argv</em> pair is typically received by a main program from a command line. </p><dl class="tparams"><dt>Template Parameters</dt><dd>
+  <table class="tparams">
+    <tr><td class="paramname">CONTAINER</td><td>A container class of <a class="el" href="classts_1_1_u_string.html" title="An implementation of UTF-16 strings. ">UString</a> as defined by the C++ Standard Template Library (STL). </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[out]</td><td class="paramname">container</td><td>A container of <a class="el" href="classts_1_1_u_string.html" title="An implementation of UTF-16 strings. ">UString</a>. </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">argc</td><td>The number of C-strings in <em>argv</em>. </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">argv</td><td>An array of C-strings. </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>A reference to <em>container</em>. </dd></dl>
 
 </div>
 </div>

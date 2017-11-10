@@ -51,6 +51,8 @@ var classts_1_1_args =
     [ "getIntValues", "classts_1_1_args.html#aba26fa3b1ee34f594e6c75ab4371789b", null ],
     [ "bitMaskValue", "classts_1_1_args.html#a2a5a5f70a8a8551be3947f8670efede6", null ],
     [ "getBitMaskValue", "classts_1_1_args.html#a3dab1afd0d25f2301e8b9b72f25be5a6", null ],
+    [ "getEnumValue", "classts_1_1_args.html#af2ea36cc75bea5b61e613a2b74f61811", null ],
+    [ "enumValue", "classts_1_1_args.html#a130d13633f566448e839ba49cbf6ef46", null ],
     [ "exitOnError", "classts_1_1_args.html#af06bf7b7fc5335c35385ca684cffbd02", null ],
     [ "redirectReport", "classts_1_1_args.html#a590b4db1f2c98af070856207dcd30d82", null ],
     [ "writeLog", "classts_1_1_args.html#a2ca936e98c07dc8d75bd0de1e1d529f3", null ],

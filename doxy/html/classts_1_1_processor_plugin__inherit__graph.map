@@ -1,6 +1,6 @@
 <map id="ts::ProcessorPlugin" name="ts::ProcessorPlugin">
-<area shape="rect" id="node5" href="$classts_1_1_abstract_descrambler.html" title="Abstract base class for DVB descrambler plugins. " alt="" coords="5,304,169,331"/>
-<area shape="rect" id="node2" href="$classts_1_1_plugin.html" title="Base class of all tsp plugins. " alt="" coords="49,155,126,181"/>
-<area shape="rect" id="node3" href="$classts_1_1_args.html" title="An encapsulation of command line syntax and analysis. " alt="" coords="53,80,121,107"/>
-<area shape="rect" id="node4" href="$classts_1_1_report_interface.html" title="Abstract interface for event reporting and monitoring. " alt="" coords="22,5,153,32"/>
+<area shape="rect" id="node5" href="$classts_1_1_abstract_descrambler.html" title="Abstract base class for DVB descrambler plugins. " alt="" coords="5,299,169,324"/>
+<area shape="rect" id="node2" href="$classts_1_1_plugin.html" title="Base class of all tsp plugins. " alt="" coords="49,152,125,177"/>
+<area shape="rect" id="node3" href="$classts_1_1_args.html" title="An encapsulation of command line syntax and analysis. " alt="" coords="54,79,120,104"/>
+<area shape="rect" id="node4" href="$classts_1_1_report_interface.html" title="Abstract interface for event reporting and monitoring. " alt="" coords="22,5,153,31"/>
 </map>

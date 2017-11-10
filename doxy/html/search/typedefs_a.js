@@ -9,7 +9,6 @@ var searchData=
   ['pidcontextmap',['PIDContextMap',['../classts_1_1_t_s_analyzer.html#a1181de3b69e38ec39b514a73b758bcbe',1,'ts::TSAnalyzer']]],
   ['pidcontextptr',['PIDContextPtr',['../classts_1_1_t_s_analyzer.html#a3c426fad8a6cc249171578a27b5c857f',1,'ts::TSAnalyzer']]],
   ['pidset',['PIDSet',['../namespacets.html#ab1d1f2460b477bc70d2e394204a2c09b',1,'ts']]],
-  ['pinptrvector',['PinPtrVector',['../namespacets.html#ac7d5a53ca04175acbd22243acc877c7b',1,'ts']]],
   ['pluginoptionsvector',['PluginOptionsVector',['../classts_1_1tsp_1_1_options.html#adaeac53e8030c402346d335f7fd4e6e5',1,'ts::tsp::Options']]],
   ['pluginsharedlibraryptr',['PluginSharedLibraryPtr',['../namespacets.html#ab985fc6a17816d4e8484e70e589338f2',1,'ts']]],
   ['polledfilelist',['PolledFileList',['../namespacets.html#a8f0a779c88d4f34f07a5fa01cfcf8526',1,'ts']]],

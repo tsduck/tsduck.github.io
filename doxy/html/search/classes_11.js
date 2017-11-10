@@ -10,7 +10,7 @@ var searchData=
   ['tablesfactory',['TablesFactory',['../classts_1_1_tables_factory.html',1,'ts']]],
   ['tableslogger',['TablesLogger',['../classts_1_1_tables_logger.html',1,'ts']]],
   ['tablesloggerargs',['TablesLoggerArgs',['../classts_1_1_tables_logger_args.html',1,'ts']]],
-  ['tags',['Tags',['../structts_1_1ecmgscs_1_1_tags.html',1,'ts::ecmgscs::Tags'],['../structts_1_1emmgmux_1_1_tags.html',1,'ts::emmgmux::Tags']]],
+  ['tags',['Tags',['../structts_1_1emmgmux_1_1_tags.html',1,'ts::emmgmux::Tags'],['../structts_1_1ecmgscs_1_1_tags.html',1,'ts::ecmgscs::Tags']]],
   ['tcpconnection',['TCPConnection',['../classts_1_1_t_c_p_connection.html',1,'ts']]],
   ['tcpserver',['TCPServer',['../classts_1_1_t_c_p_server.html',1,'ts']]],
   ['tcpsocket',['TCPSocket',['../classts_1_1_t_c_p_socket.html',1,'ts']]],

@@ -7,6 +7,7 @@ var ts_platform_8h =
     [ "TS_CXX11", "ts_platform_8h.html#ad317b3747022b95c9480dfeba2b75ea4", null ],
     [ "TS_CXX14", "ts_platform_8h.html#a6784e414a09f093de3b999406ab0c16c", null ],
     [ "TS_CXX17", "ts_platform_8h.html#a4dfc56e0adf67069f162650445cb3dee", null ],
+    [ "TS_CXX11_STRING", "ts_platform_8h.html#a9b8277fec43d24836efef428ae3e8018", null ],
     [ "TS_WINDOWS", "ts_platform_8h.html#a66c717daca8b143dfea7ed6dade548b0", null ],
     [ "TS_UNIX", "ts_platform_8h.html#a59de5b6986a0a7bed08869e6b1321867", null ],
     [ "TS_LINUX", "ts_platform_8h.html#a60e9f39c37a64ff8bf78adf079184bce", null ],

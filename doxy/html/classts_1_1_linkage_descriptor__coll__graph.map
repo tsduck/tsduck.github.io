@@ -1,7 +1,7 @@
 <map id="ts::LinkageDescriptor" name="ts::LinkageDescriptor">
-<area shape="rect" id="node2" href="$classts_1_1_abstract_descriptor.html" title="Abstract base class for MPEG PSI/SI descriptors. " alt="" coords="219,5,369,32"/>
-<area shape="rect" id="node3" href="$classts_1_1_abstract_signalization.html" title="Abstract base class for MPEG PSI/SI tables and descriptors. " alt="" coords="5,5,169,32"/>
-<area shape="rect" id="node4" href="$classts_1_1_linkage_descriptor_1_1_event_linkage_info.html" title="Definition of event_linkage_info when linkage_type == LINKAGE_EVENT. " alt="" coords="221,57,367,98"/>
-<area shape="rect" id="node5" href="$classts_1_1_byte_block.html" title="Definition of a generic block of bytes. " alt="" coords="243,123,345,149"/>
-<area shape="rect" id="node7" href="$classts_1_1_linkage_descriptor_1_1_mobile_handover_info.html" title="Definition of mobile_hand&#45;over_info when linkage_type == LINKAGE_HAND_OVER. " alt="" coords="221,174,367,215"/>
+<area shape="rect" id="node2" href="$classts_1_1_abstract_descriptor.html" title="Abstract base class for MPEG PSI/SI descriptors. " alt="" coords="218,5,367,31"/>
+<area shape="rect" id="node3" href="$classts_1_1_abstract_signalization.html" title="Abstract base class for MPEG PSI/SI tables and descriptors. " alt="" coords="5,5,169,31"/>
+<area shape="rect" id="node4" href="$classts_1_1_linkage_descriptor_1_1_event_linkage_info.html" title="Definition of event_linkage_info when linkage_type == LINKAGE_EVENT. " alt="" coords="219,55,366,93"/>
+<area shape="rect" id="node5" href="$classts_1_1_byte_block.html" title="Definition of a generic block of bytes. " alt="" coords="243,117,342,143"/>
+<area shape="rect" id="node7" href="$classts_1_1_linkage_descriptor_1_1_mobile_handover_info.html" title="Definition of mobile_hand&#45;over_info when linkage_type == LINKAGE_HAND_OVER. " alt="" coords="219,167,367,205"/>
 </map>

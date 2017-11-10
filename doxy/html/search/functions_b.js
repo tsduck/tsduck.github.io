@@ -1,6 +1,7 @@
 var searchData=
 [
   ['largestsize',['LargestSize',['../namespacets.html#aa6b6a6e38fa8a09c74ee44d0d178674e',1,'ts']]],
+  ['last',['last',['../classts_1_1_u_string.html#a8e5fc68d56c4f4e06929ae588819f055',1,'ts::UString']]],
   ['lasterrorcode',['LastErrorCode',['../namespacets.html#aa816d1f04480538021fee6d480570238',1,'ts']]],
   ['lastsectionnumber',['lastSectionNumber',['../classts_1_1_section.html#aed7dd364a623de081cf2094561ef0629',1,'ts::Section']]],
   ['lastsocketerrorcode',['LastSocketErrorCode',['../namespacets.html#a2268d9defcbb4b19c04791493a616ad5',1,'ts']]],

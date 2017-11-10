@@ -7,6 +7,7 @@ var searchData=
   ['ts_5fcommand_5fpath',['TS_COMMAND_PATH',['../ts_sys_utils_8h.html#affcfdf9c5e245501889f1bf987c956dc',1,'tsSysUtils.h']]],
   ['ts_5fconst64',['TS_CONST64',['../ts_platform_8h.html#acbedf570df77410fe4dc09385caf2216',1,'tsPlatform.h']]],
   ['ts_5fcxx11',['TS_CXX11',['../ts_platform_8h.html#ad317b3747022b95c9480dfeba2b75ea4',1,'tsPlatform.h']]],
+  ['ts_5fcxx11_5fstring',['TS_CXX11_STRING',['../ts_platform_8h.html#a9b8277fec43d24836efef428ae3e8018',1,'tsPlatform.h']]],
   ['ts_5fcxx14',['TS_CXX14',['../ts_platform_8h.html#a6784e414a09f093de3b999406ab0c16c',1,'tsPlatform.h']]],
   ['ts_5fcxx17',['TS_CXX17',['../ts_platform_8h.html#a4dfc56e0adf67069f162650445cb3dee',1,'tsPlatform.h']]],
   ['ts_5fcygwin',['TS_CYGWIN',['../ts_platform_8h.html#a5dec46e40c055b7f88a58eb36e672ebb',1,'tsPlatform.h']]],

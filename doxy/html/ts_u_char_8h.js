@@ -13,6 +13,8 @@ var ts_u_char_8h =
     [ "IsAccented", "ts_u_char_8h.html#a05c1995a07569ab4b9d64ce406409873", null ],
     [ "RemoveAccent", "ts_u_char_8h.html#afdddb5d3bd8644394a47b307f9972d89", null ],
     [ "IsCombiningDiacritical", "ts_u_char_8h.html#ad70e4a30668195693059a4ff89d1c8c5", null ],
+    [ "IsLeadingSurrogate", "ts_u_char_8h.html#a1fba18ef39ef465d1376c380078edfdb", null ],
+    [ "IsTrailingSurrogate", "ts_u_char_8h.html#a28874f11d09cf5c94e7131797f170e16", null ],
     [ "ToHTML", "ts_u_char_8h.html#a9dbc0dc7cd02e3246821e17f2d86edda", null ],
     [ "CHAR_NULL", "ts_u_char_8h.html#a451095a8c14b0800a84aa10d858e8aba", null ],
     [ "START_OF_HEADING", "ts_u_char_8h.html#a66e34955f5395357ecc98327cebe2a13", null ],

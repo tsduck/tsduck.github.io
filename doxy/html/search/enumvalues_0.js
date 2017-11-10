@@ -11,7 +11,7 @@ var searchData=
   ['ar_5f221',['AR_221',['../namespacets.html#a08350e57208be14f8c0fd69df58b0bc4ad6f3b0a4ff44a968d12d334bf6d4d536',1,'ts']]],
   ['ar_5f4_5f3',['AR_4_3',['../namespacets.html#a08350e57208be14f8c0fd69df58b0bc4a068d038ff6c970bd591096cb3fda415b',1,'ts']]],
   ['ar_5fsquare',['AR_SQUARE',['../namespacets.html#a08350e57208be14f8c0fd69df58b0bc4a71e0c68286f58b045096a9d71bfad098',1,'ts']]],
-  ['ascii',['ASCII',['../namespacets_1_1hexa.html#a490e158f46bf3d8b610cd81e9d6290e6a99d46d1b68d810d2eb64a603da191b6b',1,'ts::hexa']]],
+  ['ascii',['ASCII',['../classts_1_1_u_string.html#a95e758037651fab003f10b568b08cb46a7b28ae996daf573879de011a9272213e',1,'ts::UString::ASCII()'],['../namespacets_1_1hexa.html#a490e158f46bf3d8b610cd81e9d6290e6a99d46d1b68d810d2eb64a603da191b6b',1,'ts::hexa::ASCII()']]],
   ['at_5fend',['AT_END',['../classts_1_1_cycling_packetizer.html#a61a75ad5555e266f968c32d9a8644873abf7b7b7133c607cb4e546e5f29138e03',1,'ts::CyclingPacketizer']]],
   ['atsc',['ATSC',['../namespacets.html#a0bfe51c83f30216c9beaac7fc31f96d2a63975afe0cd79887faca5be13bd7d7d0',1,'ts']]],
   ['avc_5faut_5fdelimiter',['AVC_AUT_DELIMITER',['../namespacets.html#a422d5160a4aca8802098c55c1f8cdb09a85078e1dcebe3ed63ecac0c15785a165',1,'ts']]],

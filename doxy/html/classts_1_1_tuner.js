@@ -29,7 +29,6 @@ var classts_1_1_tuner =
     [ "setDemuxBufferSize", "classts_1_1_tuner.html#a7bfb5322af6cc72b733151602d8d8e3f", null ],
     [ "tune", "classts_1_1_tuner.html#af6e7f350483ebcf30b0a468acf62f062", null ],
     [ "setSinkQueueSize", "classts_1_1_tuner.html#adea56cfc365e552dd5d81795df4c2baa", null ],
-    [ "EnumerateDevices", "classts_1_1_tuner.html#a29a9b1a2768a00de4a4ca9be6778b98b", null ],
     [ "displayStatus", "classts_1_1_tuner.html#ab8ae21a74a1e37ad9a3036bd4249ebfd", null ],
     [ "DEFAULT_SIGNAL_TIMEOUT", "classts_1_1_tuner.html#a50747f23a7a60b402b3e30a311234cbc", null ],
     [ "DEFAULT_SIGNAL_POLL", "classts_1_1_tuner.html#aae770e0fa1b5ef6f8b2013c1bb1005c2", null ],

@@ -1,6 +1,6 @@
 <map id="ts::tlv::Connection&lt; MUTEX &gt;" name="ts::tlv::Connection&lt; MUTEX &gt;">
-<area shape="rect" id="node2" href="$classts_1_1_t_c_p_connection.html" title="Base class for a TCP/IP session. " alt="" coords="5,247,140,273"/>
-<area shape="rect" id="node3" href="$classts_1_1_t_c_p_socket.html" title="Base class for TCP/IP sockets. " alt="" coords="18,171,127,197"/>
-<area shape="rect" id="node4" href="$classts_1_1_mutex.html" title="A mutex implementation which is compatible with the ts::Thread class. " alt="" coords="34,81,111,108"/>
-<area shape="rect" id="node5" href="$classts_1_1_mutex_interface.html" title="Interface class for mutex objects. " alt="" coords="9,5,137,32"/>
+<area shape="rect" id="node2" href="$classts_1_1_t_c_p_connection.html" title="Base class for a TCP/IP session. " alt="" coords="5,241,139,267"/>
+<area shape="rect" id="node3" href="$classts_1_1_t_c_p_socket.html" title="Base class for TCP/IP sockets. " alt="" coords="19,167,125,192"/>
+<area shape="rect" id="node4" href="$classts_1_1_mutex.html" title="A mutex implementation which is compatible with the ts::Thread class. " alt="" coords="34,80,110,105"/>
+<area shape="rect" id="node5" href="$classts_1_1_mutex_interface.html" title="Interface class for mutex objects. " alt="" coords="8,5,136,31"/>
 </map>

@@ -20,6 +20,8 @@ var searchData=
   ['_7ecyclingpacketizer',['~CyclingPacketizer',['../classts_1_1_cycling_packetizer.html#a703f3b3fb2e2584f68f2313b3378220c',1,'ts::CyclingPacketizer']]],
   ['_7edektecinputplugin',['~DektecInputPlugin',['../classts_1_1_dektec_input_plugin.html#a8f556571a7ed2202fe36806c3c44c69e',1,'ts::DektecInputPlugin']]],
   ['_7edektecoutputplugin',['~DektecOutputPlugin',['../classts_1_1_dektec_output_plugin.html#a4563ec2c8a1b85dee2107ef1e2886602',1,'ts::DektecOutputPlugin']]],
+  ['_7edirectshowfiltercategory',['~DirectShowFilterCategory',['../classts_1_1_direct_show_filter_category.html#a2dbce841b68d30c51b7d14cdc768666a',1,'ts::DirectShowFilterCategory']]],
+  ['_7edirectshowgraph',['~DirectShowGraph',['../classts_1_1_direct_show_graph.html#a6a81e836fdd5580ef93bafc94580a74a',1,'ts::DirectShowGraph']]],
   ['_7edtvproperties',['~DTVProperties',['../classts_1_1_d_t_v_properties.html#a45736c48fece6919c682d132b095c97b',1,'ts::DTVProperties']]],
   ['_7edvbcharset',['~DVBCharset',['../classts_1_1_d_v_b_charset.html#aecc5cae3cec2e75433c3728962e1982a',1,'ts::DVBCharset']]],
   ['_7eecmgclient',['~ECMGClient',['../classts_1_1_e_c_m_g_client.html#a40eb9410db3b6e6ee4b6d32cfc881170',1,'ts::ECMGClient']]],

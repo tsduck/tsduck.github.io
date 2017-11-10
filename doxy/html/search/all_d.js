@@ -61,7 +61,7 @@ var searchData=
   ['microsecpermillisec',['MicroSecPerMilliSec',['../namespacets.html#abcf3f54f6cf6cb9586933ff8399d674b',1,'ts']]],
   ['microsecpersec',['MicroSecPerSec',['../namespacets.html#ace6679c4a9aba952879b7da520646198',1,'ts']]],
   ['middle_5fdot',['MIDDLE_DOT',['../namespacets.html#ab086bf78f37b62ec94700b46c555ec45',1,'ts']]],
-  ['millisecond',['MILLISECOND',['../classts_1_1_time.html#a14e379928d4f4e32907f854f9bcb11c4a6f2a8b20acc869fafe033d6388a6b335',1,'ts::Time::MILLISECOND()'],['../structts_1_1_time_1_1_fields.html#a4a42323527b3a80f0957f099eb7fc0b9',1,'ts::Time::Fields::millisecond()'],['../namespacets.html#a2c690abc5d90fe5ba7c3ec0237afc348',1,'ts::MilliSecond()']]],
+  ['millisecond',['millisecond',['../structts_1_1_time_1_1_fields.html#a4a42323527b3a80f0957f099eb7fc0b9',1,'ts::Time::Fields::millisecond()'],['../classts_1_1_time.html#a14e379928d4f4e32907f854f9bcb11c4a6f2a8b20acc869fafe033d6388a6b335',1,'ts::Time::MILLISECOND()'],['../namespacets.html#a2c690abc5d90fe5ba7c3ec0237afc348',1,'ts::MilliSecond()']]],
   ['millisecperday',['MilliSecPerDay',['../namespacets.html#a3b1261ea5ea24a0b939aad378855c9d5',1,'ts']]],
   ['millisecperhour',['MilliSecPerHour',['../namespacets.html#ada065f3612eab8e440bf264dce8f0c41',1,'ts']]],
   ['millisecpermin',['MilliSecPerMin',['../namespacets.html#ab550e2239393917c1e0f11aa6b5677e5',1,'ts']]],

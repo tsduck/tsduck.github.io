@@ -1,4 +1,4 @@
 <map id="ts::SSUDataBroadcastIdDescriptor::Entry" name="ts::SSUDataBroadcastIdDescriptor::Entry">
-<area shape="rect" id="node2" href="$classts_1_1_byte_block.html" title="Definition of a generic block of bytes. " alt="" coords="28,81,129,108"/>
-<area shape="rect" id="node4" href="$classts_1_1_variable.html" title="ts::Variable\&lt; uint8_t \&gt;" alt="" coords="154,81,305,108"/>
+<area shape="rect" id="node2" href="$classts_1_1_byte_block.html" title="Definition of a generic block of bytes. " alt="" coords="29,80,127,105"/>
+<area shape="rect" id="node4" href="$classts_1_1_variable.html" title="ts::Variable\&lt; uint8_t \&gt;" alt="" coords="151,80,301,105"/>
 </map>

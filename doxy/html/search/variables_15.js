@@ -27,7 +27,7 @@ var searchData=
   ['user_5fnibble_5f2',['user_nibble_2',['../structts_1_1_content_descriptor_1_1_entry.html#a5fc187b784d9c428ce49d3ea50ca8152',1,'ts::ContentDescriptor::Entry']]],
   ['utc_5ftime',['utc_time',['../classts_1_1_t_d_t.html#a858b754db4d776a064561f803c887941',1,'ts::TDT::utc_time()'],['../classts_1_1_t_o_t.html#a49e1c0483e541c6dc51e6ba5297b534b',1,'ts::TOT::utc_time()']]],
   ['utf8_5fbom',['UTF8_BOM',['../classts_1_1_u_string.html#a2b6e270e77a9a7377f73cb0b698b4044',1,'ts::UString']]],
-  ['utf8_5fbom_5fsize',['UTF8_BOM_SIZE',['../classts_1_1_u_string.html#ab0e48219259c59bcfd9089f3cabb7f55',1,'ts::UString']]],
-  ['utf8_5fchar_5fmax_5fsize',['UTF8_CHAR_MAX_SIZE',['../classts_1_1_u_string.html#a56adcf2a989d3cd88c31e6b81d7b2720',1,'ts::UString']]],
+  ['utf8_5fbom_5fsize',['UTF8_BOM_SIZE',['../classts_1_1_u_string.html#aec4534a29dd91c13770d304d07b08fdc',1,'ts::UString']]],
+  ['utf8_5fchar_5fmax_5fsize',['UTF8_CHAR_MAX_SIZE',['../classts_1_1_u_string.html#a49492a6e6d9e8eb532264f7d1f780c6a',1,'ts::UString']]],
   ['utf_5f8',['UTF_8',['../classts_1_1_d_v_b_charset_u_t_f8.html#a093a3d4f48bfc667ba72462a84607a8e',1,'ts::DVBCharsetUTF8']]]
 ];

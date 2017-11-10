@@ -1,6 +1,6 @@
 var searchData=
 [
-  ['c_5fstyle',['C_STYLE',['../namespacets_1_1hexa.html#a490e158f46bf3d8b610cd81e9d6290e6ae202598d56ce4d427b4442c1cc1c502a',1,'ts::hexa']]],
+  ['c_5fstyle',['C_STYLE',['../classts_1_1_u_string.html#a95e758037651fab003f10b568b08cb46a4a731657054e8daa7bcdc57addbdf2e8',1,'ts::UString::C_STYLE()'],['../namespacets_1_1hexa.html#a490e158f46bf3d8b610cd81e9d6290e6ae202598d56ce4d427b4442c1cc1c502a',1,'ts::hexa::C_STYLE()']]],
   ['ca',['CA',['../classts_1_1_service.html#a6714af4f0f1fb06c562f1aa786ae6fd2a937b8714545e3373f600dd709be253a2',1,'ts::Service']]],
   ['cas_5fmediaguard',['CAS_MEDIAGUARD',['../namespacets.html#a1de171688c3a6ff71896a8f3e5817c11a34ef926344fa76ad37e4c914225f3086',1,'ts']]],
   ['cas_5fnagra',['CAS_NAGRA',['../namespacets.html#a1de171688c3a6ff71896a8f3e5817c11a052e2f867595b687b227bb8c3baa9bf7',1,'ts']]],
@@ -32,7 +32,7 @@ var searchData=
   ['chroma_5fmono',['CHROMA_MONO',['../namespacets.html#a59385f479bb35e79a614d5536eb24f63af07e44906f4ddd30d5426619509c9055',1,'ts']]],
   ['client_5fid',['client_id',['../structts_1_1emmgmux_1_1_tags.html#a811d01187582347ab2b89c4413dfda15aef1fe2bfeb661427e13a9552019bfa91',1,'ts::emmgmux::Tags']]],
   ['client_5fid_5fin_5fuse',['client_id_in_use',['../structts_1_1emmgmux_1_1_errors.html#a1e77320d82540c48f9616be50ba638f7acac9fce24e1439bc78204845fa77a255',1,'ts::emmgmux::Errors']]],
-  ['compact',['COMPACT',['../namespacets_1_1hexa.html#a490e158f46bf3d8b610cd81e9d6290e6a960e37464c75e1bc8993643ff4a1fa5e',1,'ts::hexa']]],
+  ['compact',['COMPACT',['../classts_1_1_u_string.html#a95e758037651fab003f10b568b08cb46addb530d5c14f429cbf46e9496ea22ed5',1,'ts::UString::COMPACT()'],['../namespacets_1_1hexa.html#a490e158f46bf3d8b610cd81e9d6290e6a960e37464c75e1bc8993643ff4a1fa5e',1,'ts::hexa::COMPACT()']]],
   ['compute',['COMPUTE',['../classts_1_1_c_r_c32.html#a1cc9d89b8a7ff9db064d515524f99111a841ea7c576bf84a90f929cb87597e871',1,'ts::CRC32']]],
   ['copy',['COPY',['../namespacets.html#a2d3fc0fa119551548f2550c83ca68e47a5083b3f9b5f22506be23ec56cc217b7a',1,'ts']]],
   ['cp_5fcw_5fcombination',['CP_CW_combination',['../structts_1_1ecmgscs_1_1_tags.html#afd0406a41e496ef5d61e4ae3308e0f25acf35756f9a9ae448edff6a1dafb32ca7',1,'ts::ecmgscs::Tags']]],

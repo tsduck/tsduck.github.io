@@ -1,6 +1,6 @@
 <map id="ts::CAT" name="ts::CAT">
-<area shape="rect" id="node2" href="$classts_1_1_abstract_descriptors_table.html" title="Base class for MPEG tables containing only a list of descriptors (eg. " alt="" coords="5,229,195,256"/>
-<area shape="rect" id="node3" href="$classts_1_1_abstract_long_table.html" title="Abstract base class for MPEG PSI/SI tables with long sections. " alt="" coords="25,155,175,181"/>
-<area shape="rect" id="node4" href="$classts_1_1_abstract_table.html" title="Abstract base class for MPEG PSI/SI tables. " alt="" coords="39,80,161,107"/>
-<area shape="rect" id="node5" href="$classts_1_1_abstract_signalization.html" title="Abstract base class for MPEG PSI/SI tables and descriptors. " alt="" coords="18,5,182,32"/>
+<area shape="rect" id="node2" href="$classts_1_1_abstract_descriptors_table.html" title="Base class for MPEG tables containing only a list of descriptors (eg. " alt="" coords="5,225,193,251"/>
+<area shape="rect" id="node3" href="$classts_1_1_abstract_long_table.html" title="Abstract base class for MPEG PSI/SI tables with long sections. " alt="" coords="24,152,174,177"/>
+<area shape="rect" id="node4" href="$classts_1_1_abstract_table.html" title="Abstract base class for MPEG PSI/SI tables. " alt="" coords="39,79,159,104"/>
+<area shape="rect" id="node5" href="$classts_1_1_abstract_signalization.html" title="Abstract base class for MPEG PSI/SI tables and descriptors. " alt="" coords="17,5,181,31"/>
 </map>

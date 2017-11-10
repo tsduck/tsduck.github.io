@@ -14,6 +14,7 @@ var searchData=
   ['redirect',['redirect',['../classts_1_1_tables_display.html#a47e64591146b65bb6fefd4fe8ad6b7a6',1,'ts::TablesDisplay']]],
   ['redirectreport',['redirectReport',['../classts_1_1_args.html#a590b4db1f2c98af070856207dcd30d82',1,'ts::Args']]],
   ['reducecw',['reduceCW',['../classts_1_1_scrambling.html#ac629d5df970495d7f92fb1da18b5e0f0',1,'ts::Scrambling']]],
+  ['refcount',['refCount',['../classts_1_1_com_ptr.html#a69609a3babdf4ce7b1bdd54ba4c9c856',1,'ts::ComPtr']]],
   ['refreshmodename',['refreshModeName',['../classts_1_1_video_attributes.html#a31b3befa941346d6b5b18c91fd34ff1c',1,'ts::VideoAttributes']]],
   ['region',['Region',['../structts_1_1_local_time_offset_descriptor_1_1_region.html#a7d2e33524492e663d6ff63eca9191788',1,'ts::LocalTimeOffsetDescriptor::Region']]],
   ['register',['Register',['../classts_1_1_tables_factory_1_1_register.html#a98423666a182517d73b542dd22beb8fa',1,'ts::TablesFactory::Register::Register(TID id, TableFactory factory)'],['../classts_1_1_tables_factory_1_1_register.html#ad5052fa6368ba27d51df7bbe6957b951',1,'ts::TablesFactory::Register::Register(TID minId, TID maxId, TableFactory factory)'],['../classts_1_1_tables_factory_1_1_register.html#aaed777ad3ba4b850130c074899fc67a1',1,'ts::TablesFactory::Register::Register(const EDID &amp;edid, DescriptorFactory factory)'],['../classts_1_1_tables_factory_1_1_register.html#a34fd4b0508982974cfddf11306631159',1,'ts::TablesFactory::Register::Register(const std::string &amp;node_name, TableFactory factory)'],['../classts_1_1_tables_factory_1_1_register.html#ad9698f31e3ac5641c202067d00917e4f',1,'ts::TablesFactory::Register::Register(const std::string &amp;node_name, DescriptorFactory factory)'],['../classts_1_1_tables_factory_1_1_register.html#afc9903f4b2435c3b875cf1fa0d9bb23b',1,'ts::TablesFactory::Register::Register(TID id, DisplaySectionFunction func)'],['../classts_1_1_tables_factory_1_1_register.html#a7ca7ccb2bf518d37f334dba9ed8ade25',1,'ts::TablesFactory::Register::Register(TID minId, TID maxId, DisplaySectionFunction func)'],['../classts_1_1_tables_factory_1_1_register.html#a500a935dca3b796d650e0da678572935',1,'ts::TablesFactory::Register::Register(const EDID &amp;edid, DisplayDescriptorFunction func)']]],
@@ -28,6 +29,7 @@ var searchData=
   ['removebyindex',['removeByIndex',['../classts_1_1_descriptor_list.html#a5b3d3efb536f159a2abec097b5a0b442',1,'ts::DescriptorList']]],
   ['removebytag',['removeByTag',['../classts_1_1_descriptor_list.html#a62a2162b8875fe30d2b3f85b87ee7161',1,'ts::DescriptorList']]],
   ['removecharacter',['RemoveCharacter',['../namespacets.html#ae63069e9073c0b2a0261ebe1d8e7909a',1,'ts']]],
+  ['removefilter',['removeFilter',['../classts_1_1_direct_show_graph.html#ae8dda5864b7e5d7cb60728402a7a595d',1,'ts::DirectShowGraph']]],
   ['removeinvalidprivatedescriptors',['removeInvalidPrivateDescriptors',['../classts_1_1_descriptor_list.html#a7e1ddd1818eab8b8bf696a578391f187',1,'ts::DescriptorList']]],
   ['removepid',['removePID',['../classts_1_1_abstract_demux.html#af91b7696b93dc51bee12bc4c49f80c3a',1,'ts::AbstractDemux']]],
   ['removeprefix',['removePrefix',['../classts_1_1_u_string.html#a9f0d4e4c2225f3f68a5817240e5ebc3b',1,'ts::UString::removePrefix()'],['../namespacets.html#addf11fa7933c08cd5863597bb9e9bf47',1,'ts::RemovePrefix()']]],
@@ -66,6 +68,7 @@ var searchData=
   ['returnsubstituteall',['ReturnSubstituteAll',['../namespacets.html#a94466636c79bbfd8808c670c69006138',1,'ts']]],
   ['returntrim',['ReturnTrim',['../namespacets.html#a3578dc1ee3136b0c040aab4848608036',1,'ts']]],
   ['reuseport',['reusePort',['../classts_1_1_t_c_p_socket.html#afd5bde4324dee438daddd124e1c84ebe',1,'ts::TCPSocket::reusePort()'],['../classts_1_1_u_d_p_socket.html#ad7d10ae6325c2abccbd5d0b2b3c636e2',1,'ts::UDPSocket::reusePort()']]],
+  ['reverse',['reverse',['../classts_1_1_u_string.html#af33fc61eb3d72d8d190f62b712294527',1,'ts::UString']]],
   ['rewind',['rewind',['../classts_1_1_t_s_file_input.html#a31f55d61c505a9d54eb68912078538c3',1,'ts::TSFileInput']]],
   ['ringalone',['ringAlone',['../classts_1_1_ring_node.html#a20ef2d6ade78334130535db0878da384',1,'ts::RingNode']]],
   ['ringinsertafter',['ringInsertAfter',['../classts_1_1_ring_node.html#aa02058e0fa057824a570a75f7eab93b8',1,'ts::RingNode']]],
@@ -85,6 +88,7 @@ var searchData=
   ['rounddown',['RoundDown',['../namespacets.html#a9301b5fe5b626fcde7937191ddcf0a79',1,'ts']]],
   ['roundup',['RoundUp',['../namespacets.html#ac059d29061522705dfad72fa6b6b8fa1',1,'ts']]],
   ['rst',['RST',['../classts_1_1_r_s_t.html#ac7c18434175e14b684eb7605a2a8eac8',1,'ts::RST::RST()'],['../classts_1_1_r_s_t.html#a5784b1f5080d27a99b1f303bf33ad823',1,'ts::RST::RST(const BinaryTable &amp;table, const DVBCharset *charset)']]],
-  ['run',['run',['../classutest_1_1_cpp_unit_main.html#a29baed16762fb6d1ea888b149a974b97',1,'utest::CppUnitMain']]],
-  ['runningstatus',['RunningStatus',['../namespacets_1_1names.html#ace88c53b9ff3a63ba611dcb8352d4d98',1,'ts::names']]]
+  ['run',['run',['../classts_1_1_direct_show_graph.html#a4c3d85a24a98af02b54a86a73fe6ea7f',1,'ts::DirectShowGraph::run()'],['../classutest_1_1_cpp_unit_main.html#a29baed16762fb6d1ea888b149a974b97',1,'utest::CppUnitMain::run()']]],
+  ['runningstatus',['RunningStatus',['../namespacets_1_1names.html#ace88c53b9ff3a63ba611dcb8352d4d98',1,'ts::names']]],
+  ['runtest',['runTest',['../classts_1_1_direct_show_test.html#aa3ab446d4af5e3b74eb7381a1e473583',1,'ts::DirectShowTest']]]
 ];

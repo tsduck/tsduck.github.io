@@ -100,5 +100,6 @@ var searchData=
   ['tsp_5fend',['TSP_END',['../classts_1_1_processor_plugin.html#ae2d04b1fe8008d7221d26a14f35bfba2a48bc3b71ae862118200ef63dec6afed1',1,'ts::ProcessorPlugin']]],
   ['tsp_5fnull',['TSP_NULL',['../classts_1_1_processor_plugin.html#ae2d04b1fe8008d7221d26a14f35bfba2aed192e4e4ea9454218f4ce8f01fe9c8e',1,'ts::ProcessorPlugin']]],
   ['tsp_5fok',['TSP_OK',['../classts_1_1_processor_plugin.html#ae2d04b1fe8008d7221d26a14f35bfba2a3e3da1628a5b25de3e57fd274367afab',1,'ts::ProcessorPlugin']]],
+  ['tuning_5fspaces',['TUNING_SPACES',['../classts_1_1_direct_show_test.html#a41feda87f32d5795d490c85a38d7b6f7a292faf308709204e0b6fc1885cf1e609',1,'ts::DirectShowTest']]],
   ['type',['TYPE',['../classts_1_1_service.html#a6714af4f0f1fb06c562f1aa786ae6fd2ae863b570a76120688a6c976fbee4fe7d',1,'ts::Service']]]
 ];

@@ -93,8 +93,6 @@ $(document).ready(function(){initNavTree('ts_direct_show_utils_8h.html','');});
 <div class="header">
   <div class="summary">
 <a href="#namespaces">Namespaces</a> &#124;
-<a href="#typedef-members">Typedefs</a> &#124;
-<a href="#enum-members">Enumerations</a> &#124;
 <a href="#func-members">Functions</a>  </div>
   <div class="headertitle">
 <div class="title">tsDirectShowUtils.h File Reference</div>  </div>
@@ -110,66 +108,44 @@ Namespaces</h2></td></tr>
 <tr class="memdesc:namespacets"><td class="mdescLeft">&#160;</td><td class="mdescRight">TSDuck namespace, containing all TSDuck classes and functions. <br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="typedef-members"></a>
-Typedefs</h2></td></tr>
-<tr class="memitem:ac7d5a53ca04175acbd22243acc877c7b"><td class="memItemLeft" align="right" valign="top"><a id="ac7d5a53ca04175acbd22243acc877c7b"></a>
-typedef std::vector&lt; ComPtr&lt;::IPin &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacets.html#ac7d5a53ca04175acbd22243acc877c7b">ts::PinPtrVector</a></td></tr>
-<tr class="memdesc:ac7d5a53ca04175acbd22243acc877c7b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Vector of <a class="el" href="classts_1_1_c_o_m.html" title="A class to encapsulate the initialization of Windows COM. ">COM</a> pointers to IPin interfaces (Windows-specific). <br /></td></tr>
-<tr class="separator:ac7d5a53ca04175acbd22243acc877c7b"><td class="memSeparator" colspan="2">&#160;</td></tr>
-</table><table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="enum-members"></a>
-Enumerations</h2></td></tr>
-<tr class="memitem:ab34e77074819f7f75377d48b113d360a"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacets.html#ab34e77074819f7f75377d48b113d360a">ts::DirectShowPinFilter</a> { <br />
-&#160;&#160;<a class="el" href="namespacets.html#ab34e77074819f7f75377d48b113d360aaf35b094d7ef7a5f8c390c6b2e47f7c09">ts::xPIN_CONNECTED</a> = 0x01, 
-<br />
-&#160;&#160;<a class="el" href="namespacets.html#ab34e77074819f7f75377d48b113d360aa3b40c92e209b6b5ac947086ed7d09915">ts::xPIN_UNCONNECTED</a> = 0x02, 
-<br />
-&#160;&#160;<a class="el" href="namespacets.html#ab34e77074819f7f75377d48b113d360aa3135226c9bfca03d7ac531c5c340d388">ts::xPIN_INPUT</a> = 0x04, 
-<br />
-&#160;&#160;<a class="el" href="namespacets.html#ab34e77074819f7f75377d48b113d360aa2fdfc924a62c3d95e5e187eb0e83ca21">ts::xPIN_OUTPUT</a> = 0x08, 
-<br />
-&#160;&#160;<a class="el" href="namespacets.html#ab34e77074819f7f75377d48b113d360aaeca568fbe551db05cab6c7898d31c742">ts::xPIN_ALL_INPUT</a> = xPIN_INPUT | xPIN_CONNECTED | xPIN_UNCONNECTED, 
-<br />
-&#160;&#160;<a class="el" href="namespacets.html#ab34e77074819f7f75377d48b113d360aa579d2bf985ce9b0443607593b11b977b">ts::xPIN_ALL_OUTPUT</a> = xPIN_OUTPUT | xPIN_CONNECTED | xPIN_UNCONNECTED, 
-<br />
-&#160;&#160;<a class="el" href="namespacets.html#ab34e77074819f7f75377d48b113d360aa4f52982b3618751e40366e718ba92db4">ts::xPIN_ALL</a> = xPIN_INPUT | xPIN_OUTPUT | xPIN_CONNECTED | xPIN_UNCONNECTED
-<br />
- }<tr class="memdesc:ab34e77074819f7f75377d48b113d360a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Flags for DirectShow filter pin selections (Windows-specific).  <a href="namespacets.html#ab34e77074819f7f75377d48b113d360a">More...</a><br /></td></tr>
-</td></tr>
-<tr class="separator:ab34e77074819f7f75377d48b113d360a"><td class="memSeparator" colspan="2">&#160;</td></tr>
-</table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
 Functions</h2></td></tr>
-<tr class="memitem:acd872cb1364138bbabccd3e41fec9a36"><td class="memItemLeft" align="right" valign="top"><a class="el" href="ts_platform_8h.html#ae1cda62454d23e62fb576be3783aec47">TSDUCKDLL</a> bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacets.html#acd872cb1364138bbabccd3e41fec9a36">ts::CleanupDownstream</a> (::IGraphBuilder *graph, ::IBaseFilter *filter, ReportInterface &amp;report)</td></tr>
-<tr class="memdesc:acd872cb1364138bbabccd3e41fec9a36"><td class="mdescLeft">&#160;</td><td class="mdescRight">In a DirectShow filter graph, cleanup everything downstream a specified filter (Windows-specific).  <a href="namespacets.html#acd872cb1364138bbabccd3e41fec9a36">More...</a><br /></td></tr>
-<tr class="separator:acd872cb1364138bbabccd3e41fec9a36"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a7c4aa575e4686cea6a7d5db3cfc1981f"><td class="memItemLeft" align="right" valign="top"><a class="el" href="ts_platform_8h.html#ae1cda62454d23e62fb576be3783aec47">TSDUCKDLL</a> bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacets.html#a7c4aa575e4686cea6a7d5db3cfc1981f">ts::ConnectFilters</a> (::IGraphBuilder *graph, ::IBaseFilter *filter1, ::IBaseFilter *filter2, ReportInterface &amp;report)</td></tr>
-<tr class="memdesc:a7c4aa575e4686cea6a7d5db3cfc1981f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Directly connect two DirectShow filters using whatever output and input pin (Windows-specific).  <a href="namespacets.html#a7c4aa575e4686cea6a7d5db3cfc1981f">More...</a><br /></td></tr>
-<tr class="separator:a7c4aa575e4686cea6a7d5db3cfc1981f"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a4535b34d24a4b5f2883fd921f1625e94"><td class="memItemLeft" align="right" valign="top"><a class="el" href="ts_platform_8h.html#ae1cda62454d23e62fb576be3783aec47">TSDUCKDLL</a> bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacets.html#a4535b34d24a4b5f2883fd921f1625e94">ts::DisplayDevicesByCategory</a> (std::ostream &amp;strm, const ::GUID &amp;category, const std::string &amp;margin, const std::string &amp;name, ReportInterface &amp;report)</td></tr>
-<tr class="memdesc:a4535b34d24a4b5f2883fd921f1625e94"><td class="mdescLeft">&#160;</td><td class="mdescRight">Display all devices of the specified category (Windows-specific).  <a href="namespacets.html#a4535b34d24a4b5f2883fd921f1625e94">More...</a><br /></td></tr>
-<tr class="separator:a4535b34d24a4b5f2883fd921f1625e94"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ace175bdc5f4a9125a6d80d9ebf07fc30"><td class="memItemLeft" align="right" valign="top"><a class="el" href="ts_platform_8h.html#ae1cda62454d23e62fb576be3783aec47">TSDUCKDLL</a> bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacets.html#ace175bdc5f4a9125a6d80d9ebf07fc30">ts::DisplayFilterGraph</a> (std::ostream &amp;strm, const ComPtr&lt;::IBaseFilter &gt; &amp;filter, const std::string &amp;margin, bool verbose, ReportInterface &amp;report)</td></tr>
-<tr class="memdesc:ace175bdc5f4a9125a6d80d9ebf07fc30"><td class="mdescLeft">&#160;</td><td class="mdescRight">Display the description of a DirectShow filter graph (Windows-specific).  <a href="namespacets.html#ace175bdc5f4a9125a6d80d9ebf07fc30">More...</a><br /></td></tr>
-<tr class="separator:ace175bdc5f4a9125a6d80d9ebf07fc30"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a910fd7399db097ceca4dbf6e37a574f0"><td class="memItemLeft" align="right" valign="top"><a class="el" href="ts_platform_8h.html#ae1cda62454d23e62fb576be3783aec47">TSDUCKDLL</a> bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacets.html#a910fd7399db097ceca4dbf6e37a574f0">ts::DisplayFilterGraph</a> (std::ostream &amp;strm, const ComPtr&lt;::IGraphBuilder &gt; &amp;graph, const std::string &amp;margin, bool verbose, ReportInterface &amp;report)</td></tr>
-<tr class="memdesc:a910fd7399db097ceca4dbf6e37a574f0"><td class="mdescLeft">&#160;</td><td class="mdescRight">Display the description of a DirectShow filter graph (Windows-specific).  <a href="namespacets.html#a910fd7399db097ceca4dbf6e37a574f0">More...</a><br /></td></tr>
-<tr class="separator:a910fd7399db097ceca4dbf6e37a574f0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6570c7694bc14f1cbca47be686a8171a"><td class="memItemLeft" align="right" valign="top"><a class="el" href="ts_platform_8h.html#ae1cda62454d23e62fb576be3783aec47">TSDUCKDLL</a> bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacets.html#a6570c7694bc14f1cbca47be686a8171a">ts::CreateLocator</a> (ComPtr&lt;::IDigitalLocator &gt; &amp;locator, const TunerParameters &amp;params, ReportInterface &amp;report)</td></tr>
+<tr class="memdesc:a6570c7694bc14f1cbca47be686a8171a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Create a Locator object for tuning parameters.  <a href="namespacets.html#a6570c7694bc14f1cbca47be686a8171a">More...</a><br /></td></tr>
+<tr class="separator:a6570c7694bc14f1cbca47be686a8171a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8742fe819c6ae966c5b2a43d1edffec8"><td class="memItemLeft" align="right" valign="top"><a class="el" href="ts_platform_8h.html#ae1cda62454d23e62fb576be3783aec47">TSDUCKDLL</a> bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacets.html#a8742fe819c6ae966c5b2a43d1edffec8">ts::CreateLocatorDVBC</a> (ComPtr&lt;::IDigitalLocator &gt; &amp;locator, const TunerParametersDVBC &amp;params, ReportInterface &amp;report)</td></tr>
+<tr class="memdesc:a8742fe819c6ae966c5b2a43d1edffec8"><td class="mdescLeft">&#160;</td><td class="mdescRight">Create an IDigitalLocator object for DVB-C parameters.  <a href="namespacets.html#a8742fe819c6ae966c5b2a43d1edffec8">More...</a><br /></td></tr>
+<tr class="separator:a8742fe819c6ae966c5b2a43d1edffec8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a20ca25d768f9633097ace9a145df4c4f"><td class="memItemLeft" align="right" valign="top"><a class="el" href="ts_platform_8h.html#ae1cda62454d23e62fb576be3783aec47">TSDUCKDLL</a> bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacets.html#a20ca25d768f9633097ace9a145df4c4f">ts::CreateLocatorDVBS</a> (ComPtr&lt;::IDigitalLocator &gt; &amp;locator, const TunerParametersDVBS &amp;params, ReportInterface &amp;report)</td></tr>
+<tr class="memdesc:a20ca25d768f9633097ace9a145df4c4f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Create an IDigitalLocator object for DVB-S parameters.  <a href="namespacets.html#a20ca25d768f9633097ace9a145df4c4f">More...</a><br /></td></tr>
+<tr class="separator:a20ca25d768f9633097ace9a145df4c4f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5a3bb38ad0bebe74ed258dfade604b86"><td class="memItemLeft" align="right" valign="top"><a class="el" href="ts_platform_8h.html#ae1cda62454d23e62fb576be3783aec47">TSDUCKDLL</a> bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacets.html#a5a3bb38ad0bebe74ed258dfade604b86">ts::CreateLocatorDVBT</a> (ComPtr&lt;::IDigitalLocator &gt; &amp;locator, const TunerParametersDVBT &amp;params, ReportInterface &amp;report)</td></tr>
+<tr class="memdesc:a5a3bb38ad0bebe74ed258dfade604b86"><td class="mdescLeft">&#160;</td><td class="mdescRight">Create an IDigitalLocator object for DVB-T parameters.  <a href="namespacets.html#a5a3bb38ad0bebe74ed258dfade604b86">More...</a><br /></td></tr>
+<tr class="separator:a5a3bb38ad0bebe74ed258dfade604b86"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8e0c1791e46eb2f92bbf20586fc3c34d"><td class="memItemLeft" align="right" valign="top"><a class="el" href="ts_platform_8h.html#ae1cda62454d23e62fb576be3783aec47">TSDUCKDLL</a> bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacets.html#a8e0c1791e46eb2f92bbf20586fc3c34d">ts::CreateTuneRequest</a> (ComPtr&lt;::ITuneRequest &gt; &amp;request, ::ITuningSpace *tuning_space, const TunerParameters &amp;params, ReportInterface &amp;report)</td></tr>
+<tr class="memdesc:a8e0c1791e46eb2f92bbf20586fc3c34d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Create a DirectShow tune request object from tuning parameters.  <a href="namespacets.html#a8e0c1791e46eb2f92bbf20586fc3c34d">More...</a><br /></td></tr>
+<tr class="separator:a8e0c1791e46eb2f92bbf20586fc3c34d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a16c9dffc3d2445298a1f12f653b2450e"><td class="memItemLeft" align="right" valign="top"><a class="el" href="ts_platform_8h.html#ae1cda62454d23e62fb576be3783aec47">TSDUCKDLL</a> std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacets.html#a16c9dffc3d2445298a1f12f653b2450e">ts::DVBSystemTypeName</a> (::DVBSystemType type)</td></tr>
+<tr class="memdesc:a16c9dffc3d2445298a1f12f653b2450e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the name for a DirectShow <code>DVBSystemType</code> value (Windows-specific).  <a href="namespacets.html#a16c9dffc3d2445298a1f12f653b2450e">More...</a><br /></td></tr>
+<tr class="separator:a16c9dffc3d2445298a1f12f653b2450e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aa269a8b9ad17a6eb5ef511c2e0286b67"><td class="memItemLeft" align="right" valign="top"><a class="el" href="ts_platform_8h.html#ae1cda62454d23e62fb576be3783aec47">TSDUCKDLL</a> bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacets.html#aa269a8b9ad17a6eb5ef511c2e0286b67">ts::EnumerateDevicesByClass</a> (const ::CLSID &amp;clsid, std::vector&lt; ComPtr&lt;::IMoniker &gt;&gt; &amp;monikers, ReportInterface &amp;report)</td></tr>
 <tr class="memdesc:aa269a8b9ad17a6eb5ef511c2e0286b67"><td class="mdescLeft">&#160;</td><td class="mdescRight">Enumerate all devices of the specified class.  <a href="namespacets.html#aa269a8b9ad17a6eb5ef511c2e0286b67">More...</a><br /></td></tr>
 <tr class="separator:aa269a8b9ad17a6eb5ef511c2e0286b67"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a90a8237da12cf198a7d95e872844a9dd"><td class="memItemLeft" align="right" valign="top"><a class="el" href="ts_platform_8h.html#ae1cda62454d23e62fb576be3783aec47">TSDUCKDLL</a> bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacets.html#a90a8237da12cf198a7d95e872844a9dd">ts::GetPin</a> (PinPtrVector &amp;pins, ::IBaseFilter *filter, int flags, ReportInterface &amp;report)</td></tr>
-<tr class="memdesc:a90a8237da12cf198a7d95e872844a9dd"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the list of pins on a DirectShow filter (Windows-specific).  <a href="namespacets.html#a90a8237da12cf198a7d95e872844a9dd">More...</a><br /></td></tr>
-<tr class="separator:a90a8237da12cf198a7d95e872844a9dd"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a002bba8fbd424b0b490cdcb3cc968687"><td class="memItemLeft" align="right" valign="top"><a class="el" href="ts_platform_8h.html#ae1cda62454d23e62fb576be3783aec47">TSDUCKDLL</a> std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacets.html#a002bba8fbd424b0b490cdcb3cc968687">ts::GetTuningSpaceDescription</a> (::ITuningSpace *tuning, ReportInterface &amp;report)</td></tr>
+<tr class="memdesc:a002bba8fbd424b0b490cdcb3cc968687"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get full description of a DirectShow tuning space (Windows-specific).  <a href="namespacets.html#a002bba8fbd424b0b490cdcb3cc968687">More...</a><br /></td></tr>
+<tr class="separator:a002bba8fbd424b0b490cdcb3cc968687"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a81ccd6ebc59fc1f9e52a3f47d04194dd"><td class="memItemLeft" align="right" valign="top"><a class="el" href="ts_platform_8h.html#ae1cda62454d23e62fb576be3783aec47">TSDUCKDLL</a> std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacets.html#a81ccd6ebc59fc1f9e52a3f47d04194dd">ts::GetTuningSpaceFriendlyName</a> (::ITuningSpace *tuning, ReportInterface &amp;report)</td></tr>
 <tr class="memdesc:a81ccd6ebc59fc1f9e52a3f47d04194dd"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the user-friendly name of a DirectShow tuning space (Windows-specific).  <a href="namespacets.html#a81ccd6ebc59fc1f9e52a3f47d04194dd">More...</a><br /></td></tr>
 <tr class="separator:a81ccd6ebc59fc1f9e52a3f47d04194dd"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:afd199f4cef842a363a844c85dfa50f54"><td class="memItemLeft" align="right" valign="top"><a class="el" href="ts_platform_8h.html#ae1cda62454d23e62fb576be3783aec47">TSDUCKDLL</a> std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacets.html#afd199f4cef842a363a844c85dfa50f54">ts::GetTuningSpaceNetworkType</a> (::ITuningSpace *tuning, ReportInterface &amp;report)</td></tr>
+<tr class="memdesc:afd199f4cef842a363a844c85dfa50f54"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the network type of a DirectShow tuning space (Windows-specific).  <a href="namespacets.html#afd199f4cef842a363a844c85dfa50f54">More...</a><br /></td></tr>
+<tr class="separator:afd199f4cef842a363a844c85dfa50f54"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aeb6df875a157273fabeb7e3d1910e9f1"><td class="memItemLeft" align="right" valign="top"><a class="el" href="ts_platform_8h.html#ae1cda62454d23e62fb576be3783aec47">TSDUCKDLL</a> std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacets.html#aeb6df875a157273fabeb7e3d1910e9f1">ts::GetTuningSpaceUniqueName</a> (::ITuningSpace *tuning, ReportInterface &amp;report)</td></tr>
 <tr class="memdesc:aeb6df875a157273fabeb7e3d1910e9f1"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the unique name of a DirectShow tuning space (Windows-specific).  <a href="namespacets.html#aeb6df875a157273fabeb7e3d1910e9f1">More...</a><br /></td></tr>
 <tr class="separator:aeb6df875a157273fabeb7e3d1910e9f1"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ab101089c688f3dc2d73c9e715242e151"><td class="memItemLeft" align="right" valign="top"><a class="el" href="ts_platform_8h.html#ae1cda62454d23e62fb576be3783aec47">TSDUCKDLL</a> bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacets.html#ab101089c688f3dc2d73c9e715242e151">ts::NetworkProviderToTunerType</a> (const ::GUID provider_clsid, TunerType &amp;tuner_type)</td></tr>
-<tr class="memdesc:ab101089c688f3dc2d73c9e715242e151"><td class="mdescLeft">&#160;</td><td class="mdescRight">Translate a DirectShow network provider class id into a TSDuck tuner type (Windows-specific).  <a href="namespacets.html#ab101089c688f3dc2d73c9e715242e151">More...</a><br /></td></tr>
-<tr class="separator:ab101089c688f3dc2d73c9e715242e151"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3da773f34203129dccd6cbbfbb0b4c6b"><td class="memItemLeft" align="right" valign="top"><a class="el" href="ts_platform_8h.html#ae1cda62454d23e62fb576be3783aec47">TSDUCKDLL</a> std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacets.html#a3da773f34203129dccd6cbbfbb0b4c6b">ts::PinDirectionName</a> (::PIN_DIRECTION dir)</td></tr>
+<tr class="memdesc:a3da773f34203129dccd6cbbfbb0b4c6b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the name for a DirectShow pin direction value (Windows-specific).  <a href="namespacets.html#a3da773f34203129dccd6cbbfbb0b4c6b">More...</a><br /></td></tr>
+<tr class="separator:a3da773f34203129dccd6cbbfbb0b4c6b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>DirectShow &amp; BDA utilities, Windows-specific. </p>

@@ -56,6 +56,8 @@ var ts_string_utils_8h =
     [ "LoadAppendStrings", "ts_string_utils_8h.html#ae191ded5f90ee4a10ebdf42e127c2269", null ],
     [ "SaveStrings", "ts_string_utils_8h.html#a97c069b088781066598fa644830e9f84", null ],
     [ "SaveStrings", "ts_string_utils_8h.html#a2dfe3605604a4fe9c52d644912977a70", null ],
+    [ "SaveStrings", "ts_string_utils_8h.html#a988ecb8f562bb0599f1bf6b75b4a5c65", null ],
+    [ "SaveStrings", "ts_string_utils_8h.html#ac4a84abdde4debdddae7616f157274b1", null ],
     [ "AppendContainer", "ts_string_utils_8h.html#ae6e4e88a9c2f7064573fd90c72ff156d", null ],
     [ "AppendContainer", "ts_string_utils_8h.html#ae621d83bb5d17fa06d18f342a75cb06f", null ],
     [ "AssignContainer", "ts_string_utils_8h.html#ad4243f1bbc2cce04db3982f9684f29b7", null ],

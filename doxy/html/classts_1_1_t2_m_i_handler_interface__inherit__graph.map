@@ -1,4 +1,4 @@
 <map id="ts::T2MIHandlerInterface" name="ts::T2MIHandlerInterface">
-<area shape="rect" id="node2" href="$classts_1_1_t_s_analyzer.html" title="A class which analyzes a complete transport stream. " alt="" coords="34,80,143,107"/>
-<area shape="rect" id="node3" href="$classts_1_1_t_s_analyzer_report.html" title="A subclass of TSAnalyzer with reporting capabilities. " alt="" coords="15,155,163,181"/>
+<area shape="rect" id="node2" href="$classts_1_1_t_s_analyzer.html" title="A class which analyzes a complete transport stream. " alt="" coords="35,79,143,104"/>
+<area shape="rect" id="node3" href="$classts_1_1_t_s_analyzer_report.html" title="A subclass of TSAnalyzer with reporting capabilities. " alt="" coords="15,152,163,177"/>
 </map>

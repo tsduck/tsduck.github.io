@@ -7,7 +7,7 @@ var searchData=
   ['waitwork',['waitWork',['../classts_1_1tsp_1_1_plugin_executor.html#abfd01fb1b9e8d16b778bcd97382857ec',1,'ts::tsp::PluginExecutor']]],
   ['warning',['Warning',['../structts_1_1_severity.html#a10bb9659b83b5cde84012d46eb62bded',1,'ts::Severity::Warning()'],['../classts_1_1_report_interface.html#a25688d99afc5b334b3918ad0cff3a1fd',1,'ts::ReportInterface::warning(const std::string &amp;msg)'],['../classts_1_1_report_interface.html#a9e570970d205562202cd5d8bb88004b6',1,'ts::ReportInterface::warning(const UString &amp;msg)'],['../classts_1_1_report_interface.html#a79cc181ca8b1679c8948b9e4433cd6f5',1,'ts::ReportInterface::warning(const char *format,...)']]],
   ['what',['what',['../classts_1_1_exception.html#a5b72eaed9e95c16d83be696591d37e30',1,'ts::Exception']]],
-  ['wide_5foffset',['WIDE_OFFSET',['../namespacets_1_1hexa.html#a490e158f46bf3d8b610cd81e9d6290e6aab927353510dad33d735f4e7b262f2f8',1,'ts::hexa']]],
+  ['wide_5foffset',['WIDE_OFFSET',['../classts_1_1_u_string.html#a95e758037651fab003f10b568b08cb46aeb77a0b83f6ffb378b7aa4bfd2ea92ec',1,'ts::UString::WIDE_OFFSET()'],['../namespacets_1_1hexa.html#a490e158f46bf3d8b610cd81e9d6290e6aab927353510dad33d735f4e7b262f2f8',1,'ts::hexa::WIDE_OFFSET()']]],
   ['width',['width',['../classts_1_1_u_string.html#a34c9e8a315f34bbc971b029af58555a3',1,'ts::UString']]],
   ['win32filetimetomillisecond',['Win32FileTimeToMilliSecond',['../classts_1_1_time.html#a065fd90017d9782055b23550217123b7',1,'ts::Time']]],
   ['win32filetimetoutc',['Win32FileTimeToUTC',['../classts_1_1_time.html#a419e2185515df154691bd5dae35b09db',1,'ts::Time']]],

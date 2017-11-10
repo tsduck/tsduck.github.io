@@ -143,6 +143,9 @@ Macros</h2></td></tr>
 #define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="ts_platform_8h.html#ad317b3747022b95c9480dfeba2b75ea4">TS_CXX11</a></td></tr>
 <tr class="memdesc:ad317b3747022b95c9480dfeba2b75ea4"><td class="mdescLeft">&#160;</td><td class="mdescRight">Defined when the compiler is compliant with C++11. <br /></td></tr>
 <tr class="separator:ad317b3747022b95c9480dfeba2b75ea4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9b8277fec43d24836efef428ae3e8018"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="ts_platform_8h.html#a9b8277fec43d24836efef428ae3e8018">TS_CXX11_STRING</a></td></tr>
+<tr class="memdesc:a9b8277fec43d24836efef428ae3e8018"><td class="mdescLeft">&#160;</td><td class="mdescRight">Defined when the STL <code>basic_string</code> is compliant with C++11.  <a href="#a9b8277fec43d24836efef428ae3e8018">More...</a><br /></td></tr>
+<tr class="separator:a9b8277fec43d24836efef428ae3e8018"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a6784e414a09f093de3b999406ab0c16c"><td class="memItemLeft" align="right" valign="top"><a id="a6784e414a09f093de3b999406ab0c16c"></a>
 #define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="ts_platform_8h.html#a6784e414a09f093de3b999406ab0c16c">TS_CXX14</a></td></tr>
 <tr class="memdesc:a6784e414a09f093de3b999406ab0c16c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Defined when the compiler is compliant with C++14. <br /></td></tr>
@@ -799,6 +802,23 @@ Solving various compilation issues</h1>
 
 <p>GCC version, encoded as an integer. </p>
 <p>Example: 40801 for GCC 4.8.1. Undefined when the compiler is not GCC or its version is unknown. </p>
+
+</div>
+</div>
+<a id="a9b8277fec43d24836efef428ae3e8018"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9b8277fec43d24836efef428ae3e8018">&#9670;&nbsp;</a></span>TS_CXX11_STRING</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define TS_CXX11_STRING</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Defined when the STL <code>basic_string</code> is compliant with C++11. </p>
+<p>The class <code>basic_string</code> from the C++ STL has more features starting with C++11. However, GCC does not support them with old versions, even if &ndash;std=c++11 or 14 is specified. The level of language is increased but not the level of STL. </p>
 
 </div>
 </div>

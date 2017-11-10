@@ -139,7 +139,9 @@ var files =
     [ "tsComponentDescriptor.h", "ts_component_descriptor_8h.html", [
       [ "ComponentDescriptor", "classts_1_1_component_descriptor.html", "classts_1_1_component_descriptor" ]
     ] ],
-    [ "tsComPtr.h", "ts_com_ptr_8h.html", "ts_com_ptr_8h" ],
+    [ "tsComPtr.h", "ts_com_ptr_8h.html", [
+      [ "ComPtr", "classts_1_1_com_ptr.html", "classts_1_1_com_ptr" ]
+    ] ],
     [ "tsComUtils.h", "ts_com_utils_8h.html", "ts_com_utils_8h" ],
     [ "tsCondition.h", "ts_condition_8h.html", [
       [ "Condition", "classts_1_1_condition.html", "classts_1_1_condition" ],
@@ -193,6 +195,15 @@ var files =
     ] ],
     [ "tsDescriptorList.h", "ts_descriptor_list_8h.html", [
       [ "DescriptorList", "classts_1_1_descriptor_list.html", "classts_1_1_descriptor_list" ]
+    ] ],
+    [ "tsDirectShowFilterCategory.h", "ts_direct_show_filter_category_8h.html", [
+      [ "DirectShowFilterCategory", "classts_1_1_direct_show_filter_category.html", "classts_1_1_direct_show_filter_category" ]
+    ] ],
+    [ "tsDirectShowGraph.h", "ts_direct_show_graph_8h.html", [
+      [ "DirectShowGraph", "classts_1_1_direct_show_graph.html", "classts_1_1_direct_show_graph" ]
+    ] ],
+    [ "tsDirectShowTest.h", "ts_direct_show_test_8h.html", [
+      [ "DirectShowTest", "classts_1_1_direct_show_test.html", "classts_1_1_direct_show_test" ]
     ] ],
     [ "tsDirectShowUtils.h", "ts_direct_show_utils_8h.html", "ts_direct_show_utils_8h" ],
     [ "tsDoubleCheckLock.h", "ts_double_check_lock_8h.html", [
