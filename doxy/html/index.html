@@ -95,28 +95,20 @@ $(document).ready(function(){initNavTree('index.html','');});
 <div class="title">TSDuck MPEG Transport Stream Library for C++ </div>  </div>
 </div><!--header-->
 <div class="contents">
-<div class="toc"><h3>Table of Contents</h3>
-<ul><li class="level1"><a href="#overview">Overview</a></li>
-<li class="level1"><a href="#codestruct">Code structure</a></li>
+<div class="textblock"><p>TSDuck is a toolkit which manipulates MPEG Transport Streams (TS).As a product, TSDuck provides many different command-line tools and plugins.</p>
+<p>Internally, the architecture of TSDuck is made of a large shareable library (<code>tsduck.dll</code> on Windows, <code>tsduck.so</code> on Linux and macOS). Most of the valuable processing is performed by the various C++ classes from the TSDuck library. All command-line tools and plugins are usually small wrappers around this library.</p>
+<p>The TSDuck library offers generic C++ classes for operating systems features as well as specialized classes for MPEG/DVB transport streams. This library can be used as a general-purpose C++ library for third-party applications, outside the TSDuck tools and plugins.</p>
+<p>This set of documentation is a reference for the TSDuck library. It can be used either by TSDuck maintainers and developers of third-party applications.</p>
+<p>For developers of third-party applications:</p><ul>
+<li><a class="el" href="usinglibrary.html">Referencing the TSDuck library from your application</a></li>
+<li><a class="el" href="libtutorial.html">A tutorial on the TSDuck C++ classes</a></li>
+<li><a href="classes.html">C++ classes</a></li>
+<li><a href="files.html">Header files</a></li>
 </ul>
-</div>
-<div class="textblock"><h1><a class="anchor" id="overview"></a>
-Overview</h1>
-<p>The TSDuck library contains general-purpose C++ classes and utilities to handle MPEG transport streams.</p>
-<p>Most of the code in TSDuck is located inside this library which is named <code>tsduck.dll</code> on Windows and <code>tsduck.so</code> on Linux and MacOS systems. All TSDuck commands, executables and plugins, are just small wrappers around common code in the library.</p>
-<h1><a class="anchor" id="codestruct"></a>
-Code structure</h1>
-<p>Roughly, the TSDuck library provides two categories of features:</p><ul>
-<li>Operating system abstraction layer to make the application code fully portable between heterogeneous platforms. This is similar to frameworks such as Qt, but much more lightweight.</li>
-<li>MPEG Transport Stream manipulation.</li>
+<p>For TSDuck maintainers:</p><ul>
+<li><a class="el" href="building.html">Building TSDuck</a></li>
+<li><a class="el" href="devplugin.html">A tutorial on developing TSP Plugins</a> </li>
 </ul>
-<p>All C++ declarations are located inside the namespace <code>ts</code>, either directly within <code>ts</code> or inside inner namespaces. All preprocessor's macros are named with prefix <code>TS_</code>.</p>
-<p>The file <a class="el" href="ts_platform_8h.html" title="Cross-platforms portable base definitions for the TSDuck project. ">tsPlatform.h</a> contains some very low level definitions such as macros defining the environment (processor, compiler, operating system, endianness), byte and bit manipulation, etc.</p>
-<p>The file <a class="el" href="ts_string_utils_8h.html" title="Declare some utilities on standard strings. ">tsStringUtils.h</a> declares utility functions to manipulate standard strings (<code>std::string</code>). The file <a class="el" href="ts_sys_utils_8h.html" title="Various system utilities. ">tsSysUtils.h</a> declares utility functions on top of the operating system and file system.</p>
-<p>The class <a class="el" href="classts_1_1_time.html" title="The Time class implements a basic representation of time. ">ts::Time</a> is a portable implementation of time (both local and UTC time). The class <a class="el" href="classts_1_1_args.html" title="An encapsulation of command line syntax and analysis. ">ts::Args</a> implements a generic handling of command line arguments.</p>
-<p>The class <a class="el" href="classts_1_1_block_cipher.html" title="Abstract interface of block ciphers. ">ts::BlockCipher</a> is the root of a hierarchy of symmetric cryptography classes, including chaining modes.</p>
-<p>TSDuck is heavily multi-threaded. Threading and synchronization are implemented through classes such as <a class="el" href="classts_1_1_thread.html" title="Base class for threads. ">ts::Thread</a>, <a class="el" href="classts_1_1_mutex.html" title="A mutex implementation which is compatible with the ts::Thread class. ">ts::Mutex</a>, <a class="el" href="classts_1_1_condition.html" title="Implementation of the synchronization condition design pattern. ">ts::Condition</a>, etc.</p>
-<p>TSDuck relies on C++ mechanisms to track the usage of resources. The library provides mechanisms to ensure that no dangling lock is lost through the <em>guard design pattern</em> (classes <a class="el" href="classts_1_1_guard.html" title="Automatic guard class for mutex (ts::MutexInterface). ">ts::Guard</a> and <a class="el" href="classts_1_1_guard_condition.html" title="Automatic guard class for synchronization condition (ts::Condition). ">ts::GuardCondition</a>). The memory management is entirely based on the <em>smart pointer design pattern</em> (class <a class="el" href="classts_1_1_safe_ptr.html" title="Template safe pointer (reference-counted, auto-delete, thread-safe). ">ts::SafePtr</a>). All dynamically allocated objected are managed using smart pointers. Thus, coding in C++ is as simple as in Java: simply allocate objects and forget about memory management. When an object is no longer referenced, it is automatically deallocated. Extensive testing using tools like valgrind have proven this to be true. </p>
 </div></div><!-- contents -->
 </div><!-- doc-content -->
 <!-- HTML footer for doxygen 1.8.12-->

@@ -1,10 +1,7 @@
 var NAVTREE =
 [
   [ "TSDuck", "index.html", [
-    [ "TSDuck MPEG Transport Stream Library for C++", "index.html", [
-      [ "Overview", "index.html#overview", null ],
-      [ "Code structure", "index.html#codestruct", null ]
-    ] ],
+    [ "TSDuck MPEG Transport Stream Library for C++", "index.html", null ],
     [ "Building TSDuck", "building.html", [
       [ "Pre-requisites: build tools", "building.html#buildreq", [
         [ "Windows", "building.html#reqwindows", null ],
@@ -34,6 +31,46 @@ var NAVTREE =
       [ "TSP design", "devplugin.html#pdevdesign", [
         [ "Plugin Executors", "devplugin.html#pdevexec", null ],
         [ "Transport packets buffer", "devplugin.html#pdevbuffer", null ]
+      ] ]
+    ] ],
+    [ "TSDuck Library Tutorial", "libtutorial.html", [
+      [ "C++ features", "libtutorial.html#cppfeatures", [
+        [ "Portability issues", "libtutorial.html#portability", null ],
+        [ "C++ strings", "libtutorial.html#cppstrings", null ],
+        [ "Unicode strings", "libtutorial.html#unicodestring", null ],
+        [ "Binary data", "libtutorial.html#bindata", null ],
+        [ "Memory management", "libtutorial.html#memmgmt", null ],
+        [ "Variables, singletons and static data", "libtutorial.html#singletons", null ],
+        [ "Error reporting", "libtutorial.html#errreport", null ],
+        [ "Exceptions", "libtutorial.html#except", null ],
+        [ "Pseudo-enumeration data", "libtutorial.html#enums", null ],
+        [ "Command-line arguments", "libtutorial.html#cmdargs", null ],
+        [ "XML data", "libtutorial.html#tinyxml", null ]
+      ] ],
+      [ "Cryptography", "libtutorial.html#crypto", null ],
+      [ "Operating system features", "libtutorial.html#osfeatures", [
+        [ "Miscelleaneous system utilities", "libtutorial.html#sysutils", null ],
+        [ "Time", "libtutorial.html#time", null ],
+        [ "Multithreading", "libtutorial.html#multithread", null ],
+        [ "Virtual memory", "libtutorial.html#virtmem", null ],
+        [ "Processes", "libtutorial.html#processes", null ],
+        [ "Networking", "libtutorial.html#networking", null ],
+        [ "Shared libraries", "libtutorial.html#sharelibs", null ],
+        [ "Smart-card interface", "libtutorial.html#pcscinterface", null ],
+        [ "Windows specificities", "libtutorial.html#wincom", null ]
+      ] ],
+      [ "MPEG/DVB features", "libtutorial.html#mpegfeatures", [
+        [ "Transport streams", "libtutorial.html#tsclasses", null ],
+        [ "Audio, video and PES packets", "libtutorial.html#audiovideopes", null ],
+        [ "Signalization", "libtutorial.html#siclasses", [
+          [ "Binary, specialized and XML formats", "libtutorial.html#sigformats", null ],
+          [ "Demux and packetization", "libtutorial.html#demux", null ]
+        ] ],
+        [ "DVB SimulCrypt protocols", "libtutorial.html#dvbprotocols", null ],
+        [ "Conditional access systems", "libtutorial.html#cassupport", null ],
+        [ "Other forms of demux", "libtutorial.html#otherdemux", null ],
+        [ "DVB tuners", "libtutorial.html#dvbtuners", null ],
+        [ "Interface to Dektec devices", "libtutorial.html#dektecops", null ]
       ] ]
     ] ],
     [ "Using the TSDuck library", "usinglibrary.html", [
@@ -94,19 +131,19 @@ var NAVTREEINDEX =
 "classts_1_1_u_string.html#ab3bc5c2b2f8ad7532406fbee57ccf958",
 "classts_1_1ecmgscs_1_1_e_c_m_response.html#a603e692458a476bcca7136fd60fe25f3",
 "classts_1_1tlv_1_1_serializer.html#a5f1a95f34c11935cc600fb2b9de9d7ce",
-"namespacemembers_g.html",
-"structts_1_1_teletext_descriptor_1_1_entry.html#abe3e7a18884d717b194d9fb23e4a1187",
-"ts_block_cipher_8h.html",
-"ts_m_p_e_g_8h.html#a3707cedfb26068131a6836830eed63cfac447f599bc69b47e2948ae391908a7d7",
-"ts_m_p_e_g_8h.html#ad86644912ed316d3a3109e2c313bf797a2af1d6c31d8836d4c5fbc77a6ce3e229",
-"ts_m_p_e_g_8h.html#af527bab7b821ddcd06cec9ee953c67f3a5ba212c1c98888b29fa6e0de352c978a",
-"ts_p_c_s_c_8h.html#a34b789a747e2d3b349a7e20a029e6c2c",
-"ts_scrambling_8h.html",
-"ts_u_char_8h.html#a034004c2f646d861311692fe8c0e0787",
-"ts_u_char_8h.html#a3e67346915c1a7eeee2842e01c485aee",
-"ts_u_char_8h.html#a871813397bc79b8cb3ade9acfb7bba0c",
-"ts_u_char_8h.html#ad2949878c66850c1599e62616e760b5f",
-"utest_cpp_unit_test_8h.html#a20e2d672bf6c4138c8203331715f7015"
+"namespacemembers_eval_p.html",
+"structts_1_1_t_s_packet.html#a7a6c2bd13800cf13e4fd01c4e2eade2d",
+"ts_abstract_c_a_s_date_8h.html",
+"ts_m_p_e_g_8h.html#a1e45472f30bc4d666df244802b6b39c2ad10f4bcd83245878b2f8937b1fa5dc56",
+"ts_m_p_e_g_8h.html#ad86644912ed316d3a3109e2c313bf797a0310b81faabaf896e97890baef588bb9",
+"ts_m_p_e_g_8h.html#ae56343654e2b01380409afc12dd2b037a968214a88cb501e18da563ea2b17b3ee",
+"ts_names_8h.html#ad01b2604fc1b9fcaa4cbcbea333d8bfca79d7ca23e25e4e818ccb4cabe1444d90",
+"ts_poll_files_8h.html",
+"ts_to_integer_8h.html#ab506bc57d5f6261a6b32aa548cec7c50",
+"ts_u_char_8h.html#a36dc9fe70e3988745ea76e376ccf6c8f",
+"ts_u_char_8h.html#a7efd0d0f87464011b3753859ae4d9b84",
+"ts_u_char_8h.html#acac03c7bf9619f115c6f8e32e76acd02",
+"tstlv_8h.html#a8a60aed0fb72f9faef47e8c7e5beef94"
 ];
 
 var SYNCONMSG = 'click to disable panel synchronisation';

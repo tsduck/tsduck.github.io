@@ -117,24 +117,24 @@ Namespaces</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="define-members"></a>
 Macros</h2></td></tr>
-<tr class="memitem:a34b8105ee049b713dcc96cb63a05de93"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="ts_singleton_manager_8h.html#a34b8105ee049b713dcc96cb63a05de93">tsDeclareSingleton</a>(classname)</td></tr>
-<tr class="memdesc:a34b8105ee049b713dcc96cb63a05de93"><td class="mdescLeft">&#160;</td><td class="mdescRight">Singleton class declaration.  <a href="#a34b8105ee049b713dcc96cb63a05de93">More...</a><br /></td></tr>
-<tr class="separator:a34b8105ee049b713dcc96cb63a05de93"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aee6b63de3682c99e11687f2dfd2aabff"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="ts_singleton_manager_8h.html#aee6b63de3682c99e11687f2dfd2aabff">tsDefineSingleton</a>(fullclassname)</td></tr>
-<tr class="memdesc:aee6b63de3682c99e11687f2dfd2aabff"><td class="mdescLeft">&#160;</td><td class="mdescRight">Singleton class definition.  <a href="#aee6b63de3682c99e11687f2dfd2aabff">More...</a><br /></td></tr>
-<tr class="separator:aee6b63de3682c99e11687f2dfd2aabff"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a526dbf8321e5c6cd67ff16b871a10718"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="ts_singleton_manager_8h.html#a526dbf8321e5c6cd67ff16b871a10718">TS_DECLARE_SINGLETON</a>(classname)</td></tr>
+<tr class="memdesc:a526dbf8321e5c6cd67ff16b871a10718"><td class="mdescLeft">&#160;</td><td class="mdescRight">Singleton class declaration.  <a href="#a526dbf8321e5c6cd67ff16b871a10718">More...</a><br /></td></tr>
+<tr class="separator:a526dbf8321e5c6cd67ff16b871a10718"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aaf59eddceac20e0dfb3b4bab3e5e8025"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="ts_singleton_manager_8h.html#aaf59eddceac20e0dfb3b4bab3e5e8025">TS_DEFINE_SINGLETON</a>(fullclassname)</td></tr>
+<tr class="memdesc:aaf59eddceac20e0dfb3b4bab3e5e8025"><td class="mdescLeft">&#160;</td><td class="mdescRight">Singleton class definition.  <a href="#aaf59eddceac20e0dfb3b4bab3e5e8025">More...</a><br /></td></tr>
+<tr class="separator:aaf59eddceac20e0dfb3b4bab3e5e8025"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>Helper for singleton definition. </p>
 </div><h2 class="groupheader">Macro Definition Documentation</h2>
-<a id="a34b8105ee049b713dcc96cb63a05de93"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a34b8105ee049b713dcc96cb63a05de93">&#9670;&nbsp;</a></span>tsDeclareSingleton</h2>
+<a id="a526dbf8321e5c6cd67ff16b871a10718"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a526dbf8321e5c6cd67ff16b871a10718">&#9670;&nbsp;</a></span>TS_DECLARE_SINGLETON</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">#define tsDeclareSingleton</td>
+          <td class="memname">#define TS_DECLARE_SINGLETON</td>
           <td>(</td>
           <td class="paramtype">&#160;</td>
           <td class="paramname">classname</td><td>)</td>
@@ -144,24 +144,24 @@ Macros</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Singleton class declaration. </p>
-<p>The macro tsDeclareSingleton must be used inside the singleton class declaration. </p><dl class="params"><dt>Parameters</dt><dd>
+<p>The macro TS_DECLARE_SINGLETON must be used inside the singleton class declaration. </p><dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramname">classname</td><td>Name of the singleton class, without namespace or outer class name.</td></tr>
   </table>
   </dd>
 </dl>
-<p>Example code: </p><div class="fragment"><div class="line"><span class="comment">// File: MySingle.h</span></div><div class="line"><span class="keyword">namespace </span>foo {</div><div class="line">    <span class="keyword">class </span>MySingle {</div><div class="line">       <a class="code" href="ts_singleton_manager_8h.html#a34b8105ee049b713dcc96cb63a05de93">tsDeclareSingleton</a>(MySingle);</div><div class="line">       ....</div></div><!-- fragment --><p>The class becomes a singleton, under control of the SingletonManager. Use static Instance() method to get the instance of the singleton. </p><dl class="section see"><dt>See also</dt><dd><a class="el" href="ts_singleton_manager_8h.html#aee6b63de3682c99e11687f2dfd2aabff" title="Singleton class definition. ">tsDefineSingleton()</a> </dd></dl>
+<p>Example code: </p><div class="fragment"><div class="line"><span class="comment">// File: MySingle.h</span></div><div class="line"><span class="keyword">namespace </span>foo {</div><div class="line">    <span class="keyword">class </span>MySingle {</div><div class="line">       <a class="code" href="ts_singleton_manager_8h.html#a526dbf8321e5c6cd67ff16b871a10718">TS_DECLARE_SINGLETON</a>(MySingle);</div><div class="line">       ....</div></div><!-- fragment --><p>The class becomes a singleton, under control of the SingletonManager. Use static Instance() method to get the instance of the singleton. </p><dl class="section see"><dt>See also</dt><dd><a class="el" href="ts_singleton_manager_8h.html#aaf59eddceac20e0dfb3b4bab3e5e8025" title="Singleton class definition. ">TS_DEFINE_SINGLETON()</a> </dd></dl>
 
 </div>
 </div>
-<a id="aee6b63de3682c99e11687f2dfd2aabff"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aee6b63de3682c99e11687f2dfd2aabff">&#9670;&nbsp;</a></span>tsDefineSingleton</h2>
+<a id="aaf59eddceac20e0dfb3b4bab3e5e8025"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aaf59eddceac20e0dfb3b4bab3e5e8025">&#9670;&nbsp;</a></span>TS_DEFINE_SINGLETON</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">#define tsDefineSingleton</td>
+          <td class="memname">#define TS_DEFINE_SINGLETON</td>
           <td>(</td>
           <td class="paramtype">&#160;</td>
           <td class="paramname">fullclassname</td><td>)</td>
@@ -171,13 +171,13 @@ Macros</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Singleton class definition. </p>
-<p>The macro tsDefineSingleton must be used in the implementation of a singleton class. </p><dl class="params"><dt>Parameters</dt><dd>
+<p>The macro TS_DEFINE_SINGLETON must be used in the implementation of a singleton class. </p><dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramname">fullclassname</td><td>Fully qualified name of the singleton class.</td></tr>
   </table>
   </dd>
 </dl>
-<p>Example code: </p><div class="fragment"><div class="line"><span class="comment">// File: MySingle.cpp</span></div><div class="line"><span class="preprocessor">#include &quot;MySingle.h&quot;</span></div><div class="line"></div><div class="line"><a class="code" href="ts_singleton_manager_8h.html#aee6b63de3682c99e11687f2dfd2aabff">tsDefineSingleton</a>(foo::MySingle);</div><div class="line"></div><div class="line">foo::MySingle::MySingle() : ... { ... }</div><div class="line">....</div></div><!-- fragment --> <dl class="section see"><dt>See also</dt><dd><a class="el" href="ts_singleton_manager_8h.html#a34b8105ee049b713dcc96cb63a05de93" title="Singleton class declaration. ">tsDeclareSingleton()</a> </dd></dl>
+<p>Example code: </p><div class="fragment"><div class="line"><span class="comment">// File: MySingle.cpp</span></div><div class="line"><span class="preprocessor">#include &quot;MySingle.h&quot;</span></div><div class="line"></div><div class="line"><a class="code" href="ts_singleton_manager_8h.html#aaf59eddceac20e0dfb3b4bab3e5e8025">TS_DEFINE_SINGLETON</a>(foo::MySingle);</div><div class="line"></div><div class="line">foo::MySingle::MySingle() : ... { ... }</div><div class="line">....</div></div><!-- fragment --> <dl class="section see"><dt>See also</dt><dd><a class="el" href="ts_singleton_manager_8h.html#a526dbf8321e5c6cd67ff16b871a10718" title="Singleton class declaration. ">TS_DECLARE_SINGLETON()</a> </dd></dl>
 
 </div>
 </div>
