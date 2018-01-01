@@ -34,7 +34,7 @@
  <tr style="height: 56px;">
   <td id="projectlogo"><img src="tsduck-32.png"/></td>
    <td id="projectalign"><span id="projectname">TSDuck</span>
-    <span id="projectnumber">Version 3.4</span>
+    <span id="projectnumber">Version 3.5</span>
     <span id="projectbrief">(TSDuck - The MPEG Transport Stream Toolkit)</span>
    </td>
    <td>        <div id="MSearchBox" class="MSearchBoxInactive">
@@ -137,9 +137,9 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a8d3aa54ef0abfa2ec5030cc32bed36e8"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classts_1_1_i_p_address.html#a8d3aa54ef0abfa2ec5030cc32bed36e8">IPAddress</a> (const ::sockaddr_in &amp;a)</td></tr>
 <tr class="memdesc:a8d3aa54ef0abfa2ec5030cc32bed36e8"><td class="mdescLeft">&#160;</td><td class="mdescRight">Constructor from a system "struct sockaddr_in" structure (socket API).  <a href="#a8d3aa54ef0abfa2ec5030cc32bed36e8">More...</a><br /></td></tr>
 <tr class="separator:a8d3aa54ef0abfa2ec5030cc32bed36e8"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ad3b4e1326e978786dc07e074bb379557"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classts_1_1_i_p_address.html#ad3b4e1326e978786dc07e074bb379557">IPAddress</a> (const std::string &amp;name, <a class="el" href="classts_1_1_report_interface.html">ReportInterface</a> &amp;report=(*<a class="el" href="classts_1_1_cerr_report.html#ad5fc721c37e1eceab55d90f8c76ff6b6">ts::CerrReport::Instance</a>()))</td></tr>
-<tr class="memdesc:ad3b4e1326e978786dc07e074bb379557"><td class="mdescLeft">&#160;</td><td class="mdescRight">Constructor from a string, host name or "a.b.c.d" integer format.  <a href="#ad3b4e1326e978786dc07e074bb379557">More...</a><br /></td></tr>
-<tr class="separator:ad3b4e1326e978786dc07e074bb379557"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af919fd8352541d0a0aee23698d884022"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classts_1_1_i_p_address.html#af919fd8352541d0a0aee23698d884022">IPAddress</a> (const <a class="el" href="classts_1_1_u_string.html">UString</a> &amp;name, <a class="el" href="classts_1_1_report.html">Report</a> &amp;report=(*<a class="el" href="classts_1_1_cerr_report.html#ad5fc721c37e1eceab55d90f8c76ff6b6">ts::CerrReport::Instance</a>()))</td></tr>
+<tr class="memdesc:af919fd8352541d0a0aee23698d884022"><td class="mdescLeft">&#160;</td><td class="mdescRight">Constructor from a string, host name or "a.b.c.d" integer format.  <a href="#af919fd8352541d0a0aee23698d884022">More...</a><br /></td></tr>
+<tr class="separator:af919fd8352541d0a0aee23698d884022"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ad5c7d881ef13d2e24c361a4711f8872c"><td class="memItemLeft" align="right" valign="top"><a id="ad5c7d881ef13d2e24c361a4711f8872c"></a>
 virtual&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classts_1_1_i_p_address.html#ad5c7d881ef13d2e24c361a4711f8872c">~IPAddress</a> ()</td></tr>
 <tr class="memdesc:ad5c7d881ef13d2e24c361a4711f8872c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Virtual destructor. <br /></td></tr>
@@ -166,25 +166,24 @@ void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="clas
 <tr class="memitem:a28c23bf6e13a1e6992acfc1b6a4bbc49"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classts_1_1_i_p_address.html#a28c23bf6e13a1e6992acfc1b6a4bbc49">isMulticast</a> () const</td></tr>
 <tr class="memdesc:a28c23bf6e13a1e6992acfc1b6a4bbc49"><td class="mdescLeft">&#160;</td><td class="mdescRight">Check if the address is a multicast address.  <a href="#a28c23bf6e13a1e6992acfc1b6a4bbc49">More...</a><br /></td></tr>
 <tr class="separator:a28c23bf6e13a1e6992acfc1b6a4bbc49"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a3d4434b6880a1828907dc1643575f7cd"><td class="memItemLeft" align="right" valign="top"><a id="a3d4434b6880a1828907dc1643575f7cd"></a>
-&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classts_1_1_i_p_address.html#a3d4434b6880a1828907dc1643575f7cd">operator std::string</a> () const</td></tr>
-<tr class="memdesc:a3d4434b6880a1828907dc1643575f7cd"><td class="mdescLeft">&#160;</td><td class="mdescRight">Convert to a string object in numeric format "a.b.c.d". <br /></td></tr>
-<tr class="separator:a3d4434b6880a1828907dc1643575f7cd"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a95c04078e1673a1d5526e2676d94a117"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classts_1_1_i_p_address.html#a95c04078e1673a1d5526e2676d94a117">operator!=</a> (const <a class="el" href="classts_1_1_i_p_address.html">IPAddress</a> &amp;a) const</td></tr>
 <tr class="memdesc:a95c04078e1673a1d5526e2676d94a117"><td class="mdescLeft">&#160;</td><td class="mdescRight">Unequality operator.  <a href="#a95c04078e1673a1d5526e2676d94a117">More...</a><br /></td></tr>
 <tr class="separator:a95c04078e1673a1d5526e2676d94a117"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a1eacc2b13a5ba0b03a2c228c7995b0e8"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classts_1_1_i_p_address.html#a1eacc2b13a5ba0b03a2c228c7995b0e8">operator==</a> (const <a class="el" href="classts_1_1_i_p_address.html">IPAddress</a> &amp;a) const</td></tr>
 <tr class="memdesc:a1eacc2b13a5ba0b03a2c228c7995b0e8"><td class="mdescLeft">&#160;</td><td class="mdescRight">Equality operator.  <a href="#a1eacc2b13a5ba0b03a2c228c7995b0e8">More...</a><br /></td></tr>
 <tr class="separator:a1eacc2b13a5ba0b03a2c228c7995b0e8"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a5b25da0a21fec7e892d9c177061ae7b9"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classts_1_1_i_p_address.html#a5b25da0a21fec7e892d9c177061ae7b9">resolve</a> (const std::string &amp;name, <a class="el" href="classts_1_1_report_interface.html">ReportInterface</a> &amp;report=(*<a class="el" href="classts_1_1_cerr_report.html#ad5fc721c37e1eceab55d90f8c76ff6b6">ts::CerrReport::Instance</a>()))</td></tr>
-<tr class="memdesc:a5b25da0a21fec7e892d9c177061ae7b9"><td class="mdescLeft">&#160;</td><td class="mdescRight">Decode a string, numeric address or hostname which is resolved.  <a href="#a5b25da0a21fec7e892d9c177061ae7b9">More...</a><br /></td></tr>
-<tr class="separator:a5b25da0a21fec7e892d9c177061ae7b9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac8fb17f55d6eb06fa0224e17f325c66d"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classts_1_1_i_p_address.html#ac8fb17f55d6eb06fa0224e17f325c66d">resolve</a> (const <a class="el" href="classts_1_1_u_string.html">UString</a> &amp;name, <a class="el" href="classts_1_1_report.html">Report</a> &amp;report=(*<a class="el" href="classts_1_1_cerr_report.html#ad5fc721c37e1eceab55d90f8c76ff6b6">ts::CerrReport::Instance</a>()))</td></tr>
+<tr class="memdesc:ac8fb17f55d6eb06fa0224e17f325c66d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Decode a string, numeric address or hostname which is resolved.  <a href="#ac8fb17f55d6eb06fa0224e17f325c66d">More...</a><br /></td></tr>
+<tr class="separator:ac8fb17f55d6eb06fa0224e17f325c66d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a1b6e8088f3846d8b1c631f5b30a6ecf5"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classts_1_1_i_p_address.html#a1b6e8088f3846d8b1c631f5b30a6ecf5">setAddress</a> (uint32_t addr)</td></tr>
 <tr class="memdesc:a1b6e8088f3846d8b1c631f5b30a6ecf5"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set the IP address from a 32-bit integer value in host byte order.  <a href="#a1b6e8088f3846d8b1c631f5b30a6ecf5">More...</a><br /></td></tr>
 <tr class="separator:a1b6e8088f3846d8b1c631f5b30a6ecf5"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ad40f4d37fba7d7fcc68776cd82dcdbb0"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classts_1_1_i_p_address.html#ad40f4d37fba7d7fcc68776cd82dcdbb0">setAddress</a> (uint8_t b1, uint8_t b2, uint8_t b3, uint8_t b4)</td></tr>
 <tr class="memdesc:ad40f4d37fba7d7fcc68776cd82dcdbb0"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set the IP address from 4 bytes (classical IPv4 notation).  <a href="#ad40f4d37fba7d7fcc68776cd82dcdbb0">More...</a><br /></td></tr>
 <tr class="separator:ad40f4d37fba7d7fcc68776cd82dcdbb0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a865370fb7ad0d8c205654d31b6e50667"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="classts_1_1_u_string.html">UString</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classts_1_1_i_p_address.html#a865370fb7ad0d8c205654d31b6e50667">toString</a> () const</td></tr>
+<tr class="memdesc:a865370fb7ad0d8c205654d31b6e50667"><td class="mdescLeft">&#160;</td><td class="mdescRight">Convert to a string object in numeric format "a.b.c.d".  <a href="#a865370fb7ad0d8c205654d31b6e50667">More...</a><br /></td></tr>
+<tr class="separator:a865370fb7ad0d8c205654d31b6e50667"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-static-attribs"></a>
 Static Public Attributes</h2></td></tr>
@@ -371,8 +370,8 @@ static const uint32_t&#160;</td><td class="memItemRight" valign="bottom"><a clas
 
 </div>
 </div>
-<a id="ad3b4e1326e978786dc07e074bb379557"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ad3b4e1326e978786dc07e074bb379557">&#9670;&nbsp;</a></span>IPAddress() <span class="overload">[6/6]</span></h2>
+<a id="af919fd8352541d0a0aee23698d884022"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af919fd8352541d0a0aee23698d884022">&#9670;&nbsp;</a></span>IPAddress() <span class="overload">[6/6]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -383,13 +382,13 @@ static const uint32_t&#160;</td><td class="memItemRight" valign="bottom"><a clas
         <tr>
           <td class="memname">ts::IPAddress::IPAddress </td>
           <td>(</td>
-          <td class="paramtype">const std::string &amp;&#160;</td>
+          <td class="paramtype">const <a class="el" href="classts_1_1_u_string.html">UString</a> &amp;&#160;</td>
           <td class="paramname"><em>name</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="classts_1_1_report_interface.html">ReportInterface</a> &amp;&#160;</td>
+          <td class="paramtype"><a class="el" href="classts_1_1_report.html">Report</a> &amp;&#160;</td>
           <td class="paramname"><em>report</em> = <code>(*<a class="el" href="classts_1_1_cerr_report.html#ad5fc721c37e1eceab55d90f8c76ff6b6">ts::CerrReport::Instance</a>())</code>&#160;</td>
         </tr>
         <tr>
@@ -764,8 +763,8 @@ static const uint32_t&#160;</td><td class="memItemRight" valign="bottom"><a clas
 
 </div>
 </div>
-<a id="a5b25da0a21fec7e892d9c177061ae7b9"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a5b25da0a21fec7e892d9c177061ae7b9">&#9670;&nbsp;</a></span>resolve()</h2>
+<a id="ac8fb17f55d6eb06fa0224e17f325c66d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac8fb17f55d6eb06fa0224e17f325c66d">&#9670;&nbsp;</a></span>resolve()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -773,13 +772,13 @@ static const uint32_t&#160;</td><td class="memItemRight" valign="bottom"><a clas
         <tr>
           <td class="memname">bool ts::IPAddress::resolve </td>
           <td>(</td>
-          <td class="paramtype">const std::string &amp;&#160;</td>
+          <td class="paramtype">const <a class="el" href="classts_1_1_u_string.html">UString</a> &amp;&#160;</td>
           <td class="paramname"><em>name</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="classts_1_1_report_interface.html">ReportInterface</a> &amp;&#160;</td>
+          <td class="paramtype"><a class="el" href="classts_1_1_report.html">Report</a> &amp;&#160;</td>
           <td class="paramname"><em>report</em> = <code>(*<a class="el" href="classts_1_1_cerr_report.html#ad5fc721c37e1eceab55d90f8c76ff6b6">ts::CerrReport::Instance</a>())</code>&#160;</td>
         </tr>
         <tr>
@@ -799,6 +798,36 @@ static const uint32_t&#160;</td><td class="memItemRight" valign="bottom"><a clas
   </dd>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>True if <em>name</em> was successfully resolved, false otherwise. In the later case, the integer value of the address is set to <a class="el" href="classts_1_1_i_p_address.html#af4294b58b0d7a036aea174cbc84114aa">AnyAddress</a>. </dd></dl>
+
+</div>
+</div>
+<a id="a865370fb7ad0d8c205654d31b6e50667"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a865370fb7ad0d8c205654d31b6e50667">&#9670;&nbsp;</a></span>toString()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual <a class="el" href="classts_1_1_u_string.html">UString</a> ts::IPAddress::toString </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Convert to a string object in numeric format "a.b.c.d". </p>
+<dl class="section return"><dt>Returns</dt><dd>This object, converted as a string. </dd></dl>
+
+<p>Reimplemented in <a class="el" href="classts_1_1_socket_address.html#aedca33398899d635a3619e74f36c4a3f">ts::SocketAddress</a>.</p>
 
 </div>
 </div>

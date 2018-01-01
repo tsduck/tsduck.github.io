@@ -7,8 +7,8 @@ var classts_1_1_i_s_o639_language_descriptor =
     [ "ISO639LanguageDescriptor", "classts_1_1_i_s_o639_language_descriptor.html#af8dd362f996ef041dfc9c7297a417268", null ],
     [ "serialize", "classts_1_1_i_s_o639_language_descriptor.html#ac5577ac3bd3aacbde6ac2cb1a3efe06e", null ],
     [ "deserialize", "classts_1_1_i_s_o639_language_descriptor.html#aca5369d52fc951b14c53b0c788136143", null ],
-    [ "toXML", "classts_1_1_i_s_o639_language_descriptor.html#a5c87eada2a5f3015e9a400c70382c759", null ],
-    [ "fromXML", "classts_1_1_i_s_o639_language_descriptor.html#ab0b8d9422d8a3c5fbd556cb3d40271c4", null ],
+    [ "buildXML", "classts_1_1_i_s_o639_language_descriptor.html#a95b39950e80ed854ba76523fedf18055", null ],
+    [ "fromXML", "classts_1_1_i_s_o639_language_descriptor.html#a700ce48b01fbb6921d1711b5a008db97", null ],
     [ "DisplayDescriptor", "classts_1_1_i_s_o639_language_descriptor.html#ab797aea1fa1796c0d20c43cabf44dc5e", null ],
     [ "MAX_ENTRIES", "classts_1_1_i_s_o639_language_descriptor.html#a20257dcfbccbc042ffb16b3196a13c90", null ],
     [ "entries", "classts_1_1_i_s_o639_language_descriptor.html#a3a0387cb6e1e7401a510f9730b3ddaa6", null ]

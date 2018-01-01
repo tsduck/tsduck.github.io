@@ -34,7 +34,7 @@
  <tr style="height: 56px;">
   <td id="projectlogo"><img src="tsduck-32.png"/></td>
    <td id="projectalign"><span id="projectname">TSDuck</span>
-    <span id="projectnumber">Version 3.4</span>
+    <span id="projectnumber">Version 3.5</span>
     <span id="projectbrief">(TSDuck - The MPEG Transport Stream Toolkit)</span>
    </td>
    <td>        <div id="MSearchBox" class="MSearchBoxInactive">
@@ -180,6 +180,9 @@ Files</h2></td></tr>
 <tr class="memitem:ts_application_signalling_descriptor_8h"><td class="memItemLeft" align="right" valign="top">file &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="ts_application_signalling_descriptor_8h.html">tsApplicationSignallingDescriptor.h</a></td></tr>
 <tr class="memdesc:ts_application_signalling_descriptor_8h"><td class="mdescLeft">&#160;</td><td class="mdescRight">Representation of an application_signalling_descriptor. <br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ts_arg_mix_8h"><td class="memItemLeft" align="right" valign="top">file &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="ts_arg_mix_8h.html">tsArgMix.h</a></td></tr>
+<tr class="memdesc:ts_arg_mix_8h"><td class="mdescLeft">&#160;</td><td class="mdescRight">Element of an argument list with mixed integer and string types. <br /></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ts_args_8h"><td class="memItemLeft" align="right" valign="top">file &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="ts_args_8h.html">tsArgs.h</a></td></tr>
 <tr class="memdesc:ts_args_8h"><td class="mdescLeft">&#160;</td><td class="mdescRight">Command line arguments handling. <br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -256,7 +259,7 @@ Files</h2></td></tr>
 <tr class="memdesc:ts_c_b_c_8h"><td class="mdescLeft">&#160;</td><td class="mdescRight">Cipher Block Chaining (CBC) mode. <br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ts_cerr_report_8h"><td class="memItemLeft" align="right" valign="top">file &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="ts_cerr_report_8h.html">tsCerrReport.h</a></td></tr>
-<tr class="memdesc:ts_cerr_report_8h"><td class="mdescLeft">&#160;</td><td class="mdescRight">A singleton implementing ReportInterface on std::cerr without synchronization. <br /></td></tr>
+<tr class="memdesc:ts_cerr_report_8h"><td class="mdescLeft">&#160;</td><td class="mdescRight">A singleton implementing Report on std::cerr without synchronization. <br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ts_cipher_chaining_8h"><td class="memItemLeft" align="right" valign="top">file &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="ts_cipher_chaining_8h.html">tsCipherChaining.h</a></td></tr>
 <tr class="memdesc:ts_cipher_chaining_8h"><td class="mdescLeft">&#160;</td><td class="mdescRight">Declaraction of classes <a class="el" href="classts_1_1_cipher_chaining.html" title="Base class of all cipher chaining modes. ">ts::CipherChaining</a> and <a class="el" href="classts_1_1_cipher_chaining_template.html" title="Base class of all cipher chaining modes, template version. ">ts::CipherChainingTemplate</a>. <br /></td></tr>
@@ -299,9 +302,6 @@ Files</h2></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ts_data_broadcast_id_descriptor_8h"><td class="memItemLeft" align="right" valign="top">file &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="ts_data_broadcast_id_descriptor_8h.html">tsDataBroadcastIdDescriptor.h</a></td></tr>
 <tr class="memdesc:ts_data_broadcast_id_descriptor_8h"><td class="mdescLeft">&#160;</td><td class="mdescRight">Representation of a generic data_broadcast_id_descriptor. <br /></td></tr>
-<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ts_decimal_8h"><td class="memItemLeft" align="right" valign="top">file &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="ts_decimal_8h.html">tsDecimal.h</a></td></tr>
-<tr class="memdesc:ts_decimal_8h"><td class="mdescLeft">&#160;</td><td class="mdescRight">Format a string containing a decimal value. <br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ts_dektec_control_8h"><td class="memItemLeft" align="right" valign="top">file &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="ts_dektec_control_8h.html">tsDektecControl.h</a></td></tr>
 <tr class="memdesc:ts_dektec_control_8h"><td class="mdescLeft">&#160;</td><td class="mdescRight">A class implementing the <code>tsdektec</code> control utility. <br /></td></tr>
@@ -402,8 +402,8 @@ Files</h2></td></tr>
 <tr class="memitem:ts_fork_pipe_8h"><td class="memItemLeft" align="right" valign="top">file &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="ts_fork_pipe_8h.html">tsForkPipe.h</a></td></tr>
 <tr class="memdesc:ts_fork_pipe_8h"><td class="mdescLeft">&#160;</td><td class="mdescRight">Fork a process and create a pipe to its standard input. <br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ts_format_8h"><td class="memItemLeft" align="right" valign="top">file &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="ts_format_8h.html">tsFormat.h</a></td></tr>
-<tr class="memdesc:ts_format_8h"><td class="mdescLeft">&#160;</td><td class="mdescRight">Build a string using printf-like format. <br /></td></tr>
+<tr class="memitem:ts_grid_8h"><td class="memItemLeft" align="right" valign="top">file &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="ts_grid_8h.html">tsGrid.h</a></td></tr>
+<tr class="memdesc:ts_grid_8h"><td class="mdescLeft">&#160;</td><td class="mdescRight">Produces a report in a grid format with tables and sections. <br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ts_guard_8h"><td class="memItemLeft" align="right" valign="top">file &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="ts_guard_8h.html">tsGuard.h</a></td></tr>
 <tr class="memdesc:ts_guard_8h"><td class="mdescLeft">&#160;</td><td class="mdescRight">Automatic guard class for mutex (<a class="el" href="classts_1_1_mutex_interface.html" title="Interface class for mutex objects. ">ts::MutexInterface</a>). <br /></td></tr>
@@ -416,9 +416,6 @@ Files</h2></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ts_h_d_simulcast_logical_channel_descriptor_8h"><td class="memItemLeft" align="right" valign="top">file &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="ts_h_d_simulcast_logical_channel_descriptor_8h.html">tsHDSimulcastLogicalChannelDescriptor.h</a></td></tr>
 <tr class="memdesc:ts_h_d_simulcast_logical_channel_descriptor_8h"><td class="mdescLeft">&#160;</td><td class="mdescRight">Representation of a HD_simulcast_logical_channel_descriptor. <br /></td></tr>
-<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ts_hexa_8h"><td class="memItemLeft" align="right" valign="top">file &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="ts_hexa_8h.html">tsHexa.h</a></td></tr>
-<tr class="memdesc:ts_hexa_8h"><td class="mdescLeft">&#160;</td><td class="mdescRight">Build a string containing the hexa/ascii dump of a memory area. <br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ts_input_redirector_8h"><td class="memItemLeft" align="right" valign="top">file &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="ts_input_redirector_8h.html">tsInputRedirector.h</a></td></tr>
 <tr class="memdesc:ts_input_redirector_8h"><td class="mdescLeft">&#160;</td><td class="mdescRight">Input file redirector. <br /></td></tr>
@@ -496,7 +493,7 @@ Files</h2></td></tr>
 <tr class="memdesc:ts_null_mutex_8h"><td class="mdescLeft">&#160;</td><td class="mdescRight">Empty mutex implementation. <br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ts_null_report_8h"><td class="memItemLeft" align="right" valign="top">file &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="ts_null_report_8h.html">tsNullReport.h</a></td></tr>
-<tr class="memdesc:ts_null_report_8h"><td class="mdescLeft">&#160;</td><td class="mdescRight">A singleton implementing ReportInterface which drops all messages. <br /></td></tr>
+<tr class="memdesc:ts_null_report_8h"><td class="mdescLeft">&#160;</td><td class="mdescRight">A singleton implementing Report which drops all messages. <br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ts_object_8h"><td class="memItemLeft" align="right" valign="top">file &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="ts_object_8h.html">tsObject.h</a></td></tr>
 <tr class="memdesc:ts_object_8h"><td class="mdescLeft">&#160;</td><td class="mdescRight">Abstract base class for objects which can be stored in a repository. <br /></td></tr>
@@ -564,20 +561,23 @@ Files</h2></td></tr>
 <tr class="memitem:ts_random_generator_8h"><td class="memItemLeft" align="right" valign="top">file &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="ts_random_generator_8h.html">tsRandomGenerator.h</a></td></tr>
 <tr class="memdesc:ts_random_generator_8h"><td class="mdescLeft">&#160;</td><td class="mdescRight">Abstract base class for PRNG's (pseudo-random numbers generators) <br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ts_registry_8h"><td class="memItemLeft" align="right" valign="top">file &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="ts_registry_8h.html">tsRegistry.h</a></td></tr>
+<tr class="memdesc:ts_registry_8h"><td class="mdescLeft">&#160;</td><td class="mdescRight">Windows Registry utilities. <br /></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ts_report_8h"><td class="memItemLeft" align="right" valign="top">file &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="ts_report_8h.html">tsReport.h</a></td></tr>
+<tr class="memdesc:ts_report_8h"><td class="mdescLeft">&#160;</td><td class="mdescRight">Abstract interface for event reporting and monitoring. <br /></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ts_report_buffer_8h"><td class="memItemLeft" align="right" valign="top">file &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="ts_report_buffer_8h.html">tsReportBuffer.h</a></td></tr>
-<tr class="memdesc:ts_report_buffer_8h"><td class="mdescLeft">&#160;</td><td class="mdescRight">A subclass of <a class="el" href="classts_1_1_report_interface.html" title="Abstract interface for event reporting and monitoring. ">ts::ReportInterface</a> which logs messages in an internal buffer. <br /></td></tr>
+<tr class="memdesc:ts_report_buffer_8h"><td class="mdescLeft">&#160;</td><td class="mdescRight">A subclass of <a class="el" href="classts_1_1_report.html" title="Abstract interface for event reporting and monitoring. ">ts::Report</a> which logs messages in an internal buffer. <br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ts_report_file_8h"><td class="memItemLeft" align="right" valign="top">file &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="ts_report_file_8h.html">tsReportFile.h</a></td></tr>
-<tr class="memdesc:ts_report_file_8h"><td class="mdescLeft">&#160;</td><td class="mdescRight">A subclass of <a class="el" href="classts_1_1_report_interface.html" title="Abstract interface for event reporting and monitoring. ">ts::ReportInterface</a> which outputs messages in a text file. <br /></td></tr>
+<tr class="memdesc:ts_report_file_8h"><td class="mdescLeft">&#160;</td><td class="mdescRight">A subclass of <a class="el" href="classts_1_1_report.html" title="Abstract interface for event reporting and monitoring. ">ts::Report</a> which outputs messages in a text file. <br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ts_report_handler_8h"><td class="memItemLeft" align="right" valign="top">file &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="ts_report_handler_8h.html">tsReportHandler.h</a></td></tr>
 <tr class="memdesc:ts_report_handler_8h"><td class="mdescLeft">&#160;</td><td class="mdescRight">Abstract interface for handling report messages. <br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ts_report_interface_8h"><td class="memItemLeft" align="right" valign="top">file &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="ts_report_interface_8h.html">tsReportInterface.h</a></td></tr>
-<tr class="memdesc:ts_report_interface_8h"><td class="mdescLeft">&#160;</td><td class="mdescRight">Abstract interface for event reporting and monitoring. <br /></td></tr>
-<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ts_report_with_prefix_8h"><td class="memItemLeft" align="right" valign="top">file &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="ts_report_with_prefix_8h.html">tsReportWithPrefix.h</a></td></tr>
-<tr class="memdesc:ts_report_with_prefix_8h"><td class="mdescLeft">&#160;</td><td class="mdescRight">An encapsulation of ReportInterface with a message prefix. <br /></td></tr>
+<tr class="memdesc:ts_report_with_prefix_8h"><td class="mdescLeft">&#160;</td><td class="mdescRight">An encapsulation of Report with a message prefix. <br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ts_resident_buffer_8h"><td class="memItemLeft" align="right" valign="top">file &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="ts_resident_buffer_8h.html">tsResidentBuffer.h</a></td></tr>
 <tr class="memdesc:ts_resident_buffer_8h"><td class="mdescLeft">&#160;</td><td class="mdescRight">Implementation of memory buffer locked in physical memory. <br /></td></tr>
@@ -611,6 +611,9 @@ Files</h2></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ts_section_demux_8h"><td class="memItemLeft" align="right" valign="top">file &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="ts_section_demux_8h.html">tsSectionDemux.h</a></td></tr>
 <tr class="memdesc:ts_section_demux_8h"><td class="mdescLeft">&#160;</td><td class="mdescRight">This class rebuilds MPEG tables and sections from TS packets. <br /></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ts_section_file_8h"><td class="memItemLeft" align="right" valign="top">file &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="ts_section_file_8h.html">tsSectionFile.h</a></td></tr>
+<tr class="memdesc:ts_section_file_8h"><td class="mdescLeft">&#160;</td><td class="mdescRight">Binary or XML files containing PSI/SI sections and tables. <br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ts_section_handler_interface_8h"><td class="memItemLeft" align="right" valign="top">file &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="ts_section_handler_interface_8h.html">tsSectionHandlerInterface.h</a></td></tr>
 <tr class="memdesc:ts_section_handler_interface_8h"><td class="mdescLeft">&#160;</td><td class="mdescRight">Abstract interface to receive MPEG Section from a SectionDemux. <br /></td></tr>
@@ -671,9 +674,6 @@ Files</h2></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ts_stream_identifier_descriptor_8h"><td class="memItemLeft" align="right" valign="top">file &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="ts_stream_identifier_descriptor_8h.html">tsStreamIdentifierDescriptor.h</a></td></tr>
 <tr class="memdesc:ts_stream_identifier_descriptor_8h"><td class="mdescLeft">&#160;</td><td class="mdescRight">Representation of a stream_identifier_descriptor. <br /></td></tr>
-<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ts_string_utils_8h"><td class="memItemLeft" align="right" valign="top">file &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="ts_string_utils_8h.html">tsStringUtils.h</a></td></tr>
-<tr class="memdesc:ts_string_utils_8h"><td class="mdescLeft">&#160;</td><td class="mdescRight">Declare some utilities on standard strings. <br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ts_subtitling_descriptor_8h"><td class="memItemLeft" align="right" valign="top">file &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="ts_subtitling_descriptor_8h.html">tsSubtitlingDescriptor.h</a></td></tr>
 <tr class="memdesc:ts_subtitling_descriptor_8h"><td class="mdescLeft">&#160;</td><td class="mdescRight">Representation of a subtitling_descriptor. <br /></td></tr>
@@ -750,6 +750,12 @@ Files</h2></td></tr>
 <tr class="memitem:ts_terrestrial_delivery_system_descriptor_8h"><td class="memItemLeft" align="right" valign="top">file &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="ts_terrestrial_delivery_system_descriptor_8h.html">tsTerrestrialDeliverySystemDescriptor.h</a></td></tr>
 <tr class="memdesc:ts_terrestrial_delivery_system_descriptor_8h"><td class="mdescLeft">&#160;</td><td class="mdescRight">Representation of a terrestrial_delivery_system_descriptor. <br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ts_text_formatter_8h"><td class="memItemLeft" align="right" valign="top">file &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="ts_text_formatter_8h.html">tsTextFormatter.h</a></td></tr>
+<tr class="memdesc:ts_text_formatter_8h"><td class="mdescLeft">&#160;</td><td class="mdescRight">Format and print a text document. <br /></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ts_text_parser_8h"><td class="memItemLeft" align="right" valign="top">file &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="ts_text_parser_8h.html">tsTextParser.h</a></td></tr>
+<tr class="memdesc:ts_text_parser_8h"><td class="mdescLeft">&#160;</td><td class="mdescRight">Simple text parser class. <br /></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ts_thread_8h"><td class="memItemLeft" align="right" valign="top">file &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="ts_thread_8h.html">tsThread.h</a></td></tr>
 <tr class="memdesc:ts_thread_8h"><td class="mdescLeft">&#160;</td><td class="mdescRight">Declare the <a class="el" href="classts_1_1_thread.html" title="Base class for threads. ">ts::Thread</a> class. <br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -788,9 +794,6 @@ Files</h2></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ts_t_l_v_syntax_8h"><td class="memItemLeft" align="right" valign="top">file &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="ts_t_l_v_syntax_8h.html">tsTLVSyntax.h</a></td></tr>
 <tr class="memdesc:ts_t_l_v_syntax_8h"><td class="mdescLeft">&#160;</td><td class="mdescRight">Representation of a Tag, Length, Value (TVL) syntax. <br /></td></tr>
-<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ts_to_integer_8h"><td class="memItemLeft" align="right" valign="top">file &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="ts_to_integer_8h.html">tsToInteger.h</a></td></tr>
-<tr class="memdesc:ts_to_integer_8h"><td class="mdescLeft">&#160;</td><td class="mdescRight">Utilities to convert strings to integer. <br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ts_t_o_t_8h"><td class="memItemLeft" align="right" valign="top">file &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="ts_t_o_t_8h.html">tsTOT.h</a></td></tr>
 <tr class="memdesc:ts_t_o_t_8h"><td class="mdescLeft">&#160;</td><td class="mdescRight">Representation of a Time Offset Table (TOT) <br /></td></tr>
@@ -882,17 +885,41 @@ Files</h2></td></tr>
 <tr class="memitem:ts_version_8h"><td class="memItemLeft" align="right" valign="top">file &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="ts_version_8h.html">tsVersion.h</a></td></tr>
 <tr class="memdesc:ts_version_8h"><td class="mdescLeft">&#160;</td><td class="mdescRight">Version identification of TSDuck. <br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ts_version_info_8h"><td class="memItemLeft" align="right" valign="top">file &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="ts_version_info_8h.html">tsVersionInfo.h</a></td></tr>
+<tr class="memdesc:ts_version_info_8h"><td class="mdescLeft">&#160;</td><td class="mdescRight">Information about version identification of TSDuck. <br /></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ts_viaccess_date_8h"><td class="memItemLeft" align="right" valign="top">file &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="ts_viaccess_date_8h.html">tsViaccessDate.h</a></td></tr>
 <tr class="memdesc:ts_viaccess_date_8h"><td class="mdescLeft">&#160;</td><td class="mdescRight">Representation of a Viaccess date. <br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ts_video_attributes_8h"><td class="memItemLeft" align="right" valign="top">file &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="ts_video_attributes_8h.html">tsVideoAttributes.h</a></td></tr>
 <tr class="memdesc:ts_video_attributes_8h"><td class="mdescLeft">&#160;</td><td class="mdescRight">Video attributes for MPEG-1 and MPEG-2. <br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ts_x_m_l_8h"><td class="memItemLeft" align="right" valign="top">file &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="ts_x_m_l_8h.html">tsXML.h</a></td></tr>
-<tr class="memdesc:ts_x_m_l_8h"><td class="mdescLeft">&#160;</td><td class="mdescRight">XML utilities for TinyXML-2. <br /></td></tr>
+<tr class="memitem:tsxml_8h"><td class="memItemLeft" align="right" valign="top">file &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="tsxml_8h.html">tsxml.h</a></td></tr>
+<tr class="memdesc:tsxml_8h"><td class="mdescLeft">&#160;</td><td class="mdescRight">Forward declaration of XML classes. <br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ts_x_m_l_tables_8h"><td class="memItemLeft" align="right" valign="top">file &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="ts_x_m_l_tables_8h.html">tsXMLTables.h</a></td></tr>
-<tr class="memdesc:ts_x_m_l_tables_8h"><td class="mdescLeft">&#160;</td><td class="mdescRight">XML files containing PSI/SI tables. <br /></td></tr>
+<tr class="memitem:tsxml_attribute_8h"><td class="memItemLeft" align="right" valign="top">file &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="tsxml_attribute_8h.html">tsxmlAttribute.h</a></td></tr>
+<tr class="memdesc:tsxml_attribute_8h"><td class="mdescLeft">&#160;</td><td class="mdescRight">Attribute of an XML element. <br /></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:tsxml_comment_8h"><td class="memItemLeft" align="right" valign="top">file &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="tsxml_comment_8h.html">tsxmlComment.h</a></td></tr>
+<tr class="memdesc:tsxml_comment_8h"><td class="mdescLeft">&#160;</td><td class="mdescRight">Comment in an XML document. <br /></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:tsxml_declaration_8h"><td class="memItemLeft" align="right" valign="top">file &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="tsxml_declaration_8h.html">tsxmlDeclaration.h</a></td></tr>
+<tr class="memdesc:tsxml_declaration_8h"><td class="mdescLeft">&#160;</td><td class="mdescRight">Declaration in an XML document. <br /></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:tsxml_document_8h"><td class="memItemLeft" align="right" valign="top">file &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="tsxml_document_8h.html">tsxmlDocument.h</a></td></tr>
+<tr class="memdesc:tsxml_document_8h"><td class="mdescLeft">&#160;</td><td class="mdescRight">Representation of an XML document. <br /></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:tsxml_element_8h"><td class="memItemLeft" align="right" valign="top">file &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="tsxml_element_8h.html">tsxmlElement.h</a></td></tr>
+<tr class="memdesc:tsxml_element_8h"><td class="mdescLeft">&#160;</td><td class="mdescRight">Element in an XML document. <br /></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:tsxml_node_8h"><td class="memItemLeft" align="right" valign="top">file &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="tsxml_node_8h.html">tsxmlNode.h</a></td></tr>
+<tr class="memdesc:tsxml_node_8h"><td class="mdescLeft">&#160;</td><td class="mdescRight">Base class for all XML nodes. <br /></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:tsxml_text_8h"><td class="memItemLeft" align="right" valign="top">file &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="tsxml_text_8h.html">tsxmlText.h</a></td></tr>
+<tr class="memdesc:tsxml_text_8h"><td class="mdescLeft">&#160;</td><td class="mdescRight">Text element in an XML document. <br /></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:tsxml_unknown_8h"><td class="memItemLeft" align="right" valign="top">file &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="tsxml_unknown_8h.html">tsxmlUnknown.h</a></td></tr>
+<tr class="memdesc:tsxml_unknown_8h"><td class="mdescLeft">&#160;</td><td class="mdescRight">Unknown element in an XML document. <br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 </div><!-- contents -->

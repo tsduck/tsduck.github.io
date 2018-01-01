@@ -9,5 +9,6 @@ var classts_1_1_thread =
     [ "start", "classts_1_1_thread.html#a5376ca4c696a2c5a06843e5abcc7a75e", null ],
     [ "waitForTermination", "classts_1_1_thread.html#a12dfa09a199489d4d06d223c685d0cbf", null ],
     [ "isCurrentThread", "classts_1_1_thread.html#a176d1f2f087d184a4a241a053593d1e8", null ],
-    [ "main", "classts_1_1_thread.html#a9ee5bd4acae9b413edc711134ef34e76", null ]
+    [ "main", "classts_1_1_thread.html#a9ee5bd4acae9b413edc711134ef34e76", null ],
+    [ "Yield", "classts_1_1_thread.html#a47776324f4d04867e6d467cc42a1543b", null ]
 ];

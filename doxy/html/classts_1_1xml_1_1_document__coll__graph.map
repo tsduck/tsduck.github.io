@@ -1,0 +1,7 @@
+<map id="ts::xml::Document" name="ts::xml::Document">
+<area shape="rect" id="node2" href="$classts_1_1xml_1_1_node.html" title="Base class for all XML objects in a document. " alt="" coords="148,181,247,207"/>
+<area shape="rect" id="node3" href="$classts_1_1_ring_node.html" title="Base class for objects being part of a ring, ie. " alt="" coords="5,87,104,113"/>
+<area shape="rect" id="node4" href="$classts_1_1_report_with_prefix.html" title="An encapsulation of Report with a message prefix. " alt="" coords="127,87,267,113"/>
+<area shape="rect" id="node5" href="$classts_1_1_report.html" title="Abstract interface for event reporting and monitoring. " alt="" coords="158,5,237,31"/>
+<area shape="rect" id="node6" href="$classts_1_1_u_string.html" title="An implementation of UTF&#45;16 strings. " alt="" coords="291,87,375,113"/>
+</map>

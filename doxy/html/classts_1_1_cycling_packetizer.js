@@ -20,6 +20,6 @@ var classts_1_1_cycling_packetizer =
     [ "removeAll", "classts_1_1_cycling_packetizer.html#a77945604df2b38d585f779e99e919550", null ],
     [ "storedSectionCount", "classts_1_1_cycling_packetizer.html#a017232eb729305d7afa2bab2fa26caed", null ],
     [ "atCycleBoundary", "classts_1_1_cycling_packetizer.html#a865947e866138389dcb829d6837f8f2c", null ],
-    [ "reset", "classts_1_1_cycling_packetizer.html#a6005b6b7bd74608a340fbf3624e5e753", null ],
-    [ "display", "classts_1_1_cycling_packetizer.html#a5ec0794b1b13c88b655ca425820dc416", null ]
+    [ "reset", "classts_1_1_cycling_packetizer.html#a7318864fd2243a9457f4ed43ecaf9d23", null ],
+    [ "display", "classts_1_1_cycling_packetizer.html#a0147b1b5cd22071a55c0a6e95645290e", null ]
 ];

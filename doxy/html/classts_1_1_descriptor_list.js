@@ -18,10 +18,14 @@ var classts_1_1_descriptor_list =
     [ "removeInvalidPrivateDescriptors", "classts_1_1_descriptor_list.html#a7e1ddd1818eab8b8bf696a578391f187", null ],
     [ "clear", "classts_1_1_descriptor_list.html#a9750522d670ad118b8f71a4068559d52", null ],
     [ "search", "classts_1_1_descriptor_list.html#a15f8abf6b705eab473cfe98ac8b5a672", null ],
-    [ "searchLanguage", "classts_1_1_descriptor_list.html#aadcfcd73c8183788ab58eedb25c6d015", null ],
-    [ "searchSubtitle", "classts_1_1_descriptor_list.html#a3d702545a4136ab4fd4ac8f2b0bf3516", null ],
+    [ "searchLanguage", "classts_1_1_descriptor_list.html#a821e13034b64133c2afbc432bd68bd4d", null ],
+    [ "searchSubtitle", "classts_1_1_descriptor_list.html#acaa86d454340827bc7add1b356a1fd8b", null ],
     [ "search", "classts_1_1_descriptor_list.html#aa066423061a5e6badb758d3d782c85fd", null ],
     [ "binarySize", "classts_1_1_descriptor_list.html#a3ab9c99b46dd609caad3978cf244edb2", null ],
     [ "serialize", "classts_1_1_descriptor_list.html#a65fd9e8f041ac2ff8dd84d390ce45b48", null ],
-    [ "lengthSerialize", "classts_1_1_descriptor_list.html#a53d7e46f2928ced7e02544a2a0d13152", null ]
+    [ "lengthSerialize", "classts_1_1_descriptor_list.html#a53d7e46f2928ced7e02544a2a0d13152", null ],
+    [ "toXML", "classts_1_1_descriptor_list.html#a2c76f0427e8bdb8220d13a9566a20034", null ],
+    [ "fromXML", "classts_1_1_descriptor_list.html#a97648fe115957a2421f80627b2340de2", null ],
+    [ "fromXML", "classts_1_1_descriptor_list.html#aecf0e40af4ffd2fd8bee725b7df73850", null ],
+    [ "fromXML", "classts_1_1_descriptor_list.html#ad016fd0debed2e7b0281c44592c03e81", null ]
 ];

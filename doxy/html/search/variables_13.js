@@ -80,5 +80,6 @@ var searchData=
   ['sys_5fsuccess',['SYS_SUCCESS',['../namespacets.html#a5c31a3d1b0122eb8863cc6feaef7df44',1,'ts']]],
   ['system_5fclock_5ffreq',['SYSTEM_CLOCK_FREQ',['../namespacets.html#a3eea8e0ad4391f9497e2378b6200b924',1,'ts']]],
   ['system_5fclock_5fsubfactor',['SYSTEM_CLOCK_SUBFACTOR',['../namespacets.html#a41a7100987f607b9ccfe240b17d733e7',1,'ts']]],
-  ['system_5fclock_5fsubfreq',['SYSTEM_CLOCK_SUBFREQ',['../namespacets.html#a8cf43004a770968750aa113c7aa1c050',1,'ts']]]
+  ['system_5fclock_5fsubfreq',['SYSTEM_CLOCK_SUBFREQ',['../namespacets.html#a8cf43004a770968750aa113c7aa1c050',1,'ts']]],
+  ['systemenvironmentkey',['SystemEnvironmentKey',['../classts_1_1_registry.html#ad804ae4346ba391e294f9d0b79486a46',1,'ts::Registry']]]
 ];

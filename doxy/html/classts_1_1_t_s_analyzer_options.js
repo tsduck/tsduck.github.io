@@ -1,9 +1,9 @@
 var classts_1_1_t_s_analyzer_options =
 [
-    [ "TSAnalyzerOptions", "classts_1_1_t_s_analyzer_options.html#a610b8d6092bec8a63a550e1085bf8c0f", null ],
-    [ "setHelp", "classts_1_1_t_s_analyzer_options.html#aa959563f95eb0f7ef90d3e17e54bd5c5", null ],
-    [ "analyze", "classts_1_1_t_s_analyzer_options.html#add88a41987b0fa6bfe4037ddd2388aaf", null ],
-    [ "analyze", "classts_1_1_t_s_analyzer_options.html#a9af9718320fb38efe5cf2f7ff1abc2ad", null ],
+    [ "TSAnalyzerOptions", "classts_1_1_t_s_analyzer_options.html#a24d4b6aa6071e9b2c2db62ac6ea202d9", null ],
+    [ "setHelp", "classts_1_1_t_s_analyzer_options.html#a8db7198a1e2abf40cdd6cebdc24043e3", null ],
+    [ "analyze", "classts_1_1_t_s_analyzer_options.html#acf9e657d3b70489a923e0031fa6145f8", null ],
+    [ "analyze", "classts_1_1_t_s_analyzer_options.html#a24f17b99c69eb5015995b734c6e91d12", null ],
     [ "getOptions", "classts_1_1_t_s_analyzer_options.html#a44eb2c995e296d4a3d7dffbaf10d1717", null ],
     [ "ts_analysis", "classts_1_1_t_s_analyzer_options.html#ab42a0a110a37d711bd54567af5c72940", null ],
     [ "service_analysis", "classts_1_1_t_s_analyzer_options.html#a98fdee09044c2e8d404f5b0ac54892c6", null ],
@@ -18,8 +18,8 @@ var classts_1_1_t_s_analyzer_options =
     [ "pes_pid_list", "classts_1_1_t_s_analyzer_options.html#ace2050b2641346208925c5c9155ea50d", null ],
     [ "service_pid_list", "classts_1_1_t_s_analyzer_options.html#a4bbc066b8da49f8585ea0a495608aee4", null ],
     [ "service_id", "classts_1_1_t_s_analyzer_options.html#aba769431f3dd962b73dfcb365bfe78a3", null ],
-    [ "prefix", "classts_1_1_t_s_analyzer_options.html#a3c2cb7f8d1a338b60931cfba160fd3bd", null ],
-    [ "title", "classts_1_1_t_s_analyzer_options.html#a6b92ac91286bd1ae57f7b72f319a5b5b", null ],
+    [ "prefix", "classts_1_1_t_s_analyzer_options.html#ab5d744b668ce6f19a5a63d852011ab4b", null ],
+    [ "title", "classts_1_1_t_s_analyzer_options.html#aa7adcef36ae00ef80271fc6ff71ff2cc", null ],
     [ "suspect_min_error_count", "classts_1_1_t_s_analyzer_options.html#a81c0b5231a70c0f56c134856144e2421", null ],
     [ "suspect_max_consecutive", "classts_1_1_t_s_analyzer_options.html#a62fcf3aacc49275b63c7c49bb698753a", null ]
 ];

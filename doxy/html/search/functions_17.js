@@ -1,6 +1,4 @@
 var searchData=
 [
-  ['xml',['XML',['../classts_1_1_x_m_l.html#a753c9b22fcf69bc8a69798f496905a0b',1,'ts::XML']]],
-  ['xmlname',['xmlName',['../classts_1_1_abstract_signalization.html#ac1e97eef4f39320c61192c6bde591dca',1,'ts::AbstractSignalization']]],
-  ['xmltables',['XMLTables',['../classts_1_1_x_m_l_tables.html#aa882bb20f43e1625f601fd7c3c1f3342',1,'ts::XMLTables']]]
+  ['xmlname',['xmlName',['../classts_1_1_abstract_signalization.html#a77fd80b304a38bdc350eae3d899495bc',1,'ts::AbstractSignalization']]]
 ];

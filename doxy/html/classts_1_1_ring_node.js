@@ -6,7 +6,9 @@ var classts_1_1_ring_node =
     [ "ringRemove", "classts_1_1_ring_node.html#ad9a5bd68bcb38aa037a55f4bc2507db0", null ],
     [ "ringInsertAfter", "classts_1_1_ring_node.html#aa02058e0fa057824a570a75f7eab93b8", null ],
     [ "ringInsertBefore", "classts_1_1_ring_node.html#aeabd1243390866d1c89d81b049fe15e1", null ],
-    [ "ringNext", "classts_1_1_ring_node.html#a6e6d6be70e2f72b022eb110ea059b39a", null ],
-    [ "ringPrevious", "classts_1_1_ring_node.html#a58d0c08cd84b2d072d56ab5782ea239d", null ],
+    [ "ringNext", "classts_1_1_ring_node.html#a136df409aae15a83433a943568501f84", null ],
+    [ "ringNext", "classts_1_1_ring_node.html#a8bfd94cfff3cff0361b4207dbe2e94f7", null ],
+    [ "ringPrevious", "classts_1_1_ring_node.html#a91406e243c71a3e069b85bd8a434935d", null ],
+    [ "ringPrevious", "classts_1_1_ring_node.html#afdaece6400ab6e13deb3c56ffeec638b", null ],
     [ "ringSize", "classts_1_1_ring_node.html#a939d0af5f4ed2a58700defecd2dc7bb2", null ]
 ];

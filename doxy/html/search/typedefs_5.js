@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['ipaddressvector',['IPAddressVector',['../namespacets.html#a6825a1db0e62afdf5e6ccb895a28c020',1,'ts']]]
+  ['handle',['Handle',['../classts_1_1_registry.html#ae56b7d7804cd1a4c53ce5deaf3c7694a',1,'ts::Registry']]]
 ];

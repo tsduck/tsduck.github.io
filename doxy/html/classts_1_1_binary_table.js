@@ -9,6 +9,7 @@ var classts_1_1_binary_table =
     [ "operator!=", "classts_1_1_binary_table.html#a3ee8ab88459eec7b60eb6e119069a68b", null ],
     [ "addSection", "classts_1_1_binary_table.html#a7dbe48d286633cd10e76c08cf81339fb", null ],
     [ "addSections", "classts_1_1_binary_table.html#abb644205b486ffa163645b5032024338", null ],
+    [ "addSections", "classts_1_1_binary_table.html#a26e17b8f3f56b7b45769b4fbc9d2fa7a", null ],
     [ "isValid", "classts_1_1_binary_table.html#a00976cf2d7d939d1990747bcf1fd3564", null ],
     [ "clear", "classts_1_1_binary_table.html#ab4ae54095b8183bfe73bb5f38b7d36a4", null ],
     [ "tableId", "classts_1_1_binary_table.html#a5dbd5bd844b2e7ac12dea13ba243556b", null ],
@@ -24,10 +25,6 @@ var classts_1_1_binary_table =
     [ "totalSize", "classts_1_1_binary_table.html#a174b8562a392c9dfd1dc252dbffabe81", null ],
     [ "sectionAt", "classts_1_1_binary_table.html#a466a957657f3c2e8bb719e582b5b714f", null ],
     [ "isShortSection", "classts_1_1_binary_table.html#a20e40f1d5453d65d1f23df9168ddf9cc", null ],
-    [ "write", "classts_1_1_binary_table.html#a617f8e70aebc58ac73dd9174a9675891", null ],
-    [ "save", "classts_1_1_binary_table.html#a63dda1561393180f0ff92b6ad7de472b", null ],
-    [ "LoadFile", "classts_1_1_binary_table.html#ab3ec41b2a4b386e678533dd3b21b4704", null ],
-    [ "LoadFile", "classts_1_1_binary_table.html#ad8b82d30810b6c5653689631086cd061", null ],
-    [ "SaveFile", "classts_1_1_binary_table.html#a984d4003772bdc7a6d7ae9ca66c5facc", null ],
-    [ "SaveFile", "classts_1_1_binary_table.html#a22e075570a3cd465ca39533434b2a711", null ]
+    [ "toXML", "classts_1_1_binary_table.html#a18290f8ce2002f1cdc1657e280742127", null ],
+    [ "fromXML", "classts_1_1_binary_table.html#a67c581fbbea066a5333684f551d53cee", null ]
 ];

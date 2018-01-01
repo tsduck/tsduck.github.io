@@ -1,6 +1,6 @@
 var ts_dektec_utils_8h =
 [
-    [ "GetDektecVersions", "ts_dektec_utils_8h.html#ae10322711d0b7969007f6fdad31e38b6", null ],
+    [ "GetDektecVersions", "ts_dektec_utils_8h.html#a2b34372d648a1e71c8ea75993a9e3b60", null ],
     [ "DTA_FIFO_SIZE", "ts_dektec_utils_8h.html#a1c2fc9b02b88f7718d8f9a6a4d95d405", null ],
     [ "DTA_MAX_IO_SIZE", "ts_dektec_utils_8h.html#a7bb82b6cb4a761e4fc84a9b6bc7cca42", null ],
     [ "DTA_MAX_HW_FUNC", "ts_dektec_utils_8h.html#aa7856250798a1a9f61be7f18869bb10b", null ],

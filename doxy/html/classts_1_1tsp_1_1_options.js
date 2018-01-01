@@ -8,10 +8,8 @@ var classts_1_1tsp_1_1_options =
       [ "PROCESSOR", "classts_1_1tsp_1_1_options.html#a55bda783655b89587cb5d3a969266c5babbea87eba404a8e575ac45555798c6b5", null ]
     ] ],
     [ "Options", "classts_1_1tsp_1_1_options.html#aed55f1389f0208fc6290c2e106263081", null ],
-    [ "PluginTypeName", "classts_1_1tsp_1_1_options.html#acc706268a7debd0925982cd84ef94f29", null ],
     [ "display", "classts_1_1tsp_1_1_options.html#a04a97af0e9df2a79b20626e9bab013e0", null ],
-    [ "verbose", "classts_1_1tsp_1_1_options.html#a5b5925868192bc8a5c5080733d1b23a9", null ],
-    [ "debug", "classts_1_1tsp_1_1_options.html#a04faa0f6da8362dbdc7b211db687fc3f", null ],
+    [ "PluginTypeNames", "classts_1_1tsp_1_1_options.html#a46185e8cb8a328cb73f6d0eb9ba08912", null ],
     [ "timed_log", "classts_1_1tsp_1_1_options.html#ae91a3d3a50965c909903e0461229a32c", null ],
     [ "list_proc", "classts_1_1tsp_1_1_options.html#a3204767bbcbec609cb3c21f26d61de5e", null ],
     [ "monitor", "classts_1_1tsp_1_1_options.html#af545c8bd5b837b2eb6f84418b7530413", null ],

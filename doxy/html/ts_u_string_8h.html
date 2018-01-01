@@ -34,7 +34,7 @@
  <tr style="height: 56px;">
   <td id="projectlogo"><img src="tsduck-32.png"/></td>
    <td id="projectalign"><span id="projectname">TSDuck</span>
-    <span id="projectnumber">Version 3.4</span>
+    <span id="projectnumber">Version 3.5</span>
     <span id="projectbrief">(TSDuck - The MPEG Transport Stream Toolkit)</span>
    </td>
    <td>        <div id="MSearchBox" class="MSearchBoxInactive">
@@ -130,14 +130,6 @@ typedef std::vector&lt; UString &gt;&#160;</td><td class="memItemRight" valign="
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="enum-members"></a>
 Enumerations</h2></td></tr>
-<tr class="memitem:acabdd963f028076d6599f6712b236b47"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacets.html#acabdd963f028076d6599f6712b236b47">ts::CaseSensitivity</a> { <br />
-&#160;&#160;<a class="el" href="namespacets.html#acabdd963f028076d6599f6712b236b47a7a39a55c5b22c9b352ea346bcebb06fd">ts::CASE_SENSITIVE</a>, 
-<br />
-&#160;&#160;<a class="el" href="namespacets.html#acabdd963f028076d6599f6712b236b47a98c9aec7e38af499ba50d11cc78c7ed6">ts::CASE_INSENSITIVE</a>
-<br />
- }<tr class="memdesc:acabdd963f028076d6599f6712b236b47"><td class="mdescLeft">&#160;</td><td class="mdescRight">Case sensitivity used on string operations.  <a href="namespacets.html#acabdd963f028076d6599f6712b236b47">More...</a><br /></td></tr>
-</td></tr>
-<tr class="separator:acabdd963f028076d6599f6712b236b47"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a192e3a523b2e9cdb0a27852f1b3e8423"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacets.html#a192e3a523b2e9cdb0a27852f1b3e8423">ts::StringDirection</a> { <br />
 &#160;&#160;<a class="el" href="namespacets.html#a192e3a523b2e9cdb0a27852f1b3e8423aeb97c1482353aa7767b83ad2c356b401">ts::LEFT_TO_RIGHT</a>, 
 <br />
@@ -152,18 +144,21 @@ Functions</h2></td></tr>
 <tr class="memitem:a4d0567367b0d7feb904d4521f27458a1"><td class="memItemLeft" align="right" valign="top">std::ostream &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="ts_u_string_8h.html#a4d0567367b0d7feb904d4521f27458a1">operator&lt;&lt;</a> (std::ostream &amp;strm, const <a class="el" href="classts_1_1_u_string.html">ts::UString</a> &amp;str)</td></tr>
 <tr class="memdesc:a4d0567367b0d7feb904d4521f27458a1"><td class="mdescLeft">&#160;</td><td class="mdescRight">Output operator for <a class="el" href="classts_1_1_u_string.html" title="An implementation of UTF-16 strings. ">ts::UString</a> on standard text streams with UTF-8 conversion.  <a href="#a4d0567367b0d7feb904d4521f27458a1">More...</a><br /></td></tr>
 <tr class="separator:a4d0567367b0d7feb904d4521f27458a1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5ddde940bf140eac003c584c8c8782cc"><td class="memItemLeft" align="right" valign="top">std::ostream &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="ts_u_string_8h.html#a5ddde940bf140eac003c584c8c8782cc">operator&lt;&lt;</a> (std::ostream &amp;strm, const <a class="el" href="namespacets.html#a7e3244e77fae7815254d87d2ebdb7bd0">ts::UChar</a> *str)</td></tr>
+<tr class="memdesc:a5ddde940bf140eac003c584c8c8782cc"><td class="mdescLeft">&#160;</td><td class="mdescRight">Output operator for Unicode string on standard text streams with UTF-8 conversion.  <a href="#a5ddde940bf140eac003c584c8c8782cc">More...</a><br /></td></tr>
+<tr class="separator:a5ddde940bf140eac003c584c8c8782cc"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5e0f44885711cf0616657d8feeb841a9"><td class="memItemLeft" align="right" valign="top">std::ostream &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="ts_u_string_8h.html#a5e0f44885711cf0616657d8feeb841a9">operator&lt;&lt;</a> (std::ostream &amp;strm, const <a class="el" href="namespacets.html#a7e3244e77fae7815254d87d2ebdb7bd0">ts::UChar</a> c)</td></tr>
+<tr class="memdesc:a5e0f44885711cf0616657d8feeb841a9"><td class="mdescLeft">&#160;</td><td class="mdescRight">Output operator for <a class="el" href="namespacets.html#a7e3244e77fae7815254d87d2ebdb7bd0" title="UTF-16 character. ">ts::UChar</a> on standard text streams with UTF-8 conversion.  <a href="#a5e0f44885711cf0616657d8feeb841a9">More...</a><br /></td></tr>
+<tr class="separator:a5e0f44885711cf0616657d8feeb841a9"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>Unicode string. </p>
 </div><h2 class="groupheader">Function Documentation</h2>
 <a id="a4d0567367b0d7feb904d4521f27458a1"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a4d0567367b0d7feb904d4521f27458a1">&#9670;&nbsp;</a></span>operator<<()</h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a4d0567367b0d7feb904d4521f27458a1">&#9670;&nbsp;</a></span>operator<<() <span class="overload">[1/3]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
       <table class="memname">
         <tr>
           <td class="memname">std::ostream&amp; operator&lt;&lt; </td>
@@ -183,11 +178,6 @@ Functions</h2></td></tr>
           <td></td><td></td>
         </tr>
       </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
-  </tr>
-</table>
 </div><div class="memdoc">
 
 <p>Output operator for <a class="el" href="classts_1_1_u_string.html" title="An implementation of UTF-16 strings. ">ts::UString</a> on standard text streams with UTF-8 conversion. </p>
@@ -195,6 +185,82 @@ Functions</h2></td></tr>
   <table class="params">
     <tr><td class="paramdir">[in,out]</td><td class="paramname">strm</td><td>A standard stream in output mode. </td></tr>
     <tr><td class="paramdir">[in]</td><td class="paramname">str</td><td>A string. </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>A reference to the <em>strm</em> object. </dd></dl>
+
+</div>
+</div>
+<a id="a5ddde940bf140eac003c584c8c8782cc"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5ddde940bf140eac003c584c8c8782cc">&#9670;&nbsp;</a></span>operator<<() <span class="overload">[2/3]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::ostream&amp; operator&lt;&lt; </td>
+          <td>(</td>
+          <td class="paramtype">std::ostream &amp;&#160;</td>
+          <td class="paramname"><em>strm</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="namespacets.html#a7e3244e77fae7815254d87d2ebdb7bd0">ts::UChar</a> *&#160;</td>
+          <td class="paramname"><em>str</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Output operator for Unicode string on standard text streams with UTF-8 conversion. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in,out]</td><td class="paramname">strm</td><td>A standard stream in output mode. </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">str</td><td>A string. </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>A reference to the <em>strm</em> object. </dd></dl>
+
+</div>
+</div>
+<a id="a5e0f44885711cf0616657d8feeb841a9"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5e0f44885711cf0616657d8feeb841a9">&#9670;&nbsp;</a></span>operator<<() <span class="overload">[3/3]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::ostream&amp; operator&lt;&lt; </td>
+          <td>(</td>
+          <td class="paramtype">std::ostream &amp;&#160;</td>
+          <td class="paramname"><em>strm</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="namespacets.html#a7e3244e77fae7815254d87d2ebdb7bd0">ts::UChar</a>&#160;</td>
+          <td class="paramname"><em>c</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Output operator for <a class="el" href="namespacets.html#a7e3244e77fae7815254d87d2ebdb7bd0" title="UTF-16 character. ">ts::UChar</a> on standard text streams with UTF-8 conversion. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in,out]</td><td class="paramname">strm</td><td>A standard stream in output mode. </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">c</td><td>A character. </td></tr>
   </table>
   </dd>
 </dl>

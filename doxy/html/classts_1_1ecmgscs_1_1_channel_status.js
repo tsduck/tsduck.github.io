@@ -2,8 +2,8 @@ var classts_1_1ecmgscs_1_1_channel_status =
 [
     [ "ChannelStatus", "classts_1_1ecmgscs_1_1_channel_status.html#aa8a8fcef604e7e9670fdcbad2e50026d", null ],
     [ "ChannelStatus", "classts_1_1ecmgscs_1_1_channel_status.html#a6675a7e66ce8ec2262dd33c0c308d18a", null ],
-    [ "dump", "classts_1_1ecmgscs_1_1_channel_status.html#ab6291a800ff4f45f63c40ff2628fbd14", null ],
-    [ "serializeParameters", "classts_1_1ecmgscs_1_1_channel_status.html#abb9fe2c43627f70a8230c67f504e6bbd", null ],
+    [ "dump", "classts_1_1ecmgscs_1_1_channel_status.html#ab47d556fbec1239f78eb24a33b5c22e5", null ],
+    [ "serializeParameters", "classts_1_1ecmgscs_1_1_channel_status.html#af1aaa810b3740a1fd922c9fb36e8d27e", null ],
     [ "section_TSpkt_flag", "classts_1_1ecmgscs_1_1_channel_status.html#a4b49491af4fc36b221f843f81b6fd36b", null ],
     [ "has_AC_delay_start", "classts_1_1ecmgscs_1_1_channel_status.html#ab63c91d1bb17f5d49de331e2ad139aa6", null ],
     [ "AC_delay_start", "classts_1_1ecmgscs_1_1_channel_status.html#a56a0939c47bdf5971868eedf7a385f0b", null ],

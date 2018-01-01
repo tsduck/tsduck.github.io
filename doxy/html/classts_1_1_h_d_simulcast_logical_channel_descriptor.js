@@ -8,8 +8,8 @@ var classts_1_1_h_d_simulcast_logical_channel_descriptor =
     [ "DisplayDescriptor", "classts_1_1_h_d_simulcast_logical_channel_descriptor.html#a334ab42aebc1d75c26047205cb7b568b", null ],
     [ "serialize", "classts_1_1_h_d_simulcast_logical_channel_descriptor.html#a8d413afbac089e3deabf93e034b050d5", null ],
     [ "deserialize", "classts_1_1_h_d_simulcast_logical_channel_descriptor.html#aa20be766cb3623a9edc6f8d2d1faa31f", null ],
-    [ "toXML", "classts_1_1_h_d_simulcast_logical_channel_descriptor.html#a6f506de9549a34d373f21c923f305a29", null ],
-    [ "fromXML", "classts_1_1_h_d_simulcast_logical_channel_descriptor.html#ac935f31547e31e4b9752966cfa292710", null ],
+    [ "buildXML", "classts_1_1_h_d_simulcast_logical_channel_descriptor.html#a8865f28f17d1d66edc8a9b3276e84b82", null ],
+    [ "fromXML", "classts_1_1_h_d_simulcast_logical_channel_descriptor.html#a66ae3a1cffa1c1b4e9efbda868bc435b", null ],
     [ "MAX_ENTRIES", "classts_1_1_h_d_simulcast_logical_channel_descriptor.html#a9d610c22fad2fb44239469ba8f5dc796", null ],
     [ "entries", "classts_1_1_h_d_simulcast_logical_channel_descriptor.html#a064d76dd2a994128c1ca8a097bb1e8b9", null ]
 ];

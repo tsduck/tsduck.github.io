@@ -9,5 +9,5 @@ var classts_1_1_p_s_i_logger_args =
     [ "clear", "classts_1_1_p_s_i_logger_args.html#aaec3c5cc67fd588dcdc525ab80ca7251", null ],
     [ "cat_only", "classts_1_1_p_s_i_logger_args.html#a196c2faf2b4a39c90cb76a6e08bde173", null ],
     [ "dump", "classts_1_1_p_s_i_logger_args.html#aaa2972d263582e3c8b37209b9d8c734c", null ],
-    [ "output", "classts_1_1_p_s_i_logger_args.html#adcbe27975dbc0da12d9f0f24f1d7fb48", null ]
+    [ "output", "classts_1_1_p_s_i_logger_args.html#af75f51a95fca8e126b6b254f2420dd36", null ]
 ];

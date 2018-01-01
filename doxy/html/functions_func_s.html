@@ -34,7 +34,7 @@
  <tr style="height: 56px;">
   <td id="projectlogo"><img src="tsduck-32.png"/></td>
    <td id="projectalign"><span id="projectname">TSDuck</span>
-    <span id="projectnumber">Version 3.4</span>
+    <span id="projectnumber">Version 3.5</span>
     <span id="projectbrief">(TSDuck - The MPEG Transport Stream Toolkit)</span>
    </td>
    <td>        <div id="MSearchBox" class="MSearchBoxInactive">
@@ -113,23 +113,29 @@ $(document).ready(function(){initNavTree('functions_func_s.html','');});
 <li>SatelliteDeliverySystemDescriptor()
 : <a class="el" href="classts_1_1_satellite_delivery_system_descriptor.html#a331b9065945975b635a7611392cf0cd8">ts::SatelliteDeliverySystemDescriptor</a>
 </li>
-<li>save()
-: <a class="el" href="classts_1_1_binary_table.html#a63dda1561393180f0ff92b6ad7de472b">ts::BinaryTable</a>
-</li>
 <li>Save()
 : <a class="el" href="classts_1_1_u_string.html#af7f019a070c0a77d35be1eeba6b4af4f">ts::UString</a>
 </li>
-<li>SaveFile()
-: <a class="el" href="classts_1_1_binary_table.html#a984d4003772bdc7a6d7ae9ca66c5facc">ts::BinaryTable</a>
+<li>save()
+: <a class="el" href="classts_1_1xml_1_1_document.html#a6ca2d9a54b0777079d2e2818dc2c870e">ts::xml::Document</a>
+</li>
+<li>saveBinary()
+: <a class="el" href="classts_1_1_section_file.html#a6582cee921bce9b312d68c6cbc6a889a">ts::SectionFile</a>
+</li>
+<li>saveToFile()
+: <a class="el" href="classts_1_1_byte_block.html#a3e7c8810064f39ef05fc7e66d6997772">ts::ByteBlock</a>
 </li>
 <li>saveXML()
-: <a class="el" href="classts_1_1_x_m_l_tables.html#af7d9d150469515377f0d16fd31903a37">ts::XMLTables</a>
+: <a class="el" href="classts_1_1_section_file.html#a0fa03f63143c4e0d46f4c3ca5e57afb1">ts::SectionFile</a>
+</li>
+<li>scan()
+: <a class="el" href="classts_1_1_u_string.html#ae9ad4436655c7622b184598f5dd7593d">ts::UString</a>
 </li>
 <li>scanFile()
-: <a class="el" href="structts_1_1_file_name_rate.html#a98328ca4ecdaa5c5bf18dcd559207104">ts::FileNameRate</a>
+: <a class="el" href="structts_1_1_file_name_rate.html#a204d48114c290233e809442098b557c7">ts::FileNameRate</a>
 </li>
 <li>scanFiles()
-: <a class="el" href="classts_1_1_file_name_rate_list.html#a4e92d67dfd6d94c2acc5ad53d470d66c">ts::FileNameRateList</a>
+: <a class="el" href="classts_1_1_file_name_rate_list.html#ab474e0ebfead15ac5bfbeb67a535a4cf">ts::FileNameRateList</a>
 </li>
 <li>Scrambling()
 : <a class="el" href="classts_1_1_scrambling.html#a430a83d541b66e3e5f29ee2269012950">ts::Scrambling</a>
@@ -138,20 +144,23 @@ $(document).ready(function(){initNavTree('functions_func_s.html','');});
 : <a class="el" href="classts_1_1_s_d_t.html#a961fabb7fc26bc127b72e27ff9579db3">ts::SDT</a>
 </li>
 <li>se()
-: <a class="el" href="classts_1_1_a_v_c_parser.html#abc36a275cd770baa077824ce9ae754da">ts::AVCParser</a>
+: <a class="el" href="classts_1_1_a_v_c_parser.html#abd5ee26af874ef1d169d0a3135b78aa4">ts::AVCParser</a>
 </li>
 <li>search()
 : <a class="el" href="classts_1_1_descriptor_list.html#a15f8abf6b705eab473cfe98ac8b5a672">ts::DescriptorList</a>
 , <a class="el" href="classts_1_1_d_t_v_properties.html#a972318566d755ea67c69202a5fb8dccd">ts::DTVProperties</a>
 </li>
 <li>searchLanguage()
-: <a class="el" href="classts_1_1_descriptor_list.html#aadcfcd73c8183788ab58eedb25c6d015">ts::DescriptorList</a>
+: <a class="el" href="classts_1_1_descriptor_list.html#a821e13034b64133c2afbc432bd68bd4d">ts::DescriptorList</a>
 </li>
 <li>searchSubtitle()
-: <a class="el" href="classts_1_1_descriptor_list.html#a3d702545a4136ab4fd4ac8f2b0bf3516">ts::DescriptorList</a>
+: <a class="el" href="classts_1_1_descriptor_list.html#acaa86d454340827bc7add1b356a1fd8b">ts::DescriptorList</a>
 </li>
 <li>second()
 : <a class="el" href="classts_1_1_simul_crypt_date.html#ac0597f6b68ae7a9c78ee13bb9bf51002">ts::SimulCryptDate</a>
+</li>
+<li>section()
+: <a class="el" href="classts_1_1_grid.html#a849f451455dea0214318f5a2cdcfa507">ts::Grid</a>
 </li>
 <li>Section()
 : <a class="el" href="classts_1_1_section.html#ab83c30e72e24318b26ccd1b0abae7ed3">ts::Section</a>
@@ -166,37 +175,47 @@ $(document).ready(function(){initNavTree('functions_func_s.html','');});
 <li>SectionDemux()
 : <a class="el" href="classts_1_1_section_demux.html#a33fad9b555c3d2242b0b68afe72fd639">ts::SectionDemux</a>
 </li>
+<li>SectionFile()
+: <a class="el" href="classts_1_1_section_file.html#a79fbdeda8fc99f86b6df607e47517785">ts::SectionFile</a>
+</li>
 <li>sectionNumber()
 : <a class="el" href="classts_1_1_section.html#afadce7bdba8f9cfaa7e31bf7ade60010">ts::Section</a>
 </li>
 <li>sectionProvider()
 : <a class="el" href="classts_1_1_packetizer.html#a7459e37e264e07f75a68dff3c6f52dd8">ts::Packetizer</a>
 </li>
+<li>sections()
+: <a class="el" href="classts_1_1_section_file.html#a3f588bd053e66573762815c4fbf29a22">ts::SectionFile</a>
+</li>
 <li>seed()
 : <a class="el" href="classts_1_1_random_generator.html#a4d6090f8035db859ecc8787d96f2f834">ts::RandomGenerator</a>
-, <a class="el" href="classts_1_1_system_random_generator.html#a2b2f1712a03c7926bf310090518d1a81">ts::SystemRandomGenerator</a>
+, <a class="el" href="classts_1_1_system_random_generator.html#aebaefbac5072c3da95f39fc780795f4a">ts::SystemRandomGenerator</a>
 </li>
 <li>seek()
 : <a class="el" href="classts_1_1_bit_stream.html#a4b2ce0b7392dfca845c853dae0592778">ts::BitStream</a>
-, <a class="el" href="classts_1_1_t_s_file_input.html#a53ffa70c0f01b623531caa8f2d34c858">ts::TSFileInput</a>
-, <a class="el" href="classts_1_1_t_s_file_input_buffered.html#ab94b43dae784b34dc8c0aa40750c1ec9">ts::TSFileInputBuffered</a>
+, <a class="el" href="classts_1_1_text_parser.html#aff451c967f5ba966e78cf477425e6919">ts::TextParser</a>
+, <a class="el" href="classts_1_1_t_s_file_input.html#a9f45a0944c9c233a3f7eeed77731260e">ts::TSFileInput</a>
+, <a class="el" href="classts_1_1_t_s_file_input_buffered.html#ad230e257f2019270c0612697980ffd51">ts::TSFileInputBuffered</a>
 </li>
 <li>seekBackward()
-: <a class="el" href="classts_1_1_t_s_file_input_buffered.html#aaf42d7de0fe3ace25b63f59730358e3e">ts::TSFileInputBuffered</a>
+: <a class="el" href="classts_1_1_t_s_file_input_buffered.html#ad031140fc9e91a0bf19ee5e840577cb9">ts::TSFileInputBuffered</a>
 </li>
 <li>seekForward()
-: <a class="el" href="classts_1_1_t_s_file_input_buffered.html#aafec405158500f872a99679a2716fe46">ts::TSFileInputBuffered</a>
+: <a class="el" href="classts_1_1_t_s_file_input_buffered.html#afc4193eeb5e950b68df45275fdc98a96">ts::TSFileInputBuffered</a>
 </li>
 <li>send()
-: <a class="el" href="classts_1_1_dektec_output_plugin.html#aa1f75660e5ed4c966e31c4ff7fe00ea1">ts::DektecOutputPlugin</a>
+: <a class="el" href="classts_1_1_dektec_output_plugin.html#a84964c9ff09589e52e804007d7ca7a17">ts::DektecOutputPlugin</a>
 , <a class="el" href="classts_1_1_output_plugin.html#a1cf091b29c53d0d5e5008d20f94f31c3">ts::OutputPlugin</a>
-, <a class="el" href="classts_1_1_t_c_p_connection.html#ab04c30e5ddd1e7b04dc0157aa2ee88dd">ts::TCPConnection</a>
-, <a class="el" href="classts_1_1_telnet_connection.html#a63cd41412be27de7b7397c505079e0d5">ts::TelnetConnection</a>
-, <a class="el" href="classts_1_1tlv_1_1_connection.html#a1a1cadccfa61ffb9c26c3f074f81b3d6">ts::tlv::Connection&lt; MUTEX &gt;</a>
-, <a class="el" href="classts_1_1_u_d_p_socket.html#ade30ee433c33f41bc4b0d040344ab3d6">ts::UDPSocket</a>
+, <a class="el" href="classts_1_1_t_c_p_connection.html#afb5edc3283faaa377802f3c3234c80fb">ts::TCPConnection</a>
+, <a class="el" href="classts_1_1_telnet_connection.html#ab25b8cc6a21c24857fcdff2279fa6dc1">ts::TelnetConnection</a>
+, <a class="el" href="classts_1_1tlv_1_1_connection.html#afab3ef4eda7d79f2c096f4b1e2787ed8">ts::tlv::Connection&lt; MUTEX &gt;</a>
+, <a class="el" href="classts_1_1_u_d_p_socket.html#a8a9f947a8e053e5b8dec1ec1d26aaf30">ts::UDPSocket</a>
 </li>
 <li>separateColourPlaneFlag()
 : <a class="el" href="classts_1_1_a_v_c_sequence_parameter_set.html#afd264402768a2481f3ad5b20b3e387a1">ts::AVCSequenceParameterSet</a>
+</li>
+<li>sequence()
+: <a class="el" href="classts_1_1xml_1_1_attribute.html#a5a491f37e40501314f85001b001b6f60">ts::xml::Attribute</a>
 </li>
 <li>serialize()
 : <a class="el" href="classts_1_1_abstract_descriptor.html#ac4e081cb7d778e1d17337bb15132f5c6">ts::AbstractDescriptor</a>
@@ -259,33 +278,33 @@ $(document).ready(function(){initNavTree('functions_func_s.html','');});
 : <a class="el" href="classts_1_1_abstract_signalization.html#ae02743b0076183fb615027b8bc88b26a">ts::AbstractSignalization</a>
 </li>
 <li>serializeParameters()
-: <a class="el" href="classts_1_1ecmgscs_1_1_channel_close.html#ab77e5c0bcc4bd668f020ee540a782889">ts::ecmgscs::ChannelClose</a>
-, <a class="el" href="classts_1_1ecmgscs_1_1_channel_error.html#abfbf1b6cf9c7a5cd55a6058240c0a485">ts::ecmgscs::ChannelError</a>
-, <a class="el" href="classts_1_1ecmgscs_1_1_channel_setup.html#a36ad5c812f28a4d9a52c5622803a3c7a">ts::ecmgscs::ChannelSetup</a>
-, <a class="el" href="classts_1_1ecmgscs_1_1_channel_status.html#abb9fe2c43627f70a8230c67f504e6bbd">ts::ecmgscs::ChannelStatus</a>
-, <a class="el" href="classts_1_1ecmgscs_1_1_channel_test.html#ae378fad6ba88c53762760c0126087c1c">ts::ecmgscs::ChannelTest</a>
-, <a class="el" href="classts_1_1ecmgscs_1_1_c_w_provision.html#aa0335c5deec7610daa2383ec135e8d37">ts::ecmgscs::CWProvision</a>
-, <a class="el" href="classts_1_1ecmgscs_1_1_e_c_m_response.html#a9b743742714f4ebfa0d5d91180bdcf1c">ts::ecmgscs::ECMResponse</a>
-, <a class="el" href="classts_1_1ecmgscs_1_1_stream_close_request.html#a508f6a2615c0d0c0d834e20afb6830c2">ts::ecmgscs::StreamCloseRequest</a>
-, <a class="el" href="classts_1_1ecmgscs_1_1_stream_close_response.html#a26bce16661d5e5736a42dbe8a87fa7d6">ts::ecmgscs::StreamCloseResponse</a>
-, <a class="el" href="classts_1_1ecmgscs_1_1_stream_error.html#a945af467e2150503fa3c50a961855652">ts::ecmgscs::StreamError</a>
-, <a class="el" href="classts_1_1ecmgscs_1_1_stream_setup.html#adcf7bbb2ad7c0ba2354cf59edc917f3b">ts::ecmgscs::StreamSetup</a>
-, <a class="el" href="classts_1_1ecmgscs_1_1_stream_status.html#a869db7e7f049b9e697a56789a5788dc9">ts::ecmgscs::StreamStatus</a>
-, <a class="el" href="classts_1_1ecmgscs_1_1_stream_test.html#ad0808cb61ad7c393f880194503633f22">ts::ecmgscs::StreamTest</a>
-, <a class="el" href="classts_1_1emmgmux_1_1_channel_close.html#aad92ddc744542c4406e723011da72066">ts::emmgmux::ChannelClose</a>
-, <a class="el" href="classts_1_1emmgmux_1_1_channel_error.html#a6a5db1217b28aab2fddaaa8a38dd2f88">ts::emmgmux::ChannelError</a>
-, <a class="el" href="classts_1_1emmgmux_1_1_channel_setup.html#a7823aff4fd614565e1af57434143e586">ts::emmgmux::ChannelSetup</a>
-, <a class="el" href="classts_1_1emmgmux_1_1_channel_status.html#a690f93be09773f24691f2ef39d6298ad">ts::emmgmux::ChannelStatus</a>
-, <a class="el" href="classts_1_1emmgmux_1_1_channel_test.html#a20dd61016def4e7f1c064478dbb7edac">ts::emmgmux::ChannelTest</a>
-, <a class="el" href="classts_1_1emmgmux_1_1_data_provision.html#afbfd799933576daf36d16930411f968f">ts::emmgmux::DataProvision</a>
-, <a class="el" href="classts_1_1emmgmux_1_1_stream_b_w_allocation.html#af8a286d1b67b428b428976cb5a2729cb">ts::emmgmux::StreamBWAllocation</a>
-, <a class="el" href="classts_1_1emmgmux_1_1_stream_b_w_request.html#ad6ec278d18cef00493e4e075810238c7">ts::emmgmux::StreamBWRequest</a>
-, <a class="el" href="classts_1_1emmgmux_1_1_stream_close_request.html#a273efd4fc3874bcf253cc4a1de3bc8aa">ts::emmgmux::StreamCloseRequest</a>
-, <a class="el" href="classts_1_1emmgmux_1_1_stream_close_response.html#a3d4ec2d44a7af67671db5728c1ef5023">ts::emmgmux::StreamCloseResponse</a>
-, <a class="el" href="classts_1_1emmgmux_1_1_stream_error.html#a630d44f4c3253f978274047d068ef9ae">ts::emmgmux::StreamError</a>
-, <a class="el" href="classts_1_1emmgmux_1_1_stream_setup.html#aed85a417ab1ea951ee36e659f3bfcfec">ts::emmgmux::StreamSetup</a>
-, <a class="el" href="classts_1_1emmgmux_1_1_stream_status.html#a38ce4baafd0e4007fe89ea60975114c5">ts::emmgmux::StreamStatus</a>
-, <a class="el" href="classts_1_1emmgmux_1_1_stream_test.html#ac28549c1b36d639790e81fbb6591a370">ts::emmgmux::StreamTest</a>
+: <a class="el" href="classts_1_1ecmgscs_1_1_channel_close.html#afc9e7efbf19505a74b0dd1f079a620c0">ts::ecmgscs::ChannelClose</a>
+, <a class="el" href="classts_1_1ecmgscs_1_1_channel_error.html#a2b162b901081690720288336b2b859b0">ts::ecmgscs::ChannelError</a>
+, <a class="el" href="classts_1_1ecmgscs_1_1_channel_setup.html#a9e53afdb808554dfe09c25882dce7acb">ts::ecmgscs::ChannelSetup</a>
+, <a class="el" href="classts_1_1ecmgscs_1_1_channel_status.html#af1aaa810b3740a1fd922c9fb36e8d27e">ts::ecmgscs::ChannelStatus</a>
+, <a class="el" href="classts_1_1ecmgscs_1_1_channel_test.html#a02e28487215e590a81bf2e7d774112fa">ts::ecmgscs::ChannelTest</a>
+, <a class="el" href="classts_1_1ecmgscs_1_1_c_w_provision.html#aeadce2c9d7278b662dcbb86e4418c1ae">ts::ecmgscs::CWProvision</a>
+, <a class="el" href="classts_1_1ecmgscs_1_1_e_c_m_response.html#a3efb1b13ed58d26314c4b53a627eb3a7">ts::ecmgscs::ECMResponse</a>
+, <a class="el" href="classts_1_1ecmgscs_1_1_stream_close_request.html#a2e374bf47778604ca5ed4eb9d4fb88a3">ts::ecmgscs::StreamCloseRequest</a>
+, <a class="el" href="classts_1_1ecmgscs_1_1_stream_close_response.html#a373425c58a733fe86be7e7e89ff8eb8e">ts::ecmgscs::StreamCloseResponse</a>
+, <a class="el" href="classts_1_1ecmgscs_1_1_stream_error.html#a5df59079ae2f0f6bb224632efd77f452">ts::ecmgscs::StreamError</a>
+, <a class="el" href="classts_1_1ecmgscs_1_1_stream_setup.html#a3484e52f25e73bff90f1177d71103666">ts::ecmgscs::StreamSetup</a>
+, <a class="el" href="classts_1_1ecmgscs_1_1_stream_status.html#a6b39630f7902caed0fea74ba53d954d7">ts::ecmgscs::StreamStatus</a>
+, <a class="el" href="classts_1_1ecmgscs_1_1_stream_test.html#aa1f408558fc5baa44badb0d98c14f538">ts::ecmgscs::StreamTest</a>
+, <a class="el" href="classts_1_1emmgmux_1_1_channel_close.html#a8aa1701bce3abd76fe1c33a32db8e6ab">ts::emmgmux::ChannelClose</a>
+, <a class="el" href="classts_1_1emmgmux_1_1_channel_error.html#ac5a74746e60801c285b248099067b3f2">ts::emmgmux::ChannelError</a>
+, <a class="el" href="classts_1_1emmgmux_1_1_channel_setup.html#a172f8d7c1291abc96fad5ca3c5e5a383">ts::emmgmux::ChannelSetup</a>
+, <a class="el" href="classts_1_1emmgmux_1_1_channel_status.html#aee8d0c2a53e2eda094097470bc5e3d7b">ts::emmgmux::ChannelStatus</a>
+, <a class="el" href="classts_1_1emmgmux_1_1_channel_test.html#a7229bdb61dbea215f0b8d94fa4347b58">ts::emmgmux::ChannelTest</a>
+, <a class="el" href="classts_1_1emmgmux_1_1_data_provision.html#a8a20d0cbeb1defe30fe127a47410f280">ts::emmgmux::DataProvision</a>
+, <a class="el" href="classts_1_1emmgmux_1_1_stream_b_w_allocation.html#afeb9dddff0673cd7c2fc1c22f24c3751">ts::emmgmux::StreamBWAllocation</a>
+, <a class="el" href="classts_1_1emmgmux_1_1_stream_b_w_request.html#a35cf7807a2a64bfc9960202ba5f42206">ts::emmgmux::StreamBWRequest</a>
+, <a class="el" href="classts_1_1emmgmux_1_1_stream_close_request.html#af6af9f416d38d4703947925d43da2439">ts::emmgmux::StreamCloseRequest</a>
+, <a class="el" href="classts_1_1emmgmux_1_1_stream_close_response.html#ab04ea63ff7ef4b52f0e48cfeb4659f9d">ts::emmgmux::StreamCloseResponse</a>
+, <a class="el" href="classts_1_1emmgmux_1_1_stream_error.html#a3a42230e1fd3616ae9f8eacd44dead78">ts::emmgmux::StreamError</a>
+, <a class="el" href="classts_1_1emmgmux_1_1_stream_setup.html#ac5afb645a9d45eb97cb477937fc10833">ts::emmgmux::StreamSetup</a>
+, <a class="el" href="classts_1_1emmgmux_1_1_stream_status.html#a8088f32e5881ff693309fcd45cd50525">ts::emmgmux::StreamStatus</a>
+, <a class="el" href="classts_1_1emmgmux_1_1_stream_test.html#a64c99b669663eec42b341697483f1b59">ts::emmgmux::StreamTest</a>
 , <a class="el" href="classts_1_1tlv_1_1_message.html#acf0753b978824673e842cd2b2a14048e">ts::tlv::Message</a>
 </li>
 <li>Serializer()
@@ -314,10 +333,10 @@ $(document).ready(function(){initNavTree('functions_func_s.html','');});
 : <a class="el" href="classts_1_1_s_d_t_1_1_service.html#a44681cd32711da410d547bcc4a4664f5">ts::SDT::Service</a>
 </li>
 <li>set()
-: <a class="el" href="classts_1_1_l_n_b.html#a3bb66e71d955d4b137c23a47aad8e670">ts::LNB</a>
+: <a class="el" href="classts_1_1_l_n_b.html#a93ce70f69384b6c6378c18ccc2b826d4">ts::LNB</a>
 , <a class="el" href="classts_1_1_service.html#ac8a160a9041f725d4d47114f86f47c7d">ts::Service</a>
 , <a class="el" href="classts_1_1_socket_address.html#a8ddaa13034a76686a62394ae58b3af16">ts::SocketAddress</a>
-, <a class="el" href="classts_1_1_t_l_v_syntax.html#a6552a089d1fab69a68f772d42013ad6c">ts::TLVSyntax</a>
+, <a class="el" href="classts_1_1_t_l_v_syntax.html#ab9a9a7c013e8acb3b16b80f14bb1c4ef">ts::TLVSyntax</a>
 , <a class="el" href="classts_1_1_variable.html#a5629e02b5e95a8091a85f0800db3c956">ts::Variable&lt; T &gt;</a>
 </li>
 <li>setAbort()
@@ -335,7 +354,7 @@ $(document).ready(function(){initNavTree('functions_func_s.html','');});
 : <a class="el" href="classts_1_1_t_s_analyzer_report.html#a6bb145059e415f2cdbbf2f34ab703980">ts::TSAnalyzerReport</a>
 </li>
 <li>setAttribute()
-: <a class="el" href="classts_1_1_x_m_l.html#ad1a1d86f75a622caadf0b63ec40aa84d">ts::XML</a>
+: <a class="el" href="classts_1_1xml_1_1_element.html#ad50247a3566017b16f158cb84f76f7a5">ts::xml::Element</a>
 </li>
 <li>setAttributes()
 : <a class="el" href="classts_1_1_thread.html#a2b83b8195aeb16fd769e8f41e8a94da7">ts::Thread</a>
@@ -358,11 +377,14 @@ $(document).ready(function(){initNavTree('functions_func_s.html','');});
 <li>setBitrateHint()
 : <a class="el" href="classts_1_1_t_s_analyzer.html#a3b1102a46567bab7f90c471d77a3758a">ts::TSAnalyzer</a>
 </li>
+<li>setBool()
+: <a class="el" href="classts_1_1xml_1_1_attribute.html#a2d188293a1d70738c8ce0f817a0f9a50">ts::xml::Attribute</a>
+</li>
 <li>setBoolAttribute()
-: <a class="el" href="classts_1_1_x_m_l.html#a5b2d487b8521dc999d1dcb558aebf5f4">ts::XML</a>
+: <a class="el" href="classts_1_1xml_1_1_element.html#ac9a205ade3829ae3ac81e989e6d83fb9">ts::xml::Element</a>
 </li>
 <li>setBufferSize()
-: <a class="el" href="classts_1_1_t_s_file_input_buffered.html#a650354a203903218b2012450fcd3110d">ts::TSFileInputBuffered</a>
+: <a class="el" href="classts_1_1_t_s_file_input_buffered.html#a3ea1705de3d419391950a78838d49ce7">ts::TSFileInputBuffered</a>
 </li>
 <li>setCAControlled()
 : <a class="el" href="classts_1_1_service.html#ae3eeed7c57451fc3748f43f7923587a3">ts::Service</a>
@@ -370,17 +392,17 @@ $(document).ready(function(){initNavTree('functions_func_s.html','');});
 <li>setCC()
 : <a class="el" href="structts_1_1_t_s_packet.html#ad4d38a42da896f584d3ee4bf9a46847f">ts::TSPacket</a>
 </li>
+<li>setDateTime()
+: <a class="el" href="classts_1_1xml_1_1_attribute.html#a55f19d512048c9aff2d32fe2f9b91eb4">ts::xml::Attribute</a>
+</li>
 <li>setDateTimeAttribute()
-: <a class="el" href="classts_1_1_x_m_l.html#af7b04682c5f95450a73e0bdc6d9cf2ac">ts::XML</a>
+: <a class="el" href="classts_1_1xml_1_1_element.html#a52c8922ad85148fa7d024ee6e98a52ca">ts::xml::Element</a>
 </li>
 <li>setDay()
 : <a class="el" href="classts_1_1_simul_crypt_date.html#a6669c4d44fa1826d8fc19c807c2c61ce">ts::SimulCryptDate</a>
 </li>
-<li>setDebugLevel()
-: <a class="el" href="classts_1_1_report_interface.html#a69c219d056215359ffe30e4b4812787e">ts::ReportInterface</a>
-</li>
 <li>setDefaultDestination()
-: <a class="el" href="classts_1_1_u_d_p_socket.html#ad5c4735f8b490bcbdf970010e5bafc0e">ts::UDPSocket</a>
+: <a class="el" href="classts_1_1_u_d_p_socket.html#ae668671b4955e6d187e9e1900b16a639">ts::UDPSocket</a>
 </li>
 <li>setDeleteWhenTerminated()
 : <a class="el" href="classts_1_1_thread_attributes.html#a5e7eac7137e8f9b4ab4b80a1bc201a8c">ts::ThreadAttributes</a>
@@ -389,7 +411,7 @@ $(document).ready(function(){initNavTree('functions_func_s.html','');});
 : <a class="el" href="classts_1_1_tuner.html#a7bfb5322af6cc72b733151602d8d8e3f">ts::Tuner</a>
 </li>
 <li>setDescription()
-: <a class="el" href="classts_1_1_args.html#a2dabc6bef9f32b8407be52acaa3677b9">ts::Args</a>
+: <a class="el" href="classts_1_1_args.html#a1329947cfec8ccec496781c314883645">ts::Args</a>
 </li>
 <li>setEITpfPresent()
 : <a class="el" href="classts_1_1_service.html#abcd6f4a7268cd034ccf142d2231f1d9c">ts::Service</a>
@@ -397,12 +419,18 @@ $(document).ready(function(){initNavTree('functions_func_s.html','');});
 <li>setEITsPresent()
 : <a class="el" href="classts_1_1_service.html#a1c3c22bd1c675a6365db30f710c61b05">ts::Service</a>
 </li>
+<li>setEnum()
+: <a class="el" href="classts_1_1xml_1_1_attribute.html#a578ce7b699e96c3713071507956c5fb3">ts::xml::Attribute</a>
+</li>
 <li>setEnumAttribute()
-: <a class="el" href="classts_1_1_x_m_l.html#adc1eb88b72700eecb1d6259c8e307fce">ts::XML</a>
+: <a class="el" href="classts_1_1xml_1_1_element.html#a0b799a606a7fd635899aea7353288f6a">ts::xml::Element</a>
 </li>
 <li>setErrorSeverityLevel()
 : <a class="el" href="classts_1_1_t_s_file_input.html#a0f37bfa29d1b90e4fe1ec1682ed102db">ts::TSFileInput</a>
 , <a class="el" href="classts_1_1_t_s_file_output.html#a7504698df9a1a1d623835e5bc25cb753">ts::TSFileOutput</a>
+</li>
+<li>setFile()
+: <a class="el" href="classts_1_1_text_formatter.html#a14dd0d3023839ffd9f979613dd44ba45">ts::TextFormatter</a>
 </li>
 <li>setFirstTSPacketIndex()
 : <a class="el" href="classts_1_1_p_e_s_packet.html#afdc26702b3e7ef6a19a5028e32d1017a">ts::PESPacket</a>
@@ -418,8 +446,8 @@ $(document).ready(function(){initNavTree('functions_func_s.html','');});
 : <a class="el" href="classts_1_1_t2_m_i_demux.html#aaeb1916c2a390c90c2c72df6ed09f984">ts::T2MIDemux</a>
 </li>
 <li>setHelp()
-: <a class="el" href="classts_1_1_args.html#af0f43305a588fde4d73cf22603fae854">ts::Args</a>
-, <a class="el" href="classts_1_1_t_s_analyzer_options.html#aa959563f95eb0f7ef90d3e17e54bd5c5">ts::TSAnalyzerOptions</a>
+: <a class="el" href="classts_1_1_args.html#a05a2064f22139a2cd1f2c19b8314b74b">ts::Args</a>
+, <a class="el" href="classts_1_1_t_s_analyzer_options.html#a8db7198a1e2abf40cdd6cebdc24043e3">ts::TSAnalyzerOptions</a>
 </li>
 <li>setHour()
 : <a class="el" href="classts_1_1_simul_crypt_date.html#ace0b909852790bbbc9483e0734f11530">ts::SimulCryptDate</a>
@@ -433,11 +461,20 @@ $(document).ready(function(){initNavTree('functions_func_s.html','');});
 <li>setIgnoreAbort()
 : <a class="el" href="classts_1_1_fork_pipe.html#aa0eaea9c6405d9092476751cd1355e28">ts::ForkPipe</a>
 </li>
+<li>setIndentSize()
+: <a class="el" href="classts_1_1_text_formatter.html#aea5a07a6815ba17d68798acaf46445f5">ts::TextFormatter</a>
+</li>
 <li>setIntAttribute()
-: <a class="el" href="classts_1_1_x_m_l.html#a89c3b3d395313654651cbdbafd7affe1">ts::XML</a>
+: <a class="el" href="classts_1_1xml_1_1_element.html#a6dd7191cf042acda010f9fa3590e27bf">ts::xml::Element</a>
+</li>
+<li>setInteger()
+: <a class="el" href="classts_1_1xml_1_1_attribute.html#aaac2c2bd3f2ce74d018eb742b72ae5dc">ts::xml::Attribute</a>
+</li>
+<li>setIntEnum()
+: <a class="el" href="classts_1_1xml_1_1_attribute.html#ab4bc0252b825fe20b76d6bb06011d5e5">ts::xml::Attribute</a>
 </li>
 <li>setIntEnumAttribute()
-: <a class="el" href="classts_1_1_x_m_l.html#a113bc20d9ee062f4b2be286c0532691f">ts::XML</a>
+: <a class="el" href="classts_1_1xml_1_1_element.html#a328aa628216dd9de14fde5a6e34f084e">ts::xml::Element</a>
 </li>
 <li>setIsCurrent()
 : <a class="el" href="classts_1_1_section.html#a212a964a5cb14f3bcf1f772216ec43a0">ts::Section</a>
@@ -447,17 +484,17 @@ $(document).ready(function(){initNavTree('functions_func_s.html','');});
 , <a class="el" href="classts_1_1_cipher_chaining.html#a018fc2acb10778eee7b5bf79361159ce">ts::CipherChaining</a>
 </li>
 <li>setKeepAlive()
-: <a class="el" href="classts_1_1_t_c_p_socket.html#ab7d2ef9d734703c5e411f3e9f17247c5">ts::TCPSocket</a>
+: <a class="el" href="classts_1_1_t_c_p_socket.html#ae1457bf86cd6bbc966be4cddd1b70444">ts::TCPSocket</a>
 </li>
 <li>setKey()
-: <a class="el" href="classts_1_1_a_e_s.html#a5428e2f212de052f428f2955e01a5bbc">ts::AES</a>
+: <a class="el" href="classts_1_1_a_e_s.html#a64ba88c59bb7af97f8f0aa5f15b5778b">ts::AES</a>
 , <a class="el" href="classts_1_1_block_cipher.html#a74f8c0fe8774363de8a9b3982352f32a">ts::BlockCipher</a>
-, <a class="el" href="classts_1_1_cipher_chaining.html#a1e911c91b35e41e3f17691b6adf8d59d">ts::CipherChaining</a>
-, <a class="el" href="classts_1_1_d_e_s.html#ae36c8b552e7ae71c95345821cf3feed5">ts::DES</a>
-, <a class="el" href="classts_1_1_t_d_e_s.html#a33689294d5de63d6bf10334b134d20f4">ts::TDES</a>
+, <a class="el" href="classts_1_1_cipher_chaining.html#adc948d4c651ec7931971ba4838f1874e">ts::CipherChaining</a>
+, <a class="el" href="classts_1_1_d_e_s.html#a83dd5db65931b9db52584cfb98ae4cea">ts::DES</a>
+, <a class="el" href="classts_1_1_t_d_e_s.html#a112bab9d6794f8229c7453768a669778">ts::TDES</a>
 </li>
 <li>setLanguageCode()
-: <a class="el" href="classts_1_1_audio_language_options.html#a2296ff2ea4ab79c33a640f5100637018">ts::AudioLanguageOptions</a>
+: <a class="el" href="classts_1_1_audio_language_options.html#a6d8f73f8321a1de66ed90a9521331a17">ts::AudioLanguageOptions</a>
 </li>
 <li>setLastSectionNumber()
 : <a class="el" href="classts_1_1_section.html#a2441d7631a3102b57d0511a7ae88345e">ts::Section</a>
@@ -466,11 +503,20 @@ $(document).ready(function(){initNavTree('functions_func_s.html','');});
 : <a class="el" href="classts_1_1_p_e_s_packet.html#a4e8ecfb5d9b66dfc707a16094e404aba">ts::PESPacket</a>
 , <a class="el" href="classts_1_1_section.html#acd8c003a6ba8ec8d2cd7c483cc614e14">ts::Section</a>
 </li>
+<li>setLayout()
+: <a class="el" href="classts_1_1_grid.html#a4693ffdbf07eb743421b234f24ec44e8">ts::Grid</a>
+</li>
 <li>setLCN()
 : <a class="el" href="classts_1_1_service.html#a34923697f69d7dbb19be2ff6f614c06e">ts::Service</a>
 </li>
+<li>setLineWidth()
+: <a class="el" href="classts_1_1_grid.html#ad1429aefd130eec8ab7f7e52c79767b1">ts::Grid</a>
+</li>
 <li>setLingerTime()
-: <a class="el" href="classts_1_1_t_c_p_socket.html#af11288697d04de5369e1ef9f76edae16">ts::TCPSocket</a>
+: <a class="el" href="classts_1_1_t_c_p_socket.html#a081fdffd4879395f7b5b360a481aa3c7">ts::TCPSocket</a>
+</li>
+<li>setMarginSize()
+: <a class="el" href="classts_1_1_text_formatter.html#abcfc309020631a157625d641bf5d20f1">ts::TextFormatter</a>
 </li>
 <li>setMaxConsecutiveSuspectCount()
 : <a class="el" href="classts_1_1_t_s_analyzer.html#a9425283e7f251694c335564684f1a886">ts::TSAnalyzer</a>
@@ -483,6 +529,9 @@ $(document).ready(function(){initNavTree('functions_func_s.html','');});
 </li>
 <li>SetMaxMessages()
 : <a class="el" href="classts_1_1_sink_filter.html#a419622e2e7c607e22cb436d857fb5876">ts::SinkFilter</a>
+</li>
+<li>setMaxSeverity()
+: <a class="el" href="classts_1_1_report.html#a9cc14d43fc91ff9a06880f27bb806cf0">ts::Report</a>
 </li>
 <li>setMessageHandler()
 : <a class="el" href="classts_1_1_async_report.html#aa51ae12873b74ff197d7be8e6908f59a">ts::AsyncReport</a>
@@ -504,10 +553,10 @@ $(document).ready(function(){initNavTree('functions_func_s.html','');});
 : <a class="el" href="classts_1_1_packetizer.html#a95ce9d08faff5e00aab4ebfeb2e3e78b">ts::Packetizer</a>
 </li>
 <li>setNoDelay()
-: <a class="el" href="classts_1_1_t_c_p_socket.html#a267a2fb0d822542ea0cd381a103dda72">ts::TCPSocket</a>
+: <a class="el" href="classts_1_1_t_c_p_socket.html#a2b3f66d2faf2893f5756a5b16103b8c1">ts::TCPSocket</a>
 </li>
 <li>setNoLinger()
-: <a class="el" href="classts_1_1_t_c_p_socket.html#ab99571cbc7aeb18dba32f7d2d3939af8">ts::TCPSocket</a>
+: <a class="el" href="classts_1_1_t_c_p_socket.html#a342d34e8d3b745182287c05f28620ca9">ts::TCPSocket</a>
 </li>
 <li>setONId()
 : <a class="el" href="classts_1_1_service.html#a968be32142a35c55a8fd041e0a47f5aa">ts::Service</a>
@@ -516,10 +565,10 @@ $(document).ready(function(){initNavTree('functions_func_s.html','');});
 : <a class="el" href="structts_1_1_t_s_packet.html#a892d20bfbbd0af454463dadfbafa1848">ts::TSPacket</a>
 </li>
 <li>setOptionalIntAttribute()
-: <a class="el" href="classts_1_1_x_m_l.html#a23f4903250a0a417c6ab22684ec82c40">ts::XML</a>
+: <a class="el" href="classts_1_1xml_1_1_element.html#aba41afd438bcba632db618041236aff8">ts::xml::Element</a>
 </li>
 <li>setOutgoingMulticast()
-: <a class="el" href="classts_1_1_u_d_p_socket.html#a30e04be62fb5ba8c974a171fee5ebafe">ts::UDPSocket</a>
+: <a class="el" href="classts_1_1_u_d_p_socket.html#a0629abb77a3a0273285d42b1add53146">ts::UDPSocket</a>
 </li>
 <li>setPCR()
 : <a class="el" href="structts_1_1_t_s_packet.html#a1b0a0322b6927877932b238c4faae252">ts::TSPacket</a>
@@ -545,7 +594,7 @@ $(document).ready(function(){initNavTree('functions_func_s.html','');});
 : <a class="el" href="classts_1_1_monotonic.html#a553f928a4fcaa14684e047d03242a45c">ts::Monotonic</a>
 </li>
 <li>setPrefix()
-: <a class="el" href="classts_1_1_report_with_prefix.html#ab04eb13f4ff08a9479c2ecde4d7b8973">ts::ReportWithPrefix</a>
+: <a class="el" href="classts_1_1_report_with_prefix.html#aebbc3f59d1d82129077821dc7fbce7ee">ts::ReportWithPrefix</a>
 </li>
 <li>setPriority()
 : <a class="el" href="classts_1_1_thread_attributes.html#a1c650561312c1f0076ed67e350845d04">ts::ThreadAttributes</a>
@@ -559,14 +608,17 @@ $(document).ready(function(){initNavTree('functions_func_s.html','');});
 : <a class="el" href="structts_1_1_t_s_packet.html#a5ca81e7620d3fbab25717907ae7e9b04">ts::TSPacket</a>
 </li>
 <li>setReceiveBufferSize()
-: <a class="el" href="classts_1_1_t_c_p_socket.html#a731745481fb35ecdd52548edde99a14e">ts::TCPSocket</a>
-, <a class="el" href="classts_1_1_u_d_p_socket.html#a6019e2e097d0189acd61d042c7bbfa8f">ts::UDPSocket</a>
+: <a class="el" href="classts_1_1_t_c_p_socket.html#ae0ace01049083296dcc12aa7e7faaa49">ts::TCPSocket</a>
+, <a class="el" href="classts_1_1_u_d_p_socket.html#ab7411861ee466314d6a8c99f7a50777a">ts::UDPSocket</a>
 </li>
 <li>setReceiveTimeout()
-: <a class="el" href="classts_1_1_tuner.html#a9a388b009588fd4d4cdc973bd8044a77">ts::Tuner</a>
+: <a class="el" href="classts_1_1_tuner.html#acde98d675ff8a756892a98df0c5f58b2">ts::Tuner</a>
 </li>
 <li>setReport()
-: <a class="el" href="classts_1_1tsp_1_1_plugin_executor.html#ab120bbd2334cb50e1eb131fad85f9d38">ts::tsp::PluginExecutor</a>
+: <a class="el" href="classts_1_1tsp_1_1_plugin_executor.html#a85fdde4fee1e37b909c9f08e74a2c84b">ts::tsp::PluginExecutor</a>
+</li>
+<li>setReportPrefix()
+: <a class="el" href="classts_1_1xml_1_1_node.html#ace0574c607a5de24b617ce9dc8242e8d">ts::xml::Node</a>
 </li>
 <li>setRunningStatus()
 : <a class="el" href="classts_1_1_service.html#a1f541891829c8978cd4c431f56f3dcfe">ts::Service</a>
@@ -587,11 +639,11 @@ $(document).ready(function(){initNavTree('functions_func_s.html','');});
 : <a class="el" href="classts_1_1_packetizer.html#a226b227157fea5f32e6aaef1b7e85e70">ts::Packetizer</a>
 </li>
 <li>setSendBufferSize()
-: <a class="el" href="classts_1_1_t_c_p_socket.html#a4311488ae2bd8fa1ebc46539581af0fd">ts::TCPSocket</a>
-, <a class="el" href="classts_1_1_u_d_p_socket.html#a9473828a093c4b02d94035d0542fd987">ts::UDPSocket</a>
+: <a class="el" href="classts_1_1_t_c_p_socket.html#a68cdf6118122cc4a57e474a8620fae78">ts::TCPSocket</a>
+, <a class="el" href="classts_1_1_u_d_p_socket.html#a73e6ebc121c56984d4e68c788b93a38d">ts::UDPSocket</a>
 </li>
 <li>setShell()
-: <a class="el" href="classts_1_1_args.html#a592ef8790a4773184d706e3ef3ed8b29">ts::Args</a>
+: <a class="el" href="classts_1_1_args.html#a2d0cf1aaf45079a08362b558dd7fcb20">ts::Args</a>
 </li>
 <li>setSignalPoll()
 : <a class="el" href="classts_1_1_tuner.html#aa5e341c6698588f187e4cf2c187bfea6">ts::Tuner</a>
@@ -614,15 +666,22 @@ $(document).ready(function(){initNavTree('functions_func_s.html','');});
 <li>setStackSize()
 : <a class="el" href="classts_1_1_thread_attributes.html#a1e2fab805d57a864b5fd7724179e46b0">ts::ThreadAttributes</a>
 </li>
+<li>setStream()
+: <a class="el" href="classts_1_1_text_formatter.html#ad718f4e8a1d1336ca804cd2542a9494d">ts::TextFormatter</a>
+</li>
 <li>setStreamId()
 : <a class="el" href="classts_1_1_p_e_s_packet.html#ae6f089f94322968f89c657271748867f">ts::PESPacket</a>
+</li>
+<li>setString()
+: <a class="el" href="classts_1_1_text_formatter.html#af11e82375633707412df2d897c8c6ffa">ts::TextFormatter</a>
+, <a class="el" href="classts_1_1xml_1_1_attribute.html#aff5a5199490c146b8b3c9a9b808ba51d">ts::xml::Attribute</a>
 </li>
 <li>setStuffingPolicy()
 : <a class="el" href="classts_1_1_cycling_packetizer.html#aebe48a1ad38b3176b343d3ae56fc638f">ts::CyclingPacketizer</a>
 , <a class="el" href="classts_1_1_one_shot_packetizer.html#a64bfa03f54bab53301733f5a4bfb1cb3">ts::OneShotPacketizer</a>
 </li>
 <li>setSyntax()
-: <a class="el" href="classts_1_1_args.html#a51c59b50b3ddd7277024353b00db8a1b">ts::Args</a>
+: <a class="el" href="classts_1_1_args.html#ac2515ab1f222448f531bd8be25158c18">ts::Args</a>
 </li>
 <li>setTableHandler()
 : <a class="el" href="classts_1_1_section_demux.html#afc550bc263cd6d4a1b6b17b0b932592e">ts::SectionDemux</a>
@@ -634,8 +693,11 @@ $(document).ready(function(){initNavTree('functions_func_s.html','');});
 <li>setTEI()
 : <a class="el" href="structts_1_1_t_s_packet.html#ae1195f5fbfa9cddc7d8fde8ecd134e92">ts::TSPacket</a>
 </li>
+<li>setTime()
+: <a class="el" href="classts_1_1xml_1_1_attribute.html#a9f2d756bb7a46f5365355c854cc99900">ts::xml::Attribute</a>
+</li>
 <li>setTimeAttribute()
-: <a class="el" href="classts_1_1_x_m_l.html#a1a24e8138c9e854822c715e7c1a8a8c1">ts::XML</a>
+: <a class="el" href="classts_1_1xml_1_1_element.html#a006daafcf13114e67bf3d46b423b9b2d">ts::xml::Element</a>
 </li>
 <li>setTimeStamp()
 : <a class="el" href="classts_1_1_async_report.html#aa75cb391ffdde4ea229caa4837d3156e">ts::AsyncReport</a>
@@ -644,8 +706,8 @@ $(document).ready(function(){initNavTree('functions_func_s.html','');});
 : <a class="el" href="classts_1_1_service.html#a1be71b3d70a41ab1e42a1064d6a391fc">ts::Service</a>
 </li>
 <li>setTTL()
-: <a class="el" href="classts_1_1_t_c_p_socket.html#a615a4fc2dd54b57253858a5ffda029a3">ts::TCPSocket</a>
-, <a class="el" href="classts_1_1_u_d_p_socket.html#ab6c03b2fdd1b4b5828aa6a3f81b2b78e">ts::UDPSocket</a>
+: <a class="el" href="classts_1_1_t_c_p_socket.html#a035616a2efa7f3727864378de8c8a29b">ts::TCPSocket</a>
+, <a class="el" href="classts_1_1_u_d_p_socket.html#a964ca172eb412958e7040a630ade332b">ts::UDPSocket</a>
 </li>
 <li>setType()
 : <a class="el" href="classts_1_1_s_d_t_1_1_service.html#a91e5af0913980baf385c897dd2febd4b">ts::SDT::Service</a>
@@ -653,6 +715,12 @@ $(document).ready(function(){initNavTree('functions_func_s.html','');});
 </li>
 <li>setUniversalLNB()
 : <a class="el" href="classts_1_1_l_n_b.html#a807d9059b9313d9b5922f527f314ba20">ts::LNB</a>
+</li>
+<li>SetValue()
+: <a class="el" href="classts_1_1_registry.html#a2c0828cc8618eeedaac06872be77f076">ts::Registry</a>
+</li>
+<li>setValue()
+: <a class="el" href="classts_1_1xml_1_1_node.html#a6414043fa026973ca823c9cef7dba9d4">ts::xml::Node</a>
 </li>
 <li>setVersion()
 : <a class="el" href="classts_1_1_binary_table.html#afe34b4cda2b8c8e3fa80aa3dc709d8ea">ts::BinaryTable</a>
@@ -663,7 +731,7 @@ $(document).ready(function(){initNavTree('functions_func_s.html','');});
 : <a class="el" href="classts_1_1_simul_crypt_date.html#a09e8d7506b1d3bad0f993d3236210b68">ts::SimulCryptDate</a>
 </li>
 <li>severe()
-: <a class="el" href="classts_1_1_report_interface.html#a934735948454d57b2bc8ce414ed94ab1">ts::ReportInterface</a>
+: <a class="el" href="classts_1_1_report.html#a4ddd1ea68c297476033e0baf9a2e8a11">ts::Report</a>
 </li>
 <li>SHA1()
 : <a class="el" href="classts_1_1_s_h_a1.html#ad1c5431f97278b081fec61813b7e1e32">ts::SHA1</a>
@@ -675,51 +743,52 @@ $(document).ready(function(){initNavTree('functions_func_s.html','');});
 : <a class="el" href="classts_1_1_s_h_a512.html#aff5304a3cacdc703fed2af45492598e6">ts::SHA512</a>
 </li>
 <li>SharedLibrary()
-: <a class="el" href="classts_1_1_shared_library.html#ae6d20b141ba23a67b04f0c0d25513abf">ts::SharedLibrary</a>
+: <a class="el" href="classts_1_1_shared_library.html#a31d25e8ad23183fa333d1e8f14b3b921">ts::SharedLibrary</a>
 </li>
 <li>shortDescription()
-: <a class="el" href="classts_1_1_tuner_parameters.html#a70841e0e8b4c010986aecca5aee9dd01">ts::TunerParameters</a>
-, <a class="el" href="classts_1_1_tuner_parameters_a_t_s_c.html#a9a3a8bcccac0ff0b09af3e8154f08c0d">ts::TunerParametersATSC</a>
-, <a class="el" href="classts_1_1_tuner_parameters_d_v_b_c.html#a0c68f33294cabc21d38bb16c70011a61">ts::TunerParametersDVBC</a>
-, <a class="el" href="classts_1_1_tuner_parameters_d_v_b_s.html#a75da4918d5147b9cd4396ce8355e4e8e">ts::TunerParametersDVBS</a>
-, <a class="el" href="classts_1_1_tuner_parameters_d_v_b_t.html#ad0d0071755f948dc6bec18ffdb3c03b6">ts::TunerParametersDVBT</a>
+: <a class="el" href="classts_1_1_tuner_parameters.html#a5488fa07de8d3f4be9ff5589cd115690">ts::TunerParameters</a>
+, <a class="el" href="classts_1_1_tuner_parameters_a_t_s_c.html#a24332c42730cf439484a44cbdfa1adc0">ts::TunerParametersATSC</a>
+, <a class="el" href="classts_1_1_tuner_parameters_d_v_b_c.html#a405a1132f68e975389bff9e83f9f1d0a">ts::TunerParametersDVBC</a>
+, <a class="el" href="classts_1_1_tuner_parameters_d_v_b_s.html#aa9719246853f7f58f7ab8c16c407151a">ts::TunerParametersDVBS</a>
+, <a class="el" href="classts_1_1_tuner_parameters_d_v_b_t.html#ab79bb2fc991f5ec39519604aaf735103">ts::TunerParametersDVBT</a>
 </li>
 <li>ShortEventDescriptor()
-: <a class="el" href="classts_1_1_short_event_descriptor.html#a918d6c1b7c8c20495ec10f98a6a11daf">ts::ShortEventDescriptor</a>
+: <a class="el" href="classts_1_1_short_event_descriptor.html#ac740688093f25d215610c41e5c797c03">ts::ShortEventDescriptor</a>
 </li>
 <li>signal()
 : <a class="el" href="classts_1_1_condition.html#a539115653ae526158fcb563b377b4921">ts::Condition</a>
 , <a class="el" href="classts_1_1_guard_condition.html#a8a631a0e0ad56fa7af6757937a2f6901">ts::GuardCondition</a>
 </li>
 <li>signalLocked()
-: <a class="el" href="classts_1_1_tuner.html#aa48946569cf81f748c584a3df007e443">ts::Tuner</a>
+: <a class="el" href="classts_1_1_tuner.html#ac3f2895da196ca5e77b55a8823b1ce0f">ts::Tuner</a>
 </li>
 <li>signalQuality()
-: <a class="el" href="classts_1_1_tuner.html#a69b9755e1af3710c0ec18fecf6055dd8">ts::Tuner</a>
+: <a class="el" href="classts_1_1_tuner.html#ad6be74a21e22e87d67ca6e8024cea7c3">ts::Tuner</a>
 </li>
 <li>signalStrength()
-: <a class="el" href="classts_1_1_tuner.html#ae94445567e7822edc81eeaf3ded2071b">ts::Tuner</a>
+: <a class="el" href="classts_1_1_tuner.html#af46c90edf15fce7e126b7c627d2a10a0">ts::Tuner</a>
 </li>
 <li>similar()
 : <a class="el" href="classts_1_1_u_string.html#a6cf010e716088d287fbf11a182716a5d">ts::UString</a>
 </li>
 <li>SimulCryptDate()
-: <a class="el" href="classts_1_1_simul_crypt_date.html#a54dcff758837b4e6e03d84cf02f9e210">ts::SimulCryptDate</a>
+: <a class="el" href="classts_1_1_simul_crypt_date.html#aefc3d23014b88fc549ee4a83fb31c8b7">ts::SimulCryptDate</a>
 </li>
 <li>SinkEnumMediaTypes()
-: <a class="el" href="classts_1_1_sink_enum_media_types.html#a32a52715ee6ea30100bf48d23873fa69">ts::SinkEnumMediaTypes</a>
+: <a class="el" href="classts_1_1_sink_enum_media_types.html#a23533f4cfe17c3ecd3d6a41efea8d9cb">ts::SinkEnumMediaTypes</a>
 </li>
 <li>SinkEnumPins()
-: <a class="el" href="classts_1_1_sink_enum_pins.html#ae5be72ef9df1c5b7fa3d9ce99008a8d8">ts::SinkEnumPins</a>
+: <a class="el" href="classts_1_1_sink_enum_pins.html#a9704a7e882f2222a09e7074549ae6ed3">ts::SinkEnumPins</a>
 </li>
 <li>SinkFilter()
-: <a class="el" href="classts_1_1_sink_filter.html#a8516461e5ae8bfe60f09a63af1130259">ts::SinkFilter</a>
+: <a class="el" href="classts_1_1_sink_filter.html#a9e0d2fdc3b527520d401c8d47d8a9251">ts::SinkFilter</a>
 </li>
 <li>SinkPin()
-: <a class="el" href="classts_1_1_sink_pin.html#af0965b0c19104d8cd40f55e039ea8569">ts::SinkPin</a>
+: <a class="el" href="classts_1_1_sink_pin.html#a2b699b704f5e4191579390863f9f9fc9">ts::SinkPin</a>
 </li>
 <li>size()
-: <a class="el" href="classts_1_1_descriptor.html#a2a477f047c0bebf31ea0f54c09bdff89">ts::Descriptor</a>
+: <a class="el" href="classts_1_1_arg_mix.html#a3bc95bc7f173a39bc075af1a85027ea9">ts::ArgMix</a>
+, <a class="el" href="classts_1_1_descriptor.html#a2a477f047c0bebf31ea0f54c09bdff89">ts::Descriptor</a>
 , <a class="el" href="classts_1_1_direct_show_filter_category.html#aa9490f4ad360a8cf95a38f004ef36744">ts::DirectShowFilterCategory</a>
 , <a class="el" href="classts_1_1_enumeration.html#a685b46b128f3d1ec3ab9f283930a7e97">ts::Enumeration</a>
 , <a class="el" href="classts_1_1_p_e_s_packet.html#a9ebe929eff2d46ec4e9d91a0e43895a1">ts::PESPacket</a>
@@ -729,11 +798,17 @@ $(document).ready(function(){initNavTree('functions_func_s.html','');});
 <li>skip()
 : <a class="el" href="classts_1_1_bit_stream.html#a1017f5bc1342fc2233d0776269cd9396">ts::BitStream</a>
 </li>
+<li>skipLine()
+: <a class="el" href="classts_1_1_text_parser.html#a00c9228fc3cee70e2a4900b65dca049d">ts::TextParser</a>
+</li>
 <li>skipToNextByte()
 : <a class="el" href="classts_1_1_bit_stream.html#ae5b3ada7f413131c9583cc0043931033">ts::BitStream</a>
 </li>
+<li>skipWhiteSpace()
+: <a class="el" href="classts_1_1_text_parser.html#aea2d339516aefcfeefc7272ae4c03988">ts::TextParser</a>
+</li>
 <li>SocketAddress()
-: <a class="el" href="classts_1_1_socket_address.html#ae2bb63320cdf4ab80bf494f46174a3c1">ts::SocketAddress</a>
+: <a class="el" href="classts_1_1_socket_address.html#a2070315dedbd000e7f2c87950268569e">ts::SocketAddress</a>
 </li>
 <li>Sort1()
 : <a class="el" href="classts_1_1_service.html#a76a6f65ed72111ff9e8a29c61de1ceda">ts::Service</a>
@@ -748,6 +823,9 @@ $(document).ready(function(){initNavTree('functions_func_s.html','');});
 : <a class="el" href="classts_1_1_binary_table.html#a8f78669dac0da6c95f931285d6b7bd08">ts::BinaryTable</a>
 , <a class="el" href="classts_1_1_section.html#a0aed48720541200273af7c095d570a9e">ts::Section</a>
 </li>
+<li>spaces()
+: <a class="el" href="classts_1_1_text_formatter.html#ad234e89c6790d0f7755c9d31a864fe0c">ts::TextFormatter</a>
+</li>
 <li>split()
 : <a class="el" href="classts_1_1_u_string.html#a926b8b598188f8883528be224838c9db">ts::UString</a>
 </li>
@@ -758,34 +836,37 @@ $(document).ready(function(){initNavTree('functions_func_s.html','');});
 <li>splitBlocks()
 : <a class="el" href="classts_1_1_u_string.html#a40c75eda5c711a905f131a89713da584">ts::UString</a>
 </li>
+<li>SplitKey()
+: <a class="el" href="classts_1_1_registry.html#a1d3710d2c8d0f2bd429c46d0a80faf64">ts::Registry</a>
+</li>
 <li>splitLines()
 : <a class="el" href="classts_1_1_u_string.html#af47dad58edc1a404deb1bd1ebc1c165c">ts::UString</a>
 </li>
 <li>SSUDataBroadcastIdDescriptor()
-: <a class="el" href="classts_1_1_s_s_u_data_broadcast_id_descriptor.html#ae2fb29f8ac7ee7193cf2ddfb289fd74e">ts::SSUDataBroadcastIdDescriptor</a>
+: <a class="el" href="classts_1_1_s_s_u_data_broadcast_id_descriptor.html#ab018cd1f64f68ea4a4ed17564a44dc20">ts::SSUDataBroadcastIdDescriptor</a>
 </li>
 <li>SSULinkageDescriptor()
 : <a class="el" href="classts_1_1_s_s_u_linkage_descriptor.html#ac7f236c62fe5bc7ddcd3675dec5d327d">ts::SSULinkageDescriptor</a>
 </li>
 <li>stackUsage()
-: <a class="el" href="classts_1_1_dektec_input_plugin.html#a6a516138917208624f80248cb2200ba6">ts::DektecInputPlugin</a>
+: <a class="el" href="classts_1_1_dektec_input_plugin.html#a487aa82641c9c55a52105b7191be36d1">ts::DektecInputPlugin</a>
 , <a class="el" href="classts_1_1_plugin.html#a34ef50c7d7713f7eeda6f2144af55f1a">ts::Plugin</a>
 </li>
 <li>StandaloneTableDemux()
 : <a class="el" href="classts_1_1_standalone_table_demux.html#afb06d13ac0fb46fc41130d0e0c294e40">ts::StandaloneTableDemux</a>
 </li>
 <li>start()
-: <a class="el" href="classts_1_1_dektec_input_plugin.html#af0cf2c59b9056025d19352451f1d205a">ts::DektecInputPlugin</a>
-, <a class="el" href="classts_1_1_dektec_output_plugin.html#a16ca093d667c50e05ce3b331b379dff7">ts::DektecOutputPlugin</a>
-, <a class="el" href="classts_1_1_plugin.html#a1e2964e9506e6788bd46bc96ca0f2670">ts::Plugin</a>
+: <a class="el" href="classts_1_1_dektec_input_plugin.html#a46370ebc3852e8c3ce0c32537a633af5">ts::DektecInputPlugin</a>
+, <a class="el" href="classts_1_1_dektec_output_plugin.html#a1788aa221911f5dfc373ff7bf33f9915">ts::DektecOutputPlugin</a>
+, <a class="el" href="classts_1_1_plugin.html#a73a29c6cec3e03b68a2a4c3dbf50e529">ts::Plugin</a>
 , <a class="el" href="classts_1_1_thread.html#a5376ca4c696a2c5a06843e5abcc7a75e">ts::Thread</a>
-, <a class="el" href="classts_1_1_tuner.html#a85a45dbc718fa8660334a4a6e5f28485">ts::Tuner</a>
+, <a class="el" href="classts_1_1_tuner.html#ad3442be2e99f03f137e8efda26e47b35">ts::Tuner</a>
 </li>
 <li>startDescrambler()
 : <a class="el" href="classts_1_1_abstract_descrambler.html#ab0c31a33cc37ebcad570dc864382739a">ts::AbstractDescrambler</a>
 </li>
 <li>startingFilter()
-: <a class="el" href="classts_1_1_direct_show_graph.html#a8dfb5f5a5243070ce09ee79d3d0e5ac1">ts::DirectShowGraph</a>
+: <a class="el" href="classts_1_1_direct_show_graph.html#ab073abf4b81d6d76cc063def379bef7c">ts::DirectShowGraph</a>
 </li>
 <li>startPES()
 : <a class="el" href="structts_1_1_t_s_packet.html#a2545831e8541a9230ec9a0096d8e7703">ts::TSPacket</a>
@@ -812,19 +893,29 @@ $(document).ready(function(){initNavTree('functions_func_s.html','');});
 <li>stereoModeExtension()
 : <a class="el" href="classts_1_1_audio_attributes.html#a1c45bed39293bf1b4c3b68b0ffc17c96">ts::AudioAttributes</a>
 </li>
+<li>stickyOutput()
+: <a class="el" href="classts_1_1xml_1_1_node.html#aec0577052f3417313b3bca585833ef84">ts::xml::Node</a>
+, <a class="el" href="classts_1_1xml_1_1_text.html#a710413dbd5f3c60e6ff632f4a053bde5">ts::xml::Text</a>
+</li>
 <li>stop()
 : <a class="el" href="classts_1_1_abstract_descrambler.html#a765d46ac28f7f6162cc2f71633469aa2">ts::AbstractDescrambler</a>
-, <a class="el" href="classts_1_1_dektec_input_plugin.html#a1ec434bb541a6dead7edf9c797c35a76">ts::DektecInputPlugin</a>
-, <a class="el" href="classts_1_1_dektec_output_plugin.html#af000d645f7901a784885b2195b99b83a">ts::DektecOutputPlugin</a>
-, <a class="el" href="classts_1_1_direct_show_graph.html#af220459301852b4631383d1a00b96681">ts::DirectShowGraph</a>
-, <a class="el" href="classts_1_1_plugin.html#aa25369317e3e5d99800eb41c8c82aa0d">ts::Plugin</a>
-, <a class="el" href="classts_1_1_tuner.html#a7b281e1c3c3e83b7645c235e540aebc0">ts::Tuner</a>
+, <a class="el" href="classts_1_1_dektec_input_plugin.html#aa17a64af6d351c576a15bc9a6d05a0ab">ts::DektecInputPlugin</a>
+, <a class="el" href="classts_1_1_dektec_output_plugin.html#a9865d6a9825042a971876401d5569688">ts::DektecOutputPlugin</a>
+, <a class="el" href="classts_1_1_direct_show_graph.html#a791a79f69341bf7e7f9e0b7e38bd7de7">ts::DirectShowGraph</a>
+, <a class="el" href="classts_1_1_plugin.html#a85011685030f2c0d09620fe4f4678a31">ts::Plugin</a>
+, <a class="el" href="classts_1_1_tuner.html#a2c138d37612fb430a4c621f59e7b1d0d">ts::Tuner</a>
 </li>
 <li>storedSectionCount()
 : <a class="el" href="classts_1_1_cycling_packetizer.html#a017232eb729305d7afa2bab2fa26caed">ts::CyclingPacketizer</a>
 </li>
 <li>StoreInRepository()
-: <a class="el" href="classts_1_1_object.html#a97ab5319c5d3d55c3e65778f19f830ba">ts::Object</a>
+: <a class="el" href="classts_1_1_object.html#a59cdb7e078e0cd0e812a6b054c0db09f">ts::Object</a>
+</li>
+<li>storeInteger()
+: <a class="el" href="classts_1_1_arg_mix.html#ae36c18c0cf06f7174054c61da499b7c5">ts::ArgMix</a>
+</li>
+<li>stream()
+: <a class="el" href="classts_1_1_grid.html#a49537dd017db91f7d7a4a1714a247053">ts::Grid</a>
 </li>
 <li>Stream()
 : <a class="el" href="structts_1_1_p_m_t_1_1_stream.html#aa9f8e6e238d4118c4c8f714adabb0e1d">ts::PMT::Stream</a>
@@ -837,32 +928,32 @@ $(document).ready(function(){initNavTree('functions_func_s.html','');});
 </li>
 <li>StreamCloseRequest()
 : <a class="el" href="classts_1_1ecmgscs_1_1_stream_close_request.html#a2bcf649475051e52c653a35f05339861">ts::ecmgscs::StreamCloseRequest</a>
-, <a class="el" href="classts_1_1emmgmux_1_1_stream_close_request.html#aff76008f44c5bd851d6699b33d46ea0b">ts::emmgmux::StreamCloseRequest</a>
+, <a class="el" href="classts_1_1emmgmux_1_1_stream_close_request.html#a4cbf9b7d97e7e1119f31a9c1bb6b5919">ts::emmgmux::StreamCloseRequest</a>
 </li>
 <li>StreamCloseResponse()
 : <a class="el" href="classts_1_1ecmgscs_1_1_stream_close_response.html#a2d796fb53bbabb501a49abd5085ec5b8">ts::ecmgscs::StreamCloseResponse</a>
 , <a class="el" href="classts_1_1emmgmux_1_1_stream_close_response.html#a8a35e6c2e0ec3d48e312ffb7ade9bfe4">ts::emmgmux::StreamCloseResponse</a>
 </li>
 <li>StreamError()
-: <a class="el" href="classts_1_1ecmgscs_1_1_stream_error.html#a7308f9934ee582fbda6c3c88b5b40395">ts::ecmgscs::StreamError</a>
+: <a class="el" href="classts_1_1ecmgscs_1_1_stream_error.html#aa795e3549cef0f18221923ca54033795">ts::ecmgscs::StreamError</a>
 , <a class="el" href="classts_1_1emmgmux_1_1_stream_error.html#a38403646eaadf1f25af0dabfc03c9aae">ts::emmgmux::StreamError</a>
 </li>
 <li>StreamIdentifierDescriptor()
-: <a class="el" href="classts_1_1_stream_identifier_descriptor.html#ad1c7ffb52a62b0a9a0162d5a8c3dc0e4">ts::StreamIdentifierDescriptor</a>
+: <a class="el" href="classts_1_1_stream_identifier_descriptor.html#a2bc8ac82b5f9378a2320d85c952abfb9">ts::StreamIdentifierDescriptor</a>
 </li>
 <li>StreamMessage()
-: <a class="el" href="classts_1_1tlv_1_1_stream_message.html#af752d70aab2c3e088cbfd91889479400">ts::tlv::StreamMessage</a>
+: <a class="el" href="classts_1_1tlv_1_1_stream_message.html#a3834c01b9473c156cfc4c40a015105d3">ts::tlv::StreamMessage</a>
 </li>
 <li>StreamSetup()
 : <a class="el" href="classts_1_1ecmgscs_1_1_stream_setup.html#ae7f30234c6a826854cd15e9c43a53958">ts::ecmgscs::StreamSetup</a>
 , <a class="el" href="classts_1_1emmgmux_1_1_stream_setup.html#a8acc4726733d49db022f96a2f5843cae">ts::emmgmux::StreamSetup</a>
 </li>
 <li>StreamStatus()
-: <a class="el" href="classts_1_1ecmgscs_1_1_stream_status.html#a61cc179fca4dd2ddcc3a1f9c195ac7c5">ts::ecmgscs::StreamStatus</a>
+: <a class="el" href="classts_1_1ecmgscs_1_1_stream_status.html#a109fd0ab69f8e8a43d679ff9c010bc29">ts::ecmgscs::StreamStatus</a>
 , <a class="el" href="classts_1_1emmgmux_1_1_stream_status.html#a0da229bf0439613ee5545f0e3307c57a">ts::emmgmux::StreamStatus</a>
 </li>
 <li>StreamTest()
-: <a class="el" href="classts_1_1ecmgscs_1_1_stream_test.html#aad37c5d83311157758897d63dbbf0208">ts::ecmgscs::StreamTest</a>
+: <a class="el" href="classts_1_1ecmgscs_1_1_stream_test.html#a0b2f707209982f11d61f141483ffb984">ts::ecmgscs::StreamTest</a>
 , <a class="el" href="classts_1_1emmgmux_1_1_stream_test.html#a09507d92cca307f6b20f5a7dec315a2e">ts::emmgmux::StreamTest</a>
 </li>
 <li>stuffingPolicy()
@@ -874,11 +965,14 @@ $(document).ready(function(){initNavTree('functions_func_s.html','');});
 <li>submitECM()
 : <a class="el" href="classts_1_1_e_c_m_g_client.html#a30bb9aa9c5537338dda943afc5bf5242">ts::ECMGClient</a>
 </li>
+<li>subSection()
+: <a class="el" href="classts_1_1_grid.html#a1a371ed13532529a2f05aab68c2d49e4">ts::Grid</a>
+</li>
 <li>substitute()
 : <a class="el" href="classts_1_1_u_string.html#a8d5bbc6b19f8bf00a70e2ec0d7e9afa8">ts::UString</a>
 </li>
 <li>SubtitlingDescriptor()
-: <a class="el" href="classts_1_1_subtitling_descriptor.html#a71474c926cea826afbaad5cb69b67d69">ts::SubtitlingDescriptor</a>
+: <a class="el" href="classts_1_1_subtitling_descriptor.html#a9e88da7c760df2776dc38fad23aec9d5">ts::SubtitlingDescriptor</a>
 </li>
 <li>subWidthC()
 : <a class="el" href="classts_1_1_a_v_c_sequence_parameter_set.html#ad733e91eb045de68d7193e8431478cc1">ts::AVCSequenceParameterSet</a>
@@ -887,13 +981,13 @@ $(document).ready(function(){initNavTree('functions_func_s.html','');});
 : <a class="el" href="classts_1_1_t2_m_i_packet.html#a103787c4e878ec9f0db34080822202bb">ts::T2MIPacket</a>
 </li>
 <li>SupplementaryAudioDescriptor()
-: <a class="el" href="classts_1_1_supplementary_audio_descriptor.html#ac11ca287348e2fb92474f63c68a3001b">ts::SupplementaryAudioDescriptor</a>
+: <a class="el" href="classts_1_1_supplementary_audio_descriptor.html#aae39c56f355eae2407384022ad50af35">ts::SupplementaryAudioDescriptor</a>
 </li>
 <li>switchFrequency()
 : <a class="el" href="classts_1_1_l_n_b.html#aca64733b0d9f3490d64c78e5cff55dbb">ts::LNB</a>
 </li>
 <li>SystemMonitor()
-: <a class="el" href="classts_1_1_system_monitor.html#ac5f156b4633a079a73444b7d3d092ffb">ts::SystemMonitor</a>
+: <a class="el" href="classts_1_1_system_monitor.html#a8ee820d5d1881aa8bf371ffe53324f49">ts::SystemMonitor</a>
 </li>
 <li>SystemRandomGenerator()
 : <a class="el" href="classts_1_1_system_random_generator.html#a9affb658383b05ecc85b0da76e59e9be">ts::SystemRandomGenerator</a>

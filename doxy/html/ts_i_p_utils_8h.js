@@ -20,9 +20,9 @@ var ts_i_p_utils_8h =
     [ "TS_SOCKET_ERR_NOTCONN", "ts_i_p_utils_8h.html#a7f984386fdc09ee7970ec0b625693874", null ],
     [ "SocketErrorCode", "ts_i_p_utils_8h.html#a5346c902c2c02fd7fdf27ecbd67e0d7e", null ],
     [ "IPAddressVector", "ts_i_p_utils_8h.html#a6825a1db0e62afdf5e6ccb895a28c020", null ],
-    [ "IPInitialize", "ts_i_p_utils_8h.html#a4b2277992c53ededdc67aad35fb3e0a2", null ],
+    [ "IPInitialize", "ts_i_p_utils_8h.html#a01d3e0180a6ad99ad554ff85ef30cdba", null ],
     [ "LastSocketErrorCode", "ts_i_p_utils_8h.html#a2268d9defcbb4b19c04791493a616ad5", null ],
-    [ "SocketErrorCodeMessage", "ts_i_p_utils_8h.html#a3fa865450711be59bc301cdb10982373", null ],
-    [ "GetLocalIPAddresses", "ts_i_p_utils_8h.html#a64242ae941b3b1a93dccb53ef5ea2582", null ],
+    [ "SocketErrorCodeMessage", "ts_i_p_utils_8h.html#aef871c2eb4ad8574d8035f52766fff4d", null ],
+    [ "GetLocalIPAddresses", "ts_i_p_utils_8h.html#a395829ea2948c84f84d7658ea95b5edf", null ],
     [ "IsLocalIPAddress", "ts_i_p_utils_8h.html#ad781da44b42d0a87b25127108d9fe5fa", null ]
 ];

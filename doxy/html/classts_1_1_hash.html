@@ -34,7 +34,7 @@
  <tr style="height: 56px;">
   <td id="projectlogo"><img src="tsduck-32.png"/></td>
    <td id="projectalign"><span id="projectname">TSDuck</span>
-    <span id="projectnumber">Version 3.4</span>
+    <span id="projectnumber">Version 3.5</span>
     <span id="projectbrief">(TSDuck - The MPEG Transport Stream Toolkit)</span>
    </td>
    <td>        <div id="MSearchBox" class="MSearchBoxInactive">
@@ -137,15 +137,15 @@ virtual&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="c
 <tr class="memitem:adc03e601af262ec359f0fab186c7d89f"><td class="memItemLeft" align="right" valign="top">virtual bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classts_1_1_hash.html#adc03e601af262ec359f0fab186c7d89f">init</a> ()=0</td></tr>
 <tr class="memdesc:adc03e601af262ec359f0fab186c7d89f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Reinitialize the computation of the hash.  <a href="#adc03e601af262ec359f0fab186c7d89f">More...</a><br /></td></tr>
 <tr class="separator:adc03e601af262ec359f0fab186c7d89f"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a43ff694e5659ab7a40f3fb534213312c"><td class="memItemLeft" align="right" valign="top">virtual std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classts_1_1_hash.html#a43ff694e5659ab7a40f3fb534213312c">name</a> () const =0</td></tr>
-<tr class="memdesc:a43ff694e5659ab7a40f3fb534213312c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Algorithm name (informational only).  <a href="#a43ff694e5659ab7a40f3fb534213312c">More...</a><br /></td></tr>
-<tr class="separator:a43ff694e5659ab7a40f3fb534213312c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aaf482a25cb19db46d59d8a2cfec340d8"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="classts_1_1_u_string.html">UString</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classts_1_1_hash.html#aaf482a25cb19db46d59d8a2cfec340d8">name</a> () const =0</td></tr>
+<tr class="memdesc:aaf482a25cb19db46d59d8a2cfec340d8"><td class="mdescLeft">&#160;</td><td class="mdescRight">Algorithm name (informational only).  <a href="#aaf482a25cb19db46d59d8a2cfec340d8">More...</a><br /></td></tr>
+<tr class="separator:aaf482a25cb19db46d59d8a2cfec340d8"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>Abstract interface of hash functions. </p>
 </div><h2 class="groupheader">Member Function Documentation</h2>
-<a id="a43ff694e5659ab7a40f3fb534213312c"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a43ff694e5659ab7a40f3fb534213312c">&#9670;&nbsp;</a></span>name()</h2>
+<a id="aaf482a25cb19db46d59d8a2cfec340d8"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aaf482a25cb19db46d59d8a2cfec340d8">&#9670;&nbsp;</a></span>name()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -154,7 +154,7 @@ virtual&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="c
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">virtual std::string ts::Hash::name </td>
+          <td class="memname">virtual <a class="el" href="classts_1_1_u_string.html">UString</a> ts::Hash::name </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td> const</td>
@@ -170,7 +170,7 @@ virtual&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="c
 <p>Algorithm name (informational only). </p>
 <dl class="section return"><dt>Returns</dt><dd>The algorithm name. </dd></dl>
 
-<p>Implemented in <a class="el" href="classts_1_1_s_h_a256.html#aa99be7f91f63b13e40ffac8b1ed9c1d8">ts::SHA256</a>, <a class="el" href="classts_1_1_m_d5.html#a3955fa10b509bd98ca8fed0260c680fc">ts::MD5</a>, <a class="el" href="classts_1_1_s_h_a1.html#a2bc1978e0e329253f3eb3dc63890e831">ts::SHA1</a>, and <a class="el" href="classts_1_1_s_h_a512.html#a7b0be8cac90b1280bcef450737f173b8">ts::SHA512</a>.</p>
+<p>Implemented in <a class="el" href="classts_1_1_s_h_a256.html#a477b16e57db59d01f00489ad0fb4c78a">ts::SHA256</a>, <a class="el" href="classts_1_1_m_d5.html#aca87d3f4af85908344f09d68b5957bbc">ts::MD5</a>, <a class="el" href="classts_1_1_s_h_a1.html#a7650bd0fa1edcc8b501c88b347d8ce73">ts::SHA1</a>, and <a class="el" href="classts_1_1_s_h_a512.html#ae4ea9366b3303d7616fddd7f18ca457c">ts::SHA512</a>.</p>
 
 </div>
 </div>
@@ -200,7 +200,7 @@ virtual&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="c
 <p>Size in bytes of the resulting hash. </p>
 <dl class="section return"><dt>Returns</dt><dd>The size in bytes of the resulting hash. </dd></dl>
 
-<p>Implemented in <a class="el" href="classts_1_1_s_h_a256.html#a145d61a926dbbb6a0e4248da9fdd72fb">ts::SHA256</a>, <a class="el" href="classts_1_1_m_d5.html#ade51da0258c7456703ade3aac5c0275c">ts::MD5</a>, <a class="el" href="classts_1_1_s_h_a1.html#ae9e6720e2a01f4063de885764be229ce">ts::SHA1</a>, and <a class="el" href="classts_1_1_s_h_a512.html#acbb5ec210b9e01a42119f4d670ad242f">ts::SHA512</a>.</p>
+<p>Implemented in <a class="el" href="classts_1_1_s_h_a256.html#ae0c460d30c92c0e7f7b28a67617db4c0">ts::SHA256</a>, <a class="el" href="classts_1_1_m_d5.html#abde78e4c746708073f1f804698102d9b">ts::MD5</a>, <a class="el" href="classts_1_1_s_h_a1.html#a59a7003bc5d2460e9fb6fc22645f55a5">ts::SHA1</a>, and <a class="el" href="classts_1_1_s_h_a512.html#ac1cff2bdbdfb4df616efb64fe7b30eb2">ts::SHA512</a>.</p>
 
 </div>
 </div>
@@ -230,7 +230,7 @@ virtual&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="c
 <p>Size in bytes of the block used by the algorithm. </p>
 <dl class="section return"><dt>Returns</dt><dd>The size in bytes of the block used by the algorithm. Informational only. Can be zero if non significant. </dd></dl>
 
-<p>Implemented in <a class="el" href="classts_1_1_s_h_a256.html#adc0b459b1f437b0f5359f754d895d158">ts::SHA256</a>, <a class="el" href="classts_1_1_m_d5.html#a72d8852c67a43dc048183204cafb3ca1">ts::MD5</a>, <a class="el" href="classts_1_1_s_h_a1.html#a41c709e7a60eac9335a9f1b9caa2df25">ts::SHA1</a>, and <a class="el" href="classts_1_1_s_h_a512.html#a0ebc26f3af96ce1e2792c41dc77ccba7">ts::SHA512</a>.</p>
+<p>Implemented in <a class="el" href="classts_1_1_s_h_a256.html#a9f49baf82bad82887bbcd1b7a2b43a2e">ts::SHA256</a>, <a class="el" href="classts_1_1_m_d5.html#a9e5631a5708e96d8594f5ada1e8edf7f">ts::MD5</a>, <a class="el" href="classts_1_1_s_h_a1.html#a8f667a971c9389ef4763c51ed654e940">ts::SHA1</a>, and <a class="el" href="classts_1_1_s_h_a512.html#a81185c26408eb59ae596fa1ab4020209">ts::SHA512</a>.</p>
 
 </div>
 </div>
@@ -260,7 +260,7 @@ virtual&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="c
 <p>Reinitialize the computation of the hash. </p>
 <dl class="section return"><dt>Returns</dt><dd>True on success, false on error. </dd></dl>
 
-<p>Implemented in <a class="el" href="classts_1_1_s_h_a256.html#adaf283feb3c061f809aed7c12aae4c0a">ts::SHA256</a>, <a class="el" href="classts_1_1_m_d5.html#aff021b692cab1d2cd97852ea058355a4">ts::MD5</a>, <a class="el" href="classts_1_1_s_h_a1.html#a81d992485437a88de80a98299b3c30e3">ts::SHA1</a>, and <a class="el" href="classts_1_1_s_h_a512.html#a1f2d9e7ab13c5db27056fa39c4ba5f1c">ts::SHA512</a>.</p>
+<p>Implemented in <a class="el" href="classts_1_1_s_h_a256.html#aadd2077eb8fbaad7e8462b1305058b21">ts::SHA256</a>, <a class="el" href="classts_1_1_m_d5.html#ab295c07569d4ec73eec91ce5d46acb3b">ts::MD5</a>, <a class="el" href="classts_1_1_s_h_a1.html#a01c436007e4e71042dfe68d6bdb2dda4">ts::SHA1</a>, and <a class="el" href="classts_1_1_s_h_a512.html#ac758d3580ace51a2603fd28cab989101">ts::SHA512</a>.</p>
 
 </div>
 </div>
@@ -308,7 +308,7 @@ virtual&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="c
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>True on success, false on error. </dd></dl>
 
-<p>Implemented in <a class="el" href="classts_1_1_s_h_a256.html#a74088c822ddde688a867c25d45f47cc6">ts::SHA256</a>, <a class="el" href="classts_1_1_m_d5.html#aa33d1ec401fcfa3347d102df1e9c0fce">ts::MD5</a>, <a class="el" href="classts_1_1_s_h_a1.html#a3937bb318ff6cd36ed2a35f4a6d04eec">ts::SHA1</a>, and <a class="el" href="classts_1_1_s_h_a512.html#a153c9190819dc8a6d84d082c18c0e8ec">ts::SHA512</a>.</p>
+<p>Implemented in <a class="el" href="classts_1_1_s_h_a256.html#ac6239d73e1d3845b623ac05d043e8878">ts::SHA256</a>, <a class="el" href="classts_1_1_m_d5.html#a2b8f7a8834e83b1fc3539bade1632c74">ts::MD5</a>, <a class="el" href="classts_1_1_s_h_a1.html#a28162e6bed75137b3c1df3227d57f282">ts::SHA1</a>, and <a class="el" href="classts_1_1_s_h_a512.html#ab55fef544b4a0b7d5fe4ba410fd4034e">ts::SHA512</a>.</p>
 
 </div>
 </div>
@@ -363,7 +363,7 @@ virtual&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="c
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>True on success, false on error. </dd></dl>
 
-<p>Implemented in <a class="el" href="classts_1_1_s_h_a256.html#aa83c48e5b4d315b49a667ec31a9bc564">ts::SHA256</a>, <a class="el" href="classts_1_1_m_d5.html#a38d4b49820d757088c4e9143b0ddc7e7">ts::MD5</a>, <a class="el" href="classts_1_1_s_h_a1.html#a3f01baf7b14e62575a7c32ed0b19bb91">ts::SHA1</a>, and <a class="el" href="classts_1_1_s_h_a512.html#aaf83fb0c6d1a62a2d0640bf7b0b76877">ts::SHA512</a>.</p>
+<p>Implemented in <a class="el" href="classts_1_1_s_h_a256.html#aca561b01f2c90af0a7b2ee1299fd2c77">ts::SHA256</a>, <a class="el" href="classts_1_1_m_d5.html#a965693284686ebf41e42fab2b7838007">ts::MD5</a>, <a class="el" href="classts_1_1_s_h_a1.html#ab92933dd03a558846a30bd4ff8a27e0a">ts::SHA1</a>, and <a class="el" href="classts_1_1_s_h_a512.html#ac83fbc81c3737eb4d1e4f511f92d3c5f">ts::SHA512</a>.</p>
 
 </div>
 </div>

@@ -34,7 +34,7 @@
  <tr style="height: 56px;">
   <td id="projectlogo"><img src="tsduck-32.png"/></td>
    <td id="projectalign"><span id="projectname">TSDuck</span>
-    <span id="projectnumber">Version 3.4</span>
+    <span id="projectnumber">Version 3.5</span>
     <span id="projectbrief">(TSDuck - The MPEG Transport Stream Toolkit)</span>
    </td>
    <td>        <div id="MSearchBox" class="MSearchBoxInactive">
@@ -135,6 +135,9 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:aadc378b47ddcc88057830086c4474532"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classts_1_1_e_d_i_d.html">EDID</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classts_1_1_descriptor.html#aadc378b47ddcc88057830086c4474532">edid</a> (<a class="el" href="namespacets.html#ab9a8367d7529bc4d441c8e4e61e31984">PDS</a> pds=0) const</td></tr>
 <tr class="memdesc:aadc378b47ddcc88057830086c4474532"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the extended descriptor id.  <a href="#aadc378b47ddcc88057830086c4474532">More...</a><br /></td></tr>
 <tr class="separator:aadc378b47ddcc88057830086c4474532"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa1a701bed3bee6f653823074757fea4a"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classts_1_1_descriptor.html#aa1a701bed3bee6f653823074757fea4a">fromXML</a> (const <a class="el" href="classts_1_1xml_1_1_element.html">xml::Element</a> *node, const <a class="el" href="classts_1_1_d_v_b_charset.html">DVBCharset</a> *charset=0)</td></tr>
+<tr class="memdesc:aa1a701bed3bee6f653823074757fea4a"><td class="mdescLeft">&#160;</td><td class="mdescRight">This method converts an XML node as a binary descriptor.  <a href="#aa1a701bed3bee6f653823074757fea4a">More...</a><br /></td></tr>
+<tr class="separator:aa1a701bed3bee6f653823074757fea4a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a2d17cd038e93958274d4e12085ef5fd8"><td class="memItemLeft" align="right" valign="top"><a id="a2d17cd038e93958274d4e12085ef5fd8"></a>
 void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classts_1_1_descriptor.html#a2d17cd038e93958274d4e12085ef5fd8">invalidate</a> ()</td></tr>
 <tr class="memdesc:a2d17cd038e93958274d4e12085ef5fd8"><td class="mdescLeft">&#160;</td><td class="mdescRight">Invalidate descriptor content. <br /></td></tr>
@@ -175,6 +178,9 @@ void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="clas
 <tr class="memitem:aa8ae34ef40d5e3bb3fc612592f3cac39"><td class="memItemLeft" align="right" valign="top"><a class="el" href="namespacets.html#a6d34ed2bcf670e7b2a310f660ca900ee">DID</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classts_1_1_descriptor.html#aa8ae34ef40d5e3bb3fc612592f3cac39">tag</a> () const</td></tr>
 <tr class="memdesc:aa8ae34ef40d5e3bb3fc612592f3cac39"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the descriptor tag.  <a href="#aa8ae34ef40d5e3bb3fc612592f3cac39">More...</a><br /></td></tr>
 <tr class="separator:aa8ae34ef40d5e3bb3fc612592f3cac39"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:adf409ae98714c18ca4591ac2f079ee4b"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classts_1_1xml_1_1_element.html">xml::Element</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classts_1_1_descriptor.html#adf409ae98714c18ca4591ac2f079ee4b">toXML</a> (<a class="el" href="classts_1_1xml_1_1_element.html">xml::Element</a> *parent, <a class="el" href="namespacets.html#ab9a8367d7529bc4d441c8e4e61e31984">PDS</a> pds=0, bool forceGeneric=false, const <a class="el" href="classts_1_1_d_v_b_charset.html">DVBCharset</a> *charset=0) const</td></tr>
+<tr class="memdesc:adf409ae98714c18ca4591ac2f079ee4b"><td class="mdescLeft">&#160;</td><td class="mdescRight">This method converts a descriptor to XML.  <a href="#adf409ae98714c18ca4591ac2f079ee4b">More...</a><br /></td></tr>
+<tr class="separator:adf409ae98714c18ca4591ac2f079ee4b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>Representation of a MPEG PSI/SI descriptors in binary format. </p>
@@ -847,6 +853,96 @@ void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="clas
   </dd>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>True is the two descriptors are different. </dd></dl>
+
+</div>
+</div>
+<a id="adf409ae98714c18ca4591ac2f079ee4b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#adf409ae98714c18ca4591ac2f079ee4b">&#9670;&nbsp;</a></span>toXML()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="classts_1_1xml_1_1_element.html">xml::Element</a>* ts::Descriptor::toXML </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classts_1_1xml_1_1_element.html">xml::Element</a> *&#160;</td>
+          <td class="paramname"><em>parent</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="namespacets.html#ab9a8367d7529bc4d441c8e4e61e31984">PDS</a>&#160;</td>
+          <td class="paramname"><em>pds</em> = <code>0</code>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">bool&#160;</td>
+          <td class="paramname"><em>forceGeneric</em> = <code>false</code>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="classts_1_1_d_v_b_charset.html">DVBCharset</a> *&#160;</td>
+          <td class="paramname"><em>charset</em> = <code>0</code>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>This method converts a descriptor to XML. </p>
+<p>If the descriptor has a specialized implementation, generate a specialized XML structure. Otherwise, generate a &lt;generic_descriptor&gt; node. </p><dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in,out]</td><td class="paramname">parent</td><td>The parent node for the XML descriptor. </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">pds</td><td>Associated private data specifier. </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">forceGeneric</td><td>Force a &lt;generic_descriptor&gt; node even if the descriptor can be specialized. </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">charset</td><td>If not zero, default character set to use. </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>The new XML element or zero if the descriptor is not valid. </dd></dl>
+
+</div>
+</div>
+<a id="aa1a701bed3bee6f653823074757fea4a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa1a701bed3bee6f653823074757fea4a">&#9670;&nbsp;</a></span>fromXML()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool ts::Descriptor::fromXML </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="classts_1_1xml_1_1_element.html">xml::Element</a> *&#160;</td>
+          <td class="paramname"><em>node</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="classts_1_1_d_v_b_charset.html">DVBCharset</a> *&#160;</td>
+          <td class="paramname"><em>charset</em> = <code>0</code>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>This method converts an XML node as a binary descriptor. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">node</td><td>The root of the XML descriptor. </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">charset</td><td>If not zero, default character set to use. </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>True if the XML element name is a valid descriptor name, false otherwise. If the name is valid but the content is incorrect, true is returned and this object is invalidated. </dd></dl>
 
 </div>
 </div>

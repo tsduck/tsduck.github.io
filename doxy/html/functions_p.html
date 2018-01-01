@@ -34,7 +34,7 @@
  <tr style="height: 56px;">
   <td id="projectlogo"><img src="tsduck-32.png"/></td>
    <td id="projectalign"><span id="projectname">TSDuck</span>
-    <span id="projectnumber">Version 3.4</span>
+    <span id="projectnumber">Version 3.5</span>
     <span id="projectbrief">(TSDuck - The MPEG Transport Stream Toolkit)</span>
    </td>
    <td>        <div id="MSearchBox" class="MSearchBoxInactive">
@@ -126,8 +126,11 @@ $(document).ready(function(){initNavTree('functions_p.html','');});
 , <a class="el" href="structts_1_1emmgmux_1_1_tags.html#a811d01187582347ab2b89c4413dfda15">ts::emmgmux::Tags</a>
 , <a class="el" href="structts_1_1tlv_1_1_message_factory_1_1_parameter.html#ab5213eaa1889477be0f65e479ec8055b">ts::tlv::MessageFactory::Parameter</a>
 </li>
+<li>parent()
+: <a class="el" href="classts_1_1xml_1_1_node.html#a7c5a5dea2d6ad8b8d8a386ce98f53515">ts::xml::Node</a>
+</li>
 <li>ParentalRatingDescriptor()
-: <a class="el" href="classts_1_1_parental_rating_descriptor.html#ac09afd09bd4a79fe684822bc2aa38ec4">ts::ParentalRatingDescriptor</a>
+: <a class="el" href="classts_1_1_parental_rating_descriptor.html#ab39d4ccc0565c5514097c767a75ac682">ts::ParentalRatingDescriptor</a>
 </li>
 <li>parse()
 : <a class="el" href="classts_1_1_abstract_a_v_c_access_unit.html#a0978b631f9cd6cde497c6efd9dc64a63">ts::AbstractAVCAccessUnit</a>
@@ -135,16 +138,32 @@ $(document).ready(function(){initNavTree('functions_p.html','');});
 , <a class="el" href="classts_1_1_abstract_a_v_c_structure.html#a7b074a9b6dee0ca8670e38d271be3370">ts::AbstractAVCStructure</a>
 , <a class="el" href="classts_1_1_a_v_c_h_r_d_parameters.html#a769bd8596a0770e2fb0acdf567b93b9c">ts::AVCHRDParameters</a>
 , <a class="el" href="classts_1_1_a_v_c_v_u_i_parameters.html#a6516cb9a517476188066445352959539">ts::AVCVUIParameters</a>
+, <a class="el" href="classts_1_1xml_1_1_document.html#a55fb515cadbaf8da80e1190f1668a62b">ts::xml::Document</a>
 </li>
 <li>parseBody()
 : <a class="el" href="classts_1_1_abstract_a_v_c_access_unit.html#ab0ae4263bd4855dfae0b1ee47c40aab3">ts::AbstractAVCAccessUnit</a>
 , <a class="el" href="classts_1_1_a_v_c_sequence_parameter_set.html#ae94f8b3d9717e09807edff39dcbb61c8">ts::AVCSequenceParameterSet</a>
 </li>
-<li>parseDocument()
-: <a class="el" href="classts_1_1_x_m_l.html#ac285399a5f4d380757f3b237b3c33303">ts::XML</a>
+<li>parseChildren()
+: <a class="el" href="classts_1_1xml_1_1_node.html#a3145efa6c20c5706f15cb9517c3eb56e">ts::xml::Node</a>
+</li>
+<li>parseName()
+: <a class="el" href="classts_1_1_text_parser.html#a6b5c3614f7eccf58a210fbd2b6647a92">ts::TextParser</a>
+</li>
+<li>parseNode()
+: <a class="el" href="classts_1_1xml_1_1_comment.html#a283b93e44b5bfa0b079fbea3c82f9650">ts::xml::Comment</a>
+, <a class="el" href="classts_1_1xml_1_1_declaration.html#a8142c999f5459c7af643a1dca21c9ff7">ts::xml::Declaration</a>
+, <a class="el" href="classts_1_1xml_1_1_document.html#a1c94802f396c2ff1803af9194f49d9a3">ts::xml::Document</a>
+, <a class="el" href="classts_1_1xml_1_1_element.html#a7e34bed586f39ad56e1ecf624e69a3c0">ts::xml::Element</a>
+, <a class="el" href="classts_1_1xml_1_1_node.html#af463903ea374aa1c4a8ccfb81f41614a">ts::xml::Node</a>
+, <a class="el" href="classts_1_1xml_1_1_text.html#a1f4b1e161ac939cd99ff47b1a91077f1">ts::xml::Text</a>
+, <a class="el" href="classts_1_1xml_1_1_unknown.html#ada1cf7d91b512cc1b648afdff587b21e">ts::xml::Unknown</a>
+</li>
+<li>parseText()
+: <a class="el" href="classts_1_1_text_parser.html#a8116adec156d201f733d135b3fbdaef4">ts::TextParser</a>
 </li>
 <li>parseXML()
-: <a class="el" href="classts_1_1_x_m_l_tables.html#a4656bf86be6d953a84ba206dcc58fd4b">ts::XMLTables</a>
+: <a class="el" href="classts_1_1_section_file.html#ab9791f3ec54fd8923cdb611daf98bf3a">ts::SectionFile</a>
 </li>
 <li>pass_ecm
 : <a class="el" href="classts_1_1_c_a_s_selection_args.html#a2e40a65d6987887e8de24ae5b4b84c9b">ts::CASSelectionArgs</a>
@@ -197,7 +216,10 @@ $(document).ready(function(){initNavTree('functions_p.html','');});
 , <a class="el" href="classts_1_1_private_data_specifier_descriptor.html#a22bc6dbeddd8660adcc2004911d6671c">ts::PrivateDataSpecifierDescriptor</a>
 </li>
 <li>peerName()
-: <a class="el" href="classts_1_1_t_c_p_connection.html#a2c60ed8a8c58d2d0cb179b71d84a04de">ts::TCPConnection</a>
+: <a class="el" href="classts_1_1_t_c_p_connection.html#a50acb90395e1d0de6a4af779cbfbdaec">ts::TCPConnection</a>
+</li>
+<li>Percentage()
+: <a class="el" href="classts_1_1_u_string.html#a0db698cf1abf39e1ef090661809fd61a">ts::UString</a>
 </li>
 <li>pes_pid_list
 : <a class="el" href="classts_1_1_t_s_analyzer_options.html#ace2050b2641346208925c5c9155ea50d">ts::TSAnalyzerOptions</a>
@@ -209,7 +231,7 @@ $(document).ready(function(){initNavTree('functions_p.html','');});
 : <a class="el" href="classts_1_1_p_e_s_demux.html#a2e32f6be9b2017626be747c32e949745">ts::PESDemux</a>
 </li>
 <li>PESPacket()
-: <a class="el" href="classts_1_1_p_e_s_packet.html#a4f8c8d2625d340bbef4bf67b2013784e">ts::PESPacket</a>
+: <a class="el" href="classts_1_1_p_e_s_packet.html#aaf71618897a4363086c89ba4c09da254">ts::PESPacket</a>
 </li>
 <li>pic_height_in_map_units_minus1
 : <a class="el" href="classts_1_1_a_v_c_sequence_parameter_set.html#a18db3f92b0650ee029507c3f43243d3c">ts::AVCSequenceParameterSet</a>
@@ -275,7 +297,7 @@ $(document).ready(function(){initNavTree('functions_p.html','');});
 : <a class="el" href="classts_1_1_t2_m_i_packet.html#a65ac84308fe8739694543504d0678b2d">ts::T2MIPacket</a>
 </li>
 <li>Plugin()
-: <a class="el" href="classts_1_1_plugin.html#a893d97a27eb6ec6cb5d1b7f235c15b6b">ts::Plugin</a>
+: <a class="el" href="classts_1_1_plugin.html#accc607829d63f590f317d6df1fd3f0d5">ts::Plugin</a>
 </li>
 <li>plugin()
 : <a class="el" href="classts_1_1tsp_1_1_output_executor.html#a2aff7b32b9a704627579b6b663cbd40d">ts::tsp::OutputExecutor</a>
@@ -295,13 +317,13 @@ $(document).ready(function(){initNavTree('functions_p.html','');});
 : <a class="el" href="classts_1_1tsp_1_1_options.html#a8989d5f34d456e890774e21666795fe8">ts::tsp::Options</a>
 </li>
 <li>PluginSharedLibrary()
-: <a class="el" href="classts_1_1_plugin_shared_library.html#a37d2e19af4b80369dd9b9ac4926f9d43">ts::PluginSharedLibrary</a>
+: <a class="el" href="classts_1_1_plugin_shared_library.html#a8db57d28135856e76b257a5a0e898b54">ts::PluginSharedLibrary</a>
 </li>
 <li>PluginType
 : <a class="el" href="classts_1_1tsp_1_1_options.html#a55bda783655b89587cb5d3a969266c5b">ts::tsp::Options</a>
 </li>
-<li>PluginTypeName()
-: <a class="el" href="classts_1_1tsp_1_1_options.html#acc706268a7debd0925982cd84ef94f29">ts::tsp::Options</a>
+<li>PluginTypeNames
+: <a class="el" href="classts_1_1tsp_1_1_options.html#a46185e8cb8a328cb73f6d0eb9ba08912">ts::tsp::Options</a>
 </li>
 <li>PMT()
 : <a class="el" href="classts_1_1_p_m_t.html#ae67c6257031887a7b8be619fcf7270d2">ts::PMT</a>
@@ -318,6 +340,9 @@ $(document).ready(function(){initNavTree('functions_p.html','');});
 <li>pmts
 : <a class="el" href="classts_1_1_p_a_t.html#a42a48e20069d2fb67026f115ac477009">ts::PAT</a>
 </li>
+<li>POINTER
+: <a class="el" href="classts_1_1_arg_mix.html#a5f929024b6e46d6b9efb25dcd56cf48da88958b9b4ce6044f761f1a7b4460d200">ts::ArgMix</a>
+</li>
 <li>pointer()
 : <a class="el" href="classts_1_1_com_ptr.html#ae3618e06040e292beb4a876c9a3c95d2">ts::ComPtr&lt; COMCLASS &gt;</a>
 , <a class="el" href="classts_1_1_safe_ptr.html#a86744709218aa9e93881c9a99506b252">ts::SafePtr&lt; T, MUTEX &gt;</a>
@@ -330,30 +355,44 @@ $(document).ready(function(){initNavTree('functions_p.html','');});
 : <a class="el" href="classts_1_1_satellite_delivery_system_descriptor.html#aac132c8d4663b59f7e6ce4b29aa256d6">ts::SatelliteDeliverySystemDescriptor</a>
 </li>
 <li>PollFiles()
-: <a class="el" href="classts_1_1_poll_files.html#a0275a091024e15953180b658df8629fd">ts::PollFiles</a>
+: <a class="el" href="classts_1_1_poll_files.html#a5507cfaa3888c629b6a36d3ddb1786eb">ts::PollFiles</a>
 </li>
 <li>port()
 : <a class="el" href="classts_1_1_socket_address.html#a766e6204b9dbc1653f66f2d456e1758b">ts::SocketAddress</a>
+</li>
+<li>position()
+: <a class="el" href="classts_1_1_text_parser.html#a5706b304bc30e3c1064848179ee90410">ts::TextParser</a>
 </li>
 <li>POSITIVE
 : <a class="el" href="classts_1_1_args.html#ada57b307e21cd62d9eb7439dd2dcbfd1a675df78d8d80a0883a9b7e943bf875bf">ts::Args</a>
 </li>
 <li>prefix()
-: <a class="el" href="classts_1_1_application_shared_library.html#aa6d2c5431866e081254b0d33cb738d7a">ts::ApplicationSharedLibrary</a>
-, <a class="el" href="classts_1_1_report_with_prefix.html#a69b86546a7baf0eb8cbb7af64548c3d0">ts::ReportWithPrefix</a>
-, <a class="el" href="classts_1_1_t_s_analyzer_options.html#a3c2cb7f8d1a338b60931cfba160fd3bd">ts::TSAnalyzerOptions</a>
+: <a class="el" href="classts_1_1_application_shared_library.html#a219aa8d1a8e198c69a955b72dfa86016">ts::ApplicationSharedLibrary</a>
+, <a class="el" href="classts_1_1_report_with_prefix.html#ac249ec13d1ea6cbed6f14a48a9d95aab">ts::ReportWithPrefix</a>
+, <a class="el" href="classts_1_1_t_s_analyzer_options.html#ab5d744b668ce6f19a5a63d852011ab4b">ts::TSAnalyzerOptions</a>
 </li>
 <li>present()
-: <a class="el" href="classts_1_1_args.html#a89e9ec0a3663d16b7583468e49f31017">ts::Args</a>
+: <a class="el" href="classts_1_1_args.html#a53139d1429ecc7fd32e89965b0f36a95">ts::Args</a>
 </li>
-<li>Printer()
-: <a class="el" href="classts_1_1_x_m_l_1_1_printer.html#a3f85855bbab998a4d4e14228ee8eae74">ts::XML::Printer</a>
+<li>previousSibling()
+: <a class="el" href="classts_1_1xml_1_1_node.html#a38755202c502d23ef2e4b2411bd6e6a6">ts::xml::Node</a>
 </li>
-<li>PrintSpace()
-: <a class="el" href="classts_1_1_x_m_l_1_1_printer.html#a945e7753cce4effe5aac04546bdc4ee0">ts::XML::Printer</a>
+<li>print()
+: <a class="el" href="classts_1_1xml_1_1_comment.html#a6cf2a230dac527824feb8fb60ebf32e1">ts::xml::Comment</a>
+, <a class="el" href="classts_1_1xml_1_1_declaration.html#af07ff9452c6af20c3ff7859f67291d9e">ts::xml::Declaration</a>
+, <a class="el" href="classts_1_1xml_1_1_document.html#a9dadd2b700dc6c34fd7618823daef812">ts::xml::Document</a>
+, <a class="el" href="classts_1_1xml_1_1_element.html#a16ab93f363f6c78f4c9b1b83c9eb3230">ts::xml::Element</a>
+, <a class="el" href="classts_1_1xml_1_1_node.html#a063791597919c4f3bf64ae1c6a1204a9">ts::xml::Node</a>
+, <a class="el" href="classts_1_1xml_1_1_text.html#a35400a30fc1783f393e7ad8d96efbdaa">ts::xml::Text</a>
+, <a class="el" href="classts_1_1xml_1_1_unknown.html#a5ed8c39c051d3c48a60e0157db41458f">ts::xml::Unknown</a>
+</li>
+<li>printClose()
+: <a class="el" href="classts_1_1xml_1_1_document.html#aba6f5e93b5a008232103406a4dfe9090">ts::xml::Document</a>
+, <a class="el" href="classts_1_1xml_1_1_element.html#a6e18560e0d9e6587251c230dbd6e336d">ts::xml::Element</a>
+, <a class="el" href="classts_1_1xml_1_1_node.html#a5320689edfa66e9d2e4ae3e97d189768">ts::xml::Node</a>
 </li>
 <li>PRIVATE
-: <a class="el" href="structts_1_1emmgmux_1_1_data_types.html#acf108b6349789305ed61c2052360db55a473ec8a779d585cf0534475eb0989fe8">ts::emmgmux::DataTypes</a>
+: <a class="el" href="structts_1_1emmgmux_1_1_data_types.html#aa04dfdf5c84eba7df68ce10c0e20e726a473ec8a779d585cf0534475eb0989fe8">ts::emmgmux::DataTypes</a>
 </li>
 <li>private_data
 : <a class="el" href="classts_1_1_c_a_descriptor.html#adab4924261d455e84a97b9ab62b956af">ts::CADescriptor</a>
@@ -367,7 +406,7 @@ $(document).ready(function(){initNavTree('functions_p.html','');});
 : <a class="el" href="classts_1_1_descriptor_list.html#a8b52288136bdf140b7ca93452292533f">ts::DescriptorList</a>
 </li>
 <li>PrivateDataSpecifierDescriptor()
-: <a class="el" href="classts_1_1_private_data_specifier_descriptor.html#a957893ba35f1da086c818ea5ef865a24">ts::PrivateDataSpecifierDescriptor</a>
+: <a class="el" href="classts_1_1_private_data_specifier_descriptor.html#a8e162433035af0cd95ecec2b7343b8c9">ts::PrivateDataSpecifierDescriptor</a>
 </li>
 <li>ProcessMetrics()
 : <a class="el" href="structts_1_1_process_metrics.html#a7319027f97ae2558ecb4d85bd690a718">ts::ProcessMetrics</a>
@@ -379,7 +418,7 @@ $(document).ready(function(){initNavTree('functions_p.html','');});
 : <a class="el" href="classts_1_1tsp_1_1_processor_executor.html#ad4f43ba84399407c79c04980b4be97f7">ts::tsp::ProcessorExecutor</a>
 </li>
 <li>ProcessorPlugin()
-: <a class="el" href="classts_1_1_processor_plugin.html#a644ca61f36ca05e7375313bb449cf8d4">ts::ProcessorPlugin</a>
+: <a class="el" href="classts_1_1_processor_plugin.html#a719155f20a31ea5f1552f86f5fe2f4e7">ts::ProcessorPlugin</a>
 </li>
 <li>processPacket()
 : <a class="el" href="classts_1_1_abstract_descrambler.html#a8b0b452d3995ba72a40bfc4e53166b3c">ts::AbstractDescrambler</a>
@@ -423,44 +462,53 @@ $(document).ready(function(){initNavTree('functions_p.html','');});
 : <a class="el" href="classts_1_1_section_provider_interface.html#ad9a97309d1fc0950c2a9e091bbb1d55a">ts::SectionProviderInterface</a>
 </li>
 <li>PSILogger()
-: <a class="el" href="classts_1_1_p_s_i_logger.html#aa1a4b5952b82793daf451ba248be680f">ts::PSILogger</a>
+: <a class="el" href="classts_1_1_p_s_i_logger.html#ac10b1bd287caff4ea91eaf4aa8fdeec5">ts::PSILogger</a>
 </li>
 <li>PSILoggerArgs()
 : <a class="el" href="classts_1_1_p_s_i_logger_args.html#a03a61b26136cb321d525b63986f92ccb">ts::PSILoggerArgs</a>
 </li>
 <li>put()
 : <a class="el" href="classts_1_1_simul_crypt_date.html#a1ce28485acefd69129259ffbcbf3d90a">ts::SimulCryptDate</a>
-, <a class="el" href="classts_1_1tlv_1_1_serializer.html#aeea5eb0eafd515a3e11562922347b8b6">ts::tlv::Serializer</a>
+, <a class="el" href="classts_1_1tlv_1_1_serializer.html#af900f3177b0cd2ff66627e3c30c94e50">ts::tlv::Serializer</a>
 </li>
 <li>putBinary()
 : <a class="el" href="classts_1_1_simul_crypt_date.html#af22ab1e267b402f155e0d7846c1d9671">ts::SimulCryptDate</a>
 </li>
 <li>putBool()
-: <a class="el" href="classts_1_1tlv_1_1_serializer.html#ab7aa7f724078cf606937de15e53f3342">ts::tlv::Serializer</a>
+: <a class="el" href="classts_1_1tlv_1_1_serializer.html#ad86eb6d0717b26afee3c3d478a2eaa73">ts::tlv::Serializer</a>
 </li>
 <li>putInt16()
-: <a class="el" href="classts_1_1tlv_1_1_serializer.html#a13b22ae3d118ba3daf25cd59dd06af9f">ts::tlv::Serializer</a>
+: <a class="el" href="classts_1_1tlv_1_1_serializer.html#a5c04eaee5ec69985f4830f6753699154">ts::tlv::Serializer</a>
 </li>
 <li>putInt32()
-: <a class="el" href="classts_1_1tlv_1_1_serializer.html#af4cc9f5f36859ad5a43a4e8e4ca239d0">ts::tlv::Serializer</a>
+: <a class="el" href="classts_1_1tlv_1_1_serializer.html#ae7c6cbbc69aa7a0c6db94bd9b7fc246c">ts::tlv::Serializer</a>
 </li>
 <li>putInt64()
-: <a class="el" href="classts_1_1tlv_1_1_serializer.html#a9d8adce16372a8ae2172bf80cd495e47">ts::tlv::Serializer</a>
+: <a class="el" href="classts_1_1tlv_1_1_serializer.html#a590edc88bd192bdd5ee32923a8d6f14a">ts::tlv::Serializer</a>
 </li>
 <li>putInt8()
-: <a class="el" href="classts_1_1tlv_1_1_serializer.html#a68cca2a14e14245341878f2b8a755a7b">ts::tlv::Serializer</a>
+: <a class="el" href="classts_1_1tlv_1_1_serializer.html#a72c4895a9592a40880e14e452ccd10b2">ts::tlv::Serializer</a>
+</li>
+<li>putLayout()
+: <a class="el" href="classts_1_1_grid.html#a378ee66ba8702a943c23ff27731f86b0">ts::Grid</a>
+</li>
+<li>putLine()
+: <a class="el" href="classts_1_1_grid.html#a5306502d41838cd43afdc215b3f1e880">ts::Grid</a>
+</li>
+<li>putMultiLine()
+: <a class="el" href="classts_1_1_grid.html#a01349bab9805ed4fd93092d21d445a99">ts::Grid</a>
 </li>
 <li>putUInt16()
-: <a class="el" href="classts_1_1tlv_1_1_serializer.html#a08d27c78d65cf3b9e1b21bf272f9eede">ts::tlv::Serializer</a>
+: <a class="el" href="classts_1_1tlv_1_1_serializer.html#ad09f7e1931338b94debcc2455ffa9a7e">ts::tlv::Serializer</a>
 </li>
 <li>putUInt32()
 : <a class="el" href="classts_1_1tlv_1_1_serializer.html#a362c26da975520204a6df8dd17abb90f">ts::tlv::Serializer</a>
 </li>
 <li>putUInt64()
-: <a class="el" href="classts_1_1tlv_1_1_serializer.html#a5c1c90cf496c9bb635dfd3abde153650">ts::tlv::Serializer</a>
+: <a class="el" href="classts_1_1tlv_1_1_serializer.html#ab8588791e3072be5496b8694980dde8e">ts::tlv::Serializer</a>
 </li>
 <li>putUInt8()
-: <a class="el" href="classts_1_1tlv_1_1_serializer.html#ad710c780b109fccb81182b8d99e2b810">ts::tlv::Serializer</a>
+: <a class="el" href="classts_1_1tlv_1_1_serializer.html#ab693a7c1da35bb536856f599ba2c43dc">ts::tlv::Serializer</a>
 </li>
 </ul>
 </div><!-- contents -->

@@ -34,7 +34,7 @@
  <tr style="height: 56px;">
   <td id="projectlogo"><img src="tsduck-32.png"/></td>
    <td id="projectalign"><span id="projectname">TSDuck</span>
-    <span id="projectnumber">Version 3.4</span>
+    <span id="projectnumber">Version 3.5</span>
     <span id="projectbrief">(TSDuck - The MPEG Transport Stream Toolkit)</span>
    </td>
    <td>        <div id="MSearchBox" class="MSearchBoxInactive">
@@ -120,9 +120,9 @@ Collaboration diagram for ts::TSScanner:</div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
-<tr class="memitem:a940f5d223cffc9aa55ab08a5e9de4e3c"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classts_1_1_t_s_scanner.html#a940f5d223cffc9aa55ab08a5e9de4e3c">TSScanner</a> (<a class="el" href="classts_1_1_tuner.html">Tuner</a> &amp;tuner, <a class="el" href="namespacets.html#a2c690abc5d90fe5ba7c3ec0237afc348">MilliSecond</a> timeout=<a class="el" href="namespacets.html#a6b91ccf90475c62f610ea549f69d8544">Infinite</a>, bool pat_only=false, <a class="el" href="classts_1_1_report_interface.html">ReportInterface</a> &amp;report=(*<a class="el" href="classts_1_1_cerr_report.html#ad5fc721c37e1eceab55d90f8c76ff6b6">ts::CerrReport::Instance</a>()))</td></tr>
-<tr class="memdesc:a940f5d223cffc9aa55ab08a5e9de4e3c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Constructor.  <a href="#a940f5d223cffc9aa55ab08a5e9de4e3c">More...</a><br /></td></tr>
-<tr class="separator:a940f5d223cffc9aa55ab08a5e9de4e3c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:affd3084e1dc6699468357745ae0e78fa"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classts_1_1_t_s_scanner.html#affd3084e1dc6699468357745ae0e78fa">TSScanner</a> (<a class="el" href="classts_1_1_tuner.html">Tuner</a> &amp;tuner, <a class="el" href="namespacets.html#a2c690abc5d90fe5ba7c3ec0237afc348">MilliSecond</a> timeout=<a class="el" href="namespacets.html#a6b91ccf90475c62f610ea549f69d8544">Infinite</a>, bool pat_only=false, <a class="el" href="classts_1_1_report.html">Report</a> &amp;report=(*<a class="el" href="classts_1_1_cerr_report.html#ad5fc721c37e1eceab55d90f8c76ff6b6">ts::CerrReport::Instance</a>()))</td></tr>
+<tr class="memdesc:affd3084e1dc6699468357745ae0e78fa"><td class="mdescLeft">&#160;</td><td class="mdescRight">Constructor.  <a href="#affd3084e1dc6699468357745ae0e78fa">More...</a><br /></td></tr>
+<tr class="separator:affd3084e1dc6699468357745ae0e78fa"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a3ce34d832c3cc2c119a70aa35ffae130"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classts_1_1_t_s_scanner.html#a3ce34d832c3cc2c119a70aa35ffae130">getNIT</a> (<a class="el" href="classts_1_1_safe_ptr.html">ts::SafePtr</a>&lt; <a class="el" href="classts_1_1_n_i_t.html">ts::NIT</a> &gt; &amp;nit) const</td></tr>
 <tr class="memdesc:a3ce34d832c3cc2c119a70aa35ffae130"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the <a class="el" href="classts_1_1_n_i_t.html" title="Representation of a Network Information Table (NIT) ">NIT</a> of the transport stream.  <a href="#a3ce34d832c3cc2c119a70aa35ffae130">More...</a><br /></td></tr>
 <tr class="separator:a3ce34d832c3cc2c119a70aa35ffae130"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -142,8 +142,8 @@ Public Member Functions</h2></td></tr>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>A class which scans the services of a transport stream. </p>
 </div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
-<a id="a940f5d223cffc9aa55ab08a5e9de4e3c"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a940f5d223cffc9aa55ab08a5e9de4e3c">&#9670;&nbsp;</a></span>TSScanner()</h2>
+<a id="affd3084e1dc6699468357745ae0e78fa"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#affd3084e1dc6699468357745ae0e78fa">&#9670;&nbsp;</a></span>TSScanner()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -169,7 +169,7 @@ Public Member Functions</h2></td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="classts_1_1_report_interface.html">ReportInterface</a> &amp;&#160;</td>
+          <td class="paramtype"><a class="el" href="classts_1_1_report.html">Report</a> &amp;&#160;</td>
           <td class="paramname"><em>report</em> = <code>(*<a class="el" href="classts_1_1_cerr_report.html#ad5fc721c37e1eceab55d90f8c76ff6b6">ts::CerrReport::Instance</a>())</code>&#160;</td>
         </tr>
         <tr>

@@ -34,7 +34,7 @@
  <tr style="height: 56px;">
   <td id="projectlogo"><img src="tsduck-32.png"/></td>
    <td id="projectalign"><span id="projectname">TSDuck</span>
-    <span id="projectnumber">Version 3.4</span>
+    <span id="projectnumber">Version 3.5</span>
     <span id="projectbrief">(TSDuck - The MPEG Transport Stream Toolkit)</span>
    </td>
    <td>        <div id="MSearchBox" class="MSearchBoxInactive">
@@ -114,12 +114,10 @@ Namespaces</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="define-members"></a>
 Macros</h2></td></tr>
-<tr class="memitem:aad88cf9252037fc1b4e5cfbec0f02b75"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="ts_platform_8h.html#aad88cf9252037fc1b4e5cfbec0f02b75">FMT_INT64</a>&#160;&#160;&#160;&quot;platform-specific&quot;</td></tr>
-<tr class="memdesc:aad88cf9252037fc1b4e5cfbec0f02b75"><td class="mdescLeft">&#160;</td><td class="mdescRight">A string value to specify a 64-bit integer argument in <code>printf</code> <em>format</em> strings.  <a href="#aad88cf9252037fc1b4e5cfbec0f02b75">More...</a><br /></td></tr>
-<tr class="separator:aad88cf9252037fc1b4e5cfbec0f02b75"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a69ad63eb5d0c912c5910090ba05967d8"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="ts_platform_8h.html#a69ad63eb5d0c912c5910090ba05967d8">FMT_SIZE_T</a>&#160;&#160;&#160;&quot;platform-specific&quot;</td></tr>
-<tr class="memdesc:a69ad63eb5d0c912c5910090ba05967d8"><td class="mdescLeft">&#160;</td><td class="mdescRight">A string value to specify a <code>size_t</code> argument in <code>printf</code> <em>format</em> strings.  <a href="#a69ad63eb5d0c912c5910090ba05967d8">More...</a><br /></td></tr>
-<tr class="separator:a69ad63eb5d0c912c5910090ba05967d8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a705322ed684836181fcd7a1c22a0c1ee"><td class="memItemLeft" align="right" valign="top"><a id="a705322ed684836181fcd7a1c22a0c1ee"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="ts_platform_8h.html#a705322ed684836181fcd7a1c22a0c1ee">TS_ADDRESS_BITS</a>&#160;&#160;&#160;16, 32, 64, etc.</td></tr>
+<tr class="memdesc:a705322ed684836181fcd7a1c22a0c1ee"><td class="mdescLeft">&#160;</td><td class="mdescRight">Number of bits in an address (or a pointer or a size_t). <br /></td></tr>
+<tr class="separator:a705322ed684836181fcd7a1c22a0c1ee"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a1aa0e127d906431c1655644e1696e4e8"><td class="memItemLeft" align="right" valign="top"><a id="a1aa0e127d906431c1655644e1696e4e8"></a>
 #define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="ts_platform_8h.html#a1aa0e127d906431c1655644e1696e4e8">TS_AIX</a></td></tr>
 <tr class="memdesc:a1aa0e127d906431c1655644e1696e4e8"><td class="mdescLeft">&#160;</td><td class="mdescRight">Defined when compiled for an IBM AIX target platform. <br /></td></tr>
@@ -168,16 +166,17 @@ Macros</h2></td></tr>
 <tr class="memitem:a40de35ab6e64452307c798de400869fa"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="ts_platform_8h.html#a40de35ab6e64452307c798de400869fa">TS_FLAGS_OPERATORS</a>(type)</td></tr>
 <tr class="memdesc:a40de35ab6e64452307c798de400869fa"><td class="mdescLeft">&#160;</td><td class="mdescRight">This macro defines all bit-wise operators on an enumeration type.  <a href="#a40de35ab6e64452307c798de400869fa">More...</a><br /></td></tr>
 <tr class="separator:a40de35ab6e64452307c798de400869fa"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:afc375210e050482fdac6d6f60417a97f"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="ts_platform_8h.html#afc375210e050482fdac6d6f60417a97f">TS_FORMAT_STRING</a>(string_var,  format_arg)</td></tr>
-<tr class="memdesc:afc375210e050482fdac6d6f60417a97f"><td class="mdescLeft">&#160;</td><td class="mdescRight">This macro is used in functions with a variable list of arguments to format a <code>std::string</code> from a printf-like format and its variable-length list of arguments.  <a href="#afc375210e050482fdac6d6f60417a97f">More...</a><br /></td></tr>
-<tr class="separator:afc375210e050482fdac6d6f60417a97f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a77031276ee5ec897860802390f028b7d"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="ts_platform_8h.html#a77031276ee5ec897860802390f028b7d">TS_FUNCTION</a></td></tr>
 <tr class="memdesc:a77031276ee5ec897860802390f028b7d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Definition of the name of the current function.  <a href="#a77031276ee5ec897860802390f028b7d">More...</a><br /></td></tr>
 <tr class="separator:a77031276ee5ec897860802390f028b7d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a9bdbd39e3f70be6eae1042f81f38b592"><td class="memItemLeft" align="right" valign="top"><a id="a9bdbd39e3f70be6eae1042f81f38b592"></a>
 #define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="ts_platform_8h.html#a9bdbd39e3f70be6eae1042f81f38b592">TS_GCC</a></td></tr>
-<tr class="memdesc:a9bdbd39e3f70be6eae1042f81f38b592"><td class="mdescLeft">&#160;</td><td class="mdescRight">Defined when the compiler is GCC, also known as "GNU C". <br /></td></tr>
+<tr class="memdesc:a9bdbd39e3f70be6eae1042f81f38b592"><td class="mdescLeft">&#160;</td><td class="mdescRight">Defined when the compiler is GCC, also known as "GNU C", or a GCC-compatible compiler. <br /></td></tr>
 <tr class="separator:a9bdbd39e3f70be6eae1042f81f38b592"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a795d9aaf58b3c714feee19c4470720e6"><td class="memItemLeft" align="right" valign="top"><a id="a795d9aaf58b3c714feee19c4470720e6"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="ts_platform_8h.html#a795d9aaf58b3c714feee19c4470720e6">TS_GCC_ONLY</a></td></tr>
+<tr class="memdesc:a795d9aaf58b3c714feee19c4470720e6"><td class="mdescLeft">&#160;</td><td class="mdescRight">Defined when the compiler is exactly GCC, also known as "GNU C", not a GCC-compatible compiler. <br /></td></tr>
+<tr class="separator:a795d9aaf58b3c714feee19c4470720e6"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a133bb38cbcd7785865b94b3bbbb8da4d"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="ts_platform_8h.html#a133bb38cbcd7785865b94b3bbbb8da4d">TS_GCC_VERSION</a></td></tr>
 <tr class="memdesc:a133bb38cbcd7785865b94b3bbbb8da4d"><td class="mdescLeft">&#160;</td><td class="mdescRight">GCC version, encoded as an integer.  <a href="#a133bb38cbcd7785865b94b3bbbb8da4d">More...</a><br /></td></tr>
 <tr class="separator:a133bb38cbcd7785865b94b3bbbb8da4d"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -227,9 +226,9 @@ Macros</h2></td></tr>
 #define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="ts_platform_8h.html#a79a35caa42b6509fc23828033c53c5b2">TS_POWERPC64</a></td></tr>
 <tr class="memdesc:a79a35caa42b6509fc23828033c53c5b2"><td class="mdescLeft">&#160;</td><td class="mdescRight">Defined when the target processor architecture is 64-bit Power PC. <br /></td></tr>
 <tr class="separator:a79a35caa42b6509fc23828033c53c5b2"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ac9c573be2d797a2b160e7417cce03980"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="ts_platform_8h.html#ac9c573be2d797a2b160e7417cce03980">TS_PRINTF_FORMAT</a>(formatIndex,  argIndex)</td></tr>
-<tr class="memdesc:ac9c573be2d797a2b160e7417cce03980"><td class="mdescLeft">&#160;</td><td class="mdescRight">Syntax-checking attribute for functions with a printf-like format.  <a href="#ac9c573be2d797a2b160e7417cce03980">More...</a><br /></td></tr>
-<tr class="separator:ac9c573be2d797a2b160e7417cce03980"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7ae8394c3055af3b6911543353939642"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="ts_platform_8h.html#a7ae8394c3055af3b6911543353939642">TS_SIZE_T_IS_STDINT</a></td></tr>
+<tr class="memdesc:a7ae8394c3055af3b6911543353939642"><td class="mdescLeft">&#160;</td><td class="mdescRight">Defined is <code>size_t</code> is an exact overload of some predefined <code>uintXX_t</code>.  <a href="#a7ae8394c3055af3b6911543353939642">More...</a><br /></td></tr>
+<tr class="separator:a7ae8394c3055af3b6911543353939642"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aeab951cd7449abfd3aeed8a621301630"><td class="memItemLeft" align="right" valign="top"><a id="aeab951cd7449abfd3aeed8a621301630"></a>
 #define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="ts_platform_8h.html#aeab951cd7449abfd3aeed8a621301630">TS_SLINE</a>&#160;&#160;&#160;<a class="el" href="ts_platform_8h.html#a81ffc1445d4ad494ed54a5ab1e446073">TS_STRINGIFY</a>(__LINE__)</td></tr>
 <tr class="memdesc:aeab951cd7449abfd3aeed8a621301630"><td class="mdescLeft">&#160;</td><td class="mdescRight">String version of <b>LINE</b> <br /></td></tr>
@@ -243,7 +242,7 @@ Macros</h2></td></tr>
 <tr class="memdesc:a214dea4a5d2a109ddb35a99c0cc8e621"><td class="mdescLeft">&#160;</td><td class="mdescRight">Defined when the target processor architecture is Sun SPARC architecture. <br /></td></tr>
 <tr class="separator:a214dea4a5d2a109ddb35a99c0cc8e621"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a81ffc1445d4ad494ed54a5ab1e446073"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="ts_platform_8h.html#a81ffc1445d4ad494ed54a5ab1e446073">TS_STRINGIFY</a>(x)</td></tr>
-<tr class="memdesc:a81ffc1445d4ad494ed54a5ab1e446073"><td class="mdescLeft">&#160;</td><td class="mdescRight">This macro transforms the <em>value</em> of a macro parameter into the equivalent string.  <a href="#a81ffc1445d4ad494ed54a5ab1e446073">More...</a><br /></td></tr>
+<tr class="memdesc:a81ffc1445d4ad494ed54a5ab1e446073"><td class="mdescLeft">&#160;</td><td class="mdescRight">This macro transforms the <em>value</em> of a macro parameter into the equivalent string literal.  <a href="#a81ffc1445d4ad494ed54a5ab1e446073">More...</a><br /></td></tr>
 <tr class="separator:a81ffc1445d4ad494ed54a5ab1e446073"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a3f49778c186a76d816449687ede8027e"><td class="memItemLeft" align="right" valign="top"><a id="a3f49778c186a76d816449687ede8027e"></a>
 #define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="ts_platform_8h.html#a3f49778c186a76d816449687ede8027e">TS_STXP70</a></td></tr>
@@ -258,6 +257,17 @@ Macros</h2></td></tr>
 <tr class="memitem:a93e23355947fbaf69c05494a70eec929"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="ts_platform_8h.html#a93e23355947fbaf69c05494a70eec929">TS_UNUSED</a>&#160;&#160;&#160;platform_specific</td></tr>
 <tr class="memdesc:a93e23355947fbaf69c05494a70eec929"><td class="mdescLeft">&#160;</td><td class="mdescRight">Attribute for explicitly unused variables.  <a href="#a93e23355947fbaf69c05494a70eec929">More...</a><br /></td></tr>
 <tr class="separator:a93e23355947fbaf69c05494a70eec929"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a071939711500a33dfc7e091ce8c3c063"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="ts_platform_8h.html#a071939711500a33dfc7e091ce8c3c063">TS_USTRINGIFY</a>(x)</td></tr>
+<tr class="memdesc:a071939711500a33dfc7e091ce8c3c063"><td class="mdescLeft">&#160;</td><td class="mdescRight">This macro transforms the <em>value</em> of a macro parameter into the equivalent 16-bit Unicode string literal.  <a href="#a071939711500a33dfc7e091ce8c3c063">More...</a><br /></td></tr>
+<tr class="separator:a071939711500a33dfc7e091ce8c3c063"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aae6ce6b6f5a755b83b3bb4f64914a214"><td class="memItemLeft" align="right" valign="top"><a id="aae6ce6b6f5a755b83b3bb4f64914a214"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="ts_platform_8h.html#aae6ce6b6f5a755b83b3bb4f64914a214">TS_VERSION_STRING</a>&#160;&#160;&#160;<a class="el" href="ts_platform_8h.html#a81ffc1445d4ad494ed54a5ab1e446073">TS_STRINGIFY</a>(<a class="el" href="ts_version_8h.html#aa811b69ed27cccdeeabe80e50ebebcf8">TS_VERSION_MAJOR</a>) &quot;.&quot; <a class="el" href="ts_platform_8h.html#a81ffc1445d4ad494ed54a5ab1e446073">TS_STRINGIFY</a>(<a class="el" href="ts_version_8h.html#adecb62ccbf8f0ec472263a3c7979c090">TS_VERSION_MINOR</a>) &quot;-&quot; <a class="el" href="ts_platform_8h.html#a81ffc1445d4ad494ed54a5ab1e446073">TS_STRINGIFY</a>(<a class="el" href="ts_version_8h.html#a96fa3f58630e5eb1ba6ebcbd44ca7d0d">TS_COMMIT</a>)</td></tr>
+<tr class="memdesc:aae6ce6b6f5a755b83b3bb4f64914a214"><td class="mdescLeft">&#160;</td><td class="mdescRight">Define the TSDuck version as an 8-bit string literal. <br /></td></tr>
+<tr class="separator:aae6ce6b6f5a755b83b3bb4f64914a214"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aee1e246870302b8afadf08c3d12254ff"><td class="memItemLeft" align="right" valign="top"><a id="aee1e246870302b8afadf08c3d12254ff"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="ts_platform_8h.html#aee1e246870302b8afadf08c3d12254ff">TS_VERSION_USTRING</a>&#160;&#160;&#160;<a class="el" href="ts_platform_8h.html#a071939711500a33dfc7e091ce8c3c063">TS_USTRINGIFY</a>(<a class="el" href="ts_version_8h.html#aa811b69ed27cccdeeabe80e50ebebcf8">TS_VERSION_MAJOR</a>) u&quot;.&quot; <a class="el" href="ts_platform_8h.html#a071939711500a33dfc7e091ce8c3c063">TS_USTRINGIFY</a>(<a class="el" href="ts_version_8h.html#adecb62ccbf8f0ec472263a3c7979c090">TS_VERSION_MINOR</a>) u&quot;-&quot; <a class="el" href="ts_platform_8h.html#a071939711500a33dfc7e091ce8c3c063">TS_USTRINGIFY</a>(<a class="el" href="ts_version_8h.html#a96fa3f58630e5eb1ba6ebcbd44ca7d0d">TS_COMMIT</a>)</td></tr>
+<tr class="memdesc:aee1e246870302b8afadf08c3d12254ff"><td class="mdescLeft">&#160;</td><td class="mdescRight">Define the TSDuck version as a 16-bit string literal. <br /></td></tr>
+<tr class="separator:aee1e246870302b8afadf08c3d12254ff"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a66c717daca8b143dfea7ed6dade548b0"><td class="memItemLeft" align="right" valign="top"><a id="a66c717daca8b143dfea7ed6dade548b0"></a>
 #define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="ts_platform_8h.html#a66c717daca8b143dfea7ed6dade548b0">TS_WINDOWS</a></td></tr>
 <tr class="memdesc:a66c717daca8b143dfea7ed6dade548b0"><td class="mdescLeft">&#160;</td><td class="mdescRight">Defined when compiled for a Microsoft Windows target platform. <br /></td></tr>
@@ -320,10 +330,10 @@ Functions</h2></td></tr>
 <tr class="memitem:ae133add30b41089dacbb1ffa4fc42656"><td class="memItemLeft" align="right" valign="top">uint64_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacets.html#ae133add30b41089dacbb1ffa4fc42656">ts::ByteSwap64</a> (uint64_t x)</td></tr>
 <tr class="memdesc:ae133add30b41089dacbb1ffa4fc42656"><td class="mdescLeft">&#160;</td><td class="mdescRight">Inlined function performing byte swap on 64-bit integer data.  <a href="namespacets.html#ae133add30b41089dacbb1ffa4fc42656">More...</a><br /></td></tr>
 <tr class="separator:ae133add30b41089dacbb1ffa4fc42656"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a103d4008075d1c45ec21011f0c5b58df"><td class="memTemplParams" colspan="2">template&lt;typename INT &gt; </td></tr>
-<tr class="memitem:a103d4008075d1c45ec21011f0c5b58df"><td class="memTemplItemLeft" align="right" valign="top">INT&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespacets.html#a103d4008075d1c45ec21011f0c5b58df">ts::CondByteSwap</a> (INT x)</td></tr>
-<tr class="memdesc:a103d4008075d1c45ec21011f0c5b58df"><td class="mdescLeft">&#160;</td><td class="mdescRight">Template function performing conditional byte swap on integer data to obtain the data in big endian representation.  <a href="namespacets.html#a103d4008075d1c45ec21011f0c5b58df">More...</a><br /></td></tr>
-<tr class="separator:a103d4008075d1c45ec21011f0c5b58df"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa087dfd46b3e55b3222f388869105da4"><td class="memTemplParams" colspan="2">template&lt;typename INT , typename std::enable_if&lt; std::is_integral&lt; INT &gt;::value &gt;::type *  = nullptr&gt; </td></tr>
+<tr class="memitem:aa087dfd46b3e55b3222f388869105da4"><td class="memTemplItemLeft" align="right" valign="top">INT&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespacets.html#aa087dfd46b3e55b3222f388869105da4">ts::CondByteSwap</a> (INT x)</td></tr>
+<tr class="memdesc:aa087dfd46b3e55b3222f388869105da4"><td class="mdescLeft">&#160;</td><td class="mdescRight">Template function performing conditional byte swap on integer data to obtain the data in big endian representation.  <a href="namespacets.html#aa087dfd46b3e55b3222f388869105da4">More...</a><br /></td></tr>
+<tr class="separator:aa087dfd46b3e55b3222f388869105da4"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a9cec3aee4ec20d0fea7c12d0d0e8347e"><td class="memItemLeft" align="right" valign="top">uint16_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacets.html#a9cec3aee4ec20d0fea7c12d0d0e8347e">ts::CondByteSwap16</a> (uint16_t x)</td></tr>
 <tr class="memdesc:a9cec3aee4ec20d0fea7c12d0d0e8347e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Inlined function performing conditional byte swap on 16-bit integer data to obtain the data in big endian representation.  <a href="namespacets.html#a9cec3aee4ec20d0fea7c12d0d0e8347e">More...</a><br /></td></tr>
 <tr class="separator:a9cec3aee4ec20d0fea7c12d0d0e8347e"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -360,22 +370,22 @@ Functions</h2></td></tr>
 <tr class="memitem:a3ffa36c67fd7339fc5e0924c9f6b688e"><td class="memItemLeft" align="right" valign="top">uint64_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacets.html#a3ffa36c67fd7339fc5e0924c9f6b688e">ts::CondByteSwap64LE</a> (uint64_t x)</td></tr>
 <tr class="memdesc:a3ffa36c67fd7339fc5e0924c9f6b688e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Inlined function performing conditional byte swap on 64-bit integer data to obtain the data in little endian representation.  <a href="namespacets.html#a3ffa36c67fd7339fc5e0924c9f6b688e">More...</a><br /></td></tr>
 <tr class="separator:a3ffa36c67fd7339fc5e0924c9f6b688e"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aa73790a97bab5af98d70d61ac940e812"><td class="memTemplParams" colspan="2">template&lt;typename INT &gt; </td></tr>
-<tr class="memitem:aa73790a97bab5af98d70d61ac940e812"><td class="memTemplItemLeft" align="right" valign="top">INT&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespacets.html#aa73790a97bab5af98d70d61ac940e812">ts::CondByteSwapBE</a> (INT x)</td></tr>
-<tr class="memdesc:aa73790a97bab5af98d70d61ac940e812"><td class="mdescLeft">&#160;</td><td class="mdescRight">Template function performing conditional byte swap on integer data to obtain the data in big endian representation.  <a href="namespacets.html#aa73790a97bab5af98d70d61ac940e812">More...</a><br /></td></tr>
-<tr class="separator:aa73790a97bab5af98d70d61ac940e812"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a5727edb9849beae3829fb323b15585d6"><td class="memTemplParams" colspan="2">template&lt;typename INT &gt; </td></tr>
-<tr class="memitem:a5727edb9849beae3829fb323b15585d6"><td class="memTemplItemLeft" align="right" valign="top">INT&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespacets.html#a5727edb9849beae3829fb323b15585d6">ts::CondByteSwapLE</a> (INT x)</td></tr>
-<tr class="memdesc:a5727edb9849beae3829fb323b15585d6"><td class="mdescLeft">&#160;</td><td class="mdescRight">Template function performing conditional byte swap on integer data to obtain the data in little endian representation.  <a href="namespacets.html#a5727edb9849beae3829fb323b15585d6">More...</a><br /></td></tr>
-<tr class="separator:a5727edb9849beae3829fb323b15585d6"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a17265d933a9beb229d001b26bbf021af"><td class="memTemplParams" colspan="2">template&lt;typename INT &gt; </td></tr>
-<tr class="memitem:a17265d933a9beb229d001b26bbf021af"><td class="memTemplItemLeft" align="right" valign="top">INT&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespacets.html#a17265d933a9beb229d001b26bbf021af">ts::GetInt</a> (const void *p)</td></tr>
-<tr class="memdesc:a17265d933a9beb229d001b26bbf021af"><td class="mdescLeft">&#160;</td><td class="mdescRight">Template function getting an integer from serialized data in big endian representation.  <a href="namespacets.html#a17265d933a9beb229d001b26bbf021af">More...</a><br /></td></tr>
-<tr class="separator:a17265d933a9beb229d001b26bbf021af"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:afcc9d2fb4021b00dac5c7aa0cae59c6e"><td class="memTemplParams" colspan="2">template&lt;typename INT &gt; </td></tr>
-<tr class="memitem:afcc9d2fb4021b00dac5c7aa0cae59c6e"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespacets.html#afcc9d2fb4021b00dac5c7aa0cae59c6e">ts::GetInt</a> (const void *p, INT &amp;i)</td></tr>
-<tr class="memdesc:afcc9d2fb4021b00dac5c7aa0cae59c6e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Template function getting an integer from serialized data in big endian representation.  <a href="namespacets.html#afcc9d2fb4021b00dac5c7aa0cae59c6e">More...</a><br /></td></tr>
-<tr class="separator:afcc9d2fb4021b00dac5c7aa0cae59c6e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a89dbb74148fa7093f52d3888f364e637"><td class="memTemplParams" colspan="2">template&lt;typename INT , typename std::enable_if&lt; std::is_integral&lt; INT &gt;::value &gt;::type *  = nullptr&gt; </td></tr>
+<tr class="memitem:a89dbb74148fa7093f52d3888f364e637"><td class="memTemplItemLeft" align="right" valign="top">INT&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespacets.html#a89dbb74148fa7093f52d3888f364e637">ts::CondByteSwapBE</a> (INT x)</td></tr>
+<tr class="memdesc:a89dbb74148fa7093f52d3888f364e637"><td class="mdescLeft">&#160;</td><td class="mdescRight">Template function performing conditional byte swap on integer data to obtain the data in big endian representation.  <a href="namespacets.html#a89dbb74148fa7093f52d3888f364e637">More...</a><br /></td></tr>
+<tr class="separator:a89dbb74148fa7093f52d3888f364e637"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa7423b4580a76623cea0c7944fcda557"><td class="memTemplParams" colspan="2">template&lt;typename INT , typename std::enable_if&lt; std::is_integral&lt; INT &gt;::value &gt;::type *  = nullptr&gt; </td></tr>
+<tr class="memitem:aa7423b4580a76623cea0c7944fcda557"><td class="memTemplItemLeft" align="right" valign="top">INT&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespacets.html#aa7423b4580a76623cea0c7944fcda557">ts::CondByteSwapLE</a> (INT x)</td></tr>
+<tr class="memdesc:aa7423b4580a76623cea0c7944fcda557"><td class="mdescLeft">&#160;</td><td class="mdescRight">Template function performing conditional byte swap on integer data to obtain the data in little endian representation.  <a href="namespacets.html#aa7423b4580a76623cea0c7944fcda557">More...</a><br /></td></tr>
+<tr class="separator:aa7423b4580a76623cea0c7944fcda557"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9915a16e575785a54750c2755f3e3ffb"><td class="memTemplParams" colspan="2">template&lt;typename INT , typename std::enable_if&lt; std::is_integral&lt; INT &gt;::value &gt;::type *  = nullptr&gt; </td></tr>
+<tr class="memitem:a9915a16e575785a54750c2755f3e3ffb"><td class="memTemplItemLeft" align="right" valign="top">INT&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespacets.html#a9915a16e575785a54750c2755f3e3ffb">ts::GetInt</a> (const void *p)</td></tr>
+<tr class="memdesc:a9915a16e575785a54750c2755f3e3ffb"><td class="mdescLeft">&#160;</td><td class="mdescRight">Template function getting an integer from serialized data in big endian representation.  <a href="namespacets.html#a9915a16e575785a54750c2755f3e3ffb">More...</a><br /></td></tr>
+<tr class="separator:a9915a16e575785a54750c2755f3e3ffb"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa230c8495835e619951f42dd121d4bc1"><td class="memTemplParams" colspan="2">template&lt;typename INT , typename std::enable_if&lt; std::is_integral&lt; INT &gt;::value &gt;::type *  = nullptr&gt; </td></tr>
+<tr class="memitem:aa230c8495835e619951f42dd121d4bc1"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespacets.html#aa230c8495835e619951f42dd121d4bc1">ts::GetInt</a> (const void *p, INT &amp;i)</td></tr>
+<tr class="memdesc:aa230c8495835e619951f42dd121d4bc1"><td class="mdescLeft">&#160;</td><td class="mdescRight">Template function getting an integer from serialized data in big endian representation.  <a href="namespacets.html#aa230c8495835e619951f42dd121d4bc1">More...</a><br /></td></tr>
+<tr class="separator:aa230c8495835e619951f42dd121d4bc1"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ae4b32ec99a2e227a7742865f27974b67"><td class="memItemLeft" align="right" valign="top">int16_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacets.html#ae4b32ec99a2e227a7742865f27974b67">ts::GetInt16</a> (const void *p)</td></tr>
 <tr class="memdesc:ae4b32ec99a2e227a7742865f27974b67"><td class="mdescLeft">&#160;</td><td class="mdescRight">Inlined function getting a 16-bit signed integer from serialized data in big endian representation.  <a href="namespacets.html#ae4b32ec99a2e227a7742865f27974b67">More...</a><br /></td></tr>
 <tr class="separator:ae4b32ec99a2e227a7742865f27974b67"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -454,22 +464,22 @@ Functions</h2></td></tr>
 <tr class="memitem:aeebbae738a51852399693a6cfe37d919"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacets.html#aeebbae738a51852399693a6cfe37d919">ts::GetInt8</a> (const void *p, int8_t &amp;i)</td></tr>
 <tr class="memdesc:aeebbae738a51852399693a6cfe37d919"><td class="mdescLeft">&#160;</td><td class="mdescRight">Inlined function getting an 8-bit signed integer from serialized data.  <a href="namespacets.html#aeebbae738a51852399693a6cfe37d919">More...</a><br /></td></tr>
 <tr class="separator:aeebbae738a51852399693a6cfe37d919"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:afb3a7db5384f5070e45edfb58e92c3d2"><td class="memTemplParams" colspan="2">template&lt;typename INT &gt; </td></tr>
-<tr class="memitem:afb3a7db5384f5070e45edfb58e92c3d2"><td class="memTemplItemLeft" align="right" valign="top">INT&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespacets.html#afb3a7db5384f5070e45edfb58e92c3d2">ts::GetIntBE</a> (const void *p)</td></tr>
-<tr class="memdesc:afb3a7db5384f5070e45edfb58e92c3d2"><td class="mdescLeft">&#160;</td><td class="mdescRight">Template function getting an integer from serialized data in big endian representation.  <a href="namespacets.html#afb3a7db5384f5070e45edfb58e92c3d2">More...</a><br /></td></tr>
-<tr class="separator:afb3a7db5384f5070e45edfb58e92c3d2"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:add89d5728c5affffa607ff9f52f7ca45"><td class="memTemplParams" colspan="2">template&lt;typename INT &gt; </td></tr>
-<tr class="memitem:add89d5728c5affffa607ff9f52f7ca45"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespacets.html#add89d5728c5affffa607ff9f52f7ca45">ts::GetIntBE</a> (const void *p, INT &amp;i)</td></tr>
-<tr class="memdesc:add89d5728c5affffa607ff9f52f7ca45"><td class="mdescLeft">&#160;</td><td class="mdescRight">Template function getting an integer from serialized data in big endian representation.  <a href="namespacets.html#add89d5728c5affffa607ff9f52f7ca45">More...</a><br /></td></tr>
-<tr class="separator:add89d5728c5affffa607ff9f52f7ca45"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ab10732fdeb495c72480c06249aa9e270"><td class="memTemplParams" colspan="2">template&lt;typename INT &gt; </td></tr>
-<tr class="memitem:ab10732fdeb495c72480c06249aa9e270"><td class="memTemplItemLeft" align="right" valign="top">INT&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespacets.html#ab10732fdeb495c72480c06249aa9e270">ts::GetIntLE</a> (const void *p)</td></tr>
-<tr class="memdesc:ab10732fdeb495c72480c06249aa9e270"><td class="mdescLeft">&#160;</td><td class="mdescRight">Template function getting an integer from serialized data in little endian representation.  <a href="namespacets.html#ab10732fdeb495c72480c06249aa9e270">More...</a><br /></td></tr>
-<tr class="separator:ab10732fdeb495c72480c06249aa9e270"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aa461b054bf380348f7db7f899840e382"><td class="memTemplParams" colspan="2">template&lt;typename INT &gt; </td></tr>
-<tr class="memitem:aa461b054bf380348f7db7f899840e382"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespacets.html#aa461b054bf380348f7db7f899840e382">ts::GetIntLE</a> (const void *p, INT &amp;i)</td></tr>
-<tr class="memdesc:aa461b054bf380348f7db7f899840e382"><td class="mdescLeft">&#160;</td><td class="mdescRight">Template function getting an integer from serialized data in little endian representation.  <a href="namespacets.html#aa461b054bf380348f7db7f899840e382">More...</a><br /></td></tr>
-<tr class="separator:aa461b054bf380348f7db7f899840e382"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa41dad334f6d67480d4983412de89874"><td class="memTemplParams" colspan="2">template&lt;typename INT , typename std::enable_if&lt; std::is_integral&lt; INT &gt;::value &gt;::type *  = nullptr&gt; </td></tr>
+<tr class="memitem:aa41dad334f6d67480d4983412de89874"><td class="memTemplItemLeft" align="right" valign="top">INT&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespacets.html#aa41dad334f6d67480d4983412de89874">ts::GetIntBE</a> (const void *p)</td></tr>
+<tr class="memdesc:aa41dad334f6d67480d4983412de89874"><td class="mdescLeft">&#160;</td><td class="mdescRight">Template function getting an integer from serialized data in big endian representation.  <a href="namespacets.html#aa41dad334f6d67480d4983412de89874">More...</a><br /></td></tr>
+<tr class="separator:aa41dad334f6d67480d4983412de89874"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a70f198451cf49e37502d41bdbd13d391"><td class="memTemplParams" colspan="2">template&lt;typename INT , typename std::enable_if&lt; std::is_integral&lt; INT &gt;::value &gt;::type *  = nullptr&gt; </td></tr>
+<tr class="memitem:a70f198451cf49e37502d41bdbd13d391"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespacets.html#a70f198451cf49e37502d41bdbd13d391">ts::GetIntBE</a> (const void *p, INT &amp;i)</td></tr>
+<tr class="memdesc:a70f198451cf49e37502d41bdbd13d391"><td class="mdescLeft">&#160;</td><td class="mdescRight">Template function getting an integer from serialized data in big endian representation.  <a href="namespacets.html#a70f198451cf49e37502d41bdbd13d391">More...</a><br /></td></tr>
+<tr class="separator:a70f198451cf49e37502d41bdbd13d391"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9f8cab096bdfafd1774a949c9a06ca6b"><td class="memTemplParams" colspan="2">template&lt;typename INT , typename std::enable_if&lt; std::is_integral&lt; INT &gt;::value &gt;::type *  = nullptr&gt; </td></tr>
+<tr class="memitem:a9f8cab096bdfafd1774a949c9a06ca6b"><td class="memTemplItemLeft" align="right" valign="top">INT&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespacets.html#a9f8cab096bdfafd1774a949c9a06ca6b">ts::GetIntLE</a> (const void *p)</td></tr>
+<tr class="memdesc:a9f8cab096bdfafd1774a949c9a06ca6b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Template function getting an integer from serialized data in little endian representation.  <a href="namespacets.html#a9f8cab096bdfafd1774a949c9a06ca6b">More...</a><br /></td></tr>
+<tr class="separator:a9f8cab096bdfafd1774a949c9a06ca6b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa2d0c31dd22931532ba5e91c8677b7f7"><td class="memTemplParams" colspan="2">template&lt;typename INT , typename std::enable_if&lt; std::is_integral&lt; INT &gt;::value &gt;::type *  = nullptr&gt; </td></tr>
+<tr class="memitem:aa2d0c31dd22931532ba5e91c8677b7f7"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespacets.html#aa2d0c31dd22931532ba5e91c8677b7f7">ts::GetIntLE</a> (const void *p, INT &amp;i)</td></tr>
+<tr class="memdesc:aa2d0c31dd22931532ba5e91c8677b7f7"><td class="mdescLeft">&#160;</td><td class="mdescRight">Template function getting an integer from serialized data in little endian representation.  <a href="namespacets.html#aa2d0c31dd22931532ba5e91c8677b7f7">More...</a><br /></td></tr>
+<tr class="separator:aa2d0c31dd22931532ba5e91c8677b7f7"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ac91ac45e9e2741fd64f495afb7dd5e61"><td class="memItemLeft" align="right" valign="top">uint16_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacets.html#ac91ac45e9e2741fd64f495afb7dd5e61">ts::GetUInt16</a> (const void *p)</td></tr>
 <tr class="memdesc:ac91ac45e9e2741fd64f495afb7dd5e61"><td class="mdescLeft">&#160;</td><td class="mdescRight">Inlined function getting a 16-bit unsigned integer from serialized data in big endian representation.  <a href="namespacets.html#ac91ac45e9e2741fd64f495afb7dd5e61">More...</a><br /></td></tr>
 <tr class="separator:ac91ac45e9e2741fd64f495afb7dd5e61"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -567,10 +577,10 @@ Functions</h2></td></tr>
 void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacets.html#a10d47fa7b363d53756b3ee588ae06e0b">ts::MemoryBarrier</a> (void)</td></tr>
 <tr class="memdesc:a10d47fa7b363d53756b3ee588ae06e0b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Inlined C function performing a CPU/compiler dependent memory barrier. <br /></td></tr>
 <tr class="separator:a10d47fa7b363d53756b3ee588ae06e0b"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aeb825a99d11021d5b9fb46fd09d847ab"><td class="memTemplParams" colspan="2">template&lt;typename INT &gt; </td></tr>
-<tr class="memitem:aeb825a99d11021d5b9fb46fd09d847ab"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespacets.html#aeb825a99d11021d5b9fb46fd09d847ab">ts::PutInt</a> (void *p, INT i)</td></tr>
-<tr class="memdesc:aeb825a99d11021d5b9fb46fd09d847ab"><td class="mdescLeft">&#160;</td><td class="mdescRight">Template function serializing an integer data in big endian representation.  <a href="namespacets.html#aeb825a99d11021d5b9fb46fd09d847ab">More...</a><br /></td></tr>
-<tr class="separator:aeb825a99d11021d5b9fb46fd09d847ab"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6b015fbcabea23d6ac41c29301d9a8e2"><td class="memTemplParams" colspan="2">template&lt;typename INT , typename std::enable_if&lt; std::is_integral&lt; INT &gt;::value &gt;::type *  = nullptr&gt; </td></tr>
+<tr class="memitem:a6b015fbcabea23d6ac41c29301d9a8e2"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespacets.html#a6b015fbcabea23d6ac41c29301d9a8e2">ts::PutInt</a> (void *p, INT i)</td></tr>
+<tr class="memdesc:a6b015fbcabea23d6ac41c29301d9a8e2"><td class="mdescLeft">&#160;</td><td class="mdescRight">Template function serializing an integer data in big endian representation.  <a href="namespacets.html#a6b015fbcabea23d6ac41c29301d9a8e2">More...</a><br /></td></tr>
+<tr class="separator:a6b015fbcabea23d6ac41c29301d9a8e2"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a53cfe7ccf881f48abb903fad0ce5eba4"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacets.html#a53cfe7ccf881f48abb903fad0ce5eba4">ts::PutInt16</a> (void *p, int16_t i)</td></tr>
 <tr class="memdesc:a53cfe7ccf881f48abb903fad0ce5eba4"><td class="mdescLeft">&#160;</td><td class="mdescRight">Inlined function serializing a 16-bit signed integer data in big endian representation.  <a href="namespacets.html#a53cfe7ccf881f48abb903fad0ce5eba4">More...</a><br /></td></tr>
 <tr class="separator:a53cfe7ccf881f48abb903fad0ce5eba4"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -610,14 +620,14 @@ void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="name
 <tr class="memitem:ab609f2d6182dfbf69356a50b4840ad5a"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacets.html#ab609f2d6182dfbf69356a50b4840ad5a">ts::PutInt8</a> (void *p, int8_t i)</td></tr>
 <tr class="memdesc:ab609f2d6182dfbf69356a50b4840ad5a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Inlined function serializing an 8-bit signed integer data.  <a href="namespacets.html#ab609f2d6182dfbf69356a50b4840ad5a">More...</a><br /></td></tr>
 <tr class="separator:ab609f2d6182dfbf69356a50b4840ad5a"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:af7c976028b433f728b45103ea1c331e6"><td class="memTemplParams" colspan="2">template&lt;typename INT &gt; </td></tr>
-<tr class="memitem:af7c976028b433f728b45103ea1c331e6"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespacets.html#af7c976028b433f728b45103ea1c331e6">ts::PutIntBE</a> (void *p, INT i)</td></tr>
-<tr class="memdesc:af7c976028b433f728b45103ea1c331e6"><td class="mdescLeft">&#160;</td><td class="mdescRight">Template function serializing an integer data in big endian representation.  <a href="namespacets.html#af7c976028b433f728b45103ea1c331e6">More...</a><br /></td></tr>
-<tr class="separator:af7c976028b433f728b45103ea1c331e6"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:abae1747799a404d1b992b36e4dad6f62"><td class="memTemplParams" colspan="2">template&lt;typename INT &gt; </td></tr>
-<tr class="memitem:abae1747799a404d1b992b36e4dad6f62"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespacets.html#abae1747799a404d1b992b36e4dad6f62">ts::PutIntLE</a> (void *p, INT i)</td></tr>
-<tr class="memdesc:abae1747799a404d1b992b36e4dad6f62"><td class="mdescLeft">&#160;</td><td class="mdescRight">Template function serializing an integer data in little endian representation.  <a href="namespacets.html#abae1747799a404d1b992b36e4dad6f62">More...</a><br /></td></tr>
-<tr class="separator:abae1747799a404d1b992b36e4dad6f62"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4a047b21fcf9b7dda5d546548bfc25b0"><td class="memTemplParams" colspan="2">template&lt;typename INT , typename std::enable_if&lt; std::is_integral&lt; INT &gt;::value &gt;::type *  = nullptr&gt; </td></tr>
+<tr class="memitem:a4a047b21fcf9b7dda5d546548bfc25b0"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespacets.html#a4a047b21fcf9b7dda5d546548bfc25b0">ts::PutIntBE</a> (void *p, INT i)</td></tr>
+<tr class="memdesc:a4a047b21fcf9b7dda5d546548bfc25b0"><td class="mdescLeft">&#160;</td><td class="mdescRight">Template function serializing an integer data in big endian representation.  <a href="namespacets.html#a4a047b21fcf9b7dda5d546548bfc25b0">More...</a><br /></td></tr>
+<tr class="separator:a4a047b21fcf9b7dda5d546548bfc25b0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4f7dce85048617991d03bc2806397f6e"><td class="memTemplParams" colspan="2">template&lt;typename INT , typename std::enable_if&lt; std::is_integral&lt; INT &gt;::value &gt;::type *  = nullptr&gt; </td></tr>
+<tr class="memitem:a4f7dce85048617991d03bc2806397f6e"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespacets.html#a4f7dce85048617991d03bc2806397f6e">ts::PutIntLE</a> (void *p, INT i)</td></tr>
+<tr class="memdesc:a4f7dce85048617991d03bc2806397f6e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Template function serializing an integer data in little endian representation.  <a href="namespacets.html#a4f7dce85048617991d03bc2806397f6e">More...</a><br /></td></tr>
+<tr class="separator:a4f7dce85048617991d03bc2806397f6e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a8a305fe98ef80b1759d8576b06f67c59"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacets.html#a8a305fe98ef80b1759d8576b06f67c59">ts::PutUInt16</a> (void *p, uint16_t i)</td></tr>
 <tr class="memdesc:a8a305fe98ef80b1759d8576b06f67c59"><td class="mdescLeft">&#160;</td><td class="mdescRight">Inlined function serializing a 16-bit unsigned integer data in big endian representation.  <a href="namespacets.html#a8a305fe98ef80b1759d8576b06f67c59">More...</a><br /></td></tr>
 <tr class="separator:a8a305fe98ef80b1759d8576b06f67c59"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -872,11 +882,32 @@ Solving various compilation issues</h1>
       </table>
 </div><div class="memdoc">
 
-<p>This macro transforms the <em>value</em> of a macro parameter into the equivalent string. </p>
+<p>This macro transforms the <em>value</em> of a macro parameter into the equivalent string literal. </p>
 <p>This is a very specific macro. It is typically used only inside the definition of another macro. It is similar to the # token in the preprocessor but has a slightly different effect. The # token transforms the <em>text</em> of a macro parameter into a string while TS_STRINGIFY transforms the <em>value</em> of a macro parameter into a string, after all preprocessing substitutions.</p>
 <p>The following example illustrates the difference between the # token and TS_STRINGIFY:</p>
-<div class="fragment"><div class="line"><span class="preprocessor">#define P1(v) printf(&quot;#parameter:     %s = %d\n&quot;, #v, v)</span></div><div class="line"><span class="preprocessor">#define P2(v) printf(&quot;TS_STRINGIFY: %s = %d\n&quot;, TS_STRINGIFY(v), v)</span></div><div class="line">....</div><div class="line"><span class="preprocessor">#define X 1</span></div><div class="line">P1(X);</div><div class="line">P2(X);</div></div><!-- fragment --><p>This will print:</p>
-<div class="fragment"><div class="line"><span class="preprocessor">#parameter:     X = 1</span></div><div class="line"><span class="preprocessor">TS_STRINGIFY: 1 = 1</span></div></div><!-- fragment --> 
+<div class="fragment"><div class="line"><span class="preprocessor">#define P1(v) printf(&quot;#parameter:   %s = %d\n&quot;, #v, v)</span></div><div class="line"><span class="preprocessor">#define P2(v) printf(&quot;TS_STRINGIFY: %s = %d\n&quot;, TS_STRINGIFY(v), v)</span></div><div class="line">....</div><div class="line"><span class="preprocessor">#define X 1</span></div><div class="line">P1(X);</div><div class="line">P2(X);</div></div><!-- fragment --><p>This will print:</p>
+<div class="fragment"><div class="line"><span class="preprocessor">#parameter:   X = 1</span></div><div class="line"><span class="preprocessor">TS_STRINGIFY: 1 = 1</span></div></div><!-- fragment --> 
+</div>
+</div>
+<a id="a071939711500a33dfc7e091ce8c3c063"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a071939711500a33dfc7e091ce8c3c063">&#9670;&nbsp;</a></span>TS_USTRINGIFY</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define TS_USTRINGIFY</td>
+          <td>(</td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname">x</td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>This macro transforms the <em>value</em> of a macro parameter into the equivalent 16-bit Unicode string literal. </p>
+<p>This macro is equivalent to <a class="el" href="ts_platform_8h.html#a81ffc1445d4ad494ed54a5ab1e446073" title="This macro transforms the value of a macro parameter into the equivalent string literal. ">TS_STRINGIFY()</a> except that the string literal is of the for <code>u"..."</code> instead of <code>"..."</code> </p><dl class="section see"><dt>See also</dt><dd><a class="el" href="ts_platform_8h.html#a81ffc1445d4ad494ed54a5ab1e446073" title="This macro transforms the value of a macro parameter into the equivalent string literal. ">TS_STRINGIFY()</a> </dd></dl>
+
 </div>
 </div>
 <a id="a93e23355947fbaf69c05494a70eec929"></a>
@@ -989,6 +1020,23 @@ Solving various compilation issues</h1>
 <p>Example: In tsFoo.h, the constant is declared as: </p><div class="fragment"><div class="line"><span class="keyword">namespace </span><a class="code" href="namespacets.html">ts</a> {</div><div class="line">    <span class="keyword">class </span>Foo</div><div class="line">    {</div><div class="line">    <span class="keyword">public</span>:</div><div class="line">        <span class="keyword">static</span> <span class="keyword">const</span> <span class="keywordtype">size_t</span> MAX_ENTRIES = 10;</div><div class="line">        ...</div></div><!-- fragment --><p>In tsFoo.cpp, the definition of the constant shall be conditionally compiled since all compilers do not behave identically: </p><div class="fragment"><div class="line"><span class="preprocessor">#if defined(TS_NEED_STATIC_CONST_DEFINITIONS)</span></div><div class="line"><span class="keyword">const</span> <span class="keywordtype">size_t</span> ts::Foo::MAX_ENTRIES;</div><div class="line"><span class="preprocessor">#endif</span></div></div><!-- fragment --> 
 </div>
 </div>
+<a id="a7ae8394c3055af3b6911543353939642"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7ae8394c3055af3b6911543353939642">&#9670;&nbsp;</a></span>TS_SIZE_T_IS_STDINT</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define TS_SIZE_T_IS_STDINT</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Defined is <code>size_t</code> is an exact overload of some predefined <code>uintXX_t</code>. </p>
+<p>In that case, it is not possible to declare distinct overloads of a function with <code>size_t</code> and <code>uint32_t</code> or <code>uint64_t</code> for instance. </p>
+
+</div>
+</div>
 <a id="acbedf570df77410fe4dc09385caf2216"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#acbedf570df77410fe4dc09385caf2216">&#9670;&nbsp;</a></span>TS_CONST64</h2>
 
@@ -1052,121 +1100,6 @@ Solving various compilation issues</h1>
 
 </div>
 </div>
-<a id="ac9c573be2d797a2b160e7417cce03980"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ac9c573be2d797a2b160e7417cce03980">&#9670;&nbsp;</a></span>TS_PRINTF_FORMAT</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">#define TS_PRINTF_FORMAT</td>
-          <td>(</td>
-          <td class="paramtype">&#160;</td>
-          <td class="paramname">formatIndex, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">&#160;</td>
-          <td class="paramname">argIndex&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Syntax-checking attribute for functions with a printf-like format. </p>
-<p>Functions like <code>printf</code> use a variable-length argument list. The number of arguments and their required types depend on the content of the <em>format</em> string. For each <em>format</em> content, there is a specific number of expected arguments and the type of each argument is perfectly defined. But most compilers cannot check the validity of the number of arguments and their types. If the number of arguments or any of their types is wrong, the results are unpredictable. This is very well-known pitfall for C programers.</p>
-<p>However, some compilers such as GCC are able to analyze printf-like format strings and validate the variable list of arguments at compile time. This is performed using a specific non-portable function attribute.</p>
-<p>This macro defines a portable way of specifying this attribute. With compilers such as GCC which are able to perform this check, the specific attribute is specified and the compile-time checks are performed. With all other compilers, the macro expands to nothing and no check is performed.</p>
-<dl class="params"><dt>Parameters</dt><dd>
-  <table class="params">
-    <tr><td class="paramname">formatIndex</td><td>Specifies the index of the <em>format</em> argument in the function. </td></tr>
-    <tr><td class="paramname">argIndex</td><td>Specifies the index of the first argument for the <em>format</em> string.</td></tr>
-  </table>
-  </dd>
-</dl>
-<p>Parameter indexes start at 1 for functions and at 2 for C++ member functions (the implicit parameter at index 1 is <code>this</code> in the case of C++ member functions).</p>
-<p>Example: </p><div class="fragment"><div class="line"><span class="keywordtype">void</span> MyPrint(<span class="keyword">const</span> <span class="keywordtype">char</span> *format, ...) <a class="code" href="ts_platform_8h.html#ac9c573be2d797a2b160e7417cce03980">TS_PRINTF_FORMAT</a>(1, 2);</div></div><!-- fragment --> 
-</div>
-</div>
-<a id="a69ad63eb5d0c912c5910090ba05967d8"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a69ad63eb5d0c912c5910090ba05967d8">&#9670;&nbsp;</a></span>FMT_SIZE_T</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">#define FMT_SIZE_T&#160;&#160;&#160;&quot;platform-specific&quot;</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>A string value to specify a <code>size_t</code> argument in <code>printf</code> <em>format</em> strings. </p>
-<p>The size of the predefined type <code>size_t</code> depends on the platform. It is typically 32 or 64 bits. When formatting a <code>size_t</code> value in printf-like functions, the required specifier is consequently unknown. It can be "%d" or "%ld" or instance. It is difficult to write portable code which formats a <code>size_t</code> value. Specifically, GCC/glibc and Microsoft C++ use different specifiers.</p>
-<p>This macro translates to a string constant which contains the appropriate format specifier for <code>size_t</code> on the target platform.</p>
-<p>Example: </p><div class="fragment"><div class="line"><span class="keywordtype">size_t</span> size = ...;</div><div class="line">printf(<span class="stringliteral">&quot;size_t value is %&quot;</span> <a class="code" href="ts_platform_8h.html#a69ad63eb5d0c912c5910090ba05967d8">FMT_SIZE_T</a> <span class="stringliteral">&quot;d&quot;</span>, size);</div></div><!-- fragment --> 
-</div>
-</div>
-<a id="aad88cf9252037fc1b4e5cfbec0f02b75"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aad88cf9252037fc1b4e5cfbec0f02b75">&#9670;&nbsp;</a></span>FMT_INT64</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">#define FMT_INT64&#160;&#160;&#160;&quot;platform-specific&quot;</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>A string value to specify a 64-bit integer argument in <code>printf</code> <em>format</em> strings. </p>
-<p>The C/C++ standards do not specify a format for integer types which are <em>longer than <code>long</em></code>, i.e. 64-bit integers on most platforms. When formatting a 64-bit integer value in printf-like functions, the required specifier is consequently unknown. Specifically, GCC/glibc and Microsoft C++ use different specifiers.</p>
-<p>This macro translates to a string constant which contains the appropriate format specifier for a 64-bit integer on the target platform.</p>
-<p>Example: </p><div class="fragment"><div class="line">uint64_t ui64 = ...;</div><div class="line">printf(<span class="stringliteral">&quot;64-bit value is %&quot;</span> <a class="code" href="ts_platform_8h.html#aad88cf9252037fc1b4e5cfbec0f02b75">FMT_INT64</a> <span class="stringliteral">&quot;d&quot;</span>, ui64);</div></div><!-- fragment --> 
-</div>
-</div>
-<a id="afc375210e050482fdac6d6f60417a97f"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#afc375210e050482fdac6d6f60417a97f">&#9670;&nbsp;</a></span>TS_FORMAT_STRING</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">#define TS_FORMAT_STRING</td>
-          <td>(</td>
-          <td class="paramtype">&#160;</td>
-          <td class="paramname">string_var, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">&#160;</td>
-          <td class="paramname">format_arg&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>This macro is used in functions with a variable list of arguments to format a <code>std::string</code> from a printf-like format and its variable-length list of arguments. </p>
-<p>This operation cannot be done using a function in a portable way. Consequently, a macro is required.</p>
-<p>Example: </p><div class="fragment"><div class="line"><span class="keywordtype">void</span> f(<span class="keyword">const</span> <span class="keywordtype">char</span> *format, ...)</div><div class="line">{</div><div class="line">    std::string result;</div><div class="line">    <a class="code" href="ts_platform_8h.html#afc375210e050482fdac6d6f60417a97f">TS_FORMAT_STRING</a>(result, format);</div></div><!-- fragment --><dl class="params"><dt>Parameters</dt><dd>
-  <table class="params">
-    <tr><td class="paramdir">[in]</td><td class="paramname">string_var</td><td>The <code>std::string</code> into which the result is stored. </td></tr>
-    <tr><td class="paramdir">[in]</td><td class="paramname">format_arg</td><td>The printf-like format argument of the current function. The variable-length list of arguments for the format are assumed to immediately follow the format argument. </td></tr>
-  </table>
-  </dd>
-</dl>
-
-</div>
-</div>
 <a id="a40de35ab6e64452307c798de400869fa"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a40de35ab6e64452307c798de400869fa">&#9670;&nbsp;</a></span>TS_FLAGS_OPERATORS</h2>
 
@@ -1207,9 +1140,14 @@ Solving various compilation issues</h1>
 </div><div class="memdoc">
 
 <p>This macro inserts a build mark in the source code, identifying it as part or TSDuck. </p>
-<p>The first field after the marker prefix is the compilation date. According to the C11 and C++11 standards, the value of the macro <b>DATE</b> is a character string literal of the form "Mmm dd yyyy", where the names of the months are the same as those generated by the asctime function, and the first character of dd is a space character if the value is less than 10.</p>
-<p>The second field is the compilation time. According to the C11 and C++11 standards, the value of the macro <b>TIME</b> is a character string literal of the form "hh:mm:ss" as in the time generated by the asctime function.</p>
-<p>The third field is the name of the source file which invokes the macro. </p>
+<p>The string is built from fields, separated by <code>'</code>|'. The list of fields is:</p><ul>
+<li>Marker prefix: <code>@</code>($%)</li>
+<li>String literal "tsduck"</li>
+<li>TSDuck version number.</li>
+<li>Compilation date. According to the C11 and C++11 standards, the value of the macro <b>DATE</b> is a character string literal of the form "Mmm dd yyyy", where the names of the months are the same as those generated by the asctime function, and the first character of dd is a space character if the value is less than 10.</li>
+<li>Compilation time. According to the C11 and C++11 standards, the value of the macro <b>TIME</b> is a character string literal of the form "hh:mm:ss" as in the time generated by the asctime function.</li>
+<li>Name of the source file which invokes the macro. </li>
+</ul>
 
 </div>
 </div>

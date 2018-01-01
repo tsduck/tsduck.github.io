@@ -3,7 +3,7 @@ var searchData=
   ['id',['ID',['../classts_1_1_service.html#a6714af4f0f1fb06c562f1aa786ae6fd2a543120afee6e511b06ae7fa295791585',1,'ts::Service']]],
   ['ignore',['IGNORE',['../classts_1_1_c_r_c32.html#a1cc9d89b8a7ff9db064d515524f99111ab3c2e1af637914b62f2749fd39215b5d',1,'ts::CRC32']]],
   ['input',['INPUT',['../classts_1_1tsp_1_1_options.html#a55bda783655b89587cb5d3a969266c5ba84a85c1461f71060ecef001d3df19702',1,'ts::tsp::Options']]],
-  ['integer',['INTEGER',['../classts_1_1_args.html#ada57b307e21cd62d9eb7439dd2dcbfd1a37eb9def6f2569b0ef08fe7cdc846a14',1,'ts::Args']]],
+  ['integer',['INTEGER',['../classts_1_1_arg_mix.html#a5f929024b6e46d6b9efb25dcd56cf48da7e18933be221e3575877ce5d7201e520',1,'ts::ArgMix::INTEGER()'],['../classts_1_1_args.html#ada57b307e21cd62d9eb7439dd2dcbfd1a37eb9def6f2569b0ef08fe7cdc846a14',1,'ts::Args::INTEGER()']]],
   ['inv_5fchannel_5fid',['inv_channel_id',['../structts_1_1ecmgscs_1_1_errors.html#a5e5abf0d3020e42a2a42071d9a3cb1cfaba85f628cb5d9b89743c7172c53c0188',1,'ts::ecmgscs::Errors']]],
   ['inv_5fclient_5fid',['inv_client_id',['../structts_1_1emmgmux_1_1_errors.html#a1e77320d82540c48f9616be50ba638f7a965357587b7ea98c8d435466a485a0aa',1,'ts::emmgmux::Errors']]],
   ['inv_5fdata_5fchannel_5fid',['inv_data_channel_id',['../structts_1_1emmgmux_1_1_errors.html#a1e77320d82540c48f9616be50ba638f7a8a389aa5aad9659f75fb4719fcda2e4f',1,'ts::emmgmux::Errors']]],

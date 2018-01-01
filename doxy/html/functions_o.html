@@ -34,7 +34,7 @@
  <tr style="height: 56px;">
   <td id="projectlogo"><img src="tsduck-32.png"/></td>
    <td id="projectalign"><span id="projectname">TSDuck</span>
-    <span id="projectnumber">Version 3.4</span>
+    <span id="projectnumber">Version 3.5</span>
     <span id="projectbrief">(TSDuck - The MPEG Transport Stream Toolkit)</span>
    </td>
    <td>        <div id="MSearchBox" class="MSearchBoxInactive">
@@ -123,14 +123,17 @@ $(document).ready(function(){initNavTree('functions_o.html','');});
 : <a class="el" href="classts_1_1_u_string.html#a3b7049b2f840423a0106dc8e1935f5d6">ts::UString</a>
 </li>
 <li>open()
-: <a class="el" href="classts_1_1_fork_pipe.html#a5cac8998b91f1e210d49a66aa00699c0">ts::ForkPipe</a>
-, <a class="el" href="classts_1_1_t_c_p_socket.html#aa14e2202301f05bb9139cd77e240617a">ts::TCPSocket</a>
-, <a class="el" href="classts_1_1_t_s_file_input.html#a4447af222f6f5ebcc000883d60a0948e">ts::TSFileInput</a>
-, <a class="el" href="classts_1_1_t_s_file_input_buffered.html#a9e0146b2f64882ef0f5b97763197f9c7">ts::TSFileInputBuffered</a>
-, <a class="el" href="classts_1_1_t_s_file_output.html#ac39a1d4fe55e5cd4ecac956b5c60fff9">ts::TSFileOutput</a>
-, <a class="el" href="classts_1_1_t_s_file_output_resync.html#a477c2f632be8e7e9812cc266aa55568d">ts::TSFileOutputResync</a>
-, <a class="el" href="classts_1_1_tuner.html#a7ebf601423930a1d10e6eeddaeac285b">ts::Tuner</a>
-, <a class="el" href="classts_1_1_u_d_p_socket.html#a4fcaf3f6e4d9de1336498ca61a5d07e6">ts::UDPSocket</a>
+: <a class="el" href="classts_1_1_fork_pipe.html#a9ed110d35c2966c516faec8cc4500303">ts::ForkPipe</a>
+, <a class="el" href="classts_1_1_t_c_p_socket.html#a2d29ac903251b9bf5ecf3ad3c2fc6340">ts::TCPSocket</a>
+, <a class="el" href="classts_1_1_t_s_file_input.html#a2225aaec898673f83f2b0978372a791e">ts::TSFileInput</a>
+, <a class="el" href="classts_1_1_t_s_file_input_buffered.html#a646e1b000fa4b98c568d4b39eb9b4288">ts::TSFileInputBuffered</a>
+, <a class="el" href="classts_1_1_t_s_file_output.html#a0a7cdc6d383573da23bfefdcddd51d0e">ts::TSFileOutput</a>
+, <a class="el" href="classts_1_1_t_s_file_output_resync.html#a339c13d118b8ada8e9d3f6731e2fdcfa">ts::TSFileOutputResync</a>
+, <a class="el" href="classts_1_1_tuner.html#aab0682e27aaaf0c9f2288ee875b351fd">ts::Tuner</a>
+, <a class="el" href="classts_1_1_u_d_p_socket.html#a63d2e59a7816184c6d92d6521b31d2fc">ts::UDPSocket</a>
+</li>
+<li>openTable()
+: <a class="el" href="classts_1_1_grid.html#ac98624580a87adebfb75a2aaf59891e8">ts::Grid</a>
 </li>
 <li>openTLV()
 : <a class="el" href="classts_1_1tlv_1_1_serializer.html#a57b7a498cd0c46fdc9059039b82c6cf7">ts::tlv::Serializer</a>
@@ -144,21 +147,22 @@ $(document).ready(function(){initNavTree('functions_o.html','');});
 <li>operator ISO639LanguageDescriptor()
 : <a class="el" href="classts_1_1_audio_language_options.html#aa9207db06f8232991b3ce3a1e65be819">ts::AudioLanguageOptions</a>
 </li>
-<li>operator std::string()
-: <a class="el" href="classts_1_1_abstract_c_a_s_date.html#ada5a0bf6be0cef37e459cde83a1b97ce">ts::AbstractCASDate</a>
-, <a class="el" href="classts_1_1_i_p_address.html#a3d4434b6880a1828907dc1643575f7cd">ts::IPAddress</a>
-, <a class="el" href="classts_1_1_l_n_b.html#af6b06ae6d8741a12376e0005e38de615">ts::LNB</a>
-, <a class="el" href="classts_1_1_simul_crypt_date.html#a8599a93f1f7983307147f820cc3095bb">ts::SimulCryptDate</a>
-, <a class="el" href="classts_1_1_socket_address.html#a5a74b91673e48dbd80f07e79f3e1e1d8">ts::SocketAddress</a>
-, <a class="el" href="classts_1_1_time.html#aa70bd4bc3494d23f44b4b50615d20c5b">ts::Time</a>
-, <a class="el" href="classts_1_1tlv_1_1_serializer.html#a1301814b0da85865066715bf5ec54670">ts::tlv::Serializer</a>
-</li>
 <li>operator Time()
-: <a class="el" href="classts_1_1_abstract_c_a_s_date.html#a1fe108537fabb4d320fd4675f4d20dec">ts::AbstractCASDate</a>
-, <a class="el" href="classts_1_1_simul_crypt_date.html#a36a79bd8f784316b062ea58beb7e138e">ts::SimulCryptDate</a>
+: <a class="el" href="classts_1_1_simul_crypt_date.html#a36a79bd8f784316b062ea58beb7e138e">ts::SimulCryptDate</a>
+</li>
+<li>operator ts::Time()
+: <a class="el" href="classts_1_1_abstract_c_a_s_date.html#a0fd23eaf207508d1fa7daacfb79a3656">ts::AbstractCASDate</a>
+</li>
+<li>operator ts::UString()
+: <a class="el" href="classts_1_1_abstract_c_a_s_date.html#ac8772eeae0b561473b56a8efa29d9dcf">ts::AbstractCASDate</a>
 </li>
 <li>operator uint32_t()
 : <a class="el" href="classts_1_1_c_r_c32.html#a23075a2714a7ac02ff76e5dc2a2d1070">ts::CRC32</a>
+</li>
+<li>operator UString()
+: <a class="el" href="classts_1_1_l_n_b.html#aefb824fdfa53808cbb0e0fa3594c7c7d">ts::LNB</a>
+, <a class="el" href="classts_1_1_simul_crypt_date.html#a2a4390eaf9d1d9bc1f78236fa5256921">ts::SimulCryptDate</a>
+, <a class="el" href="classts_1_1_time.html#a81a610a1f758ee5e2cfbedb37abce91a">ts::Time</a>
 </li>
 <li>operator!=()
 : <a class="el" href="classts_1_1_abstract_c_a_s_date.html#a8c99cd840877a53c6ecab846c6c2544a">ts::AbstractCASDate</a>
@@ -196,7 +200,7 @@ $(document).ready(function(){initNavTree('functions_o.html','');});
 </li>
 <li>operator-()
 : <a class="el" href="classts_1_1_monotonic.html#abc41e489f16a1b0dca99a512fc32bf9b">ts::Monotonic</a>
-, <a class="el" href="classts_1_1_time.html#a91c9e668c09bb792455911a7c9aa46e5">ts::Time</a>
+, <a class="el" href="classts_1_1_time.html#adef07a74f986cb0824dcf8247a72c625">ts::Time</a>
 </li>
 <li>operator-=()
 : <a class="el" href="classts_1_1_monotonic.html#a8e17d6255b7ce09c03ec8ac807ab4354">ts::Monotonic</a>
@@ -236,7 +240,6 @@ $(document).ready(function(){initNavTree('functions_o.html','');});
 , <a class="el" href="classts_1_1_com_ptr.html#abb25b87f4d003bc4f57c025079ce0e66">ts::ComPtr&lt; COMCLASS &gt;</a>
 , <a class="el" href="classts_1_1_c_r_c32.html#ac01b1aa23c5b96e3d4c8a52117e9d2c3">ts::CRC32</a>
 , <a class="el" href="classts_1_1_descriptor.html#ad8a394fc19aed0e6a79ebfcadc737bad">ts::Descriptor</a>
-, <a class="el" href="classts_1_1_enumeration.html#acfd2fb8494a1fe776c1f943fec0571e0">ts::Enumeration</a>
 , <a class="el" href="classts_1_1_media_guard_date.html#a5c099497971de494584c29e770ecda9a">ts::MediaGuardDate</a>
 , <a class="el" href="classts_1_1_monotonic.html#a95dca06e827bdd55748958955483f288">ts::Monotonic</a>
 , <a class="el" href="classts_1_1_p_e_s_packet.html#a364306cf1b8f95e42d1d40eeec897bb3">ts::PESPacket</a>
@@ -298,7 +301,7 @@ $(document).ready(function(){initNavTree('functions_o.html','');});
 : <a class="el" href="classts_1_1_c_a_s_selection_args.html#a875fd0e44630088fc734e649c7c40df5">ts::CASSelectionArgs</a>
 </li>
 <li>option()
-: <a class="el" href="classts_1_1_args.html#a8d555a817d539bc6bfd0871b1990b6c8">ts::Args</a>
+: <a class="el" href="classts_1_1_args.html#a2a89ef77c252d85a09bcb1839af24678">ts::Args</a>
 </li>
 <li>optional
 : <a class="el" href="classts_1_1_t_s_analyzer_1_1_p_i_d_context.html#a5ee2b3ae629aaef72cb181d17f343fca">ts::TSAnalyzer::PIDContext</a>
@@ -319,6 +322,9 @@ $(document).ready(function(){initNavTree('functions_o.html','');});
 : <a class="el" href="structts_1_1_r_s_t_1_1_event.html#a0f7badb227fe7ebe1bcfd9756d20fabb">ts::RST::Event</a>
 , <a class="el" href="structts_1_1_transport_stream_id.html#a38a476c7f4ca97d7eb65e1cd9a4968ca">ts::TransportStreamId</a>
 </li>
+<li>orphanSections()
+: <a class="el" href="classts_1_1_section_file.html#a2b3e4eadc88f4b5b0672b71112453045">ts::SectionFile</a>
+</li>
 <li>other_frequency
 : <a class="el" href="classts_1_1_terrestrial_delivery_system_descriptor.html#a2abcdc33244cf245d7d492f571b93a73">ts::TerrestrialDeliverySystemDescriptor</a>
 </li>
@@ -336,7 +342,7 @@ $(document).ready(function(){initNavTree('functions_o.html','');});
 : <a class="el" href="structts_1_1ecmgscs_1_1_errors.html#a5e5abf0d3020e42a2a42071d9a3cb1cfa795b7ea4f7c13e5fa8aa9156d9db703b">ts::ecmgscs::Errors</a>
 </li>
 <li>output
-: <a class="el" href="classts_1_1_p_s_i_logger_args.html#adcbe27975dbc0da12d9f0f24f1d7fb48">ts::PSILoggerArgs</a>
+: <a class="el" href="classts_1_1_p_s_i_logger_args.html#af75f51a95fca8e126b6b254f2420dd36">ts::PSILoggerArgs</a>
 , <a class="el" href="classts_1_1tsp_1_1_options.html#ac318fb2aa884bf03cca54ac843cee8b2">ts::tsp::Options</a>
 </li>
 <li>OUTPUT
@@ -346,10 +352,10 @@ $(document).ready(function(){initNavTree('functions_o.html','');});
 : <a class="el" href="classts_1_1tsp_1_1_output_executor.html#a6f0ca18a0f2e0fb150ecbd5878db02bc">ts::tsp::OutputExecutor</a>
 </li>
 <li>OutputPlugin()
-: <a class="el" href="classts_1_1_output_plugin.html#aa8a6dcc948efc8779191b4b13f65f626">ts::OutputPlugin</a>
+: <a class="el" href="classts_1_1_output_plugin.html#abb1a3c423d0f131bedc27615e9cfad2e">ts::OutputPlugin</a>
 </li>
 <li>OutputRedirector()
-: <a class="el" href="classts_1_1_output_redirector.html#a460ffe2928b8d0dad23309f5ab339614">ts::OutputRedirector</a>
+: <a class="el" href="classts_1_1_output_redirector.html#a7baecfd5db9fe7c1f46fd9992b9d8fa4">ts::OutputRedirector</a>
 </li>
 <li>overscan_appropriate_flag
 : <a class="el" href="classts_1_1_a_v_c_v_u_i_parameters.html#a6af0a35161df3e086d18e30d7acf3d28">ts::AVCVUIParameters</a>

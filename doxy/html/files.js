@@ -33,9 +33,7 @@ var files =
     [ "tsAbstractLongTable.h", "ts_abstract_long_table_8h.html", [
       [ "AbstractLongTable", "classts_1_1_abstract_long_table.html", "classts_1_1_abstract_long_table" ]
     ] ],
-    [ "tsAbstractSignalization.h", "ts_abstract_signalization_8h.html", [
-      [ "AbstractSignalization", "classts_1_1_abstract_signalization.html", "classts_1_1_abstract_signalization" ]
-    ] ],
+    [ "tsAbstractSignalization.h", "ts_abstract_signalization_8h.html", "ts_abstract_signalization_8h" ],
     [ "tsAbstractTable.h", "ts_abstract_table_8h.html", [
       [ "AbstractTable", "classts_1_1_abstract_table.html", "classts_1_1_abstract_table" ]
     ] ],
@@ -57,6 +55,11 @@ var files =
     ] ],
     [ "tsApplicationSignallingDescriptor.h", "ts_application_signalling_descriptor_8h.html", [
       [ "ApplicationSignallingDescriptor", "classts_1_1_application_signalling_descriptor.html", "classts_1_1_application_signalling_descriptor" ]
+    ] ],
+    [ "tsArgMix.h", "ts_arg_mix_8h.html", [
+      [ "ArgMix", "classts_1_1_arg_mix.html", "classts_1_1_arg_mix" ],
+      [ "ArgMixIn", "classts_1_1_arg_mix_in.html", "classts_1_1_arg_mix_in" ],
+      [ "ArgMixOut", "classts_1_1_arg_mix_out.html", "classts_1_1_arg_mix_out" ]
     ] ],
     [ "tsArgs.h", "ts_args_8h.html", [
       [ "Args", "classts_1_1_args.html", "classts_1_1_args" ],
@@ -176,7 +179,6 @@ var files =
     [ "tsDataBroadcastIdDescriptor.h", "ts_data_broadcast_id_descriptor_8h.html", [
       [ "DataBroadcastIdDescriptor", "classts_1_1_data_broadcast_id_descriptor.html", "classts_1_1_data_broadcast_id_descriptor" ]
     ] ],
-    [ "tsDecimal.h", "ts_decimal_8h.html", "ts_decimal_8h" ],
     [ "tsDektecControl.h", "ts_dektec_control_8h.html", [
       [ "DektecControl", "classts_1_1_dektec_control.html", "classts_1_1_dektec_control" ]
     ] ],
@@ -265,7 +267,8 @@ var files =
       [ "EnhancedAC3Descriptor", "classts_1_1_enhanced_a_c3_descriptor.html", "classts_1_1_enhanced_a_c3_descriptor" ]
     ] ],
     [ "tsEnumeration.h", "ts_enumeration_8h.html", [
-      [ "Enumeration", "classts_1_1_enumeration.html", "classts_1_1_enumeration" ]
+      [ "Enumeration", "classts_1_1_enumeration.html", "classts_1_1_enumeration" ],
+      [ "NameValue", "structts_1_1_enumeration_1_1_name_value.html", "structts_1_1_enumeration_1_1_name_value" ]
     ] ],
     [ "tsETID.h", "ts_e_t_i_d_8h.html", [
       [ "ETID", "classts_1_1_e_t_i_d.html", "classts_1_1_e_t_i_d" ]
@@ -287,7 +290,11 @@ var files =
     [ "tsForkPipe.h", "ts_fork_pipe_8h.html", [
       [ "ForkPipe", "classts_1_1_fork_pipe.html", "classts_1_1_fork_pipe" ]
     ] ],
-    [ "tsFormat.h", "ts_format_8h.html", "ts_format_8h" ],
+    [ "tsGrid.h", "ts_grid_8h.html", [
+      [ "ColumnLayout", "classts_1_1_grid_1_1_column_layout.html", "classts_1_1_grid_1_1_column_layout" ],
+      [ "ColumnText", "classts_1_1_grid_1_1_column_text.html", "classts_1_1_grid_1_1_column_text" ],
+      [ "Grid", "classts_1_1_grid.html", "classts_1_1_grid" ]
+    ] ],
     [ "tsGuard.h", "ts_guard_8h.html", [
       [ "Guard", "classts_1_1_guard.html", "classts_1_1_guard" ],
       [ "GuardError", "classts_1_1_guard_1_1_guard_error.html", "classts_1_1_guard_1_1_guard_error" ]
@@ -303,7 +310,6 @@ var files =
       [ "Entry", "structts_1_1_h_d_simulcast_logical_channel_descriptor_1_1_entry.html", "structts_1_1_h_d_simulcast_logical_channel_descriptor_1_1_entry" ],
       [ "HDSimulcastLogicalChannelDescriptor", "classts_1_1_h_d_simulcast_logical_channel_descriptor.html", "classts_1_1_h_d_simulcast_logical_channel_descriptor" ]
     ] ],
-    [ "tsHexa.h", "ts_hexa_8h.html", "ts_hexa_8h" ],
     [ "tsInputRedirector.h", "ts_input_redirector_8h.html", [
       [ "InputRedirector", "classts_1_1_input_redirector.html", "classts_1_1_input_redirector" ]
     ] ],
@@ -438,17 +444,19 @@ var files =
     [ "tsRandomGenerator.h", "ts_random_generator_8h.html", [
       [ "RandomGenerator", "classts_1_1_random_generator.html", "classts_1_1_random_generator" ]
     ] ],
-    [ "tsRegistryUtils.h", "ts_registry_utils_8h.html", "ts_registry_utils_8h" ],
+    [ "tsRegistry.h", "ts_registry_8h.html", [
+      [ "Registry", "classts_1_1_registry.html", "classts_1_1_registry" ]
+    ] ],
+    [ "tsReport.h", "ts_report_8h.html", [
+      [ "Report", "classts_1_1_report.html", "classts_1_1_report" ],
+      [ "Severity", "structts_1_1_severity.html", "structts_1_1_severity" ]
+    ] ],
     [ "tsReportBuffer.h", "ts_report_buffer_8h.html", "ts_report_buffer_8h" ],
     [ "tsReportFile.h", "ts_report_file_8h.html", [
       [ "ReportFile", "classts_1_1_report_file.html", "classts_1_1_report_file" ]
     ] ],
     [ "tsReportHandler.h", "ts_report_handler_8h.html", [
       [ "ReportHandler", "classts_1_1_report_handler.html", "classts_1_1_report_handler" ]
-    ] ],
-    [ "tsReportInterface.h", "ts_report_interface_8h.html", [
-      [ "ReportInterface", "classts_1_1_report_interface.html", "classts_1_1_report_interface" ],
-      [ "Severity", "structts_1_1_severity.html", "structts_1_1_severity" ]
     ] ],
     [ "tsReportWithPrefix.h", "ts_report_with_prefix_8h.html", [
       [ "ReportWithPrefix", "classts_1_1_report_with_prefix.html", "classts_1_1_report_with_prefix" ]
@@ -486,6 +494,7 @@ var files =
       [ "Section", "classts_1_1_section.html", "classts_1_1_section" ]
     ] ],
     [ "tsSectionDemux.h", "ts_section_demux_8h.html", "ts_section_demux_8h" ],
+    [ "tsSectionFile.h", "ts_section_file_8h.html", "ts_section_file_8h" ],
     [ "tsSectionHandlerInterface.h", "ts_section_handler_interface_8h.html", [
       [ "SectionHandlerInterface", "classts_1_1_section_handler_interface.html", "classts_1_1_section_handler_interface" ]
     ] ],
@@ -526,7 +535,9 @@ var files =
       [ "SinkFilter", "classts_1_1_sink_filter.html", "classts_1_1_sink_filter" ],
       [ "SinkPin", "classts_1_1_sink_pin.html", "classts_1_1_sink_pin" ]
     ] ],
-    [ "tsSocketAddress.h", "ts_socket_address_8h.html", "ts_socket_address_8h" ],
+    [ "tsSocketAddress.h", "ts_socket_address_8h.html", [
+      [ "SocketAddress", "classts_1_1_socket_address.html", "classts_1_1_socket_address" ]
+    ] ],
     [ "tsSSUDataBroadcastIdDescriptor.h", "ts_s_s_u_data_broadcast_id_descriptor_8h.html", [
       [ "Entry", "structts_1_1_s_s_u_data_broadcast_id_descriptor_1_1_entry.html", "structts_1_1_s_s_u_data_broadcast_id_descriptor_1_1_entry" ],
       [ "SSUDataBroadcastIdDescriptor", "classts_1_1_s_s_u_data_broadcast_id_descriptor.html", "classts_1_1_s_s_u_data_broadcast_id_descriptor" ]
@@ -548,7 +559,6 @@ var files =
     [ "tsStreamIdentifierDescriptor.h", "ts_stream_identifier_descriptor_8h.html", [
       [ "StreamIdentifierDescriptor", "classts_1_1_stream_identifier_descriptor.html", "classts_1_1_stream_identifier_descriptor" ]
     ] ],
-    [ "tsStringUtils.h", "ts_string_utils_8h.html", "ts_string_utils_8h" ],
     [ "tsSubtitlingDescriptor.h", "ts_subtitling_descriptor_8h.html", [
       [ "Entry", "structts_1_1_subtitling_descriptor_1_1_entry.html", "structts_1_1_subtitling_descriptor_1_1_entry" ],
       [ "SubtitlingDescriptor", "classts_1_1_subtitling_descriptor.html", "classts_1_1_subtitling_descriptor" ]
@@ -610,6 +620,11 @@ var files =
     [ "tsTerrestrialDeliverySystemDescriptor.h", "ts_terrestrial_delivery_system_descriptor_8h.html", [
       [ "TerrestrialDeliverySystemDescriptor", "classts_1_1_terrestrial_delivery_system_descriptor.html", "classts_1_1_terrestrial_delivery_system_descriptor" ]
     ] ],
+    [ "tsTextFormatter.h", "ts_text_formatter_8h.html", "ts_text_formatter_8h" ],
+    [ "tsTextParser.h", "ts_text_parser_8h.html", [
+      [ "Position", "classts_1_1_text_parser_1_1_position.html", "classts_1_1_text_parser_1_1_position" ],
+      [ "TextParser", "classts_1_1_text_parser.html", "classts_1_1_text_parser" ]
+    ] ],
     [ "tsThread.h", "ts_thread_8h.html", [
       [ "Thread", "classts_1_1_thread.html", "classts_1_1_thread" ],
       [ "ThreadError", "classts_1_1_thread_1_1_thread_error.html", "classts_1_1_thread_1_1_thread_error" ]
@@ -638,7 +653,6 @@ var files =
       [ "StreamMessage", "classts_1_1tlv_1_1_stream_message.html", "classts_1_1tlv_1_1_stream_message" ]
     ] ],
     [ "tsTLVSyntax.h", "ts_t_l_v_syntax_8h.html", "ts_t_l_v_syntax_8h" ],
-    [ "tsToInteger.h", "ts_to_integer_8h.html", "ts_to_integer_8h" ],
     [ "tsTOT.h", "ts_t_o_t_8h.html", [
       [ "TOT", "classts_1_1_t_o_t.html", "classts_1_1_t_o_t" ]
     ] ],
@@ -714,21 +728,36 @@ var files =
       [ "VBITeletextDescriptor", "classts_1_1_v_b_i_teletext_descriptor.html", "classts_1_1_v_b_i_teletext_descriptor" ]
     ] ],
     [ "tsVersion.h", "ts_version_8h.html", "ts_version_8h" ],
+    [ "tsVersionInfo.h", "ts_version_info_8h.html", "ts_version_info_8h" ],
     [ "tsViaccessDate.h", "ts_viaccess_date_8h.html", [
       [ "ViaccessDate", "classts_1_1_viaccess_date.html", "classts_1_1_viaccess_date" ]
     ] ],
     [ "tsVideoAttributes.h", "ts_video_attributes_8h.html", [
       [ "VideoAttributes", "classts_1_1_video_attributes.html", "classts_1_1_video_attributes" ]
     ] ],
-    [ "tsXML.h", "ts_x_m_l_8h.html", [
-      [ "Printer", "classts_1_1_x_m_l_1_1_printer.html", "classts_1_1_x_m_l_1_1_printer" ],
-      [ "XML", "classts_1_1_x_m_l.html", "classts_1_1_x_m_l" ]
+    [ "tsxml.h", "tsxml_8h.html", "tsxml_8h" ],
+    [ "tsxmlAttribute.h", "tsxml_attribute_8h.html", [
+      [ "Attribute", "classts_1_1xml_1_1_attribute.html", "classts_1_1xml_1_1_attribute" ]
     ] ],
-    [ "tsXMLTables.h", "ts_x_m_l_tables_8h.html", [
-      [ "XMLTables", "classts_1_1_x_m_l_tables.html", "classts_1_1_x_m_l_tables" ]
+    [ "tsxmlComment.h", "tsxml_comment_8h.html", [
+      [ "Comment", "classts_1_1xml_1_1_comment.html", "classts_1_1xml_1_1_comment" ]
     ] ],
-    [ "utestCppUnitMain.h", "utest_cpp_unit_main_8h.html", [
-      [ "CppUnitMain", "classutest_1_1_cpp_unit_main.html", "classutest_1_1_cpp_unit_main" ]
+    [ "tsxmlDeclaration.h", "tsxml_declaration_8h.html", [
+      [ "Declaration", "classts_1_1xml_1_1_declaration.html", "classts_1_1xml_1_1_declaration" ]
     ] ],
-    [ "utestCppUnitTest.h", "utest_cpp_unit_test_8h.html", "utest_cpp_unit_test_8h" ]
+    [ "tsxmlDocument.h", "tsxml_document_8h.html", [
+      [ "Document", "classts_1_1xml_1_1_document.html", "classts_1_1xml_1_1_document" ]
+    ] ],
+    [ "tsxmlElement.h", "tsxml_element_8h.html", [
+      [ "Element", "classts_1_1xml_1_1_element.html", "classts_1_1xml_1_1_element" ]
+    ] ],
+    [ "tsxmlNode.h", "tsxml_node_8h.html", [
+      [ "Node", "classts_1_1xml_1_1_node.html", "classts_1_1xml_1_1_node" ]
+    ] ],
+    [ "tsxmlText.h", "tsxml_text_8h.html", [
+      [ "Text", "classts_1_1xml_1_1_text.html", "classts_1_1xml_1_1_text" ]
+    ] ],
+    [ "tsxmlUnknown.h", "tsxml_unknown_8h.html", [
+      [ "Unknown", "classts_1_1xml_1_1_unknown.html", "classts_1_1xml_1_1_unknown" ]
+    ] ]
 ];

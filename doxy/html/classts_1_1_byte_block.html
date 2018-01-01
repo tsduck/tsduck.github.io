@@ -34,7 +34,7 @@
  <tr style="height: 56px;">
   <td id="projectlogo"><img src="tsduck-32.png"/></td>
    <td id="projectalign"><span id="projectname">TSDuck</span>
-    <span id="projectnumber">Version 3.4</span>
+    <span id="projectnumber">Version 3.5</span>
     <span id="projectbrief">(TSDuck - The MPEG Transport Stream Toolkit)</span>
    </td>
    <td>        <div id="MSearchBox" class="MSearchBoxInactive">
@@ -149,10 +149,16 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a414de53443d26210ec10be958d6f7715"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classts_1_1_byte_block.html#a414de53443d26210ec10be958d6f7715">append</a> (uint8_t i, size_type size)</td></tr>
 <tr class="memdesc:a414de53443d26210ec10be958d6f7715"><td class="mdescLeft">&#160;</td><td class="mdescRight">Append <em>n</em> bytes with value <em>i</em>.  <a href="#a414de53443d26210ec10be958d6f7715">More...</a><br /></td></tr>
 <tr class="separator:a414de53443d26210ec10be958d6f7715"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:abf75343150abcccf5182fde852a92562"><td class="memTemplParams" colspan="2">template&lt;typename INT &gt; </td></tr>
-<tr class="memitem:abf75343150abcccf5182fde852a92562"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="classts_1_1_byte_block.html#abf75343150abcccf5182fde852a92562">append</a> (INT i)</td></tr>
-<tr class="memdesc:abf75343150abcccf5182fde852a92562"><td class="mdescLeft">&#160;</td><td class="mdescRight">Append an integer in big endian representation at the end.  <a href="#abf75343150abcccf5182fde852a92562">More...</a><br /></td></tr>
-<tr class="separator:abf75343150abcccf5182fde852a92562"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7e6bdf5c2888d6106e80e4fe451ca4a6"><td class="memTemplParams" colspan="2">template&lt;typename INT , typename std::enable_if&lt; std::is_integral&lt; INT &gt;::value &gt;::type *  = nullptr&gt; </td></tr>
+<tr class="memitem:a7e6bdf5c2888d6106e80e4fe451ca4a6"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="classts_1_1_byte_block.html#a7e6bdf5c2888d6106e80e4fe451ca4a6">append</a> (INT i)</td></tr>
+<tr class="memdesc:a7e6bdf5c2888d6106e80e4fe451ca4a6"><td class="mdescLeft">&#160;</td><td class="mdescRight">Append an integer in big endian representation at the end.  <a href="#a7e6bdf5c2888d6106e80e4fe451ca4a6">More...</a><br /></td></tr>
+<tr class="separator:a7e6bdf5c2888d6106e80e4fe451ca4a6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5910937f1e48e4c68f8377df0d3040ff"><td class="memItemLeft" align="right" valign="top">std::istream &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classts_1_1_byte_block.html#a5910937f1e48e4c68f8377df0d3040ff">append</a> (std::istream &amp;strm, size_t maxSize=std::numeric_limits&lt; size_t &gt;::max())</td></tr>
+<tr class="memdesc:a5910937f1e48e4c68f8377df0d3040ff"><td class="mdescLeft">&#160;</td><td class="mdescRight">Read a byte block from standard streams and append to existing content (binary mode).  <a href="#a5910937f1e48e4c68f8377df0d3040ff">More...</a><br /></td></tr>
+<tr class="separator:a5910937f1e48e4c68f8377df0d3040ff"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab96d08c165c4b1db55c344ff43a26ce0"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classts_1_1_byte_block.html#ab96d08c165c4b1db55c344ff43a26ce0">appendFromFile</a> (const <a class="el" href="classts_1_1_u_string.html">UString</a> &amp;fileName, size_t maxSize=std::numeric_limits&lt; size_t &gt;::max(), <a class="el" href="classts_1_1_report.html">Report</a> *report=0)</td></tr>
+<tr class="memdesc:ab96d08c165c4b1db55c344ff43a26ce0"><td class="mdescLeft">&#160;</td><td class="mdescRight">Read a byte block from a binary file and append to existing content.  <a href="#ab96d08c165c4b1db55c344ff43a26ce0">More...</a><br /></td></tr>
+<tr class="separator:ab96d08c165c4b1db55c344ff43a26ce0"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a86b2744fe09beb97aa6516839293fa13"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classts_1_1_byte_block.html#a86b2744fe09beb97aa6516839293fa13">appendInt16</a> (int16_t i)</td></tr>
 <tr class="memdesc:a86b2744fe09beb97aa6516839293fa13"><td class="mdescLeft">&#160;</td><td class="mdescRight">Append an integer in big endian representation at the end.  <a href="#a86b2744fe09beb97aa6516839293fa13">More...</a><br /></td></tr>
 <tr class="separator:a86b2744fe09beb97aa6516839293fa13"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -192,6 +198,9 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a212a84a155ce79c52e41cc8ae83717f0"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classts_1_1_byte_block.html#a212a84a155ce79c52e41cc8ae83717f0">appendInt8</a> (int8_t i)</td></tr>
 <tr class="memdesc:a212a84a155ce79c52e41cc8ae83717f0"><td class="mdescLeft">&#160;</td><td class="mdescRight">Append an integer in big endian representation at the end.  <a href="#a212a84a155ce79c52e41cc8ae83717f0">More...</a><br /></td></tr>
 <tr class="separator:a212a84a155ce79c52e41cc8ae83717f0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0c65e0be76e40b268c7630cf69236460"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classts_1_1_byte_block.html#a0c65e0be76e40b268c7630cf69236460">appendToFile</a> (const <a class="el" href="classts_1_1_u_string.html">UString</a> &amp;fileName, <a class="el" href="classts_1_1_report.html">Report</a> *report=0) const</td></tr>
+<tr class="memdesc:a0c65e0be76e40b268c7630cf69236460"><td class="mdescLeft">&#160;</td><td class="mdescRight">Save a byte block to a binary file, append to existing file content.  <a href="#a0c65e0be76e40b268c7630cf69236460">More...</a><br /></td></tr>
+<tr class="separator:a0c65e0be76e40b268c7630cf69236460"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aec4e86ddd80b04a2fdb9e628ff62f2f4"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classts_1_1_byte_block.html#aec4e86ddd80b04a2fdb9e628ff62f2f4">appendUInt16</a> (uint16_t i)</td></tr>
 <tr class="memdesc:aec4e86ddd80b04a2fdb9e628ff62f2f4"><td class="mdescLeft">&#160;</td><td class="mdescRight">Append an integer in big endian representation at the end.  <a href="#aec4e86ddd80b04a2fdb9e628ff62f2f4">More...</a><br /></td></tr>
 <tr class="separator:aec4e86ddd80b04a2fdb9e628ff62f2f4"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -246,6 +255,18 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a4f4e5173313f66a25b6c844371f399f8"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classts_1_1_byte_block.html#a4f4e5173313f66a25b6c844371f399f8">erase</a> (size_type first, size_type size)</td></tr>
 <tr class="memdesc:a4f4e5173313f66a25b6c844371f399f8"><td class="mdescLeft">&#160;</td><td class="mdescRight">Remove 'size' elements at index 'first'.  <a href="#a4f4e5173313f66a25b6c844371f399f8">More...</a><br /></td></tr>
 <tr class="separator:a4f4e5173313f66a25b6c844371f399f8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac8b1d715ed4dbec048ab4b1d04b09b4f"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classts_1_1_byte_block.html#ac8b1d715ed4dbec048ab4b1d04b09b4f">loadFromFile</a> (const <a class="el" href="classts_1_1_u_string.html">UString</a> &amp;fileName, size_t maxSize=std::numeric_limits&lt; size_t &gt;::max(), <a class="el" href="classts_1_1_report.html">Report</a> *report=0)</td></tr>
+<tr class="memdesc:ac8b1d715ed4dbec048ab4b1d04b09b4f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Read a byte block from a binary file.  <a href="#ac8b1d715ed4dbec048ab4b1d04b09b4f">More...</a><br /></td></tr>
+<tr class="separator:ac8b1d715ed4dbec048ab4b1d04b09b4f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:abdeb85b9b86b6282aab9c8cc5776a438"><td class="memItemLeft" align="right" valign="top">std::istream &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classts_1_1_byte_block.html#abdeb85b9b86b6282aab9c8cc5776a438">read</a> (std::istream &amp;strm, size_t maxSize=std::numeric_limits&lt; size_t &gt;::max())</td></tr>
+<tr class="memdesc:abdeb85b9b86b6282aab9c8cc5776a438"><td class="mdescLeft">&#160;</td><td class="mdescRight">Read a byte block from standard streams (binary mode).  <a href="#abdeb85b9b86b6282aab9c8cc5776a438">More...</a><br /></td></tr>
+<tr class="separator:abdeb85b9b86b6282aab9c8cc5776a438"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3e7c8810064f39ef05fc7e66d6997772"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classts_1_1_byte_block.html#a3e7c8810064f39ef05fc7e66d6997772">saveToFile</a> (const <a class="el" href="classts_1_1_u_string.html">UString</a> &amp;fileName, <a class="el" href="classts_1_1_report.html">Report</a> *report=0) const</td></tr>
+<tr class="memdesc:a3e7c8810064f39ef05fc7e66d6997772"><td class="mdescLeft">&#160;</td><td class="mdescRight">Save a byte block to a binary file.  <a href="#a3e7c8810064f39ef05fc7e66d6997772">More...</a><br /></td></tr>
+<tr class="separator:a3e7c8810064f39ef05fc7e66d6997772"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7c999e4596b39c870066439dde31c954"><td class="memItemLeft" align="right" valign="top">std::ostream &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classts_1_1_byte_block.html#a7c999e4596b39c870066439dde31c954">write</a> (std::ostream &amp;strm) const</td></tr>
+<tr class="memdesc:a7c999e4596b39c870066439dde31c954"><td class="mdescLeft">&#160;</td><td class="mdescRight">Write a byte to standard streams (binary mode).  <a href="#a7c999e4596b39c870066439dde31c954">More...</a><br /></td></tr>
+<tr class="separator:a7c999e4596b39c870066439dde31c954"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>Definition of a generic block of bytes. </p>
@@ -514,7 +535,7 @@ Public Member Functions</h2></td></tr>
 </div>
 </div>
 <a id="ade837f143dc1a4e3657754010baa2024"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ade837f143dc1a4e3657754010baa2024">&#9670;&nbsp;</a></span>append() <span class="overload">[1/5]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#ade837f143dc1a4e3657754010baa2024">&#9670;&nbsp;</a></span>append() <span class="overload">[1/6]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -559,7 +580,7 @@ Public Member Functions</h2></td></tr>
 </div>
 </div>
 <a id="ab435258fa7fd88334733c7148ba3c194"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ab435258fa7fd88334733c7148ba3c194">&#9670;&nbsp;</a></span>append() <span class="overload">[2/5]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#ab435258fa7fd88334733c7148ba3c194">&#9670;&nbsp;</a></span>append() <span class="overload">[2/6]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -593,7 +614,7 @@ Public Member Functions</h2></td></tr>
 </div>
 </div>
 <a id="ac52184b341ccbd5b08d12f72385faa49"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ac52184b341ccbd5b08d12f72385faa49">&#9670;&nbsp;</a></span>append() <span class="overload">[3/5]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#ac52184b341ccbd5b08d12f72385faa49">&#9670;&nbsp;</a></span>append() <span class="overload">[3/6]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -679,7 +700,7 @@ Public Member Functions</h2></td></tr>
 </div>
 </div>
 <a id="a414de53443d26210ec10be958d6f7715"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a414de53443d26210ec10be958d6f7715">&#9670;&nbsp;</a></span>append() <span class="overload">[4/5]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a414de53443d26210ec10be958d6f7715">&#9670;&nbsp;</a></span>append() <span class="overload">[4/6]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -1607,13 +1628,13 @@ Public Member Functions</h2></td></tr>
 
 </div>
 </div>
-<a id="abf75343150abcccf5182fde852a92562"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#abf75343150abcccf5182fde852a92562">&#9670;&nbsp;</a></span>append() <span class="overload">[5/5]</span></h2>
+<a id="a7e6bdf5c2888d6106e80e4fe451ca4a6"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7e6bdf5c2888d6106e80e4fe451ca4a6">&#9670;&nbsp;</a></span>append() <span class="overload">[5/6]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
-template&lt;typename INT &gt; </div>
+template&lt;typename INT , typename std::enable_if&lt; std::is_integral&lt; INT &gt;::value &gt;::type *  = nullptr&gt; </div>
 <table class="mlabels">
   <tr>
   <td class="mlabels-left">
@@ -1646,6 +1667,299 @@ template&lt;typename INT &gt; </div>
   </table>
   </dd>
 </dl>
+
+</div>
+</div>
+<a id="ac8b1d715ed4dbec048ab4b1d04b09b4f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac8b1d715ed4dbec048ab4b1d04b09b4f">&#9670;&nbsp;</a></span>loadFromFile()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool ts::ByteBlock::loadFromFile </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="classts_1_1_u_string.html">UString</a> &amp;&#160;</td>
+          <td class="paramname"><em>fileName</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">size_t&#160;</td>
+          <td class="paramname"><em>maxSize</em> = <code>std::numeric_limits&lt;&#160;size_t&#160;&gt;::max()</code>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classts_1_1_report.html">Report</a> *&#160;</td>
+          <td class="paramname"><em>report</em> = <code>0</code>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Read a byte block from a binary file. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">fileName</td><td>Input file name. </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">maxSize</td><td>Maximum size to read. By default, read up to end of file or error. </td></tr>
+    <tr><td class="paramdir">[in,out]</td><td class="paramname">report</td><td>If not null, where to report errors. </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>True on success, false on error. </dd></dl>
+
+</div>
+</div>
+<a id="ab96d08c165c4b1db55c344ff43a26ce0"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab96d08c165c4b1db55c344ff43a26ce0">&#9670;&nbsp;</a></span>appendFromFile()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool ts::ByteBlock::appendFromFile </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="classts_1_1_u_string.html">UString</a> &amp;&#160;</td>
+          <td class="paramname"><em>fileName</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">size_t&#160;</td>
+          <td class="paramname"><em>maxSize</em> = <code>std::numeric_limits&lt;&#160;size_t&#160;&gt;::max()</code>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classts_1_1_report.html">Report</a> *&#160;</td>
+          <td class="paramname"><em>report</em> = <code>0</code>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Read a byte block from a binary file and append to existing content. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">fileName</td><td>Input file name. </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">maxSize</td><td>Maximum size to read. By default, read up to end of file or error. </td></tr>
+    <tr><td class="paramdir">[in,out]</td><td class="paramname">report</td><td>If not null, where to report errors. </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>True on success, false on error. </dd></dl>
+
+</div>
+</div>
+<a id="a3e7c8810064f39ef05fc7e66d6997772"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3e7c8810064f39ef05fc7e66d6997772">&#9670;&nbsp;</a></span>saveToFile()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool ts::ByteBlock::saveToFile </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="classts_1_1_u_string.html">UString</a> &amp;&#160;</td>
+          <td class="paramname"><em>fileName</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classts_1_1_report.html">Report</a> *&#160;</td>
+          <td class="paramname"><em>report</em> = <code>0</code>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Save a byte block to a binary file. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">fileName</td><td>Output file name. </td></tr>
+    <tr><td class="paramdir">[in,out]</td><td class="paramname">report</td><td>If not null, where to report errors. </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>True on success, false on error. </dd></dl>
+
+</div>
+</div>
+<a id="a0c65e0be76e40b268c7630cf69236460"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0c65e0be76e40b268c7630cf69236460">&#9670;&nbsp;</a></span>appendToFile()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool ts::ByteBlock::appendToFile </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="classts_1_1_u_string.html">UString</a> &amp;&#160;</td>
+          <td class="paramname"><em>fileName</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classts_1_1_report.html">Report</a> *&#160;</td>
+          <td class="paramname"><em>report</em> = <code>0</code>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Save a byte block to a binary file, append to existing file content. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">fileName</td><td>Output file name. </td></tr>
+    <tr><td class="paramdir">[in,out]</td><td class="paramname">report</td><td>If not null, where to report errors. </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>True on success, false on error. </dd></dl>
+
+</div>
+</div>
+<a id="abdeb85b9b86b6282aab9c8cc5776a438"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#abdeb85b9b86b6282aab9c8cc5776a438">&#9670;&nbsp;</a></span>read()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::istream&amp; ts::ByteBlock::read </td>
+          <td>(</td>
+          <td class="paramtype">std::istream &amp;&#160;</td>
+          <td class="paramname"><em>strm</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">size_t&#160;</td>
+          <td class="paramname"><em>maxSize</em> = <code>std::numeric_limits&lt;&#160;size_t&#160;&gt;::max()</code>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Read a byte block from standard streams (binary mode). </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in,out]</td><td class="paramname">strm</td><td>A standard stream in input mode. </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">maxSize</td><td>Maximum size to read. By default, read up to end of file or error. </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>A reference to the <em>strm</em> object. </dd></dl>
+
+</div>
+</div>
+<a id="a5910937f1e48e4c68f8377df0d3040ff"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5910937f1e48e4c68f8377df0d3040ff">&#9670;&nbsp;</a></span>append() <span class="overload">[6/6]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::istream&amp; ts::ByteBlock::append </td>
+          <td>(</td>
+          <td class="paramtype">std::istream &amp;&#160;</td>
+          <td class="paramname"><em>strm</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">size_t&#160;</td>
+          <td class="paramname"><em>maxSize</em> = <code>std::numeric_limits&lt;&#160;size_t&#160;&gt;::max()</code>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Read a byte block from standard streams and append to existing content (binary mode). </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in,out]</td><td class="paramname">strm</td><td>A standard stream in input mode. </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">maxSize</td><td>Maximum size to read. By default, read up to end of file or error. </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>A reference to the <em>strm</em> object. </dd></dl>
+
+</div>
+</div>
+<a id="a7c999e4596b39c870066439dde31c954"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7c999e4596b39c870066439dde31c954">&#9670;&nbsp;</a></span>write()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::ostream&amp; ts::ByteBlock::write </td>
+          <td>(</td>
+          <td class="paramtype">std::ostream &amp;&#160;</td>
+          <td class="paramname"><em>strm</em></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Write a byte to standard streams (binary mode). </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in,out]</td><td class="paramname">strm</td><td>A standard stream in output mode. </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>A reference to the <em>strm</em> object. </dd></dl>
 
 </div>
 </div>

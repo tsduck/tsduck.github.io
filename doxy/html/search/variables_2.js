@@ -6,6 +6,7 @@ var searchData=
   ['bandwidth',['bandwidth',['../classts_1_1emmgmux_1_1_stream_b_w_request.html#ade4bdfa53f7cce57e03be275be416b93',1,'ts::emmgmux::StreamBWRequest::bandwidth()'],['../classts_1_1emmgmux_1_1_stream_b_w_allocation.html#a18621414aff58e056fc57827e908a708',1,'ts::emmgmux::StreamBWAllocation::bandwidth()'],['../classts_1_1_terrestrial_delivery_system_descriptor.html#a5e7a6c403992cd2faa04c82c89ea0789',1,'ts::TerrestrialDeliverySystemDescriptor::bandwidth()'],['../classts_1_1_tuner_args.html#a762f00da7a59d6651928a1e985432e76',1,'ts::TunerArgs::bandwidth()'],['../classts_1_1_tuner_parameters_d_v_b_t.html#ae83d4d33d76156abc900e6cd6befcd95',1,'ts::TunerParametersDVBT::bandwidth()']]],
   ['bandwidthenum',['BandWidthEnum',['../namespacets.html#ae74c1bbf55da052525039a4dcd57281c',1,'ts']]],
   ['bell',['BELL',['../namespacets.html#a35effe028d329e45885c8ca409af13dd',1,'ts']]],
+  ['bin_5fdestination',['bin_destination',['../classts_1_1_tables_logger_args.html#a0cfa1f550dd026344e65b5de07b005cb',1,'ts::TablesLoggerArgs']]],
   ['bit_5fdepth_5fchroma_5fminus8',['bit_depth_chroma_minus8',['../classts_1_1_a_v_c_sequence_parameter_set.html#a321e8515b64c54d7c4a2bee71cd1e335',1,'ts::AVCSequenceParameterSet']]],
   ['bit_5fdepth_5fluma_5fminus8',['bit_depth_luma_minus8',['../classts_1_1_a_v_c_sequence_parameter_set.html#a00a2caa5f36a3ecdc7c88dfa11f915fa',1,'ts::AVCSequenceParameterSet']]],
   ['bit_5frate_5fscale',['bit_rate_scale',['../classts_1_1_a_v_c_h_r_d_parameters.html#a4839ef74136d0581551b7eb54e30b038',1,'ts::AVCHRDParameters']]],

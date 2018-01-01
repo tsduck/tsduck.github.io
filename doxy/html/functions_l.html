@@ -34,7 +34,7 @@
  <tr style="height: 56px;">
   <td id="projectlogo"><img src="tsduck-32.png"/></td>
    <td id="projectalign"><span id="projectname">TSDuck</span>
-    <span id="projectnumber">Version 3.4</span>
+    <span id="projectnumber">Version 3.5</span>
     <span id="projectbrief">(TSDuck - The MPEG Transport Stream Toolkit)</span>
    </td>
    <td>        <div id="MSearchBox" class="MSearchBoxInactive">
@@ -128,6 +128,9 @@ $(document).ready(function(){initNavTree('functions_l.html','');});
 <li>last_version
 : <a class="el" href="classts_1_1_t_s_analyzer_1_1_e_t_i_d_context.html#a66aa816c17d3692dc146d0cf7be07f4b">ts::TSAnalyzer::ETIDContext</a>
 </li>
+<li>lastChild()
+: <a class="el" href="classts_1_1xml_1_1_node.html#ac6ac82c317160aa58959ad2349663923">ts::xml::Node</a>
+</li>
 <li>lastSectionNumber()
 : <a class="el" href="classts_1_1_section.html#aed7dd364a623de081cf2094561ef0629">ts::Section</a>
 </li>
@@ -151,6 +154,9 @@ $(document).ready(function(){initNavTree('functions_l.html','');});
 <li>leak_valid
 : <a class="el" href="classts_1_1_s_t_d_descriptor.html#af25c795ceb449ef7d8d8a6dc7c7afdce">ts::STDDescriptor</a>
 </li>
+<li>left()
+: <a class="el" href="classts_1_1_grid.html#ac8c4edb341b59b9d4bdabb7b1797ca28">ts::Grid</a>
+</li>
 <li>length()
 : <a class="el" href="classts_1_1tlv_1_1_analyzer.html#a3d6447f123fc0de05bfbb93c1f81f967">ts::tlv::Analyzer</a>
 , <a class="el" href="structts_1_1tlv_1_1_message_factory_1_1_parameter.html#acbf9a629dc4de65114675bfe81cf85aa">ts::tlv::MessageFactory::Parameter</a>
@@ -168,6 +174,17 @@ $(document).ready(function(){initNavTree('functions_l.html','');});
 <li>levelName()
 : <a class="el" href="classts_1_1_a_v_c_attributes.html#aa4c9b060749d1014ed81a48c43758462">ts::AVCAttributes</a>
 </li>
+<li>lineCount()
+: <a class="el" href="classts_1_1_grid.html#a60e5acdecdfe94a8590af9e7961b6622">ts::Grid</a>
+</li>
+<li>lineNumber()
+: <a class="el" href="classts_1_1_text_parser.html#ad9b832381b434952d96f42fa2c3946d5">ts::TextParser</a>
+, <a class="el" href="classts_1_1xml_1_1_attribute.html#ab9aeec6583ca1b3785e3c4428437ad2a">ts::xml::Attribute</a>
+, <a class="el" href="classts_1_1xml_1_1_node.html#ad318810ea712547a7eca2b6a324363c0">ts::xml::Node</a>
+</li>
+<li>lineWidth()
+: <a class="el" href="classts_1_1_grid.html#aeed46a09b360d2cf545e9ba3af891049">ts::Grid</a>
+</li>
 <li>link_type
 : <a class="el" href="classts_1_1_linkage_descriptor_1_1_extended_event_linkage_info.html#aab9312b6d8135880e365817f2d3519ea">ts::LinkageDescriptor::ExtendedEventLinkageInfo</a>
 </li>
@@ -181,7 +198,7 @@ $(document).ready(function(){initNavTree('functions_l.html','');});
 : <a class="el" href="classts_1_1tsp_1_1_options.html#a3204767bbcbec609cb3c21f26d61de5e">ts::tsp::Options</a>
 </li>
 <li>listen()
-: <a class="el" href="classts_1_1_t_c_p_server.html#a0f67505dd6d91b1693861a5108d2e066">ts::TCPServer</a>
+: <a class="el" href="classts_1_1_t_c_p_server.html#a09e9b425627836b7bdc022877bee2e13">ts::TCPServer</a>
 </li>
 <li>LNB()
 : <a class="el" href="classts_1_1_l_n_b.html#a03ccaec6d7d5c9c0daac57905c12efb6">ts::LNB</a>
@@ -193,26 +210,38 @@ $(document).ready(function(){initNavTree('functions_l.html','');});
 <li>load()
 : <a class="el" href="classts_1_1_c_a_s_selection_args.html#a952753ff3ffcded7a5958257bf3e19c0">ts::CASSelectionArgs</a>
 , <a class="el" href="classts_1_1_p_s_i_logger_args.html#ab6b919997003ed0c24ca8dd8442075a5">ts::PSILoggerArgs</a>
-, <a class="el" href="classts_1_1_shared_library.html#a173981348985ff75fb1cb032b61ccd13">ts::SharedLibrary</a>
+, <a class="el" href="classts_1_1_section_file.html#ab59660f8e4caceb251d8f8685fba0a2f">ts::SectionFile</a>
+, <a class="el" href="classts_1_1_shared_library.html#ab12b8c7d9c0b5c7f56ff7626781b722e">ts::SharedLibrary</a>
 , <a class="el" href="classts_1_1_tables_display_args.html#a614df32796b894174b3589b4460e2421">ts::TablesDisplayArgs</a>
 , <a class="el" href="classts_1_1_tables_logger_args.html#aa4cfcc36a5c27597d0a90b8a5ebcafbd">ts::TablesLoggerArgs</a>
 , <a class="el" href="classts_1_1_tuner_args.html#ae889d534608a7cd29fcb05e0c6c1020d">ts::TunerArgs</a>
 </li>
 <li>Load()
-: <a class="el" href="classts_1_1_u_string.html#a9152608e1eb2daeb4979e2184f5fde15">ts::UString</a>
+: <a class="el" href="classts_1_1_u_string.html#a954c077cb499376b944878a196d40c02">ts::UString</a>
+</li>
+<li>load()
+: <a class="el" href="classts_1_1xml_1_1_document.html#a5b491065b8746ca7f69432c7107e42db">ts::xml::Document</a>
 </li>
 <li>LoadAppend()
-: <a class="el" href="classts_1_1_u_string.html#afd02e675f653b1f050503230eca49f99">ts::UString</a>
+: <a class="el" href="classts_1_1_u_string.html#ad13fec902f25f9317538fd8da1505025">ts::UString</a>
+</li>
+<li>loadBinary()
+: <a class="el" href="classts_1_1_section_file.html#a4cc593ff1523930bb839ec8a5c44e013">ts::SectionFile</a>
 </li>
 <li>loadDocument()
-: <a class="el" href="classts_1_1_x_m_l.html#a7648223139df9d5c8db1d0f28432c14d">ts::XML</a>
+: <a class="el" href="classts_1_1_text_parser.html#a82d25d45f0cb07da8f6dd6d48f527658">ts::TextParser</a>
 </li>
-<li>LoadFile()
-: <a class="el" href="classts_1_1_binary_table.html#ab3ec41b2a4b386e678533dd3b21b4704">ts::BinaryTable</a>
-, <a class="el" href="classts_1_1_section.html#aef82fd1108eb29e8a1628bcc2d9782e4">ts::Section</a>
+<li>loadFile()
+: <a class="el" href="classts_1_1_text_parser.html#a2cc645b131c49021b76db63388ae6ea3">ts::TextParser</a>
+</li>
+<li>loadFromFile()
+: <a class="el" href="classts_1_1_byte_block.html#ac8b1d715ed4dbec048ab4b1d04b09b4f">ts::ByteBlock</a>
+</li>
+<li>loadStream()
+: <a class="el" href="classts_1_1_text_parser.html#a1e89689faca7141cac5ff2806a46a250">ts::TextParser</a>
 </li>
 <li>loadXML()
-: <a class="el" href="classts_1_1_x_m_l_tables.html#a6cc8c22ab44350ce335bcb165119dea5">ts::XMLTables</a>
+: <a class="el" href="classts_1_1_section_file.html#aeab787c719973873035b43128f3154f6">ts::SectionFile</a>
 </li>
 <li>LocalHost
 : <a class="el" href="classts_1_1_i_p_address.html#ab5bcdcc7f5b401cf1be8f17d51935994">ts::IPAddress</a>
@@ -221,7 +250,7 @@ $(document).ready(function(){initNavTree('functions_l.html','');});
 : <a class="el" href="classts_1_1_t_o_t.html#ab683d5c310a3b4d4689af88b8d55a73c">ts::TOT</a>
 </li>
 <li>LocalTimeOffsetDescriptor()
-: <a class="el" href="classts_1_1_local_time_offset_descriptor.html#ae3b3796ace9a30f7d382be79da2add8d">ts::LocalTimeOffsetDescriptor</a>
+: <a class="el" href="classts_1_1_local_time_offset_descriptor.html#a5b64b1b0bdc2d55582675316d68bf0fa">ts::LocalTimeOffsetDescriptor</a>
 </li>
 <li>localToUTC()
 : <a class="el" href="classts_1_1_time.html#a8ea921e79fc5a94511499cdd6f63089d">ts::Time</a>
@@ -239,7 +268,7 @@ $(document).ready(function(){initNavTree('functions_l.html','');});
 : <a class="el" href="classts_1_1_resident_buffer.html#ab9294ca094d642c4105045e9a7c94474">ts::ResidentBuffer&lt; T &gt;</a>
 </li>
 <li>log()
-: <a class="el" href="classts_1_1_report_interface.html#a24e2715b14c2e8fcae35c4331690d2f5">ts::ReportInterface</a>
+: <a class="el" href="classts_1_1_report.html#a01829832ec134fd7bc7dba5b06237b68">ts::Report</a>
 </li>
 <li>log2_max_frame_num_minus4
 : <a class="el" href="classts_1_1_a_v_c_sequence_parameter_set.html#a26fc175bad6a20be8f5eadfe739cd2f6">ts::AVCSequenceParameterSet</a>
@@ -260,13 +289,13 @@ $(document).ready(function(){initNavTree('functions_l.html','');});
 : <a class="el" href="classts_1_1_tables_logger_args.html#a19f8d3ab52095bd53de1e9c3901f04db">ts::TablesLoggerArgs</a>
 </li>
 <li>LogicalChannelNumberDescriptor()
-: <a class="el" href="classts_1_1_logical_channel_number_descriptor.html#a9a9576e64dd0e2e27eeca5ae7a1cea02">ts::LogicalChannelNumberDescriptor</a>
+: <a class="el" href="classts_1_1_logical_channel_number_descriptor.html#a52647ccf941c2471eb748b38bb8cc8ab">ts::LogicalChannelNumberDescriptor</a>
 </li>
 <li>logSection()
 : <a class="el" href="classts_1_1_tables_logger.html#a941778cc013196cf8a7befe3631b394c">ts::TablesLogger</a>
 </li>
 <li>logSectionData()
-: <a class="el" href="classts_1_1_tables_display.html#ad7ba8e122b2d59a71273e6c616849d7f">ts::TablesDisplay</a>
+: <a class="el" href="classts_1_1_tables_display.html#a1c370fc182b5858e8457c1063c6b4336">ts::TablesDisplay</a>
 </li>
 <li>low_delay_hrd_flag
 : <a class="el" href="classts_1_1_a_v_c_v_u_i_parameters.html#a1aaafb42f9766c802354f227f82926fa">ts::AVCVUIParameters</a>

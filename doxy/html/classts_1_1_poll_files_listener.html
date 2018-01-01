@@ -34,7 +34,7 @@
  <tr style="height: 56px;">
   <td id="projectlogo"><img src="tsduck-32.png"/></td>
    <td id="projectalign"><span id="projectname">TSDuck</span>
-    <span id="projectnumber">Version 3.4</span>
+    <span id="projectnumber">Version 3.5</span>
     <span id="projectbrief">(TSDuck - The MPEG Transport Stream Toolkit)</span>
    </td>
    <td>        <div id="MSearchBox" class="MSearchBoxInactive">
@@ -111,9 +111,9 @@ virtual&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="c
 <tr class="memitem:ad99e777ed20f7ff38899c8bec0b1fcc0"><td class="memItemLeft" align="right" valign="top">virtual bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classts_1_1_poll_files_listener.html#ad99e777ed20f7ff38899c8bec0b1fcc0">handlePolledFiles</a> (const <a class="el" href="namespacets.html#a8f0a779c88d4f34f07a5fa01cfcf8526">PolledFileList</a> &amp;files)=0</td></tr>
 <tr class="memdesc:ad99e777ed20f7ff38899c8bec0b1fcc0"><td class="mdescLeft">&#160;</td><td class="mdescRight">Invoked when files have changed.  <a href="#ad99e777ed20f7ff38899c8bec0b1fcc0">More...</a><br /></td></tr>
 <tr class="separator:ad99e777ed20f7ff38899c8bec0b1fcc0"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a335834426d7a5c8f54a92f284208883d"><td class="memItemLeft" align="right" valign="top">virtual bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classts_1_1_poll_files_listener.html#a335834426d7a5c8f54a92f284208883d">updatePollFiles</a> (std::string &amp;wildcard, <a class="el" href="namespacets.html#a2c690abc5d90fe5ba7c3ec0237afc348">MilliSecond</a> &amp;poll_interval, <a class="el" href="namespacets.html#a2c690abc5d90fe5ba7c3ec0237afc348">MilliSecond</a> &amp;min_stable_delay)</td></tr>
-<tr class="memdesc:a335834426d7a5c8f54a92f284208883d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Invoked before each poll to give the opportunity to change where and how the files are polled.  <a href="#a335834426d7a5c8f54a92f284208883d">More...</a><br /></td></tr>
-<tr class="separator:a335834426d7a5c8f54a92f284208883d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4028de70066c0f3cf54e1b09ab614118"><td class="memItemLeft" align="right" valign="top">virtual bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classts_1_1_poll_files_listener.html#a4028de70066c0f3cf54e1b09ab614118">updatePollFiles</a> (<a class="el" href="classts_1_1_u_string.html">UString</a> &amp;wildcard, <a class="el" href="namespacets.html#a2c690abc5d90fe5ba7c3ec0237afc348">MilliSecond</a> &amp;poll_interval, <a class="el" href="namespacets.html#a2c690abc5d90fe5ba7c3ec0237afc348">MilliSecond</a> &amp;min_stable_delay)</td></tr>
+<tr class="memdesc:a4028de70066c0f3cf54e1b09ab614118"><td class="mdescLeft">&#160;</td><td class="mdescRight">Invoked before each poll to give the opportunity to change where and how the files are polled.  <a href="#a4028de70066c0f3cf54e1b09ab614118">More...</a><br /></td></tr>
+<tr class="separator:a4028de70066c0f3cf54e1b09ab614118"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>Interface for classes listening for file modification. </p>
@@ -153,8 +153,8 @@ virtual&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="c
 
 </div>
 </div>
-<a id="a335834426d7a5c8f54a92f284208883d"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a335834426d7a5c8f54a92f284208883d">&#9670;&nbsp;</a></span>updatePollFiles()</h2>
+<a id="a4028de70066c0f3cf54e1b09ab614118"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4028de70066c0f3cf54e1b09ab614118">&#9670;&nbsp;</a></span>updatePollFiles()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -165,7 +165,7 @@ virtual&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="c
         <tr>
           <td class="memname">virtual bool ts::PollFilesListener::updatePollFiles </td>
           <td>(</td>
-          <td class="paramtype">std::string &amp;&#160;</td>
+          <td class="paramtype"><a class="el" href="classts_1_1_u_string.html">UString</a> &amp;&#160;</td>
           <td class="paramname"><em>wildcard</em>, </td>
         </tr>
         <tr>

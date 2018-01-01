@@ -34,7 +34,7 @@
  <tr style="height: 56px;">
   <td id="projectlogo"><img src="tsduck-32.png"/></td>
    <td id="projectalign"><span id="projectname">TSDuck</span>
-    <span id="projectnumber">Version 3.4</span>
+    <span id="projectnumber">Version 3.5</span>
     <span id="projectbrief">(TSDuck - The MPEG Transport Stream Toolkit)</span>
    </td>
    <td>        <div id="MSearchBox" class="MSearchBoxInactive">
@@ -92,7 +92,6 @@ $(document).ready(function(){initNavTree('classts_1_1_tables_logger_args.html','
 
 <div class="header">
   <div class="summary">
-<a href="#pub-types">Public Types</a> &#124;
 <a href="#pub-methods">Public Member Functions</a> &#124;
 <a href="#pub-attribs">Public Attributes</a> &#124;
 <a href="#pub-static-attribs">Static Public Attributes</a> &#124;
@@ -104,20 +103,15 @@ $(document).ready(function(){initNavTree('classts_1_1_tables_logger_args.html','
 
 <p>Command line arguments for the class <a class="el" href="classts_1_1_tables_logger.html" title="This class logs sections and tables. ">TablesLogger</a>.  
  <a href="classts_1_1_tables_logger_args.html#details">More...</a></p>
+<div class="dynheader">
+Collaboration diagram for ts::TablesLoggerArgs:</div>
+<div class="dyncontent">
+<div class="center"><img src="classts_1_1_tables_logger_args__coll__graph.png" border="0" usemap="#ts_1_1_tables_logger_args_coll__map" alt="Collaboration graph"/></div>
+<map name="ts_1_1_tables_logger_args_coll__map" id="ts_1_1_tables_logger_args_coll__map">
+<area shape="rect" id="node2" href="classts_1_1_u_string.html" title="An implementation of UTF&#45;16 strings. " alt="" coords="37,87,120,113"/>
+</map>
+<center><span class="legend">[<a target="top" href="graph_legend.html">legend</a>]</span></center></div>
 <table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-types"></a>
-Public Types</h2></td></tr>
-<tr class="memitem:a428ea98fd41b3a5c66068a84727f2bc5"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classts_1_1_tables_logger_args.html#a428ea98fd41b3a5c66068a84727f2bc5">Mode</a> { <br />
-&#160;&#160;<a class="el" href="classts_1_1_tables_logger_args.html#a428ea98fd41b3a5c66068a84727f2bc5afdafec0e775adec8d3beb80e31c0c0ea">TEXT</a>, 
-<br />
-&#160;&#160;<a class="el" href="classts_1_1_tables_logger_args.html#a428ea98fd41b3a5c66068a84727f2bc5abacf8b60eddda75f29747ad79b480b6d">BINARY</a>, 
-<br />
-&#160;&#160;<a class="el" href="classts_1_1_tables_logger_args.html#a428ea98fd41b3a5c66068a84727f2bc5a199695f73778fb3d9fd0c2105912c86b">UDP</a>
-<br />
- }<tr class="memdesc:a428ea98fd41b3a5c66068a84727f2bc5"><td class="mdescLeft">&#160;</td><td class="mdescRight">Type of logging destination.  <a href="classts_1_1_tables_logger_args.html#a428ea98fd41b3a5c66068a84727f2bc5">More...</a><br /></td></tr>
-</td></tr>
-<tr class="separator:a428ea98fd41b3a5c66068a84727f2bc5"><td class="memSeparator" colspan="2">&#160;</td></tr>
-</table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
 <tr class="memitem:a785665c1bdd34d7f00381ee0de0cd653"><td class="memItemLeft" align="right" valign="top"><a id="a785665c1bdd34d7f00381ee0de0cd653"></a>
@@ -137,9 +131,6 @@ virtual&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="c
 <tr class="memitem:aa4cfcc36a5c27597d0a90b8a5ebcafbd"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classts_1_1_tables_logger_args.html#aa4cfcc36a5c27597d0a90b8a5ebcafbd">load</a> (<a class="el" href="classts_1_1_args.html">Args</a> &amp;args)</td></tr>
 <tr class="memdesc:aa4cfcc36a5c27597d0a90b8a5ebcafbd"><td class="mdescLeft">&#160;</td><td class="mdescRight">Load arguments from command line.  <a href="#aa4cfcc36a5c27597d0a90b8a5ebcafbd">More...</a><br /></td></tr>
 <tr class="separator:aa4cfcc36a5c27597d0a90b8a5ebcafbd"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a8779eb7d6bb60de382f6cd42adfb42ee"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classts_1_1_tables_logger_args.html#a8779eb7d6bb60de382f6cd42adfb42ee">useCout</a> () const</td></tr>
-<tr class="memdesc:a8779eb7d6bb60de382f6cd42adfb42ee"><td class="mdescLeft">&#160;</td><td class="mdescRight">Check if standard output shall be used.  <a href="#a8779eb7d6bb60de382f6cd42adfb42ee">More...</a><br /></td></tr>
-<tr class="separator:a8779eb7d6bb60de382f6cd42adfb42ee"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-attribs"></a>
 Public Attributes</h2></td></tr>
@@ -151,10 +142,10 @@ bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="clas
 bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classts_1_1_tables_logger_args.html#af2f86788aa266f46b477d55c050f29c6">all_sections</a></td></tr>
 <tr class="memdesc:af2f86788aa266f46b477d55c050f29c6"><td class="mdescLeft">&#160;</td><td class="mdescRight">Collect all sections, as they appear. <br /></td></tr>
 <tr class="separator:af2f86788aa266f46b477d55c050f29c6"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:af35fc5b3bdd97f8f4bc6c8a80bc4af2e"><td class="memItemLeft" align="right" valign="top"><a id="af35fc5b3bdd97f8f4bc6c8a80bc4af2e"></a>
-std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classts_1_1_tables_logger_args.html#af35fc5b3bdd97f8f4bc6c8a80bc4af2e">destination</a></td></tr>
-<tr class="memdesc:af35fc5b3bdd97f8f4bc6c8a80bc4af2e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Destination name (file, host, etc). <br /></td></tr>
-<tr class="separator:af35fc5b3bdd97f8f4bc6c8a80bc4af2e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0cfa1f550dd026344e65b5de07b005cb"><td class="memItemLeft" align="right" valign="top"><a id="a0cfa1f550dd026344e65b5de07b005cb"></a>
+<a class="el" href="classts_1_1_u_string.html">UString</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classts_1_1_tables_logger_args.html#a0cfa1f550dd026344e65b5de07b005cb">bin_destination</a></td></tr>
+<tr class="memdesc:a0cfa1f550dd026344e65b5de07b005cb"><td class="mdescLeft">&#160;</td><td class="mdescRight">Binary output file name. <br /></td></tr>
+<tr class="separator:a0cfa1f550dd026344e65b5de07b005cb"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a285e112f3e42b8806f1965028cb431db"><td class="memItemLeft" align="right" valign="top"><a id="a285e112f3e42b8806f1965028cb431db"></a>
 bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classts_1_1_tables_logger_args.html#a285e112f3e42b8806f1965028cb431db">diversified</a></td></tr>
 <tr class="memdesc:a285e112f3e42b8806f1965028cb431db"><td class="mdescLeft">&#160;</td><td class="mdescRight">Payload must be diversified. <br /></td></tr>
@@ -175,10 +166,6 @@ bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="clas
 uint32_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classts_1_1_tables_logger_args.html#a27f84ee40036f3acbe7549ebf1ad09f8">max_tables</a></td></tr>
 <tr class="memdesc:a27f84ee40036f3acbe7549ebf1ad09f8"><td class="mdescLeft">&#160;</td><td class="mdescRight">Max number of tables to dump. <br /></td></tr>
 <tr class="separator:a27f84ee40036f3acbe7549ebf1ad09f8"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a973e48de0ed1bf3ecd9432565275a180"><td class="memItemLeft" align="right" valign="top"><a id="a973e48de0ed1bf3ecd9432565275a180"></a>
-<a class="el" href="classts_1_1_tables_logger_args.html#a428ea98fd41b3a5c66068a84727f2bc5">Mode</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classts_1_1_tables_logger_args.html#a973e48de0ed1bf3ecd9432565275a180">mode</a></td></tr>
-<tr class="memdesc:a973e48de0ed1bf3ecd9432565275a180"><td class="mdescLeft">&#160;</td><td class="mdescRight">Type of destination. <br /></td></tr>
-<tr class="separator:a973e48de0ed1bf3ecd9432565275a180"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a9590ffc2966651f7998c424c4192531b"><td class="memItemLeft" align="right" valign="top"><a id="a9590ffc2966651f7998c424c4192531b"></a>
 bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classts_1_1_tables_logger_args.html#a9590ffc2966651f7998c424c4192531b">multi_files</a></td></tr>
 <tr class="memdesc:a9590ffc2966651f7998c424c4192531b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Multiple binary output files (one per section). <br /></td></tr>
@@ -203,6 +190,10 @@ bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="clas
 <a class="el" href="namespacets.html#ab1d1f2460b477bc70d2e394204a2c09b">PIDSet</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classts_1_1_tables_logger_args.html#af9a6a54b1de10f4156e03f7f926fd834">pid</a></td></tr>
 <tr class="memdesc:af9a6a54b1de10f4156e03f7f926fd834"><td class="mdescLeft">&#160;</td><td class="mdescRight">PID values to filter. <br /></td></tr>
 <tr class="separator:af9a6a54b1de10f4156e03f7f926fd834"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1daa8c21a59bf083bbf2acc6f04a55cf"><td class="memItemLeft" align="right" valign="top"><a id="a1daa8c21a59bf083bbf2acc6f04a55cf"></a>
+<a class="el" href="classts_1_1_u_string.html">UString</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classts_1_1_tables_logger_args.html#a1daa8c21a59bf083bbf2acc6f04a55cf">text_destination</a></td></tr>
+<tr class="memdesc:a1daa8c21a59bf083bbf2acc6f04a55cf"><td class="mdescLeft">&#160;</td><td class="mdescRight">Text output file name. <br /></td></tr>
+<tr class="separator:a1daa8c21a59bf083bbf2acc6f04a55cf"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a596d6d9141f3e64ab8b361321a0658a9"><td class="memItemLeft" align="right" valign="top"><a id="a596d6d9141f3e64ab8b361321a0658a9"></a>
 std::set&lt; uint8_t &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classts_1_1_tables_logger_args.html#a596d6d9141f3e64ab8b361321a0658a9">tid</a></td></tr>
 <tr class="memdesc:a596d6d9141f3e64ab8b361321a0658a9"><td class="mdescLeft">&#160;</td><td class="mdescRight">TID values to filter. <br /></td></tr>
@@ -215,10 +206,14 @@ std::set&lt; uint16_t &gt;&#160;</td><td class="memItemRight" valign="bottom"><a
 bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classts_1_1_tables_logger_args.html#a5f4c94dcb276f777505ab5c97c7c8d77">time_stamp</a></td></tr>
 <tr class="memdesc:a5f4c94dcb276f777505ab5c97c7c8d77"><td class="mdescLeft">&#160;</td><td class="mdescRight">Display time stamps with each table. <br /></td></tr>
 <tr class="separator:a5f4c94dcb276f777505ab5c97c7c8d77"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aa725502cc3044630dd2aa07f1f32752a"><td class="memItemLeft" align="right" valign="top"><a id="aa725502cc3044630dd2aa07f1f32752a"></a>
-std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classts_1_1_tables_logger_args.html#aa725502cc3044630dd2aa07f1f32752a">udp_local</a></td></tr>
-<tr class="memdesc:aa725502cc3044630dd2aa07f1f32752a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Name of outgoing local address (empty if unspecified). <br /></td></tr>
-<tr class="separator:aa725502cc3044630dd2aa07f1f32752a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab33eebb8c7dd23ce352cd18ab3dab6ef"><td class="memItemLeft" align="right" valign="top"><a id="ab33eebb8c7dd23ce352cd18ab3dab6ef"></a>
+<a class="el" href="classts_1_1_u_string.html">UString</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classts_1_1_tables_logger_args.html#ab33eebb8c7dd23ce352cd18ab3dab6ef">udp_destination</a></td></tr>
+<tr class="memdesc:ab33eebb8c7dd23ce352cd18ab3dab6ef"><td class="mdescLeft">&#160;</td><td class="mdescRight">UDP/IP destination address:port. <br /></td></tr>
+<tr class="separator:ab33eebb8c7dd23ce352cd18ab3dab6ef"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:acf2be43748bb30ef955c6de7a497f307"><td class="memItemLeft" align="right" valign="top"><a id="acf2be43748bb30ef955c6de7a497f307"></a>
+<a class="el" href="classts_1_1_u_string.html">UString</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classts_1_1_tables_logger_args.html#acf2be43748bb30ef955c6de7a497f307">udp_local</a></td></tr>
+<tr class="memdesc:acf2be43748bb30ef955c6de7a497f307"><td class="mdescLeft">&#160;</td><td class="mdescRight">Name of outgoing local address (empty if unspecified). <br /></td></tr>
+<tr class="separator:acf2be43748bb30ef955c6de7a497f307"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ac508d78ae208f3a90c62a7050d317e0d"><td class="memItemLeft" align="right" valign="top"><a id="ac508d78ae208f3a90c62a7050d317e0d"></a>
 bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classts_1_1_tables_logger_args.html#ac508d78ae208f3a90c62a7050d317e0d">udp_raw</a></td></tr>
 <tr class="memdesc:ac508d78ae208f3a90c62a7050d317e0d"><td class="mdescLeft">&#160;</td><td class="mdescRight">UDP messages contain raw sections, not structured messages. <br /></td></tr>
@@ -227,6 +222,26 @@ bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="clas
 int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classts_1_1_tables_logger_args.html#a6debb368997b59eded3954975af951c6">udp_ttl</a></td></tr>
 <tr class="memdesc:a6debb368997b59eded3954975af951c6"><td class="mdescLeft">&#160;</td><td class="mdescRight">Time-to-live socket option. <br /></td></tr>
 <tr class="separator:a6debb368997b59eded3954975af951c6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7545e8760bbfc3ccb4c059159439016a"><td class="memItemLeft" align="right" valign="top"><a id="a7545e8760bbfc3ccb4c059159439016a"></a>
+bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classts_1_1_tables_logger_args.html#a7545e8760bbfc3ccb4c059159439016a">use_binary</a></td></tr>
+<tr class="memdesc:a7545e8760bbfc3ccb4c059159439016a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Save binary sections. <br /></td></tr>
+<tr class="separator:a7545e8760bbfc3ccb4c059159439016a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a112cb5b55bf737495e93b682fe408470"><td class="memItemLeft" align="right" valign="top"><a id="a112cb5b55bf737495e93b682fe408470"></a>
+bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classts_1_1_tables_logger_args.html#a112cb5b55bf737495e93b682fe408470">use_text</a></td></tr>
+<tr class="memdesc:a112cb5b55bf737495e93b682fe408470"><td class="mdescLeft">&#160;</td><td class="mdescRight">Produce formatted human-readable tables. <br /></td></tr>
+<tr class="separator:a112cb5b55bf737495e93b682fe408470"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9a1fce84e3460f01ae7fad423ecc92da"><td class="memItemLeft" align="right" valign="top"><a id="a9a1fce84e3460f01ae7fad423ecc92da"></a>
+bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classts_1_1_tables_logger_args.html#a9a1fce84e3460f01ae7fad423ecc92da">use_udp</a></td></tr>
+<tr class="memdesc:a9a1fce84e3460f01ae7fad423ecc92da"><td class="mdescLeft">&#160;</td><td class="mdescRight">Send sections using UDP/IP. <br /></td></tr>
+<tr class="separator:a9a1fce84e3460f01ae7fad423ecc92da"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aab2174afecf2cabf33c0d5c772ff0f7f"><td class="memItemLeft" align="right" valign="top"><a id="aab2174afecf2cabf33c0d5c772ff0f7f"></a>
+bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classts_1_1_tables_logger_args.html#aab2174afecf2cabf33c0d5c772ff0f7f">use_xml</a></td></tr>
+<tr class="memdesc:aab2174afecf2cabf33c0d5c772ff0f7f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Produce XML tables. <br /></td></tr>
+<tr class="separator:aab2174afecf2cabf33c0d5c772ff0f7f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a532205025a25b216059eb51c43e6b7e1"><td class="memItemLeft" align="right" valign="top"><a id="a532205025a25b216059eb51c43e6b7e1"></a>
+<a class="el" href="classts_1_1_u_string.html">UString</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classts_1_1_tables_logger_args.html#a532205025a25b216059eb51c43e6b7e1">xml_destination</a></td></tr>
+<tr class="memdesc:a532205025a25b216059eb51c43e6b7e1"><td class="mdescLeft">&#160;</td><td class="mdescRight">XML output file name. <br /></td></tr>
+<tr class="separator:a532205025a25b216059eb51c43e6b7e1"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-static-attribs"></a>
 Static Public Attributes</h2></td></tr>
@@ -236,60 +251,7 @@ Static Public Attributes</h2></td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>Command line arguments for the class <a class="el" href="classts_1_1_tables_logger.html" title="This class logs sections and tables. ">TablesLogger</a>. </p>
-</div><h2 class="groupheader">Member Enumeration Documentation</h2>
-<a id="a428ea98fd41b3a5c66068a84727f2bc5"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a428ea98fd41b3a5c66068a84727f2bc5">&#9670;&nbsp;</a></span>Mode</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">enum <a class="el" href="classts_1_1_tables_logger_args.html#a428ea98fd41b3a5c66068a84727f2bc5">ts::TablesLoggerArgs::Mode</a></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Type of logging destination. </p>
-<table class="fieldtable">
-<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="a428ea98fd41b3a5c66068a84727f2bc5afdafec0e775adec8d3beb80e31c0c0ea"></a>TEXT&#160;</td><td class="fielddoc"><p>Formatted human-readable tables. </p>
-</td></tr>
-<tr><td class="fieldname"><a id="a428ea98fd41b3a5c66068a84727f2bc5abacf8b60eddda75f29747ad79b480b6d"></a>BINARY&#160;</td><td class="fielddoc"><p>Save binary sections. </p>
-</td></tr>
-<tr><td class="fieldname"><a id="a428ea98fd41b3a5c66068a84727f2bc5a199695f73778fb3d9fd0c2105912c86b"></a>UDP&#160;</td><td class="fielddoc"><p>Send sections using UDP/IP. </p>
-</td></tr>
-</table>
-
-</div>
-</div>
-<h2 class="groupheader">Member Function Documentation</h2>
-<a id="a8779eb7d6bb60de382f6cd42adfb42ee"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a8779eb7d6bb60de382f6cd42adfb42ee">&#9670;&nbsp;</a></span>useCout()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">bool ts::TablesLoggerArgs::useCout </td>
-          <td>(</td>
-          <td class="paramname"></td><td>)</td>
-          <td> const</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>Check if standard output shall be used. </p>
-<dl class="section return"><dt>Returns</dt><dd>True if standard output shall be used. </dd></dl>
-
-</div>
-</div>
+</div><h2 class="groupheader">Member Function Documentation</h2>
 <a id="aabf285f5b53558bdd071f6f4ca55b62f"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#aabf285f5b53558bdd071f6f4ca55b62f">&#9670;&nbsp;</a></span>defineOptions()</h2>
 

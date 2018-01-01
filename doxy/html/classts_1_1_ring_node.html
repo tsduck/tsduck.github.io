@@ -34,7 +34,7 @@
  <tr style="height: 56px;">
   <td id="projectlogo"><img src="tsduck-32.png"/></td>
    <td id="projectalign"><span id="projectname">TSDuck</span>
-    <span id="projectnumber">Version 3.4</span>
+    <span id="projectnumber">Version 3.5</span>
     <span id="projectbrief">(TSDuck - The MPEG Transport Stream Toolkit)</span>
    </td>
    <td>        <div id="MSearchBox" class="MSearchBoxInactive">
@@ -106,10 +106,17 @@ Inheritance diagram for ts::RingNode:</div>
 <div class="dyncontent">
 <div class="center"><img src="classts_1_1_ring_node__inherit__graph.png" border="0" usemap="#ts_1_1_ring_node_inherit__map" alt="Inheritance graph"/></div>
 <map name="ts_1_1_ring_node_inherit__map" id="ts_1_1_ring_node_inherit__map">
-<area shape="rect" id="node2" href="classts_1_1tsp_1_1_plugin_executor.html" title="Execution context of a tsp plugin. " alt="" coords="178,79,332,104"/>
-<area shape="rect" id="node3" href="classts_1_1tsp_1_1_input_executor.html" title="Execution context of a tsp input plugin. " alt="" coords="5,152,152,177"/>
-<area shape="rect" id="node4" href="classts_1_1tsp_1_1_output_executor.html" title="Execution context of a tsp output plugin. " alt="" coords="176,152,333,177"/>
-<area shape="rect" id="node5" href="classts_1_1tsp_1_1_processor_executor.html" title="Execution context of a tsp packet processor plugin. " alt="" coords="357,152,534,177"/>
+<area shape="rect" id="node2" href="classts_1_1tsp_1_1_plugin_executor.html" title="Execution context of a tsp plugin. " alt="" coords="152,80,306,105"/>
+<area shape="rect" id="node6" href="classts_1_1xml_1_1_node.html" title="Base class for all XML objects in a document. " alt="" coords="179,252,278,277"/>
+<area shape="rect" id="node3" href="classts_1_1tsp_1_1_input_executor.html" title="Execution context of a tsp input plugin. " alt="" coords="369,5,515,31"/>
+<area shape="rect" id="node4" href="classts_1_1tsp_1_1_output_executor.html" title="Execution context of a tsp output plugin. " alt="" coords="364,55,521,80"/>
+<area shape="rect" id="node5" href="classts_1_1tsp_1_1_processor_executor.html" title="Execution context of a tsp packet processor plugin. " alt="" coords="354,104,531,129"/>
+<area shape="rect" id="node7" href="classts_1_1xml_1_1_comment.html" title="Comment in an XML document. " alt="" coords="380,153,505,179"/>
+<area shape="rect" id="node8" href="classts_1_1xml_1_1_declaration.html" title="Declaration in an XML document. " alt="" coords="375,203,510,228"/>
+<area shape="rect" id="node9" href="classts_1_1xml_1_1_document.html" title="Representation of an XML document. " alt="" coords="378,252,506,277"/>
+<area shape="rect" id="node10" href="classts_1_1xml_1_1_element.html" title="Structured element in an XML document. " alt="" coords="384,301,500,327"/>
+<area shape="rect" id="node11" href="classts_1_1xml_1_1_text.html" title="Text element in an XML document. " alt="" coords="396,351,488,376"/>
+<area shape="rect" id="node12" href="classts_1_1xml_1_1_unknown.html" title="Unknown element in an XML document. " alt="" coords="381,400,504,425"/>
 </map>
 <center><span class="legend">[<a target="top" href="graph_legend.html">legend</a>]</span></center></div>
 <table class="memberdecls">
@@ -132,14 +139,22 @@ virtual&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="c
 <tr class="memitem:aeabd1243390866d1c89d81b049fe15e1"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classts_1_1_ring_node.html#aeabd1243390866d1c89d81b049fe15e1">ringInsertBefore</a> (<a class="el" href="classts_1_1_ring_node.html">RingNode</a> *o)</td></tr>
 <tr class="memdesc:aeabd1243390866d1c89d81b049fe15e1"><td class="mdescLeft">&#160;</td><td class="mdescRight">Insert this object in a ring before the specified node.  <a href="#aeabd1243390866d1c89d81b049fe15e1">More...</a><br /></td></tr>
 <tr class="separator:aeabd1243390866d1c89d81b049fe15e1"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a6e6d6be70e2f72b022eb110ea059b39a"><td class="memTemplParams" colspan="2">template&lt;typename T &gt; </td></tr>
-<tr class="memitem:a6e6d6be70e2f72b022eb110ea059b39a"><td class="memTemplItemLeft" align="right" valign="top">T *&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="classts_1_1_ring_node.html#a6e6d6be70e2f72b022eb110ea059b39a">ringNext</a> () const</td></tr>
-<tr class="memdesc:a6e6d6be70e2f72b022eb110ea059b39a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the next node in the ring.  <a href="#a6e6d6be70e2f72b022eb110ea059b39a">More...</a><br /></td></tr>
-<tr class="separator:a6e6d6be70e2f72b022eb110ea059b39a"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a58d0c08cd84b2d072d56ab5782ea239d"><td class="memTemplParams" colspan="2">template&lt;typename T &gt; </td></tr>
-<tr class="memitem:a58d0c08cd84b2d072d56ab5782ea239d"><td class="memTemplItemLeft" align="right" valign="top">T *&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="classts_1_1_ring_node.html#a58d0c08cd84b2d072d56ab5782ea239d">ringPrevious</a> () const</td></tr>
-<tr class="memdesc:a58d0c08cd84b2d072d56ab5782ea239d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the previous node in the ring.  <a href="#a58d0c08cd84b2d072d56ab5782ea239d">More...</a><br /></td></tr>
-<tr class="separator:a58d0c08cd84b2d072d56ab5782ea239d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a136df409aae15a83433a943568501f84"><td class="memTemplParams" colspan="2">template&lt;typename T &gt; </td></tr>
+<tr class="memitem:a136df409aae15a83433a943568501f84"><td class="memTemplItemLeft" align="right" valign="top">T *&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="classts_1_1_ring_node.html#a136df409aae15a83433a943568501f84">ringNext</a> ()</td></tr>
+<tr class="memdesc:a136df409aae15a83433a943568501f84"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the next node in the ring.  <a href="#a136df409aae15a83433a943568501f84">More...</a><br /></td></tr>
+<tr class="separator:a136df409aae15a83433a943568501f84"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8bfd94cfff3cff0361b4207dbe2e94f7"><td class="memTemplParams" colspan="2">template&lt;typename T &gt; </td></tr>
+<tr class="memitem:a8bfd94cfff3cff0361b4207dbe2e94f7"><td class="memTemplItemLeft" align="right" valign="top">const T *&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="classts_1_1_ring_node.html#a8bfd94cfff3cff0361b4207dbe2e94f7">ringNext</a> () const</td></tr>
+<tr class="memdesc:a8bfd94cfff3cff0361b4207dbe2e94f7"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the next node in the ring.  <a href="#a8bfd94cfff3cff0361b4207dbe2e94f7">More...</a><br /></td></tr>
+<tr class="separator:a8bfd94cfff3cff0361b4207dbe2e94f7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a91406e243c71a3e069b85bd8a434935d"><td class="memTemplParams" colspan="2">template&lt;typename T &gt; </td></tr>
+<tr class="memitem:a91406e243c71a3e069b85bd8a434935d"><td class="memTemplItemLeft" align="right" valign="top">T *&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="classts_1_1_ring_node.html#a91406e243c71a3e069b85bd8a434935d">ringPrevious</a> ()</td></tr>
+<tr class="memdesc:a91406e243c71a3e069b85bd8a434935d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the previous node in the ring.  <a href="#a91406e243c71a3e069b85bd8a434935d">More...</a><br /></td></tr>
+<tr class="separator:a91406e243c71a3e069b85bd8a434935d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:afdaece6400ab6e13deb3c56ffeec638b"><td class="memTemplParams" colspan="2">template&lt;typename T &gt; </td></tr>
+<tr class="memitem:afdaece6400ab6e13deb3c56ffeec638b"><td class="memTemplItemLeft" align="right" valign="top">const T *&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="classts_1_1_ring_node.html#afdaece6400ab6e13deb3c56ffeec638b">ringPrevious</a> () const</td></tr>
+<tr class="memdesc:afdaece6400ab6e13deb3c56ffeec638b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the previous node in the ring.  <a href="#afdaece6400ab6e13deb3c56ffeec638b">More...</a><br /></td></tr>
+<tr class="separator:afdaece6400ab6e13deb3c56ffeec638b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ad9a5bd68bcb38aa037a55f4bc2507db0"><td class="memItemLeft" align="right" valign="top"><a id="ad9a5bd68bcb38aa037a55f4bc2507db0"></a>
 void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classts_1_1_ring_node.html#ad9a5bd68bcb38aa037a55f4bc2507db0">ringRemove</a> ()</td></tr>
 <tr class="memdesc:ad9a5bd68bcb38aa037a55f4bc2507db0"><td class="mdescLeft">&#160;</td><td class="mdescRight">Remove the node from the ring it belongs to and creates its own ring. <br /></td></tr>
@@ -233,8 +248,8 @@ void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="clas
 
 </div>
 </div>
-<a id="a6e6d6be70e2f72b022eb110ea059b39a"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a6e6d6be70e2f72b022eb110ea059b39a">&#9670;&nbsp;</a></span>ringNext()</h2>
+<a id="a136df409aae15a83433a943568501f84"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a136df409aae15a83433a943568501f84">&#9670;&nbsp;</a></span>ringNext() <span class="overload">[1/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -246,6 +261,42 @@ template&lt;typename T &gt; </div>
       <table class="memname">
         <tr>
           <td class="memname">T* ts::RingNode::ringNext </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Get the next node in the ring. </p>
+<dl class="tparams"><dt>Template Parameters</dt><dd>
+  <table class="tparams">
+    <tr><td class="paramname">T</td><td>A superclass of <a class="el" href="classts_1_1_ring_node.html" title="Base class for objects being part of a ring, ie. ">RingNode</a>, the expected type of the next object in the ring. </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>Address of the next node in the ring or zero if the next node is not a subclass of <em>T</em>. </dd></dl>
+
+</div>
+</div>
+<a id="a8bfd94cfff3cff0361b4207dbe2e94f7"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8bfd94cfff3cff0361b4207dbe2e94f7">&#9670;&nbsp;</a></span>ringNext() <span class="overload">[2/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename T &gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">const T* ts::RingNode::ringNext </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td> const</td>
@@ -269,8 +320,8 @@ template&lt;typename T &gt; </div>
 
 </div>
 </div>
-<a id="a58d0c08cd84b2d072d56ab5782ea239d"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a58d0c08cd84b2d072d56ab5782ea239d">&#9670;&nbsp;</a></span>ringPrevious()</h2>
+<a id="a91406e243c71a3e069b85bd8a434935d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a91406e243c71a3e069b85bd8a434935d">&#9670;&nbsp;</a></span>ringPrevious() <span class="overload">[1/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -282,6 +333,42 @@ template&lt;typename T &gt; </div>
       <table class="memname">
         <tr>
           <td class="memname">T* ts::RingNode::ringPrevious </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Get the previous node in the ring. </p>
+<dl class="tparams"><dt>Template Parameters</dt><dd>
+  <table class="tparams">
+    <tr><td class="paramname">T</td><td>A superclass of <a class="el" href="classts_1_1_ring_node.html" title="Base class for objects being part of a ring, ie. ">RingNode</a>, the expected type of the previous object in the ring. </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>Address of the previous node in the ring or zero if the previous node is not a subclass of <em>T</em>. </dd></dl>
+
+</div>
+</div>
+<a id="afdaece6400ab6e13deb3c56ffeec638b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#afdaece6400ab6e13deb3c56ffeec638b">&#9670;&nbsp;</a></span>ringPrevious() <span class="overload">[2/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename T &gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">const T* ts::RingNode::ringPrevious </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td> const</td>

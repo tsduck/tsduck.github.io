@@ -7,7 +7,7 @@ var classts_1_1_socket_address =
     [ "SocketAddress", "classts_1_1_socket_address.html#ae2bb63320cdf4ab80bf494f46174a3c1", null ],
     [ "SocketAddress", "classts_1_1_socket_address.html#ae7e3b38d7fffe8bf7733553d0970b140", null ],
     [ "SocketAddress", "classts_1_1_socket_address.html#a3fdcdb053f55471e8650bd6a81a2ccc4", null ],
-    [ "SocketAddress", "classts_1_1_socket_address.html#a1f598f1c96440b3b9c1463e5b008129c", null ],
+    [ "SocketAddress", "classts_1_1_socket_address.html#a73d99466ceb0e7aca7dbd6bd3a8bf81b", null ],
     [ "~SocketAddress", "classts_1_1_socket_address.html#ae8ad9b7d15970046fd1dfda231de0a95", null ],
     [ "port", "classts_1_1_socket_address.html#a766e6204b9dbc1653f66f2d456e1758b", null ],
     [ "setPort", "classts_1_1_socket_address.html#a92d0e88f731c282859a42832052f59f6", null ],
@@ -20,7 +20,7 @@ var classts_1_1_socket_address =
     [ "copy", "classts_1_1_socket_address.html#a01e14f2680905579988be9a4650842b1", null ],
     [ "copy", "classts_1_1_socket_address.html#a30b9063cc3e71b1e3f8df9fe146582bc", null ],
     [ "copy", "classts_1_1_socket_address.html#ad803ede21797c04b9b949f0fc8b70d4c", null ],
-    [ "resolve", "classts_1_1_socket_address.html#ab68ed7ba662461ab477e64bb0db70406", null ],
-    [ "operator std::string", "classts_1_1_socket_address.html#a5a74b91673e48dbd80f07e79f3e1e1d8", null ],
+    [ "resolve", "classts_1_1_socket_address.html#a09b33e97411898ed0d2e5aa81b00db4a", null ],
+    [ "toString", "classts_1_1_socket_address.html#aedca33398899d635a3619e74f36c4a3f", null ],
     [ "AnyPort", "classts_1_1_socket_address.html#ae659295ea425a1977d3e7ec895562589", null ]
 ];

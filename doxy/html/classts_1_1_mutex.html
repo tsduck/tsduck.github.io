@@ -34,7 +34,7 @@
  <tr style="height: 56px;">
   <td id="projectlogo"><img src="tsduck-32.png"/></td>
    <td id="projectalign"><span id="projectname">TSDuck</span>
-    <span id="projectnumber">Version 3.4</span>
+    <span id="projectnumber">Version 3.5</span>
     <span id="projectbrief">(TSDuck - The MPEG Transport Stream Toolkit)</span>
    </td>
    <td>        <div id="MSearchBox" class="MSearchBoxInactive">
@@ -134,12 +134,12 @@ Public Member Functions</h2></td></tr>
 virtual&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classts_1_1_mutex.html#a8e3df396ff1d02d745b2011ec654cb9b">~Mutex</a> ()</td></tr>
 <tr class="memdesc:a8e3df396ff1d02d745b2011ec654cb9b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Destructor. <br /></td></tr>
 <tr class="separator:a8e3df396ff1d02d745b2011ec654cb9b"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a477a0b1733375ba4b1c4e34c7c4b2814"><td class="memItemLeft" align="right" valign="top">virtual bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classts_1_1_mutex.html#a477a0b1733375ba4b1c4e34c7c4b2814">acquire</a> (<a class="el" href="namespacets.html#a2c690abc5d90fe5ba7c3ec0237afc348">MilliSecond</a> timeout=<a class="el" href="namespacets.html#a6b91ccf90475c62f610ea549f69d8544">Infinite</a>)</td></tr>
-<tr class="memdesc:a477a0b1733375ba4b1c4e34c7c4b2814"><td class="mdescLeft">&#160;</td><td class="mdescRight">Acquire the mutex with a timeout.  <a href="#a477a0b1733375ba4b1c4e34c7c4b2814">More...</a><br /></td></tr>
-<tr class="separator:a477a0b1733375ba4b1c4e34c7c4b2814"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ac3dda5ac0d1c79bdb465c71d83db5cc7"><td class="memItemLeft" align="right" valign="top">virtual bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classts_1_1_mutex.html#ac3dda5ac0d1c79bdb465c71d83db5cc7">release</a> ()</td></tr>
-<tr class="memdesc:ac3dda5ac0d1c79bdb465c71d83db5cc7"><td class="mdescLeft">&#160;</td><td class="mdescRight">Release the mutex.  <a href="#ac3dda5ac0d1c79bdb465c71d83db5cc7">More...</a><br /></td></tr>
-<tr class="separator:ac3dda5ac0d1c79bdb465c71d83db5cc7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6f36f559ea8d00eb08a98f78212ea8cc"><td class="memItemLeft" align="right" valign="top">virtual bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classts_1_1_mutex.html#a6f36f559ea8d00eb08a98f78212ea8cc">acquire</a> (<a class="el" href="namespacets.html#a2c690abc5d90fe5ba7c3ec0237afc348">MilliSecond</a> timeout=<a class="el" href="namespacets.html#a6b91ccf90475c62f610ea549f69d8544">Infinite</a>) override</td></tr>
+<tr class="memdesc:a6f36f559ea8d00eb08a98f78212ea8cc"><td class="mdescLeft">&#160;</td><td class="mdescRight">Acquire the mutex with a timeout.  <a href="#a6f36f559ea8d00eb08a98f78212ea8cc">More...</a><br /></td></tr>
+<tr class="separator:a6f36f559ea8d00eb08a98f78212ea8cc"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a968bb34a4ab03b45eeabfdfbd62f5325"><td class="memItemLeft" align="right" valign="top">virtual bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classts_1_1_mutex.html#a968bb34a4ab03b45eeabfdfbd62f5325">release</a> () override</td></tr>
+<tr class="memdesc:a968bb34a4ab03b45eeabfdfbd62f5325"><td class="mdescLeft">&#160;</td><td class="mdescRight">Release the mutex.  <a href="#a968bb34a4ab03b45eeabfdfbd62f5325">More...</a><br /></td></tr>
+<tr class="separator:a968bb34a4ab03b45eeabfdfbd62f5325"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="inherit_header pub_methods_classts_1_1_mutex_interface"><td colspan="2" onclick="javascript:toggleInherit('pub_methods_classts_1_1_mutex_interface')"><img src="closed.png" alt="-"/>&#160;Public Member Functions inherited from <a class="el" href="classts_1_1_mutex_interface.html">ts::MutexInterface</a></td></tr>
 <tr class="memitem:a534428e98064e5c9164defe9f1207018 inherit pub_methods_classts_1_1_mutex_interface"><td class="memItemLeft" align="right" valign="top"><a id="a534428e98064e5c9164defe9f1207018"></a>
 virtual&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classts_1_1_mutex_interface.html#a534428e98064e5c9164defe9f1207018">~MutexInterface</a> ()</td></tr>
@@ -149,7 +149,7 @@ virtual&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="c
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>A mutex implementation which is compatible with the <a class="el" href="classts_1_1_thread.html" title="Base class for threads. ">ts::Thread</a> class. </p>
 <p>The concrete class <a class="el" href="classts_1_1_mutex.html" title="A mutex implementation which is compatible with the ts::Thread class. ">ts::Mutex</a> is a mutex implementation which is compatible with the <a class="el" href="classts_1_1_thread.html" title="Base class for threads. ">ts::Thread</a> class. This means that concurrent instances of <a class="el" href="classts_1_1_thread.html" title="Base class for threads. ">ts::Thread</a> can synchronize mutual exclusion on shared resources using instances of <a class="el" href="classts_1_1_mutex.html" title="A mutex implementation which is compatible with the ts::Thread class. ">ts::Mutex</a>.</p>
-<p>This mutex implementation is <em>recursive</em>, i.e. nested pairs of <a class="el" href="classts_1_1_mutex.html#a477a0b1733375ba4b1c4e34c7c4b2814" title="Acquire the mutex with a timeout. ">acquire()</a> / <a class="el" href="classts_1_1_mutex.html#ac3dda5ac0d1c79bdb465c71d83db5cc7" title="Release the mutex. ">release()</a> are allowed on the instances. There must be exactly one <a class="el" href="classts_1_1_mutex.html#ac3dda5ac0d1c79bdb465c71d83db5cc7" title="Release the mutex. ">release()</a> for each nested invocation of <a class="el" href="classts_1_1_mutex.html#a477a0b1733375ba4b1c4e34c7c4b2814" title="Acquire the mutex with a timeout. ">acquire()</a>.</p>
+<p>This mutex implementation is <em>recursive</em>, i.e. nested pairs of <a class="el" href="classts_1_1_mutex.html#a6f36f559ea8d00eb08a98f78212ea8cc" title="Acquire the mutex with a timeout. ">acquire()</a> / <a class="el" href="classts_1_1_mutex.html#a968bb34a4ab03b45eeabfdfbd62f5325" title="Release the mutex. ">release()</a> are allowed on the instances. There must be exactly one <a class="el" href="classts_1_1_mutex.html#a968bb34a4ab03b45eeabfdfbd62f5325" title="Release the mutex. ">release()</a> for each nested invocation of <a class="el" href="classts_1_1_mutex.html#a6f36f559ea8d00eb08a98f78212ea8cc" title="Acquire the mutex with a timeout. ">acquire()</a>.</p>
 <p>The implementation of this class is operating system dependent, just like <a class="el" href="classts_1_1_thread.html" title="Base class for threads. ">ts::Thread</a>. </p>
 </div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a id="a64e6e4864a766f3afb4bf8044ecf2c56"></a>
@@ -178,8 +178,8 @@ virtual&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="c
 </div>
 </div>
 <h2 class="groupheader">Member Function Documentation</h2>
-<a id="a477a0b1733375ba4b1c4e34c7c4b2814"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a477a0b1733375ba4b1c4e34c7c4b2814">&#9670;&nbsp;</a></span>acquire()</h2>
+<a id="a6f36f559ea8d00eb08a98f78212ea8cc"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6f36f559ea8d00eb08a98f78212ea8cc">&#9670;&nbsp;</a></span>acquire()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -197,14 +197,14 @@ virtual&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="c
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">virtual</span></span>  </td>
+<span class="mlabels"><span class="mlabel">override</span><span class="mlabel">virtual</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
 
 <p>Acquire the mutex with a timeout. </p>
-<p>If the mutex is already acquired by another instance of <a class="el" href="classts_1_1_thread.html" title="Base class for threads. ">ts::Thread</a>, <a class="el" href="classts_1_1_mutex.html#a477a0b1733375ba4b1c4e34c7c4b2814" title="Acquire the mutex with a timeout. ">acquire()</a> hangs until the mutex is released or the timeout expires, whichever comes first.</p>
-<p>If the mutex is already acquired by the current <a class="el" href="classts_1_1_thread.html" title="Base class for threads. ">ts::Thread</a>, <a class="el" href="classts_1_1_mutex.html#a477a0b1733375ba4b1c4e34c7c4b2814" title="Acquire the mutex with a timeout. ">acquire()</a> completes immediately. For each successful call to <a class="el" href="classts_1_1_mutex.html#a477a0b1733375ba4b1c4e34c7c4b2814" title="Acquire the mutex with a timeout. ">acquire()</a> in the current <a class="el" href="classts_1_1_thread.html" title="Base class for threads. ">ts::Thread</a>, there must be exactly one call to <a class="el" href="classts_1_1_mutex.html#ac3dda5ac0d1c79bdb465c71d83db5cc7" title="Release the mutex. ">release()</a>.</p>
+<p>If the mutex is already acquired by another instance of <a class="el" href="classts_1_1_thread.html" title="Base class for threads. ">ts::Thread</a>, <a class="el" href="classts_1_1_mutex.html#a6f36f559ea8d00eb08a98f78212ea8cc" title="Acquire the mutex with a timeout. ">acquire()</a> hangs until the mutex is released or the timeout expires, whichever comes first.</p>
+<p>If the mutex is already acquired by the current <a class="el" href="classts_1_1_thread.html" title="Base class for threads. ">ts::Thread</a>, <a class="el" href="classts_1_1_mutex.html#a6f36f559ea8d00eb08a98f78212ea8cc" title="Acquire the mutex with a timeout. ">acquire()</a> completes immediately. For each successful call to <a class="el" href="classts_1_1_mutex.html#a6f36f559ea8d00eb08a98f78212ea8cc" title="Acquire the mutex with a timeout. ">acquire()</a> in the current <a class="el" href="classts_1_1_thread.html" title="Base class for threads. ">ts::Thread</a>, there must be exactly one call to <a class="el" href="classts_1_1_mutex.html#a968bb34a4ab03b45eeabfdfbd62f5325" title="Release the mutex. ">release()</a>.</p>
 <p>If a <a class="el" href="classts_1_1_thread.html" title="Base class for threads. ">ts::Thread</a> which holds a mutex terminates before it has released the mutex, this mutex is automatically released.</p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
@@ -218,8 +218,8 @@ virtual&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="c
 
 </div>
 </div>
-<a id="ac3dda5ac0d1c79bdb465c71d83db5cc7"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ac3dda5ac0d1c79bdb465c71d83db5cc7">&#9670;&nbsp;</a></span>release()</h2>
+<a id="a968bb34a4ab03b45eeabfdfbd62f5325"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a968bb34a4ab03b45eeabfdfbd62f5325">&#9670;&nbsp;</a></span>release()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -236,13 +236,13 @@ virtual&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="c
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">virtual</span></span>  </td>
+<span class="mlabels"><span class="mlabel">override</span><span class="mlabel">virtual</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
 
 <p>Release the mutex. </p>
-<p>For each successful call to <a class="el" href="classts_1_1_mutex.html#a477a0b1733375ba4b1c4e34c7c4b2814" title="Acquire the mutex with a timeout. ">acquire()</a>, there must be exactly one call to <a class="el" href="classts_1_1_mutex.html#ac3dda5ac0d1c79bdb465c71d83db5cc7" title="Release the mutex. ">release()</a>.</p>
+<p>For each successful call to <a class="el" href="classts_1_1_mutex.html#a6f36f559ea8d00eb08a98f78212ea8cc" title="Acquire the mutex with a timeout. ">acquire()</a>, there must be exactly one call to <a class="el" href="classts_1_1_mutex.html#a968bb34a4ab03b45eeabfdfbd62f5325" title="Release the mutex. ">release()</a>.</p>
 <dl class="section return"><dt>Returns</dt><dd>true on success and false on error. </dd></dl>
 
 <p>Implements <a class="el" href="classts_1_1_mutex_interface.html#a50c2fd01b9bad58900f6978df26dbdf3">ts::MutexInterface</a>.</p>

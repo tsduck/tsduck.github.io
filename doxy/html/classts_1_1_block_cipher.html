@@ -34,7 +34,7 @@
  <tr style="height: 56px;">
   <td id="projectlogo"><img src="tsduck-32.png"/></td>
    <td id="projectalign"><span id="projectname">TSDuck</span>
-    <span id="projectnumber">Version 3.4</span>
+    <span id="projectnumber">Version 3.5</span>
     <span id="projectbrief">(TSDuck - The MPEG Transport Stream Toolkit)</span>
    </td>
    <td>        <div id="MSearchBox" class="MSearchBoxInactive">
@@ -156,9 +156,9 @@ virtual&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="c
 <tr class="memitem:ad0459f80f351298a7ec9c20ed5afa988"><td class="memItemLeft" align="right" valign="top">virtual size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classts_1_1_block_cipher.html#ad0459f80f351298a7ec9c20ed5afa988">minRounds</a> () const =0</td></tr>
 <tr class="memdesc:ad0459f80f351298a7ec9c20ed5afa988"><td class="mdescLeft">&#160;</td><td class="mdescRight">Minimum number of rounds for the algorithm.  <a href="#ad0459f80f351298a7ec9c20ed5afa988">More...</a><br /></td></tr>
 <tr class="separator:ad0459f80f351298a7ec9c20ed5afa988"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a1942859f13ed3e9664ac26b1e2bbde73"><td class="memItemLeft" align="right" valign="top">virtual std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classts_1_1_block_cipher.html#a1942859f13ed3e9664ac26b1e2bbde73">name</a> () const =0</td></tr>
-<tr class="memdesc:a1942859f13ed3e9664ac26b1e2bbde73"><td class="mdescLeft">&#160;</td><td class="mdescRight">Algorithm name (informational only).  <a href="#a1942859f13ed3e9664ac26b1e2bbde73">More...</a><br /></td></tr>
-<tr class="separator:a1942859f13ed3e9664ac26b1e2bbde73"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a92e63724e654d4da4666eb128c5902f5"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="classts_1_1_u_string.html">UString</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classts_1_1_block_cipher.html#a92e63724e654d4da4666eb128c5902f5">name</a> () const =0</td></tr>
+<tr class="memdesc:a92e63724e654d4da4666eb128c5902f5"><td class="mdescLeft">&#160;</td><td class="mdescRight">Algorithm name (informational only).  <a href="#a92e63724e654d4da4666eb128c5902f5">More...</a><br /></td></tr>
+<tr class="separator:a92e63724e654d4da4666eb128c5902f5"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a74f8c0fe8774363de8a9b3982352f32a"><td class="memItemLeft" align="right" valign="top">virtual bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classts_1_1_block_cipher.html#a74f8c0fe8774363de8a9b3982352f32a">setKey</a> (const void *key, size_t key_length, size_t rounds=0)=0</td></tr>
 <tr class="memdesc:a74f8c0fe8774363de8a9b3982352f32a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Schedule a new key.  <a href="#a74f8c0fe8774363de8a9b3982352f32a">More...</a><br /></td></tr>
 <tr class="separator:a74f8c0fe8774363de8a9b3982352f32a"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -166,8 +166,8 @@ virtual&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="c
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>Abstract interface of block ciphers. </p>
 </div><h2 class="groupheader">Member Function Documentation</h2>
-<a id="a1942859f13ed3e9664ac26b1e2bbde73"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a1942859f13ed3e9664ac26b1e2bbde73">&#9670;&nbsp;</a></span>name()</h2>
+<a id="a92e63724e654d4da4666eb128c5902f5"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a92e63724e654d4da4666eb128c5902f5">&#9670;&nbsp;</a></span>name()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -176,7 +176,7 @@ virtual&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="c
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">virtual std::string ts::BlockCipher::name </td>
+          <td class="memname">virtual <a class="el" href="classts_1_1_u_string.html">UString</a> ts::BlockCipher::name </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td> const</td>
@@ -192,7 +192,7 @@ virtual&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="c
 <p>Algorithm name (informational only). </p>
 <dl class="section return"><dt>Returns</dt><dd>The algorithm name. </dd></dl>
 
-<p>Implemented in <a class="el" href="classts_1_1_d_v_s042.html#af6b5ec1d2e6894a2539edd2b78529463">ts::DVS042&lt; CIPHER &gt;</a>, <a class="el" href="classts_1_1_d_v_s042.html#af6b5ec1d2e6894a2539edd2b78529463">ts::DVS042&lt; ts::AES &gt;</a>, <a class="el" href="classts_1_1_c_t_s1.html#aa3198f422f29f8c0a3db8be68c41b5ad">ts::CTS1&lt; CIPHER &gt;</a>, <a class="el" href="classts_1_1_c_t_s3.html#a433c275d4ec6221efadb8b2e9ed83a90">ts::CTS3&lt; CIPHER &gt;</a>, <a class="el" href="classts_1_1_c_t_s2.html#aaa00b101003320adb07c6c48f41b3e8b">ts::CTS2&lt; CIPHER &gt;</a>, <a class="el" href="classts_1_1_c_t_s4.html#a34964708c9663e9d4d669af3b9675720">ts::CTS4&lt; CIPHER &gt;</a>, <a class="el" href="classts_1_1_c_b_c.html#a46710e21928e382ef96d69e2a15ccbca">ts::CBC&lt; CIPHER &gt;</a>, <a class="el" href="classts_1_1_e_c_b.html#af0bfacf1003f2ea1ad57748a97973aed">ts::ECB&lt; CIPHER &gt;</a>, <a class="el" href="classts_1_1_a_e_s.html#a5e3e035898d55a46616b305f1bac11c6">ts::AES</a>, <a class="el" href="classts_1_1_d_e_s.html#ab9d8d28dc7600eeb780de028ad82cb80">ts::DES</a>, and <a class="el" href="classts_1_1_t_d_e_s.html#a1173e2ab5386d7e4cea13274c217451b">ts::TDES</a>.</p>
+<p>Implemented in <a class="el" href="classts_1_1_d_v_s042.html#a0ab26ae011c296a1cc31ed3db9440e56">ts::DVS042&lt; CIPHER &gt;</a>, <a class="el" href="classts_1_1_d_v_s042.html#a0ab26ae011c296a1cc31ed3db9440e56">ts::DVS042&lt; ts::AES &gt;</a>, <a class="el" href="classts_1_1_c_t_s1.html#abd47f1b1441c71b6e0a8a6b333fd7323">ts::CTS1&lt; CIPHER &gt;</a>, <a class="el" href="classts_1_1_c_t_s3.html#a93f8813833af61da2d1aeaa3fc6b681d">ts::CTS3&lt; CIPHER &gt;</a>, <a class="el" href="classts_1_1_c_t_s2.html#a1c32fd3aebe98bc3c2564619381828d4">ts::CTS2&lt; CIPHER &gt;</a>, <a class="el" href="classts_1_1_c_t_s4.html#a64020f9e6fbda4931d6d12bbe6be4f87">ts::CTS4&lt; CIPHER &gt;</a>, <a class="el" href="classts_1_1_c_b_c.html#a09b2bab9bc4191204517f548618cf245">ts::CBC&lt; CIPHER &gt;</a>, <a class="el" href="classts_1_1_e_c_b.html#a8aee1fb6bdcd287e82bff42b85e50301">ts::ECB&lt; CIPHER &gt;</a>, <a class="el" href="classts_1_1_a_e_s.html#a5dc843a1a8e773c1fa3e6a8d95581819">ts::AES</a>, <a class="el" href="classts_1_1_d_e_s.html#ad75d7d5d6749a7d31ac60cb261291b87">ts::DES</a>, and <a class="el" href="classts_1_1_t_d_e_s.html#a1f38df4b0fd146ac710ad283ffe857f0">ts::TDES</a>.</p>
 
 </div>
 </div>
@@ -222,7 +222,7 @@ virtual&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="c
 <p>Size in bytes of the block used by the algorithm. </p>
 <dl class="section return"><dt>Returns</dt><dd>The size in bytes of the block used by the algorithm. </dd></dl>
 
-<p>Implemented in <a class="el" href="classts_1_1_a_e_s.html#a536b34c2a0c048955b2d9c578b6bea3d">ts::AES</a>, <a class="el" href="classts_1_1_cipher_chaining.html#a6ab9faff3d7108f8d18f18c455349dbf">ts::CipherChaining</a>, <a class="el" href="classts_1_1_d_e_s.html#aa9812a6ca5c2bc0ef207da29d5ca3f73">ts::DES</a>, and <a class="el" href="classts_1_1_t_d_e_s.html#a5abbd51d4b2fdcc0520411359fab4e0e">ts::TDES</a>.</p>
+<p>Implemented in <a class="el" href="classts_1_1_a_e_s.html#a1c4bb8e5d0166cad9d4105cafc471b5b">ts::AES</a>, <a class="el" href="classts_1_1_cipher_chaining.html#a292212d99a48214146b7bacba10d0fb9">ts::CipherChaining</a>, <a class="el" href="classts_1_1_d_e_s.html#a5c826def716510e58c6d23a3be08db13">ts::DES</a>, and <a class="el" href="classts_1_1_t_d_e_s.html#ab6d62c145aa306d0fb3f0bcfd793823a">ts::TDES</a>.</p>
 
 </div>
 </div>
@@ -252,7 +252,7 @@ virtual&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="c
 <p>Minimum key sizes in bytes. </p>
 <dl class="section return"><dt>Returns</dt><dd>The minimum key sizes in bytes. </dd></dl>
 
-<p>Implemented in <a class="el" href="classts_1_1_a_e_s.html#a1a76eae74c108d15a9477407e6edc6d0">ts::AES</a>, <a class="el" href="classts_1_1_cipher_chaining.html#a0b921d1f554f9ec0ba39b97e3b251646">ts::CipherChaining</a>, <a class="el" href="classts_1_1_d_e_s.html#a08e5fb185ec6381291a8ac501895c077">ts::DES</a>, and <a class="el" href="classts_1_1_t_d_e_s.html#ae885ad0b3a652c9c7e0d68caa335c9f7">ts::TDES</a>.</p>
+<p>Implemented in <a class="el" href="classts_1_1_a_e_s.html#a08bb56853b2671fa79ffe73023683ad1">ts::AES</a>, <a class="el" href="classts_1_1_cipher_chaining.html#a84c2eeaf3d8a4396c8cb026a79517e49">ts::CipherChaining</a>, <a class="el" href="classts_1_1_d_e_s.html#a7bc7bac102baa606bd2930596d97404e">ts::DES</a>, and <a class="el" href="classts_1_1_t_d_e_s.html#a098330bc0a4cf2747fb7554c84aff7c4">ts::TDES</a>.</p>
 
 </div>
 </div>
@@ -282,7 +282,7 @@ virtual&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="c
 <p>Maximum key sizes in bytes. </p>
 <dl class="section return"><dt>Returns</dt><dd>The maximum key sizes in bytes. </dd></dl>
 
-<p>Implemented in <a class="el" href="classts_1_1_a_e_s.html#aeddc15942e675b647f8e7c316eff3ecc">ts::AES</a>, <a class="el" href="classts_1_1_cipher_chaining.html#a21547e25f86a77b669c7c0fb9c3a3930">ts::CipherChaining</a>, <a class="el" href="classts_1_1_d_e_s.html#ab92d0ac87c0b6f497032d6d644581e3e">ts::DES</a>, and <a class="el" href="classts_1_1_t_d_e_s.html#a49a35d78fa94b71a02840746c1832b57">ts::TDES</a>.</p>
+<p>Implemented in <a class="el" href="classts_1_1_a_e_s.html#af23a23fdc39cca4eb7d860707331a17b">ts::AES</a>, <a class="el" href="classts_1_1_cipher_chaining.html#ad2d8774b302e9915f99e53dbe2b9cd2f">ts::CipherChaining</a>, <a class="el" href="classts_1_1_d_e_s.html#a69f23100607595de3de3fa5c24dc4685">ts::DES</a>, and <a class="el" href="classts_1_1_t_d_e_s.html#a70ee2337de582b546a105495a9b35cc5">ts::TDES</a>.</p>
 
 </div>
 </div>
@@ -319,7 +319,7 @@ virtual&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="c
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>True if <em>size</em> is a valid key size for the algorithm. </dd></dl>
 
-<p>Implemented in <a class="el" href="classts_1_1_a_e_s.html#a23f6d36b396103f2e2ca5970d91dd5c3">ts::AES</a>, <a class="el" href="classts_1_1_cipher_chaining.html#a68c9ad6dcee8ed602e2f879c1eac2c02">ts::CipherChaining</a>, <a class="el" href="classts_1_1_d_e_s.html#a8609402b1f4e39b62ca21a5ed44130e2">ts::DES</a>, and <a class="el" href="classts_1_1_t_d_e_s.html#a39ca9b3725270653052c4dcce9c5765c">ts::TDES</a>.</p>
+<p>Implemented in <a class="el" href="classts_1_1_a_e_s.html#a98fa9fd363897ac04d76357f13c405cf">ts::AES</a>, <a class="el" href="classts_1_1_cipher_chaining.html#aba86de9dfc56b07e635875592892f2a2">ts::CipherChaining</a>, <a class="el" href="classts_1_1_d_e_s.html#afd8f7ca2480b3268d3ed2cc6e849dced">ts::DES</a>, and <a class="el" href="classts_1_1_t_d_e_s.html#a6a3643b99cd067b3965d8822c3002dbb">ts::TDES</a>.</p>
 
 </div>
 </div>
@@ -349,7 +349,7 @@ virtual&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="c
 <p>Minimum number of rounds for the algorithm. </p>
 <dl class="section return"><dt>Returns</dt><dd>The minimum number of rounds for the algorithm. </dd></dl>
 
-<p>Implemented in <a class="el" href="classts_1_1_a_e_s.html#a0bfe48698d1ba34b89ace64127afa941">ts::AES</a>, <a class="el" href="classts_1_1_cipher_chaining.html#a062a75df2ea7206589657e2484c5f8c0">ts::CipherChaining</a>, <a class="el" href="classts_1_1_d_e_s.html#ab64689f951543c00fba78e39a462d636">ts::DES</a>, and <a class="el" href="classts_1_1_t_d_e_s.html#ad1e94a43f2cad8e1753264c975b302eb">ts::TDES</a>.</p>
+<p>Implemented in <a class="el" href="classts_1_1_a_e_s.html#a77b5b8ea22b4285323c41d4ab15befa7">ts::AES</a>, <a class="el" href="classts_1_1_cipher_chaining.html#a0b6440d21660ced2a68a5eece499c681">ts::CipherChaining</a>, <a class="el" href="classts_1_1_d_e_s.html#ab68874cb707ad00814e91a3063ffc401">ts::DES</a>, and <a class="el" href="classts_1_1_t_d_e_s.html#a7084e1089b6ef4797128bea400e39c9e">ts::TDES</a>.</p>
 
 </div>
 </div>
@@ -379,7 +379,7 @@ virtual&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="c
 <p>Maximum number of rounds for the algorithm. </p>
 <dl class="section return"><dt>Returns</dt><dd>The maximum number of rounds for the algorithm. </dd></dl>
 
-<p>Implemented in <a class="el" href="classts_1_1_a_e_s.html#a30fd92b58bc23f19c4990e2c4b5e55f4">ts::AES</a>, <a class="el" href="classts_1_1_cipher_chaining.html#a43acea010a2c6decb38e726521c4d313">ts::CipherChaining</a>, <a class="el" href="classts_1_1_d_e_s.html#a0388bff868932a55fc29da4f6a9f033f">ts::DES</a>, and <a class="el" href="classts_1_1_t_d_e_s.html#a6ddafd2f6b35f9fb0c402a3c3c7a1c82">ts::TDES</a>.</p>
+<p>Implemented in <a class="el" href="classts_1_1_a_e_s.html#ac0c561ed3221a625f368a74db25fbef5">ts::AES</a>, <a class="el" href="classts_1_1_cipher_chaining.html#a086d6fae6f3422e9e549aefdaab7d331">ts::CipherChaining</a>, <a class="el" href="classts_1_1_d_e_s.html#abd4efbc577e8519151c96cf210a1ee1d">ts::DES</a>, and <a class="el" href="classts_1_1_t_d_e_s.html#afdcd9304e9a6e3f415a4efe8ff635c9c">ts::TDES</a>.</p>
 
 </div>
 </div>
@@ -409,7 +409,7 @@ virtual&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="c
 <p>Default number of rounds for the algorithm. </p>
 <dl class="section return"><dt>Returns</dt><dd>The default number of rounds for the algorithm. </dd></dl>
 
-<p>Implemented in <a class="el" href="classts_1_1_a_e_s.html#aba313fd2acb9760805a38532bd5c0164">ts::AES</a>, <a class="el" href="classts_1_1_cipher_chaining.html#a8f72549baadddd3066437a7a6fb85ed7">ts::CipherChaining</a>, <a class="el" href="classts_1_1_d_e_s.html#a9a6fdf820248933f75c4de415250c917">ts::DES</a>, and <a class="el" href="classts_1_1_t_d_e_s.html#ac6259fc475382bbc3656aed358bb53ac">ts::TDES</a>.</p>
+<p>Implemented in <a class="el" href="classts_1_1_a_e_s.html#a8c688a5dd815b7dbb0b2583ced696f01">ts::AES</a>, <a class="el" href="classts_1_1_cipher_chaining.html#a1f1daf9e41ef2f75a667fddc60b374dd">ts::CipherChaining</a>, <a class="el" href="classts_1_1_d_e_s.html#aee0555ffb24951f399d07bb5fd83e51a">ts::DES</a>, and <a class="el" href="classts_1_1_t_d_e_s.html#a93bd51dd4f64e0507d920a0df8e81b46">ts::TDES</a>.</p>
 
 </div>
 </div>
@@ -464,7 +464,7 @@ virtual&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="c
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>True on success, false on error. </dd></dl>
 
-<p>Implemented in <a class="el" href="classts_1_1_a_e_s.html#a5428e2f212de052f428f2955e01a5bbc">ts::AES</a>, <a class="el" href="classts_1_1_d_e_s.html#ae36c8b552e7ae71c95345821cf3feed5">ts::DES</a>, <a class="el" href="classts_1_1_t_d_e_s.html#a33689294d5de63d6bf10334b134d20f4">ts::TDES</a>, and <a class="el" href="classts_1_1_cipher_chaining.html#a1e911c91b35e41e3f17691b6adf8d59d">ts::CipherChaining</a>.</p>
+<p>Implemented in <a class="el" href="classts_1_1_a_e_s.html#a64ba88c59bb7af97f8f0aa5f15b5778b">ts::AES</a>, <a class="el" href="classts_1_1_d_e_s.html#a83dd5db65931b9db52584cfb98ae4cea">ts::DES</a>, <a class="el" href="classts_1_1_t_d_e_s.html#a112bab9d6794f8229c7453768a669778">ts::TDES</a>, and <a class="el" href="classts_1_1_cipher_chaining.html#adc948d4c651ec7931971ba4838f1874e">ts::CipherChaining</a>.</p>
 
 </div>
 </div>
@@ -534,7 +534,7 @@ virtual&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="c
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>True on success, false on error. </dd></dl>
 
-<p>Implemented in <a class="el" href="classts_1_1_d_v_s042.html#a5c1f2bd0766e5064aac95c67ae1de1f6">ts::DVS042&lt; CIPHER &gt;</a>, <a class="el" href="classts_1_1_d_v_s042.html#a5c1f2bd0766e5064aac95c67ae1de1f6">ts::DVS042&lt; ts::AES &gt;</a>, <a class="el" href="classts_1_1_c_t_s1.html#a0300044d061467b8fc42f64396431275">ts::CTS1&lt; CIPHER &gt;</a>, <a class="el" href="classts_1_1_c_t_s3.html#a3cdc7bf5ceac2edaf3bb4c32cb9fc82c">ts::CTS3&lt; CIPHER &gt;</a>, <a class="el" href="classts_1_1_c_t_s2.html#a362cc47d6d68b4669169f43cecd59728">ts::CTS2&lt; CIPHER &gt;</a>, <a class="el" href="classts_1_1_c_t_s4.html#aea2bd7aa60a17286dbbc7f74b9cf2eb0">ts::CTS4&lt; CIPHER &gt;</a>, <a class="el" href="classts_1_1_a_e_s.html#a848bd0c31f622a4a78f9b82b45ae2a5b">ts::AES</a>, <a class="el" href="classts_1_1_c_b_c.html#a78a0bf659d2f68ddb0e340ef4a25bf29">ts::CBC&lt; CIPHER &gt;</a>, <a class="el" href="classts_1_1_e_c_b.html#ac150781da5c7fb486c15ea304398d500">ts::ECB&lt; CIPHER &gt;</a>, <a class="el" href="classts_1_1_d_e_s.html#ad44a61ad202e3acb41eb1b1fe9dff698">ts::DES</a>, and <a class="el" href="classts_1_1_t_d_e_s.html#abddfaca580fcd3a31dd06180b764c798">ts::TDES</a>.</p>
+<p>Implemented in <a class="el" href="classts_1_1_d_v_s042.html#aab35616368408546c3f5e5d392eb1d5e">ts::DVS042&lt; CIPHER &gt;</a>, <a class="el" href="classts_1_1_d_v_s042.html#aab35616368408546c3f5e5d392eb1d5e">ts::DVS042&lt; ts::AES &gt;</a>, <a class="el" href="classts_1_1_c_t_s1.html#a8fbd50db8236575c6f00ebec9aa58848">ts::CTS1&lt; CIPHER &gt;</a>, <a class="el" href="classts_1_1_c_t_s3.html#a401bc0b942e200c4c076d28fab2177c4">ts::CTS3&lt; CIPHER &gt;</a>, <a class="el" href="classts_1_1_c_t_s2.html#ac6c88abe9e51c193d396205d48c5d6bc">ts::CTS2&lt; CIPHER &gt;</a>, <a class="el" href="classts_1_1_c_t_s4.html#a7fa3267eb61fc24f8d4dc1e1554cf82b">ts::CTS4&lt; CIPHER &gt;</a>, <a class="el" href="classts_1_1_a_e_s.html#ab7dcd50ab466d6f688966b79253a3daf">ts::AES</a>, <a class="el" href="classts_1_1_c_b_c.html#ae9ab112125a46a00a6d0be281fc2bf05">ts::CBC&lt; CIPHER &gt;</a>, <a class="el" href="classts_1_1_e_c_b.html#a67081075f5641d23787bc043fe2503d6">ts::ECB&lt; CIPHER &gt;</a>, <a class="el" href="classts_1_1_d_e_s.html#a40cbbfca585400bc4fb74c6ace8148ec">ts::DES</a>, and <a class="el" href="classts_1_1_t_d_e_s.html#a6bf3d3f70490e3de052eb1258b58ac8d">ts::TDES</a>.</p>
 
 </div>
 </div>
@@ -604,7 +604,7 @@ virtual&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="c
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>True on success, false on error. </dd></dl>
 
-<p>Implemented in <a class="el" href="classts_1_1_d_v_s042.html#ab13db2ee5113cdaab04b4df2e8fc5ab8">ts::DVS042&lt; CIPHER &gt;</a>, <a class="el" href="classts_1_1_d_v_s042.html#ab13db2ee5113cdaab04b4df2e8fc5ab8">ts::DVS042&lt; ts::AES &gt;</a>, <a class="el" href="classts_1_1_c_t_s1.html#a65b2ccd169943e08b265a764c8366a37">ts::CTS1&lt; CIPHER &gt;</a>, <a class="el" href="classts_1_1_c_t_s3.html#a90228c318ad0e9d29a03b57b4168c5ef">ts::CTS3&lt; CIPHER &gt;</a>, <a class="el" href="classts_1_1_c_t_s2.html#a46939d3a695291af41ebff69badee6f4">ts::CTS2&lt; CIPHER &gt;</a>, <a class="el" href="classts_1_1_c_t_s4.html#afd36895c7b7f43aa462e0fc3795b3244">ts::CTS4&lt; CIPHER &gt;</a>, <a class="el" href="classts_1_1_a_e_s.html#aa963b5db657ae8fa4f7d0aee47ffd1c2">ts::AES</a>, <a class="el" href="classts_1_1_c_b_c.html#a9a6b40f0fd33e6252b7035c3088876d3">ts::CBC&lt; CIPHER &gt;</a>, <a class="el" href="classts_1_1_e_c_b.html#a4d957c43a7870fa2dfe5973dcd75eb09">ts::ECB&lt; CIPHER &gt;</a>, <a class="el" href="classts_1_1_d_e_s.html#aa5268c224db2b2d8f3d104086b36e50c">ts::DES</a>, and <a class="el" href="classts_1_1_t_d_e_s.html#aa354f8253a271db80d70e224c5dbfd7e">ts::TDES</a>.</p>
+<p>Implemented in <a class="el" href="classts_1_1_d_v_s042.html#ac8f47c3c92a8438c26bbc4dc9a70d782">ts::DVS042&lt; CIPHER &gt;</a>, <a class="el" href="classts_1_1_d_v_s042.html#ac8f47c3c92a8438c26bbc4dc9a70d782">ts::DVS042&lt; ts::AES &gt;</a>, <a class="el" href="classts_1_1_c_t_s1.html#ab6dd1dc55d6f16e785e46cfa3c72afb1">ts::CTS1&lt; CIPHER &gt;</a>, <a class="el" href="classts_1_1_c_t_s3.html#ab054354f2041a0304a7a3bff4ea2f8ce">ts::CTS3&lt; CIPHER &gt;</a>, <a class="el" href="classts_1_1_c_t_s2.html#aa6111ed70d1aaa284905298bfcf2a97d">ts::CTS2&lt; CIPHER &gt;</a>, <a class="el" href="classts_1_1_c_t_s4.html#a827bbdeeaa5e12de35c70cc2c3ef43d3">ts::CTS4&lt; CIPHER &gt;</a>, <a class="el" href="classts_1_1_a_e_s.html#a697f18eebc49046e2054acdf703ddcba">ts::AES</a>, <a class="el" href="classts_1_1_c_b_c.html#a8d715ace30fe3da64973e760ffe4ed0b">ts::CBC&lt; CIPHER &gt;</a>, <a class="el" href="classts_1_1_e_c_b.html#a475a9b6d303390e45f5e754afd4e6c06">ts::ECB&lt; CIPHER &gt;</a>, <a class="el" href="classts_1_1_d_e_s.html#ade6181e9418d1325d56640a2e72af436">ts::DES</a>, and <a class="el" href="classts_1_1_t_d_e_s.html#a2080034d62322928f36d487f9d3da8ba">ts::TDES</a>.</p>
 
 </div>
 </div>

@@ -57,7 +57,6 @@ var searchData=
   ['mjd_5fmin_5fsize',['MJD_MIN_SIZE',['../namespacets.html#a89aabb15437c766330177f7f4336d894',1,'ts']]],
   ['mjd_5fsize',['MJD_SIZE',['../namespacets.html#a3192899c7f25c8326fb9cb167714eeb8',1,'ts']]],
   ['mobile_5fhandover_5finfo',['mobile_handover_info',['../classts_1_1_linkage_descriptor.html#a95fb6e40bd370b3dea384bc10f8d4907',1,'ts::LinkageDescriptor']]],
-  ['mode',['mode',['../classts_1_1_tables_logger_args.html#a973e48de0ed1bf3ecd9432565275a180',1,'ts::TablesLoggerArgs']]],
   ['modifier_5fletter_5fcircumflex_5faccent',['MODIFIER_LETTER_CIRCUMFLEX_ACCENT',['../namespacets.html#ad9773ba4ae738b6aa2f87cb803a69b23',1,'ts']]],
   ['modulation',['modulation',['../classts_1_1_tuner_args.html#a688eda155a4c26265dd4feacd938447e',1,'ts::TunerArgs::modulation()'],['../classts_1_1_tuner_parameters_a_t_s_c.html#a26e0b3fb5a3ad80fc27b608139bc3514',1,'ts::TunerParametersATSC::modulation()'],['../classts_1_1_tuner_parameters_d_v_b_c.html#aaa49a72c3a2ed8dcc4fb996afb80f80a',1,'ts::TunerParametersDVBC::modulation()'],['../classts_1_1_tuner_parameters_d_v_b_s.html#a23b7803b182341c7d1403b0fc3d7e3d6',1,'ts::TunerParametersDVBS::modulation()'],['../classts_1_1_tuner_parameters_d_v_b_t.html#ad4f2fe7bba24535ecbd2b8e29ebb324e',1,'ts::TunerParametersDVBT::modulation()']]],
   ['modulation_5ftype',['modulation_type',['../classts_1_1_satellite_delivery_system_descriptor.html#a2f7080dbbe39a9a1e416db3583709108',1,'ts::SatelliteDeliverySystemDescriptor']]],

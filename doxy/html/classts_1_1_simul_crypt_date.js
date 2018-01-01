@@ -31,6 +31,6 @@ var classts_1_1_simul_crypt_date =
     [ "operator>", "classts_1_1_simul_crypt_date.html#add6cc6a85c8b47b421b0a08b32da11b6", null ],
     [ "operator>=", "classts_1_1_simul_crypt_date.html#ad1154ac308d81cde6b222b893a0f147b", null ],
     [ "operator Time", "classts_1_1_simul_crypt_date.html#a36a79bd8f784316b062ea58beb7e138e", null ],
-    [ "operator std::string", "classts_1_1_simul_crypt_date.html#a8599a93f1f7983307147f820cc3095bb", null ],
+    [ "operator UString", "classts_1_1_simul_crypt_date.html#a2a4390eaf9d1d9bc1f78236fa5256921", null ],
     [ "SIZE", "classts_1_1_simul_crypt_date.html#a95a7e6faafcf0969ed358af554799b7f", null ]
 ];

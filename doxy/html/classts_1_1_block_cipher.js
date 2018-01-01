@@ -1,7 +1,7 @@
 var classts_1_1_block_cipher =
 [
     [ "~BlockCipher", "classts_1_1_block_cipher.html#a32776913caff1adb32dcef6a6581ba3f", null ],
-    [ "name", "classts_1_1_block_cipher.html#a1942859f13ed3e9664ac26b1e2bbde73", null ],
+    [ "name", "classts_1_1_block_cipher.html#a92e63724e654d4da4666eb128c5902f5", null ],
     [ "blockSize", "classts_1_1_block_cipher.html#aa7d8372bd82068868f9925cbc78ea9f1", null ],
     [ "minKeySize", "classts_1_1_block_cipher.html#ad63fb12dfb541fc587ec8f936d184281", null ],
     [ "maxKeySize", "classts_1_1_block_cipher.html#a292f5bf8aa9d88721dd86c249db44d21", null ],

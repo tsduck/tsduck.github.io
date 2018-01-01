@@ -5,7 +5,7 @@ var classts_1_1_bouquet_name_descriptor =
     [ "DisplayDescriptor", "classts_1_1_bouquet_name_descriptor.html#acfa99013502bb0c60ec91a02ba11a5fa", null ],
     [ "serialize", "classts_1_1_bouquet_name_descriptor.html#a11e907dde3bff20b3c1278dafd0c9a30", null ],
     [ "deserialize", "classts_1_1_bouquet_name_descriptor.html#aa89fff7b49a28d0e324fd22ad0d6c017", null ],
-    [ "toXML", "classts_1_1_bouquet_name_descriptor.html#ad0b225e16fbcb8cb97f56ad1f56ae85f", null ],
-    [ "fromXML", "classts_1_1_bouquet_name_descriptor.html#ae251869b144e25f8e07e59716cfbd87a", null ],
+    [ "buildXML", "classts_1_1_bouquet_name_descriptor.html#a54b1217cc7adaae1b9457894a21f6838", null ],
+    [ "fromXML", "classts_1_1_bouquet_name_descriptor.html#ad4fbea33a87ecfd1936f46c12dc80971", null ],
     [ "name", "classts_1_1_bouquet_name_descriptor.html#aa203d6358278fbc8ed4084c6f1040b4c", null ]
 ];

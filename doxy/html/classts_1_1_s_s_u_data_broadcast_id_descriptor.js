@@ -9,8 +9,8 @@ var classts_1_1_s_s_u_data_broadcast_id_descriptor =
     [ "toDataBroadcastIdDescriptor", "classts_1_1_s_s_u_data_broadcast_id_descriptor.html#ae81db225eaa10671ec9288e00b333ec5", null ],
     [ "serialize", "classts_1_1_s_s_u_data_broadcast_id_descriptor.html#a2458b649699bd2b2b5dcbcb5b316205d", null ],
     [ "deserialize", "classts_1_1_s_s_u_data_broadcast_id_descriptor.html#aecc9013d48bf36cc6c60cd40fee70295", null ],
-    [ "toXML", "classts_1_1_s_s_u_data_broadcast_id_descriptor.html#a0526d801463a59d661a52f5b4e495701", null ],
-    [ "fromXML", "classts_1_1_s_s_u_data_broadcast_id_descriptor.html#afa1f001bc2891938515a28a5cb138fb3", null ],
+    [ "toXML", "classts_1_1_s_s_u_data_broadcast_id_descriptor.html#a89d7dbf7c54f384e511bb64582978a0e", null ],
+    [ "fromXML", "classts_1_1_s_s_u_data_broadcast_id_descriptor.html#a2482d76a3d4bc52273410255524b14fa", null ],
     [ "entries", "classts_1_1_s_s_u_data_broadcast_id_descriptor.html#a68484783d6a0181c7d21177fceee9ca1", null ],
     [ "private_data", "classts_1_1_s_s_u_data_broadcast_id_descriptor.html#a935b3f52d1a7d58530741da498a0f52d", null ]
 ];

@@ -1,6 +1,7 @@
 var structts_1_1_teletext_descriptor_1_1_entry =
 [
-    [ "Entry", "structts_1_1_teletext_descriptor_1_1_entry.html#a07ff73661bf47542d0bb7530a17eb869", null ],
+    [ "Entry", "structts_1_1_teletext_descriptor_1_1_entry.html#a677bcdbf71b7f706efc132c95e4ec07a", null ],
+    [ "Entry", "structts_1_1_teletext_descriptor_1_1_entry.html#a24149fcaf798dcd13aead349eb997386", null ],
     [ "setFullNumber", "structts_1_1_teletext_descriptor_1_1_entry.html#a270f69f527bde171f38c48fb2e6226d8", null ],
     [ "pageNumber", "structts_1_1_teletext_descriptor_1_1_entry.html#a0d4ed318b945020342722bea81811c5e", null ],
     [ "magazineNumber", "structts_1_1_teletext_descriptor_1_1_entry.html#abbbbce1483db05bdaf7773e37a2573f0", null ],

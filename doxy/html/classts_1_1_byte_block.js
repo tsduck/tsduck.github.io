@@ -41,5 +41,12 @@ var classts_1_1_byte_block =
     [ "appendInt24LE", "classts_1_1_byte_block.html#ab9564dda3e217da46f79e02676dea335", null ],
     [ "appendInt32LE", "classts_1_1_byte_block.html#ad5af7059cc5448782eb51c8c9a46ae47", null ],
     [ "appendInt64LE", "classts_1_1_byte_block.html#aa82b9db8747b5a2746cd6c47766e55c5", null ],
-    [ "append", "classts_1_1_byte_block.html#abf75343150abcccf5182fde852a92562", null ]
+    [ "append", "classts_1_1_byte_block.html#a7e6bdf5c2888d6106e80e4fe451ca4a6", null ],
+    [ "loadFromFile", "classts_1_1_byte_block.html#ac8b1d715ed4dbec048ab4b1d04b09b4f", null ],
+    [ "appendFromFile", "classts_1_1_byte_block.html#ab96d08c165c4b1db55c344ff43a26ce0", null ],
+    [ "saveToFile", "classts_1_1_byte_block.html#a3e7c8810064f39ef05fc7e66d6997772", null ],
+    [ "appendToFile", "classts_1_1_byte_block.html#a0c65e0be76e40b268c7630cf69236460", null ],
+    [ "read", "classts_1_1_byte_block.html#abdeb85b9b86b6282aab9c8cc5776a438", null ],
+    [ "append", "classts_1_1_byte_block.html#a5910937f1e48e4c68f8377df0d3040ff", null ],
+    [ "write", "classts_1_1_byte_block.html#a7c999e4596b39c870066439dde31c954", null ]
 ];

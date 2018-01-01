@@ -34,7 +34,7 @@
  <tr style="height: 56px;">
   <td id="projectlogo"><img src="tsduck-32.png"/></td>
    <td id="projectalign"><span id="projectname">TSDuck</span>
-    <span id="projectnumber">Version 3.4</span>
+    <span id="projectnumber">Version 3.5</span>
     <span id="projectbrief">(TSDuck - The MPEG Transport Stream Toolkit)</span>
    </td>
    <td>        <div id="MSearchBox" class="MSearchBoxInactive">
@@ -92,6 +92,7 @@ $(document).ready(function(){initNavTree('ts_algorithm_8h.html','');});
 
 <div class="header">
   <div class="summary">
+<a href="#nested-classes">Classes</a> &#124;
 <a href="#namespaces">Namespaces</a> &#124;
 <a href="#func-members">Functions</a>  </div>
   <div class="headertitle">
@@ -102,6 +103,12 @@ $(document).ready(function(){initNavTree('ts_algorithm_8h.html','');});
 <p>Miscellaneous C++ algorithms supplementing the standard &lt;algorithm&gt;.  
 <a href="#details">More...</a></p>
 <table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="nested-classes"></a>
+Classes</h2></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classts_1_1_i_o_manipulator_proxy.html">ts::IOManipulatorProxy&lt; OSTREAM, PARAM, TRAITS &gt;</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">I/O manipulator with argument for subclasses of <code>std::basic_ostream</code>.  <a href="classts_1_1_i_o_manipulator_proxy.html#details">More...</a><br /></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="namespaces"></a>
 Namespaces</h2></td></tr>
 <tr class="memitem:namespacets"><td class="memItemLeft" align="right" valign="top"> &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacets.html">ts</a></td></tr>
@@ -118,6 +125,10 @@ Functions</h2></td></tr>
 <tr class="memitem:ae0c0c67e025cd6ee1b5a1d6839e12c52"><td class="memTemplItemLeft" align="right" valign="top">bool&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespacets.html#ae0c0c67e025cd6ee1b5a1d6839e12c52">ts::EnumerateCombinations</a> (const std::set&lt; T &gt; &amp;values, const std::set&lt; T &gt; &amp;fixed, size_t size, UnaryPredicate predicate)</td></tr>
 <tr class="memdesc:ae0c0c67e025cd6ee1b5a1d6839e12c52"><td class="mdescLeft">&#160;</td><td class="mdescRight">Enumerate all 'k'-elements combinations of a 'n'-elements set.  <a href="namespacets.html#ae0c0c67e025cd6ee1b5a1d6839e12c52">More...</a><br /></td></tr>
 <tr class="separator:ae0c0c67e025cd6ee1b5a1d6839e12c52"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a298dbb6b088b76146723607c70088ede"><td class="memTemplParams" colspan="2">template&lt;class OSTREAM , class TRAITS  = std::char_traits&lt;typename OSTREAM::char_type&gt;&gt; </td></tr>
+<tr class="memitem:a298dbb6b088b76146723607c70088ede"><td class="memTemplItemLeft" align="right" valign="top">std::basic_ostream&lt; typename OSTREAM::char_type, TRAITS &gt; &amp;&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespacets.html#a298dbb6b088b76146723607c70088ede">ts::IOManipulator</a> (std::basic_ostream&lt; typename OSTREAM::char_type, TRAITS &gt; &amp;strm, OSTREAM &amp;(OSTREAM::*func)())</td></tr>
+<tr class="memdesc:a298dbb6b088b76146723607c70088ede"><td class="mdescLeft">&#160;</td><td class="mdescRight">I/O manipulator for subclasses of <code>std::basic_ostream</code>.  <a href="namespacets.html#a298dbb6b088b76146723607c70088ede">More...</a><br /></td></tr>
+<tr class="separator:a298dbb6b088b76146723607c70088ede"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aa6b6a6e38fa8a09c74ee44d0d178674e"><td class="memTemplParams" colspan="2">template&lt;class CONTAINER &gt; </td></tr>
 <tr class="memitem:aa6b6a6e38fa8a09c74ee44d0d178674e"><td class="memTemplItemLeft" align="right" valign="top">size_t&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespacets.html#aa6b6a6e38fa8a09c74ee44d0d178674e">ts::LargestSize</a> (const CONTAINER &amp;container)</td></tr>
 <tr class="memdesc:aa6b6a6e38fa8a09c74ee44d0d178674e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the size of the largest object in a container of objects having a <code>size()</code> method.  <a href="namespacets.html#aa6b6a6e38fa8a09c74ee44d0d178674e">More...</a><br /></td></tr>
@@ -130,6 +141,10 @@ Functions</h2></td></tr>
 <tr class="memitem:a207d6ae9aa19fc106efe2e9a719147e5"><td class="memTemplItemLeft" align="right" valign="top">std::list&lt; typename MAP::mapped_type &gt;&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespacets.html#a207d6ae9aa19fc106efe2e9a719147e5">ts::MapValues</a> (const MAP &amp;container)</td></tr>
 <tr class="memdesc:a207d6ae9aa19fc106efe2e9a719147e5"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the list of all values in a map.  <a href="namespacets.html#a207d6ae9aa19fc106efe2e9a719147e5">More...</a><br /></td></tr>
 <tr class="separator:a207d6ae9aa19fc106efe2e9a719147e5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9f3156ae68d5e962abd45015d39f604b"><td class="memTemplParams" colspan="2">template&lt;class OSTREAM , class PARAM , class TRAITS  = std::char_traits&lt;typename OSTREAM::char_type&gt;&gt; </td></tr>
+<tr class="memitem:a9f3156ae68d5e962abd45015d39f604b"><td class="memTemplItemLeft" align="right" valign="top">std::basic_ostream&lt; typename OSTREAM::char_type, TRAITS &gt; &amp;&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="ts_algorithm_8h.html#a9f3156ae68d5e962abd45015d39f604b">operator&lt;&lt;</a> (std::basic_ostream&lt; typename OSTREAM::char_type, TRAITS &gt; &amp;strm, const <a class="el" href="classts_1_1_i_o_manipulator_proxy.html">ts::IOManipulatorProxy</a>&lt; OSTREAM, PARAM, TRAITS &gt; &amp;proxy)</td></tr>
+<tr class="memdesc:a9f3156ae68d5e962abd45015d39f604b"><td class="mdescLeft">&#160;</td><td class="mdescRight">An overload of operator "&lt;&lt;" on <code>std::basic_ostream</code> for <a class="el" href="classts_1_1_i_o_manipulator_proxy.html" title="I/O manipulator with argument for subclasses of std::basic_ostream. ">ts::IOManipulatorProxy</a>.  <a href="#a9f3156ae68d5e962abd45015d39f604b">More...</a><br /></td></tr>
+<tr class="separator:a9f3156ae68d5e962abd45015d39f604b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:acddffca0f4b799c16fb4a62a3b67d026"><td class="memTemplParams" colspan="2">template&lt;class CONTAINER &gt; </td></tr>
 <tr class="memitem:acddffca0f4b799c16fb4a62a3b67d026"><td class="memTemplItemLeft" align="right" valign="top">size_t&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespacets.html#acddffca0f4b799c16fb4a62a3b67d026">ts::SmallestSize</a> (const CONTAINER &amp;container)</td></tr>
 <tr class="memdesc:acddffca0f4b799c16fb4a62a3b67d026"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the size of the smallest object in a container of objects having a <code>size()</code> method.  <a href="namespacets.html#acddffca0f4b799c16fb4a62a3b67d026">More...</a><br /></td></tr>
@@ -138,7 +153,56 @@ Functions</h2></td></tr>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>Miscellaneous C++ algorithms supplementing the standard &lt;algorithm&gt;. </p>
 <p>This file declares several template functions implementing general-purpose algorithms. This header may be considered as an extension of the standard header &lt;algorithm&gt;, implementing other algorithms. </p>
-</div></div><!-- contents -->
+</div><h2 class="groupheader">Function Documentation</h2>
+<a id="a9f3156ae68d5e962abd45015d39f604b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9f3156ae68d5e962abd45015d39f604b">&#9670;&nbsp;</a></span>operator<<()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;class OSTREAM , class PARAM , class TRAITS  = std::char_traits&lt;typename OSTREAM::char_type&gt;&gt; </div>
+      <table class="memname">
+        <tr>
+          <td class="memname">std::basic_ostream&lt;typename OSTREAM::char_type, TRAITS&gt;&amp; operator&lt;&lt; </td>
+          <td>(</td>
+          <td class="paramtype">std::basic_ostream&lt; typename OSTREAM::char_type, TRAITS &gt; &amp;&#160;</td>
+          <td class="paramname"><em>strm</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="classts_1_1_i_o_manipulator_proxy.html">ts::IOManipulatorProxy</a>&lt; OSTREAM, PARAM, TRAITS &gt; &amp;&#160;</td>
+          <td class="paramname"><em>proxy</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>An overload of operator "&lt;&lt;" on <code>std::basic_ostream</code> for <a class="el" href="classts_1_1_i_o_manipulator_proxy.html" title="I/O manipulator with argument for subclasses of std::basic_ostream. ">ts::IOManipulatorProxy</a>. </p>
+<dl class="tparams"><dt>Template Parameters</dt><dd>
+  <table class="tparams">
+    <tr><td class="paramname">OSTREAM</td><td>A subclass of <code>std::basic_ostream</code>. </td></tr>
+    <tr><td class="paramname">PARAM</td><td>The type of the parameter for the manipulator. </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in,out]</td><td class="paramname">strm</td><td>The stream of class <em>OSTREAM</em> to manipulate. </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">proxy</td><td>The <a class="el" href="classts_1_1_i_o_manipulator_proxy.html" title="I/O manipulator with argument for subclasses of std::basic_ostream. ">ts::IOManipulatorProxy</a> object. </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>A reference to the <em>strm</em> object. </dd></dl>
+<dl class="section see"><dt>See also</dt><dd><a class="el" href="classts_1_1_i_o_manipulator_proxy.html" title="I/O manipulator with argument for subclasses of std::basic_ostream. ">ts::IOManipulatorProxy</a> </dd></dl>
+
+</div>
+</div>
+</div><!-- contents -->
 </div><!-- doc-content -->
 <!-- HTML footer for doxygen 1.8.12-->
 <!-- start footer part -->

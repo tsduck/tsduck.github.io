@@ -34,7 +34,7 @@
  <tr style="height: 56px;">
   <td id="projectlogo"><img src="tsduck-32.png"/></td>
    <td id="projectalign"><span id="projectname">TSDuck</span>
-    <span id="projectnumber">Version 3.4</span>
+    <span id="projectnumber">Version 3.5</span>
     <span id="projectbrief">(TSDuck - The MPEG Transport Stream Toolkit)</span>
    </td>
    <td>        <div id="MSearchBox" class="MSearchBoxInactive">
@@ -93,7 +93,6 @@ $(document).ready(function(){initNavTree('classts_1_1_binary_table.html','');});
 <div class="header">
   <div class="summary">
 <a href="#pub-methods">Public Member Functions</a> &#124;
-<a href="#pub-static-methods">Static Public Member Functions</a> &#124;
 <a href="classts_1_1_binary_table-members.html">List of all members</a>  </div>
   <div class="headertitle">
 <div class="title">ts::BinaryTable Class Reference</div>  </div>
@@ -121,12 +120,18 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:abb644205b486ffa163645b5032024338"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classts_1_1_binary_table.html#abb644205b486ffa163645b5032024338">addSections</a> (const <a class="el" href="namespacets.html#ae315a0b27332d67d87076aef85b6ab14">SectionPtrVector</a> &amp;sections, bool replace=true, bool grow=true)</td></tr>
 <tr class="memdesc:abb644205b486ffa163645b5032024338"><td class="mdescLeft">&#160;</td><td class="mdescRight">Add several sections to a table.  <a href="#abb644205b486ffa163645b5032024338">More...</a><br /></td></tr>
 <tr class="separator:abb644205b486ffa163645b5032024338"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a26e17b8f3f56b7b45769b4fbc9d2fa7a"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classts_1_1_binary_table.html#a26e17b8f3f56b7b45769b4fbc9d2fa7a">addSections</a> (SectionPtrVector::const_iterator first, SectionPtrVector::const_iterator last, bool replace=true, bool grow=true)</td></tr>
+<tr class="memdesc:a26e17b8f3f56b7b45769b4fbc9d2fa7a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Add several sections to a table.  <a href="#a26e17b8f3f56b7b45769b4fbc9d2fa7a">More...</a><br /></td></tr>
+<tr class="separator:a26e17b8f3f56b7b45769b4fbc9d2fa7a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ab4ae54095b8183bfe73bb5f38b7d36a4"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classts_1_1_binary_table.html#ab4ae54095b8183bfe73bb5f38b7d36a4">clear</a> ()</td></tr>
 <tr class="memdesc:ab4ae54095b8183bfe73bb5f38b7d36a4"><td class="mdescLeft">&#160;</td><td class="mdescRight">Clear the content of the table.  <a href="#ab4ae54095b8183bfe73bb5f38b7d36a4">More...</a><br /></td></tr>
 <tr class="separator:ab4ae54095b8183bfe73bb5f38b7d36a4"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ab53dbfa85cde4d0935ba6da172cbf691"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classts_1_1_binary_table.html">BinaryTable</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classts_1_1_binary_table.html#ab53dbfa85cde4d0935ba6da172cbf691">copy</a> (const <a class="el" href="classts_1_1_binary_table.html">BinaryTable</a> &amp;table)</td></tr>
 <tr class="memdesc:ab53dbfa85cde4d0935ba6da172cbf691"><td class="mdescLeft">&#160;</td><td class="mdescRight">Duplication.  <a href="#ab53dbfa85cde4d0935ba6da172cbf691">More...</a><br /></td></tr>
 <tr class="separator:ab53dbfa85cde4d0935ba6da172cbf691"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a67c581fbbea066a5333684f551d53cee"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classts_1_1_binary_table.html#a67c581fbbea066a5333684f551d53cee">fromXML</a> (const <a class="el" href="classts_1_1xml_1_1_element.html">xml::Element</a> *node, const <a class="el" href="classts_1_1_d_v_b_charset.html">DVBCharset</a> *charset=0)</td></tr>
+<tr class="memdesc:a67c581fbbea066a5333684f551d53cee"><td class="mdescLeft">&#160;</td><td class="mdescRight">This method converts an XML node as a binary table.  <a href="#a67c581fbbea066a5333684f551d53cee">More...</a><br /></td></tr>
+<tr class="separator:a67c581fbbea066a5333684f551d53cee"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a27ff29d689bcdfa4c2700021412c6317"><td class="memItemLeft" align="right" valign="top"><a class="el" href="namespacets.html#a9cdec7a120783847f53fbf71e5eb49f6">PacketCounter</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classts_1_1_binary_table.html#a27ff29d689bcdfa4c2700021412c6317">getFirstTSPacketIndex</a> () const</td></tr>
 <tr class="memdesc:a27ff29d689bcdfa4c2700021412c6317"><td class="mdescLeft">&#160;</td><td class="mdescRight">Index of first TS packet of the table in the demultiplexed stream.  <a href="#a27ff29d689bcdfa4c2700021412c6317">More...</a><br /></td></tr>
 <tr class="separator:a27ff29d689bcdfa4c2700021412c6317"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -148,9 +153,6 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:ade1fad5fd21d01b5c6009043abedeea2"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classts_1_1_binary_table.html#ade1fad5fd21d01b5c6009043abedeea2">operator==</a> (const <a class="el" href="classts_1_1_binary_table.html">BinaryTable</a> &amp;table) const</td></tr>
 <tr class="memdesc:ade1fad5fd21d01b5c6009043abedeea2"><td class="mdescLeft">&#160;</td><td class="mdescRight">Equality operator.  <a href="#ade1fad5fd21d01b5c6009043abedeea2">More...</a><br /></td></tr>
 <tr class="separator:ade1fad5fd21d01b5c6009043abedeea2"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a63dda1561393180f0ff92b6ad7de472b"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classts_1_1_binary_table.html#a63dda1561393180f0ff92b6ad7de472b">save</a> (const std::string &amp;file_name, <a class="el" href="classts_1_1_report_interface.html">ReportInterface</a> &amp;report=(*<a class="el" href="classts_1_1_cerr_report.html#ad5fc721c37e1eceab55d90f8c76ff6b6">ts::CerrReport::Instance</a>())) const</td></tr>
-<tr class="memdesc:a63dda1561393180f0ff92b6ad7de472b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Save the binary table in a file.  <a href="#a63dda1561393180f0ff92b6ad7de472b">More...</a><br /></td></tr>
-<tr class="separator:a63dda1561393180f0ff92b6ad7de472b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a466a957657f3c2e8bb719e582b5b714f"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="namespacets.html#ad1cb16ab224d86bb347f19ceccfb7898">SectionPtr</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classts_1_1_binary_table.html#a466a957657f3c2e8bb719e582b5b714f">sectionAt</a> (size_t index) const</td></tr>
 <tr class="memdesc:a466a957657f3c2e8bb719e582b5b714f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get a pointer to a section.  <a href="#a466a957657f3c2e8bb719e582b5b714f">More...</a><br /></td></tr>
 <tr class="separator:a466a957657f3c2e8bb719e582b5b714f"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -178,27 +180,12 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a174b8562a392c9dfd1dc252dbffabe81"><td class="memItemLeft" align="right" valign="top">size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classts_1_1_binary_table.html#a174b8562a392c9dfd1dc252dbffabe81">totalSize</a> () const</td></tr>
 <tr class="memdesc:a174b8562a392c9dfd1dc252dbffabe81"><td class="mdescLeft">&#160;</td><td class="mdescRight">Total size in bytes of all sections in the table.  <a href="#a174b8562a392c9dfd1dc252dbffabe81">More...</a><br /></td></tr>
 <tr class="separator:a174b8562a392c9dfd1dc252dbffabe81"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a18290f8ce2002f1cdc1657e280742127"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classts_1_1xml_1_1_element.html">xml::Element</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classts_1_1_binary_table.html#a18290f8ce2002f1cdc1657e280742127">toXML</a> (<a class="el" href="classts_1_1xml_1_1_element.html">xml::Element</a> *parent, bool forceGeneric=false, const <a class="el" href="classts_1_1_d_v_b_charset.html">DVBCharset</a> *charset=0) const</td></tr>
+<tr class="memdesc:a18290f8ce2002f1cdc1657e280742127"><td class="mdescLeft">&#160;</td><td class="mdescRight">This method converts the table to XML.  <a href="#a18290f8ce2002f1cdc1657e280742127">More...</a><br /></td></tr>
+<tr class="separator:a18290f8ce2002f1cdc1657e280742127"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a293e63c65ab5f426f94f556804189768"><td class="memItemLeft" align="right" valign="top">uint8_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classts_1_1_binary_table.html#a293e63c65ab5f426f94f556804189768">version</a> () const</td></tr>
 <tr class="memdesc:a293e63c65ab5f426f94f556804189768"><td class="mdescLeft">&#160;</td><td class="mdescRight">Fast access to the table version number.  <a href="#a293e63c65ab5f426f94f556804189768">More...</a><br /></td></tr>
 <tr class="separator:a293e63c65ab5f426f94f556804189768"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a617f8e70aebc58ac73dd9174a9675891"><td class="memItemLeft" align="right" valign="top">std::ostream &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classts_1_1_binary_table.html#a617f8e70aebc58ac73dd9174a9675891">write</a> (std::ostream &amp;strm, <a class="el" href="classts_1_1_report_interface.html">ReportInterface</a> &amp;report=(*<a class="el" href="classts_1_1_cerr_report.html#ad5fc721c37e1eceab55d90f8c76ff6b6">ts::CerrReport::Instance</a>())) const</td></tr>
-<tr class="memdesc:a617f8e70aebc58ac73dd9174a9675891"><td class="mdescLeft">&#160;</td><td class="mdescRight">Write the binary table on a standard stream.  <a href="#a617f8e70aebc58ac73dd9174a9675891">More...</a><br /></td></tr>
-<tr class="separator:a617f8e70aebc58ac73dd9174a9675891"><td class="memSeparator" colspan="2">&#160;</td></tr>
-</table><table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-static-methods"></a>
-Static Public Member Functions</h2></td></tr>
-<tr class="memitem:ab3ec41b2a4b386e678533dd3b21b4704"><td class="memItemLeft" align="right" valign="top">static bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classts_1_1_binary_table.html#ab3ec41b2a4b386e678533dd3b21b4704">LoadFile</a> (<a class="el" href="namespacets.html#a7017b77e378ebf4ac50e83a3b15ee0c4">BinaryTablePtrVector</a> &amp;tables, std::istream &amp;strm, <a class="el" href="classts_1_1_c_r_c32.html#a1cc9d89b8a7ff9db064d515524f99111">CRC32::Validation</a> crc_op=<a class="el" href="classts_1_1_c_r_c32.html#a1cc9d89b8a7ff9db064d515524f99111ab3c2e1af637914b62f2749fd39215b5d">CRC32::IGNORE</a>, <a class="el" href="classts_1_1_report_interface.html">ReportInterface</a> &amp;report=(*<a class="el" href="classts_1_1_cerr_report.html#ad5fc721c37e1eceab55d90f8c76ff6b6">ts::CerrReport::Instance</a>()))</td></tr>
-<tr class="memdesc:ab3ec41b2a4b386e678533dd3b21b4704"><td class="mdescLeft">&#160;</td><td class="mdescRight">This static method reads all tables from the specified file.  <a href="#ab3ec41b2a4b386e678533dd3b21b4704">More...</a><br /></td></tr>
-<tr class="separator:ab3ec41b2a4b386e678533dd3b21b4704"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ad8b82d30810b6c5653689631086cd061"><td class="memItemLeft" align="right" valign="top">static bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classts_1_1_binary_table.html#ad8b82d30810b6c5653689631086cd061">LoadFile</a> (<a class="el" href="namespacets.html#a7017b77e378ebf4ac50e83a3b15ee0c4">BinaryTablePtrVector</a> &amp;tables, const std::string &amp;file_name, <a class="el" href="classts_1_1_c_r_c32.html#a1cc9d89b8a7ff9db064d515524f99111">CRC32::Validation</a> crc_op=<a class="el" href="classts_1_1_c_r_c32.html#a1cc9d89b8a7ff9db064d515524f99111ab3c2e1af637914b62f2749fd39215b5d">CRC32::IGNORE</a>, <a class="el" href="classts_1_1_report_interface.html">ReportInterface</a> &amp;report=(*<a class="el" href="classts_1_1_cerr_report.html#ad5fc721c37e1eceab55d90f8c76ff6b6">ts::CerrReport::Instance</a>()))</td></tr>
-<tr class="memdesc:ad8b82d30810b6c5653689631086cd061"><td class="mdescLeft">&#160;</td><td class="mdescRight">This static method reads all tables from the specified file.  <a href="#ad8b82d30810b6c5653689631086cd061">More...</a><br /></td></tr>
-<tr class="separator:ad8b82d30810b6c5653689631086cd061"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a984d4003772bdc7a6d7ae9ca66c5facc"><td class="memItemLeft" align="right" valign="top">static std::ostream &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classts_1_1_binary_table.html#a984d4003772bdc7a6d7ae9ca66c5facc">SaveFile</a> (const <a class="el" href="namespacets.html#a7017b77e378ebf4ac50e83a3b15ee0c4">BinaryTablePtrVector</a> &amp;tables, std::ostream &amp;strm, <a class="el" href="classts_1_1_report_interface.html">ReportInterface</a> &amp;report=(*<a class="el" href="classts_1_1_cerr_report.html#ad5fc721c37e1eceab55d90f8c76ff6b6">ts::CerrReport::Instance</a>()))</td></tr>
-<tr class="memdesc:a984d4003772bdc7a6d7ae9ca66c5facc"><td class="mdescLeft">&#160;</td><td class="mdescRight">This static method writes all tables to the specified file.  <a href="#a984d4003772bdc7a6d7ae9ca66c5facc">More...</a><br /></td></tr>
-<tr class="separator:a984d4003772bdc7a6d7ae9ca66c5facc"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a22e075570a3cd465ca39533434b2a711"><td class="memItemLeft" align="right" valign="top">static bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classts_1_1_binary_table.html#a22e075570a3cd465ca39533434b2a711">SaveFile</a> (const <a class="el" href="namespacets.html#a7017b77e378ebf4ac50e83a3b15ee0c4">BinaryTablePtrVector</a> &amp;tables, const std::string &amp;file_name, <a class="el" href="classts_1_1_report_interface.html">ReportInterface</a> &amp;report=(*<a class="el" href="classts_1_1_cerr_report.html#ad5fc721c37e1eceab55d90f8c76ff6b6">ts::CerrReport::Instance</a>()))</td></tr>
-<tr class="memdesc:a22e075570a3cd465ca39533434b2a711"><td class="mdescLeft">&#160;</td><td class="mdescRight">This static method writes all tables to the specified file.  <a href="#a22e075570a3cd465ca39533434b2a711">More...</a><br /></td></tr>
-<tr class="separator:a22e075570a3cd465ca39533434b2a711"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>Representation of MPEG PSI/SI tables in binary form (ie. </p>
@@ -451,10 +438,13 @@ Static Public Member Functions</h2></td></tr>
 </div>
 </div>
 <a id="abb644205b486ffa163645b5032024338"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#abb644205b486ffa163645b5032024338">&#9670;&nbsp;</a></span>addSections()</h2>
+<h2 class="memtitle"><span class="permalink"><a href="#abb644205b486ffa163645b5032024338">&#9670;&nbsp;</a></span>addSections() <span class="overload">[1/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
       <table class="memname">
         <tr>
           <td class="memname">bool ts::BinaryTable::addSections </td>
@@ -480,12 +470,69 @@ Static Public Member Functions</h2></td></tr>
           <td></td><td></td>
         </tr>
       </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
 </div><div class="memdoc">
 
 <p>Add several sections to a table. </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramdir">[in]</td><td class="paramname">sections</td><td>An array of smart pointers to sections. </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">replace</td><td>If true, duplicated sections may be replaced. Otherwise, sections which are already present (based on section number) are not replaced. </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">grow</td><td>If true, the "last_section_number" of a section may be greater than the current "last_section_number" of the table. In this case, all sections which were previously added in the table are modified. </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>True on succes, false if a section could not be added (inconsistent property). </dd></dl>
+
+</div>
+</div>
+<a id="a26e17b8f3f56b7b45769b4fbc9d2fa7a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a26e17b8f3f56b7b45769b4fbc9d2fa7a">&#9670;&nbsp;</a></span>addSections() <span class="overload">[2/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool ts::BinaryTable::addSections </td>
+          <td>(</td>
+          <td class="paramtype">SectionPtrVector::const_iterator&#160;</td>
+          <td class="paramname"><em>first</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">SectionPtrVector::const_iterator&#160;</td>
+          <td class="paramname"><em>last</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">bool&#160;</td>
+          <td class="paramname"><em>replace</em> = <code>true</code>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">bool&#160;</td>
+          <td class="paramname"><em>grow</em> = <code>true</code>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Add several sections to a table. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">first</td><td>First iterator to an array of smart pointers to sections. </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">last</td><td>Last iterator to an array of smart pointers to sections. </td></tr>
     <tr><td class="paramdir">[in]</td><td class="paramname">replace</td><td>If true, duplicated sections may be replaced. Otherwise, sections which are already present (based on section number) are not replaced. </td></tr>
     <tr><td class="paramdir">[in]</td><td class="paramname">grow</td><td>If true, the "last_section_number" of a section may be greater than the current "last_section_number" of the table. In this case, all sections which were previously added in the table are modified. </td></tr>
   </table>
@@ -898,23 +945,29 @@ Static Public Member Functions</h2></td></tr>
 
 </div>
 </div>
-<a id="a617f8e70aebc58ac73dd9174a9675891"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a617f8e70aebc58ac73dd9174a9675891">&#9670;&nbsp;</a></span>write()</h2>
+<a id="a18290f8ce2002f1cdc1657e280742127"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a18290f8ce2002f1cdc1657e280742127">&#9670;&nbsp;</a></span>toXML()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">std::ostream&amp; ts::BinaryTable::write </td>
+          <td class="memname"><a class="el" href="classts_1_1xml_1_1_element.html">xml::Element</a>* ts::BinaryTable::toXML </td>
           <td>(</td>
-          <td class="paramtype">std::ostream &amp;&#160;</td>
-          <td class="paramname"><em>strm</em>, </td>
+          <td class="paramtype"><a class="el" href="classts_1_1xml_1_1_element.html">xml::Element</a> *&#160;</td>
+          <td class="paramname"><em>parent</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="classts_1_1_report_interface.html">ReportInterface</a> &amp;&#160;</td>
-          <td class="paramname"><em>report</em> = <code>(*<a class="el" href="classts_1_1_cerr_report.html#ad5fc721c37e1eceab55d90f8c76ff6b6">ts::CerrReport::Instance</a>())</code>&#160;</td>
+          <td class="paramtype">bool&#160;</td>
+          <td class="paramname"><em>forceGeneric</em> = <code>false</code>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="classts_1_1_d_v_b_charset.html">DVBCharset</a> *&#160;</td>
+          <td class="paramname"><em>charset</em> = <code>0</code>&#160;</td>
         </tr>
         <tr>
           <td></td>
@@ -924,88 +977,36 @@ Static Public Member Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Write the binary table on a standard stream. </p>
-<dl class="params"><dt>Parameters</dt><dd>
+<p>This method converts the table to XML. </p>
+<p>If the table has a specialized implementation, generate a specialized XML structure. Otherwise, generate a &lt;generic_short_table&gt; or &lt;generic_long_table&gt; node. </p><dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramdir">[in,out]</td><td class="paramname">strm</td><td>Output stream (binary output). </td></tr>
-    <tr><td class="paramdir">[in,out]</td><td class="paramname">report</td><td>Where to report errors. </td></tr>
+    <tr><td class="paramdir">[in,out]</td><td class="paramname">parent</td><td>The parent node for the XML representation. </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">forceGeneric</td><td>Force a generic table node even if the table can be specialized. </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">charset</td><td>If not zero, default character set to use. </td></tr>
   </table>
   </dd>
 </dl>
-<dl class="section return"><dt>Returns</dt><dd>A reference to <em>strm</em>. </dd></dl>
+<dl class="section return"><dt>Returns</dt><dd>The new XML element or zero if the table is not valid. </dd></dl>
 
 </div>
 </div>
-<a id="a63dda1561393180f0ff92b6ad7de472b"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a63dda1561393180f0ff92b6ad7de472b">&#9670;&nbsp;</a></span>save()</h2>
+<a id="a67c581fbbea066a5333684f551d53cee"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a67c581fbbea066a5333684f551d53cee">&#9670;&nbsp;</a></span>fromXML()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">bool ts::BinaryTable::save </td>
+          <td class="memname">bool ts::BinaryTable::fromXML </td>
           <td>(</td>
-          <td class="paramtype">const std::string &amp;&#160;</td>
-          <td class="paramname"><em>file_name</em>, </td>
+          <td class="paramtype">const <a class="el" href="classts_1_1xml_1_1_element.html">xml::Element</a> *&#160;</td>
+          <td class="paramname"><em>node</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="classts_1_1_report_interface.html">ReportInterface</a> &amp;&#160;</td>
-          <td class="paramname"><em>report</em> = <code>(*<a class="el" href="classts_1_1_cerr_report.html#ad5fc721c37e1eceab55d90f8c76ff6b6">ts::CerrReport::Instance</a>())</code>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td> const</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Save the binary table in a file. </p>
-<dl class="params"><dt>Parameters</dt><dd>
-  <table class="params">
-    <tr><td class="paramdir">[in]</td><td class="paramname">file_name</td><td>Name of the output file. </td></tr>
-    <tr><td class="paramdir">[in,out]</td><td class="paramname">report</td><td>Where to report errors. </td></tr>
-  </table>
-  </dd>
-</dl>
-<dl class="section return"><dt>Returns</dt><dd>True on success, false on error. </dd></dl>
-
-</div>
-</div>
-<a id="ab3ec41b2a4b386e678533dd3b21b4704"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ab3ec41b2a4b386e678533dd3b21b4704">&#9670;&nbsp;</a></span>LoadFile() <span class="overload">[1/2]</span></h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">static bool ts::BinaryTable::LoadFile </td>
-          <td>(</td>
-          <td class="paramtype"><a class="el" href="namespacets.html#a7017b77e378ebf4ac50e83a3b15ee0c4">BinaryTablePtrVector</a> &amp;&#160;</td>
-          <td class="paramname"><em>tables</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">std::istream &amp;&#160;</td>
-          <td class="paramname"><em>strm</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype"><a class="el" href="classts_1_1_c_r_c32.html#a1cc9d89b8a7ff9db064d515524f99111">CRC32::Validation</a>&#160;</td>
-          <td class="paramname"><em>crc_op</em> = <code><a class="el" href="classts_1_1_c_r_c32.html#a1cc9d89b8a7ff9db064d515524f99111ab3c2e1af637914b62f2749fd39215b5d">CRC32::IGNORE</a></code>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype"><a class="el" href="classts_1_1_report_interface.html">ReportInterface</a> &amp;&#160;</td>
-          <td class="paramname"><em>report</em> = <code>(*<a class="el" href="classts_1_1_cerr_report.html#ad5fc721c37e1eceab55d90f8c76ff6b6">ts::CerrReport::Instance</a>())</code>&#160;</td>
+          <td class="paramtype">const <a class="el" href="classts_1_1_d_v_b_charset.html">DVBCharset</a> *&#160;</td>
+          <td class="paramname"><em>charset</em> = <code>0</code>&#160;</td>
         </tr>
         <tr>
           <td></td>
@@ -1013,190 +1014,17 @@ Static Public Member Functions</h2></td></tr>
           <td></td><td></td>
         </tr>
       </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">static</span></span>  </td>
-  </tr>
-</table>
 </div><div class="memdoc">
 
-<p>This static method reads all tables from the specified file. </p>
-<p>The file shall contain all sections of each table contiguously and in increasing order of section numbers. </p><dl class="params"><dt>Parameters</dt><dd>
-  <table class="params">
-    <tr><td class="paramdir">[out]</td><td class="paramname">tables</td><td>Returned list of tables. </td></tr>
-    <tr><td class="paramdir">[in,out]</td><td class="paramname">strm</td><td>A standard stream in input mode (binary mode). </td></tr>
-    <tr><td class="paramdir">[in]</td><td class="paramname">crc_op</td><td>How to process the <a class="el" href="classts_1_1_c_r_c32.html" title="Cyclic Redundancy Check as used in MPEG sections. ">CRC32</a> of the input sections. </td></tr>
-    <tr><td class="paramdir">[in,out]</td><td class="paramname">report</td><td>Where to report errors. </td></tr>
-  </table>
-  </dd>
-</dl>
-<dl class="section return"><dt>Returns</dt><dd>True on success, false on error. </dd></dl>
-
-</div>
-</div>
-<a id="ad8b82d30810b6c5653689631086cd061"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ad8b82d30810b6c5653689631086cd061">&#9670;&nbsp;</a></span>LoadFile() <span class="overload">[2/2]</span></h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">static bool ts::BinaryTable::LoadFile </td>
-          <td>(</td>
-          <td class="paramtype"><a class="el" href="namespacets.html#a7017b77e378ebf4ac50e83a3b15ee0c4">BinaryTablePtrVector</a> &amp;&#160;</td>
-          <td class="paramname"><em>tables</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">const std::string &amp;&#160;</td>
-          <td class="paramname"><em>file_name</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype"><a class="el" href="classts_1_1_c_r_c32.html#a1cc9d89b8a7ff9db064d515524f99111">CRC32::Validation</a>&#160;</td>
-          <td class="paramname"><em>crc_op</em> = <code><a class="el" href="classts_1_1_c_r_c32.html#a1cc9d89b8a7ff9db064d515524f99111ab3c2e1af637914b62f2749fd39215b5d">CRC32::IGNORE</a></code>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype"><a class="el" href="classts_1_1_report_interface.html">ReportInterface</a> &amp;&#160;</td>
-          <td class="paramname"><em>report</em> = <code>(*<a class="el" href="classts_1_1_cerr_report.html#ad5fc721c37e1eceab55d90f8c76ff6b6">ts::CerrReport::Instance</a>())</code>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">static</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>This static method reads all tables from the specified file. </p>
-<p>The file shall contain all sections of each table contiguously and in increasing order of section numbers. </p><dl class="params"><dt>Parameters</dt><dd>
-  <table class="params">
-    <tr><td class="paramdir">[out]</td><td class="paramname">tables</td><td>Returned list of tables. </td></tr>
-    <tr><td class="paramdir">[in]</td><td class="paramname">file_name</td><td>Name of the file to read. </td></tr>
-    <tr><td class="paramdir">[in]</td><td class="paramname">crc_op</td><td>How to process the <a class="el" href="classts_1_1_c_r_c32.html" title="Cyclic Redundancy Check as used in MPEG sections. ">CRC32</a> of the input sections. </td></tr>
-    <tr><td class="paramdir">[in,out]</td><td class="paramname">report</td><td>Where to report errors. </td></tr>
-  </table>
-  </dd>
-</dl>
-<dl class="section return"><dt>Returns</dt><dd>True on success, false on error. </dd></dl>
-
-</div>
-</div>
-<a id="a984d4003772bdc7a6d7ae9ca66c5facc"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a984d4003772bdc7a6d7ae9ca66c5facc">&#9670;&nbsp;</a></span>SaveFile() <span class="overload">[1/2]</span></h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">static std::ostream&amp; ts::BinaryTable::SaveFile </td>
-          <td>(</td>
-          <td class="paramtype">const <a class="el" href="namespacets.html#a7017b77e378ebf4ac50e83a3b15ee0c4">BinaryTablePtrVector</a> &amp;&#160;</td>
-          <td class="paramname"><em>tables</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">std::ostream &amp;&#160;</td>
-          <td class="paramname"><em>strm</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype"><a class="el" href="classts_1_1_report_interface.html">ReportInterface</a> &amp;&#160;</td>
-          <td class="paramname"><em>report</em> = <code>(*<a class="el" href="classts_1_1_cerr_report.html#ad5fc721c37e1eceab55d90f8c76ff6b6">ts::CerrReport::Instance</a>())</code>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">static</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>This static method writes all tables to the specified file. </p>
+<p>This method converts an XML node as a binary table. </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramdir">[in]</td><td class="paramname">tables</td><td>List of tables to write. </td></tr>
-    <tr><td class="paramdir">[in,out]</td><td class="paramname">strm</td><td>A standard stream in output mode (binary mode). </td></tr>
-    <tr><td class="paramdir">[in,out]</td><td class="paramname">report</td><td>Where to report errors. </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">node</td><td>The root of the XML descriptor. </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">charset</td><td>If not zero, default character set to use. </td></tr>
   </table>
   </dd>
 </dl>
-<dl class="section return"><dt>Returns</dt><dd>A reference to <em>strm</em>. </dd></dl>
-
-</div>
-</div>
-<a id="a22e075570a3cd465ca39533434b2a711"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a22e075570a3cd465ca39533434b2a711">&#9670;&nbsp;</a></span>SaveFile() <span class="overload">[2/2]</span></h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">static bool ts::BinaryTable::SaveFile </td>
-          <td>(</td>
-          <td class="paramtype">const <a class="el" href="namespacets.html#a7017b77e378ebf4ac50e83a3b15ee0c4">BinaryTablePtrVector</a> &amp;&#160;</td>
-          <td class="paramname"><em>tables</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">const std::string &amp;&#160;</td>
-          <td class="paramname"><em>file_name</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype"><a class="el" href="classts_1_1_report_interface.html">ReportInterface</a> &amp;&#160;</td>
-          <td class="paramname"><em>report</em> = <code>(*<a class="el" href="classts_1_1_cerr_report.html#ad5fc721c37e1eceab55d90f8c76ff6b6">ts::CerrReport::Instance</a>())</code>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">static</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>This static method writes all tables to the specified file. </p>
-<dl class="params"><dt>Parameters</dt><dd>
-  <table class="params">
-    <tr><td class="paramdir">[in]</td><td class="paramname">tables</td><td>List of tables to write. </td></tr>
-    <tr><td class="paramdir">[in]</td><td class="paramname">file_name</td><td>Name of the file to write. </td></tr>
-    <tr><td class="paramdir">[in,out]</td><td class="paramname">report</td><td>Where to report errors. </td></tr>
-  </table>
-  </dd>
-</dl>
-<dl class="section return"><dt>Returns</dt><dd>True on success, false on error. </dd></dl>
+<dl class="section return"><dt>Returns</dt><dd>True if the XML element name is a valid table name, false otherwise. If the name is valid but the content is incorrect, true is returned and this object is invalidated. </dd></dl>
 
 </div>
 </div>

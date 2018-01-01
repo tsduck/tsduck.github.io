@@ -3,7 +3,7 @@ var searchData=
   ['_5fbuffer',['_buffer',['../classts_1_1tsp_1_1_plugin_executor.html#a588b211663855bf4e4cdd8a7cfe3b220',1,'ts::tsp::PluginExecutor']]],
   ['_5fcountry_5fcode',['_country_code',['../classts_1_1_t_s_analyzer.html#a05b420e5c38093cf5a37c1eb594dfc63',1,'ts::TSAnalyzer']]],
   ['_5fduration',['_duration',['../classts_1_1_t_s_analyzer.html#afab781c510cbe92eaf3cefd197e82a73',1,'ts::TSAnalyzer']]],
-  ['_5ffilename',['_filename',['../classts_1_1_t_s_file_input.html#aa36fd87c879dfa1b83692b2565ed6fd0',1,'ts::TSFileInput']]],
+  ['_5ffilename',['_filename',['../classts_1_1_t_s_file_input.html#afddd9ba6efe6431b7d1a1c025f923adc',1,'ts::TSFileInput']]],
   ['_5ffirst_5flocal',['_first_local',['../classts_1_1_t_s_analyzer.html#ab5443cdabc1d28e4b807c5e86f07c893',1,'ts::TSAnalyzer']]],
   ['_5ffirst_5ftdt',['_first_tdt',['../classts_1_1_t_s_analyzer.html#ac5fd22762b38dbf1d4185167f8be3390',1,'ts::TSAnalyzer']]],
   ['_5ffirst_5ftot',['_first_tot',['../classts_1_1_t_s_analyzer.html#af1579a496b1ce4adab236de4ffea39a7',1,'ts::TSAnalyzer']]],
@@ -19,13 +19,14 @@ var searchData=
   ['_5flast_5ftdt',['_last_tdt',['../classts_1_1_t_s_analyzer.html#ad790adf4ea2950276fe06d94b8cc4b0b',1,'ts::TSAnalyzer']]],
   ['_5flast_5ftot',['_last_tot',['../classts_1_1_t_s_analyzer.html#ae4b37db4c7ba6e2674a52fb5a605e0ac',1,'ts::TSAnalyzer']]],
   ['_5flast_5futc',['_last_utc',['../classts_1_1_t_s_analyzer.html#a20794b20d5dbaeab4c0f5a4629f8bfe4',1,'ts::TSAnalyzer']]],
-  ['_5fmax_5fseverity',['_max_severity',['../classts_1_1_report_interface.html#a4d31142e078c077844a4f1a2719dbfe2',1,'ts::ReportInterface']]],
+  ['_5fmax_5fseverity',['_max_severity',['../classts_1_1_report.html#a2fa24775812831ffc0a12d7efda4c6d7',1,'ts::Report']]],
   ['_5fmutex',['_mutex',['../classts_1_1_t_c_p_socket.html#a20a99d0f6a860d0f6c5c3f83684bae1a',1,'ts::TCPSocket']]],
-  ['_5fname',['_name',['../classts_1_1tsp_1_1_plugin_executor.html#a02663ed8c307c8d59f7d733c04323850',1,'ts::tsp::PluginExecutor']]],
+  ['_5fname',['_name',['../classts_1_1tsp_1_1_plugin_executor.html#a8387bb0060aaf411b35e7b2a495ab06e',1,'ts::tsp::PluginExecutor']]],
   ['_5fpcr_5fpid_5fcnt',['_pcr_pid_cnt',['../classts_1_1_t_s_analyzer.html#a396eeedf8896fb0ea67b4a6a5be7e3f5',1,'ts::TSAnalyzer']]],
   ['_5fpid_5fcnt',['_pid_cnt',['../classts_1_1_t_s_analyzer.html#a528f0ea0eb92c738a2652d9cf8c47f7a',1,'ts::TSAnalyzer']]],
   ['_5fpid_5ffilter',['_pid_filter',['../classts_1_1_abstract_demux.html#a50a41e649f26188b3f812696460acf87',1,'ts::AbstractDemux']]],
   ['_5fpids',['_pids',['../classts_1_1_t_s_analyzer.html#ac1c908dcc21bf56714ac568779d40918',1,'ts::TSAnalyzer']]],
+  ['_5freport',['_report',['../classts_1_1xml_1_1_node.html#ae2d90b437c1906081d54972b2dfc8bcb',1,'ts::xml::Node']]],
   ['_5frequired_5fpds',['_required_pds',['../classts_1_1_abstract_descriptor.html#a53bd8fcd27200d220c6283bd1775c0cd',1,'ts::AbstractDescriptor']]],
   ['_5fscrambled_5fpid_5fcnt',['_scrambled_pid_cnt',['../classts_1_1_t_s_analyzer.html#ae5ac4762aed97ae8c1162b2564877be0',1,'ts::TSAnalyzer']]],
   ['_5fscrambled_5fservices_5fcnt',['_scrambled_services_cnt',['../classts_1_1_t_s_analyzer.html#a32659bfca307c4578a29f450734fb0b2',1,'ts::TSAnalyzer']]],
@@ -53,5 +54,6 @@ var searchData=
   ['_5funref_5fpid_5fcnt',['_unref_pid_cnt',['../classts_1_1_t_s_analyzer.html#aa37388306add387dfbe99ac0d1ab8829',1,'ts::TSAnalyzer']]],
   ['_5funref_5fpkt_5fcnt',['_unref_pkt_cnt',['../classts_1_1_t_s_analyzer.html#a113ceee4cd2e53a25415bb91982c464d',1,'ts::TSAnalyzer']]],
   ['_5funref_5fscr_5fpids',['_unref_scr_pids',['../classts_1_1_t_s_analyzer.html#aadcb83c0ccc4d8c36450c8a6c930ad67',1,'ts::TSAnalyzer']]],
-  ['_5fxml_5fname',['_xml_name',['../classts_1_1_abstract_signalization.html#adbdb079a82724b6fb5e6af93ad37afb0',1,'ts::AbstractSignalization']]]
+  ['_5fvalue',['_value',['../classts_1_1xml_1_1_node.html#ac0c329301e2c51fd21a48ad74bf47b8b',1,'ts::xml::Node']]],
+  ['_5fxml_5fname',['_xml_name',['../classts_1_1_abstract_signalization.html#ae3c088f8d26763cf2c4dc47042ee32e1',1,'ts::AbstractSignalization']]]
 ];

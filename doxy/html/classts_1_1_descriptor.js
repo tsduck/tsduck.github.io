@@ -22,5 +22,7 @@ var classts_1_1_descriptor =
     [ "replacePayload", "classts_1_1_descriptor.html#a99a81c0c530d0029e1c45d7eeb1fdd57", null ],
     [ "resizePayload", "classts_1_1_descriptor.html#aacf3abbcd09805b4c892436ca3bc6195", null ],
     [ "operator==", "classts_1_1_descriptor.html#ad1dddc0c57af8b5a9ff6d18b8d5c5ecc", null ],
-    [ "operator!=", "classts_1_1_descriptor.html#ad846070aa6004b0c3240274e33f63cfb", null ]
+    [ "operator!=", "classts_1_1_descriptor.html#ad846070aa6004b0c3240274e33f63cfb", null ],
+    [ "toXML", "classts_1_1_descriptor.html#adf409ae98714c18ca4591ac2f079ee4b", null ],
+    [ "fromXML", "classts_1_1_descriptor.html#aa1a701bed3bee6f653823074757fea4a", null ]
 ];

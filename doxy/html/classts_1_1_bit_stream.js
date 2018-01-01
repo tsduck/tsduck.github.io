@@ -15,5 +15,5 @@ var classts_1_1_bit_stream =
     [ "back", "classts_1_1_bit_stream.html#ac92f197a7b71d106efd02ae32ba27e16", null ],
     [ "skipToNextByte", "classts_1_1_bit_stream.html#ae5b3ada7f413131c9583cc0043931033", null ],
     [ "readBit", "classts_1_1_bit_stream.html#a243b68425c3f62b65d33a93768954e65", null ],
-    [ "read", "classts_1_1_bit_stream.html#a9121d9e4f5e265542bcdfe2f65a28583", null ]
+    [ "read", "classts_1_1_bit_stream.html#ab4c414f3063804161e456fc7f93bdc96", null ]
 ];

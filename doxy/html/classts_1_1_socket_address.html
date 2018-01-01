@@ -34,7 +34,7 @@
  <tr style="height: 56px;">
   <td id="projectlogo"><img src="tsduck-32.png"/></td>
    <td id="projectalign"><span id="projectname">TSDuck</span>
-    <span id="projectnumber">Version 3.4</span>
+    <span id="projectnumber">Version 3.5</span>
     <span id="projectbrief">(TSDuck - The MPEG Transport Stream Toolkit)</span>
    </td>
    <td>        <div id="MSearchBox" class="MSearchBoxInactive">
@@ -143,9 +143,9 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a3fdcdb053f55471e8650bd6a81a2ccc4"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classts_1_1_socket_address.html#a3fdcdb053f55471e8650bd6a81a2ccc4">SocketAddress</a> (const ::sockaddr_in &amp;s)</td></tr>
 <tr class="memdesc:a3fdcdb053f55471e8650bd6a81a2ccc4"><td class="mdescLeft">&#160;</td><td class="mdescRight">Constructor from a system "struct sockaddr_in" structure (socket API).  <a href="#a3fdcdb053f55471e8650bd6a81a2ccc4">More...</a><br /></td></tr>
 <tr class="separator:a3fdcdb053f55471e8650bd6a81a2ccc4"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a1f598f1c96440b3b9c1463e5b008129c"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classts_1_1_socket_address.html#a1f598f1c96440b3b9c1463e5b008129c">SocketAddress</a> (const std::string &amp;name, <a class="el" href="classts_1_1_report_interface.html">ReportInterface</a> &amp;report=(*<a class="el" href="classts_1_1_cerr_report.html#ad5fc721c37e1eceab55d90f8c76ff6b6">ts::CerrReport::Instance</a>()))</td></tr>
-<tr class="memdesc:a1f598f1c96440b3b9c1463e5b008129c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Constructor from a string "addr[:port]" or "[addr:]port".  <a href="#a1f598f1c96440b3b9c1463e5b008129c">More...</a><br /></td></tr>
-<tr class="separator:a1f598f1c96440b3b9c1463e5b008129c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a73d99466ceb0e7aca7dbd6bd3a8bf81b"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classts_1_1_socket_address.html#a73d99466ceb0e7aca7dbd6bd3a8bf81b">SocketAddress</a> (const <a class="el" href="classts_1_1_u_string.html">UString</a> &amp;name, <a class="el" href="classts_1_1_report.html">Report</a> &amp;report=(*<a class="el" href="classts_1_1_cerr_report.html#ad5fc721c37e1eceab55d90f8c76ff6b6">ts::CerrReport::Instance</a>()))</td></tr>
+<tr class="memdesc:a73d99466ceb0e7aca7dbd6bd3a8bf81b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Constructor from a string "addr[:port]" or "[addr:]port".  <a href="#a73d99466ceb0e7aca7dbd6bd3a8bf81b">More...</a><br /></td></tr>
+<tr class="separator:a73d99466ceb0e7aca7dbd6bd3a8bf81b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ae8ad9b7d15970046fd1dfda231de0a95"><td class="memItemLeft" align="right" valign="top"><a id="ae8ad9b7d15970046fd1dfda231de0a95"></a>
 virtual&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classts_1_1_socket_address.html#ae8ad9b7d15970046fd1dfda231de0a95">~SocketAddress</a> ()</td></tr>
 <tr class="memdesc:ae8ad9b7d15970046fd1dfda231de0a95"><td class="mdescLeft">&#160;</td><td class="mdescRight">Virtual destructor. <br /></td></tr>
@@ -174,16 +174,12 @@ void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="clas
 <tr class="memitem:a3f54a28c0834ecf7c53e595dc389d27c"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classts_1_1_socket_address.html#a3f54a28c0834ecf7c53e595dc389d27c">hasPort</a> () const</td></tr>
 <tr class="memdesc:a3f54a28c0834ecf7c53e595dc389d27c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Check if port is set.  <a href="#a3f54a28c0834ecf7c53e595dc389d27c">More...</a><br /></td></tr>
 <tr class="separator:a3f54a28c0834ecf7c53e595dc389d27c"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a5a74b91673e48dbd80f07e79f3e1e1d8"><td class="memItemLeft" align="right" valign="top"><a id="a5a74b91673e48dbd80f07e79f3e1e1d8"></a>
-&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classts_1_1_socket_address.html#a5a74b91673e48dbd80f07e79f3e1e1d8">operator std::string</a> () const</td></tr>
-<tr class="memdesc:a5a74b91673e48dbd80f07e79f3e1e1d8"><td class="mdescLeft">&#160;</td><td class="mdescRight">Convert to a string object in numeric format "a.b.c.d[:port]". <br /></td></tr>
-<tr class="separator:a5a74b91673e48dbd80f07e79f3e1e1d8"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a766e6204b9dbc1653f66f2d456e1758b"><td class="memItemLeft" align="right" valign="top">uint16_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classts_1_1_socket_address.html#a766e6204b9dbc1653f66f2d456e1758b">port</a> () const</td></tr>
 <tr class="memdesc:a766e6204b9dbc1653f66f2d456e1758b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the port.  <a href="#a766e6204b9dbc1653f66f2d456e1758b">More...</a><br /></td></tr>
 <tr class="separator:a766e6204b9dbc1653f66f2d456e1758b"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ab68ed7ba662461ab477e64bb0db70406"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classts_1_1_socket_address.html#ab68ed7ba662461ab477e64bb0db70406">resolve</a> (const std::string &amp;name, <a class="el" href="classts_1_1_report_interface.html">ReportInterface</a> &amp;report=(*<a class="el" href="classts_1_1_cerr_report.html#ad5fc721c37e1eceab55d90f8c76ff6b6">ts::CerrReport::Instance</a>()))</td></tr>
-<tr class="memdesc:ab68ed7ba662461ab477e64bb0db70406"><td class="mdescLeft">&#160;</td><td class="mdescRight">Decode a string "addr[:port]" or "[addr:]port".  <a href="#ab68ed7ba662461ab477e64bb0db70406">More...</a><br /></td></tr>
-<tr class="separator:ab68ed7ba662461ab477e64bb0db70406"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a09b33e97411898ed0d2e5aa81b00db4a"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classts_1_1_socket_address.html#a09b33e97411898ed0d2e5aa81b00db4a">resolve</a> (const <a class="el" href="classts_1_1_u_string.html">UString</a> &amp;name, <a class="el" href="classts_1_1_report.html">Report</a> &amp;report=(*<a class="el" href="classts_1_1_cerr_report.html#ad5fc721c37e1eceab55d90f8c76ff6b6">ts::CerrReport::Instance</a>()))</td></tr>
+<tr class="memdesc:a09b33e97411898ed0d2e5aa81b00db4a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Decode a string "addr[:port]" or "[addr:]port".  <a href="#a09b33e97411898ed0d2e5aa81b00db4a">More...</a><br /></td></tr>
+<tr class="separator:a09b33e97411898ed0d2e5aa81b00db4a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a8ddaa13034a76686a62394ae58b3af16"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classts_1_1_socket_address.html#a8ddaa13034a76686a62394ae58b3af16">set</a> (uint32_t addr, uint16_t <a class="el" href="classts_1_1_socket_address.html#a766e6204b9dbc1653f66f2d456e1758b">port</a>)</td></tr>
 <tr class="memdesc:a8ddaa13034a76686a62394ae58b3af16"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set an integer address and optional port.  <a href="#a8ddaa13034a76686a62394ae58b3af16">More...</a><br /></td></tr>
 <tr class="separator:a8ddaa13034a76686a62394ae58b3af16"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -193,6 +189,9 @@ void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="clas
 <tr class="memitem:a92d0e88f731c282859a42832052f59f6"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classts_1_1_socket_address.html#a92d0e88f731c282859a42832052f59f6">setPort</a> (uint16_t <a class="el" href="classts_1_1_socket_address.html#a766e6204b9dbc1653f66f2d456e1758b">port</a>)</td></tr>
 <tr class="memdesc:a92d0e88f731c282859a42832052f59f6"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set the port.  <a href="#a92d0e88f731c282859a42832052f59f6">More...</a><br /></td></tr>
 <tr class="separator:a92d0e88f731c282859a42832052f59f6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aedca33398899d635a3619e74f36c4a3f"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="classts_1_1_u_string.html">UString</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classts_1_1_socket_address.html#aedca33398899d635a3619e74f36c4a3f">toString</a> () const override</td></tr>
+<tr class="memdesc:aedca33398899d635a3619e74f36c4a3f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Convert to a string object in numeric format "a.b.c.d[:port]".  <a href="#aedca33398899d635a3619e74f36c4a3f">More...</a><br /></td></tr>
+<tr class="separator:aedca33398899d635a3619e74f36c4a3f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="inherit_header pub_methods_classts_1_1_i_p_address"><td colspan="2" onclick="javascript:toggleInherit('pub_methods_classts_1_1_i_p_address')"><img src="closed.png" alt="-"/>&#160;Public Member Functions inherited from <a class="el" href="classts_1_1_i_p_address.html">ts::IPAddress</a></td></tr>
 <tr class="memitem:a39140fcd783404ac1a849166281d6dce inherit pub_methods_classts_1_1_i_p_address"><td class="memItemLeft" align="right" valign="top"><a id="a39140fcd783404ac1a849166281d6dce"></a>
 &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classts_1_1_i_p_address.html#a39140fcd783404ac1a849166281d6dce">IPAddress</a> ()</td></tr>
@@ -213,9 +212,9 @@ void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="clas
 <tr class="memitem:a8d3aa54ef0abfa2ec5030cc32bed36e8 inherit pub_methods_classts_1_1_i_p_address"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classts_1_1_i_p_address.html#a8d3aa54ef0abfa2ec5030cc32bed36e8">IPAddress</a> (const ::sockaddr_in &amp;a)</td></tr>
 <tr class="memdesc:a8d3aa54ef0abfa2ec5030cc32bed36e8 inherit pub_methods_classts_1_1_i_p_address"><td class="mdescLeft">&#160;</td><td class="mdescRight">Constructor from a system "struct sockaddr_in" structure (socket API).  <a href="classts_1_1_i_p_address.html#a8d3aa54ef0abfa2ec5030cc32bed36e8">More...</a><br /></td></tr>
 <tr class="separator:a8d3aa54ef0abfa2ec5030cc32bed36e8 inherit pub_methods_classts_1_1_i_p_address"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ad3b4e1326e978786dc07e074bb379557 inherit pub_methods_classts_1_1_i_p_address"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classts_1_1_i_p_address.html#ad3b4e1326e978786dc07e074bb379557">IPAddress</a> (const std::string &amp;name, <a class="el" href="classts_1_1_report_interface.html">ReportInterface</a> &amp;report=(*<a class="el" href="classts_1_1_cerr_report.html#ad5fc721c37e1eceab55d90f8c76ff6b6">ts::CerrReport::Instance</a>()))</td></tr>
-<tr class="memdesc:ad3b4e1326e978786dc07e074bb379557 inherit pub_methods_classts_1_1_i_p_address"><td class="mdescLeft">&#160;</td><td class="mdescRight">Constructor from a string, host name or "a.b.c.d" integer format.  <a href="classts_1_1_i_p_address.html#ad3b4e1326e978786dc07e074bb379557">More...</a><br /></td></tr>
-<tr class="separator:ad3b4e1326e978786dc07e074bb379557 inherit pub_methods_classts_1_1_i_p_address"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af919fd8352541d0a0aee23698d884022 inherit pub_methods_classts_1_1_i_p_address"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classts_1_1_i_p_address.html#af919fd8352541d0a0aee23698d884022">IPAddress</a> (const <a class="el" href="classts_1_1_u_string.html">UString</a> &amp;name, <a class="el" href="classts_1_1_report.html">Report</a> &amp;report=(*<a class="el" href="classts_1_1_cerr_report.html#ad5fc721c37e1eceab55d90f8c76ff6b6">ts::CerrReport::Instance</a>()))</td></tr>
+<tr class="memdesc:af919fd8352541d0a0aee23698d884022 inherit pub_methods_classts_1_1_i_p_address"><td class="mdescLeft">&#160;</td><td class="mdescRight">Constructor from a string, host name or "a.b.c.d" integer format.  <a href="classts_1_1_i_p_address.html#af919fd8352541d0a0aee23698d884022">More...</a><br /></td></tr>
+<tr class="separator:af919fd8352541d0a0aee23698d884022 inherit pub_methods_classts_1_1_i_p_address"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ad5c7d881ef13d2e24c361a4711f8872c inherit pub_methods_classts_1_1_i_p_address"><td class="memItemLeft" align="right" valign="top"><a id="ad5c7d881ef13d2e24c361a4711f8872c"></a>
 virtual&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classts_1_1_i_p_address.html#ad5c7d881ef13d2e24c361a4711f8872c">~IPAddress</a> ()</td></tr>
 <tr class="memdesc:ad5c7d881ef13d2e24c361a4711f8872c inherit pub_methods_classts_1_1_i_p_address"><td class="mdescLeft">&#160;</td><td class="mdescRight">Virtual destructor. <br /></td></tr>
@@ -242,19 +241,15 @@ void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="clas
 <tr class="memitem:a28c23bf6e13a1e6992acfc1b6a4bbc49 inherit pub_methods_classts_1_1_i_p_address"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classts_1_1_i_p_address.html#a28c23bf6e13a1e6992acfc1b6a4bbc49">isMulticast</a> () const</td></tr>
 <tr class="memdesc:a28c23bf6e13a1e6992acfc1b6a4bbc49 inherit pub_methods_classts_1_1_i_p_address"><td class="mdescLeft">&#160;</td><td class="mdescRight">Check if the address is a multicast address.  <a href="classts_1_1_i_p_address.html#a28c23bf6e13a1e6992acfc1b6a4bbc49">More...</a><br /></td></tr>
 <tr class="separator:a28c23bf6e13a1e6992acfc1b6a4bbc49 inherit pub_methods_classts_1_1_i_p_address"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a3d4434b6880a1828907dc1643575f7cd inherit pub_methods_classts_1_1_i_p_address"><td class="memItemLeft" align="right" valign="top"><a id="a3d4434b6880a1828907dc1643575f7cd"></a>
-&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classts_1_1_i_p_address.html#a3d4434b6880a1828907dc1643575f7cd">operator std::string</a> () const</td></tr>
-<tr class="memdesc:a3d4434b6880a1828907dc1643575f7cd inherit pub_methods_classts_1_1_i_p_address"><td class="mdescLeft">&#160;</td><td class="mdescRight">Convert to a string object in numeric format "a.b.c.d". <br /></td></tr>
-<tr class="separator:a3d4434b6880a1828907dc1643575f7cd inherit pub_methods_classts_1_1_i_p_address"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a95c04078e1673a1d5526e2676d94a117 inherit pub_methods_classts_1_1_i_p_address"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classts_1_1_i_p_address.html#a95c04078e1673a1d5526e2676d94a117">operator!=</a> (const <a class="el" href="classts_1_1_i_p_address.html">IPAddress</a> &amp;a) const</td></tr>
 <tr class="memdesc:a95c04078e1673a1d5526e2676d94a117 inherit pub_methods_classts_1_1_i_p_address"><td class="mdescLeft">&#160;</td><td class="mdescRight">Unequality operator.  <a href="classts_1_1_i_p_address.html#a95c04078e1673a1d5526e2676d94a117">More...</a><br /></td></tr>
 <tr class="separator:a95c04078e1673a1d5526e2676d94a117 inherit pub_methods_classts_1_1_i_p_address"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a1eacc2b13a5ba0b03a2c228c7995b0e8 inherit pub_methods_classts_1_1_i_p_address"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classts_1_1_i_p_address.html#a1eacc2b13a5ba0b03a2c228c7995b0e8">operator==</a> (const <a class="el" href="classts_1_1_i_p_address.html">IPAddress</a> &amp;a) const</td></tr>
 <tr class="memdesc:a1eacc2b13a5ba0b03a2c228c7995b0e8 inherit pub_methods_classts_1_1_i_p_address"><td class="mdescLeft">&#160;</td><td class="mdescRight">Equality operator.  <a href="classts_1_1_i_p_address.html#a1eacc2b13a5ba0b03a2c228c7995b0e8">More...</a><br /></td></tr>
 <tr class="separator:a1eacc2b13a5ba0b03a2c228c7995b0e8 inherit pub_methods_classts_1_1_i_p_address"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a5b25da0a21fec7e892d9c177061ae7b9 inherit pub_methods_classts_1_1_i_p_address"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classts_1_1_i_p_address.html#a5b25da0a21fec7e892d9c177061ae7b9">resolve</a> (const std::string &amp;name, <a class="el" href="classts_1_1_report_interface.html">ReportInterface</a> &amp;report=(*<a class="el" href="classts_1_1_cerr_report.html#ad5fc721c37e1eceab55d90f8c76ff6b6">ts::CerrReport::Instance</a>()))</td></tr>
-<tr class="memdesc:a5b25da0a21fec7e892d9c177061ae7b9 inherit pub_methods_classts_1_1_i_p_address"><td class="mdescLeft">&#160;</td><td class="mdescRight">Decode a string, numeric address or hostname which is resolved.  <a href="classts_1_1_i_p_address.html#a5b25da0a21fec7e892d9c177061ae7b9">More...</a><br /></td></tr>
-<tr class="separator:a5b25da0a21fec7e892d9c177061ae7b9 inherit pub_methods_classts_1_1_i_p_address"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac8fb17f55d6eb06fa0224e17f325c66d inherit pub_methods_classts_1_1_i_p_address"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classts_1_1_i_p_address.html#ac8fb17f55d6eb06fa0224e17f325c66d">resolve</a> (const <a class="el" href="classts_1_1_u_string.html">UString</a> &amp;name, <a class="el" href="classts_1_1_report.html">Report</a> &amp;report=(*<a class="el" href="classts_1_1_cerr_report.html#ad5fc721c37e1eceab55d90f8c76ff6b6">ts::CerrReport::Instance</a>()))</td></tr>
+<tr class="memdesc:ac8fb17f55d6eb06fa0224e17f325c66d inherit pub_methods_classts_1_1_i_p_address"><td class="mdescLeft">&#160;</td><td class="mdescRight">Decode a string, numeric address or hostname which is resolved.  <a href="classts_1_1_i_p_address.html#ac8fb17f55d6eb06fa0224e17f325c66d">More...</a><br /></td></tr>
+<tr class="separator:ac8fb17f55d6eb06fa0224e17f325c66d inherit pub_methods_classts_1_1_i_p_address"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a1b6e8088f3846d8b1c631f5b30a6ecf5 inherit pub_methods_classts_1_1_i_p_address"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classts_1_1_i_p_address.html#a1b6e8088f3846d8b1c631f5b30a6ecf5">setAddress</a> (uint32_t addr)</td></tr>
 <tr class="memdesc:a1b6e8088f3846d8b1c631f5b30a6ecf5 inherit pub_methods_classts_1_1_i_p_address"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set the IP address from a 32-bit integer value in host byte order.  <a href="classts_1_1_i_p_address.html#a1b6e8088f3846d8b1c631f5b30a6ecf5">More...</a><br /></td></tr>
 <tr class="separator:a1b6e8088f3846d8b1c631f5b30a6ecf5 inherit pub_methods_classts_1_1_i_p_address"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -534,8 +529,8 @@ static const uint32_t&#160;</td><td class="memItemRight" valign="bottom"><a clas
 
 </div>
 </div>
-<a id="a1f598f1c96440b3b9c1463e5b008129c"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a1f598f1c96440b3b9c1463e5b008129c">&#9670;&nbsp;</a></span>SocketAddress() <span class="overload">[7/7]</span></h2>
+<a id="a73d99466ceb0e7aca7dbd6bd3a8bf81b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a73d99466ceb0e7aca7dbd6bd3a8bf81b">&#9670;&nbsp;</a></span>SocketAddress() <span class="overload">[7/7]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -546,13 +541,13 @@ static const uint32_t&#160;</td><td class="memItemRight" valign="bottom"><a clas
         <tr>
           <td class="memname">ts::SocketAddress::SocketAddress </td>
           <td>(</td>
-          <td class="paramtype">const std::string &amp;&#160;</td>
+          <td class="paramtype">const <a class="el" href="classts_1_1_u_string.html">UString</a> &amp;&#160;</td>
           <td class="paramname"><em>name</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="classts_1_1_report_interface.html">ReportInterface</a> &amp;&#160;</td>
+          <td class="paramtype"><a class="el" href="classts_1_1_report.html">Report</a> &amp;&#160;</td>
           <td class="paramname"><em>report</em> = <code>(*<a class="el" href="classts_1_1_cerr_report.html#ad5fc721c37e1eceab55d90f8c76ff6b6">ts::CerrReport::Instance</a>())</code>&#160;</td>
         </tr>
         <tr>
@@ -883,8 +878,8 @@ static const uint32_t&#160;</td><td class="memItemRight" valign="bottom"><a clas
 
 </div>
 </div>
-<a id="ab68ed7ba662461ab477e64bb0db70406"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ab68ed7ba662461ab477e64bb0db70406">&#9670;&nbsp;</a></span>resolve()</h2>
+<a id="a09b33e97411898ed0d2e5aa81b00db4a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a09b33e97411898ed0d2e5aa81b00db4a">&#9670;&nbsp;</a></span>resolve()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -892,13 +887,13 @@ static const uint32_t&#160;</td><td class="memItemRight" valign="bottom"><a clas
         <tr>
           <td class="memname">bool ts::SocketAddress::resolve </td>
           <td>(</td>
-          <td class="paramtype">const std::string &amp;&#160;</td>
+          <td class="paramtype">const <a class="el" href="classts_1_1_u_string.html">UString</a> &amp;&#160;</td>
           <td class="paramname"><em>name</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="classts_1_1_report_interface.html">ReportInterface</a> &amp;&#160;</td>
+          <td class="paramtype"><a class="el" href="classts_1_1_report.html">Report</a> &amp;&#160;</td>
           <td class="paramname"><em>report</em> = <code>(*<a class="el" href="classts_1_1_cerr_report.html#ad5fc721c37e1eceab55d90f8c76ff6b6">ts::CerrReport::Instance</a>())</code>&#160;</td>
         </tr>
         <tr>
@@ -918,6 +913,36 @@ static const uint32_t&#160;</td><td class="memItemRight" valign="bottom"><a clas
   </dd>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>True if <em>name</em> was successfully resolved, false otherwise. In the later case, the integer value of the address is set to <a class="el" href="classts_1_1_i_p_address.html#af4294b58b0d7a036aea174cbc84114aa">AnyAddress</a> and port to <a class="el" href="classts_1_1_socket_address.html#ae659295ea425a1977d3e7ec895562589">AnyPort</a>. </dd></dl>
+
+</div>
+</div>
+<a id="aedca33398899d635a3619e74f36c4a3f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aedca33398899d635a3619e74f36c4a3f">&#9670;&nbsp;</a></span>toString()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual <a class="el" href="classts_1_1_u_string.html">UString</a> ts::SocketAddress::toString </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">override</span><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Convert to a string object in numeric format "a.b.c.d[:port]". </p>
+<dl class="section return"><dt>Returns</dt><dd>This object, converted as a string. </dd></dl>
+
+<p>Reimplemented from <a class="el" href="classts_1_1_i_p_address.html#a865370fb7ad0d8c205654d31b6e50667">ts::IPAddress</a>.</p>
 
 </div>
 </div>

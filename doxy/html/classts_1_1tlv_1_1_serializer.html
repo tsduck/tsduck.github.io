@@ -34,7 +34,7 @@
  <tr style="height: 56px;">
   <td id="projectlogo"><img src="tsduck-32.png"/></td>
    <td id="projectalign"><span id="projectname">TSDuck</span>
-    <span id="projectnumber">Version 3.4</span>
+    <span id="projectnumber">Version 3.5</span>
     <span id="projectbrief">(TSDuck - The MPEG Transport Stream Toolkit)</span>
    </td>
    <td>        <div id="MSearchBox" class="MSearchBoxInactive">
@@ -119,21 +119,18 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a57b7a498cd0c46fdc9059039b82c6cf7"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classts_1_1tlv_1_1_serializer.html#a57b7a498cd0c46fdc9059039b82c6cf7">openTLV</a> (<a class="el" href="namespacets_1_1tlv.html#aa0bb3c49aaa667cbf923060d0da85c99">TAG</a> tag)</td></tr>
 <tr class="memdesc:a57b7a498cd0c46fdc9059039b82c6cf7"><td class="mdescLeft">&#160;</td><td class="mdescRight">Open a TLV structure.  <a href="#a57b7a498cd0c46fdc9059039b82c6cf7">More...</a><br /></td></tr>
 <tr class="separator:a57b7a498cd0c46fdc9059039b82c6cf7"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a1301814b0da85865066715bf5ec54670"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classts_1_1tlv_1_1_serializer.html#a1301814b0da85865066715bf5ec54670">operator std::string</a> () const</td></tr>
-<tr class="memdesc:a1301814b0da85865066715bf5ec54670"><td class="mdescLeft">&#160;</td><td class="mdescRight">Convert to a string (for debug purpose).  <a href="#a1301814b0da85865066715bf5ec54670">More...</a><br /></td></tr>
-<tr class="separator:a1301814b0da85865066715bf5ec54670"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aeea5eb0eafd515a3e11562922347b8b6"><td class="memTemplParams" colspan="2">template&lt;typename INT &gt; </td></tr>
-<tr class="memitem:aeea5eb0eafd515a3e11562922347b8b6"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="classts_1_1tlv_1_1_serializer.html#aeea5eb0eafd515a3e11562922347b8b6">put</a> (INT i)</td></tr>
-<tr class="memdesc:aeea5eb0eafd515a3e11562922347b8b6"><td class="mdescLeft">&#160;</td><td class="mdescRight">Insert an integer value in the stream (template variant).  <a href="#aeea5eb0eafd515a3e11562922347b8b6">More...</a><br /></td></tr>
-<tr class="separator:aeea5eb0eafd515a3e11562922347b8b6"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a9cec9b2f481b74ed464692230802239e"><td class="memTemplParams" colspan="2">template&lt;typename INT &gt; </td></tr>
-<tr class="memitem:a9cec9b2f481b74ed464692230802239e"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="classts_1_1tlv_1_1_serializer.html#a9cec9b2f481b74ed464692230802239e">put</a> (<a class="el" href="namespacets_1_1tlv.html#aa0bb3c49aaa667cbf923060d0da85c99">TAG</a> tag, INT i)</td></tr>
-<tr class="memdesc:a9cec9b2f481b74ed464692230802239e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Insert a TLV field containing an integer value in the stream (template variant).  <a href="#a9cec9b2f481b74ed464692230802239e">More...</a><br /></td></tr>
-<tr class="separator:a9cec9b2f481b74ed464692230802239e"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a2d8c42d9d39d397dd7017cfed4054040"><td class="memTemplParams" colspan="2">template&lt;typename INT &gt; </td></tr>
-<tr class="memitem:a2d8c42d9d39d397dd7017cfed4054040"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="classts_1_1tlv_1_1_serializer.html#a2d8c42d9d39d397dd7017cfed4054040">put</a> (<a class="el" href="namespacets_1_1tlv.html#aa0bb3c49aaa667cbf923060d0da85c99">TAG</a> tag, const std::vector&lt; INT &gt; &amp;val)</td></tr>
-<tr class="memdesc:a2d8c42d9d39d397dd7017cfed4054040"><td class="mdescLeft">&#160;</td><td class="mdescRight">Insert a TLV field containing a vector of integer values in the stream (template variant).  <a href="#a2d8c42d9d39d397dd7017cfed4054040">More...</a><br /></td></tr>
-<tr class="separator:a2d8c42d9d39d397dd7017cfed4054040"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a536ebf70505f3711454148b408c5acd1"><td class="memTemplParams" colspan="2">template&lt;typename INT , typename std::enable_if&lt; std::is_integral&lt; INT &gt;::value &gt;::type *  = nullptr&gt; </td></tr>
+<tr class="memitem:a536ebf70505f3711454148b408c5acd1"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="classts_1_1tlv_1_1_serializer.html#a536ebf70505f3711454148b408c5acd1">put</a> (INT i)</td></tr>
+<tr class="memdesc:a536ebf70505f3711454148b408c5acd1"><td class="mdescLeft">&#160;</td><td class="mdescRight">Insert an integer value in the stream (template variant).  <a href="#a536ebf70505f3711454148b408c5acd1">More...</a><br /></td></tr>
+<tr class="separator:a536ebf70505f3711454148b408c5acd1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa0d6d93c89754f8191295e9ef6429c5d"><td class="memTemplParams" colspan="2">template&lt;typename INT , typename std::enable_if&lt; std::is_integral&lt; INT &gt;::value &gt;::type *  = nullptr&gt; </td></tr>
+<tr class="memitem:aa0d6d93c89754f8191295e9ef6429c5d"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="classts_1_1tlv_1_1_serializer.html#aa0d6d93c89754f8191295e9ef6429c5d">put</a> (<a class="el" href="namespacets_1_1tlv.html#aa0bb3c49aaa667cbf923060d0da85c99">TAG</a> tag, INT i)</td></tr>
+<tr class="memdesc:aa0d6d93c89754f8191295e9ef6429c5d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Insert a TLV field containing an integer value in the stream (template variant).  <a href="#aa0d6d93c89754f8191295e9ef6429c5d">More...</a><br /></td></tr>
+<tr class="separator:aa0d6d93c89754f8191295e9ef6429c5d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a85cdb758bd94915fed118ec69a0f0293"><td class="memTemplParams" colspan="2">template&lt;typename INT , typename std::enable_if&lt; std::is_integral&lt; INT &gt;::value &gt;::type *  = nullptr&gt; </td></tr>
+<tr class="memitem:a85cdb758bd94915fed118ec69a0f0293"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="classts_1_1tlv_1_1_serializer.html#a85cdb758bd94915fed118ec69a0f0293">put</a> (<a class="el" href="namespacets_1_1tlv.html#aa0bb3c49aaa667cbf923060d0da85c99">TAG</a> tag, const std::vector&lt; INT &gt; &amp;val)</td></tr>
+<tr class="memdesc:a85cdb758bd94915fed118ec69a0f0293"><td class="mdescLeft">&#160;</td><td class="mdescRight">Insert a TLV field containing a vector of integer values in the stream (template variant).  <a href="#a85cdb758bd94915fed118ec69a0f0293">More...</a><br /></td></tr>
+<tr class="separator:a85cdb758bd94915fed118ec69a0f0293"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a1713dbba162184669f9543d1a23df1d0"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classts_1_1tlv_1_1_serializer.html#a1713dbba162184669f9543d1a23df1d0">put</a> (const std::string &amp;val)</td></tr>
 <tr class="memdesc:a1713dbba162184669f9543d1a23df1d0"><td class="mdescLeft">&#160;</td><td class="mdescRight">Insert a string in the stream.  <a href="#a1713dbba162184669f9543d1a23df1d0">More...</a><br /></td></tr>
 <tr class="separator:a1713dbba162184669f9543d1a23df1d0"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -236,6 +233,9 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:ad2edb3e3f781dcd3a0f836397eaba2e0"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classts_1_1tlv_1_1_serializer.html#ad2edb3e3f781dcd3a0f836397eaba2e0">putUInt8</a> (<a class="el" href="namespacets_1_1tlv.html#aa0bb3c49aaa667cbf923060d0da85c99">TAG</a> tag, const std::vector&lt; uint8_t &gt; &amp;v)</td></tr>
 <tr class="memdesc:ad2edb3e3f781dcd3a0f836397eaba2e0"><td class="mdescLeft">&#160;</td><td class="mdescRight">Insert a TLV field containing a vector of unsigned 8-bit integer values in the stream.  <a href="#ad2edb3e3f781dcd3a0f836397eaba2e0">More...</a><br /></td></tr>
 <tr class="separator:ad2edb3e3f781dcd3a0f836397eaba2e0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a29e2ea99309d3432db06edc3a518965b"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classts_1_1_u_string.html">UString</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classts_1_1tlv_1_1_serializer.html#a29e2ea99309d3432db06edc3a518965b">toString</a> () const</td></tr>
+<tr class="memdesc:a29e2ea99309d3432db06edc3a518965b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Convert to a string (for debug purpose).  <a href="#a29e2ea99309d3432db06edc3a518965b">More...</a><br /></td></tr>
+<tr class="separator:a29e2ea99309d3432db06edc3a518965b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>Serialization of TLV messages. </p>
@@ -1428,13 +1428,13 @@ Public Member Functions</h2></td></tr>
 
 </div>
 </div>
-<a id="aeea5eb0eafd515a3e11562922347b8b6"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aeea5eb0eafd515a3e11562922347b8b6">&#9670;&nbsp;</a></span>put() <span class="overload">[1/10]</span></h2>
+<a id="a536ebf70505f3711454148b408c5acd1"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a536ebf70505f3711454148b408c5acd1">&#9670;&nbsp;</a></span>put() <span class="overload">[1/10]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
-template&lt;typename INT &gt; </div>
+template&lt;typename INT , typename std::enable_if&lt; std::is_integral&lt; INT &gt;::value &gt;::type *  = nullptr&gt; </div>
 <table class="mlabels">
   <tr>
   <td class="mlabels-left">
@@ -1470,13 +1470,13 @@ template&lt;typename INT &gt; </div>
 
 </div>
 </div>
-<a id="a9cec9b2f481b74ed464692230802239e"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a9cec9b2f481b74ed464692230802239e">&#9670;&nbsp;</a></span>put() <span class="overload">[2/10]</span></h2>
+<a id="aa0d6d93c89754f8191295e9ef6429c5d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa0d6d93c89754f8191295e9ef6429c5d">&#9670;&nbsp;</a></span>put() <span class="overload">[2/10]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
-template&lt;typename INT &gt; </div>
+template&lt;typename INT , typename std::enable_if&lt; std::is_integral&lt; INT &gt;::value &gt;::type *  = nullptr&gt; </div>
 <table class="mlabels">
   <tr>
   <td class="mlabels-left">
@@ -1523,13 +1523,13 @@ template&lt;typename INT &gt; </div>
 
 </div>
 </div>
-<a id="a2d8c42d9d39d397dd7017cfed4054040"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a2d8c42d9d39d397dd7017cfed4054040">&#9670;&nbsp;</a></span>put() <span class="overload">[3/10]</span></h2>
+<a id="a85cdb758bd94915fed118ec69a0f0293"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a85cdb758bd94915fed118ec69a0f0293">&#9670;&nbsp;</a></span>put() <span class="overload">[3/10]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
-template&lt;typename INT &gt; </div>
+template&lt;typename INT , typename std::enable_if&lt; std::is_integral&lt; INT &gt;::value &gt;::type *  = nullptr&gt; </div>
 <table class="mlabels">
   <tr>
   <td class="mlabels-left">
@@ -1868,14 +1868,14 @@ template&lt;typename INT &gt; </div>
 
 </div>
 </div>
-<a id="a1301814b0da85865066715bf5ec54670"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a1301814b0da85865066715bf5ec54670">&#9670;&nbsp;</a></span>operator std::string()</h2>
+<a id="a29e2ea99309d3432db06edc3a518965b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a29e2ea99309d3432db06edc3a518965b">&#9670;&nbsp;</a></span>toString()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">ts::tlv::Serializer::operator std::string </td>
+          <td class="memname"><a class="el" href="classts_1_1_u_string.html">UString</a> ts::tlv::Serializer::toString </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td> const</td>

@@ -82,6 +82,6 @@ var classts_1_1_service =
     [ "Sort1", "classts_1_1_service.html#a76a6f65ed72111ff9e8a29c61de1ceda", null ],
     [ "Sort2", "classts_1_1_service.html#ac8ae54189a8d77a46d3e557a7f07720e", null ],
     [ "Sort3", "classts_1_1_service.html#af560148545880755d1d0302b58a4d2ce", null ],
-    [ "Display", "classts_1_1_service.html#ac20ca5099ac9dd780e96365e5ad089c4", null ],
-    [ "Display", "classts_1_1_service.html#ad77bd8f4558371bf6201169cc826aa0a", null ]
+    [ "Display", "classts_1_1_service.html#aa9b8016d190c869ad045d3c69288dc6e", null ],
+    [ "Display", "classts_1_1_service.html#a2032e706d40c6030d76a5ae8a84130b1", null ]
 ];

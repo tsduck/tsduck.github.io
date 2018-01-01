@@ -34,7 +34,7 @@
  <tr style="height: 56px;">
   <td id="projectlogo"><img src="tsduck-32.png"/></td>
    <td id="projectalign"><span id="projectname">TSDuck</span>
-    <span id="projectnumber">Version 3.4</span>
+    <span id="projectnumber">Version 3.5</span>
     <span id="projectbrief">(TSDuck - The MPEG Transport Stream Toolkit)</span>
    </td>
    <td>        <div id="MSearchBox" class="MSearchBoxInactive">
@@ -166,33 +166,36 @@ Public Member Functions</h2></td></tr>
 virtual&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classts_1_1_abstract_signalization.html#a368aed5aa23c4932881acceb12a7ccf5">~AbstractSignalization</a> ()</td></tr>
 <tr class="memdesc:a368aed5aa23c4932881acceb12a7ccf5"><td class="mdescLeft">&#160;</td><td class="mdescRight">Virtual destructor. <br /></td></tr>
 <tr class="separator:a368aed5aa23c4932881acceb12a7ccf5"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a9260490d00924a4fb9d230dc35d772d5"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classts_1_1_abstract_signalization.html#a9260490d00924a4fb9d230dc35d772d5">fromXML</a> (<a class="el" href="classts_1_1_x_m_l.html">XML</a> &amp;xml, const <a class="el" href="classts_1_1_x_m_l.html#a26f880956a579ee4a9fc7b7db75d37ed">XML::Element</a> *element)=0</td></tr>
-<tr class="memdesc:a9260490d00924a4fb9d230dc35d772d5"><td class="mdescLeft">&#160;</td><td class="mdescRight">This abstract converts an <a class="el" href="classts_1_1_x_m_l.html" title="XML utility class with error reporting. ">XML</a> structure to a table or descriptor.  <a href="#a9260490d00924a4fb9d230dc35d772d5">More...</a><br /></td></tr>
-<tr class="separator:a9260490d00924a4fb9d230dc35d772d5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aac9b0e0aaeab6617776637d9848e72c3"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classts_1_1_abstract_signalization.html#aac9b0e0aaeab6617776637d9848e72c3">fromXML</a> (const <a class="el" href="classts_1_1xml_1_1_element.html">xml::Element</a> *element)=0</td></tr>
+<tr class="memdesc:aac9b0e0aaeab6617776637d9848e72c3"><td class="mdescLeft">&#160;</td><td class="mdescRight">This abstract converts an XML structure to a table or descriptor.  <a href="#aac9b0e0aaeab6617776637d9848e72c3">More...</a><br /></td></tr>
+<tr class="separator:aac9b0e0aaeab6617776637d9848e72c3"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a1aca8115129275bdd9c384e822301f0a"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classts_1_1_abstract_signalization.html#a1aca8115129275bdd9c384e822301f0a">invalidate</a> ()</td></tr>
 <tr class="memdesc:a1aca8115129275bdd9c384e822301f0a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Invalidate this object.  <a href="#a1aca8115129275bdd9c384e822301f0a">More...</a><br /></td></tr>
 <tr class="separator:a1aca8115129275bdd9c384e822301f0a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:af7aa8ceb8b698ab219c05a36b0e97291"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classts_1_1_abstract_signalization.html#af7aa8ceb8b698ab219c05a36b0e97291">isValid</a> () const</td></tr>
 <tr class="memdesc:af7aa8ceb8b698ab219c05a36b0e97291"><td class="mdescLeft">&#160;</td><td class="mdescRight">Check if this object is valid.  <a href="#af7aa8ceb8b698ab219c05a36b0e97291">More...</a><br /></td></tr>
 <tr class="separator:af7aa8ceb8b698ab219c05a36b0e97291"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a80ac02976ec3b04275379d1fffe82a07"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="classts_1_1_x_m_l.html#a26f880956a579ee4a9fc7b7db75d37ed">XML::Element</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classts_1_1_abstract_signalization.html#a80ac02976ec3b04275379d1fffe82a07">toXML</a> (<a class="el" href="classts_1_1_x_m_l.html">XML</a> &amp;xml, <a class="el" href="classts_1_1_x_m_l.html#a26f880956a579ee4a9fc7b7db75d37ed">XML::Element</a> *parent) const =0</td></tr>
-<tr class="memdesc:a80ac02976ec3b04275379d1fffe82a07"><td class="mdescLeft">&#160;</td><td class="mdescRight">This abstract method converts this object to <a class="el" href="classts_1_1_x_m_l.html" title="XML utility class with error reporting. ">XML</a>.  <a href="#a80ac02976ec3b04275379d1fffe82a07">More...</a><br /></td></tr>
-<tr class="separator:a80ac02976ec3b04275379d1fffe82a07"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ac1e97eef4f39320c61192c6bde591dca"><td class="memItemLeft" align="right" valign="top">std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classts_1_1_abstract_signalization.html#ac1e97eef4f39320c61192c6bde591dca">xmlName</a> () const</td></tr>
-<tr class="memdesc:ac1e97eef4f39320c61192c6bde591dca"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the XMl node name representing this table or descriptor.  <a href="#ac1e97eef4f39320c61192c6bde591dca">More...</a><br /></td></tr>
-<tr class="separator:ac1e97eef4f39320c61192c6bde591dca"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae5b592f7701b19d586a8b047b17d81b3"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="classts_1_1xml_1_1_element.html">xml::Element</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classts_1_1_abstract_signalization.html#ae5b592f7701b19d586a8b047b17d81b3">toXML</a> (<a class="el" href="classts_1_1xml_1_1_element.html">xml::Element</a> *parent) const</td></tr>
+<tr class="memdesc:ae5b592f7701b19d586a8b047b17d81b3"><td class="mdescLeft">&#160;</td><td class="mdescRight">This method converts this object to XML.  <a href="#ae5b592f7701b19d586a8b047b17d81b3">More...</a><br /></td></tr>
+<tr class="separator:ae5b592f7701b19d586a8b047b17d81b3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a77fd80b304a38bdc350eae3d899495bc"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classts_1_1_u_string.html">UString</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classts_1_1_abstract_signalization.html#a77fd80b304a38bdc350eae3d899495bc">xmlName</a> () const</td></tr>
+<tr class="memdesc:a77fd80b304a38bdc350eae3d899495bc"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the XMl node name representing this table or descriptor.  <a href="#a77fd80b304a38bdc350eae3d899495bc">More...</a><br /></td></tr>
+<tr class="separator:a77fd80b304a38bdc350eae3d899495bc"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pro-methods"></a>
 Protected Member Functions</h2></td></tr>
-<tr class="memitem:a5d4cc35ff3c30d6eb82b640b9ea60cd3"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classts_1_1_abstract_signalization.html#a5d4cc35ff3c30d6eb82b640b9ea60cd3">AbstractSignalization</a> (const char *xml_name)</td></tr>
-<tr class="memdesc:a5d4cc35ff3c30d6eb82b640b9ea60cd3"><td class="mdescLeft">&#160;</td><td class="mdescRight">Protected constructor for subclasses.  <a href="#a5d4cc35ff3c30d6eb82b640b9ea60cd3">More...</a><br /></td></tr>
-<tr class="separator:a5d4cc35ff3c30d6eb82b640b9ea60cd3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a91ea2b198bbaa5cb47cf1aa90d75b35c"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classts_1_1_abstract_signalization.html#a91ea2b198bbaa5cb47cf1aa90d75b35c">AbstractSignalization</a> (const <a class="el" href="namespacets.html#a7e3244e77fae7815254d87d2ebdb7bd0">UChar</a> *xml_name)</td></tr>
+<tr class="memdesc:a91ea2b198bbaa5cb47cf1aa90d75b35c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Protected constructor for subclasses.  <a href="#a91ea2b198bbaa5cb47cf1aa90d75b35c">More...</a><br /></td></tr>
+<tr class="separator:a91ea2b198bbaa5cb47cf1aa90d75b35c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a75310559ce93be9e8ac2d1435ac556c9"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classts_1_1_abstract_signalization.html#a75310559ce93be9e8ac2d1435ac556c9">AbstractSignalization</a> (const <a class="el" href="classts_1_1_abstract_signalization.html">AbstractSignalization</a> &amp;other)</td></tr>
 <tr class="memdesc:a75310559ce93be9e8ac2d1435ac556c9"><td class="mdescLeft">&#160;</td><td class="mdescRight">Copy constructor.  <a href="#a75310559ce93be9e8ac2d1435ac556c9">More...</a><br /></td></tr>
 <tr class="separator:a75310559ce93be9e8ac2d1435ac556c9"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a1e4c55a748466e540661323200b0bf44"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classts_1_1_abstract_signalization.html#a1e4c55a748466e540661323200b0bf44">checkXMLName</a> (<a class="el" href="classts_1_1_x_m_l.html">XML</a> &amp;xml, const <a class="el" href="classts_1_1_x_m_l.html#a26f880956a579ee4a9fc7b7db75d37ed">XML::Element</a> *element) const</td></tr>
-<tr class="memdesc:a1e4c55a748466e540661323200b0bf44"><td class="mdescLeft">&#160;</td><td class="mdescRight">Check that an <a class="el" href="classts_1_1_x_m_l.html" title="XML utility class with error reporting. ">XML</a> element has the right name for this table.  <a href="#a1e4c55a748466e540661323200b0bf44">More...</a><br /></td></tr>
-<tr class="separator:a1e4c55a748466e540661323200b0bf44"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a951dbf86024a4c9a0e4ef6cc533eeab2"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classts_1_1_abstract_signalization.html#a951dbf86024a4c9a0e4ef6cc533eeab2">buildXML</a> (<a class="el" href="classts_1_1xml_1_1_element.html">xml::Element</a> *root) const</td></tr>
+<tr class="memdesc:a951dbf86024a4c9a0e4ef6cc533eeab2"><td class="mdescLeft">&#160;</td><td class="mdescRight">Helper method to convert this object to XML.  <a href="#a951dbf86024a4c9a0e4ef6cc533eeab2">More...</a><br /></td></tr>
+<tr class="separator:a951dbf86024a4c9a0e4ef6cc533eeab2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aef9dabba2270e0ac6d4c43f13bb13243"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classts_1_1_abstract_signalization.html#aef9dabba2270e0ac6d4c43f13bb13243">checkXMLName</a> (const <a class="el" href="classts_1_1xml_1_1_element.html">xml::Element</a> *element) const</td></tr>
+<tr class="memdesc:aef9dabba2270e0ac6d4c43f13bb13243"><td class="mdescLeft">&#160;</td><td class="mdescRight">Check that an XML element has the right name for this table.  <a href="#aef9dabba2270e0ac6d4c43f13bb13243">More...</a><br /></td></tr>
+<tr class="separator:aef9dabba2270e0ac6d4c43f13bb13243"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ab1dffa39cccc9bd7ae4bef3fe074bbaa"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classts_1_1_abstract_signalization.html">AbstractSignalization</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classts_1_1_abstract_signalization.html#ab1dffa39cccc9bd7ae4bef3fe074bbaa">operator=</a> (const <a class="el" href="classts_1_1_abstract_signalization.html">AbstractSignalization</a> &amp;other)</td></tr>
 <tr class="memdesc:ab1dffa39cccc9bd7ae4bef3fe074bbaa"><td class="mdescLeft">&#160;</td><td class="mdescRight">Assignment operator.  <a href="#ab1dffa39cccc9bd7ae4bef3fe074bbaa">More...</a><br /></td></tr>
 <tr class="separator:ab1dffa39cccc9bd7ae4bef3fe074bbaa"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -212,16 +215,16 @@ Protected Attributes</h2></td></tr>
 bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classts_1_1_abstract_signalization.html#a656c83e401104eb45581a2867fe758dc">_is_valid</a></td></tr>
 <tr class="memdesc:a656c83e401104eb45581a2867fe758dc"><td class="mdescLeft">&#160;</td><td class="mdescRight">It is the responsibility of the subclasses to set the valid flag. <br /></td></tr>
 <tr class="separator:a656c83e401104eb45581a2867fe758dc"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:adbdb079a82724b6fb5e6af93ad37afb0"><td class="memItemLeft" align="right" valign="top"><a id="adbdb079a82724b6fb5e6af93ad37afb0"></a>
-const char *const&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classts_1_1_abstract_signalization.html#adbdb079a82724b6fb5e6af93ad37afb0">_xml_name</a></td></tr>
-<tr class="memdesc:adbdb079a82724b6fb5e6af93ad37afb0"><td class="mdescLeft">&#160;</td><td class="mdescRight"><a class="el" href="classts_1_1_x_m_l.html" title="XML utility class with error reporting. ">XML</a> table or descriptor name in UTF-8 representation. <br /></td></tr>
-<tr class="separator:adbdb079a82724b6fb5e6af93ad37afb0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae3c088f8d26763cf2c4dc47042ee32e1"><td class="memItemLeft" align="right" valign="top"><a id="ae3c088f8d26763cf2c4dc47042ee32e1"></a>
+const <a class="el" href="namespacets.html#a7e3244e77fae7815254d87d2ebdb7bd0">UChar</a> *const&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classts_1_1_abstract_signalization.html#ae3c088f8d26763cf2c4dc47042ee32e1">_xml_name</a></td></tr>
+<tr class="memdesc:ae3c088f8d26763cf2c4dc47042ee32e1"><td class="mdescLeft">&#160;</td><td class="mdescRight">XML table or descriptor name. <br /></td></tr>
+<tr class="separator:ae3c088f8d26763cf2c4dc47042ee32e1"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>Abstract base class for MPEG PSI/SI tables and descriptors. </p>
 </div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
-<a id="a5d4cc35ff3c30d6eb82b640b9ea60cd3"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a5d4cc35ff3c30d6eb82b640b9ea60cd3">&#9670;&nbsp;</a></span>AbstractSignalization() <span class="overload">[1/2]</span></h2>
+<a id="a91ea2b198bbaa5cb47cf1aa90d75b35c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a91ea2b198bbaa5cb47cf1aa90d75b35c">&#9670;&nbsp;</a></span>AbstractSignalization() <span class="overload">[1/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -232,7 +235,7 @@ const char *const&#160;</td><td class="memItemRight" valign="bottom"><a class="e
         <tr>
           <td class="memname">ts::AbstractSignalization::AbstractSignalization </td>
           <td>(</td>
-          <td class="paramtype">const char *&#160;</td>
+          <td class="paramtype">const <a class="el" href="namespacets.html#a7e3244e77fae7815254d87d2ebdb7bd0">UChar</a> *&#160;</td>
           <td class="paramname"><em>xml_name</em></td><td>)</td>
           <td></td>
         </tr>
@@ -247,7 +250,7 @@ const char *const&#160;</td><td class="memItemRight" valign="bottom"><a class="e
 <p>Protected constructor for subclasses. </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramdir">[in]</td><td class="paramname">xml_name</td><td>Table or descriptor name, as used in <a class="el" href="classts_1_1_x_m_l.html" title="XML utility class with error reporting. ">XML</a> structures. </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">xml_name</td><td>Table or descriptor name, as used in XML structures. </td></tr>
   </table>
   </dd>
 </dl>
@@ -345,14 +348,14 @@ const char *const&#160;</td><td class="memItemRight" valign="bottom"><a class="e
 
 </div>
 </div>
-<a id="ac1e97eef4f39320c61192c6bde591dca"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ac1e97eef4f39320c61192c6bde591dca">&#9670;&nbsp;</a></span>xmlName()</h2>
+<a id="a77fd80b304a38bdc350eae3d899495bc"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a77fd80b304a38bdc350eae3d899495bc">&#9670;&nbsp;</a></span>xmlName()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">std::string ts::AbstractSignalization::xmlName </td>
+          <td class="memname"><a class="el" href="classts_1_1_u_string.html">UString</a> ts::AbstractSignalization::xmlName </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td> const</td>
@@ -361,12 +364,12 @@ const char *const&#160;</td><td class="memItemRight" valign="bottom"><a class="e
 </div><div class="memdoc">
 
 <p>Get the XMl node name representing this table or descriptor. </p>
-<dl class="section return"><dt>Returns</dt><dd>The <a class="el" href="classts_1_1_x_m_l.html" title="XML utility class with error reporting. ">XML</a> node name. </dd></dl>
+<dl class="section return"><dt>Returns</dt><dd>The XML node name. </dd></dl>
 
 </div>
 </div>
-<a id="a80ac02976ec3b04275379d1fffe82a07"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a80ac02976ec3b04275379d1fffe82a07">&#9670;&nbsp;</a></span>toXML()</h2>
+<a id="ae5b592f7701b19d586a8b047b17d81b3"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae5b592f7701b19d586a8b047b17d81b3">&#9670;&nbsp;</a></span>toXML()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -375,46 +378,37 @@ const char *const&#160;</td><td class="memItemRight" valign="bottom"><a class="e
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">virtual <a class="el" href="classts_1_1_x_m_l.html#a26f880956a579ee4a9fc7b7db75d37ed">XML::Element</a>* ts::AbstractSignalization::toXML </td>
+          <td class="memname">virtual <a class="el" href="classts_1_1xml_1_1_element.html">xml::Element</a>* ts::AbstractSignalization::toXML </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="classts_1_1_x_m_l.html">XML</a> &amp;&#160;</td>
-          <td class="paramname"><em>xml</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype"><a class="el" href="classts_1_1_x_m_l.html#a26f880956a579ee4a9fc7b7db75d37ed">XML::Element</a> *&#160;</td>
-          <td class="paramname"><em>parent</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td> const</td>
+          <td class="paramtype"><a class="el" href="classts_1_1xml_1_1_element.html">xml::Element</a> *&#160;</td>
+          <td class="paramname"><em>parent</em></td><td>)</td>
+          <td> const</td>
         </tr>
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">pure virtual</span></span>  </td>
+<span class="mlabels"><span class="mlabel">virtual</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
 
-<p>This abstract method converts this object to <a class="el" href="classts_1_1_x_m_l.html" title="XML utility class with error reporting. ">XML</a>. </p>
+<p>This method converts this object to XML. </p>
+<p>When this object is valid, the default implementation of <a class="el" href="classts_1_1_abstract_signalization.html#ae5b592f7701b19d586a8b047b17d81b3" title="This method converts this object to XML. ">toXML()</a> creates a root node with the default XML name and then invoke <a class="el" href="classts_1_1_abstract_signalization.html#a951dbf86024a4c9a0e4ef6cc533eeab2" title="Helper method to convert this object to XML. ">buildXML()</a> to populate the XML node.</p>
+<p>Subclasses have the choice to either implement <a class="el" href="classts_1_1_abstract_signalization.html#a951dbf86024a4c9a0e4ef6cc533eeab2" title="Helper method to convert this object to XML. ">buildXML()</a> or <a class="el" href="classts_1_1_abstract_signalization.html#ae5b592f7701b19d586a8b047b17d81b3" title="This method converts this object to XML. ">toXML()</a>. If the object is serialized as one single XML node, it is simpler to implement buidlXML().</p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramdir">[in,out]</td><td class="paramname">xml</td><td><a class="el" href="classts_1_1_x_m_l.html" title="XML utility class with error reporting. ">XML</a> utility for error reporting </td></tr>
-    <tr><td class="paramdir">[in,out]</td><td class="paramname">parent</td><td>The parent node for the new <a class="el" href="classts_1_1_x_m_l.html" title="XML utility class with error reporting. ">XML</a> tree. </td></tr>
+    <tr><td class="paramdir">[in,out]</td><td class="paramname">parent</td><td>The parent node for the new XML tree. </td></tr>
   </table>
   </dd>
 </dl>
-<dl class="section return"><dt>Returns</dt><dd>The new <a class="el" href="classts_1_1_x_m_l.html" title="XML utility class with error reporting. ">XML</a> element. </dd></dl>
+<dl class="section return"><dt>Returns</dt><dd>The new XML element. </dd></dl>
 
-<p>Implemented in <a class="el" href="classts_1_1_linkage_descriptor.html#aa76ac54a88072218cf4d7b60a319c622">ts::LinkageDescriptor</a>, <a class="el" href="classts_1_1_logical_channel_number_descriptor.html#a0a948e891eb10b7d7d3f405d3a76f376">ts::LogicalChannelNumberDescriptor</a>, <a class="el" href="classts_1_1_h_d_simulcast_logical_channel_descriptor.html#a6f506de9549a34d373f21c923f305a29">ts::HDSimulcastLogicalChannelDescriptor</a>, <a class="el" href="classts_1_1_s_d_t.html#a0c3c6227cc33f782bb39fcebdfc55570">ts::SDT</a>, <a class="el" href="classts_1_1_e_i_t.html#a17042d38022a073c72036491b1606d92">ts::EIT</a>, <a class="el" href="classts_1_1_s_s_u_linkage_descriptor.html#a08c718f14685033052afbcf3fef26255">ts::SSULinkageDescriptor</a>, <a class="el" href="classts_1_1_s_s_u_data_broadcast_id_descriptor.html#a0526d801463a59d661a52f5b4e495701">ts::SSUDataBroadcastIdDescriptor</a>, <a class="el" href="classts_1_1_eutelsat_channel_number_descriptor.html#a01c5d007045912813696f56342fe643c">ts::EutelsatChannelNumberDescriptor</a>, <a class="el" href="classts_1_1_teletext_descriptor.html#a04289bf1abb4480e1aa5c47148dc7642">ts::TeletextDescriptor</a>, <a class="el" href="classts_1_1_i_s_o639_language_descriptor.html#a5c87eada2a5f3015e9a400c70382c759">ts::ISO639LanguageDescriptor</a>, <a class="el" href="classts_1_1_parental_rating_descriptor.html#afca5be84b4c4fd6ed65fa03b246ce89d">ts::ParentalRatingDescriptor</a>, <a class="el" href="classts_1_1_service_list_descriptor.html#a743b7e0393090ccccbff7ab5626d4b4d">ts::ServiceListDescriptor</a>, <a class="el" href="classts_1_1_local_time_offset_descriptor.html#a83bf97d065503f7eb3250d33945f9b8b">ts::LocalTimeOffsetDescriptor</a>, <a class="el" href="classts_1_1_r_s_t.html#a6109802bbe371a02fba055ff73164cc5">ts::RST</a>, <a class="el" href="classts_1_1_extended_event_descriptor.html#a66f1ed5bd9f5582654f3da60c6026fc4">ts::ExtendedEventDescriptor</a>, <a class="el" href="classts_1_1_subtitling_descriptor.html#a93799ec976951ddb2e1086baac811f1f">ts::SubtitlingDescriptor</a>, <a class="el" href="classts_1_1_country_availability_descriptor.html#abd38b59a6117c07654e02e9c97ac0d9b">ts::CountryAvailabilityDescriptor</a>, <a class="el" href="classts_1_1_enhanced_a_c3_descriptor.html#a7e8d5bf0ae4f6931022a53ba7a3ccfa1">ts::EnhancedAC3Descriptor</a>, <a class="el" href="classts_1_1_data_broadcast_id_descriptor.html#a9193bb8bcfbb427d30eedd28207858d6">ts::DataBroadcastIdDescriptor</a>, <a class="el" href="classts_1_1_a_c3_descriptor.html#ab3fa7ed6d63ba7275098f6bcbb8e1195">ts::AC3Descriptor</a>, <a class="el" href="classts_1_1_t_o_t.html#abd038dd4c544bbc32194baba3e39585d">ts::TOT</a>, <a class="el" href="classts_1_1_c_a_descriptor.html#ad3ce356e298ba0cfec66d56662b87920">ts::CADescriptor</a>, <a class="el" href="classts_1_1_short_event_descriptor.html#a2d42e6fa4060ee223247ce42a1c95475">ts::ShortEventDescriptor</a>, <a class="el" href="classts_1_1_c_a_identifier_descriptor.html#a760b58057c6703dc7c4c350ee5939c97">ts::CAIdentifierDescriptor</a>, <a class="el" href="classts_1_1_n_i_t.html#a55c232bd66701f7e21f2959ea698e3af">ts::NIT</a>, <a class="el" href="classts_1_1_eacem_stream_identifier_descriptor.html#a2d767f4d4a9d7a63fbda274b2f633493">ts::EacemStreamIdentifierDescriptor</a>, <a class="el" href="classts_1_1_p_m_t.html#a782a2512cb1e6e2bc1062ed769e90c7d">ts::PMT</a>, <a class="el" href="classts_1_1_bouquet_name_descriptor.html#ad0b225e16fbcb8cb97f56ad1f56ae85f">ts::BouquetNameDescriptor</a>, <a class="el" href="classts_1_1_network_name_descriptor.html#a0079cfcb1aef33e4a32235015b601e35">ts::NetworkNameDescriptor</a>, <a class="el" href="classts_1_1_p_a_t.html#a5876c2aa41677d6f27dbd7ea81718d97">ts::PAT</a>, <a class="el" href="classts_1_1_content_descriptor.html#a3ec6aeff6f2b35a2a0574f3e3d50fc03">ts::ContentDescriptor</a>, <a class="el" href="classts_1_1_a_v_c_video_descriptor.html#a70203ef67775a959604767e919523c59">ts::AVCVideoDescriptor</a>, <a class="el" href="classts_1_1_terrestrial_delivery_system_descriptor.html#ab387fbbc3fea0b8245bf9e4b773c5bca">ts::TerrestrialDeliverySystemDescriptor</a>, <a class="el" href="classts_1_1_message_descriptor.html#affb4ec9196cbdd75fc2394706004f8e0">ts::MessageDescriptor</a>, <a class="el" href="classts_1_1_satellite_delivery_system_descriptor.html#a06b91c9645a9d6a2568670290a24eb5f">ts::SatelliteDeliverySystemDescriptor</a>, <a class="el" href="classts_1_1_s2_satellite_delivery_system_descriptor.html#ac3851741f33c06f60e9294f4e91aa2b5">ts::S2SatelliteDeliverySystemDescriptor</a>, <a class="el" href="classts_1_1_service_descriptor.html#a06d1f7020e1113fe399990af02e3e6c2">ts::ServiceDescriptor</a>, <a class="el" href="classts_1_1_data_broadcast_descriptor.html#aa8046e8fa10297ef547c9856587110f4">ts::DataBroadcastDescriptor</a>, <a class="el" href="classts_1_1_supplementary_audio_descriptor.html#a1f5aab73a08327dd569f8421300525dd">ts::SupplementaryAudioDescriptor</a>, <a class="el" href="classts_1_1_t2_m_i_descriptor.html#a7697e5083aed85a58aef8c3b344a503b">ts::T2MIDescriptor</a>, <a class="el" href="classts_1_1_private_data_specifier_descriptor.html#a3da2bc65a798f5fef8e6d80fc6c0e7d8">ts::PrivateDataSpecifierDescriptor</a>, <a class="el" href="classts_1_1_s_t_d_descriptor.html#a8fbe1a9743aed688135ebe997d7f1d61">ts::STDDescriptor</a>, <a class="el" href="classts_1_1_stream_identifier_descriptor.html#a3dd76f618c41960c523202f56cbc578d">ts::StreamIdentifierDescriptor</a>, <a class="el" href="classts_1_1_t_d_t.html#af27a8cca414c92aecbb68d8cff2aab89">ts::TDT</a>, <a class="el" href="classts_1_1_b_a_t.html#a4b5a63f0b84b90a86c91ee5ef69d20f6">ts::BAT</a>, and <a class="el" href="classts_1_1_abstract_descriptors_table.html#aee54f746a6560a2a4bb70a34a4d81bc7">ts::AbstractDescriptorsTable</a>.</p>
+<p>Reimplemented in <a class="el" href="classts_1_1_s_s_u_linkage_descriptor.html#ab65220392053720b392b56ba550289d8">ts::SSULinkageDescriptor</a>, and <a class="el" href="classts_1_1_s_s_u_data_broadcast_id_descriptor.html#a89d7dbf7c54f384e511bb64582978a0e">ts::SSUDataBroadcastIdDescriptor</a>.</p>
 
 </div>
 </div>
-<a id="a9260490d00924a4fb9d230dc35d772d5"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a9260490d00924a4fb9d230dc35d772d5">&#9670;&nbsp;</a></span>fromXML()</h2>
+<a id="aac9b0e0aaeab6617776637d9848e72c3"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aac9b0e0aaeab6617776637d9848e72c3">&#9670;&nbsp;</a></span>fromXML()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -425,19 +419,9 @@ const char *const&#160;</td><td class="memItemRight" valign="bottom"><a class="e
         <tr>
           <td class="memname">virtual void ts::AbstractSignalization::fromXML </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="classts_1_1_x_m_l.html">XML</a> &amp;&#160;</td>
-          <td class="paramname"><em>xml</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
+          <td class="paramtype">const <a class="el" href="classts_1_1xml_1_1_element.html">xml::Element</a> *&#160;</td>
+          <td class="paramname"><em>element</em></td><td>)</td>
           <td></td>
-          <td class="paramtype">const <a class="el" href="classts_1_1_x_m_l.html#a26f880956a579ee4a9fc7b7db75d37ed">XML::Element</a> *&#160;</td>
-          <td class="paramname"><em>element</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
         </tr>
       </table>
   </td>
@@ -447,16 +431,15 @@ const char *const&#160;</td><td class="memItemRight" valign="bottom"><a class="e
 </table>
 </div><div class="memdoc">
 
-<p>This abstract converts an <a class="el" href="classts_1_1_x_m_l.html" title="XML utility class with error reporting. ">XML</a> structure to a table or descriptor. </p>
-<p>In case of success, this object is replaced with the interpreted content of the <a class="el" href="classts_1_1_x_m_l.html" title="XML utility class with error reporting. ">XML</a> structure. In case of error, this object is invalidated. </p><dl class="params"><dt>Parameters</dt><dd>
+<p>This abstract converts an XML structure to a table or descriptor. </p>
+<p>In case of success, this object is replaced with the interpreted content of the XML structure. In case of error, this object is invalidated. </p><dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramdir">[in,out]</td><td class="paramname">xml</td><td><a class="el" href="classts_1_1_x_m_l.html" title="XML utility class with error reporting. ">XML</a> utility for error reporting </td></tr>
-    <tr><td class="paramdir">[in]</td><td class="paramname">element</td><td><a class="el" href="classts_1_1_x_m_l.html" title="XML utility class with error reporting. ">XML</a> element to convert. </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">element</td><td>XML element to convert. </td></tr>
   </table>
   </dd>
 </dl>
 
-<p>Implemented in <a class="el" href="classts_1_1_linkage_descriptor.html#ae3ecca901bd0bfb7f472f237e820da33">ts::LinkageDescriptor</a>, <a class="el" href="classts_1_1_logical_channel_number_descriptor.html#aa33a6ab0e1365bf1369b0d815f88d59a">ts::LogicalChannelNumberDescriptor</a>, <a class="el" href="classts_1_1_h_d_simulcast_logical_channel_descriptor.html#ac935f31547e31e4b9752966cfa292710">ts::HDSimulcastLogicalChannelDescriptor</a>, <a class="el" href="classts_1_1_s_d_t.html#ad7bb55a16af3e0e8a94f3f53ae0ec2c9">ts::SDT</a>, <a class="el" href="classts_1_1_e_i_t.html#acf57723da2611875df70c478302f2677">ts::EIT</a>, <a class="el" href="classts_1_1_s_s_u_linkage_descriptor.html#a98e56ef1c6df7be08acf1cdf72d88dfb">ts::SSULinkageDescriptor</a>, <a class="el" href="classts_1_1_s_s_u_data_broadcast_id_descriptor.html#afa1f001bc2891938515a28a5cb138fb3">ts::SSUDataBroadcastIdDescriptor</a>, <a class="el" href="classts_1_1_eutelsat_channel_number_descriptor.html#a984f550160ececea24afedac789bda24">ts::EutelsatChannelNumberDescriptor</a>, <a class="el" href="classts_1_1_teletext_descriptor.html#a918c5e88aeb446f3b2010e5802426821">ts::TeletextDescriptor</a>, <a class="el" href="classts_1_1_i_s_o639_language_descriptor.html#ab0b8d9422d8a3c5fbd556cb3d40271c4">ts::ISO639LanguageDescriptor</a>, <a class="el" href="classts_1_1_parental_rating_descriptor.html#ab4bdef1c6156d9d4b2a893f6c5386b4c">ts::ParentalRatingDescriptor</a>, <a class="el" href="classts_1_1_service_list_descriptor.html#adf385403d9582bb8dba69528c608f046">ts::ServiceListDescriptor</a>, <a class="el" href="classts_1_1_local_time_offset_descriptor.html#a0c570a26fc0d7779de6b9b3017892aad">ts::LocalTimeOffsetDescriptor</a>, <a class="el" href="classts_1_1_r_s_t.html#a2475896e22fb6f4575b7cd8824686a51">ts::RST</a>, <a class="el" href="classts_1_1_extended_event_descriptor.html#abecb77f98b9cc86ed1b7a1a545f2313e">ts::ExtendedEventDescriptor</a>, <a class="el" href="classts_1_1_subtitling_descriptor.html#a4288fd971bcabc34f059b66a8ad90fcb">ts::SubtitlingDescriptor</a>, <a class="el" href="classts_1_1_country_availability_descriptor.html#a3eb9e88786057e085b382a858180559d">ts::CountryAvailabilityDescriptor</a>, <a class="el" href="classts_1_1_enhanced_a_c3_descriptor.html#a19541031205e5d4d4360c780855cbbe7">ts::EnhancedAC3Descriptor</a>, <a class="el" href="classts_1_1_data_broadcast_id_descriptor.html#a32aa7b3eb484f01bd65cc96ffd9faf8d">ts::DataBroadcastIdDescriptor</a>, <a class="el" href="classts_1_1_a_c3_descriptor.html#aaedcfbc6c1d3b99a960f4670f7da5a58">ts::AC3Descriptor</a>, <a class="el" href="classts_1_1_t_o_t.html#a1bc822177a6bc8f3c4df5ddd55977861">ts::TOT</a>, <a class="el" href="classts_1_1_c_a_descriptor.html#acdcb6acfa5d8dc6c81f286574005e567">ts::CADescriptor</a>, <a class="el" href="classts_1_1_short_event_descriptor.html#a3e7c10ec4da5672080433c2c210f53d3">ts::ShortEventDescriptor</a>, <a class="el" href="classts_1_1_c_a_identifier_descriptor.html#ababaee7171e13f35e592a1cb78e8e9a1">ts::CAIdentifierDescriptor</a>, <a class="el" href="classts_1_1_n_i_t.html#af6bfc366633e2797e933fb8cec602542">ts::NIT</a>, <a class="el" href="classts_1_1_eacem_stream_identifier_descriptor.html#a2631f295d50aaddb6fc4fd3fefdf4b2e">ts::EacemStreamIdentifierDescriptor</a>, <a class="el" href="classts_1_1_p_m_t.html#a91d32b6972567e205b572234c319dc46">ts::PMT</a>, <a class="el" href="classts_1_1_bouquet_name_descriptor.html#ae251869b144e25f8e07e59716cfbd87a">ts::BouquetNameDescriptor</a>, <a class="el" href="classts_1_1_network_name_descriptor.html#ab4099353224fcf378ee5d8e63f050488">ts::NetworkNameDescriptor</a>, <a class="el" href="classts_1_1_p_a_t.html#a8f2e4e277cf724ddb95b21e375e26600">ts::PAT</a>, <a class="el" href="classts_1_1_content_descriptor.html#aebb34c46c1bd1c1a26496492137b150d">ts::ContentDescriptor</a>, <a class="el" href="classts_1_1_a_v_c_video_descriptor.html#a0df039ed7e41b0ed4e9b66faef94b9f7">ts::AVCVideoDescriptor</a>, <a class="el" href="classts_1_1_terrestrial_delivery_system_descriptor.html#a082d518ae1f83b1289ffd593fe02a35e">ts::TerrestrialDeliverySystemDescriptor</a>, <a class="el" href="classts_1_1_message_descriptor.html#a90d725fc2a6dbd84f4f3af0f1e888690">ts::MessageDescriptor</a>, <a class="el" href="classts_1_1_satellite_delivery_system_descriptor.html#a9b65c2e2c02e36a05e0f924ba4b3571c">ts::SatelliteDeliverySystemDescriptor</a>, <a class="el" href="classts_1_1_s2_satellite_delivery_system_descriptor.html#a847c9962a0f1244ab22b310a370bccb1">ts::S2SatelliteDeliverySystemDescriptor</a>, <a class="el" href="classts_1_1_service_descriptor.html#a04ccb85527e256062f986f20e46187d3">ts::ServiceDescriptor</a>, <a class="el" href="classts_1_1_data_broadcast_descriptor.html#a04522c77ffdce03d1a55600cdafd6778">ts::DataBroadcastDescriptor</a>, <a class="el" href="classts_1_1_supplementary_audio_descriptor.html#a32e280a93605a439ca2ffd49e8e8daaa">ts::SupplementaryAudioDescriptor</a>, <a class="el" href="classts_1_1_t2_m_i_descriptor.html#aba4b4e26c00a37baef0bfddb0a860201">ts::T2MIDescriptor</a>, <a class="el" href="classts_1_1_private_data_specifier_descriptor.html#ab88e2d833d269977b4b5d3a4dad00f0e">ts::PrivateDataSpecifierDescriptor</a>, <a class="el" href="classts_1_1_s_t_d_descriptor.html#a01818090bdc4e09da50fa4c095c30e93">ts::STDDescriptor</a>, <a class="el" href="classts_1_1_stream_identifier_descriptor.html#a0eaf1e66f9c8335a1cd3f1addfcfb7fb">ts::StreamIdentifierDescriptor</a>, <a class="el" href="classts_1_1_t_d_t.html#ad716bdc0e62d21fef4ee44a510815a06">ts::TDT</a>, <a class="el" href="classts_1_1_b_a_t.html#a1df66245b20cc1dd25577d30c26e7fa9">ts::BAT</a>, and <a class="el" href="classts_1_1_abstract_descriptors_table.html#a22da2ad754cf8c844bcc658fc899e23f">ts::AbstractDescriptorsTable</a>.</p>
+<p>Implemented in <a class="el" href="classts_1_1_linkage_descriptor.html#aec6a0834a3a1c85a17e5a9d5d853846f">ts::LinkageDescriptor</a>, <a class="el" href="classts_1_1_teletext_descriptor.html#a80b4fef745ddc81cf627fdd2adafa10a">ts::TeletextDescriptor</a>, <a class="el" href="classts_1_1_logical_channel_number_descriptor.html#a7ede25d2cab99bc26224b183d0669bc7">ts::LogicalChannelNumberDescriptor</a>, <a class="el" href="classts_1_1_h_d_simulcast_logical_channel_descriptor.html#a66ae3a1cffa1c1b4e9efbda868bc435b">ts::HDSimulcastLogicalChannelDescriptor</a>, <a class="el" href="classts_1_1_s_d_t.html#a77910c25fb8c6f4127f319a49ca8dbd4">ts::SDT</a>, <a class="el" href="classts_1_1_e_i_t.html#a45ac5228356975b1016fcfea59726044">ts::EIT</a>, <a class="el" href="classts_1_1_s_s_u_linkage_descriptor.html#aed01d9ec145762e135b2ee2fb4b1d9d6">ts::SSULinkageDescriptor</a>, <a class="el" href="classts_1_1_s_s_u_data_broadcast_id_descriptor.html#a2482d76a3d4bc52273410255524b14fa">ts::SSUDataBroadcastIdDescriptor</a>, <a class="el" href="classts_1_1_eutelsat_channel_number_descriptor.html#ad767fb0042cd5031286ba1762f5a3713">ts::EutelsatChannelNumberDescriptor</a>, <a class="el" href="classts_1_1_i_s_o639_language_descriptor.html#a700ce48b01fbb6921d1711b5a008db97">ts::ISO639LanguageDescriptor</a>, <a class="el" href="classts_1_1_parental_rating_descriptor.html#a7eaa79d50089c33a3c4e62ba0f77c2fb">ts::ParentalRatingDescriptor</a>, <a class="el" href="classts_1_1_service_list_descriptor.html#a87bf6b2c7215cd53263c0abaef9dc8e5">ts::ServiceListDescriptor</a>, <a class="el" href="classts_1_1_subtitling_descriptor.html#a9dba68b35ebe0ce0f66ec9a6c5a045a5">ts::SubtitlingDescriptor</a>, <a class="el" href="classts_1_1_local_time_offset_descriptor.html#ae3e8bfdb8b6cf5b5b716d05c2198992d">ts::LocalTimeOffsetDescriptor</a>, <a class="el" href="classts_1_1_r_s_t.html#a07f8aa866778244ed3103bdf1c631c16">ts::RST</a>, <a class="el" href="classts_1_1_extended_event_descriptor.html#a9f303b4281b833a87128375e1e22a890">ts::ExtendedEventDescriptor</a>, <a class="el" href="classts_1_1_enhanced_a_c3_descriptor.html#a1b88a3b543ed5d21493ebd8fe85a19fa">ts::EnhancedAC3Descriptor</a>, <a class="el" href="classts_1_1_data_broadcast_id_descriptor.html#a0fb662d2b7779e8baaf04fdf8606d3a6">ts::DataBroadcastIdDescriptor</a>, <a class="el" href="classts_1_1_country_availability_descriptor.html#adbd84d0f8e9cb8694ee5379258be9a1c">ts::CountryAvailabilityDescriptor</a>, <a class="el" href="classts_1_1_a_c3_descriptor.html#ae311317e781a68072eaed9c0f44c489e">ts::AC3Descriptor</a>, <a class="el" href="classts_1_1_t_o_t.html#a7ead237347adfd40036db4d840c22c96">ts::TOT</a>, <a class="el" href="classts_1_1_c_a_descriptor.html#ab77655e5017d04d6823b87b27fc5da22">ts::CADescriptor</a>, <a class="el" href="classts_1_1_short_event_descriptor.html#a0f5e136e20e273fa5cd4299a17aa7039">ts::ShortEventDescriptor</a>, <a class="el" href="classts_1_1_c_a_identifier_descriptor.html#a17cc7df055fbfed4698c8de34fb2e252">ts::CAIdentifierDescriptor</a>, <a class="el" href="classts_1_1_n_i_t.html#ad8205f399ce5ce0103390a94b76e3797">ts::NIT</a>, <a class="el" href="classts_1_1_eacem_stream_identifier_descriptor.html#a849c894f86fd4641529eaf3b1c424728">ts::EacemStreamIdentifierDescriptor</a>, <a class="el" href="classts_1_1_p_m_t.html#a9c7868c988f03e6ac33bb34c01883e78">ts::PMT</a>, <a class="el" href="classts_1_1_bouquet_name_descriptor.html#ad4fbea33a87ecfd1936f46c12dc80971">ts::BouquetNameDescriptor</a>, <a class="el" href="classts_1_1_network_name_descriptor.html#a135769cd9d3f13782feddb347fd99c40">ts::NetworkNameDescriptor</a>, <a class="el" href="classts_1_1_p_a_t.html#a09439f915dcbe65cec5a5053b29268b0">ts::PAT</a>, <a class="el" href="classts_1_1_content_descriptor.html#ad3e388341550664572cd47b835b9fcf8">ts::ContentDescriptor</a>, <a class="el" href="classts_1_1_a_v_c_video_descriptor.html#acd4960e7425550d6efaf57c27e613cc5">ts::AVCVideoDescriptor</a>, <a class="el" href="classts_1_1_terrestrial_delivery_system_descriptor.html#aacf6e313f992ef48cdb1c79eb76b948f">ts::TerrestrialDeliverySystemDescriptor</a>, <a class="el" href="classts_1_1_message_descriptor.html#a102aea16a6faf325ed1d989233383355">ts::MessageDescriptor</a>, <a class="el" href="classts_1_1_satellite_delivery_system_descriptor.html#a5d94ebaa711bc4350e9e742180261429">ts::SatelliteDeliverySystemDescriptor</a>, <a class="el" href="classts_1_1_s2_satellite_delivery_system_descriptor.html#a6fa56029ec64ab3518e16eaec5bc44f2">ts::S2SatelliteDeliverySystemDescriptor</a>, <a class="el" href="classts_1_1_service_descriptor.html#a63e41095ebccfddffb1d8c3a03e5a002">ts::ServiceDescriptor</a>, <a class="el" href="classts_1_1_data_broadcast_descriptor.html#a958756f889a4dcda7e322c8fbaa11ed2">ts::DataBroadcastDescriptor</a>, <a class="el" href="classts_1_1_supplementary_audio_descriptor.html#aec2b4941547c0099794aab896bb1d929">ts::SupplementaryAudioDescriptor</a>, <a class="el" href="classts_1_1_t2_m_i_descriptor.html#a9d185336972f8837b44821198d324a42">ts::T2MIDescriptor</a>, <a class="el" href="classts_1_1_private_data_specifier_descriptor.html#a2089eceb9ab837bcb09bb782fe6ce991">ts::PrivateDataSpecifierDescriptor</a>, <a class="el" href="classts_1_1_s_t_d_descriptor.html#a95b9276b6d57f48e0543502a6d4cf9b2">ts::STDDescriptor</a>, <a class="el" href="classts_1_1_stream_identifier_descriptor.html#ae6a4501c6f2fee77f0963de9d3c7392e">ts::StreamIdentifierDescriptor</a>, <a class="el" href="classts_1_1_t_d_t.html#a54ad3c8accbe55c4a73c0bf26406c80d">ts::TDT</a>, <a class="el" href="classts_1_1_b_a_t.html#aa1895438106934e2824fcead6df18929">ts::BAT</a>, and <a class="el" href="classts_1_1_abstract_descriptors_table.html#ad2b2aedffb6d13c9b9e5133ca60164a6">ts::AbstractDescriptorsTable</a>.</p>
 
 </div>
 </div>
@@ -495,8 +478,46 @@ const char *const&#160;</td><td class="memItemRight" valign="bottom"><a class="e
 
 </div>
 </div>
-<a id="a1e4c55a748466e540661323200b0bf44"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a1e4c55a748466e540661323200b0bf44">&#9670;&nbsp;</a></span>checkXMLName()</h2>
+<a id="a951dbf86024a4c9a0e4ef6cc533eeab2"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a951dbf86024a4c9a0e4ef6cc533eeab2">&#9670;&nbsp;</a></span>buildXML()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual void ts::AbstractSignalization::buildXML </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classts_1_1xml_1_1_element.html">xml::Element</a> *&#160;</td>
+          <td class="paramname"><em>root</em></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">protected</span><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Helper method to convert this object to XML. </p>
+<p>When this object is valid, the default implementation of <a class="el" href="classts_1_1_abstract_signalization.html#ae5b592f7701b19d586a8b047b17d81b3" title="This method converts this object to XML. ">toXML()</a> creates a root node with the default XML name and then invoke <a class="el" href="classts_1_1_abstract_signalization.html#a951dbf86024a4c9a0e4ef6cc533eeab2" title="Helper method to convert this object to XML. ">buildXML()</a> to populate the XML node.</p>
+<p>The default implementation is to do nothing. Subclasses which override <a class="el" href="classts_1_1_abstract_signalization.html#ae5b592f7701b19d586a8b047b17d81b3" title="This method converts this object to XML. ">toXML()</a> do not need to implement <a class="el" href="classts_1_1_abstract_signalization.html#a951dbf86024a4c9a0e4ef6cc533eeab2" title="Helper method to convert this object to XML. ">buildXML()</a> since it won't be invoked.</p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in,out]</td><td class="paramname">root</td><td>The root node for the new XML tree. </td></tr>
+  </table>
+  </dd>
+</dl>
+
+<p>Reimplemented in <a class="el" href="classts_1_1_linkage_descriptor.html#a0f1474845436f1b28bf2c0e63d615767">ts::LinkageDescriptor</a>, <a class="el" href="classts_1_1_teletext_descriptor.html#add2c1be9e82b3f3a93df169002568c36">ts::TeletextDescriptor</a>, <a class="el" href="classts_1_1_logical_channel_number_descriptor.html#ae5bf707be4404a6a498747b4068002d9">ts::LogicalChannelNumberDescriptor</a>, <a class="el" href="classts_1_1_h_d_simulcast_logical_channel_descriptor.html#a8865f28f17d1d66edc8a9b3276e84b82">ts::HDSimulcastLogicalChannelDescriptor</a>, <a class="el" href="classts_1_1_s_d_t.html#a907fdab18630fcf974fcfbf1e74106f9">ts::SDT</a>, <a class="el" href="classts_1_1_e_i_t.html#a4ffafc43b049f51781a9a2cc1e652fbc">ts::EIT</a>, <a class="el" href="classts_1_1_eutelsat_channel_number_descriptor.html#a882d8fe73b842146227c5a15d3e8853e">ts::EutelsatChannelNumberDescriptor</a>, <a class="el" href="classts_1_1_i_s_o639_language_descriptor.html#a95b39950e80ed854ba76523fedf18055">ts::ISO639LanguageDescriptor</a>, <a class="el" href="classts_1_1_parental_rating_descriptor.html#a563566262f1418913dd2b4bde5ea13b0">ts::ParentalRatingDescriptor</a>, <a class="el" href="classts_1_1_service_list_descriptor.html#a9b1e108dd29eec9d15ef7cab26ff0427">ts::ServiceListDescriptor</a>, <a class="el" href="classts_1_1_subtitling_descriptor.html#a6fe7c43bc9b1ab8ca2e77923b30cda9e">ts::SubtitlingDescriptor</a>, <a class="el" href="classts_1_1_local_time_offset_descriptor.html#a2be4e5a4e4480db93c7ece198ac7a3de">ts::LocalTimeOffsetDescriptor</a>, <a class="el" href="classts_1_1_r_s_t.html#a287c54f08fcab0adcc3aa041dd3fbff2">ts::RST</a>, <a class="el" href="classts_1_1_extended_event_descriptor.html#a4dc8101d2ca21c47b6c2a2554d24bca0">ts::ExtendedEventDescriptor</a>, <a class="el" href="classts_1_1_enhanced_a_c3_descriptor.html#adcec19d6d7c7ce0e88383b304a57fc08">ts::EnhancedAC3Descriptor</a>, <a class="el" href="classts_1_1_data_broadcast_id_descriptor.html#acba93236b804107ab104712d0027fe74">ts::DataBroadcastIdDescriptor</a>, <a class="el" href="classts_1_1_country_availability_descriptor.html#ab144f7826eaa6c59fae96bce5e6caae2">ts::CountryAvailabilityDescriptor</a>, <a class="el" href="classts_1_1_a_c3_descriptor.html#a5725d895e817a169fee52bf0161dc568">ts::AC3Descriptor</a>, <a class="el" href="classts_1_1_t_o_t.html#ae54de07f45c4d2d1a5f05645312bf196">ts::TOT</a>, <a class="el" href="classts_1_1_c_a_descriptor.html#aecc201543b01766b682788da578ed214">ts::CADescriptor</a>, <a class="el" href="classts_1_1_short_event_descriptor.html#a113df2b9078dc21e25b0d0b04a38351d">ts::ShortEventDescriptor</a>, <a class="el" href="classts_1_1_c_a_identifier_descriptor.html#a4f8278f25e9e485239038378d120b256">ts::CAIdentifierDescriptor</a>, <a class="el" href="classts_1_1_n_i_t.html#a02b5dc6959ba4b82d3d373d97010ddb6">ts::NIT</a>, <a class="el" href="classts_1_1_eacem_stream_identifier_descriptor.html#ab0d1d8aad77435c486134c722d25b1fd">ts::EacemStreamIdentifierDescriptor</a>, <a class="el" href="classts_1_1_p_m_t.html#a4b970c2e13741e45a9fb2a76f633477e">ts::PMT</a>, <a class="el" href="classts_1_1_bouquet_name_descriptor.html#a54b1217cc7adaae1b9457894a21f6838">ts::BouquetNameDescriptor</a>, <a class="el" href="classts_1_1_network_name_descriptor.html#ae2df98d3813e4e668be71778edfdd8a0">ts::NetworkNameDescriptor</a>, <a class="el" href="classts_1_1_p_a_t.html#aec47f56a9611b5936e9c154255f776b2">ts::PAT</a>, <a class="el" href="classts_1_1_content_descriptor.html#aa050b554962b33a1640f30cc863b6695">ts::ContentDescriptor</a>, <a class="el" href="classts_1_1_a_v_c_video_descriptor.html#a11347ada39384d16f365781b4f4ef0ec">ts::AVCVideoDescriptor</a>, <a class="el" href="classts_1_1_terrestrial_delivery_system_descriptor.html#ae11f3806f254cd99a897f92c87f4814e">ts::TerrestrialDeliverySystemDescriptor</a>, <a class="el" href="classts_1_1_message_descriptor.html#a1a0372140a19e3510abe33ca16416195">ts::MessageDescriptor</a>, <a class="el" href="classts_1_1_satellite_delivery_system_descriptor.html#ae18ea6f5499b3b94664128c07d737084">ts::SatelliteDeliverySystemDescriptor</a>, <a class="el" href="classts_1_1_s2_satellite_delivery_system_descriptor.html#a0f494d4757289fd743d80a0dbfcf45d3">ts::S2SatelliteDeliverySystemDescriptor</a>, <a class="el" href="classts_1_1_service_descriptor.html#a219165c6414d4f12c2ace0263e9c8fbc">ts::ServiceDescriptor</a>, <a class="el" href="classts_1_1_data_broadcast_descriptor.html#ad5e74b6ba3f3d14ed6fd53dd95162780">ts::DataBroadcastDescriptor</a>, <a class="el" href="classts_1_1_supplementary_audio_descriptor.html#aa9e83c505ddce39624a2f2afbf4d428a">ts::SupplementaryAudioDescriptor</a>, <a class="el" href="classts_1_1_t2_m_i_descriptor.html#a7065e5b230a2edbeaeaa6c6c7ecfd553">ts::T2MIDescriptor</a>, <a class="el" href="classts_1_1_private_data_specifier_descriptor.html#a38db82b2da5051211bb2d36950be51c4">ts::PrivateDataSpecifierDescriptor</a>, <a class="el" href="classts_1_1_s_t_d_descriptor.html#a6d51db021f3683c3f94ae353cf95460c">ts::STDDescriptor</a>, <a class="el" href="classts_1_1_stream_identifier_descriptor.html#ab88e2c7cac97ff374a884fbd1debde2c">ts::StreamIdentifierDescriptor</a>, <a class="el" href="classts_1_1_t_d_t.html#ab655ccb49faad181f8d216c17d7f83b1">ts::TDT</a>, <a class="el" href="classts_1_1_b_a_t.html#aaf644d8bca7a9a3b5c083dbd36e848e7">ts::BAT</a>, and <a class="el" href="classts_1_1_abstract_descriptors_table.html#a90c1fe729fd85d5e5543e74a832b8563">ts::AbstractDescriptorsTable</a>.</p>
+
+</div>
+</div>
+<a id="aef9dabba2270e0ac6d4c43f13bb13243"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aef9dabba2270e0ac6d4c43f13bb13243">&#9670;&nbsp;</a></span>checkXMLName()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -507,19 +528,9 @@ const char *const&#160;</td><td class="memItemRight" valign="bottom"><a class="e
         <tr>
           <td class="memname">bool ts::AbstractSignalization::checkXMLName </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="classts_1_1_x_m_l.html">XML</a> &amp;&#160;</td>
-          <td class="paramname"><em>xml</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">const <a class="el" href="classts_1_1_x_m_l.html#a26f880956a579ee4a9fc7b7db75d37ed">XML::Element</a> *&#160;</td>
-          <td class="paramname"><em>element</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td> const</td>
+          <td class="paramtype">const <a class="el" href="classts_1_1xml_1_1_element.html">xml::Element</a> *&#160;</td>
+          <td class="paramname"><em>element</em></td><td>)</td>
+          <td> const</td>
         </tr>
       </table>
   </td>
@@ -529,11 +540,10 @@ const char *const&#160;</td><td class="memItemRight" valign="bottom"><a class="e
 </table>
 </div><div class="memdoc">
 
-<p>Check that an <a class="el" href="classts_1_1_x_m_l.html" title="XML utility class with error reporting. ">XML</a> element has the right name for this table. </p>
+<p>Check that an XML element has the right name for this table. </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramdir">[in,out]</td><td class="paramname">xml</td><td><a class="el" href="classts_1_1_x_m_l.html" title="XML utility class with error reporting. ">XML</a> utility for error reporting </td></tr>
-    <tr><td class="paramdir">[in]</td><td class="paramname">element</td><td><a class="el" href="classts_1_1_x_m_l.html" title="XML utility class with error reporting. ">XML</a> element to check. </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">element</td><td>XML element to check. </td></tr>
   </table>
   </dd>
 </dl>

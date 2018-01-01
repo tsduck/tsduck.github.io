@@ -34,7 +34,7 @@
  <tr style="height: 56px;">
   <td id="projectlogo"><img src="tsduck-32.png"/></td>
    <td id="projectalign"><span id="projectname">TSDuck</span>
-    <span id="projectnumber">Version 3.4</span>
+    <span id="projectnumber">Version 3.5</span>
     <span id="projectbrief">(TSDuck - The MPEG Transport Stream Toolkit)</span>
    </td>
    <td>        <div id="MSearchBox" class="MSearchBoxInactive">
@@ -129,9 +129,9 @@ virtual&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="c
 <tr class="memitem:a1faac4a1bb009f7dbdd1bcc3a966d252"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classts_1_1_abstract_a_v_c_data.html#a1faac4a1bb009f7dbdd1bcc3a966d252">clear</a> ()</td></tr>
 <tr class="memdesc:a1faac4a1bb009f7dbdd1bcc3a966d252"><td class="mdescLeft">&#160;</td><td class="mdescRight">Clear all values.  <a href="#a1faac4a1bb009f7dbdd1bcc3a966d252">More...</a><br /></td></tr>
 <tr class="separator:a1faac4a1bb009f7dbdd1bcc3a966d252"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:acc7a5939702ef34c7cae57bc126fa7c2"><td class="memItemLeft" align="right" valign="top">virtual std::ostream &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classts_1_1_abstract_a_v_c_data.html#acc7a5939702ef34c7cae57bc126fa7c2">display</a> (std::ostream &amp;stream=std::cout, const std::string &amp;margin=&quot;&quot;) const =0</td></tr>
-<tr class="memdesc:acc7a5939702ef34c7cae57bc126fa7c2"><td class="mdescLeft">&#160;</td><td class="mdescRight">Display the content in human-readable format.  <a href="#acc7a5939702ef34c7cae57bc126fa7c2">More...</a><br /></td></tr>
-<tr class="separator:acc7a5939702ef34c7cae57bc126fa7c2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a510b446e9ebac6f9cc7d765a21f7d75d"><td class="memItemLeft" align="right" valign="top">virtual std::ostream &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classts_1_1_abstract_a_v_c_data.html#a510b446e9ebac6f9cc7d765a21f7d75d">display</a> (std::ostream &amp;stream=std::cout, const <a class="el" href="classts_1_1_u_string.html">UString</a> &amp;<a class="el" href="namespacets.html#aff99f8309d75b5f2e1a061d10edcb70a">margin</a>=<a class="el" href="classts_1_1_u_string.html">UString</a>()) const =0</td></tr>
+<tr class="memdesc:a510b446e9ebac6f9cc7d765a21f7d75d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Display the content in human-readable format.  <a href="#a510b446e9ebac6f9cc7d765a21f7d75d">More...</a><br /></td></tr>
+<tr class="separator:a510b446e9ebac6f9cc7d765a21f7d75d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a97ba404127f8631fc974e57512f54186"><td class="memItemLeft" align="right" valign="top">virtual bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classts_1_1_abstract_a_v_c_data.html#a97ba404127f8631fc974e57512f54186">parse</a> (const void *addr, size_t size)=0</td></tr>
 <tr class="memdesc:a97ba404127f8631fc974e57512f54186"><td class="mdescLeft">&#160;</td><td class="mdescRight">Parse a memory area containing binary AVC data of the expected type.  <a href="#a97ba404127f8631fc974e57512f54186">More...</a><br /></td></tr>
 <tr class="separator:a97ba404127f8631fc974e57512f54186"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -144,14 +144,14 @@ Public Attributes</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pro-methods"></a>
 Protected Member Functions</h2></td></tr>
-<tr class="memitem:a8a8af11755ef84e820e1683664b89572"><td class="memTemplParams" colspan="2">template&lt;typename INT &gt; </td></tr>
-<tr class="memitem:a8a8af11755ef84e820e1683664b89572"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="classts_1_1_abstract_a_v_c_data.html#a8a8af11755ef84e820e1683664b89572">disp</a> (std::ostream &amp;out, const std::string &amp;margin, const char *name, INT n) const</td></tr>
-<tr class="memdesc:a8a8af11755ef84e820e1683664b89572"><td class="mdescLeft">&#160;</td><td class="mdescRight">Display helper for subclasses.  <a href="#a8a8af11755ef84e820e1683664b89572">More...</a><br /></td></tr>
-<tr class="separator:a8a8af11755ef84e820e1683664b89572"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a21e9499343d08cf106c072535801aee6"><td class="memTemplParams" colspan="2">template&lt;typename INT &gt; </td></tr>
-<tr class="memitem:a21e9499343d08cf106c072535801aee6"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="classts_1_1_abstract_a_v_c_data.html#a21e9499343d08cf106c072535801aee6">disp</a> (std::ostream &amp;out, const std::string &amp;margin, const char *name, std::vector&lt; INT &gt; n) const</td></tr>
-<tr class="memdesc:a21e9499343d08cf106c072535801aee6"><td class="mdescLeft">&#160;</td><td class="mdescRight">Display helper for subclasses.  <a href="#a21e9499343d08cf106c072535801aee6">More...</a><br /></td></tr>
-<tr class="separator:a21e9499343d08cf106c072535801aee6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa928ac6a4e029f4ffe848449725e2c1c"><td class="memTemplParams" colspan="2">template&lt;typename INT , typename std::enable_if&lt; std::is_integral&lt; INT &gt;::value &gt;::type *  = nullptr&gt; </td></tr>
+<tr class="memitem:aa928ac6a4e029f4ffe848449725e2c1c"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="classts_1_1_abstract_a_v_c_data.html#aa928ac6a4e029f4ffe848449725e2c1c">disp</a> (std::ostream &amp;out, const <a class="el" href="classts_1_1_u_string.html">UString</a> &amp;<a class="el" href="namespacets.html#aff99f8309d75b5f2e1a061d10edcb70a">margin</a>, const <a class="el" href="namespacets.html#a7e3244e77fae7815254d87d2ebdb7bd0">UChar</a> *name, INT n) const</td></tr>
+<tr class="memdesc:aa928ac6a4e029f4ffe848449725e2c1c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Display helper for subclasses.  <a href="#aa928ac6a4e029f4ffe848449725e2c1c">More...</a><br /></td></tr>
+<tr class="separator:aa928ac6a4e029f4ffe848449725e2c1c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a569372b0597c98a0f80d0a939ad8313d"><td class="memTemplParams" colspan="2">template&lt;typename INT , typename std::enable_if&lt; std::is_integral&lt; INT &gt;::value &gt;::type *  = nullptr&gt; </td></tr>
+<tr class="memitem:a569372b0597c98a0f80d0a939ad8313d"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="classts_1_1_abstract_a_v_c_data.html#a569372b0597c98a0f80d0a939ad8313d">disp</a> (std::ostream &amp;out, const <a class="el" href="classts_1_1_u_string.html">UString</a> &amp;<a class="el" href="namespacets.html#aff99f8309d75b5f2e1a061d10edcb70a">margin</a>, const <a class="el" href="namespacets.html#a7e3244e77fae7815254d87d2ebdb7bd0">UChar</a> *name, std::vector&lt; INT &gt; n) const</td></tr>
+<tr class="memdesc:a569372b0597c98a0f80d0a939ad8313d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Display helper for subclasses.  <a href="#a569372b0597c98a0f80d0a939ad8313d">More...</a><br /></td></tr>
+<tr class="separator:a569372b0597c98a0f80d0a939ad8313d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>Abstract base class for AVC data, either access units or structures. </p>
@@ -236,8 +236,8 @@ Protected Member Functions</h2></td></tr>
 
 </div>
 </div>
-<a id="acc7a5939702ef34c7cae57bc126fa7c2"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#acc7a5939702ef34c7cae57bc126fa7c2">&#9670;&nbsp;</a></span>display()</h2>
+<a id="a510b446e9ebac6f9cc7d765a21f7d75d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a510b446e9ebac6f9cc7d765a21f7d75d">&#9670;&nbsp;</a></span>display()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -254,8 +254,8 @@ Protected Member Functions</h2></td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">const std::string &amp;&#160;</td>
-          <td class="paramname"><em>margin</em> = <code>&quot;&quot;</code>&#160;</td>
+          <td class="paramtype">const <a class="el" href="classts_1_1_u_string.html">UString</a> &amp;&#160;</td>
+          <td class="paramname"><em>margin</em> = <code><a class="el" href="classts_1_1_u_string.html">UString</a>()</code>&#160;</td>
         </tr>
         <tr>
           <td></td>
@@ -280,17 +280,17 @@ Protected Member Functions</h2></td></tr>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>A reference to <em>stream</em>. </dd></dl>
 
-<p>Implemented in <a class="el" href="classts_1_1_a_v_c_h_r_d_parameters.html#a93d27a2f51390eaf8ea0959def6231ef">ts::AVCHRDParameters</a>, <a class="el" href="classts_1_1_a_v_c_v_u_i_parameters.html#a07f40f7ce8df8552aeafc0351799d54b">ts::AVCVUIParameters</a>, and <a class="el" href="classts_1_1_a_v_c_sequence_parameter_set.html#a346219d6952ef5b60ccd283e18348522">ts::AVCSequenceParameterSet</a>.</p>
+<p>Implemented in <a class="el" href="classts_1_1_a_v_c_h_r_d_parameters.html#a52ccf0459a0ea8f8183388660a86683c">ts::AVCHRDParameters</a>, <a class="el" href="classts_1_1_a_v_c_v_u_i_parameters.html#a9fa7a1d4f6f001b19dd1cbe66a790cdb">ts::AVCVUIParameters</a>, and <a class="el" href="classts_1_1_a_v_c_sequence_parameter_set.html#a0e086b5bf974ad990db060f8d678f51f">ts::AVCSequenceParameterSet</a>.</p>
 
 </div>
 </div>
-<a id="a8a8af11755ef84e820e1683664b89572"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a8a8af11755ef84e820e1683664b89572">&#9670;&nbsp;</a></span>disp() <span class="overload">[1/2]</span></h2>
+<a id="aa928ac6a4e029f4ffe848449725e2c1c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa928ac6a4e029f4ffe848449725e2c1c">&#9670;&nbsp;</a></span>disp() <span class="overload">[1/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
-template&lt;typename INT &gt; </div>
+template&lt;typename INT , typename std::enable_if&lt; std::is_integral&lt; INT &gt;::value &gt;::type *  = nullptr&gt; </div>
 <table class="mlabels">
   <tr>
   <td class="mlabels-left">
@@ -304,13 +304,13 @@ template&lt;typename INT &gt; </div>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">const std::string &amp;&#160;</td>
+          <td class="paramtype">const <a class="el" href="classts_1_1_u_string.html">UString</a> &amp;&#160;</td>
           <td class="paramname"><em>margin</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">const char *&#160;</td>
+          <td class="paramtype">const <a class="el" href="namespacets.html#a7e3244e77fae7815254d87d2ebdb7bd0">UChar</a> *&#160;</td>
           <td class="paramname"><em>name</em>, </td>
         </tr>
         <tr>
@@ -351,13 +351,13 @@ template&lt;typename INT &gt; </div>
 
 </div>
 </div>
-<a id="a21e9499343d08cf106c072535801aee6"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a21e9499343d08cf106c072535801aee6">&#9670;&nbsp;</a></span>disp() <span class="overload">[2/2]</span></h2>
+<a id="a569372b0597c98a0f80d0a939ad8313d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a569372b0597c98a0f80d0a939ad8313d">&#9670;&nbsp;</a></span>disp() <span class="overload">[2/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
-template&lt;typename INT &gt; </div>
+template&lt;typename INT , typename std::enable_if&lt; std::is_integral&lt; INT &gt;::value &gt;::type *  = nullptr&gt; </div>
 <table class="mlabels">
   <tr>
   <td class="mlabels-left">
@@ -371,13 +371,13 @@ template&lt;typename INT &gt; </div>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">const std::string &amp;&#160;</td>
+          <td class="paramtype">const <a class="el" href="classts_1_1_u_string.html">UString</a> &amp;&#160;</td>
           <td class="paramname"><em>margin</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">const char *&#160;</td>
+          <td class="paramtype">const <a class="el" href="namespacets.html#a7e3244e77fae7815254d87d2ebdb7bd0">UChar</a> *&#160;</td>
           <td class="paramname"><em>name</em>, </td>
         </tr>
         <tr>

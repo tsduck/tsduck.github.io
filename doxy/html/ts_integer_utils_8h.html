@@ -34,7 +34,7 @@
  <tr style="height: 56px;">
   <td id="projectlogo"><img src="tsduck-32.png"/></td>
    <td id="projectalign"><span id="projectname">TSDuck</span>
-    <span id="projectnumber">Version 3.4</span>
+    <span id="projectnumber">Version 3.5</span>
     <span id="projectbrief">(TSDuck - The MPEG Transport Stream Toolkit)</span>
    </td>
    <td>        <div id="MSearchBox" class="MSearchBoxInactive">
@@ -110,32 +110,28 @@ Namespaces</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
 Functions</h2></td></tr>
-<tr class="memitem:a65a65372e92a780aa7ed79802c41c6ab"><td class="memTemplParams" colspan="2">template&lt;typename INT &gt; </td></tr>
-<tr class="memitem:a65a65372e92a780aa7ed79802c41c6ab"><td class="memTemplItemLeft" align="right" valign="top">INT&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespacets.html#a65a65372e92a780aa7ed79802c41c6ab">ts::BoundedAdd</a> (INT a, INT b)</td></tr>
-<tr class="memdesc:a65a65372e92a780aa7ed79802c41c6ab"><td class="mdescLeft">&#160;</td><td class="mdescRight">Perform a bounded addition without overflow.  <a href="namespacets.html#a65a65372e92a780aa7ed79802c41c6ab">More...</a><br /></td></tr>
-<tr class="separator:a65a65372e92a780aa7ed79802c41c6ab"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:afcd38176df8cc88d81af7f93f0821995"><td class="memTemplParams" colspan="2">template&lt;typename INT &gt; </td></tr>
-<tr class="memitem:afcd38176df8cc88d81af7f93f0821995"><td class="memTemplItemLeft" align="right" valign="top">INT&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespacets.html#afcd38176df8cc88d81af7f93f0821995">ts::BoundedSub</a> (INT a, INT b)</td></tr>
-<tr class="memdesc:afcd38176df8cc88d81af7f93f0821995"><td class="mdescLeft">&#160;</td><td class="mdescRight">Perform a bounded subtraction without overflow.  <a href="namespacets.html#afcd38176df8cc88d81af7f93f0821995">More...</a><br /></td></tr>
-<tr class="separator:afcd38176df8cc88d81af7f93f0821995"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a78f42fb6510dbf94e08dba6c4b89f6eb"><td class="memTemplParams" colspan="2">template&lt;typename INT , typename std::enable_if&lt; std::is_integral&lt; INT &gt;::value &gt;::type *  = nullptr&gt; </td></tr>
+<tr class="memitem:a78f42fb6510dbf94e08dba6c4b89f6eb"><td class="memTemplItemLeft" align="right" valign="top">INT&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespacets.html#a78f42fb6510dbf94e08dba6c4b89f6eb">ts::BoundedAdd</a> (INT a, INT b)</td></tr>
+<tr class="memdesc:a78f42fb6510dbf94e08dba6c4b89f6eb"><td class="mdescLeft">&#160;</td><td class="mdescRight">Perform a bounded addition without overflow.  <a href="namespacets.html#a78f42fb6510dbf94e08dba6c4b89f6eb">More...</a><br /></td></tr>
+<tr class="separator:a78f42fb6510dbf94e08dba6c4b89f6eb"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:abc8c0267dc29ad2a5b1742e8ebc7bdc9"><td class="memTemplParams" colspan="2">template&lt;typename INT , typename std::enable_if&lt; std::is_integral&lt; INT &gt;::value &gt;::type *  = nullptr&gt; </td></tr>
+<tr class="memitem:abc8c0267dc29ad2a5b1742e8ebc7bdc9"><td class="memTemplItemLeft" align="right" valign="top">INT&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespacets.html#abc8c0267dc29ad2a5b1742e8ebc7bdc9">ts::BoundedSub</a> (INT a, INT b)</td></tr>
+<tr class="memdesc:abc8c0267dc29ad2a5b1742e8ebc7bdc9"><td class="mdescLeft">&#160;</td><td class="mdescRight">Perform a bounded subtraction without overflow.  <a href="namespacets.html#abc8c0267dc29ad2a5b1742e8ebc7bdc9">More...</a><br /></td></tr>
+<tr class="separator:abc8c0267dc29ad2a5b1742e8ebc7bdc9"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a8c295dd82cb73c63d7d728bdfca3f38d"><td class="memItemLeft" align="right" valign="top">size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacets.html#a8c295dd82cb73c63d7d728bdfca3f38d">ts::MaxDecimalWidth</a> (size_t typeSize, size_t digitSeparatorSize=0)</td></tr>
 <tr class="memdesc:a8c295dd82cb73c63d7d728bdfca3f38d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Compute the maximum width of the decimal representation of an integer type.  <a href="namespacets.html#a8c295dd82cb73c63d7d728bdfca3f38d">More...</a><br /></td></tr>
 <tr class="separator:a8c295dd82cb73c63d7d728bdfca3f38d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a9ebd618d1519a261d2bd1a165abdaa1d"><td class="memItemLeft" align="right" valign="top">size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacets.html#a9ebd618d1519a261d2bd1a165abdaa1d">ts::MaxHexaWidth</a> (size_t typeSize, size_t digitSeparatorSize=0)</td></tr>
 <tr class="memdesc:a9ebd618d1519a261d2bd1a165abdaa1d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Compute the maximum width of the hexadecimal representation of an integer type.  <a href="namespacets.html#a9ebd618d1519a261d2bd1a165abdaa1d">More...</a><br /></td></tr>
 <tr class="separator:a9ebd618d1519a261d2bd1a165abdaa1d"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aa92d4bead498ab54f7e99a780e1d1419"><td class="memTemplParams" colspan="2">template&lt;typename INT &gt; </td></tr>
-<tr class="memitem:aa92d4bead498ab54f7e99a780e1d1419"><td class="memTemplItemLeft" align="right" valign="top">std::string&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespacets.html#aa92d4bead498ab54f7e99a780e1d1419">ts::PercentageString</a> (INT value, INT total)</td></tr>
-<tr class="memdesc:aa92d4bead498ab54f7e99a780e1d1419"><td class="mdescLeft">&#160;</td><td class="mdescRight">Format a percentage string.  <a href="namespacets.html#aa92d4bead498ab54f7e99a780e1d1419">More...</a><br /></td></tr>
-<tr class="separator:aa92d4bead498ab54f7e99a780e1d1419"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a9301b5fe5b626fcde7937191ddcf0a79"><td class="memTemplParams" colspan="2">template&lt;typename INT &gt; </td></tr>
-<tr class="memitem:a9301b5fe5b626fcde7937191ddcf0a79"><td class="memTemplItemLeft" align="right" valign="top">INT&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespacets.html#a9301b5fe5b626fcde7937191ddcf0a79">ts::RoundDown</a> (INT x, INT f)</td></tr>
-<tr class="memdesc:a9301b5fe5b626fcde7937191ddcf0a79"><td class="mdescLeft">&#160;</td><td class="mdescRight">Round <em>x</em> down to previous multiple of a factor <em>f</em>.  <a href="namespacets.html#a9301b5fe5b626fcde7937191ddcf0a79">More...</a><br /></td></tr>
-<tr class="separator:a9301b5fe5b626fcde7937191ddcf0a79"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ac059d29061522705dfad72fa6b6b8fa1"><td class="memTemplParams" colspan="2">template&lt;typename INT &gt; </td></tr>
-<tr class="memitem:ac059d29061522705dfad72fa6b6b8fa1"><td class="memTemplItemLeft" align="right" valign="top">INT&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespacets.html#ac059d29061522705dfad72fa6b6b8fa1">ts::RoundUp</a> (INT x, INT f)</td></tr>
-<tr class="memdesc:ac059d29061522705dfad72fa6b6b8fa1"><td class="mdescLeft">&#160;</td><td class="mdescRight">Round <em>x</em> up to next multiple of a factor <em>f</em>.  <a href="namespacets.html#ac059d29061522705dfad72fa6b6b8fa1">More...</a><br /></td></tr>
-<tr class="separator:ac059d29061522705dfad72fa6b6b8fa1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5a5391316121f1064e4e8ba7e4dc6db0"><td class="memTemplParams" colspan="2">template&lt;typename INT , typename std::enable_if&lt; std::is_integral&lt; INT &gt;::value &gt;::type *  = nullptr&gt; </td></tr>
+<tr class="memitem:a5a5391316121f1064e4e8ba7e4dc6db0"><td class="memTemplItemLeft" align="right" valign="top">INT&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespacets.html#a5a5391316121f1064e4e8ba7e4dc6db0">ts::RoundDown</a> (INT x, INT f)</td></tr>
+<tr class="memdesc:a5a5391316121f1064e4e8ba7e4dc6db0"><td class="mdescLeft">&#160;</td><td class="mdescRight">Round <em>x</em> down to previous multiple of a factor <em>f</em>.  <a href="namespacets.html#a5a5391316121f1064e4e8ba7e4dc6db0">More...</a><br /></td></tr>
+<tr class="separator:a5a5391316121f1064e4e8ba7e4dc6db0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8745b220f958f86af3a79fbfaa5336fd"><td class="memTemplParams" colspan="2">template&lt;typename INT , typename std::enable_if&lt; std::is_integral&lt; INT &gt;::value &gt;::type *  = nullptr&gt; </td></tr>
+<tr class="memitem:a8745b220f958f86af3a79fbfaa5336fd"><td class="memTemplItemLeft" align="right" valign="top">INT&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespacets.html#a8745b220f958f86af3a79fbfaa5336fd">ts::RoundUp</a> (INT x, INT f)</td></tr>
+<tr class="memdesc:a8745b220f958f86af3a79fbfaa5336fd"><td class="mdescLeft">&#160;</td><td class="mdescRight">Round <em>x</em> up to next multiple of a factor <em>f</em>.  <a href="namespacets.html#a8745b220f958f86af3a79fbfaa5336fd">More...</a><br /></td></tr>
+<tr class="separator:a8745b220f958f86af3a79fbfaa5336fd"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>Some utilities on integers. </p>

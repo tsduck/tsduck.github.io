@@ -110,7 +110,7 @@ var ts_modulation_8h =
       [ "HIERARCHY_2", "ts_modulation_8h.html#a6c9df6e98dda571737595eff7b169350a8e57fd00a538280f2d001e8323e932b1", null ],
       [ "HIERARCHY_4", "ts_modulation_8h.html#a6c9df6e98dda571737595eff7b169350ac2c674e2a1ea789754b4c247f5995a50", null ]
     ] ],
-    [ "CheckModEnum", "ts_modulation_8h.html#a156abf4673a5c590de73bbd6f488762c", null ],
+    [ "CheckModEnum", "ts_modulation_8h.html#a43b52b237d900ec944e61702df951c67", null ],
     [ "BitsPerSymbol", "ts_modulation_8h.html#ad228da89510018c994467ef6df2058d5", null ],
     [ "FECMultiplier", "ts_modulation_8h.html#a56b7a0dc5023472f5928cbaed6780e77", null ],
     [ "FECDivider", "ts_modulation_8h.html#aed8a0c64adb713a2917de5cb2711ed91", null ],
@@ -122,7 +122,7 @@ var ts_modulation_8h =
     [ "Channel", "ts_modulation_8h.html#a59845761f6311695e77a339d57575053", null ],
     [ "OffsetCount", "ts_modulation_8h.html#af7fe3e31b06d147f1f8bb049c99c4adb", null ],
     [ "InBand", "ts_modulation_8h.html#a3b8db4cf78858fef2adbd14638d378b6", null ],
-    [ "Description", "ts_modulation_8h.html#af335edf9c6bbcc9a853a3cf0bcdf7d1c", null ],
+    [ "Description", "ts_modulation_8h.html#ada44d36e06c09561877aa7131ed552d7", null ],
     [ "Frequency", "ts_modulation_8h.html#a35eed0d43ad803c6ea5f0b8435899ebc", null ],
     [ "Channel", "ts_modulation_8h.html#a28d6d72abb9873e20d359f0cda824bfd", null ],
     [ "OffsetCount", "ts_modulation_8h.html#a2003be9d6a444d4afc6eba813ec9e3cf", null ],

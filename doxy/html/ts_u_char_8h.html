@@ -34,7 +34,7 @@
  <tr style="height: 56px;">
   <td id="projectlogo"><img src="tsduck-32.png"/></td>
    <td id="projectalign"><span id="projectname">TSDuck</span>
-    <span id="projectnumber">Version 3.4</span>
+    <span id="projectnumber">Version 3.5</span>
     <span id="projectbrief">(TSDuck - The MPEG Transport Stream Toolkit)</span>
    </td>
    <td>        <div id="MSearchBox" class="MSearchBoxInactive">
@@ -94,6 +94,7 @@ $(document).ready(function(){initNavTree('ts_u_char_8h.html','');});
   <div class="summary">
 <a href="#namespaces">Namespaces</a> &#124;
 <a href="#typedef-members">Typedefs</a> &#124;
+<a href="#enum-members">Enumerations</a> &#124;
 <a href="#func-members">Functions</a> &#124;
 <a href="#var-members">Variables</a>  </div>
   <div class="headertitle">
@@ -117,11 +118,56 @@ typedef char16_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el
 <tr class="memdesc:a7e3244e77fae7815254d87d2ebdb7bd0"><td class="mdescLeft">&#160;</td><td class="mdescRight">UTF-16 character. <br /></td></tr>
 <tr class="separator:a7e3244e77fae7815254d87d2ebdb7bd0"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="enum-members"></a>
+Enumerations</h2></td></tr>
+<tr class="memitem:adb99dd79f46dd65771c988b326cc15fe"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom">: uint32_t { <br />
+&#160;&#160;<a class="el" href="namespacets.html#adb99dd79f46dd65771c988b326cc15fea992729f3c080760151f49bd4c1a36c30">ts::CCHAR_LETTER</a> = 0x0001, 
+<br />
+&#160;&#160;<a class="el" href="namespacets.html#adb99dd79f46dd65771c988b326cc15feac83c0804d2f0df95577d4918b3f883f3">ts::CCHAR_DIGIT</a> = 0x0002, 
+<br />
+&#160;&#160;<a class="el" href="namespacets.html#adb99dd79f46dd65771c988b326cc15feac5055c1984fd81ab59730ef278dab14a">ts::CCHAR_HEXA</a> = 0x0004, 
+<br />
+&#160;&#160;<a class="el" href="namespacets.html#adb99dd79f46dd65771c988b326cc15fea8951b94a2c96ade977d6ec95b0f8ddb3">ts::CCHAR_LATIN</a> = 0x0008, 
+<br />
+&#160;&#160;<a class="el" href="namespacets.html#adb99dd79f46dd65771c988b326cc15fead4502e87c2300188dd5ade68a3967bc3">ts::CCHAR_GREEK</a> = 0x0010, 
+<br />
+&#160;&#160;<a class="el" href="namespacets.html#adb99dd79f46dd65771c988b326cc15fea64c53c67053ce7dd1ad916748b93006f">ts::CCHAR_HEBREW</a> = 0x0020, 
+<br />
+&#160;&#160;<a class="el" href="namespacets.html#adb99dd79f46dd65771c988b326cc15feaa5c50e6e4cc1870200e621d87eb00bac">ts::CCHAR_ARABIC</a> = 0x0040, 
+<br />
+&#160;&#160;<a class="el" href="namespacets.html#adb99dd79f46dd65771c988b326cc15fea5545387fe153511607ff7a640d0a437e">ts::CCHAR_THAI</a> = 0x0080, 
+<br />
+&#160;&#160;<a class="el" href="namespacets.html#adb99dd79f46dd65771c988b326cc15feab1a5f563f964f0ea5beea94f989add8b">ts::CCHAR_CYRILLIC</a> = 0x0100, 
+<br />
+&#160;&#160;<a class="el" href="namespacets.html#adb99dd79f46dd65771c988b326cc15fea499922445c82ae6fa28be7b83b6708a8">ts::CCHAR_CDIACRIT</a> = 0x0200, 
+<br />
+&#160;&#160;<a class="el" href="namespacets.html#adb99dd79f46dd65771c988b326cc15fead5232c9ecc38507bfb866c41bf7b8985">ts::CCHAR_SPACE</a> = 0x0400, 
+<br />
+&#160;&#160;<a class="el" href="namespacets.html#adb99dd79f46dd65771c988b326cc15feaa76ad3682c66f8de13ec7873f4aeb727">ts::CCHAR_PRINT</a> = 0x0800
+<br />
+ }<tr class="memdesc:adb99dd79f46dd65771c988b326cc15fe"><td class="mdescLeft">&#160;</td><td class="mdescRight">Characteristics of a character.  <a href="namespacets.html#adb99dd79f46dd65771c988b326cc15fe">More...</a><br /></td></tr>
+</td></tr>
+<tr class="separator:adb99dd79f46dd65771c988b326cc15fe"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:acabdd963f028076d6599f6712b236b47"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacets.html#acabdd963f028076d6599f6712b236b47">ts::CaseSensitivity</a> { <br />
+&#160;&#160;<a class="el" href="namespacets.html#acabdd963f028076d6599f6712b236b47a7a39a55c5b22c9b352ea346bcebb06fd">ts::CASE_SENSITIVE</a>, 
+<br />
+&#160;&#160;<a class="el" href="namespacets.html#acabdd963f028076d6599f6712b236b47a98c9aec7e38af499ba50d11cc78c7ed6">ts::CASE_INSENSITIVE</a>
+<br />
+ }<tr class="memdesc:acabdd963f028076d6599f6712b236b47"><td class="mdescLeft">&#160;</td><td class="mdescRight">Case sensitivity used on string operations.  <a href="namespacets.html#acabdd963f028076d6599f6712b236b47">More...</a><br /></td></tr>
+</td></tr>
+<tr class="separator:acabdd963f028076d6599f6712b236b47"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
 Functions</h2></td></tr>
+<tr class="memitem:a13505f23ca2cd9fc4409293d558103ae"><td class="memItemLeft" align="right" valign="top">UChar&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacets.html#a13505f23ca2cd9fc4409293d558103ae">ts::FromHTML</a> (const UString &amp;entity)</td></tr>
+<tr class="memdesc:a13505f23ca2cd9fc4409293d558103ae"><td class="mdescLeft">&#160;</td><td class="mdescRight">Convert the body on an HTML entity into a character.  <a href="namespacets.html#a13505f23ca2cd9fc4409293d558103ae">More...</a><br /></td></tr>
+<tr class="separator:a13505f23ca2cd9fc4409293d558103ae"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a05c1995a07569ab4b9d64ce406409873"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacets.html#a05c1995a07569ab4b9d64ce406409873">ts::IsAccented</a> (UChar c)</td></tr>
 <tr class="memdesc:a05c1995a07569ab4b9d64ce406409873"><td class="mdescLeft">&#160;</td><td class="mdescRight">Check if a character contains an accent.  <a href="namespacets.html#a05c1995a07569ab4b9d64ce406409873">More...</a><br /></td></tr>
 <tr class="separator:a05c1995a07569ab4b9d64ce406409873"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a40ba1a981c564a5a579a947c1d30b262"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacets.html#a40ba1a981c564a5a579a947c1d30b262">ts::IsAlpha</a> (UChar c)</td></tr>
+<tr class="memdesc:a40ba1a981c564a5a579a947c1d30b262"><td class="mdescLeft">&#160;</td><td class="mdescRight">Check if a character is a letter.  <a href="namespacets.html#a40ba1a981c564a5a579a947c1d30b262">More...</a><br /></td></tr>
+<tr class="separator:a40ba1a981c564a5a579a947c1d30b262"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ad70e4a30668195693059a4ff89d1c8c5"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacets.html#ad70e4a30668195693059a4ff89d1c8c5">ts::IsCombiningDiacritical</a> (UChar c)</td></tr>
 <tr class="memdesc:ad70e4a30668195693059a4ff89d1c8c5"><td class="mdescLeft">&#160;</td><td class="mdescRight">Check if a character is a combining diacritical character.  <a href="namespacets.html#ad70e4a30668195693059a4ff89d1c8c5">More...</a><br /></td></tr>
 <tr class="separator:ad70e4a30668195693059a4ff89d1c8c5"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -149,6 +195,9 @@ Functions</h2></td></tr>
 <tr class="memitem:a3acb4b51ebe5d40154671991727cac13"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacets.html#a3acb4b51ebe5d40154671991727cac13">ts::IsUpper</a> (UChar c)</td></tr>
 <tr class="memdesc:a3acb4b51ebe5d40154671991727cac13"><td class="mdescLeft">&#160;</td><td class="mdescRight">Check if a character is an upper case letter.  <a href="namespacets.html#a3acb4b51ebe5d40154671991727cac13">More...</a><br /></td></tr>
 <tr class="separator:a3acb4b51ebe5d40154671991727cac13"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7d6de3410cb6da417872ca2b70b364d7"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacets.html#a7d6de3410cb6da417872ca2b70b364d7">ts::Match</a> (UChar c1, UChar c2, CaseSensitivity cs)</td></tr>
+<tr class="memdesc:a7d6de3410cb6da417872ca2b70b364d7"><td class="mdescLeft">&#160;</td><td class="mdescRight">Check two characters match, case sensitive or insensitive.  <a href="namespacets.html#a7d6de3410cb6da417872ca2b70b364d7">More...</a><br /></td></tr>
+<tr class="separator:a7d6de3410cb6da417872ca2b70b364d7"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:afdddb5d3bd8644394a47b307f9972d89"><td class="memItemLeft" align="right" valign="top">UString&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacets.html#afdddb5d3bd8644394a47b307f9972d89">ts::RemoveAccent</a> (UChar c)</td></tr>
 <tr class="memdesc:afdddb5d3bd8644394a47b307f9972d89"><td class="mdescLeft">&#160;</td><td class="mdescRight">Remove all forms of accent or composition from a character.  <a href="namespacets.html#afdddb5d3bd8644394a47b307f9972d89">More...</a><br /></td></tr>
 <tr class="separator:afdddb5d3bd8644394a47b307f9972d89"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -164,6 +213,9 @@ Functions</h2></td></tr>
 <tr class="memitem:a1e36dcb6a044c9d6bffb34c5826639c5"><td class="memItemLeft" align="right" valign="top">UChar&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacets.html#a1e36dcb6a044c9d6bffb34c5826639c5">ts::ToUpper</a> (UChar c)</td></tr>
 <tr class="memdesc:a1e36dcb6a044c9d6bffb34c5826639c5"><td class="mdescLeft">&#160;</td><td class="mdescRight">Convert a character to uppercase.  <a href="namespacets.html#a1e36dcb6a044c9d6bffb34c5826639c5">More...</a><br /></td></tr>
 <tr class="separator:a1e36dcb6a044c9d6bffb34c5826639c5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad81f0188e9db0caeaed1de92fa4155d7"><td class="memItemLeft" align="right" valign="top">uint32_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacets.html#ad81f0188e9db0caeaed1de92fa4155d7">ts::UCharacteristics</a> (UChar c)</td></tr>
+<tr class="memdesc:ad81f0188e9db0caeaed1de92fa4155d7"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the characteristics of a character.  <a href="namespacets.html#ad81f0188e9db0caeaed1de92fa4155d7">More...</a><br /></td></tr>
+<tr class="separator:ad81f0188e9db0caeaed1de92fa4155d7"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="var-members"></a>
 Variables</h2></td></tr>

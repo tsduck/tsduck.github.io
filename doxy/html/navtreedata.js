@@ -45,7 +45,7 @@ var NAVTREE =
         [ "Exceptions", "libtutorial.html#except", null ],
         [ "Pseudo-enumeration data", "libtutorial.html#enums", null ],
         [ "Command-line arguments", "libtutorial.html#cmdargs", null ],
-        [ "XML data", "libtutorial.html#tinyxml", null ]
+        [ "XML data", "libtutorial.html#xml", null ]
       ] ],
       [ "Cryptography", "libtutorial.html#crypto", null ],
       [ "Operating system features", "libtutorial.html#osfeatures", [
@@ -107,6 +107,7 @@ var NAVTREE =
       [ "File Members", "globals.html", [
         [ "All", "globals.html", null ],
         [ "Functions", "globals_func.html", null ],
+        [ "Variables", "globals_vars.html", null ],
         [ "Macros", "globals_defs.html", null ]
       ] ]
     ] ]
@@ -117,33 +118,33 @@ var NAVTREEINDEX =
 [
 "annotated.html",
 "classts_1_1_abstract_audio_video_attributes.html#aaa27bab70b76ae2085ff66442c340cbf",
-"classts_1_1_binary_table.html#a7dbe48d286633cd10e76c08cf81339fb",
-"classts_1_1_com_ptr.html#ae3618e06040e292beb4a876c9a3c95d2",
-"classts_1_1_direct_show_filter_category.html#aa9490f4ad360a8cf95a38f004ef36744",
-"classts_1_1_hash.html#aaefc19245758693f8d8e0682e8b70ec7",
-"classts_1_1_null_mutex.html#a4cf153f1d6a1f92d4161d8c3d8a465c2",
-"classts_1_1_report_interface.html",
-"classts_1_1_section.html#a9a84af1e7a8f566c660a6ea2eac295e0",
-"classts_1_1_socket_address.html#ae2bb63320cdf4ab80bf494f46174a3c1",
-"classts_1_1_t_s_analyzer.html#acdca095528c6ece57c71ea7346f6d973",
-"classts_1_1_tables_factory.html#a5ffd1db79b8d2c37ce0c2a3f07e3ba52",
-"classts_1_1_tuner_args.html#a6c0d91c162420d16e31295cc4e2b4cae",
-"classts_1_1_u_string.html#ab3bc5c2b2f8ad7532406fbee57ccf958",
-"classts_1_1ecmgscs_1_1_e_c_m_response.html#a603e692458a476bcca7136fd60fe25f3",
-"classts_1_1tlv_1_1_serializer.html#a5f1a95f34c11935cc600fb2b9de9d7ce",
-"namespacemembers_eval_p.html",
-"structts_1_1_t_s_packet.html#a7a6c2bd13800cf13e4fd01c4e2eade2d",
-"ts_abstract_c_a_s_date_8h.html",
-"ts_m_p_e_g_8h.html#a1e45472f30bc4d666df244802b6b39c2ad10f4bcd83245878b2f8937b1fa5dc56",
-"ts_m_p_e_g_8h.html#ad86644912ed316d3a3109e2c313bf797a0310b81faabaf896e97890baef588bb9",
-"ts_m_p_e_g_8h.html#ae56343654e2b01380409afc12dd2b037a968214a88cb501e18da563ea2b17b3ee",
-"ts_names_8h.html#ad01b2604fc1b9fcaa4cbcbea333d8bfca79d7ca23e25e4e818ccb4cabe1444d90",
-"ts_poll_files_8h.html",
-"ts_to_integer_8h.html#ab506bc57d5f6261a6b32aa548cec7c50",
-"ts_u_char_8h.html#a36dc9fe70e3988745ea76e376ccf6c8f",
-"ts_u_char_8h.html#a7efd0d0f87464011b3753859ae4d9b84",
-"ts_u_char_8h.html#acac03c7bf9619f115c6f8e32e76acd02",
-"tstlv_8h.html#a8a60aed0fb72f9faef47e8c7e5beef94"
+"classts_1_1_audio_attributes.html#aa4654a0591965bfd0cf4934f9078a540",
+"classts_1_1_c_t_s4.html#a64020f9e6fbda4931d6d12bbe6be4f87",
+"classts_1_1_descriptor.html#a425fad875902852a9a8cf739f2d05bad",
+"classts_1_1_file_name_rate_list.html",
+"classts_1_1_message_descriptor.html",
+"classts_1_1_parental_rating_descriptor.html#a7eaa79d50089c33a3c4e62ba0f77c2fb",
+"classts_1_1_s_s_u_linkage_descriptor.html#a6c8d47da11500e4a1f365e593800e5c7",
+"classts_1_1_service.html#ada17e14377539a2d302f5647ace83d36",
+"classts_1_1_t_c_p_connection.html#a82abd1e48f8a00fff1e5a45b10f724ef",
+"classts_1_1_t_s_analyzer_options.html#acba55c23e57008b1b793a1fe0f97f31f",
+"classts_1_1_text_formatter.html#aea5a07a6815ba17d68798acaf46445f5",
+"classts_1_1_tuner_parameters_d_v_b_c.html#a405a1132f68e975389bff9e83f9f1d0a",
+"classts_1_1_uninitialized_variable.html#a788466e357e089b1edcd9f343e9cf500",
+"classts_1_1emmgmux_1_1_stream_setup.html#afcf212dc9c9fff4a992de839c5ecc034",
+"classts_1_1xml_1_1_document.html#ae37ecc8462ee701c40e1b49155810779",
+"namespacemembers_eval_f.html",
+"structts_1_1_t_s_packet.html#a44804d440cfbecbc0da9ec1a042229e3",
+"ts_a_v_c_v_u_i_parameters_8h.html",
+"ts_m_p_e_g_8h.html#a0071f2918a8c95ab8f3c188250ce2b7fa68085ba7aaa707971948593cae187580",
+"ts_m_p_e_g_8h.html#aa5ef9f2051bf85186fab0b624d387781a36158e249137b6ccd3151fb929b781f1",
+"ts_m_p_e_g_8h.html#af65eca52660a5db7689e344a97f11ff9abe016f5910b6d77c0d2bfc4b897cca4e",
+"ts_names_8h.html#ad01b2604fc1b9fcaa4cbcbea333d8bfcadb593d99c9208513a8e63da85dbc6038",
+"ts_poll_files_8h.html#a8f0a779c88d4f34f07a5fa01cfcf8526",
+"ts_u_char_8h.html#a0a93c182386c902a0bdb1fff9090a00f",
+"ts_u_char_8h.html#a451095a8c14b0800a84aa10d858e8aba",
+"ts_u_char_8h.html#a931264ffa31a23935bd61c64a3a57d3b",
+"ts_u_char_8h.html#ad8c2808fb112b7821486dd5401645012"
 ];
 
 var SYNCONMSG = 'click to disable panel synchronisation';

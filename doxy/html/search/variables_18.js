@@ -1,5 +1,4 @@
 var searchData=
 [
-  ['year',['year',['../structts_1_1_time_1_1_fields.html#abf6baf3398053f75888adf413a74014d',1,'ts::Time::Fields']]],
-  ['yen_5fsign',['YEN_SIGN',['../namespacets.html#a9622d76e33f0e46f341b97476cce667f',1,'ts']]]
+  ['xml_5fdestination',['xml_destination',['../classts_1_1_tables_logger_args.html#a532205025a25b216059eb51c43e6b7e1',1,'ts::TablesLoggerArgs']]]
 ];

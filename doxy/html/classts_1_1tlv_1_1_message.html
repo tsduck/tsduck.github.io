@@ -34,7 +34,7 @@
  <tr style="height: 56px;">
   <td id="projectlogo"><img src="tsduck-32.png"/></td>
    <td id="projectalign"><span id="projectname">TSDuck</span>
-    <span id="projectnumber">Version 3.4</span>
+    <span id="projectnumber">Version 3.5</span>
     <span id="projectbrief">(TSDuck - The MPEG Transport Stream Toolkit)</span>
    </td>
    <td>        <div id="MSearchBox" class="MSearchBoxInactive">
@@ -146,9 +146,9 @@ Public Member Functions</h2></td></tr>
 virtual&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classts_1_1tlv_1_1_message.html#af861efe573130f21b0d911eb8190a044">~Message</a> ()</td></tr>
 <tr class="memdesc:af861efe573130f21b0d911eb8190a044"><td class="mdescLeft">&#160;</td><td class="mdescRight">Virtual destructor. <br /></td></tr>
 <tr class="separator:af861efe573130f21b0d911eb8190a044"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ad9977edb5f73e5657ced8dc922325fba"><td class="memItemLeft" align="right" valign="top">virtual std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classts_1_1tlv_1_1_message.html#ad9977edb5f73e5657ced8dc922325fba">dump</a> (size_t indent=0) const</td></tr>
-<tr class="memdesc:ad9977edb5f73e5657ced8dc922325fba"><td class="mdescLeft">&#160;</td><td class="mdescRight">Dump routine.  <a href="#ad9977edb5f73e5657ced8dc922325fba">More...</a><br /></td></tr>
-<tr class="separator:ad9977edb5f73e5657ced8dc922325fba"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad71ade46989cffd345b3ddf93869b933"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="classts_1_1_u_string.html">UString</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classts_1_1tlv_1_1_message.html#ad71ade46989cffd345b3ddf93869b933">dump</a> (size_t <a class="el" href="namespacets.html#a45875f9eaab18c02b57b9fbd2e216d3d">indent</a>=0) const</td></tr>
+<tr class="memdesc:ad71ade46989cffd345b3ddf93869b933"><td class="mdescLeft">&#160;</td><td class="mdescRight">Dump routine.  <a href="#ad71ade46989cffd345b3ddf93869b933">More...</a><br /></td></tr>
+<tr class="separator:ad71ade46989cffd345b3ddf93869b933"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a85ef74f32d9db2cfe9439a657b3171b2"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classts_1_1tlv_1_1_message.html#a85ef74f32d9db2cfe9439a657b3171b2">hasProtocolVersion</a> () const</td></tr>
 <tr class="memdesc:a85ef74f32d9db2cfe9439a657b3171b2"><td class="mdescLeft">&#160;</td><td class="mdescRight">Check if the message has a protocol version number.  <a href="#a85ef74f32d9db2cfe9439a657b3171b2">More...</a><br /></td></tr>
 <tr class="separator:a85ef74f32d9db2cfe9439a657b3171b2"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -176,40 +176,40 @@ Protected Member Functions</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pro-static-methods"></a>
 Static Protected Member Functions</h2></td></tr>
-<tr class="memitem:a8e719f6597c5d4ace7c708548276ed02"><td class="memTemplParams" colspan="2">template&lt;typename INT &gt; </td></tr>
-<tr class="memitem:a8e719f6597c5d4ace7c708548276ed02"><td class="memTemplItemLeft" align="right" valign="top">static std::string&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="classts_1_1tlv_1_1_message.html#a8e719f6597c5d4ace7c708548276ed02">dumpDecimal</a> (size_t indent, const char *name, const INT &amp;value)</td></tr>
-<tr class="memdesc:a8e719f6597c5d4ace7c708548276ed02"><td class="mdescLeft">&#160;</td><td class="mdescRight">Dump an integer value in decimal (helper routine for subclasses).  <a href="#a8e719f6597c5d4ace7c708548276ed02">More...</a><br /></td></tr>
-<tr class="separator:a8e719f6597c5d4ace7c708548276ed02"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a1ee4c0905198994046c36aa4fea50537"><td class="memTemplParams" colspan="2">template&lt;typename INT &gt; </td></tr>
-<tr class="memitem:a1ee4c0905198994046c36aa4fea50537"><td class="memTemplItemLeft" align="right" valign="top">static std::string&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="classts_1_1tlv_1_1_message.html#a1ee4c0905198994046c36aa4fea50537">dumpHexa</a> (size_t indent, const char *name, const INT &amp;value)</td></tr>
-<tr class="memdesc:a1ee4c0905198994046c36aa4fea50537"><td class="mdescLeft">&#160;</td><td class="mdescRight">Dump an integer value in hexadecimal (helper routine for subclasses).  <a href="#a1ee4c0905198994046c36aa4fea50537">More...</a><br /></td></tr>
-<tr class="separator:a1ee4c0905198994046c36aa4fea50537"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a17b9afff768a0aaeed5ca4492dc7db5a"><td class="memTemplParams" colspan="2">template&lt;typename INT &gt; </td></tr>
-<tr class="memitem:a17b9afff768a0aaeed5ca4492dc7db5a"><td class="memTemplItemLeft" align="right" valign="top">static std::string&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="classts_1_1tlv_1_1_message.html#a17b9afff768a0aaeed5ca4492dc7db5a">dumpInteger</a> (size_t indent, const char *name, const INT &amp;value)</td></tr>
-<tr class="memdesc:a17b9afff768a0aaeed5ca4492dc7db5a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Dump an integer value (helper routine for subclasses).  <a href="#a17b9afff768a0aaeed5ca4492dc7db5a">More...</a><br /></td></tr>
-<tr class="separator:a17b9afff768a0aaeed5ca4492dc7db5a"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ae02aa3c2a9a2493e9d838b4b13039245"><td class="memItemLeft" align="right" valign="top">static std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classts_1_1tlv_1_1_message.html#ae02aa3c2a9a2493e9d838b4b13039245">dumpOptional</a> (size_t indent, const char *name, bool has_value, const <a class="el" href="classts_1_1_byte_block.html">ByteBlock</a> &amp;value, uint32_t flags=<a class="el" href="namespacets_1_1hexa.html#a490e158f46bf3d8b610cd81e9d6290e6aad5f43306863dc44384c71053cbe3036">hexa::HEXA</a>|<a class="el" href="namespacets_1_1hexa.html#a490e158f46bf3d8b610cd81e9d6290e6a99d46d1b68d810d2eb64a603da191b6b">hexa::ASCII</a>)</td></tr>
-<tr class="memdesc:ae02aa3c2a9a2493e9d838b4b13039245"><td class="mdescLeft">&#160;</td><td class="mdescRight">Dump an optional byte block (helper routine for subclasses).  <a href="#ae02aa3c2a9a2493e9d838b4b13039245">More...</a><br /></td></tr>
-<tr class="separator:ae02aa3c2a9a2493e9d838b4b13039245"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a34d958071de44d4c28df18ee8ec7a5d7"><td class="memTemplParams" colspan="2">template&lt;typename INT &gt; </td></tr>
-<tr class="memitem:a34d958071de44d4c28df18ee8ec7a5d7"><td class="memTemplItemLeft" align="right" valign="top">static std::string&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="classts_1_1tlv_1_1_message.html#a34d958071de44d4c28df18ee8ec7a5d7">dumpOptionalDecimal</a> (size_t indent, const char *name, bool has_value, const INT &amp;value)</td></tr>
-<tr class="memdesc:a34d958071de44d4c28df18ee8ec7a5d7"><td class="mdescLeft">&#160;</td><td class="mdescRight">Dump an optional integer value in decimal (helper routine for subclasses).  <a href="#a34d958071de44d4c28df18ee8ec7a5d7">More...</a><br /></td></tr>
-<tr class="separator:a34d958071de44d4c28df18ee8ec7a5d7"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a4712fb1cb648af8ab00185ea311b0a5c"><td class="memTemplParams" colspan="2">template&lt;typename INT &gt; </td></tr>
-<tr class="memitem:a4712fb1cb648af8ab00185ea311b0a5c"><td class="memTemplItemLeft" align="right" valign="top">static std::string&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="classts_1_1tlv_1_1_message.html#a4712fb1cb648af8ab00185ea311b0a5c">dumpOptionalHexa</a> (size_t indent, const char *name, bool has_value, const INT &amp;value)</td></tr>
-<tr class="memdesc:a4712fb1cb648af8ab00185ea311b0a5c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Dump an optional integer value in hexadecimal (helper routine for subclasses).  <a href="#a4712fb1cb648af8ab00185ea311b0a5c">More...</a><br /></td></tr>
-<tr class="separator:a4712fb1cb648af8ab00185ea311b0a5c"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a642a1ab0ac2279cb37c4d8e9ec64afb1"><td class="memTemplParams" colspan="2">template&lt;typename INT &gt; </td></tr>
-<tr class="memitem:a642a1ab0ac2279cb37c4d8e9ec64afb1"><td class="memTemplItemLeft" align="right" valign="top">static std::string&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="classts_1_1tlv_1_1_message.html#a642a1ab0ac2279cb37c4d8e9ec64afb1">dumpOptionalInteger</a> (size_t indent, const char *name, bool has_value, const INT &amp;value)</td></tr>
-<tr class="memdesc:a642a1ab0ac2279cb37c4d8e9ec64afb1"><td class="mdescLeft">&#160;</td><td class="mdescRight">Dump an optional integer value (helper routine for subclasses).  <a href="#a642a1ab0ac2279cb37c4d8e9ec64afb1">More...</a><br /></td></tr>
-<tr class="separator:a642a1ab0ac2279cb37c4d8e9ec64afb1"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:af0d5679c72b9cb253e303374232c511d"><td class="memItemLeft" align="right" valign="top">static std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classts_1_1tlv_1_1_message.html#af0d5679c72b9cb253e303374232c511d">dumpVector</a> (size_t indent, const char *name, const std::vector&lt; std::string &gt; &amp;value)</td></tr>
-<tr class="memdesc:af0d5679c72b9cb253e303374232c511d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Dump a vector of strings (helper routine for subclasses).  <a href="#af0d5679c72b9cb253e303374232c511d">More...</a><br /></td></tr>
-<tr class="separator:af0d5679c72b9cb253e303374232c511d"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aa5a7cec579c15b372ef8c0c99a48925a"><td class="memTemplParams" colspan="2">template&lt;typename INT &gt; </td></tr>
-<tr class="memitem:aa5a7cec579c15b372ef8c0c99a48925a"><td class="memTemplItemLeft" align="right" valign="top">static std::string&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="classts_1_1tlv_1_1_message.html#aa5a7cec579c15b372ef8c0c99a48925a">dumpVector</a> (size_t indent, const char *name, const std::vector&lt; INT &gt; &amp;val)</td></tr>
-<tr class="memdesc:aa5a7cec579c15b372ef8c0c99a48925a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Dump a vector of integer values (helper routine for subclasses).  <a href="#aa5a7cec579c15b372ef8c0c99a48925a">More...</a><br /></td></tr>
-<tr class="separator:aa5a7cec579c15b372ef8c0c99a48925a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac5f9d03fc3baf0f6bc9b650c08c2dc3f"><td class="memTemplParams" colspan="2">template&lt;typename INT , typename std::enable_if&lt; std::is_integral&lt; INT &gt;::value &gt;::type *  = nullptr&gt; </td></tr>
+<tr class="memitem:ac5f9d03fc3baf0f6bc9b650c08c2dc3f"><td class="memTemplItemLeft" align="right" valign="top">static <a class="el" href="classts_1_1_u_string.html">UString</a>&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="classts_1_1tlv_1_1_message.html#ac5f9d03fc3baf0f6bc9b650c08c2dc3f">dumpDecimal</a> (size_t <a class="el" href="namespacets.html#a45875f9eaab18c02b57b9fbd2e216d3d">indent</a>, const <a class="el" href="classts_1_1_u_string.html">UString</a> &amp;name, const INT &amp;value)</td></tr>
+<tr class="memdesc:ac5f9d03fc3baf0f6bc9b650c08c2dc3f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Dump an integer value in decimal (helper routine for subclasses).  <a href="#ac5f9d03fc3baf0f6bc9b650c08c2dc3f">More...</a><br /></td></tr>
+<tr class="separator:ac5f9d03fc3baf0f6bc9b650c08c2dc3f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab73b6c57c525121be55f5b5ece239c2d"><td class="memTemplParams" colspan="2">template&lt;typename INT , typename std::enable_if&lt; std::is_integral&lt; INT &gt;::value &gt;::type *  = nullptr&gt; </td></tr>
+<tr class="memitem:ab73b6c57c525121be55f5b5ece239c2d"><td class="memTemplItemLeft" align="right" valign="top">static <a class="el" href="classts_1_1_u_string.html">UString</a>&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="classts_1_1tlv_1_1_message.html#ab73b6c57c525121be55f5b5ece239c2d">dumpHexa</a> (size_t <a class="el" href="namespacets.html#a45875f9eaab18c02b57b9fbd2e216d3d">indent</a>, const <a class="el" href="classts_1_1_u_string.html">UString</a> &amp;name, const INT &amp;value)</td></tr>
+<tr class="memdesc:ab73b6c57c525121be55f5b5ece239c2d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Dump an integer value in hexadecimal (helper routine for subclasses).  <a href="#ab73b6c57c525121be55f5b5ece239c2d">More...</a><br /></td></tr>
+<tr class="separator:ab73b6c57c525121be55f5b5ece239c2d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a16590e8b226ee6aac89a8c08e0d13a70"><td class="memTemplParams" colspan="2">template&lt;typename INT , typename std::enable_if&lt; std::is_integral&lt; INT &gt;::value &gt;::type *  = nullptr&gt; </td></tr>
+<tr class="memitem:a16590e8b226ee6aac89a8c08e0d13a70"><td class="memTemplItemLeft" align="right" valign="top">static <a class="el" href="classts_1_1_u_string.html">UString</a>&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="classts_1_1tlv_1_1_message.html#a16590e8b226ee6aac89a8c08e0d13a70">dumpInteger</a> (size_t <a class="el" href="namespacets.html#a45875f9eaab18c02b57b9fbd2e216d3d">indent</a>, const <a class="el" href="classts_1_1_u_string.html">UString</a> &amp;name, const INT &amp;value)</td></tr>
+<tr class="memdesc:a16590e8b226ee6aac89a8c08e0d13a70"><td class="mdescLeft">&#160;</td><td class="mdescRight">Dump an integer value (helper routine for subclasses).  <a href="#a16590e8b226ee6aac89a8c08e0d13a70">More...</a><br /></td></tr>
+<tr class="separator:a16590e8b226ee6aac89a8c08e0d13a70"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2d5ff039747d59f2c0a55bf6a60577a5"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="classts_1_1_u_string.html">UString</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classts_1_1tlv_1_1_message.html#a2d5ff039747d59f2c0a55bf6a60577a5">dumpOptional</a> (size_t <a class="el" href="namespacets.html#a45875f9eaab18c02b57b9fbd2e216d3d">indent</a>, const <a class="el" href="classts_1_1_u_string.html">UString</a> &amp;name, bool has_value, const <a class="el" href="classts_1_1_byte_block.html">ByteBlock</a> &amp;value, uint32_t flags=<a class="el" href="classts_1_1_u_string.html#a95e758037651fab003f10b568b08cb46aa7bd3c423691aa596e8b2caa703e5e2e">UString::HEXA</a>|<a class="el" href="classts_1_1_u_string.html#a95e758037651fab003f10b568b08cb46a7b28ae996daf573879de011a9272213e">UString::ASCII</a>)</td></tr>
+<tr class="memdesc:a2d5ff039747d59f2c0a55bf6a60577a5"><td class="mdescLeft">&#160;</td><td class="mdescRight">Dump an optional byte block (helper routine for subclasses).  <a href="#a2d5ff039747d59f2c0a55bf6a60577a5">More...</a><br /></td></tr>
+<tr class="separator:a2d5ff039747d59f2c0a55bf6a60577a5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a19511a7e8316d2cf11ef69172ec2ce49"><td class="memTemplParams" colspan="2">template&lt;typename INT , typename std::enable_if&lt; std::is_integral&lt; INT &gt;::value &gt;::type *  = nullptr&gt; </td></tr>
+<tr class="memitem:a19511a7e8316d2cf11ef69172ec2ce49"><td class="memTemplItemLeft" align="right" valign="top">static <a class="el" href="classts_1_1_u_string.html">UString</a>&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="classts_1_1tlv_1_1_message.html#a19511a7e8316d2cf11ef69172ec2ce49">dumpOptionalDecimal</a> (size_t <a class="el" href="namespacets.html#a45875f9eaab18c02b57b9fbd2e216d3d">indent</a>, const <a class="el" href="classts_1_1_u_string.html">UString</a> &amp;name, bool has_value, const INT &amp;value)</td></tr>
+<tr class="memdesc:a19511a7e8316d2cf11ef69172ec2ce49"><td class="mdescLeft">&#160;</td><td class="mdescRight">Dump an optional integer value in decimal (helper routine for subclasses).  <a href="#a19511a7e8316d2cf11ef69172ec2ce49">More...</a><br /></td></tr>
+<tr class="separator:a19511a7e8316d2cf11ef69172ec2ce49"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a59ed7cba78bbafd31bdcde155b7d49fe"><td class="memTemplParams" colspan="2">template&lt;typename INT , typename std::enable_if&lt; std::is_integral&lt; INT &gt;::value &gt;::type *  = nullptr&gt; </td></tr>
+<tr class="memitem:a59ed7cba78bbafd31bdcde155b7d49fe"><td class="memTemplItemLeft" align="right" valign="top">static <a class="el" href="classts_1_1_u_string.html">UString</a>&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="classts_1_1tlv_1_1_message.html#a59ed7cba78bbafd31bdcde155b7d49fe">dumpOptionalHexa</a> (size_t <a class="el" href="namespacets.html#a45875f9eaab18c02b57b9fbd2e216d3d">indent</a>, const <a class="el" href="classts_1_1_u_string.html">UString</a> &amp;name, bool has_value, const INT &amp;value)</td></tr>
+<tr class="memdesc:a59ed7cba78bbafd31bdcde155b7d49fe"><td class="mdescLeft">&#160;</td><td class="mdescRight">Dump an optional integer value in hexadecimal (helper routine for subclasses).  <a href="#a59ed7cba78bbafd31bdcde155b7d49fe">More...</a><br /></td></tr>
+<tr class="separator:a59ed7cba78bbafd31bdcde155b7d49fe"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac940cc5f719fa470ba8f4d04d7d64830"><td class="memTemplParams" colspan="2">template&lt;typename INT , typename std::enable_if&lt; std::is_integral&lt; INT &gt;::value &gt;::type *  = nullptr&gt; </td></tr>
+<tr class="memitem:ac940cc5f719fa470ba8f4d04d7d64830"><td class="memTemplItemLeft" align="right" valign="top">static <a class="el" href="classts_1_1_u_string.html">UString</a>&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="classts_1_1tlv_1_1_message.html#ac940cc5f719fa470ba8f4d04d7d64830">dumpOptionalInteger</a> (size_t <a class="el" href="namespacets.html#a45875f9eaab18c02b57b9fbd2e216d3d">indent</a>, const <a class="el" href="classts_1_1_u_string.html">UString</a> &amp;name, bool has_value, const INT &amp;value)</td></tr>
+<tr class="memdesc:ac940cc5f719fa470ba8f4d04d7d64830"><td class="mdescLeft">&#160;</td><td class="mdescRight">Dump an optional integer value (helper routine for subclasses).  <a href="#ac940cc5f719fa470ba8f4d04d7d64830">More...</a><br /></td></tr>
+<tr class="separator:ac940cc5f719fa470ba8f4d04d7d64830"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0f42e1bbf8f339fa1290f00e3765b551"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="classts_1_1_u_string.html">UString</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classts_1_1tlv_1_1_message.html#a0f42e1bbf8f339fa1290f00e3765b551">dumpVector</a> (size_t <a class="el" href="namespacets.html#a45875f9eaab18c02b57b9fbd2e216d3d">indent</a>, const <a class="el" href="classts_1_1_u_string.html">UString</a> &amp;name, const <a class="el" href="namespacets.html#a843f23808732fa4bb32ddd18e3dabf53">UStringVector</a> &amp;value)</td></tr>
+<tr class="memdesc:a0f42e1bbf8f339fa1290f00e3765b551"><td class="mdescLeft">&#160;</td><td class="mdescRight">Dump a vector of strings (helper routine for subclasses).  <a href="#a0f42e1bbf8f339fa1290f00e3765b551">More...</a><br /></td></tr>
+<tr class="separator:a0f42e1bbf8f339fa1290f00e3765b551"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aab59cd5c221f3a0271b6e777cbdad393"><td class="memTemplParams" colspan="2">template&lt;typename INT , typename std::enable_if&lt; std::is_integral&lt; INT &gt;::value &gt;::type *  = nullptr&gt; </td></tr>
+<tr class="memitem:aab59cd5c221f3a0271b6e777cbdad393"><td class="memTemplItemLeft" align="right" valign="top">static <a class="el" href="classts_1_1_u_string.html">UString</a>&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="classts_1_1tlv_1_1_message.html#aab59cd5c221f3a0271b6e777cbdad393">dumpVector</a> (size_t <a class="el" href="namespacets.html#a45875f9eaab18c02b57b9fbd2e216d3d">indent</a>, const <a class="el" href="classts_1_1_u_string.html">UString</a> &amp;name, const std::vector&lt; INT &gt; &amp;val)</td></tr>
+<tr class="memdesc:aab59cd5c221f3a0271b6e777cbdad393"><td class="mdescLeft">&#160;</td><td class="mdescRight">Dump a vector of integer values (helper routine for subclasses).  <a href="#aab59cd5c221f3a0271b6e777cbdad393">More...</a><br /></td></tr>
+<tr class="separator:aab59cd5c221f3a0271b6e777cbdad393"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>Abstract base class for TLV messages. </p>
@@ -406,8 +406,8 @@ Static Protected Member Functions</h2></td></tr>
 
 </div>
 </div>
-<a id="ad9977edb5f73e5657ced8dc922325fba"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ad9977edb5f73e5657ced8dc922325fba">&#9670;&nbsp;</a></span>dump()</h2>
+<a id="ad71ade46989cffd345b3ddf93869b933"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad71ade46989cffd345b3ddf93869b933">&#9670;&nbsp;</a></span>dump()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -416,7 +416,7 @@ Static Protected Member Functions</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">virtual std::string ts::tlv::Message::dump </td>
+          <td class="memname">virtual <a class="el" href="classts_1_1_u_string.html">UString</a> ts::tlv::Message::dump </td>
           <td>(</td>
           <td class="paramtype">size_t&#160;</td>
           <td class="paramname"><em>indent</em> = <code>0</code></td><td>)</td>
@@ -439,7 +439,7 @@ Static Protected Member Functions</h2></td></tr>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>A string representing the message. </dd></dl>
 
-<p>Reimplemented in <a class="el" href="classts_1_1ecmgscs_1_1_e_c_m_response.html#a1f39ef2f51e29b8303c56aab3c59aefd">ts::ecmgscs::ECMResponse</a>, <a class="el" href="classts_1_1emmgmux_1_1_data_provision.html#a83fcc5f29144f4e42255b60b2875004a">ts::emmgmux::DataProvision</a>, <a class="el" href="classts_1_1ecmgscs_1_1_c_w_provision.html#a07c1bf6c597f8fbc788afc782626c341">ts::ecmgscs::CWProvision</a>, <a class="el" href="classts_1_1emmgmux_1_1_stream_b_w_allocation.html#ace240fd962c022765500439a1592f30a">ts::emmgmux::StreamBWAllocation</a>, <a class="el" href="classts_1_1emmgmux_1_1_stream_b_w_request.html#a83eaedb0396d36861d4994e0e4965987">ts::emmgmux::StreamBWRequest</a>, <a class="el" href="classts_1_1ecmgscs_1_1_stream_error.html#a5e04bcdad01fa0e8de12d3b34ee24327">ts::ecmgscs::StreamError</a>, <a class="el" href="classts_1_1emmgmux_1_1_stream_error.html#a77d5e54264ea843ef6b08ad1e263da37">ts::emmgmux::StreamError</a>, <a class="el" href="classts_1_1ecmgscs_1_1_stream_close_response.html#ab43485d399eb227b0187b74b6823e51e">ts::ecmgscs::StreamCloseResponse</a>, <a class="el" href="classts_1_1emmgmux_1_1_stream_close_response.html#ac8bb303bd682ed9fc159aed7f4559aff">ts::emmgmux::StreamCloseResponse</a>, <a class="el" href="classts_1_1ecmgscs_1_1_stream_close_request.html#a21302b69a0051e264c0521e4cbcabeed">ts::ecmgscs::StreamCloseRequest</a>, <a class="el" href="classts_1_1emmgmux_1_1_stream_close_request.html#a147d3328a7b5cd848fd9c6f2d7c77e3f">ts::emmgmux::StreamCloseRequest</a>, <a class="el" href="classts_1_1ecmgscs_1_1_stream_status.html#ae592bd39fbedf4038d65ce49fc4eb6de">ts::ecmgscs::StreamStatus</a>, <a class="el" href="classts_1_1emmgmux_1_1_stream_status.html#a4752d453051b5944176ff8d2cd678c13">ts::emmgmux::StreamStatus</a>, <a class="el" href="classts_1_1ecmgscs_1_1_stream_test.html#a5e254df30d055302a7e653761640d3af">ts::ecmgscs::StreamTest</a>, <a class="el" href="classts_1_1emmgmux_1_1_stream_test.html#adbf09ca4b6a4119c51465c3c9424eff0">ts::emmgmux::StreamTest</a>, <a class="el" href="classts_1_1ecmgscs_1_1_stream_setup.html#a38a14d49bd832cef916675a0df11d076">ts::ecmgscs::StreamSetup</a>, <a class="el" href="classts_1_1emmgmux_1_1_stream_setup.html#a86a98ed1bed5e210cdbf9123fa44e802">ts::emmgmux::StreamSetup</a>, <a class="el" href="classts_1_1ecmgscs_1_1_channel_error.html#a70f8110da2c08bc1be646da8643a4c1f">ts::ecmgscs::ChannelError</a>, <a class="el" href="classts_1_1emmgmux_1_1_channel_error.html#a52419484756b31d537b0ce5f5af30ca4">ts::emmgmux::ChannelError</a>, <a class="el" href="classts_1_1ecmgscs_1_1_channel_close.html#a5800b9c285d4bed2a034b0e63b0e8b40">ts::ecmgscs::ChannelClose</a>, <a class="el" href="classts_1_1emmgmux_1_1_channel_close.html#a422de054d6490244f5124658352506e6">ts::emmgmux::ChannelClose</a>, <a class="el" href="classts_1_1ecmgscs_1_1_channel_status.html#ab6291a800ff4f45f63c40ff2628fbd14">ts::ecmgscs::ChannelStatus</a>, <a class="el" href="classts_1_1emmgmux_1_1_channel_status.html#a2bba5753754529ecfcd8ad6079ce1d02">ts::emmgmux::ChannelStatus</a>, <a class="el" href="classts_1_1ecmgscs_1_1_channel_test.html#ab87ab121d6e73d43f0818d9e9cad7aa5">ts::ecmgscs::ChannelTest</a>, <a class="el" href="classts_1_1emmgmux_1_1_channel_test.html#abb83e4a34d6a5e2409e2d4ec22b848d9">ts::emmgmux::ChannelTest</a>, <a class="el" href="classts_1_1ecmgscs_1_1_channel_setup.html#ae97ea86d7a7a1e88b5a9fbe6840d644f">ts::ecmgscs::ChannelSetup</a>, and <a class="el" href="classts_1_1emmgmux_1_1_channel_setup.html#a9a5d52546b10ed8c1dae64efff984201">ts::emmgmux::ChannelSetup</a>.</p>
+<p>Reimplemented in <a class="el" href="classts_1_1ecmgscs_1_1_e_c_m_response.html#a55dc399132bcfff30a96d7b181f1e909">ts::ecmgscs::ECMResponse</a>, <a class="el" href="classts_1_1emmgmux_1_1_data_provision.html#ab523c8b2a4b8577cb186d06f3a11c553">ts::emmgmux::DataProvision</a>, <a class="el" href="classts_1_1ecmgscs_1_1_c_w_provision.html#a92eba997b56058273415a6b8185f5a57">ts::ecmgscs::CWProvision</a>, <a class="el" href="classts_1_1emmgmux_1_1_stream_b_w_allocation.html#a5abcb37cce672340ea4c25758dbca501">ts::emmgmux::StreamBWAllocation</a>, <a class="el" href="classts_1_1emmgmux_1_1_stream_b_w_request.html#a5ebac25e6be38f182054e01cf9cfa92d">ts::emmgmux::StreamBWRequest</a>, <a class="el" href="classts_1_1ecmgscs_1_1_stream_error.html#a5940ee3e24217e1699012748aba08161">ts::ecmgscs::StreamError</a>, <a class="el" href="classts_1_1emmgmux_1_1_stream_error.html#a06188d1081f8650f23d014cddaacab39">ts::emmgmux::StreamError</a>, <a class="el" href="classts_1_1ecmgscs_1_1_stream_close_response.html#a711757421a0c7b2efc1e17f167518484">ts::ecmgscs::StreamCloseResponse</a>, <a class="el" href="classts_1_1emmgmux_1_1_stream_close_response.html#a36ffe316f27c2f81b2087d0e3e279b1a">ts::emmgmux::StreamCloseResponse</a>, <a class="el" href="classts_1_1ecmgscs_1_1_stream_close_request.html#a66395ae529034f3f24588c551845660f">ts::ecmgscs::StreamCloseRequest</a>, <a class="el" href="classts_1_1emmgmux_1_1_stream_close_request.html#af54993415a4a4618014842f474764f94">ts::emmgmux::StreamCloseRequest</a>, <a class="el" href="classts_1_1ecmgscs_1_1_stream_status.html#ac414511f3238864e126e72aa2487dcc6">ts::ecmgscs::StreamStatus</a>, <a class="el" href="classts_1_1emmgmux_1_1_stream_status.html#a99e1febf525724089233c31fb3609310">ts::emmgmux::StreamStatus</a>, <a class="el" href="classts_1_1ecmgscs_1_1_stream_test.html#a666bce7c2ec1656baae91130ea02d700">ts::ecmgscs::StreamTest</a>, <a class="el" href="classts_1_1emmgmux_1_1_stream_test.html#afa8dc5759a976cac8b0f874ddb07c52e">ts::emmgmux::StreamTest</a>, <a class="el" href="classts_1_1ecmgscs_1_1_stream_setup.html#af9c441ac205b9741077d19bc450cebeb">ts::ecmgscs::StreamSetup</a>, <a class="el" href="classts_1_1emmgmux_1_1_stream_setup.html#a56a5041757f798aea0dd37c027f8e8ab">ts::emmgmux::StreamSetup</a>, <a class="el" href="classts_1_1ecmgscs_1_1_channel_error.html#ae3942f5c8e50704c55f46e86423da6f0">ts::ecmgscs::ChannelError</a>, <a class="el" href="classts_1_1emmgmux_1_1_channel_error.html#adc960e00ee67d5a82a6e9764ad0d14e3">ts::emmgmux::ChannelError</a>, <a class="el" href="classts_1_1ecmgscs_1_1_channel_close.html#a1eb1492b089d078fb2a1252ce60982c9">ts::ecmgscs::ChannelClose</a>, <a class="el" href="classts_1_1emmgmux_1_1_channel_close.html#a8ea7c42faf3316e703843abb8a07e266">ts::emmgmux::ChannelClose</a>, <a class="el" href="classts_1_1ecmgscs_1_1_channel_status.html#ab47d556fbec1239f78eb24a33b5c22e5">ts::ecmgscs::ChannelStatus</a>, <a class="el" href="classts_1_1emmgmux_1_1_channel_status.html#a67bd7a510e1b1b14e45401115184c2a2">ts::emmgmux::ChannelStatus</a>, <a class="el" href="classts_1_1ecmgscs_1_1_channel_test.html#aefbee5e1b76d25f9d2f4e7f2626f708d">ts::ecmgscs::ChannelTest</a>, <a class="el" href="classts_1_1emmgmux_1_1_channel_test.html#a69233ba135ed75042d0023e06c654312">ts::emmgmux::ChannelTest</a>, <a class="el" href="classts_1_1ecmgscs_1_1_channel_setup.html#a60798385a5ea274cfb79b818d9dc6a2b">ts::ecmgscs::ChannelSetup</a>, and <a class="el" href="classts_1_1emmgmux_1_1_channel_setup.html#a721ac8e6c97549e1bebd7c1ddc65bf67">ts::emmgmux::ChannelSetup</a>.</p>
 
 </div>
 </div>
@@ -475,12 +475,12 @@ Static Protected Member Functions</h2></td></tr>
   </dd>
 </dl>
 
-<p>Implemented in <a class="el" href="classts_1_1ecmgscs_1_1_e_c_m_response.html#a9b743742714f4ebfa0d5d91180bdcf1c">ts::ecmgscs::ECMResponse</a>, <a class="el" href="classts_1_1emmgmux_1_1_data_provision.html#afbfd799933576daf36d16930411f968f">ts::emmgmux::DataProvision</a>, <a class="el" href="classts_1_1ecmgscs_1_1_c_w_provision.html#aa0335c5deec7610daa2383ec135e8d37">ts::ecmgscs::CWProvision</a>, <a class="el" href="classts_1_1emmgmux_1_1_stream_b_w_allocation.html#af8a286d1b67b428b428976cb5a2729cb">ts::emmgmux::StreamBWAllocation</a>, <a class="el" href="classts_1_1emmgmux_1_1_stream_b_w_request.html#ad6ec278d18cef00493e4e075810238c7">ts::emmgmux::StreamBWRequest</a>, <a class="el" href="classts_1_1ecmgscs_1_1_stream_error.html#a945af467e2150503fa3c50a961855652">ts::ecmgscs::StreamError</a>, <a class="el" href="classts_1_1emmgmux_1_1_stream_error.html#a630d44f4c3253f978274047d068ef9ae">ts::emmgmux::StreamError</a>, <a class="el" href="classts_1_1ecmgscs_1_1_stream_close_response.html#a26bce16661d5e5736a42dbe8a87fa7d6">ts::ecmgscs::StreamCloseResponse</a>, <a class="el" href="classts_1_1emmgmux_1_1_stream_close_response.html#a3d4ec2d44a7af67671db5728c1ef5023">ts::emmgmux::StreamCloseResponse</a>, <a class="el" href="classts_1_1ecmgscs_1_1_stream_close_request.html#a508f6a2615c0d0c0d834e20afb6830c2">ts::ecmgscs::StreamCloseRequest</a>, <a class="el" href="classts_1_1emmgmux_1_1_stream_close_request.html#a273efd4fc3874bcf253cc4a1de3bc8aa">ts::emmgmux::StreamCloseRequest</a>, <a class="el" href="classts_1_1ecmgscs_1_1_stream_status.html#a869db7e7f049b9e697a56789a5788dc9">ts::ecmgscs::StreamStatus</a>, <a class="el" href="classts_1_1emmgmux_1_1_stream_status.html#a38ce4baafd0e4007fe89ea60975114c5">ts::emmgmux::StreamStatus</a>, <a class="el" href="classts_1_1ecmgscs_1_1_stream_test.html#ad0808cb61ad7c393f880194503633f22">ts::ecmgscs::StreamTest</a>, <a class="el" href="classts_1_1emmgmux_1_1_stream_test.html#ac28549c1b36d639790e81fbb6591a370">ts::emmgmux::StreamTest</a>, <a class="el" href="classts_1_1ecmgscs_1_1_stream_setup.html#adcf7bbb2ad7c0ba2354cf59edc917f3b">ts::ecmgscs::StreamSetup</a>, <a class="el" href="classts_1_1emmgmux_1_1_stream_setup.html#aed85a417ab1ea951ee36e659f3bfcfec">ts::emmgmux::StreamSetup</a>, <a class="el" href="classts_1_1ecmgscs_1_1_channel_error.html#abfbf1b6cf9c7a5cd55a6058240c0a485">ts::ecmgscs::ChannelError</a>, <a class="el" href="classts_1_1emmgmux_1_1_channel_error.html#a6a5db1217b28aab2fddaaa8a38dd2f88">ts::emmgmux::ChannelError</a>, <a class="el" href="classts_1_1ecmgscs_1_1_channel_close.html#ab77e5c0bcc4bd668f020ee540a782889">ts::ecmgscs::ChannelClose</a>, <a class="el" href="classts_1_1emmgmux_1_1_channel_close.html#aad92ddc744542c4406e723011da72066">ts::emmgmux::ChannelClose</a>, <a class="el" href="classts_1_1ecmgscs_1_1_channel_status.html#abb9fe2c43627f70a8230c67f504e6bbd">ts::ecmgscs::ChannelStatus</a>, <a class="el" href="classts_1_1emmgmux_1_1_channel_status.html#a690f93be09773f24691f2ef39d6298ad">ts::emmgmux::ChannelStatus</a>, <a class="el" href="classts_1_1ecmgscs_1_1_channel_test.html#ae378fad6ba88c53762760c0126087c1c">ts::ecmgscs::ChannelTest</a>, <a class="el" href="classts_1_1emmgmux_1_1_channel_test.html#a20dd61016def4e7f1c064478dbb7edac">ts::emmgmux::ChannelTest</a>, <a class="el" href="classts_1_1ecmgscs_1_1_channel_setup.html#a36ad5c812f28a4d9a52c5622803a3c7a">ts::ecmgscs::ChannelSetup</a>, and <a class="el" href="classts_1_1emmgmux_1_1_channel_setup.html#a7823aff4fd614565e1af57434143e586">ts::emmgmux::ChannelSetup</a>.</p>
+<p>Implemented in <a class="el" href="classts_1_1ecmgscs_1_1_e_c_m_response.html#a3efb1b13ed58d26314c4b53a627eb3a7">ts::ecmgscs::ECMResponse</a>, <a class="el" href="classts_1_1emmgmux_1_1_data_provision.html#a8a20d0cbeb1defe30fe127a47410f280">ts::emmgmux::DataProvision</a>, <a class="el" href="classts_1_1ecmgscs_1_1_c_w_provision.html#aeadce2c9d7278b662dcbb86e4418c1ae">ts::ecmgscs::CWProvision</a>, <a class="el" href="classts_1_1emmgmux_1_1_stream_b_w_allocation.html#afeb9dddff0673cd7c2fc1c22f24c3751">ts::emmgmux::StreamBWAllocation</a>, <a class="el" href="classts_1_1emmgmux_1_1_stream_b_w_request.html#a35cf7807a2a64bfc9960202ba5f42206">ts::emmgmux::StreamBWRequest</a>, <a class="el" href="classts_1_1ecmgscs_1_1_stream_error.html#a5df59079ae2f0f6bb224632efd77f452">ts::ecmgscs::StreamError</a>, <a class="el" href="classts_1_1emmgmux_1_1_stream_error.html#a3a42230e1fd3616ae9f8eacd44dead78">ts::emmgmux::StreamError</a>, <a class="el" href="classts_1_1ecmgscs_1_1_stream_close_response.html#a373425c58a733fe86be7e7e89ff8eb8e">ts::ecmgscs::StreamCloseResponse</a>, <a class="el" href="classts_1_1emmgmux_1_1_stream_close_response.html#ab04ea63ff7ef4b52f0e48cfeb4659f9d">ts::emmgmux::StreamCloseResponse</a>, <a class="el" href="classts_1_1ecmgscs_1_1_stream_close_request.html#a2e374bf47778604ca5ed4eb9d4fb88a3">ts::ecmgscs::StreamCloseRequest</a>, <a class="el" href="classts_1_1emmgmux_1_1_stream_close_request.html#af6af9f416d38d4703947925d43da2439">ts::emmgmux::StreamCloseRequest</a>, <a class="el" href="classts_1_1ecmgscs_1_1_stream_status.html#a6b39630f7902caed0fea74ba53d954d7">ts::ecmgscs::StreamStatus</a>, <a class="el" href="classts_1_1emmgmux_1_1_stream_status.html#a8088f32e5881ff693309fcd45cd50525">ts::emmgmux::StreamStatus</a>, <a class="el" href="classts_1_1ecmgscs_1_1_stream_test.html#aa1f408558fc5baa44badb0d98c14f538">ts::ecmgscs::StreamTest</a>, <a class="el" href="classts_1_1emmgmux_1_1_stream_test.html#a64c99b669663eec42b341697483f1b59">ts::emmgmux::StreamTest</a>, <a class="el" href="classts_1_1ecmgscs_1_1_stream_setup.html#a3484e52f25e73bff90f1177d71103666">ts::ecmgscs::StreamSetup</a>, <a class="el" href="classts_1_1emmgmux_1_1_stream_setup.html#ac5afb645a9d45eb97cb477937fc10833">ts::emmgmux::StreamSetup</a>, <a class="el" href="classts_1_1ecmgscs_1_1_channel_error.html#a2b162b901081690720288336b2b859b0">ts::ecmgscs::ChannelError</a>, <a class="el" href="classts_1_1emmgmux_1_1_channel_error.html#ac5a74746e60801c285b248099067b3f2">ts::emmgmux::ChannelError</a>, <a class="el" href="classts_1_1ecmgscs_1_1_channel_close.html#afc9e7efbf19505a74b0dd1f079a620c0">ts::ecmgscs::ChannelClose</a>, <a class="el" href="classts_1_1emmgmux_1_1_channel_close.html#a8aa1701bce3abd76fe1c33a32db8e6ab">ts::emmgmux::ChannelClose</a>, <a class="el" href="classts_1_1ecmgscs_1_1_channel_status.html#af1aaa810b3740a1fd922c9fb36e8d27e">ts::ecmgscs::ChannelStatus</a>, <a class="el" href="classts_1_1emmgmux_1_1_channel_status.html#aee8d0c2a53e2eda094097470bc5e3d7b">ts::emmgmux::ChannelStatus</a>, <a class="el" href="classts_1_1ecmgscs_1_1_channel_test.html#a02e28487215e590a81bf2e7d774112fa">ts::ecmgscs::ChannelTest</a>, <a class="el" href="classts_1_1emmgmux_1_1_channel_test.html#a7229bdb61dbea215f0b8d94fa4347b58">ts::emmgmux::ChannelTest</a>, <a class="el" href="classts_1_1ecmgscs_1_1_channel_setup.html#a9e53afdb808554dfe09c25882dce7acb">ts::ecmgscs::ChannelSetup</a>, and <a class="el" href="classts_1_1emmgmux_1_1_channel_setup.html#a172f8d7c1291abc96fad5ca3c5e5a383">ts::emmgmux::ChannelSetup</a>.</p>
 
 </div>
 </div>
-<a id="af0d5679c72b9cb253e303374232c511d"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#af0d5679c72b9cb253e303374232c511d">&#9670;&nbsp;</a></span>dumpVector() <span class="overload">[1/2]</span></h2>
+<a id="a0f42e1bbf8f339fa1290f00e3765b551"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0f42e1bbf8f339fa1290f00e3765b551">&#9670;&nbsp;</a></span>dumpVector() <span class="overload">[1/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -489,7 +489,7 @@ Static Protected Member Functions</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">static std::string ts::tlv::Message::dumpVector </td>
+          <td class="memname">static <a class="el" href="classts_1_1_u_string.html">UString</a> ts::tlv::Message::dumpVector </td>
           <td>(</td>
           <td class="paramtype">size_t&#160;</td>
           <td class="paramname"><em>indent</em>, </td>
@@ -497,13 +497,13 @@ Static Protected Member Functions</h2></td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">const char *&#160;</td>
+          <td class="paramtype">const <a class="el" href="classts_1_1_u_string.html">UString</a> &amp;&#160;</td>
           <td class="paramname"><em>name</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">const std::vector&lt; std::string &gt; &amp;&#160;</td>
+          <td class="paramtype">const <a class="el" href="namespacets.html#a843f23808732fa4bb32ddd18e3dabf53">UStringVector</a> &amp;&#160;</td>
           <td class="paramname"><em>value</em>&#160;</td>
         </tr>
         <tr>
@@ -532,8 +532,8 @@ Static Protected Member Functions</h2></td></tr>
 
 </div>
 </div>
-<a id="ae02aa3c2a9a2493e9d838b4b13039245"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ae02aa3c2a9a2493e9d838b4b13039245">&#9670;&nbsp;</a></span>dumpOptional()</h2>
+<a id="a2d5ff039747d59f2c0a55bf6a60577a5"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2d5ff039747d59f2c0a55bf6a60577a5">&#9670;&nbsp;</a></span>dumpOptional()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -542,7 +542,7 @@ Static Protected Member Functions</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">static std::string ts::tlv::Message::dumpOptional </td>
+          <td class="memname">static <a class="el" href="classts_1_1_u_string.html">UString</a> ts::tlv::Message::dumpOptional </td>
           <td>(</td>
           <td class="paramtype">size_t&#160;</td>
           <td class="paramname"><em>indent</em>, </td>
@@ -550,7 +550,7 @@ Static Protected Member Functions</h2></td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">const char *&#160;</td>
+          <td class="paramtype">const <a class="el" href="classts_1_1_u_string.html">UString</a> &amp;&#160;</td>
           <td class="paramname"><em>name</em>, </td>
         </tr>
         <tr>
@@ -569,7 +569,7 @@ Static Protected Member Functions</h2></td></tr>
           <td class="paramkey"></td>
           <td></td>
           <td class="paramtype">uint32_t&#160;</td>
-          <td class="paramname"><em>flags</em> = <code><a class="el" href="namespacets_1_1hexa.html#a490e158f46bf3d8b610cd81e9d6290e6aad5f43306863dc44384c71053cbe3036">hexa::HEXA</a>|<a class="el" href="namespacets_1_1hexa.html#a490e158f46bf3d8b610cd81e9d6290e6a99d46d1b68d810d2eb64a603da191b6b">hexa::ASCII</a></code>&#160;</td>
+          <td class="paramname"><em>flags</em> = <code><a class="el" href="classts_1_1_u_string.html#a95e758037651fab003f10b568b08cb46aa7bd3c423691aa596e8b2caa703e5e2e">UString::HEXA</a>|<a class="el" href="classts_1_1_u_string.html#a95e758037651fab003f10b568b08cb46a7b28ae996daf573879de011a9272213e">UString::ASCII</a></code>&#160;</td>
         </tr>
         <tr>
           <td></td>
@@ -591,7 +591,7 @@ Static Protected Member Functions</h2></td></tr>
     <tr><td class="paramdir">[in]</td><td class="paramname">name</td><td>Parameter name. </td></tr>
     <tr><td class="paramdir">[in]</td><td class="paramname">has_value</td><td>If false, no value is available, return an empty string. </td></tr>
     <tr><td class="paramdir">[in]</td><td class="paramname">value</td><td>Byte block. </td></tr>
-    <tr><td class="paramdir">[in]</td><td class="paramname">flags</td><td>Hexa dump flags for <a class="el" href="namespacets.html#a518c3129e643fa3c679f061fcfcf271f" title="Build a multi-line string containing the hexadecimal dump of a memory area. ">ts::Hexa()</a>. </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">flags</td><td>Hexa dump flags for ts::Hexa(). </td></tr>
   </table>
   </dd>
 </dl>
@@ -599,19 +599,19 @@ Static Protected Member Functions</h2></td></tr>
 
 </div>
 </div>
-<a id="a8e719f6597c5d4ace7c708548276ed02"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a8e719f6597c5d4ace7c708548276ed02">&#9670;&nbsp;</a></span>dumpDecimal()</h2>
+<a id="ac5f9d03fc3baf0f6bc9b650c08c2dc3f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac5f9d03fc3baf0f6bc9b650c08c2dc3f">&#9670;&nbsp;</a></span>dumpDecimal()</h2>
 
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
-template&lt;typename INT &gt; </div>
+template&lt;typename INT , typename std::enable_if&lt; std::is_integral&lt; INT &gt;::value &gt;::type *  = nullptr&gt; </div>
 <table class="mlabels">
   <tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">static std::string ts::tlv::Message::dumpDecimal </td>
+          <td class="memname">static <a class="el" href="classts_1_1_u_string.html">UString</a> ts::tlv::Message::dumpDecimal </td>
           <td>(</td>
           <td class="paramtype">size_t&#160;</td>
           <td class="paramname"><em>indent</em>, </td>
@@ -619,7 +619,7 @@ template&lt;typename INT &gt; </div>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">const char *&#160;</td>
+          <td class="paramtype">const <a class="el" href="classts_1_1_u_string.html">UString</a> &amp;&#160;</td>
           <td class="paramname"><em>name</em>, </td>
         </tr>
         <tr>
@@ -660,19 +660,19 @@ template&lt;typename INT &gt; </div>
 
 </div>
 </div>
-<a id="a1ee4c0905198994046c36aa4fea50537"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a1ee4c0905198994046c36aa4fea50537">&#9670;&nbsp;</a></span>dumpHexa()</h2>
+<a id="ab73b6c57c525121be55f5b5ece239c2d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab73b6c57c525121be55f5b5ece239c2d">&#9670;&nbsp;</a></span>dumpHexa()</h2>
 
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
-template&lt;typename INT &gt; </div>
+template&lt;typename INT , typename std::enable_if&lt; std::is_integral&lt; INT &gt;::value &gt;::type *  = nullptr&gt; </div>
 <table class="mlabels">
   <tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">static std::string ts::tlv::Message::dumpHexa </td>
+          <td class="memname">static <a class="el" href="classts_1_1_u_string.html">UString</a> ts::tlv::Message::dumpHexa </td>
           <td>(</td>
           <td class="paramtype">size_t&#160;</td>
           <td class="paramname"><em>indent</em>, </td>
@@ -680,7 +680,7 @@ template&lt;typename INT &gt; </div>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">const char *&#160;</td>
+          <td class="paramtype">const <a class="el" href="classts_1_1_u_string.html">UString</a> &amp;&#160;</td>
           <td class="paramname"><em>name</em>, </td>
         </tr>
         <tr>
@@ -721,19 +721,19 @@ template&lt;typename INT &gt; </div>
 
 </div>
 </div>
-<a id="a17b9afff768a0aaeed5ca4492dc7db5a"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a17b9afff768a0aaeed5ca4492dc7db5a">&#9670;&nbsp;</a></span>dumpInteger()</h2>
+<a id="a16590e8b226ee6aac89a8c08e0d13a70"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a16590e8b226ee6aac89a8c08e0d13a70">&#9670;&nbsp;</a></span>dumpInteger()</h2>
 
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
-template&lt;typename INT &gt; </div>
+template&lt;typename INT , typename std::enable_if&lt; std::is_integral&lt; INT &gt;::value &gt;::type *  = nullptr&gt; </div>
 <table class="mlabels">
   <tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">static std::string ts::tlv::Message::dumpInteger </td>
+          <td class="memname">static <a class="el" href="classts_1_1_u_string.html">UString</a> ts::tlv::Message::dumpInteger </td>
           <td>(</td>
           <td class="paramtype">size_t&#160;</td>
           <td class="paramname"><em>indent</em>, </td>
@@ -741,7 +741,7 @@ template&lt;typename INT &gt; </div>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">const char *&#160;</td>
+          <td class="paramtype">const <a class="el" href="classts_1_1_u_string.html">UString</a> &amp;&#160;</td>
           <td class="paramname"><em>name</em>, </td>
         </tr>
         <tr>
@@ -782,19 +782,19 @@ template&lt;typename INT &gt; </div>
 
 </div>
 </div>
-<a id="a34d958071de44d4c28df18ee8ec7a5d7"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a34d958071de44d4c28df18ee8ec7a5d7">&#9670;&nbsp;</a></span>dumpOptionalDecimal()</h2>
+<a id="a19511a7e8316d2cf11ef69172ec2ce49"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a19511a7e8316d2cf11ef69172ec2ce49">&#9670;&nbsp;</a></span>dumpOptionalDecimal()</h2>
 
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
-template&lt;typename INT &gt; </div>
+template&lt;typename INT , typename std::enable_if&lt; std::is_integral&lt; INT &gt;::value &gt;::type *  = nullptr&gt; </div>
 <table class="mlabels">
   <tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">static std::string ts::tlv::Message::dumpOptionalDecimal </td>
+          <td class="memname">static <a class="el" href="classts_1_1_u_string.html">UString</a> ts::tlv::Message::dumpOptionalDecimal </td>
           <td>(</td>
           <td class="paramtype">size_t&#160;</td>
           <td class="paramname"><em>indent</em>, </td>
@@ -802,7 +802,7 @@ template&lt;typename INT &gt; </div>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">const char *&#160;</td>
+          <td class="paramtype">const <a class="el" href="classts_1_1_u_string.html">UString</a> &amp;&#160;</td>
           <td class="paramname"><em>name</em>, </td>
         </tr>
         <tr>
@@ -850,19 +850,19 @@ template&lt;typename INT &gt; </div>
 
 </div>
 </div>
-<a id="a4712fb1cb648af8ab00185ea311b0a5c"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a4712fb1cb648af8ab00185ea311b0a5c">&#9670;&nbsp;</a></span>dumpOptionalHexa()</h2>
+<a id="a59ed7cba78bbafd31bdcde155b7d49fe"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a59ed7cba78bbafd31bdcde155b7d49fe">&#9670;&nbsp;</a></span>dumpOptionalHexa()</h2>
 
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
-template&lt;typename INT &gt; </div>
+template&lt;typename INT , typename std::enable_if&lt; std::is_integral&lt; INT &gt;::value &gt;::type *  = nullptr&gt; </div>
 <table class="mlabels">
   <tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">static std::string ts::tlv::Message::dumpOptionalHexa </td>
+          <td class="memname">static <a class="el" href="classts_1_1_u_string.html">UString</a> ts::tlv::Message::dumpOptionalHexa </td>
           <td>(</td>
           <td class="paramtype">size_t&#160;</td>
           <td class="paramname"><em>indent</em>, </td>
@@ -870,7 +870,7 @@ template&lt;typename INT &gt; </div>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">const char *&#160;</td>
+          <td class="paramtype">const <a class="el" href="classts_1_1_u_string.html">UString</a> &amp;&#160;</td>
           <td class="paramname"><em>name</em>, </td>
         </tr>
         <tr>
@@ -918,19 +918,19 @@ template&lt;typename INT &gt; </div>
 
 </div>
 </div>
-<a id="a642a1ab0ac2279cb37c4d8e9ec64afb1"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a642a1ab0ac2279cb37c4d8e9ec64afb1">&#9670;&nbsp;</a></span>dumpOptionalInteger()</h2>
+<a id="ac940cc5f719fa470ba8f4d04d7d64830"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac940cc5f719fa470ba8f4d04d7d64830">&#9670;&nbsp;</a></span>dumpOptionalInteger()</h2>
 
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
-template&lt;typename INT &gt; </div>
+template&lt;typename INT , typename std::enable_if&lt; std::is_integral&lt; INT &gt;::value &gt;::type *  = nullptr&gt; </div>
 <table class="mlabels">
   <tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">static std::string ts::tlv::Message::dumpOptionalInteger </td>
+          <td class="memname">static <a class="el" href="classts_1_1_u_string.html">UString</a> ts::tlv::Message::dumpOptionalInteger </td>
           <td>(</td>
           <td class="paramtype">size_t&#160;</td>
           <td class="paramname"><em>indent</em>, </td>
@@ -938,7 +938,7 @@ template&lt;typename INT &gt; </div>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">const char *&#160;</td>
+          <td class="paramtype">const <a class="el" href="classts_1_1_u_string.html">UString</a> &amp;&#160;</td>
           <td class="paramname"><em>name</em>, </td>
         </tr>
         <tr>
@@ -986,19 +986,19 @@ template&lt;typename INT &gt; </div>
 
 </div>
 </div>
-<a id="aa5a7cec579c15b372ef8c0c99a48925a"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aa5a7cec579c15b372ef8c0c99a48925a">&#9670;&nbsp;</a></span>dumpVector() <span class="overload">[2/2]</span></h2>
+<a id="aab59cd5c221f3a0271b6e777cbdad393"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aab59cd5c221f3a0271b6e777cbdad393">&#9670;&nbsp;</a></span>dumpVector() <span class="overload">[2/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
-template&lt;typename INT &gt; </div>
+template&lt;typename INT , typename std::enable_if&lt; std::is_integral&lt; INT &gt;::value &gt;::type *  = nullptr&gt; </div>
 <table class="mlabels">
   <tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">static std::string ts::tlv::Message::dumpVector </td>
+          <td class="memname">static <a class="el" href="classts_1_1_u_string.html">UString</a> ts::tlv::Message::dumpVector </td>
           <td>(</td>
           <td class="paramtype">size_t&#160;</td>
           <td class="paramname"><em>indent</em>, </td>
@@ -1006,7 +1006,7 @@ template&lt;typename INT &gt; </div>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">const char *&#160;</td>
+          <td class="paramtype">const <a class="el" href="classts_1_1_u_string.html">UString</a> &amp;&#160;</td>
           <td class="paramname"><em>name</em>, </td>
         </tr>
         <tr>

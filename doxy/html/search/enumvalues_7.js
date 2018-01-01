@@ -1,6 +1,6 @@
 var searchData=
 [
-  ['hexa',['HEXA',['../classts_1_1_u_string.html#a95e758037651fab003f10b568b08cb46aa7bd3c423691aa596e8b2caa703e5e2e',1,'ts::UString::HEXA()'],['../namespacets_1_1hexa.html#a490e158f46bf3d8b610cd81e9d6290e6aad5f43306863dc44384c71053cbe3036',1,'ts::hexa::HEXA()'],['../namespacets_1_1names.html#ad01b2604fc1b9fcaa4cbcbea333d8bfca79d7ca23e25e4e818ccb4cabe1444d90',1,'ts::names::HEXA()']]],
+  ['hexa',['HEXA',['../classts_1_1_u_string.html#a95e758037651fab003f10b568b08cb46aa7bd3c423691aa596e8b2caa703e5e2e',1,'ts::UString::HEXA()'],['../namespacets_1_1names.html#ad01b2604fc1b9fcaa4cbcbea333d8bfca79d7ca23e25e4e818ccb4cabe1444d90',1,'ts::names::HEXA()']]],
   ['hexa_5ffirst',['HEXA_FIRST',['../namespacets_1_1names.html#ad01b2604fc1b9fcaa4cbcbea333d8bfca880dc6646255f54e867a69c9f38a87f8',1,'ts::names']]],
   ['hierarchy_5f1',['HIERARCHY_1',['../namespacets.html#a6c9df6e98dda571737595eff7b169350a8212482c29a1175de4eebd430074cbeb',1,'ts']]],
   ['hierarchy_5f2',['HIERARCHY_2',['../namespacets.html#a6c9df6e98dda571737595eff7b169350a8e57fd00a538280f2d001e8323e932b1',1,'ts']]],

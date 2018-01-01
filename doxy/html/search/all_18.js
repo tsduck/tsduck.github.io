@@ -1,6 +1,6 @@
 var searchData=
 [
-  ['xml',['XML',['../classts_1_1_x_m_l.html',1,'ts::XML'],['../classts_1_1_x_m_l.html#a753c9b22fcf69bc8a69798f496905a0b',1,'ts::XML::XML()']]],
-  ['xmlname',['xmlName',['../classts_1_1_abstract_signalization.html#ac1e97eef4f39320c61192c6bde591dca',1,'ts::AbstractSignalization']]],
-  ['xmltables',['XMLTables',['../classts_1_1_x_m_l_tables.html',1,'ts::XMLTables'],['../classts_1_1_x_m_l_tables.html#aa882bb20f43e1625f601fd7c3c1f3342',1,'ts::XMLTables::XMLTables()']]]
+  ['xml',['XML',['../classts_1_1_section_file.html#a75224199b84e723779507df1624076a8a5158e7a3b89e76b81ec5cf0ea69fafde',1,'ts::SectionFile']]],
+  ['xml_5fdestination',['xml_destination',['../classts_1_1_tables_logger_args.html#a532205025a25b216059eb51c43e6b7e1',1,'ts::TablesLoggerArgs']]],
+  ['xmlname',['xmlName',['../classts_1_1_abstract_signalization.html#a77fd80b304a38bdc350eae3d899495bc',1,'ts::AbstractSignalization']]]
 ];

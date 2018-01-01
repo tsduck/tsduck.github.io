@@ -18,6 +18,7 @@ var searchData=
   ['inv_5fsect_5findex',['inv_sect_index',['../structts_1_1_section_demux_1_1_status.html#abe73caef30ad9dc8576197933d1faf3d',1,'ts::SectionDemux::Status']]],
   ['inv_5fsect_5flength',['inv_sect_length',['../structts_1_1_section_demux_1_1_status.html#aa079d737698fb30437e18f2eef7942f4',1,'ts::SectionDemux::Status']]],
   ['inv_5fts_5fsc_5fcnt',['inv_ts_sc_cnt',['../classts_1_1_t_s_analyzer_1_1_p_i_d_context.html#a189962d1df6909e62e95958143ec2384',1,'ts::TSAnalyzer::PIDContext']]],
+  ['invalid',['INVALID',['../classts_1_1xml_1_1_attribute.html#a45725969c44dc5bd54d363b117f09bf5',1,'ts::xml::Attribute']]],
   ['invalid_5fts',['invalid_ts',['../structts_1_1_section_demux_1_1_status.html#a2239a1ac755ac9708d2c2efbf6c5ddcf',1,'ts::SectionDemux::Status']]],
   ['invaliddate',['InvalidDate',['../classts_1_1_abstract_c_a_s_date.html#ac62c4072ac2fca4bdfb3ca29c11fdb5a',1,'ts::AbstractCASDate']]],
   ['inversion',['inversion',['../classts_1_1_tuner_args.html#ac3f8c41b42cea62139bd9e13e3f4e6e1',1,'ts::TunerArgs::inversion()'],['../classts_1_1_tuner_parameters_a_t_s_c.html#aac6f11d3364b139ef35fa20165e90061',1,'ts::TunerParametersATSC::inversion()'],['../classts_1_1_tuner_parameters_d_v_b_c.html#a27b1d22f4c21f2aeb5a700ec79fe7380',1,'ts::TunerParametersDVBC::inversion()'],['../classts_1_1_tuner_parameters_d_v_b_s.html#ab230692089facdc25008c90e9e0ca1db',1,'ts::TunerParametersDVBS::inversion()'],['../classts_1_1_tuner_parameters_d_v_b_t.html#ac8e2d7c13a583b160845eccac1caf8cc',1,'ts::TunerParametersDVBT::inversion()']]],

@@ -34,7 +34,7 @@
  <tr style="height: 56px;">
   <td id="projectlogo"><img src="tsduck-32.png"/></td>
    <td id="projectalign"><span id="projectname">TSDuck</span>
-    <span id="projectnumber">Version 3.4</span>
+    <span id="projectnumber">Version 3.5</span>
     <span id="projectbrief">(TSDuck - The MPEG Transport Stream Toolkit)</span>
    </td>
    <td>        <div id="MSearchBox" class="MSearchBoxInactive">
@@ -93,7 +93,6 @@ $(document).ready(function(){initNavTree('classts_1_1_section.html','');});
 <div class="header">
   <div class="summary">
 <a href="#pub-methods">Public Member Functions</a> &#124;
-<a href="#pub-static-methods">Static Public Member Functions</a> &#124;
 <a href="classts_1_1_section-members.html">List of all members</a>  </div>
   <div class="headertitle">
 <div class="title">ts::Section Class Reference</div>  </div>
@@ -111,19 +110,19 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a146faf4bcf0df5a28315ac4abebbf417"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classts_1_1_section.html#a146faf4bcf0df5a28315ac4abebbf417">Section</a> (const <a class="el" href="classts_1_1_section.html">Section</a> &amp;other, <a class="el" href="namespacets.html#a2d3fc0fa119551548f2550c83ca68e47">CopyShare</a> mode)</td></tr>
 <tr class="memdesc:a146faf4bcf0df5a28315ac4abebbf417"><td class="mdescLeft">&#160;</td><td class="mdescRight">Copy constructor.  <a href="#a146faf4bcf0df5a28315ac4abebbf417">More...</a><br /></td></tr>
 <tr class="separator:a146faf4bcf0df5a28315ac4abebbf417"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a187b5a8a3feb4c19f5802bc0eb8bfc63"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classts_1_1_section.html#a187b5a8a3feb4c19f5802bc0eb8bfc63">Section</a> (const void *<a class="el" href="classts_1_1_section.html#af8ba2b23aa009e62022fad2a6bc0f4bf">content</a>, size_t content_size, <a class="el" href="namespacets.html#a90e2f5f7d7011d87cc23a8fef31958dc">PID</a> source_pid=<a class="el" href="namespacets.html#aa49ea8a46f549e6396e453119f0e6aa2ada7de7f0f513344653d9796e75a35526">PID_NULL</a>, <a class="el" href="classts_1_1_c_r_c32.html#a1cc9d89b8a7ff9db064d515524f99111">CRC32::Validation</a> crc_op=<a class="el" href="classts_1_1_c_r_c32.html#a1cc9d89b8a7ff9db064d515524f99111ab3c2e1af637914b62f2749fd39215b5d">CRC32::IGNORE</a>)</td></tr>
+<tr class="memitem:a187b5a8a3feb4c19f5802bc0eb8bfc63"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classts_1_1_section.html#a187b5a8a3feb4c19f5802bc0eb8bfc63">Section</a> (const void *<a class="el" href="classts_1_1_section.html#af8ba2b23aa009e62022fad2a6bc0f4bf">content</a>, size_t content_size, <a class="el" href="namespacets.html#a90e2f5f7d7011d87cc23a8fef31958dc">PID</a> source_pid=<a class="el" href="namespacets.html#ab983ae94b0ed7796c8119f26d71fabe0ada7de7f0f513344653d9796e75a35526">PID_NULL</a>, <a class="el" href="classts_1_1_c_r_c32.html#a1cc9d89b8a7ff9db064d515524f99111">CRC32::Validation</a> crc_op=<a class="el" href="classts_1_1_c_r_c32.html#a1cc9d89b8a7ff9db064d515524f99111ab3c2e1af637914b62f2749fd39215b5d">CRC32::IGNORE</a>)</td></tr>
 <tr class="memdesc:a187b5a8a3feb4c19f5802bc0eb8bfc63"><td class="mdescLeft">&#160;</td><td class="mdescRight">Constructor from full binary content.  <a href="#a187b5a8a3feb4c19f5802bc0eb8bfc63">More...</a><br /></td></tr>
 <tr class="separator:a187b5a8a3feb4c19f5802bc0eb8bfc63"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a3c75925496e7cdc5c4a66af971ee1298"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classts_1_1_section.html#a3c75925496e7cdc5c4a66af971ee1298">Section</a> (const <a class="el" href="classts_1_1_byte_block.html">ByteBlock</a> &amp;<a class="el" href="classts_1_1_section.html#af8ba2b23aa009e62022fad2a6bc0f4bf">content</a>, <a class="el" href="namespacets.html#a90e2f5f7d7011d87cc23a8fef31958dc">PID</a> source_pid=<a class="el" href="namespacets.html#aa49ea8a46f549e6396e453119f0e6aa2ada7de7f0f513344653d9796e75a35526">PID_NULL</a>, <a class="el" href="classts_1_1_c_r_c32.html#a1cc9d89b8a7ff9db064d515524f99111">CRC32::Validation</a> crc_op=<a class="el" href="classts_1_1_c_r_c32.html#a1cc9d89b8a7ff9db064d515524f99111ab3c2e1af637914b62f2749fd39215b5d">CRC32::IGNORE</a>)</td></tr>
+<tr class="memitem:a3c75925496e7cdc5c4a66af971ee1298"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classts_1_1_section.html#a3c75925496e7cdc5c4a66af971ee1298">Section</a> (const <a class="el" href="classts_1_1_byte_block.html">ByteBlock</a> &amp;<a class="el" href="classts_1_1_section.html#af8ba2b23aa009e62022fad2a6bc0f4bf">content</a>, <a class="el" href="namespacets.html#a90e2f5f7d7011d87cc23a8fef31958dc">PID</a> source_pid=<a class="el" href="namespacets.html#ab983ae94b0ed7796c8119f26d71fabe0ada7de7f0f513344653d9796e75a35526">PID_NULL</a>, <a class="el" href="classts_1_1_c_r_c32.html#a1cc9d89b8a7ff9db064d515524f99111">CRC32::Validation</a> crc_op=<a class="el" href="classts_1_1_c_r_c32.html#a1cc9d89b8a7ff9db064d515524f99111ab3c2e1af637914b62f2749fd39215b5d">CRC32::IGNORE</a>)</td></tr>
 <tr class="memdesc:a3c75925496e7cdc5c4a66af971ee1298"><td class="mdescLeft">&#160;</td><td class="mdescRight">Constructor from full binary content.  <a href="#a3c75925496e7cdc5c4a66af971ee1298">More...</a><br /></td></tr>
 <tr class="separator:a3c75925496e7cdc5c4a66af971ee1298"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:afaf916f7d45cc3c71c3714fe757e3f35"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classts_1_1_section.html#afaf916f7d45cc3c71c3714fe757e3f35">Section</a> (const <a class="el" href="namespacets.html#a1542787fc9df4215c6c94d816c50c818">ByteBlockPtr</a> &amp;content_ptr, <a class="el" href="namespacets.html#a90e2f5f7d7011d87cc23a8fef31958dc">PID</a> source_pid=<a class="el" href="namespacets.html#aa49ea8a46f549e6396e453119f0e6aa2ada7de7f0f513344653d9796e75a35526">PID_NULL</a>, <a class="el" href="classts_1_1_c_r_c32.html#a1cc9d89b8a7ff9db064d515524f99111">CRC32::Validation</a> crc_op=<a class="el" href="classts_1_1_c_r_c32.html#a1cc9d89b8a7ff9db064d515524f99111ab3c2e1af637914b62f2749fd39215b5d">CRC32::IGNORE</a>)</td></tr>
+<tr class="memitem:afaf916f7d45cc3c71c3714fe757e3f35"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classts_1_1_section.html#afaf916f7d45cc3c71c3714fe757e3f35">Section</a> (const <a class="el" href="namespacets.html#a1542787fc9df4215c6c94d816c50c818">ByteBlockPtr</a> &amp;content_ptr, <a class="el" href="namespacets.html#a90e2f5f7d7011d87cc23a8fef31958dc">PID</a> source_pid=<a class="el" href="namespacets.html#ab983ae94b0ed7796c8119f26d71fabe0ada7de7f0f513344653d9796e75a35526">PID_NULL</a>, <a class="el" href="classts_1_1_c_r_c32.html#a1cc9d89b8a7ff9db064d515524f99111">CRC32::Validation</a> crc_op=<a class="el" href="classts_1_1_c_r_c32.html#a1cc9d89b8a7ff9db064d515524f99111ab3c2e1af637914b62f2749fd39215b5d">CRC32::IGNORE</a>)</td></tr>
 <tr class="memdesc:afaf916f7d45cc3c71c3714fe757e3f35"><td class="mdescLeft">&#160;</td><td class="mdescRight">Constructor from full binary content.  <a href="#afaf916f7d45cc3c71c3714fe757e3f35">More...</a><br /></td></tr>
 <tr class="separator:afaf916f7d45cc3c71c3714fe757e3f35"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a019b17a771e7a4ba30cc92771498fa0d"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classts_1_1_section.html#a019b17a771e7a4ba30cc92771498fa0d">Section</a> (<a class="el" href="namespacets.html#a3c2cbf0a41a7db2577a737cc9568e3cb">TID</a> tid, bool is_private_section, const void *<a class="el" href="classts_1_1_section.html#abf905a6d6931ca9a22144f89d33313a9">payload</a>, size_t payload_size, <a class="el" href="namespacets.html#a90e2f5f7d7011d87cc23a8fef31958dc">PID</a> source_pid=<a class="el" href="namespacets.html#aa49ea8a46f549e6396e453119f0e6aa2ada7de7f0f513344653d9796e75a35526">PID_NULL</a>)</td></tr>
+<tr class="memitem:a019b17a771e7a4ba30cc92771498fa0d"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classts_1_1_section.html#a019b17a771e7a4ba30cc92771498fa0d">Section</a> (<a class="el" href="namespacets.html#a3c2cbf0a41a7db2577a737cc9568e3cb">TID</a> tid, bool is_private_section, const void *<a class="el" href="classts_1_1_section.html#abf905a6d6931ca9a22144f89d33313a9">payload</a>, size_t payload_size, <a class="el" href="namespacets.html#a90e2f5f7d7011d87cc23a8fef31958dc">PID</a> source_pid=<a class="el" href="namespacets.html#ab983ae94b0ed7796c8119f26d71fabe0ada7de7f0f513344653d9796e75a35526">PID_NULL</a>)</td></tr>
 <tr class="memdesc:a019b17a771e7a4ba30cc92771498fa0d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Constructor from a short section payload.  <a href="#a019b17a771e7a4ba30cc92771498fa0d">More...</a><br /></td></tr>
 <tr class="separator:a019b17a771e7a4ba30cc92771498fa0d"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a65778660c09d7beb1156495614ba9ee9"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classts_1_1_section.html#a65778660c09d7beb1156495614ba9ee9">Section</a> (<a class="el" href="namespacets.html#a3c2cbf0a41a7db2577a737cc9568e3cb">TID</a> tid, bool is_private_section, uint16_t tid_ext, uint8_t <a class="el" href="classts_1_1_section.html#ae8ac4252818e5ae33827404d525cafbb">version</a>, bool is_current, uint8_t section_number, uint8_t last_section_number, const void *<a class="el" href="classts_1_1_section.html#abf905a6d6931ca9a22144f89d33313a9">payload</a>, size_t payload_size, <a class="el" href="namespacets.html#a90e2f5f7d7011d87cc23a8fef31958dc">PID</a> source_pid=<a class="el" href="namespacets.html#aa49ea8a46f549e6396e453119f0e6aa2ada7de7f0f513344653d9796e75a35526">PID_NULL</a>)</td></tr>
+<tr class="memitem:a65778660c09d7beb1156495614ba9ee9"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classts_1_1_section.html#a65778660c09d7beb1156495614ba9ee9">Section</a> (<a class="el" href="namespacets.html#a3c2cbf0a41a7db2577a737cc9568e3cb">TID</a> tid, bool is_private_section, uint16_t tid_ext, uint8_t <a class="el" href="classts_1_1_section.html#ae8ac4252818e5ae33827404d525cafbb">version</a>, bool is_current, uint8_t section_number, uint8_t last_section_number, const void *<a class="el" href="classts_1_1_section.html#abf905a6d6931ca9a22144f89d33313a9">payload</a>, size_t payload_size, <a class="el" href="namespacets.html#a90e2f5f7d7011d87cc23a8fef31958dc">PID</a> source_pid=<a class="el" href="namespacets.html#ab983ae94b0ed7796c8119f26d71fabe0ada7de7f0f513344653d9796e75a35526">PID_NULL</a>)</td></tr>
 <tr class="memdesc:a65778660c09d7beb1156495614ba9ee9"><td class="mdescLeft">&#160;</td><td class="mdescRight">Constructor from a long section payload.  <a href="#a65778660c09d7beb1156495614ba9ee9">More...</a><br /></td></tr>
 <tr class="separator:a65778660c09d7beb1156495614ba9ee9"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ae58fd94c440babacedbbb548c671672b"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classts_1_1_section.html#ae58fd94c440babacedbbb548c671672b">clear</a> ()</td></tr>
@@ -135,7 +134,7 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a51824dc8a4acff0e178d4dfb684dfbff"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classts_1_1_section.html">Section</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classts_1_1_section.html#a51824dc8a4acff0e178d4dfb684dfbff">copy</a> (const <a class="el" href="classts_1_1_section.html">Section</a> &amp;other)</td></tr>
 <tr class="memdesc:a51824dc8a4acff0e178d4dfb684dfbff"><td class="mdescLeft">&#160;</td><td class="mdescRight">Duplication.  <a href="#a51824dc8a4acff0e178d4dfb684dfbff">More...</a><br /></td></tr>
 <tr class="separator:a51824dc8a4acff0e178d4dfb684dfbff"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:af2c4961b19d6ab2a1515b14627cc79c1"><td class="memItemLeft" align="right" valign="top">std::ostream &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classts_1_1_section.html#af2c4961b19d6ab2a1515b14627cc79c1">dump</a> (std::ostream &amp;strm, int indent=0, <a class="el" href="namespacets.html#a1de171688c3a6ff71896a8f3e5817c11">CASFamily</a> cas=<a class="el" href="namespacets.html#a1de171688c3a6ff71896a8f3e5817c11a79bba7cbc9e78632bc132244f9c83d9e">CAS_OTHER</a>, bool no_header=false) const</td></tr>
+<tr class="memitem:af2c4961b19d6ab2a1515b14627cc79c1"><td class="memItemLeft" align="right" valign="top">std::ostream &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classts_1_1_section.html#af2c4961b19d6ab2a1515b14627cc79c1">dump</a> (std::ostream &amp;strm, int <a class="el" href="namespacets.html#a45875f9eaab18c02b57b9fbd2e216d3d">indent</a>=0, <a class="el" href="namespacets.html#a1de171688c3a6ff71896a8f3e5817c11">CASFamily</a> cas=<a class="el" href="namespacets.html#a1de171688c3a6ff71896a8f3e5817c11a79bba7cbc9e78632bc132244f9c83d9e">CAS_OTHER</a>, bool no_header=false) const</td></tr>
 <tr class="memdesc:af2c4961b19d6ab2a1515b14627cc79c1"><td class="mdescLeft">&#160;</td><td class="mdescRight">Hexa dump the section on an output stream without interpretation of the payload.  <a href="#af2c4961b19d6ab2a1515b14627cc79c1">More...</a><br /></td></tr>
 <tr class="separator:af2c4961b19d6ab2a1515b14627cc79c1"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:adec797557d5ed5e18d32689f20337f56"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classts_1_1_e_t_i_d.html">ETID</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classts_1_1_section.html#adec797557d5ed5e18d32689f20337f56">etid</a> () const</td></tr>
@@ -192,26 +191,26 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:adbef9890f9055bd130d67ed91557c101"><td class="memItemLeft" align="right" valign="top">size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classts_1_1_section.html#adbef9890f9055bd130d67ed91557c101">payloadSize</a> () const</td></tr>
 <tr class="memdesc:adbef9890f9055bd130d67ed91557c101"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the size of the payload of the section.  <a href="#adbef9890f9055bd130d67ed91557c101">More...</a><br /></td></tr>
 <tr class="separator:adbef9890f9055bd130d67ed91557c101"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aef72cfc81d74235182ea03b3b944feb3"><td class="memItemLeft" align="right" valign="top">std::istream &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classts_1_1_section.html#aef72cfc81d74235182ea03b3b944feb3">read</a> (std::istream &amp;strm, <a class="el" href="classts_1_1_c_r_c32.html#a1cc9d89b8a7ff9db064d515524f99111">CRC32::Validation</a> crc_op=<a class="el" href="classts_1_1_c_r_c32.html#a1cc9d89b8a7ff9db064d515524f99111ab3c2e1af637914b62f2749fd39215b5d">CRC32::IGNORE</a>, <a class="el" href="classts_1_1_report_interface.html">ReportInterface</a> &amp;report=(*<a class="el" href="classts_1_1_cerr_report.html#ad5fc721c37e1eceab55d90f8c76ff6b6">ts::CerrReport::Instance</a>()))</td></tr>
-<tr class="memdesc:aef72cfc81d74235182ea03b3b944feb3"><td class="mdescLeft">&#160;</td><td class="mdescRight">Read a section from standard streams (binary mode).  <a href="#aef72cfc81d74235182ea03b3b944feb3">More...</a><br /></td></tr>
-<tr class="separator:aef72cfc81d74235182ea03b3b944feb3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a25ba81a8f348bef945be6885a2feb182"><td class="memItemLeft" align="right" valign="top">std::istream &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classts_1_1_section.html#a25ba81a8f348bef945be6885a2feb182">read</a> (std::istream &amp;strm, <a class="el" href="classts_1_1_c_r_c32.html#a1cc9d89b8a7ff9db064d515524f99111">CRC32::Validation</a> crc_op=<a class="el" href="classts_1_1_c_r_c32.html#a1cc9d89b8a7ff9db064d515524f99111ab3c2e1af637914b62f2749fd39215b5d">CRC32::IGNORE</a>, <a class="el" href="classts_1_1_report.html">Report</a> &amp;report=(*<a class="el" href="classts_1_1_cerr_report.html#ad5fc721c37e1eceab55d90f8c76ff6b6">ts::CerrReport::Instance</a>()))</td></tr>
+<tr class="memdesc:a25ba81a8f348bef945be6885a2feb182"><td class="mdescLeft">&#160;</td><td class="mdescRight">Read a section from standard streams (binary mode).  <a href="#a25ba81a8f348bef945be6885a2feb182">More...</a><br /></td></tr>
+<tr class="separator:a25ba81a8f348bef945be6885a2feb182"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a48df03e049b92a4b0d52ddfb781d9247"><td class="memItemLeft" align="right" valign="top"><a id="a48df03e049b92a4b0d52ddfb781d9247"></a>
 void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classts_1_1_section.html#a48df03e049b92a4b0d52ddfb781d9247">recomputeCRC</a> ()</td></tr>
 <tr class="memdesc:a48df03e049b92a4b0d52ddfb781d9247"><td class="mdescLeft">&#160;</td><td class="mdescRight">This method recomputes and replaces the <a class="el" href="classts_1_1_c_r_c32.html" title="Cyclic Redundancy Check as used in MPEG sections. ">CRC32</a> of the section. <br /></td></tr>
 <tr class="separator:a48df03e049b92a4b0d52ddfb781d9247"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ab31ccf5e3e87d382649e5ccd71f7910d"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classts_1_1_section.html#ab31ccf5e3e87d382649e5ccd71f7910d">reload</a> (const void *<a class="el" href="classts_1_1_section.html#af8ba2b23aa009e62022fad2a6bc0f4bf">content</a>, size_t content_size, <a class="el" href="namespacets.html#a90e2f5f7d7011d87cc23a8fef31958dc">PID</a> source_pid=<a class="el" href="namespacets.html#aa49ea8a46f549e6396e453119f0e6aa2ada7de7f0f513344653d9796e75a35526">PID_NULL</a>, <a class="el" href="classts_1_1_c_r_c32.html#a1cc9d89b8a7ff9db064d515524f99111">CRC32::Validation</a> crc_op=<a class="el" href="classts_1_1_c_r_c32.html#a1cc9d89b8a7ff9db064d515524f99111ab3c2e1af637914b62f2749fd39215b5d">CRC32::IGNORE</a>)</td></tr>
+<tr class="memitem:ab31ccf5e3e87d382649e5ccd71f7910d"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classts_1_1_section.html#ab31ccf5e3e87d382649e5ccd71f7910d">reload</a> (const void *<a class="el" href="classts_1_1_section.html#af8ba2b23aa009e62022fad2a6bc0f4bf">content</a>, size_t content_size, <a class="el" href="namespacets.html#a90e2f5f7d7011d87cc23a8fef31958dc">PID</a> source_pid=<a class="el" href="namespacets.html#ab983ae94b0ed7796c8119f26d71fabe0ada7de7f0f513344653d9796e75a35526">PID_NULL</a>, <a class="el" href="classts_1_1_c_r_c32.html#a1cc9d89b8a7ff9db064d515524f99111">CRC32::Validation</a> crc_op=<a class="el" href="classts_1_1_c_r_c32.html#a1cc9d89b8a7ff9db064d515524f99111ab3c2e1af637914b62f2749fd39215b5d">CRC32::IGNORE</a>)</td></tr>
 <tr class="memdesc:ab31ccf5e3e87d382649e5ccd71f7910d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Reload from full binary content.  <a href="#ab31ccf5e3e87d382649e5ccd71f7910d">More...</a><br /></td></tr>
 <tr class="separator:ab31ccf5e3e87d382649e5ccd71f7910d"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aad93c1712ef6a599aab52032080c27fd"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classts_1_1_section.html#aad93c1712ef6a599aab52032080c27fd">reload</a> (const <a class="el" href="classts_1_1_byte_block.html">ByteBlock</a> &amp;<a class="el" href="classts_1_1_section.html#af8ba2b23aa009e62022fad2a6bc0f4bf">content</a>, <a class="el" href="namespacets.html#a90e2f5f7d7011d87cc23a8fef31958dc">PID</a> source_pid=<a class="el" href="namespacets.html#aa49ea8a46f549e6396e453119f0e6aa2ada7de7f0f513344653d9796e75a35526">PID_NULL</a>, <a class="el" href="classts_1_1_c_r_c32.html#a1cc9d89b8a7ff9db064d515524f99111">CRC32::Validation</a> crc_op=<a class="el" href="classts_1_1_c_r_c32.html#a1cc9d89b8a7ff9db064d515524f99111ab3c2e1af637914b62f2749fd39215b5d">CRC32::IGNORE</a>)</td></tr>
+<tr class="memitem:aad93c1712ef6a599aab52032080c27fd"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classts_1_1_section.html#aad93c1712ef6a599aab52032080c27fd">reload</a> (const <a class="el" href="classts_1_1_byte_block.html">ByteBlock</a> &amp;<a class="el" href="classts_1_1_section.html#af8ba2b23aa009e62022fad2a6bc0f4bf">content</a>, <a class="el" href="namespacets.html#a90e2f5f7d7011d87cc23a8fef31958dc">PID</a> source_pid=<a class="el" href="namespacets.html#ab983ae94b0ed7796c8119f26d71fabe0ada7de7f0f513344653d9796e75a35526">PID_NULL</a>, <a class="el" href="classts_1_1_c_r_c32.html#a1cc9d89b8a7ff9db064d515524f99111">CRC32::Validation</a> crc_op=<a class="el" href="classts_1_1_c_r_c32.html#a1cc9d89b8a7ff9db064d515524f99111ab3c2e1af637914b62f2749fd39215b5d">CRC32::IGNORE</a>)</td></tr>
 <tr class="memdesc:aad93c1712ef6a599aab52032080c27fd"><td class="mdescLeft">&#160;</td><td class="mdescRight">Reload from full binary content.  <a href="#aad93c1712ef6a599aab52032080c27fd">More...</a><br /></td></tr>
 <tr class="separator:aad93c1712ef6a599aab52032080c27fd"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a7a0a7e7aad6fc6fc6ff3fd2a711ddeaa"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classts_1_1_section.html#a7a0a7e7aad6fc6fc6ff3fd2a711ddeaa">reload</a> (const <a class="el" href="namespacets.html#a1542787fc9df4215c6c94d816c50c818">ByteBlockPtr</a> &amp;content_ptr, <a class="el" href="namespacets.html#a90e2f5f7d7011d87cc23a8fef31958dc">PID</a> source_pid=<a class="el" href="namespacets.html#aa49ea8a46f549e6396e453119f0e6aa2ada7de7f0f513344653d9796e75a35526">PID_NULL</a>, <a class="el" href="classts_1_1_c_r_c32.html#a1cc9d89b8a7ff9db064d515524f99111">CRC32::Validation</a> crc_op=<a class="el" href="classts_1_1_c_r_c32.html#a1cc9d89b8a7ff9db064d515524f99111ab3c2e1af637914b62f2749fd39215b5d">CRC32::IGNORE</a>)</td></tr>
+<tr class="memitem:a7a0a7e7aad6fc6fc6ff3fd2a711ddeaa"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classts_1_1_section.html#a7a0a7e7aad6fc6fc6ff3fd2a711ddeaa">reload</a> (const <a class="el" href="namespacets.html#a1542787fc9df4215c6c94d816c50c818">ByteBlockPtr</a> &amp;content_ptr, <a class="el" href="namespacets.html#a90e2f5f7d7011d87cc23a8fef31958dc">PID</a> source_pid=<a class="el" href="namespacets.html#ab983ae94b0ed7796c8119f26d71fabe0ada7de7f0f513344653d9796e75a35526">PID_NULL</a>, <a class="el" href="classts_1_1_c_r_c32.html#a1cc9d89b8a7ff9db064d515524f99111">CRC32::Validation</a> crc_op=<a class="el" href="classts_1_1_c_r_c32.html#a1cc9d89b8a7ff9db064d515524f99111ab3c2e1af637914b62f2749fd39215b5d">CRC32::IGNORE</a>)</td></tr>
 <tr class="memdesc:a7a0a7e7aad6fc6fc6ff3fd2a711ddeaa"><td class="mdescLeft">&#160;</td><td class="mdescRight">Reload from full binary content.  <a href="#a7a0a7e7aad6fc6fc6ff3fd2a711ddeaa">More...</a><br /></td></tr>
 <tr class="separator:a7a0a7e7aad6fc6fc6ff3fd2a711ddeaa"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:afbcfdd88db8d05376c4bc01ac1882077"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classts_1_1_section.html#afbcfdd88db8d05376c4bc01ac1882077">reload</a> (<a class="el" href="namespacets.html#a3c2cbf0a41a7db2577a737cc9568e3cb">TID</a> tid, bool is_private_section, const void *<a class="el" href="classts_1_1_section.html#abf905a6d6931ca9a22144f89d33313a9">payload</a>, size_t payload_size, <a class="el" href="namespacets.html#a90e2f5f7d7011d87cc23a8fef31958dc">PID</a> source_pid=<a class="el" href="namespacets.html#aa49ea8a46f549e6396e453119f0e6aa2ada7de7f0f513344653d9796e75a35526">PID_NULL</a>)</td></tr>
+<tr class="memitem:afbcfdd88db8d05376c4bc01ac1882077"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classts_1_1_section.html#afbcfdd88db8d05376c4bc01ac1882077">reload</a> (<a class="el" href="namespacets.html#a3c2cbf0a41a7db2577a737cc9568e3cb">TID</a> tid, bool is_private_section, const void *<a class="el" href="classts_1_1_section.html#abf905a6d6931ca9a22144f89d33313a9">payload</a>, size_t payload_size, <a class="el" href="namespacets.html#a90e2f5f7d7011d87cc23a8fef31958dc">PID</a> source_pid=<a class="el" href="namespacets.html#ab983ae94b0ed7796c8119f26d71fabe0ada7de7f0f513344653d9796e75a35526">PID_NULL</a>)</td></tr>
 <tr class="memdesc:afbcfdd88db8d05376c4bc01ac1882077"><td class="mdescLeft">&#160;</td><td class="mdescRight">Reload from a short section payload.  <a href="#afbcfdd88db8d05376c4bc01ac1882077">More...</a><br /></td></tr>
 <tr class="separator:afbcfdd88db8d05376c4bc01ac1882077"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a7582fb8374f7a845b99254de1c3491f7"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classts_1_1_section.html#a7582fb8374f7a845b99254de1c3491f7">reload</a> (<a class="el" href="namespacets.html#a3c2cbf0a41a7db2577a737cc9568e3cb">TID</a> tid, bool is_private_section, uint16_t tid_ext, uint8_t <a class="el" href="classts_1_1_section.html#ae8ac4252818e5ae33827404d525cafbb">version</a>, bool is_current, uint8_t section_number, uint8_t last_section_number, const void *<a class="el" href="classts_1_1_section.html#abf905a6d6931ca9a22144f89d33313a9">payload</a>, size_t payload_size, <a class="el" href="namespacets.html#a90e2f5f7d7011d87cc23a8fef31958dc">PID</a> source_pid=<a class="el" href="namespacets.html#aa49ea8a46f549e6396e453119f0e6aa2ada7de7f0f513344653d9796e75a35526">PID_NULL</a>)</td></tr>
+<tr class="memitem:a7582fb8374f7a845b99254de1c3491f7"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classts_1_1_section.html#a7582fb8374f7a845b99254de1c3491f7">reload</a> (<a class="el" href="namespacets.html#a3c2cbf0a41a7db2577a737cc9568e3cb">TID</a> tid, bool is_private_section, uint16_t tid_ext, uint8_t <a class="el" href="classts_1_1_section.html#ae8ac4252818e5ae33827404d525cafbb">version</a>, bool is_current, uint8_t section_number, uint8_t last_section_number, const void *<a class="el" href="classts_1_1_section.html#abf905a6d6931ca9a22144f89d33313a9">payload</a>, size_t payload_size, <a class="el" href="namespacets.html#a90e2f5f7d7011d87cc23a8fef31958dc">PID</a> source_pid=<a class="el" href="namespacets.html#ab983ae94b0ed7796c8119f26d71fabe0ada7de7f0f513344653d9796e75a35526">PID_NULL</a>)</td></tr>
 <tr class="memdesc:a7582fb8374f7a845b99254de1c3491f7"><td class="mdescLeft">&#160;</td><td class="mdescRight">Reload from a long section payload.  <a href="#a7582fb8374f7a845b99254de1c3491f7">More...</a><br /></td></tr>
 <tr class="separator:a7582fb8374f7a845b99254de1c3491f7"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:afadce7bdba8f9cfaa7e31bf7ade60010"><td class="memItemLeft" align="right" valign="top">uint8_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classts_1_1_section.html#afadce7bdba8f9cfaa7e31bf7ade60010">sectionNumber</a> () const</td></tr>
@@ -256,18 +255,9 @@ void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="clas
 <tr class="memitem:ae8ac4252818e5ae33827404d525cafbb"><td class="memItemLeft" align="right" valign="top">uint8_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classts_1_1_section.html#ae8ac4252818e5ae33827404d525cafbb">version</a> () const</td></tr>
 <tr class="memdesc:ae8ac4252818e5ae33827404d525cafbb"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the section version number (long section only).  <a href="#ae8ac4252818e5ae33827404d525cafbb">More...</a><br /></td></tr>
 <tr class="separator:ae8ac4252818e5ae33827404d525cafbb"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a31c41ca9dfc2a9d42d7bc50f59bf74c1"><td class="memItemLeft" align="right" valign="top">std::ostream &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classts_1_1_section.html#a31c41ca9dfc2a9d42d7bc50f59bf74c1">write</a> (std::ostream &amp;strm, <a class="el" href="classts_1_1_report_interface.html">ReportInterface</a> &amp;report=(*<a class="el" href="classts_1_1_cerr_report.html#ad5fc721c37e1eceab55d90f8c76ff6b6">ts::CerrReport::Instance</a>())) const</td></tr>
-<tr class="memdesc:a31c41ca9dfc2a9d42d7bc50f59bf74c1"><td class="mdescLeft">&#160;</td><td class="mdescRight">Write a section to standard streams (binary mode).  <a href="#a31c41ca9dfc2a9d42d7bc50f59bf74c1">More...</a><br /></td></tr>
-<tr class="separator:a31c41ca9dfc2a9d42d7bc50f59bf74c1"><td class="memSeparator" colspan="2">&#160;</td></tr>
-</table><table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-static-methods"></a>
-Static Public Member Functions</h2></td></tr>
-<tr class="memitem:aef82fd1108eb29e8a1628bcc2d9782e4"><td class="memItemLeft" align="right" valign="top">static bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classts_1_1_section.html#aef82fd1108eb29e8a1628bcc2d9782e4">LoadFile</a> (<a class="el" href="namespacets.html#ae315a0b27332d67d87076aef85b6ab14">SectionPtrVector</a> &amp;sections, std::istream &amp;strm, <a class="el" href="classts_1_1_c_r_c32.html#a1cc9d89b8a7ff9db064d515524f99111">CRC32::Validation</a> crc_op=<a class="el" href="classts_1_1_c_r_c32.html#a1cc9d89b8a7ff9db064d515524f99111ab3c2e1af637914b62f2749fd39215b5d">CRC32::IGNORE</a>, <a class="el" href="classts_1_1_report_interface.html">ReportInterface</a> &amp;report=(*<a class="el" href="classts_1_1_cerr_report.html#ad5fc721c37e1eceab55d90f8c76ff6b6">ts::CerrReport::Instance</a>()))</td></tr>
-<tr class="memdesc:aef82fd1108eb29e8a1628bcc2d9782e4"><td class="mdescLeft">&#160;</td><td class="mdescRight">This static method reads all sections from the specified file.  <a href="#aef82fd1108eb29e8a1628bcc2d9782e4">More...</a><br /></td></tr>
-<tr class="separator:aef82fd1108eb29e8a1628bcc2d9782e4"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a7c9f05f7a55ad5c282c50cf49fa70fc9"><td class="memItemLeft" align="right" valign="top">static bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classts_1_1_section.html#a7c9f05f7a55ad5c282c50cf49fa70fc9">LoadFile</a> (<a class="el" href="namespacets.html#ae315a0b27332d67d87076aef85b6ab14">SectionPtrVector</a> &amp;sections, const std::string &amp;file_name, <a class="el" href="classts_1_1_c_r_c32.html#a1cc9d89b8a7ff9db064d515524f99111">CRC32::Validation</a> crc_op=<a class="el" href="classts_1_1_c_r_c32.html#a1cc9d89b8a7ff9db064d515524f99111ab3c2e1af637914b62f2749fd39215b5d">CRC32::IGNORE</a>, <a class="el" href="classts_1_1_report_interface.html">ReportInterface</a> &amp;report=(*<a class="el" href="classts_1_1_cerr_report.html#ad5fc721c37e1eceab55d90f8c76ff6b6">ts::CerrReport::Instance</a>()))</td></tr>
-<tr class="memdesc:a7c9f05f7a55ad5c282c50cf49fa70fc9"><td class="mdescLeft">&#160;</td><td class="mdescRight">This static method reads all sections from the specified file.  <a href="#a7c9f05f7a55ad5c282c50cf49fa70fc9">More...</a><br /></td></tr>
-<tr class="separator:a7c9f05f7a55ad5c282c50cf49fa70fc9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad7822ac949dac08376acb6fddb6a22cf"><td class="memItemLeft" align="right" valign="top">std::ostream &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classts_1_1_section.html#ad7822ac949dac08376acb6fddb6a22cf">write</a> (std::ostream &amp;strm, <a class="el" href="classts_1_1_report.html">Report</a> &amp;report=(*<a class="el" href="classts_1_1_cerr_report.html#ad5fc721c37e1eceab55d90f8c76ff6b6">ts::CerrReport::Instance</a>())) const</td></tr>
+<tr class="memdesc:ad7822ac949dac08376acb6fddb6a22cf"><td class="mdescLeft">&#160;</td><td class="mdescRight">Write a section to standard streams (binary mode).  <a href="#ad7822ac949dac08376acb6fddb6a22cf">More...</a><br /></td></tr>
+<tr class="separator:ad7822ac949dac08376acb6fddb6a22cf"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>Representation of MPEG PSI/SI sections. </p>
@@ -358,7 +348,7 @@ Static Public Member Functions</h2></td></tr>
           <td class="paramkey"></td>
           <td></td>
           <td class="paramtype"><a class="el" href="namespacets.html#a90e2f5f7d7011d87cc23a8fef31958dc">PID</a>&#160;</td>
-          <td class="paramname"><em>source_pid</em> = <code><a class="el" href="namespacets.html#aa49ea8a46f549e6396e453119f0e6aa2ada7de7f0f513344653d9796e75a35526">PID_NULL</a></code>, </td>
+          <td class="paramname"><em>source_pid</em> = <code><a class="el" href="namespacets.html#ab983ae94b0ed7796c8119f26d71fabe0ada7de7f0f513344653d9796e75a35526">PID_NULL</a></code>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
@@ -403,7 +393,7 @@ Static Public Member Functions</h2></td></tr>
           <td class="paramkey"></td>
           <td></td>
           <td class="paramtype"><a class="el" href="namespacets.html#a90e2f5f7d7011d87cc23a8fef31958dc">PID</a>&#160;</td>
-          <td class="paramname"><em>source_pid</em> = <code><a class="el" href="namespacets.html#aa49ea8a46f549e6396e453119f0e6aa2ada7de7f0f513344653d9796e75a35526">PID_NULL</a></code>, </td>
+          <td class="paramname"><em>source_pid</em> = <code><a class="el" href="namespacets.html#ab983ae94b0ed7796c8119f26d71fabe0ada7de7f0f513344653d9796e75a35526">PID_NULL</a></code>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
@@ -447,7 +437,7 @@ Static Public Member Functions</h2></td></tr>
           <td class="paramkey"></td>
           <td></td>
           <td class="paramtype"><a class="el" href="namespacets.html#a90e2f5f7d7011d87cc23a8fef31958dc">PID</a>&#160;</td>
-          <td class="paramname"><em>source_pid</em> = <code><a class="el" href="namespacets.html#aa49ea8a46f549e6396e453119f0e6aa2ada7de7f0f513344653d9796e75a35526">PID_NULL</a></code>, </td>
+          <td class="paramname"><em>source_pid</em> = <code><a class="el" href="namespacets.html#ab983ae94b0ed7796c8119f26d71fabe0ada7de7f0f513344653d9796e75a35526">PID_NULL</a></code>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
@@ -509,7 +499,7 @@ Static Public Member Functions</h2></td></tr>
           <td class="paramkey"></td>
           <td></td>
           <td class="paramtype"><a class="el" href="namespacets.html#a90e2f5f7d7011d87cc23a8fef31958dc">PID</a>&#160;</td>
-          <td class="paramname"><em>source_pid</em> = <code><a class="el" href="namespacets.html#aa49ea8a46f549e6396e453119f0e6aa2ada7de7f0f513344653d9796e75a35526">PID_NULL</a></code>&#160;</td>
+          <td class="paramname"><em>source_pid</em> = <code><a class="el" href="namespacets.html#ab983ae94b0ed7796c8119f26d71fabe0ada7de7f0f513344653d9796e75a35526">PID_NULL</a></code>&#160;</td>
         </tr>
         <tr>
           <td></td>
@@ -597,7 +587,7 @@ Static Public Member Functions</h2></td></tr>
           <td class="paramkey"></td>
           <td></td>
           <td class="paramtype"><a class="el" href="namespacets.html#a90e2f5f7d7011d87cc23a8fef31958dc">PID</a>&#160;</td>
-          <td class="paramname"><em>source_pid</em> = <code><a class="el" href="namespacets.html#aa49ea8a46f549e6396e453119f0e6aa2ada7de7f0f513344653d9796e75a35526">PID_NULL</a></code>&#160;</td>
+          <td class="paramname"><em>source_pid</em> = <code><a class="el" href="namespacets.html#ab983ae94b0ed7796c8119f26d71fabe0ada7de7f0f513344653d9796e75a35526">PID_NULL</a></code>&#160;</td>
         </tr>
         <tr>
           <td></td>
@@ -652,7 +642,7 @@ Static Public Member Functions</h2></td></tr>
           <td class="paramkey"></td>
           <td></td>
           <td class="paramtype"><a class="el" href="namespacets.html#a90e2f5f7d7011d87cc23a8fef31958dc">PID</a>&#160;</td>
-          <td class="paramname"><em>source_pid</em> = <code><a class="el" href="namespacets.html#aa49ea8a46f549e6396e453119f0e6aa2ada7de7f0f513344653d9796e75a35526">PID_NULL</a></code>, </td>
+          <td class="paramname"><em>source_pid</em> = <code><a class="el" href="namespacets.html#ab983ae94b0ed7796c8119f26d71fabe0ada7de7f0f513344653d9796e75a35526">PID_NULL</a></code>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
@@ -705,7 +695,7 @@ Static Public Member Functions</h2></td></tr>
           <td class="paramkey"></td>
           <td></td>
           <td class="paramtype"><a class="el" href="namespacets.html#a90e2f5f7d7011d87cc23a8fef31958dc">PID</a>&#160;</td>
-          <td class="paramname"><em>source_pid</em> = <code><a class="el" href="namespacets.html#aa49ea8a46f549e6396e453119f0e6aa2ada7de7f0f513344653d9796e75a35526">PID_NULL</a></code>, </td>
+          <td class="paramname"><em>source_pid</em> = <code><a class="el" href="namespacets.html#ab983ae94b0ed7796c8119f26d71fabe0ada7de7f0f513344653d9796e75a35526">PID_NULL</a></code>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
@@ -757,7 +747,7 @@ Static Public Member Functions</h2></td></tr>
           <td class="paramkey"></td>
           <td></td>
           <td class="paramtype"><a class="el" href="namespacets.html#a90e2f5f7d7011d87cc23a8fef31958dc">PID</a>&#160;</td>
-          <td class="paramname"><em>source_pid</em> = <code><a class="el" href="namespacets.html#aa49ea8a46f549e6396e453119f0e6aa2ada7de7f0f513344653d9796e75a35526">PID_NULL</a></code>, </td>
+          <td class="paramname"><em>source_pid</em> = <code><a class="el" href="namespacets.html#ab983ae94b0ed7796c8119f26d71fabe0ada7de7f0f513344653d9796e75a35526">PID_NULL</a></code>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
@@ -824,7 +814,7 @@ Static Public Member Functions</h2></td></tr>
           <td class="paramkey"></td>
           <td></td>
           <td class="paramtype"><a class="el" href="namespacets.html#a90e2f5f7d7011d87cc23a8fef31958dc">PID</a>&#160;</td>
-          <td class="paramname"><em>source_pid</em> = <code><a class="el" href="namespacets.html#aa49ea8a46f549e6396e453119f0e6aa2ada7de7f0f513344653d9796e75a35526">PID_NULL</a></code>&#160;</td>
+          <td class="paramname"><em>source_pid</em> = <code><a class="el" href="namespacets.html#ab983ae94b0ed7796c8119f26d71fabe0ada7de7f0f513344653d9796e75a35526">PID_NULL</a></code>&#160;</td>
         </tr>
         <tr>
           <td></td>
@@ -912,7 +902,7 @@ Static Public Member Functions</h2></td></tr>
           <td class="paramkey"></td>
           <td></td>
           <td class="paramtype"><a class="el" href="namespacets.html#a90e2f5f7d7011d87cc23a8fef31958dc">PID</a>&#160;</td>
-          <td class="paramname"><em>source_pid</em> = <code><a class="el" href="namespacets.html#aa49ea8a46f549e6396e453119f0e6aa2ada7de7f0f513344653d9796e75a35526">PID_NULL</a></code>&#160;</td>
+          <td class="paramname"><em>source_pid</em> = <code><a class="el" href="namespacets.html#ab983ae94b0ed7796c8119f26d71fabe0ada7de7f0f513344653d9796e75a35526">PID_NULL</a></code>&#160;</td>
         </tr>
         <tr>
           <td></td>
@@ -1981,8 +1971,8 @@ Static Public Member Functions</h2></td></tr>
 
 </div>
 </div>
-<a id="aef72cfc81d74235182ea03b3b944feb3"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aef72cfc81d74235182ea03b3b944feb3">&#9670;&nbsp;</a></span>read()</h2>
+<a id="a25ba81a8f348bef945be6885a2feb182"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a25ba81a8f348bef945be6885a2feb182">&#9670;&nbsp;</a></span>read()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -2002,7 +1992,7 @@ Static Public Member Functions</h2></td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="classts_1_1_report_interface.html">ReportInterface</a> &amp;&#160;</td>
+          <td class="paramtype"><a class="el" href="classts_1_1_report.html">Report</a> &amp;&#160;</td>
           <td class="paramname"><em>report</em> = <code>(*<a class="el" href="classts_1_1_cerr_report.html#ad5fc721c37e1eceab55d90f8c76ff6b6">ts::CerrReport::Instance</a>())</code>&#160;</td>
         </tr>
         <tr>
@@ -2026,8 +2016,8 @@ Static Public Member Functions</h2></td></tr>
 
 </div>
 </div>
-<a id="a31c41ca9dfc2a9d42d7bc50f59bf74c1"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a31c41ca9dfc2a9d42d7bc50f59bf74c1">&#9670;&nbsp;</a></span>write()</h2>
+<a id="ad7822ac949dac08376acb6fddb6a22cf"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad7822ac949dac08376acb6fddb6a22cf">&#9670;&nbsp;</a></span>write()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -2041,7 +2031,7 @@ Static Public Member Functions</h2></td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="classts_1_1_report_interface.html">ReportInterface</a> &amp;&#160;</td>
+          <td class="paramtype"><a class="el" href="classts_1_1_report.html">Report</a> &amp;&#160;</td>
           <td class="paramname"><em>report</em> = <code>(*<a class="el" href="classts_1_1_cerr_report.html#ad5fc721c37e1eceab55d90f8c76ff6b6">ts::CerrReport::Instance</a>())</code>&#160;</td>
         </tr>
         <tr>
@@ -2113,126 +2103,6 @@ Static Public Member Functions</h2></td></tr>
   </dd>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>A reference to the <em>strm</em> object. </dd></dl>
-
-</div>
-</div>
-<a id="aef82fd1108eb29e8a1628bcc2d9782e4"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aef82fd1108eb29e8a1628bcc2d9782e4">&#9670;&nbsp;</a></span>LoadFile() <span class="overload">[1/2]</span></h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">static bool ts::Section::LoadFile </td>
-          <td>(</td>
-          <td class="paramtype"><a class="el" href="namespacets.html#ae315a0b27332d67d87076aef85b6ab14">SectionPtrVector</a> &amp;&#160;</td>
-          <td class="paramname"><em>sections</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">std::istream &amp;&#160;</td>
-          <td class="paramname"><em>strm</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype"><a class="el" href="classts_1_1_c_r_c32.html#a1cc9d89b8a7ff9db064d515524f99111">CRC32::Validation</a>&#160;</td>
-          <td class="paramname"><em>crc_op</em> = <code><a class="el" href="classts_1_1_c_r_c32.html#a1cc9d89b8a7ff9db064d515524f99111ab3c2e1af637914b62f2749fd39215b5d">CRC32::IGNORE</a></code>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype"><a class="el" href="classts_1_1_report_interface.html">ReportInterface</a> &amp;&#160;</td>
-          <td class="paramname"><em>report</em> = <code>(*<a class="el" href="classts_1_1_cerr_report.html#ad5fc721c37e1eceab55d90f8c76ff6b6">ts::CerrReport::Instance</a>())</code>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">static</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>This static method reads all sections from the specified file. </p>
-<dl class="params"><dt>Parameters</dt><dd>
-  <table class="params">
-    <tr><td class="paramdir">[out]</td><td class="paramname">sections</td><td>Returned list of sections. </td></tr>
-    <tr><td class="paramdir">[in,out]</td><td class="paramname">strm</td><td>A standard stream in input mode (binary mode). </td></tr>
-    <tr><td class="paramdir">[in]</td><td class="paramname">crc_op</td><td>How to process the <a class="el" href="classts_1_1_c_r_c32.html" title="Cyclic Redundancy Check as used in MPEG sections. ">CRC32</a> of the input packet. </td></tr>
-    <tr><td class="paramdir">[in,out]</td><td class="paramname">report</td><td>Where to report errors. </td></tr>
-  </table>
-  </dd>
-</dl>
-<dl class="section return"><dt>Returns</dt><dd>True on success, false on error. </dd></dl>
-
-</div>
-</div>
-<a id="a7c9f05f7a55ad5c282c50cf49fa70fc9"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a7c9f05f7a55ad5c282c50cf49fa70fc9">&#9670;&nbsp;</a></span>LoadFile() <span class="overload">[2/2]</span></h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">static bool ts::Section::LoadFile </td>
-          <td>(</td>
-          <td class="paramtype"><a class="el" href="namespacets.html#ae315a0b27332d67d87076aef85b6ab14">SectionPtrVector</a> &amp;&#160;</td>
-          <td class="paramname"><em>sections</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">const std::string &amp;&#160;</td>
-          <td class="paramname"><em>file_name</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype"><a class="el" href="classts_1_1_c_r_c32.html#a1cc9d89b8a7ff9db064d515524f99111">CRC32::Validation</a>&#160;</td>
-          <td class="paramname"><em>crc_op</em> = <code><a class="el" href="classts_1_1_c_r_c32.html#a1cc9d89b8a7ff9db064d515524f99111ab3c2e1af637914b62f2749fd39215b5d">CRC32::IGNORE</a></code>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype"><a class="el" href="classts_1_1_report_interface.html">ReportInterface</a> &amp;&#160;</td>
-          <td class="paramname"><em>report</em> = <code>(*<a class="el" href="classts_1_1_cerr_report.html#ad5fc721c37e1eceab55d90f8c76ff6b6">ts::CerrReport::Instance</a>())</code>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">static</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>This static method reads all sections from the specified file. </p>
-<dl class="params"><dt>Parameters</dt><dd>
-  <table class="params">
-    <tr><td class="paramdir">[out]</td><td class="paramname">sections</td><td>Returned list of sections. </td></tr>
-    <tr><td class="paramdir">[in]</td><td class="paramname">file_name</td><td>Name of the file to read. </td></tr>
-    <tr><td class="paramdir">[in]</td><td class="paramname">crc_op</td><td>How to process the <a class="el" href="classts_1_1_c_r_c32.html" title="Cyclic Redundancy Check as used in MPEG sections. ">CRC32</a> of the input packet. </td></tr>
-    <tr><td class="paramdir">[in,out]</td><td class="paramname">report</td><td>Where to report errors. </td></tr>
-  </table>
-  </dd>
-</dl>
-<dl class="section return"><dt>Returns</dt><dd>True on success, false on error. </dd></dl>
 
 </div>
 </div>

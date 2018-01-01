@@ -11,6 +11,7 @@ var searchData=
   ['element_5fof',['ELEMENT_OF',['../namespacets.html#a272c23445e1cb15130e75962d6beebc5',1,'ts']]],
   ['em_5fdash',['EM_DASH',['../namespacets.html#a0ed51d65e3f4e2ee212b5f2b54e989a0',1,'ts']]],
   ['em_5fspace',['EM_SPACE',['../namespacets.html#a22aad90ff1927eeb776438a0867ea932',1,'ts']]],
+  ['empty',['EMPTY',['../classts_1_1_u_string.html#ac2b86f4792daf9d739b122d1384da1a2',1,'ts::UString']]],
   ['empty_5fset',['EMPTY_SET',['../namespacets.html#a166547ed5870e3e154d9d629587fae1a',1,'ts']]],
   ['emptypacket',['EmptyPacket',['../namespacets.html#ab772207b2b6d2c9383cf2ede5069ee5d',1,'ts']]],
   ['en_5fdash',['EN_DASH',['../namespacets.html#a26b827aa93683dcea6281b11a3686d7b',1,'ts']]],
@@ -38,6 +39,5 @@ var searchData=
   ['events',['events',['../classts_1_1_e_i_t.html#a56097a3e172e94f6a4b0e50e4c9f92b9',1,'ts::EIT::events()'],['../classts_1_1_r_s_t.html#a2e9297bb321f45707b5842140be09070',1,'ts::RST::events()']]],
   ['exclamation_5fmark',['EXCLAMATION_MARK',['../namespacets.html#acac03c7bf9619f115c6f8e32e76acd02',1,'ts']]],
   ['exp_5fdiscont',['exp_discont',['../classts_1_1_t_s_analyzer_1_1_p_i_d_context.html#acf250e41401a8cafc1883c565e371de1',1,'ts::TSAnalyzer::PIDContext']]],
-  ['extended_5fevent_5flinkage_5finfo',['extended_event_linkage_info',['../classts_1_1_linkage_descriptor.html#a76ea226a9edb01d99ceab903b44a853a',1,'ts::LinkageDescriptor']]],
-  ['extension',['Extension',['../classts_1_1_shared_library.html#a031829777734e4c015741bfb7953d350',1,'ts::SharedLibrary']]]
+  ['extended_5fevent_5flinkage_5finfo',['extended_event_linkage_info',['../classts_1_1_linkage_descriptor.html#a76ea226a9edb01d99ceab903b44a853a',1,'ts::LinkageDescriptor']]]
 ];

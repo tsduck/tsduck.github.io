@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['year',['YEAR',['../classts_1_1_time.html#a14e379928d4f4e32907f854f9bcb11c4a1b8ec369e3613cbfa9db82cde3ef90c4',1,'ts::Time']]]
+  ['xml',['XML',['../classts_1_1_section_file.html#a75224199b84e723779507df1624076a8a5158e7a3b89e76b81ec5cf0ea69fafde',1,'ts::SectionFile']]]
 ];
