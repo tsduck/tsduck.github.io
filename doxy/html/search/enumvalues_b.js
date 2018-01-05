@@ -1,13 +1,15 @@
 var searchData=
 [
-  ['name',['NAME',['../classts_1_1_service.html#a6714af4f0f1fb06c562f1aa786ae6fd2aee56e4078e16b2fb415427bd0fe5f382',1,'ts::Service']]],
-  ['never',['NEVER',['../classts_1_1_cycling_packetizer.html#a61a75ad5555e266f968c32d9a8644873afb73d1052732ef1037046cd01f66682a',1,'ts::CyclingPacketizer']]],
-  ['nid_5ftnt_5ffrance',['NID_TNT_FRANCE',['../namespacets.html#a1f630b72bfe5d8444b70ed5c591f79dba00aaa8dbcc42db0c145597826f6455e6',1,'ts']]],
-  ['no_5ferror_5fdisplay',['NO_ERROR_DISPLAY',['../classts_1_1_args.html#ad058870b5bd65a722375d9c5246d7269a4af512518e15eafaa4d7ff238bc13f45',1,'ts::Args']]],
-  ['no_5fexit_5fon_5ferror',['NO_EXIT_ON_ERROR',['../classts_1_1_args.html#ad058870b5bd65a722375d9c5246d7269a9bfa98169a9267848c1e8a098c640f8e',1,'ts::Args']]],
-  ['no_5fexit_5fon_5fhelp',['NO_EXIT_ON_HELP',['../classts_1_1_args.html#ad058870b5bd65a722375d9c5246d7269a7cfe0e1812f1ef912f2a0a93416a6163',1,'ts::Args']]],
-  ['no_5fexit_5fon_5fversion',['NO_EXIT_ON_VERSION',['../classts_1_1_args.html#ad058870b5bd65a722375d9c5246d7269a6fd474d520a08103b889f8aca4081034',1,'ts::Args']]],
-  ['nominal_5fcp_5fduration',['nominal_CP_duration',['../structts_1_1ecmgscs_1_1_tags.html#afd0406a41e496ef5d61e4ae3308e0f25a9baf8d9f6685d5cce17449a65d5be644',1,'ts::ecmgscs::Tags']]],
-  ['none',['NONE',['../classts_1_1_args.html#ada57b307e21cd62d9eb7439dd2dcbfd1a75e36849327efe3c56b197dc3bf2e99f',1,'ts::Args::NONE()'],['../classts_1_1_direct_show_test.html#a41feda87f32d5795d490c85a38d7b6f7a0f6e54a721fa86509ace385316654fc1',1,'ts::DirectShowTest::NONE()']]],
-  ['not_5fenough_5fcw',['not_enough_CW',['../structts_1_1ecmgscs_1_1_errors.html#a5e5abf0d3020e42a2a42071d9a3cb1cfa5b1324c5123ec16c55d107f8a8aea214',1,'ts::ecmgscs::Errors']]]
+  ['max_5fcomp_5ftime',['max_comp_time',['../structts_1_1ecmgscs_1_1_tags.html#afd0406a41e496ef5d61e4ae3308e0f25a7e8b9159970a79c8a0ee67e33e0bfaf1',1,'ts::ecmgscs::Tags']]],
+  ['max_5fstreams',['max_streams',['../structts_1_1ecmgscs_1_1_tags.html#afd0406a41e496ef5d61e4ae3308e0f25a31335d492274d351e10074f7c861bd50',1,'ts::ecmgscs::Tags']]],
+  ['message_5ftoo_5flong',['message_too_long',['../structts_1_1ecmgscs_1_1_errors.html#a5e5abf0d3020e42a2a42071d9a3cb1cfac00c897cd43549b78850c0e50993cc35',1,'ts::ecmgscs::Errors::message_too_long()'],['../structts_1_1emmgmux_1_1_errors.html#a1e77320d82540c48f9616be50ba638f7acebcb57b5bd00eb1f5f10004204ca5f5',1,'ts::emmgmux::Errors::message_too_long()']]],
+  ['millisecond',['MILLISECOND',['../classts_1_1_time.html#a14e379928d4f4e32907f854f9bcb11c4a6f2a8b20acc869fafe033d6388a6b335',1,'ts::Time']]],
+  ['min_5fcp_5fduration',['min_CP_duration',['../structts_1_1ecmgscs_1_1_tags.html#afd0406a41e496ef5d61e4ae3308e0f25a587c1b007af0d98fed8705034ebf5884',1,'ts::ecmgscs::Tags']]],
+  ['minute',['MINUTE',['../classts_1_1_time.html#a14e379928d4f4e32907f854f9bcb11c4a80eec5a31a8092b79d75cc250694e2f1',1,'ts::Time']]],
+  ['missing_5fparam',['missing_param',['../structts_1_1ecmgscs_1_1_errors.html#a5e5abf0d3020e42a2a42071d9a3cb1cfac6e60389dcc53aadddc658e9db12f786',1,'ts::ecmgscs::Errors::missing_param()'],['../structts_1_1emmgmux_1_1_errors.html#a1e77320d82540c48f9616be50ba638f7aa9e7f50dbdd71bd2117951c2980873c7',1,'ts::emmgmux::Errors::missing_param()']]],
+  ['missingparameter',['MissingParameter',['../namespacets_1_1tlv.html#a8a60aed0fb72f9faef47e8c7e5beef94aa2e59b906bd9b9bb80c052bc4419c11f',1,'ts::tlv']]],
+  ['modified',['MODIFIED',['../classts_1_1_polled_file.html#a35ef21502eb9973842f96b600b072fcea0a322516bbfeab14e68e634fa7940b2f',1,'ts::PolledFile']]],
+  ['month',['MONTH',['../classts_1_1_time.html#a14e379928d4f4e32907f854f9bcb11c4a65d175114358105581eab41a237e637b',1,'ts::Time']]],
+  ['msg_5flog_5fsection',['MSG_LOG_SECTION',['../namespacets_1_1tlv.html#adfb977c73a41f9f601f6374e905a4132a28871ee343a98c2a0ab2b921a8387443',1,'ts::tlv']]],
+  ['msg_5flog_5ftable',['MSG_LOG_TABLE',['../namespacets_1_1tlv.html#adfb977c73a41f9f601f6374e905a4132a528d28825327bc5de53508f7ee160a51',1,'ts::tlv']]]
 ];

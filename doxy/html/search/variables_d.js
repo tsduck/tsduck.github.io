@@ -17,6 +17,7 @@ var searchData=
   ['max_5fflush_5fpkt',['max_flush_pkt',['../classts_1_1tsp_1_1_options.html#a323e729778e46865c8b876a24e6656ed',1,'ts::tsp::Options']]],
   ['max_5finput_5fpkt',['max_input_pkt',['../classts_1_1tsp_1_1_options.html#a757f13be9477f783e6607afcb888563d',1,'ts::tsp::Options']]],
   ['max_5fkey_5fsize',['MAX_KEY_SIZE',['../classts_1_1_a_e_s.html#a94e0e6b63b3dba3ca0fe0c0c53b5edd9',1,'ts::AES']]],
+  ['max_5flog_5fmessages',['MAX_LOG_MESSAGES',['../classts_1_1_async_report.html#adce5f59298b985c0428b66380b9c8b13',1,'ts::AsyncReport']]],
   ['max_5fprivate_5flong_5fsection_5fpayload_5fsize',['MAX_PRIVATE_LONG_SECTION_PAYLOAD_SIZE',['../namespacets.html#a1ab542768b0b6e0c23c2eb8b8e3288e8',1,'ts']]],
   ['max_5fprivate_5fsection_5fsize',['MAX_PRIVATE_SECTION_SIZE',['../namespacets.html#ad58378ccdab287948940c8d120127cf7',1,'ts']]],
   ['max_5fprivate_5fshort_5fsection_5fpayload_5fsize',['MAX_PRIVATE_SHORT_SECTION_PAYLOAD_SIZE',['../namespacets.html#aca784a567721a90afb61f163bb8f728f',1,'ts']]],

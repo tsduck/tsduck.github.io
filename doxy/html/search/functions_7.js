@@ -55,7 +55,7 @@ var searchData=
   ['hasversion',['hasVersion',['../classts_1_1tlv_1_1_protocol.html#ac1c8b7dcf7d470e86fe8781a669a34da',1,'ts::tlv::Protocol']]],
   ['havesamename',['haveSameName',['../classts_1_1xml_1_1_element.html#a22e97901c60be15c4b65df9893241c54',1,'ts::xml::Element']]],
   ['hdsimulcastlogicalchanneldescriptor',['HDSimulcastLogicalChannelDescriptor',['../classts_1_1_h_d_simulcast_logical_channel_descriptor.html#a66a749fc97a159f31c818b7e43f212e7',1,'ts::HDSimulcastLogicalChannelDescriptor::HDSimulcastLogicalChannelDescriptor()'],['../classts_1_1_h_d_simulcast_logical_channel_descriptor.html#af3d8d41831489557ca13ce3c8887382a',1,'ts::HDSimulcastLogicalChannelDescriptor::HDSimulcastLogicalChannelDescriptor(const Descriptor &amp;bin, const DVBCharset *charset=0)'],['../classts_1_1_h_d_simulcast_logical_channel_descriptor.html#abb3e62f29b638ba3187325415d8f8862',1,'ts::HDSimulcastLogicalChannelDescriptor::HDSimulcastLogicalChannelDescriptor(int service_id, int lcn,...)']]],
-  ['header',['header',['../classts_1_1_p_e_s_packet.html#aa39a4286919bd2e5b36e1d206d4b98cf',1,'ts::PESPacket::header()'],['../structts_1_1_severity.html#a5fe0ab59d3cf2dc24232a47b9a56af4b',1,'ts::Severity::Header()']]],
+  ['header',['header',['../classts_1_1_p_e_s_packet.html#aa39a4286919bd2e5b36e1d206d4b98cf',1,'ts::PESPacket::header()'],['../classts_1_1_web_request.html#ad7a4f70842bbc8c967b54c41da18921b',1,'ts::WebRequest::header()'],['../structts_1_1_severity.html#a5fe0ab59d3cf2dc24232a47b9a56af4b',1,'ts::Severity::Header()']]],
   ['headersize',['headerSize',['../classts_1_1_p_e_s_packet.html#ae7d6ad05d13e56a74e2a5bcb002063b7',1,'ts::PESPacket::headerSize()'],['../classts_1_1_section.html#a5fc58719e1f6496b2f565a33b2a2b383',1,'ts::Section::headerSize()']]],
   ['hexa',['Hexa',['../classts_1_1_u_string.html#a59e86799482cd921d27d074fd1a44e42',1,'ts::UString']]],
   ['hexadecode',['hexaDecode',['../classts_1_1_u_string.html#ac324e7e61aa81936d8adbce4028c577e',1,'ts::UString']]],
@@ -64,6 +64,7 @@ var searchData=
   ['horizontalsize',['horizontalSize',['../classts_1_1_a_v_c_attributes.html#accc97a2af8310220849c538d6565275d',1,'ts::AVCAttributes::horizontalSize()'],['../classts_1_1_video_attributes.html#a896fb1c88858816a4b329d85afbf6121',1,'ts::VideoAttributes::horizontalSize()']]],
   ['hostname',['HostName',['../namespacets.html#aa236cd3ee54ecc227c543c067391785f',1,'ts']]],
   ['hour',['hour',['../classts_1_1_simul_crypt_date.html#a103004a27db96aaaef5fc549059140a7',1,'ts::SimulCryptDate']]],
+  ['httpstatus',['httpStatus',['../classts_1_1_web_request.html#afc5ce8794cd545a223513f7a4f09e34f',1,'ts::WebRequest']]],
   ['humansize',['HumanSize',['../classts_1_1_u_string.html#ac4a57baf99dd4b3ab0eac7b86aa66deb',1,'ts::UString']]],
   ['hundredth',['hundredth',['../classts_1_1_simul_crypt_date.html#aa3fa9191f176ab31ae906ee74e121b35',1,'ts::SimulCryptDate']]]
 ];

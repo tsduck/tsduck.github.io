@@ -75,6 +75,7 @@ var searchData=
   ['sversion_5fmax',['SVERSION_MAX',['../namespacets.html#aa3a1b4522d200cfb5ce3a8927fd7ad26',1,'ts']]],
   ['symbol_5frate',['symbol_rate',['../classts_1_1_satellite_delivery_system_descriptor.html#ae38d1184531711529f0fec9b36799a5d',1,'ts::SatelliteDeliverySystemDescriptor::symbol_rate()'],['../classts_1_1_tuner_args.html#ab52cc6c60a5c29555949cd393da7a12f',1,'ts::TunerArgs::symbol_rate()'],['../classts_1_1_tuner_parameters_d_v_b_c.html#a32a3b72695e94eaecf0d43d2af3f78a3',1,'ts::TunerParametersDVBC::symbol_rate()'],['../classts_1_1_tuner_parameters_d_v_b_s.html#ae17ff30c217af5830be300249f8ec108',1,'ts::TunerParametersDVBS::symbol_rate()']]],
   ['sync_5fbyte',['SYNC_BYTE',['../namespacets.html#af3ade20f1fcc7b100d0148bb6b12eadf',1,'ts']]],
+  ['sync_5flog',['sync_log',['../classts_1_1tsp_1_1_options.html#a170401c5093b2f3dd59e577c992ba1e2',1,'ts::tsp::Options']]],
   ['synchronous_5fidle',['SYNCHRONOUS_IDLE',['../namespacets.html#a263ed83a0a2a91ce66e356fd7fe91c98',1,'ts']]],
   ['sys_5fdata_5ferror',['SYS_DATA_ERROR',['../namespacets.html#a67013ae18c714713055aa25de3a24568',1,'ts']]],
   ['sys_5fsuccess',['SYS_SUCCESS',['../namespacets.html#a5c31a3d1b0122eb8863cc6feaef7df44',1,'ts']]],

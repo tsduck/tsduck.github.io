@@ -34,7 +34,7 @@
  <tr style="height: 56px;">
   <td id="projectlogo"><img src="tsduck-32.png"/></td>
    <td id="projectalign"><span id="projectname">TSDuck</span>
-    <span id="projectnumber">Version 3.5</span>
+    <span id="projectnumber">Version 3.6</span>
     <span id="projectbrief">(TSDuck - The MPEG Transport Stream Toolkit)</span>
    </td>
    <td>        <div id="MSearchBox" class="MSearchBoxInactive">
@@ -133,20 +133,20 @@ Windows</h2>
 <h2><a class="anchor" id="reqfedora"></a>
 Fedora</h2>
 <ul>
-<li>Setup for a TSDuck native build: <div class="fragment"><div class="line">dnf install gcc-c++ doxygen graphviz curl pcsc-tools pcsc-lite-devel cppunit-devel</div></div><!-- fragment --></li>
-<li>Setup to build 32-bit TSDuck on 64-bit system (command <code>make m32</code>): <div class="fragment"><div class="line">dnf install glibc-devel.i686 libstdc++-devel.i686 pcsc-lite-devel.i686 cppunit-devel.i686</div></div><!-- fragment --></li>
+<li>Setup for a TSDuck native build: <div class="fragment"><div class="line">dnf install gcc-c++ doxygen graphviz curl pcsc-tools pcsc-lite-devel cppunit-devel libcurl libcurl-devel</div></div><!-- fragment --></li>
+<li>Setup to build 32-bit TSDuck on 64-bit system (command <code>make m32</code>): <div class="fragment"><div class="line">dnf install glibc-devel.i686 libstdc++-devel.i686 pcsc-lite-devel.i686 cppunit-devel.i686 libcurl-devel.i686</div></div><!-- fragment --></li>
 </ul>
 <h2><a class="anchor" id="reqrhel"></a>
 Red Hat Entreprise Linux, CentOS</h2>
 <ul>
-<li>Setup for a TSDuck native build: <div class="fragment"><div class="line">yum install gcc-c++ doxygen graphviz curl pcsc-tools pcsc-lite-devel cppunit-devel</div></div><!-- fragment --></li>
-<li>Setup to build 32-bit TSDuck on 64-bit system (command <code>make m32</code>): <div class="fragment"><div class="line">yum install glibc-devel.i686 libstdc++-devel.i686 pcsc-lite-devel.i686 cppunit-devel.i686</div></div><!-- fragment --></li>
+<li>Setup for a TSDuck native build: <div class="fragment"><div class="line">yum install gcc-c++ doxygen graphviz curl pcsc-tools pcsc-lite-devel cppunit-devel libcurl libcurl-devel</div></div><!-- fragment --></li>
+<li>Setup to build 32-bit TSDuck on 64-bit system (command <code>make m32</code>): <div class="fragment"><div class="line">yum install glibc-devel.i686 libstdc++-devel.i686 pcsc-lite-devel.i686 cppunit-devel.i686 libcurl-devel.i686</div></div><!-- fragment --></li>
 </ul>
 <h2><a class="anchor" id="requbuntu"></a>
 Ubuntu</h2>
 <ul>
-<li>Setup for a TSDuck native build: <div class="fragment"><div class="line">apt-get install g++ doxygen graphviz curl pcscd libpcsclite-dev libcppunit-dev</div></div><!-- fragment --></li>
-<li>Setup to build 32-bit TSDuck on 64-bit system (command <code>make m32</code>), start with: <div class="fragment"><div class="line">apt-get install gcc-multilib g++-multilib</div></div><!-- fragment --> However, there is no 32-bit cross-compiled package for pcsc and cppunit on Ubuntu 64-bit. To build a 32-bit TSDuck on Ubuntu 64-bit, first force the installation of the 32-bit native (not cross-compiled) 32-bit versions: <div class="fragment"><div class="line">apt-get install libpcsclite-dev:i386 libcppunit-dev:i386</div></div><!-- fragment --> Then build TSDuck (<code>make m32</code>). But you can no longer rebuild a 64-bit version since the native libraries for pcsc and cppunit were over-written. So, you need to reinstall the native 64-bit versions: <div class="fragment"><div class="line">apt-get install libpcsclite-dev libcppunit-dev</div></div><!-- fragment --></li>
+<li>Setup for a TSDuck native build: <div class="fragment"><div class="line">apt-get install g++ doxygen graphviz curl pcscd libpcsclite-dev libcppunit-dev libcurl3 libcurl3-dev</div></div><!-- fragment --></li>
+<li>It is not possible to build 32-bit TSDuck on 64-bit Ubuntu system (command <code>make m32</code>) because there is no 32-bit cross-compiled package for pcsc and cppunit on Ubuntu 64-bit.</li>
 </ul>
 <h2><a class="anchor" id="reqlinux"></a>
 All Linux distros</h2>

@@ -350,6 +350,7 @@ var searchData=
   ['log2_5fmax_5fmv_5flength_5fhorizontal',['log2_max_mv_length_horizontal',['../classts_1_1_a_v_c_v_u_i_parameters.html#aa277079d127110baf43bcf647c599f74',1,'ts::AVCVUIParameters']]],
   ['log2_5fmax_5fmv_5flength_5fvertical',['log2_max_mv_length_vertical',['../classts_1_1_a_v_c_v_u_i_parameters.html#af3626d24fb3f4b1cda765c8d2c342862',1,'ts::AVCVUIParameters']]],
   ['log2_5fmax_5fpic_5forder_5fcnt_5flsb_5fminus4',['log2_max_pic_order_cnt_lsb_minus4',['../classts_1_1_a_v_c_sequence_parameter_set.html#a508f6457ad191d59d97b90ea6b45b3a9',1,'ts::AVCSequenceParameterSet']]],
+  ['log_5fmsg_5fcount',['log_msg_count',['../classts_1_1tsp_1_1_options.html#ab078e9fee786c51c18cc39c7452c2d45',1,'ts::tsp::Options']]],
   ['log_5fsize',['log_size',['../classts_1_1_tables_logger_args.html#a1db8e44a0ab31bd0a9db48aabc5b74a1',1,'ts::TablesLoggerArgs']]],
   ['logger',['logger',['../classts_1_1_tables_logger_args.html#a19f8d3ab52095bd53de1e9c3901f04db',1,'ts::TablesLoggerArgs']]],
   ['logical_5fand',['LOGICAL_AND',['../namespacets.html#a19e88254ba9d73a0de5d7bdad5918aef',1,'ts']]],

@@ -145,7 +145,6 @@ var files =
     [ "tsComPtr.h", "ts_com_ptr_8h.html", [
       [ "ComPtr", "classts_1_1_com_ptr.html", "classts_1_1_com_ptr" ]
     ] ],
-    [ "tsComUtils.h", "ts_com_utils_8h.html", "ts_com_utils_8h" ],
     [ "tsCondition.h", "ts_condition_8h.html", [
       [ "Condition", "classts_1_1_condition.html", "classts_1_1_condition" ],
       [ "ConditionError", "classts_1_1_condition_1_1_condition_error.html", "classts_1_1_condition_1_1_condition_error" ]
@@ -380,6 +379,9 @@ var files =
     [ "tsObject.h", "ts_object_8h.html", "ts_object_8h" ],
     [ "tsOneShotPacketizer.h", "ts_one_shot_packetizer_8h.html", [
       [ "OneShotPacketizer", "classts_1_1_one_shot_packetizer.html", "classts_1_1_one_shot_packetizer" ]
+    ] ],
+    [ "tsOutputPager.h", "ts_output_pager_8h.html", [
+      [ "OutputPager", "classts_1_1_output_pager.html", "classts_1_1_output_pager" ]
     ] ],
     [ "tsOutputRedirector.h", "ts_output_redirector_8h.html", [
       [ "OutputRedirector", "classts_1_1_output_redirector.html", "classts_1_1_output_redirector" ]
@@ -735,6 +737,10 @@ var files =
     [ "tsVideoAttributes.h", "ts_video_attributes_8h.html", [
       [ "VideoAttributes", "classts_1_1_video_attributes.html", "classts_1_1_video_attributes" ]
     ] ],
+    [ "tsWebRequest.h", "ts_web_request_8h.html", [
+      [ "WebRequest", "classts_1_1_web_request.html", "classts_1_1_web_request" ]
+    ] ],
+    [ "tsWinUtils.h", "ts_win_utils_8h.html", "ts_win_utils_8h" ],
     [ "tsxml.h", "tsxml_8h.html", "tsxml_8h" ],
     [ "tsxmlAttribute.h", "tsxml_attribute_8h.html", [
       [ "Attribute", "classts_1_1xml_1_1_attribute.html", "classts_1_1xml_1_1_attribute" ]

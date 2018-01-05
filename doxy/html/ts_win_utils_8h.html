@@ -6,7 +6,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.8.13"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>TSDuck: tsComUtils.h File Reference</title>
+<title>TSDuck: tsWinUtils.h File Reference</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -34,7 +34,7 @@
  <tr style="height: 56px;">
   <td id="projectlogo"><img src="tsduck-32.png"/></td>
    <td id="projectalign"><span id="projectname">TSDuck</span>
-    <span id="projectnumber">Version 3.5</span>
+    <span id="projectnumber">Version 3.6</span>
     <span id="projectbrief">(TSDuck - The MPEG Transport Stream Toolkit)</span>
    </td>
    <td>        <div id="MSearchBox" class="MSearchBoxInactive">
@@ -73,7 +73,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
   </div>
 </div>
 <script type="text/javascript">
-$(document).ready(function(){initNavTree('ts_com_utils_8h.html','');});
+$(document).ready(function(){initNavTree('ts_win_utils_8h.html','');});
 </script>
 <div id="doc-content">
 <!-- window showing the filter options -->
@@ -95,11 +95,11 @@ $(document).ready(function(){initNavTree('ts_com_utils_8h.html','');});
 <a href="#namespaces">Namespaces</a> &#124;
 <a href="#func-members">Functions</a>  </div>
   <div class="headertitle">
-<div class="title">tsComUtils.h File Reference</div>  </div>
+<div class="title">tsWinUtils.h File Reference</div>  </div>
 </div><!--header-->
 <div class="contents">
 
-<p>Utilities for Windows Common Object Model (COM).  
+<p>Utilities for Windows and Common Object Model (COM).  
 <a href="#details">More...</a></p>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="namespaces"></a>
@@ -111,7 +111,7 @@ Namespaces</h2></td></tr>
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
 Functions</h2></td></tr>
 <tr class="memitem:a4926084fd0028c583e79ae7aeb645522"><td class="memItemLeft" align="right" valign="top"><a class="el" href="ts_platform_8h.html#ae1cda62454d23e62fb576be3783aec47">TSDUCKDLL</a> bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacets.html#a4926084fd0028c583e79ae7aeb645522">ts::ComExpose</a> (::IUnknown *object, const ::IID &amp;iid)</td></tr>
-<tr class="memdesc:a4926084fd0028c583e79ae7aeb645522"><td class="mdescLeft">&#160;</td><td class="mdescRight">Check if an object exposes an interface.  <a href="namespacets.html#a4926084fd0028c583e79ae7aeb645522">More...</a><br /></td></tr>
+<tr class="memdesc:a4926084fd0028c583e79ae7aeb645522"><td class="mdescLeft">&#160;</td><td class="mdescRight">Check if a <a class="el" href="classts_1_1_c_o_m.html" title="A class to encapsulate the initialization of Windows COM. ">COM</a> object exposes an interface (Windows-specific).  <a href="namespacets.html#a4926084fd0028c583e79ae7aeb645522">More...</a><br /></td></tr>
 <tr class="separator:a4926084fd0028c583e79ae7aeb645522"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:afff2f0b269fbd456b17078e868fb3387"><td class="memItemLeft" align="right" valign="top"><a class="el" href="ts_platform_8h.html#ae1cda62454d23e62fb576be3783aec47">TSDUCKDLL</a> UString&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacets.html#afff2f0b269fbd456b17078e868fb3387">ts::ComMessage</a> (::HRESULT status)</td></tr>
 <tr class="memdesc:afff2f0b269fbd456b17078e868fb3387"><td class="mdescLeft">&#160;</td><td class="mdescRight">Format the message for a <a class="el" href="classts_1_1_c_o_m.html" title="A class to encapsulate the initialization of Windows COM. ">COM</a> status (Windows-specific).  <a href="namespacets.html#afff2f0b269fbd456b17078e868fb3387">More...</a><br /></td></tr>
@@ -126,7 +126,7 @@ Functions</h2></td></tr>
 <tr class="memdesc:a94961e490d650b18090d55679637f3c2"><td class="mdescLeft">&#160;</td><td class="mdescRight">Format a GUID as string (Windows-specific).  <a href="namespacets.html#a94961e490d650b18090d55679637f3c2">More...</a><br /></td></tr>
 <tr class="separator:a94961e490d650b18090d55679637f3c2"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a5f8973c1c06d34c5c6dd56453f4a4786"><td class="memItemLeft" align="right" valign="top"><a class="el" href="ts_platform_8h.html#ae1cda62454d23e62fb576be3783aec47">TSDUCKDLL</a> UString&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacets.html#a5f8973c1c06d34c5c6dd56453f4a4786">ts::GetStringPropertyBag</a> (::IMoniker *moniker, const ::OLECHAR *property_name, Report &amp;report)</td></tr>
-<tr class="memdesc:a5f8973c1c06d34c5c6dd56453f4a4786"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get a string property from the "property bag" of an object (Windows-specific).  <a href="namespacets.html#a5f8973c1c06d34c5c6dd56453f4a4786">More...</a><br /></td></tr>
+<tr class="memdesc:a5f8973c1c06d34c5c6dd56453f4a4786"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get a string property from the "property bag" of a <a class="el" href="classts_1_1_c_o_m.html" title="A class to encapsulate the initialization of Windows COM. ">COM</a> object (Windows-specific).  <a href="namespacets.html#a5f8973c1c06d34c5c6dd56453f4a4786">More...</a><br /></td></tr>
 <tr class="separator:a5f8973c1c06d34c5c6dd56453f4a4786"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ab9f60fce103bc2ad869fc439768c048e"><td class="memItemLeft" align="right" valign="top"><a class="el" href="ts_platform_8h.html#ae1cda62454d23e62fb576be3783aec47">TSDUCKDLL</a> UString&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacets.html#ab9f60fce103bc2ad869fc439768c048e">ts::NameGUID</a> (const ::GUID &amp;guid)</td></tr>
 <tr class="memdesc:ab9f60fce103bc2ad869fc439768c048e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Format a GUID as string and resolve a few known names (Windows-specific).  <a href="namespacets.html#ab9f60fce103bc2ad869fc439768c048e">More...</a><br /></td></tr>
@@ -135,14 +135,21 @@ Functions</h2></td></tr>
 <tr class="memdesc:a46a7d01d4243cdb7a36e40dd96f44fc2"><td class="mdescLeft">&#160;</td><td class="mdescRight">Convert a <a class="el" href="classts_1_1_c_o_m.html" title="A class to encapsulate the initialization of Windows COM. ">COM</a> string to Unicode string (Windows-specific).  <a href="namespacets.html#a46a7d01d4243cdb7a36e40dd96f44fc2">More...</a><br /></td></tr>
 <tr class="separator:a46a7d01d4243cdb7a36e40dd96f44fc2"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a4b004e7606b9baaa23a88c1600ac63f4"><td class="memItemLeft" align="right" valign="top"><a class="el" href="ts_platform_8h.html#ae1cda62454d23e62fb576be3783aec47">TSDUCKDLL</a> UString&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacets.html#a4b004e7606b9baaa23a88c1600ac63f4">ts::ToString</a> (const ::BSTR s)</td></tr>
-<tr class="memdesc:a4b004e7606b9baaa23a88c1600ac63f4"><td class="mdescLeft">&#160;</td><td class="mdescRight">Convert a <a class="el" href="classts_1_1_c_o_m.html" title="A class to encapsulate the initialization of Windows COM. ">COM</a> string to Unicode string (Windows-specific).  <a href="namespacets.html#a4b004e7606b9baaa23a88c1600ac63f4">More...</a><br /></td></tr>
+<tr class="memdesc:a4b004e7606b9baaa23a88c1600ac63f4"><td class="mdescLeft">&#160;</td><td class="mdescRight">Convert a Windows string to Unicode string (Windows-specific).  <a href="namespacets.html#a4b004e7606b9baaa23a88c1600ac63f4">More...</a><br /></td></tr>
 <tr class="separator:a4b004e7606b9baaa23a88c1600ac63f4"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aded8f5d3edb1290a4734553290fd8108"><td class="memItemLeft" align="right" valign="top"><a class="el" href="ts_platform_8h.html#ae1cda62454d23e62fb576be3783aec47">TSDUCKDLL</a> UString&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacets.html#aded8f5d3edb1290a4734553290fd8108">ts::ToString</a> (const ::WCHAR *s)</td></tr>
-<tr class="memdesc:aded8f5d3edb1290a4734553290fd8108"><td class="mdescLeft">&#160;</td><td class="mdescRight">Convert a Windows string to a string (Windows-specific).  <a href="namespacets.html#aded8f5d3edb1290a4734553290fd8108">More...</a><br /></td></tr>
+<tr class="memdesc:aded8f5d3edb1290a4734553290fd8108"><td class="mdescLeft">&#160;</td><td class="mdescRight">Convert a Windows string to Unicode string (Windows-specific).  <a href="namespacets.html#aded8f5d3edb1290a4734553290fd8108">More...</a><br /></td></tr>
 <tr class="separator:aded8f5d3edb1290a4734553290fd8108"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac99be7dbc5470669fe0e7bb38e71d0cd"><td class="memItemLeft" align="right" valign="top"><a class="el" href="ts_platform_8h.html#ae1cda62454d23e62fb576be3783aec47">TSDUCKDLL</a> UString&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacets.html#ac99be7dbc5470669fe0e7bb38e71d0cd">ts::WinDeviceName</a> (::HANDLE handle)</td></tr>
+<tr class="memdesc:ac99be7dbc5470669fe0e7bb38e71d0cd"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the device or file name from a Windows handle (Windows-specific).  <a href="namespacets.html#ac99be7dbc5470669fe0e7bb38e71d0cd">More...</a><br /></td></tr>
+<tr class="separator:ac99be7dbc5470669fe0e7bb38e71d0cd"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2272d61997cd576da38187332ffcabf7"><td class="memItemLeft" align="right" valign="top"><a class="el" href="ts_platform_8h.html#ae1cda62454d23e62fb576be3783aec47">TSDUCKDLL</a> UString&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacets.html#a2272d61997cd576da38187332ffcabf7">ts::WinErrorMessage</a> (::DWORD code, const UString &amp;moduleName=UString(), ::DWORD minModuleCode=std::numeric_limits&lt;::DWORD &gt;::min(), ::DWORD maxModuleCode=std::numeric_limits&lt;::DWORD &gt;::max())</td></tr>
+<tr class="memdesc:a2272d61997cd576da38187332ffcabf7"><td class="mdescLeft">&#160;</td><td class="mdescRight">Format a Windows error message (Windows-specific).  <a href="namespacets.html#a2272d61997cd576da38187332ffcabf7">More...</a><br /></td></tr>
+<tr class="separator:a2272d61997cd576da38187332ffcabf7"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
-<div class="textblock"><p>Utilities for Windows Common Object Model (COM). </p>
+<div class="textblock"><p>Utilities for Windows and Common Object Model (COM). </p>
+<p>Windows-specific module. </p>
 </div></div><!-- contents -->
 </div><!-- doc-content -->
 <!-- HTML footer for doxygen 1.8.12-->

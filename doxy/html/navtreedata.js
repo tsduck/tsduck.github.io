@@ -33,6 +33,17 @@ var NAVTREE =
         [ "Transport packets buffer", "devplugin.html#pdevbuffer", null ]
       ] ]
     ] ],
+    [ "Testing TSDuck", "testing.html", [
+      [ "Testing overview", "testing.html#testoverview", null ],
+      [ "Organization of the tests", "testing.html#testorg", null ],
+      [ "The TSDuck library test suite", "testing.html#testlib", null ],
+      [ "The TSDuck tools and plugins test suite", "testing.html#testtools", [
+        [ "Structure of the test suite", "testing.html#teststruct", null ],
+        [ "Adding new tests", "testing.html#testadd", null ],
+        [ "Testing a development version", "testing.html#testdev", null ],
+        [ "Large files", "testing.html#testlargefiles", null ]
+      ] ]
+    ] ],
     [ "TSDuck Library Tutorial", "libtutorial.html", [
       [ "C++ features", "libtutorial.html#cppfeatures", [
         [ "Portability issues", "libtutorial.html#portability", null ],
@@ -118,33 +129,34 @@ var NAVTREEINDEX =
 [
 "annotated.html",
 "classts_1_1_abstract_audio_video_attributes.html#aaa27bab70b76ae2085ff66442c340cbf",
-"classts_1_1_audio_attributes.html#aa4654a0591965bfd0cf4934f9078a540",
-"classts_1_1_c_t_s4.html#a64020f9e6fbda4931d6d12bbe6be4f87",
-"classts_1_1_descriptor.html#a425fad875902852a9a8cf739f2d05bad",
-"classts_1_1_file_name_rate_list.html",
-"classts_1_1_message_descriptor.html",
-"classts_1_1_parental_rating_descriptor.html#a7eaa79d50089c33a3c4e62ba0f77c2fb",
-"classts_1_1_s_s_u_linkage_descriptor.html#a6c8d47da11500e4a1f365e593800e5c7",
-"classts_1_1_service.html#ada17e14377539a2d302f5647ace83d36",
-"classts_1_1_t_c_p_connection.html#a82abd1e48f8a00fff1e5a45b10f724ef",
-"classts_1_1_t_s_analyzer_options.html#acba55c23e57008b1b793a1fe0f97f31f",
-"classts_1_1_text_formatter.html#aea5a07a6815ba17d68798acaf46445f5",
-"classts_1_1_tuner_parameters_d_v_b_c.html#a405a1132f68e975389bff9e83f9f1d0a",
-"classts_1_1_uninitialized_variable.html#a788466e357e089b1edcd9f343e9cf500",
-"classts_1_1emmgmux_1_1_stream_setup.html#afcf212dc9c9fff4a992de839c5ecc034",
-"classts_1_1xml_1_1_document.html#ae37ecc8462ee701c40e1b49155810779",
-"namespacemembers_eval_f.html",
-"structts_1_1_t_s_packet.html#a44804d440cfbecbc0da9ec1a042229e3",
-"ts_a_v_c_v_u_i_parameters_8h.html",
-"ts_m_p_e_g_8h.html#a0071f2918a8c95ab8f3c188250ce2b7fa68085ba7aaa707971948593cae187580",
-"ts_m_p_e_g_8h.html#aa5ef9f2051bf85186fab0b624d387781a36158e249137b6ccd3151fb929b781f1",
-"ts_m_p_e_g_8h.html#af65eca52660a5db7689e344a97f11ff9abe016f5910b6d77c0d2bfc4b897cca4e",
-"ts_names_8h.html#ad01b2604fc1b9fcaa4cbcbea333d8bfcadb593d99c9208513a8e63da85dbc6038",
-"ts_poll_files_8h.html#a8f0a779c88d4f34f07a5fa01cfcf8526",
-"ts_u_char_8h.html#a0a93c182386c902a0bdb1fff9090a00f",
-"ts_u_char_8h.html#a451095a8c14b0800a84aa10d858e8aba",
-"ts_u_char_8h.html#a931264ffa31a23935bd61c64a3a57d3b",
-"ts_u_char_8h.html#ad8c2808fb112b7821486dd5401645012"
+"classts_1_1_audio_attributes.html#a891d5337f32da2ae8dcf4c89f8071a5f",
+"classts_1_1_c_t_s4.html",
+"classts_1_1_descriptor.html#a2a477f047c0bebf31ea0f54c09bdff89",
+"classts_1_1_extended_event_descriptor.html#aaf130fb234af71f43df93e8b2019a5df",
+"classts_1_1_m_d5.html#af5ba7d61cda1cfd8d4bcca18f4f70bb0",
+"classts_1_1_packetizer.html#a621dec0fc55e7f3e67e9c21a23d99223",
+"classts_1_1_s_s_u_data_broadcast_id_descriptor.html#a89d7dbf7c54f384e511bb64582978a0e",
+"classts_1_1_service.html#aa522e906467c3ee07bb6eefc71ab9d45",
+"classts_1_1_t2_m_i_packet.html#ad4e9e70c8bc4ab75a0cd7c2d9ace65a2",
+"classts_1_1_t_s_analyzer_options.html#a517cc5e6ceadabaf7c66251a8a9a11d0",
+"classts_1_1_text_formatter.html#a2c642d7a267f8191ba41f861ff093acd",
+"classts_1_1_tuner_parameters_a_t_s_c.html#abd510d3796461e2a348f7c496365febf",
+"classts_1_1_u_string.html#af6d454a8d9c6cd32f7528c3978e1b960",
+"classts_1_1emmgmux_1_1_stream_b_w_request.html#a496badc216d90c7eaf66b14ad0c91fc9",
+"classts_1_1xml_1_1_attribute.html#a803555274fa784fdc68403ceaddb3252",
+"libtutorial.html#errreport",
+"structts_1_1_severity.html",
+"structts_1_1emmgmux_1_1_traits.html#a765fde8b4ac6be11e06be2fd913e5812",
+"ts_m_d5_8h.html",
+"ts_m_p_e_g_8h.html#a9750428b1cdf61488981dfed5f2fad1da9c13db3b04a7feb291a11732b1e8df46",
+"ts_m_p_e_g_8h.html#af65eca52660a5db7689e344a97f11ff9a8e703e102818edc38420d5f1e555ab09",
+"ts_n_i_t_8h.html",
+"ts_platform_8h.html#ae1cda62454d23e62fb576be3783aec47",
+"ts_u_char_8h.html#a0284c0d285451a3c79340545fabce5bd",
+"ts_u_char_8h.html#a3e1f588621525778cb7ab06d69288f19",
+"ts_u_char_8h.html#a85ef722bf9db2abeeba46f14216ff5b2",
+"ts_u_char_8h.html#ad072c812ad9d533e5ca7f2e9185cc0f0",
+"tstlv_8h.html#a87d6d996de5a3e6696ffea6d2882676e"
 ];
 
 var SYNCONMSG = 'click to disable panel synchronisation';

@@ -1,11 +1,13 @@
 var searchData=
 [
-  ['value',['VALUE',['../namespacets_1_1names.html#ad01b2604fc1b9fcaa4cbcbea333d8bfcab312b4ea29910f06d3ea92f34d8c01f8',1,'ts::names']]],
-  ['version_5fdate',['VERSION_DATE',['../namespacets.html#a3b76963ba3c3e6d12b29fc10bd4642faa7c8baaececaedc8e028bea2f04926e68',1,'ts']]],
-  ['version_5fdektec',['VERSION_DEKTEC',['../namespacets.html#a3b76963ba3c3e6d12b29fc10bd4642faaf20bd58a733e0b559edac6ea4fe88b2a',1,'ts']]],
-  ['version_5flong',['VERSION_LONG',['../namespacets.html#a3b76963ba3c3e6d12b29fc10bd4642faa9ca9a7309972b9095446810f08664ccc',1,'ts']]],
-  ['version_5fnsis',['VERSION_NSIS',['../namespacets.html#a3b76963ba3c3e6d12b29fc10bd4642faae14179522627d36a7ace0c4cb4be8c8d',1,'ts']]],
-  ['version_5fshort',['VERSION_SHORT',['../namespacets.html#a3b76963ba3c3e6d12b29fc10bd4642faaba95baa6c3dc575f82d5ced4879619d7',1,'ts']]],
-  ['vsb_5f16',['VSB_16',['../namespacets.html#ae4e82c198bc4395f3dc9368516da5b58a3df3d7ca662bd00d744619d8b5f5b65a',1,'ts']]],
-  ['vsb_5f8',['VSB_8',['../namespacets.html#ae4e82c198bc4395f3dc9368516da5b58a3d1005fc3e0b470215083799d8640100',1,'ts']]]
+  ['uint16',['UINT16',['../classts_1_1_args.html#ada57b307e21cd62d9eb7439dd2dcbfd1a890d4479bf50fff2d46e44fe74442375',1,'ts::Args']]],
+  ['uint32',['UINT32',['../classts_1_1_args.html#ada57b307e21cd62d9eb7439dd2dcbfd1abf1fb79110d373d2837d292168c19c9e',1,'ts::Args']]],
+  ['uint8',['UINT8',['../classts_1_1_args.html#ada57b307e21cd62d9eb7439dd2dcbfd1af17abfe4f237dbef89c0ba76fcc34cd7',1,'ts::Args']]],
+  ['unknown_5ferror',['unknown_error',['../structts_1_1ecmgscs_1_1_errors.html#a5e5abf0d3020e42a2a42071d9a3cb1cfa6defecde0874a64dbcdbe171d1eed050',1,'ts::ecmgscs::Errors::unknown_error()'],['../structts_1_1emmgmux_1_1_errors.html#a1e77320d82540c48f9616be50ba638f7abe6685cb8d3e24fbaf41a1097fc63075',1,'ts::emmgmux::Errors::unknown_error()']]],
+  ['unknowncommandtag',['UnknownCommandTag',['../namespacets_1_1tlv.html#a8a60aed0fb72f9faef47e8c7e5beef94adebd0f22afefae49a8cc46bb30728c80',1,'ts::tlv']]],
+  ['unknownparametertag',['UnknownParameterTag',['../namespacets_1_1tlv.html#a8a60aed0fb72f9faef47e8c7e5beef94ace9d0d66f2322e4a186ade5fb1a791cb',1,'ts::tlv']]],
+  ['unrecoverable_5ferror',['unrecoverable_error',['../structts_1_1ecmgscs_1_1_errors.html#a5e5abf0d3020e42a2a42071d9a3cb1cfa44f23754c2ac65aa369211771622dea2',1,'ts::ecmgscs::Errors::unrecoverable_error()'],['../structts_1_1emmgmux_1_1_errors.html#a1e77320d82540c48f9616be50ba638f7ade2ca3a525c8a3f5caf8f9f0bfad9d85',1,'ts::emmgmux::Errors::unrecoverable_error()']]],
+  ['unsigned',['UNSIGNED',['../classts_1_1_args.html#ada57b307e21cd62d9eb7439dd2dcbfd1a2e20d4548599df7d2ea6ede56c6763b2',1,'ts::Args']]],
+  ['unspecified',['UNSPECIFIED',['../classts_1_1_section_file.html#a75224199b84e723779507df1624076a8ac8ea093bc9f9d81422809519025c4d57',1,'ts::SectionFile']]],
+  ['unsupportedversion',['UnsupportedVersion',['../namespacets_1_1tlv.html#a8a60aed0fb72f9faef47e8c7e5beef94a6f3aa9132343952da4f28f324b8ef7f9',1,'ts::tlv']]]
 ];

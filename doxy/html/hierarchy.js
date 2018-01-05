@@ -180,8 +180,8 @@ var hierarchy =
     [ "ts::SSULinkageDescriptor::Entry", "structts_1_1_s_s_u_linkage_descriptor_1_1_entry.html", null ],
     [ "ts::SubtitlingDescriptor::Entry", "structts_1_1_subtitling_descriptor_1_1_entry.html", null ],
     [ "ts::EutelsatChannelNumberDescriptor::Entry", "structts_1_1_eutelsat_channel_number_descriptor_1_1_entry.html", null ],
-    [ "ts::TeletextDescriptor::Entry", "structts_1_1_teletext_descriptor_1_1_entry.html", null ],
     [ "ts::ExtendedEventDescriptor::Entry", "structts_1_1_extended_event_descriptor_1_1_entry.html", null ],
+    [ "ts::TeletextDescriptor::Entry", "structts_1_1_teletext_descriptor_1_1_entry.html", null ],
     [ "ts::HDSimulcastLogicalChannelDescriptor::Entry", "structts_1_1_h_d_simulcast_logical_channel_descriptor_1_1_entry.html", null ],
     [ "ts::ISO639LanguageDescriptor::Entry", "structts_1_1_i_s_o639_language_descriptor_1_1_entry.html", null ],
     [ "ts::LogicalChannelNumberDescriptor::Entry", "structts_1_1_logical_channel_number_descriptor_1_1_entry.html", null ],
@@ -218,7 +218,9 @@ var hierarchy =
     [ "ts::LinkageDescriptor::ExtendedEventLinkageInfo", "classts_1_1_linkage_descriptor_1_1_extended_event_linkage_info.html", null ],
     [ "ts::Time::Fields", "structts_1_1_time_1_1_fields.html", null ],
     [ "ts::FileNameRate", "structts_1_1_file_name_rate.html", null ],
-    [ "ts::ForkPipe", "classts_1_1_fork_pipe.html", null ],
+    [ "ts::ForkPipe", "classts_1_1_fork_pipe.html", [
+      [ "ts::OutputPager", "classts_1_1_output_pager.html", null ]
+    ] ],
     [ "ts::Grid", "classts_1_1_grid.html", null ],
     [ "ts::Guard", "classts_1_1_guard.html", [
       [ "ts::DoubleCheckLock::Reader", "classts_1_1_double_check_lock_1_1_reader.html", null ],
@@ -511,5 +513,6 @@ var hierarchy =
     [ "vector", null, [
       [ "ts::AudioLanguageOptionsVector", "classts_1_1_audio_language_options_vector.html", null ],
       [ "ts::ByteBlock", "classts_1_1_byte_block.html", null ]
-    ] ]
+    ] ],
+    [ "ts::WebRequest", "classts_1_1_web_request.html", null ]
 ];

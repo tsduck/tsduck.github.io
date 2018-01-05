@@ -34,7 +34,7 @@
  <tr style="height: 56px;">
   <td id="projectlogo"><img src="tsduck-32.png"/></td>
    <td id="projectalign"><span id="projectname">TSDuck</span>
-    <span id="projectnumber">Version 3.5</span>
+    <span id="projectnumber">Version 3.6</span>
     <span id="projectbrief">(TSDuck - The MPEG Transport Stream Toolkit)</span>
    </td>
    <td>        <div id="MSearchBox" class="MSearchBoxInactive">
@@ -330,10 +330,10 @@ void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="clas
 <tr class="memitem:a6cf010e716088d287fbf11a182716a5d"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classts_1_1_u_string.html#a6cf010e716088d287fbf11a182716a5d">similar</a> (const void *addr, size_type size) const</td></tr>
 <tr class="memdesc:a6cf010e716088d287fbf11a182716a5d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Check if two strings are identical, case-insensitive and ignoring blanks.  <a href="#a6cf010e716088d287fbf11a182716a5d">More...</a><br /></td></tr>
 <tr class="separator:a6cf010e716088d287fbf11a182716a5d"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a926b8b598188f8883528be224838c9db"><td class="memTemplParams" colspan="2">template&lt;class CONTAINER &gt; </td></tr>
-<tr class="memitem:a926b8b598188f8883528be224838c9db"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="classts_1_1_u_string.html#a926b8b598188f8883528be224838c9db">split</a> (CONTAINER &amp;container, <a class="el" href="namespacets.html#a7e3244e77fae7815254d87d2ebdb7bd0">UChar</a> separator=<a class="el" href="namespacets.html#acddcf9feea154a5c67a07120d0012b0e">COMMA</a>, bool trimSpaces=true) const</td></tr>
-<tr class="memdesc:a926b8b598188f8883528be224838c9db"><td class="mdescLeft">&#160;</td><td class="mdescRight">Split the string into segments based on a separator character (comma by default).  <a href="#a926b8b598188f8883528be224838c9db">More...</a><br /></td></tr>
-<tr class="separator:a926b8b598188f8883528be224838c9db"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae901036faf692860190b1736c6b6087d"><td class="memTemplParams" colspan="2">template&lt;class CONTAINER &gt; </td></tr>
+<tr class="memitem:ae901036faf692860190b1736c6b6087d"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="classts_1_1_u_string.html#ae901036faf692860190b1736c6b6087d">split</a> (CONTAINER &amp;container, <a class="el" href="namespacets.html#a7e3244e77fae7815254d87d2ebdb7bd0">UChar</a> separator=<a class="el" href="namespacets.html#acddcf9feea154a5c67a07120d0012b0e">COMMA</a>, bool trimSpaces=true, bool removeEmpty=false) const</td></tr>
+<tr class="memdesc:ae901036faf692860190b1736c6b6087d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Split the string into segments based on a separator character (comma by default).  <a href="#ae901036faf692860190b1736c6b6087d">More...</a><br /></td></tr>
+<tr class="separator:ae901036faf692860190b1736c6b6087d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a40c75eda5c711a905f131a89713da584"><td class="memTemplParams" colspan="2">template&lt;class CONTAINER &gt; </td></tr>
 <tr class="memitem:a40c75eda5c711a905f131a89713da584"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="classts_1_1_u_string.html#a40c75eda5c711a905f131a89713da584">splitBlocks</a> (CONTAINER &amp;container, <a class="el" href="namespacets.html#a7e3244e77fae7815254d87d2ebdb7bd0">UChar</a> <a class="el" href="classts_1_1_u_string.html#a98d515c33c156e797977794f6f99b91d">startWith</a>=<a class="el" href="namespacets.html#a7e3244e77fae7815254d87d2ebdb7bd0">UChar</a>('['), <a class="el" href="namespacets.html#a7e3244e77fae7815254d87d2ebdb7bd0">UChar</a> <a class="el" href="classts_1_1_u_string.html#ad68009763ba4fd4c4cc238e0d63c183a">endWith</a>=<a class="el" href="namespacets.html#a7e3244e77fae7815254d87d2ebdb7bd0">UChar</a>(']'), bool trimSpaces=true) const</td></tr>
 <tr class="memdesc:a40c75eda5c711a905f131a89713da584"><td class="mdescLeft">&#160;</td><td class="mdescRight">Split a string into segments which are identified by their starting / ending characters (respectively "[" and "]" by default).  <a href="#a40c75eda5c711a905f131a89713da584">More...</a><br /></td></tr>
@@ -425,12 +425,19 @@ void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="clas
 <tr class="memitem:a3e06a17d20d02a2eeeef09400b01669d"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classts_1_1_u_string.html#a3e06a17d20d02a2eeeef09400b01669d">trim</a> (bool leading=true, bool trailing=true)</td></tr>
 <tr class="memdesc:a3e06a17d20d02a2eeeef09400b01669d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Trim leading and / or trailing space characters.  <a href="#a3e06a17d20d02a2eeeef09400b01669d">More...</a><br /></td></tr>
 <tr class="separator:a3e06a17d20d02a2eeeef09400b01669d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a75294cf252a668d4bf88ea026e6f3c83"><td class="memTemplParams" colspan="2">template&lt;typename INT , typename std::enable_if&lt; std::is_integral&lt; INT &gt;::value &gt;::type *  = nullptr&gt; </td></tr>
+<tr class="memitem:a75294cf252a668d4bf88ea026e6f3c83"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="classts_1_1_u_string.html#a75294cf252a668d4bf88ea026e6f3c83">trimLength</a> (INT length, bool trimTrailingSpaces=true)</td></tr>
+<tr class="memdesc:a75294cf252a668d4bf88ea026e6f3c83"><td class="mdescLeft">&#160;</td><td class="mdescRight">Reduce the size of the string to a given length from an alien integer type.  <a href="#a75294cf252a668d4bf88ea026e6f3c83">More...</a><br /></td></tr>
+<tr class="separator:a75294cf252a668d4bf88ea026e6f3c83"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:afc41789063ebea5813478c7b8530fd02"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classts_1_1_u_string.html#afc41789063ebea5813478c7b8530fd02">truncateWidth</a> (size_type maxWidth, <a class="el" href="namespacets.html#a192e3a523b2e9cdb0a27852f1b3e8423">StringDirection</a> direction=<a class="el" href="namespacets.html#a192e3a523b2e9cdb0a27852f1b3e8423aeb97c1482353aa7767b83ad2c356b401">LEFT_TO_RIGHT</a>)</td></tr>
 <tr class="memdesc:afc41789063ebea5813478c7b8530fd02"><td class="mdescLeft">&#160;</td><td class="mdescRight">Truncate this string to a given display width.  <a href="#afc41789063ebea5813478c7b8530fd02">More...</a><br /></td></tr>
 <tr class="separator:afc41789063ebea5813478c7b8530fd02"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a55a15cf87a1e3453dafbe7ac1feca1ea"><td class="memItemLeft" align="right" valign="top">const ::WCHAR *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classts_1_1_u_string.html#a55a15cf87a1e3453dafbe7ac1feca1ea">wc_str</a> () const</td></tr>
 <tr class="memdesc:a55a15cf87a1e3453dafbe7ac1feca1ea"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the address of the underlying null-terminated Unicode string (Windows-specific).  <a href="#a55a15cf87a1e3453dafbe7ac1feca1ea">More...</a><br /></td></tr>
 <tr class="separator:a55a15cf87a1e3453dafbe7ac1feca1ea"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a55f8469f96e5edc75beda2ddc80cfc5d"><td class="memItemLeft" align="right" valign="top">::WCHAR *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classts_1_1_u_string.html#a55f8469f96e5edc75beda2ddc80cfc5d">wc_str</a> ()</td></tr>
+<tr class="memdesc:a55f8469f96e5edc75beda2ddc80cfc5d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the address of the underlying null-terminated Unicode string (Windows-specific).  <a href="#a55f8469f96e5edc75beda2ddc80cfc5d">More...</a><br /></td></tr>
+<tr class="separator:a55f8469f96e5edc75beda2ddc80cfc5d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a34c9e8a315f34bbc971b029af58555a3"><td class="memItemLeft" align="right" valign="top">size_type&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classts_1_1_u_string.html#a34c9e8a315f34bbc971b029af58555a3">width</a> () const</td></tr>
 <tr class="memdesc:a34c9e8a315f34bbc971b029af58555a3"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the display width in characters.  <a href="#a34c9e8a315f34bbc971b029af58555a3">More...</a><br /></td></tr>
 <tr class="separator:a34c9e8a315f34bbc971b029af58555a3"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -2427,7 +2434,7 @@ template&lt;typename CHARTYPE , std::size_t SIZE&gt; </div>
 </div>
 </div>
 <a id="a55a15cf87a1e3453dafbe7ac1feca1ea"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a55a15cf87a1e3453dafbe7ac1feca1ea">&#9670;&nbsp;</a></span>wc_str()</h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a55a15cf87a1e3453dafbe7ac1feca1ea">&#9670;&nbsp;</a></span>wc_str() <span class="overload">[1/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -2440,6 +2447,34 @@ template&lt;typename CHARTYPE , std::size_t SIZE&gt; </div>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Get the address of the underlying null-terminated Unicode string (Windows-specific). </p>
+<dl class="section return"><dt>Returns</dt><dd>The address of the underlying null-terminated Unicode string . </dd></dl>
+
+</div>
+</div>
+<a id="a55f8469f96e5edc75beda2ddc80cfc5d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a55f8469f96e5edc75beda2ddc80cfc5d">&#9670;&nbsp;</a></span>wc_str() <span class="overload">[2/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">::WCHAR* ts::UString::wc_str </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
         </tr>
       </table>
   </td>
@@ -2507,6 +2542,51 @@ template&lt;typename CHARTYPE , std::size_t SIZE&gt; </div>
 
 <p>Get the address after the last character in the string (C++17). </p>
 <dl class="section return"><dt>Returns</dt><dd>The address after the last character in the string. </dd></dl>
+
+</div>
+</div>
+<a id="a75294cf252a668d4bf88ea026e6f3c83"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a75294cf252a668d4bf88ea026e6f3c83">&#9670;&nbsp;</a></span>trimLength()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename INT , typename std::enable_if&lt; std::is_integral&lt; INT &gt;::value &gt;::type *  = nullptr&gt; </div>
+      <table class="memname">
+        <tr>
+          <td class="memname">void ts::UString::trimLength </td>
+          <td>(</td>
+          <td class="paramtype">INT&#160;</td>
+          <td class="paramname"><em>length</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">bool&#160;</td>
+          <td class="paramname"><em>trimTrailingSpaces</em> = <code>true</code>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Reduce the size of the string to a given length from an alien integer type. </p>
+<p>This method is useful when the string has been used as an input buffer. </p><dl class="tparams"><dt>Template Parameters</dt><dd>
+  <table class="tparams">
+    <tr><td class="paramname">INT</td><td>An integer type. </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">length</td><td>New size of the string. Ignored if negative or greater than the current string length. </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">trimTrailingSpaces</td><td>If true, also remove any trailing space. </td></tr>
+  </table>
+  </dd>
+</dl>
 
 </div>
 </div>
@@ -3052,8 +3132,8 @@ template&lt;typename CHARTYPE , std::size_t SIZE&gt; </div>
 
 </div>
 </div>
-<a id="a926b8b598188f8883528be224838c9db"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a926b8b598188f8883528be224838c9db">&#9670;&nbsp;</a></span>split()</h2>
+<a id="ae901036faf692860190b1736c6b6087d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae901036faf692860190b1736c6b6087d">&#9670;&nbsp;</a></span>split()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -3076,7 +3156,13 @@ template&lt;class CONTAINER &gt; </div>
           <td class="paramkey"></td>
           <td></td>
           <td class="paramtype">bool&#160;</td>
-          <td class="paramname"><em>trimSpaces</em> = <code>true</code>&#160;</td>
+          <td class="paramname"><em>trimSpaces</em> = <code>true</code>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">bool&#160;</td>
+          <td class="paramname"><em>removeEmpty</em> = <code>false</code>&#160;</td>
         </tr>
         <tr>
           <td></td>
@@ -3097,7 +3183,8 @@ template&lt;class CONTAINER &gt; </div>
   <table class="params">
     <tr><td class="paramdir">[out]</td><td class="paramname">container</td><td>A container of <code><a class="el" href="classts_1_1_u_string.html" title="An implementation of UTF-16 strings. ">UString</a></code> which receives the segments of the splitted string. </td></tr>
     <tr><td class="paramdir">[in]</td><td class="paramname">separator</td><td>The character which is used to separate the segments. </td></tr>
-    <tr><td class="paramdir">[in]</td><td class="paramname">trimSpaces</td><td>If true (the default), each segment is trimmed, i.e. all leading and trailing space characters are removed. </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">trimSpaces</td><td>If true (the default), each segment is trimmed, </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">removeEmpty</td><td>If true, empty segments are ignored i.e. all leading and trailing space characters are removed. </td></tr>
   </table>
   </dd>
 </dl>

@@ -138,6 +138,7 @@ var namespacets =
     [ "NullReport", "classts_1_1_null_report.html", "classts_1_1_null_report" ],
     [ "Object", "classts_1_1_object.html", "classts_1_1_object" ],
     [ "OneShotPacketizer", "classts_1_1_one_shot_packetizer.html", "classts_1_1_one_shot_packetizer" ],
+    [ "OutputPager", "classts_1_1_output_pager.html", "classts_1_1_output_pager" ],
     [ "OutputPlugin", "classts_1_1_output_plugin.html", "classts_1_1_output_plugin" ],
     [ "OutputRedirector", "classts_1_1_output_redirector.html", "classts_1_1_output_redirector" ],
     [ "Packetizer", "classts_1_1_packetizer.html", "classts_1_1_packetizer" ],
@@ -263,5 +264,6 @@ var namespacets =
     [ "VBIDataDescriptor", "classts_1_1_v_b_i_data_descriptor.html", "classts_1_1_v_b_i_data_descriptor" ],
     [ "VBITeletextDescriptor", "classts_1_1_v_b_i_teletext_descriptor.html", "classts_1_1_v_b_i_teletext_descriptor" ],
     [ "ViaccessDate", "classts_1_1_viaccess_date.html", "classts_1_1_viaccess_date" ],
-    [ "VideoAttributes", "classts_1_1_video_attributes.html", "classts_1_1_video_attributes" ]
+    [ "VideoAttributes", "classts_1_1_video_attributes.html", "classts_1_1_video_attributes" ],
+    [ "WebRequest", "classts_1_1_web_request.html", "classts_1_1_web_request" ]
 ];
