@@ -104,6 +104,7 @@ var searchData=
   ['_7etunerparameters',['~TunerParameters',['../classts_1_1_tuner_parameters.html#a553975697debfc9d148c4c8a28d0266e',1,'ts::TunerParameters']]],
   ['_7eudpsocket',['~UDPSocket',['../classts_1_1_u_d_p_socket.html#ab3e88dca7aa0d21a0de1d88fce6a0643',1,'ts::UDPSocket']]],
   ['_7euserinterrupt',['~UserInterrupt',['../classts_1_1_user_interrupt.html#ab41cc822d706b77d7b9a468efb03c757',1,'ts::UserInterrupt']]],
+  ['_7evalue',['~Value',['../classts_1_1json_1_1_value.html#aabed6a6118be849e235c746a01c54d69',1,'ts::json::Value']]],
   ['_7evariable',['~Variable',['../classts_1_1_variable.html#a66cf19b44a000eb5282e382125631c54',1,'ts::Variable']]],
   ['_7ewebrequest',['~WebRequest',['../classts_1_1_web_request.html#a0b120195c479efe48fc52c8a2d92165b',1,'ts::WebRequest']]]
 ];

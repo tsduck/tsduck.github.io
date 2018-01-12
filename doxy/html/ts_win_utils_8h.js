@@ -11,5 +11,6 @@ var ts_win_utils_8h =
     [ "FormatGUID", "ts_win_utils_8h.html#a94961e490d650b18090d55679637f3c2", null ],
     [ "NameGUID", "ts_win_utils_8h.html#ab9f60fce103bc2ad869fc439768c048e", null ],
     [ "GetStringPropertyBag", "ts_win_utils_8h.html#a5f8973c1c06d34c5c6dd56453f4a4786", null ],
-    [ "WinDeviceName", "ts_win_utils_8h.html#ac99be7dbc5470669fe0e7bb38e71d0cd", null ]
+    [ "WinDeviceName", "ts_win_utils_8h.html#ac99be7dbc5470669fe0e7bb38e71d0cd", null ],
+    [ "WinCreateElevatedProcess", "ts_win_utils_8h.html#a155a8bae6c4dc91eab7091eb6d749896", null ]
 ];

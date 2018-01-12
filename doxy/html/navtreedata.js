@@ -1,3 +1,26 @@
+/*
+@ @licstart  The following is the entire license notice for the
+JavaScript code in this file.
+
+Copyright (C) 1997-2017 by Dimitri van Heesch
+
+This program is free software; you can redistribute it and/or modify
+it under the terms of the GNU General Public License as published by
+the Free Software Foundation; either version 2 of the License, or
+(at your option) any later version.
+
+This program is distributed in the hope that it will be useful,
+but WITHOUT ANY WARRANTY; without even the implied warranty of
+ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+ GNU General Public License for more details.
+
+You should have received a copy of the GNU General Public License along
+with this program; if not, write to the Free Software Foundation, Inc.,
+51 Franklin Street, Fifth Floor, Boston, MA 02110-1301 USA.
+
+@licend  The above is the entire license notice
+for the JavaScript code in this file
+*/
 var NAVTREE =
 [
   [ "TSDuck", "index.html", [
@@ -89,8 +112,8 @@ var NAVTREE =
       [ "Building applications on Linux", "usinglibrary.html#liblinux", null ],
       [ "Building applications on Windows", "usinglibrary.html#libwindows", null ]
     ] ],
-    [ "Namespaces", null, [
-      [ "Namespace List", "namespaces.html", "namespaces" ],
+    [ "Namespaces", "namespaces.html", [
+      [ "Namespace List", "namespaces.html", "namespaces_dup" ],
       [ "Namespace Members", "namespacemembers.html", [
         [ "All", "namespacemembers.html", "namespacemembers_dup" ],
         [ "Functions", "namespacemembers_func.html", "namespacemembers_func" ],
@@ -113,8 +136,8 @@ var NAVTREE =
         [ "Enumerator", "functions_eval.html", null ]
       ] ]
     ] ],
-    [ "Files", null, [
-      [ "File List", "files.html", "files" ],
+    [ "Files", "files.html", [
+      [ "File List", "files.html", "files_dup" ],
       [ "File Members", "globals.html", [
         [ "All", "globals.html", null ],
         [ "Functions", "globals_func.html", null ],
@@ -133,30 +156,31 @@ var NAVTREEINDEX =
 "classts_1_1_c_t_s4.html",
 "classts_1_1_descriptor.html#a2a477f047c0bebf31ea0f54c09bdff89",
 "classts_1_1_extended_event_descriptor.html#aaf130fb234af71f43df93e8b2019a5df",
-"classts_1_1_m_d5.html#af5ba7d61cda1cfd8d4bcca18f4f70bb0",
-"classts_1_1_packetizer.html#a621dec0fc55e7f3e67e9c21a23d99223",
-"classts_1_1_s_s_u_data_broadcast_id_descriptor.html#a89d7dbf7c54f384e511bb64582978a0e",
-"classts_1_1_service.html#aa522e906467c3ee07bb6eefc71ab9d45",
-"classts_1_1_t2_m_i_packet.html#ad4e9e70c8bc4ab75a0cd7c2d9ace65a2",
-"classts_1_1_t_s_analyzer_options.html#a517cc5e6ceadabaf7c66251a8a9a11d0",
-"classts_1_1_text_formatter.html#a2c642d7a267f8191ba41f861ff093acd",
-"classts_1_1_tuner_parameters_a_t_s_c.html#abd510d3796461e2a348f7c496365febf",
-"classts_1_1_u_string.html#af6d454a8d9c6cd32f7528c3978e1b960",
-"classts_1_1emmgmux_1_1_stream_b_w_request.html#a496badc216d90c7eaf66b14ad0c91fc9",
-"classts_1_1xml_1_1_attribute.html#a803555274fa784fdc68403ceaddb3252",
-"libtutorial.html#errreport",
-"structts_1_1_severity.html",
-"structts_1_1emmgmux_1_1_traits.html#a765fde8b4ac6be11e06be2fd913e5812",
-"ts_m_d5_8h.html",
-"ts_m_p_e_g_8h.html#a9750428b1cdf61488981dfed5f2fad1da9c13db3b04a7feb291a11732b1e8df46",
-"ts_m_p_e_g_8h.html#af65eca52660a5db7689e344a97f11ff9a8e703e102818edc38420d5f1e555ab09",
-"ts_n_i_t_8h.html",
-"ts_platform_8h.html#ae1cda62454d23e62fb576be3783aec47",
-"ts_u_char_8h.html#a0284c0d285451a3c79340545fabce5bd",
-"ts_u_char_8h.html#a3e1f588621525778cb7ab06d69288f19",
-"ts_u_char_8h.html#a85ef722bf9db2abeeba46f14216ff5b2",
-"ts_u_char_8h.html#ad072c812ad9d533e5ca7f2e9185cc0f0",
-"tstlv_8h.html#a87d6d996de5a3e6696ffea6d2882676e"
+"classts_1_1_linkage_descriptor_1_1_extended_event_linkage_info.html#aa9d2b151ded5388c18b6a815805b8896",
+"classts_1_1_p_e_s_packet.html#af8e8c9c9de4137364fe990843a54e4e0",
+"classts_1_1_s_d_t_1_1_service.html#a2e4e197d2ddf064aff87837de28c37ea",
+"classts_1_1_service.html#a2032e706d40c6030d76a5ae8a84130b1",
+"classts_1_1_sys_info.html#aac6a402750a9765d51175b92813d803b",
+"classts_1_1_t_s_analyzer_1_1_p_i_d_context.html#a45117b4f3509b8657a07665635b44618",
+"classts_1_1_tables_logger_args.html#a532205025a25b216059eb51c43e6b7e1",
+"classts_1_1_tuner_args.html#a183fce699e6d477d3ae6e3eafebbf711",
+"classts_1_1_u_string.html#a8b98d881599eb358f9ced9bd0055e0ca",
+"classts_1_1ecmgscs_1_1_stream_error.html",
+"classts_1_1tlv_1_1_message.html#a512e1c480177f5e5c4e4ea940c6bf402",
+"classts_1_1xml_1_1_node.html#a063791597919c4f3bf64ae1c6a1204a9",
+"namespacemembers_s.html",
+"structts_1_1_teletext_descriptor_1_1_entry.html#a677bcdbf71b7f706efc132c95e4ec07a",
+"ts_algorithm_8h.html#acddffca0f4b799c16fb4a62a3b67d026",
+"ts_m_p_e_g_8h.html#a18271d4e19de24208acba23b31b58ee3a19dd228424fd6c05dde1b182cf6f9df1",
+"ts_m_p_e_g_8h.html#ab1aefabe254cc8af1e1f4bc73e8e1047a7e763ff014e1ba6e638c423002a71a56",
+"ts_m_p_e_g_8h.html#af65eca52660a5db7689e344a97f11ff9ad09aa07136333b7ca19e0c62dabb417c",
+"ts_null_report_8h.html",
+"ts_s2_satellite_delivery_system_descriptor_8h.html",
+"ts_u_char_8h.html#a0c81d66f43848bffab074cf649a547ec",
+"ts_u_char_8h.html#a46ed4521837c0f70c682e26a8a3faafa",
+"ts_u_char_8h.html#a96358d9dd0e9f3a8f193738793f019b5",
+"ts_u_char_8h.html#adb485e5fad77d466a80b22a2fc6572ff",
+"tsxml_attribute_8h.html"
 ];
 
 var SYNCONMSG = 'click to disable panel synchronisation';

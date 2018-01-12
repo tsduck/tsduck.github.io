@@ -23,6 +23,7 @@ var searchData=
   ['update_5fversion',['update_version',['../structts_1_1_s_s_u_data_broadcast_id_descriptor_1_1_entry.html#a38904b961ec78d3d8318bf8edebadfc6',1,'ts::SSUDataBroadcastIdDescriptor::Entry']]],
   ['upwards_5farrow',['UPWARDS_ARROW',['../namespacets.html#ac487065e38332cb6c5a30036b3209cda',1,'ts']]],
   ['upwards_5fdouble_5farrow',['UPWARDS_DOUBLE_ARROW',['../namespacets.html#a5f5a72764ad351382d4e9bf7bfadbf9f',1,'ts']]],
+  ['url',['url',['../structts_1_1_git_hub_release_1_1_asset.html#a30a1c51dda1dee874e63c517e10bee63',1,'ts::GitHubRelease::Asset']]],
   ['use_5fbinary',['use_binary',['../classts_1_1_tables_logger_args.html#a7545e8760bbfc3ccb4c059159439016a',1,'ts::TablesLoggerArgs']]],
   ['use_5ftext',['use_text',['../classts_1_1_tables_logger_args.html#a112cb5b55bf737495e93b682fe408470',1,'ts::TablesLoggerArgs']]],
   ['use_5fudp',['use_udp',['../classts_1_1_tables_logger_args.html#a9a1fce84e3460f01ae7fad423ecc92da',1,'ts::TablesLoggerArgs']]],

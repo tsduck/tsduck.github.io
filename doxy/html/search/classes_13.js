@@ -1,5 +1,6 @@
 var searchData=
 [
+  ['value',['Value',['../classts_1_1json_1_1_value.html',1,'ts::json']]],
   ['variable',['Variable',['../classts_1_1_variable.html',1,'ts']]],
   ['variable_3c_20bandwidth_20_3e',['Variable&lt; BandWidth &gt;',['../classts_1_1_variable.html',1,'ts']]],
   ['variable_3c_20bool_20_3e',['Variable&lt; bool &gt;',['../classts_1_1_variable.html',1,'ts']]],
@@ -10,6 +11,7 @@ var searchData=
   ['variable_3c_20modulation_20_3e',['Variable&lt; Modulation &gt;',['../classts_1_1_variable.html',1,'ts']]],
   ['variable_3c_20pid_20_3e',['Variable&lt; PID &gt;',['../classts_1_1_variable.html',1,'ts']]],
   ['variable_3c_20pilot_20_3e',['Variable&lt; Pilot &gt;',['../classts_1_1_variable.html',1,'ts']]],
+  ['variable_3c_20plp_20_3e',['Variable&lt; PLP &gt;',['../classts_1_1_variable.html',1,'ts']]],
   ['variable_3c_20polarization_20_3e',['Variable&lt; Polarization &gt;',['../classts_1_1_variable.html',1,'ts']]],
   ['variable_3c_20rolloff_20_3e',['Variable&lt; RollOff &gt;',['../classts_1_1_variable.html',1,'ts']]],
   ['variable_3c_20size_5ft_20_3e',['Variable&lt; size_t &gt;',['../classts_1_1_variable.html',1,'ts']]],

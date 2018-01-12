@@ -59,6 +59,7 @@ var hierarchy =
         [ "ts::EutelsatChannelNumberDescriptor", "classts_1_1_eutelsat_channel_number_descriptor.html", null ],
         [ "ts::ExtendedEventDescriptor", "classts_1_1_extended_event_descriptor.html", null ],
         [ "ts::HDSimulcastLogicalChannelDescriptor", "classts_1_1_h_d_simulcast_logical_channel_descriptor.html", null ],
+        [ "ts::HEVCVideoDescriptor", "classts_1_1_h_e_v_c_video_descriptor.html", null ],
         [ "ts::ISO639LanguageDescriptor", "classts_1_1_i_s_o639_language_descriptor.html", null ],
         [ "ts::LinkageDescriptor", "classts_1_1_linkage_descriptor.html", null ],
         [ "ts::LocalTimeOffsetDescriptor", "classts_1_1_local_time_offset_descriptor.html", null ],
@@ -106,6 +107,7 @@ var hierarchy =
       [ "ts::ArgMixIn", "classts_1_1_arg_mix_in.html", null ],
       [ "ts::ArgMixOut", "classts_1_1_arg_mix_out.html", null ]
     ] ],
+    [ "ts::GitHubRelease::Asset", "structts_1_1_git_hub_release_1_1_asset.html", null ],
     [ "ts::xml::Attribute", "classts_1_1xml_1_1_attribute.html", null ],
     [ "ts::AudioLanguageOptions", "classts_1_1_audio_language_options.html", null ],
     [ "ts::AVCParser", "classts_1_1_a_v_c_parser.html", null ],
@@ -174,25 +176,25 @@ var hierarchy =
     [ "ts::EacemPreferredNameListDescriptor", "classts_1_1_eacem_preferred_name_list_descriptor.html", null ],
     [ "ts::ECMGClientHandlerInterface", "classts_1_1_e_c_m_g_client_handler_interface.html", null ],
     [ "ts::EDID", "classts_1_1_e_d_i_d.html", null ],
-    [ "ts::ServiceListDescriptor::Entry", "structts_1_1_service_list_descriptor_1_1_entry.html", null ],
     [ "ts::ContentDescriptor::Entry", "structts_1_1_content_descriptor_1_1_entry.html", null ],
+    [ "ts::ServiceListDescriptor::Entry", "structts_1_1_service_list_descriptor_1_1_entry.html", null ],
     [ "ts::SSUDataBroadcastIdDescriptor::Entry", "structts_1_1_s_s_u_data_broadcast_id_descriptor_1_1_entry.html", null ],
     [ "ts::SSULinkageDescriptor::Entry", "structts_1_1_s_s_u_linkage_descriptor_1_1_entry.html", null ],
-    [ "ts::SubtitlingDescriptor::Entry", "structts_1_1_subtitling_descriptor_1_1_entry.html", null ],
     [ "ts::EutelsatChannelNumberDescriptor::Entry", "structts_1_1_eutelsat_channel_number_descriptor_1_1_entry.html", null ],
+    [ "ts::SubtitlingDescriptor::Entry", "structts_1_1_subtitling_descriptor_1_1_entry.html", null ],
     [ "ts::ExtendedEventDescriptor::Entry", "structts_1_1_extended_event_descriptor_1_1_entry.html", null ],
     [ "ts::TeletextDescriptor::Entry", "structts_1_1_teletext_descriptor_1_1_entry.html", null ],
+    [ "ts::ParentalRatingDescriptor::Entry", "structts_1_1_parental_rating_descriptor_1_1_entry.html", null ],
     [ "ts::HDSimulcastLogicalChannelDescriptor::Entry", "structts_1_1_h_d_simulcast_logical_channel_descriptor_1_1_entry.html", null ],
     [ "ts::ISO639LanguageDescriptor::Entry", "structts_1_1_i_s_o639_language_descriptor_1_1_entry.html", null ],
     [ "ts::LogicalChannelNumberDescriptor::Entry", "structts_1_1_logical_channel_number_descriptor_1_1_entry.html", null ],
-    [ "ts::ParentalRatingDescriptor::Entry", "structts_1_1_parental_rating_descriptor_1_1_entry.html", null ],
     [ "ts::Enumeration", "classts_1_1_enumeration.html", null ],
     [ "ts::ecmgscs::Errors", "structts_1_1ecmgscs_1_1_errors.html", null ],
     [ "ts::emmgmux::Errors", "structts_1_1emmgmux_1_1_errors.html", null ],
     [ "ts::ETID", "classts_1_1_e_t_i_d.html", null ],
     [ "ts::TSAnalyzer::ETIDContext", "classts_1_1_t_s_analyzer_1_1_e_t_i_d_context.html", null ],
-    [ "ts::EIT::Event", "classts_1_1_e_i_t_1_1_event.html", null ],
     [ "ts::RST::Event", "structts_1_1_r_s_t_1_1_event.html", null ],
+    [ "ts::EIT::Event", "classts_1_1_e_i_t_1_1_event.html", null ],
     [ "ts::LinkageDescriptor::EventLinkageInfo", "classts_1_1_linkage_descriptor_1_1_event_linkage_info.html", null ],
     [ "exception", null, [
       [ "ts::Exception", "classts_1_1_exception.html", [
@@ -221,6 +223,7 @@ var hierarchy =
     [ "ts::ForkPipe", "classts_1_1_fork_pipe.html", [
       [ "ts::OutputPager", "classts_1_1_output_pager.html", null ]
     ] ],
+    [ "ts::GitHubRelease", "classts_1_1_git_hub_release.html", null ],
     [ "ts::Grid", "classts_1_1_grid.html", null ],
     [ "ts::Guard", "classts_1_1_guard.html", [
       [ "ts::DoubleCheckLock::Reader", "classts_1_1_double_check_lock_1_1_reader.html", null ],
@@ -258,6 +261,9 @@ var hierarchy =
       [ "ts::FileNameRateList", "classts_1_1_file_name_rate_list.html", null ]
     ] ],
     [ "ts::LNB", "classts_1_1_l_n_b.html", null ],
+    [ "map", null, [
+      [ "ts::MacPList", "classts_1_1_mac_p_list.html", null ]
+    ] ],
     [ "ts::tlv::Message", "classts_1_1tlv_1_1_message.html", [
       [ "ts::tlv::ChannelMessage", "classts_1_1tlv_1_1_channel_message.html", [
         [ "ts::ecmgscs::ChannelClose", "classts_1_1ecmgscs_1_1_channel_close.html", null ],
@@ -397,6 +403,7 @@ var hierarchy =
     [ "ts::SafePtr< ts::PAT >", "classts_1_1_safe_ptr.html", null ],
     [ "ts::SafePtr< ts::SDT >", "classts_1_1_safe_ptr.html", null ],
     [ "ts::SafePtr< TunerParameters, Mutex >", "classts_1_1_safe_ptr.html", null ],
+    [ "ts::SafePtr< Value, NullMutex >", "classts_1_1_safe_ptr.html", null ],
     [ "ts::Scrambling", "classts_1_1_scrambling.html", null ],
     [ "ts::Section", "classts_1_1_section.html", null ],
     [ "ts::SectionFile", "classts_1_1_section_file.html", null ],
@@ -427,9 +434,10 @@ var hierarchy =
     [ "ts::SimulCryptDate", "classts_1_1_simul_crypt_date.html", null ],
     [ "ts::SingletonManager", "classts_1_1_singleton_manager.html", null ],
     [ "ts::StaticReferencesDVB", "classts_1_1_static_references_d_v_b.html", null ],
-    [ "ts::SectionDemux::Status", "structts_1_1_section_demux_1_1_status.html", null ],
     [ "ts::PCRAnalyzer::Status", "structts_1_1_p_c_r_analyzer_1_1_status.html", null ],
+    [ "ts::SectionDemux::Status", "structts_1_1_section_demux_1_1_status.html", null ],
     [ "ts::PMT::Stream", "structts_1_1_p_m_t_1_1_stream.html", null ],
+    [ "ts::SysInfo", "classts_1_1_sys_info.html", null ],
     [ "ts::T2MIHandlerInterface", "classts_1_1_t2_m_i_handler_interface.html", [
       [ "ts::TSAnalyzer", "classts_1_1_t_s_analyzer.html", null ]
     ] ],
@@ -448,8 +456,8 @@ var hierarchy =
     [ "ts::TablesDisplayArgs", "classts_1_1_tables_display_args.html", null ],
     [ "ts::TablesFactory", "classts_1_1_tables_factory.html", null ],
     [ "ts::TablesLoggerArgs", "classts_1_1_tables_logger_args.html", null ],
-    [ "ts::emmgmux::Tags", "structts_1_1emmgmux_1_1_tags.html", null ],
     [ "ts::ecmgscs::Tags", "structts_1_1ecmgscs_1_1_tags.html", null ],
+    [ "ts::emmgmux::Tags", "structts_1_1emmgmux_1_1_tags.html", null ],
     [ "ts::TCPSocket", "classts_1_1_t_c_p_socket.html", [
       [ "ts::TCPConnection", "classts_1_1_t_c_p_connection.html", [
         [ "ts::tlv::Connection< ts::Mutex >", "classts_1_1tlv_1_1_connection.html", null ],
@@ -487,6 +495,15 @@ var hierarchy =
     ] ],
     [ "ts::UDPSocket", "classts_1_1_u_d_p_socket.html", null ],
     [ "ts::UID", "classts_1_1_u_i_d.html", null ],
+    [ "ts::json::Value", "classts_1_1json_1_1_value.html", [
+      [ "ts::json::Array", "classts_1_1json_1_1_array.html", null ],
+      [ "ts::json::False", "classts_1_1json_1_1_false.html", null ],
+      [ "ts::json::Null", "classts_1_1json_1_1_null.html", null ],
+      [ "ts::json::Number", "classts_1_1json_1_1_number.html", null ],
+      [ "ts::json::Object", "classts_1_1json_1_1_object.html", null ],
+      [ "ts::json::String", "classts_1_1json_1_1_string.html", null ],
+      [ "ts::json::True", "classts_1_1json_1_1_true.html", null ]
+    ] ],
     [ "ts::Variable< T >", "classts_1_1_variable.html", null ],
     [ "ts::Variable< BandWidth >", "classts_1_1_variable.html", null ],
     [ "ts::Variable< bool >", "classts_1_1_variable.html", null ],
@@ -497,6 +514,7 @@ var hierarchy =
     [ "ts::Variable< Modulation >", "classts_1_1_variable.html", null ],
     [ "ts::Variable< PID >", "classts_1_1_variable.html", null ],
     [ "ts::Variable< Pilot >", "classts_1_1_variable.html", null ],
+    [ "ts::Variable< PLP >", "classts_1_1_variable.html", null ],
     [ "ts::Variable< Polarization >", "classts_1_1_variable.html", null ],
     [ "ts::Variable< RollOff >", "classts_1_1_variable.html", null ],
     [ "ts::Variable< size_t >", "classts_1_1_variable.html", null ],

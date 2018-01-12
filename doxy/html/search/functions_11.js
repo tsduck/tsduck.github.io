@@ -24,7 +24,7 @@ var searchData=
   ['remainingbitcount',['remainingBitCount',['../classts_1_1_bit_stream.html#a759abbfe66d2b2dc8229dd5c7284282e',1,'ts::BitStream']]],
   ['remainingbits',['remainingBits',['../classts_1_1_a_v_c_parser.html#ad8a515969367aab6e4a7d2f38d9a15d4',1,'ts::AVCParser']]],
   ['remainingbytes',['remainingBytes',['../classts_1_1_a_v_c_parser.html#a5210f186447090b4c3b0cf50080db875',1,'ts::AVCParser']]],
-  ['remove',['remove',['../classts_1_1_u_string.html#a0b852b7b506c47a395158d6e67b1237f',1,'ts::UString::remove(const UString &amp;substr)'],['../classts_1_1_u_string.html#aa2f30b9620c73d5d9651c1944a8c0632',1,'ts::UString::remove(UChar c)']]],
+  ['remove',['remove',['../classts_1_1json_1_1_value.html#a3f1a93db2a39f022bb03879a4d82cea0',1,'ts::json::Value::remove()'],['../classts_1_1json_1_1_object.html#a231790bfb5d104426981395fbfd2708a',1,'ts::json::Object::remove()'],['../classts_1_1_u_string.html#a0b852b7b506c47a395158d6e67b1237f',1,'ts::UString::remove(const UString &amp;substr)'],['../classts_1_1_u_string.html#aa2f30b9620c73d5d9651c1944a8c0632',1,'ts::UString::remove(UChar c)']]],
   ['removeaccent',['RemoveAccent',['../namespacets.html#afdddb5d3bd8644394a47b307f9972d89',1,'ts']]],
   ['removeall',['removeAll',['../classts_1_1_cycling_packetizer.html#a77945604df2b38d585f779e99e919550',1,'ts::CyclingPacketizer']]],
   ['removebyindex',['removeByIndex',['../classts_1_1_descriptor_list.html#a5b3d3efb536f159a2abec097b5a0b442',1,'ts::DescriptorList']]],

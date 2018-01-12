@@ -1,4 +1,4 @@
-var files =
+var files_dup =
 [
     [ "tsAACDescriptor.h", "ts_a_a_c_descriptor_8h.html", [
       [ "AACDescriptor", "classts_1_1_a_a_c_descriptor.html", "classts_1_1_a_a_c_descriptor" ]
@@ -289,6 +289,7 @@ var files =
     [ "tsForkPipe.h", "ts_fork_pipe_8h.html", [
       [ "ForkPipe", "classts_1_1_fork_pipe.html", "classts_1_1_fork_pipe" ]
     ] ],
+    [ "tsGitHubRelease.h", "ts_git_hub_release_8h.html", "ts_git_hub_release_8h" ],
     [ "tsGrid.h", "ts_grid_8h.html", [
       [ "ColumnLayout", "classts_1_1_grid_1_1_column_layout.html", "classts_1_1_grid_1_1_column_layout" ],
       [ "ColumnText", "classts_1_1_grid_1_1_column_text.html", "classts_1_1_grid_1_1_column_text" ],
@@ -309,6 +310,9 @@ var files =
       [ "Entry", "structts_1_1_h_d_simulcast_logical_channel_descriptor_1_1_entry.html", "structts_1_1_h_d_simulcast_logical_channel_descriptor_1_1_entry" ],
       [ "HDSimulcastLogicalChannelDescriptor", "classts_1_1_h_d_simulcast_logical_channel_descriptor.html", "classts_1_1_h_d_simulcast_logical_channel_descriptor" ]
     ] ],
+    [ "tsHEVCVideoDescriptor.h", "ts_h_e_v_c_video_descriptor_8h.html", [
+      [ "HEVCVideoDescriptor", "classts_1_1_h_e_v_c_video_descriptor.html", "classts_1_1_h_e_v_c_video_descriptor" ]
+    ] ],
     [ "tsInputRedirector.h", "ts_input_redirector_8h.html", [
       [ "InputRedirector", "classts_1_1_input_redirector.html", "classts_1_1_input_redirector" ]
     ] ],
@@ -322,6 +326,7 @@ var files =
       [ "Entry", "structts_1_1_i_s_o639_language_descriptor_1_1_entry.html", "structts_1_1_i_s_o639_language_descriptor_1_1_entry" ],
       [ "ISO639LanguageDescriptor", "classts_1_1_i_s_o639_language_descriptor.html", "classts_1_1_i_s_o639_language_descriptor" ]
     ] ],
+    [ "tsjson.h", "tsjson_8h.html", "tsjson_8h" ],
     [ "tsLinkageDescriptor.h", "ts_linkage_descriptor_8h.html", [
       [ "EventLinkageInfo", "classts_1_1_linkage_descriptor_1_1_event_linkage_info.html", "classts_1_1_linkage_descriptor_1_1_event_linkage_info" ],
       [ "ExtendedEventLinkageInfo", "classts_1_1_linkage_descriptor_1_1_extended_event_linkage_info.html", "classts_1_1_linkage_descriptor_1_1_extended_event_linkage_info" ],
@@ -336,6 +341,9 @@ var files =
     [ "tsLogicalChannelNumberDescriptor.h", "ts_logical_channel_number_descriptor_8h.html", [
       [ "Entry", "structts_1_1_logical_channel_number_descriptor_1_1_entry.html", "structts_1_1_logical_channel_number_descriptor_1_1_entry" ],
       [ "LogicalChannelNumberDescriptor", "classts_1_1_logical_channel_number_descriptor.html", "classts_1_1_logical_channel_number_descriptor" ]
+    ] ],
+    [ "tsMacPList.h", "ts_mac_p_list_8h.html", [
+      [ "MacPList", "classts_1_1_mac_p_list.html", "classts_1_1_mac_p_list" ]
     ] ],
     [ "tsMD5.h", "ts_m_d5_8h.html", [
       [ "MD5", "classts_1_1_m_d5.html", "classts_1_1_m_d5" ]
@@ -567,6 +575,9 @@ var files =
     ] ],
     [ "tsSupplementaryAudioDescriptor.h", "ts_supplementary_audio_descriptor_8h.html", [
       [ "SupplementaryAudioDescriptor", "classts_1_1_supplementary_audio_descriptor.html", "classts_1_1_supplementary_audio_descriptor" ]
+    ] ],
+    [ "tsSysInfo.h", "ts_sys_info_8h.html", [
+      [ "SysInfo", "classts_1_1_sys_info.html", "classts_1_1_sys_info" ]
     ] ],
     [ "tsSystemMonitor.h", "ts_system_monitor_8h.html", [
       [ "SystemMonitor", "classts_1_1_system_monitor.html", "classts_1_1_system_monitor" ]

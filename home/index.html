@@ -262,6 +262,27 @@ tsp -I dvb --uhf 24 \
         <p>Now, we can plug a set-top box or TV set on the output of the modulator
           and test the result.</p>
 
+        <h3>Even simpler, XML and binary files can be used indifferently</h3>
+
+        <p>In fact, there is no need to explicitly decompile and recompile the table.
+          Most TSDuck commands which manipulate tables and sections can use binary
+          section files or XML file indifferently (see the TSDuck user's guide for
+          more details).</p>
+
+        <p>We can save the table directly in XML format:</p>
+<pre>
+tsp -I dvb --uhf 24 \
+    -P tables --pid 16 --tid 0x40 --max 1 --xml nit.xml \
+    -O drop
+</pre>
+
+        <p>And, after modification of the XML file, we can directly inject it in the stream:</p>
+<pre>
+tsp -I dvb --uhf 24 \
+    -P inject nit.xml --pid 16 --replace --stuffing \
+    -O dektec --uhf 24 --convolution 2/3 --guard 1/32
+</pre>
+       
         <div class="anchor" id="prog"><h2>Using TSDuck as a library</h2></div>
 
         <p>TSDuck can also be used as an MPEG/DVB C++ library for your own applications.

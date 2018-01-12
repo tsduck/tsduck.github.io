@@ -10,6 +10,8 @@ var classts_1_1_text_parser =
     [ "loadDocument", "classts_1_1_text_parser.html#ab18233ba39e1f2a6f49a57057dc10019", null ],
     [ "loadFile", "classts_1_1_text_parser.html#a2cc645b131c49021b76db63388ae6ea3", null ],
     [ "loadStream", "classts_1_1_text_parser.html#a1e89689faca7141cac5ff2806a46a250", null ],
+    [ "saveFile", "classts_1_1_text_parser.html#a5ee1b738a76bec37cefd26ec0447869c", null ],
+    [ "saveStream", "classts_1_1_text_parser.html#a10d234c8b4b27ed590d33784d16f5a2d", null ],
     [ "eof", "classts_1_1_text_parser.html#ab204d9aa1167f8426394aabb4c1d1a6b", null ],
     [ "eol", "classts_1_1_text_parser.html#a647909224ce5d0d5f8b86822d5c5601d", null ],
     [ "rewind", "classts_1_1_text_parser.html#aa16de8b2cea33745fb1b83ecbd103ce6", null ],
@@ -20,8 +22,12 @@ var classts_1_1_text_parser =
     [ "skipLine", "classts_1_1_text_parser.html#a00c9228fc3cee70e2a4900b65dca049d", null ],
     [ "match", "classts_1_1_text_parser.html#a084e08760478326306cbef4afacbed50", null ],
     [ "parseText", "classts_1_1_text_parser.html#a8116adec156d201f733d135b3fbdaef4", null ],
-    [ "isNameStartChar", "classts_1_1_text_parser.html#acf72b1f8942473ac3fa3e48a5d628aa2", null ],
-    [ "isNameChar", "classts_1_1_text_parser.html#a44be38aa65fb480168084e4fa23dbced", null ],
-    [ "isAtNameStart", "classts_1_1_text_parser.html#a3ce152e12ff7acd60bf58a7680b87035", null ],
-    [ "parseName", "classts_1_1_text_parser.html#a6b5c3614f7eccf58a210fbd2b6647a92", null ]
+    [ "isXMLNameStartChar", "classts_1_1_text_parser.html#a806ca17e917dab36a8f71db9361926f1", null ],
+    [ "isXMLNameChar", "classts_1_1_text_parser.html#ac14522c8668e69f8673d6a3fd49e4250", null ],
+    [ "isAtXMLNameStart", "classts_1_1_text_parser.html#a88f74541b12aa3cf8c3d176589d27ccd", null ],
+    [ "parseXMLName", "classts_1_1_text_parser.html#a3a3a5441108ad52a455bbf36f30d1f3b", null ],
+    [ "isAtNumberStart", "classts_1_1_text_parser.html#a7cee25ba1371230185b788a5f847e077", null ],
+    [ "parseNumericLiteral", "classts_1_1_text_parser.html#aad7a38bbfe93e0bedd9b4ff0a861353b", null ],
+    [ "parseStringLiteral", "classts_1_1_text_parser.html#a6c2dd6c009c7feb817c0ae07994e83e2", null ],
+    [ "parseJSONStringLiteral", "classts_1_1_text_parser.html#a0a99c7fdfafaf6b9daf2c010afc4eab7", null ]
 ];

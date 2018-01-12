@@ -110,6 +110,9 @@ var ts_modulation_8h =
       [ "HIERARCHY_2", "ts_modulation_8h.html#a6c9df6e98dda571737595eff7b169350a8e57fd00a538280f2d001e8323e932b1", null ],
       [ "HIERARCHY_4", "ts_modulation_8h.html#a6c9df6e98dda571737595eff7b169350ac2c674e2a1ea789754b4c247f5995a50", null ]
     ] ],
+    [ "PLP", "ts_modulation_8h.html#a2898467ee756c3c7ad9b4984b4d9e27e", [
+      [ "PLP_DISABLE", "ts_modulation_8h.html#a2898467ee756c3c7ad9b4984b4d9e27eac626338abc765b9775518f3ff377e1dc", null ]
+    ] ],
     [ "CheckModEnum", "ts_modulation_8h.html#a43b52b237d900ec944e61702df951c67", null ],
     [ "BitsPerSymbol", "ts_modulation_8h.html#ad228da89510018c994467ef6df2058d5", null ],
     [ "FECMultiplier", "ts_modulation_8h.html#a56b7a0dc5023472f5928cbaed6780e77", null ],

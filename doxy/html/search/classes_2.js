@@ -11,7 +11,7 @@ var searchData=
   ['channelclose',['ChannelClose',['../classts_1_1emmgmux_1_1_channel_close.html',1,'ts::emmgmux::ChannelClose'],['../classts_1_1ecmgscs_1_1_channel_close.html',1,'ts::ecmgscs::ChannelClose']]],
   ['channelerror',['ChannelError',['../classts_1_1emmgmux_1_1_channel_error.html',1,'ts::emmgmux::ChannelError'],['../classts_1_1ecmgscs_1_1_channel_error.html',1,'ts::ecmgscs::ChannelError']]],
   ['channelmessage',['ChannelMessage',['../classts_1_1tlv_1_1_channel_message.html',1,'ts::tlv']]],
-  ['channelsetup',['ChannelSetup',['../classts_1_1ecmgscs_1_1_channel_setup.html',1,'ts::ecmgscs::ChannelSetup'],['../classts_1_1emmgmux_1_1_channel_setup.html',1,'ts::emmgmux::ChannelSetup']]],
+  ['channelsetup',['ChannelSetup',['../classts_1_1emmgmux_1_1_channel_setup.html',1,'ts::emmgmux::ChannelSetup'],['../classts_1_1ecmgscs_1_1_channel_setup.html',1,'ts::ecmgscs::ChannelSetup']]],
   ['channelstatus',['ChannelStatus',['../classts_1_1emmgmux_1_1_channel_status.html',1,'ts::emmgmux::ChannelStatus'],['../classts_1_1ecmgscs_1_1_channel_status.html',1,'ts::ecmgscs::ChannelStatus']]],
   ['channeltest',['ChannelTest',['../classts_1_1emmgmux_1_1_channel_test.html',1,'ts::emmgmux::ChannelTest'],['../classts_1_1ecmgscs_1_1_channel_test.html',1,'ts::ecmgscs::ChannelTest']]],
   ['cipherchaining',['CipherChaining',['../classts_1_1_cipher_chaining.html',1,'ts']]],

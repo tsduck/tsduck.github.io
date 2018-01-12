@@ -19,6 +19,7 @@ var classts_1_1_tuner_parameters_d_v_b_t =
     [ "transmission_mode", "classts_1_1_tuner_parameters_d_v_b_t.html#a351c22ae6a55a5212da38ff0423d37f4", null ],
     [ "guard_interval", "classts_1_1_tuner_parameters_d_v_b_t.html#ae2d223fb4a9c55ea17e7066c2fe9006b", null ],
     [ "hierarchy", "classts_1_1_tuner_parameters_d_v_b_t.html#ac93b1199fa89e01ef55e99279c0918b4", null ],
+    [ "plp", "classts_1_1_tuner_parameters_d_v_b_t.html#a5d115355e4b7c76aed2596e00885a4a3", null ],
     [ "DEFAULT_INVERSION", "classts_1_1_tuner_parameters_d_v_b_t.html#a4c442d2afee66ccc7c15224e824f4322", null ],
     [ "DEFAULT_BANDWIDTH", "classts_1_1_tuner_parameters_d_v_b_t.html#a3ef1b765e4b477e8cef3f3fb2e6b3d1f", null ],
     [ "DEFAULT_FEC_HP", "classts_1_1_tuner_parameters_d_v_b_t.html#aeba4c133d1a657624e91991cf58f9e1c", null ],
@@ -26,5 +27,6 @@ var classts_1_1_tuner_parameters_d_v_b_t =
     [ "DEFAULT_MODULATION", "classts_1_1_tuner_parameters_d_v_b_t.html#a399864e5660c724d02830f4dc1439e8c", null ],
     [ "DEFAULT_TRANSMISSION_MODE", "classts_1_1_tuner_parameters_d_v_b_t.html#add13525776fa20f823a41232f0c006b2", null ],
     [ "DEFAULT_GUARD_INTERVAL", "classts_1_1_tuner_parameters_d_v_b_t.html#af1fca5a8a402556f2569e2a3fa5536a0", null ],
-    [ "DEFAULT_HIERARCHY", "classts_1_1_tuner_parameters_d_v_b_t.html#aa1057eb6cd143be44e63b42b85d45c22", null ]
+    [ "DEFAULT_HIERARCHY", "classts_1_1_tuner_parameters_d_v_b_t.html#aa1057eb6cd143be44e63b42b85d45c22", null ],
+    [ "DEFAULT_PLP", "classts_1_1_tuner_parameters_d_v_b_t.html#ae826e64c614919c295fbdd578ce52473", null ]
 ];

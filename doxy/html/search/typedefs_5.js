@@ -1,5 +1,5 @@
 var searchData=
 [
-  ['handle',['Handle',['../classts_1_1_registry.html#ae56b7d7804cd1a4c53ce5deaf3c7694a',1,'ts::Registry']]],
-  ['headersmap',['HeadersMap',['../classts_1_1_web_request.html#aaf2d466d31010d32fd9968fdb6e84ea3',1,'ts::WebRequest']]]
+  ['githubreleaseptr',['GitHubReleasePtr',['../namespacets.html#afbbaa51ebad985bc33bdf52b9fef9a76',1,'ts']]],
+  ['githubreleasevector',['GitHubReleaseVector',['../namespacets.html#aa3fce2c634ec86730daf2307ab1df955',1,'ts']]]
 ];

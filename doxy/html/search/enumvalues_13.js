@@ -9,5 +9,6 @@ var searchData=
   ['unrecoverable_5ferror',['unrecoverable_error',['../structts_1_1ecmgscs_1_1_errors.html#a5e5abf0d3020e42a2a42071d9a3cb1cfa44f23754c2ac65aa369211771622dea2',1,'ts::ecmgscs::Errors::unrecoverable_error()'],['../structts_1_1emmgmux_1_1_errors.html#a1e77320d82540c48f9616be50ba638f7ade2ca3a525c8a3f5caf8f9f0bfad9d85',1,'ts::emmgmux::Errors::unrecoverable_error()']]],
   ['unsigned',['UNSIGNED',['../classts_1_1_args.html#ada57b307e21cd62d9eb7439dd2dcbfd1a2e20d4548599df7d2ea6ede56c6763b2',1,'ts::Args']]],
   ['unspecified',['UNSPECIFIED',['../classts_1_1_section_file.html#a75224199b84e723779507df1624076a8ac8ea093bc9f9d81422809519025c4d57',1,'ts::SectionFile']]],
-  ['unsupportedversion',['UnsupportedVersion',['../namespacets_1_1tlv.html#a8a60aed0fb72f9faef47e8c7e5beef94a6f3aa9132343952da4f28f324b8ef7f9',1,'ts::tlv']]]
+  ['unsupportedversion',['UnsupportedVersion',['../namespacets_1_1tlv.html#a8a60aed0fb72f9faef47e8c7e5beef94a6f3aa9132343952da4f28f324b8ef7f9',1,'ts::tlv']]],
+  ['use_5fpipe',['USE_PIPE',['../classts_1_1_fork_pipe.html#a99cbbdc313321259897546fb40e5c1e8a6f9e34aceee8d9089a55abe628491cc8',1,'ts::ForkPipe']]]
 ];

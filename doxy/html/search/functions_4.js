@@ -29,7 +29,7 @@ var searchData=
   ['environmentexists',['EnvironmentExists',['../namespacets.html#a0b2b16d5c22a9228899f423abe47890c',1,'ts']]],
   ['eof',['eof',['../classts_1_1_text_parser.html#ab204d9aa1167f8426394aabb4c1d1a6b',1,'ts::TextParser']]],
   ['eol',['eol',['../classts_1_1_text_parser.html#a647909224ce5d0d5f8b86822d5c5601d',1,'ts::TextParser']]],
-  ['erase',['erase',['../classts_1_1_byte_block.html#a4f4e5173313f66a25b6c844371f399f8',1,'ts::ByteBlock']]],
+  ['erase',['erase',['../classts_1_1_byte_block.html#a4f4e5173313f66a25b6c844371f399f8',1,'ts::ByteBlock::erase()'],['../classts_1_1json_1_1_value.html#a0280a74e977a6b68ab081511c8f7c0dd',1,'ts::json::Value::erase()'],['../classts_1_1json_1_1_array.html#a84a04707efa52b9c11adc6fc2a11dd6c',1,'ts::json::Array::erase()']]],
   ['erasefromrepository',['EraseFromRepository',['../classts_1_1_object.html#a5bfffe6bd0400ddb02c65d9cc745be58',1,'ts::Object']]],
   ['error',['error',['../classts_1_1_report.html#a501eaf17e086eede9b96774f0fa9aca2',1,'ts::Report::error(const UString &amp;msg)'],['../classts_1_1_report.html#a08f79226fe0cc4b8874c6ec842c38b02',1,'ts::Report::error(const UChar *fmt, const std::initializer_list&lt; ArgMixIn &gt; args)'],['../classts_1_1_report.html#a3f022c5da17017275445c695a135d9e9',1,'ts::Report::error(const UString &amp;fmt, const std::initializer_list&lt; ArgMixIn &gt; args)']]],
   ['errorcodemessage',['ErrorCodeMessage',['../namespacets.html#acaf61b97897c0a1470150b07c817595e',1,'ts']]],
@@ -53,5 +53,7 @@ var searchData=
   ['expose',['expose',['../classts_1_1_com_ptr.html#a3fc45ea82504226efa8c855c2d81f78d',1,'ts::ComPtr']]],
   ['extendedeventdescriptor',['ExtendedEventDescriptor',['../classts_1_1_extended_event_descriptor.html#af749f842ce2b63be7324d163c0a63963',1,'ts::ExtendedEventDescriptor::ExtendedEventDescriptor()'],['../classts_1_1_extended_event_descriptor.html#aaf130fb234af71f43df93e8b2019a5df',1,'ts::ExtendedEventDescriptor::ExtendedEventDescriptor(const Descriptor &amp;bin, const DVBCharset *charset=0)']]],
   ['extendedeventlinkageinfo',['ExtendedEventLinkageInfo',['../classts_1_1_linkage_descriptor_1_1_extended_event_linkage_info.html#a31eb05731c84abcc15a3cd3a5d5c6b24',1,'ts::LinkageDescriptor::ExtendedEventLinkageInfo']]],
-  ['extension1',['extension1',['../classts_1_1_a_v_c_sequence_parameter_set.html#a58d5d7cdac51742d0cebc3f17ca31b13',1,'ts::AVCSequenceParameterSet']]]
+  ['extension1',['extension1',['../classts_1_1_a_v_c_sequence_parameter_set.html#a58d5d7cdac51742d0cebc3f17ca31b13',1,'ts::AVCSequenceParameterSet']]],
+  ['extract',['extract',['../classts_1_1json_1_1_value.html#a762db980c049b106a805ba7ba42a252e',1,'ts::json::Value::extract()'],['../classts_1_1json_1_1_object.html#a77c0042c36e3412f521417ef131d060b',1,'ts::json::Object::extract()']]],
+  ['extractat',['extractAt',['../classts_1_1json_1_1_value.html#acdc359974c6b09c39646b3feb5f58135',1,'ts::json::Value::extractAt()'],['../classts_1_1json_1_1_array.html#a9905d775117b693e0bf93a3020502e31',1,'ts::json::Array::extractAt()']]]
 ];

@@ -33,5 +33,6 @@ var classts_1_1_tuner_args =
     [ "hierarchy", "classts_1_1_tuner_args.html#a8aacfc2efd5716cdd5ff1ce400d27b40", null ],
     [ "delivery_system", "classts_1_1_tuner_args.html#a593b7ef62a6981043209fb37d3cd7dd2", null ],
     [ "pilots", "classts_1_1_tuner_args.html#a023ff5c875f482f967a4121bf1721962", null ],
-    [ "roll_off", "classts_1_1_tuner_args.html#a427a59435da2e476eb1eea701ffbeefc", null ]
+    [ "roll_off", "classts_1_1_tuner_args.html#a427a59435da2e476eb1eea701ffbeefc", null ],
+    [ "plp", "classts_1_1_tuner_args.html#ae8fe83f4ad4e27f880219b2c029e25c7", null ]
 ];

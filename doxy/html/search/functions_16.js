@@ -12,6 +12,7 @@ var searchData=
   ['width',['width',['../classts_1_1_u_string.html#a34c9e8a315f34bbc971b029af58555a3',1,'ts::UString']]],
   ['win32filetimetomillisecond',['Win32FileTimeToMilliSecond',['../classts_1_1_time.html#a065fd90017d9782055b23550217123b7',1,'ts::Time']]],
   ['win32filetimetoutc',['Win32FileTimeToUTC',['../classts_1_1_time.html#a419e2185515df154691bd5dae35b09db',1,'ts::Time']]],
+  ['wincreateelevatedprocess',['WinCreateElevatedProcess',['../namespacets.html#a155a8bae6c4dc91eab7091eb6d749896',1,'ts']]],
   ['windevicename',['WinDeviceName',['../namespacets.html#ac99be7dbc5470669fe0e7bb38e71d0cd',1,'ts']]],
   ['winerrormessage',['WinErrorMessage',['../namespacets.html#a2272d61997cd576da38187332ffcabf7',1,'ts']]],
   ['wrapuppts',['WrapUpPTS',['../namespacets.html#a732dbdcd93f1b6cec64fe0496c76c5ec',1,'ts']]],

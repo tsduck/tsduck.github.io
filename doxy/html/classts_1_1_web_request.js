@@ -8,6 +8,8 @@ var classts_1_1_web_request =
     [ "finalURL", "classts_1_1_web_request.html#a1f64822f4fc05d52da9383549888a59e", null ],
     [ "setProxyHost", "classts_1_1_web_request.html#aaafd7e7dbf8c699c965840def82bb00f", null ],
     [ "setProxyUser", "classts_1_1_web_request.html#ad5859a9c92e5b2c5dc1dbb6c8713b494", null ],
+    [ "SetDefaultProxyHost", "classts_1_1_web_request.html#ac40ac658760c87e171066c5def9edbc1", null ],
+    [ "SetDefaultProxyUser", "classts_1_1_web_request.html#a3ba41e829be4d15d0be86cb34c3d1ae3", null ],
     [ "setUserAgent", "classts_1_1_web_request.html#a8c7b48cc0ea0a6b6d81c68e690fd3291", null ],
     [ "setAutoRedirect", "classts_1_1_web_request.html#a95e08744ca1793544308fc9a83ce09d4", null ],
     [ "downloadBinaryContent", "classts_1_1_web_request.html#a61084c26f8a3ffcac30d987de229563b", null ],
@@ -16,5 +18,6 @@ var classts_1_1_web_request =
     [ "getHeaders", "classts_1_1_web_request.html#ae75ef9622ef0769b84ecbaa40ffd0ea0", null ],
     [ "header", "classts_1_1_web_request.html#ad7a4f70842bbc8c967b54c41da18921b", null ],
     [ "contentSize", "classts_1_1_web_request.html#a5839cb4277a95f3019aeb766745baa36", null ],
-    [ "httpStatus", "classts_1_1_web_request.html#afc5ce8794cd545a223513f7a4f09e34f", null ]
+    [ "httpStatus", "classts_1_1_web_request.html#afc5ce8794cd545a223513f7a4f09e34f", null ],
+    [ "GetLibraryVersion", "classts_1_1_web_request.html#a14dc7f253abda523de4621a7086a4567", null ]
 ];

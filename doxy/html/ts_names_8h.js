@@ -12,7 +12,8 @@ var ts_names_8h =
       [ "BOTH", "ts_names_8h.html#ad01b2604fc1b9fcaa4cbcbea333d8bfcaddc440e9d72a20a3c31c54951bf4475f", null ],
       [ "HEXA_FIRST", "ts_names_8h.html#ad01b2604fc1b9fcaa4cbcbea333d8bfca880dc6646255f54e867a69c9f38a87f8", null ],
       [ "DECIMAL_FIRST", "ts_names_8h.html#ad01b2604fc1b9fcaa4cbcbea333d8bfca2de9175d5a1ffe3bb0fdcffa6b04a87a", null ],
-      [ "BOTH_FIRST", "ts_names_8h.html#ad01b2604fc1b9fcaa4cbcbea333d8bfcafa14db057955786747855425d6a9edf2", null ]
+      [ "BOTH_FIRST", "ts_names_8h.html#ad01b2604fc1b9fcaa4cbcbea333d8bfcafa14db057955786747855425d6a9edf2", null ],
+      [ "ALTERNATE", "ts_names_8h.html#ad01b2604fc1b9fcaa4cbcbea333d8bfcaa73299b5b73a61414e6b87051f925341", null ]
     ] ],
     [ "TID", "ts_names_8h.html#a60256fa31ed342e9a5f264cd94cd4796", null ],
     [ "DID", "ts_names_8h.html#ab19ab1f27655d9be5cd35a1649ee745a", null ],
