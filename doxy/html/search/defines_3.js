@@ -92,10 +92,11 @@ var searchData=
   ['ts_5fxml_5ftable_5ffactory',['TS_XML_TABLE_FACTORY',['../ts_tables_factory_8h.html#ad1f12e0492d42300dca90df8a61c1158',1,'tsTablesFactory.h']]],
   ['ts_5fzero',['TS_ZERO',['../ts_memory_utils_8h.html#a4a7cd352b39c999d45e5f550d3291de0',1,'tsMemoryUtils.h']]],
   ['tsduck_5fsource',['TSDUCK_SOURCE',['../ts_platform_8h.html#a018c8aa689b1d1828c9e6d307084e9b8',1,'tsPlatform.h']]],
+  ['tsduck_5fstatic',['TSDUCK_STATIC',['../ts_plugin_8h.html#a4b2472be22e9b0b3fe1da4f963cfb2ab',1,'tsPlugin.h']]],
   ['tsduckdll',['TSDUCKDLL',['../ts_platform_8h.html#ae1cda62454d23e62fb576be3783aec47',1,'tsPlatform.h']]],
   ['tsducklibcheckversion',['TSDuckLibCheckVersion',['../ts_version_info_8h.html#aa5330df83cc8d38f90560ee93537b012',1,'tsVersionInfo.h']]],
-  ['tsplugin_5fdeclare_5finput',['TSPLUGIN_DECLARE_INPUT',['../ts_plugin_8h.html#a3484d931736f865aacfcd21e4337e5c8',1,'tsPlugin.h']]],
-  ['tsplugin_5fdeclare_5foutput',['TSPLUGIN_DECLARE_OUTPUT',['../ts_plugin_8h.html#a37e95b8fdcd5665ec4435e0a85d88ecd',1,'tsPlugin.h']]],
-  ['tsplugin_5fdeclare_5fprocessor',['TSPLUGIN_DECLARE_PROCESSOR',['../ts_plugin_8h.html#ade1093932a3da29f09ba1972012df821',1,'tsPlugin.h']]],
+  ['tsplugin_5fdeclare_5finput',['TSPLUGIN_DECLARE_INPUT',['../ts_plugin_8h.html#a221f2b70f3ccbfca0740df45a7c5e5e7',1,'tsPlugin.h']]],
+  ['tsplugin_5fdeclare_5foutput',['TSPLUGIN_DECLARE_OUTPUT',['../ts_plugin_8h.html#a45f12dbe1676d1fa9e7ff26e86f6daba',1,'tsPlugin.h']]],
+  ['tsplugin_5fdeclare_5fprocessor',['TSPLUGIN_DECLARE_PROCESSOR',['../ts_plugin_8h.html#a7e53a58941718cbceeaf8e3fbb51f667',1,'tsPlugin.h']]],
   ['tsplugin_5fdeclare_5fversion',['TSPLUGIN_DECLARE_VERSION',['../ts_plugin_8h.html#a09a05ca8211f35e526348a9d7def7aed',1,'tsPlugin.h']]]
 ];

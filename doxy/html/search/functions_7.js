@@ -1,7 +1,7 @@
 var searchData=
 [
   ['handleavcaccessunit',['handleAVCAccessUnit',['../classts_1_1_p_e_s_handler_interface.html#a8390b64d745373136bc1f5d3f14bee76',1,'ts::PESHandlerInterface']]],
-  ['handleclosed',['handleClosed',['../classts_1_1_t_c_p_connection.html#afc84caf05643759d842212be438c2fef',1,'ts::TCPConnection::handleClosed()'],['../classts_1_1_t_c_p_socket.html#a79b99ff402de55618d0c0416330a0816',1,'ts::TCPSocket::handleClosed()']]],
+  ['handleclosed',['handleClosed',['../classts_1_1_t_c_p_connection.html#afc84caf05643759d842212be438c2fef',1,'ts::TCPConnection::handleClosed()'],['../classts_1_1_t_c_p_socket.html#a2a7fa50919104af603a77327b547ba67',1,'ts::TCPSocket::handleClosed()']]],
   ['handleconnected',['handleConnected',['../classts_1_1_t_c_p_connection.html#a8c614400c36cd689ec74954aed1ae779',1,'ts::TCPConnection::handleConnected()'],['../classts_1_1tlv_1_1_connection.html#a861943ffdbecdadda0cd0ae08b030ea1',1,'ts::tlv::Connection::handleConnected()']]],
   ['handledisconnected',['handleDisconnected',['../classts_1_1_t_c_p_connection.html#a4f6fd7d703e7c975703d4969c42b5a9d',1,'ts::TCPConnection']]],
   ['handleecm',['handleECM',['../classts_1_1_e_c_m_g_client_handler_interface.html#a56b541ca9da2554d0c8f0be593e08ad4',1,'ts::ECMGClientHandlerInterface']]],
@@ -11,7 +11,7 @@ var searchData=
   ['handlenewaudioattributes',['handleNewAudioAttributes',['../classts_1_1_p_e_s_handler_interface.html#ac6cec8be63cf7aeccc2da10717171b91',1,'ts::PESHandlerInterface']]],
   ['handlenewavcattributes',['handleNewAVCAttributes',['../classts_1_1_p_e_s_handler_interface.html#a747000c680c840f4d8c1f1cc73d36480',1,'ts::PESHandlerInterface']]],
   ['handlenewvideoattributes',['handleNewVideoAttributes',['../classts_1_1_p_e_s_handler_interface.html#a7c882cd2ccb0c8711c562ff6d93f9727',1,'ts::PESHandlerInterface']]],
-  ['handleopened',['handleOpened',['../classts_1_1_t_c_p_socket.html#a0313f06e7234704ea82a9c181ab9c0db',1,'ts::TCPSocket']]],
+  ['handleopened',['handleOpened',['../classts_1_1_t_c_p_socket.html#a008b4f7c8b102213b789c1fd04b5c7df',1,'ts::TCPSocket']]],
   ['handlepespacket',['handlePESPacket',['../classts_1_1_p_e_s_handler_interface.html#ac4c2fb8153615bbe5bb4fa3632bdbf93',1,'ts::PESHandlerInterface']]],
   ['handlepolledfiles',['handlePolledFiles',['../classts_1_1_poll_files_listener.html#ad99e777ed20f7ff38899c8bec0b1fcc0',1,'ts::PollFilesListener']]],
   ['handlesection',['handleSection',['../classts_1_1_section_handler_interface.html#ad1527a287cbbffbe59083d314628eda3',1,'ts::SectionHandlerInterface::handleSection()'],['../classts_1_1_tables_logger.html#a4c01b802d30878e84779b1fece768e8a',1,'ts::TablesLogger::handleSection()']]],

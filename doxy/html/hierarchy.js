@@ -52,6 +52,7 @@ var hierarchy =
         [ "ts::CAIdentifierDescriptor", "classts_1_1_c_a_identifier_descriptor.html", null ],
         [ "ts::ContentDescriptor", "classts_1_1_content_descriptor.html", null ],
         [ "ts::CountryAvailabilityDescriptor", "classts_1_1_country_availability_descriptor.html", null ],
+        [ "ts::CueIdentifierDescriptor", "classts_1_1_cue_identifier_descriptor.html", null ],
         [ "ts::DataBroadcastDescriptor", "classts_1_1_data_broadcast_descriptor.html", null ],
         [ "ts::DataBroadcastIdDescriptor", "classts_1_1_data_broadcast_id_descriptor.html", null ],
         [ "ts::EacemStreamIdentifierDescriptor", "classts_1_1_eacem_stream_identifier_descriptor.html", null ],
@@ -68,6 +69,7 @@ var hierarchy =
         [ "ts::NetworkNameDescriptor", "classts_1_1_network_name_descriptor.html", null ],
         [ "ts::ParentalRatingDescriptor", "classts_1_1_parental_rating_descriptor.html", null ],
         [ "ts::PrivateDataSpecifierDescriptor", "classts_1_1_private_data_specifier_descriptor.html", null ],
+        [ "ts::RegistrationDescriptor", "classts_1_1_registration_descriptor.html", null ],
         [ "ts::S2SatelliteDeliverySystemDescriptor", "classts_1_1_s2_satellite_delivery_system_descriptor.html", null ],
         [ "ts::ServiceDescriptor", "classts_1_1_service_descriptor.html", null ],
         [ "ts::ServiceListDescriptor", "classts_1_1_service_list_descriptor.html", null ],
@@ -184,10 +186,10 @@ var hierarchy =
     [ "ts::SubtitlingDescriptor::Entry", "structts_1_1_subtitling_descriptor_1_1_entry.html", null ],
     [ "ts::ExtendedEventDescriptor::Entry", "structts_1_1_extended_event_descriptor_1_1_entry.html", null ],
     [ "ts::TeletextDescriptor::Entry", "structts_1_1_teletext_descriptor_1_1_entry.html", null ],
-    [ "ts::ParentalRatingDescriptor::Entry", "structts_1_1_parental_rating_descriptor_1_1_entry.html", null ],
     [ "ts::HDSimulcastLogicalChannelDescriptor::Entry", "structts_1_1_h_d_simulcast_logical_channel_descriptor_1_1_entry.html", null ],
     [ "ts::ISO639LanguageDescriptor::Entry", "structts_1_1_i_s_o639_language_descriptor_1_1_entry.html", null ],
     [ "ts::LogicalChannelNumberDescriptor::Entry", "structts_1_1_logical_channel_number_descriptor_1_1_entry.html", null ],
+    [ "ts::ParentalRatingDescriptor::Entry", "structts_1_1_parental_rating_descriptor_1_1_entry.html", null ],
     [ "ts::Enumeration", "classts_1_1_enumeration.html", null ],
     [ "ts::ecmgscs::Errors", "structts_1_1ecmgscs_1_1_errors.html", null ],
     [ "ts::emmgmux::Errors", "structts_1_1emmgmux_1_1_errors.html", null ],
@@ -338,6 +340,7 @@ var hierarchy =
     [ "ts::TSAnalyzer::PIDContext", "classts_1_1_t_s_analyzer_1_1_p_i_d_context.html", null ],
     [ "ts::PIDOperator", "structts_1_1_p_i_d_operator.html", null ],
     [ "ts::tsp::Options::PluginOptions", "structts_1_1tsp_1_1_options_1_1_plugin_options.html", null ],
+    [ "ts::PluginRepository", "classts_1_1_plugin_repository.html", null ],
     [ "ts::PolledFile", "classts_1_1_polled_file.html", null ],
     [ "ts::PollFiles", "classts_1_1_poll_files.html", null ],
     [ "ts::PollFilesListener", "classts_1_1_poll_files_listener.html", null ],
@@ -354,6 +357,7 @@ var hierarchy =
     [ "ts::pcsc::ReaderState", "structts_1_1pcsc_1_1_reader_state.html", null ],
     [ "ts::LocalTimeOffsetDescriptor::Region", "structts_1_1_local_time_offset_descriptor_1_1_region.html", null ],
     [ "ts::TablesFactory::Register", "classts_1_1_tables_factory_1_1_register.html", null ],
+    [ "ts::PluginRepository::Register", "classts_1_1_plugin_repository_1_1_register.html", null ],
     [ "ts::Registry", "classts_1_1_registry.html", null ],
     [ "ts::Report", "classts_1_1_report.html", [
       [ "ts::Args", "classts_1_1_args.html", [
@@ -425,17 +429,27 @@ var hierarchy =
     [ "ts::Severity", "structts_1_1_severity.html", null ],
     [ "ts::SharedLibrary", "classts_1_1_shared_library.html", [
       [ "ts::ApplicationSharedLibrary", "classts_1_1_application_shared_library.html", [
-        [ "ts::PluginSharedLibrary", "classts_1_1_plugin_shared_library.html", [
-          [ "ts::tsp::PluginExecutor", "classts_1_1tsp_1_1_plugin_executor.html", null ]
-        ] ]
+        [ "ts::PluginSharedLibrary", "classts_1_1_plugin_shared_library.html", null ]
       ] ]
     ] ],
     [ "ts::SignalAllocator", "classts_1_1_signal_allocator.html", null ],
     [ "ts::SimulCryptDate", "classts_1_1_simul_crypt_date.html", null ],
     [ "ts::SingletonManager", "classts_1_1_singleton_manager.html", null ],
+    [ "ts::Socket", "classts_1_1_socket.html", [
+      [ "ts::TCPSocket", "classts_1_1_t_c_p_socket.html", [
+        [ "ts::TCPConnection", "classts_1_1_t_c_p_connection.html", [
+          [ "ts::tlv::Connection< ts::Mutex >", "classts_1_1tlv_1_1_connection.html", null ],
+          [ "ts::TelnetConnection", "classts_1_1_telnet_connection.html", null ],
+          [ "ts::tlv::Connection< MUTEX >", "classts_1_1tlv_1_1_connection.html", null ]
+        ] ],
+        [ "ts::TCPServer", "classts_1_1_t_c_p_server.html", null ]
+      ] ],
+      [ "ts::UDPSocket", "classts_1_1_u_d_p_socket.html", null ]
+    ] ],
+    [ "ts::SpliceInfoTable", "classts_1_1_splice_info_table.html", null ],
     [ "ts::StaticReferencesDVB", "classts_1_1_static_references_d_v_b.html", null ],
-    [ "ts::PCRAnalyzer::Status", "structts_1_1_p_c_r_analyzer_1_1_status.html", null ],
     [ "ts::SectionDemux::Status", "structts_1_1_section_demux_1_1_status.html", null ],
+    [ "ts::PCRAnalyzer::Status", "structts_1_1_p_c_r_analyzer_1_1_status.html", null ],
     [ "ts::PMT::Stream", "structts_1_1_p_m_t_1_1_stream.html", null ],
     [ "ts::SysInfo", "classts_1_1_sys_info.html", null ],
     [ "ts::T2MIHandlerInterface", "classts_1_1_t2_m_i_handler_interface.html", [
@@ -458,14 +472,6 @@ var hierarchy =
     [ "ts::TablesLoggerArgs", "classts_1_1_tables_logger_args.html", null ],
     [ "ts::ecmgscs::Tags", "structts_1_1ecmgscs_1_1_tags.html", null ],
     [ "ts::emmgmux::Tags", "structts_1_1emmgmux_1_1_tags.html", null ],
-    [ "ts::TCPSocket", "classts_1_1_t_c_p_socket.html", [
-      [ "ts::TCPConnection", "classts_1_1_t_c_p_connection.html", [
-        [ "ts::tlv::Connection< ts::Mutex >", "classts_1_1tlv_1_1_connection.html", null ],
-        [ "ts::TelnetConnection", "classts_1_1_telnet_connection.html", null ],
-        [ "ts::tlv::Connection< MUTEX >", "classts_1_1tlv_1_1_connection.html", null ]
-      ] ],
-      [ "ts::TCPServer", "classts_1_1_t_c_p_server.html", null ]
-    ] ],
     [ "ts::TextParser", "classts_1_1_text_parser.html", null ],
     [ "ts::Thread", "classts_1_1_thread.html", [
       [ "ts::AbstractDescrambler", "classts_1_1_abstract_descrambler.html", null ],
@@ -493,7 +499,6 @@ var hierarchy =
     [ "u16string", null, [
       [ "ts::UString", "classts_1_1_u_string.html", null ]
     ] ],
-    [ "ts::UDPSocket", "classts_1_1_u_d_p_socket.html", null ],
     [ "ts::UID", "classts_1_1_u_i_d.html", null ],
     [ "ts::json::Value", "classts_1_1json_1_1_value.html", [
       [ "ts::json::Array", "classts_1_1json_1_1_array.html", null ],

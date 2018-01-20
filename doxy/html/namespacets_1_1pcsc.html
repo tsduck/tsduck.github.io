@@ -125,30 +125,30 @@ typedef std::vector&lt; <a class="el" href="structts_1_1pcsc_1_1_reader_state.ht
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
 Functions</h2></td></tr>
-<tr class="memitem:a1dfa416183e40016905faf2e9b375c88"><td class="memItemLeft" align="right" valign="top">::LONG&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacets_1_1pcsc.html#a1dfa416183e40016905faf2e9b375c88">GetStates</a> (::SCARDCONTEXT context, <a class="el" href="namespacets_1_1pcsc.html#a22192552d76342573638b5faa47a53de">ReaderStateVector</a> &amp;states, ::DWORD timeout_ms=INFINITE)</td></tr>
-<tr class="memdesc:a1dfa416183e40016905faf2e9b375c88"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the state of all smartcard readers in the system.  <a href="#a1dfa416183e40016905faf2e9b375c88">More...</a><br /></td></tr>
-<tr class="separator:a1dfa416183e40016905faf2e9b375c88"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a34b789a747e2d3b349a7e20a029e6c2c"><td class="memItemLeft" align="right" valign="top">::LONG&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacets_1_1pcsc.html#a34b789a747e2d3b349a7e20a029e6c2c">GetStatesChange</a> (::SCARDCONTEXT context, <a class="el" href="namespacets_1_1pcsc.html#a22192552d76342573638b5faa47a53de">ReaderStateVector</a> &amp;states, ::DWORD timeout_ms=INFINITE)</td></tr>
-<tr class="memdesc:a34b789a747e2d3b349a7e20a029e6c2c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the state change of all smartcard readers in the system.  <a href="#a34b789a747e2d3b349a7e20a029e6c2c">More...</a><br /></td></tr>
-<tr class="separator:a34b789a747e2d3b349a7e20a029e6c2c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac3ed5166742c0d7adb664d740950ee89"><td class="memItemLeft" align="right" valign="top">::LONG&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacets_1_1pcsc.html#ac3ed5166742c0d7adb664d740950ee89">GetStates</a> (::SCARDCONTEXT context, <a class="el" href="namespacets_1_1pcsc.html#a22192552d76342573638b5faa47a53de">ReaderStateVector</a> &amp;states, uint32_t timeout_ms=INFINITE)</td></tr>
+<tr class="memdesc:ac3ed5166742c0d7adb664d740950ee89"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the state of all smartcard readers in the system.  <a href="#ac3ed5166742c0d7adb664d740950ee89">More...</a><br /></td></tr>
+<tr class="separator:ac3ed5166742c0d7adb664d740950ee89"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a872721ef2204eb7517d998b3bd1d30b8"><td class="memItemLeft" align="right" valign="top">::LONG&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacets_1_1pcsc.html#a872721ef2204eb7517d998b3bd1d30b8">GetStatesChange</a> (::SCARDCONTEXT context, <a class="el" href="namespacets_1_1pcsc.html#a22192552d76342573638b5faa47a53de">ReaderStateVector</a> &amp;states, uint32_t timeout_ms=INFINITE)</td></tr>
+<tr class="memdesc:a872721ef2204eb7517d998b3bd1d30b8"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the state change of all smartcard readers in the system.  <a href="#a872721ef2204eb7517d998b3bd1d30b8">More...</a><br /></td></tr>
+<tr class="separator:a872721ef2204eb7517d998b3bd1d30b8"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a7a7f20b104b4ad09301704f741836215"><td class="memItemLeft" align="right" valign="top">::LONG&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacets_1_1pcsc.html#a7a7f20b104b4ad09301704f741836215">ListReaders</a> (::SCARDCONTEXT context, <a class="el" href="namespacets.html#a843f23808732fa4bb32ddd18e3dabf53">UStringVector</a> &amp;readers)</td></tr>
 <tr class="memdesc:a7a7f20b104b4ad09301704f741836215"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the list of all smartcard readers in the system.  <a href="#a7a7f20b104b4ad09301704f741836215">More...</a><br /></td></tr>
 <tr class="separator:a7a7f20b104b4ad09301704f741836215"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:af6a7cd15d07e43eee0a59951e86179b2"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacets_1_1pcsc.html#af6a7cd15d07e43eee0a59951e86179b2">MatchATR</a> (const uint8_t *atr1, size_t atr1_size, const uint8_t *atr2, size_t atr2_size, const uint8_t *mask=0, size_t mask_size=0)</td></tr>
 <tr class="memdesc:af6a7cd15d07e43eee0a59951e86179b2"><td class="mdescLeft">&#160;</td><td class="mdescRight">Check if an ATR matches an expected one.  <a href="#af6a7cd15d07e43eee0a59951e86179b2">More...</a><br /></td></tr>
 <tr class="separator:af6a7cd15d07e43eee0a59951e86179b2"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:abe95ce97a24d01d1638ffda21ae0bae8"><td class="memItemLeft" align="right" valign="top">::LONG&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacets_1_1pcsc.html#abe95ce97a24d01d1638ffda21ae0bae8">SearchSmartCard</a> (::SCARDCONTEXT context, <a class="el" href="classts_1_1_u_string.html">UString</a> &amp;reader_name, const uint8_t *atr=0, size_t atr_size=0, const uint8_t *atr_mask=0, size_t atr_mask_size=0, const uint8_t *pwr=0, size_t pwr_size=0, const uint8_t *pwr_mask=0, size_t pwr_mask_size=0, ::DWORD timeout_ms=INFINITE)</td></tr>
-<tr class="memdesc:abe95ce97a24d01d1638ffda21ae0bae8"><td class="mdescLeft">&#160;</td><td class="mdescRight">Search all smartcard readers for a smartcard matching an expected ATR.  <a href="#abe95ce97a24d01d1638ffda21ae0bae8">More...</a><br /></td></tr>
-<tr class="separator:abe95ce97a24d01d1638ffda21ae0bae8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad4c7264082a5824853dfa352ea16924b"><td class="memItemLeft" align="right" valign="top">::LONG&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacets_1_1pcsc.html#ad4c7264082a5824853dfa352ea16924b">SearchSmartCard</a> (::SCARDCONTEXT context, <a class="el" href="classts_1_1_u_string.html">UString</a> &amp;reader_name, const uint8_t *atr=0, size_t atr_size=0, const uint8_t *atr_mask=0, size_t atr_mask_size=0, const uint8_t *pwr=0, size_t pwr_size=0, const uint8_t *pwr_mask=0, size_t pwr_mask_size=0, uint32_t timeout_ms=INFINITE)</td></tr>
+<tr class="memdesc:ad4c7264082a5824853dfa352ea16924b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Search all smartcard readers for a smartcard matching an expected ATR.  <a href="#ad4c7264082a5824853dfa352ea16924b">More...</a><br /></td></tr>
+<tr class="separator:ad4c7264082a5824853dfa352ea16924b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ab1a58a7698b0bd6ade6144b87c41caa7"><td class="memItemLeft" align="right" valign="top">const char *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacets_1_1pcsc.html#ab1a58a7698b0bd6ade6144b87c41caa7">StrError</a> (::LONG status)</td></tr>
 <tr class="memdesc:ab1a58a7698b0bd6ade6144b87c41caa7"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get an error message for a PC/SC error.  <a href="#ab1a58a7698b0bd6ade6144b87c41caa7">More...</a><br /></td></tr>
 <tr class="separator:ab1a58a7698b0bd6ade6144b87c41caa7"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a2a0b0e3e8b6d13a7e421c65751fb16ab"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacets_1_1pcsc.html#a2a0b0e3e8b6d13a7e421c65751fb16ab">Success</a> (::LONG status, <a class="el" href="classts_1_1_report.html">Report</a> &amp;report=(*<a class="el" href="classts_1_1_cerr_report.html#ad5fc721c37e1eceab55d90f8c76ff6b6">ts::CerrReport::Instance</a>()))</td></tr>
 <tr class="memdesc:a2a0b0e3e8b6d13a7e421c65751fb16ab"><td class="mdescLeft">&#160;</td><td class="mdescRight">Check a PC/SC status.  <a href="#a2a0b0e3e8b6d13a7e421c65751fb16ab">More...</a><br /></td></tr>
 <tr class="separator:a2a0b0e3e8b6d13a7e421c65751fb16ab"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ab8f85c7b80a508a2e2e519da53c3b767"><td class="memItemLeft" align="right" valign="top">::LONG&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacets_1_1pcsc.html#ab8f85c7b80a508a2e2e519da53c3b767">Transmit</a> (::SCARDHANDLE handle, ::DWORD protocol, const void *send, size_t send_size, void *resp, size_t resp_size, uint16_t &amp;sw, size_t &amp;resp_length)</td></tr>
-<tr class="memdesc:ab8f85c7b80a508a2e2e519da53c3b767"><td class="mdescLeft">&#160;</td><td class="mdescRight">Transmit an APDU to smartcard and read response.  <a href="#ab8f85c7b80a508a2e2e519da53c3b767">More...</a><br /></td></tr>
-<tr class="separator:ab8f85c7b80a508a2e2e519da53c3b767"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0ea0c16a2f0292e06c5914e580b5cabf"><td class="memItemLeft" align="right" valign="top">::LONG&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacets_1_1pcsc.html#a0ea0c16a2f0292e06c5914e580b5cabf">Transmit</a> (::SCARDHANDLE handle, uint32_t protocol, const void *send, size_t send_size, void *resp, size_t resp_size, uint16_t &amp;sw, size_t &amp;resp_length)</td></tr>
+<tr class="memdesc:a0ea0c16a2f0292e06c5914e580b5cabf"><td class="mdescLeft">&#160;</td><td class="mdescRight">Transmit an APDU to smartcard and read response.  <a href="#a0ea0c16a2f0292e06c5914e580b5cabf">More...</a><br /></td></tr>
+<tr class="separator:a0ea0c16a2f0292e06c5914e580b5cabf"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>PC/SC smartcard API utilities. </p>
@@ -323,8 +323,8 @@ checked" in the ATR. </td></tr>
 
 </div>
 </div>
-<a id="a1dfa416183e40016905faf2e9b375c88"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a1dfa416183e40016905faf2e9b375c88">&#9670;&nbsp;</a></span>GetStates()</h2>
+<a id="ac3ed5166742c0d7adb664d740950ee89"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac3ed5166742c0d7adb664d740950ee89">&#9670;&nbsp;</a></span>GetStates()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -344,7 +344,7 @@ checked" in the ATR. </td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">::DWORD&#160;</td>
+          <td class="paramtype">uint32_t&#160;</td>
           <td class="paramname"><em>timeout_ms</em> = <code>INFINITE</code>&#160;</td>
         </tr>
         <tr>
@@ -368,8 +368,8 @@ checked" in the ATR. </td></tr>
 
 </div>
 </div>
-<a id="a34b789a747e2d3b349a7e20a029e6c2c"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a34b789a747e2d3b349a7e20a029e6c2c">&#9670;&nbsp;</a></span>GetStatesChange()</h2>
+<a id="a872721ef2204eb7517d998b3bd1d30b8"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a872721ef2204eb7517d998b3bd1d30b8">&#9670;&nbsp;</a></span>GetStatesChange()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -389,7 +389,7 @@ checked" in the ATR. </td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">::DWORD&#160;</td>
+          <td class="paramtype">uint32_t&#160;</td>
           <td class="paramname"><em>timeout_ms</em> = <code>INFINITE</code>&#160;</td>
         </tr>
         <tr>
@@ -413,8 +413,8 @@ checked" in the ATR. </td></tr>
 
 </div>
 </div>
-<a id="abe95ce97a24d01d1638ffda21ae0bae8"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#abe95ce97a24d01d1638ffda21ae0bae8">&#9670;&nbsp;</a></span>SearchSmartCard()</h2>
+<a id="ad4c7264082a5824853dfa352ea16924b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad4c7264082a5824853dfa352ea16924b">&#9670;&nbsp;</a></span>SearchSmartCard()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -482,7 +482,7 @@ checked" in the ATR. </td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">::DWORD&#160;</td>
+          <td class="paramtype">uint32_t&#160;</td>
           <td class="paramname"><em>timeout_ms</em> = <code>INFINITE</code>&#160;</td>
         </tr>
         <tr>
@@ -515,8 +515,8 @@ checked" in the ATR. </td></tr>
 
 </div>
 </div>
-<a id="ab8f85c7b80a508a2e2e519da53c3b767"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ab8f85c7b80a508a2e2e519da53c3b767">&#9670;&nbsp;</a></span>Transmit()</h2>
+<a id="a0ea0c16a2f0292e06c5914e580b5cabf"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0ea0c16a2f0292e06c5914e580b5cabf">&#9670;&nbsp;</a></span>Transmit()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -530,7 +530,7 @@ checked" in the ATR. </td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">::DWORD&#160;</td>
+          <td class="paramtype">uint32_t&#160;</td>
           <td class="paramname"><em>protocol</em>, </td>
         </tr>
         <tr>

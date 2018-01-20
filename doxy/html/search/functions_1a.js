@@ -80,6 +80,7 @@ var searchData=
   ['_7esinkenumpins',['~SinkEnumPins',['../classts_1_1_sink_enum_pins.html#a4a106b84309dde6b6521563b83d276c7',1,'ts::SinkEnumPins']]],
   ['_7esinkfilter',['~SinkFilter',['../classts_1_1_sink_filter.html#a3051a3cfe754d326b94bd5fe061ffbc2',1,'ts::SinkFilter']]],
   ['_7esinkpin',['~SinkPin',['../classts_1_1_sink_pin.html#a2fc27e253e7b0558d91371fc055076a3',1,'ts::SinkPin']]],
+  ['_7esocket',['~Socket',['../classts_1_1_socket.html#a2debfb39088094f489ae310a7a3c1569',1,'ts::Socket']]],
   ['_7esocketaddress',['~SocketAddress',['../classts_1_1_socket_address.html#ae8ad9b7d15970046fd1dfda231de0a95',1,'ts::SocketAddress']]],
   ['_7estandalonetabledemux',['~StandaloneTableDemux',['../classts_1_1_standalone_table_demux.html#a309754f2b7fcf2deea5f1dfb042e12f9',1,'ts::StandaloneTableDemux']]],
   ['_7esystemmonitor',['~SystemMonitor',['../classts_1_1_system_monitor.html#afec543d2d461e61398e649d5dc7e2dae',1,'ts::SystemMonitor']]],

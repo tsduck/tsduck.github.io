@@ -169,6 +169,9 @@ var files_dup =
     [ "tsCTS4.h", "ts_c_t_s4_8h.html", [
       [ "CTS4", "classts_1_1_c_t_s4.html", "classts_1_1_c_t_s4" ]
     ] ],
+    [ "tsCueIdentifierDescriptor.h", "ts_cue_identifier_descriptor_8h.html", [
+      [ "CueIdentifierDescriptor", "classts_1_1_cue_identifier_descriptor.html", "classts_1_1_cue_identifier_descriptor" ]
+    ] ],
     [ "tsCyclingPacketizer.h", "ts_cycling_packetizer_8h.html", [
       [ "CyclingPacketizer", "classts_1_1_cycling_packetizer.html", "classts_1_1_cycling_packetizer" ]
     ] ],
@@ -426,8 +429,11 @@ var files_dup =
       [ "JointTermination", "classts_1_1tsp_1_1_joint_termination.html", "classts_1_1tsp_1_1_joint_termination" ]
     ] ],
     [ "tsPlatform.h", "ts_platform_8h.html", "ts_platform_8h" ],
-    [ "tspListProcessors.h", "tsp_list_processors_8h.html", "tsp_list_processors_8h" ],
     [ "tsPlugin.h", "ts_plugin_8h.html", "ts_plugin_8h" ],
+    [ "tsPluginRepository.h", "ts_plugin_repository_8h.html", [
+      [ "PluginRepository", "classts_1_1_plugin_repository.html", "classts_1_1_plugin_repository" ],
+      [ "Register", "classts_1_1_plugin_repository_1_1_register.html", "classts_1_1_plugin_repository_1_1_register" ]
+    ] ],
     [ "tsPluginSharedLibrary.h", "ts_plugin_shared_library_8h.html", "ts_plugin_shared_library_8h" ],
     [ "tsPMT.h", "ts_p_m_t_8h.html", [
       [ "PMT", "classts_1_1_p_m_t.html", "classts_1_1_p_m_t" ],
@@ -453,6 +459,9 @@ var files_dup =
     ] ],
     [ "tsRandomGenerator.h", "ts_random_generator_8h.html", [
       [ "RandomGenerator", "classts_1_1_random_generator.html", "classts_1_1_random_generator" ]
+    ] ],
+    [ "tsRegistrationDescriptor.h", "ts_registration_descriptor_8h.html", [
+      [ "RegistrationDescriptor", "classts_1_1_registration_descriptor.html", "classts_1_1_registration_descriptor" ]
     ] ],
     [ "tsRegistry.h", "ts_registry_8h.html", [
       [ "Registry", "classts_1_1_registry.html", "classts_1_1_registry" ]
@@ -545,8 +554,14 @@ var files_dup =
       [ "SinkFilter", "classts_1_1_sink_filter.html", "classts_1_1_sink_filter" ],
       [ "SinkPin", "classts_1_1_sink_pin.html", "classts_1_1_sink_pin" ]
     ] ],
+    [ "tsSocket.h", "ts_socket_8h.html", [
+      [ "Socket", "classts_1_1_socket.html", "classts_1_1_socket" ]
+    ] ],
     [ "tsSocketAddress.h", "ts_socket_address_8h.html", [
       [ "SocketAddress", "classts_1_1_socket_address.html", "classts_1_1_socket_address" ]
+    ] ],
+    [ "tsSpliceInfoTable.h", "ts_splice_info_table_8h.html", [
+      [ "SpliceInfoTable", "classts_1_1_splice_info_table.html", "classts_1_1_splice_info_table" ]
     ] ],
     [ "tsSSUDataBroadcastIdDescriptor.h", "ts_s_s_u_data_broadcast_id_descriptor_8h.html", [
       [ "Entry", "structts_1_1_s_s_u_data_broadcast_id_descriptor_1_1_entry.html", "structts_1_1_s_s_u_data_broadcast_id_descriptor_1_1_entry" ],

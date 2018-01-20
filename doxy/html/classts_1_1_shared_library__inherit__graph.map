@@ -1,8 +1,4 @@
 <map id="ts::SharedLibrary" name="ts::SharedLibrary">
-<area shape="rect" id="node2" href="$classts_1_1_application_shared_library.html" title="Representation of an application shared library. " alt="" coords="161,79,349,104"/>
-<area shape="rect" id="node3" href="$classts_1_1_plugin_shared_library.html" title="Representation of a TSP plugin shared library. " alt="" coords="175,152,335,177"/>
-<area shape="rect" id="node4" href="$classts_1_1tsp_1_1_plugin_executor.html" title="Execution context of a tsp plugin. " alt="" coords="178,225,332,251"/>
-<area shape="rect" id="node5" href="$classts_1_1tsp_1_1_input_executor.html" title="Execution context of a tsp input plugin. " alt="" coords="5,299,152,324"/>
-<area shape="rect" id="node6" href="$classts_1_1tsp_1_1_output_executor.html" title="Execution context of a tsp output plugin. " alt="" coords="176,299,333,324"/>
-<area shape="rect" id="node7" href="$classts_1_1tsp_1_1_processor_executor.html" title="Execution context of a tsp packet processor plugin. " alt="" coords="357,299,534,324"/>
+<area shape="rect" id="node2" href="$classts_1_1_application_shared_library.html" title="Representation of an application shared library. " alt="" coords="5,79,193,104"/>
+<area shape="rect" id="node3" href="$classts_1_1_plugin_shared_library.html" title="Representation of a TSP plugin shared library. " alt="" coords="19,152,179,177"/>
 </map>

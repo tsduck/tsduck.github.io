@@ -2,12 +2,6 @@ var classts_1_1_u_d_p_socket =
 [
     [ "UDPSocket", "classts_1_1_u_d_p_socket.html#a5b08dc297f5eb1ecf5b56c3593c02f02", null ],
     [ "~UDPSocket", "classts_1_1_u_d_p_socket.html#ab3e88dca7aa0d21a0de1d88fce6a0643", null ],
-    [ "open", "classts_1_1_u_d_p_socket.html#a63d2e59a7816184c6d92d6521b31d2fc", null ],
-    [ "close", "classts_1_1_u_d_p_socket.html#a074ed5f8d75efaaa20dd519bf76b238e", null ],
-    [ "isOpen", "classts_1_1_u_d_p_socket.html#afe96856790d7620f52c42d47dea8cca7", null ],
-    [ "setSendBufferSize", "classts_1_1_u_d_p_socket.html#a73e6ebc121c56984d4e68c788b93a38d", null ],
-    [ "setReceiveBufferSize", "classts_1_1_u_d_p_socket.html#ab7411861ee466314d6a8c99f7a50777a", null ],
-    [ "reusePort", "classts_1_1_u_d_p_socket.html#ac776b419281bbfaee590c7ec97042c42", null ],
     [ "bind", "classts_1_1_u_d_p_socket.html#a805ce9e833d4dfb97470079e35019995", null ],
     [ "setDefaultDestination", "classts_1_1_u_d_p_socket.html#ae668671b4955e6d187e9e1900b16a639", null ],
     [ "setDefaultDestination", "classts_1_1_u_d_p_socket.html#a14cdade72524661ca1960d79ce3ff14d", null ],
@@ -21,6 +15,7 @@ var classts_1_1_u_d_p_socket =
     [ "dropMembership", "classts_1_1_u_d_p_socket.html#af42a2499b1bf401eefbec78c826eaf3b", null ],
     [ "send", "classts_1_1_u_d_p_socket.html#a8a9f947a8e053e5b8dec1ec1d26aaf30", null ],
     [ "send", "classts_1_1_u_d_p_socket.html#a54311df21ab1f34259f122f9779ed745", null ],
-    [ "receive", "classts_1_1_u_d_p_socket.html#ab637989f76ee8ce4e6f15524f808f6c6", null ],
-    [ "getSocket", "classts_1_1_u_d_p_socket.html#a98bcbc3fc3cac19eda8fb704053231f1", null ]
+    [ "receive", "classts_1_1_u_d_p_socket.html#a96f1e39393a173fc8d3702491fe52445", null ],
+    [ "open", "classts_1_1_u_d_p_socket.html#aa2db6cf5c00c59c7bfe2dfa9a46b51bc", null ],
+    [ "close", "classts_1_1_u_d_p_socket.html#af82a601f90f94a42688a43397e1fe653", null ]
 ];

@@ -11,6 +11,7 @@ var classts_1_1_s_s_u_linkage_descriptor =
     [ "deserialize", "classts_1_1_s_s_u_linkage_descriptor.html#abcf7fb00654d8940fd8e8c042a495e50", null ],
     [ "toXML", "classts_1_1_s_s_u_linkage_descriptor.html#ab65220392053720b392b56ba550289d8", null ],
     [ "fromXML", "classts_1_1_s_s_u_linkage_descriptor.html#aed01d9ec145762e135b2ee2fb4b1d9d6", null ],
+    [ "DisplayDescriptor", "classts_1_1_s_s_u_linkage_descriptor.html#a63638f59d9478c63739501356019be44", null ],
     [ "ts_id", "classts_1_1_s_s_u_linkage_descriptor.html#a67961d72516962c033b6bacd90953278", null ],
     [ "onetw_id", "classts_1_1_s_s_u_linkage_descriptor.html#a67cf0c0307f5b667e50510ecadd18ae3", null ],
     [ "service_id", "classts_1_1_s_s_u_linkage_descriptor.html#aa1cc964f04ace45cb44609740ee8ac8f", null ],

@@ -45,6 +45,7 @@ var searchData=
   ['cts2',['CTS2',['../classts_1_1_c_t_s2.html',1,'ts']]],
   ['cts3',['CTS3',['../classts_1_1_c_t_s3.html',1,'ts']]],
   ['cts4',['CTS4',['../classts_1_1_c_t_s4.html',1,'ts']]],
+  ['cueidentifierdescriptor',['CueIdentifierDescriptor',['../classts_1_1_cue_identifier_descriptor.html',1,'ts']]],
   ['cwprovision',['CWProvision',['../classts_1_1ecmgscs_1_1_c_w_provision.html',1,'ts::ecmgscs']]],
   ['cyclingpacketizer',['CyclingPacketizer',['../classts_1_1_cycling_packetizer.html',1,'ts']]]
 ];

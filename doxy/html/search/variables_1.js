@@ -7,6 +7,7 @@ var searchData=
   ['acknowledge',['ACKNOWLEDGE',['../namespacets.html#aaa4aed72b9204071f2dc09c87ee5c22c',1,'ts']]],
   ['acute_5faccent',['ACUTE_ACCENT',['../namespacets.html#a5c4285bcc78cce68b8eea2c1bd978e59',1,'ts']]],
   ['add_5fpmt_5fpids',['add_pmt_pids',['../classts_1_1_tables_logger_args.html#ad78e2573cad859c494d88269199611f3',1,'ts::TablesLoggerArgs']]],
+  ['additional_5fidentification_5finfo',['additional_identification_info',['../classts_1_1_registration_descriptor.html#a61f423c8bc13849bf23432fc87452617',1,'ts::RegistrationDescriptor']]],
   ['additional_5finfo',['additional_info',['../classts_1_1_a_c3_descriptor.html#a27218b858015d8229700950b1d6e8489',1,'ts::AC3Descriptor::additional_info()'],['../classts_1_1_enhanced_a_c3_descriptor.html#ac2bc1e3fd1e02fe84aa86934768a739e',1,'ts::EnhancedAC3Descriptor::additional_info()']]],
   ['addr',['addr',['../structts_1_1tlv_1_1_message_factory_1_1_parameter.html#a3668b01bf0c0e442ac5e474ca58a3f84',1,'ts::tlv::MessageFactory::Parameter']]],
   ['alef_5fsymbol',['ALEF_SYMBOL',['../namespacets.html#a0c81d66f43848bffab074cf649a547ec',1,'ts']]],

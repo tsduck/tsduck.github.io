@@ -1,6 +1,7 @@
 <map id="ts::TCPConnection" name="ts::TCPConnection">
-<area shape="rect" id="node3" href="$classts_1_1tlv_1_1_connection.html" title="ts::tlv::Connection\l\&lt; ts::Mutex \&gt;" alt="" coords="5,152,133,191"/>
-<area shape="rect" id="node4" href="$classts_1_1_telnet_connection.html" title="Implementation of a half&#45;duplex line oriented telnet connection. " alt="" coords="157,159,299,184"/>
-<area shape="rect" id="node5" href="$classts_1_1tlv_1_1_connection.html" title="TCP connection using TLV messages. " alt="" coords="323,152,450,191"/>
-<area shape="rect" id="node2" href="$classts_1_1_t_c_p_socket.html" title="Base class for TCP/IP sockets. " alt="" coords="174,5,281,31"/>
+<area shape="rect" id="node4" href="$classts_1_1tlv_1_1_connection.html" title="ts::tlv::Connection\l\&lt; ts::Mutex \&gt;" alt="" coords="5,225,133,264"/>
+<area shape="rect" id="node5" href="$classts_1_1_telnet_connection.html" title="Implementation of a half&#45;duplex line oriented telnet connection. " alt="" coords="157,232,299,257"/>
+<area shape="rect" id="node6" href="$classts_1_1tlv_1_1_connection.html" title="TCP connection using TLV messages. " alt="" coords="323,225,450,264"/>
+<area shape="rect" id="node2" href="$classts_1_1_t_c_p_socket.html" title="Base class for TCP/IP sockets. " alt="" coords="174,79,281,104"/>
+<area shape="rect" id="node3" href="$classts_1_1_socket.html" title="Base class for TCP and UDP sockets. " alt="" coords="188,5,268,31"/>
 </map>
