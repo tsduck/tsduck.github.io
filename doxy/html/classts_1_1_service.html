@@ -37,7 +37,7 @@
  <tr style="height: 56px;">
   <td id="projectlogo"><img src="tsduck-32.png"/></td>
    <td id="projectalign"><span id="projectname">TSDuck</span>
-    <span id="projectnumber">Version 3.6</span>
+    <span id="projectnumber">Version 3.7</span>
     <span id="projectbrief">(TSDuck - The MPEG Transport Stream Toolkit)</span>
    </td>
    <td>        <div id="MSearchBox" class="MSearchBoxInactive">
@@ -110,6 +110,14 @@ $(document).ready(function(){initNavTree('classts_1_1_service.html','');});
 
 <p>Describe a DVB service.  
  <a href="classts_1_1_service.html#details">More...</a></p>
+<div class="dynheader">
+Inheritance diagram for ts::Service:</div>
+<div class="dyncontent">
+<div class="center"><img src="classts_1_1_service__inherit__graph.png" border="0" usemap="#ts_1_1_service_inherit__map" alt="Inheritance graph"/></div>
+<map name="ts_1_1_service_inherit__map" id="ts_1_1_service_inherit__map">
+<area shape="rect" id="node2" href="classts_1_1_service_discovery.html" title="Discover and describe a DVB service. " alt="" coords="5,79,147,104"/>
+</map>
+<center><span class="legend">[<a target="top" href="graph_legend.html">legend</a>]</span></center></div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-types"></a>
 Public Types</h2></td></tr>
@@ -151,10 +159,14 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:acb993890e9fa651fd4c9de4ac74fab06"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classts_1_1_service.html#acb993890e9fa651fd4c9de4ac74fab06">Service</a> (const <a class="el" href="classts_1_1_u_string.html">UString</a> &amp;desc)</td></tr>
 <tr class="memdesc:acb993890e9fa651fd4c9de4ac74fab06"><td class="mdescLeft">&#160;</td><td class="mdescRight">Constructor using a string description.  <a href="#acb993890e9fa651fd4c9de4ac74fab06">More...</a><br /></td></tr>
 <tr class="separator:acb993890e9fa651fd4c9de4ac74fab06"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:af1fca9bb37b0f0641b265fc4d1d8ff47"><td class="memItemLeft" align="right" valign="top"><a id="af1fca9bb37b0f0641b265fc4d1d8ff47"></a>
-void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classts_1_1_service.html#af1fca9bb37b0f0641b265fc4d1d8ff47">clear</a> ()</td></tr>
-<tr class="memdesc:af1fca9bb37b0f0641b265fc4d1d8ff47"><td class="mdescLeft">&#160;</td><td class="mdescRight">Clear all fields. <br /></td></tr>
-<tr class="separator:af1fca9bb37b0f0641b265fc4d1d8ff47"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac350713500781e04d42b5560042d868b"><td class="memItemLeft" align="right" valign="top"><a id="ac350713500781e04d42b5560042d868b"></a>
+virtual&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classts_1_1_service.html#ac350713500781e04d42b5560042d868b">~Service</a> ()</td></tr>
+<tr class="memdesc:ac350713500781e04d42b5560042d868b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Destructor. <br /></td></tr>
+<tr class="separator:ac350713500781e04d42b5560042d868b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab6ffd96f073b24693839025850c6eca5"><td class="memItemLeft" align="right" valign="top"><a id="ab6ffd96f073b24693839025850c6eca5"></a>
+virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classts_1_1_service.html#ab6ffd96f073b24693839025850c6eca5">clear</a> ()</td></tr>
+<tr class="memdesc:ab6ffd96f073b24693839025850c6eca5"><td class="mdescLeft">&#160;</td><td class="mdescRight">Clear all fields. <br /></td></tr>
+<tr class="separator:ab6ffd96f073b24693839025850c6eca5"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aae8ef088d09df11ab7b3321ff38c2ce8"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classts_1_1_service.html#aae8ef088d09df11ab7b3321ff38c2ce8">clearCAControlled</a> ()</td></tr>
 <tr class="memdesc:aae8ef088d09df11ab7b3321ff38c2ce8"><td class="mdescLeft">&#160;</td><td class="mdescRight">Clear the CA-controlled (as declared in the <a class="el" href="classts_1_1_s_d_t.html" title="Representation of a Service Description Table (SDT). ">SDT</a>) .  <a href="#aae8ef088d09df11ab7b3321ff38c2ce8">More...</a><br /></td></tr>
 <tr class="separator:aae8ef088d09df11ab7b3321ff38c2ce8"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -230,12 +242,12 @@ void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="clas
 <tr class="memitem:a6c1bbfddd0b377951e1181ddea997ca8"><td class="memItemLeft" align="right" valign="top">uint8_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classts_1_1_service.html#a6c1bbfddd0b377951e1181ddea997ca8">getType</a> () const</td></tr>
 <tr class="memdesc:a6c1bbfddd0b377951e1181ddea997ca8"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the <a class="el" href="classts_1_1_service.html" title="Describe a DVB service. ">Service</a> Type (as declared in service_descriptor) .  <a href="#a6c1bbfddd0b377951e1181ddea997ca8">More...</a><br /></td></tr>
 <tr class="separator:a6c1bbfddd0b377951e1181ddea997ca8"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a7fac6ac4e676ea779eba90734077664b"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classts_1_1_service.html#a7fac6ac4e676ea779eba90734077664b">hasCAControlled</a> (bool value) const</td></tr>
-<tr class="memdesc:a7fac6ac4e676ea779eba90734077664b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Check if the CA-controlled (as declared in the <a class="el" href="classts_1_1_s_d_t.html" title="Representation of a Service Description Table (SDT). ">SDT</a>) has a given value.  <a href="#a7fac6ac4e676ea779eba90734077664b">More...</a><br /></td></tr>
-<tr class="separator:a7fac6ac4e676ea779eba90734077664b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aa522e906467c3ee07bb6eefc71ab9d45"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classts_1_1_service.html#aa522e906467c3ee07bb6eefc71ab9d45">hasCAControlled</a> () const</td></tr>
 <tr class="memdesc:aa522e906467c3ee07bb6eefc71ab9d45"><td class="mdescLeft">&#160;</td><td class="mdescRight">Check if the CA-controlled (as declared in the <a class="el" href="classts_1_1_s_d_t.html" title="Representation of a Service Description Table (SDT). ">SDT</a>) is present.  <a href="#aa522e906467c3ee07bb6eefc71ab9d45">More...</a><br /></td></tr>
 <tr class="separator:aa522e906467c3ee07bb6eefc71ab9d45"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7fac6ac4e676ea779eba90734077664b"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classts_1_1_service.html#a7fac6ac4e676ea779eba90734077664b">hasCAControlled</a> (bool value) const</td></tr>
+<tr class="memdesc:a7fac6ac4e676ea779eba90734077664b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Check if the CA-controlled (as declared in the <a class="el" href="classts_1_1_s_d_t.html" title="Representation of a Service Description Table (SDT). ">SDT</a>) has a given value.  <a href="#a7fac6ac4e676ea779eba90734077664b">More...</a><br /></td></tr>
+<tr class="separator:a7fac6ac4e676ea779eba90734077664b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ae9a42c2b9391c4b20e4364770927a908"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classts_1_1_service.html#ae9a42c2b9391c4b20e4364770927a908">hasEITpfPresent</a> () const</td></tr>
 <tr class="memdesc:ae9a42c2b9391c4b20e4364770927a908"><td class="mdescLeft">&#160;</td><td class="mdescRight">Check if the <a class="el" href="classts_1_1_e_i_t.html" title="Representation of an Event Information Table (EIT) ">EIT</a> present/following present (as declared in the <a class="el" href="classts_1_1_s_d_t.html" title="Representation of a Service Description Table (SDT). ">SDT</a>) is present.  <a href="#ae9a42c2b9391c4b20e4364770927a908">More...</a><br /></td></tr>
 <tr class="separator:ae9a42c2b9391c4b20e4364770927a908"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -248,36 +260,36 @@ void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="clas
 <tr class="memitem:a89dfeda41382a69d22fd3957c99ee7c2"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classts_1_1_service.html#a89dfeda41382a69d22fd3957c99ee7c2">hasEITsPresent</a> (bool value) const</td></tr>
 <tr class="memdesc:a89dfeda41382a69d22fd3957c99ee7c2"><td class="mdescLeft">&#160;</td><td class="mdescRight">Check if the <a class="el" href="classts_1_1_e_i_t.html" title="Representation of an Event Information Table (EIT) ">EIT</a> schedule present (as declared in the <a class="el" href="classts_1_1_s_d_t.html" title="Representation of a Service Description Table (SDT). ">SDT</a>) has a given value.  <a href="#a89dfeda41382a69d22fd3957c99ee7c2">More...</a><br /></td></tr>
 <tr class="separator:a89dfeda41382a69d22fd3957c99ee7c2"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a8a5fc27c6ea5be9d84841bf57e697931"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classts_1_1_service.html#a8a5fc27c6ea5be9d84841bf57e697931">hasId</a> () const</td></tr>
-<tr class="memdesc:a8a5fc27c6ea5be9d84841bf57e697931"><td class="mdescLeft">&#160;</td><td class="mdescRight">Check if the <a class="el" href="classts_1_1_service.html" title="Describe a DVB service. ">Service</a> Id is present.  <a href="#a8a5fc27c6ea5be9d84841bf57e697931">More...</a><br /></td></tr>
-<tr class="separator:a8a5fc27c6ea5be9d84841bf57e697931"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a8a986470c8d3aba4297aca9f4ed6c8e0"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classts_1_1_service.html#a8a986470c8d3aba4297aca9f4ed6c8e0">hasId</a> (uint16_t value) const</td></tr>
 <tr class="memdesc:a8a986470c8d3aba4297aca9f4ed6c8e0"><td class="mdescLeft">&#160;</td><td class="mdescRight">Check if the <a class="el" href="classts_1_1_service.html" title="Describe a DVB service. ">Service</a> Id has a given value.  <a href="#a8a986470c8d3aba4297aca9f4ed6c8e0">More...</a><br /></td></tr>
 <tr class="separator:a8a986470c8d3aba4297aca9f4ed6c8e0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8a5fc27c6ea5be9d84841bf57e697931"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classts_1_1_service.html#a8a5fc27c6ea5be9d84841bf57e697931">hasId</a> () const</td></tr>
+<tr class="memdesc:a8a5fc27c6ea5be9d84841bf57e697931"><td class="mdescLeft">&#160;</td><td class="mdescRight">Check if the <a class="el" href="classts_1_1_service.html" title="Describe a DVB service. ">Service</a> Id is present.  <a href="#a8a5fc27c6ea5be9d84841bf57e697931">More...</a><br /></td></tr>
+<tr class="separator:a8a5fc27c6ea5be9d84841bf57e697931"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a7e689ff5bf038327388b73b850cbf42c"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classts_1_1_service.html#a7e689ff5bf038327388b73b850cbf42c">hasLCN</a> () const</td></tr>
 <tr class="memdesc:a7e689ff5bf038327388b73b850cbf42c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Check if the Logical Channel Number is present.  <a href="#a7e689ff5bf038327388b73b850cbf42c">More...</a><br /></td></tr>
 <tr class="separator:a7e689ff5bf038327388b73b850cbf42c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a8f509a88e4e868a84ecf5122557c8707"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classts_1_1_service.html#a8f509a88e4e868a84ecf5122557c8707">hasLCN</a> (uint16_t value) const</td></tr>
 <tr class="memdesc:a8f509a88e4e868a84ecf5122557c8707"><td class="mdescLeft">&#160;</td><td class="mdescRight">Check if the Logical Channel Number has a given value.  <a href="#a8f509a88e4e868a84ecf5122557c8707">More...</a><br /></td></tr>
 <tr class="separator:a8f509a88e4e868a84ecf5122557c8707"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a5e3da9c689bcf3bda31828e31a07f21f"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classts_1_1_service.html#a5e3da9c689bcf3bda31828e31a07f21f">hasName</a> (const <a class="el" href="classts_1_1_u_string.html">UString</a> &amp;value) const</td></tr>
-<tr class="memdesc:a5e3da9c689bcf3bda31828e31a07f21f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Check if the <a class="el" href="classts_1_1_service.html" title="Describe a DVB service. ">Service</a> Name has a given value.  <a href="#a5e3da9c689bcf3bda31828e31a07f21f">More...</a><br /></td></tr>
-<tr class="separator:a5e3da9c689bcf3bda31828e31a07f21f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a6f373d82db6861631c0b2ad4a4047d92"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classts_1_1_service.html#a6f373d82db6861631c0b2ad4a4047d92">hasName</a> () const</td></tr>
 <tr class="memdesc:a6f373d82db6861631c0b2ad4a4047d92"><td class="mdescLeft">&#160;</td><td class="mdescRight">Check if the <a class="el" href="classts_1_1_service.html" title="Describe a DVB service. ">Service</a> Name is present.  <a href="#a6f373d82db6861631c0b2ad4a4047d92">More...</a><br /></td></tr>
 <tr class="separator:a6f373d82db6861631c0b2ad4a4047d92"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aa5d80823f8c81d03851d96e9f644c220"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classts_1_1_service.html#aa5d80823f8c81d03851d96e9f644c220">hasONId</a> (uint16_t value) const</td></tr>
-<tr class="memdesc:aa5d80823f8c81d03851d96e9f644c220"><td class="mdescLeft">&#160;</td><td class="mdescRight">Check if the Original Network Id has a given value.  <a href="#aa5d80823f8c81d03851d96e9f644c220">More...</a><br /></td></tr>
-<tr class="separator:aa5d80823f8c81d03851d96e9f644c220"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5e3da9c689bcf3bda31828e31a07f21f"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classts_1_1_service.html#a5e3da9c689bcf3bda31828e31a07f21f">hasName</a> (const <a class="el" href="classts_1_1_u_string.html">UString</a> &amp;value) const</td></tr>
+<tr class="memdesc:a5e3da9c689bcf3bda31828e31a07f21f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Check if the <a class="el" href="classts_1_1_service.html" title="Describe a DVB service. ">Service</a> Name has a given value.  <a href="#a5e3da9c689bcf3bda31828e31a07f21f">More...</a><br /></td></tr>
+<tr class="separator:a5e3da9c689bcf3bda31828e31a07f21f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aebd850f3ca5de6e3c943d2890eeb05fa"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classts_1_1_service.html#aebd850f3ca5de6e3c943d2890eeb05fa">hasONId</a> () const</td></tr>
 <tr class="memdesc:aebd850f3ca5de6e3c943d2890eeb05fa"><td class="mdescLeft">&#160;</td><td class="mdescRight">Check if the Original Network Id is present.  <a href="#aebd850f3ca5de6e3c943d2890eeb05fa">More...</a><br /></td></tr>
 <tr class="separator:aebd850f3ca5de6e3c943d2890eeb05fa"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a5163091ffb069ec27c7a239526452b44"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classts_1_1_service.html#a5163091ffb069ec27c7a239526452b44">hasPMTPID</a> (<a class="el" href="namespacets.html#a90e2f5f7d7011d87cc23a8fef31958dc">PID</a> value) const</td></tr>
-<tr class="memdesc:a5163091ffb069ec27c7a239526452b44"><td class="mdescLeft">&#160;</td><td class="mdescRight">Check if the <a class="el" href="classts_1_1_p_m_t.html" title="Representation of a Program Map Table (PMT) ">PMT</a> PID has a given value.  <a href="#a5163091ffb069ec27c7a239526452b44">More...</a><br /></td></tr>
-<tr class="separator:a5163091ffb069ec27c7a239526452b44"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa5d80823f8c81d03851d96e9f644c220"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classts_1_1_service.html#aa5d80823f8c81d03851d96e9f644c220">hasONId</a> (uint16_t value) const</td></tr>
+<tr class="memdesc:aa5d80823f8c81d03851d96e9f644c220"><td class="mdescLeft">&#160;</td><td class="mdescRight">Check if the Original Network Id has a given value.  <a href="#aa5d80823f8c81d03851d96e9f644c220">More...</a><br /></td></tr>
+<tr class="separator:aa5d80823f8c81d03851d96e9f644c220"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a30efcb11f9ea8f6c1464e5396288f049"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classts_1_1_service.html#a30efcb11f9ea8f6c1464e5396288f049">hasPMTPID</a> () const</td></tr>
 <tr class="memdesc:a30efcb11f9ea8f6c1464e5396288f049"><td class="mdescLeft">&#160;</td><td class="mdescRight">Check if the <a class="el" href="classts_1_1_p_m_t.html" title="Representation of a Program Map Table (PMT) ">PMT</a> PID is present.  <a href="#a30efcb11f9ea8f6c1464e5396288f049">More...</a><br /></td></tr>
 <tr class="separator:a30efcb11f9ea8f6c1464e5396288f049"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5163091ffb069ec27c7a239526452b44"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classts_1_1_service.html#a5163091ffb069ec27c7a239526452b44">hasPMTPID</a> (<a class="el" href="namespacets.html#a90e2f5f7d7011d87cc23a8fef31958dc">PID</a> value) const</td></tr>
+<tr class="memdesc:a5163091ffb069ec27c7a239526452b44"><td class="mdescLeft">&#160;</td><td class="mdescRight">Check if the <a class="el" href="classts_1_1_p_m_t.html" title="Representation of a Program Map Table (PMT) ">PMT</a> PID has a given value.  <a href="#a5163091ffb069ec27c7a239526452b44">More...</a><br /></td></tr>
+<tr class="separator:a5163091ffb069ec27c7a239526452b44"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ab40b01fbc6732d0c208bb0f7da7186e5"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classts_1_1_service.html#ab40b01fbc6732d0c208bb0f7da7186e5">hasProvider</a> (const <a class="el" href="classts_1_1_u_string.html">UString</a> &amp;value) const</td></tr>
 <tr class="memdesc:ab40b01fbc6732d0c208bb0f7da7186e5"><td class="mdescLeft">&#160;</td><td class="mdescRight">Check if the Provider Name has a given value.  <a href="#ab40b01fbc6732d0c208bb0f7da7186e5">More...</a><br /></td></tr>
 <tr class="separator:ab40b01fbc6732d0c208bb0f7da7186e5"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -290,21 +302,21 @@ void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="clas
 <tr class="memitem:a666ff5b8547b9dd71a3d716978360d04"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classts_1_1_service.html#a666ff5b8547b9dd71a3d716978360d04">hasRunningStatus</a> (uint8_t value) const</td></tr>
 <tr class="memdesc:a666ff5b8547b9dd71a3d716978360d04"><td class="mdescLeft">&#160;</td><td class="mdescRight">Check if the Running status (as declared in the <a class="el" href="classts_1_1_s_d_t.html" title="Representation of a Service Description Table (SDT). ">SDT</a>) has a given value.  <a href="#a666ff5b8547b9dd71a3d716978360d04">More...</a><br /></td></tr>
 <tr class="separator:a666ff5b8547b9dd71a3d716978360d04"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a92dd2b6e2d8eed12c25243bcc29108bd"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classts_1_1_service.html#a92dd2b6e2d8eed12c25243bcc29108bd">hasTSId</a> (uint16_t value) const</td></tr>
-<tr class="memdesc:a92dd2b6e2d8eed12c25243bcc29108bd"><td class="mdescLeft">&#160;</td><td class="mdescRight">Check if the Transport Stream Id has a given value.  <a href="#a92dd2b6e2d8eed12c25243bcc29108bd">More...</a><br /></td></tr>
-<tr class="separator:a92dd2b6e2d8eed12c25243bcc29108bd"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a120e3e8e6a17991d3d9b1cfc482dff93"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classts_1_1_service.html#a120e3e8e6a17991d3d9b1cfc482dff93">hasTSId</a> () const</td></tr>
 <tr class="memdesc:a120e3e8e6a17991d3d9b1cfc482dff93"><td class="mdescLeft">&#160;</td><td class="mdescRight">Check if the Transport Stream Id is present.  <a href="#a120e3e8e6a17991d3d9b1cfc482dff93">More...</a><br /></td></tr>
 <tr class="separator:a120e3e8e6a17991d3d9b1cfc482dff93"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a220d0a7d86e0ee6cf13e97c0a2c79d90"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classts_1_1_service.html#a220d0a7d86e0ee6cf13e97c0a2c79d90">hasType</a> () const</td></tr>
-<tr class="memdesc:a220d0a7d86e0ee6cf13e97c0a2c79d90"><td class="mdescLeft">&#160;</td><td class="mdescRight">Check if the <a class="el" href="classts_1_1_service.html" title="Describe a DVB service. ">Service</a> Type (as declared in service_descriptor) is present.  <a href="#a220d0a7d86e0ee6cf13e97c0a2c79d90">More...</a><br /></td></tr>
-<tr class="separator:a220d0a7d86e0ee6cf13e97c0a2c79d90"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a92dd2b6e2d8eed12c25243bcc29108bd"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classts_1_1_service.html#a92dd2b6e2d8eed12c25243bcc29108bd">hasTSId</a> (uint16_t value) const</td></tr>
+<tr class="memdesc:a92dd2b6e2d8eed12c25243bcc29108bd"><td class="mdescLeft">&#160;</td><td class="mdescRight">Check if the Transport Stream Id has a given value.  <a href="#a92dd2b6e2d8eed12c25243bcc29108bd">More...</a><br /></td></tr>
+<tr class="separator:a92dd2b6e2d8eed12c25243bcc29108bd"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a6cb0ad7c21476916fd8175d873691b0b"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classts_1_1_service.html#a6cb0ad7c21476916fd8175d873691b0b">hasType</a> (uint8_t value) const</td></tr>
 <tr class="memdesc:a6cb0ad7c21476916fd8175d873691b0b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Check if the <a class="el" href="classts_1_1_service.html" title="Describe a DVB service. ">Service</a> Type (as declared in service_descriptor) has a given value.  <a href="#a6cb0ad7c21476916fd8175d873691b0b">More...</a><br /></td></tr>
 <tr class="separator:a6cb0ad7c21476916fd8175d873691b0b"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ac8a160a9041f725d4d47114f86f47c7d"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classts_1_1_service.html#ac8a160a9041f725d4d47114f86f47c7d">set</a> (const <a class="el" href="classts_1_1_u_string.html">UString</a> &amp;desc)</td></tr>
-<tr class="memdesc:ac8a160a9041f725d4d47114f86f47c7d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Reset using a string description.  <a href="#ac8a160a9041f725d4d47114f86f47c7d">More...</a><br /></td></tr>
-<tr class="separator:ac8a160a9041f725d4d47114f86f47c7d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a220d0a7d86e0ee6cf13e97c0a2c79d90"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classts_1_1_service.html#a220d0a7d86e0ee6cf13e97c0a2c79d90">hasType</a> () const</td></tr>
+<tr class="memdesc:a220d0a7d86e0ee6cf13e97c0a2c79d90"><td class="mdescLeft">&#160;</td><td class="mdescRight">Check if the <a class="el" href="classts_1_1_service.html" title="Describe a DVB service. ">Service</a> Type (as declared in service_descriptor) is present.  <a href="#a220d0a7d86e0ee6cf13e97c0a2c79d90">More...</a><br /></td></tr>
+<tr class="separator:a220d0a7d86e0ee6cf13e97c0a2c79d90"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2d0724b78601d2931648cfe3e56e3953"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classts_1_1_service.html#a2d0724b78601d2931648cfe3e56e3953">set</a> (const <a class="el" href="classts_1_1_u_string.html">UString</a> &amp;desc)</td></tr>
+<tr class="memdesc:a2d0724b78601d2931648cfe3e56e3953"><td class="mdescLeft">&#160;</td><td class="mdescRight">Reset using a string description.  <a href="#a2d0724b78601d2931648cfe3e56e3953">More...</a><br /></td></tr>
+<tr class="separator:a2d0724b78601d2931648cfe3e56e3953"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ae3eeed7c57451fc3748f43f7923587a3"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classts_1_1_service.html#ae3eeed7c57451fc3748f43f7923587a3">setCAControlled</a> (bool value)</td></tr>
 <tr class="memdesc:ae3eeed7c57451fc3748f43f7923587a3"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set the CA-controlled (as declared in the <a class="el" href="classts_1_1_s_d_t.html" title="Representation of a Service Description Table (SDT). ">SDT</a>) .  <a href="#ae3eeed7c57451fc3748f43f7923587a3">More...</a><br /></td></tr>
 <tr class="separator:ae3eeed7c57451fc3748f43f7923587a3"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -437,20 +449,28 @@ Static Public Member Functions</h2></td></tr>
 </div>
 </div>
 <h2 class="groupheader">Member Function Documentation</h2>
-<a id="ac8a160a9041f725d4d47114f86f47c7d"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ac8a160a9041f725d4d47114f86f47c7d">&#9670;&nbsp;</a></span>set()</h2>
+<a id="a2d0724b78601d2931648cfe3e56e3953"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2d0724b78601d2931648cfe3e56e3953">&#9670;&nbsp;</a></span>set()</h2>
 
 <div class="memitem">
 <div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">void ts::Service::set </td>
+          <td class="memname">virtual void ts::Service::set </td>
           <td>(</td>
           <td class="paramtype">const <a class="el" href="classts_1_1_u_string.html">UString</a> &amp;&#160;</td>
           <td class="paramname"><em>desc</em></td><td>)</td>
           <td></td>
         </tr>
       </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
 </div><div class="memdoc">
 
 <p>Reset using a string description. </p>
@@ -460,6 +480,8 @@ Static Public Member Functions</h2></td></tr>
   </table>
   </dd>
 </dl>
+
+<p>Reimplemented in <a class="el" href="classts_1_1_service_discovery.html#aff102b71dd155941d05c875b0469fb55">ts::ServiceDiscovery</a>.</p>
 
 </div>
 </div>

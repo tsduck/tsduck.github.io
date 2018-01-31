@@ -37,7 +37,7 @@
  <tr style="height: 56px;">
   <td id="projectlogo"><img src="tsduck-32.png"/></td>
    <td id="projectalign"><span id="projectname">TSDuck</span>
-    <span id="projectnumber">Version 3.6</span>
+    <span id="projectnumber">Version 3.7</span>
     <span id="projectbrief">(TSDuck - The MPEG Transport Stream Toolkit)</span>
    </td>
    <td>        <div id="MSearchBox" class="MSearchBoxInactive">
@@ -131,9 +131,9 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a2651d1362bbfa7a6f394712762c34d43"><td class="memItemLeft" align="right" valign="top">size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classts_1_1_plugin_repository.html#a2651d1362bbfa7a6f394712762c34d43">inputCount</a> () const</td></tr>
 <tr class="memdesc:a2651d1362bbfa7a6f394712762c34d43"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the number of registered input plugins.  <a href="#a2651d1362bbfa7a6f394712762c34d43">More...</a><br /></td></tr>
 <tr class="separator:a2651d1362bbfa7a6f394712762c34d43"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ade381ff5d5510f2165730d69e1f37593"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classts_1_1_plugin_repository.html#ade381ff5d5510f2165730d69e1f37593">listPlugins</a> (bool loadAll, std::ostream &amp;strm, <a class="el" href="classts_1_1_report.html">Report</a> &amp;report)</td></tr>
-<tr class="memdesc:ade381ff5d5510f2165730d69e1f37593"><td class="mdescLeft">&#160;</td><td class="mdescRight">List all tsp processors.  <a href="#ade381ff5d5510f2165730d69e1f37593">More...</a><br /></td></tr>
-<tr class="separator:ade381ff5d5510f2165730d69e1f37593"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:afcafab1333dc9344f3edd2c2291b2ebf"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classts_1_1_u_string.html">UString</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classts_1_1_plugin_repository.html#afcafab1333dc9344f3edd2c2291b2ebf">listPlugins</a> (bool loadAll, <a class="el" href="classts_1_1_report.html">Report</a> &amp;report)</td></tr>
+<tr class="memdesc:afcafab1333dc9344f3edd2c2291b2ebf"><td class="mdescLeft">&#160;</td><td class="mdescRight">List all tsp processors.  <a href="#afcafab1333dc9344f3edd2c2291b2ebf">More...</a><br /></td></tr>
+<tr class="separator:afcafab1333dc9344f3edd2c2291b2ebf"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:accadf33582d2622fecbfcfa613805d85"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classts_1_1_plugin_repository.html#accadf33582d2622fecbfcfa613805d85">loadAllPlugins</a> (<a class="el" href="classts_1_1_report.html">Report</a> &amp;report)</td></tr>
 <tr class="memdesc:accadf33582d2622fecbfcfa613805d85"><td class="mdescLeft">&#160;</td><td class="mdescRight">Load all available tsp processors.  <a href="#accadf33582d2622fecbfcfa613805d85">More...</a><br /></td></tr>
 <tr class="separator:accadf33582d2622fecbfcfa613805d85"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -563,23 +563,17 @@ Static Public Member Functions</h2></td></tr>
 
 </div>
 </div>
-<a id="ade381ff5d5510f2165730d69e1f37593"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ade381ff5d5510f2165730d69e1f37593">&#9670;&nbsp;</a></span>listPlugins()</h2>
+<a id="afcafab1333dc9344f3edd2c2291b2ebf"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#afcafab1333dc9344f3edd2c2291b2ebf">&#9670;&nbsp;</a></span>listPlugins()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">void ts::PluginRepository::listPlugins </td>
+          <td class="memname"><a class="el" href="classts_1_1_u_string.html">UString</a> ts::PluginRepository::listPlugins </td>
           <td>(</td>
           <td class="paramtype">bool&#160;</td>
           <td class="paramname"><em>loadAll</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">std::ostream &amp;&#160;</td>
-          <td class="paramname"><em>strm</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
@@ -599,11 +593,11 @@ Static Public Member Functions</h2></td></tr>
 <p>This function is typically used to implement the <code>tsp --list-processors</code> option. </p><dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramdir">[in]</td><td class="paramname">loadAll</td><td>When true, all available plugins are loaded first. Ignored when dynamic loading of plugins is disabled. </td></tr>
-    <tr><td class="paramdir">[in,out]</td><td class="paramname">strm</td><td>Where to output the list. </td></tr>
     <tr><td class="paramdir">[in,out]</td><td class="paramname">report</td><td>Where to report errors. </td></tr>
   </table>
   </dd>
 </dl>
+<dl class="section return"><dt>Returns</dt><dd>The text to display. </dd></dl>
 
 </div>
 </div>

@@ -47,5 +47,6 @@ var ts_names_8h =
     [ "NetworkId", "ts_names_8h.html#a9ae93223e43e1c60b2fcda250fa92969", null ],
     [ "DataBroadcastId", "ts_names_8h.html#a8c42180fc80c7901a51d15878253fe79", null ],
     [ "OUI", "ts_names_8h.html#ae0119ce83d3dd6ed7f101b77e2346d30", null ],
-    [ "T2MIPacketType", "ts_names_8h.html#abcbffa236179c3caa6e36a5466fe22f6", null ]
+    [ "T2MIPacketType", "ts_names_8h.html#abcbffa236179c3caa6e36a5466fe22f6", null ],
+    [ "DVBNameFromSection", "ts_names_8h.html#ad27a0ff576ad6a94748d1afb1a87b705", null ]
 ];

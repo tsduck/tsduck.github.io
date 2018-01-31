@@ -22,6 +22,7 @@ var searchData=
   ['_5fmax_5fseverity',['_max_severity',['../classts_1_1_report.html#a2fa24775812831ffc0a12d7efda4c6d7',1,'ts::Report']]],
   ['_5fmutex',['_mutex',['../classts_1_1_t_c_p_socket.html#a20a99d0f6a860d0f6c5c3f83684bae1a',1,'ts::TCPSocket']]],
   ['_5fname',['_name',['../classts_1_1tsp_1_1_plugin_executor.html#a8387bb0060aaf411b35e7b2a495ab06e',1,'ts::tsp::PluginExecutor']]],
+  ['_5fpacket_5fcount',['_packet_count',['../classts_1_1_abstract_demux.html#a18aa49934a3c2a0cd1d7559bda2fa06c',1,'ts::AbstractDemux']]],
   ['_5fpcr_5fpid_5fcnt',['_pcr_pid_cnt',['../classts_1_1_t_s_analyzer.html#a396eeedf8896fb0ea67b4a6a5be7e3f5',1,'ts::TSAnalyzer']]],
   ['_5fpid_5fcnt',['_pid_cnt',['../classts_1_1_t_s_analyzer.html#a528f0ea0eb92c738a2652d9cf8c47f7a',1,'ts::TSAnalyzer']]],
   ['_5fpid_5ffilter',['_pid_filter',['../classts_1_1_abstract_demux.html#a50a41e649f26188b3f812696460acf87',1,'ts::AbstractDemux']]],

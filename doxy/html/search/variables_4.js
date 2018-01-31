@@ -94,6 +94,7 @@ var searchData=
   ['dump',['dump',['../classts_1_1_p_s_i_logger_args.html#aaa2972d263582e3c8b37209b9d8c734c',1,'ts::PSILoggerArgs']]],
   ['duplicated',['duplicated',['../classts_1_1_t_s_analyzer_1_1_p_i_d_context.html#aa41ec9524d66cd21a509a0778f9e0729',1,'ts::TSAnalyzer::PIDContext']]],
   ['duration',['duration',['../classts_1_1_e_i_t_1_1_event.html#abb47ae9d2daf3a0246cc9fcac7960318',1,'ts::EIT::Event']]],
+  ['duration_5fpts',['duration_pts',['../classts_1_1_splice_insert.html#a79833de4c146199cb42ba6c5e41a92d0',1,'ts::SpliceInsert']]],
   ['dvb_5fcodepoint_5fcrlf',['DVB_CODEPOINT_CRLF',['../classts_1_1_d_v_b_charset.html#a3da568e0cf089552a9c209644f938e48',1,'ts::DVBCharset']]],
   ['dvb_5fsingle_5fbyte_5fcrlf',['DVB_SINGLE_BYTE_CRLF',['../classts_1_1_d_v_b_charset.html#a0b019e019c7acdff9a4cf74c57305946',1,'ts::DVBCharset']]],
   ['dvbs2',['dvbS2',['../classts_1_1_satellite_delivery_system_descriptor.html#ab6a6369c7e450e453a02f26076351aea',1,'ts::SatelliteDeliverySystemDescriptor']]]

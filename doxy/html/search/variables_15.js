@@ -25,6 +25,7 @@ var searchData=
   ['upwards_5fdouble_5farrow',['UPWARDS_DOUBLE_ARROW',['../namespacets.html#a5f5a72764ad351382d4e9bf7bfadbf9f',1,'ts']]],
   ['url',['url',['../structts_1_1_git_hub_release_1_1_asset.html#a30a1c51dda1dee874e63c517e10bee63',1,'ts::GitHubRelease::Asset']]],
   ['use_5fbinary',['use_binary',['../classts_1_1_tables_logger_args.html#a7545e8760bbfc3ccb4c059159439016a',1,'ts::TablesLoggerArgs']]],
+  ['use_5fduration',['use_duration',['../classts_1_1_splice_insert.html#ac2ad45a643db7b7942a83fca196c1efb',1,'ts::SpliceInsert']]],
   ['use_5ftext',['use_text',['../classts_1_1_tables_logger_args.html#a112cb5b55bf737495e93b682fe408470',1,'ts::TablesLoggerArgs']]],
   ['use_5fudp',['use_udp',['../classts_1_1_tables_logger_args.html#a9a1fce84e3460f01ae7fad423ecc92da',1,'ts::TablesLoggerArgs']]],
   ['use_5fxml',['use_xml',['../classts_1_1_tables_logger_args.html#aab2174afecf2cabf33c0d5c772ff0f7f',1,'ts::TablesLoggerArgs']]],

@@ -3,6 +3,8 @@ var classts_1_1_c_a_descriptor =
     [ "CADescriptor", "classts_1_1_c_a_descriptor.html#a836d505d2be4105baa9dc2a21610e188", null ],
     [ "CADescriptor", "classts_1_1_c_a_descriptor.html#a7047eaee1f3c4eaa66fa0144448c130d", null ],
     [ "DisplayDescriptor", "classts_1_1_c_a_descriptor.html#a44588367a6d4bb8802b7082227437b6d", null ],
+    [ "fromCommmandLine", "classts_1_1_c_a_descriptor.html#a4d3e989bcafb23e1ae887fb671efedad", null ],
+    [ "AddFromCommandLine", "classts_1_1_c_a_descriptor.html#a612c0d1bfb96b27f108ad36bb764b9b9", null ],
     [ "serialize", "classts_1_1_c_a_descriptor.html#a2dd0a42fce3f579ff32e6935cd45d293", null ],
     [ "deserialize", "classts_1_1_c_a_descriptor.html#a9f9f224f20f82b1b604f159160f0156b", null ],
     [ "buildXML", "classts_1_1_c_a_descriptor.html#aecc201543b01766b682788da578ed214", null ],

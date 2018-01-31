@@ -26,6 +26,7 @@ var searchData=
   ['nextyearutc',['NextYearUTC',['../classts_1_1_time.html#a1e5bf71bb2d8b037f5cff2fb0ef86566',1,'ts::Time']]],
   ['nit',['NIT',['../classts_1_1_n_i_t.html#a543d285f56cf11e76159738dc488d752',1,'ts::NIT::NIT(bool is_actual=true, uint8_t vers=0, bool cur=true, uint16_t id=0)'],['../classts_1_1_n_i_t.html#a71d627a8b0e29accb74d4bc715c06a5b',1,'ts::NIT::NIT(const BinaryTable &amp;table, const DVBCharset *charset=0)']]],
   ['node',['Node',['../classts_1_1xml_1_1_node.html#ad8a2f0f3ff968278529caf0abc8ae25a',1,'ts::xml::Node::Node(Report &amp;report, size_t line=0)'],['../classts_1_1xml_1_1_node.html#a5d192d19f818b55d1ed6de4befd7cb40',1,'ts::xml::Node::Node(Node *parent, const UString &amp;value=UString(), bool last=true)']]],
+  ['nonexistentservice',['nonExistentService',['../classts_1_1_service_discovery.html#a104259f15a3f64783b3f9fccd20c6234',1,'ts::ServiceDiscovery']]],
   ['normalized',['normalized',['../structts_1_1_transport_stream_id.html#a709eed3d7ecb3817c37a437300a355a8',1,'ts::TransportStreamId']]],
   ['normalizenumbering',['NormalizeNumbering',['../classts_1_1_extended_event_descriptor.html#aca3b3ed2fb480ca7b78e71e275b3a07f',1,'ts::ExtendedEventDescriptor']]],
   ['notifyenvironmentchange',['NotifyEnvironmentChange',['../classts_1_1_registry.html#aca0041c59c6b3950604a77a926239520',1,'ts::Registry']]],

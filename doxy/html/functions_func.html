@@ -37,7 +37,7 @@
  <tr style="height: 56px;">
   <td id="projectlogo"><img src="tsduck-32.png"/></td>
    <td id="projectalign"><span id="projectname">TSDuck</span>
-    <span id="projectnumber">Version 3.6</span>
+    <span id="projectnumber">Version 3.7</span>
     <span id="projectbrief">(TSDuck - The MPEG Transport Stream Toolkit)</span>
    </td>
    <td>        <div id="MSearchBox" class="MSearchBoxInactive">
@@ -194,6 +194,12 @@ $(document).ready(function(){initNavTree('functions_func.html','');});
 <li>addFilter()
 : <a class="el" href="classts_1_1_direct_show_graph.html#ae2e3f90bce93e8bb4dfe6a0520fc4a9c">ts::DirectShowGraph</a>
 </li>
+<li>addFrame()
+: <a class="el" href="classts_1_1_sub_rip_generator.html#ae0477bd02cf74ebc19308764db7ce391">ts::SubRipGenerator</a>
+</li>
+<li>AddFromCommandLine()
+: <a class="el" href="classts_1_1_c_a_descriptor.html#a612c0d1bfb96b27f108ad36bb764b9b9">ts::CADescriptor</a>
+</li>
 <li>addHelp()
 : <a class="el" href="classts_1_1_c_a_s_selection_args.html#a078f898cfd45bd4fd16ca1ed4d7d4a20">ts::CASSelectionArgs</a>
 , <a class="el" href="classts_1_1_p_s_i_logger_args.html#ac1cae326a0ad6cf78cf336d007d17449">ts::PSILoggerArgs</a>
@@ -203,6 +209,9 @@ $(document).ready(function(){initNavTree('functions_func.html','');});
 </li>
 <li>addHexaText()
 : <a class="el" href="classts_1_1xml_1_1_element.html#a66eef12d0129890d163b37c096e772aa">ts::xml::Element</a>
+</li>
+<li>addLine()
+: <a class="el" href="classts_1_1_teletext_frame.html#ad7b1a2e6714ebe15db080da3c5b523f6">ts::TeletextFrame</a>
 </li>
 <li>addMatchingPIDs()
 : <a class="el" href="classts_1_1_c_a_s_selection_args.html#a7ae7dc992d99600583f7cc5def21f0d2">ts::CASSelectionArgs</a>
@@ -254,6 +263,9 @@ $(document).ready(function(){initNavTree('functions_func.html','');});
 <li>addViaccess()
 : <a class="el" href="classts_1_1_p_i_d_operator_set.html#abe641704c3d216298ea0d1d70f8bce46">ts::PIDOperatorSet</a>
 </li>
+<li>adjustPTS()
+: <a class="el" href="classts_1_1_splice_insert.html#a3e9b73531066a9742e1853f943c3555c">ts::SpliceInsert</a>
+</li>
 <li>AES()
 : <a class="el" href="classts_1_1_a_e_s.html#a5f15e9c886282843f6892a676e1e15e0">ts::AES</a>
 </li>
@@ -277,7 +289,7 @@ $(document).ready(function(){initNavTree('functions_func.html','');});
 : <a class="el" href="classts_1_1tlv_1_1_analyzer.html#ad45590b27c245acc2be8f9e4f9907fdf">ts::tlv::Analyzer</a>
 </li>
 <li>append()
-: <a class="el" href="classts_1_1_byte_block.html#a7e6bdf5c2888d6106e80e4fe451ca4a6">ts::ByteBlock</a>
+: <a class="el" href="classts_1_1_byte_block.html#a414de53443d26210ec10be958d6f7715">ts::ByteBlock</a>
 </li>
 <li>Append()
 : <a class="el" href="classts_1_1_u_string.html#adbb773145eef27188125e102d1f491c5">ts::UString</a>
@@ -391,13 +403,13 @@ $(document).ready(function(){initNavTree('functions_func.html','');});
 : <a class="el" href="classts_1_1_arg_mix_in.html#aa3c46bc9bb2dbbdc8792301950eab48a">ts::ArgMixIn</a>
 </li>
 <li>ArgMixOut()
-: <a class="el" href="classts_1_1_arg_mix_out.html#acfd258fddd51c4aec217a07dc8e9dfcd">ts::ArgMixOut</a>
+: <a class="el" href="classts_1_1_arg_mix_out.html#a26d544da21d9c649706773405a6fb37e">ts::ArgMixOut</a>
 </li>
 <li>Args()
 : <a class="el" href="classts_1_1_args.html#a6cdc61d1b63c469787e78f69db05c4c8">ts::Args</a>
 </li>
 <li>ArgsError()
-: <a class="el" href="classts_1_1_args_1_1_args_error.html#a8c45c9201df4df8ffc13e1b2dec40462">ts::Args::ArgsError</a>
+: <a class="el" href="classts_1_1_args_1_1_args_error.html#ae837c646f6bbe2de205e51deb1eca581">ts::Args::ArgsError</a>
 </li>
 <li>Array()
 : <a class="el" href="classts_1_1json_1_1_array.html#a8c182dc7407971ef0cfffd853ef06f1a">ts::json::Array</a>
@@ -416,22 +428,22 @@ $(document).ready(function(){initNavTree('functions_func.html','');});
 </li>
 <li>assign()
 : <a class="el" href="classts_1_1_com_ptr.html#aebd29383a1b1ce32e0b94485b421c22b">ts::ComPtr&lt; COMCLASS &gt;</a>
-, <a class="el" href="classts_1_1_u_string.html#aedc017319630b84e5e355771efe4b39c">ts::UString</a>
-</li>
-<li>Assign()
-: <a class="el" href="classts_1_1_u_string.html#a47539b2921afa55f75b49bee47770dc5">ts::UString</a>
-</li>
-<li>assign()
-: <a class="el" href="classts_1_1_u_string.html#aec8f8622c7db313e6e725463b3923996">ts::UString</a>
+, <a class="el" href="classts_1_1_u_string.html#aaee8b02a88e409c18afb41b3a7c68b67">ts::UString</a>
 </li>
 <li>Assign()
 : <a class="el" href="classts_1_1_u_string.html#a2e3bb6eaa7ad0eb248c94d5ea40e5aef">ts::UString</a>
 </li>
 <li>assign()
-: <a class="el" href="classts_1_1_u_string.html#aaee8b02a88e409c18afb41b3a7c68b67">ts::UString</a>
+: <a class="el" href="classts_1_1_u_string.html#aedc017319630b84e5e355771efe4b39c">ts::UString</a>
+</li>
+<li>Assign()
+: <a class="el" href="classts_1_1_u_string.html#a47539b2921afa55f75b49bee47770dc5">ts::UString</a>
+</li>
+<li>assign()
+: <a class="el" href="classts_1_1_u_string.html#a2d4c0789989342c0cca83f38c27cace9">ts::UString</a>
 </li>
 <li>assignFromUTF8()
-: <a class="el" href="classts_1_1_u_string.html#a9ee876ece8dca88451f3a0ceefc503c5">ts::UString</a>
+: <a class="el" href="classts_1_1_u_string.html#a967764daaa4aff678e7cc605a6cd1ed5">ts::UString</a>
 </li>
 <li>AsyncReport()
 : <a class="el" href="classts_1_1_async_report.html#a008396def096eb2122e3acdb132527f9">ts::AsyncReport</a>
@@ -465,7 +477,7 @@ $(document).ready(function(){initNavTree('functions_func.html','');});
 : <a class="el" href="classts_1_1_audio_language_options.html#ae13d469fc5f4d016198627c1ff705206">ts::AudioLanguageOptions</a>
 </li>
 <li>AudioLanguageOptionsVector()
-: <a class="el" href="classts_1_1_audio_language_options_vector.html#acffb088d06d3d2442ba79fdb0ee8584b">ts::AudioLanguageOptionsVector</a>
+: <a class="el" href="classts_1_1_audio_language_options_vector.html#a3a8092aa05909fa9ab66e65d46f2c4ac">ts::AudioLanguageOptionsVector</a>
 </li>
 <li>AVCAttributes()
 : <a class="el" href="classts_1_1_a_v_c_attributes.html#a3c6a7a6e0f764a711511b873750cfeec">ts::AVCAttributes</a>

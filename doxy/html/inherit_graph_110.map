@@ -1,3 +1,4 @@
 <map id="Graphical Class Hierarchy" name="Graphical Class Hierarchy">
-<area shape="rect" id="node1" href="$classts_1_1_registry.html" title="A class to encapsulate the access to the Windows registry. " alt="" coords="5,5,93,31"/>
+<area shape="rect" id="node1" href="$classts_1_1_random_generator.html" title="Abstract base class for PRNG&#39;s (pseudo&#45;random numbers generators). " alt="" coords="5,5,155,31"/>
+<area shape="rect" id="node2" href="$classts_1_1_system_random_generator.html" title="System&#45;provided PRNG (pseudo&#45;random numbers generator). " alt="" coords="203,5,397,31"/>
 </map>

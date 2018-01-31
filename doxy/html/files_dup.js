@@ -439,6 +439,9 @@ var files_dup =
       [ "PMT", "classts_1_1_p_m_t.html", "classts_1_1_p_m_t" ],
       [ "Stream", "structts_1_1_p_m_t_1_1_stream.html", "structts_1_1_p_m_t_1_1_stream" ]
     ] ],
+    [ "tsPMTHandlerInterface.h", "ts_p_m_t_handler_interface_8h.html", [
+      [ "PMTHandlerInterface", "classts_1_1_p_m_t_handler_interface.html", "classts_1_1_p_m_t_handler_interface" ]
+    ] ],
     [ "tsPollFiles.h", "ts_poll_files_8h.html", "ts_poll_files_8h" ],
     [ "tspOptions.h", "tsp_options_8h.html", "tsp_options_8h" ],
     [ "tspOutputExecutor.h", "tsp_output_executor_8h.html", [
@@ -524,6 +527,9 @@ var files_dup =
     [ "tsServiceDescriptor.h", "ts_service_descriptor_8h.html", [
       [ "ServiceDescriptor", "classts_1_1_service_descriptor.html", "classts_1_1_service_descriptor" ]
     ] ],
+    [ "tsServiceDiscovery.h", "ts_service_discovery_8h.html", [
+      [ "ServiceDiscovery", "classts_1_1_service_discovery.html", "classts_1_1_service_discovery" ]
+    ] ],
     [ "tsServiceListDescriptor.h", "ts_service_list_descriptor_8h.html", [
       [ "Entry", "structts_1_1_service_list_descriptor_1_1_entry.html", "structts_1_1_service_list_descriptor_1_1_entry" ],
       [ "ServiceListDescriptor", "classts_1_1_service_list_descriptor.html", "classts_1_1_service_list_descriptor" ]
@@ -563,6 +569,9 @@ var files_dup =
     [ "tsSpliceInfoTable.h", "ts_splice_info_table_8h.html", [
       [ "SpliceInfoTable", "classts_1_1_splice_info_table.html", "classts_1_1_splice_info_table" ]
     ] ],
+    [ "tsSpliceInsert.h", "ts_splice_insert_8h.html", [
+      [ "SpliceInsert", "classts_1_1_splice_insert.html", "classts_1_1_splice_insert" ]
+    ] ],
     [ "tsSSUDataBroadcastIdDescriptor.h", "ts_s_s_u_data_broadcast_id_descriptor_8h.html", [
       [ "Entry", "structts_1_1_s_s_u_data_broadcast_id_descriptor_1_1_entry.html", "structts_1_1_s_s_u_data_broadcast_id_descriptor_1_1_entry" ],
       [ "SSUDataBroadcastIdDescriptor", "classts_1_1_s_s_u_data_broadcast_id_descriptor.html", "classts_1_1_s_s_u_data_broadcast_id_descriptor" ]
@@ -583,6 +592,9 @@ var files_dup =
     ] ],
     [ "tsStreamIdentifierDescriptor.h", "ts_stream_identifier_descriptor_8h.html", [
       [ "StreamIdentifierDescriptor", "classts_1_1_stream_identifier_descriptor.html", "classts_1_1_stream_identifier_descriptor" ]
+    ] ],
+    [ "tsSubRipGenerator.h", "ts_sub_rip_generator_8h.html", [
+      [ "SubRipGenerator", "classts_1_1_sub_rip_generator.html", "classts_1_1_sub_rip_generator" ]
     ] ],
     [ "tsSubtitlingDescriptor.h", "ts_subtitling_descriptor_8h.html", [
       [ "Entry", "structts_1_1_subtitling_descriptor_1_1_entry.html", "structts_1_1_subtitling_descriptor_1_1_entry" ],
@@ -638,9 +650,21 @@ var files_dup =
     [ "tsTDT.h", "ts_t_d_t_8h.html", [
       [ "TDT", "classts_1_1_t_d_t.html", "classts_1_1_t_d_t" ]
     ] ],
+    [ "tsTeletextCharset.h", "ts_teletext_charset_8h.html", [
+      [ "TeletextCharset", "classts_1_1_teletext_charset.html", "classts_1_1_teletext_charset" ]
+    ] ],
+    [ "tsTeletextDemux.h", "ts_teletext_demux_8h.html", [
+      [ "TeletextDemux", "classts_1_1_teletext_demux.html", "classts_1_1_teletext_demux" ]
+    ] ],
     [ "tsTeletextDescriptor.h", "ts_teletext_descriptor_8h.html", [
       [ "Entry", "structts_1_1_teletext_descriptor_1_1_entry.html", "structts_1_1_teletext_descriptor_1_1_entry" ],
       [ "TeletextDescriptor", "classts_1_1_teletext_descriptor.html", "classts_1_1_teletext_descriptor" ]
+    ] ],
+    [ "tsTeletextFrame.h", "ts_teletext_frame_8h.html", [
+      [ "TeletextFrame", "classts_1_1_teletext_frame.html", "classts_1_1_teletext_frame" ]
+    ] ],
+    [ "tsTeletextHandlerInterface.h", "ts_teletext_handler_interface_8h.html", [
+      [ "TeletextHandlerInterface", "classts_1_1_teletext_handler_interface.html", "classts_1_1_teletext_handler_interface" ]
     ] ],
     [ "tsTelnetConnection.h", "ts_telnet_connection_8h.html", [
       [ "TelnetConnection", "classts_1_1_telnet_connection.html", "classts_1_1_telnet_connection" ]
@@ -661,6 +685,9 @@ var files_dup =
       [ "ThreadAttributes", "classts_1_1_thread_attributes.html", "classts_1_1_thread_attributes" ]
     ] ],
     [ "tsTime.h", "ts_time_8h.html", "ts_time_8h" ],
+    [ "tsTimeTrackerDemux.h", "ts_time_tracker_demux_8h.html", [
+      [ "TimeTrackerDemux", "classts_1_1_time_tracker_demux.html", "classts_1_1_time_tracker_demux" ]
+    ] ],
     [ "tstlv.h", "tstlv_8h.html", "tstlv_8h" ],
     [ "tstlvAnalyzer.h", "tstlv_analyzer_8h.html", [
       [ "Analyzer", "classts_1_1tlv_1_1_analyzer.html", "classts_1_1tlv_1_1_analyzer" ]

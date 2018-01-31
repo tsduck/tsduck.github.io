@@ -37,7 +37,7 @@
  <tr style="height: 56px;">
   <td id="projectlogo"><img src="tsduck-32.png"/></td>
    <td id="projectalign"><span id="projectname">TSDuck</span>
-    <span id="projectnumber">Version 3.6</span>
+    <span id="projectnumber">Version 3.7</span>
     <span id="projectbrief">(TSDuck - The MPEG Transport Stream Toolkit)</span>
    </td>
    <td>        <div id="MSearchBox" class="MSearchBoxInactive">
@@ -121,18 +121,18 @@ Classes</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-types"></a>
 Public Types</h2></td></tr>
-<tr class="memitem:aef4121509ca64f67393bbd8d23534e1d"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom">{ <br />
-&#160;&#160;<a class="el" href="structts_1_1_t_s_packet.html#aef4121509ca64f67393bbd8d23534e1da0661d29ef0ff3984c2b1f960030b956b">DUMP_RAW</a> = 0x00010000, 
+<tr class="memitem:ab623625fe5a0898de1301a9e375cbda9"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom">{ <br />
+&#160;&#160;<a class="el" href="structts_1_1_t_s_packet.html#ab623625fe5a0898de1301a9e375cbda9a0661d29ef0ff3984c2b1f960030b956b">DUMP_RAW</a> = 0x00010000, 
 <br />
-&#160;&#160;<a class="el" href="structts_1_1_t_s_packet.html#aef4121509ca64f67393bbd8d23534e1dac57d1f3e8af481c662b8c117063ea348">DUMP_TS_HEADER</a> = 0x00020000, 
+&#160;&#160;<a class="el" href="structts_1_1_t_s_packet.html#ab623625fe5a0898de1301a9e375cbda9ac57d1f3e8af481c662b8c117063ea348">DUMP_TS_HEADER</a> = 0x00020000, 
 <br />
-&#160;&#160;<a class="el" href="structts_1_1_t_s_packet.html#aef4121509ca64f67393bbd8d23534e1daf278935d038f70428415ac88767b80dc">DUMP_PES_HEADER</a> = 0x00040000, 
+&#160;&#160;<a class="el" href="structts_1_1_t_s_packet.html#ab623625fe5a0898de1301a9e375cbda9af278935d038f70428415ac88767b80dc">DUMP_PES_HEADER</a> = 0x00040000, 
 <br />
-&#160;&#160;<a class="el" href="structts_1_1_t_s_packet.html#aef4121509ca64f67393bbd8d23534e1dafa5c6bfba7869de813ff48b1077c0e70">DUMP_PAYLOAD</a> = 0x00080000
+&#160;&#160;<a class="el" href="structts_1_1_t_s_packet.html#ab623625fe5a0898de1301a9e375cbda9afa5c6bfba7869de813ff48b1077c0e70">DUMP_PAYLOAD</a> = 0x00080000
 <br />
  }</td></tr>
-<tr class="memdesc:aef4121509ca64f67393bbd8d23534e1d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Options for packet display.  <a href="structts_1_1_t_s_packet.html#aef4121509ca64f67393bbd8d23534e1d">More...</a><br /></td></tr>
-<tr class="separator:aef4121509ca64f67393bbd8d23534e1d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memdesc:ab623625fe5a0898de1301a9e375cbda9"><td class="mdescLeft">&#160;</td><td class="mdescRight">Options for packet display.  <a href="structts_1_1_t_s_packet.html#ab623625fe5a0898de1301a9e375cbda9">More...</a><br /></td></tr>
+<tr class="separator:ab623625fe5a0898de1301a9e375cbda9"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
@@ -247,6 +247,9 @@ void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="stru
 <tr class="memitem:ad4d38a42da896f584d3ee4bf9a46847f"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structts_1_1_t_s_packet.html#ad4d38a42da896f584d3ee4bf9a46847f">setCC</a> (uint8_t cc)</td></tr>
 <tr class="memdesc:ad4d38a42da896f584d3ee4bf9a46847f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set continuity_counter (CC) - 4 bits.  <a href="#ad4d38a42da896f584d3ee4bf9a46847f">More...</a><br /></td></tr>
 <tr class="separator:ad4d38a42da896f584d3ee4bf9a46847f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aacbce8e8294845775e7e6b2007f38097"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structts_1_1_t_s_packet.html#aacbce8e8294845775e7e6b2007f38097">setDTS</a> (const uint64_t &amp;dts)</td></tr>
+<tr class="memdesc:aacbce8e8294845775e7e6b2007f38097"><td class="mdescLeft">&#160;</td><td class="mdescRight">Replace the DTS value - 33 bits.  <a href="#aacbce8e8294845775e7e6b2007f38097">More...</a><br /></td></tr>
+<tr class="separator:aacbce8e8294845775e7e6b2007f38097"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a892d20bfbbd0af454463dadfbafa1848"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structts_1_1_t_s_packet.html#a892d20bfbbd0af454463dadfbafa1848">setOPCR</a> (const uint64_t &amp;opcr)</td></tr>
 <tr class="memdesc:a892d20bfbbd0af454463dadfbafa1848"><td class="mdescLeft">&#160;</td><td class="mdescRight">Replace the OPCR value - 42 bits.  <a href="#a892d20bfbbd0af454463dadfbafa1848">More...</a><br /></td></tr>
 <tr class="separator:a892d20bfbbd0af454463dadfbafa1848"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -260,6 +263,9 @@ void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="stru
 void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structts_1_1_t_s_packet.html#a8aadfb74c30571752d2e25e679c4593f">setPriority</a> ()</td></tr>
 <tr class="memdesc:a8aadfb74c30571752d2e25e679c4593f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set transport_priority - 1 bit. <br /></td></tr>
 <tr class="separator:a8aadfb74c30571752d2e25e679c4593f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7491cdd8e02475ca02e28c8d0c157779"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structts_1_1_t_s_packet.html#a7491cdd8e02475ca02e28c8d0c157779">setPTS</a> (const uint64_t &amp;pts)</td></tr>
+<tr class="memdesc:a7491cdd8e02475ca02e28c8d0c157779"><td class="mdescLeft">&#160;</td><td class="mdescRight">Replace the PTS value - 33 bits.  <a href="#a7491cdd8e02475ca02e28c8d0c157779">More...</a><br /></td></tr>
+<tr class="separator:a7491cdd8e02475ca02e28c8d0c157779"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a5ca81e7620d3fbab25717907ae7e9b04"><td class="memItemLeft" align="right" valign="top"><a id="a5ca81e7620d3fbab25717907ae7e9b04"></a>
 void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structts_1_1_t_s_packet.html#a5ca81e7620d3fbab25717907ae7e9b04">setPUSI</a> ()</td></tr>
 <tr class="memdesc:a5ca81e7620d3fbab25717907ae7e9b04"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set payload_unit_start_indicator (PUSI) - 1 bit. <br /></td></tr>
@@ -296,8 +302,8 @@ uint8_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="s
 <p>Physically, an object of this class is exactly implemented as a 188-byte TS packets. It is safe to consider that arrays or vectors of this class have the physical layout of a transport stream.</p>
 <p>For performance reason, there is no constructor. Uninitialized packets have undefined binary content. </p>
 </div><h2 class="groupheader">Member Enumeration Documentation</h2>
-<a id="aef4121509ca64f67393bbd8d23534e1d"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aef4121509ca64f67393bbd8d23534e1d">&#9670;&nbsp;</a></span>anonymous enum</h2>
+<a id="ab623625fe5a0898de1301a9e375cbda9"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab623625fe5a0898de1301a9e375cbda9">&#9670;&nbsp;</a></span>anonymous enum</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -310,13 +316,13 @@ uint8_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="s
 
 <p>Options for packet display. </p>
 <table class="fieldtable">
-<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="aef4121509ca64f67393bbd8d23534e1da0661d29ef0ff3984c2b1f960030b956b"></a>DUMP_RAW&#160;</td><td class="fielddoc"><p>Complete packet in hexadecimal (default) </p>
+<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="ab623625fe5a0898de1301a9e375cbda9a0661d29ef0ff3984c2b1f960030b956b"></a>DUMP_RAW&#160;</td><td class="fielddoc"><p>Complete packet in hexadecimal (default) </p>
 </td></tr>
-<tr><td class="fieldname"><a id="aef4121509ca64f67393bbd8d23534e1dac57d1f3e8af481c662b8c117063ea348"></a>DUMP_TS_HEADER&#160;</td><td class="fielddoc"><p>Decode/format TS header. </p>
+<tr><td class="fieldname"><a id="ab623625fe5a0898de1301a9e375cbda9ac57d1f3e8af481c662b8c117063ea348"></a>DUMP_TS_HEADER&#160;</td><td class="fielddoc"><p>Decode/format TS header. </p>
 </td></tr>
-<tr><td class="fieldname"><a id="aef4121509ca64f67393bbd8d23534e1daf278935d038f70428415ac88767b80dc"></a>DUMP_PES_HEADER&#160;</td><td class="fielddoc"><p>Decode/format PES header. </p>
+<tr><td class="fieldname"><a id="ab623625fe5a0898de1301a9e375cbda9af278935d038f70428415ac88767b80dc"></a>DUMP_PES_HEADER&#160;</td><td class="fielddoc"><p>Decode/format PES header. </p>
 </td></tr>
-<tr><td class="fieldname"><a id="aef4121509ca64f67393bbd8d23534e1dafa5c6bfba7869de813ff48b1077c0e70"></a>DUMP_PAYLOAD&#160;</td><td class="fielddoc"><p>Payload in hexadecimal. </p>
+<tr><td class="fieldname"><a id="ab623625fe5a0898de1301a9e375cbda9afa5c6bfba7869de813ff48b1077c0e70"></a>DUMP_PAYLOAD&#160;</td><td class="fielddoc"><p>Payload in hexadecimal. </p>
 </td></tr>
 </table>
 
@@ -1352,6 +1358,74 @@ uint8_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="s
 
 <p>Get the DTS - 33 bits. </p>
 <dl class="section return"><dt>Returns</dt><dd>The DTS or 0 if not found. </dd></dl>
+
+</div>
+</div>
+<a id="a7491cdd8e02475ca02e28c8d0c157779"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7491cdd8e02475ca02e28c8d0c157779">&#9670;&nbsp;</a></span>setPTS()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void ts::TSPacket::setPTS </td>
+          <td>(</td>
+          <td class="paramtype">const uint64_t &amp;&#160;</td>
+          <td class="paramname"><em>pts</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Replace the PTS value - 33 bits. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">pts</td><td>The new PTS value. </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="aacbce8e8294845775e7e6b2007f38097"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aacbce8e8294845775e7e6b2007f38097">&#9670;&nbsp;</a></span>setDTS()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void ts::TSPacket::setDTS </td>
+          <td>(</td>
+          <td class="paramtype">const uint64_t &amp;&#160;</td>
+          <td class="paramname"><em>dts</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Replace the DTS value - 33 bits. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">dts</td><td>The new DTS value. </td></tr>
+  </table>
+  </dd>
+</dl>
 
 </div>
 </div>

@@ -82,6 +82,9 @@ var searchData=
   ['atr',['atr',['../structts_1_1pcsc_1_1_reader_state.html#a643a2c91854883bd48a1f95f8c44d1b7',1,'ts::pcsc::ReaderState']]],
   ['attributes',['attributes',['../classts_1_1_t_s_analyzer_1_1_p_i_d_context.html#a77c3e24d7f909b7f86bc1eb5f84c3988',1,'ts::TSAnalyzer::PIDContext']]],
   ['audio_5ftype',['audio_type',['../structts_1_1_i_s_o639_language_descriptor_1_1_entry.html#a90fa42109ce6c2338c11b6a69945a0f9',1,'ts::ISO639LanguageDescriptor::Entry']]],
+  ['auto_5freturn',['auto_return',['../classts_1_1_splice_insert.html#a4fd9b39f3506110fcfb69859ccaa7ab5',1,'ts::SpliceInsert']]],
+  ['avail_5fnum',['avail_num',['../classts_1_1_splice_insert.html#a10cfee11bb350af36d8a441f1c2d47a7',1,'ts::SpliceInsert']]],
+  ['avails_5fexpected',['avails_expected',['../classts_1_1_splice_insert.html#a81f21eeb6f38a60df550cc6d767b433e',1,'ts::SpliceInsert']]],
   ['avc_5f24_5fhour_5fpicture',['AVC_24_hour_picture',['../classts_1_1_a_v_c_video_descriptor.html#a33fdfd1266a79bcc7667e72ff1fd2ab2',1,'ts::AVCVideoDescriptor']]],
   ['avc_5fcompatible_5fflags',['AVC_compatible_flags',['../classts_1_1_a_v_c_video_descriptor.html#acdfb50fa220c82e497df53516c03c150',1,'ts::AVCVideoDescriptor']]],
   ['avc_5fstill_5fpresent',['AVC_still_present',['../classts_1_1_a_v_c_video_descriptor.html#adbde89b1156e864e22d0a4f4576e54f4',1,'ts::AVCVideoDescriptor']]]

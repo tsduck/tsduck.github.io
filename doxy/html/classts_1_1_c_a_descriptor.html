@@ -37,7 +37,7 @@
  <tr style="height: 56px;">
   <td id="projectlogo"><img src="tsduck-32.png"/></td>
    <td id="projectalign"><span id="projectname">TSDuck</span>
-    <span id="projectnumber">Version 3.6</span>
+    <span id="projectnumber">Version 3.7</span>
     <span id="projectbrief">(TSDuck - The MPEG Transport Stream Toolkit)</span>
    </td>
    <td>        <div id="MSearchBox" class="MSearchBoxInactive">
@@ -144,6 +144,9 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a9f9f224f20f82b1b604f159160f0156b"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classts_1_1_c_a_descriptor.html#a9f9f224f20f82b1b604f159160f0156b">deserialize</a> (const <a class="el" href="classts_1_1_descriptor.html">Descriptor</a> &amp;, const <a class="el" href="classts_1_1_d_v_b_charset.html">DVBCharset</a> *=0) override</td></tr>
 <tr class="memdesc:a9f9f224f20f82b1b604f159160f0156b"><td class="mdescLeft">&#160;</td><td class="mdescRight">This abstract method deserializes a binary descriptor.  <a href="#a9f9f224f20f82b1b604f159160f0156b">More...</a><br /></td></tr>
 <tr class="separator:a9f9f224f20f82b1b604f159160f0156b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4d3e989bcafb23e1ae887fb671efedad"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classts_1_1_c_a_descriptor.html#a4d3e989bcafb23e1ae887fb671efedad">fromCommmandLine</a> (const <a class="el" href="classts_1_1_u_string.html">UString</a> &amp;value, <a class="el" href="classts_1_1_report.html">Report</a> &amp;report=(*<a class="el" href="classts_1_1_null_report.html#ad63aaa5ffe21677ca99f43272eab5bcf">ts::NullReport::Instance</a>()))</td></tr>
+<tr class="memdesc:a4d3e989bcafb23e1ae887fb671efedad"><td class="mdescLeft">&#160;</td><td class="mdescRight">Decode a command-line CA_descriptor and fills this object with it.  <a href="#a4d3e989bcafb23e1ae887fb671efedad">More...</a><br /></td></tr>
+<tr class="separator:a4d3e989bcafb23e1ae887fb671efedad"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ab77655e5017d04d6823b87b27fc5da22"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classts_1_1_c_a_descriptor.html#ab77655e5017d04d6823b87b27fc5da22">fromXML</a> (const <a class="el" href="classts_1_1xml_1_1_element.html">xml::Element</a> *) override</td></tr>
 <tr class="memdesc:ab77655e5017d04d6823b87b27fc5da22"><td class="mdescLeft">&#160;</td><td class="mdescRight">This abstract converts an XML structure to a table or descriptor.  <a href="#ab77655e5017d04d6823b87b27fc5da22">More...</a><br /></td></tr>
 <tr class="separator:ab77655e5017d04d6823b87b27fc5da22"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -187,6 +190,9 @@ virtual&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="c
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-static-methods"></a>
 Static Public Member Functions</h2></td></tr>
+<tr class="memitem:a612c0d1bfb96b27f108ad36bb764b9b9"><td class="memItemLeft" align="right" valign="top">static bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classts_1_1_c_a_descriptor.html#a612c0d1bfb96b27f108ad36bb764b9b9">AddFromCommandLine</a> (<a class="el" href="classts_1_1_descriptor_list.html">DescriptorList</a> &amp;dlist, const <a class="el" href="namespacets.html#a843f23808732fa4bb32ddd18e3dabf53">UStringVector</a> &amp;values, <a class="el" href="classts_1_1_report.html">Report</a> &amp;report=(*<a class="el" href="classts_1_1_null_report.html#ad63aaa5ffe21677ca99f43272eab5bcf">ts::NullReport::Instance</a>()))</td></tr>
+<tr class="memdesc:a612c0d1bfb96b27f108ad36bb764b9b9"><td class="mdescLeft">&#160;</td><td class="mdescRight">Static method to decode command-line CA_descriptor and add them in a descriptor list.  <a href="#a612c0d1bfb96b27f108ad36bb764b9b9">More...</a><br /></td></tr>
+<tr class="separator:a612c0d1bfb96b27f108ad36bb764b9b9"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a44588367a6d4bb8802b7082227437b6d"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classts_1_1_c_a_descriptor.html#a44588367a6d4bb8802b7082227437b6d">DisplayDescriptor</a> (<a class="el" href="classts_1_1_tables_display.html">TablesDisplay</a> &amp;display, <a class="el" href="namespacets.html#a6d34ed2bcf670e7b2a310f660ca900ee">DID</a> did, const uint8_t *payload, size_t size, int <a class="el" href="namespacets.html#a45875f9eaab18c02b57b9fbd2e216d3d">indent</a>, <a class="el" href="namespacets.html#a3c2cbf0a41a7db2577a737cc9568e3cb">TID</a> tid, <a class="el" href="namespacets.html#ab9a8367d7529bc4d441c8e4e61e31984">PDS</a> pds)</td></tr>
 <tr class="memdesc:a44588367a6d4bb8802b7082227437b6d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Static method to display a descriptor.  <a href="#a44588367a6d4bb8802b7082227437b6d">More...</a><br /></td></tr>
 <tr class="separator:a44588367a6d4bb8802b7082227437b6d"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -413,6 +419,98 @@ const <a class="el" href="namespacets.html#a7e3244e77fae7815254d87d2ebdb7bd0">UC
   </table>
   </dd>
 </dl>
+
+</div>
+</div>
+<a id="a4d3e989bcafb23e1ae887fb671efedad"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4d3e989bcafb23e1ae887fb671efedad">&#9670;&nbsp;</a></span>fromCommmandLine()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool ts::CADescriptor::fromCommmandLine </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="classts_1_1_u_string.html">UString</a> &amp;&#160;</td>
+          <td class="paramname"><em>value</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classts_1_1_report.html">Report</a> &amp;&#160;</td>
+          <td class="paramname"><em>report</em> = <code>(*<a class="el" href="classts_1_1_null_report.html#ad63aaa5ffe21677ca99f43272eab5bcf">ts::NullReport::Instance</a>())</code>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Decode a command-line CA_descriptor and fills this object with it. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">value</td><td>CA descriptor in command-line form: casid/pid[/private-data] The mandatory parts, casid and pid, are integer values, either decimal or hexadecimal. The optional private data must be a suite of hexadecimal digits. </td></tr>
+    <tr><td class="paramdir">[in,out]</td><td class="paramname">report</td><td>Where to report errors (typically badly formed parameters). </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>True on success, false on error. </dd></dl>
+
+</div>
+</div>
+<a id="a612c0d1bfb96b27f108ad36bb764b9b9"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a612c0d1bfb96b27f108ad36bb764b9b9">&#9670;&nbsp;</a></span>AddFromCommandLine()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static bool ts::CADescriptor::AddFromCommandLine </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classts_1_1_descriptor_list.html">DescriptorList</a> &amp;&#160;</td>
+          <td class="paramname"><em>dlist</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="namespacets.html#a843f23808732fa4bb32ddd18e3dabf53">UStringVector</a> &amp;&#160;</td>
+          <td class="paramname"><em>values</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classts_1_1_report.html">Report</a> &amp;&#160;</td>
+          <td class="paramname"><em>report</em> = <code>(*<a class="el" href="classts_1_1_null_report.html#ad63aaa5ffe21677ca99f43272eab5bcf">ts::NullReport::Instance</a>())</code>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Static method to decode command-line CA_descriptor and add them in a descriptor list. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in,out]</td><td class="paramname">dlist</td><td><a class="el" href="classts_1_1_descriptor.html" title="Representation of a MPEG PSI/SI descriptors in binary format. ">Descriptor</a> list. The new CA descriptors are added in the list. </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">values</td><td>List of CA descriptors in command-line form: casid/pid[/private-data] </td></tr>
+    <tr><td class="paramdir">[in,out]</td><td class="paramname">report</td><td>Where to report errors (typically badly formed parameters). </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>True on success, false on error. </dd></dl>
+<dl class="section see"><dt>See also</dt><dd><a class="el" href="classts_1_1_c_a_descriptor.html#a4d3e989bcafb23e1ae887fb671efedad" title="Decode a command-line CA_descriptor and fills this object with it. ">fromCommmandLine()</a> </dd></dl>
 
 </div>
 </div>

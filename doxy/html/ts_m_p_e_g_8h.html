@@ -37,7 +37,7 @@
  <tr style="height: 56px;">
   <td id="projectlogo"><img src="tsduck-32.png"/></td>
    <td id="projectalign"><span id="projectname">TSDuck</span>
-    <span id="projectnumber">Version 3.6</span>
+    <span id="projectnumber">Version 3.7</span>
     <span id="projectbrief">(TSDuck - The MPEG Transport Stream Toolkit)</span>
    </td>
    <td>        <div id="MSearchBox" class="MSearchBoxInactive">
@@ -1062,35 +1062,63 @@ Enumerations</h2></td></tr>
 <tr class="memdesc:a21cf3d69f4a5995b7ab74019e75732e9"><td class="mdescLeft">&#160;</td><td class="mdescRight">T2-MI packet types.  <a href="namespacets.html#a21cf3d69f4a5995b7ab74019e75732e9">More...</a><br /></td></tr>
 <tr class="separator:a21cf3d69f4a5995b7ab74019e75732e9"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a4405b8618351735be71df5b936064139"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom">: uint8_t { <br />
-&#160;&#160;<a class="el" href="namespacets.html#a4405b8618351735be71df5b936064139abd1e31f1bbea2ed8d74137436bda9fda">ts::CUE_INSERT_NULL_SCHEDULE</a> = 0x00, 
+&#160;&#160;<a class="el" href="namespacets.html#a4405b8618351735be71df5b936064139a85259076df85812a93c5bca421504abb">ts::TELETEXT_DATA_UNIT_ID_NON_SUBTITLE</a> = 0x02, 
 <br />
-&#160;&#160;<a class="el" href="namespacets.html#a4405b8618351735be71df5b936064139ae13c5ea3f3ba678bc134bcda73543ec2">ts::CUE_ALL_COMMANDS</a> = 0x01, 
+&#160;&#160;<a class="el" href="namespacets.html#a4405b8618351735be71df5b936064139a79796c38a13db5b1487eab29c593b91c">ts::TELETEXT_DATA_UNIT_ID_SUBTITLE</a> = 0x03, 
 <br />
-&#160;&#160;<a class="el" href="namespacets.html#a4405b8618351735be71df5b936064139ae65e1e41e02d6395204e82ea428c2870">ts::CUE_SEGMENTATION</a> = 0x02, 
+&#160;&#160;<a class="el" href="namespacets.html#a4405b8618351735be71df5b936064139ad2cd0e7d27c91583979c4bf0b8cf4c37">ts::TELETEXT_DATA_UNIT_ID_INVERTED</a> = 0x0C, 
 <br />
-&#160;&#160;<a class="el" href="namespacets.html#a4405b8618351735be71df5b936064139afdfa0fd8f7df084f073efaceb7eb8a25">ts::CUE_TIERED_SPLICING</a> = 0x03, 
+&#160;&#160;<a class="el" href="namespacets.html#a4405b8618351735be71df5b936064139ae288d708b8622af8771f0a3f7cd03291">ts::TELETEXT_DATA_UNIT_ID_VPS</a> = 0xC3, 
 <br />
-&#160;&#160;<a class="el" href="namespacets.html#a4405b8618351735be71df5b936064139a615b3dcb6273f33f7a6b0d15d250d649">ts::CUE_TIERED_SEGMENTATION</a> = 0x04
+&#160;&#160;<a class="el" href="namespacets.html#a4405b8618351735be71df5b936064139a467c25a26b08927760ffc2a8e38d4ed1">ts::TELETEXT_DATA_UNIT_ID_CLOSED_CAPTIONS</a> = 0xC5, 
+<br />
+&#160;&#160;<a class="el" href="namespacets.html#a4405b8618351735be71df5b936064139a85f29855b5d0d97cc9efa800e80140c3">ts::TELETEXT_DATA_UNIT_ID_STUFFING</a> = 0xFF
 <br />
  }</td></tr>
-<tr class="memdesc:a4405b8618351735be71df5b936064139"><td class="mdescLeft">&#160;</td><td class="mdescRight">Cue stream type values in cue_identifier_descriptor.  <a href="namespacets.html#a4405b8618351735be71df5b936064139">More...</a><br /></td></tr>
+<tr class="memdesc:a4405b8618351735be71df5b936064139"><td class="mdescLeft">&#160;</td><td class="mdescRight">Teletext data unit ids.  <a href="namespacets.html#a4405b8618351735be71df5b936064139">More...</a><br /></td></tr>
 <tr class="separator:a4405b8618351735be71df5b936064139"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a3f7c3b2822550c4656455699f258a783"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom">: uint8_t { <br />
-&#160;&#160;<a class="el" href="namespacets.html#a3f7c3b2822550c4656455699f258a783a8f0c591492661b6db10cfe26880e2386">ts::SPLICE_NULL</a> = 0x00, 
+&#160;&#160;<a class="el" href="namespacets.html#a3f7c3b2822550c4656455699f258a783abd1e31f1bbea2ed8d74137436bda9fda">ts::CUE_INSERT_NULL_SCHEDULE</a> = 0x00, 
 <br />
-&#160;&#160;<a class="el" href="namespacets.html#a3f7c3b2822550c4656455699f258a783a1dd159cdfa4104e98d09e3eaa44d71a4">ts::SPLICE_SCHEDULE</a> = 0x04, 
+&#160;&#160;<a class="el" href="namespacets.html#a3f7c3b2822550c4656455699f258a783ae13c5ea3f3ba678bc134bcda73543ec2">ts::CUE_ALL_COMMANDS</a> = 0x01, 
 <br />
-&#160;&#160;<a class="el" href="namespacets.html#a3f7c3b2822550c4656455699f258a783a719e28f0d4a4aae1421de47f93a2863c">ts::SPLICE_INSERT</a> = 0x05, 
+&#160;&#160;<a class="el" href="namespacets.html#a3f7c3b2822550c4656455699f258a783ae65e1e41e02d6395204e82ea428c2870">ts::CUE_SEGMENTATION</a> = 0x02, 
 <br />
-&#160;&#160;<a class="el" href="namespacets.html#a3f7c3b2822550c4656455699f258a783ab6bca349035ff5f80428a5ce045ba403">ts::SPLICE_TIME_SIGNAL</a> = 0x06, 
+&#160;&#160;<a class="el" href="namespacets.html#a3f7c3b2822550c4656455699f258a783afdfa0fd8f7df084f073efaceb7eb8a25">ts::CUE_TIERED_SPLICING</a> = 0x03, 
 <br />
-&#160;&#160;<a class="el" href="namespacets.html#a3f7c3b2822550c4656455699f258a783ae90b3aa4ead45801a78ceb454e179793">ts::SPLICE_BANDWIDTH_RESERVATION</a> = 0x07, 
-<br />
-&#160;&#160;<a class="el" href="namespacets.html#a3f7c3b2822550c4656455699f258a783ad749f2fea3babc6618100e0cc30a00f2">ts::SPLICE_PRIVATE_COMMAND</a> = 0xFF
+&#160;&#160;<a class="el" href="namespacets.html#a3f7c3b2822550c4656455699f258a783a615b3dcb6273f33f7a6b0d15d250d649">ts::CUE_TIERED_SEGMENTATION</a> = 0x04
 <br />
  }</td></tr>
-<tr class="memdesc:a3f7c3b2822550c4656455699f258a783"><td class="mdescLeft">&#160;</td><td class="mdescRight">Splaice commands in Splice Information Table.  <a href="namespacets.html#a3f7c3b2822550c4656455699f258a783">More...</a><br /></td></tr>
+<tr class="memdesc:a3f7c3b2822550c4656455699f258a783"><td class="mdescLeft">&#160;</td><td class="mdescRight">Cue stream type values in cue_identifier_descriptor.  <a href="namespacets.html#a3f7c3b2822550c4656455699f258a783">More...</a><br /></td></tr>
 <tr class="separator:a3f7c3b2822550c4656455699f258a783"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad5057d75fa4afb0b3d4dd5ff1d6f6af9"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom">: uint8_t { <br />
+&#160;&#160;<a class="el" href="namespacets.html#ad5057d75fa4afb0b3d4dd5ff1d6f6af9a8f0c591492661b6db10cfe26880e2386">ts::SPLICE_NULL</a> = 0x00, 
+<br />
+&#160;&#160;<a class="el" href="namespacets.html#ad5057d75fa4afb0b3d4dd5ff1d6f6af9a1dd159cdfa4104e98d09e3eaa44d71a4">ts::SPLICE_SCHEDULE</a> = 0x04, 
+<br />
+&#160;&#160;<a class="el" href="namespacets.html#ad5057d75fa4afb0b3d4dd5ff1d6f6af9a719e28f0d4a4aae1421de47f93a2863c">ts::SPLICE_INSERT</a> = 0x05, 
+<br />
+&#160;&#160;<a class="el" href="namespacets.html#ad5057d75fa4afb0b3d4dd5ff1d6f6af9ab6bca349035ff5f80428a5ce045ba403">ts::SPLICE_TIME_SIGNAL</a> = 0x06, 
+<br />
+&#160;&#160;<a class="el" href="namespacets.html#ad5057d75fa4afb0b3d4dd5ff1d6f6af9ae90b3aa4ead45801a78ceb454e179793">ts::SPLICE_BANDWIDTH_RESERVATION</a> = 0x07, 
+<br />
+&#160;&#160;<a class="el" href="namespacets.html#ad5057d75fa4afb0b3d4dd5ff1d6f6af9ad749f2fea3babc6618100e0cc30a00f2">ts::SPLICE_PRIVATE_COMMAND</a> = 0xFF
+<br />
+ }</td></tr>
+<tr class="memdesc:ad5057d75fa4afb0b3d4dd5ff1d6f6af9"><td class="mdescLeft">&#160;</td><td class="mdescRight">Splice commands in Splice Information Table.  <a href="namespacets.html#ad5057d75fa4afb0b3d4dd5ff1d6f6af9">More...</a><br /></td></tr>
+<tr class="separator:ad5057d75fa4afb0b3d4dd5ff1d6f6af9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad0f2eea2319c609200168fbd6950acfe"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom">: uint8_t { <br />
+&#160;&#160;<a class="el" href="namespacets.html#ad0f2eea2319c609200168fbd6950acfea18be6f798de7979a9e2dea00cb03db28">ts::SPLICE_DESC_AVAIL</a> = 0x00, 
+<br />
+&#160;&#160;<a class="el" href="namespacets.html#ad0f2eea2319c609200168fbd6950acfea4f9642d2b6693f56e5e1d840a2be4d33">ts::SPLICE_DESC_DTMF</a> = 0x01, 
+<br />
+&#160;&#160;<a class="el" href="namespacets.html#ad0f2eea2319c609200168fbd6950acfea716ab4bdc6fac7ed8e4fe7c8a804e5a3">ts::SPLICE_DESC_SEGMENT</a> = 0x02, 
+<br />
+&#160;&#160;<a class="el" href="namespacets.html#ad0f2eea2319c609200168fbd6950acfeab7f50f9cee12ce7e5a2b781c5a98cb38">ts::SPLICE_DESC_TIME</a> = 0x03
+<br />
+ }</td></tr>
+<tr class="memdesc:ad0f2eea2319c609200168fbd6950acfe"><td class="mdescLeft">&#160;</td><td class="mdescRight">Splice descriptor tags in Splice Information Table.  <a href="namespacets.html#ad0f2eea2319c609200168fbd6950acfe">More...</a><br /></td></tr>
+<tr class="separator:ad0f2eea2319c609200168fbd6950acfe"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ab983ae94b0ed7796c8119f26d71fabe0"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom">: PID { <br />
 &#160;&#160;<a class="el" href="namespacets.html#ab983ae94b0ed7796c8119f26d71fabe0a247897773bfc216f2c046b38195994aa">ts::PID_PAT</a> = 0x0000, 
 <br />
@@ -1390,6 +1418,9 @@ Functions</h2></td></tr>
 <tr class="memitem:a6dc5cded24e3c2859043129e1f66092b"><td class="memItemLeft" align="right" valign="top">BitRate&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacets.html#a6dc5cded24e3c2859043129e1f66092b">ts::ToBitrate204</a> (BitRate bitrate188)</td></tr>
 <tr class="memdesc:a6dc5cded24e3c2859043129e1f66092b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Convert 188-byte packet bitrate into 204-byte packet bitrate.  <a href="namespacets.html#a6dc5cded24e3c2859043129e1f66092b">More...</a><br /></td></tr>
 <tr class="separator:a6dc5cded24e3c2859043129e1f66092b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6da99c219755f8952278e11f88443e7c"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacets.html#a6da99c219755f8952278e11f88443e7c">ts::WrapUpPCR</a> (uint64_t pcr1, uint64_t pcr2)</td></tr>
+<tr class="memdesc:a6da99c219755f8952278e11f88443e7c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Check if PCR2 follows PCR1 after wrap up.  <a href="namespacets.html#a6da99c219755f8952278e11f88443e7c">More...</a><br /></td></tr>
+<tr class="separator:a6da99c219755f8952278e11f88443e7c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a732dbdcd93f1b6cec64fe0496c76c5ec"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacets.html#a732dbdcd93f1b6cec64fe0496c76c5ec">ts::WrapUpPTS</a> (uint64_t pts1, uint64_t pts2)</td></tr>
 <tr class="memdesc:a732dbdcd93f1b6cec64fe0496c76c5ec"><td class="mdescLeft">&#160;</td><td class="mdescRight">Check if PTS2 follows PTS1 after wrap up.  <a href="namespacets.html#a732dbdcd93f1b6cec64fe0496c76c5ec">More...</a><br /></td></tr>
 <tr class="separator:a732dbdcd93f1b6cec64fe0496c76c5ec"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -1419,6 +1450,18 @@ const size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" hr
 const size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacets.html#a743c706866100a9d7c5b151d382706a7">ts::CW_BYTES</a> = CW_BITS / 8</td></tr>
 <tr class="memdesc:a743c706866100a9d7c5b151d382706a7"><td class="mdescLeft">&#160;</td><td class="mdescRight">Size in bytes of a DVB Common <a class="el" href="classts_1_1_scrambling.html" title="DVB-CSA (Digital Video Broadcasting Common Scrambling Algorithm). ">Scrambling</a> (DVB-CS) Control Word (CW). <br /></td></tr>
 <tr class="separator:a743c706866100a9d7c5b151d382706a7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a95f4bc4a61aba30d50e5751306afbfb5"><td class="memItemLeft" align="right" valign="top"><a id="a95f4bc4a61aba30d50e5751306afbfb5"></a>
+const uint64_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacets.html#a95f4bc4a61aba30d50e5751306afbfb5">ts::INVALID_DTS</a> =</td></tr>
+<tr class="memdesc:a95f4bc4a61aba30d50e5751306afbfb5"><td class="mdescLeft">&#160;</td><td class="mdescRight">An invalid DTS value, can be used as a marker. <br /></td></tr>
+<tr class="separator:a95f4bc4a61aba30d50e5751306afbfb5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae74fb5dcac17ae3c5e543948bfd9ca49"><td class="memItemLeft" align="right" valign="top"><a id="ae74fb5dcac17ae3c5e543948bfd9ca49"></a>
+const uint64_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacets.html#ae74fb5dcac17ae3c5e543948bfd9ca49">ts::INVALID_PCR</a> =</td></tr>
+<tr class="memdesc:ae74fb5dcac17ae3c5e543948bfd9ca49"><td class="mdescLeft">&#160;</td><td class="mdescRight">An invalid PCR (Program Clock Reference) value, can be used as a marker. <br /></td></tr>
+<tr class="separator:ae74fb5dcac17ae3c5e543948bfd9ca49"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aff438aa3b6e56c46fdd1ffc3f91d659e"><td class="memItemLeft" align="right" valign="top"><a id="aff438aa3b6e56c46fdd1ffc3f91d659e"></a>
+const uint64_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacets.html#aff438aa3b6e56c46fdd1ffc3f91d659e">ts::INVALID_PTS</a> =</td></tr>
+<tr class="memdesc:aff438aa3b6e56c46fdd1ffc3f91d659e"><td class="mdescLeft">&#160;</td><td class="mdescRight">An invalid PTS value, can be used as a marker. <br /></td></tr>
+<tr class="separator:aff438aa3b6e56c46fdd1ffc3f91d659e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a3ca1a0c82a63583f56aab8f16f80278e"><td class="memItemLeft" align="right" valign="top"><a id="a3ca1a0c82a63583f56aab8f16f80278e"></a>
 const size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacets.html#a3ca1a0c82a63583f56aab8f16f80278e">ts::LONG_SECTION_HEADER_SIZE</a> = 8</td></tr>
 <tr class="memdesc:a3ca1a0c82a63583f56aab8f16f80278e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Header size of a long section. <br /></td></tr>
@@ -1476,6 +1519,18 @@ const size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" hr
 const PIDSet&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacets.html#aa38c792159073aeb903a73f38eef3519">ts::NoPID</a></td></tr>
 <tr class="memdesc:aa38c792159073aeb903a73f38eef3519"><td class="mdescLeft">&#160;</td><td class="mdescRight">PIDSet constant with no PID set. <br /></td></tr>
 <tr class="separator:aa38c792159073aeb903a73f38eef3519"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9f5d291e066fe46cae4660b1c502f520"><td class="memItemLeft" align="right" valign="top"><a id="a9f5d291e066fe46cae4660b1c502f520"></a>
+const size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacets.html#a9f5d291e066fe46cae4660b1c502f520">ts::PCR_BIT_SIZE</a> = 42</td></tr>
+<tr class="memdesc:a9f5d291e066fe46cae4660b1c502f520"><td class="mdescLeft">&#160;</td><td class="mdescRight">Size in bits of a PCR (Program Clock Reference). <br /></td></tr>
+<tr class="separator:a9f5d291e066fe46cae4660b1c502f520"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a73a685af803725ac0812c7c9d139b080"><td class="memItemLeft" align="right" valign="top"><a id="a73a685af803725ac0812c7c9d139b080"></a>
+const uint64_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacets.html#a73a685af803725ac0812c7c9d139b080">ts::PCR_MASK</a> =</td></tr>
+<tr class="memdesc:a73a685af803725ac0812c7c9d139b080"><td class="mdescLeft">&#160;</td><td class="mdescRight">Mask for PCR values (wrap up at 2**42). <br /></td></tr>
+<tr class="separator:a73a685af803725ac0812c7c9d139b080"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a80d4ba059c570022ae295e91f64c5f8f"><td class="memItemLeft" align="right" valign="top"><a id="a80d4ba059c570022ae295e91f64c5f8f"></a>
+const uint64_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacets.html#a80d4ba059c570022ae295e91f64c5f8f">ts::PCR_SCALE</a> =</td></tr>
+<tr class="memdesc:a80d4ba059c570022ae295e91f64c5f8f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Scale factor for PCR values (wrap up at 2**42). <br /></td></tr>
+<tr class="separator:a80d4ba059c570022ae295e91f64c5f8f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a0c477541f098e5872c177c2aa1e680ca"><td class="memItemLeft" align="right" valign="top"><a id="a0c477541f098e5872c177c2aa1e680ca"></a>
 const uint32_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacets.html#a0c477541f098e5872c177c2aa1e680ca">ts::PES_START</a> = 0x000001</td></tr>
 <tr class="memdesc:a0c477541f098e5872c177c2aa1e680ca"><td class="mdescLeft">&#160;</td><td class="mdescRight">PES packet start code prefix (24 bits). <br /></td></tr>
@@ -1502,6 +1557,10 @@ const size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" hr
 <tr class="memitem:ade3db882223356d9ac9691de3880cd77"><td class="memItemLeft" align="right" valign="top">const Enumeration&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacets.html#ade3db882223356d9ac9691de3880cd77">ts::PrivateDataSpecifierEnum</a></td></tr>
 <tr class="memdesc:ade3db882223356d9ac9691de3880cd77"><td class="mdescLeft">&#160;</td><td class="mdescRight"><a class="el" href="classts_1_1_enumeration.html" title="Enumeration of int/string pairs. ">Enumeration</a> description of PDS values.  <a href="namespacets.html#ade3db882223356d9ac9691de3880cd77">More...</a><br /></td></tr>
 <tr class="separator:ade3db882223356d9ac9691de3880cd77"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1af6275d7ab4eb38279218acfa5644e7"><td class="memItemLeft" align="right" valign="top"><a id="a1af6275d7ab4eb38279218acfa5644e7"></a>
+const size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacets.html#a1af6275d7ab4eb38279218acfa5644e7">ts::PTS_DTS_BIT_SIZE</a> = 33</td></tr>
+<tr class="memdesc:a1af6275d7ab4eb38279218acfa5644e7"><td class="mdescLeft">&#160;</td><td class="mdescRight">Size in bits of a PTS (Presentation <a class="el" href="classts_1_1_time.html" title="The Time class implements a basic representation of time. ">Time</a> Stamp) or DTS (Decoding <a class="el" href="classts_1_1_time.html" title="The Time class implements a basic representation of time. ">Time</a> Stamp). <br /></td></tr>
+<tr class="separator:a1af6275d7ab4eb38279218acfa5644e7"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a916f9655725a5d7a628b3fb3a112a88e"><td class="memItemLeft" align="right" valign="top"><a id="a916f9655725a5d7a628b3fb3a112a88e"></a>
 const uint64_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacets.html#a916f9655725a5d7a628b3fb3a112a88e">ts::PTS_DTS_MASK</a> =</td></tr>
 <tr class="memdesc:a916f9655725a5d7a628b3fb3a112a88e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Mask for PTS and DTS values (wrap up at 2**33). <br /></td></tr>
@@ -1522,6 +1581,10 @@ const size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" hr
 const size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacets.html#a13a01fc014e898f1f518e9ad828305bb">ts::SHORT_SECTION_HEADER_SIZE</a> = 3</td></tr>
 <tr class="memdesc:a13a01fc014e898f1f518e9ad828305bb"><td class="mdescLeft">&#160;</td><td class="mdescRight">Header size of a short section. <br /></td></tr>
 <tr class="separator:a13a01fc014e898f1f518e9ad828305bb"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:abfbad5bde42619506c4ef6d3a298d952"><td class="memItemLeft" align="right" valign="top"><a id="abfbad5bde42619506c4ef6d3a298d952"></a>
+const uint32_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacets.html#abfbad5bde42619506c4ef6d3a298d952">ts::SPLICE_ID_CUEI</a> = 0x43554549</td></tr>
+<tr class="memdesc:abfbad5bde42619506c4ef6d3a298d952"><td class="mdescLeft">&#160;</td><td class="mdescRight">Registered splice identifier for SCTE 35. <br /></td></tr>
+<tr class="separator:abfbad5bde42619506c4ef6d3a298d952"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aa837151f28a957bbe15910280206c3b0"><td class="memItemLeft" align="right" valign="top"><a id="aa837151f28a957bbe15910280206c3b0"></a>
 const size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacets.html#aa837151f28a957bbe15910280206c3b0">ts::SVERSION_BITS</a> = 5</td></tr>
 <tr class="memdesc:aa837151f28a957bbe15910280206c3b0"><td class="mdescLeft">&#160;</td><td class="mdescRight">Size (in bits) of a section version field. <br /></td></tr>
@@ -1556,6 +1619,18 @@ const uint32_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" 
 const size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacets.html#afe1c4a9067c4429a6c33ccebefc3853f">ts::T2MI_HEADER_SIZE</a> = 6</td></tr>
 <tr class="memdesc:afe1c4a9067c4429a6c33ccebefc3853f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Size in bytes of a T2-MI packet header. <br /></td></tr>
 <tr class="separator:afe1c4a9067c4429a6c33ccebefc3853f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7b316b20632839212a0558db1b45c93f"><td class="memItemLeft" align="right" valign="top"><a id="a7b316b20632839212a0558db1b45c93f"></a>
+const size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacets.html#a7b316b20632839212a0558db1b45c93f">ts::TELETEXT_PACKET_SIZE</a> = 44</td></tr>
+<tr class="memdesc:a7b316b20632839212a0558db1b45c93f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Size in bytes of a Teletext packet. <br /></td></tr>
+<tr class="separator:a7b316b20632839212a0558db1b45c93f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4648f4fb2944108b919a6e76063f1467"><td class="memItemLeft" align="right" valign="top"><a id="a4648f4fb2944108b919a6e76063f1467"></a>
+const uint8_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacets.html#a4648f4fb2944108b919a6e76063f1467">ts::TELETEXT_PES_FIRST_EBU_DATA_ID</a> = 0x10</td></tr>
+<tr class="memdesc:a4648f4fb2944108b919a6e76063f1467"><td class="mdescLeft">&#160;</td><td class="mdescRight">First EBU data_identifier value in PES packets conveying Teletext. <br /></td></tr>
+<tr class="separator:a4648f4fb2944108b919a6e76063f1467"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0e37d7f9fa613734a04268a418550f84"><td class="memItemLeft" align="right" valign="top"><a id="a0e37d7f9fa613734a04268a418550f84"></a>
+const uint8_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacets.html#a0e37d7f9fa613734a04268a418550f84">ts::TELETEXT_PES_LAST_EBU_DATA_ID</a> = 0x1F</td></tr>
+<tr class="memdesc:a0e37d7f9fa613734a04268a418550f84"><td class="mdescLeft">&#160;</td><td class="mdescRight">Last EBU data_identifier value in PES packets conveying Teletext. <br /></td></tr>
+<tr class="separator:a0e37d7f9fa613734a04268a418550f84"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a2161295533c01929c92498205b010bf2"><td class="memItemLeft" align="right" valign="top"><a id="a2161295533c01929c92498205b010bf2"></a>
 const size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacets.html#a2161295533c01929c92498205b010bf2">ts::TID_MAX</a> = 0x100</td></tr>
 <tr class="memdesc:a2161295533c01929c92498205b010bf2"><td class="mdescLeft">&#160;</td><td class="mdescRight">Maximum number of TID values. <br /></td></tr>

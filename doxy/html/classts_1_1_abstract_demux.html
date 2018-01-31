@@ -37,7 +37,7 @@
  <tr style="height: 56px;">
   <td id="projectlogo"><img src="tsduck-32.png"/></td>
    <td id="projectalign"><span id="projectname">TSDuck</span>
-    <span id="projectnumber">Version 3.6</span>
+    <span id="projectnumber">Version 3.7</span>
     <span id="projectbrief">(TSDuck - The MPEG Transport Stream Toolkit)</span>
    </td>
    <td>        <div id="MSearchBox" class="MSearchBoxInactive">
@@ -104,7 +104,7 @@ $(document).ready(function(){initNavTree('classts_1_1_abstract_demux.html','');}
 <a href="#pro-attribs">Protected Attributes</a> &#124;
 <a href="classts_1_1_abstract_demux-members.html">List of all members</a>  </div>
   <div class="headertitle">
-<div class="title">ts::AbstractDemux Class Reference<span class="mlabels"><span class="mlabel">abstract</span></span></div>  </div>
+<div class="title">ts::AbstractDemux Class Reference</div>  </div>
 </div><!--header-->
 <div class="contents">
 
@@ -115,10 +115,12 @@ Inheritance diagram for ts::AbstractDemux:</div>
 <div class="dyncontent">
 <div class="center"><img src="classts_1_1_abstract_demux__inherit__graph.png" border="0" usemap="#ts_1_1_abstract_demux_inherit__map" alt="Inheritance graph"/></div>
 <map name="ts_1_1_abstract_demux_inherit__map" id="ts_1_1_abstract_demux_inherit__map">
-<area shape="rect" id="node2" href="classts_1_1_p_e_s_demux.html" title="This class extracts PES packets from TS packets. " alt="" coords="5,79,113,104"/>
-<area shape="rect" id="node3" href="classts_1_1_section_demux.html" title="This class rebuilds MPEG tables and sections from TS packets. " alt="" coords="138,79,264,104"/>
-<area shape="rect" id="node5" href="classts_1_1_t2_m_i_demux.html" title="This class analyzes T2&#45;MI (DVB&#45;T2 Modulator Interface) from TS packets. " alt="" coords="287,79,399,104"/>
-<area shape="rect" id="node4" href="classts_1_1_standalone_table_demux.html" title="A SectionDemux which extracts MPEG tables without external handler. " alt="" coords="110,152,291,177"/>
+<area shape="rect" id="node2" href="classts_1_1_section_demux.html" title="This class rebuilds MPEG tables and sections from TS packets. " alt="" coords="33,79,159,104"/>
+<area shape="rect" id="node4" href="classts_1_1_t2_m_i_demux.html" title="This class analyzes T2&#45;MI (DVB&#45;T2 Modulator Interface) from TS packets. " alt="" coords="182,79,294,104"/>
+<area shape="rect" id="node5" href="classts_1_1_time_tracker_demux.html" title="A demux which tracks time stamps per PID. " alt="" coords="318,79,473,104"/>
+<area shape="rect" id="node3" href="classts_1_1_standalone_table_demux.html" title="A SectionDemux which extracts MPEG tables without external handler. " alt="" coords="5,152,186,177"/>
+<area shape="rect" id="node6" href="classts_1_1_p_e_s_demux.html" title="This class extracts PES packets from TS packets. " alt="" coords="342,152,450,177"/>
+<area shape="rect" id="node7" href="classts_1_1_teletext_demux.html" title="This class extracts Teletext subtitles from TS packets. " alt="" coords="332,225,459,251"/>
 </map>
 <center><span class="legend">[<a target="top" href="graph_legend.html">legend</a>]</span></center></div>
 <table class="memberdecls">
@@ -134,9 +136,9 @@ virtual&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="c
 <tr class="memitem:a6f16607b21eda1934624042a2b5aac2e"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classts_1_1_abstract_demux.html#a6f16607b21eda1934624042a2b5aac2e">addPIDs</a> (const <a class="el" href="namespacets.html#ab1d1f2460b477bc70d2e394204a2c09b">PIDSet</a> &amp;pids)</td></tr>
 <tr class="memdesc:a6f16607b21eda1934624042a2b5aac2e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Add several PID's to filter.  <a href="#a6f16607b21eda1934624042a2b5aac2e">More...</a><br /></td></tr>
 <tr class="separator:a6f16607b21eda1934624042a2b5aac2e"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ac6a081bbd331cb010bba7577ce4215bd"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classts_1_1_abstract_demux.html#ac6a081bbd331cb010bba7577ce4215bd">feedPacket</a> (const <a class="el" href="structts_1_1_t_s_packet.html">TSPacket</a> &amp;pkt)=0</td></tr>
-<tr class="memdesc:ac6a081bbd331cb010bba7577ce4215bd"><td class="mdescLeft">&#160;</td><td class="mdescRight">The following method feeds the demux with a TS packet.  <a href="#ac6a081bbd331cb010bba7577ce4215bd">More...</a><br /></td></tr>
-<tr class="separator:ac6a081bbd331cb010bba7577ce4215bd"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a539ab9725a1462ad304003f7c2bb25fb"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classts_1_1_abstract_demux.html#a539ab9725a1462ad304003f7c2bb25fb">feedPacket</a> (const <a class="el" href="structts_1_1_t_s_packet.html">TSPacket</a> &amp;pkt)</td></tr>
+<tr class="memdesc:a539ab9725a1462ad304003f7c2bb25fb"><td class="mdescLeft">&#160;</td><td class="mdescRight">The following method feeds the demux with a TS packet.  <a href="#a539ab9725a1462ad304003f7c2bb25fb">More...</a><br /></td></tr>
+<tr class="separator:a539ab9725a1462ad304003f7c2bb25fb"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aa728b209f4142c33cad63b03f24aeef8"><td class="memItemLeft" align="right" valign="top">virtual size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classts_1_1_abstract_demux.html#aa728b209f4142c33cad63b03f24aeef8">pidCount</a> () const</td></tr>
 <tr class="memdesc:aa728b209f4142c33cad63b03f24aeef8"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the current number of PID's being filtered.  <a href="#aa728b209f4142c33cad63b03f24aeef8">More...</a><br /></td></tr>
 <tr class="separator:aa728b209f4142c33cad63b03f24aeef8"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -174,9 +176,13 @@ virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" hr
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pro-attribs"></a>
 Protected Attributes</h2></td></tr>
+<tr class="memitem:a18aa49934a3c2a0cd1d7559bda2fa06c"><td class="memItemLeft" align="right" valign="top"><a id="a18aa49934a3c2a0cd1d7559bda2fa06c"></a>
+<a class="el" href="namespacets.html#a9cdec7a120783847f53fbf71e5eb49f6">PacketCounter</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classts_1_1_abstract_demux.html#a18aa49934a3c2a0cd1d7559bda2fa06c">_packet_count</a></td></tr>
+<tr class="memdesc:a18aa49934a3c2a0cd1d7559bda2fa06c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Number of TS packets in the demultiplexed stream. <br /></td></tr>
+<tr class="separator:a18aa49934a3c2a0cd1d7559bda2fa06c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a50a41e649f26188b3f812696460acf87"><td class="memItemLeft" align="right" valign="top"><a id="a50a41e649f26188b3f812696460acf87"></a>
 <a class="el" href="namespacets.html#ab1d1f2460b477bc70d2e394204a2c09b">PIDSet</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classts_1_1_abstract_demux.html#a50a41e649f26188b3f812696460acf87">_pid_filter</a></td></tr>
-<tr class="memdesc:a50a41e649f26188b3f812696460acf87"><td class="mdescLeft">&#160;</td><td class="mdescRight">Current set of filtered PID's, directly accessible to subclasses. <br /></td></tr>
+<tr class="memdesc:a50a41e649f26188b3f812696460acf87"><td class="mdescLeft">&#160;</td><td class="mdescRight">Current set of filtered PID's. <br /></td></tr>
 <tr class="separator:a50a41e649f26188b3f812696460acf87"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
@@ -218,8 +224,8 @@ Protected Attributes</h2></td></tr>
 </div>
 </div>
 <h2 class="groupheader">Member Function Documentation</h2>
-<a id="ac6a081bbd331cb010bba7577ce4215bd"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ac6a081bbd331cb010bba7577ce4215bd">&#9670;&nbsp;</a></span>feedPacket()</h2>
+<a id="a539ab9725a1462ad304003f7c2bb25fb"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a539ab9725a1462ad304003f7c2bb25fb">&#9670;&nbsp;</a></span>feedPacket()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -237,7 +243,7 @@ Protected Attributes</h2></td></tr>
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">pure virtual</span></span>  </td>
+<span class="mlabels"><span class="mlabel">virtual</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
@@ -250,7 +256,7 @@ Protected Attributes</h2></td></tr>
   </dd>
 </dl>
 
-<p>Implemented in <a class="el" href="classts_1_1_t2_m_i_demux.html#a641295483156286df304399d57fb2273">ts::T2MIDemux</a>, <a class="el" href="classts_1_1_section_demux.html#a10eb64779211ee63543f87d28785d70f">ts::SectionDemux</a>, and <a class="el" href="classts_1_1_p_e_s_demux.html#a1008607b0c084a0dc86e939ecfb5d729">ts::PESDemux</a>.</p>
+<p>Reimplemented in <a class="el" href="classts_1_1_t2_m_i_demux.html#a641295483156286df304399d57fb2273">ts::T2MIDemux</a>, <a class="el" href="classts_1_1_section_demux.html#a10eb64779211ee63543f87d28785d70f">ts::SectionDemux</a>, <a class="el" href="classts_1_1_time_tracker_demux.html#a7ac7881705275d1a6cfba9a120cc7603">ts::TimeTrackerDemux</a>, and <a class="el" href="classts_1_1_p_e_s_demux.html#a1008607b0c084a0dc86e939ecfb5d729">ts::PESDemux</a>.</p>
 
 </div>
 </div>
@@ -590,7 +596,7 @@ Protected Attributes</h2></td></tr>
   </dd>
 </dl>
 
-<p>Reimplemented in <a class="el" href="classts_1_1_section_demux.html#a96860d43f2cf1fa025d045ed9d000c4a">ts::SectionDemux</a>, <a class="el" href="classts_1_1_p_e_s_demux.html#a26382b39ccfed720625adf41544e7c15">ts::PESDemux</a>, and <a class="el" href="classts_1_1_t2_m_i_demux.html#ad56eb9e9ecbc77d82f2de478678c24f9">ts::T2MIDemux</a>.</p>
+<p>Reimplemented in <a class="el" href="classts_1_1_section_demux.html#a96860d43f2cf1fa025d045ed9d000c4a">ts::SectionDemux</a>, <a class="el" href="classts_1_1_p_e_s_demux.html#a26382b39ccfed720625adf41544e7c15">ts::PESDemux</a>, <a class="el" href="classts_1_1_teletext_demux.html#a0814b0316babe7991947327a1284817a">ts::TeletextDemux</a>, <a class="el" href="classts_1_1_t2_m_i_demux.html#ad56eb9e9ecbc77d82f2de478678c24f9">ts::T2MIDemux</a>, and <a class="el" href="classts_1_1_time_tracker_demux.html#a1a800e03ad7f88fad48715d894ea9b1d">ts::TimeTrackerDemux</a>.</p>
 
 </div>
 </div>

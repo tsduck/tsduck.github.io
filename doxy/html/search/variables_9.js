@@ -2,6 +2,7 @@ var searchData=
 [
   ['identical_5fto',['IDENTICAL_TO',['../namespacets.html#ae7f5e1794294d4ede2945c0150a05d5b',1,'ts']]],
   ['ignore_5fjt',['ignore_jt',['../classts_1_1tsp_1_1_options.html#ada9e23754bdf2afe9574d904c9ee4278',1,'ts::tsp::Options']]],
+  ['immediate',['immediate',['../classts_1_1_splice_insert.html#ac92d285b45f3b1b5404c2cb22e277b4b',1,'ts::SpliceInsert']]],
   ['infinite',['Infinite',['../namespacets.html#a6b91ccf90475c62f610ea549f69d8544',1,'ts']]],
   ['info',['Info',['../structts_1_1_severity.html#a20fcf4354aa314c90e67a8b1d26a9398',1,'ts::Severity']]],
   ['initial_5fcpb_5fremoval_5fdelay_5flength_5fminus1',['initial_cpb_removal_delay_length_minus1',['../classts_1_1_a_v_c_h_r_d_parameters.html#a288f86498bf26014b8d899b9672e35a7',1,'ts::AVCHRDParameters']]],
@@ -20,6 +21,9 @@ var searchData=
   ['inv_5fsect_5flength',['inv_sect_length',['../structts_1_1_section_demux_1_1_status.html#aa079d737698fb30437e18f2eef7942f4',1,'ts::SectionDemux::Status']]],
   ['inv_5fts_5fsc_5fcnt',['inv_ts_sc_cnt',['../classts_1_1_t_s_analyzer_1_1_p_i_d_context.html#a189962d1df6909e62e95958143ec2384',1,'ts::TSAnalyzer::PIDContext']]],
   ['invalid',['INVALID',['../classts_1_1xml_1_1_attribute.html#a45725969c44dc5bd54d363b117f09bf5',1,'ts::xml::Attribute']]],
+  ['invalid_5fdts',['INVALID_DTS',['../namespacets.html#a95f4bc4a61aba30d50e5751306afbfb5',1,'ts']]],
+  ['invalid_5fpcr',['INVALID_PCR',['../namespacets.html#ae74fb5dcac17ae3c5e543948bfd9ca49',1,'ts']]],
+  ['invalid_5fpts',['INVALID_PTS',['../namespacets.html#aff438aa3b6e56c46fdd1ffc3f91d659e',1,'ts']]],
   ['invalid_5fts',['invalid_ts',['../structts_1_1_section_demux_1_1_status.html#a2239a1ac755ac9708d2c2efbf6c5ddcf',1,'ts::SectionDemux::Status']]],
   ['invaliddate',['InvalidDate',['../classts_1_1_abstract_c_a_s_date.html#ac62c4072ac2fca4bdfb3ca29c11fdb5a',1,'ts::AbstractCASDate']]],
   ['inversion',['inversion',['../classts_1_1_tuner_args.html#ac3f8c41b42cea62139bd9e13e3f4e6e1',1,'ts::TunerArgs::inversion()'],['../classts_1_1_tuner_parameters_a_t_s_c.html#aac6f11d3364b139ef35fa20165e90061',1,'ts::TunerParametersATSC::inversion()'],['../classts_1_1_tuner_parameters_d_v_b_c.html#a27b1d22f4c21f2aeb5a700ec79fe7380',1,'ts::TunerParametersDVBC::inversion()'],['../classts_1_1_tuner_parameters_d_v_b_s.html#ab230692089facdc25008c90e9e0ca1db',1,'ts::TunerParametersDVBS::inversion()'],['../classts_1_1_tuner_parameters_d_v_b_t.html#ac8e2d7c13a583b160845eccac1caf8cc',1,'ts::TunerParametersDVBT::inversion()']]],

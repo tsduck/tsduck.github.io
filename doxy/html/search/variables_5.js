@@ -31,7 +31,7 @@ var searchData=
   ['escape',['ESCAPE',['../namespacets.html#a73cc19c434877b6bc6190096889a0230',1,'ts']]],
   ['etid',['etid',['../classts_1_1_t_s_analyzer_1_1_e_t_i_d_context.html#ae20ff83b718a193b5437c59ccea76820',1,'ts::TSAnalyzer::ETIDContext']]],
   ['euro_5fsign',['EURO_SIGN',['../namespacets.html#a282a86de4ab50caa42c11b78b0c91a33',1,'ts']]],
-  ['event_5fid',['event_id',['../structts_1_1_r_s_t_1_1_event.html#a8429a9daddee9cfd670a4b7d0ddd9d29',1,'ts::RST::Event']]],
+  ['event_5fid',['event_id',['../structts_1_1_r_s_t_1_1_event.html#a8429a9daddee9cfd670a4b7d0ddd9d29',1,'ts::RST::Event::event_id()'],['../classts_1_1_splice_insert.html#a5cf412e70e87f221ae88a8c8953f8a04',1,'ts::SpliceInsert::event_id()']]],
   ['event_5flinkage_5finfo',['event_linkage_info',['../classts_1_1_linkage_descriptor.html#a32c2c488cbdbf55d37e3e295bce9df71',1,'ts::LinkageDescriptor']]],
   ['event_5fname',['event_name',['../classts_1_1_short_event_descriptor.html#a0e3a6240dc6957158c4a7bc073675fa7',1,'ts::ShortEventDescriptor']]],
   ['event_5fsimulcast',['event_simulcast',['../classts_1_1_linkage_descriptor_1_1_event_linkage_info.html#ad6d375cd59d6b5487ce867ccbcc5c136',1,'ts::LinkageDescriptor::EventLinkageInfo::event_simulcast()'],['../classts_1_1_linkage_descriptor_1_1_extended_event_linkage_info.html#a06a9c030d940a7cf1c5a0111da1d0418',1,'ts::LinkageDescriptor::ExtendedEventLinkageInfo::event_simulcast()']]],

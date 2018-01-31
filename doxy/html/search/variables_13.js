@@ -45,6 +45,8 @@ var searchData=
   ['solidus',['SOLIDUS',['../namespacets.html#ae1cf6792b51bb7e4082e370846721b52',1,'ts']]],
   ['space',['SPACE',['../namespacets.html#aa0b82d207cbd796a6e1b23a1b7622d21',1,'ts']]],
   ['spectralinversionenum',['SpectralInversionEnum',['../namespacets.html#a54b3bffd5e915197fd7407e42be2e11e',1,'ts']]],
+  ['splice_5fid_5fcuei',['SPLICE_ID_CUEI',['../namespacets.html#abfbad5bde42619506c4ef6d3a298d952',1,'ts']]],
+  ['splice_5fout',['splice_out',['../classts_1_1_splice_insert.html#aa54f1ff20835e815251e1c07dbb2c6a8',1,'ts::SpliceInsert']]],
   ['square_5froot',['SQUARE_ROOT',['../namespacets.html#a4636fde23f0aa3bf726580a238429a1a',1,'ts']]],
   ['ssu_5foui',['ssu_oui',['../classts_1_1_t_s_analyzer_1_1_p_i_d_context.html#af1ef7defb98a841847c9252063c0c72a',1,'ts::TSAnalyzer::PIDContext']]],
   ['stack_5fsize_5foverhead',['STACK_SIZE_OVERHEAD',['../classts_1_1tsp_1_1_plugin_executor.html#a160dfc5dc9bf176070ba43fef382bee8',1,'ts::tsp::PluginExecutor']]],

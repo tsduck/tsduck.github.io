@@ -1,10 +1,10 @@
 var structts_1_1_t_s_packet =
 [
     [ "AdaptationFieldError", "classts_1_1_t_s_packet_1_1_adaptation_field_error.html", "classts_1_1_t_s_packet_1_1_adaptation_field_error" ],
-    [ "DUMP_RAW", "structts_1_1_t_s_packet.html#aef4121509ca64f67393bbd8d23534e1da0661d29ef0ff3984c2b1f960030b956b", null ],
-    [ "DUMP_TS_HEADER", "structts_1_1_t_s_packet.html#aef4121509ca64f67393bbd8d23534e1dac57d1f3e8af481c662b8c117063ea348", null ],
-    [ "DUMP_PES_HEADER", "structts_1_1_t_s_packet.html#aef4121509ca64f67393bbd8d23534e1daf278935d038f70428415ac88767b80dc", null ],
-    [ "DUMP_PAYLOAD", "structts_1_1_t_s_packet.html#aef4121509ca64f67393bbd8d23534e1dafa5c6bfba7869de813ff48b1077c0e70", null ],
+    [ "DUMP_RAW", "structts_1_1_t_s_packet.html#ab623625fe5a0898de1301a9e375cbda9a0661d29ef0ff3984c2b1f960030b956b", null ],
+    [ "DUMP_TS_HEADER", "structts_1_1_t_s_packet.html#ab623625fe5a0898de1301a9e375cbda9ac57d1f3e8af481c662b8c117063ea348", null ],
+    [ "DUMP_PES_HEADER", "structts_1_1_t_s_packet.html#ab623625fe5a0898de1301a9e375cbda9af278935d038f70428415ac88767b80dc", null ],
+    [ "DUMP_PAYLOAD", "structts_1_1_t_s_packet.html#ab623625fe5a0898de1301a9e375cbda9afa5c6bfba7869de813ff48b1077c0e70", null ],
     [ "operator=", "structts_1_1_t_s_packet.html#a1c3c9fb2cdc6667e537b0639d9e1a547", null ],
     [ "operator==", "structts_1_1_t_s_packet.html#a5dbdb9054ac20d9122f8508397be9ea7", null ],
     [ "operator!=", "structts_1_1_t_s_packet.html#a00e6fa24363ff5afc47168d0012d747e", null ],
@@ -47,6 +47,8 @@ var structts_1_1_t_s_packet =
     [ "hasDTS", "structts_1_1_t_s_packet.html#a7a6c2bd13800cf13e4fd01c4e2eade2d", null ],
     [ "getPTS", "structts_1_1_t_s_packet.html#a379296ebd180cef7b237f1b7d66db524", null ],
     [ "getDTS", "structts_1_1_t_s_packet.html#a65543fa28fb8e68a674bec58e4ea5346", null ],
+    [ "setPTS", "structts_1_1_t_s_packet.html#a7491cdd8e02475ca02e28c8d0c157779", null ],
+    [ "setDTS", "structts_1_1_t_s_packet.html#aacbce8e8294845775e7e6b2007f38097", null ],
     [ "read", "structts_1_1_t_s_packet.html#a834dda8d7bde64b78fb816053f273a2a", null ],
     [ "write", "structts_1_1_t_s_packet.html#a31c922b7ba8f4dc3cb007de78dcd77c9", null ],
     [ "display", "structts_1_1_t_s_packet.html#ad27839b27124256a7d9017f71f7371b1", null ],
