@@ -42,6 +42,7 @@ var classts_1_1_byte_block =
     [ "appendInt32LE", "classts_1_1_byte_block.html#ad5af7059cc5448782eb51c8c9a46ae47", null ],
     [ "appendInt64LE", "classts_1_1_byte_block.html#aa82b9db8747b5a2746cd6c47766e55c5", null ],
     [ "append", "classts_1_1_byte_block.html#a7e6bdf5c2888d6106e80e4fe451ca4a6", null ],
+    [ "appendBCD", "classts_1_1_byte_block.html#acd9c0f86d3293923640d17366d559188", null ],
     [ "loadFromFile", "classts_1_1_byte_block.html#ac8b1d715ed4dbec048ab4b1d04b09b4f", null ],
     [ "appendFromFile", "classts_1_1_byte_block.html#ab96d08c165c4b1db55c344ff43a26ce0", null ],
     [ "saveToFile", "classts_1_1_byte_block.html#a3e7c8810064f39ef05fc7e66d6997772", null ],

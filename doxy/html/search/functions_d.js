@@ -5,7 +5,7 @@ var searchData=
   ['namefromsectionwithfallback',['nameFromSectionWithFallback',['../classts_1_1_names.html#a7c7197b6cd38383e6f6c15ca7c4fd68d',1,'ts::Names']]],
   ['nameguid',['NameGUID',['../namespacets.html#ab9f60fce103bc2ad869fc439768c048e',1,'ts']]],
   ['namelist',['nameList',['../classts_1_1_enumeration.html#a69bf2d47464c5278cbb419816dabb686',1,'ts::Enumeration']]],
-  ['names',['Names',['../classts_1_1_names.html#a32f04a6d5d3f8e1b24b1fa4391140c06',1,'ts::Names::Names()'],['../classts_1_1_enumeration.html#a1a71a3aa9996429c15b265115a81bba6',1,'ts::Enumeration::names(const CONTAINER &amp;container, const UString &amp;separator=u&quot;, &quot;) const'],['../classts_1_1_enumeration.html#a38219b29c8a8de33f0fca42a0a696729',1,'ts::Enumeration::names(ITERATOR begin, ITERATOR end, const UString &amp;separator=u&quot;, &quot;) const']]],
+  ['names',['names',['../classts_1_1_enumeration.html#a1a71a3aa9996429c15b265115a81bba6',1,'ts::Enumeration::names(const CONTAINER &amp;container, const UString &amp;separator=u&quot;, &quot;) const'],['../classts_1_1_enumeration.html#a38219b29c8a8de33f0fca42a0a696729',1,'ts::Enumeration::names(ITERATOR begin, ITERATOR end, const UString &amp;separator=u&quot;, &quot;) const'],['../classts_1_1_names.html#a32f04a6d5d3f8e1b24b1fa4391140c06',1,'ts::Names::Names()']]],
   ['networkid',['NetworkId',['../namespacets_1_1names.html#a9ae93223e43e1c60b2fcda250fa92969',1,'ts::names']]],
   ['networknamedescriptor',['NetworkNameDescriptor',['../classts_1_1_network_name_descriptor.html#a09a31939fe984d0833edafff54505271',1,'ts::NetworkNameDescriptor::NetworkNameDescriptor(const UString &amp;name=UString())'],['../classts_1_1_network_name_descriptor.html#a81c9b8b2aa1095dcf90423d37d3492fa',1,'ts::NetworkNameDescriptor::NetworkNameDescriptor(const Descriptor &amp;bin, const DVBCharset *charset=0)']]],
   ['newuid',['newUID',['../classts_1_1_u_i_d.html#ad7b1a7ecba2da89db3b8f843f862aea7',1,'ts::UID']]],
@@ -31,5 +31,6 @@ var searchData=
   ['normalizenumbering',['NormalizeNumbering',['../classts_1_1_extended_event_descriptor.html#aca3b3ed2fb480ca7b78e71e275b3a07f',1,'ts::ExtendedEventDescriptor']]],
   ['notifyenvironmentchange',['NotifyEnvironmentChange',['../classts_1_1_registry.html#aca0041c59c6b3950604a77a926239520',1,'ts::Registry']]],
   ['notifysettingchange',['NotifySettingChange',['../classts_1_1_registry.html#aa7fcb967c8a0292e2727c9341316dd2b',1,'ts::Registry']]],
-  ['number',['Number',['../classts_1_1json_1_1_number.html#ac96247ba735502af595761b6fa1751cf',1,'ts::json::Number']]]
+  ['number',['Number',['../classts_1_1json_1_1_number.html#ac96247ba735502af595761b6fa1751cf',1,'ts::json::Number']]],
+  ['nvodreferencedescriptor',['NVODReferenceDescriptor',['../classts_1_1_n_v_o_d_reference_descriptor.html#ae1c476754b3310f7486099821a2a9ba3',1,'ts::NVODReferenceDescriptor::NVODReferenceDescriptor()'],['../classts_1_1_n_v_o_d_reference_descriptor.html#afc1f1eb23a05c94ecf450960caa0b902',1,'ts::NVODReferenceDescriptor::NVODReferenceDescriptor(const Descriptor &amp;bin, const DVBCharset *charset=0)']]]
 ];

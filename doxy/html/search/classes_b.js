@@ -1,6 +1,7 @@
 var searchData=
 [
   ['macplist',['MacPList',['../classts_1_1_mac_p_list.html',1,'ts']]],
+  ['maximumbitratedescriptor',['MaximumBitrateDescriptor',['../classts_1_1_maximum_bitrate_descriptor.html',1,'ts']]],
   ['md5',['MD5',['../classts_1_1_m_d5.html',1,'ts']]],
   ['mediaguarddate',['MediaGuardDate',['../classts_1_1_media_guard_date.html',1,'ts']]],
   ['message',['Message',['../classts_1_1tlv_1_1_message.html',1,'ts::tlv']]],

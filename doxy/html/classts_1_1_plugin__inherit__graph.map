@@ -1,10 +1,10 @@
 <map id="ts::Plugin" name="ts::Plugin">
-<area shape="rect" id="node4" href="$classts_1_1_input_plugin.html" title="Input tsp plugin interface. " alt="" coords="47,225,153,251"/>
-<area shape="rect" id="node6" href="$classts_1_1_output_plugin.html" title="Output tsp plugin interface. " alt="" coords="197,225,313,251"/>
-<area shape="rect" id="node8" href="$classts_1_1_processor_plugin.html" title="Packet processing tsp plugin interface. " alt="" coords="354,225,490,251"/>
-<area shape="rect" id="node2" href="$classts_1_1_args.html" title="An encapsulation of command line syntax and analysis. " alt="" coords="222,79,288,104"/>
-<area shape="rect" id="node3" href="$classts_1_1_report.html" title="Abstract interface for event reporting and monitoring. " alt="" coords="215,5,295,31"/>
-<area shape="rect" id="node5" href="$classts_1_1_dektec_input_plugin.html" title="Dektec input plugin for tsp. " alt="" coords="5,299,153,324"/>
-<area shape="rect" id="node7" href="$classts_1_1_dektec_output_plugin.html" title="Dektec output plugin for tsp. " alt="" coords="176,299,334,324"/>
-<area shape="rect" id="node9" href="$classts_1_1_abstract_descrambler.html" title="Abstract base class for DVB descrambler plugins. " alt="" coords="357,299,521,324"/>
+<area shape="rect" id="node4" href="$classts_1_1_input_plugin.html" title="Input tsp plugin interface. " alt="" coords="51,229,166,256"/>
+<area shape="rect" id="node6" href="$classts_1_1_output_plugin.html" title="Output tsp plugin interface. " alt="" coords="213,229,340,256"/>
+<area shape="rect" id="node8" href="$classts_1_1_processor_plugin.html" title="Packet processing tsp plugin interface. " alt="" coords="384,229,529,256"/>
+<area shape="rect" id="node2" href="$classts_1_1_args.html" title="An encapsulation of command line syntax and analysis. " alt="" coords="241,80,312,107"/>
+<area shape="rect" id="node3" href="$classts_1_1_report.html" title="Abstract interface for event reporting and monitoring. " alt="" coords="235,5,319,32"/>
+<area shape="rect" id="node5" href="$classts_1_1_dektec_input_plugin.html" title="Dektec input plugin for tsp. " alt="" coords="5,304,167,331"/>
+<area shape="rect" id="node7" href="$classts_1_1_dektec_output_plugin.html" title="Dektec output plugin for tsp. " alt="" coords="191,304,363,331"/>
+<area shape="rect" id="node9" href="$classts_1_1_abstract_descrambler.html" title="Abstract base class for DVB descrambler plugins. " alt="" coords="387,304,566,331"/>
 </map>

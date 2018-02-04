@@ -1,5 +1,6 @@
 var searchData=
 [
+  ['aac_5ftype',['AAC_type',['../classts_1_1_a_a_c_descriptor.html#a79bf6de656775f6eeaaf3d879184b109',1,'ts::AACDescriptor']]],
   ['ac_5fdelay_5fstart',['AC_delay_start',['../classts_1_1ecmgscs_1_1_channel_status.html#a56a0939c47bdf5971868eedf7a385f0b',1,'ts::ecmgscs::ChannelStatus']]],
   ['ac_5fdelay_5fstop',['AC_delay_stop',['../classts_1_1ecmgscs_1_1_channel_status.html#a238ed5bfb8ce7588c5986cf4e44ea432',1,'ts::ecmgscs::ChannelStatus']]],
   ['access_5fcriteria',['access_criteria',['../classts_1_1ecmgscs_1_1_c_w_provision.html#aa963bc2b557644dff89a3e96e5d0e535',1,'ts::ecmgscs::CWProvision']]],
@@ -8,8 +9,9 @@ var searchData=
   ['acute_5faccent',['ACUTE_ACCENT',['../namespacets.html#a5c4285bcc78cce68b8eea2c1bd978e59',1,'ts']]],
   ['add_5fpmt_5fpids',['add_pmt_pids',['../classts_1_1_tables_logger_args.html#ad78e2573cad859c494d88269199611f3',1,'ts::TablesLoggerArgs']]],
   ['additional_5fidentification_5finfo',['additional_identification_info',['../classts_1_1_registration_descriptor.html#a61f423c8bc13849bf23432fc87452617',1,'ts::RegistrationDescriptor']]],
-  ['additional_5finfo',['additional_info',['../classts_1_1_a_c3_descriptor.html#a27218b858015d8229700950b1d6e8489',1,'ts::AC3Descriptor::additional_info()'],['../classts_1_1_enhanced_a_c3_descriptor.html#ac2bc1e3fd1e02fe84aa86934768a739e',1,'ts::EnhancedAC3Descriptor::additional_info()']]],
+  ['additional_5finfo',['additional_info',['../classts_1_1_a_a_c_descriptor.html#ae6b59dc9b2ccca5f3aefe62cc4adf24f',1,'ts::AACDescriptor::additional_info()'],['../classts_1_1_a_c3_descriptor.html#a27218b858015d8229700950b1d6e8489',1,'ts::AC3Descriptor::additional_info()'],['../classts_1_1_d_t_s_descriptor.html#a635a381ac1b6281d5c02946c491bd6d6',1,'ts::DTSDescriptor::additional_info()'],['../classts_1_1_enhanced_a_c3_descriptor.html#ac2bc1e3fd1e02fe84aa86934768a739e',1,'ts::EnhancedAC3Descriptor::additional_info()']]],
   ['addr',['addr',['../structts_1_1tlv_1_1_message_factory_1_1_parameter.html#a3668b01bf0c0e442ac5e474ca58a3f84',1,'ts::tlv::MessageFactory::Parameter']]],
+  ['ait_5fversion_5fnumber',['AIT_version_number',['../structts_1_1_application_signalling_descriptor_1_1_entry.html#a7416956da8cc067ccf046c7f4274e55d',1,'ts::ApplicationSignallingDescriptor::Entry']]],
   ['alef_5fsymbol',['ALEF_SYMBOL',['../namespacets.html#a0c81d66f43848bffab074cf649a547ec',1,'ts']]],
   ['algo',['algo',['../classts_1_1_cipher_chaining.html#a5ccb20cd987f3b4f6f52d2b9058c1d39',1,'ts::CipherChaining']]],
   ['all_5fsections',['all_sections',['../classts_1_1_tables_logger_args.html#af2f86788aa266f46b477d55c050f29c6',1,'ts::TablesLoggerArgs']]],
@@ -24,6 +26,7 @@ var searchData=
   ['api_5fversion',['API_VERSION',['../classts_1_1_t_s_p.html#ae0918f6a3db95b713caa2b07f557afae',1,'ts::TSP']]],
   ['apocalypse',['Apocalypse',['../classts_1_1_time.html#a6553a48572a89e40f76829b9cf11852f',1,'ts::Time']]],
   ['apostrophe',['APOSTROPHE',['../namespacets.html#a1f421f8fa9e10f93e87a90c2cb06e2f5',1,'ts']]],
+  ['application_5ftype',['application_type',['../structts_1_1_application_signalling_descriptor_1_1_entry.html#a2f97fe7b71e353a2789879a1f70c4094',1,'ts::ApplicationSignallingDescriptor::Entry']]],
   ['approximately_5fequal_5fto',['APPROXIMATELY_EQUAL_TO',['../namespacets.html#a8b7b7aafeb6680d859013e41b80e8618',1,'ts']]],
   ['arabic_5fcomma',['ARABIC_COMMA',['../namespacets.html#a8505299606d51ddc67f05abb8bae3a2a',1,'ts']]],
   ['arabic_5fdamma',['ARABIC_DAMMA',['../namespacets.html#a7f53b27e523b4a7c387cc86fbe1bf303',1,'ts']]],

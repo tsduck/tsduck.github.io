@@ -1,4 +1,5 @@
 var classts_1_1_v_b_i_teletext_descriptor =
 [
-    [ "DisplayDescriptor", "classts_1_1_v_b_i_teletext_descriptor.html#afe9be6a885aa2b8e865a6e559e864d92", null ]
+    [ "VBITeletextDescriptor", "classts_1_1_v_b_i_teletext_descriptor.html#ac011ce675909e1b3609174ecc94358fc", null ],
+    [ "VBITeletextDescriptor", "classts_1_1_v_b_i_teletext_descriptor.html#a4b0256395ee6211995d7423bed65a71c", null ]
 ];

@@ -50,6 +50,7 @@ var searchData=
   ['hasprotocolversion',['hasProtocolVersion',['../classts_1_1tlv_1_1_message.html#a85ef74f32d9db2cfe9439a657b3171b2',1,'ts::tlv::Message']]],
   ['hasprovider',['hasProvider',['../classts_1_1_service.html#adf85123ed41a5eaa193b6e03271d0a28',1,'ts::Service::hasProvider() const'],['../classts_1_1_service.html#ab40b01fbc6732d0c208bb0f7da7186e5',1,'ts::Service::hasProvider(const UString &amp;value) const']]],
   ['haspts',['hasPTS',['../structts_1_1_t_s_packet.html#a0370af5c97820c7f95691dca4fae7f54',1,'ts::TSPacket']]],
+  ['hasreservedbytes',['hasReservedBytes',['../structts_1_1_v_b_i_data_descriptor_1_1_service.html#a71c902ab7dfaf91cc4d57a18dcafb19a',1,'ts::VBIDataDescriptor::Service']]],
   ['hasrunningstatus',['hasRunningStatus',['../classts_1_1_service.html#add1e250fbca6e7f019f7758836f20ee3',1,'ts::Service::hasRunningStatus() const'],['../classts_1_1_service.html#a666ff5b8547b9dd71a3d716978360d04',1,'ts::Service::hasRunningStatus(uint8_t value) const']]],
   ['hastsid',['hasTSId',['../classts_1_1_service.html#a120e3e8e6a17991d3d9b1cfc482dff93',1,'ts::Service::hasTSId() const'],['../classts_1_1_service.html#a92dd2b6e2d8eed12c25243bcc29108bd',1,'ts::Service::hasTSId(uint16_t value) const']]],
   ['hastuninginfo',['hasTuningInfo',['../classts_1_1_tuner_args.html#a2abdea7e913acd135cb8cbb73ac5e7c5',1,'ts::TunerArgs']]],

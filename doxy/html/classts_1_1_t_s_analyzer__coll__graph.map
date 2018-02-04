@@ -1,8 +1,8 @@
 <map id="ts::TSAnalyzer" name="ts::TSAnalyzer">
-<area shape="rect" id="node2" href="$classts_1_1_table_handler_interface.html" title="Table handler interface. " alt="" coords="162,5,332,31"/>
-<area shape="rect" id="node3" href="$classts_1_1_section_handler_interface.html" title="Abstract interface to receive MPEG Section from a SectionDemux. " alt="" coords="156,55,338,80"/>
-<area shape="rect" id="node4" href="$classts_1_1_p_e_s_handler_interface.html" title="Abstract interface to be notified of PES packets using a PESDemux. " alt="" coords="165,104,329,129"/>
-<area shape="rect" id="node5" href="$classts_1_1_t2_m_i_handler_interface.html" title="T2&#45;MI demux handler interface. " alt="" coords="163,153,331,179"/>
-<area shape="rect" id="node6" href="$classts_1_1_time.html" title="The Time class implements a basic representation of time. " alt="" coords="213,259,281,284"/>
-<area shape="rect" id="node7" href="$classts_1_1_u_string.html" title="An implementation of UTF&#45;16 strings. " alt="" coords="205,372,289,397"/>
+<area shape="rect" id="node2" href="$classts_1_1_table_handler_interface.html" title="Table handler interface. " alt="" coords="172,5,357,32"/>
+<area shape="rect" id="node3" href="$classts_1_1_section_handler_interface.html" title="Abstract interface to receive MPEG Section from a SectionDemux. " alt="" coords="165,56,364,83"/>
+<area shape="rect" id="node4" href="$classts_1_1_p_e_s_handler_interface.html" title="Abstract interface to be notified of PES packets using a PESDemux. " alt="" coords="177,107,352,133"/>
+<area shape="rect" id="node5" href="$classts_1_1_t2_m_i_handler_interface.html" title="T2&#45;MI demux handler interface. " alt="" coords="173,157,356,184"/>
+<area shape="rect" id="node6" href="$classts_1_1_time.html" title="The Time class implements a basic representation of time. " alt="" coords="227,269,302,296"/>
+<area shape="rect" id="node7" href="$classts_1_1_u_string.html" title="An implementation of UTF&#45;16 strings. " alt="" coords="219,388,310,415"/>
 </map>

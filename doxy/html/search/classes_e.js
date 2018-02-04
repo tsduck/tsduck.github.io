@@ -22,6 +22,7 @@ var searchData=
   ['pollfiles',['PollFiles',['../classts_1_1_poll_files.html',1,'ts']]],
   ['pollfileslistener',['PollFilesListener',['../classts_1_1_poll_files_listener.html',1,'ts']]],
   ['position',['Position',['../classts_1_1_text_parser_1_1_position.html',1,'ts::TextParser']]],
+  ['privatedataindicatordescriptor',['PrivateDataIndicatorDescriptor',['../classts_1_1_private_data_indicator_descriptor.html',1,'ts']]],
   ['privatedataspecifierdescriptor',['PrivateDataSpecifierDescriptor',['../classts_1_1_private_data_specifier_descriptor.html',1,'ts']]],
   ['processmetrics',['ProcessMetrics',['../structts_1_1_process_metrics.html',1,'ts']]],
   ['processorexecutor',['ProcessorExecutor',['../classts_1_1tsp_1_1_processor_executor.html',1,'ts::tsp']]],

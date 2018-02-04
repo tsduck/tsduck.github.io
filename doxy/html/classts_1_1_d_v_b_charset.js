@@ -12,6 +12,7 @@ var classts_1_1_d_v_b_charset =
     [ "GetAllNames", "classts_1_1_d_v_b_charset.html#ae36eb8bf788b5b0500944b868f11fab8", null ],
     [ "decode", "classts_1_1_d_v_b_charset.html#a77c694c2b11cccf88e87b01163c8fab2", null ],
     [ "canEncode", "classts_1_1_d_v_b_charset.html#a1e1bc0a197d7571c266ef8a1e55e8e3f", null ],
+    [ "encodeTableCode", "classts_1_1_d_v_b_charset.html#aaa9fe66286408ff08d8f420e0d5cf62c", null ],
     [ "encode", "classts_1_1_d_v_b_charset.html#ad0aa514202e0fccee2b809987d7a7a14", null ],
     [ "Unregister", "classts_1_1_d_v_b_charset.html#a9261194892e6e5d7ee7b66a6461d8585", null ],
     [ "DVB_SINGLE_BYTE_CRLF", "classts_1_1_d_v_b_charset.html#a0b019e019c7acdff9a4cf74c57305946", null ],

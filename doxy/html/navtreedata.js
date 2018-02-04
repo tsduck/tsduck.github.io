@@ -1,26 +1,3 @@
-/*
-@ @licstart  The following is the entire license notice for the
-JavaScript code in this file.
-
-Copyright (C) 1997-2017 by Dimitri van Heesch
-
-This program is free software; you can redistribute it and/or modify
-it under the terms of the GNU General Public License as published by
-the Free Software Foundation; either version 2 of the License, or
-(at your option) any later version.
-
-This program is distributed in the hope that it will be useful,
-but WITHOUT ANY WARRANTY; without even the implied warranty of
- MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
- GNU General Public License for more details.
-
-You should have received a copy of the GNU General Public License along
-with this program; if not, write to the Free Software Foundation, Inc.,
-51 Franklin Street, Fifth Floor, Boston, MA 02110-1301 USA.
-
-@licend  The above is the entire license notice
-for the JavaScript code in this file
-*/
 var NAVTREE =
 [
   [ "TSDuck", "index.html", [
@@ -112,8 +89,8 @@ var NAVTREE =
       [ "Building applications on Linux", "usinglibrary.html#liblinux", null ],
       [ "Building applications on Windows", "usinglibrary.html#libwindows", null ]
     ] ],
-    [ "Namespaces", "namespaces.html", [
-      [ "Namespace List", "namespaces.html", "namespaces_dup" ],
+    [ "Namespaces", null, [
+      [ "Namespace List", "namespaces.html", "namespaces" ],
       [ "Namespace Members", "namespacemembers.html", [
         [ "All", "namespacemembers.html", "namespacemembers_dup" ],
         [ "Functions", "namespacemembers_func.html", "namespacemembers_func" ],
@@ -136,8 +113,8 @@ var NAVTREE =
         [ "Enumerator", "functions_eval.html", null ]
       ] ]
     ] ],
-    [ "Files", "files.html", [
-      [ "File List", "files.html", "files_dup" ],
+    [ "Files", null, [
+      [ "File List", "files.html", "files" ],
       [ "File Members", "globals.html", [
         [ "All", "globals.html", null ],
         [ "Functions", "globals_func.html", null ],
@@ -151,36 +128,37 @@ var NAVTREE =
 var NAVTREEINDEX =
 [
 "annotated.html",
-"classts_1_1_abstract_audio_video_attributes.html#aaa27bab70b76ae2085ff66442c340cbf",
-"classts_1_1_audio_attributes.html#a7611ab4c71bc14e641d42d08752b37dc",
-"classts_1_1_c_t_s3.html#a93f8813833af61da2d1aeaa3fc6b681d",
-"classts_1_1_dektec_input_plugin.html#a8eb6f07ffd6fb81dd4786aafce26f75a",
-"classts_1_1_extended_event_descriptor.html",
-"classts_1_1_linkage_descriptor_1_1_event_linkage_info.html",
-"classts_1_1_p_e_s_packet.html#a9707b841afbff5bbfd1d6af4e45e3505",
-"classts_1_1_resident_buffer.html#aac59d54ade037f0c6c6b4b030cfed898",
-"classts_1_1_section_file.html#a08c507a46ca05fa35178a946c2f737bd",
-"classts_1_1_socket_address.html#a301d7329740abcc4cabdb91e341ca231",
-"classts_1_1_t_o_t.html#a10b1ea761029385200119e4f1e3699b3",
-"classts_1_1_t_s_p.html#a8350f734155b137af1380283fae99a12",
-"classts_1_1_thread.html#a176d1f2f087d184a4a241a053593d1e8",
-"classts_1_1_tuner_parameters_d_v_b_s.html#a466ebb7d25d1a626045c4d3e8f2754e5",
-"classts_1_1_variable.html#a4f7cf1986324a981ffe5ed181ffbc3b7",
-"classts_1_1emmgmux_1_1_stream_setup.html#a56a5041757f798aea0dd37c027f8e8ab",
-"classts_1_1tsp_1_1_options.html#a170401c5093b2f3dd59e577c992ba1e2",
-"functions_t.html",
-"structts_1_1_p_c_r_analyzer_1_1_status.html#a17be0044bdd16a1838bb588acfd8b435",
-"structts_1_1ecmgscs_1_1_traits.html#adcc0fdae5124eae33e1729d3e5350aa7",
-"ts_e_m_m_g_m_u_x_8h.html",
-"ts_m_p_e_g_8h.html#a59d7516851ab27af6608e38f361df1daacbd1a1496c3cced500dceea62015791e",
-"ts_m_p_e_g_8h.html#af65eca52660a5db7689e344a97f11ff9a09178207ef07a2a31b749b0e89e025fe",
-"ts_modulation_8h.html#a16201fa1e145bf51da46e41e646a97ab",
-"ts_platform_8h.html#a2d3fc0fa119551548f2550c83ca68e47a5083b3f9b5f22506be23ec56cc217b7a",
-"ts_sys_utils_8h.html#a3e3525effc73cafe1091169f70166985",
-"ts_u_char_8h.html#a1bf0d316963bcb49e29f8a9a2905e5d2",
-"ts_u_char_8h.html#a56ee884008a88a425fa5e78274c81422",
-"ts_u_char_8h.html#aaa0a328cafe61ea0deeda38ac6ac0d70",
-"ts_u_char_8h.html#aea7b8f2165631c98f2049b76edeacd57"
+"classts_1_1_abstract_a_v_c_data.html#aa928ac6a4e029f4ffe848449725e2c1c",
+"classts_1_1_args_1_1_args_error.html#a48fdb94c2089e81b91a801c10da8bdfc",
+"classts_1_1_c_r_c32.html#ae37304414a85b23f07d82f3a45b2986b",
+"classts_1_1_d_v_b_charset_single_byte.html#a7dfe1d2089971cc2f169873fc9edf6ad",
+"classts_1_1_eacem_preferred_name_identifier_descriptor.html#ac79c0f17ec8357087bcef2da7288af28",
+"classts_1_1_i_p_address.html#ad2de8d35ced82185438243a5fcd1fa2a",
+"classts_1_1_null_mutex.html",
+"classts_1_1_processor_plugin.html#a245a88e1a33655ca68c6765eecedbd6c",
+"classts_1_1_safe_ptr.html#abd8313fa54cdeb0d0d69fa89f0d65f34",
+"classts_1_1_service_list_descriptor.html#a699e789c05097056b29f305d33d55c51",
+"classts_1_1_t2_m_i_handler_interface.html#a91ec4f670045ec11e0d28ddc1e4caf9a",
+"classts_1_1_t_s_analyzer_1_1_service_context.html#a5d9fde00f446bbda1c5896f784a301df",
+"classts_1_1_teletext_demux.html#ad8e39f8ee9b3840b94fcee0f6ba61eb5",
+"classts_1_1_tuner.html#aa3ca21bd8eba2a8890e941bc4345cf05",
+"classts_1_1_u_string.html#a618790677ea9b093c381cb58526527f2",
+"classts_1_1ecmgscs_1_1_channel_test.html#a02e28487215e590a81bf2e7d774112fa",
+"classts_1_1tlv_1_1_analyzer.html#aee11f1591bc0f9585975b0c3ca60466c",
+"classts_1_1xml_1_1_element.html#a66eef12d0129890d163b37c096e772aa",
+"namespacemembers_func_f.html",
+"structts_1_1_t_s_packet.html#a65543fa28fb8e68a674bec58e4ea5346",
+"testing.html#testadd",
+"ts_m_p_e_g_8h.html#a0071f2918a8c95ab8f3c188250ce2b7fa440fffe954dcb6170e7e689793620cfb",
+"ts_m_p_e_g_8h.html#a9750428b1cdf61488981dfed5f2fad1daa9467e645ccfc85d6ab4467eed8ea1cd",
+"ts_m_p_e_g_8h.html#af65eca52660a5db7689e344a97f11ff9a77aaa644ba49af0b83172bed5ab41763",
+"ts_modulation_8h.html#aee2f4a753d453dd84bab8636dc4b7ba5a406a117e3e6a9407da9b33b123eeb3e1",
+"ts_platform_8h.html#aa087dfd46b3e55b3222f388869105da4",
+"ts_tables_ptr_8h.html#a4fda4d5387866ca8571e38c5547ce742",
+"ts_u_char_8h.html#a30d73d0d873e8eb86255074a3ad1676b",
+"ts_u_char_8h.html#a73eb72e2107e42ed41cfefa6dad654aa",
+"ts_u_char_8h.html#ac2a0b23ca61adf1e70df1d889d099c20",
+"ts_u_string_8h.html#a192e3a523b2e9cdb0a27852f1b3e8423"
 ];
 
 var SYNCONMSG = 'click to disable panel synchronisation';

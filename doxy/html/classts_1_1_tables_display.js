@@ -11,6 +11,8 @@ var classts_1_1_tables_display =
     [ "displayDescriptorList", "classts_1_1_tables_display.html#afed1d64a21d3d45005e0e88a72727ed7", null ],
     [ "displayDescriptorList", "classts_1_1_tables_display.html#ace0e30426cbb8b1e362a4ade8e33d735", null ],
     [ "displayExtraData", "classts_1_1_tables_display.html#a3d59b8b4aa609c18dd6d50c029619b58", null ],
+    [ "ToASCII", "classts_1_1_tables_display.html#aa6017fab3023c3b9e84ba0d31d76ff11", null ],
+    [ "displayIfASCII", "classts_1_1_tables_display.html#a964a87d1394ccefe3341df344f23544d", null ],
     [ "redirect", "classts_1_1_tables_display.html#afbf9ec2877b550adcefe086ffa9567bf", null ],
     [ "out", "classts_1_1_tables_display.html#a20a027360a3472959fed44195ba0f81f", null ],
     [ "dvbCharset", "classts_1_1_tables_display.html#a81d1af06f1e527ba91587abf28e99702", null ],
