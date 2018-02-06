@@ -65,7 +65,7 @@
         <div class="anchor" id="tsduck"><h2>TSDuck, The MPEG Transport Stream Toolkit</h2></div>
 
         <p>TSDuck is an extensible toolkit for MPEG/DVB transport streams.
-          TSDuck is ideally used in digital television systems for test, monitoring, integration debug, lab, demo and more.
+          TSDuck is used in digital television systems for test, monitoring, integration debug, lab, demo and more.
           In practice, TSDuck can be used for:</p>
         <ul>
           <li>Transport stream acquisition or transmodulation.</li>
@@ -78,12 +78,12 @@
           <li>Content scrambling or descrambling.</li>
           <li>And more...</li>
         </ul>
-        <p>TSDuck is developed in C++ in a very modular architecture.
+        <p>TSDuck is developed in C++ in a modular architecture.
           It is easy to extend it through plugins.
-          In fact, the primary requirement for TSDuck architecture was:
-          When I want to do something TSDuck cannot do right now, I want the new feature to be
-          implemented within a couple of hours. Most of the time, the target is reached.</p>
-        <p>To be so easily extended, TSDuck needed to be simple. TSDuck is a collection of
+          In fact, the primary requirement for TSDuck architecture was to be able to
+          implement any new feature within a couple of hours, which happened to be
+          the case most of the time.</p>
+        <p>To be easily extended, TSDuck needed to be simple. TSDuck is a collection of
           command line tools and plugins. There is no sophisticated GUI. Each utility or plugin
           performs only one elementary feature but they can be combined in any order.</p>
 
@@ -216,8 +216,10 @@ tsp -I dvb -u $UHF_INPUT                                      \
         <p>The command <i>tstabcomp</i> is also a table decompiler. If the input file is
           a binary section file, <i>tstabcomp</i> analyzes the tables and recreates the
           corresponding XML file.</p>
-        <p>In the absence of a specialized plugin, this is the most generic way to modify
-          a binary table in a stream:</p>
+        <p>One common need is to modify a binary table in a stream.
+          Most of the time, a specialized plugin can do what you want on the fly.
+          But if no predefined plugin exists for the precise modification you need,
+          here is the most generic way to update a table:</p>
         <ul>
           <li>Extract selected binary tables from a stream using the <i>tstables</i> utility
             or the <i>tables</i> plugin for <i>tsp</i>. Use the option
