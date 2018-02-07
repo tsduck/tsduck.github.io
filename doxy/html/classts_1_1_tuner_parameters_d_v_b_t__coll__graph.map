@@ -1,4 +1,4 @@
 <map id="ts::TunerParametersDVBT" name="ts::TunerParametersDVBT">
-<area shape="rect" id="node2" href="$classts_1_1_tuner_parameters.html" title="Abstract base class for DVB tuners parameters. " alt="" coords="23,80,174,107"/>
-<area shape="rect" id="node3" href="$classts_1_1_object.html" title="Abstract base class for objects which can be stored in a repository. " alt="" coords="57,5,141,32"/>
+<area shape="rect" id="node2" href="$classts_1_1_tuner_parameters.html" title="Abstract base class for DVB tuners parameters. " alt="" coords="23,80,163,107"/>
+<area shape="rect" id="node3" href="$classts_1_1_object.html" title="Abstract base class for objects which can be stored in a repository. " alt="" coords="53,5,132,32"/>
 </map>

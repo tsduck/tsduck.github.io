@@ -34,7 +34,7 @@
  <tr style="height: 56px;">
   <td id="projectlogo"><img src="tsduck-32.png"/></td>
    <td id="projectalign"><span id="projectname">TSDuck</span>
-    <span id="projectnumber">Version 3.8</span>
+    <span id="projectnumber">Version 3.8-528</span>
     <span id="projectbrief">(TSDuck - The MPEG Transport Stream Toolkit)</span>
    </td>
    <td>        <div id="MSearchBox" class="MSearchBoxInactive">
@@ -118,7 +118,7 @@ Plugin development workflow</h1>
 <p>To develop a new plugin named <code>foo</code>, follow these steps:</p>
 <ul>
 <li>Create a source file named <code>tsplugin_foo.cpp</code> in the <code>tsplugins</code> subdirectory.</li>
-<li>On Linux or MacOS systems, this new source file will be automatically recognized by the Makefile and the new plugin will be built.</li>
+<li>On Linux or macOS systems, this new source file will be automatically recognized by the Makefile and the new plugin will be built.</li>
 <li>On Windows systems, create a project file named <code>tsplugin_foo.vcxproj</code> in the <code>msvc2017</code> subdirectory (or the corresponding directory for another version of Visual Studio). The fastest way is to copy another plugin's project file. Then, edit the file (this is an XML file) and replace the names of the project and source file. Finally, under Visual C++, add the new project in the solution (File / Add / Existing Project).</li>
 </ul>
 <p>In the source file, create a C++ class, derived from either <a class="el" href="classts_1_1_input_plugin.html" title="Input tsp plugin interface. ">ts::InputPlugin</a>, <a class="el" href="classts_1_1_output_plugin.html" title="Output tsp plugin interface. ">ts::OutputPlugin</a> or <a class="el" href="classts_1_1_processor_plugin.html" title="Packet processing tsp plugin interface. ">ts::ProcessorPlugin</a>. If your plugin implements two capabilities (both input and output for instance), implement the corresponding two classes.</p>

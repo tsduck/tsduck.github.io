@@ -1,6 +1,6 @@
 <map id="ts::DektecInputPlugin" name="ts::DektecInputPlugin">
-<area shape="rect" id="node2" href="$classts_1_1_input_plugin.html" title="Input tsp plugin interface. " alt="" coords="29,229,143,256"/>
-<area shape="rect" id="node3" href="$classts_1_1_plugin.html" title="Base class of all tsp plugins. " alt="" coords="45,155,127,181"/>
-<area shape="rect" id="node4" href="$classts_1_1_args.html" title="An encapsulation of command line syntax and analysis. " alt="" coords="51,80,121,107"/>
-<area shape="rect" id="node5" href="$classts_1_1_report.html" title="Abstract interface for event reporting and monitoring. " alt="" coords="44,5,128,32"/>
+<area shape="rect" id="node2" href="$classts_1_1_input_plugin.html" title="Input tsp plugin interface. " alt="" coords="26,229,131,256"/>
+<area shape="rect" id="node3" href="$classts_1_1_plugin.html" title="Base class of all tsp plugins. " alt="" coords="40,155,117,181"/>
+<area shape="rect" id="node4" href="$classts_1_1_args.html" title="An encapsulation of command line syntax and analysis. " alt="" coords="45,80,113,107"/>
+<area shape="rect" id="node5" href="$classts_1_1_report.html" title="Abstract interface for event reporting and monitoring. " alt="" coords="39,5,118,32"/>
 </map>

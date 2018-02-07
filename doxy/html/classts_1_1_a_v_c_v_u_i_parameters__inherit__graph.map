@@ -1,4 +1,4 @@
 <map id="ts::AVCVUIParameters" name="ts::AVCVUIParameters">
-<area shape="rect" id="node2" href="$classts_1_1_abstract_a_v_c_structure.html" title="Base class for AVC sub&#45;structures inside access units. " alt="" coords="5,80,187,107"/>
-<area shape="rect" id="node3" href="$classts_1_1_abstract_a_v_c_data.html" title="Abstract base class for AVC data, either access units or structures. " alt="" coords="19,5,173,32"/>
+<area shape="rect" id="node2" href="$classts_1_1_abstract_a_v_c_structure.html" title="Base class for AVC sub&#45;structures inside access units. " alt="" coords="5,80,176,107"/>
+<area shape="rect" id="node3" href="$classts_1_1_abstract_a_v_c_data.html" title="Abstract base class for AVC data, either access units or structures. " alt="" coords="19,5,163,32"/>
 </map>

@@ -34,7 +34,7 @@
  <tr style="height: 56px;">
   <td id="projectlogo"><img src="tsduck-32.png"/></td>
    <td id="projectalign"><span id="projectname">TSDuck</span>
-    <span id="projectnumber">Version 3.8</span>
+    <span id="projectnumber">Version 3.8-528</span>
     <span id="projectbrief">(TSDuck - The MPEG Transport Stream Toolkit)</span>
    </td>
    <td>        <div id="MSearchBox" class="MSearchBoxInactive">
@@ -101,11 +101,11 @@ $(document).ready(function(){initNavTree('building.html','');});
 <li class="level2"><a href="#reqrhel">Red Hat Entreprise Linux, CentOS</a></li>
 <li class="level2"><a href="#requbuntu">Ubuntu</a></li>
 <li class="level2"><a href="#reqlinux">All Linux distros</a></li>
-<li class="level2"><a href="#reqmac">MacOS</a></li>
+<li class="level2"><a href="#reqmac">macOS</a></li>
 </ul>
 </li>
 <li class="level1"><a href="#buildbin">Building the TSDuck binaries</a><ul><li class="level2"><a href="#buildwindows">Windows</a></li>
-<li class="level2"><a href="#buildlinux">Linux and MacOS</a></li>
+<li class="level2"><a href="#buildlinux">Linux and macOS</a></li>
 </ul>
 </li>
 <li class="level1"><a href="#buildinst">Building the TSDuck installers</a><ul><li class="level2"><a href="#instwindows">Windows</a></li>
@@ -116,8 +116,8 @@ $(document).ready(function(){initNavTree('building.html','');});
 </li>
 </ul>
 </div>
-<div class="textblock"><p>TSDuck can be built on Windows, Linux and MacOS.</p>
-<p>Support for Dektec devices and DVB tuners is implemented only on Windows and Linux. MacOS can only support files and IP for TS input and output.</p>
+<div class="textblock"><p>TSDuck can be built on Windows, Linux and macOS.</p>
+<p>Support for Dektec devices and DVB tuners is implemented only on Windows and Linux. macOS can only support files and IP for TS input and output.</p>
 <h1><a class="anchor" id="buildreq"></a>
 Pre-requisites: build tools</h1>
 <h2><a class="anchor" id="reqwindows"></a>
@@ -154,10 +154,11 @@ All Linux distros</h2>
 <li>Optional Dektec DTAPI: The command <code>make</code> at the top level will automatically download the LinuxSDK from the Dektec site. See <code>dektec/Makefile</code> for details.</li>
 </ul>
 <h2><a class="anchor" id="reqmac"></a>
-MacOS</h2>
+macOS</h2>
 <ul>
-<li>Install Xcode and its command line utilities.</li>
-<li>To install additional tools from HomeBrew: <div class="fragment"><div class="line">brew install pcsc-lite cppunit doxygen graphviz gnu-sed grep</div></div><!-- fragment --></li>
+<li>Install the Xcode command line utilities (in other words, the <em>clang</em> compiler suite): <div class="fragment"><div class="line">xcode-select --install</div></div><!-- fragment --></li>
+<li>Install the <a href="https://brew.sh/">Homebrew</a> package manager: <div class="fragment"><div class="line">ruby -e &quot;$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)&quot;</div></div><!-- fragment --></li>
+<li>Install common open source tools using Homebrew: <div class="fragment"><div class="line">brew install pcsc-lite cppunit doxygen graphviz gnu-sed grep</div></div><!-- fragment --></li>
 </ul>
 <h1><a class="anchor" id="buildbin"></a>
 Building the TSDuck binaries</h1>
@@ -165,7 +166,7 @@ Building the TSDuck binaries</h1>
 Windows</h2>
 <p>Execute the PowerShell script <code>build\Build.ps1</code>. The TSDuck binaries, executables and DLL's, are built in directories <code>msvc2017\Release-Win32</code> and <code>msvc2017\Release-x64</code> for 32-bit and 64-bit platforms respectively.</p>
 <h2><a class="anchor" id="buildlinux"></a>
-Linux and MacOS</h2>
+Linux and macOS</h2>
 <p>Execute the command <code>make</code> at top level. The TSDuck binaries, executables and shared objects (<code>.so</code>), are built in the <code>src</code> directory tree in subdirectories <code>release-i386</code> and <code>release-x86_64</code> for 32-bit and 64-bit platforms respectively.</p>
 <p>To build a 32-bit version of TSDuck on a 64-bit system, execute the command <code>make m32</code>.</p>
 <h1><a class="anchor" id="buildinst"></a>
@@ -183,42 +184,42 @@ Ubuntu</h2>
 <p>Execute the command <code>make deb</code> at top level to build a <code>.deb</code> package for the same architecture as the build system.</p>
 <h2><a class="anchor" id="instfiles"></a>
 Installer files</h2>
-<p>The following table summarizes the packages which are built and dropped into the <code>installers</code> directory, through a few examples, assuming that the current version of TSDuck is 3.1-20170711.</p>
+<p>The following table summarizes the packages which are built and dropped into the <code>installers</code> directory, through a few examples, assuming that the current version of TSDuck is 3.7-512.</p>
 <table class="doxtable">
 <tr>
 <th>File name </th><th>Description  </th></tr>
 <tr>
-<td>TSDduck-3.1-src.zip </td><td>Source archive on Windows </td></tr>
+<td>TSDduck-3.7-512-src.zip </td><td>Source archive on Windows </td></tr>
 <tr>
-<td>tsduck-3.1.tgz </td><td>Source archive on Linux and MacOS </td></tr>
+<td>tsduck-3.7-512.tgz </td><td>Source archive on Linux and macOS </td></tr>
 <tr>
-<td>tsduck_3.1-20170711_amd64.deb </td><td>Binary package for 64-bit Ubuntu </td></tr>
+<td>tsduck_3.7-512_amd64.deb </td><td>Binary package for 64-bit Ubuntu </td></tr>
 <tr>
-<td>tsduck-3.1-20170711.el7.i386.rpm </td><td>Binary package for 32-bit Red Hat or CentOS 7.x </td></tr>
+<td>tsduck-3.7-512.el7.i386.rpm </td><td>Binary package for 32-bit Red Hat or CentOS 7.x </td></tr>
 <tr>
-<td>tsduck-3.1-20170711.el7.x86_64.rpm </td><td>Binary package for 64-bit Red Hat or CentOS 7.x </td></tr>
+<td>tsduck-3.7-512.el7.x86_64.rpm </td><td>Binary package for 64-bit Red Hat or CentOS 7.x </td></tr>
 <tr>
-<td>tsduck-3.1-20170711.el7.src.rpm </td><td>Source package for Red Hat or CentOS 7.x </td></tr>
+<td>tsduck-3.7-512.el7.src.rpm </td><td>Source package for Red Hat or CentOS 7.x </td></tr>
 <tr>
-<td>tsduck-3.1-20170711.fc25.i386.rpm </td><td>Binary package for 32-bit Fedora 25 </td></tr>
+<td>tsduck-3.7-512.fc25.i386.rpm </td><td>Binary package for 32-bit Fedora 25 </td></tr>
 <tr>
-<td>tsduck-3.1-20170711.fc25.x86_64.rpm </td><td>Binary package for 64-bit Fedora 25 </td></tr>
+<td>tsduck-3.7-512.fc25.x86_64.rpm </td><td>Binary package for 64-bit Fedora 25 </td></tr>
 <tr>
-<td>tsduck-3.1-20170711.fc25.src.rpm </td><td>Source package for Fedora 25 </td></tr>
+<td>tsduck-3.7-512.fc25.src.rpm </td><td>Source package for Fedora 25 </td></tr>
 <tr>
-<td>tsduck-dev_3.1-20170711_amd64.deb </td><td>Development package for 64-bit Ubuntu </td></tr>
+<td>tsduck-dev_3.7-512_amd64.deb </td><td>Development package for 64-bit Ubuntu </td></tr>
 <tr>
-<td>tsduck-devel-3.1-20170711.el7.i386.rpm </td><td>Development package for 32-bit Red Hat or CentOS 7.x </td></tr>
+<td>tsduck-devel-3.7-512.el7.i386.rpm </td><td>Development package for 32-bit Red Hat or CentOS 7.x </td></tr>
 <tr>
-<td>tsduck-devel-3.1-20170711.el7.x86_64.rpm </td><td>Development package for 64-bit Red Hat or CentOS 7.x </td></tr>
+<td>tsduck-devel-3.7-512.el7.x86_64.rpm </td><td>Development package for 64-bit Red Hat or CentOS 7.x </td></tr>
 <tr>
-<td>tsduck-devel-3.1-20170711.fc25.i386.rpm </td><td>Development package for 32-bit Fedora 25 </td></tr>
+<td>tsduck-devel-3.7-512.fc25.i386.rpm </td><td>Development package for 32-bit Fedora 25 </td></tr>
 <tr>
-<td>tsduck-devel-3.1-20170711.fc25.x86_64.rpm </td><td>Development package for 64-bit Fedora 25 </td></tr>
+<td>tsduck-devel-3.7-512.fc25.x86_64.rpm </td><td>Development package for 64-bit Fedora 25 </td></tr>
 <tr>
-<td>TSDuck-Win32-3.1-20170711.exe </td><td>Binary package for 32-bit Windows </td></tr>
+<td>TSDuck-Win32-3.7-512.exe </td><td>Binary package for 32-bit Windows </td></tr>
 <tr>
-<td>TSDuck-Win64-3.1-20170711.exe </td><td>Binary package for 64-bit Windows </td></tr>
+<td>TSDuck-Win64-3.7-512.exe </td><td>Binary package for 64-bit Windows </td></tr>
 </table>
 <p>On Linux systems, there are two different packages. The package <code>tsduck</code> contains the tools and plugins. This is the only required package if you just need to use TSDuck. The package named <code>tsduck-devel</code> (or <code>tsduck-dev</code> on Ubuntu) contains the development environment. It is useful only for third-party applications which use the TSDuck library.</p>
 <p>On Windows systems, there is only one binary installer which contains the tools, plugins, documentation and development environment. The user can select which components shall be installed. The development environment is unselected by default. </p>

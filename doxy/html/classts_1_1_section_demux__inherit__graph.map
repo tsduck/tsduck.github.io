@@ -1,4 +1,4 @@
 <map id="ts::SectionDemux" name="ts::SectionDemux">
-<area shape="rect" id="node3" href="$classts_1_1_standalone_table_demux.html" title="A SectionDemux which extracts MPEG tables without external handler. " alt="" coords="5,155,201,181"/>
-<area shape="rect" id="node2" href="$classts_1_1_abstract_demux.html" title="Abstract base class for all sorts of demux from TS packets. " alt="" coords="32,5,175,32"/>
+<area shape="rect" id="node3" href="$classts_1_1_standalone_table_demux.html" title="A SectionDemux which extracts MPEG tables without external handler. " alt="" coords="5,155,184,181"/>
+<area shape="rect" id="node2" href="$classts_1_1_abstract_demux.html" title="Abstract base class for all sorts of demux from TS packets. " alt="" coords="29,5,160,32"/>
 </map>

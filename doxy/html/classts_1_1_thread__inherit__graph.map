@@ -1,11 +1,11 @@
 <map id="ts::Thread" name="ts::Thread">
-<area shape="rect" id="node2" href="$classts_1_1_abstract_descrambler.html" title="Abstract base class for DVB descrambler plugins. " alt="" coords="140,5,319,32"/>
-<area shape="rect" id="node3" href="$classts_1_1_async_report.html" title="Asynchronous message report. " alt="" coords="168,56,291,83"/>
-<area shape="rect" id="node4" href="$classts_1_1_e_c_m_g_client.html" title="A DVB&#45;ECMG client which acts as a DVB&#45;SCS. " alt="" coords="170,107,289,133"/>
-<area shape="rect" id="node5" href="$classts_1_1_system_monitor.html" title="Monitoring thread for system resources used by the application. " alt="" coords="159,157,299,184"/>
-<area shape="rect" id="node6" href="$classts_1_1tsp_1_1_plugin_executor.html" title="Execution context of a tsp plugin. " alt="" coords="146,208,313,235"/>
-<area shape="rect" id="node10" href="$classts_1_1_user_interrupt.html" title="An instance of this class handles the Ctrl+C user interrupt. " alt="" coords="165,259,293,285"/>
-<area shape="rect" id="node7" href="$classts_1_1tsp_1_1_input_executor.html" title="Execution context of a tsp input plugin. " alt="" coords="382,157,542,184"/>
-<area shape="rect" id="node8" href="$classts_1_1tsp_1_1_output_executor.html" title="Execution context of a tsp output plugin. " alt="" coords="377,208,547,235"/>
-<area shape="rect" id="node9" href="$classts_1_1tsp_1_1_processor_executor.html" title="Execution context of a tsp packet processor plugin. " alt="" coords="367,259,557,285"/>
+<area shape="rect" id="node2" href="$classts_1_1_abstract_descrambler.html" title="Abstract base class for DVB descrambler plugins. " alt="" coords="133,5,296,32"/>
+<area shape="rect" id="node3" href="$classts_1_1_async_report.html" title="Asynchronous message report. " alt="" coords="157,56,273,83"/>
+<area shape="rect" id="node4" href="$classts_1_1_e_c_m_g_client.html" title="A DVB&#45;ECMG client which acts as a DVB&#45;SCS. " alt="" coords="158,107,271,133"/>
+<area shape="rect" id="node5" href="$classts_1_1_system_monitor.html" title="Monitoring thread for system resources used by the application. " alt="" coords="150,157,279,184"/>
+<area shape="rect" id="node6" href="$classts_1_1tsp_1_1_plugin_executor.html" title="Execution context of a tsp plugin. " alt="" coords="137,208,292,235"/>
+<area shape="rect" id="node10" href="$classts_1_1_user_interrupt.html" title="An instance of this class handles the Ctrl+C user interrupt. " alt="" coords="157,259,272,285"/>
+<area shape="rect" id="node7" href="$classts_1_1tsp_1_1_input_executor.html" title="Execution context of a tsp input plugin. " alt="" coords="360,157,507,184"/>
+<area shape="rect" id="node8" href="$classts_1_1tsp_1_1_output_executor.html" title="Execution context of a tsp output plugin. " alt="" coords="354,208,513,235"/>
+<area shape="rect" id="node9" href="$classts_1_1tsp_1_1_processor_executor.html" title="Execution context of a tsp packet processor plugin. " alt="" coords="344,259,523,285"/>
 </map>

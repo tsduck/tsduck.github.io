@@ -1,4 +1,4 @@
 <map id="ts::Guard" name="ts::Guard">
-<area shape="rect" id="node2" href="$classts_1_1_double_check_lock_1_1_reader.html" title="Guard class for the reader thread. " alt="" coords="5,80,164,121"/>
-<area shape="rect" id="node3" href="$classts_1_1_double_check_lock_1_1_writer.html" title="Guard class for writer threads. " alt="" coords="188,80,347,121"/>
+<area shape="rect" id="node2" href="$classts_1_1_double_check_lock_1_1_reader.html" title="Guard class for the reader thread. " alt="" coords="5,80,152,121"/>
+<area shape="rect" id="node3" href="$classts_1_1_double_check_lock_1_1_writer.html" title="Guard class for writer threads. " alt="" coords="176,80,323,121"/>
 </map>

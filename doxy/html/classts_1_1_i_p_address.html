@@ -34,7 +34,7 @@
  <tr style="height: 56px;">
   <td id="projectlogo"><img src="tsduck-32.png"/></td>
    <td id="projectalign"><span id="projectname">TSDuck</span>
-    <span id="projectnumber">Version 3.8</span>
+    <span id="projectnumber">Version 3.8-528</span>
     <span id="projectbrief">(TSDuck - The MPEG Transport Stream Toolkit)</span>
    </td>
    <td>        <div id="MSearchBox" class="MSearchBoxInactive">
@@ -107,15 +107,13 @@ Inheritance diagram for ts::IPAddress:</div>
 <div class="dyncontent">
 <div class="center"><img src="classts_1_1_i_p_address__inherit__graph.png" border="0" usemap="#ts_1_1_i_p_address_inherit__map" alt="Inheritance graph"/></div>
 <map name="ts_1_1_i_p_address_inherit__map" id="ts_1_1_i_p_address_inherit__map">
-<area shape="rect" id="node2" href="classts_1_1_socket_address.html" title="Socket address class (IP v4 address &amp; port). " alt="" coords="5,80,144,107"/>
+<area shape="rect" id="node2" href="classts_1_1_socket_address.html" title="Socket address class (IP v4 address &amp; port). " alt="" coords="5,80,136,107"/>
 </map>
 <center><span class="legend">[<a target="top" href="graph_legend.html">legend</a>]</span></center></div>
 <div class="dynheader">
 Collaboration diagram for ts::IPAddress:</div>
 <div class="dyncontent">
 <div class="center"><img src="classts_1_1_i_p_address__coll__graph.png" border="0" usemap="#ts_1_1_i_p_address_coll__map" alt="Collaboration graph"/></div>
-<map name="ts_1_1_i_p_address_coll__map" id="ts_1_1_i_p_address_coll__map">
-</map>
 <center><span class="legend">[<a target="top" href="graph_legend.html">legend</a>]</span></center></div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
@@ -171,6 +169,9 @@ void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="clas
 <tr class="memitem:a95c04078e1673a1d5526e2676d94a117"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classts_1_1_i_p_address.html#a95c04078e1673a1d5526e2676d94a117">operator!=</a> (const <a class="el" href="classts_1_1_i_p_address.html">IPAddress</a> &amp;a) const</td></tr>
 <tr class="memdesc:a95c04078e1673a1d5526e2676d94a117"><td class="mdescLeft">&#160;</td><td class="mdescRight">Unequality operator.  <a href="#a95c04078e1673a1d5526e2676d94a117">More...</a><br /></td></tr>
 <tr class="separator:a95c04078e1673a1d5526e2676d94a117"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9879e74995f015673270ea167f617e11"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classts_1_1_i_p_address.html#a9879e74995f015673270ea167f617e11">operator&lt;</a> (const <a class="el" href="classts_1_1_i_p_address.html">IPAddress</a> &amp;other) const</td></tr>
+<tr class="memdesc:a9879e74995f015673270ea167f617e11"><td class="mdescLeft">&#160;</td><td class="mdescRight">Comparison "less than" operator.  <a href="#a9879e74995f015673270ea167f617e11">More...</a><br /></td></tr>
+<tr class="separator:a9879e74995f015673270ea167f617e11"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a1eacc2b13a5ba0b03a2c228c7995b0e8"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classts_1_1_i_p_address.html#a1eacc2b13a5ba0b03a2c228c7995b0e8">operator==</a> (const <a class="el" href="classts_1_1_i_p_address.html">IPAddress</a> &amp;a) const</td></tr>
 <tr class="memdesc:a1eacc2b13a5ba0b03a2c228c7995b0e8"><td class="mdescLeft">&#160;</td><td class="mdescRight">Equality operator.  <a href="#a1eacc2b13a5ba0b03a2c228c7995b0e8">More...</a><br /></td></tr>
 <tr class="separator:a1eacc2b13a5ba0b03a2c228c7995b0e8"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -830,6 +831,41 @@ static const uint32_t&#160;</td><td class="memItemRight" valign="bottom"><a clas
 <dl class="section return"><dt>Returns</dt><dd>This object, converted as a string. </dd></dl>
 
 <p>Reimplemented in <a class="el" href="classts_1_1_socket_address.html#aedca33398899d635a3619e74f36c4a3f">ts::SocketAddress</a>.</p>
+
+</div>
+</div>
+<a id="a9879e74995f015673270ea167f617e11"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9879e74995f015673270ea167f617e11">&#9670;&nbsp;</a></span>operator<()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool ts::IPAddress::operator&lt; </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="classts_1_1_i_p_address.html">IPAddress</a> &amp;&#160;</td>
+          <td class="paramname"><em>other</em></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Comparison "less than" operator. </p>
+<p>It does not really makes sense. Only defined to allow usage in containers. </p><dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">other</td><td>Other instance to compare. </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>True if this instance is less than to <em>other</em>. </dd></dl>
 
 </div>
 </div>

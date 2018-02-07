@@ -1,4 +1,4 @@
 <map id="ts::PESHandlerInterface" name="ts::PESHandlerInterface">
-<area shape="rect" id="node2" href="$classts_1_1_t_s_analyzer.html" title="A class which analyzes a complete transport stream. " alt="" coords="35,80,150,107"/>
-<area shape="rect" id="node3" href="$classts_1_1_t_s_analyzer_report.html" title="A subclass of TSAnalyzer with reporting capabilities. " alt="" coords="14,155,171,181"/>
+<area shape="rect" id="node2" href="$classts_1_1_t_s_analyzer.html" title="A class which analyzes a complete transport stream. " alt="" coords="32,80,140,107"/>
+<area shape="rect" id="node3" href="$classts_1_1_t_s_analyzer_report.html" title="A subclass of TSAnalyzer with reporting capabilities. " alt="" coords="13,155,159,181"/>
 </map>

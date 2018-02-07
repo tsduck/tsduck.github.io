@@ -1,5 +1,5 @@
 <map id="ts::tlv::Connection&lt; MUTEX &gt;" name="ts::tlv::Connection&lt; MUTEX &gt;">
-<area shape="rect" id="node2" href="$classts_1_1_t_c_p_connection.html" title="Base class for a TCP/IP session. " alt="" coords="5,155,144,181"/>
-<area shape="rect" id="node3" href="$classts_1_1_t_c_p_socket.html" title="Base class for TCP/IP sockets. " alt="" coords="19,80,130,107"/>
-<area shape="rect" id="node4" href="$classts_1_1_socket.html" title="Base class for TCP and UDP sockets. " alt="" coords="31,5,118,32"/>
+<area shape="rect" id="node2" href="$classts_1_1_t_c_p_connection.html" title="Base class for a TCP/IP session. " alt="" coords="5,155,136,181"/>
+<area shape="rect" id="node3" href="$classts_1_1_t_c_p_socket.html" title="Base class for TCP/IP sockets. " alt="" coords="17,80,124,107"/>
+<area shape="rect" id="node4" href="$classts_1_1_socket.html" title="Base class for TCP and UDP sockets. " alt="" coords="29,5,112,32"/>
 </map>
