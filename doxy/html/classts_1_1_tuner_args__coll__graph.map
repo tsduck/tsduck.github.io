@@ -1,20 +1,20 @@
 <map id="ts::TunerArgs" name="ts::TunerArgs">
-<area shape="rect" id="node2" href="$classts_1_1_variable.html" title="ts::Variable\&lt; Polarization \&gt;" alt="" coords="171,15,351,41"/>
-<area shape="rect" id="node3" href="$classts_1_1_variable.html" title="ts::Variable\&lt; uint32_t \&gt;" alt="" coords="182,65,341,92"/>
-<area shape="rect" id="node4" href="$classts_1_1_variable.html" title="ts::Variable\&lt; PLP \&gt;" alt="" coords="193,116,330,143"/>
-<area shape="rect" id="node5" href="$classts_1_1_variable.html" title="ts::Variable\&lt; DeliverySystem \&gt;" alt="" coords="160,167,363,193"/>
-<area shape="rect" id="node6" href="$classts_1_1_variable.html" title="ts::Variable\&lt; Hierarchy \&gt;" alt="" coords="178,217,345,244"/>
-<area shape="rect" id="node7" href="$classts_1_1_variable.html" title="ts::Variable\&lt; ts::UString \&gt;" alt="" coords="174,268,349,295"/>
-<area shape="rect" id="node8" href="$classts_1_1_variable.html" title="ts::Variable\&lt; Pilot \&gt;" alt="" coords="192,319,331,345"/>
-<area shape="rect" id="node9" href="$classts_1_1_variable.html" title="ts::Variable\&lt; size_t \&gt;" alt="" coords="188,369,335,396"/>
-<area shape="rect" id="node10" href="$classts_1_1_variable.html" title="ts::Variable\&lt; uint64_t \&gt;" alt="" coords="182,420,341,447"/>
-<area shape="rect" id="node11" href="$classts_1_1_variable.html" title="ts::Variable\&lt; Modulation \&gt;" alt="" coords="174,471,349,497"/>
-<area shape="rect" id="node12" href="$classts_1_1_variable.html" title="ts::Variable\&lt; GuardInterval \&gt;" alt="" coords="168,521,355,548"/>
-<area shape="rect" id="node13" href="$classts_1_1_variable.html" title="ts::Variable\&lt; ts::LNB \&gt;" alt="" coords="183,572,339,599"/>
-<area shape="rect" id="node14" href="$classts_1_1_variable.html" title="ts::Variable\&lt; SpectralInversion \&gt;" alt="" coords="156,623,367,649"/>
-<area shape="rect" id="node15" href="$classts_1_1_variable.html" title="ts::Variable\&lt; RollOff \&gt;" alt="" coords="186,673,337,700"/>
-<area shape="rect" id="node16" href="$classts_1_1_variable.html" title="ts::Variable\&lt; Transmission\lMode \&gt;" alt="" coords="173,725,350,766"/>
-<area shape="rect" id="node17" href="$classts_1_1_variable.html" title="ts::Variable\&lt; BandWidth \&gt;" alt="" coords="173,791,349,817"/>
-<area shape="rect" id="node18" href="$classts_1_1_variable.html" title="ts::Variable\&lt; InnerFEC \&gt;" alt="" coords="178,847,345,873"/>
-<area shape="rect" id="node19" href="$classts_1_1_u_string.html" title="An implementation of UTF&#45;16 strings. " alt="" coords="219,965,303,992"/>
+<area shape="rect" id="node2" href="$classts_1_1_variable.html" title="ts::Variable\&lt; Polarization \&gt;" alt="" coords="173,13,352,38"/>
+<area shape="rect" id="node3" href="$classts_1_1_variable.html" title="ts::Variable\&lt; uint32_t \&gt;" alt="" coords="184,62,341,87"/>
+<area shape="rect" id="node4" href="$classts_1_1_variable.html" title="ts::Variable\&lt; PLP \&gt;" alt="" coords="195,111,330,137"/>
+<area shape="rect" id="node5" href="$classts_1_1_variable.html" title="ts::Variable\&lt; DeliverySystem \&gt;" alt="" coords="161,161,364,186"/>
+<area shape="rect" id="node6" href="$classts_1_1_variable.html" title="ts::Variable\&lt; Hierarchy \&gt;" alt="" coords="179,210,346,235"/>
+<area shape="rect" id="node7" href="$classts_1_1_variable.html" title="ts::Variable\&lt; ts::UString \&gt;" alt="" coords="176,259,349,285"/>
+<area shape="rect" id="node8" href="$classts_1_1_variable.html" title="ts::Variable\&lt; Pilot \&gt;" alt="" coords="195,309,331,334"/>
+<area shape="rect" id="node9" href="$classts_1_1_variable.html" title="ts::Variable\&lt; size_t \&gt;" alt="" coords="190,358,335,383"/>
+<area shape="rect" id="node10" href="$classts_1_1_variable.html" title="ts::Variable\&lt; uint64_t \&gt;" alt="" coords="184,407,341,433"/>
+<area shape="rect" id="node11" href="$classts_1_1_variable.html" title="ts::Variable\&lt; Modulation \&gt;" alt="" coords="175,457,350,482"/>
+<area shape="rect" id="node12" href="$classts_1_1_variable.html" title="ts::Variable\&lt; GuardInterval \&gt;" alt="" coords="167,506,358,531"/>
+<area shape="rect" id="node13" href="$classts_1_1_variable.html" title="ts::Variable\&lt; ts::LNB \&gt;" alt="" coords="186,555,339,581"/>
+<area shape="rect" id="node14" href="$classts_1_1_variable.html" title="ts::Variable\&lt; SpectralInversion \&gt;" alt="" coords="156,605,369,630"/>
+<area shape="rect" id="node15" href="$classts_1_1_variable.html" title="ts::Variable\&lt; RollOff \&gt;" alt="" coords="187,654,338,679"/>
+<area shape="rect" id="node16" href="$classts_1_1_variable.html" title="ts::Variable\&lt; Transmission\lMode \&gt;" alt="" coords="174,703,351,742"/>
+<area shape="rect" id="node17" href="$classts_1_1_variable.html" title="ts::Variable\&lt; BandWidth \&gt;" alt="" coords="175,766,350,791"/>
+<area shape="rect" id="node18" href="$classts_1_1_variable.html" title="ts::Variable\&lt; InnerFEC \&gt;" alt="" coords="179,819,346,845"/>
+<area shape="rect" id="node19" href="$classts_1_1_u_string.html" title="An implementation of UTF&#45;16 strings. " alt="" coords="221,933,304,958"/>
 </map>

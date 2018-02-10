@@ -1,4 +1,4 @@
-var files =
+var files_dup =
 [
     [ "tsAACDescriptor.h", "ts_a_a_c_descriptor_8h.html", [
       [ "AACDescriptor", "classts_1_1_a_a_c_descriptor.html", "classts_1_1_a_a_c_descriptor" ]

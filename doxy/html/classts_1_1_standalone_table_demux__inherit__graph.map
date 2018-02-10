@@ -1,5 +1,5 @@
 <map id="ts::StandaloneTableDemux" name="ts::StandaloneTableDemux">
-<area shape="rect" id="node2" href="$classts_1_1_section_demux.html" title="This class rebuilds MPEG tables and sections from TS packets. " alt="" coords="7,80,134,107"/>
-<area shape="rect" id="node3" href="$classts_1_1_abstract_demux.html" title="Abstract base class for all sorts of demux from TS packets. " alt="" coords="5,5,136,32"/>
-<area shape="rect" id="node4" href="$classts_1_1_table_handler_interface.html" title="Table handler interface. " alt="" coords="159,80,324,107"/>
+<area shape="rect" id="node2" href="$classts_1_1_section_demux.html" title="This class rebuilds MPEG tables and sections from TS packets. " alt="" coords="8,79,133,104"/>
+<area shape="rect" id="node3" href="$classts_1_1_abstract_demux.html" title="Abstract base class for all sorts of demux from TS packets. " alt="" coords="5,5,136,31"/>
+<area shape="rect" id="node4" href="$classts_1_1_table_handler_interface.html" title="Table handler interface. " alt="" coords="158,79,327,104"/>
 </map>

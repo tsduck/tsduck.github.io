@@ -1,4 +1,4 @@
 <map id="ts::xml::Text" name="ts::xml::Text">
-<area shape="rect" id="node2" href="$classts_1_1xml_1_1_node.html" title="Base class for all XML objects in a document. " alt="" coords="5,80,105,107"/>
-<area shape="rect" id="node3" href="$classts_1_1_ring_node.html" title="Base class for objects being part of a ring, ie. " alt="" coords="7,5,104,32"/>
+<area shape="rect" id="node2" href="$classts_1_1xml_1_1_node.html" title="Base class for all XML objects in a document. " alt="" coords="5,79,104,104"/>
+<area shape="rect" id="node3" href="$classts_1_1_ring_node.html" title="Base class for objects being part of a ring, ie. " alt="" coords="6,5,104,31"/>
 </map>

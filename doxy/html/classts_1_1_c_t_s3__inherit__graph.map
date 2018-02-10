@@ -1,5 +1,5 @@
 <map id="ts::CTS3&lt; CIPHER &gt;" name="ts::CTS3&lt; CIPHER &gt;">
-<area shape="rect" id="node2" href="$classts_1_1_cipher_chaining_template.html" title="Base class of all cipher chaining modes, template version. " alt="" coords="5,155,187,196"/>
-<area shape="rect" id="node3" href="$classts_1_1_cipher_chaining.html" title="Base class of all cipher chaining modes. " alt="" coords="32,80,160,107"/>
-<area shape="rect" id="node4" href="$classts_1_1_block_cipher.html" title="Abstract interface of block ciphers. " alt="" coords="41,5,151,32"/>
+<area shape="rect" id="node2" href="$classts_1_1_cipher_chaining_template.html" title="Base class of all cipher chaining modes, template version. " alt="" coords="5,152,190,191"/>
+<area shape="rect" id="node3" href="$classts_1_1_cipher_chaining.html" title="Base class of all cipher chaining modes. " alt="" coords="32,79,163,104"/>
+<area shape="rect" id="node4" href="$classts_1_1_block_cipher.html" title="Abstract interface of block ciphers. " alt="" coords="42,5,153,31"/>
 </map>
