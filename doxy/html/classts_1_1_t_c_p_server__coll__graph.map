@@ -1,6 +1,6 @@
 <map id="ts::TCPServer" name="ts::TCPServer">
-<area shape="rect" id="node2" href="$classts_1_1_t_c_p_socket.html" title="Base class for TCP/IP sockets. " alt="" coords="28,167,135,192"/>
-<area shape="rect" id="node3" href="$classts_1_1_socket.html" title="Base class for TCP and UDP sockets. " alt="" coords="5,80,85,105"/>
-<area shape="rect" id="node4" href="$classts_1_1_mutex.html" title="A mutex implementation which is compatible with the ts::Thread class. " alt="" coords="109,80,184,105"/>
-<area shape="rect" id="node5" href="$classts_1_1_mutex_interface.html" title="Interface class for mutex objects. " alt="" coords="83,5,210,31"/>
+<area shape="rect" id="node2" href="$classts_1_1_t_c_p_socket.html" title="Base class for TCP/IP sockets. " alt="" coords="15,171,125,197"/>
+<area shape="rect" id="node3" href="$classts_1_1_socket.html" title="Base class for TCP and UDP sockets. " alt="" coords="5,81,92,108"/>
+<area shape="rect" id="node4" href="$classts_1_1_mutex.html" title="A mutex implementation which is compatible with the ts::Thread class. " alt="" coords="117,81,199,108"/>
+<area shape="rect" id="node5" href="$classts_1_1_mutex_interface.html" title="Interface class for mutex objects. " alt="" coords="88,5,228,32"/>
 </map>

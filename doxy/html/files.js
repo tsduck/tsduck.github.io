@@ -1,4 +1,4 @@
-var files_dup =
+var files =
 [
     [ "tsAACDescriptor.h", "ts_a_a_c_descriptor_8h.html", [
       [ "AACDescriptor", "classts_1_1_a_a_c_descriptor.html", "classts_1_1_a_a_c_descriptor" ]
@@ -35,7 +35,10 @@ var files_dup =
     ] ],
     [ "tsAbstractSignalization.h", "ts_abstract_signalization_8h.html", "ts_abstract_signalization_8h" ],
     [ "tsAbstractTable.h", "ts_abstract_table_8h.html", [
-      [ "AbstractTable", "classts_1_1_abstract_table.html", "classts_1_1_abstract_table" ]
+      [ "AbstractTable", "classts_1_1_abstract_table.html", "classts_1_1_abstract_table" ],
+      [ "EntryWithDescriptors", "classts_1_1_abstract_table_1_1_entry_with_descriptors.html", "classts_1_1_abstract_table_1_1_entry_with_descriptors" ],
+      [ "EntryWithDescriptorsList", "classts_1_1_abstract_table_1_1_entry_with_descriptors_list.html", "classts_1_1_abstract_table_1_1_entry_with_descriptors_list" ],
+      [ "EntryWithDescriptorsMap", "classts_1_1_abstract_table_1_1_entry_with_descriptors_map.html", "classts_1_1_abstract_table_1_1_entry_with_descriptors_map" ]
     ] ],
     [ "tsAbstractTransportListTable.h", "ts_abstract_transport_list_table_8h.html", [
       [ "AbstractTransportListTable", "classts_1_1_abstract_transport_list_table.html", "classts_1_1_abstract_transport_list_table" ]
@@ -56,6 +59,9 @@ var files_dup =
     [ "tsApplicationSignallingDescriptor.h", "ts_application_signalling_descriptor_8h.html", [
       [ "ApplicationSignallingDescriptor", "classts_1_1_application_signalling_descriptor.html", "classts_1_1_application_signalling_descriptor" ],
       [ "Entry", "structts_1_1_application_signalling_descriptor_1_1_entry.html", "structts_1_1_application_signalling_descriptor_1_1_entry" ]
+    ] ],
+    [ "tsApplicationUsageDescriptor.h", "ts_application_usage_descriptor_8h.html", [
+      [ "ApplicationUsageDescriptor", "classts_1_1_application_usage_descriptor.html", "classts_1_1_application_usage_descriptor" ]
     ] ],
     [ "tsArgMix.h", "ts_arg_mix_8h.html", [
       [ "ArgMix", "classts_1_1_arg_mix.html", "classts_1_1_arg_mix" ],

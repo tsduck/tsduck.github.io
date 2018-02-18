@@ -1,0 +1,4 @@
+<map id="ts::ApplicationUsageDescriptor" name="ts::ApplicationUsageDescriptor">
+<area shape="rect" id="node2" href="$classts_1_1_abstract_descriptor.html" title="Abstract base class for MPEG PSI/SI descriptors. " alt="" coords="35,80,198,107"/>
+<area shape="rect" id="node3" href="$classts_1_1_abstract_signalization.html" title="Abstract base class for MPEG PSI/SI tables and descriptors. " alt="" coords="27,5,207,32"/>
+</map>

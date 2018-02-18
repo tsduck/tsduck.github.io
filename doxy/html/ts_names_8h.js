@@ -16,7 +16,7 @@ var ts_names_8h =
       [ "ALTERNATE", "ts_names_8h.html#ad01b2604fc1b9fcaa4cbcbea333d8bfcaa73299b5b73a61414e6b87051f925341", null ]
     ] ],
     [ "TID", "ts_names_8h.html#a60256fa31ed342e9a5f264cd94cd4796", null ],
-    [ "DID", "ts_names_8h.html#ab19ab1f27655d9be5cd35a1649ee745a", null ],
+    [ "DID", "ts_names_8h.html#abacf7a0c80c9095a55d26f002cbaac4b", null ],
     [ "EDID", "ts_names_8h.html#a545398e37a24c689295144a7bc935ebb", null ],
     [ "PrivateDataSpecifier", "ts_names_8h.html#a3a7fb3d2fcc76ec24ad460e56250650e", null ],
     [ "StreamType", "ts_names_8h.html#a0ad6094ccb78b1ea30568b7354928fd4", null ],

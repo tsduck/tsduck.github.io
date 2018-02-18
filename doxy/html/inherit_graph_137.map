@@ -1,10 +1,3 @@
 <map id="Graphical Class Hierarchy" name="Graphical Class Hierarchy">
-<area shape="rect" id="node1" href="$classts_1_1_socket.html" title="Base class for TCP and UDP sockets. " alt="" coords="5,117,85,143"/>
-<area shape="rect" id="node2" href="$classts_1_1_t_c_p_socket.html" title="Base class for TCP/IP sockets. " alt="" coords="134,92,240,117"/>
-<area shape="rect" id="node8" href="$classts_1_1_u_d_p_socket.html" title="UDP Socket. " alt="" coords="133,141,241,167"/>
-<area shape="rect" id="node3" href="$classts_1_1_t_c_p_connection.html" title="Base class for a TCP/IP session. " alt="" coords="289,68,422,93"/>
-<area shape="rect" id="node7" href="$classts_1_1_t_c_p_server.html" title="Implementation of a TCP/IP server. " alt="" coords="303,117,408,143"/>
-<area shape="rect" id="node4" href="$classts_1_1tlv_1_1_connection.html" title="ts::tlv::Connection\l\&lt; ts::Mutex \&gt;" alt="" coords="478,5,605,44"/>
-<area shape="rect" id="node5" href="$classts_1_1_telnet_connection.html" title="Implementation of a half&#45;duplex line oriented telnet connection. " alt="" coords="470,68,613,93"/>
-<area shape="rect" id="node6" href="$classts_1_1tlv_1_1_connection.html" title="TCP connection using TLV messages. " alt="" coords="478,117,605,156"/>
+<area shape="rect" id="node1" href="$classts_1_1_splice_info_table.html" title="Representation of an SCTE 35 Splice Information Table. " alt="" coords="5,5,145,32"/>
 </map>

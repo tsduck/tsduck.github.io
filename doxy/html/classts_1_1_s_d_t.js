@@ -1,9 +1,10 @@
 var classts_1_1_s_d_t =
 [
     [ "Service", "classts_1_1_s_d_t_1_1_service.html", "classts_1_1_s_d_t_1_1_service" ],
-    [ "ServiceMap", "classts_1_1_s_d_t.html#afc56cab8db7da68f93e2d7f12cd70fe2", null ],
+    [ "ServiceMap", "classts_1_1_s_d_t.html#a6030ec85ce94a2ff3827767f6f57b446", null ],
     [ "SDT", "classts_1_1_s_d_t.html#a961fabb7fc26bc127b72e27ff9579db3", null ],
     [ "SDT", "classts_1_1_s_d_t.html#ad9f3415caec9b3c924237dbd1c2b5cf5", null ],
+    [ "SDT", "classts_1_1_s_d_t.html#a50c8f5f37a83be2224fc31fc0893d259", null ],
     [ "isActual", "classts_1_1_s_d_t.html#a031b747c5078b4b4a26db4e6d033c7ec", null ],
     [ "setActual", "classts_1_1_s_d_t.html#a95afc34a53b2650c9d211bf9051e548d", null ],
     [ "findService", "classts_1_1_s_d_t.html#ab5af3d0302f54143e7c37d2720532469", null ],

@@ -1,8 +1,11 @@
 var classts_1_1_descriptor_list =
 [
-    [ "DescriptorList", "classts_1_1_descriptor_list.html#a8e2b70494d7f4cc0a7eb27c026d5b8c3", null ],
-    [ "DescriptorList", "classts_1_1_descriptor_list.html#ac639cf153d88c3afd26c25b923a956a5", null ],
+    [ "DescriptorList", "classts_1_1_descriptor_list.html#ab019ecfedd85f8659491f00b9428bb77", null ],
+    [ "DescriptorList", "classts_1_1_descriptor_list.html#ab6a2cac9a87909b38687fbd1f89a0e88", null ],
+    [ "operator=", "classts_1_1_descriptor_list.html#a61eaaa56566afc364ffd64294c72cc3e", null ],
     [ "count", "classts_1_1_descriptor_list.html#a58f5f2b86733858e3068d507aa2e63ed", null ],
+    [ "tableId", "classts_1_1_descriptor_list.html#a70d40605ac69d29c1b480739b7c26e39", null ],
+    [ "table", "classts_1_1_descriptor_list.html#a50cf976a628c29b8f46867068f22f2e3", null ],
     [ "operator==", "classts_1_1_descriptor_list.html#ac1e847b9a580b4dc12d9bdbef4d6c359", null ],
     [ "operator!=", "classts_1_1_descriptor_list.html#a5ab0e0e44f1abd81f1637e37d5a958fe", null ],
     [ "operator[]", "classts_1_1_descriptor_list.html#ad034c82b0bd236938eb79c29a625e78e", null ],

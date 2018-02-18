@@ -90,6 +90,7 @@ var searchData=
   ['ts_5fxml_5fgeneric_5flong_5ftable',['TS_XML_GENERIC_LONG_TABLE',['../ts_abstract_signalization_8h.html#aec4268c51855bfbe9d03f2d1d20e08b0',1,'tsAbstractSignalization.h']]],
   ['ts_5fxml_5fgeneric_5fshort_5ftable',['TS_XML_GENERIC_SHORT_TABLE',['../ts_abstract_signalization_8h.html#a50393b21f5242c56459a752f6623728b',1,'tsAbstractSignalization.h']]],
   ['ts_5fxml_5ftable_5ffactory',['TS_XML_TABLE_FACTORY',['../ts_tables_factory_8h.html#ad1f12e0492d42300dca90df8a61c1158',1,'tsTablesFactory.h']]],
+  ['ts_5fxml_5ftabspec_5fdescriptor_5ffactory',['TS_XML_TABSPEC_DESCRIPTOR_FACTORY',['../ts_tables_factory_8h.html#a2ded7ba34d3e39ccd0f50dec87eb2a8d',1,'tsTablesFactory.h']]],
   ['ts_5fzero',['TS_ZERO',['../ts_memory_utils_8h.html#a4a7cd352b39c999d45e5f550d3291de0',1,'tsMemoryUtils.h']]],
   ['tsduck_5fsource',['TSDUCK_SOURCE',['../ts_platform_8h.html#a018c8aa689b1d1828c9e6d307084e9b8',1,'tsPlatform.h']]],
   ['tsduck_5fstatic',['TSDUCK_STATIC',['../ts_platform_8h.html#a4b2472be22e9b0b3fe1da4f963cfb2ab',1,'tsPlatform.h']]],

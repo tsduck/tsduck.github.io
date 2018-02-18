@@ -50,6 +50,7 @@ var searchData=
   ['upwards_5farrow',['UPWARDS_ARROW',['../namespacets.html#ac487065e38332cb6c5a30036b3209cda',1,'ts']]],
   ['upwards_5fdouble_5farrow',['UPWARDS_DOUBLE_ARROW',['../namespacets.html#a5f5a72764ad351382d4e9bf7bfadbf9f',1,'ts']]],
   ['url',['url',['../structts_1_1_git_hub_release_1_1_asset.html#a30a1c51dda1dee874e63c517e10bee63',1,'ts::GitHubRelease::Asset']]],
+  ['usage_5ftype',['usage_type',['../classts_1_1_application_usage_descriptor.html#a306c10091acf57e71d981bda2f02e3fb',1,'ts::ApplicationUsageDescriptor']]],
   ['use_5fbinary',['use_binary',['../classts_1_1_tables_logger_args.html#a7545e8760bbfc3ccb4c059159439016a',1,'ts::TablesLoggerArgs']]],
   ['use_5fduration',['use_duration',['../classts_1_1_splice_insert.html#ac2ad45a643db7b7942a83fca196c1efb',1,'ts::SpliceInsert']]],
   ['use_5fpipe',['USE_PIPE',['../classts_1_1_fork_pipe.html#a99cbbdc313321259897546fb40e5c1e8a6f9e34aceee8d9089a55abe628491cc8',1,'ts::ForkPipe']]],

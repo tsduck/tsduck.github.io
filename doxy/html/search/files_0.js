@@ -22,6 +22,7 @@ var searchData=
   ['tsalgorithm_2eh',['tsAlgorithm.h',['../ts_algorithm_8h.html',1,'']]],
   ['tsapplicationsharedlibrary_2eh',['tsApplicationSharedLibrary.h',['../ts_application_shared_library_8h.html',1,'']]],
   ['tsapplicationsignallingdescriptor_2eh',['tsApplicationSignallingDescriptor.h',['../ts_application_signalling_descriptor_8h.html',1,'']]],
+  ['tsapplicationusagedescriptor_2eh',['tsApplicationUsageDescriptor.h',['../ts_application_usage_descriptor_8h.html',1,'']]],
   ['tsargmix_2eh',['tsArgMix.h',['../ts_arg_mix_8h.html',1,'']]],
   ['tsargs_2eh',['tsArgs.h',['../ts_args_8h.html',1,'']]],
   ['tsasyncreport_2eh',['tsAsyncReport.h',['../ts_async_report_8h.html',1,'']]],

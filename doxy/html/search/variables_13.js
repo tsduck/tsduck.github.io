@@ -41,7 +41,7 @@ var searchData=
   ['single_5fleft_5fpointing_5fangle_5fquotation_5fmark',['SINGLE_LEFT_POINTING_ANGLE_QUOTATION_MARK',['../namespacets.html#afb54e205810a5af85990e0c283cb457f',1,'ts']]],
   ['single_5flow_5f9_5fquotation_5fmark',['SINGLE_LOW_9_QUOTATION_MARK',['../namespacets.html#a9bcf528ca42b3e07ba2ae692000cfcfe',1,'ts']]],
   ['single_5fright_5fpointing_5fangle_5fquotation_5fmark',['SINGLE_RIGHT_POINTING_ANGLE_QUOTATION_MARK',['../namespacets.html#a21789d84e9024818ee563739ec89c328',1,'ts']]],
-  ['size',['size',['../structts_1_1_git_hub_release_1_1_asset.html#a247cf672c624e9769a695979abb1697b',1,'ts::GitHubRelease::Asset::size()'],['../classts_1_1_simul_crypt_date.html#a95a7e6faafcf0969ed358af554799b7f',1,'ts::SimulCryptDate::SIZE()']]],
+  ['size',['SIZE',['../classts_1_1_simul_crypt_date.html#a95a7e6faafcf0969ed358af554799b7f',1,'ts::SimulCryptDate::SIZE()'],['../structts_1_1_git_hub_release_1_1_asset.html#a247cf672c624e9769a695979abb1697b',1,'ts::GitHubRelease::Asset::size()']]],
   ['small_5ftilde',['SMALL_TILDE',['../namespacets.html#a4f76bdf85174262c0bc7dd7d5e3d5a09',1,'ts']]],
   ['soft_5fhyphen',['SOFT_HYPHEN',['../namespacets.html#ad50024221cb5c0e9be8ea78c0b4d7d5e',1,'ts']]],
   ['solidus',['SOLIDUS',['../namespacets.html#ae1cf6792b51bb7e4082e370846721b52',1,'ts']]],

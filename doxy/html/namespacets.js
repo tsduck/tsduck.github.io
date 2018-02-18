@@ -28,6 +28,7 @@ var namespacets =
     [ "AES", "classts_1_1_a_e_s.html", "classts_1_1_a_e_s" ],
     [ "ApplicationSharedLibrary", "classts_1_1_application_shared_library.html", "classts_1_1_application_shared_library" ],
     [ "ApplicationSignallingDescriptor", "classts_1_1_application_signalling_descriptor.html", "classts_1_1_application_signalling_descriptor" ],
+    [ "ApplicationUsageDescriptor", "classts_1_1_application_usage_descriptor.html", "classts_1_1_application_usage_descriptor" ],
     [ "ArgMix", "classts_1_1_arg_mix.html", "classts_1_1_arg_mix" ],
     [ "ArgMixIn", "classts_1_1_arg_mix_in.html", "classts_1_1_arg_mix_in" ],
     [ "ArgMixOut", "classts_1_1_arg_mix_out.html", "classts_1_1_arg_mix_out" ],

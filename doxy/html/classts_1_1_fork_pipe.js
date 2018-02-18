@@ -1,5 +1,10 @@
 var classts_1_1_fork_pipe =
 [
+    [ "WaitMode", "classts_1_1_fork_pipe.html#a0c8dd977baccb47f02e330357db92729", [
+      [ "ASYNCHRONOUS", "classts_1_1_fork_pipe.html#a0c8dd977baccb47f02e330357db92729a56c1c8633a2f98c196233c371d2216e4", null ],
+      [ "SYNCHRONOUS", "classts_1_1_fork_pipe.html#a0c8dd977baccb47f02e330357db92729a53707c0bc5e1ddd66a969875d24b793f", null ],
+      [ "EXIT_PROCESS", "classts_1_1_fork_pipe.html#a0c8dd977baccb47f02e330357db92729a63bea84e40c708501c32e33ac84ce9dd", null ]
+    ] ],
     [ "InputMode", "classts_1_1_fork_pipe.html#a99cbbdc313321259897546fb40e5c1e8", [
       [ "KEEP_STDIN", "classts_1_1_fork_pipe.html#a99cbbdc313321259897546fb40e5c1e8aeee3c09ae4a1e957ca58844f719dcd16", null ],
       [ "USE_PIPE", "classts_1_1_fork_pipe.html#a99cbbdc313321259897546fb40e5c1e8a6f9e34aceee8d9089a55abe628491cc8", null ]
@@ -11,7 +16,7 @@ var classts_1_1_fork_pipe =
     ] ],
     [ "ForkPipe", "classts_1_1_fork_pipe.html#ab65266ec7182a3b8e26666dfd3dfc6ac", null ],
     [ "~ForkPipe", "classts_1_1_fork_pipe.html#af2cd3664999b6f97aba629f481fee632", null ],
-    [ "open", "classts_1_1_fork_pipe.html#a6f834f5c2e645afad108c3c23b036f47", null ],
+    [ "open", "classts_1_1_fork_pipe.html#ae706c27ab3dcf87c05fd27263dac4663", null ],
     [ "close", "classts_1_1_fork_pipe.html#a3998c1803bc78022b13635464fa26650", null ],
     [ "isOpen", "classts_1_1_fork_pipe.html#af63758fc84426e19cf505ea618a815ff", null ],
     [ "isBroken", "classts_1_1_fork_pipe.html#af383c6d44a1670117069f9c331ff302a", null ],

@@ -1,5 +1,5 @@
 <map id="ts::PAT" name="ts::PAT">
-<area shape="rect" id="node2" href="$classts_1_1_abstract_long_table.html" title="Abstract base class for MPEG PSI/SI tables with long sections. " alt="" coords="12,152,162,177"/>
-<area shape="rect" id="node3" href="$classts_1_1_abstract_table.html" title="Abstract base class for MPEG PSI/SI tables. " alt="" coords="27,79,147,104"/>
-<area shape="rect" id="node4" href="$classts_1_1_abstract_signalization.html" title="Abstract base class for MPEG PSI/SI tables and descriptors. " alt="" coords="5,5,169,31"/>
+<area shape="rect" id="node2" href="$classts_1_1_abstract_long_table.html" title="Abstract base class for MPEG PSI/SI tables with long sections. " alt="" coords="15,155,176,181"/>
+<area shape="rect" id="node3" href="$classts_1_1_abstract_table.html" title="Abstract base class for MPEG PSI/SI tables. " alt="" coords="30,80,161,107"/>
+<area shape="rect" id="node4" href="$classts_1_1_abstract_signalization.html" title="Abstract base class for MPEG PSI/SI tables and descriptors. " alt="" coords="5,5,185,32"/>
 </map>

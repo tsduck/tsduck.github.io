@@ -1,10 +1,4 @@
 <map id="Graphical Class Hierarchy" name="Graphical Class Hierarchy">
-<area shape="rect" id="node1" href="$classts_1_1json_1_1_value.html" title="Abstract base class of a JSON value. " alt="" coords="5,153,109,179"/>
-<area shape="rect" id="node2" href="$classts_1_1json_1_1_array.html" title="Implementation of a JSON array. " alt="" coords="165,5,268,31"/>
-<area shape="rect" id="node3" href="$classts_1_1json_1_1_false.html" title="Implementation of a JSON false literal. " alt="" coords="165,55,268,80"/>
-<area shape="rect" id="node4" href="$classts_1_1json_1_1_null.html" title="Implementation of a JSON null literal. " alt="" coords="170,104,264,129"/>
-<area shape="rect" id="node5" href="$classts_1_1json_1_1_number.html" title="Implementation of a JSON number. " alt="" coords="157,153,276,179"/>
-<area shape="rect" id="node6" href="$classts_1_1json_1_1_object.html" title="Implementation of a JSON object. " alt="" coords="162,203,271,228"/>
-<area shape="rect" id="node7" href="$classts_1_1json_1_1_string.html" title="Implementation of a JSON string. " alt="" coords="164,252,270,277"/>
-<area shape="rect" id="node8" href="$classts_1_1json_1_1_true.html" title="Implementation of a JSON true literal. " alt="" coords="168,301,266,327"/>
+<area shape="rect" id="node1" href="$classts_1_1_i_p_address.html" title="A basic representation of an IP v4 address. " alt="" coords="5,5,111,32"/>
+<area shape="rect" id="node2" href="$classts_1_1_socket_address.html" title="Socket address class (IP v4 address &amp; port). " alt="" coords="159,5,297,32"/>
 </map>

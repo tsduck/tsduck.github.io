@@ -4,6 +4,7 @@ var classts_1_1_t_o_t =
     [ "RegionVector", "classts_1_1_t_o_t.html#a86e912063f238b586401a908496fc2ba", null ],
     [ "TOT", "classts_1_1_t_o_t.html#a5097681e96c89fbf06e5f2429097e95f", null ],
     [ "TOT", "classts_1_1_t_o_t.html#ae608e9587d8be2e9000998bf2e704927", null ],
+    [ "TOT", "classts_1_1_t_o_t.html#aa2016149ffa09ce006e23dd842c348b3", null ],
     [ "localTime", "classts_1_1_t_o_t.html#ab683d5c310a3b4d4689af88b8d55a73c", null ],
     [ "timeOffsetFormat", "classts_1_1_t_o_t.html#a10b1ea761029385200119e4f1e3699b3", null ],
     [ "serialize", "classts_1_1_t_o_t.html#a35658747d0782b7c251e4ad6a6e7505c", null ],

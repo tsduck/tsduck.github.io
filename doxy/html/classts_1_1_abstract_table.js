@@ -1,5 +1,8 @@
 var classts_1_1_abstract_table =
 [
+    [ "EntryWithDescriptors", "classts_1_1_abstract_table_1_1_entry_with_descriptors.html", "classts_1_1_abstract_table_1_1_entry_with_descriptors" ],
+    [ "EntryWithDescriptorsList", "classts_1_1_abstract_table_1_1_entry_with_descriptors_list.html", "classts_1_1_abstract_table_1_1_entry_with_descriptors_list" ],
+    [ "EntryWithDescriptorsMap", "classts_1_1_abstract_table_1_1_entry_with_descriptors_map.html", "classts_1_1_abstract_table_1_1_entry_with_descriptors_map" ],
     [ "~AbstractTable", "classts_1_1_abstract_table.html#a22e67478af17af58d3597c102f5d3b9b", null ],
     [ "AbstractTable", "classts_1_1_abstract_table.html#ac44d8de923381628acfb9ff0891fe54e", null ],
     [ "tableId", "classts_1_1_abstract_table.html#a8370f08a385a16905f44426e0dad8c2b", null ],

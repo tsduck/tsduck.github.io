@@ -1,8 +1,8 @@
 <map id="ts::AbstractDemux" name="ts::AbstractDemux">
-<area shape="rect" id="node2" href="$classts_1_1_section_demux.html" title="This class rebuilds MPEG tables and sections from TS packets. " alt="" coords="33,79,159,104"/>
-<area shape="rect" id="node4" href="$classts_1_1_t2_m_i_demux.html" title="This class analyzes T2&#45;MI (DVB&#45;T2 Modulator Interface) from TS packets. " alt="" coords="182,79,294,104"/>
-<area shape="rect" id="node5" href="$classts_1_1_time_tracker_demux.html" title="A demux which tracks time stamps per PID. " alt="" coords="318,79,473,104"/>
-<area shape="rect" id="node3" href="$classts_1_1_standalone_table_demux.html" title="A SectionDemux which extracts MPEG tables without external handler. " alt="" coords="5,152,186,177"/>
-<area shape="rect" id="node6" href="$classts_1_1_p_e_s_demux.html" title="This class extracts PES packets from TS packets. " alt="" coords="342,152,450,177"/>
-<area shape="rect" id="node7" href="$classts_1_1_teletext_demux.html" title="This class extracts Teletext subtitles from TS packets. " alt="" coords="332,225,459,251"/>
+<area shape="rect" id="node2" href="$classts_1_1_section_demux.html" title="This class rebuilds MPEG tables and sections from TS packets. " alt="" coords="35,80,172,107"/>
+<area shape="rect" id="node4" href="$classts_1_1_t2_m_i_demux.html" title="This class analyzes T2&#45;MI (DVB&#45;T2 Modulator Interface) from TS packets. " alt="" coords="197,80,317,107"/>
+<area shape="rect" id="node5" href="$classts_1_1_time_tracker_demux.html" title="A demux which tracks time stamps per PID. " alt="" coords="341,80,511,107"/>
+<area shape="rect" id="node3" href="$classts_1_1_standalone_table_demux.html" title="A SectionDemux which extracts MPEG tables without external handler. " alt="" coords="5,155,201,181"/>
+<area shape="rect" id="node6" href="$classts_1_1_p_e_s_demux.html" title="This class extracts PES packets from TS packets. " alt="" coords="369,155,483,181"/>
+<area shape="rect" id="node7" href="$classts_1_1_teletext_demux.html" title="This class extracts Teletext subtitles from TS packets. " alt="" coords="355,229,497,256"/>
 </map>
