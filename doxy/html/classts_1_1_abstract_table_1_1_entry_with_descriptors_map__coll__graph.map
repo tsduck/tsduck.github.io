@@ -1,2 +1,2 @@
-<map id="ts::AbstractTable::EntryWithDescriptorsMap&lt; KEY, ENTRY, &gt;" name="ts::AbstractTable::EntryWithDescriptorsMap&lt; KEY, ENTRY, &gt;">
+<map id="ts::AbstractTable::EntryWithDescriptorsMap&lt; KEY, ENTRY, std::enable_if&lt; std::is_base_of&lt; EntryBase, ENTRY &gt;::value &gt;::type * &gt;" name="ts::AbstractTable::EntryWithDescriptorsMap&lt; KEY, ENTRY, std::enable_if&lt; std::is_base_of&lt; EntryBase, ENTRY &gt;::value &gt;::type * &gt;">
 </map>

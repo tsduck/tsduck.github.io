@@ -72,6 +72,9 @@ var hierarchy =
         [ "ts::ExtendedEventDescriptor", "classts_1_1_extended_event_descriptor.html", null ],
         [ "ts::HDSimulcastLogicalChannelDescriptor", "classts_1_1_h_d_simulcast_logical_channel_descriptor.html", null ],
         [ "ts::HEVCVideoDescriptor", "classts_1_1_h_e_v_c_video_descriptor.html", null ],
+        [ "ts::IPMACPlatformNameDescriptor", "classts_1_1_i_p_m_a_c_platform_name_descriptor.html", null ],
+        [ "ts::IPMACPlatformProviderNameDescriptor", "classts_1_1_i_p_m_a_c_platform_provider_name_descriptor.html", null ],
+        [ "ts::IPMACStreamLocationDescriptor", "classts_1_1_i_p_m_a_c_stream_location_descriptor.html", null ],
         [ "ts::ISO639LanguageDescriptor", "classts_1_1_i_s_o639_language_descriptor.html", null ],
         [ "ts::LinkageDescriptor", "classts_1_1_linkage_descriptor.html", null ],
         [ "ts::LocalTimeOffsetDescriptor", "classts_1_1_local_time_offset_descriptor.html", null ],
@@ -95,6 +98,8 @@ var hierarchy =
         [ "ts::SubtitlingDescriptor", "classts_1_1_subtitling_descriptor.html", null ],
         [ "ts::SupplementaryAudioDescriptor", "classts_1_1_supplementary_audio_descriptor.html", null ],
         [ "ts::T2MIDescriptor", "classts_1_1_t2_m_i_descriptor.html", null ],
+        [ "ts::TargetIPAddressDescriptor", "classts_1_1_target_i_p_address_descriptor.html", null ],
+        [ "ts::TargetIPSlashDescriptor", "classts_1_1_target_i_p_slash_descriptor.html", null ],
         [ "ts::TeletextDescriptor", "classts_1_1_teletext_descriptor.html", [
           [ "ts::VBITeletextDescriptor", "classts_1_1_v_b_i_teletext_descriptor.html", null ]
         ] ],
@@ -113,6 +118,7 @@ var hierarchy =
             [ "ts::NIT", "classts_1_1_n_i_t.html", null ]
           ] ],
           [ "ts::EIT", "classts_1_1_e_i_t.html", null ],
+          [ "ts::INT", "classts_1_1_i_n_t.html", null ],
           [ "ts::PAT", "classts_1_1_p_a_t.html", null ],
           [ "ts::PMT", "classts_1_1_p_m_t.html", null ],
           [ "ts::SDT", "classts_1_1_s_d_t.html", null ]
@@ -122,6 +128,7 @@ var hierarchy =
         [ "ts::TOT", "classts_1_1_t_o_t.html", null ]
       ] ]
     ] ],
+    [ "ts::TargetIPSlashDescriptor::Address", "classts_1_1_target_i_p_slash_descriptor_1_1_address.html", null ],
     [ "ts::tlv::Analyzer", "classts_1_1tlv_1_1_analyzer.html", null ],
     [ "ts::ArgMix", "classts_1_1_arg_mix.html", [
       [ "ts::ArgMixIn", "classts_1_1_arg_mix_in.html", null ],
@@ -191,21 +198,26 @@ var hierarchy =
     ] ],
     [ "ts::ECMGClientHandlerInterface", "classts_1_1_e_c_m_g_client_handler_interface.html", null ],
     [ "ts::EDID", "classts_1_1_e_d_i_d.html", null ],
-    [ "ts::ServiceListDescriptor::Entry", "structts_1_1_service_list_descriptor_1_1_entry.html", null ],
+    [ "ts::ApplicationSignallingDescriptor::Entry", "structts_1_1_application_signalling_descriptor_1_1_entry.html", null ],
     [ "ts::ContentDescriptor::Entry", "structts_1_1_content_descriptor_1_1_entry.html", null ],
-    [ "ts::SSUDataBroadcastIdDescriptor::Entry", "structts_1_1_s_s_u_data_broadcast_id_descriptor_1_1_entry.html", null ],
+    [ "ts::ServiceListDescriptor::Entry", "structts_1_1_service_list_descriptor_1_1_entry.html", null ],
     [ "ts::EutelsatChannelNumberDescriptor::Entry", "structts_1_1_eutelsat_channel_number_descriptor_1_1_entry.html", null ],
+    [ "ts::SSUDataBroadcastIdDescriptor::Entry", "structts_1_1_s_s_u_data_broadcast_id_descriptor_1_1_entry.html", null ],
     [ "ts::SSULinkageDescriptor::Entry", "structts_1_1_s_s_u_linkage_descriptor_1_1_entry.html", null ],
     [ "ts::SubtitlingDescriptor::Entry", "structts_1_1_subtitling_descriptor_1_1_entry.html", null ],
     [ "ts::ExtendedEventDescriptor::Entry", "structts_1_1_extended_event_descriptor_1_1_entry.html", null ],
-    [ "ts::TeletextDescriptor::Entry", "structts_1_1_teletext_descriptor_1_1_entry.html", null ],
     [ "ts::HDSimulcastLogicalChannelDescriptor::Entry", "structts_1_1_h_d_simulcast_logical_channel_descriptor_1_1_entry.html", null ],
+    [ "ts::TeletextDescriptor::Entry", "structts_1_1_teletext_descriptor_1_1_entry.html", null ],
     [ "ts::ISO639LanguageDescriptor::Entry", "structts_1_1_i_s_o639_language_descriptor_1_1_entry.html", null ],
     [ "ts::LogicalChannelNumberDescriptor::Entry", "structts_1_1_logical_channel_number_descriptor_1_1_entry.html", null ],
     [ "ts::NVODReferenceDescriptor::Entry", "structts_1_1_n_v_o_d_reference_descriptor_1_1_entry.html", null ],
     [ "ts::ParentalRatingDescriptor::Entry", "structts_1_1_parental_rating_descriptor_1_1_entry.html", null ],
-    [ "ts::ApplicationSignallingDescriptor::Entry", "structts_1_1_application_signalling_descriptor_1_1_entry.html", null ],
-    [ "ts::AbstractTable::EntryWithDescriptors", "classts_1_1_abstract_table_1_1_entry_with_descriptors.html", null ],
+    [ "EntryBase", null, [
+      [ "ts::INT::Device", "structts_1_1_i_n_t_1_1_device.html", null ]
+    ] ],
+    [ "ts::AbstractTable::EntryBase", "classts_1_1_abstract_table_1_1_entry_base.html", [
+      [ "ts::AbstractTable::EntryWithDescriptors", "classts_1_1_abstract_table_1_1_entry_with_descriptors.html", null ]
+    ] ],
     [ "EntryWithDescriptors", null, [
       [ "ts::EIT::Event", "classts_1_1_e_i_t_1_1_event.html", null ],
       [ "ts::PMT::Stream", "structts_1_1_p_m_t_1_1_stream.html", null ],
@@ -281,12 +293,14 @@ var hierarchy =
       [ "ts::SinkPin", "classts_1_1_sink_pin.html", null ]
     ] ],
     [ "list", null, [
-      [ "ts::AbstractTable::EntryWithDescriptorsList< ENTRY, >", "classts_1_1_abstract_table_1_1_entry_with_descriptors_list.html", null ],
       [ "ts::FileNameRateList", "classts_1_1_file_name_rate_list.html", null ]
     ] ],
     [ "ts::LNB", "classts_1_1_l_n_b.html", null ],
     [ "map", null, [
-      [ "ts::AbstractTable::EntryWithDescriptorsMap< KEY, ENTRY, >", "classts_1_1_abstract_table_1_1_entry_with_descriptors_map.html", null ],
+      [ "ts::AbstractTable::EntryWithDescriptorsMap< size_t, ENTRY >", "classts_1_1_abstract_table_1_1_entry_with_descriptors_map.html", [
+        [ "ts::AbstractTable::EntryWithDescriptorsList< ENTRY, >", "classts_1_1_abstract_table_1_1_entry_with_descriptors_list.html", null ]
+      ] ],
+      [ "ts::AbstractTable::EntryWithDescriptorsMap< KEY, ENTRY, std::enable_if< std::is_base_of< EntryBase, ENTRY >::value >::type * >", "classts_1_1_abstract_table_1_1_entry_with_descriptors_map.html", null ],
       [ "ts::MacPList", "classts_1_1_mac_p_list.html", null ]
     ] ],
     [ "ts::tlv::Message", "classts_1_1tlv_1_1_message.html", [
@@ -498,8 +512,8 @@ var hierarchy =
     [ "ts::TablesDisplayArgs", "classts_1_1_tables_display_args.html", null ],
     [ "ts::TablesFactory", "classts_1_1_tables_factory.html", null ],
     [ "ts::TablesLoggerArgs", "classts_1_1_tables_logger_args.html", null ],
-    [ "ts::ecmgscs::Tags", "structts_1_1ecmgscs_1_1_tags.html", null ],
     [ "ts::emmgmux::Tags", "structts_1_1emmgmux_1_1_tags.html", null ],
+    [ "ts::ecmgscs::Tags", "structts_1_1ecmgscs_1_1_tags.html", null ],
     [ "ts::TeletextCharset", "classts_1_1_teletext_charset.html", null ],
     [ "ts::TeletextFrame", "classts_1_1_teletext_frame.html", null ],
     [ "ts::TeletextHandlerInterface", "classts_1_1_teletext_handler_interface.html", null ],
@@ -515,8 +529,8 @@ var hierarchy =
     [ "ts::ThreadAttributes", "classts_1_1_thread_attributes.html", null ],
     [ "ts::Time", "classts_1_1_time.html", null ],
     [ "ts::TLVSyntax", "classts_1_1_t_l_v_syntax.html", null ],
-    [ "ts::emmgmux::Traits", "structts_1_1emmgmux_1_1_traits.html", null ],
     [ "ts::ecmgscs::Traits", "structts_1_1ecmgscs_1_1_traits.html", null ],
+    [ "ts::emmgmux::Traits", "structts_1_1emmgmux_1_1_traits.html", null ],
     [ "ts::TransportStreamId", "structts_1_1_transport_stream_id.html", null ],
     [ "ts::TSFileInput", "classts_1_1_t_s_file_input.html", [
       [ "ts::TSFileInputBuffered", "classts_1_1_t_s_file_input_buffered.html", null ]

@@ -1,3 +1,26 @@
+/*
+@ @licstart  The following is the entire license notice for the
+JavaScript code in this file.
+
+Copyright (C) 1997-2017 by Dimitri van Heesch
+
+This program is free software; you can redistribute it and/or modify
+it under the terms of the GNU General Public License as published by
+the Free Software Foundation; either version 2 of the License, or
+(at your option) any later version.
+
+This program is distributed in the hope that it will be useful,
+but WITHOUT ANY WARRANTY; without even the implied warranty of
+ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+ GNU General Public License for more details.
+
+You should have received a copy of the GNU General Public License along
+with this program; if not, write to the Free Software Foundation, Inc.,
+51 Franklin Street, Fifth Floor, Boston, MA 02110-1301 USA.
+
+@licend  The above is the entire license notice
+for the JavaScript code in this file
+*/
 var NAVTREE =
 [
   [ "TSDuck", "index.html", [
@@ -90,8 +113,8 @@ var NAVTREE =
       [ "Building applications on Linux", "usinglibrary.html#liblinux", null ],
       [ "Building applications on Windows", "usinglibrary.html#libwindows", null ]
     ] ],
-    [ "Namespaces", null, [
-      [ "Namespace List", "namespaces.html", "namespaces" ],
+    [ "Namespaces", "namespaces.html", [
+      [ "Namespace List", "namespaces.html", "namespaces_dup" ],
       [ "Namespace Members", "namespacemembers.html", [
         [ "All", "namespacemembers.html", "namespacemembers_dup" ],
         [ "Functions", "namespacemembers_func.html", "namespacemembers_func" ],
@@ -114,8 +137,8 @@ var NAVTREE =
         [ "Enumerator", "functions_eval.html", "functions_eval" ]
       ] ]
     ] ],
-    [ "Files", null, [
-      [ "File List", "files.html", "files" ],
+    [ "Files", "files.html", [
+      [ "File List", "files.html", "files_dup" ],
       [ "File Members", "globals.html", [
         [ "All", "globals.html", null ],
         [ "Functions", "globals_func.html", null ],
@@ -130,37 +153,37 @@ var NAVTREEINDEX =
 [
 "annotated.html",
 "classts_1_1_abstract_a_v_c_data.html#aa928ac6a4e029f4ffe848449725e2c1c",
-"classts_1_1_args.html#a94a1a3624f78b4bbce3cb4b7ecd672f7",
-"classts_1_1_c_a_s_selection_args.html#aaa85b9fab7199d2bac5cc0712e1ec973",
-"classts_1_1_d_v_b_charset.html#a1e1bc0a197d7571c266ef8a1e55e8e3f",
-"classts_1_1_e_i_t.html#a31d996ad12ed7d2fdb55bf0353e2e79e",
-"classts_1_1_h_e_v_c_video_descriptor.html#a370eb9ac605cc6061cbc3bdbed5dbe71",
-"classts_1_1_mutex_1_1_mutex_error.html#a4e5741b6e64eb5fbc7c09df6929f0196",
-"classts_1_1_plugin_repository.html#a6bb6a3a791f99e7cbbfb8534a3e06cca",
-"classts_1_1_s_s_u_data_broadcast_id_descriptor.html#a89d7dbf7c54f384e511bb64582978a0e",
-"classts_1_1_service.html#a96dee912faadc350912abd3358c6f74d",
-"classts_1_1_supplementary_audio_descriptor.html#aa2557eed3d4390726cbd4cb77a4a0d24",
-"classts_1_1_t_s_analyzer_1_1_p_i_d_context.html#a169516dbbc3ac480df99cf0ac696101e",
-"classts_1_1_tables_logger.html#a9bedc058c9ac057d5fc64226761eafd7",
-"classts_1_1_time.html#ace322966c072900c2d7df92892650818",
-"classts_1_1_u_d_p_socket.html#ab3e88dca7aa0d21a0de1d88fce6a0643",
-"classts_1_1_web_request.html#aee806127c931f9780fe6c67ac92610a9",
-"classts_1_1json_1_1_object.html#aa48e4f17b63db32a71b9a54727c32660",
-"classts_1_1xml_1_1_attribute.html#a87320989b89b208bce83636faf5c018d",
-"functions_z.html",
-"structts_1_1_parental_rating_descriptor_1_1_entry.html#ae05960e21f506eb327954ab11ad48b19",
-"structts_1_1emmgmux_1_1_errors.html#a1e77320d82540c48f9616be50ba638f7a45c3d2b24505555ad701aeb600661d63",
-"ts_fatal_8h.html#a440dc142daf576dd4c291aa41ccb23ef",
-"ts_m_p_e_g_8h.html#a443b2a4f497204a667fde32be9d72277a8ed1735a7f3d9752bbe38a03d9341d89",
-"ts_m_p_e_g_8h.html#a59d7516851ab27af6608e38f361df1daac764f560b23d0a744ec5f8560ae14145",
-"ts_m_p_e_g_8h.html#aec593563f4639a8a861a3d0018722c06a8b549c5cdb8039f18d5907a9af1b5488",
-"ts_output_pager_8h.html",
-"ts_resident_buffer_8h.html",
-"ts_u_char_8h.html#a098fd876c695d0a205553e9ddcfcd4b6",
-"ts_u_char_8h.html#a419cb9418e7bdb3973c382c39c128be2",
-"ts_u_char_8h.html#a8bc507873b0a335b847b3221c8b308b4",
-"ts_u_char_8h.html#ad44537353b0c22eea84be391c37de0d8",
-"tstlv_connection_8h.html"
+"classts_1_1_args.html#a96a2eb21c994422e9d32623f54da2463",
+"classts_1_1_c_a_s_selection_args.html#ac700d72109b5f16c6cbed7f802c7aacb",
+"classts_1_1_d_v_b_charset.html#a3da568e0cf089552a9c209644f938e48",
+"classts_1_1_e_i_t.html#a2634e619253b824808212551c38e6fe2",
+"classts_1_1_h_e_v_c_video_descriptor.html#a2e468183a757fdecb8d78ed3efa05a7d",
+"classts_1_1_message_descriptor.html",
+"classts_1_1_p_s_i_logger_args.html#a5447873a6fae4e70e752b621b1b9b43b",
+"classts_1_1_s_d_t.html#ad9f3415caec9b3c924237dbd1c2b5cf5",
+"classts_1_1_service.html#a1be71b3d70a41ab1e42a1064d6a391fc",
+"classts_1_1_splice_insert.html#ad3d33f2ee75be3ab458e01c5ba1dbff5",
+"classts_1_1_t_s_analyzer.html#a79379c4103a6bc3e672897db4e6a608b",
+"classts_1_1_tables_display.html#afbf9ec2877b550adcefe086ffa9567bf",
+"classts_1_1_thread_1_1_thread_error.html#a4323143bdeef128d1137baef40139c89",
+"classts_1_1_tuner_parameters_d_v_b_s.html#a0469d57264f04cddd2d5acd6468bc926",
+"classts_1_1_v_b_i_data_descriptor.html",
+"classts_1_1emmgmux_1_1_stream_close_response.html",
+"classts_1_1tlv_1_1_stream_message.html#a7530fe6e8dd39892b63491ee49cb0ec1",
+"functions_f.html",
+"structts_1_1_eutelsat_channel_number_descriptor_1_1_entry.html#a9ecf7c60e2196115e0f73cd17756557e",
+"structts_1_1ecmgscs_1_1_errors.html#a5e5abf0d3020e42a2a42071d9a3cb1cfa5b1324c5123ec16c55d107f8a8aea214",
+"ts_c_o_m_8h.html",
+"ts_m_p_e_g_8h.html#a320c39cb24c168ea784ed6cbf30c3d56a478132d4a173908575f8724c49d875be",
+"ts_m_p_e_g_8h.html#a59d7516851ab27af6608e38f361df1daa79188770ad79785635a0bba69895719b",
+"ts_m_p_e_g_8h.html#ab983ae94b0ed7796c8119f26d71fabe0a247897773bfc216f2c046b38195994aa",
+"ts_modulation_8h.html#aee2f4a753d453dd84bab8636dc4b7ba5aa2722fe11be3cd528403c0cf4f4465ff",
+"ts_platform_8h.html#aa230c8495835e619951f42dd121d4bc1",
+"ts_tables_ptr_8h.html#a4fda4d5387866ca8571e38c5547ce742",
+"ts_u_char_8h.html#a2c78bbd38a7c42f6e80c407c7cb12b10",
+"ts_u_char_8h.html#a6ff8d46c86510e246fd31522671bfa31",
+"ts_u_char_8h.html#abce685763e2e19377dfeb9cc61521196",
+"ts_u_string_8h.html"
 ];
 
 var SYNCONMSG = 'click to disable panel synchronisation';

@@ -1,6 +1,6 @@
 <map id="ts::AC3Descriptor" name="ts::AC3Descriptor">
-<area shape="rect" id="node2" href="$classts_1_1_abstract_descriptor.html" title="Abstract base class for MPEG PSI/SI descriptors. " alt="" coords="23,81,186,108"/>
-<area shape="rect" id="node3" href="$classts_1_1_abstract_signalization.html" title="Abstract base class for MPEG PSI/SI tables and descriptors. " alt="" coords="5,5,185,32"/>
-<area shape="rect" id="node4" href="$classts_1_1_byte_block.html" title="Definition of a generic block of bytes. " alt="" coords="229,81,337,108"/>
-<area shape="rect" id="node6" href="$classts_1_1_variable.html" title="ts::Variable\&lt; uint8_t \&gt;" alt="" coords="362,81,533,108"/>
+<area shape="rect" id="node2" href="$classts_1_1_abstract_descriptor.html" title="Abstract base class for MPEG PSI/SI descriptors. " alt="" coords="21,80,170,105"/>
+<area shape="rect" id="node3" href="$classts_1_1_abstract_signalization.html" title="Abstract base class for MPEG PSI/SI tables and descriptors. " alt="" coords="5,5,169,31"/>
+<area shape="rect" id="node4" href="$classts_1_1_byte_block.html" title="Definition of a generic block of bytes. " alt="" coords="209,80,307,105"/>
+<area shape="rect" id="node6" href="$classts_1_1_variable.html" title="ts::Variable\&lt; uint8_t \&gt;" alt="" coords="331,80,481,105"/>
 </map>

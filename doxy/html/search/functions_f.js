@@ -44,6 +44,7 @@ var searchData=
   ['pidoperator',['PIDOperator',['../structts_1_1_p_i_d_operator.html#acdd3e41867d0c51371c43c14b20a2abc',1,'ts::PIDOperator']]],
   ['pidoperatorset',['PIDOperatorSet',['../classts_1_1_p_i_d_operator_set.html#aa6d79e1c3526cb7c3707acc1e2a46455',1,'ts::PIDOperatorSet::PIDOperatorSet()'],['../classts_1_1_p_i_d_operator_set.html#a5cd5d44429284a391fb9c44449e91fa9',1,'ts::PIDOperatorSet::PIDOperatorSet(const PIDOperatorSet &amp;other)']]],
   ['pindirectionname',['PinDirectionName',['../namespacets.html#af4e32d88f84bfbf2b760496e49329dff',1,'ts']]],
+  ['platformid',['PlatformId',['../namespacets_1_1names.html#adceb9b9603e6f82de0b05b0b3b73f29e',1,'ts::names']]],
   ['plp',['plp',['../classts_1_1_t2_m_i_packet.html#aea81dc66ad33a3212744824b2a6008ad',1,'ts::T2MIPacket']]],
   ['plpvalid',['plpValid',['../classts_1_1_t2_m_i_packet.html#a65ac84308fe8739694543504d0678b2d',1,'ts::T2MIPacket']]],
   ['plugin',['Plugin',['../classts_1_1_plugin.html#accc607829d63f590f317d6df1fd3f0d5',1,'ts::Plugin::Plugin()'],['../classts_1_1tsp_1_1_output_executor.html#a2aff7b32b9a704627579b6b663cbd40d',1,'ts::tsp::OutputExecutor::plugin()'],['../classts_1_1tsp_1_1_plugin_executor.html#a0013c697f22ab906f43a5548ab61678b',1,'ts::tsp::PluginExecutor::plugin()'],['../classts_1_1tsp_1_1_processor_executor.html#a402e751a22687f4cefd5b94d79cdca2a',1,'ts::tsp::ProcessorExecutor::plugin()']]],

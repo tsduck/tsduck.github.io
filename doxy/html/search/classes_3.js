@@ -12,6 +12,7 @@ var searchData=
   ['descriptor',['Descriptor',['../classts_1_1_descriptor.html',1,'ts']]],
   ['descriptorlist',['DescriptorList',['../classts_1_1_descriptor_list.html',1,'ts']]],
   ['deserializationinternalerror',['DeserializationInternalError',['../classts_1_1tlv_1_1_deserialization_internal_error.html',1,'ts::tlv']]],
+  ['device',['Device',['../structts_1_1_i_n_t_1_1_device.html',1,'ts::INT']]],
   ['directshowfiltercategory',['DirectShowFilterCategory',['../classts_1_1_direct_show_filter_category.html',1,'ts']]],
   ['directshowgraph',['DirectShowGraph',['../classts_1_1_direct_show_graph.html',1,'ts']]],
   ['directshowtest',['DirectShowTest',['../classts_1_1_direct_show_test.html',1,'ts']]],

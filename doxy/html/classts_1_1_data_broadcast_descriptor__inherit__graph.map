@@ -1,4 +1,4 @@
 <map id="ts::DataBroadcastDescriptor" name="ts::DataBroadcastDescriptor">
-<area shape="rect" id="node2" href="$classts_1_1_abstract_descriptor.html" title="Abstract base class for MPEG PSI/SI descriptors. " alt="" coords="27,80,189,107"/>
-<area shape="rect" id="node3" href="$classts_1_1_abstract_signalization.html" title="Abstract base class for MPEG PSI/SI tables and descriptors. " alt="" coords="18,5,198,32"/>
+<area shape="rect" id="node2" href="$classts_1_1_abstract_descriptor.html" title="Abstract base class for MPEG PSI/SI descriptors. " alt="" coords="25,79,174,104"/>
+<area shape="rect" id="node3" href="$classts_1_1_abstract_signalization.html" title="Abstract base class for MPEG PSI/SI tables and descriptors. " alt="" coords="18,5,181,31"/>
 </map>

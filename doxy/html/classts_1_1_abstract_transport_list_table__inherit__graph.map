@@ -1,7 +1,7 @@
 <map id="ts::AbstractTransportListTable" name="ts::AbstractTransportListTable">
-<area shape="rect" id="node5" href="$classts_1_1_b_a_t.html" title="Representation of a Bouquet Association Table (BAT). " alt="" coords="18,319,85,345"/>
-<area shape="rect" id="node6" href="$classts_1_1_n_i_t.html" title="Representation of a Network Information Table (NIT) " alt="" coords="109,319,173,345"/>
-<area shape="rect" id="node2" href="$classts_1_1_abstract_long_table.html" title="Abstract base class for MPEG PSI/SI tables with long sections. " alt="" coords="15,155,176,181"/>
-<area shape="rect" id="node3" href="$classts_1_1_abstract_table.html" title="Abstract base class for MPEG PSI/SI tables. " alt="" coords="30,80,161,107"/>
-<area shape="rect" id="node4" href="$classts_1_1_abstract_signalization.html" title="Abstract base class for MPEG PSI/SI tables and descriptors. " alt="" coords="5,5,185,32"/>
+<area shape="rect" id="node5" href="$classts_1_1_b_a_t.html" title="Representation of a Bouquet Association Table (BAT). " alt="" coords="13,312,77,337"/>
+<area shape="rect" id="node6" href="$classts_1_1_n_i_t.html" title="Representation of a Network Information Table (NIT) " alt="" coords="102,312,162,337"/>
+<area shape="rect" id="node2" href="$classts_1_1_abstract_long_table.html" title="Abstract base class for MPEG PSI/SI tables with long sections. " alt="" coords="13,152,163,177"/>
+<area shape="rect" id="node3" href="$classts_1_1_abstract_table.html" title="Abstract base class for MPEG PSI/SI tables. " alt="" coords="28,79,148,104"/>
+<area shape="rect" id="node4" href="$classts_1_1_abstract_signalization.html" title="Abstract base class for MPEG PSI/SI tables and descriptors. " alt="" coords="6,5,170,31"/>
 </map>

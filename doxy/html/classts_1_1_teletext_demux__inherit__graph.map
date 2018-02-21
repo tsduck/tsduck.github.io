@@ -1,5 +1,5 @@
 <map id="ts::TeletextDemux" name="ts::TeletextDemux">
-<area shape="rect" id="node2" href="$classts_1_1_p_e_s_demux.html" title="This class extracts PES packets from TS packets. " alt="" coords="33,155,147,181"/>
-<area shape="rect" id="node3" href="$classts_1_1_time_tracker_demux.html" title="A demux which tracks time stamps per PID. " alt="" coords="5,80,175,107"/>
-<area shape="rect" id="node4" href="$classts_1_1_abstract_demux.html" title="Abstract base class for all sorts of demux from TS packets. " alt="" coords="19,5,161,32"/>
+<area shape="rect" id="node2" href="$classts_1_1_p_e_s_demux.html" title="This class extracts PES packets from TS packets. " alt="" coords="29,152,137,177"/>
+<area shape="rect" id="node3" href="$classts_1_1_time_tracker_demux.html" title="A demux which tracks time stamps per PID. " alt="" coords="5,79,161,104"/>
+<area shape="rect" id="node4" href="$classts_1_1_abstract_demux.html" title="Abstract base class for all sorts of demux from TS packets. " alt="" coords="18,5,148,31"/>
 </map>

@@ -1,5 +1,5 @@
 <map id="ts::TSAnalyzerOptions" name="ts::TSAnalyzerOptions">
-<area shape="rect" id="node2" href="$classts_1_1_args.html" title="An encapsulation of command line syntax and analysis. " alt="" coords="16,90,87,117"/>
-<area shape="rect" id="node3" href="$classts_1_1_report.html" title="Abstract interface for event reporting and monitoring. " alt="" coords="5,5,89,32"/>
-<area shape="rect" id="node4" href="$classts_1_1_u_string.html" title="An implementation of UTF&#45;16 strings. " alt="" coords="119,90,210,117"/>
+<area shape="rect" id="node2" href="$classts_1_1_args.html" title="An encapsulation of command line syntax and analysis. " alt="" coords="16,87,82,113"/>
+<area shape="rect" id="node3" href="$classts_1_1_report.html" title="Abstract interface for event reporting and monitoring. " alt="" coords="5,5,84,31"/>
+<area shape="rect" id="node4" href="$classts_1_1_u_string.html" title="An implementation of UTF&#45;16 strings. " alt="" coords="114,87,197,113"/>
 </map>

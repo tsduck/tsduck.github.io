@@ -1,9 +1,9 @@
 <map id="ts::xml::Node" name="ts::xml::Node">
-<area shape="rect" id="node3" href="$classts_1_1xml_1_1_comment.html" title="Comment in an XML document. " alt="" coords="322,5,461,32"/>
-<area shape="rect" id="node4" href="$classts_1_1xml_1_1_declaration.html" title="Declaration in an XML document. " alt="" coords="316,56,467,83"/>
-<area shape="rect" id="node5" href="$classts_1_1xml_1_1_document.html" title="Representation of an XML document. " alt="" coords="320,107,463,133"/>
-<area shape="rect" id="node6" href="$classts_1_1xml_1_1_element.html" title="Structured element in an XML document. " alt="" coords="327,157,456,184"/>
-<area shape="rect" id="node7" href="$classts_1_1xml_1_1_text.html" title="Text element in an XML document. " alt="" coords="340,208,443,235"/>
-<area shape="rect" id="node8" href="$classts_1_1xml_1_1_unknown.html" title="Unknown element in an XML document. " alt="" coords="323,259,459,285"/>
-<area shape="rect" id="node2" href="$classts_1_1_ring_node.html" title="Base class for objects being part of a ring, ie. " alt="" coords="5,132,111,159"/>
+<area shape="rect" id="node3" href="$classts_1_1xml_1_1_comment.html" title="Comment in an XML document. " alt="" coords="304,5,429,31"/>
+<area shape="rect" id="node4" href="$classts_1_1xml_1_1_declaration.html" title="Declaration in an XML document. " alt="" coords="299,55,434,80"/>
+<area shape="rect" id="node5" href="$classts_1_1xml_1_1_document.html" title="Representation of an XML document. " alt="" coords="302,104,430,129"/>
+<area shape="rect" id="node6" href="$classts_1_1xml_1_1_element.html" title="Structured element in an XML document. " alt="" coords="308,153,424,179"/>
+<area shape="rect" id="node7" href="$classts_1_1xml_1_1_text.html" title="Text element in an XML document. " alt="" coords="320,203,412,228"/>
+<area shape="rect" id="node8" href="$classts_1_1xml_1_1_unknown.html" title="Unknown element in an XML document. " alt="" coords="305,252,428,277"/>
+<area shape="rect" id="node2" href="$classts_1_1_ring_node.html" title="Base class for objects being part of a ring, ie. " alt="" coords="5,129,104,155"/>
 </map>

@@ -1,3 +1,5 @@
 <map id="Graphical Class Hierarchy" name="Graphical Class Hierarchy">
-<area shape="rect" id="node1" href="$classts_1_1_e_d_i_d.html" title="Extended MPEG descriptor id. " alt="" coords="5,5,80,32"/>
+<area shape="rect" id="node2" href="$classts_1_1_e_i_t_1_1_event.html" title="Description of an event. " alt="" coords="208,5,308,31"/>
+<area shape="rect" id="node3" href="$structts_1_1_p_m_t_1_1_stream.html" title="Description of an elementary stream. " alt="" coords="200,55,316,80"/>
+<area shape="rect" id="node4" href="$classts_1_1_s_d_t_1_1_service.html" title="Description of a service. " alt="" coords="200,104,316,129"/>
 </map>

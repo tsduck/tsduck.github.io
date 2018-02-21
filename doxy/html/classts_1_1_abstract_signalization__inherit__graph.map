@@ -1,50 +1,50 @@
 <map id="ts::AbstractSignalization" name="ts::AbstractSignalization">
-<area shape="rect" id="node2" href="$classts_1_1_abstract_descriptor.html" title="Abstract base class for MPEG PSI/SI descriptors. " alt="" coords="233,1251,396,1277"/>
-<area shape="rect" id="node49" href="$classts_1_1_abstract_table.html" title="Abstract base class for MPEG PSI/SI tables. " alt="" coords="249,1301,380,1328"/>
-<area shape="rect" id="node3" href="$classts_1_1_a_a_c_descriptor.html" title="Representation of an AAC_descriptor. " alt="" coords="499,5,635,32"/>
-<area shape="rect" id="node4" href="$classts_1_1_abstract_delivery_system_descriptor.html" title="Abstract base class for DVB delivery system descriptors. " alt="" coords="467,57,667,98"/>
-<area shape="rect" id="node5" href="$classts_1_1_a_c3_descriptor.html" title="Representation of an AC&#45;3_descriptor. " alt="" coords="499,123,634,149"/>
-<area shape="rect" id="node6" href="$classts_1_1_application_signalling_descriptor.html" title="Representation of an application_signalling_descriptor. " alt="" coords="477,174,656,215"/>
-<area shape="rect" id="node7" href="$classts_1_1_application_usage_descriptor.html" title="Representation of an application_usage_descriptor (AIT specific). " alt="" coords="455,240,678,267"/>
-<area shape="rect" id="node8" href="$classts_1_1_a_v_c_video_descriptor.html" title="Representation of an AVC_video_descriptor. " alt="" coords="481,291,653,317"/>
-<area shape="rect" id="node9" href="$classts_1_1_bouquet_name_descriptor.html" title="Representation of a bouquet_name_descriptor. " alt="" coords="465,341,668,368"/>
-<area shape="rect" id="node10" href="$classts_1_1_c_a_descriptor.html" title="Representation of a generic CA_descriptor. " alt="" coords="503,392,630,419"/>
-<area shape="rect" id="node11" href="$classts_1_1_c_a_identifier_descriptor.html" title="Representation of a CA_identifier_descriptor. " alt="" coords="474,443,659,469"/>
-<area shape="rect" id="node12" href="$classts_1_1_component_descriptor.html" title="Representation of a component_descriptor. " alt="" coords="475,493,659,520"/>
-<area shape="rect" id="node13" href="$classts_1_1_content_descriptor.html" title="Representation of a content_descriptor. " alt="" coords="487,544,647,571"/>
-<area shape="rect" id="node14" href="$classts_1_1_country_availability_descriptor.html" title="Representation of a country_availability_descriptor. " alt="" coords="450,595,683,621"/>
-<area shape="rect" id="node15" href="$classts_1_1_cue_identifier_descriptor.html" title="Representation of a cue_identifier_descriptor (SCTE 35). " alt="" coords="471,645,663,672"/>
-<area shape="rect" id="node16" href="$classts_1_1_data_broadcast_descriptor.html" title="Representation of a data_broadcast_descriptor. " alt="" coords="464,696,669,723"/>
-<area shape="rect" id="node17" href="$classts_1_1_data_broadcast_id_descriptor.html" title="Representation of a generic data_broadcast_id_descriptor. " alt="" coords="458,747,675,773"/>
-<area shape="rect" id="node18" href="$classts_1_1_d_t_s_descriptor.html" title="Representation of a DTS_descriptor. " alt="" coords="499,797,634,824"/>
-<area shape="rect" id="node19" href="$classts_1_1_eacem_preferred_name_identifier_descriptor.html" title="Representation of an eacem_preferred_name_identifier_descriptor. " alt="" coords="445,849,688,890"/>
-<area shape="rect" id="node20" href="$classts_1_1_eacem_preferred_name_list_descriptor.html" title="Representation of an eacem_preferred_name_list_descriptor. " alt="" coords="463,914,671,955"/>
-<area shape="rect" id="node21" href="$classts_1_1_eacem_stream_identifier_descriptor.html" title="Representation of an eacem_stream_identifier_descriptor. " alt="" coords="471,979,662,1021"/>
-<area shape="rect" id="node22" href="$classts_1_1_enhanced_a_c3_descriptor.html" title="Representation of an enhanced_AC&#45;3_descriptor. " alt="" coords="467,1045,666,1072"/>
-<area shape="rect" id="node23" href="$classts_1_1_eutelsat_channel_number_descriptor.html" title="Representation of an Eutelsat_channel_number_descriptor. " alt="" coords="467,1097,667,1138"/>
-<area shape="rect" id="node24" href="$classts_1_1_extended_event_descriptor.html" title="Representation of a extended_event_descriptor. " alt="" coords="463,1163,670,1189"/>
-<area shape="rect" id="node25" href="$classts_1_1_h_d_simulcast_logical_channel_descriptor.html" title="Representation of a HD_simulcast_logical_channel_descriptor. " alt="" coords="454,1214,679,1255"/>
-<area shape="rect" id="node26" href="$classts_1_1_h_e_v_c_video_descriptor.html" title="Representation of an HEVC_video_descriptor. " alt="" coords="475,1280,658,1307"/>
-<area shape="rect" id="node27" href="$classts_1_1_i_s_o639_language_descriptor.html" title="Representation of an ISO_639_language_descriptor. " alt="" coords="457,1331,676,1357"/>
-<area shape="rect" id="node28" href="$classts_1_1_linkage_descriptor.html" title="Representation of a generic linkage_descriptor. " alt="" coords="487,1381,647,1408"/>
-<area shape="rect" id="node29" href="$classts_1_1_local_time_offset_descriptor.html" title="Representation of a local_time_offset_descriptor. " alt="" coords="459,1432,674,1459"/>
-<area shape="rect" id="node30" href="$classts_1_1_logical_channel_number_descriptor.html" title="Representation of a logical_channel_number_descriptor. " alt="" coords="470,1483,663,1525"/>
-<area shape="rect" id="node31" href="$classts_1_1_maximum_bitrate_descriptor.html" title="Representation of a maximum_bitrate_descriptor. " alt="" coords="457,1549,676,1576"/>
-<area shape="rect" id="node32" href="$classts_1_1_message_descriptor.html" title="Representation of a message_descriptor. " alt="" coords="483,1600,650,1627"/>
-<area shape="rect" id="node33" href="$classts_1_1_network_name_descriptor.html" title="Representation of a network_name_descriptor. " alt="" coords="465,1651,668,1677"/>
-<area shape="rect" id="node34" href="$classts_1_1_n_v_o_d_reference_descriptor.html" title="Representation of a NVOD_reference_descriptor. " alt="" coords="460,1701,673,1728"/>
-<area shape="rect" id="node35" href="$classts_1_1_parental_rating_descriptor.html" title="Representation of an parental_rating_descriptor. " alt="" coords="465,1752,669,1779"/>
-<area shape="rect" id="node36" href="$classts_1_1_private_data_indicator_descriptor.html" title="Representation of a private_data_indicator_descriptor. " alt="" coords="479,1803,655,1845"/>
-<area shape="rect" id="node37" href="$classts_1_1_private_data_specifier_descriptor.html" title="Representation of a private_data_specifier_descriptor. " alt="" coords="479,1869,654,1910"/>
-<area shape="rect" id="node38" href="$classts_1_1_registration_descriptor.html" title="Representation of a registration_descriptor. " alt="" coords="473,1935,660,1961"/>
-<area shape="rect" id="node39" href="$classts_1_1_s2_satellite_delivery_system_descriptor.html" title="Representation of an S2_satellite_delivery_system_descriptor. " alt="" coords="459,1986,675,2027"/>
-<area shape="rect" id="node40" href="$classts_1_1_service_descriptor.html" title="Representation of a service_descriptor. " alt="" coords="488,2052,645,2079"/>
-<area shape="rect" id="node41" href="$classts_1_1_service_list_descriptor.html" title="Representation of a service_list_descriptor. " alt="" coords="477,2103,657,2129"/>
-<area shape="rect" id="node42" href="$classts_1_1_short_event_descriptor.html" title="Representation of an short_event_descriptor. " alt="" coords="477,2153,657,2180"/>
-<area shape="rect" id="node43" href="$classts_1_1_s_s_u_data_broadcast_id_descriptor.html" title="Representation of a data_broadcast_id_descriptor for system software update. " alt="" coords="445,2204,688,2231"/>
-<area shape="rect" id="node44" href="$classts_1_1_s_s_u_linkage_descriptor.html" title="Representation of a linkage_descriptor for system software update. " alt="" coords="473,2255,660,2281"/>
-<area shape="rect" id="node45" href="$classts_1_1_s_t_d_descriptor.html" title="Representation of an STD_descriptor. " alt="" coords="499,2305,634,2332"/>
-<area shape="rect" id="node46" href="$classts_1_1_stream_identifier_descriptor.html" title="Representation of a stream_identifier_descriptor. " alt="" coords="459,2356,674,2383"/>
-<area shape="rect" id="node47" href="$classts_1_1_subtitling_descriptor.html" title="Representation of a subtitling_descriptor. " alt="" coords="481,2407,652,2433"/>
-<area shape="rect" id="node48" href="$classts_1_1_supplementary_audio_descriptor.html" title="Representation of a supplementary_audio_descriptor. " alt="" coords="444,2457,689,2484"/>
+<area shape="rect" id="node2" href="$classts_1_1_abstract_descriptor.html" title="Abstract base class for MPEG PSI/SI descriptors. " alt="" coords="217,1205,366,1231"/>
+<area shape="rect" id="node49" href="$classts_1_1_abstract_table.html" title="Abstract base class for MPEG PSI/SI tables. " alt="" coords="231,1255,351,1280"/>
+<area shape="rect" id="node3" href="$classts_1_1_a_a_c_descriptor.html" title="Representation of an AAC_descriptor. " alt="" coords="468,5,595,31"/>
+<area shape="rect" id="node4" href="$classts_1_1_abstract_delivery_system_descriptor.html" title="Abstract base class for DVB delivery system descriptors. " alt="" coords="441,55,622,93"/>
+<area shape="rect" id="node5" href="$classts_1_1_a_c3_descriptor.html" title="Representation of an AC&#45;3_descriptor. " alt="" coords="469,117,594,143"/>
+<area shape="rect" id="node6" href="$classts_1_1_application_signalling_descriptor.html" title="Representation of an application_signalling_descriptor. " alt="" coords="450,167,613,205"/>
+<area shape="rect" id="node7" href="$classts_1_1_application_usage_descriptor.html" title="Representation of an application_usage_descriptor (AIT specific). " alt="" coords="430,229,633,255"/>
+<area shape="rect" id="node8" href="$classts_1_1_a_v_c_video_descriptor.html" title="Representation of an AVC_video_descriptor. " alt="" coords="451,279,612,304"/>
+<area shape="rect" id="node9" href="$classts_1_1_bouquet_name_descriptor.html" title="Representation of a bouquet_name_descriptor. " alt="" coords="439,328,624,353"/>
+<area shape="rect" id="node10" href="$classts_1_1_c_a_descriptor.html" title="Representation of a generic CA_descriptor. " alt="" coords="472,377,591,403"/>
+<area shape="rect" id="node11" href="$classts_1_1_c_a_identifier_descriptor.html" title="Representation of a CA_identifier_descriptor. " alt="" coords="447,427,616,452"/>
+<area shape="rect" id="node12" href="$classts_1_1_component_descriptor.html" title="Representation of a component_descriptor. " alt="" coords="447,476,616,501"/>
+<area shape="rect" id="node13" href="$classts_1_1_content_descriptor.html" title="Representation of a content_descriptor. " alt="" coords="458,525,605,551"/>
+<area shape="rect" id="node14" href="$classts_1_1_country_availability_descriptor.html" title="Representation of a country_availability_descriptor. " alt="" coords="427,575,636,600"/>
+<area shape="rect" id="node15" href="$classts_1_1_cue_identifier_descriptor.html" title="Representation of a cue_identifier_descriptor (SCTE 35). " alt="" coords="444,624,619,649"/>
+<area shape="rect" id="node16" href="$classts_1_1_data_broadcast_descriptor.html" title="Representation of a data_broadcast_descriptor. " alt="" coords="437,673,626,699"/>
+<area shape="rect" id="node17" href="$classts_1_1_data_broadcast_id_descriptor.html" title="Representation of a generic data_broadcast_id_descriptor. " alt="" coords="432,723,631,748"/>
+<area shape="rect" id="node18" href="$classts_1_1_d_t_s_descriptor.html" title="Representation of a DTS_descriptor. " alt="" coords="468,772,595,797"/>
+<area shape="rect" id="node19" href="$classts_1_1_eacem_preferred_name_identifier_descriptor.html" title="Representation of an eacem_preferred_name_identifier_descriptor. " alt="" coords="420,821,643,860"/>
+<area shape="rect" id="node20" href="$classts_1_1_eacem_preferred_name_list_descriptor.html" title="Representation of an eacem_preferred_name_list_descriptor. " alt="" coords="435,884,628,923"/>
+<area shape="rect" id="node21" href="$classts_1_1_eacem_stream_identifier_descriptor.html" title="Representation of an eacem_stream_identifier_descriptor. " alt="" coords="444,947,619,985"/>
+<area shape="rect" id="node22" href="$classts_1_1_enhanced_a_c3_descriptor.html" title="Representation of an enhanced_AC&#45;3_descriptor. " alt="" coords="439,1009,624,1035"/>
+<area shape="rect" id="node23" href="$classts_1_1_eutelsat_channel_number_descriptor.html" title="Representation of an Eutelsat_channel_number_descriptor. " alt="" coords="439,1059,624,1097"/>
+<area shape="rect" id="node24" href="$classts_1_1_extended_event_descriptor.html" title="Representation of a extended_event_descriptor. " alt="" coords="436,1121,627,1147"/>
+<area shape="rect" id="node25" href="$classts_1_1_h_d_simulcast_logical_channel_descriptor.html" title="Representation of a HD_simulcast_logical_channel_descriptor. " alt="" coords="427,1171,636,1209"/>
+<area shape="rect" id="node26" href="$classts_1_1_h_e_v_c_video_descriptor.html" title="Representation of an HEVC_video_descriptor. " alt="" coords="446,1233,617,1259"/>
+<area shape="rect" id="node27" href="$classts_1_1_i_p_m_a_c_platform_name_descriptor.html" title="Representation of an IP/MAC_platform_name_descriptor (INT specific). " alt="" coords="418,1283,645,1308"/>
+<area shape="rect" id="node28" href="$classts_1_1_i_p_m_a_c_platform_provider_name_descriptor.html" title="Representation of an IP/MAC_platform_provider_name_descriptor (INT specific). " alt="" coords="441,1332,622,1371"/>
+<area shape="rect" id="node29" href="$classts_1_1_i_p_m_a_c_stream_location_descriptor.html" title="Representation of an IP/MAC_stream_location_descriptor (INT specific). " alt="" coords="414,1395,649,1420"/>
+<area shape="rect" id="node30" href="$classts_1_1_i_s_o639_language_descriptor.html" title="Representation of an ISO_639_language_descriptor. " alt="" coords="429,1444,634,1469"/>
+<area shape="rect" id="node31" href="$classts_1_1_linkage_descriptor.html" title="Representation of a generic linkage_descriptor. " alt="" coords="458,1493,605,1519"/>
+<area shape="rect" id="node32" href="$classts_1_1_local_time_offset_descriptor.html" title="Representation of a local_time_offset_descriptor. " alt="" coords="433,1543,630,1568"/>
+<area shape="rect" id="node33" href="$classts_1_1_logical_channel_number_descriptor.html" title="Representation of a logical_channel_number_descriptor. " alt="" coords="442,1592,621,1631"/>
+<area shape="rect" id="node34" href="$classts_1_1_maximum_bitrate_descriptor.html" title="Representation of a maximum_bitrate_descriptor. " alt="" coords="433,1655,630,1680"/>
+<area shape="rect" id="node35" href="$classts_1_1_message_descriptor.html" title="Representation of a message_descriptor. " alt="" coords="454,1704,608,1729"/>
+<area shape="rect" id="node36" href="$classts_1_1_network_name_descriptor.html" title="Representation of a network_name_descriptor. " alt="" coords="439,1753,624,1779"/>
+<area shape="rect" id="node37" href="$classts_1_1_n_v_o_d_reference_descriptor.html" title="Representation of a NVOD_reference_descriptor. " alt="" coords="432,1803,631,1828"/>
+<area shape="rect" id="node38" href="$classts_1_1_parental_rating_descriptor.html" title="Representation of an parental_rating_descriptor. " alt="" coords="437,1852,626,1877"/>
+<area shape="rect" id="node39" href="$classts_1_1_private_data_indicator_descriptor.html" title="Representation of a private_data_indicator_descriptor. " alt="" coords="452,1901,611,1940"/>
+<area shape="rect" id="node40" href="$classts_1_1_private_data_specifier_descriptor.html" title="Representation of a private_data_specifier_descriptor. " alt="" coords="451,1964,612,2003"/>
+<area shape="rect" id="node41" href="$classts_1_1_registration_descriptor.html" title="Representation of a registration_descriptor. " alt="" coords="446,2027,617,2052"/>
+<area shape="rect" id="node42" href="$classts_1_1_s2_satellite_delivery_system_descriptor.html" title="Representation of an S2_satellite_delivery_system_descriptor. " alt="" coords="434,2076,629,2115"/>
+<area shape="rect" id="node43" href="$classts_1_1_service_descriptor.html" title="Representation of a service_descriptor. " alt="" coords="459,2139,604,2164"/>
+<area shape="rect" id="node44" href="$classts_1_1_service_list_descriptor.html" title="Representation of a service_list_descriptor. " alt="" coords="449,2188,614,2213"/>
+<area shape="rect" id="node45" href="$classts_1_1_short_event_descriptor.html" title="Representation of an short_event_descriptor. " alt="" coords="449,2237,614,2263"/>
+<area shape="rect" id="node46" href="$classts_1_1_s_s_u_data_broadcast_id_descriptor.html" title="Representation of a data_broadcast_id_descriptor for system software update. " alt="" coords="418,2287,645,2312"/>
+<area shape="rect" id="node47" href="$classts_1_1_s_s_u_linkage_descriptor.html" title="Representation of a linkage_descriptor for system software update. " alt="" coords="444,2336,618,2361"/>
+<area shape="rect" id="node48" href="$classts_1_1_s_t_d_descriptor.html" title="Representation of an STD_descriptor. " alt="" coords="468,2385,595,2411"/>
 </map>

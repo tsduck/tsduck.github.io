@@ -53,6 +53,7 @@ var searchData=
   ['haspts',['hasPTS',['../structts_1_1_t_s_packet.html#a0370af5c97820c7f95691dca4fae7f54',1,'ts::TSPacket']]],
   ['hasreservedbytes',['hasReservedBytes',['../structts_1_1_v_b_i_data_descriptor_1_1_service.html#a71c902ab7dfaf91cc4d57a18dcafb19a',1,'ts::VBIDataDescriptor::Service']]],
   ['hasrunningstatus',['hasRunningStatus',['../classts_1_1_service.html#add1e250fbca6e7f019f7758836f20ee3',1,'ts::Service::hasRunningStatus() const'],['../classts_1_1_service.html#a666ff5b8547b9dd71a3d716978360d04',1,'ts::Service::hasRunningStatus(uint8_t value) const']]],
+  ['hastablespecificname',['HasTableSpecificName',['../namespacets_1_1names.html#a8d806fbcdc5d6104b7c4886aba238b82',1,'ts::names']]],
   ['hastsid',['hasTSId',['../classts_1_1_service.html#a120e3e8e6a17991d3d9b1cfc482dff93',1,'ts::Service::hasTSId() const'],['../classts_1_1_service.html#a92dd2b6e2d8eed12c25243bcc29108bd',1,'ts::Service::hasTSId(uint16_t value) const']]],
   ['hastuninginfo',['hasTuningInfo',['../classts_1_1_tuner_args.html#a2abdea7e913acd135cb8cbb73ac5e7c5',1,'ts::TunerArgs']]],
   ['hastype',['hasType',['../classts_1_1_service.html#a220d0a7d86e0ee6cf13e97c0a2c79d90',1,'ts::Service::hasType() const'],['../classts_1_1_service.html#a6cb0ad7c21476916fd8175d873691b0b',1,'ts::Service::hasType(uint8_t value) const']]],

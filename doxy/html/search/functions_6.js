@@ -101,6 +101,7 @@ var searchData=
   ['getintvalue',['getIntValue',['../classts_1_1_args.html#a1afbe5e5de282a0410130a26b744e15f',1,'ts::Args']]],
   ['getintvalues',['getIntValues',['../classts_1_1_args.html#a746407fb2d924a964f7e34d44b140bd1',1,'ts::Args::getIntValues(std::vector&lt; INT &gt; &amp;values, const UChar *name=0) const'],['../classts_1_1_args.html#a1fcdb54618e29aed673a59af41f77409',1,'ts::Args::getIntValues(std::set&lt; INT &gt; &amp;values, const UChar *name=0) const']]],
   ['getioctlparam',['getIoctlParam',['../classts_1_1_d_t_v_properties.html#a4b28221e16fac91f8d66297bca746b2a',1,'ts::DTVProperties::getIoctlParam() const'],['../classts_1_1_d_t_v_properties.html#ae3e80ac7579516ba4da097ca17f52c08',1,'ts::DTVProperties::getIoctlParam()']]],
+  ['getipattribute',['getIPAttribute',['../classts_1_1xml_1_1_element.html#a0bc9737dc60c89f97787d5f6593e0542',1,'ts::xml::Element']]],
   ['getlanguagecode',['getLanguageCode',['../classts_1_1_audio_language_options.html#a9f742555b7d73fe9616f96831b119009',1,'ts::AudioLanguageOptions']]],
   ['getlasttspacketindex',['getLastTSPacketIndex',['../classts_1_1_binary_table.html#ac299ba677ebb3780a2f2c2d6b7f33e99',1,'ts::BinaryTable::getLastTSPacketIndex()'],['../classts_1_1_p_e_s_packet.html#a9707b841afbff5bbfd1d6af4e45e3505',1,'ts::PESPacket::getLastTSPacketIndex()'],['../classts_1_1_section.html#ae1f172c069cf4ab0ab4156cf966d3cbf',1,'ts::Section::getLastTSPacketIndex()']]],
   ['getlcn',['getLCN',['../classts_1_1_service.html#a83d714e490829d34293a2be21e829e58',1,'ts::Service']]],

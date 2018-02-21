@@ -1,4 +1,4 @@
-var files =
+var files_dup =
 [
     [ "tsAACDescriptor.h", "ts_a_a_c_descriptor_8h.html", [
       [ "AACDescriptor", "classts_1_1_a_a_c_descriptor.html", "classts_1_1_a_a_c_descriptor" ]
@@ -36,6 +36,7 @@ var files =
     [ "tsAbstractSignalization.h", "ts_abstract_signalization_8h.html", "ts_abstract_signalization_8h" ],
     [ "tsAbstractTable.h", "ts_abstract_table_8h.html", [
       [ "AbstractTable", "classts_1_1_abstract_table.html", "classts_1_1_abstract_table" ],
+      [ "EntryBase", "classts_1_1_abstract_table_1_1_entry_base.html", null ],
       [ "EntryWithDescriptors", "classts_1_1_abstract_table_1_1_entry_with_descriptors.html", "classts_1_1_abstract_table_1_1_entry_with_descriptors" ],
       [ "EntryWithDescriptorsList", "classts_1_1_abstract_table_1_1_entry_with_descriptors_list.html", "classts_1_1_abstract_table_1_1_entry_with_descriptors_list" ],
       [ "EntryWithDescriptorsMap", "classts_1_1_abstract_table_1_1_entry_with_descriptors_map.html", "classts_1_1_abstract_table_1_1_entry_with_descriptors_map" ]
@@ -326,11 +327,24 @@ var files =
     [ "tsInputRedirector.h", "ts_input_redirector_8h.html", [
       [ "InputRedirector", "classts_1_1_input_redirector.html", "classts_1_1_input_redirector" ]
     ] ],
+    [ "tsINT.h", "ts_i_n_t_8h.html", [
+      [ "Device", "structts_1_1_i_n_t_1_1_device.html", "structts_1_1_i_n_t_1_1_device" ],
+      [ "INT", "classts_1_1_i_n_t.html", "classts_1_1_i_n_t" ]
+    ] ],
     [ "tsIntegerUtils.h", "ts_integer_utils_8h.html", "ts_integer_utils_8h" ],
     [ "tsInterruptHandler.h", "ts_interrupt_handler_8h.html", [
       [ "InterruptHandler", "classts_1_1_interrupt_handler.html", "classts_1_1_interrupt_handler" ]
     ] ],
     [ "tsIPAddress.h", "ts_i_p_address_8h.html", "ts_i_p_address_8h" ],
+    [ "tsIPMACPlatformNameDescriptor.h", "ts_i_p_m_a_c_platform_name_descriptor_8h.html", [
+      [ "IPMACPlatformNameDescriptor", "classts_1_1_i_p_m_a_c_platform_name_descriptor.html", "classts_1_1_i_p_m_a_c_platform_name_descriptor" ]
+    ] ],
+    [ "tsIPMACPlatformProviderNameDescriptor.h", "ts_i_p_m_a_c_platform_provider_name_descriptor_8h.html", [
+      [ "IPMACPlatformProviderNameDescriptor", "classts_1_1_i_p_m_a_c_platform_provider_name_descriptor.html", "classts_1_1_i_p_m_a_c_platform_provider_name_descriptor" ]
+    ] ],
+    [ "tsIPMACStreamLocationDescriptor.h", "ts_i_p_m_a_c_stream_location_descriptor_8h.html", [
+      [ "IPMACStreamLocationDescriptor", "classts_1_1_i_p_m_a_c_stream_location_descriptor.html", "classts_1_1_i_p_m_a_c_stream_location_descriptor" ]
+    ] ],
     [ "tsIPUtils.h", "ts_i_p_utils_8h.html", "ts_i_p_utils_8h" ],
     [ "tsISO639LanguageDescriptor.h", "ts_i_s_o639_language_descriptor_8h.html", [
       [ "Entry", "structts_1_1_i_s_o639_language_descriptor_1_1_entry.html", "structts_1_1_i_s_o639_language_descriptor_1_1_entry" ],
@@ -656,6 +670,13 @@ var files =
       [ "TablesLoggerArgs", "classts_1_1_tables_logger_args.html", "classts_1_1_tables_logger_args" ]
     ] ],
     [ "tsTablesPtr.h", "ts_tables_ptr_8h.html", "ts_tables_ptr_8h" ],
+    [ "tsTargetIPAddressDescriptor.h", "ts_target_i_p_address_descriptor_8h.html", [
+      [ "TargetIPAddressDescriptor", "classts_1_1_target_i_p_address_descriptor.html", "classts_1_1_target_i_p_address_descriptor" ]
+    ] ],
+    [ "tsTargetIPSlashDescriptor.h", "ts_target_i_p_slash_descriptor_8h.html", [
+      [ "Address", "classts_1_1_target_i_p_slash_descriptor_1_1_address.html", "classts_1_1_target_i_p_slash_descriptor_1_1_address" ],
+      [ "TargetIPSlashDescriptor", "classts_1_1_target_i_p_slash_descriptor.html", "classts_1_1_target_i_p_slash_descriptor" ]
+    ] ],
     [ "tsTCPConnection.h", "ts_t_c_p_connection_8h.html", "ts_t_c_p_connection_8h" ],
     [ "tsTCPServer.h", "ts_t_c_p_server_8h.html", [
       [ "TCPServer", "classts_1_1_t_c_p_server.html", "classts_1_1_t_c_p_server" ]

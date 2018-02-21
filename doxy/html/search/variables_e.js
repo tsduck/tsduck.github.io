@@ -16,7 +16,7 @@ var searchData=
   ['negate_5ftid',['negate_tid',['../classts_1_1_tables_logger_args.html#a508f82dd465a15a62ffd953ee38d0952',1,'ts::TablesLoggerArgs']]],
   ['negate_5ftidext',['negate_tidext',['../classts_1_1_tables_logger_args.html#a6a5c3786f0674e1504686eb47110cb2f',1,'ts::TablesLoggerArgs']]],
   ['negative_5facknowledge',['NEGATIVE_ACKNOWLEDGE',['../namespacets.html#a5288b190c6f9382069221789f9ffc561',1,'ts']]],
-  ['network_5fid',['network_id',['../classts_1_1_linkage_descriptor_1_1_mobile_handover_info.html#a2a88133c1bfa9ad1fe4af4516e6cb812',1,'ts::LinkageDescriptor::MobileHandoverInfo::network_id()'],['../classts_1_1_n_i_t.html#a3f989999f8a93dff64dfe38bf1156162',1,'ts::NIT::network_id()']]],
+  ['network_5fid',['network_id',['../classts_1_1_i_p_m_a_c_stream_location_descriptor.html#ad98f6e487cf09ccf8b95f92a3c174d65',1,'ts::IPMACStreamLocationDescriptor::network_id()'],['../classts_1_1_linkage_descriptor_1_1_mobile_handover_info.html#a2a88133c1bfa9ad1fe4af4516e6cb812',1,'ts::LinkageDescriptor::MobileHandoverInfo::network_id()'],['../classts_1_1_n_i_t.html#a3f989999f8a93dff64dfe38bf1156162',1,'ts::NIT::network_id()']]],
   ['new_5finput',['new_input',['../classts_1_1_plugin_shared_library.html#a25b373923d6e07b7790943b12f5d0b90',1,'ts::PluginSharedLibrary']]],
   ['new_5foutput',['new_output',['../classts_1_1_plugin_shared_library.html#aff8cdbe5abb6bd4e46ba6119b2db23bc',1,'ts::PluginSharedLibrary']]],
   ['new_5fprocessor',['new_processor',['../classts_1_1_plugin_shared_library.html#a915c2457bfec0b24717afa75f528d3ba',1,'ts::PluginSharedLibrary']]],

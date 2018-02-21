@@ -1,5 +1,6 @@
 var classts_1_1_abstract_table =
 [
+    [ "EntryBase", "classts_1_1_abstract_table_1_1_entry_base.html", null ],
     [ "EntryWithDescriptors", "classts_1_1_abstract_table_1_1_entry_with_descriptors.html", "classts_1_1_abstract_table_1_1_entry_with_descriptors" ],
     [ "EntryWithDescriptorsList", "classts_1_1_abstract_table_1_1_entry_with_descriptors_list.html", "classts_1_1_abstract_table_1_1_entry_with_descriptors_list" ],
     [ "EntryWithDescriptorsMap", "classts_1_1_abstract_table_1_1_entry_with_descriptors_map.html", "classts_1_1_abstract_table_1_1_entry_with_descriptors_map" ],
