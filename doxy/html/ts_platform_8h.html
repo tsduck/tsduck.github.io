@@ -37,7 +37,7 @@
  <tr style="height: 56px;">
   <td id="projectlogo"><img src="tsduck-32.png"/></td>
    <td id="projectalign"><span id="projectname">TSDuck</span>
-    <span id="projectnumber">Version 3.9-557</span>
+    <span id="projectnumber">Version 3.9-574</span>
     <span id="projectbrief">(TSDuck - The MPEG Transport Stream Toolkit)</span>
    </td>
    <td>        <div id="MSearchBox" class="MSearchBoxInactive">
@@ -562,6 +562,18 @@ Functions</h2></td></tr>
 <tr class="memitem:a6cf8f9871997cc975ebef0046b81e31a"><td class="memItemLeft" align="right" valign="top">uint64_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacets.html#a6cf8f9871997cc975ebef0046b81e31a">ts::GetUInt40LE</a> (const void *p)</td></tr>
 <tr class="memdesc:a6cf8f9871997cc975ebef0046b81e31a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Inlined function getting a 40-bit unsigned integer from serialized data in little endian representation.  <a href="namespacets.html#a6cf8f9871997cc975ebef0046b81e31a">More...</a><br /></td></tr>
 <tr class="separator:a6cf8f9871997cc975ebef0046b81e31a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a978bfc418d3bd84f6db5b70386e2e46c"><td class="memItemLeft" align="right" valign="top">uint64_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacets.html#a978bfc418d3bd84f6db5b70386e2e46c">ts::GetUInt48</a> (const void *p)</td></tr>
+<tr class="memdesc:a978bfc418d3bd84f6db5b70386e2e46c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Inlined function getting a 48-bit unsigned integer from serialized data in big endian representation.  <a href="namespacets.html#a978bfc418d3bd84f6db5b70386e2e46c">More...</a><br /></td></tr>
+<tr class="separator:a978bfc418d3bd84f6db5b70386e2e46c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aeeee8dc5e5258d8f9c8acedb16778962"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacets.html#aeeee8dc5e5258d8f9c8acedb16778962">ts::GetUInt48</a> (const void *p, uint64_t &amp;i)</td></tr>
+<tr class="memdesc:aeeee8dc5e5258d8f9c8acedb16778962"><td class="mdescLeft">&#160;</td><td class="mdescRight">Inlined function getting a 48-bit unsigned integer from serialized data in big endian representation.  <a href="namespacets.html#aeeee8dc5e5258d8f9c8acedb16778962">More...</a><br /></td></tr>
+<tr class="separator:aeeee8dc5e5258d8f9c8acedb16778962"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a241d6c3b8e8b996e9c64ccab3f8d6a41"><td class="memItemLeft" align="right" valign="top">uint64_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacets.html#a241d6c3b8e8b996e9c64ccab3f8d6a41">ts::GetUInt48BE</a> (const void *p)</td></tr>
+<tr class="memdesc:a241d6c3b8e8b996e9c64ccab3f8d6a41"><td class="mdescLeft">&#160;</td><td class="mdescRight">Inlined function getting a 48-bit unsigned integer from serialized data in big endian representation.  <a href="namespacets.html#a241d6c3b8e8b996e9c64ccab3f8d6a41">More...</a><br /></td></tr>
+<tr class="separator:a241d6c3b8e8b996e9c64ccab3f8d6a41"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a878e700ac3dfe644d61af0eeaf604285"><td class="memItemLeft" align="right" valign="top">uint64_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacets.html#a878e700ac3dfe644d61af0eeaf604285">ts::GetUInt48LE</a> (const void *p)</td></tr>
+<tr class="memdesc:a878e700ac3dfe644d61af0eeaf604285"><td class="mdescLeft">&#160;</td><td class="mdescRight">Inlined function getting a 48-bit unsigned integer from serialized data in little endian representation.  <a href="namespacets.html#a878e700ac3dfe644d61af0eeaf604285">More...</a><br /></td></tr>
+<tr class="separator:a878e700ac3dfe644d61af0eeaf604285"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a34d8f836756fd5acb9ec38c0732fb15b"><td class="memItemLeft" align="right" valign="top">uint64_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacets.html#a34d8f836756fd5acb9ec38c0732fb15b">ts::GetUInt64</a> (const void *p)</td></tr>
 <tr class="memdesc:a34d8f836756fd5acb9ec38c0732fb15b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Inlined function getting a 64-bit unsigned integer from serialized data in big endian representation.  <a href="namespacets.html#a34d8f836756fd5acb9ec38c0732fb15b">More...</a><br /></td></tr>
 <tr class="separator:a34d8f836756fd5acb9ec38c0732fb15b"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -671,6 +683,15 @@ void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="name
 <tr class="memitem:acecae3276848613afd48ca0e86fe0612"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacets.html#acecae3276848613afd48ca0e86fe0612">ts::PutUInt32LE</a> (void *p, uint32_t i)</td></tr>
 <tr class="memdesc:acecae3276848613afd48ca0e86fe0612"><td class="mdescLeft">&#160;</td><td class="mdescRight">Inlined function serializing a 32-bit unsigned integer data in little endian representation.  <a href="namespacets.html#acecae3276848613afd48ca0e86fe0612">More...</a><br /></td></tr>
 <tr class="separator:acecae3276848613afd48ca0e86fe0612"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a424495b0902bfcac6bafc936d92b45cb"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacets.html#a424495b0902bfcac6bafc936d92b45cb">ts::PutUInt48</a> (void *p, uint64_t i)</td></tr>
+<tr class="memdesc:a424495b0902bfcac6bafc936d92b45cb"><td class="mdescLeft">&#160;</td><td class="mdescRight">Inlined function serializing a 48-bit unsigned integer data in big endian representation.  <a href="namespacets.html#a424495b0902bfcac6bafc936d92b45cb">More...</a><br /></td></tr>
+<tr class="separator:a424495b0902bfcac6bafc936d92b45cb"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1fdd45571c5acc122d3ef73f24034f41"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacets.html#a1fdd45571c5acc122d3ef73f24034f41">ts::PutUInt48BE</a> (void *p, uint64_t i)</td></tr>
+<tr class="memdesc:a1fdd45571c5acc122d3ef73f24034f41"><td class="mdescLeft">&#160;</td><td class="mdescRight">Inlined function serializing a 48-bit unsigned integer data in big endian representation.  <a href="namespacets.html#a1fdd45571c5acc122d3ef73f24034f41">More...</a><br /></td></tr>
+<tr class="separator:a1fdd45571c5acc122d3ef73f24034f41"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad395ec77fe4445ba539b5f87821f2fb5"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacets.html#ad395ec77fe4445ba539b5f87821f2fb5">ts::PutUInt48LE</a> (void *p, uint64_t i)</td></tr>
+<tr class="memdesc:ad395ec77fe4445ba539b5f87821f2fb5"><td class="mdescLeft">&#160;</td><td class="mdescRight">Inlined function serializing a 48-bit unsigned integer data in little endian representation.  <a href="namespacets.html#ad395ec77fe4445ba539b5f87821f2fb5">More...</a><br /></td></tr>
+<tr class="separator:ad395ec77fe4445ba539b5f87821f2fb5"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a8d78a8326b8a5742aeec60b9f625149f"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacets.html#a8d78a8326b8a5742aeec60b9f625149f">ts::PutUInt64</a> (void *p, uint64_t i)</td></tr>
 <tr class="memdesc:a8d78a8326b8a5742aeec60b9f625149f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Inlined function serializing a 64-bit unsigned integer data in big endian representation.  <a href="namespacets.html#a8d78a8326b8a5742aeec60b9f625149f">More...</a><br /></td></tr>
 <tr class="separator:a8d78a8326b8a5742aeec60b9f625149f"><td class="memSeparator" colspan="2">&#160;</td></tr>

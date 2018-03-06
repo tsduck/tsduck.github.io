@@ -17,6 +17,7 @@ var classts_1_1_t_s_analyzer =
     [ "setBitrateHint", "classts_1_1_t_s_analyzer.html#a3b1102a46567bab7f90c471d77a3758a", null ],
     [ "setMinErrorCountBeforeSuspect", "classts_1_1_t_s_analyzer.html#abe7dc7bbef6d61882e97f17d68ea8659", null ],
     [ "setMaxConsecutiveSuspectCount", "classts_1_1_t_s_analyzer.html#a9425283e7f251694c335564684f1a886", null ],
+    [ "setDefaultCharacterSet", "classts_1_1_t_s_analyzer.html#a34fbfb824d8e4dbaf5acb057be8e33dd", null ],
     [ "getServiceIds", "classts_1_1_t_s_analyzer.html#a8750c947e22d210616e055cde3fdcb54", null ],
     [ "getPIDs", "classts_1_1_t_s_analyzer.html#a2e24deb78607bfc7f81e7552808e9481", null ],
     [ "getGlobalPIDs", "classts_1_1_t_s_analyzer.html#adf00a02faa5c97294ef764ee59fc56fe", null ],

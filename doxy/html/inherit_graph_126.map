@@ -1,6 +1,3 @@
 <map id="Graphical Class Hierarchy" name="Graphical Class Hierarchy">
-<area shape="rect" id="node1" href="$classts_1_1_packetizer.html" title="Packetization of MPEG sections into Transport Stream packets. " alt="" coords="47,5,149,31"/>
-<area shape="rect" id="node2" href="$classts_1_1_cycling_packetizer.html" title="Cyclic packetization of MPEG sections into Transport Stream packets. " alt="" coords="238,31,384,56"/>
-<area shape="rect" id="node3" href="$classts_1_1_one_shot_packetizer.html" title="Packetization of MPEG sections into Transport Stream packets in one shot. " alt="" coords="432,31,586,56"/>
-<area shape="rect" id="node4" href="$classts_1_1_section_provider_interface.html" title="Abstract interface for classes which provides MPEG Section into a Packetizer. " alt="" coords="5,55,190,80"/>
+<area shape="rect" id="node1" href="$structts_1_1_section_demux_1_1_status.html" title="Demux status information. " alt="" coords="5,5,176,31"/>
 </map>

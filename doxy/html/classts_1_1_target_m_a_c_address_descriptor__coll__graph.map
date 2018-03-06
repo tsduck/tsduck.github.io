@@ -1,0 +1,5 @@
+<map id="ts::TargetMACAddressDescriptor" name="ts::TargetMACAddressDescriptor">
+<area shape="rect" id="node2" href="$classts_1_1_abstract_descriptor.html" title="Abstract base class for MPEG PSI/SI descriptors. " alt="" coords="13,80,162,105"/>
+<area shape="rect" id="node3" href="$classts_1_1_abstract_signalization.html" title="Abstract base class for MPEG PSI/SI tables and descriptors. " alt="" coords="5,5,169,31"/>
+<area shape="rect" id="node4" href="$classts_1_1_m_a_c_address.html" title="A basic representation of a MAC address. " alt="" coords="186,80,303,105"/>
+</map>

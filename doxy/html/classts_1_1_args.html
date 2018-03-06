@@ -37,7 +37,7 @@
  <tr style="height: 56px;">
   <td id="projectlogo"><img src="tsduck-32.png"/></td>
    <td id="projectalign"><span id="projectname">TSDuck</span>
-    <span id="projectnumber">Version 3.9-557</span>
+    <span id="projectnumber">Version 3.9-574</span>
     <span id="projectbrief">(TSDuck - The MPEG Transport Stream Toolkit)</span>
    </td>
    <td>        <div id="MSearchBox" class="MSearchBoxInactive">
@@ -178,7 +178,9 @@ Public Types</h2></td></tr>
 <br />
 &#160;&#160;<a class="el" href="classts_1_1_args.html#ad058870b5bd65a722375d9c5246d7269a6fd474d520a08103b889f8aca4081034">NO_EXIT_ON_VERSION</a> = 0x0008, 
 <br />
-&#160;&#160;<a class="el" href="classts_1_1_args.html#ad058870b5bd65a722375d9c5246d7269af17b648ecce3ba0b259adbd99ee5d780">GATHER_PARAMETERS</a> = 0x0010
+&#160;&#160;<a class="el" href="classts_1_1_args.html#ad058870b5bd65a722375d9c5246d7269af17b648ecce3ba0b259adbd99ee5d780">GATHER_PARAMETERS</a> = 0x0010, 
+<br />
+&#160;&#160;<a class="el" href="classts_1_1_args.html#ad058870b5bd65a722375d9c5246d7269a325dfdbe40528c27646dbb909563451e">HELP_ON_THIS</a> = 0x0020
 <br />
  }</td></tr>
 <tr class="memdesc:ad058870b5bd65a722375d9c5246d7269"><td class="mdescLeft">&#160;</td><td class="mdescRight"><a class="el" href="classts_1_1_args.html" title="An encapsulation of command line syntax and analysis. ">Args</a> object flags, used in an or'ed mask.  <a href="classts_1_1_args.html#ad058870b5bd65a722375d9c5246d7269">More...</a><br /></td></tr>
@@ -189,12 +191,12 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a6cdc61d1b63c469787e78f69db05c4c8"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classts_1_1_args.html#a6cdc61d1b63c469787e78f69db05c4c8">Args</a> (const <a class="el" href="classts_1_1_u_string.html">UString</a> &amp;description=<a class="el" href="classts_1_1_u_string.html">UString</a>(), const <a class="el" href="classts_1_1_u_string.html">UString</a> &amp;syntax=<a class="el" href="classts_1_1_u_string.html">UString</a>(), const <a class="el" href="classts_1_1_u_string.html">UString</a> &amp;help=<a class="el" href="classts_1_1_u_string.html">UString</a>(), int flags=0)</td></tr>
 <tr class="memdesc:a6cdc61d1b63c469787e78f69db05c4c8"><td class="mdescLeft">&#160;</td><td class="mdescRight">Constructor.  <a href="#a6cdc61d1b63c469787e78f69db05c4c8">More...</a><br /></td></tr>
 <tr class="separator:a6cdc61d1b63c469787e78f69db05c4c8"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a94a1a3624f78b4bbce3cb4b7ecd672f7"><td class="memItemLeft" align="right" valign="top">virtual bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classts_1_1_args.html#a94a1a3624f78b4bbce3cb4b7ecd672f7">analyze</a> (int argc, char *argv[])</td></tr>
-<tr class="memdesc:a94a1a3624f78b4bbce3cb4b7ecd672f7"><td class="mdescLeft">&#160;</td><td class="mdescRight">Load command arguments and analyze them.  <a href="#a94a1a3624f78b4bbce3cb4b7ecd672f7">More...</a><br /></td></tr>
-<tr class="separator:a94a1a3624f78b4bbce3cb4b7ecd672f7"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aa59446c56b5acb91d2aac603f95e7ebc"><td class="memItemLeft" align="right" valign="top">virtual bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classts_1_1_args.html#aa59446c56b5acb91d2aac603f95e7ebc">analyze</a> (const <a class="el" href="classts_1_1_u_string.html">UString</a> &amp;app_name, const <a class="el" href="namespacets.html#a843f23808732fa4bb32ddd18e3dabf53">UStringVector</a> &amp;arguments)</td></tr>
-<tr class="memdesc:aa59446c56b5acb91d2aac603f95e7ebc"><td class="mdescLeft">&#160;</td><td class="mdescRight">Load command arguments and analyze them.  <a href="#aa59446c56b5acb91d2aac603f95e7ebc">More...</a><br /></td></tr>
-<tr class="separator:aa59446c56b5acb91d2aac603f95e7ebc"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a867831e990f82db4d343723c9c152105"><td class="memItemLeft" align="right" valign="top">virtual bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classts_1_1_args.html#a867831e990f82db4d343723c9c152105">analyze</a> (int argc, char *argv[], bool processRedirections=true)</td></tr>
+<tr class="memdesc:a867831e990f82db4d343723c9c152105"><td class="mdescLeft">&#160;</td><td class="mdescRight">Load command arguments and analyze them.  <a href="#a867831e990f82db4d343723c9c152105">More...</a><br /></td></tr>
+<tr class="separator:a867831e990f82db4d343723c9c152105"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a27ed4af683e92d7062c5516a37a4b652"><td class="memItemLeft" align="right" valign="top">virtual bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classts_1_1_args.html#a27ed4af683e92d7062c5516a37a4b652">analyze</a> (const <a class="el" href="classts_1_1_u_string.html">UString</a> &amp;app_name, const <a class="el" href="namespacets.html#a843f23808732fa4bb32ddd18e3dabf53">UStringVector</a> &amp;arguments, bool processRedirections=true)</td></tr>
+<tr class="memdesc:a27ed4af683e92d7062c5516a37a4b652"><td class="mdescLeft">&#160;</td><td class="mdescRight">Load command arguments and analyze them.  <a href="#a27ed4af683e92d7062c5516a37a4b652">More...</a><br /></td></tr>
+<tr class="separator:a27ed4af683e92d7062c5516a37a4b652"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ac99d9d9f8266587ba46e6110a7bc1651"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classts_1_1_u_string.html">UString</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classts_1_1_args.html#ac99d9d9f8266587ba46e6110a7bc1651">appName</a> () const</td></tr>
 <tr class="memdesc:ac99d9d9f8266587ba46e6110a7bc1651"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the application name from the last command line analysis.  <a href="#ac99d9d9f8266587ba46e6110a7bc1651">More...</a><br /></td></tr>
 <tr class="separator:ac99d9d9f8266587ba46e6110a7bc1651"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -276,6 +278,9 @@ void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="clas
 <tr class="memitem:a53139d1429ecc7fd32e89965b0f36a95"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classts_1_1_args.html#a53139d1429ecc7fd32e89965b0f36a95">present</a> (const <a class="el" href="namespacets.html#a7e3244e77fae7815254d87d2ebdb7bd0">UChar</a> *name=0) const</td></tr>
 <tr class="memdesc:a53139d1429ecc7fd32e89965b0f36a95"><td class="mdescLeft">&#160;</td><td class="mdescRight">Check if an option is present in the last analyzed command line.  <a href="#a53139d1429ecc7fd32e89965b0f36a95">More...</a><br /></td></tr>
 <tr class="separator:a53139d1429ecc7fd32e89965b0f36a95"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac14c6e75a3780de78f6503a3ccd64bc2"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classts_1_1_args.html#ac14c6e75a3780de78f6503a3ccd64bc2">processArgsRedirection</a> (<a class="el" href="namespacets.html#a843f23808732fa4bb32ddd18e3dabf53">UStringVector</a> &amp;args)</td></tr>
+<tr class="memdesc:ac14c6e75a3780de78f6503a3ccd64bc2"><td class="mdescLeft">&#160;</td><td class="mdescRight">Process argument redirection using <code>'@'</code> on a vector of strings.  <a href="#ac14c6e75a3780de78f6503a3ccd64bc2">More...</a><br /></td></tr>
+<tr class="separator:ac14c6e75a3780de78f6503a3ccd64bc2"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a230f5038c79a2193813255cb4f24e381"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classts_1_1_args.html#a230f5038c79a2193813255cb4f24e381">raiseMaxSeverity</a> (int level) override</td></tr>
 <tr class="memdesc:a230f5038c79a2193813255cb4f24e381"><td class="mdescLeft">&#160;</td><td class="mdescRight">Raise maximum severity level.  <a href="#a230f5038c79a2193813255cb4f24e381">More...</a><br /></td></tr>
 <tr class="separator:a230f5038c79a2193813255cb4f24e381"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -456,10 +461,10 @@ volatile int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" hr
 <p>There are several types of error situations:</p>
 <ul>
 <li>Internal coding errors: These errors are internal inconsistencies of the application. Examples include declaring an option with an integer value in the range 1..0 (min &gt; max) or fetching the state of option "foo" when no such option has been declared in the syntax of the command. These errors are bugs in the application and are reported with severity <a class="el" href="structts_1_1_severity.html#a69c5602f643bc6626deac73466fbb962">ts::Severity::Fatal</a>. If the declared log does not terminate the application on fatal errors, a default "void" processing is then applied, depending on the situation.</li>
-<li>Command line errors: They are user errors, when the user enters an incorrect command. These errors are reported with severity <a class="el" href="structts_1_1_severity.html#a0e65373fc497af0ecace53cdcc6380e2">ts::Severity::Error</a>. In the various analyze() methods, after the command line is completely analyzed and all command line errors reported, the application is terminated.</li>
+<li>Command line errors: They are user errors, when the user enters an incorrect command. These errors are reported with severity <a class="el" href="structts_1_1_severity.html#a0e65373fc497af0ecace53cdcc6380e2">ts::Severity::Error</a>. In the various <a class="el" href="classts_1_1_args.html#a867831e990f82db4d343723c9c152105" title="Load command arguments and analyze them. ">analyze()</a> methods, after the command line is completely analyzed and all command line errors reported, the application is terminated.</li>
 <li>Predefined help or version options: This is triggered when the user enters the <code>--help</code> or <code>--version</code> option. This is not really an error but the command is not usable. In this case, the help text is displayed and the command is terminated.</li>
 </ul>
-<p>When the flag <a class="el" href="classts_1_1_args.html#ad058870b5bd65a722375d9c5246d7269a9bfa98169a9267848c1e8a098c640f8e">NO_EXIT_ON_ERROR</a> is specified, command line errors and predefined help or version options do not terminate the application. Instead, the analyze() method returns <code>false</code>.</p>
+<p>When the flag <a class="el" href="classts_1_1_args.html#ad058870b5bd65a722375d9c5246d7269a9bfa98169a9267848c1e8a098c640f8e">NO_EXIT_ON_ERROR</a> is specified, command line errors and predefined help or version options do not terminate the application. Instead, the <a class="el" href="classts_1_1_args.html#a867831e990f82db4d343723c9c152105" title="Load command arguments and analyze them. ">analyze()</a> method returns <code>false</code>.</p>
 <p>By default, error messages on the standard error device and terminates the application on fatal errors. Any user-defined subclass of <a class="el" href="classts_1_1_report.html" title="Abstract interface for event reporting and monitoring. ">ts::Report</a> can be used to report errors. See the method <a class="el" href="classts_1_1_args.html#a028ed345d0a9dc9ea9c1c0b57ec426be" title="Redirect report logging. ">redirectReport()</a>. To drop all messages, simply use an instance of <a class="el" href="classts_1_1_null_report.html" title="A singleton implementing Report which drops all messages. ">ts::NullReport</a>, typically <a class="el" href="ts_null_report_8h.html#adeec374ad4628a07d93c1a0eb848ee00">NULLREP</a>.</p>
 <h3>Sample code</h3>
 <p>The following sample application, a "super file merger" illustrates a typical usage of the <a class="el" href="classts_1_1_args.html" title="An encapsulation of command line syntax and analysis. ">Args</a> class.</p>
@@ -490,6 +495,8 @@ volatile int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" hr
 </td></tr>
 <tr><td class="fieldname"><a id="ad058870b5bd65a722375d9c5246d7269af17b648ecce3ba0b259adbd99ee5d780"></a>GATHER_PARAMETERS&#160;</td><td class="fielddoc"><p>Specifies that all options must be placed before the parameters. </p>
 <p>Once the first parameter is found, all subsequent elements on the command line are considered as parameters, even if they start with '-' or '--'. </p>
+</td></tr>
+<tr><td class="fieldname"><a id="ad058870b5bd65a722375d9c5246d7269a325dfdbe40528c27646dbb909563451e"></a>HELP_ON_THIS&#160;</td><td class="fielddoc"><p>Display help using <a class="el" href="classts_1_1_report.html#aed3d8a5d828f6771bd65951566e1e1cb" title="Report an informational message. ">info()</a> on this object, not standard error. </p>
 </td></tr>
 </table>
 
@@ -1083,8 +1090,8 @@ volatile int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" hr
 
 </div>
 </div>
-<a id="a94a1a3624f78b4bbce3cb4b7ecd672f7"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a94a1a3624f78b4bbce3cb4b7ecd672f7">&#9670;&nbsp;</a></span>analyze() <span class="overload">[1/2]</span></h2>
+<a id="a867831e990f82db4d343723c9c152105"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a867831e990f82db4d343723c9c152105">&#9670;&nbsp;</a></span>analyze() <span class="overload">[1/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -1102,7 +1109,13 @@ volatile int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" hr
           <td class="paramkey"></td>
           <td></td>
           <td class="paramtype">char *&#160;</td>
-          <td class="paramname"><em>argv</em>[]&#160;</td>
+          <td class="paramname"><em>argv</em>[], </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">bool&#160;</td>
+          <td class="paramname"><em>processRedirections</em> = <code>true</code>&#160;</td>
         </tr>
         <tr>
           <td></td>
@@ -1123,17 +1136,18 @@ volatile int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" hr
   <table class="params">
     <tr><td class="paramdir">[in]</td><td class="paramname">argc</td><td>Number of arguments from command line. </td></tr>
     <tr><td class="paramdir">[in]</td><td class="paramname">argv</td><td>Arguments from command line. The application name is in argv[0]. The subsequent elements contain the arguments. </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">processRedirections</td><td>If true (the default), process command line arguments redirection. All lines with the form <code>'@filename'</code> are replaced by the content of <em>filename</em>. </td></tr>
   </table>
   </dd>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>By default, always return true or the application is automatically terminated in case of error. If some flags prevent the termination of the application, return <code>true</code> if the command is correct, <code>false</code> if the command is incorrect or <code>--help</code> or <code>--version</code> is specified. </dd></dl>
 
-<p>Reimplemented in <a class="el" href="classts_1_1_t_s_analyzer_options.html#acf9e657d3b70489a923e0031fa6145f8">ts::TSAnalyzerOptions</a>.</p>
+<p>Reimplemented in <a class="el" href="classts_1_1_t_s_analyzer_options.html#ac477fdbf86727156c2de59dd94517dfe">ts::TSAnalyzerOptions</a>.</p>
 
 </div>
 </div>
-<a id="aa59446c56b5acb91d2aac603f95e7ebc"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aa59446c56b5acb91d2aac603f95e7ebc">&#9670;&nbsp;</a></span>analyze() <span class="overload">[2/2]</span></h2>
+<a id="a27ed4af683e92d7062c5516a37a4b652"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a27ed4af683e92d7062c5516a37a4b652">&#9670;&nbsp;</a></span>analyze() <span class="overload">[2/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -1151,7 +1165,13 @@ volatile int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" hr
           <td class="paramkey"></td>
           <td></td>
           <td class="paramtype">const <a class="el" href="namespacets.html#a843f23808732fa4bb32ddd18e3dabf53">UStringVector</a> &amp;&#160;</td>
-          <td class="paramname"><em>arguments</em>&#160;</td>
+          <td class="paramname"><em>arguments</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">bool&#160;</td>
+          <td class="paramname"><em>processRedirections</em> = <code>true</code>&#160;</td>
         </tr>
         <tr>
           <td></td>
@@ -1172,12 +1192,13 @@ volatile int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" hr
   <table class="params">
     <tr><td class="paramdir">[in]</td><td class="paramname">app_name</td><td>Application name. </td></tr>
     <tr><td class="paramdir">[in]</td><td class="paramname">arguments</td><td>Arguments from command line. </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">processRedirections</td><td>If true (the default), process command line arguments redirection. All lines with the form <code>'@filename'</code> are replaced by the content of <em>filename</em>. </td></tr>
   </table>
   </dd>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>By default, always return true or the application is automatically terminated in case of error. If some flags prevent the termination of the application, return <code>true</code> if the command is correct, <code>false</code> if the command is incorrect or <code>--help</code> or <code>--version</code> is specified. </dd></dl>
 
-<p>Reimplemented in <a class="el" href="classts_1_1_t_s_analyzer_options.html#a24f17b99c69eb5015995b734c6e91d12">ts::TSAnalyzerOptions</a>.</p>
+<p>Reimplemented in <a class="el" href="classts_1_1_t_s_analyzer_options.html#a28596736cdd213afb9632ec2362a3449">ts::TSAnalyzerOptions</a>.</p>
 
 </div>
 </div>
@@ -1205,7 +1226,7 @@ volatile int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" hr
 </div><div class="memdoc">
 
 <p>Check if options were correct during the last command line analysis. </p>
-<dl class="section return"><dt>Returns</dt><dd>True if the last analyze() completed successfully. </dd></dl>
+<dl class="section return"><dt>Returns</dt><dd>True if the last <a class="el" href="classts_1_1_args.html#a867831e990f82db4d343723c9c152105" title="Load command arguments and analyze them. ">analyze()</a> completed successfully. </dd></dl>
 
 </div>
 </div>
@@ -1509,7 +1530,7 @@ template&lt;typename INT , typename std::enable_if&lt; std::is_integral&lt; INT 
 </div><div class="memdoc">
 
 <p>Get the value of an integer option in the last analyzed command line. </p>
-<p>If the option has been declared with an integer type in the syntax of the command, the validity of the supplied option value has been checked by the analyze() method. If analyze() did not fail, the option value is guaranteed to be in the declared range.</p>
+<p>If the option has been declared with an integer type in the syntax of the command, the validity of the supplied option value has been checked by the <a class="el" href="classts_1_1_args.html#a867831e990f82db4d343723c9c152105" title="Load command arguments and analyze them. ">analyze()</a> method. If <a class="el" href="classts_1_1_args.html#a867831e990f82db4d343723c9c152105" title="Load command arguments and analyze them. ">analyze()</a> did not fail, the option value is guaranteed to be in the declared range.</p>
 <dl class="tparams"><dt>Template Parameters</dt><dd>
   <table class="tparams">
     <tr><td class="paramname"><a class="el" href="classts_1_1_i_n_t.html" title="Representation of an IP/MAC Notification Table (INT). ">INT</a></td><td>An integer type for the result. </td></tr>
@@ -1958,6 +1979,33 @@ template&lt;typename ENUM &gt; </div>
 </dl>
 
 <p>Reimplemented from <a class="el" href="classts_1_1_report.html#a0ff43e1ddaf2f3e7f81a64e8434af8f9">ts::Report</a>.</p>
+
+</div>
+</div>
+<a id="ac14c6e75a3780de78f6503a3ccd64bc2"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac14c6e75a3780de78f6503a3ccd64bc2">&#9670;&nbsp;</a></span>processArgsRedirection()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool ts::Args::processArgsRedirection </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="namespacets.html#a843f23808732fa4bb32ddd18e3dabf53">UStringVector</a> &amp;&#160;</td>
+          <td class="paramname"><em>args</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Process argument redirection using <code>'@'</code> on a vector of strings. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in,out]</td><td class="paramname">args</td><td>A vector of strings. All lines of the form <code>'@filename'</code> are replaced by the content of the given file. A double <code>'@@'</code> at the beginning of a line is replaced by a single <code>'@'</code> without reading a file. </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>True on success, false on error (non existent file for instance). Errors are reported though this object. </dd></dl>
 
 </div>
 </div>

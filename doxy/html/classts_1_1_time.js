@@ -15,12 +15,10 @@ var classts_1_1_time =
       [ "ALL", "classts_1_1_time.html#a14e379928d4f4e32907f854f9bcb11c4ab81d5e9f86dfe1d8fef9d0718c2ef7c6", null ]
     ] ],
     [ "Time", "classts_1_1_time.html#a95aab6187c4d46ccd8f62ef881944226", null ],
-    [ "Time", "classts_1_1_time.html#a468cbb10c0a8b76f3b9acef9e4216dfc", null ],
     [ "Time", "classts_1_1_time.html#a0587b952e1a9b2097863eaa1e767dda0", null ],
     [ "Time", "classts_1_1_time.html#ae18d7a3128ce8be5ac112aa003bb71f6", null ],
     [ "operator+", "classts_1_1_time.html#ac33defc87ba58c3512f60570fbf6ef97", null ],
     [ "operator-", "classts_1_1_time.html#a91c9e668c09bb792455911a7c9aa46e5", null ],
-    [ "operator=", "classts_1_1_time.html#ac9779b50d9f66f23385dd053767a051f", null ],
     [ "operator+=", "classts_1_1_time.html#ab975ea82321d25739f792387fb1987b9", null ],
     [ "operator-=", "classts_1_1_time.html#a0fb725ef1b06a0e97258bfbb70e3137e", null ],
     [ "operator-", "classts_1_1_time.html#adef07a74f986cb0824dcf8247a72c625", null ],

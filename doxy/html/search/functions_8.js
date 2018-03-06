@@ -92,7 +92,7 @@ var searchData=
   ['islower',['IsLower',['../namespacets.html#a3ba6f05ebd0ea8bcf5f553e8d5207d27',1,'ts']]],
   ['ismacos',['isMacOS',['../classts_1_1_sys_info.html#a356f867d021091b740c40aa4a7a46175',1,'ts::SysInfo']]],
   ['ismpeg2video',['isMPEG2Video',['../classts_1_1_p_e_s_packet.html#acf63b63b802d15f1d2a99504162956af',1,'ts::PESPacket']]],
-  ['ismulticast',['isMulticast',['../classts_1_1_i_p_address.html#a28c23bf6e13a1e6992acfc1b6a4bbc49',1,'ts::IPAddress']]],
+  ['ismulticast',['isMulticast',['../classts_1_1_i_p_address.html#a28c23bf6e13a1e6992acfc1b6a4bbc49',1,'ts::IPAddress::isMulticast()'],['../classts_1_1_m_a_c_address.html#ab7d46614087bb7eb3a14579d60df4ad2',1,'ts::MACAddress::isMulticast()']]],
   ['isnext',['isNext',['../classts_1_1_section.html#a5b2f037ef0fd2ff5dc0366a1b1de5702',1,'ts::Section']]],
   ['isnull',['isNull',['../classts_1_1json_1_1_value.html#a2aaabe2a8788a9589dd411e79a821abd',1,'ts::json::Value::isNull()'],['../classts_1_1json_1_1_null.html#af17a0c83c0475b30a956f15ea8390f1f',1,'ts::json::Null::isNull()'],['../classts_1_1_safe_ptr.html#a1a63c34b1854897d543548bd02a01950',1,'ts::SafePtr::isNull()'],['../classts_1_1_com_ptr.html#ab77b84823744759bf5d4b74ba9311bb0',1,'ts::ComPtr::isNull()']]],
   ['isnumber',['isNumber',['../classts_1_1json_1_1_value.html#ae79d7e8f39a9e25badb9dec2779a6563',1,'ts::json::Value::isNumber()'],['../classts_1_1json_1_1_number.html#ac5ffc5477ed46ca143d307ef77788adf',1,'ts::json::Number::isNumber()']]],

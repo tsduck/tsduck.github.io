@@ -1,5 +1,6 @@
 var searchData=
 [
+  ['macaddress',['MACAddress',['../classts_1_1_m_a_c_address.html#a8b5e61d98bade5b33570cba384a46688',1,'ts::MACAddress::MACAddress()'],['../classts_1_1_m_a_c_address.html#a232319eee431e570e3c3f9dde10fc520',1,'ts::MACAddress::MACAddress(uint64_t addr)'],['../classts_1_1_m_a_c_address.html#aca18052f28eb06e9252fc2dde359a95b',1,'ts::MACAddress::MACAddress(uint8_t b1, uint8_t b2, uint8_t b3, uint8_t b4, uint8_t b5, uint8_t b6)'],['../classts_1_1_m_a_c_address.html#a44b65a4fc628b3a89d2d559525076c27',1,'ts::MACAddress::MACAddress(const UString &amp;name, Report &amp;report=(*ts::CerrReport::Instance()))']]],
   ['macplist',['MacPList',['../classts_1_1_mac_p_list.html#a5a21c52aa6b03d06d76197e92f620516',1,'ts::MacPList']]],
   ['magazinenumber',['magazineNumber',['../structts_1_1_teletext_descriptor_1_1_entry.html#abbbbce1483db05bdaf7773e37a2573f0',1,'ts::TeletextDescriptor::Entry']]],
   ['main',['main',['../classts_1_1_thread.html#a9ee5bd4acae9b413edc711134ef34e76',1,'ts::Thread']]],

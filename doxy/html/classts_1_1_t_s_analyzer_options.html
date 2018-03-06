@@ -37,7 +37,7 @@
  <tr style="height: 56px;">
   <td id="projectlogo"><img src="tsduck-32.png"/></td>
    <td id="projectalign"><span id="projectname">TSDuck</span>
-    <span id="projectnumber">Version 3.9-557</span>
+    <span id="projectnumber">Version 3.9-574</span>
     <span id="projectbrief">(TSDuck - The MPEG Transport Stream Toolkit)</span>
    </td>
    <td>        <div id="MSearchBox" class="MSearchBoxInactive">
@@ -123,9 +123,10 @@ Collaboration diagram for ts::TSAnalyzerOptions:</div>
 <div class="dyncontent">
 <div class="center"><img src="classts_1_1_t_s_analyzer_options__coll__graph.png" border="0" usemap="#ts_1_1_t_s_analyzer_options_coll__map" alt="Collaboration graph"/></div>
 <map name="ts_1_1_t_s_analyzer_options_coll__map" id="ts_1_1_t_s_analyzer_options_coll__map">
-<area shape="rect" id="node2" href="classts_1_1_args.html" title="An encapsulation of command line syntax and analysis. " alt="" coords="16,87,82,113"/>
+<area shape="rect" id="node2" href="classts_1_1_args.html" title="An encapsulation of command line syntax and analysis. " alt="" coords="12,87,78,113"/>
 <area shape="rect" id="node3" href="classts_1_1_report.html" title="Abstract interface for event reporting and monitoring. " alt="" coords="5,5,84,31"/>
-<area shape="rect" id="node4" href="classts_1_1_u_string.html" title="An implementation of UTF&#45;16 strings. " alt="" coords="114,87,197,113"/>
+<area shape="rect" id="node4" href="classts_1_1_d_v_b_charset.html" title="Definition of a character set for DVB encoding. " alt="" coords="102,87,215,113"/>
+<area shape="rect" id="node5" href="classts_1_1_u_string.html" title="An implementation of UTF&#45;16 strings. " alt="" coords="242,87,325,113"/>
 </map>
 <center><span class="legend">[<a target="top" href="graph_legend.html">legend</a>]</span></center></div>
 <table class="memberdecls">
@@ -134,15 +135,21 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a24d4b6aa6071e9b2c2db62ac6ea202d9"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classts_1_1_t_s_analyzer_options.html#a24d4b6aa6071e9b2c2db62ac6ea202d9">TSAnalyzerOptions</a> (const <a class="el" href="classts_1_1_u_string.html">UString</a> &amp;description=<a class="el" href="classts_1_1_u_string.html">UString</a>(), const <a class="el" href="classts_1_1_u_string.html">UString</a> &amp;syntax=<a class="el" href="classts_1_1_u_string.html">UString</a>(), const <a class="el" href="classts_1_1_u_string.html">UString</a> &amp;help=<a class="el" href="classts_1_1_u_string.html">UString</a>(), int flags=0)</td></tr>
 <tr class="memdesc:a24d4b6aa6071e9b2c2db62ac6ea202d9"><td class="mdescLeft">&#160;</td><td class="mdescRight">Constructor.  <a href="#a24d4b6aa6071e9b2c2db62ac6ea202d9">More...</a><br /></td></tr>
 <tr class="separator:a24d4b6aa6071e9b2c2db62ac6ea202d9"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:acf9e657d3b70489a923e0031fa6145f8"><td class="memItemLeft" align="right" valign="top">virtual bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classts_1_1_t_s_analyzer_options.html#acf9e657d3b70489a923e0031fa6145f8">analyze</a> (int argc, char *argv[]) override</td></tr>
-<tr class="memdesc:acf9e657d3b70489a923e0031fa6145f8"><td class="mdescLeft">&#160;</td><td class="mdescRight">Load command arguments and analyze them.  <a href="#acf9e657d3b70489a923e0031fa6145f8">More...</a><br /></td></tr>
-<tr class="separator:acf9e657d3b70489a923e0031fa6145f8"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a24f17b99c69eb5015995b734c6e91d12"><td class="memItemLeft" align="right" valign="top">virtual bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classts_1_1_t_s_analyzer_options.html#a24f17b99c69eb5015995b734c6e91d12">analyze</a> (const <a class="el" href="classts_1_1_u_string.html">UString</a> &amp;app_name, const <a class="el" href="namespacets.html#a843f23808732fa4bb32ddd18e3dabf53">UStringVector</a> &amp;arguments) override</td></tr>
-<tr class="memdesc:a24f17b99c69eb5015995b734c6e91d12"><td class="mdescLeft">&#160;</td><td class="mdescRight">Load command arguments and analyze them.  <a href="#a24f17b99c69eb5015995b734c6e91d12">More...</a><br /></td></tr>
-<tr class="separator:a24f17b99c69eb5015995b734c6e91d12"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a44eb2c995e296d4a3d7dffbaf10d1717"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classts_1_1_t_s_analyzer_options.html#a44eb2c995e296d4a3d7dffbaf10d1717">getOptions</a> (const <a class="el" href="classts_1_1_args.html">Args</a> &amp;args)</td></tr>
-<tr class="memdesc:a44eb2c995e296d4a3d7dffbaf10d1717"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get option values (the public fields) after analysis of another <a class="el" href="classts_1_1_args.html" title="An encapsulation of command line syntax and analysis. ">ts::Args</a> object defining the same options.  <a href="#a44eb2c995e296d4a3d7dffbaf10d1717">More...</a><br /></td></tr>
-<tr class="separator:a44eb2c995e296d4a3d7dffbaf10d1717"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6e7f0e8d02189148746f8738c413e114"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classts_1_1_t_s_analyzer_options.html#a6e7f0e8d02189148746f8738c413e114">TSAnalyzerOptions</a> (const <a class="el" href="classts_1_1_t_s_analyzer_options.html">TSAnalyzerOptions</a> &amp;other)=default</td></tr>
+<tr class="memdesc:a6e7f0e8d02189148746f8738c413e114"><td class="mdescLeft">&#160;</td><td class="mdescRight">Copy constructor.  <a href="#a6e7f0e8d02189148746f8738c413e114">More...</a><br /></td></tr>
+<tr class="separator:a6e7f0e8d02189148746f8738c413e114"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac477fdbf86727156c2de59dd94517dfe"><td class="memItemLeft" align="right" valign="top">virtual bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classts_1_1_t_s_analyzer_options.html#ac477fdbf86727156c2de59dd94517dfe">analyze</a> (int argc, char *argv[], bool processRedirections=true) override</td></tr>
+<tr class="memdesc:ac477fdbf86727156c2de59dd94517dfe"><td class="mdescLeft">&#160;</td><td class="mdescRight">Load command arguments and analyze them.  <a href="#ac477fdbf86727156c2de59dd94517dfe">More...</a><br /></td></tr>
+<tr class="separator:ac477fdbf86727156c2de59dd94517dfe"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a28596736cdd213afb9632ec2362a3449"><td class="memItemLeft" align="right" valign="top">virtual bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classts_1_1_t_s_analyzer_options.html#a28596736cdd213afb9632ec2362a3449">analyze</a> (const <a class="el" href="classts_1_1_u_string.html">UString</a> &amp;app_name, const <a class="el" href="namespacets.html#a843f23808732fa4bb32ddd18e3dabf53">UStringVector</a> &amp;arguments, bool processRedirections=true) override</td></tr>
+<tr class="memdesc:a28596736cdd213afb9632ec2362a3449"><td class="mdescLeft">&#160;</td><td class="mdescRight">Load command arguments and analyze them.  <a href="#a28596736cdd213afb9632ec2362a3449">More...</a><br /></td></tr>
+<tr class="separator:a28596736cdd213afb9632ec2362a3449"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af32f9ad127d954ba95556da5ee44190e"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classts_1_1_t_s_analyzer_options.html#af32f9ad127d954ba95556da5ee44190e">getOptions</a> (<a class="el" href="classts_1_1_args.html">Args</a> &amp;args)</td></tr>
+<tr class="memdesc:af32f9ad127d954ba95556da5ee44190e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get option values (the public fields) after analysis of another <a class="el" href="classts_1_1_args.html" title="An encapsulation of command line syntax and analysis. ">ts::Args</a> object defining the same options.  <a href="#af32f9ad127d954ba95556da5ee44190e">More...</a><br /></td></tr>
+<tr class="separator:af32f9ad127d954ba95556da5ee44190e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a67e6bca5037412e18d3ec4d7cd4db094"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classts_1_1_t_s_analyzer_options.html">TSAnalyzerOptions</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classts_1_1_t_s_analyzer_options.html#a67e6bca5037412e18d3ec4d7cd4db094">operator=</a> (const <a class="el" href="classts_1_1_t_s_analyzer_options.html">TSAnalyzerOptions</a> &amp;other)=default</td></tr>
+<tr class="memdesc:a67e6bca5037412e18d3ec4d7cd4db094"><td class="mdescLeft">&#160;</td><td class="mdescRight">Assignment operator.  <a href="#a67e6bca5037412e18d3ec4d7cd4db094">More...</a><br /></td></tr>
+<tr class="separator:a67e6bca5037412e18d3ec4d7cd4db094"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a8db7198a1e2abf40cdd6cebdc24043e3"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classts_1_1_t_s_analyzer_options.html#a8db7198a1e2abf40cdd6cebdc24043e3">setHelp</a> (const <a class="el" href="classts_1_1_u_string.html">UString</a> &amp;help) override</td></tr>
 <tr class="memdesc:a8db7198a1e2abf40cdd6cebdc24043e3"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set the help description of the command.  <a href="#a8db7198a1e2abf40cdd6cebdc24043e3">More...</a><br /></td></tr>
 <tr class="separator:a8db7198a1e2abf40cdd6cebdc24043e3"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -231,6 +238,9 @@ void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="clas
 <tr class="memitem:a53139d1429ecc7fd32e89965b0f36a95 inherit pub_methods_classts_1_1_args"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classts_1_1_args.html#a53139d1429ecc7fd32e89965b0f36a95">present</a> (const <a class="el" href="namespacets.html#a7e3244e77fae7815254d87d2ebdb7bd0">UChar</a> *name=0) const</td></tr>
 <tr class="memdesc:a53139d1429ecc7fd32e89965b0f36a95 inherit pub_methods_classts_1_1_args"><td class="mdescLeft">&#160;</td><td class="mdescRight">Check if an option is present in the last analyzed command line.  <a href="classts_1_1_args.html#a53139d1429ecc7fd32e89965b0f36a95">More...</a><br /></td></tr>
 <tr class="separator:a53139d1429ecc7fd32e89965b0f36a95 inherit pub_methods_classts_1_1_args"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac14c6e75a3780de78f6503a3ccd64bc2 inherit pub_methods_classts_1_1_args"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classts_1_1_args.html#ac14c6e75a3780de78f6503a3ccd64bc2">processArgsRedirection</a> (<a class="el" href="namespacets.html#a843f23808732fa4bb32ddd18e3dabf53">UStringVector</a> &amp;args)</td></tr>
+<tr class="memdesc:ac14c6e75a3780de78f6503a3ccd64bc2 inherit pub_methods_classts_1_1_args"><td class="mdescLeft">&#160;</td><td class="mdescRight">Process argument redirection using <code>'@'</code> on a vector of strings.  <a href="classts_1_1_args.html#ac14c6e75a3780de78f6503a3ccd64bc2">More...</a><br /></td></tr>
+<tr class="separator:ac14c6e75a3780de78f6503a3ccd64bc2 inherit pub_methods_classts_1_1_args"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a230f5038c79a2193813255cb4f24e381 inherit pub_methods_classts_1_1_args"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classts_1_1_args.html#a230f5038c79a2193813255cb4f24e381">raiseMaxSeverity</a> (int level) override</td></tr>
 <tr class="memdesc:a230f5038c79a2193813255cb4f24e381 inherit pub_methods_classts_1_1_args"><td class="mdescLeft">&#160;</td><td class="mdescRight">Raise maximum severity level.  <a href="classts_1_1_args.html#a230f5038c79a2193813255cb4f24e381">More...</a><br /></td></tr>
 <tr class="separator:a230f5038c79a2193813255cb4f24e381 inherit pub_methods_classts_1_1_args"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -350,6 +360,10 @@ virtual&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="c
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-attribs"></a>
 Public Attributes</h2></td></tr>
+<tr class="memitem:ad6ecc05c3344cbada633c702699ba61e"><td class="memItemLeft" align="right" valign="top"><a id="ad6ecc05c3344cbada633c702699ba61e"></a>
+const <a class="el" href="classts_1_1_d_v_b_charset.html">DVBCharset</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classts_1_1_t_s_analyzer_options.html#ad6ecc05c3344cbada633c702699ba61e">default_charset</a></td></tr>
+<tr class="memdesc:ad6ecc05c3344cbada633c702699ba61e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Option --default-charset. <br /></td></tr>
+<tr class="separator:ad6ecc05c3344cbada633c702699ba61e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a3e3ac3e416ab92332c81b84d128475dc"><td class="memItemLeft" align="right" valign="top"><a id="a3e3ac3e416ab92332c81b84d128475dc"></a>
 bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classts_1_1_t_s_analyzer_options.html#a3e3ac3e416ab92332c81b84d128475dc">error_analysis</a></td></tr>
 <tr class="memdesc:a3e3ac3e416ab92332c81b84d128475dc"><td class="mdescLeft">&#160;</td><td class="mdescRight">Option --error-analysis. <br /></td></tr>
@@ -453,7 +467,9 @@ Additional Inherited Members</h2></td></tr>
 <br />
 &#160;&#160;<a class="el" href="classts_1_1_args.html#ad058870b5bd65a722375d9c5246d7269a6fd474d520a08103b889f8aca4081034">NO_EXIT_ON_VERSION</a> = 0x0008, 
 <br />
-&#160;&#160;<a class="el" href="classts_1_1_args.html#ad058870b5bd65a722375d9c5246d7269af17b648ecce3ba0b259adbd99ee5d780">GATHER_PARAMETERS</a> = 0x0010
+&#160;&#160;<a class="el" href="classts_1_1_args.html#ad058870b5bd65a722375d9c5246d7269af17b648ecce3ba0b259adbd99ee5d780">GATHER_PARAMETERS</a> = 0x0010, 
+<br />
+&#160;&#160;<a class="el" href="classts_1_1_args.html#ad058870b5bd65a722375d9c5246d7269a325dfdbe40528c27646dbb909563451e">HELP_ON_THIS</a> = 0x0020
 <br />
  }</td></tr>
 <tr class="memdesc:ad058870b5bd65a722375d9c5246d7269"><td class="mdescLeft">&#160;</td><td class="mdescRight"><a class="el" href="classts_1_1_args.html" title="An encapsulation of command line syntax and analysis. ">Args</a> object flags, used in an or'ed mask.  <a href="classts_1_1_args.html#ad058870b5bd65a722375d9c5246d7269">More...</a><br /></td></tr>
@@ -480,7 +496,7 @@ volatile int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" hr
 <p>The default options are --ts-analysis --service-analysis --pid-analysis --table-analysis </p>
 </div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a id="a24d4b6aa6071e9b2c2db62ac6ea202d9"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a24d4b6aa6071e9b2c2db62ac6ea202d9">&#9670;&nbsp;</a></span>TSAnalyzerOptions()</h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a24d4b6aa6071e9b2c2db62ac6ea202d9">&#9670;&nbsp;</a></span>TSAnalyzerOptions() <span class="overload">[1/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -530,7 +546,76 @@ volatile int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" hr
 
 </div>
 </div>
+<a id="a6e7f0e8d02189148746f8738c413e114"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6e7f0e8d02189148746f8738c413e114">&#9670;&nbsp;</a></span>TSAnalyzerOptions() <span class="overload">[2/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">ts::TSAnalyzerOptions::TSAnalyzerOptions </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="classts_1_1_t_s_analyzer_options.html">TSAnalyzerOptions</a> &amp;&#160;</td>
+          <td class="paramname"><em>other</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">default</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Copy constructor. </p>
+<p>Use default implementation, just tell the compiler we understand the consequences of copying a pointer member. </p><dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">other</td><td>The other instance to copy. </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
 <h2 class="groupheader">Member Function Documentation</h2>
+<a id="a67e6bca5037412e18d3ec4d7cd4db094"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a67e6bca5037412e18d3ec4d7cd4db094">&#9670;&nbsp;</a></span>operator=()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="classts_1_1_t_s_analyzer_options.html">TSAnalyzerOptions</a>&amp; ts::TSAnalyzerOptions::operator= </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="classts_1_1_t_s_analyzer_options.html">TSAnalyzerOptions</a> &amp;&#160;</td>
+          <td class="paramname"><em>other</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">default</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Assignment operator. </p>
+<p>Use default implementation, just tell the compiler we understand the consequences of copying a pointer member. </p><dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">other</td><td>The other instance to copy. </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>A reference to this object. </dd></dl>
+
+</div>
+</div>
 <a id="a8db7198a1e2abf40cdd6cebdc24043e3"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a8db7198a1e2abf40cdd6cebdc24043e3">&#9670;&nbsp;</a></span>setHelp()</h2>
 
@@ -567,8 +652,8 @@ volatile int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" hr
 
 </div>
 </div>
-<a id="acf9e657d3b70489a923e0031fa6145f8"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#acf9e657d3b70489a923e0031fa6145f8">&#9670;&nbsp;</a></span>analyze() <span class="overload">[1/2]</span></h2>
+<a id="ac477fdbf86727156c2de59dd94517dfe"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac477fdbf86727156c2de59dd94517dfe">&#9670;&nbsp;</a></span>analyze() <span class="overload">[1/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -586,7 +671,13 @@ volatile int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" hr
           <td class="paramkey"></td>
           <td></td>
           <td class="paramtype">char *&#160;</td>
-          <td class="paramname"><em>argv</em>[]&#160;</td>
+          <td class="paramname"><em>argv</em>[], </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">bool&#160;</td>
+          <td class="paramname"><em>processRedirections</em> = <code>true</code>&#160;</td>
         </tr>
         <tr>
           <td></td>
@@ -607,17 +698,18 @@ volatile int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" hr
   <table class="params">
     <tr><td class="paramdir">[in]</td><td class="paramname">argc</td><td>Number of arguments from command line. </td></tr>
     <tr><td class="paramdir">[in]</td><td class="paramname">argv</td><td>Arguments from command line. The application name is in argv[0]. The subsequent elements contain the arguments. </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">processRedirections</td><td>If true (the default), process command line arguments redirection. All lines with the form <code>'@filename'</code> are replaced by the content of <em>filename</em>. </td></tr>
   </table>
   </dd>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>By default, always return true or the application is automatically terminated in case of error. If some flags prevent the termination of the application, return <code>true</code> if the command is correct, <code>false</code> if the command is incorrect or <code>--help</code> or <code>--version</code> is specified. </dd></dl>
 
-<p>Reimplemented from <a class="el" href="classts_1_1_args.html#a94a1a3624f78b4bbce3cb4b7ecd672f7">ts::Args</a>.</p>
+<p>Reimplemented from <a class="el" href="classts_1_1_args.html#a867831e990f82db4d343723c9c152105">ts::Args</a>.</p>
 
 </div>
 </div>
-<a id="a24f17b99c69eb5015995b734c6e91d12"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a24f17b99c69eb5015995b734c6e91d12">&#9670;&nbsp;</a></span>analyze() <span class="overload">[2/2]</span></h2>
+<a id="a28596736cdd213afb9632ec2362a3449"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a28596736cdd213afb9632ec2362a3449">&#9670;&nbsp;</a></span>analyze() <span class="overload">[2/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -635,7 +727,13 @@ volatile int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" hr
           <td class="paramkey"></td>
           <td></td>
           <td class="paramtype">const <a class="el" href="namespacets.html#a843f23808732fa4bb32ddd18e3dabf53">UStringVector</a> &amp;&#160;</td>
-          <td class="paramname"><em>arguments</em>&#160;</td>
+          <td class="paramname"><em>arguments</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">bool&#160;</td>
+          <td class="paramname"><em>processRedirections</em> = <code>true</code>&#160;</td>
         </tr>
         <tr>
           <td></td>
@@ -656,17 +754,18 @@ volatile int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" hr
   <table class="params">
     <tr><td class="paramdir">[in]</td><td class="paramname">app_name</td><td>Application name. </td></tr>
     <tr><td class="paramdir">[in]</td><td class="paramname">arguments</td><td>Arguments from command line. </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">processRedirections</td><td>If true (the default), process command line arguments redirection. All lines with the form <code>'@filename'</code> are replaced by the content of <em>filename</em>. </td></tr>
   </table>
   </dd>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>By default, always return true or the application is automatically terminated in case of error. If some flags prevent the termination of the application, return <code>true</code> if the command is correct, <code>false</code> if the command is incorrect or <code>--help</code> or <code>--version</code> is specified. </dd></dl>
 
-<p>Reimplemented from <a class="el" href="classts_1_1_args.html#aa59446c56b5acb91d2aac603f95e7ebc">ts::Args</a>.</p>
+<p>Reimplemented from <a class="el" href="classts_1_1_args.html#a27ed4af683e92d7062c5516a37a4b652">ts::Args</a>.</p>
 
 </div>
 </div>
-<a id="a44eb2c995e296d4a3d7dffbaf10d1717"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a44eb2c995e296d4a3d7dffbaf10d1717">&#9670;&nbsp;</a></span>getOptions()</h2>
+<a id="af32f9ad127d954ba95556da5ee44190e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af32f9ad127d954ba95556da5ee44190e">&#9670;&nbsp;</a></span>getOptions()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -674,7 +773,7 @@ volatile int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" hr
         <tr>
           <td class="memname">void ts::TSAnalyzerOptions::getOptions </td>
           <td>(</td>
-          <td class="paramtype">const <a class="el" href="classts_1_1_args.html">Args</a> &amp;&#160;</td>
+          <td class="paramtype"><a class="el" href="classts_1_1_args.html">Args</a> &amp;&#160;</td>
           <td class="paramname"><em>args</em></td><td>)</td>
           <td></td>
         </tr>

@@ -23,7 +23,7 @@ var searchData=
   ['handleteletextmessage',['handleTeletextMessage',['../classts_1_1_teletext_handler_interface.html#ac519bcf1b38f0c678654f1117d5aee1a',1,'ts::TeletextHandlerInterface']]],
   ['handletspacket',['handleTSPacket',['../classts_1_1_t2_m_i_handler_interface.html#a55e368b3332dba67c873eb2b7b61ef0b',1,'ts::T2MIHandlerInterface']]],
   ['handlevideostartcode',['handleVideoStartCode',['../classts_1_1_p_e_s_handler_interface.html#a6bafbb234898caf6b10761a3c725d1cf',1,'ts::PESHandlerInterface']]],
-  ['hasaddress',['hasAddress',['../classts_1_1_i_p_address.html#a0a3991e70f7cf7fb31477c311d903a83',1,'ts::IPAddress']]],
+  ['hasaddress',['hasAddress',['../classts_1_1_i_p_address.html#a0a3991e70f7cf7fb31477c311d903a83',1,'ts::IPAddress::hasAddress()'],['../classts_1_1_m_a_c_address.html#a72e179ee80a9ad0bf248488a2f89504c',1,'ts::MACAddress::hasAddress()']]],
   ['hasaf',['hasAF',['../structts_1_1_t_s_packet.html#a031a030674f0ddd59434d92e381218df',1,'ts::TSPacket']]],
   ['hasattribute',['hasAttribute',['../classts_1_1xml_1_1_element.html#a9903badcb8390eda8ba16d13953361ca',1,'ts::xml::Element']]],
   ['hascacontrolled',['hasCAControlled',['../classts_1_1_service.html#aa522e906467c3ee07bb6eefc71ab9d45',1,'ts::Service::hasCAControlled() const'],['../classts_1_1_service.html#a7fac6ac4e676ea779eba90734077664b',1,'ts::Service::hasCAControlled(bool value) const']]],

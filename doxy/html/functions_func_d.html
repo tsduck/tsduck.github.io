@@ -37,7 +37,7 @@
  <tr style="height: 56px;">
   <td id="projectlogo"><img src="tsduck-32.png"/></td>
    <td id="projectalign"><span id="projectname">TSDuck</span>
-    <span id="projectnumber">Version 3.9-557</span>
+    <span id="projectnumber">Version 3.9-574</span>
     <span id="projectbrief">(TSDuck - The MPEG Transport Stream Toolkit)</span>
    </td>
    <td>        <div id="MSearchBox" class="MSearchBoxInactive">
@@ -224,6 +224,7 @@ $(document).ready(function(){initNavTree('functions_func_d.html','');});
 , <a class="el" href="classts_1_1_abstract_table.html#afb04e5884ab2d39edac84a8690e81426">ts::AbstractTable</a>
 , <a class="el" href="classts_1_1_abstract_transport_list_table.html#ac259093d6bdc56759c0b97432bd4efa7">ts::AbstractTransportListTable</a>
 , <a class="el" href="classts_1_1_a_c3_descriptor.html#a9446c8564f7aae8285b94662ddb171c5">ts::AC3Descriptor</a>
+, <a class="el" href="classts_1_1_a_i_t.html#a73ac6e957c15d1c6c7203b6a3d7b6178">ts::AIT</a>
 , <a class="el" href="classts_1_1_application_signalling_descriptor.html#ad89f5bc72554d40cd645603944b19364">ts::ApplicationSignallingDescriptor</a>
 , <a class="el" href="classts_1_1_application_usage_descriptor.html#a30ecd7a5c2a54f57b6667c7206c77d83">ts::ApplicationUsageDescriptor</a>
 , <a class="el" href="classts_1_1_a_v_c_video_descriptor.html#a01b6932f618c14804fcbab938c828c2a">ts::AVCVideoDescriptor</a>
@@ -282,6 +283,9 @@ $(document).ready(function(){initNavTree('functions_func_d.html','');});
 , <a class="el" href="classts_1_1_t2_m_i_descriptor.html#a9202e82196557bc2eb70da8ceafde068">ts::T2MIDescriptor</a>
 , <a class="el" href="classts_1_1_target_i_p_address_descriptor.html#ac08bba4321db946c80dcf5660f699e49">ts::TargetIPAddressDescriptor</a>
 , <a class="el" href="classts_1_1_target_i_p_slash_descriptor.html#a0ff8383597264b9babc6775f8df9ef42">ts::TargetIPSlashDescriptor</a>
+, <a class="el" href="classts_1_1_target_i_p_source_slash_descriptor.html#a24cc6e73896fec57665352731a7ed8b0">ts::TargetIPSourceSlashDescriptor</a>
+, <a class="el" href="classts_1_1_target_m_a_c_address_descriptor.html#a49f4b4961d6e05f3b1394e4fa8158c35">ts::TargetMACAddressDescriptor</a>
+, <a class="el" href="classts_1_1_target_m_a_c_address_range_descriptor.html#a72a70c5b58b62a51a9d9ba41a5f4b5fe">ts::TargetMACAddressRangeDescriptor</a>
 , <a class="el" href="classts_1_1_t_d_t.html#a11463931290ba68f4697bb6d8b57770b">ts::TDT</a>
 , <a class="el" href="classts_1_1_teletext_descriptor.html#ab5b9bbf6d276fa0e2e754d537cbf5970">ts::TeletextDescriptor</a>
 , <a class="el" href="classts_1_1_terrestrial_delivery_system_descriptor.html#acf770d26cce28e9aeb5ee0d3371c6bb7">ts::TerrestrialDeliverySystemDescriptor</a>
@@ -399,6 +403,9 @@ $(document).ready(function(){initNavTree('functions_func_d.html','');});
 <li>DisplayDescriptor()
 : <a class="el" href="classts_1_1_target_i_p_address_descriptor.html#aab16db2a8bc75d37543d93ba4afd026d">ts::TargetIPAddressDescriptor</a>
 , <a class="el" href="classts_1_1_target_i_p_slash_descriptor.html#a0f41ca7ec10ff12863692a79805ae0a2">ts::TargetIPSlashDescriptor</a>
+, <a class="el" href="classts_1_1_target_i_p_source_slash_descriptor.html#ab2bfbeb32703a5772006ab45af6411b9">ts::TargetIPSourceSlashDescriptor</a>
+, <a class="el" href="classts_1_1_target_m_a_c_address_descriptor.html#ac74cc44f7f7dbac9c30b280acc3415e3">ts::TargetMACAddressDescriptor</a>
+, <a class="el" href="classts_1_1_target_m_a_c_address_range_descriptor.html#a8d5f88daea2b95619ca5bb81ac3daed3">ts::TargetMACAddressRangeDescriptor</a>
 , <a class="el" href="classts_1_1_teletext_descriptor.html#ab1e77eef718f347f98cfa7cb3ffde1b4">ts::TeletextDescriptor</a>
 , <a class="el" href="classts_1_1_terrestrial_delivery_system_descriptor.html#ab8e554a34890d9d3682af9b891061707">ts::TerrestrialDeliverySystemDescriptor</a>
 , <a class="el" href="classts_1_1_time_shifted_event_descriptor.html#adef091793724aa66576c7aaf3170ac08">ts::TimeShiftedEventDescriptor</a>
@@ -438,6 +445,7 @@ $(document).ready(function(){initNavTree('functions_func_d.html','');});
 </li>
 <li>DisplaySection()
 : <a class="el" href="classts_1_1_abstract_descriptors_table.html#ad297345ec76f8f7099f9a475a294f6cc">ts::AbstractDescriptorsTable</a>
+, <a class="el" href="classts_1_1_a_i_t.html#a719039126662ba1344f91020298dc785">ts::AIT</a>
 , <a class="el" href="classts_1_1_b_a_t.html#a5d137fb531595ce09474a35c737ec2b5">ts::BAT</a>
 , <a class="el" href="classts_1_1_e_i_t.html#a061863954c2466af18ad8d0449e5a493">ts::EIT</a>
 , <a class="el" href="classts_1_1_i_n_t.html#a557e1d8e9390836fba8aa3ac06e52466">ts::INT</a>
@@ -483,7 +491,7 @@ $(document).ready(function(){initNavTree('functions_func_d.html','');});
 : <a class="el" href="classts_1_1xml_1_1_document.html#a2a492a7967468b77667d4a67112fcdde">ts::xml::Document</a>
 </li>
 <li>document()
-: <a class="el" href="classts_1_1xml_1_1_node.html#ae0a57c41ef0b34c6b030a420ae520d06">ts::xml::Node</a>
+: <a class="el" href="classts_1_1xml_1_1_node.html#a56981fc7d9d63ce73965bb228e74db22">ts::xml::Node</a>
 </li>
 <li>dolbySurround()
 : <a class="el" href="classts_1_1_a_c3_attributes.html#a83cf4ce1381e055c9d5f2ee2e7039823">ts::AC3Attributes</a>
@@ -550,7 +558,7 @@ $(document).ready(function(){initNavTree('functions_func_d.html','');});
 , <a class="el" href="classts_1_1tlv_1_1_message.html#ad71ade46989cffd345b3ddf93869b933">ts::tlv::Message</a>
 </li>
 <li>Dump()
-: <a class="el" href="classts_1_1_u_string.html#ac55f25f55f2cdc5ac4c203348f62c5c6">ts::UString</a>
+: <a class="el" href="classts_1_1_u_string.html#aed5d06223a12ccb05bacf97e160c5d77">ts::UString</a>
 </li>
 <li>dumpDecimal()
 : <a class="el" href="classts_1_1tlv_1_1_message.html#ac5f9d03fc3baf0f6bc9b650c08c2dc3f">ts::tlv::Message</a>
@@ -574,7 +582,7 @@ $(document).ready(function(){initNavTree('functions_func_d.html','');});
 : <a class="el" href="classts_1_1tlv_1_1_message.html#ac940cc5f719fa470ba8f4d04d7d64830">ts::tlv::Message</a>
 </li>
 <li>dumpVector()
-: <a class="el" href="classts_1_1tlv_1_1_message.html#a0f42e1bbf8f339fa1290f00e3765b551">ts::tlv::Message</a>
+: <a class="el" href="classts_1_1tlv_1_1_message.html#aab59cd5c221f3a0271b6e777cbdad393">ts::tlv::Message</a>
 </li>
 <li>DuplicateDVBCharset()
 : <a class="el" href="classts_1_1_d_v_b_charset_1_1_duplicate_d_v_b_charset.html#a5e87c201b9198d42e3db2178a4a1de2d">ts::DVBCharset::DuplicateDVBCharset</a>

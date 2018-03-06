@@ -1,10 +1,12 @@
 var classts_1_1_t_s_analyzer_options =
 [
     [ "TSAnalyzerOptions", "classts_1_1_t_s_analyzer_options.html#a24d4b6aa6071e9b2c2db62ac6ea202d9", null ],
+    [ "TSAnalyzerOptions", "classts_1_1_t_s_analyzer_options.html#a6e7f0e8d02189148746f8738c413e114", null ],
+    [ "operator=", "classts_1_1_t_s_analyzer_options.html#a67e6bca5037412e18d3ec4d7cd4db094", null ],
     [ "setHelp", "classts_1_1_t_s_analyzer_options.html#a8db7198a1e2abf40cdd6cebdc24043e3", null ],
-    [ "analyze", "classts_1_1_t_s_analyzer_options.html#acf9e657d3b70489a923e0031fa6145f8", null ],
-    [ "analyze", "classts_1_1_t_s_analyzer_options.html#a24f17b99c69eb5015995b734c6e91d12", null ],
-    [ "getOptions", "classts_1_1_t_s_analyzer_options.html#a44eb2c995e296d4a3d7dffbaf10d1717", null ],
+    [ "analyze", "classts_1_1_t_s_analyzer_options.html#ac477fdbf86727156c2de59dd94517dfe", null ],
+    [ "analyze", "classts_1_1_t_s_analyzer_options.html#a28596736cdd213afb9632ec2362a3449", null ],
+    [ "getOptions", "classts_1_1_t_s_analyzer_options.html#af32f9ad127d954ba95556da5ee44190e", null ],
     [ "ts_analysis", "classts_1_1_t_s_analyzer_options.html#ab42a0a110a37d711bd54567af5c72940", null ],
     [ "service_analysis", "classts_1_1_t_s_analyzer_options.html#a98fdee09044c2e8d404f5b0ac54892c6", null ],
     [ "pid_analysis", "classts_1_1_t_s_analyzer_options.html#a2eb913779fd2da4b36857439cb967389", null ],
@@ -21,5 +23,6 @@ var classts_1_1_t_s_analyzer_options =
     [ "prefix", "classts_1_1_t_s_analyzer_options.html#ab5d744b668ce6f19a5a63d852011ab4b", null ],
     [ "title", "classts_1_1_t_s_analyzer_options.html#aa7adcef36ae00ef80271fc6ff71ff2cc", null ],
     [ "suspect_min_error_count", "classts_1_1_t_s_analyzer_options.html#a81c0b5231a70c0f56c134856144e2421", null ],
-    [ "suspect_max_consecutive", "classts_1_1_t_s_analyzer_options.html#a62fcf3aacc49275b63c7c49bb698753a", null ]
+    [ "suspect_max_consecutive", "classts_1_1_t_s_analyzer_options.html#a62fcf3aacc49275b63c7c49bb698753a", null ],
+    [ "default_charset", "classts_1_1_t_s_analyzer_options.html#ad6ecc05c3344cbada633c702699ba61e", null ]
 ];

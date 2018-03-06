@@ -19,6 +19,7 @@ var searchData=
   ['bitrate_5fdiff',['bitrate_diff',['../classts_1_1_tuner_parameters_bitrate_diff_d_v_b_t.html#a8326b381f6c9a099dee971df9b216118',1,'ts::TunerParametersBitrateDiffDVBT']]],
   ['bitrate_5funit',['BITRATE_UNIT',['../classts_1_1_maximum_bitrate_descriptor.html#a493a1f7c8498a7fe34ac4916a8ef678c',1,'ts::MaximumBitrateDescriptor']]],
   ['bitrate_5fvalid',['bitrate_valid',['../structts_1_1_p_c_r_analyzer_1_1_status.html#add5dc4e962b212b81dd5e626bec428a5',1,'ts::PCRAnalyzer::Status']]],
+  ['bits',['BITS',['../classts_1_1_m_a_c_address.html#ac2d0a10419ae3f957444f341aeedaf5e',1,'ts::MACAddress']]],
   ['bitstream_5frestriction_5fflag',['bitstream_restriction_flag',['../classts_1_1_a_v_c_v_u_i_parameters.html#a79bb2b788681fe385beb129881ddd893',1,'ts::AVCVUIParameters']]],
   ['black_5fclub_5fsuit',['BLACK_CLUB_SUIT',['../namespacets.html#ac110401f29bd6dcdfd38e9b91c3ec8ae',1,'ts']]],
   ['black_5fdiamond_5fsuit',['BLACK_DIAMOND_SUIT',['../namespacets.html#ab35b82f7288c0eb2af9fefb5b4acfc08',1,'ts']]],

@@ -6,7 +6,8 @@ var classts_1_1_args =
       [ "NO_EXIT_ON_ERROR", "classts_1_1_args.html#ad058870b5bd65a722375d9c5246d7269a9bfa98169a9267848c1e8a098c640f8e", null ],
       [ "NO_EXIT_ON_HELP", "classts_1_1_args.html#ad058870b5bd65a722375d9c5246d7269a7cfe0e1812f1ef912f2a0a93416a6163", null ],
       [ "NO_EXIT_ON_VERSION", "classts_1_1_args.html#ad058870b5bd65a722375d9c5246d7269a6fd474d520a08103b889f8aca4081034", null ],
-      [ "GATHER_PARAMETERS", "classts_1_1_args.html#ad058870b5bd65a722375d9c5246d7269af17b648ecce3ba0b259adbd99ee5d780", null ]
+      [ "GATHER_PARAMETERS", "classts_1_1_args.html#ad058870b5bd65a722375d9c5246d7269af17b648ecce3ba0b259adbd99ee5d780", null ],
+      [ "HELP_ON_THIS", "classts_1_1_args.html#ad058870b5bd65a722375d9c5246d7269a325dfdbe40528c27646dbb909563451e", null ]
     ] ],
     [ "ArgType", "classts_1_1_args.html#ada57b307e21cd62d9eb7439dd2dcbfd1", [
       [ "NONE", "classts_1_1_args.html#ada57b307e21cd62d9eb7439dd2dcbfd1a75e36849327efe3c56b197dc3bf2e99f", null ],
@@ -33,8 +34,8 @@ var classts_1_1_args =
     [ "getFlags", "classts_1_1_args.html#a60fd9ab72d5b612ce4f2cc2cf1f8cc1d", null ],
     [ "setShell", "classts_1_1_args.html#a2d0cf1aaf45079a08362b558dd7fcb20", null ],
     [ "getShell", "classts_1_1_args.html#a7dfba204b3399f8ca6ed4ffed42c4603", null ],
-    [ "analyze", "classts_1_1_args.html#a94a1a3624f78b4bbce3cb4b7ecd672f7", null ],
-    [ "analyze", "classts_1_1_args.html#aa59446c56b5acb91d2aac603f95e7ebc", null ],
+    [ "analyze", "classts_1_1_args.html#a867831e990f82db4d343723c9c152105", null ],
+    [ "analyze", "classts_1_1_args.html#a27ed4af683e92d7062c5516a37a4b652", null ],
     [ "valid", "classts_1_1_args.html#a49ff87d824f774e2eb9863d5153b83a9", null ],
     [ "invalidate", "classts_1_1_args.html#aa587bede6f0a502a27ef196ab4c9cde0", null ],
     [ "appName", "classts_1_1_args.html#ac99d9d9f8266587ba46e6110a7bc1651", null ],
@@ -55,6 +56,7 @@ var classts_1_1_args =
     [ "exitOnError", "classts_1_1_args.html#af06bf7b7fc5335c35385ca684cffbd02", null ],
     [ "redirectReport", "classts_1_1_args.html#a028ed345d0a9dc9ea9c1c0b57ec426be", null ],
     [ "raiseMaxSeverity", "classts_1_1_args.html#a230f5038c79a2193813255cb4f24e381", null ],
+    [ "processArgsRedirection", "classts_1_1_args.html#ac14c6e75a3780de78f6503a3ccd64bc2", null ],
     [ "writeLog", "classts_1_1_args.html#a4cc4af9b972ff46b2fecfea41edd9e72", null ],
     [ "UNLIMITED_COUNT", "classts_1_1_args.html#abe59313ed20c5d691cb198f870df8992", null ],
     [ "UNLIMITED_VALUE", "classts_1_1_args.html#a0547bf1ea95668127d5d2a7c9f82c08a", null ]

@@ -53,6 +53,11 @@ var files_dup =
     [ "tsAES.h", "ts_a_e_s_8h.html", [
       [ "AES", "classts_1_1_a_e_s.html", "classts_1_1_a_e_s" ]
     ] ],
+    [ "tsAIT.h", "ts_a_i_t_8h.html", [
+      [ "AIT", "classts_1_1_a_i_t.html", "classts_1_1_a_i_t" ],
+      [ "Application", "structts_1_1_a_i_t_1_1_application.html", "structts_1_1_a_i_t_1_1_application" ],
+      [ "ApplicationIdentifier", "structts_1_1_a_i_t_1_1_application_identifier.html", "structts_1_1_a_i_t_1_1_application_identifier" ]
+    ] ],
     [ "tsAlgorithm.h", "ts_algorithm_8h.html", "ts_algorithm_8h" ],
     [ "tsApplicationSharedLibrary.h", "ts_application_shared_library_8h.html", [
       [ "ApplicationSharedLibrary", "classts_1_1_application_shared_library.html", "classts_1_1_application_shared_library" ]
@@ -366,6 +371,7 @@ var files_dup =
       [ "Entry", "structts_1_1_logical_channel_number_descriptor_1_1_entry.html", "structts_1_1_logical_channel_number_descriptor_1_1_entry" ],
       [ "LogicalChannelNumberDescriptor", "classts_1_1_logical_channel_number_descriptor.html", "classts_1_1_logical_channel_number_descriptor" ]
     ] ],
+    [ "tsMACAddress.h", "ts_m_a_c_address_8h.html", "ts_m_a_c_address_8h" ],
     [ "tsMacPList.h", "ts_mac_p_list_8h.html", [
       [ "MacPList", "classts_1_1_mac_p_list.html", "classts_1_1_mac_p_list" ]
     ] ],
@@ -676,6 +682,17 @@ var files_dup =
     [ "tsTargetIPSlashDescriptor.h", "ts_target_i_p_slash_descriptor_8h.html", [
       [ "Address", "classts_1_1_target_i_p_slash_descriptor_1_1_address.html", "classts_1_1_target_i_p_slash_descriptor_1_1_address" ],
       [ "TargetIPSlashDescriptor", "classts_1_1_target_i_p_slash_descriptor.html", "classts_1_1_target_i_p_slash_descriptor" ]
+    ] ],
+    [ "tsTargetIPSourceSlashDescriptor.h", "ts_target_i_p_source_slash_descriptor_8h.html", [
+      [ "Address", "classts_1_1_target_i_p_source_slash_descriptor_1_1_address.html", "classts_1_1_target_i_p_source_slash_descriptor_1_1_address" ],
+      [ "TargetIPSourceSlashDescriptor", "classts_1_1_target_i_p_source_slash_descriptor.html", "classts_1_1_target_i_p_source_slash_descriptor" ]
+    ] ],
+    [ "tsTargetMACAddressDescriptor.h", "ts_target_m_a_c_address_descriptor_8h.html", [
+      [ "TargetMACAddressDescriptor", "classts_1_1_target_m_a_c_address_descriptor.html", "classts_1_1_target_m_a_c_address_descriptor" ]
+    ] ],
+    [ "tsTargetMACAddressRangeDescriptor.h", "ts_target_m_a_c_address_range_descriptor_8h.html", [
+      [ "Range", "classts_1_1_target_m_a_c_address_range_descriptor_1_1_range.html", "classts_1_1_target_m_a_c_address_range_descriptor_1_1_range" ],
+      [ "TargetMACAddressRangeDescriptor", "classts_1_1_target_m_a_c_address_range_descriptor.html", "classts_1_1_target_m_a_c_address_range_descriptor" ]
     ] ],
     [ "tsTCPConnection.h", "ts_t_c_p_connection_8h.html", "ts_t_c_p_connection_8h" ],
     [ "tsTCPServer.h", "ts_t_c_p_server_8h.html", [

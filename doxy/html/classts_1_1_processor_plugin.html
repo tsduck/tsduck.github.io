@@ -37,7 +37,7 @@
  <tr style="height: 56px;">
   <td id="projectlogo"><img src="tsduck-32.png"/></td>
    <td id="projectalign"><span id="projectname">TSDuck</span>
-    <span id="projectnumber">Version 3.9-557</span>
+    <span id="projectnumber">Version 3.9-574</span>
     <span id="projectbrief">(TSDuck - The MPEG Transport Stream Toolkit)</span>
    </td>
    <td>        <div id="MSearchBox" class="MSearchBoxInactive">
@@ -179,7 +179,9 @@ Public Types</h2></td></tr>
 <br />
 &#160;&#160;<a class="el" href="classts_1_1_args.html#ad058870b5bd65a722375d9c5246d7269a6fd474d520a08103b889f8aca4081034">NO_EXIT_ON_VERSION</a> = 0x0008, 
 <br />
-&#160;&#160;<a class="el" href="classts_1_1_args.html#ad058870b5bd65a722375d9c5246d7269af17b648ecce3ba0b259adbd99ee5d780">GATHER_PARAMETERS</a> = 0x0010
+&#160;&#160;<a class="el" href="classts_1_1_args.html#ad058870b5bd65a722375d9c5246d7269af17b648ecce3ba0b259adbd99ee5d780">GATHER_PARAMETERS</a> = 0x0010, 
+<br />
+&#160;&#160;<a class="el" href="classts_1_1_args.html#ad058870b5bd65a722375d9c5246d7269a325dfdbe40528c27646dbb909563451e">HELP_ON_THIS</a> = 0x0020
 <br />
  }</td></tr>
 <tr class="memdesc:ad058870b5bd65a722375d9c5246d7269"><td class="mdescLeft">&#160;</td><td class="mdescRight"><a class="el" href="classts_1_1_args.html" title="An encapsulation of command line syntax and analysis. ">Args</a> object flags, used in an or'ed mask.  <a href="classts_1_1_args.html#ad058870b5bd65a722375d9c5246d7269">More...</a><br /></td></tr>
@@ -221,12 +223,12 @@ virtual&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="c
 <tr class="memitem:a6cdc61d1b63c469787e78f69db05c4c8 inherit pub_methods_classts_1_1_args"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classts_1_1_args.html#a6cdc61d1b63c469787e78f69db05c4c8">Args</a> (const <a class="el" href="classts_1_1_u_string.html">UString</a> &amp;description=<a class="el" href="classts_1_1_u_string.html">UString</a>(), const <a class="el" href="classts_1_1_u_string.html">UString</a> &amp;syntax=<a class="el" href="classts_1_1_u_string.html">UString</a>(), const <a class="el" href="classts_1_1_u_string.html">UString</a> &amp;help=<a class="el" href="classts_1_1_u_string.html">UString</a>(), int flags=0)</td></tr>
 <tr class="memdesc:a6cdc61d1b63c469787e78f69db05c4c8 inherit pub_methods_classts_1_1_args"><td class="mdescLeft">&#160;</td><td class="mdescRight">Constructor.  <a href="classts_1_1_args.html#a6cdc61d1b63c469787e78f69db05c4c8">More...</a><br /></td></tr>
 <tr class="separator:a6cdc61d1b63c469787e78f69db05c4c8 inherit pub_methods_classts_1_1_args"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a94a1a3624f78b4bbce3cb4b7ecd672f7 inherit pub_methods_classts_1_1_args"><td class="memItemLeft" align="right" valign="top">virtual bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classts_1_1_args.html#a94a1a3624f78b4bbce3cb4b7ecd672f7">analyze</a> (int argc, char *argv[])</td></tr>
-<tr class="memdesc:a94a1a3624f78b4bbce3cb4b7ecd672f7 inherit pub_methods_classts_1_1_args"><td class="mdescLeft">&#160;</td><td class="mdescRight">Load command arguments and analyze them.  <a href="classts_1_1_args.html#a94a1a3624f78b4bbce3cb4b7ecd672f7">More...</a><br /></td></tr>
-<tr class="separator:a94a1a3624f78b4bbce3cb4b7ecd672f7 inherit pub_methods_classts_1_1_args"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aa59446c56b5acb91d2aac603f95e7ebc inherit pub_methods_classts_1_1_args"><td class="memItemLeft" align="right" valign="top">virtual bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classts_1_1_args.html#aa59446c56b5acb91d2aac603f95e7ebc">analyze</a> (const <a class="el" href="classts_1_1_u_string.html">UString</a> &amp;app_name, const <a class="el" href="namespacets.html#a843f23808732fa4bb32ddd18e3dabf53">UStringVector</a> &amp;arguments)</td></tr>
-<tr class="memdesc:aa59446c56b5acb91d2aac603f95e7ebc inherit pub_methods_classts_1_1_args"><td class="mdescLeft">&#160;</td><td class="mdescRight">Load command arguments and analyze them.  <a href="classts_1_1_args.html#aa59446c56b5acb91d2aac603f95e7ebc">More...</a><br /></td></tr>
-<tr class="separator:aa59446c56b5acb91d2aac603f95e7ebc inherit pub_methods_classts_1_1_args"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a867831e990f82db4d343723c9c152105 inherit pub_methods_classts_1_1_args"><td class="memItemLeft" align="right" valign="top">virtual bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classts_1_1_args.html#a867831e990f82db4d343723c9c152105">analyze</a> (int argc, char *argv[], bool processRedirections=true)</td></tr>
+<tr class="memdesc:a867831e990f82db4d343723c9c152105 inherit pub_methods_classts_1_1_args"><td class="mdescLeft">&#160;</td><td class="mdescRight">Load command arguments and analyze them.  <a href="classts_1_1_args.html#a867831e990f82db4d343723c9c152105">More...</a><br /></td></tr>
+<tr class="separator:a867831e990f82db4d343723c9c152105 inherit pub_methods_classts_1_1_args"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a27ed4af683e92d7062c5516a37a4b652 inherit pub_methods_classts_1_1_args"><td class="memItemLeft" align="right" valign="top">virtual bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classts_1_1_args.html#a27ed4af683e92d7062c5516a37a4b652">analyze</a> (const <a class="el" href="classts_1_1_u_string.html">UString</a> &amp;app_name, const <a class="el" href="namespacets.html#a843f23808732fa4bb32ddd18e3dabf53">UStringVector</a> &amp;arguments, bool processRedirections=true)</td></tr>
+<tr class="memdesc:a27ed4af683e92d7062c5516a37a4b652 inherit pub_methods_classts_1_1_args"><td class="mdescLeft">&#160;</td><td class="mdescRight">Load command arguments and analyze them.  <a href="classts_1_1_args.html#a27ed4af683e92d7062c5516a37a4b652">More...</a><br /></td></tr>
+<tr class="separator:a27ed4af683e92d7062c5516a37a4b652 inherit pub_methods_classts_1_1_args"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ac99d9d9f8266587ba46e6110a7bc1651 inherit pub_methods_classts_1_1_args"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classts_1_1_u_string.html">UString</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classts_1_1_args.html#ac99d9d9f8266587ba46e6110a7bc1651">appName</a> () const</td></tr>
 <tr class="memdesc:ac99d9d9f8266587ba46e6110a7bc1651 inherit pub_methods_classts_1_1_args"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the application name from the last command line analysis.  <a href="classts_1_1_args.html#ac99d9d9f8266587ba46e6110a7bc1651">More...</a><br /></td></tr>
 <tr class="separator:ac99d9d9f8266587ba46e6110a7bc1651 inherit pub_methods_classts_1_1_args"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -308,6 +310,9 @@ void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="clas
 <tr class="memitem:a53139d1429ecc7fd32e89965b0f36a95 inherit pub_methods_classts_1_1_args"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classts_1_1_args.html#a53139d1429ecc7fd32e89965b0f36a95">present</a> (const <a class="el" href="namespacets.html#a7e3244e77fae7815254d87d2ebdb7bd0">UChar</a> *name=0) const</td></tr>
 <tr class="memdesc:a53139d1429ecc7fd32e89965b0f36a95 inherit pub_methods_classts_1_1_args"><td class="mdescLeft">&#160;</td><td class="mdescRight">Check if an option is present in the last analyzed command line.  <a href="classts_1_1_args.html#a53139d1429ecc7fd32e89965b0f36a95">More...</a><br /></td></tr>
 <tr class="separator:a53139d1429ecc7fd32e89965b0f36a95 inherit pub_methods_classts_1_1_args"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac14c6e75a3780de78f6503a3ccd64bc2 inherit pub_methods_classts_1_1_args"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classts_1_1_args.html#ac14c6e75a3780de78f6503a3ccd64bc2">processArgsRedirection</a> (<a class="el" href="namespacets.html#a843f23808732fa4bb32ddd18e3dabf53">UStringVector</a> &amp;args)</td></tr>
+<tr class="memdesc:ac14c6e75a3780de78f6503a3ccd64bc2 inherit pub_methods_classts_1_1_args"><td class="mdescLeft">&#160;</td><td class="mdescRight">Process argument redirection using <code>'@'</code> on a vector of strings.  <a href="classts_1_1_args.html#ac14c6e75a3780de78f6503a3ccd64bc2">More...</a><br /></td></tr>
+<tr class="separator:ac14c6e75a3780de78f6503a3ccd64bc2 inherit pub_methods_classts_1_1_args"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a230f5038c79a2193813255cb4f24e381 inherit pub_methods_classts_1_1_args"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classts_1_1_args.html#a230f5038c79a2193813255cb4f24e381">raiseMaxSeverity</a> (int level) override</td></tr>
 <tr class="memdesc:a230f5038c79a2193813255cb4f24e381 inherit pub_methods_classts_1_1_args"><td class="mdescLeft">&#160;</td><td class="mdescRight">Raise maximum severity level.  <a href="classts_1_1_args.html#a230f5038c79a2193813255cb4f24e381">More...</a><br /></td></tr>
 <tr class="separator:a230f5038c79a2193813255cb4f24e381 inherit pub_methods_classts_1_1_args"><td class="memSeparator" colspan="2">&#160;</td></tr>

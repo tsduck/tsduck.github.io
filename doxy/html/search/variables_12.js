@@ -1,5 +1,6 @@
 var searchData=
 [
+  ['ranges',['ranges',['../classts_1_1_target_m_a_c_address_range_descriptor.html#a5c28c47c25b3cc6ccb96f1d3b36b29c2',1,'ts::TargetMACAddressRangeDescriptor']]],
   ['rating',['rating',['../structts_1_1_parental_rating_descriptor_1_1_entry.html#a38bb3f523aa3afc1cecd67609035bab8',1,'ts::ParentalRatingDescriptor::Entry']]],
   ['raw_5fdump',['raw_dump',['../classts_1_1_tables_display_args.html#a334eeb031f2fbb911c5cf170cec750dd',1,'ts::TablesDisplayArgs']]],
   ['raw_5fflags',['raw_flags',['../classts_1_1_tables_display_args.html#a7354de52ce6319861d870dc86a9cd7d3',1,'ts::TablesDisplayArgs']]],
