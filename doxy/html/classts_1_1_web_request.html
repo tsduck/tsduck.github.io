@@ -37,7 +37,7 @@
  <tr style="height: 56px;">
   <td id="projectlogo"><img src="tsduck-32.png"/></td>
    <td id="projectalign"><span id="projectname">TSDuck</span>
-    <span id="projectnumber">Version 3.9-574</span>
+    <span id="projectnumber">Version 3.9-581</span>
     <span id="projectbrief">(TSDuck - The MPEG Transport Stream Toolkit)</span>
    </td>
    <td>        <div id="MSearchBox" class="MSearchBoxInactive">
@@ -114,7 +114,7 @@ $(document).ready(function(){initNavTree('classts_1_1_web_request.html','');});
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-types"></a>
 Public Types</h2></td></tr>
 <tr class="memitem:aaf2d466d31010d32fd9968fdb6e84ea3"><td class="memItemLeft" align="right" valign="top">typedef std::multimap&lt; <a class="el" href="classts_1_1_u_string.html">UString</a>, <a class="el" href="classts_1_1_u_string.html">UString</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classts_1_1_web_request.html#aaf2d466d31010d32fd9968fdb6e84ea3">HeadersMap</a></td></tr>
-<tr class="memdesc:aaf2d466d31010d32fd9968fdb6e84ea3"><td class="mdescLeft">&#160;</td><td class="mdescRight">Representation of reponse headers.  <a href="#aaf2d466d31010d32fd9968fdb6e84ea3">More...</a><br /></td></tr>
+<tr class="memdesc:aaf2d466d31010d32fd9968fdb6e84ea3"><td class="mdescLeft">&#160;</td><td class="mdescRight">Representation of request or reponse headers.  <a href="#aaf2d466d31010d32fd9968fdb6e84ea3">More...</a><br /></td></tr>
 <tr class="separator:aaf2d466d31010d32fd9968fdb6e84ea3"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
@@ -126,6 +126,10 @@ Public Member Functions</h2></td></tr>
 virtual&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classts_1_1_web_request.html#a0b120195c479efe48fc52c8a2d92165b">~WebRequest</a> ()</td></tr>
 <tr class="memdesc:a0b120195c479efe48fc52c8a2d92165b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Destructor. <br /></td></tr>
 <tr class="separator:a0b120195c479efe48fc52c8a2d92165b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a416aecdb54ba5ab9b2ef046858c55cf4"><td class="memItemLeft" align="right" valign="top"><a id="a416aecdb54ba5ab9b2ef046858c55cf4"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classts_1_1_web_request.html#a416aecdb54ba5ab9b2ef046858c55cf4">clearRequestHeaders</a> ()</td></tr>
+<tr class="memdesc:a416aecdb54ba5ab9b2ef046858c55cf4"><td class="mdescLeft">&#160;</td><td class="mdescRight">Clear all headers which will be sent with the request. <br /></td></tr>
+<tr class="separator:a416aecdb54ba5ab9b2ef046858c55cf4"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a5839cb4277a95f3019aeb766745baa36"><td class="memItemLeft" align="right" valign="top">size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classts_1_1_web_request.html#a5839cb4277a95f3019aeb766745baa36">contentSize</a> () const</td></tr>
 <tr class="memdesc:a5839cb4277a95f3019aeb766745baa36"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the size in bytes of the downloaded content.  <a href="#a5839cb4277a95f3019aeb766745baa36">More...</a><br /></td></tr>
 <tr class="separator:a5839cb4277a95f3019aeb766745baa36"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -141,18 +145,18 @@ virtual&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="c
 <tr class="memitem:a1f64822f4fc05d52da9383549888a59e"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classts_1_1_u_string.html">UString</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classts_1_1_web_request.html#a1f64822f4fc05d52da9383549888a59e">finalURL</a> () const</td></tr>
 <tr class="memdesc:a1f64822f4fc05d52da9383549888a59e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the final URL of the actual download operation.  <a href="#a1f64822f4fc05d52da9383549888a59e">More...</a><br /></td></tr>
 <tr class="separator:a1f64822f4fc05d52da9383549888a59e"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ae75ef9622ef0769b84ecbaa40ffd0ea0"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classts_1_1_web_request.html#ae75ef9622ef0769b84ecbaa40ffd0ea0">getHeaders</a> (<a class="el" href="classts_1_1_web_request.html#aaf2d466d31010d32fd9968fdb6e84ea3">HeadersMap</a> &amp;headers) const</td></tr>
-<tr class="memdesc:ae75ef9622ef0769b84ecbaa40ffd0ea0"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get all response headers.  <a href="#ae75ef9622ef0769b84ecbaa40ffd0ea0">More...</a><br /></td></tr>
-<tr class="separator:ae75ef9622ef0769b84ecbaa40ffd0ea0"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ad7a4f70842bbc8c967b54c41da18921b"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classts_1_1_u_string.html">UString</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classts_1_1_web_request.html#ad7a4f70842bbc8c967b54c41da18921b">header</a> (const <a class="el" href="classts_1_1_u_string.html">UString</a> &amp;name) const</td></tr>
-<tr class="memdesc:ad7a4f70842bbc8c967b54c41da18921b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the value of one header.  <a href="#ad7a4f70842bbc8c967b54c41da18921b">More...</a><br /></td></tr>
-<tr class="separator:ad7a4f70842bbc8c967b54c41da18921b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1c644af3f47b530fc0d5ec55ef392e71"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classts_1_1_web_request.html#a1c644af3f47b530fc0d5ec55ef392e71">getResponseHeaders</a> (<a class="el" href="classts_1_1_web_request.html#aaf2d466d31010d32fd9968fdb6e84ea3">HeadersMap</a> &amp;headers) const</td></tr>
+<tr class="memdesc:a1c644af3f47b530fc0d5ec55ef392e71"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get all response headers.  <a href="#a1c644af3f47b530fc0d5ec55ef392e71">More...</a><br /></td></tr>
+<tr class="separator:a1c644af3f47b530fc0d5ec55ef392e71"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:afc5ce8794cd545a223513f7a4f09e34f"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classts_1_1_web_request.html#afc5ce8794cd545a223513f7a4f09e34f">httpStatus</a> () const</td></tr>
 <tr class="memdesc:afc5ce8794cd545a223513f7a4f09e34f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the HTTP status code (200, 404, etc).  <a href="#afc5ce8794cd545a223513f7a4f09e34f">More...</a><br /></td></tr>
 <tr class="separator:afc5ce8794cd545a223513f7a4f09e34f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a28939ee931a9e5ac89f51fdcf32cb7df"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classts_1_1_u_string.html">UString</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classts_1_1_web_request.html#a28939ee931a9e5ac89f51fdcf32cb7df">originalURL</a> () const</td></tr>
 <tr class="memdesc:a28939ee931a9e5ac89f51fdcf32cb7df"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the original URL, as set by <a class="el" href="classts_1_1_web_request.html#a9be02273cd268c2fd4e87116516288f7" title="Set the URL to get. ">setURL()</a>.  <a href="#a28939ee931a9e5ac89f51fdcf32cb7df">More...</a><br /></td></tr>
 <tr class="separator:a28939ee931a9e5ac89f51fdcf32cb7df"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a709a1645c5af6aac179b7e4804930d29"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classts_1_1_u_string.html">UString</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classts_1_1_web_request.html#a709a1645c5af6aac179b7e4804930d29">reponseHeader</a> (const <a class="el" href="classts_1_1_u_string.html">UString</a> &amp;name) const</td></tr>
+<tr class="memdesc:a709a1645c5af6aac179b7e4804930d29"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the value of one header.  <a href="#a709a1645c5af6aac179b7e4804930d29">More...</a><br /></td></tr>
+<tr class="separator:a709a1645c5af6aac179b7e4804930d29"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a95e08744ca1793544308fc9a83ce09d4"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classts_1_1_web_request.html#a95e08744ca1793544308fc9a83ce09d4">setAutoRedirect</a> (bool on)</td></tr>
 <tr class="memdesc:a95e08744ca1793544308fc9a83ce09d4"><td class="mdescLeft">&#160;</td><td class="mdescRight">Enable or disable the automatic redirection of HTTP requests.  <a href="#a95e08744ca1793544308fc9a83ce09d4">More...</a><br /></td></tr>
 <tr class="separator:a95e08744ca1793544308fc9a83ce09d4"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -162,6 +166,9 @@ virtual&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="c
 <tr class="memitem:ad5859a9c92e5b2c5dc1dbb6c8713b494"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classts_1_1_web_request.html#ad5859a9c92e5b2c5dc1dbb6c8713b494">setProxyUser</a> (const <a class="el" href="classts_1_1_u_string.html">UString</a> &amp;user, const <a class="el" href="classts_1_1_u_string.html">UString</a> &amp;password)</td></tr>
 <tr class="memdesc:ad5859a9c92e5b2c5dc1dbb6c8713b494"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set the optional proxy authentication for this request.  <a href="#ad5859a9c92e5b2c5dc1dbb6c8713b494">More...</a><br /></td></tr>
 <tr class="separator:ad5859a9c92e5b2c5dc1dbb6c8713b494"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:afa21ebd3476d10c8ef20499464291106"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classts_1_1_web_request.html#afa21ebd3476d10c8ef20499464291106">setRequestHeader</a> (const <a class="el" href="classts_1_1_u_string.html">UString</a> &amp;name, const <a class="el" href="classts_1_1_u_string.html">UString</a> &amp;value)</td></tr>
+<tr class="memdesc:afa21ebd3476d10c8ef20499464291106"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set a header which will be sent with the request.  <a href="#afa21ebd3476d10c8ef20499464291106">More...</a><br /></td></tr>
+<tr class="separator:afa21ebd3476d10c8ef20499464291106"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a9be02273cd268c2fd4e87116516288f7"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classts_1_1_web_request.html#a9be02273cd268c2fd4e87116516288f7">setURL</a> (const <a class="el" href="classts_1_1_u_string.html">UString</a> &amp;url)</td></tr>
 <tr class="memdesc:a9be02273cd268c2fd4e87116516288f7"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set the URL to get.  <a href="#a9be02273cd268c2fd4e87116516288f7">More...</a><br /></td></tr>
 <tr class="separator:a9be02273cd268c2fd4e87116516288f7"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -199,7 +206,7 @@ Static Public Member Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Representation of reponse headers. </p>
+<p>Representation of request or reponse headers. </p>
 <p>The keys of the map are the header names. </p>
 
 </div>
@@ -548,6 +555,43 @@ Static Public Member Functions</h2></td></tr>
 
 </div>
 </div>
+<a id="afa21ebd3476d10c8ef20499464291106"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#afa21ebd3476d10c8ef20499464291106">&#9670;&nbsp;</a></span>setRequestHeader()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void ts::WebRequest::setRequestHeader </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="classts_1_1_u_string.html">UString</a> &amp;&#160;</td>
+          <td class="paramname"><em>name</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="classts_1_1_u_string.html">UString</a> &amp;&#160;</td>
+          <td class="paramname"><em>value</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Set a header which will be sent with the request. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">name</td><td>The header name. </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">value</td><td>The header value. </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
 <a id="a61084c26f8a3ffcac30d987de229563b"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a61084c26f8a3ffcac30d987de229563b">&#9670;&nbsp;</a></span>downloadBinaryContent()</h2>
 
@@ -629,14 +673,14 @@ Static Public Member Functions</h2></td></tr>
 
 </div>
 </div>
-<a id="ae75ef9622ef0769b84ecbaa40ffd0ea0"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ae75ef9622ef0769b84ecbaa40ffd0ea0">&#9670;&nbsp;</a></span>getHeaders()</h2>
+<a id="a1c644af3f47b530fc0d5ec55ef392e71"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1c644af3f47b530fc0d5ec55ef392e71">&#9670;&nbsp;</a></span>getResponseHeaders()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">void ts::WebRequest::getHeaders </td>
+          <td class="memname">void ts::WebRequest::getResponseHeaders </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="classts_1_1_web_request.html#aaf2d466d31010d32fd9968fdb6e84ea3">HeadersMap</a> &amp;&#160;</td>
           <td class="paramname"><em>headers</em></td><td>)</td>
@@ -655,14 +699,14 @@ Static Public Member Functions</h2></td></tr>
 
 </div>
 </div>
-<a id="ad7a4f70842bbc8c967b54c41da18921b"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ad7a4f70842bbc8c967b54c41da18921b">&#9670;&nbsp;</a></span>header()</h2>
+<a id="a709a1645c5af6aac179b7e4804930d29"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a709a1645c5af6aac179b7e4804930d29">&#9670;&nbsp;</a></span>reponseHeader()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="classts_1_1_u_string.html">UString</a> ts::WebRequest::header </td>
+          <td class="memname"><a class="el" href="classts_1_1_u_string.html">UString</a> ts::WebRequest::reponseHeader </td>
           <td>(</td>
           <td class="paramtype">const <a class="el" href="classts_1_1_u_string.html">UString</a> &amp;&#160;</td>
           <td class="paramname"><em>name</em></td><td>)</td>

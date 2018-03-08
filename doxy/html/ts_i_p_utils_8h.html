@@ -37,7 +37,7 @@
  <tr style="height: 56px;">
   <td id="projectlogo"><img src="tsduck-32.png"/></td>
    <td id="projectalign"><span id="projectname">TSDuck</span>
-    <span id="projectnumber">Version 3.9-574</span>
+    <span id="projectnumber">Version 3.9-581</span>
     <span id="projectbrief">(TSDuck - The MPEG Transport Stream Toolkit)</span>
    </td>
    <td>        <div id="MSearchBox" class="MSearchBoxInactive">
@@ -102,7 +102,9 @@ $(document).ready(function(){initNavTree('ts_i_p_utils_8h.html','');});
 <a href="#namespaces">Namespaces</a> &#124;
 <a href="#define-members">Macros</a> &#124;
 <a href="#typedef-members">Typedefs</a> &#124;
-<a href="#func-members">Functions</a>  </div>
+<a href="#enum-members">Enumerations</a> &#124;
+<a href="#func-members">Functions</a> &#124;
+<a href="#var-members">Variables</a>  </div>
   <div class="headertitle">
 <div class="title">tsIPUtils.h File Reference</div>  </div>
 </div><!--header-->
@@ -188,11 +190,32 @@ typedef int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" hre
 <tr class="memdesc:a5346c902c2c02fd7fdf27ecbd67e0d7e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Type for socket error code. <br /></td></tr>
 <tr class="separator:a5346c902c2c02fd7fdf27ecbd67e0d7e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="enum-members"></a>
+Enumerations</h2></td></tr>
+<tr class="memitem:a517791ee3f9284794d3f8c3f6cc0cd83"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom">: uint8_t { <br />
+&#160;&#160;<a class="el" href="namespacets.html#a517791ee3f9284794d3f8c3f6cc0cd83aaf8e916deeabec1531a4a24a614a6227">ts::IPv4_PROTO_ICMP</a> = 1, 
+<br />
+&#160;&#160;<a class="el" href="namespacets.html#a517791ee3f9284794d3f8c3f6cc0cd83a477c4a90e1baf91426f5ed82120d3db9">ts::IPv4_PROTO_IGMP</a> = 2, 
+<br />
+&#160;&#160;<a class="el" href="namespacets.html#a517791ee3f9284794d3f8c3f6cc0cd83a7f9f70774aa6a444dffe12628b240fa5">ts::IPv4_PROTO_TCP</a> = 6, 
+<br />
+&#160;&#160;<a class="el" href="namespacets.html#a517791ee3f9284794d3f8c3f6cc0cd83a6eb5be59ab11885d03de16bca8330409">ts::IPv4_PROTO_UDP</a> = 17
+<br />
+ }</td></tr>
+<tr class="memdesc:a517791ee3f9284794d3f8c3f6cc0cd83"><td class="mdescLeft">&#160;</td><td class="mdescRight">Selected IP protocol identifiers.  <a href="namespacets.html#a517791ee3f9284794d3f8c3f6cc0cd83">More...</a><br /></td></tr>
+<tr class="separator:a517791ee3f9284794d3f8c3f6cc0cd83"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
 Functions</h2></td></tr>
 <tr class="memitem:a395829ea2948c84f84d7658ea95b5edf"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacets.html#a395829ea2948c84f84d7658ea95b5edf">ts::GetLocalIPAddresses</a> (IPAddressVector &amp;addresses, Report &amp;report=(*<a class="el" href="classts_1_1_cerr_report.html#ad5fc721c37e1eceab55d90f8c76ff6b6">ts::CerrReport::Instance</a>()))</td></tr>
 <tr class="memdesc:a395829ea2948c84f84d7658ea95b5edf"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the list of all local IPv4 addresses in the system.  <a href="namespacets.html#a395829ea2948c84f84d7658ea95b5edf">More...</a><br /></td></tr>
 <tr class="separator:a395829ea2948c84f84d7658ea95b5edf"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:adf3790e7b9471c37dd72ab3f9aa92f77"><td class="memItemLeft" align="right" valign="top">uint16_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacets.html#adf3790e7b9471c37dd72ab3f9aa92f77">ts::IPHeaderChecksum</a> (const void *data, size_t size)</td></tr>
+<tr class="memdesc:adf3790e7b9471c37dd72ab3f9aa92f77"><td class="mdescLeft">&#160;</td><td class="mdescRight">Compute the checksum of an IPv4 header.  <a href="namespacets.html#adf3790e7b9471c37dd72ab3f9aa92f77">More...</a><br /></td></tr>
+<tr class="separator:adf3790e7b9471c37dd72ab3f9aa92f77"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1aeac143ad01d38a4ce8269513559e16"><td class="memItemLeft" align="right" valign="top">size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacets.html#a1aeac143ad01d38a4ce8269513559e16">ts::IPHeaderSize</a> (const void *data, size_t size)</td></tr>
+<tr class="memdesc:a1aeac143ad01d38a4ce8269513559e16"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the size in bytes of an IPv4 header.  <a href="namespacets.html#a1aeac143ad01d38a4ce8269513559e16">More...</a><br /></td></tr>
+<tr class="separator:a1aeac143ad01d38a4ce8269513559e16"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a01d3e0180a6ad99ad554ff85ef30cdba"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacets.html#a01d3e0180a6ad99ad554ff85ef30cdba">ts::IPInitialize</a> (Report &amp;=(*<a class="el" href="classts_1_1_cerr_report.html#ad5fc721c37e1eceab55d90f8c76ff6b6">ts::CerrReport::Instance</a>()))</td></tr>
 <tr class="memdesc:a01d3e0180a6ad99ad554ff85ef30cdba"><td class="mdescLeft">&#160;</td><td class="mdescRight">Initialize the IP libraries in the current process.  <a href="namespacets.html#a01d3e0180a6ad99ad554ff85ef30cdba">More...</a><br /></td></tr>
 <tr class="separator:a01d3e0180a6ad99ad554ff85ef30cdba"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -205,6 +228,43 @@ Functions</h2></td></tr>
 <tr class="memitem:aef871c2eb4ad8574d8035f52766fff4d"><td class="memItemLeft" align="right" valign="top">UString&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacets.html#aef871c2eb4ad8574d8035f52766fff4d">ts::SocketErrorCodeMessage</a> (SocketErrorCode code=LastSocketErrorCode())</td></tr>
 <tr class="memdesc:aef871c2eb4ad8574d8035f52766fff4d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Format a socket error code into a string.  <a href="namespacets.html#aef871c2eb4ad8574d8035f52766fff4d">More...</a><br /></td></tr>
 <tr class="separator:aef871c2eb4ad8574d8035f52766fff4d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae7177d45917f3748b4c1865f68788a7f"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacets.html#ae7177d45917f3748b4c1865f68788a7f">ts::UpdateIPHeaderChecksum</a> (void *data, size_t size)</td></tr>
+<tr class="memdesc:ae7177d45917f3748b4c1865f68788a7f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Update the checksum of an IPv4 header.  <a href="namespacets.html#ae7177d45917f3748b4c1865f68788a7f">More...</a><br /></td></tr>
+<tr class="separator:ae7177d45917f3748b4c1865f68788a7f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7a72ba80df6c3fb456ed30904ca8847d"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacets.html#a7a72ba80df6c3fb456ed30904ca8847d">ts::VerifyIPHeaderChecksum</a> (const void *data, size_t size)</td></tr>
+<tr class="memdesc:a7a72ba80df6c3fb456ed30904ca8847d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Verify the checksum of an IPv4 header.  <a href="namespacets.html#a7a72ba80df6c3fb456ed30904ca8847d">More...</a><br /></td></tr>
+<tr class="separator:a7a72ba80df6c3fb456ed30904ca8847d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="var-members"></a>
+Variables</h2></td></tr>
+<tr class="memitem:ae506cf2ce9a9fd79ccc9595e606f9654"><td class="memItemLeft" align="right" valign="top"><a id="ae506cf2ce9a9fd79ccc9595e606f9654"></a>
+const size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacets.html#ae506cf2ce9a9fd79ccc9595e606f9654">ts::IPv4_CHECKSUM_OFFSET</a> = 10</td></tr>
+<tr class="memdesc:ae506cf2ce9a9fd79ccc9595e606f9654"><td class="mdescLeft">&#160;</td><td class="mdescRight">Offset of the checksum in an IPv4 header. <br /></td></tr>
+<tr class="separator:ae506cf2ce9a9fd79ccc9595e606f9654"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4dbd687f943cf8f37399ded7f72c0eae"><td class="memItemLeft" align="right" valign="top"><a id="a4dbd687f943cf8f37399ded7f72c0eae"></a>
+const size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacets.html#a4dbd687f943cf8f37399ded7f72c0eae">ts::IPv4_DEST_ADDR_OFFSET</a> = 16</td></tr>
+<tr class="memdesc:a4dbd687f943cf8f37399ded7f72c0eae"><td class="mdescLeft">&#160;</td><td class="mdescRight">Offset of destination IP address in an IPv4 header. <br /></td></tr>
+<tr class="separator:a4dbd687f943cf8f37399ded7f72c0eae"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ace4ee022322ad423341721de7078c695"><td class="memItemLeft" align="right" valign="top"><a id="ace4ee022322ad423341721de7078c695"></a>
+const size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacets.html#ace4ee022322ad423341721de7078c695">ts::IPv4_MIN_HEADER_SIZE</a> = 20</td></tr>
+<tr class="memdesc:ace4ee022322ad423341721de7078c695"><td class="mdescLeft">&#160;</td><td class="mdescRight">Minimum size of an IPv4 header. <br /></td></tr>
+<tr class="separator:ace4ee022322ad423341721de7078c695"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a768ada3543c69322e60b6ea36e15e64e"><td class="memItemLeft" align="right" valign="top"><a id="a768ada3543c69322e60b6ea36e15e64e"></a>
+const size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacets.html#a768ada3543c69322e60b6ea36e15e64e">ts::IPv4_PROTOCOL_OFFSET</a> = 9</td></tr>
+<tr class="memdesc:a768ada3543c69322e60b6ea36e15e64e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Offset of the protocol identifier in an IPv4 header. <br /></td></tr>
+<tr class="separator:a768ada3543c69322e60b6ea36e15e64e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a75d9d1250024eb53cca6a04688d618c1"><td class="memItemLeft" align="right" valign="top"><a id="a75d9d1250024eb53cca6a04688d618c1"></a>
+const size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacets.html#a75d9d1250024eb53cca6a04688d618c1">ts::IPv4_SRC_ADDR_OFFSET</a> = 12</td></tr>
+<tr class="memdesc:a75d9d1250024eb53cca6a04688d618c1"><td class="mdescLeft">&#160;</td><td class="mdescRight">Offset of source IP address in an IPv4 header. <br /></td></tr>
+<tr class="separator:a75d9d1250024eb53cca6a04688d618c1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:abc4b259477e5a7de3433c654f4adec28"><td class="memItemLeft" align="right" valign="top"><a id="abc4b259477e5a7de3433c654f4adec28"></a>
+const uint8_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacets.html#abc4b259477e5a7de3433c654f4adec28">ts::IPv4_VERSION</a> = 4</td></tr>
+<tr class="memdesc:abc4b259477e5a7de3433c654f4adec28"><td class="mdescLeft">&#160;</td><td class="mdescRight">Protocol version of IPv4 is ... 4 ! <br /></td></tr>
+<tr class="separator:abc4b259477e5a7de3433c654f4adec28"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6ff354dcfca859ba0ed128622037af14"><td class="memItemLeft" align="right" valign="top"><a id="a6ff354dcfca859ba0ed128622037af14"></a>
+const size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacets.html#a6ff354dcfca859ba0ed128622037af14">ts::UDP_HEADER_SIZE</a> = 8</td></tr>
+<tr class="memdesc:a6ff354dcfca859ba0ed128622037af14"><td class="mdescLeft">&#160;</td><td class="mdescRight">Size of a UDP header. <br /></td></tr>
+<tr class="separator:a6ff354dcfca859ba0ed128622037af14"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>Utilities for IP networking. </p>

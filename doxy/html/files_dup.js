@@ -399,6 +399,9 @@ var files_dup =
       [ "MonotonicError", "classts_1_1_monotonic_1_1_monotonic_error.html", "classts_1_1_monotonic_1_1_monotonic_error" ]
     ] ],
     [ "tsMPEG.h", "ts_m_p_e_g_8h.html", "ts_m_p_e_g_8h" ],
+    [ "tsMPEPacket.h", "ts_m_p_e_packet_8h.html", [
+      [ "MPEPacket", "classts_1_1_m_p_e_packet.html", "classts_1_1_m_p_e_packet" ]
+    ] ],
     [ "tsMutex.h", "ts_mutex_8h.html", [
       [ "Mutex", "classts_1_1_mutex.html", "classts_1_1_mutex" ],
       [ "MutexError", "classts_1_1_mutex_1_1_mutex_error.html", "classts_1_1_mutex_1_1_mutex_error" ]

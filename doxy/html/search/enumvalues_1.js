@@ -2,9 +2,9 @@ var searchData=
 [
   ['bandwidth',['bandwidth',['../structts_1_1emmgmux_1_1_tags.html#a811d01187582347ab2b89c4413dfda15ab8e4bd6587c618bd630d4c5d9d3a08cc',1,'ts::emmgmux::Tags']]],
   ['bda_5ftuners',['BDA_TUNERS',['../classts_1_1_direct_show_test.html#a41feda87f32d5795d490c85a38d7b6f7aa3cf7e0149690843c3829d7ee6c36057',1,'ts::DirectShowTest']]],
-  ['bid_5ftvnumeric',['BID_TVNUMERIC',['../namespacets.html#ac7e055e7ef7b6e3e2d04a2744b2142cfaa2d1bf81289ee39f5819366aa003775e',1,'ts']]],
-  ['bid_5ftvnumeric_5fastra',['BID_TVNUMERIC_ASTRA',['../namespacets.html#ac7e055e7ef7b6e3e2d04a2744b2142cfab2f1ecd8398a5712afd7d79d08f767a0',1,'ts']]],
-  ['bid_5ftvnumeric_5feutelsat',['BID_TVNUMERIC_EUTELSAT',['../namespacets.html#ac7e055e7ef7b6e3e2d04a2744b2142cfa3e5052a523c8b6a8bea580345275540b',1,'ts']]],
+  ['bid_5ftvnumeric',['BID_TVNUMERIC',['../namespacets.html#a1f630b72bfe5d8444b70ed5c591f79dbaa2d1bf81289ee39f5819366aa003775e',1,'ts']]],
+  ['bid_5ftvnumeric_5fastra',['BID_TVNUMERIC_ASTRA',['../namespacets.html#a1f630b72bfe5d8444b70ed5c591f79dbab2f1ecd8398a5712afd7d79d08f767a0',1,'ts']]],
+  ['bid_5ftvnumeric_5feutelsat',['BID_TVNUMERIC_EUTELSAT',['../namespacets.html#a1f630b72bfe5d8444b70ed5c591f79dba3e5052a523c8b6a8bea580345275540b',1,'ts']]],
   ['bin_5fnibble',['BIN_NIBBLE',['../classts_1_1_u_string.html#a95e758037651fab003f10b568b08cb46ae537565b2b54076ff5177385d44b0e9f',1,'ts::UString']]],
   ['binary',['BINARY',['../classts_1_1_section_file.html#a75224199b84e723779507df1624076a8aad3336fa13210d7be87251b32e32db72',1,'ts::SectionFile::BINARY()'],['../classts_1_1_u_string.html#a95e758037651fab003f10b568b08cb46ab64e5ff12cf560fa6b044102cb03ba57',1,'ts::UString::BINARY()']]],
   ['bit16',['BIT16',['../classts_1_1_arg_mix.html#a5f929024b6e46d6b9efb25dcd56cf48dacc313f644fdba02610a2e1a8730d54ac',1,'ts::ArgMix']]],

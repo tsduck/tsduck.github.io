@@ -37,7 +37,7 @@
  <tr style="height: 56px;">
   <td id="projectlogo"><img src="tsduck-32.png"/></td>
    <td id="projectalign"><span id="projectname">TSDuck</span>
-    <span id="projectnumber">Version 3.9-574</span>
+    <span id="projectnumber">Version 3.9-581</span>
     <span id="projectbrief">(TSDuck - The MPEG Transport Stream Toolkit)</span>
    </td>
    <td>        <div id="MSearchBox" class="MSearchBoxInactive">
@@ -106,7 +106,7 @@ $(document).ready(function(){initNavTree('building.html','');});
 <ul><li class="level1"><a href="#buildreq">Pre-requisites: build tools</a><ul><li class="level2"><a href="#reqwindows">Windows</a></li>
 <li class="level2"><a href="#reqfedora">Fedora</a></li>
 <li class="level2"><a href="#reqrhel">Red Hat Entreprise Linux, CentOS</a></li>
-<li class="level2"><a href="#requbuntu">Ubuntu</a></li>
+<li class="level2"><a href="#requbuntu">Ubuntu, Debian, Raspbian</a></li>
 <li class="level2"><a href="#reqlinux">All Linux distros</a></li>
 <li class="level2"><a href="#reqmac">macOS</a></li>
 </ul>
@@ -117,7 +117,7 @@ $(document).ready(function(){initNavTree('building.html','');});
 </li>
 <li class="level1"><a href="#buildinst">Building the TSDuck installers</a><ul><li class="level2"><a href="#instwindows">Windows</a></li>
 <li class="level2"><a href="#instrhel">Fedora, CentOS, Red Hat Entreprise Linux</a></li>
-<li class="level2"><a href="#instubuntu">Ubuntu</a></li>
+<li class="level2"><a href="#instubuntu">Ubuntu, Debian, Raspbian</a></li>
 <li class="level2"><a href="#instfiles">Installer files</a></li>
 </ul>
 </li>
@@ -140,19 +140,19 @@ Windows</h2>
 <h2><a class="anchor" id="reqfedora"></a>
 Fedora</h2>
 <ul>
-<li>Setup for a TSDuck native build: <div class="fragment"><div class="line">dnf install gcc-c++ doxygen graphviz curl pcsc-tools pcsc-lite-devel cppunit-devel libcurl libcurl-devel</div></div><!-- fragment --></li>
+<li>Setup for a TSDuck native build: <div class="fragment"><div class="line">dnf install gcc-c++ doxygen dos2unix graphviz curl pcsc-tools pcsc-lite-devel cppunit-devel libcurl libcurl-devel</div></div><!-- fragment --></li>
 <li>Setup to build 32-bit TSDuck on 64-bit system (command <code>make m32</code>): <div class="fragment"><div class="line">dnf install glibc-devel.i686 libstdc++-devel.i686 pcsc-lite-devel.i686 cppunit-devel.i686 libcurl-devel.i686</div></div><!-- fragment --></li>
 </ul>
 <h2><a class="anchor" id="reqrhel"></a>
 Red Hat Entreprise Linux, CentOS</h2>
 <ul>
-<li>Setup for a TSDuck native build: <div class="fragment"><div class="line">yum install gcc-c++ doxygen graphviz curl pcsc-tools pcsc-lite-devel cppunit-devel libcurl libcurl-devel</div></div><!-- fragment --></li>
+<li>Setup for a TSDuck native build: <div class="fragment"><div class="line">yum install gcc-c++ doxygen dos2unix graphviz curl pcsc-tools pcsc-lite-devel cppunit-devel libcurl libcurl-devel</div></div><!-- fragment --></li>
 <li>Setup to build 32-bit TSDuck on 64-bit system (command <code>make m32</code>): <div class="fragment"><div class="line">yum install glibc-devel.i686 libstdc++-devel.i686 pcsc-lite-devel.i686 cppunit-devel.i686 libcurl-devel.i686</div></div><!-- fragment --></li>
 </ul>
 <h2><a class="anchor" id="requbuntu"></a>
-Ubuntu</h2>
+Ubuntu, Debian, Raspbian</h2>
 <ul>
-<li>Setup for a TSDuck native build: <div class="fragment"><div class="line">apt-get install g++ doxygen graphviz curl pcscd libpcsclite-dev libcppunit-dev libcurl3 libcurl3-dev</div></div><!-- fragment --></li>
+<li>Setup for a TSDuck native build: <div class="fragment"><div class="line">apt-get install g++ doxygen dos2unix graphviz curl pcscd libpcsclite-dev libcppunit-dev libcurl3 libcurl3-dev</div></div><!-- fragment --></li>
 <li>It is not possible to build 32-bit TSDuck on 64-bit Ubuntu system (command <code>make m32</code>) because there is no 32-bit cross-compiled package for pcsc and cppunit on Ubuntu 64-bit.</li>
 </ul>
 <h2><a class="anchor" id="reqlinux"></a>
@@ -187,46 +187,50 @@ Windows</h2>
 Fedora, CentOS, Red Hat Entreprise Linux</h2>
 <p>Execute the command <code>make rpm</code> at top level to build a <code>.rpm</code> package for the same architecture as the build system. On 64-bit systems, execute the command <code>make rpm32</code> to build a 32-bit package.</p>
 <h2><a class="anchor" id="instubuntu"></a>
-Ubuntu</h2>
+Ubuntu, Debian, Raspbian</h2>
 <p>Execute the command <code>make deb</code> at top level to build a <code>.deb</code> package for the same architecture as the build system.</p>
 <h2><a class="anchor" id="instfiles"></a>
 Installer files</h2>
-<p>The following table summarizes the packages which are built and dropped into the <code>installers</code> directory, through a few examples, assuming that the current version of TSDuck is 3.7-512.</p>
+<p>The following table summarizes the packages which are built and dropped into the <code>installers</code> directory, through a few examples, assuming that the current version of TSDuck is 3.9-580.</p>
 <table class="markdownTable">
 <tr class="markdownTableHead">
 <th class="markdownTableHeadNone">File name  </th><th class="markdownTableHeadNone">Description   </th></tr>
 <tr class="markdownTableBody" class="markdownTableRowOdd">
-<td class="markdownTableBodyNone">TSDduck-3.7-512-src.zip  </td><td class="markdownTableBodyNone">Source archive on Windows   </td></tr>
+<td class="markdownTableBodyNone">TSDduck-3.9-580-src.zip  </td><td class="markdownTableBodyNone">Source archive on Windows   </td></tr>
 <tr class="markdownTableBody" class="markdownTableRowEven">
-<td class="markdownTableBodyNone">tsduck-3.7-512.tgz  </td><td class="markdownTableBodyNone">Source archive on Linux and macOS   </td></tr>
+<td class="markdownTableBodyNone">tsduck-3.9-580.tgz  </td><td class="markdownTableBodyNone">Source archive on Linux and macOS   </td></tr>
 <tr class="markdownTableBody" class="markdownTableRowOdd">
-<td class="markdownTableBodyNone">tsduck_3.7-512_amd64.deb  </td><td class="markdownTableBodyNone">Binary package for 64-bit Ubuntu   </td></tr>
+<td class="markdownTableBodyNone">tsduck_3.9-580_amd64.deb  </td><td class="markdownTableBodyNone">Binary package for 64-bit Ubuntu   </td></tr>
 <tr class="markdownTableBody" class="markdownTableRowEven">
-<td class="markdownTableBodyNone">tsduck-3.7-512.el7.i386.rpm  </td><td class="markdownTableBodyNone">Binary package for 32-bit Red Hat or CentOS 7.x   </td></tr>
+<td class="markdownTableBodyNone">tsduck_3.9-580_armhf.deb  </td><td class="markdownTableBodyNone">Binary package for 32-bit Raspbian (Raspberry Pi)   </td></tr>
 <tr class="markdownTableBody" class="markdownTableRowOdd">
-<td class="markdownTableBodyNone">tsduck-3.7-512.el7.x86_64.rpm  </td><td class="markdownTableBodyNone">Binary package for 64-bit Red Hat or CentOS 7.x   </td></tr>
+<td class="markdownTableBodyNone">tsduck-3.9-580.el7.i386.rpm  </td><td class="markdownTableBodyNone">Binary package for 32-bit Red Hat or CentOS 7.x   </td></tr>
 <tr class="markdownTableBody" class="markdownTableRowEven">
-<td class="markdownTableBodyNone">tsduck-3.7-512.el7.src.rpm  </td><td class="markdownTableBodyNone">Source package for Red Hat or CentOS 7.x   </td></tr>
+<td class="markdownTableBodyNone">tsduck-3.9-580.el7.x86_64.rpm  </td><td class="markdownTableBodyNone">Binary package for 64-bit Red Hat or CentOS 7.x   </td></tr>
 <tr class="markdownTableBody" class="markdownTableRowOdd">
-<td class="markdownTableBodyNone">tsduck-3.7-512.fc25.i386.rpm  </td><td class="markdownTableBodyNone">Binary package for 32-bit Fedora 25   </td></tr>
+<td class="markdownTableBodyNone">tsduck-3.9-580.el7.src.rpm  </td><td class="markdownTableBodyNone">Source package for Red Hat or CentOS 7.x   </td></tr>
 <tr class="markdownTableBody" class="markdownTableRowEven">
-<td class="markdownTableBodyNone">tsduck-3.7-512.fc25.x86_64.rpm  </td><td class="markdownTableBodyNone">Binary package for 64-bit Fedora 25   </td></tr>
+<td class="markdownTableBodyNone">tsduck-3.9-580.fc25.i386.rpm  </td><td class="markdownTableBodyNone">Binary package for 32-bit Fedora 25   </td></tr>
 <tr class="markdownTableBody" class="markdownTableRowOdd">
-<td class="markdownTableBodyNone">tsduck-3.7-512.fc25.src.rpm  </td><td class="markdownTableBodyNone">Source package for Fedora 25   </td></tr>
+<td class="markdownTableBodyNone">tsduck-3.9-580.fc25.x86_64.rpm  </td><td class="markdownTableBodyNone">Binary package for 64-bit Fedora 25   </td></tr>
 <tr class="markdownTableBody" class="markdownTableRowEven">
-<td class="markdownTableBodyNone">tsduck-dev_3.7-512_amd64.deb  </td><td class="markdownTableBodyNone">Development package for 64-bit Ubuntu   </td></tr>
+<td class="markdownTableBodyNone">tsduck-3.9-580.fc25.src.rpm  </td><td class="markdownTableBodyNone">Source package for Fedora 25   </td></tr>
 <tr class="markdownTableBody" class="markdownTableRowOdd">
-<td class="markdownTableBodyNone">tsduck-devel-3.7-512.el7.i386.rpm  </td><td class="markdownTableBodyNone">Development package for 32-bit Red Hat or CentOS 7.x   </td></tr>
+<td class="markdownTableBodyNone">tsduck-dev_3.9-580_amd64.deb  </td><td class="markdownTableBodyNone">Development package for 64-bit Ubuntu   </td></tr>
 <tr class="markdownTableBody" class="markdownTableRowEven">
-<td class="markdownTableBodyNone">tsduck-devel-3.7-512.el7.x86_64.rpm  </td><td class="markdownTableBodyNone">Development package for 64-bit Red Hat or CentOS 7.x   </td></tr>
+<td class="markdownTableBodyNone">tsduck-dev_3.9-580_armhf.deb  </td><td class="markdownTableBodyNone">Development package for 32-bit Raspbian (Raspberry Pi)   </td></tr>
 <tr class="markdownTableBody" class="markdownTableRowOdd">
-<td class="markdownTableBodyNone">tsduck-devel-3.7-512.fc25.i386.rpm  </td><td class="markdownTableBodyNone">Development package for 32-bit Fedora 25   </td></tr>
+<td class="markdownTableBodyNone">tsduck-devel-3.9-580.el7.i386.rpm  </td><td class="markdownTableBodyNone">Development package for 32-bit Red Hat or CentOS 7.x   </td></tr>
 <tr class="markdownTableBody" class="markdownTableRowEven">
-<td class="markdownTableBodyNone">tsduck-devel-3.7-512.fc25.x86_64.rpm  </td><td class="markdownTableBodyNone">Development package for 64-bit Fedora 25   </td></tr>
+<td class="markdownTableBodyNone">tsduck-devel-3.9-580.el7.x86_64.rpm  </td><td class="markdownTableBodyNone">Development package for 64-bit Red Hat or CentOS 7.x   </td></tr>
 <tr class="markdownTableBody" class="markdownTableRowOdd">
-<td class="markdownTableBodyNone">TSDuck-Win32-3.7-512.exe  </td><td class="markdownTableBodyNone">Binary package for 32-bit Windows   </td></tr>
+<td class="markdownTableBodyNone">tsduck-devel-3.9-580.fc25.i386.rpm  </td><td class="markdownTableBodyNone">Development package for 32-bit Fedora 25   </td></tr>
 <tr class="markdownTableBody" class="markdownTableRowEven">
-<td class="markdownTableBodyNone">TSDuck-Win64-3.7-512.exe  </td><td class="markdownTableBodyNone">Binary package for 64-bit Windows   </td></tr>
+<td class="markdownTableBodyNone">tsduck-devel-3.9-580.fc25.x86_64.rpm  </td><td class="markdownTableBodyNone">Development package for 64-bit Fedora 25   </td></tr>
+<tr class="markdownTableBody" class="markdownTableRowOdd">
+<td class="markdownTableBodyNone">TSDuck-Win32-3.9-580.exe  </td><td class="markdownTableBodyNone">Binary package for 32-bit Windows   </td></tr>
+<tr class="markdownTableBody" class="markdownTableRowEven">
+<td class="markdownTableBodyNone">TSDuck-Win64-3.9-580.exe  </td><td class="markdownTableBodyNone">Binary package for 64-bit Windows   </td></tr>
 </table>
 <p>On Linux systems, there are two different packages. The package <code>tsduck</code> contains the tools and plugins. This is the only required package if you just need to use TSDuck. The package named <code>tsduck-devel</code> (or <code>tsduck-dev</code> on Ubuntu) contains the development environment. It is useful only for third-party applications which use the TSDuck library.</p>
 <p>On Windows systems, there is only one binary installer which contains the tools, plugins, documentation and development environment. The user can select which components shall be installed. The development environment is unselected by default. </p>
