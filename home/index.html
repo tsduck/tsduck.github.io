@@ -19,6 +19,7 @@
           <a href="#tsduck">Introduction to TSDuck</a>
           <a href="#tsp">The TS processor</a>
           <a href="#castest">Example: A CAS test bed</a>
+          <a href="#mpedemo">Example: MPE demo</a>
           <a href="#tstabcomp">The PSI/SI table compiler</a>
           <a href="#prog">Using TSDuck as a library</a>
           <a href="#avail">Availability</a>
@@ -162,6 +163,34 @@ tsp -I dvb -u $UHF_INPUT                                      \
           On Windows systems, you may use PowerShell, Cygwin or MSys (DOS command line windows
           should now be reserved to polymorphic deviants only).</p>
 
+        <div class="anchor" id="mpedemo"><h2>Example: MPE injection and extraction</h2></div>
+
+        <p>This example describes a test bed or demo infrastructure for MPE injection and MPE
+          extraction. The network infrastructure is illustrated in the diagram below.</p>
+        <div class="w3-center"><img src="mpedemo.png"/></div>
+        <p>In network 1, a media server multicasts a transport stream on address 224.250.250.1,
+          port 9000. We want to encapsulate this UDP multicast stream in an existing transport
+          stream using MPE. This existing TS is a live satellite feed which is received using
+          a DVB tuner.</p>
+        <p>We also change the multicast destination address for the UDP stream to 230.2.3.4,
+          port 7000, in the MPE-encapsulated datagrams. There is no particular reason for this,
+          we just illustrate the feasibility.</p>
+        <p>The resulting transport stream with embedded MPE is then broadcast. Here, the
+          broadcast network is a Dektec modulator, followed by another computer using a
+          DVB tuner.</p>
+        <p>This computer is connected to a second network. Another instance of <i>tsp</i>
+          extracts the datagrams from the MPE stream and multicasts them on its network
+          using the modified destination address.</p>
+        <p>The first <i>tsp</i> command adds two services in the existing transport
+          stream. One service carries the IP/MAC Notification Table (INT). The other
+          one carries the MPE stream. We create a fully DVB-conformant signalization
+          for these two services.</p>
+        <p>The second <i>tsp</i> command extracts the MPE stream from the received
+          TS and forwards all decapsulated UDP multicast datagrams on the local network.</p>
+        <p>This example is fully described in the
+          <a href="https://github.com/tsduck/tsduck/raw/master/doc/tsduck.pdf">TSDuck User's Guide</a>
+          with all details and corresponding commands.</p>
+        
         <div class="anchor" id="tstabcomp"><h2>The PSI/SI table compiler</h2></div>
 
         <p>TSDuck provides many ways to manipulate PSI/SI and other types of MPEG tables.
@@ -185,7 +214,8 @@ tsp -I dvb -u $UHF_INPUT                                      \
 
         <h3>Sample XML source file</h3>
 
-        <p>The expected XML input format is fully documented in the TSDuck user's guide.
+        <p>The expected XML input format is fully documented in the
+          <a href="https://github.com/tsduck/tsduck/raw/master/doc/tsduck.pdf">TSDuck User's Guide</a>.
           Briefly, an input XML file uses <emcode>&lt;tsduck&gt;</emcode> as root node. The root node contains
           any number of tables. The following sample XML file contains the definition for
           simple (and incomplete) PAT and PMT:</p>
@@ -269,8 +299,9 @@ tsp -I dvb --uhf 24 \
 
         <p>In fact, there is no need to explicitly decompile and recompile the table.
           Most TSDuck commands which manipulate tables and sections can use binary
-          section files or XML file indifferently (see the TSDuck user's guide for
-          more details).</p>
+          section files or XML file indifferently (see the
+          <a href="https://github.com/tsduck/tsduck/raw/master/doc/tsduck.pdf">TSDuck User's Guide</a>
+          for more details).</p>
 
         <p>We can save the table directly in XML format:</p>
 <pre>
