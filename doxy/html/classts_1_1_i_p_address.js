@@ -20,6 +20,7 @@ var classts_1_1_i_p_address =
     [ "copy", "classts_1_1_i_p_address.html#a7790a2b7c3a476293cb86b944c4642e7", null ],
     [ "copy", "classts_1_1_i_p_address.html#ad2de8d35ced82185438243a5fcd1fa2a", null ],
     [ "resolve", "classts_1_1_i_p_address.html#ac8fb17f55d6eb06fa0224e17f325c66d", null ],
+    [ "match", "classts_1_1_i_p_address.html#afecf6b8f7bfc908d748e7aedf979989f", null ],
     [ "toString", "classts_1_1_i_p_address.html#a865370fb7ad0d8c205654d31b6e50667", null ],
     [ "operator<", "classts_1_1_i_p_address.html#a9879e74995f015673270ea167f617e11", null ],
     [ "AnyAddress", "classts_1_1_i_p_address.html#af4294b58b0d7a036aea174cbc84114aa", null ],

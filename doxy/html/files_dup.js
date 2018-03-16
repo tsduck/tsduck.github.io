@@ -398,7 +398,13 @@ var files_dup =
       [ "Monotonic", "classts_1_1_monotonic.html", "classts_1_1_monotonic" ],
       [ "MonotonicError", "classts_1_1_monotonic_1_1_monotonic_error.html", "classts_1_1_monotonic_1_1_monotonic_error" ]
     ] ],
+    [ "tsMPEDemux.h", "ts_m_p_e_demux_8h.html", [
+      [ "MPEDemux", "classts_1_1_m_p_e_demux.html", "classts_1_1_m_p_e_demux" ]
+    ] ],
     [ "tsMPEG.h", "ts_m_p_e_g_8h.html", "ts_m_p_e_g_8h" ],
+    [ "tsMPEHandlerInterface.h", "ts_m_p_e_handler_interface_8h.html", [
+      [ "MPEHandlerInterface", "classts_1_1_m_p_e_handler_interface.html", "classts_1_1_m_p_e_handler_interface" ]
+    ] ],
     [ "tsMPEPacket.h", "ts_m_p_e_packet_8h.html", [
       [ "MPEPacket", "classts_1_1_m_p_e_packet.html", "classts_1_1_m_p_e_packet" ]
     ] ],
@@ -827,6 +833,9 @@ var files_dup =
     ] ],
     [ "tsTunerUtils.h", "ts_tuner_utils_8h.html", "ts_tuner_utils_8h" ],
     [ "tsUChar.h", "ts_u_char_8h.html", "ts_u_char_8h" ],
+    [ "tsUDPReceiver.h", "ts_u_d_p_receiver_8h.html", [
+      [ "UDPReceiver", "classts_1_1_u_d_p_receiver.html", "classts_1_1_u_d_p_receiver" ]
+    ] ],
     [ "tsUDPSocket.h", "ts_u_d_p_socket_8h.html", [
       [ "UDPSocket", "classts_1_1_u_d_p_socket.html", "classts_1_1_u_d_p_socket" ]
     ] ],

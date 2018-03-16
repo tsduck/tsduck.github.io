@@ -37,7 +37,7 @@
  <tr style="height: 56px;">
   <td id="projectlogo"><img src="tsduck-32.png"/></td>
    <td id="projectalign"><span id="projectname">TSDuck</span>
-    <span id="projectnumber">Version 3.9-581</span>
+    <span id="projectnumber">Version 3.9-618</span>
     <span id="projectbrief">(TSDuck - The MPEG Transport Stream Toolkit)</span>
    </td>
    <td>        <div id="MSearchBox" class="MSearchBoxInactive">
@@ -125,6 +125,9 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:adfe93c1b4bf3635822c76ea4ac2e82ba"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structts_1_1_p_m_t_1_1_stream.html#adfe93c1b4bf3635822c76ea4ac2e82ba">Stream</a> (const <a class="el" href="classts_1_1_abstract_table.html">AbstractTable</a> *table, uint8_t type=0)</td></tr>
 <tr class="memdesc:adfe93c1b4bf3635822c76ea4ac2e82ba"><td class="mdescLeft">&#160;</td><td class="mdescRight">Constructor.  <a href="#adfe93c1b4bf3635822c76ea4ac2e82ba">More...</a><br /></td></tr>
 <tr class="separator:adfe93c1b4bf3635822c76ea4ac2e82ba"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8e5631b5d46eda7c86cea21bcf1fe17c"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structts_1_1_p_m_t_1_1_stream.html#a8e5631b5d46eda7c86cea21bcf1fe17c">getComponentTag</a> (uint8_t &amp;tag) const</td></tr>
+<tr class="memdesc:a8e5631b5d46eda7c86cea21bcf1fe17c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Look for a component tag in a stream_identifier_descriptor.  <a href="#a8e5631b5d46eda7c86cea21bcf1fe17c">More...</a><br /></td></tr>
+<tr class="separator:a8e5631b5d46eda7c86cea21bcf1fe17c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a8d21559e10ef237db9bc6a5a94636da3"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structts_1_1_p_m_t_1_1_stream.html#a8d21559e10ef237db9bc6a5a94636da3">isAudio</a> () const</td></tr>
 <tr class="memdesc:a8d21559e10ef237db9bc6a5a94636da3"><td class="mdescLeft">&#160;</td><td class="mdescRight">Check if an elementary stream carries audio.  <a href="#a8d21559e10ef237db9bc6a5a94636da3">More...</a><br /></td></tr>
 <tr class="separator:a8d21559e10ef237db9bc6a5a94636da3"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -249,6 +252,33 @@ uint8_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="s
 
 <p>Check if an elementary stream carries subtitles. </p>
 <p>Does not just look at the stream type. Also analyzes the descriptor list for additional information. </p><dl class="section return"><dt>Returns</dt><dd>True if the elementary stream carries subtitles. </dd></dl>
+
+</div>
+</div>
+<a id="a8e5631b5d46eda7c86cea21bcf1fe17c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8e5631b5d46eda7c86cea21bcf1fe17c">&#9670;&nbsp;</a></span>getComponentTag()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool ts::PMT::Stream::getComponentTag </td>
+          <td>(</td>
+          <td class="paramtype">uint8_t &amp;&#160;</td>
+          <td class="paramname"><em>tag</em></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Look for a component tag in a stream_identifier_descriptor. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[out]</td><td class="paramname">tag</td><td>First component tag found, unmodified if none found. </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>True if a component tag was found. </dd></dl>
 
 </div>
 </div>

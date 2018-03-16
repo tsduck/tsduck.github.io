@@ -37,7 +37,7 @@
  <tr style="height: 56px;">
   <td id="projectlogo"><img src="tsduck-32.png"/></td>
    <td id="projectalign"><span id="projectname">TSDuck</span>
-    <span id="projectnumber">Version 3.9-581</span>
+    <span id="projectnumber">Version 3.9-618</span>
     <span id="projectbrief">(TSDuck - The MPEG Transport Stream Toolkit)</span>
    </td>
    <td>        <div id="MSearchBox" class="MSearchBoxInactive">
@@ -115,12 +115,13 @@ Inheritance diagram for ts::AbstractDemux:</div>
 <div class="dyncontent">
 <div class="center"><img src="classts_1_1_abstract_demux__inherit__graph.png" border="0" usemap="#ts_1_1_abstract_demux_inherit__map" alt="Inheritance graph"/></div>
 <map name="ts_1_1_abstract_demux_inherit__map" id="ts_1_1_abstract_demux_inherit__map">
-<area shape="rect" id="node2" href="classts_1_1_section_demux.html" title="This class rebuilds MPEG tables and sections from TS packets. " alt="" coords="33,79,159,104"/>
-<area shape="rect" id="node4" href="classts_1_1_t2_m_i_demux.html" title="This class analyzes T2&#45;MI (DVB&#45;T2 Modulator Interface) from TS packets. " alt="" coords="182,79,294,104"/>
-<area shape="rect" id="node5" href="classts_1_1_time_tracker_demux.html" title="A demux which tracks time stamps per PID. " alt="" coords="318,79,473,104"/>
-<area shape="rect" id="node3" href="classts_1_1_standalone_table_demux.html" title="A SectionDemux which extracts MPEG tables without external handler. " alt="" coords="5,152,186,177"/>
-<area shape="rect" id="node6" href="classts_1_1_p_e_s_demux.html" title="This class extracts PES packets from TS packets. " alt="" coords="342,152,450,177"/>
-<area shape="rect" id="node7" href="classts_1_1_teletext_demux.html" title="This class extracts Teletext subtitles from TS packets. " alt="" coords="332,225,459,251"/>
+<area shape="rect" id="node2" href="classts_1_1_m_p_e_demux.html" title="This class extracts MPE (Multi&#45;Protocol Encapsulation) datagrams from TS packets. ..." alt="" coords="5,79,116,104"/>
+<area shape="rect" id="node3" href="classts_1_1_section_demux.html" title="This class rebuilds MPEG tables and sections from TS packets. " alt="" coords="140,79,266,104"/>
+<area shape="rect" id="node5" href="classts_1_1_t2_m_i_demux.html" title="This class analyzes T2&#45;MI (DVB&#45;T2 Modulator Interface) from TS packets. " alt="" coords="290,79,402,104"/>
+<area shape="rect" id="node6" href="classts_1_1_time_tracker_demux.html" title="A demux which tracks time stamps per PID. " alt="" coords="426,79,581,104"/>
+<area shape="rect" id="node4" href="classts_1_1_standalone_table_demux.html" title="A SectionDemux which extracts MPEG tables without external handler. " alt="" coords="113,152,293,177"/>
+<area shape="rect" id="node7" href="classts_1_1_p_e_s_demux.html" title="This class extracts PES packets from TS packets. " alt="" coords="449,152,557,177"/>
+<area shape="rect" id="node8" href="classts_1_1_teletext_demux.html" title="This class extracts Teletext subtitles from TS packets. " alt="" coords="439,225,567,251"/>
 </map>
 <center><span class="legend">[<a target="top" href="graph_legend.html">legend</a>]</span></center></div>
 <table class="memberdecls">
@@ -256,7 +257,7 @@ Protected Attributes</h2></td></tr>
   </dd>
 </dl>
 
-<p>Reimplemented in <a class="el" href="classts_1_1_t2_m_i_demux.html#a641295483156286df304399d57fb2273">ts::T2MIDemux</a>, <a class="el" href="classts_1_1_section_demux.html#a10eb64779211ee63543f87d28785d70f">ts::SectionDemux</a>, <a class="el" href="classts_1_1_time_tracker_demux.html#a7ac7881705275d1a6cfba9a120cc7603">ts::TimeTrackerDemux</a>, and <a class="el" href="classts_1_1_p_e_s_demux.html#a1008607b0c084a0dc86e939ecfb5d729">ts::PESDemux</a>.</p>
+<p>Reimplemented in <a class="el" href="classts_1_1_t2_m_i_demux.html#a641295483156286df304399d57fb2273">ts::T2MIDemux</a>, <a class="el" href="classts_1_1_m_p_e_demux.html#a5129d86bed5582657a2ec52b7eb10150">ts::MPEDemux</a>, <a class="el" href="classts_1_1_section_demux.html#a10eb64779211ee63543f87d28785d70f">ts::SectionDemux</a>, <a class="el" href="classts_1_1_time_tracker_demux.html#a7ac7881705275d1a6cfba9a120cc7603">ts::TimeTrackerDemux</a>, and <a class="el" href="classts_1_1_p_e_s_demux.html#a1008607b0c084a0dc86e939ecfb5d729">ts::PESDemux</a>.</p>
 
 </div>
 </div>
@@ -326,6 +327,8 @@ Protected Attributes</h2></td></tr>
   </dd>
 </dl>
 
+<p>Reimplemented in <a class="el" href="classts_1_1_m_p_e_demux.html#a230736d457d051ca169a2d5f3f999eec">ts::MPEDemux</a>.</p>
+
 </div>
 </div>
 <a id="a6f16607b21eda1934624042a2b5aac2e"></a>
@@ -360,6 +363,8 @@ Protected Attributes</h2></td></tr>
   </dd>
 </dl>
 
+<p>Reimplemented in <a class="el" href="classts_1_1_m_p_e_demux.html#a7807c9d0102294a75b1cec87241cfe8f">ts::MPEDemux</a>.</p>
+
 </div>
 </div>
 <a id="af91b7696b93dc51bee12bc4c49f80c3a"></a>
@@ -393,6 +398,8 @@ Protected Attributes</h2></td></tr>
   </table>
   </dd>
 </dl>
+
+<p>Reimplemented in <a class="el" href="classts_1_1_m_p_e_demux.html#a4958a20fee2b5685475efca2809ebf26">ts::MPEDemux</a>.</p>
 
 </div>
 </div>

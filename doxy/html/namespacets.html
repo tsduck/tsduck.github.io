@@ -37,7 +37,7 @@
  <tr style="height: 56px;">
   <td id="projectlogo"><img src="tsduck-32.png"/></td>
    <td id="projectalign"><span id="projectname">TSDuck</span>
-    <span id="projectnumber">Version 3.9-581</span>
+    <span id="projectnumber">Version 3.9-618</span>
     <span id="projectbrief">(TSDuck - The MPEG Transport Stream Toolkit)</span>
    </td>
    <td>        <div id="MSearchBox" class="MSearchBoxInactive">
@@ -547,6 +547,12 @@ Classes</h2></td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classts_1_1_monotonic.html">Monotonic</a></td></tr>
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Basic monotonic clock &amp; timer.  <a href="classts_1_1_monotonic.html#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classts_1_1_m_p_e_demux.html">MPEDemux</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">This class extracts MPE (Multi-Protocol Encapsulation) datagrams from TS packets.  <a href="classts_1_1_m_p_e_demux.html#details">More...</a><br /></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classts_1_1_m_p_e_handler_interface.html">MPEHandlerInterface</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">MPE (Multi-Protocol Encapsulation) demux handler interface.  <a href="classts_1_1_m_p_e_handler_interface.html#details">More...</a><br /></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classts_1_1_m_p_e_packet.html">MPEPacket</a></td></tr>
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Representation of a packet for MPE (Multi-Protocol Encapsulation).  <a href="classts_1_1_m_p_e_packet.html#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -999,6 +1005,9 @@ Classes</h2></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classts_1_1_tuner_parameters_d_v_b_t.html">TunerParametersDVBT</a></td></tr>
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">DVB-T / DVB-T2 (terrestrial, OFDM) tuners parameters.  <a href="classts_1_1_tuner_parameters_d_v_b_t.html#details">More...</a><br /></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classts_1_1_u_d_p_receiver.html">UDPReceiver</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">UDP datagram receiver with common command line options.  <a href="classts_1_1_u_d_p_receiver.html#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classts_1_1_u_d_p_socket.html">UDPSocket</a></td></tr>
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">UDP <a class="el" href="classts_1_1_socket.html" title="Base class for TCP and UDP sockets. ">Socket</a>.  <a href="classts_1_1_u_d_p_socket.html#details">More...</a><br /></td></tr>
@@ -2734,16 +2743,20 @@ Enumerations</h2></td></tr>
 <tr class="memitem:a14bb51c4b1573092910ab6fdec459e31"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacets.html#a14bb51c4b1573092910ab6fdec459e31">BandWidth</a> { <br />
 &#160;&#160;<a class="el" href="namespacets.html#a14bb51c4b1573092910ab6fdec459e31afb16b9f94267bd78db001355f4b365b1">BW_AUTO</a>, 
 <br />
-&#160;&#160;<a class="el" href="namespacets.html#a14bb51c4b1573092910ab6fdec459e31a9acc07f7aeaf8984f32f381076d1e9c8">BW_8_MHZ</a>, 
+&#160;&#160;<a class="el" href="namespacets.html#a14bb51c4b1573092910ab6fdec459e31a83bcf9669fa079ce95687ed534603539">BW_1_712_MHZ</a>, 
 <br />
-&#160;&#160;<a class="el" href="namespacets.html#a14bb51c4b1573092910ab6fdec459e31a25fe22090defe689c68444ba9d63ec5f">BW_7_MHZ</a>, 
+&#160;&#160;<a class="el" href="namespacets.html#a14bb51c4b1573092910ab6fdec459e31a48d8795184580cd5ceeee470bf3e8aa0">BW_5_MHZ</a>, 
 <br />
 &#160;&#160;<a class="el" href="namespacets.html#a14bb51c4b1573092910ab6fdec459e31a35a58784bef0d136add5b6ab207f89bb">BW_6_MHZ</a>, 
 <br />
-&#160;&#160;<a class="el" href="namespacets.html#a14bb51c4b1573092910ab6fdec459e31a48d8795184580cd5ceeee470bf3e8aa0">BW_5_MHZ</a>
+&#160;&#160;<a class="el" href="namespacets.html#a14bb51c4b1573092910ab6fdec459e31a25fe22090defe689c68444ba9d63ec5f">BW_7_MHZ</a>, 
+<br />
+&#160;&#160;<a class="el" href="namespacets.html#a14bb51c4b1573092910ab6fdec459e31a9acc07f7aeaf8984f32f381076d1e9c8">BW_8_MHZ</a>, 
+<br />
+&#160;&#160;<a class="el" href="namespacets.html#a14bb51c4b1573092910ab6fdec459e31aede35c8243104e7562fb970951305ff8">BW_10_MHZ</a>
 <br />
  }</td></tr>
-<tr class="memdesc:a14bb51c4b1573092910ab6fdec459e31"><td class="mdescLeft">&#160;</td><td class="mdescRight">Bandwidth (OFDM)  <a href="namespacets.html#a14bb51c4b1573092910ab6fdec459e31">More...</a><br /></td></tr>
+<tr class="memdesc:a14bb51c4b1573092910ab6fdec459e31"><td class="mdescLeft">&#160;</td><td class="mdescRight">Bandwidth (OFDM, DVB-T/T2)  <a href="namespacets.html#a14bb51c4b1573092910ab6fdec459e31">More...</a><br /></td></tr>
 <tr class="separator:a14bb51c4b1573092910ab6fdec459e31"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:acabdd963f028076d6599f6712b236b47"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacets.html#acabdd963f028076d6599f6712b236b47">CaseSensitivity</a> { <br />
 &#160;&#160;<a class="el" href="namespacets.html#acabdd963f028076d6599f6712b236b47a7a39a55c5b22c9b352ea346bcebb06fd">CASE_SENSITIVE</a>, 
@@ -3588,6 +3601,9 @@ Functions</h2></td></tr>
 <tr class="memitem:a3acb4b51ebe5d40154671991727cac13"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacets.html#a3acb4b51ebe5d40154671991727cac13">IsUpper</a> (<a class="el" href="namespacets.html#a7e3244e77fae7815254d87d2ebdb7bd0">UChar</a> c)</td></tr>
 <tr class="memdesc:a3acb4b51ebe5d40154671991727cac13"><td class="mdescLeft">&#160;</td><td class="mdescRight">Check if a character is an upper case letter.  <a href="#a3acb4b51ebe5d40154671991727cac13">More...</a><br /></td></tr>
 <tr class="separator:a3acb4b51ebe5d40154671991727cac13"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a609013dfb0db5080921bc69033908fb8"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacets.html#a609013dfb0db5080921bc69033908fb8">IsValidBCD</a> (uint8_t b)</td></tr>
+<tr class="memdesc:a609013dfb0db5080921bc69033908fb8"><td class="mdescLeft">&#160;</td><td class="mdescRight">Check if a byte is a valid Binary Coded Decimal (BCD) value.  <a href="#a609013dfb0db5080921bc69033908fb8">More...</a><br /></td></tr>
+<tr class="separator:a609013dfb0db5080921bc69033908fb8"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a4cc03c60ce8759943ed1ed873c30edfc"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacets.html#a4cc03c60ce8759943ed1ed873c30edfc">IsVideoSID</a> (uint8_t sid)</td></tr>
 <tr class="memdesc:a4cc03c60ce8759943ed1ed873c30edfc"><td class="mdescLeft">&#160;</td><td class="mdescRight">Check if a stream id value indicates a video stream.  <a href="#a4cc03c60ce8759943ed1ed873c30edfc">More...</a><br /></td></tr>
 <tr class="separator:a4cc03c60ce8759943ed1ed873c30edfc"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -4168,7 +4184,7 @@ static const <a class="el" href="namespacets.html#a7e3244e77fae7815254d87d2ebdb7
 <tr class="separator:a1436268fa6550112d84f7f5e82787129"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ae74c1bbf55da052525039a4dcd57281c"><td class="memItemLeft" align="right" valign="top"><a id="ae74c1bbf55da052525039a4dcd57281c"></a>
 const <a class="el" href="classts_1_1_enumeration.html">Enumeration</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacets.html#ae74c1bbf55da052525039a4dcd57281c">BandWidthEnum</a></td></tr>
-<tr class="memdesc:ae74c1bbf55da052525039a4dcd57281c"><td class="mdescLeft">&#160;</td><td class="mdescRight"><a class="el" href="classts_1_1_enumeration.html" title="Enumeration of int/string pairs. ">Enumeration</a> description of <a class="el" href="namespacets.html#a14bb51c4b1573092910ab6fdec459e31" title="Bandwidth (OFDM) ">ts::BandWidth</a>. <br /></td></tr>
+<tr class="memdesc:ae74c1bbf55da052525039a4dcd57281c"><td class="mdescLeft">&#160;</td><td class="mdescRight"><a class="el" href="classts_1_1_enumeration.html" title="Enumeration of int/string pairs. ">Enumeration</a> description of <a class="el" href="namespacets.html#a14bb51c4b1573092910ab6fdec459e31" title="Bandwidth (OFDM, DVB-T/T2) ">ts::BandWidth</a>. <br /></td></tr>
 <tr class="separator:ae74c1bbf55da052525039a4dcd57281c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a35effe028d329e45885c8ca409af13dd"><td class="memItemLeft" align="right" valign="top"><a id="a35effe028d329e45885c8ca409af13dd"></a>
 static const <a class="el" href="namespacets.html#a7e3244e77fae7815254d87d2ebdb7bd0">UChar</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacets.html#a35effe028d329e45885c8ca409af13dd">BELL</a> = <a class="el" href="namespacets.html#a7e3244e77fae7815254d87d2ebdb7bd0">UChar</a>(0x0007)</td></tr>
@@ -8557,17 +8573,21 @@ static const <a class="el" href="namespacets.html#a7e3244e77fae7815254d87d2ebdb7
       </table>
 </div><div class="memdoc">
 
-<p>Bandwidth (OFDM) </p>
+<p>Bandwidth (OFDM, DVB-T/T2) </p>
 <table class="fieldtable">
 <tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="a14bb51c4b1573092910ab6fdec459e31afb16b9f94267bd78db001355f4b365b1"></a>BW_AUTO&#160;</td><td class="fielddoc"><p>Bandwidth automatically set. </p>
 </td></tr>
-<tr><td class="fieldname"><a id="a14bb51c4b1573092910ab6fdec459e31a9acc07f7aeaf8984f32f381076d1e9c8"></a>BW_8_MHZ&#160;</td><td class="fielddoc"><p>8 MHz bandwidth. </p>
+<tr><td class="fieldname"><a id="a14bb51c4b1573092910ab6fdec459e31a83bcf9669fa079ce95687ed534603539"></a>BW_1_712_MHZ&#160;</td><td class="fielddoc"><p>1.712 MHz bandwidth (DVB-T2 only). </p>
 </td></tr>
-<tr><td class="fieldname"><a id="a14bb51c4b1573092910ab6fdec459e31a25fe22090defe689c68444ba9d63ec5f"></a>BW_7_MHZ&#160;</td><td class="fielddoc"><p>7 MHz bandwidth. </p>
+<tr><td class="fieldname"><a id="a14bb51c4b1573092910ab6fdec459e31a48d8795184580cd5ceeee470bf3e8aa0"></a>BW_5_MHZ&#160;</td><td class="fielddoc"><p>5 MHz bandwidth (DVB-T2 only). </p>
 </td></tr>
 <tr><td class="fieldname"><a id="a14bb51c4b1573092910ab6fdec459e31a35a58784bef0d136add5b6ab207f89bb"></a>BW_6_MHZ&#160;</td><td class="fielddoc"><p>6 MHz bandwidth. </p>
 </td></tr>
-<tr><td class="fieldname"><a id="a14bb51c4b1573092910ab6fdec459e31a48d8795184580cd5ceeee470bf3e8aa0"></a>BW_5_MHZ&#160;</td><td class="fielddoc"><p>5 MHz bandwidth. </p>
+<tr><td class="fieldname"><a id="a14bb51c4b1573092910ab6fdec459e31a25fe22090defe689c68444ba9d63ec5f"></a>BW_7_MHZ&#160;</td><td class="fielddoc"><p>7 MHz bandwidth. </p>
+</td></tr>
+<tr><td class="fieldname"><a id="a14bb51c4b1573092910ab6fdec459e31a9acc07f7aeaf8984f32f381076d1e9c8"></a>BW_8_MHZ&#160;</td><td class="fielddoc"><p>8 MHz bandwidth. </p>
+</td></tr>
+<tr><td class="fieldname"><a id="a14bb51c4b1573092910ab6fdec459e31aede35c8243104e7562fb970951305ff8"></a>BW_10_MHZ&#160;</td><td class="fielddoc"><p>10 MHz bandwidth (DVB-T2 only). </p>
 </td></tr>
 </table>
 
@@ -10851,6 +10871,41 @@ template&lt;class OSTREAM , class TRAITS  = std::char_traits&lt;typename OSTREAM
   </dd>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>A reference to the <em>strm</em> object. </dd></dl>
+
+</div>
+</div>
+<a id="a609013dfb0db5080921bc69033908fb8"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a609013dfb0db5080921bc69033908fb8">&#9670;&nbsp;</a></span>IsValidBCD()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool ts::IsValidBCD </td>
+          <td>(</td>
+          <td class="paramtype">uint8_t&#160;</td>
+          <td class="paramname"><em>b</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Check if a byte is a valid Binary Coded Decimal (BCD) value. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">b</td><td>A byte containing a BCD-encoded value. </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>True if the value is valid BCDn false otherwise. </dd></dl>
 
 </div>
 </div>

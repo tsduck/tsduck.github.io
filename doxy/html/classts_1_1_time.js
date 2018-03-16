@@ -67,6 +67,7 @@ var classts_1_1_time =
     [ "UnixClockNanoSeconds", "classts_1_1_time.html#ac3b1dafdfe8ec80e5b30ae31ef92d46a", null ],
     [ "GetUnixClock", "classts_1_1_time.html#ab0e5812b6a3d59c448ab64e947621644", null ],
     [ "Epoch", "classts_1_1_time.html#aaddf023d4de5d142e36f599e34ae0294", null ],
+    [ "UnixEpoch", "classts_1_1_time.html#aa03160ef9ec377e8acac6eaf0152a426", null ],
     [ "Apocalypse", "classts_1_1_time.html#a6553a48572a89e40f76829b9cf11852f", null ],
     [ "JulianEpochOffset", "classts_1_1_time.html#a1a6d933766f8ac0448bc9b182c3693ef", null ]
 ];

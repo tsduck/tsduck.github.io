@@ -37,7 +37,7 @@
  <tr style="height: 56px;">
   <td id="projectlogo"><img src="tsduck-32.png"/></td>
    <td id="projectalign"><span id="projectname">TSDuck</span>
-    <span id="projectnumber">Version 3.9-581</span>
+    <span id="projectnumber">Version 3.9-618</span>
     <span id="projectbrief">(TSDuck - The MPEG Transport Stream Toolkit)</span>
    </td>
    <td>        <div id="MSearchBox" class="MSearchBoxInactive">
@@ -137,6 +137,9 @@ Public Member Functions</h2></td></tr>
 virtual&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classts_1_1_tables_logger.html#aa8a5977fe5cacba2c568441a44e8f87c">~TablesLogger</a> ()</td></tr>
 <tr class="memdesc:aa8a5977fe5cacba2c568441a44e8f87c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Destructor. <br /></td></tr>
 <tr class="separator:aa8a5977fe5cacba2c568441a44e8f87c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af5568f630a193c754945551e7946e6ec"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classts_1_1_tables_logger.html#af5568f630a193c754945551e7946e6ec">close</a> ()</td></tr>
+<tr class="memdesc:af5568f630a193c754945551e7946e6ec"><td class="mdescLeft">&#160;</td><td class="mdescRight">Close all operations, flush tables if required, close files and sockets.  <a href="#af5568f630a193c754945551e7946e6ec">More...</a><br /></td></tr>
+<tr class="separator:af5568f630a193c754945551e7946e6ec"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a9bedc058c9ac057d5fc64226761eafd7"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classts_1_1_tables_logger.html#a9bedc058c9ac057d5fc64226761eafd7">completed</a> () const</td></tr>
 <tr class="memdesc:a9bedc058c9ac057d5fc64226761eafd7"><td class="mdescLeft">&#160;</td><td class="mdescRight">Check if the operation is complete.  <a href="#a9bedc058c9ac057d5fc64226761eafd7">More...</a><br /></td></tr>
 <tr class="separator:a9bedc058c9ac057d5fc64226761eafd7"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -246,6 +249,26 @@ virtual&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="c
   </table>
   </dd>
 </dl>
+
+</div>
+</div>
+<a id="af5568f630a193c754945551e7946e6ec"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af5568f630a193c754945551e7946e6ec">&#9670;&nbsp;</a></span>close()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void ts::TablesLogger::close </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Close all operations, flush tables if required, close files and sockets. </p>
+<p>No longer accept packets. Automatically done in destructor. </p>
 
 </div>
 </div>

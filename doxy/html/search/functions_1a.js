@@ -42,6 +42,8 @@ var searchData=
   ['_7emessage',['~Message',['../classts_1_1tlv_1_1_message.html#af861efe573130f21b0d911eb8190a044',1,'ts::tlv::Message']]],
   ['_7emessagequeue',['~MessageQueue',['../classts_1_1_message_queue.html#af93cd61e08c84006342b7e3cea8eb157',1,'ts::MessageQueue']]],
   ['_7emonotonic',['~Monotonic',['../classts_1_1_monotonic.html#a616f36a9f428d3fc80dcdb371da24d64',1,'ts::Monotonic']]],
+  ['_7empedemux',['~MPEDemux',['../classts_1_1_m_p_e_demux.html#a693c47917037445c52945f52dffea669',1,'ts::MPEDemux']]],
+  ['_7empehandlerinterface',['~MPEHandlerInterface',['../classts_1_1_m_p_e_handler_interface.html#abe2f301971755f9bcbc04affe5acd384',1,'ts::MPEHandlerInterface']]],
   ['_7emutex',['~Mutex',['../classts_1_1_mutex.html#a8e3df396ff1d02d745b2011ec654cb9b',1,'ts::Mutex']]],
   ['_7emutexinterface',['~MutexInterface',['../classts_1_1_mutex_interface.html#a534428e98064e5c9164defe9f1207018',1,'ts::MutexInterface']]],
   ['_7enames',['~Names',['../classts_1_1_names.html#a449099bbbe6ba17ccb92a945137dd885',1,'ts::Names']]],

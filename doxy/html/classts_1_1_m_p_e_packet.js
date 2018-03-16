@@ -8,6 +8,7 @@ var classts_1_1_m_p_e_packet =
     [ "operator=", "classts_1_1_m_p_e_packet.html#a1600c09de5e8882cc57c3c0ed11e856f", null ],
     [ "copy", "classts_1_1_m_p_e_packet.html#a959302d1284205ce5537e73e1ec01e0e", null ],
     [ "copy", "classts_1_1_m_p_e_packet.html#abe85c0b8e58b6af689501caefc5ee431", null ],
+    [ "createSection", "classts_1_1_m_p_e_packet.html#a4464ce4ffbd2ad86af15a7d4ea5628bd", null ],
     [ "isValid", "classts_1_1_m_p_e_packet.html#a2f5ef4e49a9b2c8aef7c8c0235908364", null ],
     [ "sourcePID", "classts_1_1_m_p_e_packet.html#ae5aba60c36cf77900f918e53cee381af", null ],
     [ "setSourcePID", "classts_1_1_m_p_e_packet.html#a716ce21d28a3f892a4e1d413441d80d3", null ],
@@ -21,7 +22,13 @@ var classts_1_1_m_p_e_packet =
     [ "setSourceUDPPort", "classts_1_1_m_p_e_packet.html#aaa4032bc97869dcd29d35cbe107f6514", null ],
     [ "destinationUDPPort", "classts_1_1_m_p_e_packet.html#a9674dafcd422595f137836ae72d84536", null ],
     [ "setDestinationUDPPort", "classts_1_1_m_p_e_packet.html#a52ce5835979659c3f20b90468dba07be", null ],
+    [ "sourceSocket", "classts_1_1_m_p_e_packet.html#a930d8df642509506c6aa6a965db4d537", null ],
+    [ "setSourceSocket", "classts_1_1_m_p_e_packet.html#a045de804c735fdfa626df7c2b2680044", null ],
+    [ "destinationSocket", "classts_1_1_m_p_e_packet.html#a0ea48646d3c9ad25881090fa575a22b1", null ],
+    [ "setDestinationSocket", "classts_1_1_m_p_e_packet.html#aef4e399aab31473313dddd4edecdff2f", null ],
     [ "udpMessage", "classts_1_1_m_p_e_packet.html#a80a723f01d5af01463236f93f3ab9a27", null ],
     [ "udpMessageSize", "classts_1_1_m_p_e_packet.html#a95e0f3ca45b8d211fae233c050af5dd9", null ],
+    [ "datagram", "classts_1_1_m_p_e_packet.html#a883feeac830e03897e94b44badd65114", null ],
+    [ "datagramSize", "classts_1_1_m_p_e_packet.html#aeb557797f5c2dec3331cfb2750898567", null ],
     [ "setUDPMessage", "classts_1_1_m_p_e_packet.html#ab0d21ac1d652a318210170907bbeee63", null ]
 ];

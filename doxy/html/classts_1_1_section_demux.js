@@ -5,6 +5,7 @@ var classts_1_1_section_demux =
     [ "SectionDemux", "classts_1_1_section_demux.html#a33fad9b555c3d2242b0b68afe72fd639", null ],
     [ "~SectionDemux", "classts_1_1_section_demux.html#a6c7de32ca4712a3af2c224e4146b5214", null ],
     [ "feedPacket", "classts_1_1_section_demux.html#a10eb64779211ee63543f87d28785d70f", null ],
+    [ "packAndFlushSections", "classts_1_1_section_demux.html#a2b31a9223785f1e62adad37f05fe1362", null ],
     [ "setTableHandler", "classts_1_1_section_demux.html#afc550bc263cd6d4a1b6b17b0b932592e", null ],
     [ "setSectionHandler", "classts_1_1_section_demux.html#a5a5ce7eba2347da6f6da50d7f63183c7", null ],
     [ "getStatus", "classts_1_1_section_demux.html#a76a038eebc7a088f982d5edd4ee1af73", null ],

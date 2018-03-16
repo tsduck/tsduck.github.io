@@ -7,5 +7,6 @@ var classts_1_1_message_queue =
     [ "setMaxMessages", "classts_1_1_message_queue.html#a8b8cc05f52cbe4abea201f2d44777214", null ],
     [ "enqueue", "classts_1_1_message_queue.html#a41eebbc8732bfe37692c1d53a8dbac9b", null ],
     [ "forceEnqueue", "classts_1_1_message_queue.html#ae9d3d514eab7aacf8507c953af1285f0", null ],
-    [ "dequeue", "classts_1_1_message_queue.html#a364a36c9f69f0e4d78119ebef619284e", null ]
+    [ "dequeue", "classts_1_1_message_queue.html#a364a36c9f69f0e4d78119ebef619284e", null ],
+    [ "clear", "classts_1_1_message_queue.html#ac4aced3e76224b2158d5f77301ab66fd", null ]
 ];

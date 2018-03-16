@@ -13,9 +13,9 @@ var classts_1_1_u_d_p_socket =
     [ "addMembership", "classts_1_1_u_d_p_socket.html#a3dc6f5ad0f0ad27cb4618f3e91f35af0", null ],
     [ "addMembership", "classts_1_1_u_d_p_socket.html#a7e36d30f2659695f852bb7ec7717c736", null ],
     [ "dropMembership", "classts_1_1_u_d_p_socket.html#af42a2499b1bf401eefbec78c826eaf3b", null ],
-    [ "send", "classts_1_1_u_d_p_socket.html#a8a9f947a8e053e5b8dec1ec1d26aaf30", null ],
-    [ "send", "classts_1_1_u_d_p_socket.html#a54311df21ab1f34259f122f9779ed745", null ],
-    [ "receive", "classts_1_1_u_d_p_socket.html#a96f1e39393a173fc8d3702491fe52445", null ],
+    [ "send", "classts_1_1_u_d_p_socket.html#ac9cd90aa4c5746a9670033d370975314", null ],
+    [ "send", "classts_1_1_u_d_p_socket.html#a0a8955786d1fd334d86ecef9e54c42c9", null ],
+    [ "receive", "classts_1_1_u_d_p_socket.html#acd988c6afcf05c43c5bdddff19b19afe", null ],
     [ "open", "classts_1_1_u_d_p_socket.html#aa2db6cf5c00c59c7bfe2dfa9a46b51bc", null ],
     [ "close", "classts_1_1_u_d_p_socket.html#af82a601f90f94a42688a43397e1fe653", null ]
 ];

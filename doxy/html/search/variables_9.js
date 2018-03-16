@@ -13,6 +13,8 @@ var searchData=
   ['input_5fstream_5fidentifier',['input_stream_identifier',['../classts_1_1_s2_satellite_delivery_system_descriptor.html#ad929af8a6c36d8d88d19e8129a7f80c7',1,'ts::S2SatelliteDeliverySystemDescriptor']]],
   ['instuff_5finpkt',['instuff_inpkt',['../classts_1_1tsp_1_1_options.html#a17a907f0792b12e602fb14b20f75c994',1,'ts::tsp::Options']]],
   ['instuff_5fnullpkt',['instuff_nullpkt',['../classts_1_1tsp_1_1_options.html#a693314356e92752e44021ac47bef47a5',1,'ts::tsp::Options']]],
+  ['instuff_5fstart',['instuff_start',['../classts_1_1tsp_1_1_options.html#ad9cd7a1ff3aca57a8c4b570fa1412e1f',1,'ts::tsp::Options']]],
+  ['instuff_5fstop',['instuff_stop',['../classts_1_1tsp_1_1_options.html#a7f4f1c13eadfa88e3d0172d7698cc849',1,'ts::tsp::Options']]],
   ['integral',['INTEGRAL',['../namespacets.html#a1cdffc45a9a6f4281a5180befa600d9d',1,'ts']]],
   ['interlaced_5fsource',['interlaced_source',['../classts_1_1_h_e_v_c_video_descriptor.html#a2e468183a757fdecb8d78ed3efa05a7d',1,'ts::HEVCVideoDescriptor']]],
   ['intersection',['INTERSECTION',['../namespacets.html#afe0ea71995b16830a22ec1c79a4e1876',1,'ts']]],

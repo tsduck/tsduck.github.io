@@ -9,6 +9,7 @@ var classts_1_1_m_a_c_address =
     [ "address", "classts_1_1_m_a_c_address.html#ab17928be6bea8e04cf6b456a0f83584f", null ],
     [ "setAddress", "classts_1_1_m_a_c_address.html#a3525dc00e7a660102d5eb637508cc7fe", null ],
     [ "setAddress", "classts_1_1_m_a_c_address.html#a00b2ceedc9daa771f8b5ad253f20efe9", null ],
+    [ "getAddress", "classts_1_1_m_a_c_address.html#acf4167c634b8b94df77489b4d46c39f5", null ],
     [ "isMulticast", "classts_1_1_m_a_c_address.html#ab7d46614087bb7eb3a14579d60df4ad2", null ],
     [ "toMulticast", "classts_1_1_m_a_c_address.html#ae935ce74d0db1746c8c90fea2826c42a", null ],
     [ "hasAddress", "classts_1_1_m_a_c_address.html#a72e179ee80a9ad0bf248488a2f89504c", null ],

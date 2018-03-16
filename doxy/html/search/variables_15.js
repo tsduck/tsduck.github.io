@@ -14,6 +14,7 @@ var searchData=
   ['universal_5flnb_5fhigh_5ffrequency',['UNIVERSAL_LNB_HIGH_FREQUENCY',['../classts_1_1_l_n_b.html#ad7e1d5cb01ebcf1ab51f8d651cec2ee1',1,'ts::LNB']]],
   ['universal_5flnb_5flow_5ffrequency',['UNIVERSAL_LNB_LOW_FREQUENCY',['../classts_1_1_l_n_b.html#a2ebb4cd1cfd0cbb1a6ae9b2d4408265c',1,'ts::LNB']]],
   ['universal_5flnb_5fswitch_5ffrequency',['UNIVERSAL_LNB_SWITCH_FREQUENCY',['../classts_1_1_l_n_b.html#adbe2fe40764c9eee1a533bba8ae078c1',1,'ts::LNB']]],
+  ['unixepoch',['UnixEpoch',['../classts_1_1_time.html#aa03160ef9ec377e8acac6eaf0152a426',1,'ts::Time']]],
   ['unknown',['UNKNOWN',['../classts_1_1_d_t_v_properties.html#afda549a53a0f12a2b00ca03d13210e9a',1,'ts::DTVProperties::UNKNOWN()'],['../classts_1_1_enumeration.html#a178408127108246c77c418dd5a559268',1,'ts::Enumeration::UNKNOWN()']]],
   ['unlimited',['UNLIMITED',['../namespacets_1_1xml.html#a9ce4c3f6784581133d0800274020c0e0',1,'ts::xml']]],
   ['unlimited_5fcount',['UNLIMITED_COUNT',['../classts_1_1_args.html#abe59313ed20c5d691cb198f870df8992',1,'ts::Args']]],

@@ -14,6 +14,8 @@ var searchData=
   ['both',['BOTH',['../namespacets_1_1names.html#ad01b2604fc1b9fcaa4cbcbea333d8bfcaddc440e9d72a20a3c31c54951bf4475f',1,'ts::names']]],
   ['both_5ffirst',['BOTH_FIRST',['../namespacets_1_1names.html#ad01b2604fc1b9fcaa4cbcbea333d8bfcafa14db057955786747855425d6a9edf2',1,'ts::names']]],
   ['bpl',['BPL',['../classts_1_1_u_string.html#a95e758037651fab003f10b568b08cb46a5bd17b48ecd9481285308f1de417c869',1,'ts::UString']]],
+  ['bw_5f10_5fmhz',['BW_10_MHZ',['../namespacets.html#a14bb51c4b1573092910ab6fdec459e31aede35c8243104e7562fb970951305ff8',1,'ts']]],
+  ['bw_5f1_5f712_5fmhz',['BW_1_712_MHZ',['../namespacets.html#a14bb51c4b1573092910ab6fdec459e31a83bcf9669fa079ce95687ed534603539',1,'ts']]],
   ['bw_5f5_5fmhz',['BW_5_MHZ',['../namespacets.html#a14bb51c4b1573092910ab6fdec459e31a48d8795184580cd5ceeee470bf3e8aa0',1,'ts']]],
   ['bw_5f6_5fmhz',['BW_6_MHZ',['../namespacets.html#a14bb51c4b1573092910ab6fdec459e31a35a58784bef0d136add5b6ab207f89bb',1,'ts']]],
   ['bw_5f7_5fmhz',['BW_7_MHZ',['../namespacets.html#a14bb51c4b1573092910ab6fdec459e31a25fe22090defe689c68444ba9d63ec5f',1,'ts']]],

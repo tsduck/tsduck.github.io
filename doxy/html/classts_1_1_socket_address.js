@@ -21,6 +21,7 @@ var classts_1_1_socket_address =
     [ "copy", "classts_1_1_socket_address.html#a30b9063cc3e71b1e3f8df9fe146582bc", null ],
     [ "copy", "classts_1_1_socket_address.html#ad803ede21797c04b9b949f0fc8b70d4c", null ],
     [ "resolve", "classts_1_1_socket_address.html#a09b33e97411898ed0d2e5aa81b00db4a", null ],
+    [ "match", "classts_1_1_socket_address.html#a9c00d7ba01c7e93b31bea85e5ac73fbd", null ],
     [ "toString", "classts_1_1_socket_address.html#aedca33398899d635a3619e74f36c4a3f", null ],
     [ "operator<", "classts_1_1_socket_address.html#ad3680479292b7f19e358365dd6f35bab", null ],
     [ "AnyPort", "classts_1_1_socket_address.html#ae659295ea425a1977d3e7ec895562589", null ]

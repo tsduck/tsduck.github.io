@@ -37,7 +37,7 @@
  <tr style="height: 56px;">
   <td id="projectlogo"><img src="tsduck-32.png"/></td>
    <td id="projectalign"><span id="projectname">TSDuck</span>
-    <span id="projectnumber">Version 3.9-581</span>
+    <span id="projectnumber">Version 3.9-618</span>
     <span id="projectbrief">(TSDuck - The MPEG Transport Stream Toolkit)</span>
    </td>
    <td>        <div id="MSearchBox" class="MSearchBoxInactive">
@@ -101,6 +101,15 @@ $(document).ready(function(){initNavTree('functions_p.html','');});
 <div class="textblock">Here is a list of all documented class members with links to the class documentation for each member:</div>
 
 <h3><a id="index_p"></a>- p -</h3><ul>
+<li>pack_all_sections
+: <a class="el" href="classts_1_1_tables_logger_args.html#ad67a5714d7daa94998fd2f7af19d7ad1">ts::TablesLoggerArgs</a>
+</li>
+<li>pack_and_flush
+: <a class="el" href="classts_1_1_tables_logger_args.html#a8a7cbc31d77a0cdfb95a5d04eab34303">ts::TablesLoggerArgs</a>
+</li>
+<li>packAndFlushSections()
+: <a class="el" href="classts_1_1_section_demux.html#a2b31a9223785f1e62adad37f05fe1362">ts::SectionDemux</a>
+</li>
 <li>packet_count
 : <a class="el" href="structts_1_1_p_c_r_analyzer_1_1_status.html#aa252f58aa157fc26e600017cefc530f7">ts::PCRAnalyzer::Status</a>
 </li>
@@ -121,6 +130,9 @@ $(document).ready(function(){initNavTree('functions_p.html','');});
 </li>
 <li>packetType()
 : <a class="el" href="classts_1_1_t2_m_i_packet.html#ad336326d91a10c1b0b2e214fa1b6ff87">ts::T2MIPacket</a>
+</li>
+<li>packSections()
+: <a class="el" href="classts_1_1_binary_table.html#a1fc5c7c0e36bdfc838dfea7db104b8e8">ts::BinaryTable</a>
 </li>
 <li>page()
 : <a class="el" href="classts_1_1_teletext_frame.html#a68ff26374ced42d54955f9a7facf01db">ts::TeletextFrame</a>
@@ -360,7 +372,7 @@ $(document).ready(function(){initNavTree('functions_p.html','');});
 : <a class="el" href="classts_1_1tsp_1_1_options.html#a46185e8cb8a328cb73f6d0eb9ba08912">ts::tsp::Options</a>
 </li>
 <li>PMT()
-: <a class="el" href="classts_1_1_p_m_t.html#ae67c6257031887a7b8be619fcf7270d2">ts::PMT</a>
+: <a class="el" href="classts_1_1_p_m_t.html#a3fbda683f1a11d2fa4c59ee45b0c9a6d">ts::PMT</a>
 </li>
 <li>pmt_cnt
 : <a class="el" href="classts_1_1_t_s_analyzer_1_1_p_i_d_context.html#ac0b7ec3693cb51e7e3aa01946c28c91b">ts::TSAnalyzer::PIDContext</a>
@@ -460,7 +472,7 @@ $(document).ready(function(){initNavTree('functions_p.html','');});
 : <a class="el" href="classts_1_1_descriptor_list.html#a8b52288136bdf140b7ca93452292533f">ts::DescriptorList</a>
 </li>
 <li>PrivateDataSpecifierDescriptor()
-: <a class="el" href="classts_1_1_private_data_specifier_descriptor.html#a8e162433035af0cd95ecec2b7343b8c9">ts::PrivateDataSpecifierDescriptor</a>
+: <a class="el" href="classts_1_1_private_data_specifier_descriptor.html#a957893ba35f1da086c818ea5ef865a24">ts::PrivateDataSpecifierDescriptor</a>
 </li>
 <li>processArgsRedirection()
 : <a class="el" href="classts_1_1_args.html#ac14c6e75a3780de78f6503a3ccd64bc2">ts::Args</a>
@@ -559,20 +571,20 @@ $(document).ready(function(){initNavTree('functions_p.html','');});
 : <a class="el" href="classts_1_1_git_hub_release.html#a78424fd3e4373a19ebe94edbf5657425">ts::GitHubRelease</a>
 </li>
 <li>put()
-: <a class="el" href="classts_1_1_simul_crypt_date.html#a1f8dc611c304c4b0e1dd100d798a1e9a">ts::SimulCryptDate</a>
-, <a class="el" href="classts_1_1tlv_1_1_serializer.html#af900f3177b0cd2ff66627e3c30c94e50">ts::tlv::Serializer</a>
+: <a class="el" href="classts_1_1_simul_crypt_date.html#a1ce28485acefd69129259ffbcbf3d90a">ts::SimulCryptDate</a>
+, <a class="el" href="classts_1_1tlv_1_1_serializer.html#a1713dbba162184669f9543d1a23df1d0">ts::tlv::Serializer</a>
 </li>
 <li>putBinary()
 : <a class="el" href="classts_1_1_simul_crypt_date.html#af22ab1e267b402f155e0d7846c1d9671">ts::SimulCryptDate</a>
 </li>
 <li>putBool()
-: <a class="el" href="classts_1_1tlv_1_1_serializer.html#a1d8de00e489367f5a338d2368305d620">ts::tlv::Serializer</a>
+: <a class="el" href="classts_1_1tlv_1_1_serializer.html#ad86eb6d0717b26afee3c3d478a2eaa73">ts::tlv::Serializer</a>
 </li>
 <li>putInt16()
 : <a class="el" href="classts_1_1tlv_1_1_serializer.html#a5c04eaee5ec69985f4830f6753699154">ts::tlv::Serializer</a>
 </li>
 <li>putInt32()
-: <a class="el" href="classts_1_1tlv_1_1_serializer.html#a006b0c67696b2c8c73fe40b45a73fad2">ts::tlv::Serializer</a>
+: <a class="el" href="classts_1_1tlv_1_1_serializer.html#ae7c6cbbc69aa7a0c6db94bd9b7fc246c">ts::tlv::Serializer</a>
 </li>
 <li>putInt64()
 : <a class="el" href="classts_1_1tlv_1_1_serializer.html#a7102209e61e886a924d30d0780650660">ts::tlv::Serializer</a>
@@ -593,13 +605,13 @@ $(document).ready(function(){initNavTree('functions_p.html','');});
 : <a class="el" href="classts_1_1tlv_1_1_serializer.html#a08d27c78d65cf3b9e1b21bf272f9eede">ts::tlv::Serializer</a>
 </li>
 <li>putUInt32()
-: <a class="el" href="classts_1_1tlv_1_1_serializer.html#adc1532c81244147511214df009a86d2f">ts::tlv::Serializer</a>
+: <a class="el" href="classts_1_1tlv_1_1_serializer.html#a1e478a9355677d0cdda7212938ee1576">ts::tlv::Serializer</a>
 </li>
 <li>putUInt64()
-: <a class="el" href="classts_1_1tlv_1_1_serializer.html#a5c1c90cf496c9bb635dfd3abde153650">ts::tlv::Serializer</a>
+: <a class="el" href="classts_1_1tlv_1_1_serializer.html#ab8588791e3072be5496b8694980dde8e">ts::tlv::Serializer</a>
 </li>
 <li>putUInt8()
-: <a class="el" href="classts_1_1tlv_1_1_serializer.html#ad2edb3e3f781dcd3a0f836397eaba2e0">ts::tlv::Serializer</a>
+: <a class="el" href="classts_1_1tlv_1_1_serializer.html#ad710c780b109fccb81182b8d99e2b810">ts::tlv::Serializer</a>
 </li>
 </ul>
 </div><!-- contents -->

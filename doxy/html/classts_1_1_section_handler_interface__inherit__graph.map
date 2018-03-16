@@ -1,6 +1,7 @@
 <map id="ts::SectionHandlerInterface" name="ts::SectionHandlerInterface">
-<area shape="rect" id="node2" href="$classts_1_1_p_s_i_logger.html" title="This class logs sections and tables. " alt="" coords="5,79,107,104"/>
-<area shape="rect" id="node3" href="$classts_1_1_tables_logger.html" title="This class logs sections and tables. " alt="" coords="131,79,251,104"/>
-<area shape="rect" id="node4" href="$classts_1_1_t_s_analyzer.html" title="A class which analyzes a complete transport stream. " alt="" coords="274,79,382,104"/>
-<area shape="rect" id="node5" href="$classts_1_1_t_s_analyzer_report.html" title="A subclass of TSAnalyzer with reporting capabilities. " alt="" coords="254,152,402,177"/>
+<area shape="rect" id="node2" href="$classts_1_1_m_p_e_demux.html" title="This class extracts MPE (Multi&#45;Protocol Encapsulation) datagrams from TS packets. ..." alt="" coords="5,79,116,104"/>
+<area shape="rect" id="node3" href="$classts_1_1_p_s_i_logger.html" title="This class logs sections and tables. " alt="" coords="140,79,242,104"/>
+<area shape="rect" id="node4" href="$classts_1_1_tables_logger.html" title="This class logs sections and tables. " alt="" coords="266,79,385,104"/>
+<area shape="rect" id="node5" href="$classts_1_1_t_s_analyzer.html" title="A class which analyzes a complete transport stream. " alt="" coords="409,79,517,104"/>
+<area shape="rect" id="node6" href="$classts_1_1_t_s_analyzer_report.html" title="A subclass of TSAnalyzer with reporting capabilities. " alt="" coords="389,152,537,177"/>
 </map>

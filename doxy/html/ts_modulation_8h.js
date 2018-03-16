@@ -85,10 +85,12 @@ var ts_modulation_8h =
     ] ],
     [ "BandWidth", "ts_modulation_8h.html#a14bb51c4b1573092910ab6fdec459e31", [
       [ "BW_AUTO", "ts_modulation_8h.html#a14bb51c4b1573092910ab6fdec459e31afb16b9f94267bd78db001355f4b365b1", null ],
-      [ "BW_8_MHZ", "ts_modulation_8h.html#a14bb51c4b1573092910ab6fdec459e31a9acc07f7aeaf8984f32f381076d1e9c8", null ],
-      [ "BW_7_MHZ", "ts_modulation_8h.html#a14bb51c4b1573092910ab6fdec459e31a25fe22090defe689c68444ba9d63ec5f", null ],
+      [ "BW_1_712_MHZ", "ts_modulation_8h.html#a14bb51c4b1573092910ab6fdec459e31a83bcf9669fa079ce95687ed534603539", null ],
+      [ "BW_5_MHZ", "ts_modulation_8h.html#a14bb51c4b1573092910ab6fdec459e31a48d8795184580cd5ceeee470bf3e8aa0", null ],
       [ "BW_6_MHZ", "ts_modulation_8h.html#a14bb51c4b1573092910ab6fdec459e31a35a58784bef0d136add5b6ab207f89bb", null ],
-      [ "BW_5_MHZ", "ts_modulation_8h.html#a14bb51c4b1573092910ab6fdec459e31a48d8795184580cd5ceeee470bf3e8aa0", null ]
+      [ "BW_7_MHZ", "ts_modulation_8h.html#a14bb51c4b1573092910ab6fdec459e31a25fe22090defe689c68444ba9d63ec5f", null ],
+      [ "BW_8_MHZ", "ts_modulation_8h.html#a14bb51c4b1573092910ab6fdec459e31a9acc07f7aeaf8984f32f381076d1e9c8", null ],
+      [ "BW_10_MHZ", "ts_modulation_8h.html#a14bb51c4b1573092910ab6fdec459e31aede35c8243104e7562fb970951305ff8", null ]
     ] ],
     [ "TransmissionMode", "ts_modulation_8h.html#aee2f4a753d453dd84bab8636dc4b7ba5", [
       [ "TM_AUTO", "ts_modulation_8h.html#aee2f4a753d453dd84bab8636dc4b7ba5a73a3ae69386c7b74a5557ce789ac3758", null ],
