@@ -37,7 +37,7 @@
  <tr style="height: 56px;">
   <td id="projectlogo"><img src="tsduck-32.png"/></td>
    <td id="projectalign"><span id="projectname">TSDuck</span>
-    <span id="projectnumber">Version 3.9-618</span>
+    <span id="projectnumber">Version 3.10-643</span>
     <span id="projectbrief">(TSDuck - The MPEG Transport Stream Toolkit)</span>
    </td>
    <td>        <div id="MSearchBox" class="MSearchBoxInactive">
@@ -536,6 +536,10 @@ Static Public Member Functions</h2></td></tr>
 <tr class="memitem:a59e86799482cd921d27d074fd1a44e42"><td class="memTemplItemLeft" align="right" valign="top">static <a class="el" href="classts_1_1_u_string.html">UString</a>&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="classts_1_1_u_string.html#a59e86799482cd921d27d074fd1a44e42">Hexa</a> (<a class="el" href="classts_1_1_i_n_t.html">INT</a> value, size_type <a class="el" href="classts_1_1_u_string.html#a34c9e8a315f34bbc971b029af58555a3">width</a>=0, const <a class="el" href="classts_1_1_u_string.html">UString</a> &amp;separator=<a class="el" href="classts_1_1_u_string.html">UString</a>(), bool use_prefix=true, bool use_upper=true)</td></tr>
 <tr class="memdesc:a59e86799482cd921d27d074fd1a44e42"><td class="mdescLeft">&#160;</td><td class="mdescRight">Format a string containing an hexadecimal value.  <a href="#a59e86799482cd921d27d074fd1a44e42">More...</a><br /></td></tr>
 <tr class="separator:a59e86799482cd921d27d074fd1a44e42"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a632e5c9db696eb6ecdbe9489fb7645a0"><td class="memTemplParams" colspan="2">template&lt;typename INT , typename std::enable_if&lt; std::is_integral&lt; INT &gt;::value &gt;::type *  = nullptr&gt; </td></tr>
+<tr class="memitem:a632e5c9db696eb6ecdbe9489fb7645a0"><td class="memTemplItemLeft" align="right" valign="top">static <a class="el" href="classts_1_1_u_string.html">UString</a>&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="classts_1_1_u_string.html#a632e5c9db696eb6ecdbe9489fb7645a0">HexaMin</a> (<a class="el" href="classts_1_1_i_n_t.html">INT</a> value, size_type min_width=0, const <a class="el" href="classts_1_1_u_string.html">UString</a> &amp;separator=<a class="el" href="classts_1_1_u_string.html">UString</a>(), bool use_prefix=true, bool use_upper=true)</td></tr>
+<tr class="memdesc:a632e5c9db696eb6ecdbe9489fb7645a0"><td class="mdescLeft">&#160;</td><td class="mdescRight">Format a string containing an hexadecimal value.  <a href="#a632e5c9db696eb6ecdbe9489fb7645a0">More...</a><br /></td></tr>
+<tr class="separator:a632e5c9db696eb6ecdbe9489fb7645a0"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ac4a57baf99dd4b3ab0eac7b86aa66deb"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="classts_1_1_u_string.html">UString</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classts_1_1_u_string.html#ac4a57baf99dd4b3ab0eac7b86aa66deb">HumanSize</a> (int64_t value, const <a class="el" href="classts_1_1_u_string.html">UString</a> &amp;units=u&quot;B&quot;, bool forceSign=false)</td></tr>
 <tr class="memdesc:ac4a57baf99dd4b3ab0eac7b86aa66deb"><td class="mdescLeft">&#160;</td><td class="mdescRight">Format a human-readable size using MB, kB or B as appropriate.  <a href="#ac4a57baf99dd4b3ab0eac7b86aa66deb">More...</a><br /></td></tr>
 <tr class="separator:ac4a57baf99dd4b3ab0eac7b86aa66deb"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -5329,6 +5333,81 @@ template&lt;typename INT , typename std::enable_if&lt; std::is_integral&lt; INT 
 
 </div>
 </div>
+<a id="a632e5c9db696eb6ecdbe9489fb7645a0"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a632e5c9db696eb6ecdbe9489fb7645a0">&#9670;&nbsp;</a></span>HexaMin()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename INT , typename std::enable_if&lt; std::is_integral&lt; INT &gt;::value &gt;::type *  = nullptr&gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static <a class="el" href="classts_1_1_u_string.html">UString</a> ts::UString::HexaMin </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classts_1_1_i_n_t.html">INT</a>&#160;</td>
+          <td class="paramname"><em>value</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">size_type&#160;</td>
+          <td class="paramname"><em>min_width</em> = <code>0</code>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="classts_1_1_u_string.html">UString</a> &amp;&#160;</td>
+          <td class="paramname"><em>separator</em> = <code><a class="el" href="classts_1_1_u_string.html">UString</a>()</code>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">bool&#160;</td>
+          <td class="paramname"><em>use_prefix</em> = <code>true</code>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">bool&#160;</td>
+          <td class="paramname"><em>use_upper</em> = <code>true</code>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Format a string containing an hexadecimal value. </p>
+<p>This version differ from <a class="el" href="classts_1_1_u_string.html#a59e86799482cd921d27d074fd1a44e42" title="Format a string containing an hexadecimal value. ">Hexa()</a> in the interpretation of the @ min_width argument. </p><dl class="tparams"><dt>Template Parameters</dt><dd>
+  <table class="tparams">
+    <tr><td class="paramname"><a class="el" href="classts_1_1_i_n_t.html" title="Representation of an IP/MAC Notification Table (INT). ">INT</a></td><td>An integer type. </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">value</td><td>The integer value to format. </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">min_width</td><td>Minimum width of the returned string, including the optional prefix and separator. By default, use the "natural" size of <em><a class="el" href="classts_1_1_i_n_t.html" title="Representation of an IP/MAC Notification Table (INT). ">INT</a></em> (e.g. 8 for 32-bit integer) plus prefix and separator. </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">separator</td><td>Separator string for groups of 4 digits, empty by default. </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">use_prefix</td><td>If true, prepend the standard hexa prefix "0x". </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">use_upper</td><td>If true, use upper-case hexadecimal digits. </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>The formatted string. </dd></dl>
+
+</div>
+</div>
 <a id="ac700959acea9ad3915f6d19cae5b8612"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#ac700959acea9ad3915f6d19cae5b8612">&#9670;&nbsp;</a></span>Format() <span class="overload">[1/2]</span></h2>
 
@@ -5377,7 +5456,7 @@ template&lt;typename INT , typename std::enable_if&lt; std::is_integral&lt; INT 
 <li><code>-</code> : Left-justified (right-justified by default).</li>
 <li><code>+</code> : Force a '+' sign with positive decimal integers (<code>%d</code> only).</li>
 <li><code>0</code> : Zero padding for integers. This is the default with <code>%x</code> and <code>%X</code>.</li>
-<li><em>digits</em> : Minimum field width. This is a display width, not a number of characters. With <code>%x</code> or <code>%X</code>, the default width is the "natural" width of the parameter (e.g. 4 digits for a <code>uint16_t</code> value).</li>
+<li><em>digits</em> : Minimum field width. This is a display width, not a number of characters for strings. With <code>%x</code> or <code>%X</code>, the default width is the "natural" width of the parameter (e.g. 8 digits for a <code>uint32_t</code> value without thousands separator).</li>
 <li><code></code>. <em>digits</em> : Starting with a dot. Maximum field width for strings. Ignored for integers.</li>
 <li><code>'</code> : For integer conversions, use a separator for groups of thousands.</li>
 <li><code>*</code> : Can be used instead of <em>digits</em>. The integer value is taken from the argument list.</li>

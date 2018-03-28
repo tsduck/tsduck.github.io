@@ -33,5 +33,6 @@ var searchData=
   ['broken_5fbar',['BROKEN_BAR',['../namespacets.html#af24d55c3f2436479863296852c91e075',1,'ts']]],
   ['bsid',['bsid',['../classts_1_1_a_c3_descriptor.html#a7e160a08a818a723e059c501a392158b',1,'ts::AC3Descriptor::bsid()'],['../classts_1_1_enhanced_a_c3_descriptor.html#a74ac2659d2ad4d8c175109fa9910969a',1,'ts::EnhancedAC3Descriptor::bsid()']]],
   ['bufsize',['bufsize',['../classts_1_1tsp_1_1_options.html#a4e18798e0ee8780c0cf106bcb2162c61',1,'ts::tsp::Options']]],
-  ['bullet',['BULLET',['../namespacets.html#a463f30a4e189772964ec12b735e03808',1,'ts']]]
+  ['bullet',['BULLET',['../namespacets.html#a463f30a4e189772964ec12b735e03808',1,'ts']]],
+  ['bytes',['BYTES',['../classts_1_1_i_pv6_address.html#af9ba3e476c9122ae5f4f5bb17ba626c2',1,'ts::IPv6Address']]]
 ];

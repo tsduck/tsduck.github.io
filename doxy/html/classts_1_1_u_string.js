@@ -128,6 +128,7 @@ var classts_1_1_u_string =
     [ "toIntegers", "classts_1_1_u_string.html#a0f4ab823727a0686132adce31ec684d2", null ],
     [ "Decimal", "classts_1_1_u_string.html#a3b50a1c0e877f78224e765fbba6548f9", null ],
     [ "Hexa", "classts_1_1_u_string.html#a59e86799482cd921d27d074fd1a44e42", null ],
+    [ "HexaMin", "classts_1_1_u_string.html#a632e5c9db696eb6ecdbe9489fb7645a0", null ],
     [ "Format", "classts_1_1_u_string.html#ac700959acea9ad3915f6d19cae5b8612", null ],
     [ "Format", "classts_1_1_u_string.html#a618790677ea9b093c381cb58526527f2", null ],
     [ "scan", "classts_1_1_u_string.html#ae9ad4436655c7622b184598f5dd7593d", null ],

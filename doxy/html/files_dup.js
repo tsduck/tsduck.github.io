@@ -50,6 +50,9 @@ var files_dup =
     [ "tsAC3Descriptor.h", "ts_a_c3_descriptor_8h.html", [
       [ "AC3Descriptor", "classts_1_1_a_c3_descriptor.html", "classts_1_1_a_c3_descriptor" ]
     ] ],
+    [ "tsAdaptationFieldDataDescriptor.h", "ts_adaptation_field_data_descriptor_8h.html", [
+      [ "AdaptationFieldDataDescriptor", "classts_1_1_adaptation_field_data_descriptor.html", "classts_1_1_adaptation_field_data_descriptor" ]
+    ] ],
     [ "tsAES.h", "ts_a_e_s_8h.html", [
       [ "AES", "classts_1_1_a_e_s.html", "classts_1_1_a_e_s" ]
     ] ],
@@ -59,6 +62,9 @@ var files_dup =
       [ "ApplicationIdentifier", "structts_1_1_a_i_t_1_1_application_identifier.html", "structts_1_1_a_i_t_1_1_application_identifier" ]
     ] ],
     [ "tsAlgorithm.h", "ts_algorithm_8h.html", "ts_algorithm_8h" ],
+    [ "tsAncillaryDataDescriptor.h", "ts_ancillary_data_descriptor_8h.html", [
+      [ "AncillaryDataDescriptor", "classts_1_1_ancillary_data_descriptor.html", "classts_1_1_ancillary_data_descriptor" ]
+    ] ],
     [ "tsApplicationSharedLibrary.h", "ts_application_shared_library_8h.html", [
       [ "ApplicationSharedLibrary", "classts_1_1_application_shared_library.html", "classts_1_1_application_shared_library" ]
     ] ],
@@ -110,6 +116,9 @@ var files_dup =
       [ "BAT", "classts_1_1_b_a_t.html", "classts_1_1_b_a_t" ]
     ] ],
     [ "tsBCD.h", "ts_b_c_d_8h.html", "ts_b_c_d_8h" ],
+    [ "tsBetterSystemRandomGenerator.h", "ts_better_system_random_generator_8h.html", [
+      [ "BetterSystemRandomGenerator", "classts_1_1_better_system_random_generator.html", "classts_1_1_better_system_random_generator" ]
+    ] ],
     [ "tsBinaryTable.h", "ts_binary_table_8h.html", [
       [ "BinaryTable", "classts_1_1_binary_table.html", "classts_1_1_binary_table" ]
     ] ],
@@ -341,6 +350,9 @@ var files_dup =
       [ "InterruptHandler", "classts_1_1_interrupt_handler.html", "classts_1_1_interrupt_handler" ]
     ] ],
     [ "tsIPAddress.h", "ts_i_p_address_8h.html", "ts_i_p_address_8h" ],
+    [ "tsIPMACGenericStreamLocationDescriptor.h", "ts_i_p_m_a_c_generic_stream_location_descriptor_8h.html", [
+      [ "IPMACGenericStreamLocationDescriptor", "classts_1_1_i_p_m_a_c_generic_stream_location_descriptor.html", "classts_1_1_i_p_m_a_c_generic_stream_location_descriptor" ]
+    ] ],
     [ "tsIPMACPlatformNameDescriptor.h", "ts_i_p_m_a_c_platform_name_descriptor_8h.html", [
       [ "IPMACPlatformNameDescriptor", "classts_1_1_i_p_m_a_c_platform_name_descriptor.html", "classts_1_1_i_p_m_a_c_platform_name_descriptor" ]
     ] ],
@@ -351,9 +363,13 @@ var files_dup =
       [ "IPMACStreamLocationDescriptor", "classts_1_1_i_p_m_a_c_stream_location_descriptor.html", "classts_1_1_i_p_m_a_c_stream_location_descriptor" ]
     ] ],
     [ "tsIPUtils.h", "ts_i_p_utils_8h.html", "ts_i_p_utils_8h" ],
+    [ "tsIPv6Address.h", "ts_i_pv6_address_8h.html", "ts_i_pv6_address_8h" ],
     [ "tsISO639LanguageDescriptor.h", "ts_i_s_o639_language_descriptor_8h.html", [
       [ "Entry", "structts_1_1_i_s_o639_language_descriptor_1_1_entry.html", "structts_1_1_i_s_o639_language_descriptor_1_1_entry" ],
       [ "ISO639LanguageDescriptor", "classts_1_1_i_s_o639_language_descriptor.html", "classts_1_1_i_s_o639_language_descriptor" ]
+    ] ],
+    [ "tsISPAccessModeDescriptor.h", "ts_i_s_p_access_mode_descriptor_8h.html", [
+      [ "ISPAccessModeDescriptor", "classts_1_1_i_s_p_access_mode_descriptor.html", "classts_1_1_i_s_p_access_mode_descriptor" ]
     ] ],
     [ "tsjson.h", "tsjson_8h.html", "tsjson_8h" ],
     [ "tsLinkageDescriptor.h", "ts_linkage_descriptor_8h.html", [
@@ -696,12 +712,29 @@ var files_dup =
       [ "Address", "classts_1_1_target_i_p_source_slash_descriptor_1_1_address.html", "classts_1_1_target_i_p_source_slash_descriptor_1_1_address" ],
       [ "TargetIPSourceSlashDescriptor", "classts_1_1_target_i_p_source_slash_descriptor.html", "classts_1_1_target_i_p_source_slash_descriptor" ]
     ] ],
+    [ "tsTargetIPv6AddressDescriptor.h", "ts_target_i_pv6_address_descriptor_8h.html", [
+      [ "TargetIPv6AddressDescriptor", "classts_1_1_target_i_pv6_address_descriptor.html", "classts_1_1_target_i_pv6_address_descriptor" ]
+    ] ],
+    [ "tsTargetIPv6SlashDescriptor.h", "ts_target_i_pv6_slash_descriptor_8h.html", [
+      [ "Address", "classts_1_1_target_i_pv6_slash_descriptor_1_1_address.html", "classts_1_1_target_i_pv6_slash_descriptor_1_1_address" ],
+      [ "TargetIPv6SlashDescriptor", "classts_1_1_target_i_pv6_slash_descriptor.html", "classts_1_1_target_i_pv6_slash_descriptor" ]
+    ] ],
+    [ "tsTargetIPv6SourceSlashDescriptor.h", "ts_target_i_pv6_source_slash_descriptor_8h.html", [
+      [ "Address", "classts_1_1_target_i_pv6_source_slash_descriptor_1_1_address.html", "classts_1_1_target_i_pv6_source_slash_descriptor_1_1_address" ],
+      [ "TargetIPv6SourceSlashDescriptor", "classts_1_1_target_i_pv6_source_slash_descriptor.html", "classts_1_1_target_i_pv6_source_slash_descriptor" ]
+    ] ],
     [ "tsTargetMACAddressDescriptor.h", "ts_target_m_a_c_address_descriptor_8h.html", [
       [ "TargetMACAddressDescriptor", "classts_1_1_target_m_a_c_address_descriptor.html", "classts_1_1_target_m_a_c_address_descriptor" ]
     ] ],
     [ "tsTargetMACAddressRangeDescriptor.h", "ts_target_m_a_c_address_range_descriptor_8h.html", [
       [ "Range", "classts_1_1_target_m_a_c_address_range_descriptor_1_1_range.html", "classts_1_1_target_m_a_c_address_range_descriptor_1_1_range" ],
       [ "TargetMACAddressRangeDescriptor", "classts_1_1_target_m_a_c_address_range_descriptor.html", "classts_1_1_target_m_a_c_address_range_descriptor" ]
+    ] ],
+    [ "tsTargetSerialNumberDescriptor.h", "ts_target_serial_number_descriptor_8h.html", [
+      [ "TargetSerialNumberDescriptor", "classts_1_1_target_serial_number_descriptor.html", "classts_1_1_target_serial_number_descriptor" ]
+    ] ],
+    [ "tsTargetSmartcardDescriptor.h", "ts_target_smartcard_descriptor_8h.html", [
+      [ "TargetSmartcardDescriptor", "classts_1_1_target_smartcard_descriptor.html", "classts_1_1_target_smartcard_descriptor" ]
     ] ],
     [ "tsTCPConnection.h", "ts_t_c_p_connection_8h.html", "ts_t_c_p_connection_8h" ],
     [ "tsTCPServer.h", "ts_t_c_p_server_8h.html", [

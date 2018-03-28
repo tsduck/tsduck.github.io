@@ -294,7 +294,7 @@ var searchData=
   ['linkage_5ftype',['linkage_type',['../classts_1_1_linkage_descriptor.html#adfbcc5ee51f09369736160608ad53b13',1,'ts::LinkageDescriptor']]],
   ['list_5fproc',['list_proc',['../classts_1_1tsp_1_1_options.html#a3204767bbcbec609cb3c21f26d61de5e',1,'ts::tsp::Options']]],
   ['lnb',['lnb',['../classts_1_1_tuner_args.html#a3595c919b5d003905d6658f72d1a6788',1,'ts::TunerArgs::lnb()'],['../classts_1_1_tuner_parameters_d_v_b_s.html#a2069b32ef4e80e012c9d21e1f421afbb',1,'ts::TunerParametersDVBS::lnb()']]],
-  ['localhost',['LocalHost',['../classts_1_1_i_p_address.html#ab5bcdcc7f5b401cf1be8f17d51935994',1,'ts::IPAddress']]],
+  ['localhost',['LocalHost',['../classts_1_1_i_p_address.html#ab5bcdcc7f5b401cf1be8f17d51935994',1,'ts::IPAddress::LocalHost()'],['../classts_1_1_i_pv6_address.html#addfab5b1606cd9a2d6759c114a111d54',1,'ts::IPv6Address::LocalHost()']]],
   ['log2_5fmax_5fframe_5fnum_5fminus4',['log2_max_frame_num_minus4',['../classts_1_1_a_v_c_sequence_parameter_set.html#a26fc175bad6a20be8f5eadfe739cd2f6',1,'ts::AVCSequenceParameterSet']]],
   ['log2_5fmax_5fmv_5flength_5fhorizontal',['log2_max_mv_length_horizontal',['../classts_1_1_a_v_c_v_u_i_parameters.html#aa277079d127110baf43bcf647c599f74',1,'ts::AVCVUIParameters']]],
   ['log2_5fmax_5fmv_5flength_5fvertical',['log2_max_mv_length_vertical',['../classts_1_1_a_v_c_v_u_i_parameters.html#af3626d24fb3f4b1cda765c8d2c342862',1,'ts::AVCVUIParameters']]],

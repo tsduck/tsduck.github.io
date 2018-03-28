@@ -20,6 +20,7 @@ var ts_i_p_utils_8h =
     [ "TS_SOCKET_ERR_NOTCONN", "ts_i_p_utils_8h.html#a7f984386fdc09ee7970ec0b625693874", null ],
     [ "SocketErrorCode", "ts_i_p_utils_8h.html#a5346c902c2c02fd7fdf27ecbd67e0d7e", null ],
     [ "IPAddressVector", "ts_i_p_utils_8h.html#a6825a1db0e62afdf5e6ccb895a28c020", null ],
+    [ "IPv6AddressVector", "ts_i_p_utils_8h.html#ac2ac6fc6bd19504e6061ec96f78ca66f", null ],
     [ "IPv4_PROTO_ICMP", "ts_i_p_utils_8h.html#a517791ee3f9284794d3f8c3f6cc0cd83aaf8e916deeabec1531a4a24a614a6227", null ],
     [ "IPv4_PROTO_IGMP", "ts_i_p_utils_8h.html#a517791ee3f9284794d3f8c3f6cc0cd83a477c4a90e1baf91426f5ed82120d3db9", null ],
     [ "IPv4_PROTO_TCP", "ts_i_p_utils_8h.html#a517791ee3f9284794d3f8c3f6cc0cd83a7f9f70774aa6a444dffe12628b240fa5", null ],

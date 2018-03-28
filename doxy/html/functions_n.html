@@ -37,7 +37,7 @@
  <tr style="height: 56px;">
   <td id="projectlogo"><img src="tsduck-32.png"/></td>
    <td id="projectalign"><span id="projectname">TSDuck</span>
-    <span id="projectnumber">Version 3.9-618</span>
+    <span id="projectnumber">Version 3.10-643</span>
     <span id="projectbrief">(TSDuck - The MPEG Transport Stream Toolkit)</span>
    </td>
    <td>        <div id="MSearchBox" class="MSearchBoxInactive">
@@ -115,6 +115,7 @@ $(document).ready(function(){initNavTree('functions_n.html','');});
 </li>
 <li>name()
 : <a class="el" href="classts_1_1_a_e_s.html#a5dc843a1a8e773c1fa3e6a8d95581819">ts::AES</a>
+, <a class="el" href="classts_1_1_better_system_random_generator.html#a0bb4045b2541f035cdb43c739672782b">ts::BetterSystemRandomGenerator</a>
 , <a class="el" href="classts_1_1_block_cipher.html#a92e63724e654d4da4666eb128c5902f5">ts::BlockCipher</a>
 , <a class="el" href="classts_1_1_bouquet_name_descriptor.html#aa203d6358278fbc8ed4084c6f1040b4c">ts::BouquetNameDescriptor</a>
 , <a class="el" href="classts_1_1_c_b_c.html#a09b2bab9bc4191204517f548618cf245">ts::CBC&lt; CIPHER &gt;</a>
@@ -133,6 +134,7 @@ $(document).ready(function(){initNavTree('functions_n.html','');});
 , <a class="el" href="classts_1_1_hash.html#aaf482a25cb19db46d59d8a2cfec340d8">ts::Hash</a>
 , <a class="el" href="classts_1_1_m_d5.html#aca87d3f4af85908344f09d68b5957bbc">ts::MD5</a>
 , <a class="el" href="classts_1_1_network_name_descriptor.html#a35c4469eb6c7595f56071ffcdc8df718">ts::NetworkNameDescriptor</a>
+, <a class="el" href="classts_1_1_random_generator.html#a5fc5886bd9e65180aca710d584786074">ts::RandomGenerator</a>
 </li>
 <li>NAME
 : <a class="el" href="classts_1_1_service.html#a6714af4f0f1fb06c562f1aa786ae6fd2aee56e4078e16b2fb415427bd0fe5f382">ts::Service</a>
@@ -141,6 +143,7 @@ $(document).ready(function(){initNavTree('functions_n.html','');});
 : <a class="el" href="classts_1_1_s_h_a1.html#a7650bd0fa1edcc8b501c88b347d8ce73">ts::SHA1</a>
 , <a class="el" href="classts_1_1_s_h_a256.html#a477b16e57db59d01f00489ad0fb4c78a">ts::SHA256</a>
 , <a class="el" href="classts_1_1_s_h_a512.html#ae4ea9366b3303d7616fddd7f18ca457c">ts::SHA512</a>
+, <a class="el" href="classts_1_1_system_random_generator.html#aaadadc28dbf9ece3ab6086b389b1ac9d">ts::SystemRandomGenerator</a>
 , <a class="el" href="classts_1_1_t_d_e_s.html#a1f38df4b0fd146ac710ad283ffe857f0">ts::TDES</a>
 , <a class="el" href="classts_1_1_t_s_analyzer_1_1_service_context.html#a25ad30a5c066caeba5f3577a63656285">ts::TSAnalyzer::ServiceContext</a>
 , <a class="el" href="structts_1_1tsp_1_1_options_1_1_plugin_options.html#a246d4fafc3145731d1c7359263b3d063">ts::tsp::Options::PluginOptions</a>
@@ -187,6 +190,9 @@ $(document).ready(function(){initNavTree('functions_n.html','');});
 </li>
 <li>NetworkNameDescriptor()
 : <a class="el" href="classts_1_1_network_name_descriptor.html#a09a31939fe984d0833edafff54505271">ts::NetworkNameDescriptor</a>
+</li>
+<li>networkPrefix()
+: <a class="el" href="classts_1_1_i_pv6_address.html#acdd2ca69ce87cfdc0a43cc864b5746b3">ts::IPv6Address</a>
 </li>
 <li>NEVER
 : <a class="el" href="classts_1_1_cycling_packetizer.html#a61a75ad5555e266f968c32d9a8644873afb73d1052732ef1037046cd01f66682a">ts::CyclingPacketizer</a>
@@ -261,7 +267,7 @@ $(document).ready(function(){initNavTree('functions_n.html','');});
 : <a class="el" href="classts_1_1_time.html#a1e5bf71bb2d8b037f5cff2fb0ef86566">ts::Time</a>
 </li>
 <li>NIT()
-: <a class="el" href="classts_1_1_n_i_t.html#a71d627a8b0e29accb74d4bc715c06a5b">ts::NIT</a>
+: <a class="el" href="classts_1_1_n_i_t.html#a543d285f56cf11e76159738dc488d752">ts::NIT</a>
 </li>
 <li>nit_pid
 : <a class="el" href="classts_1_1_p_a_t.html#a83b9c566cceb9f6722a552b3a5c1b1f9">ts::PAT</a>
@@ -288,7 +294,7 @@ $(document).ready(function(){initNavTree('functions_n.html','');});
 : <a class="el" href="classts_1_1_terrestrial_delivery_system_descriptor.html#a889a35f795d60996ba2e0fab8c0175e8">ts::TerrestrialDeliverySystemDescriptor</a>
 </li>
 <li>Node()
-: <a class="el" href="classts_1_1xml_1_1_node.html#a5d192d19f818b55d1ed6de4befd7cb40">ts::xml::Node</a>
+: <a class="el" href="classts_1_1xml_1_1_node.html#ad8a2f0f3ff968278529caf0abc8ae25a">ts::xml::Node</a>
 </li>
 <li>nominal_CP_duration
 : <a class="el" href="classts_1_1ecmgscs_1_1_stream_setup.html#a594ab9ec970bf9f7786e1efebf19db9e">ts::ecmgscs::StreamSetup</a>

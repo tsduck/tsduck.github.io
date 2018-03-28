@@ -37,7 +37,7 @@
  <tr style="height: 56px;">
   <td id="projectlogo"><img src="tsduck-32.png"/></td>
    <td id="projectalign"><span id="projectname">TSDuck</span>
-    <span id="projectnumber">Version 3.9-618</span>
+    <span id="projectnumber">Version 3.10-643</span>
     <span id="projectbrief">(TSDuck - The MPEG Transport Stream Toolkit)</span>
    </td>
    <td>        <div id="MSearchBox" class="MSearchBoxInactive">
@@ -113,7 +113,8 @@ Inheritance diagram for ts::SystemRandomGenerator:</div>
 <div class="dyncontent">
 <div class="center"><img src="classts_1_1_system_random_generator__inherit__graph.png" border="0" usemap="#ts_1_1_system_random_generator_inherit__map" alt="Inheritance graph"/></div>
 <map name="ts_1_1_system_random_generator_inherit__map" id="ts_1_1_system_random_generator_inherit__map">
-<area shape="rect" id="node2" href="classts_1_1_random_generator.html" title="Abstract base class for PRNG&#39;s (pseudo&#45;random numbers generators). " alt="" coords="28,5,177,31"/>
+<area shape="rect" id="node3" href="classts_1_1_better_system_random_generator.html" title="Improved system&#45;provided PRNG (pseudo&#45;random numbers generator). " alt="" coords="5,152,235,177"/>
+<area shape="rect" id="node2" href="classts_1_1_random_generator.html" title="Abstract base class for PRNG&#39;s (pseudo&#45;random numbers generators). " alt="" coords="45,5,195,31"/>
 </map>
 <center><span class="legend">[<a target="top" href="graph_legend.html">legend</a>]</span></center></div>
 <div class="dynheader">
@@ -135,6 +136,9 @@ Public Member Functions</h2></td></tr>
 virtual&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classts_1_1_system_random_generator.html#a83398d59e1d315d5c30da886d091e87a">~SystemRandomGenerator</a> ()</td></tr>
 <tr class="memdesc:a83398d59e1d315d5c30da886d091e87a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Virtual destructor. <br /></td></tr>
 <tr class="separator:a83398d59e1d315d5c30da886d091e87a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aaadadc28dbf9ece3ab6086b389b1ac9d"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="classts_1_1_u_string.html">UString</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classts_1_1_system_random_generator.html#aaadadc28dbf9ece3ab6086b389b1ac9d">name</a> () const override</td></tr>
+<tr class="memdesc:aaadadc28dbf9ece3ab6086b389b1ac9d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Algorithm name (informational only).  <a href="#aaadadc28dbf9ece3ab6086b389b1ac9d">More...</a><br /></td></tr>
+<tr class="separator:aaadadc28dbf9ece3ab6086b389b1ac9d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a83345d8d868dc277f680638304d3c4c0"><td class="memItemLeft" align="right" valign="top">virtual bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classts_1_1_system_random_generator.html#a83345d8d868dc277f680638304d3c4c0">read</a> (void *, size_t) override</td></tr>
 <tr class="memdesc:a83345d8d868dc277f680638304d3c4c0"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get random data.  <a href="#a83345d8d868dc277f680638304d3c4c0">More...</a><br /></td></tr>
 <tr class="separator:a83345d8d868dc277f680638304d3c4c0"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -154,6 +158,38 @@ virtual&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="c
 <div class="textblock"><p>System-provided PRNG (pseudo-random numbers generator). </p>
 <p>Usually not the best PRNG on earth, but fine for most usages. </p>
 </div><h2 class="groupheader">Member Function Documentation</h2>
+<a id="aaadadc28dbf9ece3ab6086b389b1ac9d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aaadadc28dbf9ece3ab6086b389b1ac9d">&#9670;&nbsp;</a></span>name()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual <a class="el" href="classts_1_1_u_string.html">UString</a> ts::SystemRandomGenerator::name </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">override</span><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Algorithm name (informational only). </p>
+<dl class="section return"><dt>Returns</dt><dd>The algorithm name. </dd></dl>
+
+<p>Implements <a class="el" href="classts_1_1_random_generator.html#a5fc5886bd9e65180aca710d584786074">ts::RandomGenerator</a>.</p>
+
+<p>Reimplemented in <a class="el" href="classts_1_1_better_system_random_generator.html#a0bb4045b2541f035cdb43c739672782b">ts::BetterSystemRandomGenerator</a>.</p>
+
+</div>
+</div>
 <a id="aebaefbac5072c3da95f39fc780795f4a"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#aebaefbac5072c3da95f39fc780795f4a">&#9670;&nbsp;</a></span>seed()</h2>
 
@@ -230,6 +266,8 @@ virtual&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="c
 
 <p>Implements <a class="el" href="classts_1_1_random_generator.html#a99784c0122030f9c3a7efd0c49e2ce2a">ts::RandomGenerator</a>.</p>
 
+<p>Reimplemented in <a class="el" href="classts_1_1_better_system_random_generator.html#a1ddea89e13ae63f95e9ddb34dd040359">ts::BetterSystemRandomGenerator</a>.</p>
+
 </div>
 </div>
 <a id="a83345d8d868dc277f680638304d3c4c0"></a>
@@ -277,6 +315,8 @@ virtual&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="c
 <dl class="section return"><dt>Returns</dt><dd>True on success, false on error. </dd></dl>
 
 <p>Implements <a class="el" href="classts_1_1_random_generator.html#aa1feea98a848e074c7bd532ef7daaf0a">ts::RandomGenerator</a>.</p>
+
+<p>Reimplemented in <a class="el" href="classts_1_1_better_system_random_generator.html#a687487674890e269a4e2b86f41f2b9a7">ts::BetterSystemRandomGenerator</a>.</p>
 
 </div>
 </div>
