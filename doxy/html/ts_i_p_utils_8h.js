@@ -40,5 +40,6 @@ var ts_i_p_utils_8h =
     [ "IPv4_SRC_ADDR_OFFSET", "ts_i_p_utils_8h.html#a75d9d1250024eb53cca6a04688d618c1", null ],
     [ "IPv4_DEST_ADDR_OFFSET", "ts_i_p_utils_8h.html#a4dbd687f943cf8f37399ded7f72c0eae", null ],
     [ "IPv4_MIN_HEADER_SIZE", "ts_i_p_utils_8h.html#ace4ee022322ad423341721de7078c695", null ],
-    [ "UDP_HEADER_SIZE", "ts_i_p_utils_8h.html#a6ff354dcfca859ba0ed128622037af14", null ]
+    [ "UDP_HEADER_SIZE", "ts_i_p_utils_8h.html#a6ff354dcfca859ba0ed128622037af14", null ],
+    [ "IP_MAX_PACKET_SIZE", "ts_i_p_utils_8h.html#a9dfd476a2f21ea45d4f265d0e2805af1", null ]
 ];

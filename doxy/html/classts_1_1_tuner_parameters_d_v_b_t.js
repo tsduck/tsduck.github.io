@@ -10,6 +10,14 @@ var classts_1_1_tuner_parameters_d_v_b_t =
     [ "zapFieldCount", "classts_1_1_tuner_parameters_d_v_b_t.html#a35dcd281fa8c2a86f77113498a7282e2", null ],
     [ "copy", "classts_1_1_tuner_parameters_d_v_b_t.html#a96e37802e345b3587b3c1fa66500841c", null ],
     [ "fromArgs", "classts_1_1_tuner_parameters_d_v_b_t.html#a5479d0aca1276db6e2ea83765982a0b0", null ],
+    [ "tunerType", "classts_1_1_tuner_parameters_d_v_b_t.html#affe1023cc47c6c53f70b4c815b161a17", null ],
+    [ "convertToDektecModulation", "classts_1_1_tuner_parameters_d_v_b_t.html#a7a2c4b582bde341f274400cebbb023d1", null ],
+    [ "fromTunerArgs", "classts_1_1_tuner_parameters_d_v_b_t.html#aab3c3bf6a5ea94f2222251c13e4cee1f", null ],
+    [ "Factory", "classts_1_1_tuner_parameters_d_v_b_t.html#ae9090da5be9aa433810481bd8317ab10", null ],
+    [ "TheoreticalBitrateForModulation", "classts_1_1_tuner_parameters_d_v_b_t.html#aa861e39ff04cb97b5c001c42f2688f3f", null ],
+    [ "StoreInRepository", "classts_1_1_tuner_parameters_d_v_b_t.html#a59cdb7e078e0cd0e812a6b054c0db09f", null ],
+    [ "RetrieveFromRepository", "classts_1_1_tuner_parameters_d_v_b_t.html#a74525d608dc46bd56cf1cb716f3f07d7", null ],
+    [ "EraseFromRepository", "classts_1_1_tuner_parameters_d_v_b_t.html#a5bfffe6bd0400ddb02c65d9cc745be58", null ],
     [ "frequency", "classts_1_1_tuner_parameters_d_v_b_t.html#a1a110b952affd58aba00f10bc6b940b7", null ],
     [ "inversion", "classts_1_1_tuner_parameters_d_v_b_t.html#ac8e2d7c13a583b160845eccac1caf8cc", null ],
     [ "bandwidth", "classts_1_1_tuner_parameters_d_v_b_t.html#ae83d4d33d76156abc900e6cd6befcd95", null ],
@@ -28,5 +36,6 @@ var classts_1_1_tuner_parameters_d_v_b_t =
     [ "DEFAULT_TRANSMISSION_MODE", "classts_1_1_tuner_parameters_d_v_b_t.html#add13525776fa20f823a41232f0c006b2", null ],
     [ "DEFAULT_GUARD_INTERVAL", "classts_1_1_tuner_parameters_d_v_b_t.html#af1fca5a8a402556f2569e2a3fa5536a0", null ],
     [ "DEFAULT_HIERARCHY", "classts_1_1_tuner_parameters_d_v_b_t.html#aa1057eb6cd143be44e63b42b85d45c22", null ],
-    [ "DEFAULT_PLP", "classts_1_1_tuner_parameters_d_v_b_t.html#ae826e64c614919c295fbdd578ce52473", null ]
+    [ "DEFAULT_PLP", "classts_1_1_tuner_parameters_d_v_b_t.html#ae826e64c614919c295fbdd578ce52473", null ],
+    [ "_tuner_type", "classts_1_1_tuner_parameters_d_v_b_t.html#a4a9c22b2d5977b6e9eee540b2c0e720b", null ]
 ];

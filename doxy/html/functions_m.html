@@ -37,7 +37,7 @@
  <tr style="height: 56px;">
   <td id="projectlogo"><img src="tsduck-32.png"/></td>
    <td id="projectalign"><span id="projectname">TSDuck</span>
-    <span id="projectnumber">Version 3.10-643</span>
+    <span id="projectnumber">Version 3.10-675</span>
     <span id="projectbrief">(TSDuck - The MPEG Transport Stream Toolkit)</span>
    </td>
    <td>        <div id="MSearchBox" class="MSearchBoxInactive">
@@ -233,12 +233,14 @@ $(document).ready(function(){initNavTree('functions_m.html','');});
 </li>
 <li>maxIVSize()
 : <a class="el" href="classts_1_1_cipher_chaining.html#ac3bc8535776f3b6cf2874f65f5db615e">ts::CipherChaining</a>
+, <a class="el" href="classts_1_1_d_v_b_c_s_a2.html#ad6061c5a25075126e1a2496e8b9115b8">ts::DVBCSA2</a>
 </li>
 <li>maxKeySize()
 : <a class="el" href="classts_1_1_a_e_s.html#af23a23fdc39cca4eb7d860707331a17b">ts::AES</a>
 , <a class="el" href="classts_1_1_block_cipher.html#a292f5bf8aa9d88721dd86c249db44d21">ts::BlockCipher</a>
 , <a class="el" href="classts_1_1_cipher_chaining.html#ad2d8774b302e9915f99e53dbe2b9cd2f">ts::CipherChaining</a>
 , <a class="el" href="classts_1_1_d_e_s.html#a69f23100607595de3de3fa5c24dc4685">ts::DES</a>
+, <a class="el" href="classts_1_1_d_v_b_c_s_a2.html#ab1878755fa3c709fef8ae87d7ab8ee18">ts::DVBCSA2</a>
 , <a class="el" href="classts_1_1_t_d_e_s.html#a70ee2337de582b546a105495a9b35cc5">ts::TDES</a>
 </li>
 <li>maxRounds()
@@ -246,6 +248,7 @@ $(document).ready(function(){initNavTree('functions_m.html','');});
 , <a class="el" href="classts_1_1_block_cipher.html#a1692084a0aad853d1f7852400db7d944">ts::BlockCipher</a>
 , <a class="el" href="classts_1_1_cipher_chaining.html#a086d6fae6f3422e9e549aefdaab7d331">ts::CipherChaining</a>
 , <a class="el" href="classts_1_1_d_e_s.html#abd4efbc577e8519151c96cf210a1ee1d">ts::DES</a>
+, <a class="el" href="classts_1_1_d_v_b_c_s_a2.html#a8aa62ebd5381284683acd700985e3de9">ts::DVBCSA2</a>
 , <a class="el" href="classts_1_1_t_d_e_s.html#afdcd9304e9a6e3f415a4efe8ff635c9c">ts::TDES</a>
 </li>
 <li>maxSeverity()
@@ -277,7 +280,8 @@ $(document).ready(function(){initNavTree('functions_m.html','');});
 : <a class="el" href="classts_1_1_message_descriptor.html#a816e2d17013ac5c61480320c7d3dc37c">ts::MessageDescriptor</a>
 </li>
 <li>message_too_long
-: <a class="el" href="structts_1_1ecmgscs_1_1_errors.html#a5e5abf0d3020e42a2a42071d9a3cb1cfac00c897cd43549b78850c0e50993cc35">ts::ecmgscs::Errors</a>
+: <a class="el" href="structts_1_1duck_1_1_errors.html#a4a49909ce1553d8a94a4b243cbe369dbaa9b6b7fb406049fee9d1c381f2881fc1">ts::duck::Errors</a>
+, <a class="el" href="structts_1_1ecmgscs_1_1_errors.html#a5e5abf0d3020e42a2a42071d9a3cb1cfac00c897cd43549b78850c0e50993cc35">ts::ecmgscs::Errors</a>
 , <a class="el" href="structts_1_1emmgmux_1_1_errors.html#a1e77320d82540c48f9616be50ba638f7acebcb57b5bd00eb1f5f10004204ca5f5">ts::emmgmux::Errors</a>
 </li>
 <li>MessageDescriptor()
@@ -314,8 +318,14 @@ $(document).ready(function(){initNavTree('functions_m.html','');});
 <li>MIN_KEY_SIZE
 : <a class="el" href="classts_1_1_a_e_s.html#a96cd97f01a32d1fb3152afdacaceec27">ts::AES</a>
 </li>
+<li>MIN_NANOSEC_PER_INTERVAL
+: <a class="el" href="classts_1_1_t_s_speed_metrics.html#a928ea896a88e6c26c15c82d353b18e88">ts::TSSpeedMetrics</a>
+</li>
 <li>min_nested_tlv
 : <a class="el" href="classts_1_1_tables_display_args.html#a83b4299dbe8299968731b6b00b020f16">ts::TablesDisplayArgs</a>
+</li>
+<li>MIN_PACKET_PER_INTERVAL
+: <a class="el" href="classts_1_1_t_s_speed_metrics.html#ad1b0d6b18a266af7a4117306addc88ee">ts::TSSpeedMetrics</a>
 </li>
 <li>min_repetition_ts
 : <a class="el" href="classts_1_1_t_s_analyzer_1_1_e_t_i_d_context.html#a8f0a26e7f20d47fdbb505a092449a4ab">ts::TSAnalyzer::ETIDContext</a>
@@ -325,12 +335,14 @@ $(document).ready(function(){initNavTree('functions_m.html','');});
 </li>
 <li>minIVSize()
 : <a class="el" href="classts_1_1_cipher_chaining.html#a8325f3c779715cf9489b250e1f56294b">ts::CipherChaining</a>
+, <a class="el" href="classts_1_1_d_v_b_c_s_a2.html#a8ee93eaea26319d6e7a10112965cf4bb">ts::DVBCSA2</a>
 </li>
 <li>minKeySize()
 : <a class="el" href="classts_1_1_a_e_s.html#a08bb56853b2671fa79ffe73023683ad1">ts::AES</a>
 , <a class="el" href="classts_1_1_block_cipher.html#ad63fb12dfb541fc587ec8f936d184281">ts::BlockCipher</a>
 , <a class="el" href="classts_1_1_cipher_chaining.html#a84c2eeaf3d8a4396c8cb026a79517e49">ts::CipherChaining</a>
 , <a class="el" href="classts_1_1_d_e_s.html#a7bc7bac102baa606bd2930596d97404e">ts::DES</a>
+, <a class="el" href="classts_1_1_d_v_b_c_s_a2.html#a582030943ca251f1742d25644bc5eb4b">ts::DVBCSA2</a>
 , <a class="el" href="classts_1_1_t_d_e_s.html#a098330bc0a4cf2747fb7554c84aff7c4">ts::TDES</a>
 </li>
 <li>minMessageSize()
@@ -340,6 +352,7 @@ $(document).ready(function(){initNavTree('functions_m.html','');});
 , <a class="el" href="classts_1_1_c_t_s2.html#aeaa79c2f06f9db9faba7ff99a41f362e">ts::CTS2&lt; CIPHER &gt;</a>
 , <a class="el" href="classts_1_1_c_t_s3.html#a92860d1ea6454617ddeef5de14d4bab3">ts::CTS3&lt; CIPHER &gt;</a>
 , <a class="el" href="classts_1_1_c_t_s4.html#a24d491c79da4ec60d66a90a19d4dac9f">ts::CTS4&lt; CIPHER &gt;</a>
+, <a class="el" href="classts_1_1_d_v_b_c_s_a2.html#ae80a92f1462e1ea8645958931964a028">ts::DVBCSA2</a>
 , <a class="el" href="classts_1_1_d_v_s042.html#af03cd002a917fefb3983172e7304f121">ts::DVS042&lt; CIPHER &gt;</a>
 , <a class="el" href="classts_1_1_e_c_b.html#a1553ea68d6aa760486ba6d2299429619">ts::ECB&lt; CIPHER &gt;</a>
 </li>
@@ -348,6 +361,7 @@ $(document).ready(function(){initNavTree('functions_m.html','');});
 , <a class="el" href="classts_1_1_block_cipher.html#ad0459f80f351298a7ec9c20ed5afa988">ts::BlockCipher</a>
 , <a class="el" href="classts_1_1_cipher_chaining.html#a0b6440d21660ced2a68a5eece499c681">ts::CipherChaining</a>
 , <a class="el" href="classts_1_1_d_e_s.html#ab68874cb707ad00814e91a3063ffc401">ts::DES</a>
+, <a class="el" href="classts_1_1_d_v_b_c_s_a2.html#a70e3041bbdb06bdfca4758c45d853ff4">ts::DVBCSA2</a>
 , <a class="el" href="classts_1_1_t_d_e_s.html#a7084e1089b6ef4797128bea400e39c9e">ts::TDES</a>
 </li>
 <li>minute()
@@ -358,7 +372,8 @@ $(document).ready(function(){initNavTree('functions_m.html','');});
 : <a class="el" href="classts_1_1_time.html#a14e379928d4f4e32907f854f9bcb11c4a80eec5a31a8092b79d75cc250694e2f1">ts::Time</a>
 </li>
 <li>missing_param
-: <a class="el" href="structts_1_1ecmgscs_1_1_errors.html#a5e5abf0d3020e42a2a42071d9a3cb1cfac6e60389dcc53aadddc658e9db12f786">ts::ecmgscs::Errors</a>
+: <a class="el" href="structts_1_1duck_1_1_errors.html#a4a49909ce1553d8a94a4b243cbe369dbaa109b0e9440a0b9c64c414ecd15dc8c4">ts::duck::Errors</a>
+, <a class="el" href="structts_1_1ecmgscs_1_1_errors.html#a5e5abf0d3020e42a2a42071d9a3cb1cfac6e60389dcc53aadddc658e9db12f786">ts::ecmgscs::Errors</a>
 , <a class="el" href="structts_1_1emmgmux_1_1_errors.html#a1e77320d82540c48f9616be50ba638f7aa9e7f50dbdd71bd2117951c2980873c7">ts::emmgmux::Errors</a>
 </li>
 <li>mix_type
@@ -427,7 +442,19 @@ $(document).ready(function(){initNavTree('functions_m.html','');});
 : <a class="el" href="classts_1_1_m_p_e_demux.html#a4ea5cd74ca993d6bb93b5c9dad41175a">ts::MPEDemux</a>
 </li>
 <li>MPEPacket()
-: <a class="el" href="classts_1_1_m_p_e_packet.html#aa73c0c58f10fa4740fd3444cf37cd7eb">ts::MPEPacket</a>
+: <a class="el" href="classts_1_1_m_p_e_packet.html#a250f173ec977c08269d7e81c07ea482a">ts::MPEPacket</a>
+</li>
+<li>MSG_ECM
+: <a class="el" href="structts_1_1duck_1_1_tags.html#a67913b17e6cb5c8854ae6d6b8193ad7baaa399ea185dfa0efeb7b277a4ad707ea">ts::duck::Tags</a>
+</li>
+<li>MSG_ERROR
+: <a class="el" href="structts_1_1duck_1_1_tags.html#a67913b17e6cb5c8854ae6d6b8193ad7ba9448fe1c82fb803a6a07a3e41609a4c2">ts::duck::Tags</a>
+</li>
+<li>MSG_LOG_SECTION
+: <a class="el" href="structts_1_1duck_1_1_tags.html#a67913b17e6cb5c8854ae6d6b8193ad7bac3f649979fe60ef3e2eadfddc13b72bb">ts::duck::Tags</a>
+</li>
+<li>MSG_LOG_TABLE
+: <a class="el" href="structts_1_1duck_1_1_tags.html#a67913b17e6cb5c8854ae6d6b8193ad7ba4585f8abebf37dbc15b64c1f2e7fba7f">ts::duck::Tags</a>
 </li>
 <li>multi_files
 : <a class="el" href="classts_1_1_tables_logger_args.html#a9590ffc2966651f7998c424c4192531b">ts::TablesLoggerArgs</a>
@@ -442,7 +469,7 @@ $(document).ready(function(){initNavTree('functions_m.html','');});
 : <a class="el" href="classts_1_1_singleton_manager.html#a8d8e1e6f742e17f26ebdfb06ffa99e62">ts::SingletonManager</a>
 </li>
 <li>MutexError()
-: <a class="el" href="classts_1_1_mutex_1_1_mutex_error.html#af4b6706cdfcf07e02f9c1e782fafb5c4">ts::Mutex::MutexError</a>
+: <a class="el" href="classts_1_1_mutex_1_1_mutex_error.html#a4e5741b6e64eb5fbc7c09df6929f0196">ts::Mutex::MutexError</a>
 </li>
 </ul>
 </div><!-- contents -->

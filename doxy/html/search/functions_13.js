@@ -141,6 +141,8 @@ var searchData=
   ['tsfileoutputresync',['TSFileOutputResync',['../classts_1_1_t_s_file_output_resync.html#ae620e01ba3f020dc069a561a54cdad5d',1,'ts::TSFileOutputResync']]],
   ['tsp',['TSP',['../classts_1_1_t_s_p.html#abe6729faa75238de603ba270e244b03c',1,'ts::TSP']]],
   ['tsscanner',['TSScanner',['../classts_1_1_t_s_scanner.html#affd3084e1dc6699468357745ae0e78fa',1,'ts::TSScanner']]],
+  ['tsscrambling',['TSScrambling',['../classts_1_1_t_s_scrambling.html#a434bf51b1d035095991faaed6a474237',1,'ts::TSScrambling::TSScrambling(Report &amp;report=(*ts::CerrReport::Instance()), uint8_t scrambling=SCRAMBLING_DVB_CSA2)'],['../classts_1_1_t_s_scrambling.html#a6e234224719101e21f3f73ed651df7a9',1,'ts::TSScrambling::TSScrambling(const TSScrambling &amp;other)']]],
+  ['tsspeedmetrics',['TSSpeedMetrics',['../classts_1_1_t_s_speed_metrics.html#a43cddcc347956d559b09ac3674e9ad82',1,'ts::TSSpeedMetrics']]],
   ['tune',['tune',['../classts_1_1_tuner.html#ad30ea8867ef46a80241c7d0ffb7372d6',1,'ts::Tuner::tune(const TunerParameters &amp;params, Report &amp;report)'],['../classts_1_1_tuner.html#a170ef5716f1c6d2fc2555e0697d2b017',1,'ts::Tuner::tune(DTVProperties &amp;props, Report &amp;report)'],['../classts_1_1_tuner_args.html#ad59f93d05c5c65263f1ea0d3cfa399ac',1,'ts::TunerArgs::tune()']]],
   ['tuner',['Tuner',['../classts_1_1_tuner.html#a7815c2bdf10e6da42d419373a0ea03b1',1,'ts::Tuner::Tuner(const UString &amp;device_name=UString())'],['../classts_1_1_tuner.html#a31cbd95a1bccb79cc41013d5560be13f',1,'ts::Tuner::Tuner(const UString &amp;device_name, bool info_only, Report &amp;report)']]],
   ['tunerargs',['TunerArgs',['../classts_1_1_tuner_args.html#a7210c8e24a304edb42eba585c5396a1f',1,'ts::TunerArgs']]],

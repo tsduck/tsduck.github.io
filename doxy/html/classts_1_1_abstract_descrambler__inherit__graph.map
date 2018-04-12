@@ -3,6 +3,6 @@
 <area shape="rect" id="node3" href="$classts_1_1_plugin.html" title="Base class of all tsp plugins. " alt="" coords="35,152,112,177"/>
 <area shape="rect" id="node4" href="$classts_1_1_args.html" title="An encapsulation of command line syntax and analysis. " alt="" coords="40,79,107,104"/>
 <area shape="rect" id="node5" href="$classts_1_1_report.html" title="Abstract interface for event reporting and monitoring. " alt="" coords="34,5,113,31"/>
-<area shape="rect" id="node6" href="$classts_1_1_table_handler_interface.html" title="Table handler interface. " alt="" coords="166,225,336,251"/>
-<area shape="rect" id="node7" href="$classts_1_1_thread.html" title="Base class for threads. " alt="" coords="359,225,441,251"/>
+<area shape="rect" id="node6" href="$classts_1_1_p_m_t_handler_interface.html" title="General&#45;purpose PMT handler interface. " alt="" coords="165,225,331,251"/>
+<area shape="rect" id="node7" href="$classts_1_1_section_handler_interface.html" title="Abstract interface to receive MPEG Section from a SectionDemux. " alt="" coords="354,225,537,251"/>
 </map>

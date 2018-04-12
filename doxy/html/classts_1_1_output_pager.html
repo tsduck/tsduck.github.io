@@ -37,7 +37,7 @@
  <tr style="height: 56px;">
   <td id="projectlogo"><img src="tsduck-32.png"/></td>
    <td id="projectalign"><span id="projectname">TSDuck</span>
-    <span id="projectnumber">Version 3.10-643</span>
+    <span id="projectnumber">Version 3.10-675</span>
     <span id="projectbrief">(TSDuck - The MPEG Transport Stream Toolkit)</span>
    </td>
    <td>        <div id="MSearchBox" class="MSearchBoxInactive">
@@ -99,6 +99,7 @@ $(document).ready(function(){initNavTree('classts_1_1_output_pager.html','');});
 
 <div class="header">
   <div class="summary">
+<a href="#pub-types">Public Types</a> &#124;
 <a href="#pub-methods">Public Member Functions</a> &#124;
 <a href="classts_1_1_output_pager-members.html">List of all members</a>  </div>
   <div class="headertitle">
@@ -125,69 +126,17 @@ Collaboration diagram for ts::OutputPager:</div>
 </map>
 <center><span class="legend">[<a target="top" href="graph_legend.html">legend</a>]</span></center></div>
 <table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
-Public Member Functions</h2></td></tr>
-<tr class="memitem:a3afd4c1fbb8762d176b78706b0670b52"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classts_1_1_output_pager.html#a3afd4c1fbb8762d176b78706b0670b52">OutputPager</a> (const <a class="el" href="classts_1_1_u_string.html">UString</a> &amp;envName=u&quot;PAGER&quot;)</td></tr>
-<tr class="memdesc:a3afd4c1fbb8762d176b78706b0670b52"><td class="mdescLeft">&#160;</td><td class="mdescRight">Default constructor.  <a href="#a3afd4c1fbb8762d176b78706b0670b52">More...</a><br /></td></tr>
-<tr class="separator:a3afd4c1fbb8762d176b78706b0670b52"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a691253aacb022ba9dc6d9f470d78b122"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classts_1_1_output_pager.html#a691253aacb022ba9dc6d9f470d78b122">canPage</a> () const</td></tr>
-<tr class="memdesc:a691253aacb022ba9dc6d9f470d78b122"><td class="mdescLeft">&#160;</td><td class="mdescRight">Check if we can run a pager.  <a href="#a691253aacb022ba9dc6d9f470d78b122">More...</a><br /></td></tr>
-<tr class="separator:a691253aacb022ba9dc6d9f470d78b122"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a235b3b4c605145f5b6022a5edf2b82e2"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classts_1_1_output_pager.html#a235b3b4c605145f5b6022a5edf2b82e2">open</a> (bool synchronous, size_t buffer_size, <a class="el" href="classts_1_1_report.html">Report</a> &amp;report)</td></tr>
-<tr class="memdesc:a235b3b4c605145f5b6022a5edf2b82e2"><td class="mdescLeft">&#160;</td><td class="mdescRight">Create the process, open the pipe.  <a href="#a235b3b4c605145f5b6022a5edf2b82e2">More...</a><br /></td></tr>
-<tr class="separator:a235b3b4c605145f5b6022a5edf2b82e2"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ad85ab8a9bb127d41ea7affa4927c5437"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classts_1_1_u_string.html">UString</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classts_1_1_output_pager.html#ad85ab8a9bb127d41ea7affa4927c5437">pagerCommand</a> () const</td></tr>
-<tr class="memdesc:ad85ab8a9bb127d41ea7affa4927c5437"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the pager command which is used.  <a href="#ad85ab8a9bb127d41ea7affa4927c5437">More...</a><br /></td></tr>
-<tr class="separator:ad85ab8a9bb127d41ea7affa4927c5437"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a7994c1c9af12a78d4094a9778b269b9d"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classts_1_1_output_pager.html#a7994c1c9af12a78d4094a9778b269b9d">write</a> (const <a class="el" href="classts_1_1_u_string.html">UString</a> &amp;text, <a class="el" href="classts_1_1_report.html">Report</a> &amp;report)</td></tr>
-<tr class="memdesc:a7994c1c9af12a78d4094a9778b269b9d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Write data to the pipe (received at process' standard input).  <a href="#a7994c1c9af12a78d4094a9778b269b9d">More...</a><br /></td></tr>
-<tr class="separator:a7994c1c9af12a78d4094a9778b269b9d"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="inherit_header pub_methods_classts_1_1_fork_pipe"><td colspan="2" onclick="javascript:toggleInherit('pub_methods_classts_1_1_fork_pipe')"><img src="closed.png" alt="-"/>&#160;Public Member Functions inherited from <a class="el" href="classts_1_1_fork_pipe.html">ts::ForkPipe</a></td></tr>
-<tr class="memitem:ab65266ec7182a3b8e26666dfd3dfc6ac inherit pub_methods_classts_1_1_fork_pipe"><td class="memItemLeft" align="right" valign="top"><a id="ab65266ec7182a3b8e26666dfd3dfc6ac"></a>
-&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classts_1_1_fork_pipe.html#ab65266ec7182a3b8e26666dfd3dfc6ac">ForkPipe</a> ()</td></tr>
-<tr class="memdesc:ab65266ec7182a3b8e26666dfd3dfc6ac inherit pub_methods_classts_1_1_fork_pipe"><td class="mdescLeft">&#160;</td><td class="mdescRight">Default constructor. <br /></td></tr>
-<tr class="separator:ab65266ec7182a3b8e26666dfd3dfc6ac inherit pub_methods_classts_1_1_fork_pipe"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:af2cd3664999b6f97aba629f481fee632 inherit pub_methods_classts_1_1_fork_pipe"><td class="memItemLeft" align="right" valign="top"><a id="af2cd3664999b6f97aba629f481fee632"></a>
-&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classts_1_1_fork_pipe.html#af2cd3664999b6f97aba629f481fee632">~ForkPipe</a> ()</td></tr>
-<tr class="memdesc:af2cd3664999b6f97aba629f481fee632 inherit pub_methods_classts_1_1_fork_pipe"><td class="mdescLeft">&#160;</td><td class="mdescRight">Destructor. <br /></td></tr>
-<tr class="separator:af2cd3664999b6f97aba629f481fee632 inherit pub_methods_classts_1_1_fork_pipe"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a3998c1803bc78022b13635464fa26650 inherit pub_methods_classts_1_1_fork_pipe"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classts_1_1_fork_pipe.html#a3998c1803bc78022b13635464fa26650">close</a> (<a class="el" href="classts_1_1_report.html">Report</a> &amp;report)</td></tr>
-<tr class="memdesc:a3998c1803bc78022b13635464fa26650 inherit pub_methods_classts_1_1_fork_pipe"><td class="mdescLeft">&#160;</td><td class="mdescRight">Close the pipe.  <a href="classts_1_1_fork_pipe.html#a3998c1803bc78022b13635464fa26650">More...</a><br /></td></tr>
-<tr class="separator:a3998c1803bc78022b13635464fa26650 inherit pub_methods_classts_1_1_fork_pipe"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a78936764a0becf295a17bc76e761a8a5 inherit pub_methods_classts_1_1_fork_pipe"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classts_1_1_fork_pipe.html#a78936764a0becf295a17bc76e761a8a5">getIgnoreAbort</a> () const</td></tr>
-<tr class="memdesc:a78936764a0becf295a17bc76e761a8a5 inherit pub_methods_classts_1_1_fork_pipe"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get "ignore abort".  <a href="classts_1_1_fork_pipe.html#a78936764a0becf295a17bc76e761a8a5">More...</a><br /></td></tr>
-<tr class="separator:a78936764a0becf295a17bc76e761a8a5 inherit pub_methods_classts_1_1_fork_pipe"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:af383c6d44a1670117069f9c331ff302a inherit pub_methods_classts_1_1_fork_pipe"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classts_1_1_fork_pipe.html#af383c6d44a1670117069f9c331ff302a">isBroken</a> () const</td></tr>
-<tr class="memdesc:af383c6d44a1670117069f9c331ff302a inherit pub_methods_classts_1_1_fork_pipe"><td class="mdescLeft">&#160;</td><td class="mdescRight">Check if the pipe was broken.  <a href="classts_1_1_fork_pipe.html#af383c6d44a1670117069f9c331ff302a">More...</a><br /></td></tr>
-<tr class="separator:af383c6d44a1670117069f9c331ff302a inherit pub_methods_classts_1_1_fork_pipe"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:af63758fc84426e19cf505ea618a815ff inherit pub_methods_classts_1_1_fork_pipe"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classts_1_1_fork_pipe.html#af63758fc84426e19cf505ea618a815ff">isOpen</a> () const</td></tr>
-<tr class="memdesc:af63758fc84426e19cf505ea618a815ff inherit pub_methods_classts_1_1_fork_pipe"><td class="mdescLeft">&#160;</td><td class="mdescRight">Check if the process is running and the pipe is open (when used).  <a href="classts_1_1_fork_pipe.html#af63758fc84426e19cf505ea618a815ff">More...</a><br /></td></tr>
-<tr class="separator:af63758fc84426e19cf505ea618a815ff inherit pub_methods_classts_1_1_fork_pipe"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:af226dc23723c343ab4e568fac8cc943c inherit pub_methods_classts_1_1_fork_pipe"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classts_1_1_fork_pipe.html#af226dc23723c343ab4e568fac8cc943c">isSynchronous</a> () const</td></tr>
-<tr class="memdesc:af226dc23723c343ab4e568fac8cc943c inherit pub_methods_classts_1_1_fork_pipe"><td class="mdescLeft">&#160;</td><td class="mdescRight">Check if synchronous mode is active (ie.  <a href="classts_1_1_fork_pipe.html#af226dc23723c343ab4e568fac8cc943c">More...</a><br /></td></tr>
-<tr class="separator:af226dc23723c343ab4e568fac8cc943c inherit pub_methods_classts_1_1_fork_pipe"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ae706c27ab3dcf87c05fd27263dac4663 inherit pub_methods_classts_1_1_fork_pipe"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classts_1_1_fork_pipe.html#ae706c27ab3dcf87c05fd27263dac4663">open</a> (const <a class="el" href="classts_1_1_u_string.html">UString</a> &amp;command, <a class="el" href="classts_1_1_fork_pipe.html#a0c8dd977baccb47f02e330357db92729">WaitMode</a> wait_mode, size_t buffer_size, <a class="el" href="classts_1_1_report.html">Report</a> &amp;report, <a class="el" href="classts_1_1_fork_pipe.html#aad4d5428d36a0f6de49e8ffef8e0aa5a">OutputMode</a> out_mode=<a class="el" href="classts_1_1_fork_pipe.html#aad4d5428d36a0f6de49e8ffef8e0aa5aa9363d8a5e2c9062291db669c34335f0f">KEEP_BOTH</a>, <a class="el" href="classts_1_1_fork_pipe.html#a99cbbdc313321259897546fb40e5c1e8">InputMode</a> in_mode=<a class="el" href="classts_1_1_fork_pipe.html#a99cbbdc313321259897546fb40e5c1e8a6f9e34aceee8d9089a55abe628491cc8">USE_PIPE</a>)</td></tr>
-<tr class="memdesc:ae706c27ab3dcf87c05fd27263dac4663 inherit pub_methods_classts_1_1_fork_pipe"><td class="mdescLeft">&#160;</td><td class="mdescRight">Create the process, open the optional pipe.  <a href="classts_1_1_fork_pipe.html#ae706c27ab3dcf87c05fd27263dac4663">More...</a><br /></td></tr>
-<tr class="separator:ae706c27ab3dcf87c05fd27263dac4663 inherit pub_methods_classts_1_1_fork_pipe"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aa0eaea9c6405d9092476751cd1355e28 inherit pub_methods_classts_1_1_fork_pipe"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classts_1_1_fork_pipe.html#aa0eaea9c6405d9092476751cd1355e28">setIgnoreAbort</a> (bool on)</td></tr>
-<tr class="memdesc:aa0eaea9c6405d9092476751cd1355e28 inherit pub_methods_classts_1_1_fork_pipe"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set "ignore abort".  <a href="classts_1_1_fork_pipe.html#aa0eaea9c6405d9092476751cd1355e28">More...</a><br /></td></tr>
-<tr class="separator:aa0eaea9c6405d9092476751cd1355e28 inherit pub_methods_classts_1_1_fork_pipe"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:af5b66ae50b279bebf2999198c1d725b3 inherit pub_methods_classts_1_1_fork_pipe"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classts_1_1_fork_pipe.html#af5b66ae50b279bebf2999198c1d725b3">write</a> (const void *addr, size_t size, <a class="el" href="classts_1_1_report.html">Report</a> &amp;report)</td></tr>
-<tr class="memdesc:af5b66ae50b279bebf2999198c1d725b3 inherit pub_methods_classts_1_1_fork_pipe"><td class="mdescLeft">&#160;</td><td class="mdescRight">Write data to the pipe (received at process' standard input).  <a href="classts_1_1_fork_pipe.html#af5b66ae50b279bebf2999198c1d725b3">More...</a><br /></td></tr>
-<tr class="separator:af5b66ae50b279bebf2999198c1d725b3 inherit pub_methods_classts_1_1_fork_pipe"><td class="memSeparator" colspan="2">&#160;</td></tr>
-</table><table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="inherited"></a>
-Additional Inherited Members</h2></td></tr>
-<tr class="inherit_header pub_types_classts_1_1_fork_pipe"><td colspan="2" onclick="javascript:toggleInherit('pub_types_classts_1_1_fork_pipe')"><img src="closed.png" alt="-"/>&#160;Public Types inherited from <a class="el" href="classts_1_1_fork_pipe.html">ts::ForkPipe</a></td></tr>
-<tr class="memitem:a99cbbdc313321259897546fb40e5c1e8 inherit pub_types_classts_1_1_fork_pipe"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classts_1_1_fork_pipe.html#a99cbbdc313321259897546fb40e5c1e8">InputMode</a> { <br />
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-types"></a>
+Public Types</h2></td></tr>
+<tr class="memitem:a99cbbdc313321259897546fb40e5c1e8"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classts_1_1_fork_pipe.html#a99cbbdc313321259897546fb40e5c1e8">InputMode</a> { <br />
 &#160;&#160;<a class="el" href="classts_1_1_fork_pipe.html#a99cbbdc313321259897546fb40e5c1e8aeee3c09ae4a1e957ca58844f719dcd16">KEEP_STDIN</a>, 
 <br />
 &#160;&#160;<a class="el" href="classts_1_1_fork_pipe.html#a99cbbdc313321259897546fb40e5c1e8a6f9e34aceee8d9089a55abe628491cc8">USE_PIPE</a>
 <br />
  }</td></tr>
 <tr class="memdesc:a99cbbdc313321259897546fb40e5c1e8"><td class="mdescLeft">&#160;</td><td class="mdescRight">How to standard input in the created process.  <a href="classts_1_1_fork_pipe.html#a99cbbdc313321259897546fb40e5c1e8">More...</a><br /></td></tr>
-<tr class="separator:a99cbbdc313321259897546fb40e5c1e8 inherit pub_types_classts_1_1_fork_pipe"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aad4d5428d36a0f6de49e8ffef8e0aa5a inherit pub_types_classts_1_1_fork_pipe"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classts_1_1_fork_pipe.html#aad4d5428d36a0f6de49e8ffef8e0aa5a">OutputMode</a> { <br />
+<tr class="separator:a99cbbdc313321259897546fb40e5c1e8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aad4d5428d36a0f6de49e8ffef8e0aa5a"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classts_1_1_fork_pipe.html#aad4d5428d36a0f6de49e8ffef8e0aa5a">OutputMode</a> { <br />
 &#160;&#160;<a class="el" href="classts_1_1_fork_pipe.html#aad4d5428d36a0f6de49e8ffef8e0aa5aa9363d8a5e2c9062291db669c34335f0f">KEEP_BOTH</a>, 
 <br />
 &#160;&#160;<a class="el" href="classts_1_1_fork_pipe.html#aad4d5428d36a0f6de49e8ffef8e0aa5aa2ab170183bd767d494412f43a7e89afb">STDOUT_ONLY</a>, 
@@ -196,8 +145,8 @@ Additional Inherited Members</h2></td></tr>
 <br />
  }</td></tr>
 <tr class="memdesc:aad4d5428d36a0f6de49e8ffef8e0aa5a"><td class="mdescLeft">&#160;</td><td class="mdescRight">How to merge standard output and standard error in the created process.  <a href="classts_1_1_fork_pipe.html#aad4d5428d36a0f6de49e8ffef8e0aa5a">More...</a><br /></td></tr>
-<tr class="separator:aad4d5428d36a0f6de49e8ffef8e0aa5a inherit pub_types_classts_1_1_fork_pipe"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a0c8dd977baccb47f02e330357db92729 inherit pub_types_classts_1_1_fork_pipe"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classts_1_1_fork_pipe.html#a0c8dd977baccb47f02e330357db92729">WaitMode</a> { <br />
+<tr class="separator:aad4d5428d36a0f6de49e8ffef8e0aa5a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0c8dd977baccb47f02e330357db92729"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classts_1_1_fork_pipe.html#a0c8dd977baccb47f02e330357db92729">WaitMode</a> { <br />
 &#160;&#160;<a class="el" href="classts_1_1_fork_pipe.html#a0c8dd977baccb47f02e330357db92729a56c1c8633a2f98c196233c371d2216e4">ASYNCHRONOUS</a>, 
 <br />
 &#160;&#160;<a class="el" href="classts_1_1_fork_pipe.html#a0c8dd977baccb47f02e330357db92729a53707c0bc5e1ddd66a969875d24b793f">SYNCHRONOUS</a>, 
@@ -206,11 +155,148 @@ Additional Inherited Members</h2></td></tr>
 <br />
  }</td></tr>
 <tr class="memdesc:a0c8dd977baccb47f02e330357db92729"><td class="mdescLeft">&#160;</td><td class="mdescRight">How to wait for the created process when <a class="el" href="classts_1_1_fork_pipe.html#a3998c1803bc78022b13635464fa26650" title="Close the pipe. ">close()</a> is invoked.  <a href="classts_1_1_fork_pipe.html#a0c8dd977baccb47f02e330357db92729">More...</a><br /></td></tr>
-<tr class="separator:a0c8dd977baccb47f02e330357db92729 inherit pub_types_classts_1_1_fork_pipe"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="separator:a0c8dd977baccb47f02e330357db92729"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
+Public Member Functions</h2></td></tr>
+<tr class="memitem:a3afd4c1fbb8762d176b78706b0670b52"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classts_1_1_output_pager.html#a3afd4c1fbb8762d176b78706b0670b52">OutputPager</a> (const <a class="el" href="classts_1_1_u_string.html">UString</a> &amp;envName=u&quot;PAGER&quot;)</td></tr>
+<tr class="memdesc:a3afd4c1fbb8762d176b78706b0670b52"><td class="mdescLeft">&#160;</td><td class="mdescRight">Default constructor.  <a href="#a3afd4c1fbb8762d176b78706b0670b52">More...</a><br /></td></tr>
+<tr class="separator:a3afd4c1fbb8762d176b78706b0670b52"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a691253aacb022ba9dc6d9f470d78b122"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classts_1_1_output_pager.html#a691253aacb022ba9dc6d9f470d78b122">canPage</a> () const</td></tr>
+<tr class="memdesc:a691253aacb022ba9dc6d9f470d78b122"><td class="mdescLeft">&#160;</td><td class="mdescRight">Check if we can run a pager.  <a href="#a691253aacb022ba9dc6d9f470d78b122">More...</a><br /></td></tr>
+<tr class="separator:a691253aacb022ba9dc6d9f470d78b122"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3998c1803bc78022b13635464fa26650"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classts_1_1_fork_pipe.html#a3998c1803bc78022b13635464fa26650">close</a> (<a class="el" href="classts_1_1_report.html">Report</a> &amp;report)</td></tr>
+<tr class="memdesc:a3998c1803bc78022b13635464fa26650"><td class="mdescLeft">&#160;</td><td class="mdescRight">Close the pipe.  <a href="#a3998c1803bc78022b13635464fa26650">More...</a><br /></td></tr>
+<tr class="separator:a3998c1803bc78022b13635464fa26650"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a78936764a0becf295a17bc76e761a8a5"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classts_1_1_fork_pipe.html#a78936764a0becf295a17bc76e761a8a5">getIgnoreAbort</a> () const</td></tr>
+<tr class="memdesc:a78936764a0becf295a17bc76e761a8a5"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get "ignore abort".  <a href="#a78936764a0becf295a17bc76e761a8a5">More...</a><br /></td></tr>
+<tr class="separator:a78936764a0becf295a17bc76e761a8a5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af383c6d44a1670117069f9c331ff302a"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classts_1_1_fork_pipe.html#af383c6d44a1670117069f9c331ff302a">isBroken</a> () const</td></tr>
+<tr class="memdesc:af383c6d44a1670117069f9c331ff302a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Check if the pipe was broken.  <a href="#af383c6d44a1670117069f9c331ff302a">More...</a><br /></td></tr>
+<tr class="separator:af383c6d44a1670117069f9c331ff302a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af63758fc84426e19cf505ea618a815ff"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classts_1_1_fork_pipe.html#af63758fc84426e19cf505ea618a815ff">isOpen</a> () const</td></tr>
+<tr class="memdesc:af63758fc84426e19cf505ea618a815ff"><td class="mdescLeft">&#160;</td><td class="mdescRight">Check if the process is running and the pipe is open (when used).  <a href="#af63758fc84426e19cf505ea618a815ff">More...</a><br /></td></tr>
+<tr class="separator:af63758fc84426e19cf505ea618a815ff"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af226dc23723c343ab4e568fac8cc943c"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classts_1_1_fork_pipe.html#af226dc23723c343ab4e568fac8cc943c">isSynchronous</a> () const</td></tr>
+<tr class="memdesc:af226dc23723c343ab4e568fac8cc943c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Check if synchronous mode is active (ie.  <a href="#af226dc23723c343ab4e568fac8cc943c">More...</a><br /></td></tr>
+<tr class="separator:af226dc23723c343ab4e568fac8cc943c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a235b3b4c605145f5b6022a5edf2b82e2"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classts_1_1_output_pager.html#a235b3b4c605145f5b6022a5edf2b82e2">open</a> (bool synchronous, size_t buffer_size, <a class="el" href="classts_1_1_report.html">Report</a> &amp;report)</td></tr>
+<tr class="memdesc:a235b3b4c605145f5b6022a5edf2b82e2"><td class="mdescLeft">&#160;</td><td class="mdescRight">Create the process, open the pipe.  <a href="#a235b3b4c605145f5b6022a5edf2b82e2">More...</a><br /></td></tr>
+<tr class="separator:a235b3b4c605145f5b6022a5edf2b82e2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae706c27ab3dcf87c05fd27263dac4663"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classts_1_1_fork_pipe.html#ae706c27ab3dcf87c05fd27263dac4663">open</a> (const <a class="el" href="classts_1_1_u_string.html">UString</a> &amp;command, <a class="el" href="classts_1_1_fork_pipe.html#a0c8dd977baccb47f02e330357db92729">WaitMode</a> wait_mode, size_t buffer_size, <a class="el" href="classts_1_1_report.html">Report</a> &amp;report, <a class="el" href="classts_1_1_fork_pipe.html#aad4d5428d36a0f6de49e8ffef8e0aa5a">OutputMode</a> out_mode=<a class="el" href="classts_1_1_fork_pipe.html#aad4d5428d36a0f6de49e8ffef8e0aa5aa9363d8a5e2c9062291db669c34335f0f">KEEP_BOTH</a>, <a class="el" href="classts_1_1_fork_pipe.html#a99cbbdc313321259897546fb40e5c1e8">InputMode</a> in_mode=<a class="el" href="classts_1_1_fork_pipe.html#a99cbbdc313321259897546fb40e5c1e8a6f9e34aceee8d9089a55abe628491cc8">USE_PIPE</a>)</td></tr>
+<tr class="memdesc:ae706c27ab3dcf87c05fd27263dac4663"><td class="mdescLeft">&#160;</td><td class="mdescRight">Create the process, open the optional pipe.  <a href="#ae706c27ab3dcf87c05fd27263dac4663">More...</a><br /></td></tr>
+<tr class="separator:ae706c27ab3dcf87c05fd27263dac4663"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad85ab8a9bb127d41ea7affa4927c5437"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classts_1_1_u_string.html">UString</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classts_1_1_output_pager.html#ad85ab8a9bb127d41ea7affa4927c5437">pagerCommand</a> () const</td></tr>
+<tr class="memdesc:ad85ab8a9bb127d41ea7affa4927c5437"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the pager command which is used.  <a href="#ad85ab8a9bb127d41ea7affa4927c5437">More...</a><br /></td></tr>
+<tr class="separator:ad85ab8a9bb127d41ea7affa4927c5437"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa0eaea9c6405d9092476751cd1355e28"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classts_1_1_fork_pipe.html#aa0eaea9c6405d9092476751cd1355e28">setIgnoreAbort</a> (bool on)</td></tr>
+<tr class="memdesc:aa0eaea9c6405d9092476751cd1355e28"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set "ignore abort".  <a href="#aa0eaea9c6405d9092476751cd1355e28">More...</a><br /></td></tr>
+<tr class="separator:aa0eaea9c6405d9092476751cd1355e28"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7994c1c9af12a78d4094a9778b269b9d"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classts_1_1_output_pager.html#a7994c1c9af12a78d4094a9778b269b9d">write</a> (const <a class="el" href="classts_1_1_u_string.html">UString</a> &amp;text, <a class="el" href="classts_1_1_report.html">Report</a> &amp;report)</td></tr>
+<tr class="memdesc:a7994c1c9af12a78d4094a9778b269b9d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Write data to the pipe (received at process' standard input).  <a href="#a7994c1c9af12a78d4094a9778b269b9d">More...</a><br /></td></tr>
+<tr class="separator:a7994c1c9af12a78d4094a9778b269b9d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af5b66ae50b279bebf2999198c1d725b3"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classts_1_1_fork_pipe.html#af5b66ae50b279bebf2999198c1d725b3">write</a> (const void *addr, size_t size, <a class="el" href="classts_1_1_report.html">Report</a> &amp;report)</td></tr>
+<tr class="memdesc:af5b66ae50b279bebf2999198c1d725b3"><td class="mdescLeft">&#160;</td><td class="mdescRight">Write data to the pipe (received at process' standard input).  <a href="#af5b66ae50b279bebf2999198c1d725b3">More...</a><br /></td></tr>
+<tr class="separator:af5b66ae50b279bebf2999198c1d725b3"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>Send application output to a "pager" application such as "more" or "less". </p>
-</div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
+</div><h2 class="groupheader">Member Enumeration Documentation</h2>
+<a id="a0c8dd977baccb47f02e330357db92729"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0c8dd977baccb47f02e330357db92729">&#9670;&nbsp;</a></span>WaitMode</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">enum <a class="el" href="classts_1_1_fork_pipe.html#a0c8dd977baccb47f02e330357db92729">ts::ForkPipe::WaitMode</a></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inherited</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>How to wait for the created process when <a class="el" href="classts_1_1_fork_pipe.html#a3998c1803bc78022b13635464fa26650" title="Close the pipe. ">close()</a> is invoked. </p>
+<table class="fieldtable">
+<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="a0c8dd977baccb47f02e330357db92729a56c1c8633a2f98c196233c371d2216e4"></a>ASYNCHRONOUS&#160;</td><td class="fielddoc"><p>Don't wait, <a class="el" href="classts_1_1_fork_pipe.html#a3998c1803bc78022b13635464fa26650" title="Close the pipe. ">close()</a> will return immediately. </p>
+</td></tr>
+<tr><td class="fieldname"><a id="a0c8dd977baccb47f02e330357db92729a53707c0bc5e1ddd66a969875d24b793f"></a>SYNCHRONOUS&#160;</td><td class="fielddoc"><p>Wait for process completion during <a class="el" href="classts_1_1_fork_pipe.html#a3998c1803bc78022b13635464fa26650" title="Close the pipe. ">close()</a>. </p>
+</td></tr>
+<tr><td class="fieldname"><a id="a0c8dd977baccb47f02e330357db92729a63bea84e40c708501c32e33ac84ce9dd"></a>EXIT_PROCESS&#160;</td><td class="fielddoc"><p>Exit parent process diring <a class="el" href="classts_1_1_fork_pipe.html#ae706c27ab3dcf87c05fd27263dac4663" title="Create the process, open the optional pipe. ">open()</a>. UNIX: call exec(), Windows: call exit() <em>after</em> process creation. </p>
+</td></tr>
+</table>
+
+</div>
+</div>
+<a id="a99cbbdc313321259897546fb40e5c1e8"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a99cbbdc313321259897546fb40e5c1e8">&#9670;&nbsp;</a></span>InputMode</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">enum <a class="el" href="classts_1_1_fork_pipe.html#a99cbbdc313321259897546fb40e5c1e8">ts::ForkPipe::InputMode</a></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inherited</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>How to standard input in the created process. </p>
+<table class="fieldtable">
+<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="a99cbbdc313321259897546fb40e5c1e8aeee3c09ae4a1e957ca58844f719dcd16"></a>KEEP_STDIN&#160;</td><td class="fielddoc"><p>Keep same stdin as current process. </p>
+</td></tr>
+<tr><td class="fieldname"><a id="a99cbbdc313321259897546fb40e5c1e8a6f9e34aceee8d9089a55abe628491cc8"></a>USE_PIPE&#160;</td><td class="fielddoc"><p>Use the pipe as stdin (forbidden when wait mode is EXIT_PROCESS). </p>
+</td></tr>
+</table>
+
+</div>
+</div>
+<a id="aad4d5428d36a0f6de49e8ffef8e0aa5a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aad4d5428d36a0f6de49e8ffef8e0aa5a">&#9670;&nbsp;</a></span>OutputMode</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">enum <a class="el" href="classts_1_1_fork_pipe.html#aad4d5428d36a0f6de49e8ffef8e0aa5a">ts::ForkPipe::OutputMode</a></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inherited</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>How to merge standard output and standard error in the created process. </p>
+<table class="fieldtable">
+<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="aad4d5428d36a0f6de49e8ffef8e0aa5aa9363d8a5e2c9062291db669c34335f0f"></a>KEEP_BOTH&#160;</td><td class="fielddoc"><p>Keep same stdout and stderr as current process. </p>
+</td></tr>
+<tr><td class="fieldname"><a id="aad4d5428d36a0f6de49e8ffef8e0aa5aa2ab170183bd767d494412f43a7e89afb"></a>STDOUT_ONLY&#160;</td><td class="fielddoc"><p>Merge stderr into current stdout. </p>
+</td></tr>
+<tr><td class="fieldname"><a id="aad4d5428d36a0f6de49e8ffef8e0aa5aa3996037d77001c2e0e50e93fa949ec60"></a>STDERR_ONLY&#160;</td><td class="fielddoc"><p>Merge stdout into current stderr. </p>
+</td></tr>
+</table>
+
+</div>
+</div>
+<h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a id="a3afd4c1fbb8762d176b78706b0670b52"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a3afd4c1fbb8762d176b78706b0670b52">&#9670;&nbsp;</a></span>OutputPager()</h2>
 
@@ -295,7 +381,7 @@ Additional Inherited Members</h2></td></tr>
 </div>
 </div>
 <a id="a235b3b4c605145f5b6022a5edf2b82e2"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a235b3b4c605145f5b6022a5edf2b82e2">&#9670;&nbsp;</a></span>open()</h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a235b3b4c605145f5b6022a5edf2b82e2">&#9670;&nbsp;</a></span>open() <span class="overload">[1/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -340,7 +426,7 @@ Additional Inherited Members</h2></td></tr>
 </div>
 </div>
 <a id="a7994c1c9af12a78d4094a9778b269b9d"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a7994c1c9af12a78d4094a9778b269b9d">&#9670;&nbsp;</a></span>write()</h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a7994c1c9af12a78d4094a9778b269b9d">&#9670;&nbsp;</a></span>write() <span class="overload">[1/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -369,6 +455,314 @@ Additional Inherited Members</h2></td></tr>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramdir">[in]</td><td class="paramname">text</td><td>Text to write. </td></tr>
+    <tr><td class="paramdir">[in,out]</td><td class="paramname">report</td><td>Where to report errors. </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>True on success, false on error. </dd></dl>
+
+</div>
+</div>
+<a id="ae706c27ab3dcf87c05fd27263dac4663"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae706c27ab3dcf87c05fd27263dac4663">&#9670;&nbsp;</a></span>open() <span class="overload">[2/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool ts::ForkPipe::open </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="classts_1_1_u_string.html">UString</a> &amp;&#160;</td>
+          <td class="paramname"><em>command</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classts_1_1_fork_pipe.html#a0c8dd977baccb47f02e330357db92729">WaitMode</a>&#160;</td>
+          <td class="paramname"><em>wait_mode</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">size_t&#160;</td>
+          <td class="paramname"><em>buffer_size</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classts_1_1_report.html">Report</a> &amp;&#160;</td>
+          <td class="paramname"><em>report</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classts_1_1_fork_pipe.html#aad4d5428d36a0f6de49e8ffef8e0aa5a">OutputMode</a>&#160;</td>
+          <td class="paramname"><em>out_mode</em> = <code><a class="el" href="classts_1_1_fork_pipe.html#aad4d5428d36a0f6de49e8ffef8e0aa5aa9363d8a5e2c9062291db669c34335f0f">KEEP_BOTH</a></code>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classts_1_1_fork_pipe.html#a99cbbdc313321259897546fb40e5c1e8">InputMode</a>&#160;</td>
+          <td class="paramname"><em>in_mode</em> = <code><a class="el" href="classts_1_1_fork_pipe.html#a99cbbdc313321259897546fb40e5c1e8a6f9e34aceee8d9089a55abe628491cc8">USE_PIPE</a></code>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inherited</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Create the process, open the optional pipe. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">command</td><td>The command to execute. </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">wait_mode</td><td>How to wait for process termination in <a class="el" href="classts_1_1_fork_pipe.html#a3998c1803bc78022b13635464fa26650" title="Close the pipe. ">close()</a>. </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">buffer_size</td><td>The pipe buffer size in bytes. Used on Windows only. Zero means default. </td></tr>
+    <tr><td class="paramdir">[in,out]</td><td class="paramname">report</td><td>Where to report errors. </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">out_mode</td><td>How to handle stdout and stderr. </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">in_mode</td><td>How to handle stdin. Use the pipe by default. When set to KEEP_STDIN, no pipe is created. </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>True on success, false on error. Do not return on success when <em>wait_mode</em> is EXIT_PROCESS. </dd></dl>
+
+</div>
+</div>
+<a id="a3998c1803bc78022b13635464fa26650"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3998c1803bc78022b13635464fa26650">&#9670;&nbsp;</a></span>close()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool ts::ForkPipe::close </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classts_1_1_report.html">Report</a> &amp;&#160;</td>
+          <td class="paramname"><em>report</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inherited</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Close the pipe. </p>
+<p>Optionally wait for process termination if <em>wait_mode</em> was SYNCHRONOUS on <a class="el" href="classts_1_1_output_pager.html#a235b3b4c605145f5b6022a5edf2b82e2" title="Create the process, open the pipe. ">open()</a>. </p><dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in,out]</td><td class="paramname">report</td><td>Where to report errors. </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>True on success, false on error. </dd></dl>
+
+</div>
+</div>
+<a id="af63758fc84426e19cf505ea618a815ff"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af63758fc84426e19cf505ea618a815ff">&#9670;&nbsp;</a></span>isOpen()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool ts::ForkPipe::isOpen </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">inherited</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Check if the process is running and the pipe is open (when used). </p>
+<dl class="section return"><dt>Returns</dt><dd>True if the process is running and the pipe is open. </dd></dl>
+
+</div>
+</div>
+<a id="af383c6d44a1670117069f9c331ff302a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af383c6d44a1670117069f9c331ff302a">&#9670;&nbsp;</a></span>isBroken()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool ts::ForkPipe::isBroken </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">inherited</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Check if the pipe was broken. </p>
+<dl class="section return"><dt>Returns</dt><dd>True if was broken (unexpected process termination for instance). </dd></dl>
+
+</div>
+</div>
+<a id="af226dc23723c343ab4e568fac8cc943c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af226dc23723c343ab4e568fac8cc943c">&#9670;&nbsp;</a></span>isSynchronous()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool ts::ForkPipe::isSynchronous </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">inherited</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Check if synchronous mode is active (ie. </p>
+<p>will wait for process termination). </p><dl class="section return"><dt>Returns</dt><dd>True if synchronous mode is active. </dd></dl>
+
+</div>
+</div>
+<a id="aa0eaea9c6405d9092476751cd1355e28"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa0eaea9c6405d9092476751cd1355e28">&#9670;&nbsp;</a></span>setIgnoreAbort()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void ts::ForkPipe::setIgnoreAbort </td>
+          <td>(</td>
+          <td class="paramtype">bool&#160;</td>
+          <td class="paramname"><em>on</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">inherited</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Set "ignore abort". </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">on</td><td>If true and the process aborts, do not report error when writing data. </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="a78936764a0becf295a17bc76e761a8a5"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a78936764a0becf295a17bc76e761a8a5">&#9670;&nbsp;</a></span>getIgnoreAbort()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool ts::ForkPipe::getIgnoreAbort </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">inherited</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Get "ignore abort". </p>
+<dl class="section return"><dt>Returns</dt><dd>True if, when the process aborts, do not report error when writing data. </dd></dl>
+
+</div>
+</div>
+<a id="af5b66ae50b279bebf2999198c1d725b3"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af5b66ae50b279bebf2999198c1d725b3">&#9670;&nbsp;</a></span>write() <span class="overload">[2/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool ts::ForkPipe::write </td>
+          <td>(</td>
+          <td class="paramtype">const void *&#160;</td>
+          <td class="paramname"><em>addr</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">size_t&#160;</td>
+          <td class="paramname"><em>size</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classts_1_1_report.html">Report</a> &amp;&#160;</td>
+          <td class="paramname"><em>report</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inherited</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Write data to the pipe (received at process' standard input). </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">addr</td><td>Address of the data to write. </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">size</td><td>Size in bytes of the data to write. </td></tr>
     <tr><td class="paramdir">[in,out]</td><td class="paramname">report</td><td>Where to report errors. </td></tr>
   </table>
   </dd>

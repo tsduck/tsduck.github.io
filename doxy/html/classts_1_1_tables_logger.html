@@ -37,7 +37,7 @@
  <tr style="height: 56px;">
   <td id="projectlogo"><img src="tsduck-32.png"/></td>
    <td id="projectalign"><span id="projectname">TSDuck</span>
-    <span id="projectnumber">Version 3.10-643</span>
+    <span id="projectnumber">Version 3.10-675</span>
     <span id="projectbrief">(TSDuck - The MPEG Transport Stream Toolkit)</span>
    </td>
    <td>        <div id="MSearchBox" class="MSearchBoxInactive">
@@ -100,6 +100,7 @@ $(document).ready(function(){initNavTree('classts_1_1_tables_logger.html','');})
 <div class="header">
   <div class="summary">
 <a href="#pub-methods">Public Member Functions</a> &#124;
+<a href="#pub-static-methods">Static Public Member Functions</a> &#124;
 <a href="#pro-methods">Protected Member Functions</a> &#124;
 <a href="classts_1_1_tables_logger-members.html">List of all members</a>  </div>
   <div class="headertitle">
@@ -153,6 +154,12 @@ virtual&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="c
 <tr class="memdesc:a2a2e409a788934b49d814e79c6c7e020"><td class="mdescLeft">&#160;</td><td class="mdescRight"><a class="el" href="classts_1_1_report.html" title="Abstract interface for event reporting and monitoring. ">Report</a> the demux errors (if any).  <a href="#a2a2e409a788934b49d814e79c6c7e020">More...</a><br /></td></tr>
 <tr class="separator:a2a2e409a788934b49d814e79c6c7e020"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-static-methods"></a>
+Static Public Member Functions</h2></td></tr>
+<tr class="memitem:a5ec480d82679f73888c3aa9b814e930e"><td class="memItemLeft" align="right" valign="top">static bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classts_1_1_tables_logger.html#a5ec480d82679f73888c3aa9b814e930e">AnalyzeUDPMessage</a> (const uint8_t *data, size_t size, bool no_encapsulation, <a class="el" href="namespacets.html#ae315a0b27332d67d87076aef85b6ab14">SectionPtrVector</a> &amp;sections, <a class="el" href="classts_1_1_time.html">Time</a> &amp;timestamp)</td></tr>
+<tr class="memdesc:a5ec480d82679f73888c3aa9b814e930e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Static routine to analyze UDP messages as sent by the table logger (option &ndash;ip-udp).  <a href="#a5ec480d82679f73888c3aa9b814e930e">More...</a><br /></td></tr>
+<tr class="separator:a5ec480d82679f73888c3aa9b814e930e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pro-methods"></a>
 Protected Member Functions</h2></td></tr>
 <tr class="memitem:a4c01b802d30878e84779b1fece768e8a"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classts_1_1_tables_logger.html#a4c01b802d30878e84779b1fece768e8a">handleSection</a> (<a class="el" href="classts_1_1_section_demux.html">SectionDemux</a> &amp;, const <a class="el" href="classts_1_1_section.html">Section</a> &amp;) override</td></tr>
@@ -167,16 +174,6 @@ Protected Member Functions</h2></td></tr>
 <tr class="memitem:a941778cc013196cf8a7befe3631b394c"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classts_1_1_tables_logger.html#a941778cc013196cf8a7befe3631b394c">logSection</a> (const <a class="el" href="classts_1_1_section.html">Section</a> &amp;section)</td></tr>
 <tr class="memdesc:a941778cc013196cf8a7befe3631b394c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Log a section (option <code>&ndash;log</code>).  <a href="#a941778cc013196cf8a7befe3631b394c">More...</a><br /></td></tr>
 <tr class="separator:a941778cc013196cf8a7befe3631b394c"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="inherit_header pro_methods_classts_1_1_table_handler_interface"><td colspan="2" onclick="javascript:toggleInherit('pro_methods_classts_1_1_table_handler_interface')"><img src="closed.png" alt="-"/>&#160;Protected Member Functions inherited from <a class="el" href="classts_1_1_table_handler_interface.html">ts::TableHandlerInterface</a></td></tr>
-<tr class="memitem:ad7d173cefb702811191149005151c4ab inherit pro_methods_classts_1_1_table_handler_interface"><td class="memItemLeft" align="right" valign="top"><a id="ad7d173cefb702811191149005151c4ab"></a>
-virtual&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classts_1_1_table_handler_interface.html#ad7d173cefb702811191149005151c4ab">~TableHandlerInterface</a> ()</td></tr>
-<tr class="memdesc:ad7d173cefb702811191149005151c4ab inherit pro_methods_classts_1_1_table_handler_interface"><td class="mdescLeft">&#160;</td><td class="mdescRight">Virtual destructor. <br /></td></tr>
-<tr class="separator:ad7d173cefb702811191149005151c4ab inherit pro_methods_classts_1_1_table_handler_interface"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="inherit_header pro_methods_classts_1_1_section_handler_interface"><td colspan="2" onclick="javascript:toggleInherit('pro_methods_classts_1_1_section_handler_interface')"><img src="closed.png" alt="-"/>&#160;Protected Member Functions inherited from <a class="el" href="classts_1_1_section_handler_interface.html">ts::SectionHandlerInterface</a></td></tr>
-<tr class="memitem:ab39cae3e7c445020ad972521da307e11 inherit pro_methods_classts_1_1_section_handler_interface"><td class="memItemLeft" align="right" valign="top"><a id="ab39cae3e7c445020ad972521da307e11"></a>
-virtual&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classts_1_1_section_handler_interface.html#ab39cae3e7c445020ad972521da307e11">~SectionHandlerInterface</a> ()</td></tr>
-<tr class="memdesc:ab39cae3e7c445020ad972521da307e11 inherit pro_methods_classts_1_1_section_handler_interface"><td class="mdescLeft">&#160;</td><td class="mdescRight">Virtual destructor. <br /></td></tr>
-<tr class="separator:ab39cae3e7c445020ad972521da307e11 inherit pro_methods_classts_1_1_section_handler_interface"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>This class logs sections and tables. </p>
@@ -351,6 +348,73 @@ virtual&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="c
   </table>
   </dd>
 </dl>
+
+</div>
+</div>
+<a id="a5ec480d82679f73888c3aa9b814e930e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5ec480d82679f73888c3aa9b814e930e">&#9670;&nbsp;</a></span>AnalyzeUDPMessage()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static bool ts::TablesLogger::AnalyzeUDPMessage </td>
+          <td>(</td>
+          <td class="paramtype">const uint8_t *&#160;</td>
+          <td class="paramname"><em>data</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">size_t&#160;</td>
+          <td class="paramname"><em>size</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">bool&#160;</td>
+          <td class="paramname"><em>no_encapsulation</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="namespacets.html#ae315a0b27332d67d87076aef85b6ab14">SectionPtrVector</a> &amp;&#160;</td>
+          <td class="paramname"><em>sections</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classts_1_1_time.html">Time</a> &amp;&#160;</td>
+          <td class="paramname"><em>timestamp</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Static routine to analyze UDP messages as sent by the table logger (option &ndash;ip-udp). </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">data</td><td>Address of UDP message. </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">size</td><td>Size in bytes of UDP message. </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">no_encapsulation</td><td>When true, the UDP message contains raw sections. When false, the UDP message contains a TLV structure. </td></tr>
+    <tr><td class="paramdir">[out]</td><td class="paramname">sections</td><td>List of sections in the message. </td></tr>
+    <tr><td class="paramdir">[out]</td><td class="paramname">timestamp</td><td><a class="el" href="classts_1_1_time.html" title="The Time class implements a basic representation of time. ">Time</a> of the collection of the table. Available only in TLV message. Contains <a class="el" href="classts_1_1_time.html#aaddf023d4de5d142e36f599e34ae0294" title="Constant representing the Epoch, ie the first representable time on this operating system...">Time::Epoch</a> if not available. </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>True on success, false on invalid message. </dd></dl>
 
 </div>
 </div>

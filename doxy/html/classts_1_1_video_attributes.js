@@ -18,5 +18,8 @@ var classts_1_1_video_attributes =
     [ "frameRateDivider", "classts_1_1_video_attributes.html#a11afd79d3c915565fc5a5b89f41db4cf", null ],
     [ "frameRateName", "classts_1_1_video_attributes.html#ab3f6a9984ebb0bedd25ba47d360138b6", null ],
     [ "maximumBitRate", "classts_1_1_video_attributes.html#a33a1ffeec8be3b8fc1f9e2a52e983acc", null ],
-    [ "vbvSize", "classts_1_1_video_attributes.html#a57d8e02f462836682ca7bdcaab041b60", null ]
+    [ "vbvSize", "classts_1_1_video_attributes.html#a57d8e02f462836682ca7bdcaab041b60", null ],
+    [ "isValid", "classts_1_1_video_attributes.html#ad6868f6d1e816357f133ee9ab4551336", null ],
+    [ "invalidate", "classts_1_1_video_attributes.html#a5a9feb6f6c5c825a29e4462b1bc7b13e", null ],
+    [ "_is_valid", "classts_1_1_video_attributes.html#ae93c110893c944d6f3d339252c83c0c9", null ]
 ];

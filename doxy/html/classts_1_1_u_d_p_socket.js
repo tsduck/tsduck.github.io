@@ -18,5 +18,13 @@ var classts_1_1_u_d_p_socket =
     [ "send", "classts_1_1_u_d_p_socket.html#a0a8955786d1fd334d86ecef9e54c42c9", null ],
     [ "receive", "classts_1_1_u_d_p_socket.html#acd988c6afcf05c43c5bdddff19b19afe", null ],
     [ "open", "classts_1_1_u_d_p_socket.html#aa2db6cf5c00c59c7bfe2dfa9a46b51bc", null ],
-    [ "close", "classts_1_1_u_d_p_socket.html#af82a601f90f94a42688a43397e1fe653", null ]
+    [ "close", "classts_1_1_u_d_p_socket.html#af82a601f90f94a42688a43397e1fe653", null ],
+    [ "isOpen", "classts_1_1_u_d_p_socket.html#a169cc5a69a181fa62b3b3b9c0b4b1420", null ],
+    [ "setSendBufferSize", "classts_1_1_u_d_p_socket.html#a2112ba6c6da0b5c11aa22927f146b29e", null ],
+    [ "setReceiveBufferSize", "classts_1_1_u_d_p_socket.html#a5964325c74979c1f19d528b521cc373d", null ],
+    [ "reusePort", "classts_1_1_u_d_p_socket.html#a8962dd32304be864be6b263df47c6127", null ],
+    [ "getLocalAddress", "classts_1_1_u_d_p_socket.html#ab604b004c720d0f21df94144dbad89ec", null ],
+    [ "getSocket", "classts_1_1_u_d_p_socket.html#a1bf69f5b83c23d64ebff4168f3547092", null ],
+    [ "createSocket", "classts_1_1_u_d_p_socket.html#ae6b470b04a04023d0c742e16c00881b4", null ],
+    [ "declareOpened", "classts_1_1_u_d_p_socket.html#a34a55d1252d5ee5a93df970339bfbdc0", null ]
 ];

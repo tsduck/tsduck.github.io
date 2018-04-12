@@ -37,7 +37,7 @@
  <tr style="height: 56px;">
   <td id="projectlogo"><img src="tsduck-32.png"/></td>
    <td id="projectalign"><span id="projectname">TSDuck</span>
-    <span id="projectnumber">Version 3.10-643</span>
+    <span id="projectnumber">Version 3.10-675</span>
     <span id="projectbrief">(TSDuck - The MPEG Transport Stream Toolkit)</span>
    </td>
    <td>        <div id="MSearchBox" class="MSearchBoxInactive">
@@ -142,17 +142,15 @@ virtual&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="c
 <tr class="memitem:a83345d8d868dc277f680638304d3c4c0"><td class="memItemLeft" align="right" valign="top">virtual bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classts_1_1_system_random_generator.html#a83345d8d868dc277f680638304d3c4c0">read</a> (void *, size_t) override</td></tr>
 <tr class="memdesc:a83345d8d868dc277f680638304d3c4c0"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get random data.  <a href="#a83345d8d868dc277f680638304d3c4c0">More...</a><br /></td></tr>
 <tr class="separator:a83345d8d868dc277f680638304d3c4c0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a463db718fafdd7a059f75c1989541953"><td class="memItemLeft" align="right" valign="top">virtual bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classts_1_1_random_generator.html#a463db718fafdd7a059f75c1989541953">readByteBlock</a> (<a class="el" href="classts_1_1_byte_block.html">ByteBlock</a> &amp;data, size_t size)</td></tr>
+<tr class="memdesc:a463db718fafdd7a059f75c1989541953"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get random data in a byte block.  <a href="#a463db718fafdd7a059f75c1989541953">More...</a><br /></td></tr>
+<tr class="separator:a463db718fafdd7a059f75c1989541953"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a64352c31cd3ddb22f023987aeecf78ff"><td class="memItemLeft" align="right" valign="top">virtual bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classts_1_1_system_random_generator.html#a64352c31cd3ddb22f023987aeecf78ff">ready</a> () const override</td></tr>
 <tr class="memdesc:a64352c31cd3ddb22f023987aeecf78ff"><td class="mdescLeft">&#160;</td><td class="mdescRight">Check if the PRNG is ready.  <a href="#a64352c31cd3ddb22f023987aeecf78ff">More...</a><br /></td></tr>
 <tr class="separator:a64352c31cd3ddb22f023987aeecf78ff"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aebaefbac5072c3da95f39fc780795f4a"><td class="memItemLeft" align="right" valign="top">virtual bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classts_1_1_system_random_generator.html#aebaefbac5072c3da95f39fc780795f4a">seed</a> (const void *, size_t) override</td></tr>
 <tr class="memdesc:aebaefbac5072c3da95f39fc780795f4a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Seed (add entropy) to the PRNG.  <a href="#aebaefbac5072c3da95f39fc780795f4a">More...</a><br /></td></tr>
 <tr class="separator:aebaefbac5072c3da95f39fc780795f4a"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="inherit_header pub_methods_classts_1_1_random_generator"><td colspan="2" onclick="javascript:toggleInherit('pub_methods_classts_1_1_random_generator')"><img src="closed.png" alt="-"/>&#160;Public Member Functions inherited from <a class="el" href="classts_1_1_random_generator.html">ts::RandomGenerator</a></td></tr>
-<tr class="memitem:aca3b5d95c4407485ada8533a6223d0c4 inherit pub_methods_classts_1_1_random_generator"><td class="memItemLeft" align="right" valign="top"><a id="aca3b5d95c4407485ada8533a6223d0c4"></a>
-virtual&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classts_1_1_random_generator.html#aca3b5d95c4407485ada8533a6223d0c4">~RandomGenerator</a> ()</td></tr>
-<tr class="memdesc:aca3b5d95c4407485ada8533a6223d0c4 inherit pub_methods_classts_1_1_random_generator"><td class="mdescLeft">&#160;</td><td class="mdescRight">Virtual destructor. <br /></td></tr>
-<tr class="separator:aca3b5d95c4407485ada8533a6223d0c4 inherit pub_methods_classts_1_1_random_generator"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>System-provided PRNG (pseudo-random numbers generator). </p>
@@ -317,6 +315,52 @@ virtual&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="c
 <p>Implements <a class="el" href="classts_1_1_random_generator.html#aa1feea98a848e074c7bd532ef7daaf0a">ts::RandomGenerator</a>.</p>
 
 <p>Reimplemented in <a class="el" href="classts_1_1_better_system_random_generator.html#a687487674890e269a4e2b86f41f2b9a7">ts::BetterSystemRandomGenerator</a>.</p>
+
+</div>
+</div>
+<a id="a463db718fafdd7a059f75c1989541953"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a463db718fafdd7a059f75c1989541953">&#9670;&nbsp;</a></span>readByteBlock()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual bool ts::RandomGenerator::readByteBlock </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classts_1_1_byte_block.html">ByteBlock</a> &amp;&#160;</td>
+          <td class="paramname"><em>data</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">size_t&#160;</td>
+          <td class="paramname"><em>size</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">virtual</span><span class="mlabel">inherited</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Get random data in a byte block. </p>
+<p>The default implementation uses <a class="el" href="classts_1_1_system_random_generator.html#a83345d8d868dc277f680638304d3c4c0" title="Get random data. ">read()</a>. </p><dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[out]</td><td class="paramname">data</td><td>Returned random data. </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">size</td><td>Requested size in bytes of random data. </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>True on success, false on error. </dd></dl>
 
 </div>
 </div>

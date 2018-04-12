@@ -6,6 +6,8 @@ var classts_1_1_a_v_c_v_u_i_parameters =
     [ "parse", "classts_1_1_a_v_c_v_u_i_parameters.html#a6516cb9a517476188066445352959539", null ],
     [ "parse", "classts_1_1_a_v_c_v_u_i_parameters.html#a698594776b2cc198fe21a6b81804b169", null ],
     [ "display", "classts_1_1_a_v_c_v_u_i_parameters.html#a9fa7a1d4f6f001b19dd1cbe66a790cdb", null ],
+    [ "disp", "classts_1_1_a_v_c_v_u_i_parameters.html#aa928ac6a4e029f4ffe848449725e2c1c", null ],
+    [ "disp", "classts_1_1_a_v_c_v_u_i_parameters.html#a569372b0597c98a0f80d0a939ad8313d", null ],
     [ "aspect_ratio_info_present_flag", "classts_1_1_a_v_c_v_u_i_parameters.html#ae0601c527a2bae7a987fc29e2b11ad29", null ],
     [ "aspect_ratio_idc", "classts_1_1_a_v_c_v_u_i_parameters.html#ae3a6d5bce5f227b79e9013c0d5aee55f", null ],
     [ "sar_width", "classts_1_1_a_v_c_v_u_i_parameters.html#a0b500f284025747f503267f90a2fdbe0", null ],
@@ -39,5 +41,6 @@ var classts_1_1_a_v_c_v_u_i_parameters =
     [ "log2_max_mv_length_horizontal", "classts_1_1_a_v_c_v_u_i_parameters.html#aa277079d127110baf43bcf647c599f74", null ],
     [ "log2_max_mv_length_vertical", "classts_1_1_a_v_c_v_u_i_parameters.html#af3626d24fb3f4b1cda765c8d2c342862", null ],
     [ "num_reorder_frames", "classts_1_1_a_v_c_v_u_i_parameters.html#a7ed6cd44024a6930f9d0e5f445d30c91", null ],
-    [ "max_dec_frame_buffering", "classts_1_1_a_v_c_v_u_i_parameters.html#a74ee89f28227197050c2fec93c7b6fce", null ]
+    [ "max_dec_frame_buffering", "classts_1_1_a_v_c_v_u_i_parameters.html#a74ee89f28227197050c2fec93c7b6fce", null ],
+    [ "valid", "classts_1_1_a_v_c_v_u_i_parameters.html#ab40f1dc973ba1231c829da6c8b250fc4", null ]
 ];

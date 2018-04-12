@@ -5,6 +5,6 @@
 <area shape="rect" id="node5" href="$classts_1_1_report.html" title="Abstract interface for event reporting and monitoring. " alt="" coords="5,5,84,31"/>
 <area shape="rect" id="node6" href="$classts_1_1_t_s_p.html" title="TSP callback for plugins. " alt="" coords="102,80,167,105"/>
 <area shape="rect" id="node7" href="$classts_1_1_abort_interface.html" title="An interface to check for abort. " alt="" coords="109,5,232,31"/>
-<area shape="rect" id="node8" href="$classts_1_1_table_handler_interface.html" title="Table handler interface. " alt="" coords="181,241,351,267"/>
-<area shape="rect" id="node9" href="$classts_1_1_thread.html" title="Base class for threads. " alt="" coords="375,241,456,267"/>
+<area shape="rect" id="node8" href="$classts_1_1_p_m_t_handler_interface.html" title="General&#45;purpose PMT handler interface. " alt="" coords="181,241,346,267"/>
+<area shape="rect" id="node9" href="$classts_1_1_section_handler_interface.html" title="Abstract interface to receive MPEG Section from a SectionDemux. " alt="" coords="370,241,552,267"/>
 </map>

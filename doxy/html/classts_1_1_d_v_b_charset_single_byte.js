@@ -4,6 +4,14 @@ var classts_1_1_d_v_b_charset_single_byte =
     [ "decode", "classts_1_1_d_v_b_charset_single_byte.html#a9fe869591975c36415ea0d45eea0a60d", null ],
     [ "canEncode", "classts_1_1_d_v_b_charset_single_byte.html#ae83c2da6d567c29f791c2875d94590e2", null ],
     [ "encode", "classts_1_1_d_v_b_charset_single_byte.html#a8a0d95d560b5f333e9e7a8dda77f908a", null ],
+    [ "GetCharCodeTable", "classts_1_1_d_v_b_charset_single_byte.html#a8660e7721ce61d0ee5a334146e55b1ed", null ],
+    [ "name", "classts_1_1_d_v_b_charset_single_byte.html#aa6d8360c0bb6e90dd7315f8d5386e0f2", null ],
+    [ "tableCode", "classts_1_1_d_v_b_charset_single_byte.html#aa4cd0a995b6c8928bfc71000084cd261", null ],
+    [ "GetCharset", "classts_1_1_d_v_b_charset_single_byte.html#a9e80025f46bee31e14a4801f566767fb", null ],
+    [ "GetCharset", "classts_1_1_d_v_b_charset_single_byte.html#a142340b1b5953f3972f3cfa1a38a0075", null ],
+    [ "GetAllNames", "classts_1_1_d_v_b_charset_single_byte.html#ae36eb8bf788b5b0500944b868f11fab8", null ],
+    [ "encodeTableCode", "classts_1_1_d_v_b_charset_single_byte.html#aaa9fe66286408ff08d8f420e0d5cf62c", null ],
+    [ "Unregister", "classts_1_1_d_v_b_charset_single_byte.html#a9261194892e6e5d7ee7b66a6461d8585", null ],
     [ "ISO_6937", "classts_1_1_d_v_b_charset_single_byte.html#a16af8be405881efcf6df2879c08e34d2", null ],
     [ "ISO_8859_1", "classts_1_1_d_v_b_charset_single_byte.html#a7dfe1d2089971cc2f169873fc9edf6ad", null ],
     [ "ISO_8859_2", "classts_1_1_d_v_b_charset_single_byte.html#a5584a982c65299b121d5e531015ba73b", null ],
@@ -18,5 +26,7 @@ var classts_1_1_d_v_b_charset_single_byte =
     [ "ISO_8859_11", "classts_1_1_d_v_b_charset_single_byte.html#a0c683da0e646ecd9cb34393cd0c634f6", null ],
     [ "ISO_8859_13", "classts_1_1_d_v_b_charset_single_byte.html#a058daf8d2a6fbf56430238aae78bc718", null ],
     [ "ISO_8859_14", "classts_1_1_d_v_b_charset_single_byte.html#a096746c30713ab4aec31825863eba916", null ],
-    [ "ISO_8859_15", "classts_1_1_d_v_b_charset_single_byte.html#a4a0081a7c85aee137e006b8b8ea4ad8f", null ]
+    [ "ISO_8859_15", "classts_1_1_d_v_b_charset_single_byte.html#a4a0081a7c85aee137e006b8b8ea4ad8f", null ],
+    [ "DVB_SINGLE_BYTE_CRLF", "classts_1_1_d_v_b_charset_single_byte.html#a0b019e019c7acdff9a4cf74c57305946", null ],
+    [ "DVB_CODEPOINT_CRLF", "classts_1_1_d_v_b_charset_single_byte.html#a3da568e0cf089552a9c209644f938e48", null ]
 ];

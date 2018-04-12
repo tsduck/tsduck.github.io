@@ -11,6 +11,13 @@ var classts_1_1_tuner_parameters_d_v_b_s =
     [ "copy", "classts_1_1_tuner_parameters_d_v_b_s.html#aee71e96f3eb171287a25d3c0400453f4", null ],
     [ "convertToDektecModulation", "classts_1_1_tuner_parameters_d_v_b_s.html#a67fe2ade9050aeb9056318dda83a220d", null ],
     [ "fromArgs", "classts_1_1_tuner_parameters_d_v_b_s.html#ad49a3b3f1f133049bbf8ac98efbcbae8", null ],
+    [ "tunerType", "classts_1_1_tuner_parameters_d_v_b_s.html#affe1023cc47c6c53f70b4c815b161a17", null ],
+    [ "fromTunerArgs", "classts_1_1_tuner_parameters_d_v_b_s.html#aab3c3bf6a5ea94f2222251c13e4cee1f", null ],
+    [ "Factory", "classts_1_1_tuner_parameters_d_v_b_s.html#ae9090da5be9aa433810481bd8317ab10", null ],
+    [ "TheoreticalBitrateForModulation", "classts_1_1_tuner_parameters_d_v_b_s.html#aa861e39ff04cb97b5c001c42f2688f3f", null ],
+    [ "StoreInRepository", "classts_1_1_tuner_parameters_d_v_b_s.html#a59cdb7e078e0cd0e812a6b054c0db09f", null ],
+    [ "RetrieveFromRepository", "classts_1_1_tuner_parameters_d_v_b_s.html#a74525d608dc46bd56cf1cb716f3f07d7", null ],
+    [ "EraseFromRepository", "classts_1_1_tuner_parameters_d_v_b_s.html#a5bfffe6bd0400ddb02c65d9cc745be58", null ],
     [ "frequency", "classts_1_1_tuner_parameters_d_v_b_s.html#acc16459a0eeb28b5cf73a7f2217a08cd", null ],
     [ "polarity", "classts_1_1_tuner_parameters_d_v_b_s.html#add34a127a0768627594003092b954400", null ],
     [ "lnb", "classts_1_1_tuner_parameters_d_v_b_s.html#a2069b32ef4e80e012c9d21e1f421afbb", null ],
@@ -30,5 +37,6 @@ var classts_1_1_tuner_parameters_d_v_b_s =
     [ "DEFAULT_DELIVERY_SYSTEM", "classts_1_1_tuner_parameters_d_v_b_s.html#a4de0928ffec04bc70e834c765633da05", null ],
     [ "DEFAULT_MODULATION", "classts_1_1_tuner_parameters_d_v_b_s.html#accb198df49ba1ae03a20fd36c79e621b", null ],
     [ "DEFAULT_PILOTS", "classts_1_1_tuner_parameters_d_v_b_s.html#ade4eca525841db857d522abf681a24b1", null ],
-    [ "DEFAULT_ROLL_OFF", "classts_1_1_tuner_parameters_d_v_b_s.html#a9cb5d7721da7182719251268c2cd814c", null ]
+    [ "DEFAULT_ROLL_OFF", "classts_1_1_tuner_parameters_d_v_b_s.html#a9cb5d7721da7182719251268c2cd814c", null ],
+    [ "_tuner_type", "classts_1_1_tuner_parameters_d_v_b_s.html#a4a9c22b2d5977b6e9eee540b2c0e720b", null ]
 ];

@@ -79,6 +79,7 @@ var searchData=
   ['ts_5funix',['TS_UNIX',['../ts_platform_8h.html#a59de5b6986a0a7bed08869e6b1321867',1,'tsPlatform.h']]],
   ['ts_5funused',['TS_UNUSED',['../ts_platform_8h.html#a93e23355947fbaf69c05494a70eec929',1,'tsPlatform.h']]],
   ['ts_5fustringify',['TS_USTRINGIFY',['../ts_platform_8h.html#a071939711500a33dfc7e091ce8c3c063',1,'tsPlatform.h']]],
+  ['ts_5fversion_5finteger',['TS_VERSION_INTEGER',['../ts_platform_8h.html#a6ffe319ac58b147665dcc0585f3efb40',1,'tsPlatform.h']]],
   ['ts_5fversion_5fmajor',['TS_VERSION_MAJOR',['../ts_version_8h.html#aa811b69ed27cccdeeabe80e50ebebcf8',1,'tsVersion.h']]],
   ['ts_5fversion_5fminor',['TS_VERSION_MINOR',['../ts_version_8h.html#adecb62ccbf8f0ec472263a3c7979c090',1,'tsVersion.h']]],
   ['ts_5fversion_5fstring',['TS_VERSION_STRING',['../ts_platform_8h.html#aae6ce6b6f5a755b83b3bb4f64914a214',1,'tsPlatform.h']]],

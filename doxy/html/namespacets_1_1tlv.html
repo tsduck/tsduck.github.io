@@ -37,7 +37,7 @@
  <tr style="height: 56px;">
   <td id="projectlogo"><img src="tsduck-32.png"/></td>
    <td id="projectalign"><span id="projectname">TSDuck</span>
-    <span id="projectnumber">Version 3.10-643</span>
+    <span id="projectnumber">Version 3.10-675</span>
     <span id="projectbrief">(TSDuck - The MPEG Transport Stream Toolkit)</span>
    </td>
    <td>        <div id="MSearchBox" class="MSearchBoxInactive">
@@ -170,44 +170,26 @@ typedef uint8_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el"
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="enum-members"></a>
 Enumerations</h2></td></tr>
-<tr class="memitem:aa40e1a5e7aa53e0eadbbcb86ab5ceb8a"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom">{ <br />
-&#160;&#160;<a class="el" href="namespacets_1_1tlv.html#aa40e1a5e7aa53e0eadbbcb86ab5ceb8aa28871ee343a98c2a0ab2b921a8387443">MSG_LOG_SECTION</a> = 0xAA01, 
+<tr class="memitem:ad2e4c148becd3cb472624b38d91c960f"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacets_1_1tlv.html#ad2e4c148becd3cb472624b38d91c960f">Error</a> : uint16_t { <br />
+&#160;&#160;<a class="el" href="namespacets_1_1tlv.html#ad2e4c148becd3cb472624b38d91c960fa7a27684b05526ae8627bf30e080c8dc8">OK</a>, 
 <br />
-&#160;&#160;<a class="el" href="namespacets_1_1tlv.html#aa40e1a5e7aa53e0eadbbcb86ab5ceb8aa528d28825327bc5de53508f7ee160a51">MSG_LOG_TABLE</a> = 0xAA02
+&#160;&#160;<a class="el" href="namespacets_1_1tlv.html#ad2e4c148becd3cb472624b38d91c960fa6f3aa9132343952da4f28f324b8ef7f9">UnsupportedVersion</a>, 
 <br />
- }</td></tr>
-<tr class="memdesc:aa40e1a5e7aa53e0eadbbcb86ab5ceb8a"><td class="mdescLeft">&#160;</td><td class="mdescRight">TSDuck message type values.  <a href="namespacets_1_1tlv.html#aa40e1a5e7aa53e0eadbbcb86ab5ceb8a">More...</a><br /></td></tr>
-<tr class="separator:aa40e1a5e7aa53e0eadbbcb86ab5ceb8a"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a701b1aeb37e67796e6aae228fc4dca4c"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom">{ <br />
-&#160;&#160;<a class="el" href="namespacets_1_1tlv.html#a701b1aeb37e67796e6aae228fc4dca4ca18023bf8fc5414961f5763e760b175cc">PRM_PID</a> = 0x0000, 
+&#160;&#160;<a class="el" href="namespacets_1_1tlv.html#ad2e4c148becd3cb472624b38d91c960faee27c625c1a38e35fe6d2ba7614d7d83">InvalidMessage</a>, 
 <br />
-&#160;&#160;<a class="el" href="namespacets_1_1tlv.html#a701b1aeb37e67796e6aae228fc4dca4cafd10388cd80a6ae3f8bc6f4694665bc4">PRM_TIMESTAMP</a> = 0x0001, 
+&#160;&#160;<a class="el" href="namespacets_1_1tlv.html#ad2e4c148becd3cb472624b38d91c960fadebd0f22afefae49a8cc46bb30728c80">UnknownCommandTag</a>, 
 <br />
-&#160;&#160;<a class="el" href="namespacets_1_1tlv.html#a701b1aeb37e67796e6aae228fc4dca4ca689f43c442c9a1acd5aa72bd4a3b4903">PRM_SECTION</a> = 0x0002
+&#160;&#160;<a class="el" href="namespacets_1_1tlv.html#ad2e4c148becd3cb472624b38d91c960face9d0d66f2322e4a186ade5fb1a791cb">UnknownParameterTag</a>, 
 <br />
- }</td></tr>
-<tr class="memdesc:a701b1aeb37e67796e6aae228fc4dca4c"><td class="mdescLeft">&#160;</td><td class="mdescRight">TSDuck parameter types values.  <a href="namespacets_1_1tlv.html#a701b1aeb37e67796e6aae228fc4dca4c">More...</a><br /></td></tr>
-<tr class="separator:a701b1aeb37e67796e6aae228fc4dca4c"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a8a60aed0fb72f9faef47e8c7e5beef94"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacets_1_1tlv.html#a8a60aed0fb72f9faef47e8c7e5beef94">Error</a> { <br />
-&#160;&#160;<a class="el" href="namespacets_1_1tlv.html#a8a60aed0fb72f9faef47e8c7e5beef94a7a27684b05526ae8627bf30e080c8dc8">OK</a>, 
+&#160;&#160;<a class="el" href="namespacets_1_1tlv.html#ad2e4c148becd3cb472624b38d91c960fa420bd2b4ad707ca20448bf98369c1904">InvalidParameterLength</a>, 
 <br />
-&#160;&#160;<a class="el" href="namespacets_1_1tlv.html#a8a60aed0fb72f9faef47e8c7e5beef94a6f3aa9132343952da4f28f324b8ef7f9">UnsupportedVersion</a>, 
+&#160;&#160;<a class="el" href="namespacets_1_1tlv.html#ad2e4c148becd3cb472624b38d91c960fa69e1d26e3c67008ff4738ada1bda90a0">InvalidParameterCount</a>, 
 <br />
-&#160;&#160;<a class="el" href="namespacets_1_1tlv.html#a8a60aed0fb72f9faef47e8c7e5beef94aee27c625c1a38e35fe6d2ba7614d7d83">InvalidMessage</a>, 
-<br />
-&#160;&#160;<a class="el" href="namespacets_1_1tlv.html#a8a60aed0fb72f9faef47e8c7e5beef94adebd0f22afefae49a8cc46bb30728c80">UnknownCommandTag</a>, 
-<br />
-&#160;&#160;<a class="el" href="namespacets_1_1tlv.html#a8a60aed0fb72f9faef47e8c7e5beef94ace9d0d66f2322e4a186ade5fb1a791cb">UnknownParameterTag</a>, 
-<br />
-&#160;&#160;<a class="el" href="namespacets_1_1tlv.html#a8a60aed0fb72f9faef47e8c7e5beef94a420bd2b4ad707ca20448bf98369c1904">InvalidParameterLength</a>, 
-<br />
-&#160;&#160;<a class="el" href="namespacets_1_1tlv.html#a8a60aed0fb72f9faef47e8c7e5beef94a69e1d26e3c67008ff4738ada1bda90a0">InvalidParameterCount</a>, 
-<br />
-&#160;&#160;<a class="el" href="namespacets_1_1tlv.html#a8a60aed0fb72f9faef47e8c7e5beef94aa2e59b906bd9b9bb80c052bc4419c11f">MissingParameter</a>
+&#160;&#160;<a class="el" href="namespacets_1_1tlv.html#ad2e4c148becd3cb472624b38d91c960faa2e59b906bd9b9bb80c052bc4419c11f">MissingParameter</a>
 <br />
  }</td></tr>
-<tr class="memdesc:a8a60aed0fb72f9faef47e8c7e5beef94"><td class="mdescLeft">&#160;</td><td class="mdescRight">Errors from TLV message analysis.  <a href="namespacets_1_1tlv.html#a8a60aed0fb72f9faef47e8c7e5beef94">More...</a><br /></td></tr>
-<tr class="separator:a8a60aed0fb72f9faef47e8c7e5beef94"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memdesc:ad2e4c148becd3cb472624b38d91c960f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Errors from TLV message analysis.  <a href="namespacets_1_1tlv.html#ad2e4c148becd3cb472624b38d91c960f">More...</a><br /></td></tr>
+<tr class="separator:ad2e4c148becd3cb472624b38d91c960f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="var-members"></a>
 Variables</h2></td></tr>
@@ -215,22 +197,18 @@ Variables</h2></td></tr>
 const <a class="el" href="namespacets_1_1tlv.html#aa0bb3c49aaa667cbf923060d0da85c99">TAG</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacets_1_1tlv.html#a58a5b8678cdc65132d6a33df17ca6e36">NULL_TAG</a> = 0x0000</td></tr>
 <tr class="memdesc:a58a5b8678cdc65132d6a33df17ca6e36"><td class="mdescLeft">&#160;</td><td class="mdescRight">This tag is not used by DVB and can serve as "no value". <br /></td></tr>
 <tr class="separator:a58a5b8678cdc65132d6a33df17ca6e36"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a086245fa2bc802b516fdc8c0be0686ee"><td class="memItemLeft" align="right" valign="top"><a id="a086245fa2bc802b516fdc8c0be0686ee"></a>
-const <a class="el" href="namespacets_1_1tlv.html#aa2e16843367265c230ecb0fe781162ec">VERSION</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacets_1_1tlv.html#a086245fa2bc802b516fdc8c0be0686ee">TS_PROTOCOL_VERSION</a> = 0x80</td></tr>
-<tr class="memdesc:a086245fa2bc802b516fdc8c0be0686ee"><td class="mdescLeft">&#160;</td><td class="mdescRight">TSDuck specific protocol version. <br /></td></tr>
-<tr class="separator:a086245fa2bc802b516fdc8c0be0686ee"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>Namespace for TLV protocols (Tag / Length / Value) </p>
 </div><h2 class="groupheader">Enumeration Type Documentation</h2>
-<a id="a8a60aed0fb72f9faef47e8c7e5beef94"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a8a60aed0fb72f9faef47e8c7e5beef94">&#9670;&nbsp;</a></span>Error</h2>
+<a id="ad2e4c148becd3cb472624b38d91c960f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad2e4c148becd3cb472624b38d91c960f">&#9670;&nbsp;</a></span>Error</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">enum <a class="el" href="namespacets_1_1tlv.html#a8a60aed0fb72f9faef47e8c7e5beef94">ts::tlv::Error</a></td>
+          <td class="memname">enum <a class="el" href="namespacets_1_1tlv.html#ad2e4c148becd3cb472624b38d91c960f">ts::tlv::Error</a> : uint16_t</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -238,68 +216,21 @@ const <a class="el" href="namespacets_1_1tlv.html#aa2e16843367265c230ecb0fe78116
 <p>Errors from TLV message analysis. </p>
 <p>An error is associated with a 16-bit "error information". </p>
 <table class="fieldtable">
-<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="a8a60aed0fb72f9faef47e8c7e5beef94a7a27684b05526ae8627bf30e080c8dc8"></a>OK&#160;</td><td class="fielddoc"><p>No error. </p>
+<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="ad2e4c148becd3cb472624b38d91c960fa7a27684b05526ae8627bf30e080c8dc8"></a>OK&#160;</td><td class="fielddoc"><p>No error. </p>
 </td></tr>
-<tr><td class="fieldname"><a id="a8a60aed0fb72f9faef47e8c7e5beef94a6f3aa9132343952da4f28f324b8ef7f9"></a>UnsupportedVersion&#160;</td><td class="fielddoc"><p>Offset in message. </p>
+<tr><td class="fieldname"><a id="ad2e4c148becd3cb472624b38d91c960fa6f3aa9132343952da4f28f324b8ef7f9"></a>UnsupportedVersion&#160;</td><td class="fielddoc"><p>Offset in message. </p>
 </td></tr>
-<tr><td class="fieldname"><a id="a8a60aed0fb72f9faef47e8c7e5beef94aee27c625c1a38e35fe6d2ba7614d7d83"></a>InvalidMessage&#160;</td><td class="fielddoc"><p>Offset in message. </p>
+<tr><td class="fieldname"><a id="ad2e4c148becd3cb472624b38d91c960faee27c625c1a38e35fe6d2ba7614d7d83"></a>InvalidMessage&#160;</td><td class="fielddoc"><p>Offset in message. </p>
 </td></tr>
-<tr><td class="fieldname"><a id="a8a60aed0fb72f9faef47e8c7e5beef94adebd0f22afefae49a8cc46bb30728c80"></a>UnknownCommandTag&#160;</td><td class="fielddoc"><p>Offset in message. </p>
+<tr><td class="fieldname"><a id="ad2e4c148becd3cb472624b38d91c960fadebd0f22afefae49a8cc46bb30728c80"></a>UnknownCommandTag&#160;</td><td class="fielddoc"><p>Offset in message. </p>
 </td></tr>
-<tr><td class="fieldname"><a id="a8a60aed0fb72f9faef47e8c7e5beef94ace9d0d66f2322e4a186ade5fb1a791cb"></a>UnknownParameterTag&#160;</td><td class="fielddoc"><p>Offset in message. </p>
+<tr><td class="fieldname"><a id="ad2e4c148becd3cb472624b38d91c960face9d0d66f2322e4a186ade5fb1a791cb"></a>UnknownParameterTag&#160;</td><td class="fielddoc"><p>Offset in message. </p>
 </td></tr>
-<tr><td class="fieldname"><a id="a8a60aed0fb72f9faef47e8c7e5beef94a420bd2b4ad707ca20448bf98369c1904"></a>InvalidParameterLength&#160;</td><td class="fielddoc"><p>Offset in message. </p>
+<tr><td class="fieldname"><a id="ad2e4c148becd3cb472624b38d91c960fa420bd2b4ad707ca20448bf98369c1904"></a>InvalidParameterLength&#160;</td><td class="fielddoc"><p>Offset in message. </p>
 </td></tr>
-<tr><td class="fieldname"><a id="a8a60aed0fb72f9faef47e8c7e5beef94a69e1d26e3c67008ff4738ada1bda90a0"></a>InvalidParameterCount&#160;</td><td class="fielddoc"><p>Parameter tag. </p>
+<tr><td class="fieldname"><a id="ad2e4c148becd3cb472624b38d91c960fa69e1d26e3c67008ff4738ada1bda90a0"></a>InvalidParameterCount&#160;</td><td class="fielddoc"><p>Parameter tag. </p>
 </td></tr>
-<tr><td class="fieldname"><a id="a8a60aed0fb72f9faef47e8c7e5beef94aa2e59b906bd9b9bb80c052bc4419c11f"></a>MissingParameter&#160;</td><td class="fielddoc"><p>Parameter tag. </p>
-</td></tr>
-</table>
-
-</div>
-</div>
-<a id="aa40e1a5e7aa53e0eadbbcb86ab5ceb8a"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aa40e1a5e7aa53e0eadbbcb86ab5ceb8a">&#9670;&nbsp;</a></span>anonymous enum</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">anonymous enum</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>TSDuck message type values. </p>
-<p>Note that none of the assigned values overlap with the message_type values which are defined in DVB Simulcrypt protocols. They are allocated in the "user defined" range. Thus, a generic TLV message parser can be use for both DVB and TSDuck interfaces.</p>
-<p>Definition of messages: </p><div class="fragment"><div class="line"><a class="code" href="namespacets_1_1tlv.html#aa40e1a5e7aa53e0eadbbcb86ab5ceb8aa28871ee343a98c2a0ab2b921a8387443">MSG_LOG_SECTION</a></div><div class="line">Contains one section.</div><div class="line">    Parameter      Count</div><div class="line">    <a class="code" href="namespacets_1_1tlv.html#a701b1aeb37e67796e6aae228fc4dca4ca18023bf8fc5414961f5763e760b175cc">PRM_PID</a>        0-1</div><div class="line">    <a class="code" href="namespacets_1_1tlv.html#a701b1aeb37e67796e6aae228fc4dca4cafd10388cd80a6ae3f8bc6f4694665bc4">PRM_TIMESTAMP</a>  0-1</div><div class="line">    <a class="code" href="namespacets_1_1tlv.html#a701b1aeb37e67796e6aae228fc4dca4ca689f43c442c9a1acd5aa72bd4a3b4903">PRM_SECTION</a>    1</div><div class="line"></div><div class="line"><a class="code" href="namespacets_1_1tlv.html#aa40e1a5e7aa53e0eadbbcb86ab5ceb8aa528d28825327bc5de53508f7ee160a51">MSG_LOG_TABLE</a></div><div class="line">Contains one complete table (no missing section).</div><div class="line">    Parameter      Count</div><div class="line">    <a class="code" href="namespacets_1_1tlv.html#a701b1aeb37e67796e6aae228fc4dca4ca18023bf8fc5414961f5763e760b175cc">PRM_PID</a>        0-1</div><div class="line">    <a class="code" href="namespacets_1_1tlv.html#a701b1aeb37e67796e6aae228fc4dca4cafd10388cd80a6ae3f8bc6f4694665bc4">PRM_TIMESTAMP</a>  0-1</div><div class="line">    <a class="code" href="namespacets_1_1tlv.html#a701b1aeb37e67796e6aae228fc4dca4ca689f43c442c9a1acd5aa72bd4a3b4903">PRM_SECTION</a>    1-n</div></div><!-- fragment --> <table class="fieldtable">
-<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="aa40e1a5e7aa53e0eadbbcb86ab5ceb8aa28871ee343a98c2a0ab2b921a8387443"></a>MSG_LOG_SECTION&#160;</td><td class="fielddoc"><p>Log a section. </p>
-</td></tr>
-<tr><td class="fieldname"><a id="aa40e1a5e7aa53e0eadbbcb86ab5ceb8aa528d28825327bc5de53508f7ee160a51"></a>MSG_LOG_TABLE&#160;</td><td class="fielddoc"><p>Log a table. </p>
-</td></tr>
-</table>
-
-</div>
-</div>
-<a id="a701b1aeb37e67796e6aae228fc4dca4c"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a701b1aeb37e67796e6aae228fc4dca4c">&#9670;&nbsp;</a></span>anonymous enum</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">anonymous enum</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>TSDuck parameter types values. </p>
-<p>Definition of parameters: </p><div class="fragment"><div class="line"><a class="code" href="namespacets_1_1tlv.html#a701b1aeb37e67796e6aae228fc4dca4ca18023bf8fc5414961f5763e760b175cc">PRM_PID</a></div><div class="line">    A 2-byte <a class="code" href="namespacets.html#a90e2f5f7d7011d87cc23a8fef31958dc">PID</a> value.</div><div class="line"></div><div class="line">PRM_TIMESTAMP</div><div class="line">    A timestamp identifying the occurence of the <span class="keyword">event</span>. Same format</div><div class="line">    as the activation_time in the EIS&lt;=&gt;SCS DVB Simulcrypt protocol:</div><div class="line">       year       2 bytes</div><div class="line">       month      1 byte</div><div class="line">       day        1 byte</div><div class="line">       hour       1 byte</div><div class="line">       minute     1 byte</div><div class="line">       second     1 byte</div><div class="line">       hundredth  1 byte</div><div class="line"></div><div class="line"><a class="code" href="namespacets_1_1tlv.html#a701b1aeb37e67796e6aae228fc4dca4ca689f43c442c9a1acd5aa72bd4a3b4903">PRM_SECTION</a></div><div class="line">    A complete section, including header.</div></div><!-- fragment --> <table class="fieldtable">
-<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="a701b1aeb37e67796e6aae228fc4dca4ca18023bf8fc5414961f5763e760b175cc"></a>PRM_PID&#160;</td><td class="fielddoc"><p>A PID value, 2 bytes. </p>
-</td></tr>
-<tr><td class="fieldname"><a id="a701b1aeb37e67796e6aae228fc4dca4cafd10388cd80a6ae3f8bc6f4694665bc4"></a>PRM_TIMESTAMP&#160;</td><td class="fielddoc"><p>Timestamp, 8 bytes. </p>
-</td></tr>
-<tr><td class="fieldname"><a id="a701b1aeb37e67796e6aae228fc4dca4ca689f43c442c9a1acd5aa72bd4a3b4903"></a>PRM_SECTION&#160;</td><td class="fielddoc"><p>Complete section. </p>
+<tr><td class="fieldname"><a id="ad2e4c148becd3cb472624b38d91c960faa2e59b906bd9b9bb80c052bc4419c11f"></a>MissingParameter&#160;</td><td class="fielddoc"><p>Parameter tag. </p>
 </td></tr>
 </table>
 

@@ -21,5 +21,14 @@ var classts_1_1_cycling_packetizer =
     [ "storedSectionCount", "classts_1_1_cycling_packetizer.html#a017232eb729305d7afa2bab2fa26caed", null ],
     [ "atCycleBoundary", "classts_1_1_cycling_packetizer.html#a865947e866138389dcb829d6837f8f2c", null ],
     [ "reset", "classts_1_1_cycling_packetizer.html#a7318864fd2243a9457f4ed43ecaf9d23", null ],
-    [ "display", "classts_1_1_cycling_packetizer.html#a0147b1b5cd22071a55c0a6e95645290e", null ]
+    [ "display", "classts_1_1_cycling_packetizer.html#a0147b1b5cd22071a55c0a6e95645290e", null ],
+    [ "setPID", "classts_1_1_cycling_packetizer.html#a19d7989c168f84b29ae4c1fec3fdaf48", null ],
+    [ "getPID", "classts_1_1_cycling_packetizer.html#a621dec0fc55e7f3e67e9c21a23d99223", null ],
+    [ "sectionProvider", "classts_1_1_cycling_packetizer.html#a7459e37e264e07f75a68dff3c6f52dd8", null ],
+    [ "setNextContinuityCounter", "classts_1_1_cycling_packetizer.html#a95ce9d08faff5e00aab4ebfeb2e3e78b", null ],
+    [ "nextContinuityCounter", "classts_1_1_cycling_packetizer.html#a26e7e1723fdecb720a590123756a213e", null ],
+    [ "atSectionBoundary", "classts_1_1_cycling_packetizer.html#ae458825939dfab66d0d411ce951b1175", null ],
+    [ "getNextPacket", "classts_1_1_cycling_packetizer.html#a890351f4821fb5727414e900699060f4", null ],
+    [ "packetCount", "classts_1_1_cycling_packetizer.html#ac06c55bbb819c86ee2840144c04606c0", null ],
+    [ "sectionCount", "classts_1_1_cycling_packetizer.html#a3c2881ec5311e2b8c6b2919752aa3071", null ]
 ];

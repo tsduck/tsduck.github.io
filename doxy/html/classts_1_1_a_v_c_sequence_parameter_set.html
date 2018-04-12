@@ -37,7 +37,7 @@
  <tr style="height: 56px;">
   <td id="projectlogo"><img src="tsduck-32.png"/></td>
    <td id="projectalign"><span id="projectname">TSDuck</span>
-    <span id="projectnumber">Version 3.10-643</span>
+    <span id="projectnumber">Version 3.10-675</span>
     <span id="projectbrief">(TSDuck - The MPEG Transport Stream Toolkit)</span>
    </td>
    <td>        <div id="MSearchBox" class="MSearchBoxInactive">
@@ -139,11 +139,6 @@ Public Types</h2></td></tr>
 typedef <a class="el" href="classts_1_1_abstract_a_v_c_access_unit.html">AbstractAVCAccessUnit</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classts_1_1_a_v_c_sequence_parameter_set.html#a5b6f82b39b70471d4220a2d5a85b7552">SuperClass</a></td></tr>
 <tr class="memdesc:a5b6f82b39b70471d4220a2d5a85b7552"><td class="mdescLeft">&#160;</td><td class="mdescRight">Reference to the superclass. <br /></td></tr>
 <tr class="separator:a5b6f82b39b70471d4220a2d5a85b7552"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="inherit_header pub_types_classts_1_1_abstract_a_v_c_access_unit"><td colspan="2" onclick="javascript:toggleInherit('pub_types_classts_1_1_abstract_a_v_c_access_unit')"><img src="closed.png" alt="-"/>&#160;Public Types inherited from <a class="el" href="classts_1_1_abstract_a_v_c_access_unit.html">ts::AbstractAVCAccessUnit</a></td></tr>
-<tr class="memitem:abbd91c4a244756d699bca81a2b5a2bea inherit pub_types_classts_1_1_abstract_a_v_c_access_unit"><td class="memItemLeft" align="right" valign="top"><a id="abbd91c4a244756d699bca81a2b5a2bea"></a>
-typedef <a class="el" href="classts_1_1_abstract_a_v_c_data.html">AbstractAVCData</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classts_1_1_abstract_a_v_c_access_unit.html#abbd91c4a244756d699bca81a2b5a2bea">SuperClass</a></td></tr>
-<tr class="memdesc:abbd91c4a244756d699bca81a2b5a2bea inherit pub_types_classts_1_1_abstract_a_v_c_access_unit"><td class="mdescLeft">&#160;</td><td class="mdescRight">Unified name for superclass. <br /></td></tr>
-<tr class="separator:abbd91c4a244756d699bca81a2b5a2bea inherit pub_types_classts_1_1_abstract_a_v_c_access_unit"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
@@ -177,6 +172,9 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:ae6f796ae1d260d3f7360553e524648ca"><td class="memItemLeft" align="right" valign="top">size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classts_1_1_a_v_c_sequence_parameter_set.html#ae6f796ae1d260d3f7360553e524648ca">frameWidth</a> () const</td></tr>
 <tr class="memdesc:ae6f796ae1d260d3f7360553e524648ca"><td class="mdescLeft">&#160;</td><td class="mdescRight">Frame width in pixels.  <a href="#ae6f796ae1d260d3f7360553e524648ca">More...</a><br /></td></tr>
 <tr class="separator:ae6f796ae1d260d3f7360553e524648ca"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0978b631f9cd6cde497c6efd9dc64a63"><td class="memItemLeft" align="right" valign="top">virtual bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classts_1_1_abstract_a_v_c_access_unit.html#a0978b631f9cd6cde497c6efd9dc64a63">parse</a> (const void *, size_t) override</td></tr>
+<tr class="memdesc:a0978b631f9cd6cde497c6efd9dc64a63"><td class="mdescLeft">&#160;</td><td class="mdescRight">Parse a memory area containing binary AVC data of the expected type.  <a href="#a0978b631f9cd6cde497c6efd9dc64a63">More...</a><br /></td></tr>
+<tr class="separator:a0978b631f9cd6cde497c6efd9dc64a63"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:afd264402768a2481f3ad5b20b3e387a1"><td class="memItemLeft" align="right" valign="top">uint8_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classts_1_1_a_v_c_sequence_parameter_set.html#afd264402768a2481f3ad5b20b3e387a1">separateColourPlaneFlag</a> () const</td></tr>
 <tr class="memdesc:afd264402768a2481f3ad5b20b3e387a1"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get separate_colour_plane_flag, applying default value (see H.264 7.4.2.1.1).  <a href="#afd264402768a2481f3ad5b20b3e387a1">More...</a><br /></td></tr>
 <tr class="separator:afd264402768a2481f3ad5b20b3e387a1"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -186,23 +184,6 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:ad733e91eb045de68d7193e8431478cc1"><td class="memItemLeft" align="right" valign="top">size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classts_1_1_a_v_c_sequence_parameter_set.html#ad733e91eb045de68d7193e8431478cc1">subWidthC</a> () const</td></tr>
 <tr class="memdesc:ad733e91eb045de68d7193e8431478cc1"><td class="mdescLeft">&#160;</td><td class="mdescRight">The SubWidthC variable (see H.264 6.2).  <a href="#ad733e91eb045de68d7193e8431478cc1">More...</a><br /></td></tr>
 <tr class="separator:ad733e91eb045de68d7193e8431478cc1"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="inherit_header pub_methods_classts_1_1_abstract_a_v_c_access_unit"><td colspan="2" onclick="javascript:toggleInherit('pub_methods_classts_1_1_abstract_a_v_c_access_unit')"><img src="closed.png" alt="-"/>&#160;Public Member Functions inherited from <a class="el" href="classts_1_1_abstract_a_v_c_access_unit.html">ts::AbstractAVCAccessUnit</a></td></tr>
-<tr class="memitem:a2c9b52b3c8b6a6363bf66878b50b1d78 inherit pub_methods_classts_1_1_abstract_a_v_c_access_unit"><td class="memItemLeft" align="right" valign="top"><a id="a2c9b52b3c8b6a6363bf66878b50b1d78"></a>
-&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classts_1_1_abstract_a_v_c_access_unit.html#a2c9b52b3c8b6a6363bf66878b50b1d78">AbstractAVCAccessUnit</a> ()</td></tr>
-<tr class="memdesc:a2c9b52b3c8b6a6363bf66878b50b1d78 inherit pub_methods_classts_1_1_abstract_a_v_c_access_unit"><td class="mdescLeft">&#160;</td><td class="mdescRight">Constructor. <br /></td></tr>
-<tr class="separator:a2c9b52b3c8b6a6363bf66878b50b1d78 inherit pub_methods_classts_1_1_abstract_a_v_c_access_unit"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a0978b631f9cd6cde497c6efd9dc64a63 inherit pub_methods_classts_1_1_abstract_a_v_c_access_unit"><td class="memItemLeft" align="right" valign="top">virtual bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classts_1_1_abstract_a_v_c_access_unit.html#a0978b631f9cd6cde497c6efd9dc64a63">parse</a> (const void *, size_t) override</td></tr>
-<tr class="memdesc:a0978b631f9cd6cde497c6efd9dc64a63 inherit pub_methods_classts_1_1_abstract_a_v_c_access_unit"><td class="mdescLeft">&#160;</td><td class="mdescRight">Parse a memory area containing binary AVC data of the expected type.  <a href="classts_1_1_abstract_a_v_c_access_unit.html#a0978b631f9cd6cde497c6efd9dc64a63">More...</a><br /></td></tr>
-<tr class="separator:a0978b631f9cd6cde497c6efd9dc64a63 inherit pub_methods_classts_1_1_abstract_a_v_c_access_unit"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="inherit_header pub_methods_classts_1_1_abstract_a_v_c_data"><td colspan="2" onclick="javascript:toggleInherit('pub_methods_classts_1_1_abstract_a_v_c_data')"><img src="closed.png" alt="-"/>&#160;Public Member Functions inherited from <a class="el" href="classts_1_1_abstract_a_v_c_data.html">ts::AbstractAVCData</a></td></tr>
-<tr class="memitem:a9b7ebde693e5e048fd266f3c2b4099d9 inherit pub_methods_classts_1_1_abstract_a_v_c_data"><td class="memItemLeft" align="right" valign="top"><a id="a9b7ebde693e5e048fd266f3c2b4099d9"></a>
-&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classts_1_1_abstract_a_v_c_data.html#a9b7ebde693e5e048fd266f3c2b4099d9">AbstractAVCData</a> ()</td></tr>
-<tr class="memdesc:a9b7ebde693e5e048fd266f3c2b4099d9 inherit pub_methods_classts_1_1_abstract_a_v_c_data"><td class="mdescLeft">&#160;</td><td class="mdescRight">Constructor. <br /></td></tr>
-<tr class="separator:a9b7ebde693e5e048fd266f3c2b4099d9 inherit pub_methods_classts_1_1_abstract_a_v_c_data"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a9a1da921e69f2c43d31ea0084ebb80a7 inherit pub_methods_classts_1_1_abstract_a_v_c_data"><td class="memItemLeft" align="right" valign="top"><a id="a9a1da921e69f2c43d31ea0084ebb80a7"></a>
-virtual&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classts_1_1_abstract_a_v_c_data.html#a9a1da921e69f2c43d31ea0084ebb80a7">~AbstractAVCData</a> ()</td></tr>
-<tr class="memdesc:a9a1da921e69f2c43d31ea0084ebb80a7 inherit pub_methods_classts_1_1_abstract_a_v_c_data"><td class="mdescLeft">&#160;</td><td class="mdescRight">Destructor. <br /></td></tr>
-<tr class="separator:a9a1da921e69f2c43d31ea0084ebb80a7 inherit pub_methods_classts_1_1_abstract_a_v_c_data"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-attribs"></a>
 Public Attributes</h2></td></tr>
@@ -242,6 +223,10 @@ uint8_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="c
 uint8_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classts_1_1_a_v_c_sequence_parameter_set.html#a5d53977b7ec487bd8745797f05829112">direct_8x8_inference_flag</a></td></tr>
 <tr class="memdesc:a5d53977b7ec487bd8745797f05829112"><td class="mdescLeft">&#160;</td><td class="mdescRight">direct_8x8_inference_flag <br /></td></tr>
 <tr class="separator:a5d53977b7ec487bd8745797f05829112"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2a98e8102cb97513482fc5cde492e722"><td class="memItemLeft" align="right" valign="top"><a id="a2a98e8102cb97513482fc5cde492e722"></a>
+uint8_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classts_1_1_abstract_a_v_c_access_unit.html#a2a98e8102cb97513482fc5cde492e722">forbidden_zero_bit</a></td></tr>
+<tr class="memdesc:a2a98e8102cb97513482fc5cde492e722"><td class="mdescLeft">&#160;</td><td class="mdescRight">See ISO/IEC 14496-10 section 7.3.1. <br /></td></tr>
+<tr class="separator:a2a98e8102cb97513482fc5cde492e722"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a4910bd429ef386865fa3b598dfb3338b"><td class="memItemLeft" align="right" valign="top"><a id="a4910bd429ef386865fa3b598dfb3338b"></a>
 uint32_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classts_1_1_a_v_c_sequence_parameter_set.html#a4910bd429ef386865fa3b598dfb3338b">frame_crop_bottom_offset</a></td></tr>
 <tr class="memdesc:a4910bd429ef386865fa3b598dfb3338b"><td class="mdescLeft">&#160;</td><td class="mdescRight">frame_crop_bottom_offset <br /></td></tr>
@@ -286,6 +271,14 @@ uint32_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="
 uint8_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classts_1_1_a_v_c_sequence_parameter_set.html#a081d0c924dafcb7c52a757f91ab48191">mb_adaptive_frame_field_flag</a></td></tr>
 <tr class="memdesc:a081d0c924dafcb7c52a757f91ab48191"><td class="mdescLeft">&#160;</td><td class="mdescRight">mb_adaptive_frame_field_flag <br /></td></tr>
 <tr class="separator:a081d0c924dafcb7c52a757f91ab48191"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a27da29fa32a68a2863dd48da4da8d596"><td class="memItemLeft" align="right" valign="top"><a id="a27da29fa32a68a2863dd48da4da8d596"></a>
+uint8_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classts_1_1_abstract_a_v_c_access_unit.html#a27da29fa32a68a2863dd48da4da8d596">nal_ref_idc</a></td></tr>
+<tr class="memdesc:a27da29fa32a68a2863dd48da4da8d596"><td class="mdescLeft">&#160;</td><td class="mdescRight">See ISO/IEC 14496-10 section 7.3.1. <br /></td></tr>
+<tr class="separator:a27da29fa32a68a2863dd48da4da8d596"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7f3eefb3bd57be6eb45b383102c270ac"><td class="memItemLeft" align="right" valign="top"><a id="a7f3eefb3bd57be6eb45b383102c270ac"></a>
+uint8_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classts_1_1_abstract_a_v_c_access_unit.html#a7f3eefb3bd57be6eb45b383102c270ac">nal_unit_type</a></td></tr>
+<tr class="memdesc:a7f3eefb3bd57be6eb45b383102c270ac"><td class="mdescLeft">&#160;</td><td class="mdescRight">See ISO/IEC 14496-10 section 7.3.1. <br /></td></tr>
+<tr class="separator:a7f3eefb3bd57be6eb45b383102c270ac"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a9e27e35322d1c82002bbf241f401d563"><td class="memItemLeft" align="right" valign="top"><a id="a9e27e35322d1c82002bbf241f401d563"></a>
 uint32_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classts_1_1_a_v_c_sequence_parameter_set.html#a9e27e35322d1c82002bbf241f401d563">num_ref_frames</a></td></tr>
 <tr class="memdesc:a9e27e35322d1c82002bbf241f401d563"><td class="mdescLeft">&#160;</td><td class="mdescRight">num_ref_frames <br /></td></tr>
@@ -350,6 +343,9 @@ uint32_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="
 uint8_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classts_1_1_a_v_c_sequence_parameter_set.html#a9f173ebb3920538fdb960e2557360b83">seq_scaling_matrix_present_flag</a></td></tr>
 <tr class="memdesc:a9f173ebb3920538fdb960e2557360b83"><td class="mdescLeft">&#160;</td><td class="mdescRight">seq_scaling_matrix_present_flag <br /></td></tr>
 <tr class="separator:a9f173ebb3920538fdb960e2557360b83"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab40f1dc973ba1231c829da6c8b250fc4"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classts_1_1_abstract_a_v_c_data.html#ab40f1dc973ba1231c829da6c8b250fc4">valid</a></td></tr>
+<tr class="memdesc:ab40f1dc973ba1231c829da6c8b250fc4"><td class="mdescLeft">&#160;</td><td class="mdescRight">Valid flag.  <a href="#ab40f1dc973ba1231c829da6c8b250fc4">More...</a><br /></td></tr>
+<tr class="separator:ab40f1dc973ba1231c829da6c8b250fc4"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a5298415cf027a637e60135cd6adf82fa"><td class="memItemLeft" align="right" valign="top"><a id="a5298415cf027a637e60135cd6adf82fa"></a>
 <a class="el" href="classts_1_1_a_v_c_v_u_i_parameters.html">AVCVUIParameters</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classts_1_1_a_v_c_sequence_parameter_set.html#a5298415cf027a637e60135cd6adf82fa">vui</a></td></tr>
 <tr class="memdesc:a5298415cf027a637e60135cd6adf82fa"><td class="mdescLeft">&#160;</td><td class="mdescRight">vui <br /></td></tr>
@@ -358,38 +354,20 @@ uint8_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="c
 uint8_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classts_1_1_a_v_c_sequence_parameter_set.html#a92def8ced47b03cadb996c877671a914">vui_parameters_present_flag</a></td></tr>
 <tr class="memdesc:a92def8ced47b03cadb996c877671a914"><td class="mdescLeft">&#160;</td><td class="mdescRight">vui_parameters_present_flag <br /></td></tr>
 <tr class="separator:a92def8ced47b03cadb996c877671a914"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="inherit_header pub_attribs_classts_1_1_abstract_a_v_c_access_unit"><td colspan="2" onclick="javascript:toggleInherit('pub_attribs_classts_1_1_abstract_a_v_c_access_unit')"><img src="closed.png" alt="-"/>&#160;Public Attributes inherited from <a class="el" href="classts_1_1_abstract_a_v_c_access_unit.html">ts::AbstractAVCAccessUnit</a></td></tr>
-<tr class="memitem:a2a98e8102cb97513482fc5cde492e722 inherit pub_attribs_classts_1_1_abstract_a_v_c_access_unit"><td class="memItemLeft" align="right" valign="top"><a id="a2a98e8102cb97513482fc5cde492e722"></a>
-uint8_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classts_1_1_abstract_a_v_c_access_unit.html#a2a98e8102cb97513482fc5cde492e722">forbidden_zero_bit</a></td></tr>
-<tr class="memdesc:a2a98e8102cb97513482fc5cde492e722 inherit pub_attribs_classts_1_1_abstract_a_v_c_access_unit"><td class="mdescLeft">&#160;</td><td class="mdescRight">See ISO/IEC 14496-10 section 7.3.1. <br /></td></tr>
-<tr class="separator:a2a98e8102cb97513482fc5cde492e722 inherit pub_attribs_classts_1_1_abstract_a_v_c_access_unit"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a27da29fa32a68a2863dd48da4da8d596 inherit pub_attribs_classts_1_1_abstract_a_v_c_access_unit"><td class="memItemLeft" align="right" valign="top"><a id="a27da29fa32a68a2863dd48da4da8d596"></a>
-uint8_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classts_1_1_abstract_a_v_c_access_unit.html#a27da29fa32a68a2863dd48da4da8d596">nal_ref_idc</a></td></tr>
-<tr class="memdesc:a27da29fa32a68a2863dd48da4da8d596 inherit pub_attribs_classts_1_1_abstract_a_v_c_access_unit"><td class="mdescLeft">&#160;</td><td class="mdescRight">See ISO/IEC 14496-10 section 7.3.1. <br /></td></tr>
-<tr class="separator:a27da29fa32a68a2863dd48da4da8d596 inherit pub_attribs_classts_1_1_abstract_a_v_c_access_unit"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a7f3eefb3bd57be6eb45b383102c270ac inherit pub_attribs_classts_1_1_abstract_a_v_c_access_unit"><td class="memItemLeft" align="right" valign="top"><a id="a7f3eefb3bd57be6eb45b383102c270ac"></a>
-uint8_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classts_1_1_abstract_a_v_c_access_unit.html#a7f3eefb3bd57be6eb45b383102c270ac">nal_unit_type</a></td></tr>
-<tr class="memdesc:a7f3eefb3bd57be6eb45b383102c270ac inherit pub_attribs_classts_1_1_abstract_a_v_c_access_unit"><td class="mdescLeft">&#160;</td><td class="mdescRight">See ISO/IEC 14496-10 section 7.3.1. <br /></td></tr>
-<tr class="separator:a7f3eefb3bd57be6eb45b383102c270ac inherit pub_attribs_classts_1_1_abstract_a_v_c_access_unit"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="inherit_header pub_attribs_classts_1_1_abstract_a_v_c_data"><td colspan="2" onclick="javascript:toggleInherit('pub_attribs_classts_1_1_abstract_a_v_c_data')"><img src="closed.png" alt="-"/>&#160;Public Attributes inherited from <a class="el" href="classts_1_1_abstract_a_v_c_data.html">ts::AbstractAVCData</a></td></tr>
-<tr class="memitem:ab40f1dc973ba1231c829da6c8b250fc4 inherit pub_attribs_classts_1_1_abstract_a_v_c_data"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classts_1_1_abstract_a_v_c_data.html#ab40f1dc973ba1231c829da6c8b250fc4">valid</a></td></tr>
-<tr class="memdesc:ab40f1dc973ba1231c829da6c8b250fc4 inherit pub_attribs_classts_1_1_abstract_a_v_c_data"><td class="mdescLeft">&#160;</td><td class="mdescRight">Valid flag.  <a href="classts_1_1_abstract_a_v_c_data.html#ab40f1dc973ba1231c829da6c8b250fc4">More...</a><br /></td></tr>
-<tr class="separator:ab40f1dc973ba1231c829da6c8b250fc4 inherit pub_attribs_classts_1_1_abstract_a_v_c_data"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pro-methods"></a>
 Protected Member Functions</h2></td></tr>
+<tr class="memitem:aa928ac6a4e029f4ffe848449725e2c1c"><td class="memTemplParams" colspan="2">template&lt;typename INT , typename std::enable_if&lt; std::is_integral&lt; INT &gt;::value &gt;::type *  = nullptr&gt; </td></tr>
+<tr class="memitem:aa928ac6a4e029f4ffe848449725e2c1c"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="classts_1_1_abstract_a_v_c_data.html#aa928ac6a4e029f4ffe848449725e2c1c">disp</a> (std::ostream &amp;out, const <a class="el" href="classts_1_1_u_string.html">UString</a> &amp;<a class="el" href="namespacets.html#aff99f8309d75b5f2e1a061d10edcb70a">margin</a>, const <a class="el" href="namespacets.html#a7e3244e77fae7815254d87d2ebdb7bd0">UChar</a> *name, <a class="el" href="classts_1_1_i_n_t.html">INT</a> n) const</td></tr>
+<tr class="memdesc:aa928ac6a4e029f4ffe848449725e2c1c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Display helper for subclasses.  <a href="#aa928ac6a4e029f4ffe848449725e2c1c">More...</a><br /></td></tr>
+<tr class="separator:aa928ac6a4e029f4ffe848449725e2c1c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a569372b0597c98a0f80d0a939ad8313d"><td class="memTemplParams" colspan="2">template&lt;typename INT , typename std::enable_if&lt; std::is_integral&lt; INT &gt;::value &gt;::type *  = nullptr&gt; </td></tr>
+<tr class="memitem:a569372b0597c98a0f80d0a939ad8313d"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="classts_1_1_abstract_a_v_c_data.html#a569372b0597c98a0f80d0a939ad8313d">disp</a> (std::ostream &amp;out, const <a class="el" href="classts_1_1_u_string.html">UString</a> &amp;<a class="el" href="namespacets.html#aff99f8309d75b5f2e1a061d10edcb70a">margin</a>, const <a class="el" href="namespacets.html#a7e3244e77fae7815254d87d2ebdb7bd0">UChar</a> *name, std::vector&lt; <a class="el" href="classts_1_1_i_n_t.html">INT</a> &gt; n) const</td></tr>
+<tr class="memdesc:a569372b0597c98a0f80d0a939ad8313d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Display helper for subclasses.  <a href="#a569372b0597c98a0f80d0a939ad8313d">More...</a><br /></td></tr>
+<tr class="separator:a569372b0597c98a0f80d0a939ad8313d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ae94f8b3d9717e09807edff39dcbb61c8"><td class="memItemLeft" align="right" valign="top">virtual bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classts_1_1_a_v_c_sequence_parameter_set.html#ae94f8b3d9717e09807edff39dcbb61c8">parseBody</a> (<a class="el" href="classts_1_1_a_v_c_parser.html">AVCParser</a> &amp;parser) override</td></tr>
 <tr class="memdesc:ae94f8b3d9717e09807edff39dcbb61c8"><td class="mdescLeft">&#160;</td><td class="mdescRight">Parse the body of the binary access unit.  <a href="#ae94f8b3d9717e09807edff39dcbb61c8">More...</a><br /></td></tr>
 <tr class="separator:ae94f8b3d9717e09807edff39dcbb61c8"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="inherit_header pro_methods_classts_1_1_abstract_a_v_c_data"><td colspan="2" onclick="javascript:toggleInherit('pro_methods_classts_1_1_abstract_a_v_c_data')"><img src="closed.png" alt="-"/>&#160;Protected Member Functions inherited from <a class="el" href="classts_1_1_abstract_a_v_c_data.html">ts::AbstractAVCData</a></td></tr>
-<tr class="memitem:aa928ac6a4e029f4ffe848449725e2c1c inherit pro_methods_classts_1_1_abstract_a_v_c_data"><td class="memTemplParams" colspan="2">template&lt;typename INT , typename std::enable_if&lt; std::is_integral&lt; INT &gt;::value &gt;::type *  = nullptr&gt; </td></tr>
-<tr class="memitem:aa928ac6a4e029f4ffe848449725e2c1c inherit pro_methods_classts_1_1_abstract_a_v_c_data"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="classts_1_1_abstract_a_v_c_data.html#aa928ac6a4e029f4ffe848449725e2c1c">disp</a> (std::ostream &amp;out, const <a class="el" href="classts_1_1_u_string.html">UString</a> &amp;<a class="el" href="namespacets.html#aff99f8309d75b5f2e1a061d10edcb70a">margin</a>, const <a class="el" href="namespacets.html#a7e3244e77fae7815254d87d2ebdb7bd0">UChar</a> *name, <a class="el" href="classts_1_1_i_n_t.html">INT</a> n) const</td></tr>
-<tr class="memdesc:aa928ac6a4e029f4ffe848449725e2c1c inherit pro_methods_classts_1_1_abstract_a_v_c_data"><td class="mdescLeft">&#160;</td><td class="mdescRight">Display helper for subclasses.  <a href="classts_1_1_abstract_a_v_c_data.html#aa928ac6a4e029f4ffe848449725e2c1c">More...</a><br /></td></tr>
-<tr class="separator:aa928ac6a4e029f4ffe848449725e2c1c inherit pro_methods_classts_1_1_abstract_a_v_c_data"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a569372b0597c98a0f80d0a939ad8313d inherit pro_methods_classts_1_1_abstract_a_v_c_data"><td class="memTemplParams" colspan="2">template&lt;typename INT , typename std::enable_if&lt; std::is_integral&lt; INT &gt;::value &gt;::type *  = nullptr&gt; </td></tr>
-<tr class="memitem:a569372b0597c98a0f80d0a939ad8313d inherit pro_methods_classts_1_1_abstract_a_v_c_data"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="classts_1_1_abstract_a_v_c_data.html#a569372b0597c98a0f80d0a939ad8313d">disp</a> (std::ostream &amp;out, const <a class="el" href="classts_1_1_u_string.html">UString</a> &amp;<a class="el" href="namespacets.html#aff99f8309d75b5f2e1a061d10edcb70a">margin</a>, const <a class="el" href="namespacets.html#a7e3244e77fae7815254d87d2ebdb7bd0">UChar</a> *name, std::vector&lt; <a class="el" href="classts_1_1_i_n_t.html">INT</a> &gt; n) const</td></tr>
-<tr class="memdesc:a569372b0597c98a0f80d0a939ad8313d inherit pro_methods_classts_1_1_abstract_a_v_c_data"><td class="mdescLeft">&#160;</td><td class="mdescRight">Display helper for subclasses.  <a href="classts_1_1_abstract_a_v_c_data.html#a569372b0597c98a0f80d0a939ad8313d">More...</a><br /></td></tr>
-<tr class="separator:a569372b0597c98a0f80d0a939ad8313d inherit pro_methods_classts_1_1_abstract_a_v_c_data"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>Representation of an AVC sequence parameter set access unit. </p>
@@ -769,6 +747,214 @@ Protected Member Functions</h2></td></tr>
 <dl class="section return"><dt>Returns</dt><dd>The "valid" flag. </dd></dl>
 
 <p>Implements <a class="el" href="classts_1_1_abstract_a_v_c_access_unit.html#ab0ae4263bd4855dfae0b1ee47c40aab3">ts::AbstractAVCAccessUnit</a>.</p>
+
+</div>
+</div>
+<a id="a0978b631f9cd6cde497c6efd9dc64a63"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0978b631f9cd6cde497c6efd9dc64a63">&#9670;&nbsp;</a></span>parse()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual bool ts::AbstractAVCAccessUnit::parse </td>
+          <td>(</td>
+          <td class="paramtype">const void *&#160;</td>
+          <td class="paramname"><em>addr</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">size_t&#160;</td>
+          <td class="paramname"><em>size</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">override</span><span class="mlabel">virtual</span><span class="mlabel">inherited</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Parse a memory area containing binary AVC data of the expected type. </p>
+<p>Must be reimplemented by subclasses. The data are marked as valid or invalid. </p><dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">addr</td><td>Address of the binary data to parse. </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">size</td><td>Size in bytes of the binary data to parse. </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>The <a class="el" href="classts_1_1_abstract_a_v_c_data.html#ab40f1dc973ba1231c829da6c8b250fc4">valid</a> flag. </dd></dl>
+
+<p>Implements <a class="el" href="classts_1_1_abstract_a_v_c_data.html#a97ba404127f8631fc974e57512f54186">ts::AbstractAVCData</a>.</p>
+
+</div>
+</div>
+<a id="aa928ac6a4e029f4ffe848449725e2c1c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa928ac6a4e029f4ffe848449725e2c1c">&#9670;&nbsp;</a></span>disp() <span class="overload">[1/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename INT , typename std::enable_if&lt; std::is_integral&lt; INT &gt;::value &gt;::type *  = nullptr&gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void ts::AbstractAVCData::disp </td>
+          <td>(</td>
+          <td class="paramtype">std::ostream &amp;&#160;</td>
+          <td class="paramname"><em>out</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="classts_1_1_u_string.html">UString</a> &amp;&#160;</td>
+          <td class="paramname"><em>margin</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="namespacets.html#a7e3244e77fae7815254d87d2ebdb7bd0">UChar</a> *&#160;</td>
+          <td class="paramname"><em>name</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classts_1_1_i_n_t.html">INT</a>&#160;</td>
+          <td class="paramname"><em>n</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">protected</span><span class="mlabel">inherited</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Display helper for subclasses. </p>
+<p>Display an integer value. </p><dl class="tparams"><dt>Template Parameters</dt><dd>
+  <table class="tparams">
+    <tr><td class="paramname"><a class="el" href="classts_1_1_i_n_t.html" title="Representation of an IP/MAC Notification Table (INT). ">INT</a></td><td>An integer type. </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in,out]</td><td class="paramname">out</td><td>The stream where to print the content. </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">margin</td><td>The prefix string on each line. </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">name</td><td>A name to display for the value. </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">n</td><td>The integer value to display. </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="a569372b0597c98a0f80d0a939ad8313d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a569372b0597c98a0f80d0a939ad8313d">&#9670;&nbsp;</a></span>disp() <span class="overload">[2/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename INT , typename std::enable_if&lt; std::is_integral&lt; INT &gt;::value &gt;::type *  = nullptr&gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void ts::AbstractAVCData::disp </td>
+          <td>(</td>
+          <td class="paramtype">std::ostream &amp;&#160;</td>
+          <td class="paramname"><em>out</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="classts_1_1_u_string.html">UString</a> &amp;&#160;</td>
+          <td class="paramname"><em>margin</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="namespacets.html#a7e3244e77fae7815254d87d2ebdb7bd0">UChar</a> *&#160;</td>
+          <td class="paramname"><em>name</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">std::vector&lt; <a class="el" href="classts_1_1_i_n_t.html">INT</a> &gt;&#160;</td>
+          <td class="paramname"><em>n</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">protected</span><span class="mlabel">inherited</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Display helper for subclasses. </p>
+<p>Display a vector of integer value. </p><dl class="tparams"><dt>Template Parameters</dt><dd>
+  <table class="tparams">
+    <tr><td class="paramname"><a class="el" href="classts_1_1_i_n_t.html" title="Representation of an IP/MAC Notification Table (INT). ">INT</a></td><td>An integer type. </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in,out]</td><td class="paramname">out</td><td>The stream where to print the content. </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">margin</td><td>The prefix string on each line. </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">name</td><td>A name to display for the value. </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">n</td><td>The integer values to display. </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<h2 class="groupheader">Member Data Documentation</h2>
+<a id="ab40f1dc973ba1231c829da6c8b250fc4"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab40f1dc973ba1231c829da6c8b250fc4">&#9670;&nbsp;</a></span>valid</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool ts::AbstractAVCData::valid</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inherited</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Valid flag. </p>
+<p>Other fields are significant only if <em>valid</em> is true. </p>
 
 </div>
 </div>

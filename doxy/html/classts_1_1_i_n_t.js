@@ -10,9 +10,22 @@ var classts_1_1_i_n_t =
     [ "buildXML", "classts_1_1_i_n_t.html#a70af2ad3055e872ff9fbf4a2d5fc8c0d", null ],
     [ "fromXML", "classts_1_1_i_n_t.html#a0cfc08fcd9134451eba91cc79c0140b6", null ],
     [ "DisplaySection", "classts_1_1_i_n_t.html#a557e1d8e9390836fba8aa3ac06e52466", null ],
+    [ "tableId", "classts_1_1_i_n_t.html#a8370f08a385a16905f44426e0dad8c2b", null ],
+    [ "isValid", "classts_1_1_i_n_t.html#af7aa8ceb8b698ab219c05a36b0e97291", null ],
+    [ "invalidate", "classts_1_1_i_n_t.html#a1aca8115129275bdd9c384e822301f0a", null ],
+    [ "xmlName", "classts_1_1_i_n_t.html#a77fd80b304a38bdc350eae3d899495bc", null ],
+    [ "toXML", "classts_1_1_i_n_t.html#ae5b592f7701b19d586a8b047b17d81b3", null ],
+    [ "checkXMLName", "classts_1_1_i_n_t.html#aef9dabba2270e0ac6d4c43f13bb13243", null ],
+    [ "SerializeFixedLength", "classts_1_1_i_n_t.html#a861d449ce53da7fdb3dd92135b91b022", null ],
+    [ "SerializeLanguageCode", "classts_1_1_i_n_t.html#ae02743b0076183fb615027b8bc88b26a", null ],
     [ "action_type", "classts_1_1_i_n_t.html#afbbadb88254dea96916203cc7b1a8752", null ],
     [ "platform_id", "classts_1_1_i_n_t.html#a04621d57baa5b0365fb7368a459a59f1", null ],
     [ "processing_order", "classts_1_1_i_n_t.html#a7bd6a674ae2bf02ee98f54ca866d2215", null ],
     [ "platform_descs", "classts_1_1_i_n_t.html#a264d69f210b8c72783c1ea2422ecd514", null ],
-    [ "devices", "classts_1_1_i_n_t.html#a73a692f42b10405d1b22e438dcc3a184", null ]
+    [ "devices", "classts_1_1_i_n_t.html#a73a692f42b10405d1b22e438dcc3a184", null ],
+    [ "version", "classts_1_1_i_n_t.html#a60a7651ae92e479f9cf7a06e4cb6aa0e", null ],
+    [ "is_current", "classts_1_1_i_n_t.html#a3fdecd0bf9b625b145140f2f0037dcd0", null ],
+    [ "_table_id", "classts_1_1_i_n_t.html#aaf93d7ef2b8c8430e95a487e3eaebaaa", null ],
+    [ "_xml_name", "classts_1_1_i_n_t.html#ae3c088f8d26763cf2c4dc47042ee32e1", null ],
+    [ "_is_valid", "classts_1_1_i_n_t.html#a656c83e401104eb45581a2867fe758dc", null ]
 ];

@@ -50,5 +50,7 @@ var classts_1_1_section =
     [ "hasDiversifiedPayload", "classts_1_1_section.html#a6fea276b19e6e4a95381820f43973f90", null ],
     [ "read", "classts_1_1_section.html#a25ba81a8f348bef945be6885a2feb182", null ],
     [ "write", "classts_1_1_section.html#ad7822ac949dac08376acb6fddb6a22cf", null ],
-    [ "dump", "classts_1_1_section.html#af2c4961b19d6ab2a1515b14627cc79c1", null ]
+    [ "dump", "classts_1_1_section.html#af2c4961b19d6ab2a1515b14627cc79c1", null ],
+    [ "SectionSize", "classts_1_1_section.html#a767af95586a4291dac7ae6119e9affe9", null ],
+    [ "SectionSize", "classts_1_1_section.html#abd4bbb28475f3b806949d1b9dee4c795", null ]
 ];

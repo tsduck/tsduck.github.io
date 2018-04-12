@@ -7,6 +7,7 @@ var classts_1_1_s_h_a1 =
     [ "init", "classts_1_1_s_h_a1.html#a01c436007e4e71042dfe68d6bdb2dda4", null ],
     [ "add", "classts_1_1_s_h_a1.html#a28162e6bed75137b3c1df3227d57f282", null ],
     [ "getHash", "classts_1_1_s_h_a1.html#ab92933dd03a558846a30bd4ff8a27e0a", null ],
+    [ "hash", "classts_1_1_s_h_a1.html#ab1bb0df4ef84dbe3c67a0d2ecb2957d8", null ],
     [ "HASH_SIZE", "classts_1_1_s_h_a1.html#a61f38afd5c4185c869ea11a982340938", null ],
     [ "BLOCK_SIZE", "classts_1_1_s_h_a1.html#ac663fdad4eafc8f9afffd92157d4aa2d", null ]
 ];

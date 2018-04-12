@@ -37,7 +37,7 @@
  <tr style="height: 56px;">
   <td id="projectlogo"><img src="tsduck-32.png"/></td>
    <td id="projectalign"><span id="projectname">TSDuck</span>
-    <span id="projectnumber">Version 3.10-643</span>
+    <span id="projectnumber">Version 3.10-675</span>
     <span id="projectbrief">(TSDuck - The MPEG Transport Stream Toolkit)</span>
    </td>
    <td>        <div id="MSearchBox" class="MSearchBoxInactive">
@@ -100,6 +100,7 @@ $(document).ready(function(){initNavTree('classts_1_1_system_monitor.html','');}
 <div class="header">
   <div class="summary">
 <a href="#pub-methods">Public Member Functions</a> &#124;
+<a href="#pub-static-methods">Static Public Member Functions</a> &#124;
 <a href="classts_1_1_system_monitor-members.html">List of all members</a>  </div>
   <div class="headertitle">
 <div class="title">ts::SystemMonitor Class Reference</div>  </div>
@@ -134,38 +135,27 @@ Public Member Functions</h2></td></tr>
 virtual&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classts_1_1_system_monitor.html#afec543d2d461e61398e649d5dc7e2dae">~SystemMonitor</a> ()</td></tr>
 <tr class="memdesc:afec543d2d461e61398e649d5dc7e2dae"><td class="mdescLeft">&#160;</td><td class="mdescRight">Destructor. <br /></td></tr>
 <tr class="separator:afec543d2d461e61398e649d5dc7e2dae"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="inherit_header pub_methods_classts_1_1_thread"><td colspan="2" onclick="javascript:toggleInherit('pub_methods_classts_1_1_thread')"><img src="closed.png" alt="-"/>&#160;Public Member Functions inherited from <a class="el" href="classts_1_1_thread.html">ts::Thread</a></td></tr>
-<tr class="memitem:a66de39c4e84171d1991f1100b973c30e inherit pub_methods_classts_1_1_thread"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classts_1_1_thread.html#a66de39c4e84171d1991f1100b973c30e">Thread</a> ()</td></tr>
-<tr class="memdesc:a66de39c4e84171d1991f1100b973c30e inherit pub_methods_classts_1_1_thread"><td class="mdescLeft">&#160;</td><td class="mdescRight">Default constructor (all attributes have their default values).  <a href="classts_1_1_thread.html#a66de39c4e84171d1991f1100b973c30e">More...</a><br /></td></tr>
-<tr class="separator:a66de39c4e84171d1991f1100b973c30e inherit pub_methods_classts_1_1_thread"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a2350beb723cddb8f9dc1d5a1c6e49629 inherit pub_methods_classts_1_1_thread"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classts_1_1_thread.html#a2350beb723cddb8f9dc1d5a1c6e49629">Thread</a> (const <a class="el" href="classts_1_1_thread_attributes.html">ThreadAttributes</a> &amp;attributes)</td></tr>
-<tr class="memdesc:a2350beb723cddb8f9dc1d5a1c6e49629 inherit pub_methods_classts_1_1_thread"><td class="mdescLeft">&#160;</td><td class="mdescRight">Constructor from specified attributes.  <a href="classts_1_1_thread.html#a2350beb723cddb8f9dc1d5a1c6e49629">More...</a><br /></td></tr>
-<tr class="separator:a2350beb723cddb8f9dc1d5a1c6e49629 inherit pub_methods_classts_1_1_thread"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ad92ae8bd1ab07fad9ff15b9ee3c993f6 inherit pub_methods_classts_1_1_thread"><td class="memItemLeft" align="right" valign="top">virtual&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classts_1_1_thread.html#ad92ae8bd1ab07fad9ff15b9ee3c993f6">~Thread</a> ()</td></tr>
-<tr class="memdesc:ad92ae8bd1ab07fad9ff15b9ee3c993f6 inherit pub_methods_classts_1_1_thread"><td class="mdescLeft">&#160;</td><td class="mdescRight">Destructor.  <a href="classts_1_1_thread.html#ad92ae8bd1ab07fad9ff15b9ee3c993f6">More...</a><br /></td></tr>
-<tr class="separator:ad92ae8bd1ab07fad9ff15b9ee3c993f6 inherit pub_methods_classts_1_1_thread"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a4e65e81982c1ff3cd668013ddd8ee13a inherit pub_methods_classts_1_1_thread"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classts_1_1_thread.html#a4e65e81982c1ff3cd668013ddd8ee13a">getAttributes</a> (<a class="el" href="classts_1_1_thread_attributes.html">ThreadAttributes</a> &amp;attributes)</td></tr>
-<tr class="memdesc:a4e65e81982c1ff3cd668013ddd8ee13a inherit pub_methods_classts_1_1_thread"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get a copy of the attributes of the thread.  <a href="classts_1_1_thread.html#a4e65e81982c1ff3cd668013ddd8ee13a">More...</a><br /></td></tr>
-<tr class="separator:a4e65e81982c1ff3cd668013ddd8ee13a inherit pub_methods_classts_1_1_thread"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a176d1f2f087d184a4a241a053593d1e8 inherit pub_methods_classts_1_1_thread"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classts_1_1_thread.html#a176d1f2f087d184a4a241a053593d1e8">isCurrentThread</a> () const</td></tr>
-<tr class="memdesc:a176d1f2f087d184a4a241a053593d1e8 inherit pub_methods_classts_1_1_thread"><td class="mdescLeft">&#160;</td><td class="mdescRight">Check if the caller is running in the context of this thread.  <a href="classts_1_1_thread.html#a176d1f2f087d184a4a241a053593d1e8">More...</a><br /></td></tr>
-<tr class="separator:a176d1f2f087d184a4a241a053593d1e8 inherit pub_methods_classts_1_1_thread"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a2b83b8195aeb16fd769e8f41e8a94da7 inherit pub_methods_classts_1_1_thread"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classts_1_1_thread.html#a2b83b8195aeb16fd769e8f41e8a94da7">setAttributes</a> (const <a class="el" href="classts_1_1_thread_attributes.html">ThreadAttributes</a> &amp;attributes)</td></tr>
-<tr class="memdesc:a2b83b8195aeb16fd769e8f41e8a94da7 inherit pub_methods_classts_1_1_thread"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set new attributes to the thread.  <a href="classts_1_1_thread.html#a2b83b8195aeb16fd769e8f41e8a94da7">More...</a><br /></td></tr>
-<tr class="separator:a2b83b8195aeb16fd769e8f41e8a94da7 inherit pub_methods_classts_1_1_thread"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a5376ca4c696a2c5a06843e5abcc7a75e inherit pub_methods_classts_1_1_thread"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classts_1_1_thread.html#a5376ca4c696a2c5a06843e5abcc7a75e">start</a> ()</td></tr>
-<tr class="memdesc:a5376ca4c696a2c5a06843e5abcc7a75e inherit pub_methods_classts_1_1_thread"><td class="mdescLeft">&#160;</td><td class="mdescRight">Start the thread.  <a href="classts_1_1_thread.html#a5376ca4c696a2c5a06843e5abcc7a75e">More...</a><br /></td></tr>
-<tr class="separator:a5376ca4c696a2c5a06843e5abcc7a75e inherit pub_methods_classts_1_1_thread"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a12dfa09a199489d4d06d223c685d0cbf inherit pub_methods_classts_1_1_thread"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classts_1_1_thread.html#a12dfa09a199489d4d06d223c685d0cbf">waitForTermination</a> ()</td></tr>
-<tr class="memdesc:a12dfa09a199489d4d06d223c685d0cbf inherit pub_methods_classts_1_1_thread"><td class="mdescLeft">&#160;</td><td class="mdescRight">Wait for thread termination.  <a href="classts_1_1_thread.html#a12dfa09a199489d4d06d223c685d0cbf">More...</a><br /></td></tr>
-<tr class="separator:a12dfa09a199489d4d06d223c685d0cbf inherit pub_methods_classts_1_1_thread"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4e65e81982c1ff3cd668013ddd8ee13a"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classts_1_1_thread.html#a4e65e81982c1ff3cd668013ddd8ee13a">getAttributes</a> (<a class="el" href="classts_1_1_thread_attributes.html">ThreadAttributes</a> &amp;attributes)</td></tr>
+<tr class="memdesc:a4e65e81982c1ff3cd668013ddd8ee13a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get a copy of the attributes of the thread.  <a href="#a4e65e81982c1ff3cd668013ddd8ee13a">More...</a><br /></td></tr>
+<tr class="separator:a4e65e81982c1ff3cd668013ddd8ee13a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a176d1f2f087d184a4a241a053593d1e8"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classts_1_1_thread.html#a176d1f2f087d184a4a241a053593d1e8">isCurrentThread</a> () const</td></tr>
+<tr class="memdesc:a176d1f2f087d184a4a241a053593d1e8"><td class="mdescLeft">&#160;</td><td class="mdescRight">Check if the caller is running in the context of this thread.  <a href="#a176d1f2f087d184a4a241a053593d1e8">More...</a><br /></td></tr>
+<tr class="separator:a176d1f2f087d184a4a241a053593d1e8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2b83b8195aeb16fd769e8f41e8a94da7"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classts_1_1_thread.html#a2b83b8195aeb16fd769e8f41e8a94da7">setAttributes</a> (const <a class="el" href="classts_1_1_thread_attributes.html">ThreadAttributes</a> &amp;attributes)</td></tr>
+<tr class="memdesc:a2b83b8195aeb16fd769e8f41e8a94da7"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set new attributes to the thread.  <a href="#a2b83b8195aeb16fd769e8f41e8a94da7">More...</a><br /></td></tr>
+<tr class="separator:a2b83b8195aeb16fd769e8f41e8a94da7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5376ca4c696a2c5a06843e5abcc7a75e"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classts_1_1_thread.html#a5376ca4c696a2c5a06843e5abcc7a75e">start</a> ()</td></tr>
+<tr class="memdesc:a5376ca4c696a2c5a06843e5abcc7a75e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Start the thread.  <a href="#a5376ca4c696a2c5a06843e5abcc7a75e">More...</a><br /></td></tr>
+<tr class="separator:a5376ca4c696a2c5a06843e5abcc7a75e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a12dfa09a199489d4d06d223c685d0cbf"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classts_1_1_thread.html#a12dfa09a199489d4d06d223c685d0cbf">waitForTermination</a> ()</td></tr>
+<tr class="memdesc:a12dfa09a199489d4d06d223c685d0cbf"><td class="mdescLeft">&#160;</td><td class="mdescRight">Wait for thread termination.  <a href="#a12dfa09a199489d4d06d223c685d0cbf">More...</a><br /></td></tr>
+<tr class="separator:a12dfa09a199489d4d06d223c685d0cbf"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="inherited"></a>
-Additional Inherited Members</h2></td></tr>
-<tr class="inherit_header pub_static_methods_classts_1_1_thread"><td colspan="2" onclick="javascript:toggleInherit('pub_static_methods_classts_1_1_thread')"><img src="closed.png" alt="-"/>&#160;Static Public Member Functions inherited from <a class="el" href="classts_1_1_thread.html">ts::Thread</a></td></tr>
-<tr class="memitem:a47776324f4d04867e6d467cc42a1543b inherit pub_static_methods_classts_1_1_thread"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classts_1_1_thread.html#a47776324f4d04867e6d467cc42a1543b">Yield</a> ()</td></tr>
-<tr class="memdesc:a47776324f4d04867e6d467cc42a1543b inherit pub_static_methods_classts_1_1_thread"><td class="mdescLeft">&#160;</td><td class="mdescRight">Yield execution of the current thread.  <a href="classts_1_1_thread.html#a47776324f4d04867e6d467cc42a1543b">More...</a><br /></td></tr>
-<tr class="separator:a47776324f4d04867e6d467cc42a1543b inherit pub_static_methods_classts_1_1_thread"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-static-methods"></a>
+Static Public Member Functions</h2></td></tr>
+<tr class="memitem:a47776324f4d04867e6d467cc42a1543b"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classts_1_1_thread.html#a47776324f4d04867e6d467cc42a1543b">Yield</a> ()</td></tr>
+<tr class="memdesc:a47776324f4d04867e6d467cc42a1543b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Yield execution of the current thread.  <a href="#a47776324f4d04867e6d467cc42a1543b">More...</a><br /></td></tr>
+<tr class="separator:a47776324f4d04867e6d467cc42a1543b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>Monitoring thread for system resources used by the application. </p>
@@ -202,6 +192,195 @@ Additional Inherited Members</h2></td></tr>
   </table>
   </dd>
 </dl>
+
+</div>
+</div>
+<h2 class="groupheader">Member Function Documentation</h2>
+<a id="a2b83b8195aeb16fd769e8f41e8a94da7"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2b83b8195aeb16fd769e8f41e8a94da7">&#9670;&nbsp;</a></span>setAttributes()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool ts::Thread::setAttributes </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="classts_1_1_thread_attributes.html">ThreadAttributes</a> &amp;&#160;</td>
+          <td class="paramname"><em>attributes</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inherited</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Set new attributes to the thread. </p>
+<p>New attributes can be set as long as the thread is not started, i.e. as long as <a class="el" href="classts_1_1_thread.html#a5376ca4c696a2c5a06843e5abcc7a75e" title="Start the thread. ">start()</a> is not invoked.</p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">attributes</td><td>New attributes to set. </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>True on success, false on error (if the thread is already started). </dd></dl>
+
+</div>
+</div>
+<a id="a4e65e81982c1ff3cd668013ddd8ee13a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4e65e81982c1ff3cd668013ddd8ee13a">&#9670;&nbsp;</a></span>getAttributes()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void ts::Thread::getAttributes </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classts_1_1_thread_attributes.html">ThreadAttributes</a> &amp;&#160;</td>
+          <td class="paramname"><em>attributes</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inherited</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Get a copy of the attributes of the thread. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[out]</td><td class="paramname">attributes</td><td>Attributes of the thread. </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="a5376ca4c696a2c5a06843e5abcc7a75e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5376ca4c696a2c5a06843e5abcc7a75e">&#9670;&nbsp;</a></span>start()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool ts::Thread::start </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inherited</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Start the thread. </p>
+<p>The operating system thread is created and started. The code which is executed in the context of this thread is in the method main().</p>
+<dl class="section return"><dt>Returns</dt><dd>True on success, false on error (operating system error or the thread is already started). </dd></dl>
+
+</div>
+</div>
+<a id="a12dfa09a199489d4d06d223c685d0cbf"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a12dfa09a199489d4d06d223c685d0cbf">&#9670;&nbsp;</a></span>waitForTermination()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool ts::Thread::waitForTermination </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inherited</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Wait for thread termination. </p>
+<p>The thread which invokes this method is blocked until the execution of this thread object completes.</p>
+<p>Only one waiter thread is allowed. If several threads concurrently invoke <a class="el" href="classts_1_1_thread.html#a12dfa09a199489d4d06d223c685d0cbf" title="Wait for thread termination. ">waitForTermination()</a> on the same <a class="el" href="classts_1_1_thread.html" title="Base class for threads. ">Thread</a> object, only the first one will wait. The method <a class="el" href="classts_1_1_thread.html#a12dfa09a199489d4d06d223c685d0cbf" title="Wait for thread termination. ">waitForTermination()</a> returns an error to all other threads.</p>
+<p>This method is automatically invoked in the destructor. Thus, when a <a class="el" href="classts_1_1_thread.html" title="Base class for threads. ">Thread</a> object is declared in a control block and the thread has been started, the end of the control block hangs as long as the thread is not terminated. If the thread has not been started, however, the destructor does not wait (otherwise it would hang for ever).</p>
+<p><b>Important:</b> When a subclass of <a class="el" href="classts_1_1_thread.html" title="Base class for threads. ">Thread</a> has non-static members, its destructor shall invoke <a class="el" href="classts_1_1_thread.html#a12dfa09a199489d4d06d223c685d0cbf" title="Wait for thread termination. ">waitForTermination()</a>. Thus, it prevents its members from being destructed until the thread terminates. If the destructor of the subclass does not invoke <a class="el" href="classts_1_1_thread.html#a12dfa09a199489d4d06d223c685d0cbf" title="Wait for thread termination. ">waitForTermination()</a> and the <a class="el" href="classts_1_1_thread.html" title="Base class for threads. ">Thread</a> object goes out of scope before the termination of the thread, the subclass part of the object is destroyed. Any attempt to access non-static members from the main() method in the context of the thread will give unexpected results. Most of the time, this will result in an error similar to <em>"pure virtual method called"</em>. To avoid this:</p>
+<div class="fragment"><div class="line"><span class="keyword">class </span>MyThread: <span class="keyword">public</span> <a class="code" href="classts_1_1_thread.html">ts::Thread</a></div><div class="line">{</div><div class="line"><span class="keyword">public</span>:</div><div class="line">    <span class="keyword">virtual</span> ~MyThread()</div><div class="line">    {</div><div class="line">        <a class="code" href="classts_1_1_thread.html#a12dfa09a199489d4d06d223c685d0cbf">waitForTermination</a>();</div><div class="line">    }</div><div class="line">...</div><div class="line">};</div></div><!-- fragment --><p>Do not use this method if the thread was created with the <em>delete when terminated</em> flag (<a class="el" href="classts_1_1_thread_attributes.html#a5e7eac7137e8f9b4ab4b80a1bc201a8c">ts::ThreadAttributes::setDeleteWhenTerminated</a>).</p>
+<dl class="section return"><dt>Returns</dt><dd>True on success, false on error. Errors include operating system errors, the thread is not yet started, the caller thread is this thread (waiting for ourself would result in a dead-lock). </dd></dl>
+
+</div>
+</div>
+<a id="a176d1f2f087d184a4a241a053593d1e8"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a176d1f2f087d184a4a241a053593d1e8">&#9670;&nbsp;</a></span>isCurrentThread()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool ts::Thread::isCurrentThread </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inherited</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Check if the caller is running in the context of this thread. </p>
+<dl class="section return"><dt>Returns</dt><dd>True if the caller of <a class="el" href="classts_1_1_thread.html#a176d1f2f087d184a4a241a053593d1e8" title="Check if the caller is running in the context of this thread. ">isCurrentThread()</a> is running in the context of this thread. </dd></dl>
+
+</div>
+</div>
+<a id="a47776324f4d04867e6d467cc42a1543b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a47776324f4d04867e6d467cc42a1543b">&#9670;&nbsp;</a></span>Yield()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static void ts::Thread::Yield </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span><span class="mlabel">inherited</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Yield execution of the current thread. </p>
+<p>Execution is passed to another thread, if any is waiting for execution. This should not change the behaviour of correctly-written applications. </p>
 
 </div>
 </div>

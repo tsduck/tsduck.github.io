@@ -37,7 +37,7 @@
  <tr style="height: 56px;">
   <td id="projectlogo"><img src="tsduck-32.png"/></td>
    <td id="projectalign"><span id="projectname">TSDuck</span>
-    <span id="projectnumber">Version 3.10-643</span>
+    <span id="projectnumber">Version 3.10-675</span>
     <span id="projectbrief">(TSDuck - The MPEG Transport Stream Toolkit)</span>
    </td>
    <td>        <div id="MSearchBox" class="MSearchBoxInactive">
@@ -100,6 +100,7 @@ $(document).ready(function(){initNavTree('classts_1_1_viaccess_date.html','');})
 <div class="header">
   <div class="summary">
 <a href="#pub-methods">Public Member Functions</a> &#124;
+<a href="#pub-static-attribs">Static Public Attributes</a> &#124;
 <a href="classts_1_1_viaccess_date-members.html">List of all members</a>  </div>
   <div class="headertitle">
 <div class="title">ts::ViaccessDate Class Reference</div>  </div>
@@ -139,77 +140,55 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:aba685d1ce6e1739bee50e0120c1661be"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classts_1_1_viaccess_date.html#aba685d1ce6e1739bee50e0120c1661be">ViaccessDate</a> (const <a class="el" href="classts_1_1_time.html">Time</a> &amp;time)</td></tr>
 <tr class="memdesc:aba685d1ce6e1739bee50e0120c1661be"><td class="mdescLeft">&#160;</td><td class="mdescRight">Constructor from a <a class="el" href="classts_1_1_time.html" title="The Time class implements a basic representation of time. ">Time</a> object.  <a href="#aba685d1ce6e1739bee50e0120c1661be">More...</a><br /></td></tr>
 <tr class="separator:aba685d1ce6e1739bee50e0120c1661be"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aae6bfbd3a5cc9075d602ca4e9a0b9e30"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classts_1_1_abstract_c_a_s_date.html#aae6bfbd3a5cc9075d602ca4e9a0b9e30">day</a> () const</td></tr>
+<tr class="memdesc:aae6bfbd3a5cc9075d602ca4e9a0b9e30"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the day number.  <a href="#aae6bfbd3a5cc9075d602ca4e9a0b9e30">More...</a><br /></td></tr>
+<tr class="separator:aae6bfbd3a5cc9075d602ca4e9a0b9e30"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac0f891af85e016d19b5dc6b303d5b0bd"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classts_1_1_abstract_c_a_s_date.html#ac0f891af85e016d19b5dc6b303d5b0bd">isValid</a> () const</td></tr>
+<tr class="memdesc:ac0f891af85e016d19b5dc6b303d5b0bd"><td class="mdescLeft">&#160;</td><td class="mdescRight">Check if a date is valid.  <a href="#ac0f891af85e016d19b5dc6b303d5b0bd">More...</a><br /></td></tr>
+<tr class="separator:ac0f891af85e016d19b5dc6b303d5b0bd"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3be7df10ea932ced1b36339c51d553e4"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classts_1_1_abstract_c_a_s_date.html#a3be7df10ea932ced1b36339c51d553e4">month</a> () const</td></tr>
+<tr class="memdesc:a3be7df10ea932ced1b36339c51d553e4"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the month number.  <a href="#a3be7df10ea932ced1b36339c51d553e4">More...</a><br /></td></tr>
+<tr class="separator:a3be7df10ea932ced1b36339c51d553e4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0fd23eaf207508d1fa7daacfb79a3656"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classts_1_1_abstract_c_a_s_date.html#a0fd23eaf207508d1fa7daacfb79a3656">operator ts::Time</a> () const</td></tr>
+<tr class="memdesc:a0fd23eaf207508d1fa7daacfb79a3656"><td class="mdescLeft">&#160;</td><td class="mdescRight">Convert to a <a class="el" href="classts_1_1_time.html" title="The Time class implements a basic representation of time. ">Time</a> object.  <a href="#a0fd23eaf207508d1fa7daacfb79a3656">More...</a><br /></td></tr>
+<tr class="separator:a0fd23eaf207508d1fa7daacfb79a3656"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac8772eeae0b561473b56a8efa29d9dcf"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classts_1_1_abstract_c_a_s_date.html#ac8772eeae0b561473b56a8efa29d9dcf">operator ts::UString</a> () const</td></tr>
+<tr class="memdesc:ac8772eeae0b561473b56a8efa29d9dcf"><td class="mdescLeft">&#160;</td><td class="mdescRight">Convert to a string object.  <a href="#ac8772eeae0b561473b56a8efa29d9dcf">More...</a><br /></td></tr>
+<tr class="separator:ac8772eeae0b561473b56a8efa29d9dcf"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8c99cd840877a53c6ecab846c6c2544a"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classts_1_1_abstract_c_a_s_date.html#a8c99cd840877a53c6ecab846c6c2544a">operator!=</a> (const <a class="el" href="classts_1_1_abstract_c_a_s_date.html">AbstractCASDate</a> &amp;t) const</td></tr>
+<tr class="memdesc:a8c99cd840877a53c6ecab846c6c2544a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Comparison operator.  <a href="#a8c99cd840877a53c6ecab846c6c2544a">More...</a><br /></td></tr>
+<tr class="separator:a8c99cd840877a53c6ecab846c6c2544a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9f1425d597dd9578f9d723eb24b5ca52"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classts_1_1_abstract_c_a_s_date.html#a9f1425d597dd9578f9d723eb24b5ca52">operator&lt;</a> (const <a class="el" href="classts_1_1_abstract_c_a_s_date.html">AbstractCASDate</a> &amp;t) const</td></tr>
+<tr class="memdesc:a9f1425d597dd9578f9d723eb24b5ca52"><td class="mdescLeft">&#160;</td><td class="mdescRight">Comparison operator.  <a href="#a9f1425d597dd9578f9d723eb24b5ca52">More...</a><br /></td></tr>
+<tr class="separator:a9f1425d597dd9578f9d723eb24b5ca52"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af156d6154f4660b603d4962b301becf5"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classts_1_1_abstract_c_a_s_date.html#af156d6154f4660b603d4962b301becf5">operator&lt;=</a> (const <a class="el" href="classts_1_1_abstract_c_a_s_date.html">AbstractCASDate</a> &amp;t) const</td></tr>
+<tr class="memdesc:af156d6154f4660b603d4962b301becf5"><td class="mdescLeft">&#160;</td><td class="mdescRight">Comparison operator.  <a href="#af156d6154f4660b603d4962b301becf5">More...</a><br /></td></tr>
+<tr class="separator:af156d6154f4660b603d4962b301becf5"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a1edf460683985e2345c7bbc3678ac6fa"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classts_1_1_viaccess_date.html">ViaccessDate</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classts_1_1_viaccess_date.html#a1edf460683985e2345c7bbc3678ac6fa">operator=</a> (const <a class="el" href="classts_1_1_abstract_c_a_s_date.html">AbstractCASDate</a> &amp;date)</td></tr>
 <tr class="memdesc:a1edf460683985e2345c7bbc3678ac6fa"><td class="mdescLeft">&#160;</td><td class="mdescRight">Assignment operator.  <a href="#a1edf460683985e2345c7bbc3678ac6fa">More...</a><br /></td></tr>
 <tr class="separator:a1edf460683985e2345c7bbc3678ac6fa"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="inherit_header pub_methods_classts_1_1_abstract_c_a_s_date"><td colspan="2" onclick="javascript:toggleInherit('pub_methods_classts_1_1_abstract_c_a_s_date')"><img src="closed.png" alt="-"/>&#160;Public Member Functions inherited from <a class="el" href="classts_1_1_abstract_c_a_s_date.html">ts::AbstractCASDate</a></td></tr>
-<tr class="memitem:a67cc8463beeb56218d53491ba7b96d36 inherit pub_methods_classts_1_1_abstract_c_a_s_date"><td class="memItemLeft" align="right" valign="top"><a id="a67cc8463beeb56218d53491ba7b96d36"></a>
-virtual&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classts_1_1_abstract_c_a_s_date.html#a67cc8463beeb56218d53491ba7b96d36">~AbstractCASDate</a> ()</td></tr>
-<tr class="memdesc:a67cc8463beeb56218d53491ba7b96d36 inherit pub_methods_classts_1_1_abstract_c_a_s_date"><td class="mdescLeft">&#160;</td><td class="mdescRight">Virtual destructor. <br /></td></tr>
-<tr class="separator:a67cc8463beeb56218d53491ba7b96d36 inherit pub_methods_classts_1_1_abstract_c_a_s_date"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aae6bfbd3a5cc9075d602ca4e9a0b9e30 inherit pub_methods_classts_1_1_abstract_c_a_s_date"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classts_1_1_abstract_c_a_s_date.html#aae6bfbd3a5cc9075d602ca4e9a0b9e30">day</a> () const</td></tr>
-<tr class="memdesc:aae6bfbd3a5cc9075d602ca4e9a0b9e30 inherit pub_methods_classts_1_1_abstract_c_a_s_date"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the day number.  <a href="classts_1_1_abstract_c_a_s_date.html#aae6bfbd3a5cc9075d602ca4e9a0b9e30">More...</a><br /></td></tr>
-<tr class="separator:aae6bfbd3a5cc9075d602ca4e9a0b9e30 inherit pub_methods_classts_1_1_abstract_c_a_s_date"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ac0f891af85e016d19b5dc6b303d5b0bd inherit pub_methods_classts_1_1_abstract_c_a_s_date"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classts_1_1_abstract_c_a_s_date.html#ac0f891af85e016d19b5dc6b303d5b0bd">isValid</a> () const</td></tr>
-<tr class="memdesc:ac0f891af85e016d19b5dc6b303d5b0bd inherit pub_methods_classts_1_1_abstract_c_a_s_date"><td class="mdescLeft">&#160;</td><td class="mdescRight">Check if a date is valid.  <a href="classts_1_1_abstract_c_a_s_date.html#ac0f891af85e016d19b5dc6b303d5b0bd">More...</a><br /></td></tr>
-<tr class="separator:ac0f891af85e016d19b5dc6b303d5b0bd inherit pub_methods_classts_1_1_abstract_c_a_s_date"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a3be7df10ea932ced1b36339c51d553e4 inherit pub_methods_classts_1_1_abstract_c_a_s_date"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classts_1_1_abstract_c_a_s_date.html#a3be7df10ea932ced1b36339c51d553e4">month</a> () const</td></tr>
-<tr class="memdesc:a3be7df10ea932ced1b36339c51d553e4 inherit pub_methods_classts_1_1_abstract_c_a_s_date"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the month number.  <a href="classts_1_1_abstract_c_a_s_date.html#a3be7df10ea932ced1b36339c51d553e4">More...</a><br /></td></tr>
-<tr class="separator:a3be7df10ea932ced1b36339c51d553e4 inherit pub_methods_classts_1_1_abstract_c_a_s_date"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a0fd23eaf207508d1fa7daacfb79a3656 inherit pub_methods_classts_1_1_abstract_c_a_s_date"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classts_1_1_abstract_c_a_s_date.html#a0fd23eaf207508d1fa7daacfb79a3656">operator ts::Time</a> () const</td></tr>
-<tr class="memdesc:a0fd23eaf207508d1fa7daacfb79a3656 inherit pub_methods_classts_1_1_abstract_c_a_s_date"><td class="mdescLeft">&#160;</td><td class="mdescRight">Convert to a <a class="el" href="classts_1_1_time.html" title="The Time class implements a basic representation of time. ">Time</a> object.  <a href="classts_1_1_abstract_c_a_s_date.html#a0fd23eaf207508d1fa7daacfb79a3656">More...</a><br /></td></tr>
-<tr class="separator:a0fd23eaf207508d1fa7daacfb79a3656 inherit pub_methods_classts_1_1_abstract_c_a_s_date"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ac8772eeae0b561473b56a8efa29d9dcf inherit pub_methods_classts_1_1_abstract_c_a_s_date"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classts_1_1_abstract_c_a_s_date.html#ac8772eeae0b561473b56a8efa29d9dcf">operator ts::UString</a> () const</td></tr>
-<tr class="memdesc:ac8772eeae0b561473b56a8efa29d9dcf inherit pub_methods_classts_1_1_abstract_c_a_s_date"><td class="mdescLeft">&#160;</td><td class="mdescRight">Convert to a string object.  <a href="classts_1_1_abstract_c_a_s_date.html#ac8772eeae0b561473b56a8efa29d9dcf">More...</a><br /></td></tr>
-<tr class="separator:ac8772eeae0b561473b56a8efa29d9dcf inherit pub_methods_classts_1_1_abstract_c_a_s_date"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a8c99cd840877a53c6ecab846c6c2544a inherit pub_methods_classts_1_1_abstract_c_a_s_date"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classts_1_1_abstract_c_a_s_date.html#a8c99cd840877a53c6ecab846c6c2544a">operator!=</a> (const <a class="el" href="classts_1_1_abstract_c_a_s_date.html">AbstractCASDate</a> &amp;t) const</td></tr>
-<tr class="memdesc:a8c99cd840877a53c6ecab846c6c2544a inherit pub_methods_classts_1_1_abstract_c_a_s_date"><td class="mdescLeft">&#160;</td><td class="mdescRight">Comparison operator.  <a href="classts_1_1_abstract_c_a_s_date.html#a8c99cd840877a53c6ecab846c6c2544a">More...</a><br /></td></tr>
-<tr class="separator:a8c99cd840877a53c6ecab846c6c2544a inherit pub_methods_classts_1_1_abstract_c_a_s_date"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a9f1425d597dd9578f9d723eb24b5ca52 inherit pub_methods_classts_1_1_abstract_c_a_s_date"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classts_1_1_abstract_c_a_s_date.html#a9f1425d597dd9578f9d723eb24b5ca52">operator&lt;</a> (const <a class="el" href="classts_1_1_abstract_c_a_s_date.html">AbstractCASDate</a> &amp;t) const</td></tr>
-<tr class="memdesc:a9f1425d597dd9578f9d723eb24b5ca52 inherit pub_methods_classts_1_1_abstract_c_a_s_date"><td class="mdescLeft">&#160;</td><td class="mdescRight">Comparison operator.  <a href="classts_1_1_abstract_c_a_s_date.html#a9f1425d597dd9578f9d723eb24b5ca52">More...</a><br /></td></tr>
-<tr class="separator:a9f1425d597dd9578f9d723eb24b5ca52 inherit pub_methods_classts_1_1_abstract_c_a_s_date"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:af156d6154f4660b603d4962b301becf5 inherit pub_methods_classts_1_1_abstract_c_a_s_date"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classts_1_1_abstract_c_a_s_date.html#af156d6154f4660b603d4962b301becf5">operator&lt;=</a> (const <a class="el" href="classts_1_1_abstract_c_a_s_date.html">AbstractCASDate</a> &amp;t) const</td></tr>
-<tr class="memdesc:af156d6154f4660b603d4962b301becf5 inherit pub_methods_classts_1_1_abstract_c_a_s_date"><td class="mdescLeft">&#160;</td><td class="mdescRight">Comparison operator.  <a href="classts_1_1_abstract_c_a_s_date.html#af156d6154f4660b603d4962b301becf5">More...</a><br /></td></tr>
-<tr class="separator:af156d6154f4660b603d4962b301becf5 inherit pub_methods_classts_1_1_abstract_c_a_s_date"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a83f5eb573de2128890ed040e2ad8bd5f inherit pub_methods_classts_1_1_abstract_c_a_s_date"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classts_1_1_abstract_c_a_s_date.html">AbstractCASDate</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classts_1_1_abstract_c_a_s_date.html#a83f5eb573de2128890ed040e2ad8bd5f">operator=</a> (const <a class="el" href="classts_1_1_abstract_c_a_s_date.html">AbstractCASDate</a> &amp;t)</td></tr>
-<tr class="memdesc:a83f5eb573de2128890ed040e2ad8bd5f inherit pub_methods_classts_1_1_abstract_c_a_s_date"><td class="mdescLeft">&#160;</td><td class="mdescRight">Assignment operator.  <a href="classts_1_1_abstract_c_a_s_date.html#a83f5eb573de2128890ed040e2ad8bd5f">More...</a><br /></td></tr>
-<tr class="separator:a83f5eb573de2128890ed040e2ad8bd5f inherit pub_methods_classts_1_1_abstract_c_a_s_date"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ad2358ce8f3c1c7c6f87ac8c83d156779 inherit pub_methods_classts_1_1_abstract_c_a_s_date"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classts_1_1_abstract_c_a_s_date.html#ad2358ce8f3c1c7c6f87ac8c83d156779">operator==</a> (const <a class="el" href="classts_1_1_abstract_c_a_s_date.html">AbstractCASDate</a> &amp;t) const</td></tr>
-<tr class="memdesc:ad2358ce8f3c1c7c6f87ac8c83d156779 inherit pub_methods_classts_1_1_abstract_c_a_s_date"><td class="mdescLeft">&#160;</td><td class="mdescRight">Comparison operator.  <a href="classts_1_1_abstract_c_a_s_date.html#ad2358ce8f3c1c7c6f87ac8c83d156779">More...</a><br /></td></tr>
-<tr class="separator:ad2358ce8f3c1c7c6f87ac8c83d156779 inherit pub_methods_classts_1_1_abstract_c_a_s_date"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a0ab4b70a71a3057e141bbeda9919a921 inherit pub_methods_classts_1_1_abstract_c_a_s_date"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classts_1_1_abstract_c_a_s_date.html#a0ab4b70a71a3057e141bbeda9919a921">operator&gt;</a> (const <a class="el" href="classts_1_1_abstract_c_a_s_date.html">AbstractCASDate</a> &amp;t) const</td></tr>
-<tr class="memdesc:a0ab4b70a71a3057e141bbeda9919a921 inherit pub_methods_classts_1_1_abstract_c_a_s_date"><td class="mdescLeft">&#160;</td><td class="mdescRight">Comparison operator.  <a href="classts_1_1_abstract_c_a_s_date.html#a0ab4b70a71a3057e141bbeda9919a921">More...</a><br /></td></tr>
-<tr class="separator:a0ab4b70a71a3057e141bbeda9919a921 inherit pub_methods_classts_1_1_abstract_c_a_s_date"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a158c0acfc74f6d3ec151bc60b1f5b940 inherit pub_methods_classts_1_1_abstract_c_a_s_date"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classts_1_1_abstract_c_a_s_date.html#a158c0acfc74f6d3ec151bc60b1f5b940">operator&gt;=</a> (const <a class="el" href="classts_1_1_abstract_c_a_s_date.html">AbstractCASDate</a> &amp;t) const</td></tr>
-<tr class="memdesc:a158c0acfc74f6d3ec151bc60b1f5b940 inherit pub_methods_classts_1_1_abstract_c_a_s_date"><td class="mdescLeft">&#160;</td><td class="mdescRight">Comparison operator.  <a href="classts_1_1_abstract_c_a_s_date.html#a158c0acfc74f6d3ec151bc60b1f5b940">More...</a><br /></td></tr>
-<tr class="separator:a158c0acfc74f6d3ec151bc60b1f5b940 inherit pub_methods_classts_1_1_abstract_c_a_s_date"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a896214014473e1182da6187dae5218f7 inherit pub_methods_classts_1_1_abstract_c_a_s_date"><td class="memItemLeft" align="right" valign="top">uint16_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classts_1_1_abstract_c_a_s_date.html#a896214014473e1182da6187dae5218f7">value</a> () const</td></tr>
-<tr class="memdesc:a896214014473e1182da6187dae5218f7 inherit pub_methods_classts_1_1_abstract_c_a_s_date"><td class="mdescLeft">&#160;</td><td class="mdescRight">Convert to a 16-bit value, for binary insertion.  <a href="classts_1_1_abstract_c_a_s_date.html#a896214014473e1182da6187dae5218f7">More...</a><br /></td></tr>
-<tr class="separator:a896214014473e1182da6187dae5218f7 inherit pub_methods_classts_1_1_abstract_c_a_s_date"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a7d6057e03e8a6f83503bc3a5cb892c59 inherit pub_methods_classts_1_1_abstract_c_a_s_date"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classts_1_1_abstract_c_a_s_date.html#a7d6057e03e8a6f83503bc3a5cb892c59">year</a> () const</td></tr>
-<tr class="memdesc:a7d6057e03e8a6f83503bc3a5cb892c59 inherit pub_methods_classts_1_1_abstract_c_a_s_date"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the year number.  <a href="classts_1_1_abstract_c_a_s_date.html#a7d6057e03e8a6f83503bc3a5cb892c59">More...</a><br /></td></tr>
-<tr class="separator:a7d6057e03e8a6f83503bc3a5cb892c59 inherit pub_methods_classts_1_1_abstract_c_a_s_date"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad2358ce8f3c1c7c6f87ac8c83d156779"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classts_1_1_abstract_c_a_s_date.html#ad2358ce8f3c1c7c6f87ac8c83d156779">operator==</a> (const <a class="el" href="classts_1_1_abstract_c_a_s_date.html">AbstractCASDate</a> &amp;t) const</td></tr>
+<tr class="memdesc:ad2358ce8f3c1c7c6f87ac8c83d156779"><td class="mdescLeft">&#160;</td><td class="mdescRight">Comparison operator.  <a href="#ad2358ce8f3c1c7c6f87ac8c83d156779">More...</a><br /></td></tr>
+<tr class="separator:ad2358ce8f3c1c7c6f87ac8c83d156779"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0ab4b70a71a3057e141bbeda9919a921"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classts_1_1_abstract_c_a_s_date.html#a0ab4b70a71a3057e141bbeda9919a921">operator&gt;</a> (const <a class="el" href="classts_1_1_abstract_c_a_s_date.html">AbstractCASDate</a> &amp;t) const</td></tr>
+<tr class="memdesc:a0ab4b70a71a3057e141bbeda9919a921"><td class="mdescLeft">&#160;</td><td class="mdescRight">Comparison operator.  <a href="#a0ab4b70a71a3057e141bbeda9919a921">More...</a><br /></td></tr>
+<tr class="separator:a0ab4b70a71a3057e141bbeda9919a921"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a158c0acfc74f6d3ec151bc60b1f5b940"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classts_1_1_abstract_c_a_s_date.html#a158c0acfc74f6d3ec151bc60b1f5b940">operator&gt;=</a> (const <a class="el" href="classts_1_1_abstract_c_a_s_date.html">AbstractCASDate</a> &amp;t) const</td></tr>
+<tr class="memdesc:a158c0acfc74f6d3ec151bc60b1f5b940"><td class="mdescLeft">&#160;</td><td class="mdescRight">Comparison operator.  <a href="#a158c0acfc74f6d3ec151bc60b1f5b940">More...</a><br /></td></tr>
+<tr class="separator:a158c0acfc74f6d3ec151bc60b1f5b940"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a896214014473e1182da6187dae5218f7"><td class="memItemLeft" align="right" valign="top">uint16_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classts_1_1_abstract_c_a_s_date.html#a896214014473e1182da6187dae5218f7">value</a> () const</td></tr>
+<tr class="memdesc:a896214014473e1182da6187dae5218f7"><td class="mdescLeft">&#160;</td><td class="mdescRight">Convert to a 16-bit value, for binary insertion.  <a href="#a896214014473e1182da6187dae5218f7">More...</a><br /></td></tr>
+<tr class="separator:a896214014473e1182da6187dae5218f7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7d6057e03e8a6f83503bc3a5cb892c59"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classts_1_1_abstract_c_a_s_date.html#a7d6057e03e8a6f83503bc3a5cb892c59">year</a> () const</td></tr>
+<tr class="memdesc:a7d6057e03e8a6f83503bc3a5cb892c59"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the year number.  <a href="#a7d6057e03e8a6f83503bc3a5cb892c59">More...</a><br /></td></tr>
+<tr class="separator:a7d6057e03e8a6f83503bc3a5cb892c59"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="inherited"></a>
-Additional Inherited Members</h2></td></tr>
-<tr class="inherit_header pub_static_attribs_classts_1_1_abstract_c_a_s_date"><td colspan="2" onclick="javascript:toggleInherit('pub_static_attribs_classts_1_1_abstract_c_a_s_date')"><img src="closed.png" alt="-"/>&#160;Static Public Attributes inherited from <a class="el" href="classts_1_1_abstract_c_a_s_date.html">ts::AbstractCASDate</a></td></tr>
-<tr class="memitem:ac62c4072ac2fca4bdfb3ca29c11fdb5a inherit pub_static_attribs_classts_1_1_abstract_c_a_s_date"><td class="memItemLeft" align="right" valign="top"><a id="ac62c4072ac2fca4bdfb3ca29c11fdb5a"></a>
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-static-attribs"></a>
+Static Public Attributes</h2></td></tr>
+<tr class="memitem:ac62c4072ac2fca4bdfb3ca29c11fdb5a"><td class="memItemLeft" align="right" valign="top"><a id="ac62c4072ac2fca4bdfb3ca29c11fdb5a"></a>
 static const uint16_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classts_1_1_abstract_c_a_s_date.html#ac62c4072ac2fca4bdfb3ca29c11fdb5a">InvalidDate</a> = 0xFFFF</td></tr>
-<tr class="memdesc:ac62c4072ac2fca4bdfb3ca29c11fdb5a inherit pub_static_attribs_classts_1_1_abstract_c_a_s_date"><td class="mdescLeft">&#160;</td><td class="mdescRight">An invalid 16-bit date value. <br /></td></tr>
-<tr class="separator:ac62c4072ac2fca4bdfb3ca29c11fdb5a inherit pub_static_attribs_classts_1_1_abstract_c_a_s_date"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="inherit_header pro_methods_classts_1_1_abstract_c_a_s_date"><td colspan="2" onclick="javascript:toggleInherit('pro_methods_classts_1_1_abstract_c_a_s_date')"><img src="closed.png" alt="-"/>&#160;Protected Member Functions inherited from <a class="el" href="classts_1_1_abstract_c_a_s_date.html">ts::AbstractCASDate</a></td></tr>
-<tr class="memitem:a4ccc908847006e187e9971e517224923 inherit pro_methods_classts_1_1_abstract_c_a_s_date"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classts_1_1_abstract_c_a_s_date.html#a4ccc908847006e187e9971e517224923">AbstractCASDate</a> (int year_base, uint16_t <a class="el" href="classts_1_1_abstract_c_a_s_date.html#a896214014473e1182da6187dae5218f7">value</a>)</td></tr>
-<tr class="memdesc:a4ccc908847006e187e9971e517224923 inherit pro_methods_classts_1_1_abstract_c_a_s_date"><td class="mdescLeft">&#160;</td><td class="mdescRight">Default constructor, from a 16-bit integer.  <a href="classts_1_1_abstract_c_a_s_date.html#a4ccc908847006e187e9971e517224923">More...</a><br /></td></tr>
-<tr class="separator:a4ccc908847006e187e9971e517224923 inherit pro_methods_classts_1_1_abstract_c_a_s_date"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a48a14ed9aa92a3cf76edece8223852a3 inherit pro_methods_classts_1_1_abstract_c_a_s_date"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classts_1_1_abstract_c_a_s_date.html#a48a14ed9aa92a3cf76edece8223852a3">AbstractCASDate</a> (int year_base, const <a class="el" href="classts_1_1_abstract_c_a_s_date.html">AbstractCASDate</a> &amp;date)</td></tr>
-<tr class="memdesc:a48a14ed9aa92a3cf76edece8223852a3 inherit pro_methods_classts_1_1_abstract_c_a_s_date"><td class="mdescLeft">&#160;</td><td class="mdescRight">Support for copy constructor.  <a href="classts_1_1_abstract_c_a_s_date.html#a48a14ed9aa92a3cf76edece8223852a3">More...</a><br /></td></tr>
-<tr class="separator:a48a14ed9aa92a3cf76edece8223852a3 inherit pro_methods_classts_1_1_abstract_c_a_s_date"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aa6b45d237698408b00e0d124021d56f0 inherit pro_methods_classts_1_1_abstract_c_a_s_date"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classts_1_1_abstract_c_a_s_date.html#aa6b45d237698408b00e0d124021d56f0">AbstractCASDate</a> (int year_base, int <a class="el" href="classts_1_1_abstract_c_a_s_date.html#a7d6057e03e8a6f83503bc3a5cb892c59">year</a>, int <a class="el" href="classts_1_1_abstract_c_a_s_date.html#a3be7df10ea932ced1b36339c51d553e4">month</a>, int <a class="el" href="classts_1_1_abstract_c_a_s_date.html#aae6bfbd3a5cc9075d602ca4e9a0b9e30">day</a>)</td></tr>
-<tr class="memdesc:aa6b45d237698408b00e0d124021d56f0 inherit pro_methods_classts_1_1_abstract_c_a_s_date"><td class="mdescLeft">&#160;</td><td class="mdescRight">Constructor from fields.  <a href="classts_1_1_abstract_c_a_s_date.html#aa6b45d237698408b00e0d124021d56f0">More...</a><br /></td></tr>
-<tr class="separator:aa6b45d237698408b00e0d124021d56f0 inherit pro_methods_classts_1_1_abstract_c_a_s_date"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a6ae34b5d1298f2c58da29e2fcc6b5c50 inherit pro_methods_classts_1_1_abstract_c_a_s_date"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classts_1_1_abstract_c_a_s_date.html#a6ae34b5d1298f2c58da29e2fcc6b5c50">AbstractCASDate</a> (int year_base, const <a class="el" href="classts_1_1_time.html">Time</a> &amp;t)</td></tr>
-<tr class="memdesc:a6ae34b5d1298f2c58da29e2fcc6b5c50 inherit pro_methods_classts_1_1_abstract_c_a_s_date"><td class="mdescLeft">&#160;</td><td class="mdescRight">Constructor from a <a class="el" href="classts_1_1_time.html" title="The Time class implements a basic representation of time. ">Time</a> object.  <a href="classts_1_1_abstract_c_a_s_date.html#a6ae34b5d1298f2c58da29e2fcc6b5c50">More...</a><br /></td></tr>
-<tr class="separator:a6ae34b5d1298f2c58da29e2fcc6b5c50 inherit pro_methods_classts_1_1_abstract_c_a_s_date"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memdesc:ac62c4072ac2fca4bdfb3ca29c11fdb5a"><td class="mdescLeft">&#160;</td><td class="mdescRight">An invalid 16-bit date value. <br /></td></tr>
+<tr class="separator:ac62c4072ac2fca4bdfb3ca29c11fdb5a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>Representation of a Viaccess date. </p>
@@ -401,6 +380,412 @@ static const uint16_t&#160;</td><td class="memItemRight" valign="bottom"><a clas
   </dd>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>A reference to this object. </dd></dl>
+
+</div>
+</div>
+<a id="ac0f891af85e016d19b5dc6b303d5b0bd"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac0f891af85e016d19b5dc6b303d5b0bd">&#9670;&nbsp;</a></span>isValid()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool ts::AbstractCASDate::isValid </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">inherited</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Check if a date is valid. </p>
+<dl class="section return"><dt>Returns</dt><dd>True if the date is valid. </dd></dl>
+
+</div>
+</div>
+<a id="a7d6057e03e8a6f83503bc3a5cb892c59"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7d6057e03e8a6f83503bc3a5cb892c59">&#9670;&nbsp;</a></span>year()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">int ts::AbstractCASDate::year </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">inherited</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Get the year number. </p>
+<dl class="section return"><dt>Returns</dt><dd>The year number. </dd></dl>
+
+</div>
+</div>
+<a id="a3be7df10ea932ced1b36339c51d553e4"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3be7df10ea932ced1b36339c51d553e4">&#9670;&nbsp;</a></span>month()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">int ts::AbstractCASDate::month </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">inherited</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Get the month number. </p>
+<dl class="section return"><dt>Returns</dt><dd>The month number. </dd></dl>
+
+</div>
+</div>
+<a id="aae6bfbd3a5cc9075d602ca4e9a0b9e30"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aae6bfbd3a5cc9075d602ca4e9a0b9e30">&#9670;&nbsp;</a></span>day()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">int ts::AbstractCASDate::day </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">inherited</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Get the day number. </p>
+<dl class="section return"><dt>Returns</dt><dd>The day number. </dd></dl>
+
+</div>
+</div>
+<a id="a896214014473e1182da6187dae5218f7"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a896214014473e1182da6187dae5218f7">&#9670;&nbsp;</a></span>value()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">uint16_t ts::AbstractCASDate::value </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">inherited</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Convert to a 16-bit value, for binary insertion. </p>
+<dl class="section return"><dt>Returns</dt><dd>The 16-bit value, for binary insertion. </dd></dl>
+
+</div>
+</div>
+<a id="a0fd23eaf207508d1fa7daacfb79a3656"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0fd23eaf207508d1fa7daacfb79a3656">&#9670;&nbsp;</a></span>operator ts::Time()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">ts::AbstractCASDate::operator <a class="el" href="classts_1_1_time.html">ts::Time</a> </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inherited</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Convert to a <a class="el" href="classts_1_1_time.html" title="The Time class implements a basic representation of time. ">Time</a> object. </p>
+<dl class="section return"><dt>Returns</dt><dd>The <a class="el" href="classts_1_1_time.html" title="The Time class implements a basic representation of time. ">Time</a> object. </dd></dl>
+
+</div>
+</div>
+<a id="ac8772eeae0b561473b56a8efa29d9dcf"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac8772eeae0b561473b56a8efa29d9dcf">&#9670;&nbsp;</a></span>operator ts::UString()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">ts::AbstractCASDate::operator <a class="el" href="classts_1_1_u_string.html">ts::UString</a> </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inherited</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Convert to a string object. </p>
+<dl class="section return"><dt>Returns</dt><dd>The string object. </dd></dl>
+
+</div>
+</div>
+<a id="ad2358ce8f3c1c7c6f87ac8c83d156779"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad2358ce8f3c1c7c6f87ac8c83d156779">&#9670;&nbsp;</a></span>operator==()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool ts::AbstractCASDate::operator== </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="classts_1_1_abstract_c_a_s_date.html">AbstractCASDate</a> &amp;&#160;</td>
+          <td class="paramname"><em>t</em></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">inherited</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Comparison operator. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">t</td><td>A data to assign. </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>True if this object == <em>t</em>. </dd></dl>
+
+</div>
+</div>
+<a id="a8c99cd840877a53c6ecab846c6c2544a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8c99cd840877a53c6ecab846c6c2544a">&#9670;&nbsp;</a></span>operator!=()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool ts::AbstractCASDate::operator!= </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="classts_1_1_abstract_c_a_s_date.html">AbstractCASDate</a> &amp;&#160;</td>
+          <td class="paramname"><em>t</em></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">inherited</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Comparison operator. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">t</td><td>A data to assign. </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>True if this object != <em>t</em>. </dd></dl>
+
+</div>
+</div>
+<a id="a9f1425d597dd9578f9d723eb24b5ca52"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9f1425d597dd9578f9d723eb24b5ca52">&#9670;&nbsp;</a></span>operator&lt;()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool ts::AbstractCASDate::operator&lt; </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="classts_1_1_abstract_c_a_s_date.html">AbstractCASDate</a> &amp;&#160;</td>
+          <td class="paramname"><em>t</em></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">inherited</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Comparison operator. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">t</td><td>A data to assign. </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>True if this object &lt; <em>t</em>. </dd></dl>
+
+</div>
+</div>
+<a id="af156d6154f4660b603d4962b301becf5"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af156d6154f4660b603d4962b301becf5">&#9670;&nbsp;</a></span>operator&lt;=()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool ts::AbstractCASDate::operator&lt;= </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="classts_1_1_abstract_c_a_s_date.html">AbstractCASDate</a> &amp;&#160;</td>
+          <td class="paramname"><em>t</em></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">inherited</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Comparison operator. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">t</td><td>A data to assign. </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>True if this object &lt;= <em>t</em>. </dd></dl>
+
+</div>
+</div>
+<a id="a0ab4b70a71a3057e141bbeda9919a921"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0ab4b70a71a3057e141bbeda9919a921">&#9670;&nbsp;</a></span>operator&gt;()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool ts::AbstractCASDate::operator&gt; </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="classts_1_1_abstract_c_a_s_date.html">AbstractCASDate</a> &amp;&#160;</td>
+          <td class="paramname"><em>t</em></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">inherited</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Comparison operator. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">t</td><td>A data to assign. </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>True if this object &gt; <em>t</em>. </dd></dl>
+
+</div>
+</div>
+<a id="a158c0acfc74f6d3ec151bc60b1f5b940"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a158c0acfc74f6d3ec151bc60b1f5b940">&#9670;&nbsp;</a></span>operator&gt;=()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool ts::AbstractCASDate::operator&gt;= </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="classts_1_1_abstract_c_a_s_date.html">AbstractCASDate</a> &amp;&#160;</td>
+          <td class="paramname"><em>t</em></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">inherited</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Comparison operator. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">t</td><td>A data to assign. </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>True if this object &gt;= <em>t</em>. </dd></dl>
 
 </div>
 </div>

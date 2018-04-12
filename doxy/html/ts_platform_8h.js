@@ -49,6 +49,7 @@ var ts_platform_8h =
     [ "TS_FLAGS_OPERATORS", "ts_platform_8h.html#a40de35ab6e64452307c798de400869fa", null ],
     [ "TS_VERSION_STRING", "ts_platform_8h.html#aae6ce6b6f5a755b83b3bb4f64914a214", null ],
     [ "TS_VERSION_USTRING", "ts_platform_8h.html#aee1e246870302b8afadf08c3d12254ff", null ],
+    [ "TS_VERSION_INTEGER", "ts_platform_8h.html#a6ffe319ac58b147665dcc0585f3efb40", null ],
     [ "TSDUCK_SOURCE", "ts_platform_8h.html#a018c8aa689b1d1828c9e6d307084e9b8", null ],
     [ "ErrorCode", "ts_platform_8h.html#a1c5cb8c11b9201fea00bbc07569b1bc4", null ],
     [ "SubSecond", "ts_platform_8h.html#ab310e3cadb18cb3e6e7d1e7bb403d4d8", null ],

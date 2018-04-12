@@ -12,6 +12,8 @@ var classts_1_1_a_e_s =
     [ "setKey", "classts_1_1_a_e_s.html#a64ba88c59bb7af97f8f0aa5f15b5778b", null ],
     [ "encrypt", "classts_1_1_a_e_s.html#ab7dcd50ab466d6f688966b79253a3daf", null ],
     [ "decrypt", "classts_1_1_a_e_s.html#a697f18eebc49046e2054acdf703ddcba", null ],
+    [ "encryptInPlace", "classts_1_1_a_e_s.html#a76e7ab6b0558bed387fb3e7ff01db7a8", null ],
+    [ "decryptInPlace", "classts_1_1_a_e_s.html#a3e560b1b26c8c906cc4b507c7a3318bf", null ],
     [ "BLOCK_SIZE", "classts_1_1_a_e_s.html#a2d0050041737d61816fdcb25272f326e", null ],
     [ "MIN_KEY_SIZE", "classts_1_1_a_e_s.html#a96cd97f01a32d1fb3152afdacaceec27", null ],
     [ "MAX_KEY_SIZE", "classts_1_1_a_e_s.html#a94e0e6b63b3dba3ca0fe0c0c53b5edd9", null ],

@@ -37,7 +37,7 @@
  <tr style="height: 56px;">
   <td id="projectlogo"><img src="tsduck-32.png"/></td>
    <td id="projectalign"><span id="projectname">TSDuck</span>
-    <span id="projectnumber">Version 3.10-643</span>
+    <span id="projectnumber">Version 3.10-675</span>
     <span id="projectbrief">(TSDuck - The MPEG Transport Stream Toolkit)</span>
    </td>
    <td>        <div id="MSearchBox" class="MSearchBoxInactive">
@@ -120,10 +120,10 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a59f287a061c3f2736d3d299175617454"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classts_1_1_a_v_c_parser.html#a59f287a061c3f2736d3d299175617454">endOfStream</a> () const</td></tr>
 <tr class="memdesc:a59f287a061c3f2736d3d299175617454"><td class="mdescLeft">&#160;</td><td class="mdescRight">Check end of stream.  <a href="#a59f287a061c3f2736d3d299175617454">More...</a><br /></td></tr>
 <tr class="separator:a59f287a061c3f2736d3d299175617454"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ad6c9a334e4c5eb0147ad240f318adf32"><td class="memTemplParams" colspan="2">template&lt;typename INT , typename std::enable_if&lt; std::is_integral&lt; INT &gt;::value &gt;::type *  = nullptr&gt; </td></tr>
-<tr class="memitem:ad6c9a334e4c5eb0147ad240f318adf32"><td class="memTemplItemLeft" align="right" valign="top">bool&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="classts_1_1_a_v_c_parser.html#ad6c9a334e4c5eb0147ad240f318adf32">i</a> (<a class="el" href="classts_1_1_i_n_t.html">INT</a> &amp;val, size_t n)</td></tr>
-<tr class="memdesc:ad6c9a334e4c5eb0147ad240f318adf32"><td class="mdescLeft">&#160;</td><td class="mdescRight">Read the next signed integer using <em>n</em> bits and advance the bitstream pointer.  <a href="#ad6c9a334e4c5eb0147ad240f318adf32">More...</a><br /></td></tr>
-<tr class="separator:ad6c9a334e4c5eb0147ad240f318adf32"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af8bd48d80a9aa7358d3fa6f8a5c8e800"><td class="memTemplParams" colspan="2">template&lt;typename INT , typename std::enable_if&lt; std::is_integral&lt; INT &gt;::value &gt;::type *  = nullptr, typename std::enable_if&lt; std::is_signed&lt; INT &gt;::value &gt;::type *  = nullptr&gt; </td></tr>
+<tr class="memitem:af8bd48d80a9aa7358d3fa6f8a5c8e800"><td class="memTemplItemLeft" align="right" valign="top">bool&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="classts_1_1_a_v_c_parser.html#af8bd48d80a9aa7358d3fa6f8a5c8e800">i</a> (<a class="el" href="classts_1_1_i_n_t.html">INT</a> &amp;val, size_t n)</td></tr>
+<tr class="memdesc:af8bd48d80a9aa7358d3fa6f8a5c8e800"><td class="mdescLeft">&#160;</td><td class="mdescRight">Read the next signed integer using <em>n</em> bits and advance the bitstream pointer.  <a href="#af8bd48d80a9aa7358d3fa6f8a5c8e800">More...</a><br /></td></tr>
+<tr class="separator:af8bd48d80a9aa7358d3fa6f8a5c8e800"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a8c15f6208f71355d07025f8896dedeb1"><td class="memTemplParams" colspan="2">template&lt;typename INT , typename std::enable_if&lt; std::is_integral&lt; INT &gt;::value &gt;::type *  = nullptr&gt; </td></tr>
 <tr class="memitem:a8c15f6208f71355d07025f8896dedeb1"><td class="memTemplItemLeft" align="right" valign="top">bool&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="classts_1_1_a_v_c_parser.html#a8c15f6208f71355d07025f8896dedeb1">nextBits</a> (<a class="el" href="classts_1_1_i_n_t.html">INT</a> &amp;val, size_t n)</td></tr>
 <tr class="memdesc:a8c15f6208f71355d07025f8896dedeb1"><td class="mdescLeft">&#160;</td><td class="mdescRight">Provide the next <em>n</em> bits without advancing the bitstream pointer.  <a href="#a8c15f6208f71355d07025f8896dedeb1">More...</a><br /></td></tr>
@@ -147,32 +147,29 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a37bf21b6374d165b080446c81612548c"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classts_1_1_a_v_c_parser.html#a37bf21b6374d165b080446c81612548c">reset</a> (size_t byte_offset=0, size_t bit_offset=0)</td></tr>
 <tr class="memdesc:a37bf21b6374d165b080446c81612548c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Reset parsing at the specified point.  <a href="#a37bf21b6374d165b080446c81612548c">More...</a><br /></td></tr>
 <tr class="separator:a37bf21b6374d165b080446c81612548c"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:abd5ee26af874ef1d169d0a3135b78aa4"><td class="memTemplParams" colspan="2">template&lt;typename INT , typename std::enable_if&lt; std::is_integral&lt; INT &gt;::value &gt;::type *  = nullptr&gt; </td></tr>
-<tr class="memitem:abd5ee26af874ef1d169d0a3135b78aa4"><td class="memTemplItemLeft" align="right" valign="top">bool&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="classts_1_1_a_v_c_parser.html#abd5ee26af874ef1d169d0a3135b78aa4">se</a> (<a class="el" href="classts_1_1_i_n_t.html">INT</a> &amp;val)</td></tr>
-<tr class="memdesc:abd5ee26af874ef1d169d0a3135b78aa4"><td class="mdescLeft">&#160;</td><td class="mdescRight">Read the next Exp-Golomb-coded signed integer and advance the bitstream pointer.  <a href="#abd5ee26af874ef1d169d0a3135b78aa4">More...</a><br /></td></tr>
-<tr class="separator:abd5ee26af874ef1d169d0a3135b78aa4"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a996e6950477b4adbf267d29bba576a81"><td class="memTemplParams" colspan="2">template&lt;typename INT , typename std::enable_if&lt; std::is_integral&lt; INT &gt;::value &gt;::type *  = nullptr&gt; </td></tr>
-<tr class="memitem:a996e6950477b4adbf267d29bba576a81"><td class="memTemplItemLeft" align="right" valign="top">bool&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="classts_1_1_a_v_c_parser.html#a996e6950477b4adbf267d29bba576a81">u</a> (<a class="el" href="classts_1_1_i_n_t.html">INT</a> &amp;val, size_t n)</td></tr>
-<tr class="memdesc:a996e6950477b4adbf267d29bba576a81"><td class="mdescLeft">&#160;</td><td class="mdescRight">Read the next unsigned integer using <em>n</em> bits and advance the bitstream pointer.  <a href="#a996e6950477b4adbf267d29bba576a81">More...</a><br /></td></tr>
-<tr class="separator:a996e6950477b4adbf267d29bba576a81"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a55d8ed79d2cd676954bfc90caed3d637"><td class="memTemplParams" colspan="2">template&lt;typename INT , typename std::enable_if&lt; std::is_integral&lt; INT &gt;::value &gt;::type *  = nullptr&gt; </td></tr>
-<tr class="memitem:a55d8ed79d2cd676954bfc90caed3d637"><td class="memTemplItemLeft" align="right" valign="top">bool&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="classts_1_1_a_v_c_parser.html#a55d8ed79d2cd676954bfc90caed3d637">ue</a> (<a class="el" href="classts_1_1_i_n_t.html">INT</a> &amp;val)</td></tr>
-<tr class="memdesc:a55d8ed79d2cd676954bfc90caed3d637"><td class="mdescLeft">&#160;</td><td class="mdescRight">Read the next Exp-Golomb-coded unsigned integer and advance the bitstream pointer.  <a href="#a55d8ed79d2cd676954bfc90caed3d637">More...</a><br /></td></tr>
-<tr class="separator:a55d8ed79d2cd676954bfc90caed3d637"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa44ef4eabf5193efd375e89a106e403c"><td class="memTemplParams" colspan="2">template&lt;typename INT , typename std::enable_if&lt; std::is_integral&lt; INT &gt;::value &gt;::type *  = nullptr, typename std::enable_if&lt; std::is_signed&lt; INT &gt;::value &gt;::type *  = nullptr&gt; </td></tr>
+<tr class="memitem:aa44ef4eabf5193efd375e89a106e403c"><td class="memTemplItemLeft" align="right" valign="top">bool&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="classts_1_1_a_v_c_parser.html#aa44ef4eabf5193efd375e89a106e403c">se</a> (<a class="el" href="classts_1_1_i_n_t.html">INT</a> &amp;val)</td></tr>
+<tr class="memdesc:aa44ef4eabf5193efd375e89a106e403c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Read the next Exp-Golomb-coded signed integer and advance the bitstream pointer.  <a href="#aa44ef4eabf5193efd375e89a106e403c">More...</a><br /></td></tr>
+<tr class="separator:aa44ef4eabf5193efd375e89a106e403c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a085f111b4710bf65257912d51227cb90"><td class="memTemplParams" colspan="2">template&lt;typename INT , typename std::enable_if&lt; std::is_integral&lt; INT &gt;::value &gt;::type *  = nullptr, typename std::enable_if&lt; std::is_unsigned&lt; INT &gt;::value &gt;::type *  = nullptr&gt; </td></tr>
+<tr class="memitem:a085f111b4710bf65257912d51227cb90"><td class="memTemplItemLeft" align="right" valign="top">bool&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="classts_1_1_a_v_c_parser.html#a085f111b4710bf65257912d51227cb90">u</a> (<a class="el" href="classts_1_1_i_n_t.html">INT</a> &amp;val, size_t n)</td></tr>
+<tr class="memdesc:a085f111b4710bf65257912d51227cb90"><td class="mdescLeft">&#160;</td><td class="mdescRight">Read the next unsigned integer using <em>n</em> bits and advance the bitstream pointer.  <a href="#a085f111b4710bf65257912d51227cb90">More...</a><br /></td></tr>
+<tr class="separator:a085f111b4710bf65257912d51227cb90"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:acaa50a966cc2bdd3866b6f4541012f18"><td class="memTemplParams" colspan="2">template&lt;typename INT , typename std::enable_if&lt; std::is_integral&lt; INT &gt;::value &gt;::type *  = nullptr, typename std::enable_if&lt; std::is_unsigned&lt; INT &gt;::value &gt;::type *  = nullptr&gt; </td></tr>
+<tr class="memitem:acaa50a966cc2bdd3866b6f4541012f18"><td class="memTemplItemLeft" align="right" valign="top">bool&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="classts_1_1_a_v_c_parser.html#acaa50a966cc2bdd3866b6f4541012f18">ue</a> (<a class="el" href="classts_1_1_i_n_t.html">INT</a> &amp;val)</td></tr>
+<tr class="memdesc:acaa50a966cc2bdd3866b6f4541012f18"><td class="mdescLeft">&#160;</td><td class="mdescRight">Read the next Exp-Golomb-coded unsigned integer and advance the bitstream pointer.  <a href="#acaa50a966cc2bdd3866b6f4541012f18">More...</a><br /></td></tr>
+<tr class="separator:acaa50a966cc2bdd3866b6f4541012f18"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>Parser for Advanced Video Coding data. </p>
 <p>Advanced Video Coding is AVC, ISO/IEC 14496-10, ITU H.264.</p>
-<p>The naming of methods such as <a class="el" href="classts_1_1_a_v_c_parser.html#a2d1ac153c4b5bc77327ae51fea3d762b" title="Read the next n bits and advance the bitstream pointer. ">readBits()</a>, <a class="el" href="classts_1_1_a_v_c_parser.html#ad6c9a334e4c5eb0147ad240f318adf32" title="Read the next signed integer using n bits and advance the bitstream pointer. ">i()</a>, <a class="el" href="classts_1_1_a_v_c_parser.html#a996e6950477b4adbf267d29bba576a81" title="Read the next unsigned integer using n bits and advance the bitstream pointer. ">u()</a>, etc. is directly transposed from ISO/IEC 14496-10. </p>
+<p>The naming of methods such as <a class="el" href="classts_1_1_a_v_c_parser.html#a2d1ac153c4b5bc77327ae51fea3d762b" title="Read the next n bits and advance the bitstream pointer. ">readBits()</a>, <a class="el" href="classts_1_1_a_v_c_parser.html#af8bd48d80a9aa7358d3fa6f8a5c8e800" title="Read the next signed integer using n bits and advance the bitstream pointer. ">i()</a>, <a class="el" href="classts_1_1_a_v_c_parser.html#a085f111b4710bf65257912d51227cb90" title="Read the next unsigned integer using n bits and advance the bitstream pointer. ">u()</a>, etc. is directly transposed from ISO/IEC 14496-10. </p>
 </div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a id="a5bf381ee7d15f0668754b5c839fb214b"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a5bf381ee7d15f0668754b5c839fb214b">&#9670;&nbsp;</a></span>AVCParser()</h2>
 
 <div class="memitem">
 <div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
       <table class="memname">
         <tr>
           <td class="memname">ts::AVCParser::AVCParser </td>
@@ -192,11 +189,6 @@ Public Member Functions</h2></td></tr>
           <td></td><td></td>
         </tr>
       </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
-  </tr>
-</table>
 </div><div class="memdoc">
 
 <p>Constructor. </p>
@@ -216,9 +208,6 @@ Public Member Functions</h2></td></tr>
 
 <div class="memitem">
 <div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
       <table class="memname">
         <tr>
           <td class="memname">void ts::AVCParser::reset </td>
@@ -238,11 +227,6 @@ Public Member Functions</h2></td></tr>
           <td></td><td></td>
         </tr>
       </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
-  </tr>
-</table>
 </div><div class="memdoc">
 
 <p>Reset with a new memory area. </p>
@@ -261,9 +245,6 @@ Public Member Functions</h2></td></tr>
 
 <div class="memitem">
 <div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
       <table class="memname">
         <tr>
           <td class="memname">void ts::AVCParser::reset </td>
@@ -283,11 +264,6 @@ Public Member Functions</h2></td></tr>
           <td></td><td></td>
         </tr>
       </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
-  </tr>
-</table>
 </div><div class="memdoc">
 
 <p>Reset parsing at the specified point. </p>
@@ -306,9 +282,6 @@ Public Member Functions</h2></td></tr>
 
 <div class="memitem">
 <div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
       <table class="memname">
         <tr>
           <td class="memname">size_t ts::AVCParser::remainingBytes </td>
@@ -317,11 +290,6 @@ Public Member Functions</h2></td></tr>
           <td> const</td>
         </tr>
       </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
-  </tr>
-</table>
 </div><div class="memdoc">
 
 <p>Get number of remaining bytes (rounded down). </p>
@@ -334,9 +302,6 @@ Public Member Functions</h2></td></tr>
 
 <div class="memitem">
 <div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
       <table class="memname">
         <tr>
           <td class="memname">size_t ts::AVCParser::remainingBits </td>
@@ -345,11 +310,6 @@ Public Member Functions</h2></td></tr>
           <td> const</td>
         </tr>
       </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
-  </tr>
-</table>
 </div><div class="memdoc">
 
 <p>Get number of remaining bits. </p>
@@ -525,13 +485,13 @@ template&lt;typename INT , typename std::enable_if&lt; std::is_integral&lt; INT 
 
 </div>
 </div>
-<a id="a996e6950477b4adbf267d29bba576a81"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a996e6950477b4adbf267d29bba576a81">&#9670;&nbsp;</a></span>u()</h2>
+<a id="a085f111b4710bf65257912d51227cb90"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a085f111b4710bf65257912d51227cb90">&#9670;&nbsp;</a></span>u()</h2>
 
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
-template&lt;typename INT , typename std::enable_if&lt; std::is_integral&lt; INT &gt;::value &gt;::type *  = nullptr&gt; </div>
+template&lt;typename INT , typename std::enable_if&lt; std::is_integral&lt; INT &gt;::value &gt;::type *  = nullptr, typename std::enable_if&lt; std::is_unsigned&lt; INT &gt;::value &gt;::type *  = nullptr&gt; </div>
 <table class="mlabels">
   <tr>
   <td class="mlabels-left">
@@ -579,13 +539,13 @@ template&lt;typename INT , typename std::enable_if&lt; std::is_integral&lt; INT 
 
 </div>
 </div>
-<a id="ad6c9a334e4c5eb0147ad240f318adf32"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ad6c9a334e4c5eb0147ad240f318adf32">&#9670;&nbsp;</a></span>i()</h2>
+<a id="af8bd48d80a9aa7358d3fa6f8a5c8e800"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af8bd48d80a9aa7358d3fa6f8a5c8e800">&#9670;&nbsp;</a></span>i()</h2>
 
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
-template&lt;typename INT , typename std::enable_if&lt; std::is_integral&lt; INT &gt;::value &gt;::type *  = nullptr&gt; </div>
+template&lt;typename INT , typename std::enable_if&lt; std::is_integral&lt; INT &gt;::value &gt;::type *  = nullptr, typename std::enable_if&lt; std::is_signed&lt; INT &gt;::value &gt;::type *  = nullptr&gt; </div>
 <table class="mlabels">
   <tr>
   <td class="mlabels-left">
@@ -633,13 +593,13 @@ template&lt;typename INT , typename std::enable_if&lt; std::is_integral&lt; INT 
 
 </div>
 </div>
-<a id="a55d8ed79d2cd676954bfc90caed3d637"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a55d8ed79d2cd676954bfc90caed3d637">&#9670;&nbsp;</a></span>ue()</h2>
+<a id="acaa50a966cc2bdd3866b6f4541012f18"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#acaa50a966cc2bdd3866b6f4541012f18">&#9670;&nbsp;</a></span>ue()</h2>
 
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
-template&lt;typename INT , typename std::enable_if&lt; std::is_integral&lt; INT &gt;::value &gt;::type *  = nullptr&gt; </div>
+template&lt;typename INT , typename std::enable_if&lt; std::is_integral&lt; INT &gt;::value &gt;::type *  = nullptr, typename std::enable_if&lt; std::is_unsigned&lt; INT &gt;::value &gt;::type *  = nullptr&gt; </div>
 <table class="mlabels">
   <tr>
   <td class="mlabels-left">
@@ -676,13 +636,13 @@ template&lt;typename INT , typename std::enable_if&lt; std::is_integral&lt; INT 
 
 </div>
 </div>
-<a id="abd5ee26af874ef1d169d0a3135b78aa4"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#abd5ee26af874ef1d169d0a3135b78aa4">&#9670;&nbsp;</a></span>se()</h2>
+<a id="aa44ef4eabf5193efd375e89a106e403c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa44ef4eabf5193efd375e89a106e403c">&#9670;&nbsp;</a></span>se()</h2>
 
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
-template&lt;typename INT , typename std::enable_if&lt; std::is_integral&lt; INT &gt;::value &gt;::type *  = nullptr&gt; </div>
+template&lt;typename INT , typename std::enable_if&lt; std::is_integral&lt; INT &gt;::value &gt;::type *  = nullptr, typename std::enable_if&lt; std::is_signed&lt; INT &gt;::value &gt;::type *  = nullptr&gt; </div>
       <table class="memname">
         <tr>
           <td class="memname">bool ts::AVCParser::se </td>

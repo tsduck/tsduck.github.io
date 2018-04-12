@@ -37,7 +37,7 @@
  <tr style="height: 56px;">
   <td id="projectlogo"><img src="tsduck-32.png"/></td>
    <td id="projectalign"><span id="projectname">TSDuck</span>
-    <span id="projectnumber">Version 3.10-643</span>
+    <span id="projectnumber">Version 3.10-675</span>
     <span id="projectbrief">(TSDuck - The MPEG Transport Stream Toolkit)</span>
    </td>
    <td>        <div id="MSearchBox" class="MSearchBoxInactive">
@@ -100,6 +100,7 @@ $(document).ready(function(){initNavTree('classts_1_1_section.html','');});
 <div class="header">
   <div class="summary">
 <a href="#pub-methods">Public Member Functions</a> &#124;
+<a href="#pub-static-methods">Static Public Member Functions</a> &#124;
 <a href="classts_1_1_section-members.html">List of all members</a>  </div>
   <div class="headertitle">
 <div class="title">ts::Section Class Reference</div>  </div>
@@ -265,6 +266,15 @@ void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="clas
 <tr class="memitem:ad7822ac949dac08376acb6fddb6a22cf"><td class="memItemLeft" align="right" valign="top">std::ostream &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classts_1_1_section.html#ad7822ac949dac08376acb6fddb6a22cf">write</a> (std::ostream &amp;strm, <a class="el" href="classts_1_1_report.html">Report</a> &amp;report=(*<a class="el" href="classts_1_1_cerr_report.html#ad5fc721c37e1eceab55d90f8c76ff6b6">ts::CerrReport::Instance</a>())) const</td></tr>
 <tr class="memdesc:ad7822ac949dac08376acb6fddb6a22cf"><td class="mdescLeft">&#160;</td><td class="mdescRight">Write a section to standard streams (binary mode).  <a href="#ad7822ac949dac08376acb6fddb6a22cf">More...</a><br /></td></tr>
 <tr class="separator:ad7822ac949dac08376acb6fddb6a22cf"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-static-methods"></a>
+Static Public Member Functions</h2></td></tr>
+<tr class="memitem:a767af95586a4291dac7ae6119e9affe9"><td class="memItemLeft" align="right" valign="top">static size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classts_1_1_section.html#a767af95586a4291dac7ae6119e9affe9">SectionSize</a> (const void *<a class="el" href="classts_1_1_section.html#af8ba2b23aa009e62022fad2a6bc0f4bf">content</a>, size_t content_size)</td></tr>
+<tr class="memdesc:a767af95586a4291dac7ae6119e9affe9"><td class="mdescLeft">&#160;</td><td class="mdescRight">Static method to compute a section size.  <a href="#a767af95586a4291dac7ae6119e9affe9">More...</a><br /></td></tr>
+<tr class="separator:a767af95586a4291dac7ae6119e9affe9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:abd4bbb28475f3b806949d1b9dee4c795"><td class="memItemLeft" align="right" valign="top">static size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classts_1_1_section.html#abd4bbb28475f3b806949d1b9dee4c795">SectionSize</a> (const <a class="el" href="classts_1_1_byte_block.html">ByteBlock</a> &amp;<a class="el" href="classts_1_1_section.html#af8ba2b23aa009e62022fad2a6bc0f4bf">content</a>)</td></tr>
+<tr class="memdesc:abd4bbb28475f3b806949d1b9dee4c795"><td class="mdescLeft">&#160;</td><td class="mdescRight">Static method to compute a section size.  <a href="#abd4bbb28475f3b806949d1b9dee4c795">More...</a><br /></td></tr>
+<tr class="separator:abd4bbb28475f3b806949d1b9dee4c795"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>Representation of MPEG PSI/SI sections. </p>
@@ -2110,6 +2120,87 @@ void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="clas
   </dd>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>A reference to the <em>strm</em> object. </dd></dl>
+
+</div>
+</div>
+<a id="a767af95586a4291dac7ae6119e9affe9"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a767af95586a4291dac7ae6119e9affe9">&#9670;&nbsp;</a></span>SectionSize() <span class="overload">[1/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static size_t ts::Section::SectionSize </td>
+          <td>(</td>
+          <td class="paramtype">const void *&#160;</td>
+          <td class="paramname"><em>content</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">size_t&#160;</td>
+          <td class="paramname"><em>content_size</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Static method to compute a section size. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">content</td><td>Address of the binary section data. </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">content_size</td><td>Size in bytes of the buffer containing the section and possibly trailing additional data. </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>The total size in bytes of the section starting at <em>content</em> or zero on error. </dd></dl>
+
+</div>
+</div>
+<a id="abd4bbb28475f3b806949d1b9dee4c795"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#abd4bbb28475f3b806949d1b9dee4c795">&#9670;&nbsp;</a></span>SectionSize() <span class="overload">[2/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static size_t ts::Section::SectionSize </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="classts_1_1_byte_block.html">ByteBlock</a> &amp;&#160;</td>
+          <td class="paramname"><em>content</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Static method to compute a section size. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">content</td><td>Buffer containing the section and possibly trailing additional data. </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>The total size in bytes of the section starting in <em>content</em> or zero on error. </dd></dl>
 
 </div>
 </div>

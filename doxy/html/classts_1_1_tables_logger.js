@@ -7,6 +7,7 @@ var classts_1_1_tables_logger =
     [ "hasErrors", "classts_1_1_tables_logger.html#a00a2dd90e8878af0912bd7281b0f4397", null ],
     [ "completed", "classts_1_1_tables_logger.html#a9bedc058c9ac057d5fc64226761eafd7", null ],
     [ "reportDemuxErrors", "classts_1_1_tables_logger.html#a2a2e409a788934b49d814e79c6c7e020", null ],
+    [ "AnalyzeUDPMessage", "classts_1_1_tables_logger.html#a5ec480d82679f73888c3aa9b814e930e", null ],
     [ "handleTable", "classts_1_1_tables_logger.html#aaaf14ab4fd70c49a9d730df448ad9517", null ],
     [ "handleSection", "classts_1_1_tables_logger.html#a4c01b802d30878e84779b1fece768e8a", null ],
     [ "logSection", "classts_1_1_tables_logger.html#a941778cc013196cf8a7befe3631b394c", null ],

@@ -37,7 +37,7 @@
  <tr style="height: 56px;">
   <td id="projectlogo"><img src="tsduck-32.png"/></td>
    <td id="projectalign"><span id="projectname">TSDuck</span>
-    <span id="projectnumber">Version 3.10-643</span>
+    <span id="projectnumber">Version 3.10-675</span>
     <span id="projectbrief">(TSDuck - The MPEG Transport Stream Toolkit)</span>
    </td>
    <td>        <div id="MSearchBox" class="MSearchBoxInactive">
@@ -102,10 +102,13 @@ $(document).ready(function(){initNavTree('functions_func_i.html','');});
 
 <h3><a id="index_i"></a>- i -</h3><ul>
 <li>i()
-: <a class="el" href="classts_1_1_a_v_c_parser.html#ad6c9a334e4c5eb0147ad240f318adf32">ts::AVCParser</a>
+: <a class="el" href="classts_1_1_a_v_c_parser.html#af8bd48d80a9aa7358d3fa6f8a5c8e800">ts::AVCParser</a>
 </li>
 <li>identifyNextNode()
 : <a class="el" href="classts_1_1xml_1_1_node.html#aace27a54dae8daea4bb0538f5b2f18b4">ts::xml::Node</a>
+</li>
+<li>IDSA()
+: <a class="el" href="classts_1_1_i_d_s_a.html#a2585e26ee1ced1cfe0ecee32ef62d8a8">ts::IDSA</a>
 </li>
 <li>immediateReset()
 : <a class="el" href="classts_1_1_abstract_demux.html#a4815a040d8c2c6e14e826224ba7ba424">ts::AbstractDemux</a>
@@ -145,7 +148,6 @@ $(document).ready(function(){initNavTree('functions_func_i.html','');});
 <li>init()
 : <a class="el" href="classts_1_1_hash.html#adc03e601af262ec359f0fab186c7d89f">ts::Hash</a>
 , <a class="el" href="classts_1_1_m_d5.html#ab295c07569d4ec73eec91ce5d46acb3b">ts::MD5</a>
-, <a class="el" href="classts_1_1_scrambling.html#ae40fccb119593bdf9628c47629651353">ts::Scrambling</a>
 , <a class="el" href="classts_1_1_s_h_a1.html#a01c436007e4e71042dfe68d6bdb2dda4">ts::SHA1</a>
 , <a class="el" href="classts_1_1_s_h_a256.html#aadd2077eb8fbaad7e8462b1305058b21">ts::SHA256</a>
 , <a class="el" href="classts_1_1_s_h_a512.html#ac758d3580ace51a2603fd28cab989101">ts::SHA512</a>
@@ -155,9 +157,6 @@ $(document).ready(function(){initNavTree('functions_func_i.html','');});
 </li>
 <li>initBuffer()
 : <a class="el" href="classts_1_1tsp_1_1_plugin_executor.html#a28f0eebd467fb14d29e374c6d566d7a3">ts::tsp::PluginExecutor</a>
-</li>
-<li>initialiazed()
-: <a class="el" href="classts_1_1_scrambling.html#a7e3d68069115121f104ce98ebe74eb44">ts::Scrambling</a>
 </li>
 <li>initialize()
 : <a class="el" href="classts_1_1_direct_show_graph.html#ad13f4177cab73782c0f69da5710da36d">ts::DirectShowGraph</a>
@@ -178,6 +177,7 @@ $(document).ready(function(){initNavTree('functions_func_i.html','');});
 <li>Instance()
 : <a class="el" href="classts_1_1_better_system_random_generator.html#a9073541b23fe6ffccc9799ca03ec9955">ts::BetterSystemRandomGenerator</a>
 , <a class="el" href="classts_1_1_cerr_report.html#ad5fc721c37e1eceab55d90f8c76ff6b6">ts::CerrReport</a>
+, <a class="el" href="classts_1_1duck_1_1_protocol.html#ac0be905ae352199c23083f84906d3fa3">ts::duck::Protocol</a>
 , <a class="el" href="classts_1_1ecmgscs_1_1_protocol.html#a69f176f46f3789fc203aea403c1857d6">ts::ecmgscs::Protocol</a>
 , <a class="el" href="classts_1_1emmgmux_1_1_protocol.html#a80fbc702fc50d2ccd9d69361b7cd48a1">ts::emmgmux::Protocol</a>
 , <a class="el" href="classts_1_1_names_d_v_b.html#ad8f8353f2d87971d8168db6e50e66e43">ts::NamesDVB</a>
@@ -390,7 +390,7 @@ $(document).ready(function(){initNavTree('functions_func_i.html','');});
 , <a class="el" href="classts_1_1json_1_1_value.html#ae79d7e8f39a9e25badb9dec2779a6563">ts::json::Value</a>
 </li>
 <li>ISO639LanguageDescriptor()
-: <a class="el" href="classts_1_1_i_s_o639_language_descriptor.html#aa255ca7045758f6f91c74a0e6a739c8b">ts::ISO639LanguageDescriptor</a>
+: <a class="el" href="classts_1_1_i_s_o639_language_descriptor.html#a9f3649a08ccbda4423f987fab96c71af">ts::ISO639LanguageDescriptor</a>
 </li>
 <li>isObject()
 : <a class="el" href="classts_1_1json_1_1_object.html#aa48e4f17b63db32a71b9a54727c32660">ts::json::Object</a>
@@ -427,8 +427,8 @@ $(document).ready(function(){initNavTree('functions_func_i.html','');});
 <li>isRedHat()
 : <a class="el" href="classts_1_1_sys_info.html#a5e89437d853f0ffd381d8288c19ae6f3">ts::SysInfo</a>
 </li>
-<li>isReducedCW()
-: <a class="el" href="classts_1_1_scrambling.html#aca5d794e922648dbf13580fe3486fa0d">ts::Scrambling</a>
+<li>IsReducedCW()
+: <a class="el" href="classts_1_1_d_v_b_c_s_a2.html#a9358d9d9628638f30e9626ac55930790">ts::DVBCSA2</a>
 </li>
 <li>isScrambled()
 : <a class="el" href="structts_1_1_t_s_packet.html#a34a3cb1015f8616af0427b33ca19dbc3">ts::TSPacket</a>
@@ -496,6 +496,7 @@ $(document).ready(function(){initNavTree('functions_func_i.html','');});
 , <a class="el" href="classts_1_1_block_cipher.html#a9a0800da419889257151ea1fb1bb82b3">ts::BlockCipher</a>
 , <a class="el" href="classts_1_1_cipher_chaining.html#aba86de9dfc56b07e635875592892f2a2">ts::CipherChaining</a>
 , <a class="el" href="classts_1_1_d_e_s.html#afd8f7ca2480b3268d3ed2cc6e849dced">ts::DES</a>
+, <a class="el" href="classts_1_1_d_v_b_c_s_a2.html#a361c840277d22493f238513b77c7668d">ts::DVBCSA2</a>
 , <a class="el" href="classts_1_1_t_d_e_s.html#a6a3643b99cd067b3965d8822c3002dbb">ts::TDES</a>
 </li>
 <li>isVideo()

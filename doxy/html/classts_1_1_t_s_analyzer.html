@@ -37,7 +37,7 @@
  <tr style="height: 56px;">
   <td id="projectlogo"><img src="tsduck-32.png"/></td>
    <td id="projectalign"><span id="projectname">TSDuck</span>
-    <span id="projectnumber">Version 3.10-643</span>
+    <span id="projectnumber">Version 3.10-675</span>
     <span id="projectbrief">(TSDuck - The MPEG Transport Stream Toolkit)</span>
    </td>
    <td>        <div id="MSearchBox" class="MSearchBoxInactive">
@@ -104,6 +104,7 @@ $(document).ready(function(){initNavTree('classts_1_1_t_s_analyzer.html','');});
 <a href="#pro-types">Protected Types</a> &#124;
 <a href="#pro-methods">Protected Member Functions</a> &#124;
 <a href="#pro-attribs">Protected Attributes</a> &#124;
+<a href="#pri-methods">Private Member Functions</a> &#124;
 <a href="classts_1_1_t_s_analyzer-members.html">List of all members</a>  </div>
   <div class="headertitle">
 <div class="title">ts::TSAnalyzer Class Reference</div>  </div>
@@ -377,6 +378,21 @@ uint64_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="
 size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classts_1_1_t_s_analyzer.html#aadcb83c0ccc4d8c36450c8a6c930ad67">_unref_scr_pids</a></td></tr>
 <tr class="memdesc:aadcb83c0ccc4d8c36450c8a6c930ad67"><td class="mdescLeft">&#160;</td><td class="mdescRight">Number of scrambled unreferenced PID's. <br /></td></tr>
 <tr class="separator:aadcb83c0ccc4d8c36450c8a6c930ad67"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pri-methods"></a>
+Private Member Functions</h2></td></tr>
+<tr class="memitem:a8390b64d745373136bc1f5d3f14bee76"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classts_1_1_p_e_s_handler_interface.html#a8390b64d745373136bc1f5d3f14bee76">handleAVCAccessUnit</a> (<a class="el" href="classts_1_1_p_e_s_demux.html">PESDemux</a> &amp;demux, const <a class="el" href="classts_1_1_p_e_s_packet.html">PESPacket</a> &amp;packet, uint8_t nal_unit_type, size_t offset, size_t size)</td></tr>
+<tr class="memdesc:a8390b64d745373136bc1f5d3f14bee76"><td class="mdescLeft">&#160;</td><td class="mdescRight">This hook is invoked when an AVC (ISO 14496-10, ITU H.264) access unit (aka "NALunit") is found.  <a href="#a8390b64d745373136bc1f5d3f14bee76">More...</a><br /></td></tr>
+<tr class="separator:a8390b64d745373136bc1f5d3f14bee76"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac4c2fb8153615bbe5bb4fa3632bdbf93"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classts_1_1_p_e_s_handler_interface.html#ac4c2fb8153615bbe5bb4fa3632bdbf93">handlePESPacket</a> (<a class="el" href="classts_1_1_p_e_s_demux.html">PESDemux</a> &amp;demux, const <a class="el" href="classts_1_1_p_e_s_packet.html">PESPacket</a> &amp;packet)</td></tr>
+<tr class="memdesc:ac4c2fb8153615bbe5bb4fa3632bdbf93"><td class="mdescLeft">&#160;</td><td class="mdescRight">This hook is invoked when a complete PES packet is available.  <a href="#ac4c2fb8153615bbe5bb4fa3632bdbf93">More...</a><br /></td></tr>
+<tr class="separator:ac4c2fb8153615bbe5bb4fa3632bdbf93"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:afc17fffdab0b4fca35328ce364353059"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classts_1_1_p_e_s_handler_interface.html#afc17fffdab0b4fca35328ce364353059">handleSEI</a> (<a class="el" href="classts_1_1_p_e_s_demux.html">PESDemux</a> &amp;demux, const <a class="el" href="classts_1_1_p_e_s_packet.html">PESPacket</a> &amp;packet, uint32_t sei_type, size_t offset, size_t size)</td></tr>
+<tr class="memdesc:afc17fffdab0b4fca35328ce364353059"><td class="mdescLeft">&#160;</td><td class="mdescRight">This hook is invoked when an AVC SEI (Supplemental Enhancement Information) is found.  <a href="#afc17fffdab0b4fca35328ce364353059">More...</a><br /></td></tr>
+<tr class="separator:afc17fffdab0b4fca35328ce364353059"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6bafbb234898caf6b10761a3c725d1cf"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classts_1_1_p_e_s_handler_interface.html#a6bafbb234898caf6b10761a3c725d1cf">handleVideoStartCode</a> (<a class="el" href="classts_1_1_p_e_s_demux.html">PESDemux</a> &amp;demux, const <a class="el" href="classts_1_1_p_e_s_packet.html">PESPacket</a> &amp;packet, uint8_t start_code, size_t offset, size_t size)</td></tr>
+<tr class="memdesc:a6bafbb234898caf6b10761a3c725d1cf"><td class="mdescLeft">&#160;</td><td class="mdescRight">This hook is invoked when a video start code is encountered.  <a href="#a6bafbb234898caf6b10761a3c725d1cf">More...</a><br /></td></tr>
+<tr class="separator:a6bafbb234898caf6b10761a3c725d1cf"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>A class which analyzes a complete transport stream. </p>

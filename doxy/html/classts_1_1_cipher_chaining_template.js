@@ -1,5 +1,29 @@
 var classts_1_1_cipher_chaining_template =
 [
     [ "CipherChainingTemplate", "classts_1_1_cipher_chaining_template.html#ac385613eb3658b20f2b1105f0413ed9f", null ],
-    [ "~CipherChainingTemplate", "classts_1_1_cipher_chaining_template.html#acb19d59e39b37ce3ef94818a19e6f4cb", null ]
+    [ "~CipherChainingTemplate", "classts_1_1_cipher_chaining_template.html#acb19d59e39b37ce3ef94818a19e6f4cb", null ],
+    [ "blockSize", "classts_1_1_cipher_chaining_template.html#a292212d99a48214146b7bacba10d0fb9", null ],
+    [ "minKeySize", "classts_1_1_cipher_chaining_template.html#a84c2eeaf3d8a4396c8cb026a79517e49", null ],
+    [ "maxKeySize", "classts_1_1_cipher_chaining_template.html#ad2d8774b302e9915f99e53dbe2b9cd2f", null ],
+    [ "isValidKeySize", "classts_1_1_cipher_chaining_template.html#aba86de9dfc56b07e635875592892f2a2", null ],
+    [ "minRounds", "classts_1_1_cipher_chaining_template.html#a0b6440d21660ced2a68a5eece499c681", null ],
+    [ "maxRounds", "classts_1_1_cipher_chaining_template.html#a086d6fae6f3422e9e549aefdaab7d331", null ],
+    [ "defaultRounds", "classts_1_1_cipher_chaining_template.html#a1f1daf9e41ef2f75a667fddc60b374dd", null ],
+    [ "setKey", "classts_1_1_cipher_chaining_template.html#adc948d4c651ec7931971ba4838f1874e", null ],
+    [ "setIV", "classts_1_1_cipher_chaining_template.html#a018fc2acb10778eee7b5bf79361159ce", null ],
+    [ "minIVSize", "classts_1_1_cipher_chaining_template.html#a8325f3c779715cf9489b250e1f56294b", null ],
+    [ "maxIVSize", "classts_1_1_cipher_chaining_template.html#ac3bc8535776f3b6cf2874f65f5db615e", null ],
+    [ "minMessageSize", "classts_1_1_cipher_chaining_template.html#ac67f57099f61892539ddf7f900b69da6", null ],
+    [ "residueAllowed", "classts_1_1_cipher_chaining_template.html#ae94f23e887bcaff45eb4c736ca045776", null ],
+    [ "name", "classts_1_1_cipher_chaining_template.html#a92e63724e654d4da4666eb128c5902f5", null ],
+    [ "encrypt", "classts_1_1_cipher_chaining_template.html#ae4dbd6ee08d2e2d37f881f109d316fe0", null ],
+    [ "decrypt", "classts_1_1_cipher_chaining_template.html#a4f5fa4cf33d98d9d249a0aa803e577cf", null ],
+    [ "encryptInPlace", "classts_1_1_cipher_chaining_template.html#a76e7ab6b0558bed387fb3e7ff01db7a8", null ],
+    [ "decryptInPlace", "classts_1_1_cipher_chaining_template.html#a3e560b1b26c8c906cc4b507c7a3318bf", null ],
+    [ "algo", "classts_1_1_cipher_chaining_template.html#a5ccb20cd987f3b4f6f52d2b9058c1d39", null ],
+    [ "block_size", "classts_1_1_cipher_chaining_template.html#a5d8b1c77ea30a6007449230c039a3ab4", null ],
+    [ "iv_min_size", "classts_1_1_cipher_chaining_template.html#af135ca34ee98eca91bbea7ea836c48e6", null ],
+    [ "iv_max_size", "classts_1_1_cipher_chaining_template.html#a2f0ba8e5f0958c0ab5217ff03efd79c1", null ],
+    [ "iv", "classts_1_1_cipher_chaining_template.html#af057b5694ca7fd5a01d0fcc94f4344f2", null ],
+    [ "work", "classts_1_1_cipher_chaining_template.html#aa0fd340d96eb6830df7d04260a261588", null ]
 ];

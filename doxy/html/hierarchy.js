@@ -63,6 +63,8 @@ var hierarchy =
         [ "ts::ComponentDescriptor", "classts_1_1_component_descriptor.html", null ],
         [ "ts::ContentDescriptor", "classts_1_1_content_descriptor.html", null ],
         [ "ts::CountryAvailabilityDescriptor", "classts_1_1_country_availability_descriptor.html", null ],
+        [ "ts::CPDescriptor", "classts_1_1_c_p_descriptor.html", null ],
+        [ "ts::CPIdentifierDescriptor", "classts_1_1_c_p_identifier_descriptor.html", null ],
         [ "ts::CueIdentifierDescriptor", "classts_1_1_cue_identifier_descriptor.html", null ],
         [ "ts::DataBroadcastDescriptor", "classts_1_1_data_broadcast_descriptor.html", null ],
         [ "ts::DataBroadcastIdDescriptor", "classts_1_1_data_broadcast_id_descriptor.html", null ],
@@ -93,6 +95,7 @@ var hierarchy =
         [ "ts::PrivateDataSpecifierDescriptor", "classts_1_1_private_data_specifier_descriptor.html", null ],
         [ "ts::RegistrationDescriptor", "classts_1_1_registration_descriptor.html", null ],
         [ "ts::S2SatelliteDeliverySystemDescriptor", "classts_1_1_s2_satellite_delivery_system_descriptor.html", null ],
+        [ "ts::ScramblingDescriptor", "classts_1_1_scrambling_descriptor.html", null ],
         [ "ts::ServiceDescriptor", "classts_1_1_service_descriptor.html", null ],
         [ "ts::ServiceListDescriptor", "classts_1_1_service_list_descriptor.html", null ],
         [ "ts::ShortEventDescriptor", "classts_1_1_short_event_descriptor.html", null ],
@@ -167,8 +170,16 @@ var hierarchy =
     [ "ts::BlockCipher", "classts_1_1_block_cipher.html", [
       [ "ts::AES", "classts_1_1_a_e_s.html", null ],
       [ "ts::CipherChaining", "classts_1_1_cipher_chaining.html", [
-        [ "ts::CipherChainingTemplate< ts::AES >", "classts_1_1_cipher_chaining_template.html", [
-          [ "ts::DVS042< ts::AES >", "classts_1_1_d_v_s042.html", null ]
+        [ "ts::CipherChainingTemplate< AES >", "classts_1_1_cipher_chaining_template.html", [
+          [ "ts::DVS042< AES >", "classts_1_1_d_v_s042.html", [
+            [ "ts::IDSA", "classts_1_1_i_d_s_a.html", null ]
+          ] ]
+        ] ],
+        [ "ts::CipherChainingTemplate< DES >", "classts_1_1_cipher_chaining_template.html", [
+          [ "ts::DVS042< DES >", "classts_1_1_d_v_s042.html", [
+            [ "ts::SCTE52_2003", "classts_1_1_s_c_t_e52__2003.html", null ],
+            [ "ts::SCTE52_2008", "classts_1_1_s_c_t_e52__2008.html", null ]
+          ] ]
         ] ],
         [ "ts::CipherChainingTemplate< CIPHER >", "classts_1_1_cipher_chaining_template.html", [
           [ "ts::CBC< CIPHER >", "classts_1_1_c_b_c.html", null ],
@@ -178,7 +189,8 @@ var hierarchy =
           [ "ts::CTS4< CIPHER >", "classts_1_1_c_t_s4.html", null ],
           [ "ts::DVS042< CIPHER >", "classts_1_1_d_v_s042.html", null ],
           [ "ts::ECB< CIPHER >", "classts_1_1_e_c_b.html", null ]
-        ] ]
+        ] ],
+        [ "ts::DVBCSA2", "classts_1_1_d_v_b_c_s_a2.html", null ]
       ] ],
       [ "ts::DES", "classts_1_1_d_e_s.html", null ],
       [ "ts::TDES", "classts_1_1_t_d_e_s.html", null ]
@@ -216,20 +228,20 @@ var hierarchy =
     ] ],
     [ "ts::ECMGClientHandlerInterface", "classts_1_1_e_c_m_g_client_handler_interface.html", null ],
     [ "ts::EDID", "classts_1_1_e_d_i_d.html", null ],
+    [ "ts::NVODReferenceDescriptor::Entry", "structts_1_1_n_v_o_d_reference_descriptor_1_1_entry.html", null ],
+    [ "ts::ParentalRatingDescriptor::Entry", "structts_1_1_parental_rating_descriptor_1_1_entry.html", null ],
     [ "ts::ApplicationSignallingDescriptor::Entry", "structts_1_1_application_signalling_descriptor_1_1_entry.html", null ],
-    [ "ts::ServiceListDescriptor::Entry", "structts_1_1_service_list_descriptor_1_1_entry.html", null ],
     [ "ts::ContentDescriptor::Entry", "structts_1_1_content_descriptor_1_1_entry.html", null ],
-    [ "ts::EutelsatChannelNumberDescriptor::Entry", "structts_1_1_eutelsat_channel_number_descriptor_1_1_entry.html", null ],
+    [ "ts::ServiceListDescriptor::Entry", "structts_1_1_service_list_descriptor_1_1_entry.html", null ],
     [ "ts::SSUDataBroadcastIdDescriptor::Entry", "structts_1_1_s_s_u_data_broadcast_id_descriptor_1_1_entry.html", null ],
     [ "ts::SSULinkageDescriptor::Entry", "structts_1_1_s_s_u_linkage_descriptor_1_1_entry.html", null ],
     [ "ts::SubtitlingDescriptor::Entry", "structts_1_1_subtitling_descriptor_1_1_entry.html", null ],
+    [ "ts::EutelsatChannelNumberDescriptor::Entry", "structts_1_1_eutelsat_channel_number_descriptor_1_1_entry.html", null ],
     [ "ts::ExtendedEventDescriptor::Entry", "structts_1_1_extended_event_descriptor_1_1_entry.html", null ],
     [ "ts::HDSimulcastLogicalChannelDescriptor::Entry", "structts_1_1_h_d_simulcast_logical_channel_descriptor_1_1_entry.html", null ],
     [ "ts::TeletextDescriptor::Entry", "structts_1_1_teletext_descriptor_1_1_entry.html", null ],
     [ "ts::ISO639LanguageDescriptor::Entry", "structts_1_1_i_s_o639_language_descriptor_1_1_entry.html", null ],
     [ "ts::LogicalChannelNumberDescriptor::Entry", "structts_1_1_logical_channel_number_descriptor_1_1_entry.html", null ],
-    [ "ts::NVODReferenceDescriptor::Entry", "structts_1_1_n_v_o_d_reference_descriptor_1_1_entry.html", null ],
-    [ "ts::ParentalRatingDescriptor::Entry", "structts_1_1_parental_rating_descriptor_1_1_entry.html", null ],
     [ "EntryBase", null, [
       [ "ts::INT::Device", "structts_1_1_i_n_t_1_1_device.html", null ]
     ] ],
@@ -243,8 +255,9 @@ var hierarchy =
       [ "ts::SDT::Service", "classts_1_1_s_d_t_1_1_service.html", null ]
     ] ],
     [ "ts::Enumeration", "classts_1_1_enumeration.html", null ],
-    [ "ts::emmgmux::Errors", "structts_1_1emmgmux_1_1_errors.html", null ],
     [ "ts::ecmgscs::Errors", "structts_1_1ecmgscs_1_1_errors.html", null ],
+    [ "ts::emmgmux::Errors", "structts_1_1emmgmux_1_1_errors.html", null ],
+    [ "ts::duck::Errors", "structts_1_1duck_1_1_errors.html", null ],
     [ "ts::ETID", "classts_1_1_e_t_i_d.html", null ],
     [ "ts::TSAnalyzer::ETIDContext", "classts_1_1_t_s_analyzer_1_1_e_t_i_d_context.html", null ],
     [ "ts::RST::Event", "structts_1_1_r_s_t_1_1_event.html", null ],
@@ -325,6 +338,10 @@ var hierarchy =
       [ "ts::MacPList", "classts_1_1_mac_p_list.html", null ]
     ] ],
     [ "ts::tlv::Message", "classts_1_1tlv_1_1_message.html", [
+      [ "ts::duck::ClearECM", "classts_1_1duck_1_1_clear_e_c_m.html", null ],
+      [ "ts::duck::Error", "classts_1_1duck_1_1_error.html", null ],
+      [ "ts::duck::LogSection", "classts_1_1duck_1_1_log_section.html", null ],
+      [ "ts::duck::LogTable", "classts_1_1duck_1_1_log_table.html", null ],
       [ "ts::tlv::ChannelMessage", "classts_1_1tlv_1_1_channel_message.html", [
         [ "ts::ecmgscs::ChannelClose", "classts_1_1ecmgscs_1_1_channel_close.html", null ],
         [ "ts::ecmgscs::ChannelError", "classts_1_1ecmgscs_1_1_channel_error.html", null ],
@@ -401,13 +418,16 @@ var hierarchy =
     [ "ts::PIDOperator", "structts_1_1_p_i_d_operator.html", null ],
     [ "ts::tsp::Options::PluginOptions", "structts_1_1tsp_1_1_options_1_1_plugin_options.html", null ],
     [ "ts::PluginRepository", "classts_1_1_plugin_repository.html", null ],
-    [ "ts::PMTHandlerInterface", "classts_1_1_p_m_t_handler_interface.html", null ],
+    [ "ts::PMTHandlerInterface", "classts_1_1_p_m_t_handler_interface.html", [
+      [ "ts::AbstractDescrambler", "classts_1_1_abstract_descrambler.html", null ]
+    ] ],
     [ "ts::PolledFile", "classts_1_1_polled_file.html", null ],
     [ "ts::PollFiles", "classts_1_1_poll_files.html", null ],
     [ "ts::PollFilesListener", "classts_1_1_poll_files_listener.html", null ],
     [ "ts::TextParser::Position", "classts_1_1_text_parser_1_1_position.html", null ],
     [ "ts::ProcessMetrics", "structts_1_1_process_metrics.html", null ],
     [ "ts::tlv::Protocol", "classts_1_1tlv_1_1_protocol.html", [
+      [ "ts::duck::Protocol", "classts_1_1duck_1_1_protocol.html", null ],
       [ "ts::ecmgscs::Protocol", "classts_1_1ecmgscs_1_1_protocol.html", null ],
       [ "ts::emmgmux::Protocol", "classts_1_1emmgmux_1_1_protocol.html", null ]
     ] ],
@@ -420,8 +440,8 @@ var hierarchy =
     [ "ts::TargetMACAddressRangeDescriptor::Range", "classts_1_1_target_m_a_c_address_range_descriptor_1_1_range.html", null ],
     [ "ts::pcsc::ReaderState", "structts_1_1pcsc_1_1_reader_state.html", null ],
     [ "ts::LocalTimeOffsetDescriptor::Region", "structts_1_1_local_time_offset_descriptor_1_1_region.html", null ],
-    [ "ts::TablesFactory::Register", "classts_1_1_tables_factory_1_1_register.html", null ],
     [ "ts::PluginRepository::Register", "classts_1_1_plugin_repository_1_1_register.html", null ],
+    [ "ts::TablesFactory::Register", "classts_1_1_tables_factory_1_1_register.html", null ],
     [ "ts::Registry", "classts_1_1_registry.html", null ],
     [ "ts::Report", "classts_1_1_report.html", [
       [ "ts::Args", "classts_1_1_args.html", [
@@ -472,10 +492,10 @@ var hierarchy =
     [ "ts::SafePtr< ts::SDT >", "classts_1_1_safe_ptr.html", null ],
     [ "ts::SafePtr< TunerParameters, Mutex >", "classts_1_1_safe_ptr.html", null ],
     [ "ts::SafePtr< Value, NullMutex >", "classts_1_1_safe_ptr.html", null ],
-    [ "ts::Scrambling", "classts_1_1_scrambling.html", null ],
     [ "ts::Section", "classts_1_1_section.html", null ],
     [ "ts::SectionFile", "classts_1_1_section_file.html", null ],
     [ "ts::SectionHandlerInterface", "classts_1_1_section_handler_interface.html", [
+      [ "ts::AbstractDescrambler", "classts_1_1_abstract_descrambler.html", null ],
       [ "ts::MPEDemux", "classts_1_1_m_p_e_demux.html", null ],
       [ "ts::PSILogger", "classts_1_1_p_s_i_logger.html", null ],
       [ "ts::TablesLogger", "classts_1_1_tables_logger.html", null ],
@@ -485,10 +505,10 @@ var hierarchy =
       [ "ts::CyclingPacketizer", "classts_1_1_cycling_packetizer.html", null ]
     ] ],
     [ "ts::tlv::Serializer", "classts_1_1tlv_1_1_serializer.html", null ],
-    [ "ts::VBIDataDescriptor::Service", "structts_1_1_v_b_i_data_descriptor_1_1_service.html", null ],
     [ "ts::Service", "classts_1_1_service.html", [
       [ "ts::ServiceDiscovery", "classts_1_1_service_discovery.html", null ]
     ] ],
+    [ "ts::VBIDataDescriptor::Service", "structts_1_1_v_b_i_data_descriptor_1_1_service.html", null ],
     [ "ts::TSAnalyzer::ServiceContext", "classts_1_1_t_s_analyzer_1_1_service_context.html", null ],
     [ "set", null, [
       [ "ts::PIDOperatorSet", "classts_1_1_p_i_d_operator_set.html", null ]
@@ -518,8 +538,8 @@ var hierarchy =
     [ "ts::SpliceInfoTable", "classts_1_1_splice_info_table.html", null ],
     [ "ts::SpliceInsert", "classts_1_1_splice_insert.html", null ],
     [ "ts::StaticReferencesDVB", "classts_1_1_static_references_d_v_b.html", null ],
-    [ "ts::SectionDemux::Status", "structts_1_1_section_demux_1_1_status.html", null ],
     [ "ts::PCRAnalyzer::Status", "structts_1_1_p_c_r_analyzer_1_1_status.html", null ],
+    [ "ts::SectionDemux::Status", "structts_1_1_section_demux_1_1_status.html", null ],
     [ "ts::SubRipGenerator", "classts_1_1_sub_rip_generator.html", null ],
     [ "ts::SysInfo", "classts_1_1_sys_info.html", null ],
     [ "ts::T2MIHandlerInterface", "classts_1_1_t2_m_i_handler_interface.html", [
@@ -527,7 +547,6 @@ var hierarchy =
     ] ],
     [ "ts::T2MIPacket", "classts_1_1_t2_m_i_packet.html", null ],
     [ "ts::TableHandlerInterface", "classts_1_1_table_handler_interface.html", [
-      [ "ts::AbstractDescrambler", "classts_1_1_abstract_descrambler.html", null ],
       [ "ts::CASMapper", "classts_1_1_c_a_s_mapper.html", null ],
       [ "ts::MPEDemux", "classts_1_1_m_p_e_demux.html", null ],
       [ "ts::PSILogger", "classts_1_1_p_s_i_logger.html", null ],
@@ -544,12 +563,12 @@ var hierarchy =
     [ "ts::TablesLoggerArgs", "classts_1_1_tables_logger_args.html", null ],
     [ "ts::ecmgscs::Tags", "structts_1_1ecmgscs_1_1_tags.html", null ],
     [ "ts::emmgmux::Tags", "structts_1_1emmgmux_1_1_tags.html", null ],
+    [ "ts::duck::Tags", "structts_1_1duck_1_1_tags.html", null ],
     [ "ts::TeletextCharset", "classts_1_1_teletext_charset.html", null ],
     [ "ts::TeletextFrame", "classts_1_1_teletext_frame.html", null ],
     [ "ts::TeletextHandlerInterface", "classts_1_1_teletext_handler_interface.html", null ],
     [ "ts::TextParser", "classts_1_1_text_parser.html", null ],
     [ "ts::Thread", "classts_1_1_thread.html", [
-      [ "ts::AbstractDescrambler", "classts_1_1_abstract_descrambler.html", null ],
       [ "ts::AsyncReport", "classts_1_1_async_report.html", null ],
       [ "ts::ECMGClient", "classts_1_1_e_c_m_g_client.html", null ],
       [ "ts::SystemMonitor", "classts_1_1_system_monitor.html", null ],
@@ -559,8 +578,9 @@ var hierarchy =
     [ "ts::ThreadAttributes", "classts_1_1_thread_attributes.html", null ],
     [ "ts::Time", "classts_1_1_time.html", null ],
     [ "ts::TLVSyntax", "classts_1_1_t_l_v_syntax.html", null ],
-    [ "ts::ecmgscs::Traits", "structts_1_1ecmgscs_1_1_traits.html", null ],
     [ "ts::emmgmux::Traits", "structts_1_1emmgmux_1_1_traits.html", null ],
+    [ "ts::duck::Traits", "structts_1_1duck_1_1_traits.html", null ],
+    [ "ts::ecmgscs::Traits", "structts_1_1ecmgscs_1_1_traits.html", null ],
     [ "ts::TransportStreamId", "structts_1_1_transport_stream_id.html", null ],
     [ "ts::TSFileInput", "classts_1_1_t_s_file_input.html", [
       [ "ts::TSFileInputBuffered", "classts_1_1_t_s_file_input_buffered.html", null ]
@@ -569,6 +589,8 @@ var hierarchy =
       [ "ts::TSFileOutputResync", "classts_1_1_t_s_file_output_resync.html", null ]
     ] ],
     [ "ts::TSPacket", "structts_1_1_t_s_packet.html", null ],
+    [ "ts::TSScrambling", "classts_1_1_t_s_scrambling.html", null ],
+    [ "ts::TSSpeedMetrics", "classts_1_1_t_s_speed_metrics.html", null ],
     [ "ts::Tuner", "classts_1_1_tuner.html", null ],
     [ "ts::TunerArgs", "classts_1_1_tuner_args.html", null ],
     [ "u16string", null, [
@@ -601,6 +623,7 @@ var hierarchy =
     [ "ts::Variable< SpectralInversion >", "classts_1_1_variable.html", null ],
     [ "ts::Variable< TransmissionMode >", "classts_1_1_variable.html", null ],
     [ "ts::Variable< ts::LNB >", "classts_1_1_variable.html", null ],
+    [ "ts::Variable< ts::SimulCryptDate >", "classts_1_1_variable.html", null ],
     [ "ts::Variable< ts::UString >", "classts_1_1_variable.html", null ],
     [ "ts::Variable< uint16_t >", "classts_1_1_variable.html", null ],
     [ "ts::Variable< uint32_t >", "classts_1_1_variable.html", null ],

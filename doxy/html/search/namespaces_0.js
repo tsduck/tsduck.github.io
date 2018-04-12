@@ -1,5 +1,6 @@
 var searchData=
 [
+  ['duck',['duck',['../namespacets_1_1duck.html',1,'ts']]],
   ['ecmgscs',['ecmgscs',['../namespacets_1_1ecmgscs.html',1,'ts']]],
   ['emmgmux',['emmgmux',['../namespacets_1_1emmgmux.html',1,'ts']]],
   ['json',['json',['../namespacets_1_1json.html',1,'ts']]],

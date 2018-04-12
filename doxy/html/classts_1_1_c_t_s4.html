@@ -37,7 +37,7 @@
  <tr style="height: 56px;">
   <td id="projectlogo"><img src="tsduck-32.png"/></td>
    <td id="projectalign"><span id="projectname">TSDuck</span>
-    <span id="projectnumber">Version 3.10-643</span>
+    <span id="projectnumber">Version 3.10-675</span>
     <span id="projectbrief">(TSDuck - The MPEG Transport Stream Toolkit)</span>
    </td>
    <td>        <div id="MSearchBox" class="MSearchBoxInactive">
@@ -100,6 +100,7 @@ $(document).ready(function(){initNavTree('classts_1_1_c_t_s4.html','');});
 <div class="header">
   <div class="summary">
 <a href="#pub-methods">Public Member Functions</a> &#124;
+<a href="#pro-attribs">Protected Attributes</a> &#124;
 <a href="classts_1_1_c_t_s4-members.html">List of all members</a>  </div>
   <div class="headertitle">
 <div class="title">ts::CTS4&lt; CIPHER &gt; Class Template Reference</div>  </div>
@@ -136,92 +137,87 @@ Public Member Functions</h2></td></tr>
 &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classts_1_1_c_t_s4.html#a4c24bcb4ee671c05273929e22480d40f">CTS4</a> ()</td></tr>
 <tr class="memdesc:a4c24bcb4ee671c05273929e22480d40f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Constructor. <br /></td></tr>
 <tr class="separator:a4c24bcb4ee671c05273929e22480d40f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a292212d99a48214146b7bacba10d0fb9"><td class="memItemLeft" align="right" valign="top">virtual size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classts_1_1_cipher_chaining.html#a292212d99a48214146b7bacba10d0fb9">blockSize</a> () const override</td></tr>
+<tr class="memdesc:a292212d99a48214146b7bacba10d0fb9"><td class="mdescLeft">&#160;</td><td class="mdescRight">Size in bytes of the block used by the algorithm.  <a href="#a292212d99a48214146b7bacba10d0fb9">More...</a><br /></td></tr>
+<tr class="separator:a292212d99a48214146b7bacba10d0fb9"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a827bbdeeaa5e12de35c70cc2c3ef43d3"><td class="memItemLeft" align="right" valign="top">virtual bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classts_1_1_c_t_s4.html#a827bbdeeaa5e12de35c70cc2c3ef43d3">decrypt</a> (const void *cipher, size_t cipher_length, void *plain, size_t plain_maxsize, size_t *plain_length=0) override</td></tr>
 <tr class="memdesc:a827bbdeeaa5e12de35c70cc2c3ef43d3"><td class="mdescLeft">&#160;</td><td class="mdescRight">Decrypt one block of data.  <a href="#a827bbdeeaa5e12de35c70cc2c3ef43d3">More...</a><br /></td></tr>
 <tr class="separator:a827bbdeeaa5e12de35c70cc2c3ef43d3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3e560b1b26c8c906cc4b507c7a3318bf"><td class="memItemLeft" align="right" valign="top">virtual bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classts_1_1_block_cipher.html#a3e560b1b26c8c906cc4b507c7a3318bf">decryptInPlace</a> (void *data, size_t data_length, size_t *max_actual_length=0)</td></tr>
+<tr class="memdesc:a3e560b1b26c8c906cc4b507c7a3318bf"><td class="mdescLeft">&#160;</td><td class="mdescRight">Decrypt one block of data in place.  <a href="#a3e560b1b26c8c906cc4b507c7a3318bf">More...</a><br /></td></tr>
+<tr class="separator:a3e560b1b26c8c906cc4b507c7a3318bf"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1f1daf9e41ef2f75a667fddc60b374dd"><td class="memItemLeft" align="right" valign="top">virtual size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classts_1_1_cipher_chaining.html#a1f1daf9e41ef2f75a667fddc60b374dd">defaultRounds</a> () const override</td></tr>
+<tr class="memdesc:a1f1daf9e41ef2f75a667fddc60b374dd"><td class="mdescLeft">&#160;</td><td class="mdescRight">Default number of rounds for the algorithm.  <a href="#a1f1daf9e41ef2f75a667fddc60b374dd">More...</a><br /></td></tr>
+<tr class="separator:a1f1daf9e41ef2f75a667fddc60b374dd"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a7fa3267eb61fc24f8d4dc1e1554cf82b"><td class="memItemLeft" align="right" valign="top">virtual bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classts_1_1_c_t_s4.html#a7fa3267eb61fc24f8d4dc1e1554cf82b">encrypt</a> (const void *plain, size_t plain_length, void *cipher, size_t cipher_maxsize, size_t *cipher_length=0) override</td></tr>
 <tr class="memdesc:a7fa3267eb61fc24f8d4dc1e1554cf82b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Encrypt one block of data.  <a href="#a7fa3267eb61fc24f8d4dc1e1554cf82b">More...</a><br /></td></tr>
 <tr class="separator:a7fa3267eb61fc24f8d4dc1e1554cf82b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a76e7ab6b0558bed387fb3e7ff01db7a8"><td class="memItemLeft" align="right" valign="top">virtual bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classts_1_1_block_cipher.html#a76e7ab6b0558bed387fb3e7ff01db7a8">encryptInPlace</a> (void *data, size_t data_length, size_t *max_actual_length=0)</td></tr>
+<tr class="memdesc:a76e7ab6b0558bed387fb3e7ff01db7a8"><td class="mdescLeft">&#160;</td><td class="mdescRight">Encrypt one block of data in place.  <a href="#a76e7ab6b0558bed387fb3e7ff01db7a8">More...</a><br /></td></tr>
+<tr class="separator:a76e7ab6b0558bed387fb3e7ff01db7a8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aba86de9dfc56b07e635875592892f2a2"><td class="memItemLeft" align="right" valign="top">virtual bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classts_1_1_cipher_chaining.html#aba86de9dfc56b07e635875592892f2a2">isValidKeySize</a> (size_t size) const override</td></tr>
+<tr class="memdesc:aba86de9dfc56b07e635875592892f2a2"><td class="mdescLeft">&#160;</td><td class="mdescRight">Check if a size in bytes is a valid key size.  <a href="#aba86de9dfc56b07e635875592892f2a2">More...</a><br /></td></tr>
+<tr class="separator:aba86de9dfc56b07e635875592892f2a2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac3bc8535776f3b6cf2874f65f5db615e"><td class="memItemLeft" align="right" valign="top">virtual size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classts_1_1_cipher_chaining.html#ac3bc8535776f3b6cf2874f65f5db615e">maxIVSize</a> () const</td></tr>
+<tr class="memdesc:ac3bc8535776f3b6cf2874f65f5db615e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the maximum IV sizes in bytes.  <a href="#ac3bc8535776f3b6cf2874f65f5db615e">More...</a><br /></td></tr>
+<tr class="separator:ac3bc8535776f3b6cf2874f65f5db615e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad2d8774b302e9915f99e53dbe2b9cd2f"><td class="memItemLeft" align="right" valign="top">virtual size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classts_1_1_cipher_chaining.html#ad2d8774b302e9915f99e53dbe2b9cd2f">maxKeySize</a> () const override</td></tr>
+<tr class="memdesc:ad2d8774b302e9915f99e53dbe2b9cd2f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Maximum key sizes in bytes.  <a href="#ad2d8774b302e9915f99e53dbe2b9cd2f">More...</a><br /></td></tr>
+<tr class="separator:ad2d8774b302e9915f99e53dbe2b9cd2f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a086d6fae6f3422e9e549aefdaab7d331"><td class="memItemLeft" align="right" valign="top">virtual size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classts_1_1_cipher_chaining.html#a086d6fae6f3422e9e549aefdaab7d331">maxRounds</a> () const override</td></tr>
+<tr class="memdesc:a086d6fae6f3422e9e549aefdaab7d331"><td class="mdescLeft">&#160;</td><td class="mdescRight">Maximum number of rounds for the algorithm.  <a href="#a086d6fae6f3422e9e549aefdaab7d331">More...</a><br /></td></tr>
+<tr class="separator:a086d6fae6f3422e9e549aefdaab7d331"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8325f3c779715cf9489b250e1f56294b"><td class="memItemLeft" align="right" valign="top">virtual size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classts_1_1_cipher_chaining.html#a8325f3c779715cf9489b250e1f56294b">minIVSize</a> () const</td></tr>
+<tr class="memdesc:a8325f3c779715cf9489b250e1f56294b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the minimum IV sizes in bytes.  <a href="#a8325f3c779715cf9489b250e1f56294b">More...</a><br /></td></tr>
+<tr class="separator:a8325f3c779715cf9489b250e1f56294b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a84c2eeaf3d8a4396c8cb026a79517e49"><td class="memItemLeft" align="right" valign="top">virtual size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classts_1_1_cipher_chaining.html#a84c2eeaf3d8a4396c8cb026a79517e49">minKeySize</a> () const override</td></tr>
+<tr class="memdesc:a84c2eeaf3d8a4396c8cb026a79517e49"><td class="mdescLeft">&#160;</td><td class="mdescRight">Minimum key sizes in bytes.  <a href="#a84c2eeaf3d8a4396c8cb026a79517e49">More...</a><br /></td></tr>
+<tr class="separator:a84c2eeaf3d8a4396c8cb026a79517e49"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a24d491c79da4ec60d66a90a19d4dac9f"><td class="memItemLeft" align="right" valign="top">virtual size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classts_1_1_c_t_s4.html#a24d491c79da4ec60d66a90a19d4dac9f">minMessageSize</a> () const override</td></tr>
 <tr class="memdesc:a24d491c79da4ec60d66a90a19d4dac9f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the minimum message size.  <a href="#a24d491c79da4ec60d66a90a19d4dac9f">More...</a><br /></td></tr>
 <tr class="separator:a24d491c79da4ec60d66a90a19d4dac9f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0b6440d21660ced2a68a5eece499c681"><td class="memItemLeft" align="right" valign="top">virtual size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classts_1_1_cipher_chaining.html#a0b6440d21660ced2a68a5eece499c681">minRounds</a> () const override</td></tr>
+<tr class="memdesc:a0b6440d21660ced2a68a5eece499c681"><td class="mdescLeft">&#160;</td><td class="mdescRight">Minimum number of rounds for the algorithm.  <a href="#a0b6440d21660ced2a68a5eece499c681">More...</a><br /></td></tr>
+<tr class="separator:a0b6440d21660ced2a68a5eece499c681"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a64020f9e6fbda4931d6d12bbe6be4f87"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="classts_1_1_u_string.html">UString</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classts_1_1_c_t_s4.html#a64020f9e6fbda4931d6d12bbe6be4f87">name</a> () const override</td></tr>
 <tr class="memdesc:a64020f9e6fbda4931d6d12bbe6be4f87"><td class="mdescLeft">&#160;</td><td class="mdescRight">Algorithm name (informational only).  <a href="#a64020f9e6fbda4931d6d12bbe6be4f87">More...</a><br /></td></tr>
 <tr class="separator:a64020f9e6fbda4931d6d12bbe6be4f87"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a9c15c883e3c1f4a2e4bb7c69caa4f9b0"><td class="memItemLeft" align="right" valign="top">virtual bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classts_1_1_c_t_s4.html#a9c15c883e3c1f4a2e4bb7c69caa4f9b0">residueAllowed</a> () const override</td></tr>
 <tr class="memdesc:a9c15c883e3c1f4a2e4bb7c69caa4f9b0"><td class="mdescLeft">&#160;</td><td class="mdescRight">Check if the chaining mode can process residue after the last multiple of the block size.  <a href="#a9c15c883e3c1f4a2e4bb7c69caa4f9b0">More...</a><br /></td></tr>
 <tr class="separator:a9c15c883e3c1f4a2e4bb7c69caa4f9b0"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="inherit_header pub_methods_classts_1_1_cipher_chaining"><td colspan="2" onclick="javascript:toggleInherit('pub_methods_classts_1_1_cipher_chaining')"><img src="closed.png" alt="-"/>&#160;Public Member Functions inherited from <a class="el" href="classts_1_1_cipher_chaining.html">ts::CipherChaining</a></td></tr>
-<tr class="memitem:a292212d99a48214146b7bacba10d0fb9 inherit pub_methods_classts_1_1_cipher_chaining"><td class="memItemLeft" align="right" valign="top">virtual size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classts_1_1_cipher_chaining.html#a292212d99a48214146b7bacba10d0fb9">blockSize</a> () const override</td></tr>
-<tr class="memdesc:a292212d99a48214146b7bacba10d0fb9 inherit pub_methods_classts_1_1_cipher_chaining"><td class="mdescLeft">&#160;</td><td class="mdescRight">Size in bytes of the block used by the algorithm.  <a href="classts_1_1_cipher_chaining.html#a292212d99a48214146b7bacba10d0fb9">More...</a><br /></td></tr>
-<tr class="separator:a292212d99a48214146b7bacba10d0fb9 inherit pub_methods_classts_1_1_cipher_chaining"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a1f1daf9e41ef2f75a667fddc60b374dd inherit pub_methods_classts_1_1_cipher_chaining"><td class="memItemLeft" align="right" valign="top">virtual size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classts_1_1_cipher_chaining.html#a1f1daf9e41ef2f75a667fddc60b374dd">defaultRounds</a> () const override</td></tr>
-<tr class="memdesc:a1f1daf9e41ef2f75a667fddc60b374dd inherit pub_methods_classts_1_1_cipher_chaining"><td class="mdescLeft">&#160;</td><td class="mdescRight">Default number of rounds for the algorithm.  <a href="classts_1_1_cipher_chaining.html#a1f1daf9e41ef2f75a667fddc60b374dd">More...</a><br /></td></tr>
-<tr class="separator:a1f1daf9e41ef2f75a667fddc60b374dd inherit pub_methods_classts_1_1_cipher_chaining"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aba86de9dfc56b07e635875592892f2a2 inherit pub_methods_classts_1_1_cipher_chaining"><td class="memItemLeft" align="right" valign="top">virtual bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classts_1_1_cipher_chaining.html#aba86de9dfc56b07e635875592892f2a2">isValidKeySize</a> (size_t size) const override</td></tr>
-<tr class="memdesc:aba86de9dfc56b07e635875592892f2a2 inherit pub_methods_classts_1_1_cipher_chaining"><td class="mdescLeft">&#160;</td><td class="mdescRight">Check if a size in bytes is a valid key size.  <a href="classts_1_1_cipher_chaining.html#aba86de9dfc56b07e635875592892f2a2">More...</a><br /></td></tr>
-<tr class="separator:aba86de9dfc56b07e635875592892f2a2 inherit pub_methods_classts_1_1_cipher_chaining"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ac3bc8535776f3b6cf2874f65f5db615e inherit pub_methods_classts_1_1_cipher_chaining"><td class="memItemLeft" align="right" valign="top">virtual size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classts_1_1_cipher_chaining.html#ac3bc8535776f3b6cf2874f65f5db615e">maxIVSize</a> () const</td></tr>
-<tr class="memdesc:ac3bc8535776f3b6cf2874f65f5db615e inherit pub_methods_classts_1_1_cipher_chaining"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the maximum IV sizes in bytes.  <a href="classts_1_1_cipher_chaining.html#ac3bc8535776f3b6cf2874f65f5db615e">More...</a><br /></td></tr>
-<tr class="separator:ac3bc8535776f3b6cf2874f65f5db615e inherit pub_methods_classts_1_1_cipher_chaining"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ad2d8774b302e9915f99e53dbe2b9cd2f inherit pub_methods_classts_1_1_cipher_chaining"><td class="memItemLeft" align="right" valign="top">virtual size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classts_1_1_cipher_chaining.html#ad2d8774b302e9915f99e53dbe2b9cd2f">maxKeySize</a> () const override</td></tr>
-<tr class="memdesc:ad2d8774b302e9915f99e53dbe2b9cd2f inherit pub_methods_classts_1_1_cipher_chaining"><td class="mdescLeft">&#160;</td><td class="mdescRight">Maximum key sizes in bytes.  <a href="classts_1_1_cipher_chaining.html#ad2d8774b302e9915f99e53dbe2b9cd2f">More...</a><br /></td></tr>
-<tr class="separator:ad2d8774b302e9915f99e53dbe2b9cd2f inherit pub_methods_classts_1_1_cipher_chaining"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a086d6fae6f3422e9e549aefdaab7d331 inherit pub_methods_classts_1_1_cipher_chaining"><td class="memItemLeft" align="right" valign="top">virtual size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classts_1_1_cipher_chaining.html#a086d6fae6f3422e9e549aefdaab7d331">maxRounds</a> () const override</td></tr>
-<tr class="memdesc:a086d6fae6f3422e9e549aefdaab7d331 inherit pub_methods_classts_1_1_cipher_chaining"><td class="mdescLeft">&#160;</td><td class="mdescRight">Maximum number of rounds for the algorithm.  <a href="classts_1_1_cipher_chaining.html#a086d6fae6f3422e9e549aefdaab7d331">More...</a><br /></td></tr>
-<tr class="separator:a086d6fae6f3422e9e549aefdaab7d331 inherit pub_methods_classts_1_1_cipher_chaining"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a8325f3c779715cf9489b250e1f56294b inherit pub_methods_classts_1_1_cipher_chaining"><td class="memItemLeft" align="right" valign="top">virtual size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classts_1_1_cipher_chaining.html#a8325f3c779715cf9489b250e1f56294b">minIVSize</a> () const</td></tr>
-<tr class="memdesc:a8325f3c779715cf9489b250e1f56294b inherit pub_methods_classts_1_1_cipher_chaining"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the minimum IV sizes in bytes.  <a href="classts_1_1_cipher_chaining.html#a8325f3c779715cf9489b250e1f56294b">More...</a><br /></td></tr>
-<tr class="separator:a8325f3c779715cf9489b250e1f56294b inherit pub_methods_classts_1_1_cipher_chaining"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a84c2eeaf3d8a4396c8cb026a79517e49 inherit pub_methods_classts_1_1_cipher_chaining"><td class="memItemLeft" align="right" valign="top">virtual size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classts_1_1_cipher_chaining.html#a84c2eeaf3d8a4396c8cb026a79517e49">minKeySize</a> () const override</td></tr>
-<tr class="memdesc:a84c2eeaf3d8a4396c8cb026a79517e49 inherit pub_methods_classts_1_1_cipher_chaining"><td class="mdescLeft">&#160;</td><td class="mdescRight">Minimum key sizes in bytes.  <a href="classts_1_1_cipher_chaining.html#a84c2eeaf3d8a4396c8cb026a79517e49">More...</a><br /></td></tr>
-<tr class="separator:a84c2eeaf3d8a4396c8cb026a79517e49 inherit pub_methods_classts_1_1_cipher_chaining"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a0b6440d21660ced2a68a5eece499c681 inherit pub_methods_classts_1_1_cipher_chaining"><td class="memItemLeft" align="right" valign="top">virtual size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classts_1_1_cipher_chaining.html#a0b6440d21660ced2a68a5eece499c681">minRounds</a> () const override</td></tr>
-<tr class="memdesc:a0b6440d21660ced2a68a5eece499c681 inherit pub_methods_classts_1_1_cipher_chaining"><td class="mdescLeft">&#160;</td><td class="mdescRight">Minimum number of rounds for the algorithm.  <a href="classts_1_1_cipher_chaining.html#a0b6440d21660ced2a68a5eece499c681">More...</a><br /></td></tr>
-<tr class="separator:a0b6440d21660ced2a68a5eece499c681 inherit pub_methods_classts_1_1_cipher_chaining"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a018fc2acb10778eee7b5bf79361159ce inherit pub_methods_classts_1_1_cipher_chaining"><td class="memItemLeft" align="right" valign="top">virtual bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classts_1_1_cipher_chaining.html#a018fc2acb10778eee7b5bf79361159ce">setIV</a> (const void *<a class="el" href="classts_1_1_cipher_chaining.html#af057b5694ca7fd5a01d0fcc94f4344f2">iv</a>, size_t iv_length)</td></tr>
-<tr class="memdesc:a018fc2acb10778eee7b5bf79361159ce inherit pub_methods_classts_1_1_cipher_chaining"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set a new initialization vector.  <a href="classts_1_1_cipher_chaining.html#a018fc2acb10778eee7b5bf79361159ce">More...</a><br /></td></tr>
-<tr class="separator:a018fc2acb10778eee7b5bf79361159ce inherit pub_methods_classts_1_1_cipher_chaining"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:adc948d4c651ec7931971ba4838f1874e inherit pub_methods_classts_1_1_cipher_chaining"><td class="memItemLeft" align="right" valign="top">virtual bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classts_1_1_cipher_chaining.html#adc948d4c651ec7931971ba4838f1874e">setKey</a> (const void *key, size_t key_length, size_t rounds=0) override</td></tr>
-<tr class="memdesc:adc948d4c651ec7931971ba4838f1874e inherit pub_methods_classts_1_1_cipher_chaining"><td class="mdescLeft">&#160;</td><td class="mdescRight">Schedule a new key.  <a href="classts_1_1_cipher_chaining.html#adc948d4c651ec7931971ba4838f1874e">More...</a><br /></td></tr>
-<tr class="separator:adc948d4c651ec7931971ba4838f1874e inherit pub_methods_classts_1_1_cipher_chaining"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="inherit_header pub_methods_classts_1_1_block_cipher"><td colspan="2" onclick="javascript:toggleInherit('pub_methods_classts_1_1_block_cipher')"><img src="closed.png" alt="-"/>&#160;Public Member Functions inherited from <a class="el" href="classts_1_1_block_cipher.html">ts::BlockCipher</a></td></tr>
-<tr class="memitem:a32776913caff1adb32dcef6a6581ba3f inherit pub_methods_classts_1_1_block_cipher"><td class="memItemLeft" align="right" valign="top"><a id="a32776913caff1adb32dcef6a6581ba3f"></a>
-virtual&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classts_1_1_block_cipher.html#a32776913caff1adb32dcef6a6581ba3f">~BlockCipher</a> ()</td></tr>
-<tr class="memdesc:a32776913caff1adb32dcef6a6581ba3f inherit pub_methods_classts_1_1_block_cipher"><td class="mdescLeft">&#160;</td><td class="mdescRight">Virtual destructor. <br /></td></tr>
-<tr class="separator:a32776913caff1adb32dcef6a6581ba3f inherit pub_methods_classts_1_1_block_cipher"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a018fc2acb10778eee7b5bf79361159ce"><td class="memItemLeft" align="right" valign="top">virtual bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classts_1_1_cipher_chaining.html#a018fc2acb10778eee7b5bf79361159ce">setIV</a> (const void *<a class="el" href="classts_1_1_cipher_chaining.html#af057b5694ca7fd5a01d0fcc94f4344f2">iv</a>, size_t iv_length)</td></tr>
+<tr class="memdesc:a018fc2acb10778eee7b5bf79361159ce"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set a new initialization vector.  <a href="#a018fc2acb10778eee7b5bf79361159ce">More...</a><br /></td></tr>
+<tr class="separator:a018fc2acb10778eee7b5bf79361159ce"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:adc948d4c651ec7931971ba4838f1874e"><td class="memItemLeft" align="right" valign="top">virtual bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classts_1_1_cipher_chaining.html#adc948d4c651ec7931971ba4838f1874e">setKey</a> (const void *key, size_t key_length, size_t rounds=0) override</td></tr>
+<tr class="memdesc:adc948d4c651ec7931971ba4838f1874e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Schedule a new key.  <a href="#adc948d4c651ec7931971ba4838f1874e">More...</a><br /></td></tr>
+<tr class="separator:adc948d4c651ec7931971ba4838f1874e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="inherited"></a>
-Additional Inherited Members</h2></td></tr>
-<tr class="inherit_header pro_methods_classts_1_1_cipher_chaining_template"><td colspan="2" onclick="javascript:toggleInherit('pro_methods_classts_1_1_cipher_chaining_template')"><img src="closed.png" alt="-"/>&#160;Protected Member Functions inherited from <a class="el" href="classts_1_1_cipher_chaining_template.html">ts::CipherChainingTemplate&lt; CIPHER &gt;</a></td></tr>
-<tr class="memitem:ac385613eb3658b20f2b1105f0413ed9f inherit pro_methods_classts_1_1_cipher_chaining_template"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classts_1_1_cipher_chaining_template.html#ac385613eb3658b20f2b1105f0413ed9f">CipherChainingTemplate</a> (size_t iv_min_blocks=1, size_t iv_max_blocks=1, size_t work_blocks=1)</td></tr>
-<tr class="memdesc:ac385613eb3658b20f2b1105f0413ed9f inherit pro_methods_classts_1_1_cipher_chaining_template"><td class="mdescLeft">&#160;</td><td class="mdescRight">Constructor for subclasses.  <a href="classts_1_1_cipher_chaining_template.html#ac385613eb3658b20f2b1105f0413ed9f">More...</a><br /></td></tr>
-<tr class="separator:ac385613eb3658b20f2b1105f0413ed9f inherit pro_methods_classts_1_1_cipher_chaining_template"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:acb19d59e39b37ce3ef94818a19e6f4cb inherit pro_methods_classts_1_1_cipher_chaining_template"><td class="memItemLeft" align="right" valign="top"><a id="acb19d59e39b37ce3ef94818a19e6f4cb"></a>
-virtual&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classts_1_1_cipher_chaining_template.html#acb19d59e39b37ce3ef94818a19e6f4cb">~CipherChainingTemplate</a> ()</td></tr>
-<tr class="memdesc:acb19d59e39b37ce3ef94818a19e6f4cb inherit pro_methods_classts_1_1_cipher_chaining_template"><td class="mdescLeft">&#160;</td><td class="mdescRight">Destructor. <br /></td></tr>
-<tr class="separator:acb19d59e39b37ce3ef94818a19e6f4cb inherit pro_methods_classts_1_1_cipher_chaining_template"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="inherit_header pro_methods_classts_1_1_cipher_chaining"><td colspan="2" onclick="javascript:toggleInherit('pro_methods_classts_1_1_cipher_chaining')"><img src="closed.png" alt="-"/>&#160;Protected Member Functions inherited from <a class="el" href="classts_1_1_cipher_chaining.html">ts::CipherChaining</a></td></tr>
-<tr class="memitem:ab53699897cee46fc1b13940ace516dfa inherit pro_methods_classts_1_1_cipher_chaining"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classts_1_1_cipher_chaining.html#ab53699897cee46fc1b13940ace516dfa">CipherChaining</a> (<a class="el" href="classts_1_1_block_cipher.html">BlockCipher</a> *cipher=0, size_t iv_min_blocks=1, size_t iv_max_blocks=1, size_t work_blocks=1)</td></tr>
-<tr class="memdesc:ab53699897cee46fc1b13940ace516dfa inherit pro_methods_classts_1_1_cipher_chaining"><td class="mdescLeft">&#160;</td><td class="mdescRight">Constructor for subclasses.  <a href="classts_1_1_cipher_chaining.html#ab53699897cee46fc1b13940ace516dfa">More...</a><br /></td></tr>
-<tr class="separator:ab53699897cee46fc1b13940ace516dfa inherit pro_methods_classts_1_1_cipher_chaining"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="inherit_header pro_attribs_classts_1_1_cipher_chaining"><td colspan="2" onclick="javascript:toggleInherit('pro_attribs_classts_1_1_cipher_chaining')"><img src="closed.png" alt="-"/>&#160;Protected Attributes inherited from <a class="el" href="classts_1_1_cipher_chaining.html">ts::CipherChaining</a></td></tr>
-<tr class="memitem:a5ccb20cd987f3b4f6f52d2b9058c1d39 inherit pro_attribs_classts_1_1_cipher_chaining"><td class="memItemLeft" align="right" valign="top"><a id="a5ccb20cd987f3b4f6f52d2b9058c1d39"></a>
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pro-attribs"></a>
+Protected Attributes</h2></td></tr>
+<tr class="memitem:a5ccb20cd987f3b4f6f52d2b9058c1d39"><td class="memItemLeft" align="right" valign="top"><a id="a5ccb20cd987f3b4f6f52d2b9058c1d39"></a>
 <a class="el" href="classts_1_1_block_cipher.html">BlockCipher</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classts_1_1_cipher_chaining.html#a5ccb20cd987f3b4f6f52d2b9058c1d39">algo</a></td></tr>
-<tr class="memdesc:a5ccb20cd987f3b4f6f52d2b9058c1d39 inherit pro_attribs_classts_1_1_cipher_chaining"><td class="mdescLeft">&#160;</td><td class="mdescRight">An instance of the block cipher. <br /></td></tr>
-<tr class="separator:a5ccb20cd987f3b4f6f52d2b9058c1d39 inherit pro_attribs_classts_1_1_cipher_chaining"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ab28bff7436ac030b8e7f90c60bd11658 inherit pro_attribs_classts_1_1_cipher_chaining"><td class="memItemLeft" align="right" valign="top"><a id="ab28bff7436ac030b8e7f90c60bd11658"></a>
-size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classts_1_1_cipher_chaining.html#ab28bff7436ac030b8e7f90c60bd11658">block_size</a></td></tr>
-<tr class="memdesc:ab28bff7436ac030b8e7f90c60bd11658 inherit pro_attribs_classts_1_1_cipher_chaining"><td class="mdescLeft">&#160;</td><td class="mdescRight">Shortcut for algo-&gt;<a class="el" href="classts_1_1_cipher_chaining.html#a292212d99a48214146b7bacba10d0fb9" title="Size in bytes of the block used by the algorithm. ">blockSize()</a>. <br /></td></tr>
-<tr class="separator:ab28bff7436ac030b8e7f90c60bd11658 inherit pro_attribs_classts_1_1_cipher_chaining"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:af057b5694ca7fd5a01d0fcc94f4344f2 inherit pro_attribs_classts_1_1_cipher_chaining"><td class="memItemLeft" align="right" valign="top"><a id="af057b5694ca7fd5a01d0fcc94f4344f2"></a>
+<tr class="memdesc:a5ccb20cd987f3b4f6f52d2b9058c1d39"><td class="mdescLeft">&#160;</td><td class="mdescRight">An instance of the block cipher. <br /></td></tr>
+<tr class="separator:a5ccb20cd987f3b4f6f52d2b9058c1d39"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5d8b1c77ea30a6007449230c039a3ab4"><td class="memItemLeft" align="right" valign="top"><a id="a5d8b1c77ea30a6007449230c039a3ab4"></a>
+const size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classts_1_1_cipher_chaining.html#a5d8b1c77ea30a6007449230c039a3ab4">block_size</a></td></tr>
+<tr class="memdesc:a5d8b1c77ea30a6007449230c039a3ab4"><td class="mdescLeft">&#160;</td><td class="mdescRight">Shortcut for algo-&gt;<a class="el" href="classts_1_1_cipher_chaining.html#a292212d99a48214146b7bacba10d0fb9" title="Size in bytes of the block used by the algorithm. ">blockSize()</a>. <br /></td></tr>
+<tr class="separator:a5d8b1c77ea30a6007449230c039a3ab4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af057b5694ca7fd5a01d0fcc94f4344f2"><td class="memItemLeft" align="right" valign="top"><a id="af057b5694ca7fd5a01d0fcc94f4344f2"></a>
 <a class="el" href="classts_1_1_byte_block.html">ByteBlock</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classts_1_1_cipher_chaining.html#af057b5694ca7fd5a01d0fcc94f4344f2">iv</a></td></tr>
-<tr class="memdesc:af057b5694ca7fd5a01d0fcc94f4344f2 inherit pro_attribs_classts_1_1_cipher_chaining"><td class="mdescLeft">&#160;</td><td class="mdescRight">Current initialization vector. <br /></td></tr>
-<tr class="separator:af057b5694ca7fd5a01d0fcc94f4344f2 inherit pro_attribs_classts_1_1_cipher_chaining"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aa0fd340d96eb6830df7d04260a261588 inherit pro_attribs_classts_1_1_cipher_chaining"><td class="memItemLeft" align="right" valign="top"><a id="aa0fd340d96eb6830df7d04260a261588"></a>
+<tr class="memdesc:af057b5694ca7fd5a01d0fcc94f4344f2"><td class="mdescLeft">&#160;</td><td class="mdescRight">Current initialization vector. <br /></td></tr>
+<tr class="separator:af057b5694ca7fd5a01d0fcc94f4344f2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2f0ba8e5f0958c0ab5217ff03efd79c1"><td class="memItemLeft" align="right" valign="top"><a id="a2f0ba8e5f0958c0ab5217ff03efd79c1"></a>
+const size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classts_1_1_cipher_chaining.html#a2f0ba8e5f0958c0ab5217ff03efd79c1">iv_max_size</a></td></tr>
+<tr class="memdesc:a2f0ba8e5f0958c0ab5217ff03efd79c1"><td class="mdescLeft">&#160;</td><td class="mdescRight">IV max size in bytes. <br /></td></tr>
+<tr class="separator:a2f0ba8e5f0958c0ab5217ff03efd79c1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af135ca34ee98eca91bbea7ea836c48e6"><td class="memItemLeft" align="right" valign="top"><a id="af135ca34ee98eca91bbea7ea836c48e6"></a>
+const size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classts_1_1_cipher_chaining.html#af135ca34ee98eca91bbea7ea836c48e6">iv_min_size</a></td></tr>
+<tr class="memdesc:af135ca34ee98eca91bbea7ea836c48e6"><td class="mdescLeft">&#160;</td><td class="mdescRight">IV min size in bytes. <br /></td></tr>
+<tr class="separator:af135ca34ee98eca91bbea7ea836c48e6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa0fd340d96eb6830df7d04260a261588"><td class="memItemLeft" align="right" valign="top"><a id="aa0fd340d96eb6830df7d04260a261588"></a>
 <a class="el" href="classts_1_1_byte_block.html">ByteBlock</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classts_1_1_cipher_chaining.html#aa0fd340d96eb6830df7d04260a261588">work</a></td></tr>
-<tr class="memdesc:aa0fd340d96eb6830df7d04260a261588 inherit pro_attribs_classts_1_1_cipher_chaining"><td class="mdescLeft">&#160;</td><td class="mdescRight">Temporary working buffer. <br /></td></tr>
-<tr class="separator:aa0fd340d96eb6830df7d04260a261588 inherit pro_attribs_classts_1_1_cipher_chaining"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memdesc:aa0fd340d96eb6830df7d04260a261588"><td class="mdescLeft">&#160;</td><td class="mdescRight">Temporary working buffer. <br /></td></tr>
+<tr class="separator:aa0fd340d96eb6830df7d04260a261588"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><h3>template&lt;class CIPHER&gt;<br />
@@ -474,6 +470,516 @@ template&lt;class CIPHER &gt; </div>
 <dl class="section return"><dt>Returns</dt><dd>True on success, false on error. </dd></dl>
 
 <p>Implements <a class="el" href="classts_1_1_block_cipher.html#a4f5fa4cf33d98d9d249a0aa803e577cf">ts::BlockCipher</a>.</p>
+
+</div>
+</div>
+<a id="a292212d99a48214146b7bacba10d0fb9"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a292212d99a48214146b7bacba10d0fb9">&#9670;&nbsp;</a></span>blockSize()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual size_t ts::CipherChaining::blockSize </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">override</span><span class="mlabel">virtual</span><span class="mlabel">inherited</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Size in bytes of the block used by the algorithm. </p>
+<dl class="section return"><dt>Returns</dt><dd>The size in bytes of the block used by the algorithm. </dd></dl>
+
+<p>Implements <a class="el" href="classts_1_1_block_cipher.html#aa7d8372bd82068868f9925cbc78ea9f1">ts::BlockCipher</a>.</p>
+
+<p>Reimplemented in <a class="el" href="classts_1_1_d_v_b_c_s_a2.html#a542f9de54b94312041f7f2818d16cea2">ts::DVBCSA2</a>.</p>
+
+</div>
+</div>
+<a id="a84c2eeaf3d8a4396c8cb026a79517e49"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a84c2eeaf3d8a4396c8cb026a79517e49">&#9670;&nbsp;</a></span>minKeySize()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual size_t ts::CipherChaining::minKeySize </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">override</span><span class="mlabel">virtual</span><span class="mlabel">inherited</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Minimum key sizes in bytes. </p>
+<dl class="section return"><dt>Returns</dt><dd>The minimum key sizes in bytes. </dd></dl>
+
+<p>Implements <a class="el" href="classts_1_1_block_cipher.html#ad63fb12dfb541fc587ec8f936d184281">ts::BlockCipher</a>.</p>
+
+<p>Reimplemented in <a class="el" href="classts_1_1_d_v_b_c_s_a2.html#a582030943ca251f1742d25644bc5eb4b">ts::DVBCSA2</a>.</p>
+
+</div>
+</div>
+<a id="ad2d8774b302e9915f99e53dbe2b9cd2f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad2d8774b302e9915f99e53dbe2b9cd2f">&#9670;&nbsp;</a></span>maxKeySize()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual size_t ts::CipherChaining::maxKeySize </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">override</span><span class="mlabel">virtual</span><span class="mlabel">inherited</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Maximum key sizes in bytes. </p>
+<dl class="section return"><dt>Returns</dt><dd>The maximum key sizes in bytes. </dd></dl>
+
+<p>Implements <a class="el" href="classts_1_1_block_cipher.html#a292f5bf8aa9d88721dd86c249db44d21">ts::BlockCipher</a>.</p>
+
+<p>Reimplemented in <a class="el" href="classts_1_1_d_v_b_c_s_a2.html#ab1878755fa3c709fef8ae87d7ab8ee18">ts::DVBCSA2</a>.</p>
+
+</div>
+</div>
+<a id="aba86de9dfc56b07e635875592892f2a2"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aba86de9dfc56b07e635875592892f2a2">&#9670;&nbsp;</a></span>isValidKeySize()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual bool ts::CipherChaining::isValidKeySize </td>
+          <td>(</td>
+          <td class="paramtype">size_t&#160;</td>
+          <td class="paramname"><em>size</em></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">override</span><span class="mlabel">virtual</span><span class="mlabel">inherited</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Check if a size in bytes is a valid key size. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">size</td><td>Suggested key size in bytes. </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>True if <em>size</em> is a valid key size for the algorithm. </dd></dl>
+
+<p>Implements <a class="el" href="classts_1_1_block_cipher.html#a9a0800da419889257151ea1fb1bb82b3">ts::BlockCipher</a>.</p>
+
+<p>Reimplemented in <a class="el" href="classts_1_1_d_v_b_c_s_a2.html#a361c840277d22493f238513b77c7668d">ts::DVBCSA2</a>.</p>
+
+</div>
+</div>
+<a id="a0b6440d21660ced2a68a5eece499c681"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0b6440d21660ced2a68a5eece499c681">&#9670;&nbsp;</a></span>minRounds()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual size_t ts::CipherChaining::minRounds </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">override</span><span class="mlabel">virtual</span><span class="mlabel">inherited</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Minimum number of rounds for the algorithm. </p>
+<dl class="section return"><dt>Returns</dt><dd>The minimum number of rounds for the algorithm. </dd></dl>
+
+<p>Implements <a class="el" href="classts_1_1_block_cipher.html#ad0459f80f351298a7ec9c20ed5afa988">ts::BlockCipher</a>.</p>
+
+<p>Reimplemented in <a class="el" href="classts_1_1_d_v_b_c_s_a2.html#a70e3041bbdb06bdfca4758c45d853ff4">ts::DVBCSA2</a>.</p>
+
+</div>
+</div>
+<a id="a086d6fae6f3422e9e549aefdaab7d331"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a086d6fae6f3422e9e549aefdaab7d331">&#9670;&nbsp;</a></span>maxRounds()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual size_t ts::CipherChaining::maxRounds </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">override</span><span class="mlabel">virtual</span><span class="mlabel">inherited</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Maximum number of rounds for the algorithm. </p>
+<dl class="section return"><dt>Returns</dt><dd>The maximum number of rounds for the algorithm. </dd></dl>
+
+<p>Implements <a class="el" href="classts_1_1_block_cipher.html#a1692084a0aad853d1f7852400db7d944">ts::BlockCipher</a>.</p>
+
+<p>Reimplemented in <a class="el" href="classts_1_1_d_v_b_c_s_a2.html#a8aa62ebd5381284683acd700985e3de9">ts::DVBCSA2</a>.</p>
+
+</div>
+</div>
+<a id="a1f1daf9e41ef2f75a667fddc60b374dd"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1f1daf9e41ef2f75a667fddc60b374dd">&#9670;&nbsp;</a></span>defaultRounds()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual size_t ts::CipherChaining::defaultRounds </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">override</span><span class="mlabel">virtual</span><span class="mlabel">inherited</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Default number of rounds for the algorithm. </p>
+<dl class="section return"><dt>Returns</dt><dd>The default number of rounds for the algorithm. </dd></dl>
+
+<p>Implements <a class="el" href="classts_1_1_block_cipher.html#aa97dbd9df614bb0cd4ae5528266a5f92">ts::BlockCipher</a>.</p>
+
+<p>Reimplemented in <a class="el" href="classts_1_1_d_v_b_c_s_a2.html#a223139f94f285df75c9b195e7093bf36">ts::DVBCSA2</a>.</p>
+
+</div>
+</div>
+<a id="adc948d4c651ec7931971ba4838f1874e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#adc948d4c651ec7931971ba4838f1874e">&#9670;&nbsp;</a></span>setKey()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual bool ts::CipherChaining::setKey </td>
+          <td>(</td>
+          <td class="paramtype">const void *&#160;</td>
+          <td class="paramname"><em>key</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">size_t&#160;</td>
+          <td class="paramname"><em>key_length</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">size_t&#160;</td>
+          <td class="paramname"><em>rounds</em> = <code>0</code>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">override</span><span class="mlabel">virtual</span><span class="mlabel">inherited</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Schedule a new key. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">key</td><td>Address of key value. </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">key_length</td><td>Key length in bytes. </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">rounds</td><td>Requested number of rounds. If zero, the default is used. </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>True on success, false on error. </dd></dl>
+
+<p>Implements <a class="el" href="classts_1_1_block_cipher.html#a74f8c0fe8774363de8a9b3982352f32a">ts::BlockCipher</a>.</p>
+
+<p>Reimplemented in <a class="el" href="classts_1_1_d_v_b_c_s_a2.html#a5811e51ec2a3df44f64eb059e19fbf54">ts::DVBCSA2</a>.</p>
+
+</div>
+</div>
+<a id="a018fc2acb10778eee7b5bf79361159ce"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a018fc2acb10778eee7b5bf79361159ce">&#9670;&nbsp;</a></span>setIV()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual bool ts::CipherChaining::setIV </td>
+          <td>(</td>
+          <td class="paramtype">const void *&#160;</td>
+          <td class="paramname"><em>iv</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">size_t&#160;</td>
+          <td class="paramname"><em>iv_length</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">virtual</span><span class="mlabel">inherited</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Set a new initialization vector. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">iv</td><td>Address of IV. </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">iv_length</td><td>IV length in bytes. </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>True on success, false on error. </dd></dl>
+
+<p>Reimplemented in <a class="el" href="classts_1_1_d_v_s042.html#ae5f888d0a082c1020b91635f086fc3ed">ts::DVS042&lt; CIPHER &gt;</a>, <a class="el" href="classts_1_1_d_v_s042.html#ae5f888d0a082c1020b91635f086fc3ed">ts::DVS042&lt; AES &gt;</a>, <a class="el" href="classts_1_1_d_v_s042.html#ae5f888d0a082c1020b91635f086fc3ed">ts::DVS042&lt; DES &gt;</a>, and <a class="el" href="classts_1_1_d_v_b_c_s_a2.html#adbe1fca5c4f3227b89f55c2aee118544">ts::DVBCSA2</a>.</p>
+
+</div>
+</div>
+<a id="a8325f3c779715cf9489b250e1f56294b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8325f3c779715cf9489b250e1f56294b">&#9670;&nbsp;</a></span>minIVSize()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual size_t ts::CipherChaining::minIVSize </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">virtual</span><span class="mlabel">inherited</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Get the minimum IV sizes in bytes. </p>
+<dl class="section return"><dt>Returns</dt><dd>The minimum IV sizes in bytes. </dd></dl>
+
+<p>Reimplemented in <a class="el" href="classts_1_1_d_v_b_c_s_a2.html#a8ee93eaea26319d6e7a10112965cf4bb">ts::DVBCSA2</a>.</p>
+
+</div>
+</div>
+<a id="ac3bc8535776f3b6cf2874f65f5db615e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac3bc8535776f3b6cf2874f65f5db615e">&#9670;&nbsp;</a></span>maxIVSize()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual size_t ts::CipherChaining::maxIVSize </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">virtual</span><span class="mlabel">inherited</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Get the maximum IV sizes in bytes. </p>
+<dl class="section return"><dt>Returns</dt><dd>The maximum IV sizes in bytes. </dd></dl>
+
+<p>Reimplemented in <a class="el" href="classts_1_1_d_v_b_c_s_a2.html#ad6061c5a25075126e1a2496e8b9115b8">ts::DVBCSA2</a>.</p>
+
+</div>
+</div>
+<a id="a76e7ab6b0558bed387fb3e7ff01db7a8"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a76e7ab6b0558bed387fb3e7ff01db7a8">&#9670;&nbsp;</a></span>encryptInPlace()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual bool ts::BlockCipher::encryptInPlace </td>
+          <td>(</td>
+          <td class="paramtype">void *&#160;</td>
+          <td class="paramname"><em>data</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">size_t&#160;</td>
+          <td class="paramname"><em>data_length</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">size_t *&#160;</td>
+          <td class="paramname"><em>max_actual_length</em> = <code>0</code>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">virtual</span><span class="mlabel">inherited</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Encrypt one block of data in place. </p>
+<p>The default implementation is to call <a class="el" href="classts_1_1_c_t_s4.html#a7fa3267eb61fc24f8d4dc1e1554cf82b" title="Encrypt one block of data. ">encrypt()</a> and copy the data. A subclass may provide a more efficient implementation.</p>
+<p>For pure block ciphers such as <a class="el" href="classts_1_1_a_e_s.html" title="AES block cipher. ">AES</a> or <a class="el" href="classts_1_1_d_e_s.html" title="DES block cipher. ">DES</a>, the plain text and cipher text must have the block size of the algorithm. For cipher chainings, the acceptable message sizes depend on the chaining mode.</p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in,out]</td><td class="paramname">data</td><td>Address of data buffer to encrypt. </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">data_length</td><td>Input plain text length in bytes. </td></tr>
+    <tr><td class="paramdir">[in,out]</td><td class="paramname">max_actual_length</td><td>Optional, ignored if zero. On input, contain the maximum size of the data buffer, which can be larger than <em>data_length</em>. On output, receive the actual size of the encrypted data. For pure block ciphers, this is the same as <em>data_length</em>. For cipher chainings with padding, this can be larger. </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>True on success, false on error. </dd></dl>
+
+<p>Reimplemented in <a class="el" href="classts_1_1_d_v_b_c_s_a2.html#a13ff14abaff83e5a8c4ba9331ff55142">ts::DVBCSA2</a>.</p>
+
+</div>
+</div>
+<a id="a3e560b1b26c8c906cc4b507c7a3318bf"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3e560b1b26c8c906cc4b507c7a3318bf">&#9670;&nbsp;</a></span>decryptInPlace()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual bool ts::BlockCipher::decryptInPlace </td>
+          <td>(</td>
+          <td class="paramtype">void *&#160;</td>
+          <td class="paramname"><em>data</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">size_t&#160;</td>
+          <td class="paramname"><em>data_length</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">size_t *&#160;</td>
+          <td class="paramname"><em>max_actual_length</em> = <code>0</code>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">virtual</span><span class="mlabel">inherited</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Decrypt one block of data in place. </p>
+<p>The default implementation is to call <a class="el" href="classts_1_1_c_t_s4.html#a827bbdeeaa5e12de35c70cc2c3ef43d3" title="Decrypt one block of data. ">decrypt()</a> and copy the data. A subclass may provide a more efficient implementation.</p>
+<p>For pure block ciphers such as <a class="el" href="classts_1_1_a_e_s.html" title="AES block cipher. ">AES</a> or <a class="el" href="classts_1_1_d_e_s.html" title="DES block cipher. ">DES</a>, the plain text and cipher text must have the block size of the algorithm. For cipher chainings, the acceptable message sizes depend on the chaining mode.</p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in,out]</td><td class="paramname">data</td><td>Address of data buffer to decrypt. </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">data_length</td><td>Input cipher text length in bytes. </td></tr>
+    <tr><td class="paramdir">[in,out]</td><td class="paramname">max_actual_length</td><td>Optional, ignored if zero. On input, contain the maximum size of the data buffer, which can be larger than <em>data_length</em>. On output, receive the actual size of the decrypted data. For pure block ciphers, this is the same as <em>data_length</em>. For cipher chainings with padding, this can be smaller. </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>True on success, false on error. </dd></dl>
+
+<p>Reimplemented in <a class="el" href="classts_1_1_d_v_b_c_s_a2.html#ab58d8975fb32d372c35492e69948b58d">ts::DVBCSA2</a>.</p>
 
 </div>
 </div>

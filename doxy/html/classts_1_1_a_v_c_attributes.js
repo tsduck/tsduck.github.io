@@ -10,5 +10,8 @@ var classts_1_1_a_v_c_attributes =
     [ "level", "classts_1_1_a_v_c_attributes.html#a6fe878e807d84997bbc3242264b56340", null ],
     [ "levelName", "classts_1_1_a_v_c_attributes.html#aa4c9b060749d1014ed81a48c43758462", null ],
     [ "chromaFormat", "classts_1_1_a_v_c_attributes.html#a0aed5605df0a6e8596962b2d04423b3d", null ],
-    [ "chromaFormatName", "classts_1_1_a_v_c_attributes.html#aba4295bfd8ea08109b49a061d9aef24e", null ]
+    [ "chromaFormatName", "classts_1_1_a_v_c_attributes.html#aba4295bfd8ea08109b49a061d9aef24e", null ],
+    [ "isValid", "classts_1_1_a_v_c_attributes.html#ad6868f6d1e816357f133ee9ab4551336", null ],
+    [ "invalidate", "classts_1_1_a_v_c_attributes.html#a5a9feb6f6c5c825a29e4462b1bc7b13e", null ],
+    [ "_is_valid", "classts_1_1_a_v_c_attributes.html#ae93c110893c944d6f3d339252c83c0c9", null ]
 ];

@@ -1,5 +1,6 @@
 var searchData=
 [
+  ['idsa',['IDSA',['../classts_1_1_i_d_s_a.html',1,'ts']]],
   ['implementationerror',['ImplementationError',['../classts_1_1_implementation_error.html',1,'ts']]],
   ['incompatibletunerparameterserror',['IncompatibleTunerParametersError',['../classts_1_1_tuner_parameters_1_1_incompatible_tuner_parameters_error.html',1,'ts::TunerParameters']]],
   ['inputexecutor',['InputExecutor',['../classts_1_1tsp_1_1_input_executor.html',1,'ts::tsp']]],

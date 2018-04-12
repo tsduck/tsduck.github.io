@@ -37,7 +37,7 @@
  <tr style="height: 56px;">
   <td id="projectlogo"><img src="tsduck-32.png"/></td>
    <td id="projectalign"><span id="projectname">TSDuck</span>
-    <span id="projectnumber">Version 3.10-643</span>
+    <span id="projectnumber">Version 3.10-675</span>
     <span id="projectbrief">(TSDuck - The MPEG Transport Stream Toolkit)</span>
    </td>
    <td>        <div id="MSearchBox" class="MSearchBoxInactive">
@@ -203,6 +203,7 @@ $(document).ready(function(){initNavTree('functions_b.html','');});
 , <a class="el" href="classts_1_1_t_s_analyzer_1_1_service_context.html#afb060c44727b011b9f2c71dbeeaab1ff">ts::TSAnalyzer::ServiceContext</a>
 , <a class="el" href="classts_1_1_t_s_p.html#a10a9c41c52def5cc3fe731a263201aa0">ts::TSP</a>
 , <a class="el" href="classts_1_1tsp_1_1_options.html#a1ba2a29e2064156743b634196d55603c">ts::tsp::Options</a>
+, <a class="el" href="classts_1_1_t_s_speed_metrics.html#aca0b1ffe74cda132839b9bf8626d0ac5">ts::TSSpeedMetrics</a>
 </li>
 <li>bitrate188()
 : <a class="el" href="classts_1_1_p_c_r_analyzer.html#a7c0b67818a1b10334a999b8ebff7bba4">ts::PCRAnalyzer</a>
@@ -253,7 +254,7 @@ $(document).ready(function(){initNavTree('functions_b.html','');});
 : <a class="el" href="classts_1_1_a_e_s.html#a2d0050041737d61816fdcb25272f326e">ts::AES</a>
 </li>
 <li>block_size
-: <a class="el" href="classts_1_1_cipher_chaining.html#ab28bff7436ac030b8e7f90c60bd11658">ts::CipherChaining</a>
+: <a class="el" href="classts_1_1_cipher_chaining.html#a5d8b1c77ea30a6007449230c039a3ab4">ts::CipherChaining</a>
 </li>
 <li>BLOCK_SIZE
 : <a class="el" href="classts_1_1_d_e_s.html#a457223ce101f73ece77bfd680b3b34e0">ts::DES</a>
@@ -268,6 +269,7 @@ $(document).ready(function(){initNavTree('functions_b.html','');});
 , <a class="el" href="classts_1_1_block_cipher.html#aa7d8372bd82068868f9925cbc78ea9f1">ts::BlockCipher</a>
 , <a class="el" href="classts_1_1_cipher_chaining.html#a292212d99a48214146b7bacba10d0fb9">ts::CipherChaining</a>
 , <a class="el" href="classts_1_1_d_e_s.html#a5c826def716510e58c6d23a3be08db13">ts::DES</a>
+, <a class="el" href="classts_1_1_d_v_b_c_s_a2.html#a542f9de54b94312041f7f2818d16cea2">ts::DVBCSA2</a>
 , <a class="el" href="classts_1_1_hash.html#aaefc19245758693f8d8e0682e8b70ec7">ts::Hash</a>
 , <a class="el" href="classts_1_1_m_d5.html#a9e5631a5708e96d8594f5ada1e8edf7f">ts::MD5</a>
 , <a class="el" href="classts_1_1_s_h_a1.html#a8f667a971c9389ef4763c51ed654e940">ts::SHA1</a>
@@ -304,7 +306,8 @@ $(document).ready(function(){initNavTree('functions_b.html','');});
 : <a class="el" href="classts_1_1tsp_1_1_options.html#a4e18798e0ee8780c0cf106bcb2162c61">ts::tsp::Options</a>
 </li>
 <li>buildErrorResponse()
-: <a class="el" href="classts_1_1ecmgscs_1_1_protocol.html#a403f4c4171305cc2d113a51ec554a54f">ts::ecmgscs::Protocol</a>
+: <a class="el" href="classts_1_1duck_1_1_protocol.html#aa4ee19d55139b1ae551a835d32fa8cd7">ts::duck::Protocol</a>
+, <a class="el" href="classts_1_1ecmgscs_1_1_protocol.html#a403f4c4171305cc2d113a51ec554a54f">ts::ecmgscs::Protocol</a>
 , <a class="el" href="classts_1_1emmgmux_1_1_protocol.html#ac1b1ce60fe2d0be58590e1f2af3daa90">ts::emmgmux::Protocol</a>
 , <a class="el" href="classts_1_1tlv_1_1_message_factory.html#a3012363325984e5909e55d1783b52429">ts::tlv::MessageFactory</a>
 , <a class="el" href="classts_1_1tlv_1_1_protocol.html#a4f2acea43aece207dfa124ae1e2c54a2">ts::tlv::Protocol</a>
@@ -331,6 +334,8 @@ $(document).ready(function(){initNavTree('functions_b.html','');});
 , <a class="el" href="classts_1_1_component_descriptor.html#ae96f53df09a207c7f701d5a17d50f4ea">ts::ComponentDescriptor</a>
 , <a class="el" href="classts_1_1_content_descriptor.html#aa050b554962b33a1640f30cc863b6695">ts::ContentDescriptor</a>
 , <a class="el" href="classts_1_1_country_availability_descriptor.html#ab144f7826eaa6c59fae96bce5e6caae2">ts::CountryAvailabilityDescriptor</a>
+, <a class="el" href="classts_1_1_c_p_descriptor.html#ade8dc8afb6e491198e292e95fd59d342">ts::CPDescriptor</a>
+, <a class="el" href="classts_1_1_c_p_identifier_descriptor.html#a358b44d2f89f4efadd19c541fbc4d099">ts::CPIdentifierDescriptor</a>
 , <a class="el" href="classts_1_1_cue_identifier_descriptor.html#a443e19cd11702eec130e8618c292be3c">ts::CueIdentifierDescriptor</a>
 , <a class="el" href="classts_1_1_data_broadcast_descriptor.html#ad5e74b6ba3f3d14ed6fd53dd95162780">ts::DataBroadcastDescriptor</a>
 , <a class="el" href="classts_1_1_data_broadcast_id_descriptor.html#acba93236b804107ab104712d0027fe74">ts::DataBroadcastIdDescriptor</a>
@@ -368,6 +373,7 @@ $(document).ready(function(){initNavTree('functions_b.html','');});
 , <a class="el" href="classts_1_1_r_s_t.html#a287c54f08fcab0adcc3aa041dd3fbff2">ts::RST</a>
 , <a class="el" href="classts_1_1_s2_satellite_delivery_system_descriptor.html#a0f494d4757289fd743d80a0dbfcf45d3">ts::S2SatelliteDeliverySystemDescriptor</a>
 , <a class="el" href="classts_1_1_satellite_delivery_system_descriptor.html#ae18ea6f5499b3b94664128c07d737084">ts::SatelliteDeliverySystemDescriptor</a>
+, <a class="el" href="classts_1_1_scrambling_descriptor.html#aa9f4869c71e09373d6d271a1a2378c06">ts::ScramblingDescriptor</a>
 , <a class="el" href="classts_1_1_s_d_t.html#a907fdab18630fcf974fcfbf1e74106f9">ts::SDT</a>
 , <a class="el" href="classts_1_1_service_descriptor.html#a219165c6414d4f12c2ace0263e9c8fbc">ts::ServiceDescriptor</a>
 , <a class="el" href="classts_1_1_service_list_descriptor.html#a9b1e108dd29eec9d15ef7cab26ff0427">ts::ServiceListDescriptor</a>
@@ -400,7 +406,7 @@ $(document).ready(function(){initNavTree('functions_b.html','');});
 , <a class="el" href="classts_1_1_bit_stream.html#a6c9099a7dbf1db52355840bd2c10d117">ts::BitStream</a>
 </li>
 <li>ByteBlock()
-: <a class="el" href="classts_1_1_byte_block.html#a8f770fd8a3a83e56c7f0f8e30d9e0cb6">ts::ByteBlock</a>
+: <a class="el" href="classts_1_1_byte_block.html#a99c213014fb618fe3867e7e17bc2f6c9">ts::ByteBlock</a>
 </li>
 <li>BYTES
 : <a class="el" href="classts_1_1_i_pv6_address.html#af9ba3e476c9122ae5f4f5bb17ba626c2">ts::IPv6Address</a>

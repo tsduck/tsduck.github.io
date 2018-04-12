@@ -10,9 +10,18 @@ var classts_1_1_tuner_parameters_a_t_s_c =
     [ "zapFieldCount", "classts_1_1_tuner_parameters_a_t_s_c.html#a742e69ab1474057fbe97f1577b686b4c", null ],
     [ "copy", "classts_1_1_tuner_parameters_a_t_s_c.html#a39a5548d0b9b4657053cc9e3da146767", null ],
     [ "fromArgs", "classts_1_1_tuner_parameters_a_t_s_c.html#accc6a67ef21fd1edc8fc771d575ae0c2", null ],
+    [ "tunerType", "classts_1_1_tuner_parameters_a_t_s_c.html#affe1023cc47c6c53f70b4c815b161a17", null ],
+    [ "convertToDektecModulation", "classts_1_1_tuner_parameters_a_t_s_c.html#a7a2c4b582bde341f274400cebbb023d1", null ],
+    [ "fromTunerArgs", "classts_1_1_tuner_parameters_a_t_s_c.html#aab3c3bf6a5ea94f2222251c13e4cee1f", null ],
+    [ "Factory", "classts_1_1_tuner_parameters_a_t_s_c.html#ae9090da5be9aa433810481bd8317ab10", null ],
+    [ "TheoreticalBitrateForModulation", "classts_1_1_tuner_parameters_a_t_s_c.html#aa861e39ff04cb97b5c001c42f2688f3f", null ],
+    [ "StoreInRepository", "classts_1_1_tuner_parameters_a_t_s_c.html#a59cdb7e078e0cd0e812a6b054c0db09f", null ],
+    [ "RetrieveFromRepository", "classts_1_1_tuner_parameters_a_t_s_c.html#a74525d608dc46bd56cf1cb716f3f07d7", null ],
+    [ "EraseFromRepository", "classts_1_1_tuner_parameters_a_t_s_c.html#a5bfffe6bd0400ddb02c65d9cc745be58", null ],
     [ "frequency", "classts_1_1_tuner_parameters_a_t_s_c.html#a5b6f1c7095a1fc39df6e9d259babffe8", null ],
     [ "inversion", "classts_1_1_tuner_parameters_a_t_s_c.html#aac6f11d3364b139ef35fa20165e90061", null ],
     [ "modulation", "classts_1_1_tuner_parameters_a_t_s_c.html#a26e0b3fb5a3ad80fc27b608139bc3514", null ],
     [ "DEFAULT_INVERSION", "classts_1_1_tuner_parameters_a_t_s_c.html#aa62129ac4928aea3923d3f37ec1fa896", null ],
-    [ "DEFAULT_MODULATION", "classts_1_1_tuner_parameters_a_t_s_c.html#aaa49a00ebb53f12dea471d7b2fdc3963", null ]
+    [ "DEFAULT_MODULATION", "classts_1_1_tuner_parameters_a_t_s_c.html#aaa49a00ebb53f12dea471d7b2fdc3963", null ],
+    [ "_tuner_type", "classts_1_1_tuner_parameters_a_t_s_c.html#a4a9c22b2d5977b6e9eee540b2c0e720b", null ]
 ];

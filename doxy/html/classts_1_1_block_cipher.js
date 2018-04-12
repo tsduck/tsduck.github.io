@@ -11,5 +11,7 @@ var classts_1_1_block_cipher =
     [ "defaultRounds", "classts_1_1_block_cipher.html#aa97dbd9df614bb0cd4ae5528266a5f92", null ],
     [ "setKey", "classts_1_1_block_cipher.html#a74f8c0fe8774363de8a9b3982352f32a", null ],
     [ "encrypt", "classts_1_1_block_cipher.html#ae4dbd6ee08d2e2d37f881f109d316fe0", null ],
-    [ "decrypt", "classts_1_1_block_cipher.html#a4f5fa4cf33d98d9d249a0aa803e577cf", null ]
+    [ "decrypt", "classts_1_1_block_cipher.html#a4f5fa4cf33d98d9d249a0aa803e577cf", null ],
+    [ "encryptInPlace", "classts_1_1_block_cipher.html#a76e7ab6b0558bed387fb3e7ff01db7a8", null ],
+    [ "decryptInPlace", "classts_1_1_block_cipher.html#a3e560b1b26c8c906cc4b507c7a3318bf", null ]
 ];

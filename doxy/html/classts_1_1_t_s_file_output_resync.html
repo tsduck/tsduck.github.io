@@ -37,7 +37,7 @@
  <tr style="height: 56px;">
   <td id="projectlogo"><img src="tsduck-32.png"/></td>
    <td id="projectalign"><span id="projectname">TSDuck</span>
-    <span id="projectnumber">Version 3.10-643</span>
+    <span id="projectnumber">Version 3.10-675</span>
     <span id="projectbrief">(TSDuck - The MPEG Transport Stream Toolkit)</span>
    </td>
    <td>        <div id="MSearchBox" class="MSearchBoxInactive">
@@ -135,45 +135,36 @@ Public Member Functions</h2></td></tr>
 virtual&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classts_1_1_t_s_file_output_resync.html#a9277384dfc0237e618f0eb9dc241b20e">~TSFileOutputResync</a> ()</td></tr>
 <tr class="memdesc:a9277384dfc0237e618f0eb9dc241b20e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Destructor. <br /></td></tr>
 <tr class="separator:a9277384dfc0237e618f0eb9dc241b20e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3a2210cf257390b36a2aaadfe3872b01"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classts_1_1_t_s_file_output.html#a3a2210cf257390b36a2aaadfe3872b01">close</a> (<a class="el" href="classts_1_1_report.html">Report</a> &amp;report)</td></tr>
+<tr class="memdesc:a3a2210cf257390b36a2aaadfe3872b01"><td class="mdescLeft">&#160;</td><td class="mdescRight">Close the file.  <a href="#a3a2210cf257390b36a2aaadfe3872b01">More...</a><br /></td></tr>
+<tr class="separator:a3a2210cf257390b36a2aaadfe3872b01"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0c4309ad89b02b55d84f1c01d81d5abe"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classts_1_1_t_s_file_output.html#a0c4309ad89b02b55d84f1c01d81d5abe">getErrorSeverityLevel</a> () const</td></tr>
+<tr class="memdesc:a0c4309ad89b02b55d84f1c01d81d5abe"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the severity level for error reporting.  <a href="#a0c4309ad89b02b55d84f1c01d81d5abe">More...</a><br /></td></tr>
+<tr class="separator:a0c4309ad89b02b55d84f1c01d81d5abe"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1c2878949f70457a779f330937c2e946"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classts_1_1_u_string.html">UString</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classts_1_1_t_s_file_output.html#a1c2878949f70457a779f330937c2e946">getFileName</a> () const</td></tr>
+<tr class="memdesc:a1c2878949f70457a779f330937c2e946"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the file name.  <a href="#a1c2878949f70457a779f330937c2e946">More...</a><br /></td></tr>
+<tr class="separator:a1c2878949f70457a779f330937c2e946"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7e6b9ee0579c6ffdcc836d8eda28c46d"><td class="memItemLeft" align="right" valign="top"><a class="el" href="namespacets.html#a9cdec7a120783847f53fbf71e5eb49f6">PacketCounter</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classts_1_1_t_s_file_output.html#a7e6b9ee0579c6ffdcc836d8eda28c46d">getPacketCount</a> () const</td></tr>
+<tr class="memdesc:a7e6b9ee0579c6ffdcc836d8eda28c46d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the number of written packets.  <a href="#a7e6b9ee0579c6ffdcc836d8eda28c46d">More...</a><br /></td></tr>
+<tr class="separator:a7e6b9ee0579c6ffdcc836d8eda28c46d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad0ba435a2c80ce74f2a1e4cca69565a8"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classts_1_1_t_s_file_output.html#ad0ba435a2c80ce74f2a1e4cca69565a8">isOpen</a> () const</td></tr>
+<tr class="memdesc:ad0ba435a2c80ce74f2a1e4cca69565a8"><td class="mdescLeft">&#160;</td><td class="mdescRight">Check if the file is open.  <a href="#ad0ba435a2c80ce74f2a1e4cca69565a8">More...</a><br /></td></tr>
+<tr class="separator:ad0ba435a2c80ce74f2a1e4cca69565a8"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a339c13d118b8ada8e9d3f6731e2fdcfa"><td class="memItemLeft" align="right" valign="top">virtual bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classts_1_1_t_s_file_output_resync.html#a339c13d118b8ada8e9d3f6731e2fdcfa">open</a> (const <a class="el" href="classts_1_1_u_string.html">UString</a> &amp;filename, bool append, bool keep, <a class="el" href="classts_1_1_report.html">Report</a> &amp;report) override</td></tr>
 <tr class="memdesc:a339c13d118b8ada8e9d3f6731e2fdcfa"><td class="mdescLeft">&#160;</td><td class="mdescRight">Open or create the file.  <a href="#a339c13d118b8ada8e9d3f6731e2fdcfa">More...</a><br /></td></tr>
 <tr class="separator:a339c13d118b8ada8e9d3f6731e2fdcfa"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7504698df9a1a1d623835e5bc25cb753"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classts_1_1_t_s_file_output.html#a7504698df9a1a1d623835e5bc25cb753">setErrorSeverityLevel</a> (int level)</td></tr>
+<tr class="memdesc:a7504698df9a1a1d623835e5bc25cb753"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set the severity level for error reporting.  <a href="#a7504698df9a1a1d623835e5bc25cb753">More...</a><br /></td></tr>
+<tr class="separator:a7504698df9a1a1d623835e5bc25cb753"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ab3221ff0a09e4e83b38476733980acbf"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classts_1_1_t_s_file_output_resync.html#ab3221ff0a09e4e83b38476733980acbf">write</a> (<a class="el" href="structts_1_1_t_s_packet.html">TSPacket</a> *buffer, size_t packet_count, <a class="el" href="classts_1_1_report.html">Report</a> &amp;report)</td></tr>
 <tr class="memdesc:ab3221ff0a09e4e83b38476733980acbf"><td class="mdescLeft">&#160;</td><td class="mdescRight">Write TS packets to the file.  <a href="#ab3221ff0a09e4e83b38476733980acbf">More...</a><br /></td></tr>
 <tr class="separator:ab3221ff0a09e4e83b38476733980acbf"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a329833ebeaf2281a57f3f86a31433fe4"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classts_1_1_t_s_file_output.html#a329833ebeaf2281a57f3f86a31433fe4">write</a> (const <a class="el" href="structts_1_1_t_s_packet.html">TSPacket</a> *buffer, size_t packet_count, <a class="el" href="classts_1_1_report.html">Report</a> &amp;report)</td></tr>
+<tr class="memdesc:a329833ebeaf2281a57f3f86a31433fe4"><td class="mdescLeft">&#160;</td><td class="mdescRight">Write TS packets to the file.  <a href="#a329833ebeaf2281a57f3f86a31433fe4">More...</a><br /></td></tr>
+<tr class="separator:a329833ebeaf2281a57f3f86a31433fe4"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a8de2ca9aa7781a62a0c6a03a7160781c"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classts_1_1_t_s_file_output_resync.html#a8de2ca9aa7781a62a0c6a03a7160781c">write</a> (<a class="el" href="structts_1_1_t_s_packet.html">TSPacket</a> *buffer, size_t packet_count, <a class="el" href="namespacets.html#a90e2f5f7d7011d87cc23a8fef31958dc">PID</a> pid, <a class="el" href="classts_1_1_report.html">Report</a> &amp;report)</td></tr>
 <tr class="memdesc:a8de2ca9aa7781a62a0c6a03a7160781c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Write TS packets to the file.  <a href="#a8de2ca9aa7781a62a0c6a03a7160781c">More...</a><br /></td></tr>
 <tr class="separator:a8de2ca9aa7781a62a0c6a03a7160781c"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="inherit_header pub_methods_classts_1_1_t_s_file_output"><td colspan="2" onclick="javascript:toggleInherit('pub_methods_classts_1_1_t_s_file_output')"><img src="closed.png" alt="-"/>&#160;Public Member Functions inherited from <a class="el" href="classts_1_1_t_s_file_output.html">ts::TSFileOutput</a></td></tr>
-<tr class="memitem:ae30e8dbe225ff8ab770ee78a533a4433 inherit pub_methods_classts_1_1_t_s_file_output"><td class="memItemLeft" align="right" valign="top"><a id="ae30e8dbe225ff8ab770ee78a533a4433"></a>
-&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classts_1_1_t_s_file_output.html#ae30e8dbe225ff8ab770ee78a533a4433">TSFileOutput</a> ()</td></tr>
-<tr class="memdesc:ae30e8dbe225ff8ab770ee78a533a4433 inherit pub_methods_classts_1_1_t_s_file_output"><td class="mdescLeft">&#160;</td><td class="mdescRight">Default constructor. <br /></td></tr>
-<tr class="separator:ae30e8dbe225ff8ab770ee78a533a4433 inherit pub_methods_classts_1_1_t_s_file_output"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a4253800cb699dca7e429f1fb38ce77d8 inherit pub_methods_classts_1_1_t_s_file_output"><td class="memItemLeft" align="right" valign="top"><a id="a4253800cb699dca7e429f1fb38ce77d8"></a>
-virtual&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classts_1_1_t_s_file_output.html#a4253800cb699dca7e429f1fb38ce77d8">~TSFileOutput</a> ()</td></tr>
-<tr class="memdesc:a4253800cb699dca7e429f1fb38ce77d8 inherit pub_methods_classts_1_1_t_s_file_output"><td class="mdescLeft">&#160;</td><td class="mdescRight">Destructor. <br /></td></tr>
-<tr class="separator:a4253800cb699dca7e429f1fb38ce77d8 inherit pub_methods_classts_1_1_t_s_file_output"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a3a2210cf257390b36a2aaadfe3872b01 inherit pub_methods_classts_1_1_t_s_file_output"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classts_1_1_t_s_file_output.html#a3a2210cf257390b36a2aaadfe3872b01">close</a> (<a class="el" href="classts_1_1_report.html">Report</a> &amp;report)</td></tr>
-<tr class="memdesc:a3a2210cf257390b36a2aaadfe3872b01 inherit pub_methods_classts_1_1_t_s_file_output"><td class="mdescLeft">&#160;</td><td class="mdescRight">Close the file.  <a href="classts_1_1_t_s_file_output.html#a3a2210cf257390b36a2aaadfe3872b01">More...</a><br /></td></tr>
-<tr class="separator:a3a2210cf257390b36a2aaadfe3872b01 inherit pub_methods_classts_1_1_t_s_file_output"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a0c4309ad89b02b55d84f1c01d81d5abe inherit pub_methods_classts_1_1_t_s_file_output"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classts_1_1_t_s_file_output.html#a0c4309ad89b02b55d84f1c01d81d5abe">getErrorSeverityLevel</a> () const</td></tr>
-<tr class="memdesc:a0c4309ad89b02b55d84f1c01d81d5abe inherit pub_methods_classts_1_1_t_s_file_output"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the severity level for error reporting.  <a href="classts_1_1_t_s_file_output.html#a0c4309ad89b02b55d84f1c01d81d5abe">More...</a><br /></td></tr>
-<tr class="separator:a0c4309ad89b02b55d84f1c01d81d5abe inherit pub_methods_classts_1_1_t_s_file_output"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a1c2878949f70457a779f330937c2e946 inherit pub_methods_classts_1_1_t_s_file_output"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classts_1_1_u_string.html">UString</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classts_1_1_t_s_file_output.html#a1c2878949f70457a779f330937c2e946">getFileName</a> () const</td></tr>
-<tr class="memdesc:a1c2878949f70457a779f330937c2e946 inherit pub_methods_classts_1_1_t_s_file_output"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the file name.  <a href="classts_1_1_t_s_file_output.html#a1c2878949f70457a779f330937c2e946">More...</a><br /></td></tr>
-<tr class="separator:a1c2878949f70457a779f330937c2e946 inherit pub_methods_classts_1_1_t_s_file_output"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a7e6b9ee0579c6ffdcc836d8eda28c46d inherit pub_methods_classts_1_1_t_s_file_output"><td class="memItemLeft" align="right" valign="top"><a class="el" href="namespacets.html#a9cdec7a120783847f53fbf71e5eb49f6">PacketCounter</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classts_1_1_t_s_file_output.html#a7e6b9ee0579c6ffdcc836d8eda28c46d">getPacketCount</a> () const</td></tr>
-<tr class="memdesc:a7e6b9ee0579c6ffdcc836d8eda28c46d inherit pub_methods_classts_1_1_t_s_file_output"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the number of written packets.  <a href="classts_1_1_t_s_file_output.html#a7e6b9ee0579c6ffdcc836d8eda28c46d">More...</a><br /></td></tr>
-<tr class="separator:a7e6b9ee0579c6ffdcc836d8eda28c46d inherit pub_methods_classts_1_1_t_s_file_output"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ad0ba435a2c80ce74f2a1e4cca69565a8 inherit pub_methods_classts_1_1_t_s_file_output"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classts_1_1_t_s_file_output.html#ad0ba435a2c80ce74f2a1e4cca69565a8">isOpen</a> () const</td></tr>
-<tr class="memdesc:ad0ba435a2c80ce74f2a1e4cca69565a8 inherit pub_methods_classts_1_1_t_s_file_output"><td class="mdescLeft">&#160;</td><td class="mdescRight">Check if the file is open.  <a href="classts_1_1_t_s_file_output.html#ad0ba435a2c80ce74f2a1e4cca69565a8">More...</a><br /></td></tr>
-<tr class="separator:ad0ba435a2c80ce74f2a1e4cca69565a8 inherit pub_methods_classts_1_1_t_s_file_output"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a7504698df9a1a1d623835e5bc25cb753 inherit pub_methods_classts_1_1_t_s_file_output"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classts_1_1_t_s_file_output.html#a7504698df9a1a1d623835e5bc25cb753">setErrorSeverityLevel</a> (int level)</td></tr>
-<tr class="memdesc:a7504698df9a1a1d623835e5bc25cb753 inherit pub_methods_classts_1_1_t_s_file_output"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set the severity level for error reporting.  <a href="classts_1_1_t_s_file_output.html#a7504698df9a1a1d623835e5bc25cb753">More...</a><br /></td></tr>
-<tr class="separator:a7504698df9a1a1d623835e5bc25cb753 inherit pub_methods_classts_1_1_t_s_file_output"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a329833ebeaf2281a57f3f86a31433fe4 inherit pub_methods_classts_1_1_t_s_file_output"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classts_1_1_t_s_file_output.html#a329833ebeaf2281a57f3f86a31433fe4">write</a> (const <a class="el" href="structts_1_1_t_s_packet.html">TSPacket</a> *buffer, size_t packet_count, <a class="el" href="classts_1_1_report.html">Report</a> &amp;report)</td></tr>
-<tr class="memdesc:a329833ebeaf2281a57f3f86a31433fe4 inherit pub_methods_classts_1_1_t_s_file_output"><td class="mdescLeft">&#160;</td><td class="mdescRight">Write TS packets to the file.  <a href="classts_1_1_t_s_file_output.html#a329833ebeaf2281a57f3f86a31433fe4">More...</a><br /></td></tr>
-<tr class="separator:a329833ebeaf2281a57f3f86a31433fe4 inherit pub_methods_classts_1_1_t_s_file_output"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>A specialized form of transport stream output file with resynchronized PID and continuity counters. </p>
@@ -242,7 +233,7 @@ virtual&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="c
 </div>
 </div>
 <a id="ab3221ff0a09e4e83b38476733980acbf"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ab3221ff0a09e4e83b38476733980acbf">&#9670;&nbsp;</a></span>write() <span class="overload">[1/2]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#ab3221ff0a09e4e83b38476733980acbf">&#9670;&nbsp;</a></span>write() <span class="overload">[1/3]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -287,7 +278,7 @@ virtual&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="c
 </div>
 </div>
 <a id="a8de2ca9aa7781a62a0c6a03a7160781c"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a8de2ca9aa7781a62a0c6a03a7160781c">&#9670;&nbsp;</a></span>write() <span class="overload">[2/2]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a8de2ca9aa7781a62a0c6a03a7160781c">&#9670;&nbsp;</a></span>write() <span class="overload">[2/3]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -335,6 +326,240 @@ virtual&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="c
   </dd>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>True on success, false on error. </dd></dl>
+
+</div>
+</div>
+<a id="a3a2210cf257390b36a2aaadfe3872b01"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3a2210cf257390b36a2aaadfe3872b01">&#9670;&nbsp;</a></span>close()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool ts::TSFileOutput::close </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classts_1_1_report.html">Report</a> &amp;&#160;</td>
+          <td class="paramname"><em>report</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inherited</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Close the file. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in,out]</td><td class="paramname">report</td><td>Where to report errors. </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>True on success, false on error. </dd></dl>
+
+</div>
+</div>
+<a id="a329833ebeaf2281a57f3f86a31433fe4"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a329833ebeaf2281a57f3f86a31433fe4">&#9670;&nbsp;</a></span>write() <span class="overload">[3/3]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool ts::TSFileOutput::write </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="structts_1_1_t_s_packet.html">TSPacket</a> *&#160;</td>
+          <td class="paramname"><em>buffer</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">size_t&#160;</td>
+          <td class="paramname"><em>packet_count</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classts_1_1_report.html">Report</a> &amp;&#160;</td>
+          <td class="paramname"><em>report</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inherited</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Write TS packets to the file. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">buffer</td><td>Address of first packet to write. </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">packet_count</td><td>Number of packets to write. </td></tr>
+    <tr><td class="paramdir">[in,out]</td><td class="paramname">report</td><td>Where to report errors. </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>True on success, false on error. </dd></dl>
+
+</div>
+</div>
+<a id="ad0ba435a2c80ce74f2a1e4cca69565a8"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad0ba435a2c80ce74f2a1e4cca69565a8">&#9670;&nbsp;</a></span>isOpen()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool ts::TSFileOutput::isOpen </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">inherited</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Check if the file is open. </p>
+<dl class="section return"><dt>Returns</dt><dd>True if the file is open. </dd></dl>
+
+</div>
+</div>
+<a id="a0c4309ad89b02b55d84f1c01d81d5abe"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0c4309ad89b02b55d84f1c01d81d5abe">&#9670;&nbsp;</a></span>getErrorSeverityLevel()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">int ts::TSFileOutput::getErrorSeverityLevel </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">inherited</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Get the severity level for error reporting. </p>
+<dl class="section return"><dt>Returns</dt><dd>The severity level for error reporting. </dd></dl>
+
+</div>
+</div>
+<a id="a7504698df9a1a1d623835e5bc25cb753"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7504698df9a1a1d623835e5bc25cb753">&#9670;&nbsp;</a></span>setErrorSeverityLevel()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void ts::TSFileOutput::setErrorSeverityLevel </td>
+          <td>(</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>level</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">inherited</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Set the severity level for error reporting. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">level</td><td>The severity level for error reporting. The default is Error. </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="a1c2878949f70457a779f330937c2e946"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1c2878949f70457a779f330937c2e946">&#9670;&nbsp;</a></span>getFileName()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="classts_1_1_u_string.html">UString</a> ts::TSFileOutput::getFileName </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">inherited</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Get the file name. </p>
+<dl class="section return"><dt>Returns</dt><dd>The file name. </dd></dl>
+
+</div>
+</div>
+<a id="a7e6b9ee0579c6ffdcc836d8eda28c46d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7e6b9ee0579c6ffdcc836d8eda28c46d">&#9670;&nbsp;</a></span>getPacketCount()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="namespacets.html#a9cdec7a120783847f53fbf71e5eb49f6">PacketCounter</a> ts::TSFileOutput::getPacketCount </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">inherited</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Get the number of written packets. </p>
+<dl class="section return"><dt>Returns</dt><dd>The number of written packets. </dd></dl>
 
 </div>
 </div>

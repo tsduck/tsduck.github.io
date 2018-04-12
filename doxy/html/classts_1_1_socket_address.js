@@ -24,5 +24,18 @@ var classts_1_1_socket_address =
     [ "match", "classts_1_1_socket_address.html#a9c00d7ba01c7e93b31bea85e5ac73fbd", null ],
     [ "toString", "classts_1_1_socket_address.html#aedca33398899d635a3619e74f36c4a3f", null ],
     [ "operator<", "classts_1_1_socket_address.html#ad3680479292b7f19e358365dd6f35bab", null ],
-    [ "AnyPort", "classts_1_1_socket_address.html#ae659295ea425a1977d3e7ec895562589", null ]
+    [ "operator==", "classts_1_1_socket_address.html#a1eacc2b13a5ba0b03a2c228c7995b0e8", null ],
+    [ "operator!=", "classts_1_1_socket_address.html#a95c04078e1673a1d5526e2676d94a117", null ],
+    [ "address", "classts_1_1_socket_address.html#a2f8abf43214d6f9d94ae5908dc04ebed", null ],
+    [ "setAddress", "classts_1_1_socket_address.html#a1b6e8088f3846d8b1c631f5b30a6ecf5", null ],
+    [ "setAddress", "classts_1_1_socket_address.html#ad40f4d37fba7d7fcc68776cd82dcdbb0", null ],
+    [ "isMulticast", "classts_1_1_socket_address.html#a28c23bf6e13a1e6992acfc1b6a4bbc49", null ],
+    [ "hasAddress", "classts_1_1_socket_address.html#a0a3991e70f7cf7fb31477c311d903a83", null ],
+    [ "copy", "classts_1_1_socket_address.html#a0dab4b908a1d6b570cb16f6bef6ea06b", null ],
+    [ "copy", "classts_1_1_socket_address.html#a7790a2b7c3a476293cb86b944c4642e7", null ],
+    [ "match", "classts_1_1_socket_address.html#afecf6b8f7bfc908d748e7aedf979989f", null ],
+    [ "operator<", "classts_1_1_socket_address.html#a9879e74995f015673270ea167f617e11", null ],
+    [ "AnyPort", "classts_1_1_socket_address.html#ae659295ea425a1977d3e7ec895562589", null ],
+    [ "AnyAddress", "classts_1_1_socket_address.html#af4294b58b0d7a036aea174cbc84114aa", null ],
+    [ "LocalHost", "classts_1_1_socket_address.html#ab5bcdcc7f5b401cf1be8f17d51935994", null ]
 ];

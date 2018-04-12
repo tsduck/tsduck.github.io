@@ -37,7 +37,7 @@
  <tr style="height: 56px;">
   <td id="projectlogo"><img src="tsduck-32.png"/></td>
    <td id="projectalign"><span id="projectname">TSDuck</span>
-    <span id="projectnumber">Version 3.10-643</span>
+    <span id="projectnumber">Version 3.10-675</span>
     <span id="projectbrief">(TSDuck - The MPEG Transport Stream Toolkit)</span>
    </td>
    <td>        <div id="MSearchBox" class="MSearchBoxInactive">
@@ -174,10 +174,10 @@ $(document).ready(function(){initNavTree('functions_func_c.html','');});
 , <a class="el" href="classts_1_1emmgmux_1_1_channel_test.html#a86d314d5f33ae095949e4ce9c8669366">ts::emmgmux::ChannelTest</a>
 </li>
 <li>checkCADescriptor()
-: <a class="el" href="classts_1_1_abstract_descrambler.html#a446a64fdb9a12ee7ce15918e6822f9c9">ts::AbstractDescrambler</a>
+: <a class="el" href="classts_1_1_abstract_descrambler.html#adc9b35adc2bd1cbc17ba299107b40dec">ts::AbstractDescrambler</a>
 </li>
 <li>checkECM()
-: <a class="el" href="classts_1_1_abstract_descrambler.html#af25312eb70a7da3d61ad57516a31fadf">ts::AbstractDescrambler</a>
+: <a class="el" href="classts_1_1_abstract_descrambler.html#a71c85c90799d5abcd776f5fc621f4348">ts::AbstractDescrambler</a>
 </li>
 <li>checkXMLName()
 : <a class="el" href="classts_1_1_abstract_signalization.html#aef9dabba2270e0ac6d4c43f13bb13243">ts::AbstractSignalization</a>
@@ -253,6 +253,9 @@ $(document).ready(function(){initNavTree('functions_func_c.html','');});
 </li>
 <li>clearCAControlled()
 : <a class="el" href="classts_1_1_service.html#aae8ef088d09df11ab7b3321ff38c2ce8">ts::Service</a>
+</li>
+<li>ClearECM()
+: <a class="el" href="classts_1_1duck_1_1_clear_e_c_m.html#a942b1ab9ad0f6d91a9e94e706b78c720">ts::duck::ClearECM</a>
 </li>
 <li>clearEITpfPresent()
 : <a class="el" href="classts_1_1_service.html#a6232f15bcd8b7f2628c8ebdfc6d42158">ts::Service</a>
@@ -340,7 +343,7 @@ $(document).ready(function(){initNavTree('functions_func_c.html','');});
 : <a class="el" href="classts_1_1tlv_1_1_message_factory.html#a274671473db3fdf2297aa612f22f880f">ts::tlv::MessageFactory</a>
 </li>
 <li>Comment()
-: <a class="el" href="classts_1_1xml_1_1_comment.html#af338a5fcebe6d485c0efc9aeb8347c65">ts::xml::Comment</a>
+: <a class="el" href="classts_1_1xml_1_1_comment.html#aae5894ae1191f90805e1246fef4943a0">ts::xml::Comment</a>
 </li>
 <li>completed()
 : <a class="el" href="classts_1_1_p_s_i_logger.html#ab492b129234a1649e3d1d847ff1aa7aa">ts::PSILogger</a>
@@ -433,11 +436,11 @@ $(document).ready(function(){initNavTree('functions_func_c.html','');});
 : <a class="el" href="classts_1_1_binary_table.html#ab53dbfa85cde4d0935ba6da172cbf691">ts::BinaryTable</a>
 , <a class="el" href="classts_1_1_byte_block.html#a1821e56f4042abeb785411fd236c7d29">ts::ByteBlock</a>
 , <a class="el" href="classts_1_1_descriptor.html#abcc71356ad0d9fe5fb4ea8d2f6f07050">ts::Descriptor</a>
-, <a class="el" href="classts_1_1_i_p_address.html#a7790a2b7c3a476293cb86b944c4642e7">ts::IPAddress</a>
-, <a class="el" href="classts_1_1_m_p_e_packet.html#abe85c0b8e58b6af689501caefc5ee431">ts::MPEPacket</a>
+, <a class="el" href="classts_1_1_i_p_address.html#ad2de8d35ced82185438243a5fcd1fa2a">ts::IPAddress</a>
+, <a class="el" href="classts_1_1_m_p_e_packet.html#a959302d1284205ce5537e73e1ec01e0e">ts::MPEPacket</a>
 , <a class="el" href="classts_1_1_p_e_s_packet.html#a9ad9886097d316aa7f89c8daac3b16d9">ts::PESPacket</a>
 , <a class="el" href="classts_1_1_section.html#a51824dc8a4acff0e178d4dfb684dfbff">ts::Section</a>
-, <a class="el" href="classts_1_1_socket_address.html#a01e14f2680905579988be9a4650842b1">ts::SocketAddress</a>
+, <a class="el" href="classts_1_1_socket_address.html#ad803ede21797c04b9b949f0fc8b70d4c">ts::SocketAddress</a>
 , <a class="el" href="classts_1_1_t2_m_i_packet.html#aa19651f2b0de33272aeaf685d84746bd">ts::T2MIPacket</a>
 , <a class="el" href="classts_1_1_tuner_parameters.html#a2d08dad187262c7eaaa9fb3b4df2caa5">ts::TunerParameters</a>
 , <a class="el" href="classts_1_1_tuner_parameters_a_t_s_c.html#a39a5548d0b9b4657053cc9e3da146767">ts::TunerParametersATSC</a>
@@ -461,10 +464,16 @@ $(document).ready(function(){initNavTree('functions_func_c.html','');});
 : <a class="el" href="classts_1_1_country_availability_descriptor.html#ade02bc9ffeb4fa04a7f724ed62b5cd4e">ts::CountryAvailabilityDescriptor</a>
 </li>
 <li>CPCWCombination()
-: <a class="el" href="structts_1_1ecmgscs_1_1_c_p_c_w_combination.html#a6889f80afdce84815f5ff5ef00231149">ts::ecmgscs::CPCWCombination</a>
+: <a class="el" href="structts_1_1ecmgscs_1_1_c_p_c_w_combination.html#a524cba5bea6ff5be0908ffa04260fa51">ts::ecmgscs::CPCWCombination</a>
+</li>
+<li>CPDescriptor()
+: <a class="el" href="classts_1_1_c_p_descriptor.html#a1acd9fbb10e42a12d3d07a4fbbc9cd9c">ts::CPDescriptor</a>
+</li>
+<li>CPIdentifierDescriptor()
+: <a class="el" href="classts_1_1_c_p_identifier_descriptor.html#a2867f5578803908d4ff74f9cb72df9c4">ts::CPIdentifierDescriptor</a>
 </li>
 <li>CRC32()
-: <a class="el" href="classts_1_1_c_r_c32.html#a798649068682efac81b77e5bb618bf51">ts::CRC32</a>
+: <a class="el" href="classts_1_1_c_r_c32.html#adebe6a8e95d84361f47e8d55b1b5c073">ts::CRC32</a>
 </li>
 <li>createInstance()
 : <a class="el" href="classts_1_1_com_ptr.html#a8fe07cf177af3029bb38c28263e4d705">ts::ComPtr&lt; COMCLASS &gt;</a>
@@ -500,7 +509,7 @@ $(document).ready(function(){initNavTree('functions_func_c.html','');});
 : <a class="el" href="classts_1_1_c_t_s4.html#a4c24bcb4ee671c05273929e22480d40f">ts::CTS4&lt; CIPHER &gt;</a>
 </li>
 <li>CueIdentifierDescriptor()
-: <a class="el" href="classts_1_1_cue_identifier_descriptor.html#ae488d6060095076a098b29c5a8c07211">ts::CueIdentifierDescriptor</a>
+: <a class="el" href="classts_1_1_cue_identifier_descriptor.html#a119b79e417433fadb2fc560e5cafc913">ts::CueIdentifierDescriptor</a>
 </li>
 <li>currentBitOffset()
 : <a class="el" href="classts_1_1_bit_stream.html#a85728af7f2ecb47a7e45b5636242ff2e">ts::BitStream</a>
@@ -513,6 +522,9 @@ $(document).ready(function(){initNavTree('functions_func_c.html','');});
 </li>
 <li>CWProvision()
 : <a class="el" href="classts_1_1ecmgscs_1_1_c_w_provision.html#aea38a087fa001cb67794ce6314e6e27f">ts::ecmgscs::CWProvision</a>
+</li>
+<li>cwSize()
+: <a class="el" href="classts_1_1_t_s_scrambling.html#a3125e22e44f1de6c4bdda076f830104b">ts::TSScrambling</a>
 </li>
 <li>CyclingPacketizer()
 : <a class="el" href="classts_1_1_cycling_packetizer.html#a713c760e60073892707b1d8e75b3e887">ts::CyclingPacketizer</a>

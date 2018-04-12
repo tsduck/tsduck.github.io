@@ -37,7 +37,7 @@
  <tr style="height: 56px;">
   <td id="projectlogo"><img src="tsduck-32.png"/></td>
    <td id="projectalign"><span id="projectname">TSDuck</span>
-    <span id="projectnumber">Version 3.10-643</span>
+    <span id="projectnumber">Version 3.10-675</span>
     <span id="projectbrief">(TSDuck - The MPEG Transport Stream Toolkit)</span>
    </td>
    <td>        <div id="MSearchBox" class="MSearchBoxInactive">
@@ -100,9 +100,12 @@ $(document).ready(function(){initNavTree('classts_1_1_tuner_parameters_a_t_s_c.h
 <div class="header">
   <div class="summary">
 <a href="#pub-methods">Public Member Functions</a> &#124;
+<a href="#pub-static-methods">Static Public Member Functions</a> &#124;
 <a href="#pub-attribs">Public Attributes</a> &#124;
 <a href="#pub-static-attribs">Static Public Attributes</a> &#124;
 <a href="#pro-methods">Protected Member Functions</a> &#124;
+<a href="#pro-static-methods">Static Protected Member Functions</a> &#124;
+<a href="#pro-attribs">Protected Attributes</a> &#124;
 <a href="classts_1_1_tuner_parameters_a_t_s_c-members.html">List of all members</a>  </div>
   <div class="headertitle">
 <div class="title">ts::TunerParametersATSC Class Reference</div>  </div>
@@ -136,12 +139,18 @@ Public Member Functions</h2></td></tr>
 &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classts_1_1_tuner_parameters_a_t_s_c.html#a199712570a1b71620fac2d504cd3fe36">TunerParametersATSC</a> ()</td></tr>
 <tr class="memdesc:a199712570a1b71620fac2d504cd3fe36"><td class="mdescLeft">&#160;</td><td class="mdescRight">Default constructor. <br /></td></tr>
 <tr class="separator:a199712570a1b71620fac2d504cd3fe36"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7a2c4b582bde341f274400cebbb023d1"><td class="memItemLeft" align="right" valign="top">virtual bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classts_1_1_tuner_parameters.html#a7a2c4b582bde341f274400cebbb023d1">convertToDektecModulation</a> (int &amp;modulation_type, int &amp;param0, int &amp;param1, int &amp;param2) const</td></tr>
+<tr class="memdesc:a7a2c4b582bde341f274400cebbb023d1"><td class="mdescLeft">&#160;</td><td class="mdescRight">Attempt to convert the tuning parameters in modulation parameters for Dektec modulator cards.  <a href="#a7a2c4b582bde341f274400cebbb023d1">More...</a><br /></td></tr>
+<tr class="separator:a7a2c4b582bde341f274400cebbb023d1"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a39a5548d0b9b4657053cc9e3da146767"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classts_1_1_tuner_parameters_a_t_s_c.html#a39a5548d0b9b4657053cc9e3da146767">copy</a> (const <a class="el" href="classts_1_1_tuner_parameters.html">TunerParameters</a> &amp;) override</td></tr>
 <tr class="memdesc:a39a5548d0b9b4657053cc9e3da146767"><td class="mdescLeft">&#160;</td><td class="mdescRight">Virtual assignment.  <a href="#a39a5548d0b9b4657053cc9e3da146767">More...</a><br /></td></tr>
 <tr class="separator:a39a5548d0b9b4657053cc9e3da146767"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aa4ccce974e7fd9a1f0d442f4a8997356"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classts_1_1_tuner_parameters_a_t_s_c.html#aa4ccce974e7fd9a1f0d442f4a8997356">displayParameters</a> (std::ostream &amp;strm, const <a class="el" href="classts_1_1_u_string.html">UString</a> &amp;<a class="el" href="namespacets.html#aff99f8309d75b5f2e1a061d10edcb70a">margin</a>=<a class="el" href="classts_1_1_u_string.html">UString</a>(), bool verbose=false) const override</td></tr>
 <tr class="memdesc:aa4ccce974e7fd9a1f0d442f4a8997356"><td class="mdescLeft">&#160;</td><td class="mdescRight">Display a description of the modulation paramters on a stream, line by line.  <a href="#aa4ccce974e7fd9a1f0d442f4a8997356">More...</a><br /></td></tr>
 <tr class="separator:aa4ccce974e7fd9a1f0d442f4a8997356"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aab3c3bf6a5ea94f2222251c13e4cee1f"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classts_1_1_tuner_parameters.html#aab3c3bf6a5ea94f2222251c13e4cee1f">fromTunerArgs</a> (const <a class="el" href="classts_1_1_tuner_args.html">TunerArgs</a> &amp;args, <a class="el" href="classts_1_1_report.html">Report</a> &amp;report)</td></tr>
+<tr class="memdesc:aab3c3bf6a5ea94f2222251c13e4cee1f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Extract options from a <a class="el" href="classts_1_1_tuner_args.html" title="Command line arguments for DVB tuners. ">TunerArgs</a>, applying defaults when necessary.  <a href="#aab3c3bf6a5ea94f2222251c13e4cee1f">More...</a><br /></td></tr>
+<tr class="separator:aab3c3bf6a5ea94f2222251c13e4cee1f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a8798d369a48db7fdac5e536e01b2903c"><td class="memItemLeft" align="right" valign="top">virtual bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classts_1_1_tuner_parameters_a_t_s_c.html#a8798d369a48db7fdac5e536e01b2903c">fromZapFormat</a> (const <a class="el" href="classts_1_1_u_string.html">UString</a> &amp;zap) override</td></tr>
 <tr class="memdesc:a8798d369a48db7fdac5e536e01b2903c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Decode a Linux DVB "zap" specification.  <a href="#a8798d369a48db7fdac5e536e01b2903c">More...</a><br /></td></tr>
 <tr class="separator:a8798d369a48db7fdac5e536e01b2903c"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -157,28 +166,27 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a6e6a31c602800138ebf7363a471cb1cc"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="classts_1_1_u_string.html">UString</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classts_1_1_tuner_parameters_a_t_s_c.html#a6e6a31c602800138ebf7363a471cb1cc">toZapFormat</a> () const override</td></tr>
 <tr class="memdesc:a6e6a31c602800138ebf7363a471cb1cc"><td class="mdescLeft">&#160;</td><td class="mdescRight">Format the tuner parameters according to the Linux DVB "zap" format.  <a href="#a6e6a31c602800138ebf7363a471cb1cc">More...</a><br /></td></tr>
 <tr class="separator:a6e6a31c602800138ebf7363a471cb1cc"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:affe1023cc47c6c53f70b4c815b161a17"><td class="memItemLeft" align="right" valign="top"><a class="el" href="namespacets.html#a0bfe51c83f30216c9beaac7fc31f96d2">TunerType</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classts_1_1_tuner_parameters.html#affe1023cc47c6c53f70b4c815b161a17">tunerType</a> () const</td></tr>
+<tr class="memdesc:affe1023cc47c6c53f70b4c815b161a17"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the tuner type (depends on subclass).  <a href="#affe1023cc47c6c53f70b4c815b161a17">More...</a><br /></td></tr>
+<tr class="separator:affe1023cc47c6c53f70b4c815b161a17"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a742e69ab1474057fbe97f1577b686b4c"><td class="memItemLeft" align="right" valign="top">virtual size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classts_1_1_tuner_parameters_a_t_s_c.html#a742e69ab1474057fbe97f1577b686b4c">zapFieldCount</a> () const override</td></tr>
 <tr class="memdesc:a742e69ab1474057fbe97f1577b686b4c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Expected number of fields (separated by ':') in a Linux DVB "zap" specification.  <a href="#a742e69ab1474057fbe97f1577b686b4c">More...</a><br /></td></tr>
 <tr class="separator:a742e69ab1474057fbe97f1577b686b4c"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="inherit_header pub_methods_classts_1_1_tuner_parameters"><td colspan="2" onclick="javascript:toggleInherit('pub_methods_classts_1_1_tuner_parameters')"><img src="closed.png" alt="-"/>&#160;Public Member Functions inherited from <a class="el" href="classts_1_1_tuner_parameters.html">ts::TunerParameters</a></td></tr>
-<tr class="memitem:a553975697debfc9d148c4c8a28d0266e inherit pub_methods_classts_1_1_tuner_parameters"><td class="memItemLeft" align="right" valign="top"><a id="a553975697debfc9d148c4c8a28d0266e"></a>
-virtual&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classts_1_1_tuner_parameters.html#a553975697debfc9d148c4c8a28d0266e">~TunerParameters</a> ()</td></tr>
-<tr class="memdesc:a553975697debfc9d148c4c8a28d0266e inherit pub_methods_classts_1_1_tuner_parameters"><td class="mdescLeft">&#160;</td><td class="mdescRight">Virtual destructor. <br /></td></tr>
-<tr class="separator:a553975697debfc9d148c4c8a28d0266e inherit pub_methods_classts_1_1_tuner_parameters"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a7a2c4b582bde341f274400cebbb023d1 inherit pub_methods_classts_1_1_tuner_parameters"><td class="memItemLeft" align="right" valign="top">virtual bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classts_1_1_tuner_parameters.html#a7a2c4b582bde341f274400cebbb023d1">convertToDektecModulation</a> (int &amp;modulation_type, int &amp;param0, int &amp;param1, int &amp;param2) const</td></tr>
-<tr class="memdesc:a7a2c4b582bde341f274400cebbb023d1 inherit pub_methods_classts_1_1_tuner_parameters"><td class="mdescLeft">&#160;</td><td class="mdescRight">Attempt to convert the tuning parameters in modulation parameters for Dektec modulator cards.  <a href="classts_1_1_tuner_parameters.html#a7a2c4b582bde341f274400cebbb023d1">More...</a><br /></td></tr>
-<tr class="separator:a7a2c4b582bde341f274400cebbb023d1 inherit pub_methods_classts_1_1_tuner_parameters"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aab3c3bf6a5ea94f2222251c13e4cee1f inherit pub_methods_classts_1_1_tuner_parameters"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classts_1_1_tuner_parameters.html#aab3c3bf6a5ea94f2222251c13e4cee1f">fromTunerArgs</a> (const <a class="el" href="classts_1_1_tuner_args.html">TunerArgs</a> &amp;args, <a class="el" href="classts_1_1_report.html">Report</a> &amp;report)</td></tr>
-<tr class="memdesc:aab3c3bf6a5ea94f2222251c13e4cee1f inherit pub_methods_classts_1_1_tuner_parameters"><td class="mdescLeft">&#160;</td><td class="mdescRight">Extract options from a <a class="el" href="classts_1_1_tuner_args.html" title="Command line arguments for DVB tuners. ">TunerArgs</a>, applying defaults when necessary.  <a href="classts_1_1_tuner_parameters.html#aab3c3bf6a5ea94f2222251c13e4cee1f">More...</a><br /></td></tr>
-<tr class="separator:aab3c3bf6a5ea94f2222251c13e4cee1f inherit pub_methods_classts_1_1_tuner_parameters"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:affe1023cc47c6c53f70b4c815b161a17 inherit pub_methods_classts_1_1_tuner_parameters"><td class="memItemLeft" align="right" valign="top"><a class="el" href="namespacets.html#a0bfe51c83f30216c9beaac7fc31f96d2">TunerType</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classts_1_1_tuner_parameters.html#affe1023cc47c6c53f70b4c815b161a17">tunerType</a> () const</td></tr>
-<tr class="memdesc:affe1023cc47c6c53f70b4c815b161a17 inherit pub_methods_classts_1_1_tuner_parameters"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the tuner type (depends on subclass).  <a href="classts_1_1_tuner_parameters.html#affe1023cc47c6c53f70b4c815b161a17">More...</a><br /></td></tr>
-<tr class="separator:affe1023cc47c6c53f70b4c815b161a17 inherit pub_methods_classts_1_1_tuner_parameters"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="inherit_header pub_methods_classts_1_1_object"><td colspan="2" onclick="javascript:toggleInherit('pub_methods_classts_1_1_object')"><img src="closed.png" alt="-"/>&#160;Public Member Functions inherited from <a class="el" href="classts_1_1_object.html">ts::Object</a></td></tr>
-<tr class="memitem:ab780f69cc1f977ad5e05e5c45836b983 inherit pub_methods_classts_1_1_object"><td class="memItemLeft" align="right" valign="top"><a id="ab780f69cc1f977ad5e05e5c45836b983"></a>
-virtual&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classts_1_1_object.html#ab780f69cc1f977ad5e05e5c45836b983">~Object</a> ()</td></tr>
-<tr class="memdesc:ab780f69cc1f977ad5e05e5c45836b983 inherit pub_methods_classts_1_1_object"><td class="mdescLeft">&#160;</td><td class="mdescRight">Virtual destructor. <br /></td></tr>
-<tr class="separator:ab780f69cc1f977ad5e05e5c45836b983 inherit pub_methods_classts_1_1_object"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-static-methods"></a>
+Static Public Member Functions</h2></td></tr>
+<tr class="memitem:a5bfffe6bd0400ddb02c65d9cc745be58"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classts_1_1_object.html#a5bfffe6bd0400ddb02c65d9cc745be58">EraseFromRepository</a> (const <a class="el" href="classts_1_1_u_string.html">UString</a> &amp;name)</td></tr>
+<tr class="memdesc:a5bfffe6bd0400ddb02c65d9cc745be58"><td class="mdescLeft">&#160;</td><td class="mdescRight">Erase an object from the static thread-safe repository.  <a href="#a5bfffe6bd0400ddb02c65d9cc745be58">More...</a><br /></td></tr>
+<tr class="separator:a5bfffe6bd0400ddb02c65d9cc745be58"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae9090da5be9aa433810481bd8317ab10"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="classts_1_1_tuner_parameters.html">TunerParameters</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classts_1_1_tuner_parameters.html#ae9090da5be9aa433810481bd8317ab10">Factory</a> (<a class="el" href="namespacets.html#a0bfe51c83f30216c9beaac7fc31f96d2">TunerType</a> type)</td></tr>
+<tr class="memdesc:ae9090da5be9aa433810481bd8317ab10"><td class="mdescLeft">&#160;</td><td class="mdescRight">Allocate a <a class="el" href="classts_1_1_tuner_parameters.html" title="Abstract base class for DVB tuners parameters. ">TunerParameters</a> of the appropriate subclass, based on a tuner type.  <a href="#ae9090da5be9aa433810481bd8317ab10">More...</a><br /></td></tr>
+<tr class="separator:ae9090da5be9aa433810481bd8317ab10"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a74525d608dc46bd56cf1cb716f3f07d7"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="namespacets.html#aef9230eac85f53f8285807d94c99c80f">ObjectPtr</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classts_1_1_object.html#a74525d608dc46bd56cf1cb716f3f07d7">RetrieveFromRepository</a> (const <a class="el" href="classts_1_1_u_string.html">UString</a> &amp;name)</td></tr>
+<tr class="memdesc:a74525d608dc46bd56cf1cb716f3f07d7"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the safe pointer to an <a class="el" href="classts_1_1_object.html" title="Abstract base class for objects which can be stored in a repository. ">Object</a> in the static thread-safe repository.  <a href="#a74525d608dc46bd56cf1cb716f3f07d7">More...</a><br /></td></tr>
+<tr class="separator:a74525d608dc46bd56cf1cb716f3f07d7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a59cdb7e078e0cd0e812a6b054c0db09f"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="namespacets.html#aef9230eac85f53f8285807d94c99c80f">ObjectPtr</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classts_1_1_object.html#a59cdb7e078e0cd0e812a6b054c0db09f">StoreInRepository</a> (const <a class="el" href="classts_1_1_u_string.html">UString</a> &amp;name, const <a class="el" href="namespacets.html#aef9230eac85f53f8285807d94c99c80f">ObjectPtr</a> &amp;value)</td></tr>
+<tr class="memdesc:a59cdb7e078e0cd0e812a6b054c0db09f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Store a safe pointer to an <a class="el" href="classts_1_1_object.html" title="Abstract base class for objects which can be stored in a repository. ">Object</a> in a static thread-safe repository.  <a href="#a59cdb7e078e0cd0e812a6b054c0db09f">More...</a><br /></td></tr>
+<tr class="separator:a59cdb7e078e0cd0e812a6b054c0db09f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-attribs"></a>
 Public Attributes</h2></td></tr>
@@ -211,36 +219,19 @@ Protected Member Functions</h2></td></tr>
 <tr class="memitem:accc6a67ef21fd1edc8fc771d575ae0c2"><td class="memItemLeft" align="right" valign="top">virtual bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classts_1_1_tuner_parameters_a_t_s_c.html#accc6a67ef21fd1edc8fc771d575ae0c2">fromArgs</a> (const <a class="el" href="classts_1_1_tuner_args.html">TunerArgs</a> &amp;, <a class="el" href="classts_1_1_report.html">Report</a> &amp;) override</td></tr>
 <tr class="memdesc:accc6a67ef21fd1edc8fc771d575ae0c2"><td class="mdescLeft">&#160;</td><td class="mdescRight">Subclass-specific part of <a class="el" href="classts_1_1_tuner_parameters.html#aab3c3bf6a5ea94f2222251c13e4cee1f" title="Extract options from a TunerArgs, applying defaults when necessary. ">fromTunerArgs()</a>.  <a href="#accc6a67ef21fd1edc8fc771d575ae0c2">More...</a><br /></td></tr>
 <tr class="separator:accc6a67ef21fd1edc8fc771d575ae0c2"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="inherit_header pro_methods_classts_1_1_tuner_parameters"><td colspan="2" onclick="javascript:toggleInherit('pro_methods_classts_1_1_tuner_parameters')"><img src="closed.png" alt="-"/>&#160;Protected Member Functions inherited from <a class="el" href="classts_1_1_tuner_parameters.html">ts::TunerParameters</a></td></tr>
-<tr class="memitem:a61540a6154bb71f46e4a5b5b3fb73b8d inherit pro_methods_classts_1_1_tuner_parameters"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classts_1_1_tuner_parameters.html#a61540a6154bb71f46e4a5b5b3fb73b8d">TunerParameters</a> (<a class="el" href="namespacets.html#a0bfe51c83f30216c9beaac7fc31f96d2">TunerType</a> tuner_type)</td></tr>
-<tr class="memdesc:a61540a6154bb71f46e4a5b5b3fb73b8d inherit pro_methods_classts_1_1_tuner_parameters"><td class="mdescLeft">&#160;</td><td class="mdescRight">Constructor for subclasses.  <a href="classts_1_1_tuner_parameters.html#a61540a6154bb71f46e4a5b5b3fb73b8d">More...</a><br /></td></tr>
-<tr class="separator:a61540a6154bb71f46e4a5b5b3fb73b8d inherit pro_methods_classts_1_1_tuner_parameters"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="inherited"></a>
-Additional Inherited Members</h2></td></tr>
-<tr class="inherit_header pub_static_methods_classts_1_1_tuner_parameters"><td colspan="2" onclick="javascript:toggleInherit('pub_static_methods_classts_1_1_tuner_parameters')"><img src="closed.png" alt="-"/>&#160;Static Public Member Functions inherited from <a class="el" href="classts_1_1_tuner_parameters.html">ts::TunerParameters</a></td></tr>
-<tr class="memitem:ae9090da5be9aa433810481bd8317ab10 inherit pub_static_methods_classts_1_1_tuner_parameters"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="classts_1_1_tuner_parameters.html">TunerParameters</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classts_1_1_tuner_parameters.html#ae9090da5be9aa433810481bd8317ab10">Factory</a> (<a class="el" href="namespacets.html#a0bfe51c83f30216c9beaac7fc31f96d2">TunerType</a> type)</td></tr>
-<tr class="memdesc:ae9090da5be9aa433810481bd8317ab10 inherit pub_static_methods_classts_1_1_tuner_parameters"><td class="mdescLeft">&#160;</td><td class="mdescRight">Allocate a <a class="el" href="classts_1_1_tuner_parameters.html" title="Abstract base class for DVB tuners parameters. ">TunerParameters</a> of the appropriate subclass, based on a tuner type.  <a href="classts_1_1_tuner_parameters.html#ae9090da5be9aa433810481bd8317ab10">More...</a><br /></td></tr>
-<tr class="separator:ae9090da5be9aa433810481bd8317ab10 inherit pub_static_methods_classts_1_1_tuner_parameters"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="inherit_header pub_static_methods_classts_1_1_object"><td colspan="2" onclick="javascript:toggleInherit('pub_static_methods_classts_1_1_object')"><img src="closed.png" alt="-"/>&#160;Static Public Member Functions inherited from <a class="el" href="classts_1_1_object.html">ts::Object</a></td></tr>
-<tr class="memitem:a5bfffe6bd0400ddb02c65d9cc745be58 inherit pub_static_methods_classts_1_1_object"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classts_1_1_object.html#a5bfffe6bd0400ddb02c65d9cc745be58">EraseFromRepository</a> (const <a class="el" href="classts_1_1_u_string.html">UString</a> &amp;name)</td></tr>
-<tr class="memdesc:a5bfffe6bd0400ddb02c65d9cc745be58 inherit pub_static_methods_classts_1_1_object"><td class="mdescLeft">&#160;</td><td class="mdescRight">Erase an object from the static thread-safe repository.  <a href="classts_1_1_object.html#a5bfffe6bd0400ddb02c65d9cc745be58">More...</a><br /></td></tr>
-<tr class="separator:a5bfffe6bd0400ddb02c65d9cc745be58 inherit pub_static_methods_classts_1_1_object"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a74525d608dc46bd56cf1cb716f3f07d7 inherit pub_static_methods_classts_1_1_object"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="namespacets.html#aef9230eac85f53f8285807d94c99c80f">ObjectPtr</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classts_1_1_object.html#a74525d608dc46bd56cf1cb716f3f07d7">RetrieveFromRepository</a> (const <a class="el" href="classts_1_1_u_string.html">UString</a> &amp;name)</td></tr>
-<tr class="memdesc:a74525d608dc46bd56cf1cb716f3f07d7 inherit pub_static_methods_classts_1_1_object"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the safe pointer to an <a class="el" href="classts_1_1_object.html" title="Abstract base class for objects which can be stored in a repository. ">Object</a> in the static thread-safe repository.  <a href="classts_1_1_object.html#a74525d608dc46bd56cf1cb716f3f07d7">More...</a><br /></td></tr>
-<tr class="separator:a74525d608dc46bd56cf1cb716f3f07d7 inherit pub_static_methods_classts_1_1_object"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a59cdb7e078e0cd0e812a6b054c0db09f inherit pub_static_methods_classts_1_1_object"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="namespacets.html#aef9230eac85f53f8285807d94c99c80f">ObjectPtr</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classts_1_1_object.html#a59cdb7e078e0cd0e812a6b054c0db09f">StoreInRepository</a> (const <a class="el" href="classts_1_1_u_string.html">UString</a> &amp;name, const <a class="el" href="namespacets.html#aef9230eac85f53f8285807d94c99c80f">ObjectPtr</a> &amp;value)</td></tr>
-<tr class="memdesc:a59cdb7e078e0cd0e812a6b054c0db09f inherit pub_static_methods_classts_1_1_object"><td class="mdescLeft">&#160;</td><td class="mdescRight">Store a safe pointer to an <a class="el" href="classts_1_1_object.html" title="Abstract base class for objects which can be stored in a repository. ">Object</a> in a static thread-safe repository.  <a href="classts_1_1_object.html#a59cdb7e078e0cd0e812a6b054c0db09f">More...</a><br /></td></tr>
-<tr class="separator:a59cdb7e078e0cd0e812a6b054c0db09f inherit pub_static_methods_classts_1_1_object"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="inherit_header pro_static_methods_classts_1_1_tuner_parameters"><td colspan="2" onclick="javascript:toggleInherit('pro_static_methods_classts_1_1_tuner_parameters')"><img src="closed.png" alt="-"/>&#160;Static Protected Member Functions inherited from <a class="el" href="classts_1_1_tuner_parameters.html">ts::TunerParameters</a></td></tr>
-<tr class="memitem:aa861e39ff04cb97b5c001c42f2688f3f inherit pro_static_methods_classts_1_1_tuner_parameters"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="namespacets.html#ab979eee2ee2eef80c6f655146d4c3961">BitRate</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classts_1_1_tuner_parameters.html#aa861e39ff04cb97b5c001c42f2688f3f">TheoreticalBitrateForModulation</a> (<a class="el" href="namespacets.html#ae4e82c198bc4395f3dc9368516da5b58">Modulation</a> mod, <a class="el" href="namespacets.html#aba02cdc67c6160675835a56352ee020e">InnerFEC</a> fec, uint32_t symbol_rate)</td></tr>
-<tr class="memdesc:aa861e39ff04cb97b5c001c42f2688f3f inherit pro_static_methods_classts_1_1_tuner_parameters"><td class="mdescLeft">&#160;</td><td class="mdescRight">Theoretical useful bitrate for QPSK or QAM modulation.  <a href="classts_1_1_tuner_parameters.html#aa861e39ff04cb97b5c001c42f2688f3f">More...</a><br /></td></tr>
-<tr class="separator:aa861e39ff04cb97b5c001c42f2688f3f inherit pro_static_methods_classts_1_1_tuner_parameters"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="inherit_header pro_attribs_classts_1_1_tuner_parameters"><td colspan="2" onclick="javascript:toggleInherit('pro_attribs_classts_1_1_tuner_parameters')"><img src="closed.png" alt="-"/>&#160;Protected Attributes inherited from <a class="el" href="classts_1_1_tuner_parameters.html">ts::TunerParameters</a></td></tr>
-<tr class="memitem:a4a9c22b2d5977b6e9eee540b2c0e720b inherit pro_attribs_classts_1_1_tuner_parameters"><td class="memItemLeft" align="right" valign="top"><a id="a4a9c22b2d5977b6e9eee540b2c0e720b"></a>
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pro-static-methods"></a>
+Static Protected Member Functions</h2></td></tr>
+<tr class="memitem:aa861e39ff04cb97b5c001c42f2688f3f"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="namespacets.html#ab979eee2ee2eef80c6f655146d4c3961">BitRate</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classts_1_1_tuner_parameters.html#aa861e39ff04cb97b5c001c42f2688f3f">TheoreticalBitrateForModulation</a> (<a class="el" href="namespacets.html#ae4e82c198bc4395f3dc9368516da5b58">Modulation</a> mod, <a class="el" href="namespacets.html#aba02cdc67c6160675835a56352ee020e">InnerFEC</a> fec, uint32_t symbol_rate)</td></tr>
+<tr class="memdesc:aa861e39ff04cb97b5c001c42f2688f3f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Theoretical useful bitrate for QPSK or QAM modulation.  <a href="#aa861e39ff04cb97b5c001c42f2688f3f">More...</a><br /></td></tr>
+<tr class="separator:aa861e39ff04cb97b5c001c42f2688f3f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pro-attribs"></a>
+Protected Attributes</h2></td></tr>
+<tr class="memitem:a4a9c22b2d5977b6e9eee540b2c0e720b"><td class="memItemLeft" align="right" valign="top"><a id="a4a9c22b2d5977b6e9eee540b2c0e720b"></a>
 <a class="el" href="namespacets.html#a0bfe51c83f30216c9beaac7fc31f96d2">TunerType</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classts_1_1_tuner_parameters.html#a4a9c22b2d5977b6e9eee540b2c0e720b">_tuner_type</a></td></tr>
-<tr class="memdesc:a4a9c22b2d5977b6e9eee540b2c0e720b inherit pro_attribs_classts_1_1_tuner_parameters"><td class="mdescLeft">&#160;</td><td class="mdescRight">The tuner type is set by subclasses. <br /></td></tr>
-<tr class="separator:a4a9c22b2d5977b6e9eee540b2c0e720b inherit pro_attribs_classts_1_1_tuner_parameters"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memdesc:a4a9c22b2d5977b6e9eee540b2c0e720b"><td class="mdescLeft">&#160;</td><td class="mdescRight">The tuner type is set by subclasses. <br /></td></tr>
+<tr class="separator:a4a9c22b2d5977b6e9eee540b2c0e720b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>ATSC (terrestrial, cable) tuners parameters. </p>
@@ -598,6 +589,345 @@ Additional Inherited Members</h2></td></tr>
 <dl class="section return"><dt>Returns</dt><dd>True on success, false on error (missing mandatory parameter, inconsistent values, etc.). </dd></dl>
 
 <p>Implements <a class="el" href="classts_1_1_tuner_parameters.html#a67537c51d7ae78b53ab7d7f7e9e86a1b">ts::TunerParameters</a>.</p>
+
+</div>
+</div>
+<a id="affe1023cc47c6c53f70b4c815b161a17"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#affe1023cc47c6c53f70b4c815b161a17">&#9670;&nbsp;</a></span>tunerType()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="namespacets.html#a0bfe51c83f30216c9beaac7fc31f96d2">TunerType</a> ts::TunerParameters::tunerType </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">inherited</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Get the tuner type (depends on subclass). </p>
+<dl class="section return"><dt>Returns</dt><dd>The tuner type. </dd></dl>
+
+</div>
+</div>
+<a id="a7a2c4b582bde341f274400cebbb023d1"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7a2c4b582bde341f274400cebbb023d1">&#9670;&nbsp;</a></span>convertToDektecModulation()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual bool ts::TunerParameters::convertToDektecModulation </td>
+          <td>(</td>
+          <td class="paramtype">int &amp;&#160;</td>
+          <td class="paramname"><em>modulation_type</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int &amp;&#160;</td>
+          <td class="paramname"><em>param0</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int &amp;&#160;</td>
+          <td class="paramname"><em>param1</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int &amp;&#160;</td>
+          <td class="paramname"><em>param2</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">virtual</span><span class="mlabel">inherited</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Attempt to convert the tuning parameters in modulation parameters for Dektec modulator cards. </p>
+<p>This is an optional method. </p><dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[out]</td><td class="paramname">modulation_type</td><td>Modulation type (DTAPI_MOD_* value). </td></tr>
+    <tr><td class="paramdir">[out]</td><td class="paramname">param0</td><td>Modulation-specific paramter 0. </td></tr>
+    <tr><td class="paramdir">[out]</td><td class="paramname">param1</td><td>Modulation-specific paramter 1. </td></tr>
+    <tr><td class="paramdir">[out]</td><td class="paramname">param2</td><td>Modulation-specific paramter 2. </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>True on success, false on error (includes unsupported operation). </dd></dl>
+
+<p>Reimplemented in <a class="el" href="classts_1_1_tuner_parameters_d_v_b_s.html#a67fe2ade9050aeb9056318dda83a220d">ts::TunerParametersDVBS</a>.</p>
+
+</div>
+</div>
+<a id="aab3c3bf6a5ea94f2222251c13e4cee1f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aab3c3bf6a5ea94f2222251c13e4cee1f">&#9670;&nbsp;</a></span>fromTunerArgs()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool ts::TunerParameters::fromTunerArgs </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="classts_1_1_tuner_args.html">TunerArgs</a> &amp;&#160;</td>
+          <td class="paramname"><em>args</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classts_1_1_report.html">Report</a> &amp;&#160;</td>
+          <td class="paramname"><em>report</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inherited</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Extract options from a <a class="el" href="classts_1_1_tuner_args.html" title="Command line arguments for DVB tuners. ">TunerArgs</a>, applying defaults when necessary. </p>
+<p>Parameters with irrelevant values (auto, none, etc) are not displayed. </p><dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">args</td><td><a class="el" href="classts_1_1_tuner.html" title="Implementation of a DVB tuner. ">Tuner</a> arguments. </td></tr>
+    <tr><td class="paramdir">[in,out]</td><td class="paramname">report</td><td>Where to report errors. </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>True on success, false on error (missing mandatory parameter, inconsistent values, etc.). </dd></dl>
+
+</div>
+</div>
+<a id="ae9090da5be9aa433810481bd8317ab10"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae9090da5be9aa433810481bd8317ab10">&#9670;&nbsp;</a></span>Factory()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static <a class="el" href="classts_1_1_tuner_parameters.html">TunerParameters</a>* ts::TunerParameters::Factory </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="namespacets.html#a0bfe51c83f30216c9beaac7fc31f96d2">TunerType</a>&#160;</td>
+          <td class="paramname"><em>type</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span><span class="mlabel">inherited</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Allocate a <a class="el" href="classts_1_1_tuner_parameters.html" title="Abstract base class for DVB tuners parameters. ">TunerParameters</a> of the appropriate subclass, based on a tuner type. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">type</td><td><a class="el" href="classts_1_1_tuner.html" title="Implementation of a DVB tuner. ">Tuner</a> type. </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>A newly allocated instance of a subclass of <a class="el" href="classts_1_1_tuner_parameters.html" title="Abstract base class for DVB tuners parameters. ">TunerParameters</a>. The parameters have their default values. Return zero if there is no implementation of the parameters for the given tuner type. </dd></dl>
+
+</div>
+</div>
+<a id="aa861e39ff04cb97b5c001c42f2688f3f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa861e39ff04cb97b5c001c42f2688f3f">&#9670;&nbsp;</a></span>TheoreticalBitrateForModulation()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static <a class="el" href="namespacets.html#ab979eee2ee2eef80c6f655146d4c3961">BitRate</a> ts::TunerParameters::TheoreticalBitrateForModulation </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="namespacets.html#ae4e82c198bc4395f3dc9368516da5b58">Modulation</a>&#160;</td>
+          <td class="paramname"><em>mod</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="namespacets.html#aba02cdc67c6160675835a56352ee020e">InnerFEC</a>&#160;</td>
+          <td class="paramname"><em>fec</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">uint32_t&#160;</td>
+          <td class="paramname"><em>symbol_rate</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span><span class="mlabel">protected</span><span class="mlabel">inherited</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Theoretical useful bitrate for QPSK or QAM modulation. </p>
+<p>This protected static method computes the theoretical useful bitrate of a transponder, based on 188-bytes packets, for QPSK or QAM modulation. </p><dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">mod</td><td>Modulation type. </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">fec</td><td>Inner FEC. </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">symbol_rate</td><td>Symbol rate. </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>Theoretical useful bitrate in bits/second or zero on error. </dd></dl>
+
+</div>
+</div>
+<a id="a59cdb7e078e0cd0e812a6b054c0db09f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a59cdb7e078e0cd0e812a6b054c0db09f">&#9670;&nbsp;</a></span>StoreInRepository()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static <a class="el" href="namespacets.html#aef9230eac85f53f8285807d94c99c80f">ObjectPtr</a> ts::Object::StoreInRepository </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="classts_1_1_u_string.html">UString</a> &amp;&#160;</td>
+          <td class="paramname"><em>name</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="namespacets.html#aef9230eac85f53f8285807d94c99c80f">ObjectPtr</a> &amp;&#160;</td>
+          <td class="paramname"><em>value</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span><span class="mlabel">inherited</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Store a safe pointer to an <a class="el" href="classts_1_1_object.html" title="Abstract base class for objects which can be stored in a repository. ">Object</a> in a static thread-safe repository. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">name</td><td>Each stored pointer is associated to a name. </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">value</td><td>Safe-pointer to the object to store. </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>The previous value which was associated to that name or a null pointer when not previously assigned. </dd></dl>
+
+</div>
+</div>
+<a id="a74525d608dc46bd56cf1cb716f3f07d7"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a74525d608dc46bd56cf1cb716f3f07d7">&#9670;&nbsp;</a></span>RetrieveFromRepository()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static <a class="el" href="namespacets.html#aef9230eac85f53f8285807d94c99c80f">ObjectPtr</a> ts::Object::RetrieveFromRepository </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="classts_1_1_u_string.html">UString</a> &amp;&#160;</td>
+          <td class="paramname"><em>name</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span><span class="mlabel">inherited</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Get the safe pointer to an <a class="el" href="classts_1_1_object.html" title="Abstract base class for objects which can be stored in a repository. ">Object</a> in the static thread-safe repository. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">name</td><td>Name which is associated to the object. </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>A safe-pointer to the stored object or a null pointer when not found. </dd></dl>
+
+</div>
+</div>
+<a id="a5bfffe6bd0400ddb02c65d9cc745be58"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5bfffe6bd0400ddb02c65d9cc745be58">&#9670;&nbsp;</a></span>EraseFromRepository()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static void ts::Object::EraseFromRepository </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="classts_1_1_u_string.html">UString</a> &amp;&#160;</td>
+          <td class="paramname"><em>name</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span><span class="mlabel">inherited</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Erase an object from the static thread-safe repository. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">name</td><td>Name which is associated to the object to erase. </td></tr>
+  </table>
+  </dd>
+</dl>
 
 </div>
 </div>

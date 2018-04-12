@@ -178,6 +178,12 @@ var files_dup =
     [ "tsCountryAvailabilityDescriptor.h", "ts_country_availability_descriptor_8h.html", [
       [ "CountryAvailabilityDescriptor", "classts_1_1_country_availability_descriptor.html", "classts_1_1_country_availability_descriptor" ]
     ] ],
+    [ "tsCPDescriptor.h", "ts_c_p_descriptor_8h.html", [
+      [ "CPDescriptor", "classts_1_1_c_p_descriptor.html", "classts_1_1_c_p_descriptor" ]
+    ] ],
+    [ "tsCPIdentifierDescriptor.h", "ts_c_p_identifier_descriptor_8h.html", [
+      [ "CPIdentifierDescriptor", "classts_1_1_c_p_identifier_descriptor.html", "classts_1_1_c_p_identifier_descriptor" ]
+    ] ],
     [ "tsCRC32.h", "ts_c_r_c32_8h.html", "ts_c_r_c32_8h" ],
     [ "tsCTS1.h", "ts_c_t_s1_8h.html", [
       [ "CTS1", "classts_1_1_c_t_s1.html", "classts_1_1_c_t_s1" ]
@@ -243,6 +249,7 @@ var files_dup =
     [ "tsDTVProperties.h", "ts_d_t_v_properties_8h.html", [
       [ "DTVProperties", "classts_1_1_d_t_v_properties.html", "classts_1_1_d_t_v_properties" ]
     ] ],
+    [ "tsDuckProtocol.h", "ts_duck_protocol_8h.html", "ts_duck_protocol_8h" ],
     [ "tsDVBCharset.h", "ts_d_v_b_charset_8h.html", [
       [ "DuplicateDVBCharset", "classts_1_1_d_v_b_charset_1_1_duplicate_d_v_b_charset.html", "classts_1_1_d_v_b_charset_1_1_duplicate_d_v_b_charset" ],
       [ "DVBCharset", "classts_1_1_d_v_b_charset.html", "classts_1_1_d_v_b_charset" ],
@@ -256,6 +263,9 @@ var files_dup =
     ] ],
     [ "tsDVBCharsetUTF8.h", "ts_d_v_b_charset_u_t_f8_8h.html", [
       [ "DVBCharsetUTF8", "classts_1_1_d_v_b_charset_u_t_f8.html", "classts_1_1_d_v_b_charset_u_t_f8" ]
+    ] ],
+    [ "tsDVBCSA2.h", "ts_d_v_b_c_s_a2_8h.html", [
+      [ "DVBCSA2", "classts_1_1_d_v_b_c_s_a2.html", "classts_1_1_d_v_b_c_s_a2" ]
     ] ],
     [ "tsDVS042.h", "ts_d_v_s042_8h.html", [
       [ "DVS042", "classts_1_1_d_v_s042.html", "classts_1_1_d_v_s042" ]
@@ -337,6 +347,9 @@ var files_dup =
     ] ],
     [ "tsHEVCVideoDescriptor.h", "ts_h_e_v_c_video_descriptor_8h.html", [
       [ "HEVCVideoDescriptor", "classts_1_1_h_e_v_c_video_descriptor.html", "classts_1_1_h_e_v_c_video_descriptor" ]
+    ] ],
+    [ "tsIDSA.h", "ts_i_d_s_a_8h.html", [
+      [ "IDSA", "classts_1_1_i_d_s_a.html", "classts_1_1_i_d_s_a" ]
     ] ],
     [ "tsInputRedirector.h", "ts_input_redirector_8h.html", [
       [ "InputRedirector", "classts_1_1_input_redirector.html", "classts_1_1_input_redirector" ]
@@ -567,8 +580,12 @@ var files_dup =
     [ "tsSatelliteDeliverySystemDescriptor.h", "ts_satellite_delivery_system_descriptor_8h.html", [
       [ "SatelliteDeliverySystemDescriptor", "classts_1_1_satellite_delivery_system_descriptor.html", "classts_1_1_satellite_delivery_system_descriptor" ]
     ] ],
-    [ "tsScrambling.h", "ts_scrambling_8h.html", [
-      [ "Scrambling", "classts_1_1_scrambling.html", "classts_1_1_scrambling" ]
+    [ "tsScramblingDescriptor.h", "ts_scrambling_descriptor_8h.html", [
+      [ "ScramblingDescriptor", "classts_1_1_scrambling_descriptor.html", "classts_1_1_scrambling_descriptor" ]
+    ] ],
+    [ "tsSCTE52.h", "ts_s_c_t_e52_8h.html", [
+      [ "SCTE52_2003", "classts_1_1_s_c_t_e52__2003.html", "classts_1_1_s_c_t_e52__2003" ],
+      [ "SCTE52_2008", "classts_1_1_s_c_t_e52__2008.html", "classts_1_1_s_c_t_e52__2008" ]
     ] ],
     [ "tsSDT.h", "ts_s_d_t_8h.html", [
       [ "SDT", "classts_1_1_s_d_t.html", "classts_1_1_s_d_t" ],
@@ -845,6 +862,12 @@ var files_dup =
     [ "tsTSPacket.h", "ts_t_s_packet_8h.html", "ts_t_s_packet_8h" ],
     [ "tsTSScanner.h", "ts_t_s_scanner_8h.html", [
       [ "TSScanner", "classts_1_1_t_s_scanner.html", "classts_1_1_t_s_scanner" ]
+    ] ],
+    [ "tsTSScrambling.h", "ts_t_s_scrambling_8h.html", [
+      [ "TSScrambling", "classts_1_1_t_s_scrambling.html", "classts_1_1_t_s_scrambling" ]
+    ] ],
+    [ "tsTSSpeedMetrics.h", "ts_t_s_speed_metrics_8h.html", [
+      [ "TSSpeedMetrics", "classts_1_1_t_s_speed_metrics.html", "classts_1_1_t_s_speed_metrics" ]
     ] ],
     [ "tsTuner.h", "ts_tuner_8h.html", "ts_tuner_8h" ],
     [ "tsTunerArgs.h", "ts_tuner_args_8h.html", [

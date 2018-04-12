@@ -9,5 +9,8 @@ var classts_1_1_audio_attributes =
     [ "samplingFrequency", "classts_1_1_audio_attributes.html#a9f197bb83b0036a52af2e242eff3eaed", null ],
     [ "stereoMode", "classts_1_1_audio_attributes.html#a936d5cb5c5d6d32c05762a2f2c43f53b", null ],
     [ "stereoModeExtension", "classts_1_1_audio_attributes.html#a1c45bed39293bf1b4c3b68b0ffc17c96", null ],
-    [ "stereoDescription", "classts_1_1_audio_attributes.html#a4788ffd4181282e04f6a72fc5c3a5388", null ]
+    [ "stereoDescription", "classts_1_1_audio_attributes.html#a4788ffd4181282e04f6a72fc5c3a5388", null ],
+    [ "isValid", "classts_1_1_audio_attributes.html#ad6868f6d1e816357f133ee9ab4551336", null ],
+    [ "invalidate", "classts_1_1_audio_attributes.html#a5a9feb6f6c5c825a29e4462b1bc7b13e", null ],
+    [ "_is_valid", "classts_1_1_audio_attributes.html#ae93c110893c944d6f3d339252c83c0c9", null ]
 ];

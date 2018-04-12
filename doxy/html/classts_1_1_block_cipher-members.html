@@ -37,7 +37,7 @@
  <tr style="height: 56px;">
   <td id="projectlogo"><img src="tsduck-32.png"/></td>
    <td id="projectalign"><span id="projectname">TSDuck</span>
-    <span id="projectnumber">Version 3.10-643</span>
+    <span id="projectnumber">Version 3.10-675</span>
     <span id="projectbrief">(TSDuck - The MPEG Transport Stream Toolkit)</span>
    </td>
    <td>        <div id="MSearchBox" class="MSearchBoxInactive">
@@ -107,8 +107,10 @@ $(document).ready(function(){initNavTree('classts_1_1_block_cipher.html','');});
 <table class="directory">
   <tr class="even"><td class="entry"><a class="el" href="classts_1_1_block_cipher.html#aa7d8372bd82068868f9925cbc78ea9f1">blockSize</a>() const =0</td><td class="entry"><a class="el" href="classts_1_1_block_cipher.html">ts::BlockCipher</a></td><td class="entry"><span class="mlabel">pure virtual</span></td></tr>
   <tr><td class="entry"><a class="el" href="classts_1_1_block_cipher.html#a4f5fa4cf33d98d9d249a0aa803e577cf">decrypt</a>(const void *cipher, size_t cipher_length, void *plain, size_t plain_maxsize, size_t *plain_length=0)=0</td><td class="entry"><a class="el" href="classts_1_1_block_cipher.html">ts::BlockCipher</a></td><td class="entry"><span class="mlabel">pure virtual</span></td></tr>
-  <tr class="even"><td class="entry"><a class="el" href="classts_1_1_block_cipher.html#aa97dbd9df614bb0cd4ae5528266a5f92">defaultRounds</a>() const =0</td><td class="entry"><a class="el" href="classts_1_1_block_cipher.html">ts::BlockCipher</a></td><td class="entry"><span class="mlabel">pure virtual</span></td></tr>
-  <tr><td class="entry"><a class="el" href="classts_1_1_block_cipher.html#ae4dbd6ee08d2e2d37f881f109d316fe0">encrypt</a>(const void *plain, size_t plain_length, void *cipher, size_t cipher_maxsize, size_t *cipher_length=0)=0</td><td class="entry"><a class="el" href="classts_1_1_block_cipher.html">ts::BlockCipher</a></td><td class="entry"><span class="mlabel">pure virtual</span></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="classts_1_1_block_cipher.html#a3e560b1b26c8c906cc4b507c7a3318bf">decryptInPlace</a>(void *data, size_t data_length, size_t *max_actual_length=0)</td><td class="entry"><a class="el" href="classts_1_1_block_cipher.html">ts::BlockCipher</a></td><td class="entry"><span class="mlabel">virtual</span></td></tr>
+  <tr><td class="entry"><a class="el" href="classts_1_1_block_cipher.html#aa97dbd9df614bb0cd4ae5528266a5f92">defaultRounds</a>() const =0</td><td class="entry"><a class="el" href="classts_1_1_block_cipher.html">ts::BlockCipher</a></td><td class="entry"><span class="mlabel">pure virtual</span></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="classts_1_1_block_cipher.html#ae4dbd6ee08d2e2d37f881f109d316fe0">encrypt</a>(const void *plain, size_t plain_length, void *cipher, size_t cipher_maxsize, size_t *cipher_length=0)=0</td><td class="entry"><a class="el" href="classts_1_1_block_cipher.html">ts::BlockCipher</a></td><td class="entry"><span class="mlabel">pure virtual</span></td></tr>
+  <tr><td class="entry"><a class="el" href="classts_1_1_block_cipher.html#a76e7ab6b0558bed387fb3e7ff01db7a8">encryptInPlace</a>(void *data, size_t data_length, size_t *max_actual_length=0)</td><td class="entry"><a class="el" href="classts_1_1_block_cipher.html">ts::BlockCipher</a></td><td class="entry"><span class="mlabel">virtual</span></td></tr>
   <tr class="even"><td class="entry"><a class="el" href="classts_1_1_block_cipher.html#a9a0800da419889257151ea1fb1bb82b3">isValidKeySize</a>(size_t size) const =0</td><td class="entry"><a class="el" href="classts_1_1_block_cipher.html">ts::BlockCipher</a></td><td class="entry"><span class="mlabel">pure virtual</span></td></tr>
   <tr><td class="entry"><a class="el" href="classts_1_1_block_cipher.html#a292f5bf8aa9d88721dd86c249db44d21">maxKeySize</a>() const =0</td><td class="entry"><a class="el" href="classts_1_1_block_cipher.html">ts::BlockCipher</a></td><td class="entry"><span class="mlabel">pure virtual</span></td></tr>
   <tr class="even"><td class="entry"><a class="el" href="classts_1_1_block_cipher.html#a1692084a0aad853d1f7852400db7d944">maxRounds</a>() const =0</td><td class="entry"><a class="el" href="classts_1_1_block_cipher.html">ts::BlockCipher</a></td><td class="entry"><span class="mlabel">pure virtual</span></td></tr>

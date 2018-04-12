@@ -6,6 +6,8 @@ var classts_1_1_a_v_c_h_r_d_parameters =
     [ "parse", "classts_1_1_a_v_c_h_r_d_parameters.html#a769bd8596a0770e2fb0acdf567b93b9c", null ],
     [ "parse", "classts_1_1_a_v_c_h_r_d_parameters.html#a3b78eca920ec3314c70d5de3eac09b67", null ],
     [ "display", "classts_1_1_a_v_c_h_r_d_parameters.html#a52ccf0459a0ea8f8183388660a86683c", null ],
+    [ "disp", "classts_1_1_a_v_c_h_r_d_parameters.html#aa928ac6a4e029f4ffe848449725e2c1c", null ],
+    [ "disp", "classts_1_1_a_v_c_h_r_d_parameters.html#a569372b0597c98a0f80d0a939ad8313d", null ],
     [ "cpb_cnt_minus1", "classts_1_1_a_v_c_h_r_d_parameters.html#a65e377f9c8434a787f2cd5494d83cc86", null ],
     [ "bit_rate_scale", "classts_1_1_a_v_c_h_r_d_parameters.html#a4839ef74136d0581551b7eb54e30b038", null ],
     [ "cpb_size_scale", "classts_1_1_a_v_c_h_r_d_parameters.html#a409f4e243fc090871c38eaeb3458d255", null ],
@@ -15,5 +17,6 @@ var classts_1_1_a_v_c_h_r_d_parameters =
     [ "initial_cpb_removal_delay_length_minus1", "classts_1_1_a_v_c_h_r_d_parameters.html#a288f86498bf26014b8d899b9672e35a7", null ],
     [ "cpb_removal_delay_length_minus1", "classts_1_1_a_v_c_h_r_d_parameters.html#a877ce39f38cf3269901e00a301354639", null ],
     [ "dpb_output_delay_length_minus1", "classts_1_1_a_v_c_h_r_d_parameters.html#abd3c30a78bf170794061357b5f36437b", null ],
-    [ "time_offset_length", "classts_1_1_a_v_c_h_r_d_parameters.html#a0b8724a9dc47619814d7977589427c99", null ]
+    [ "time_offset_length", "classts_1_1_a_v_c_h_r_d_parameters.html#a0b8724a9dc47619814d7977589427c99", null ],
+    [ "valid", "classts_1_1_a_v_c_h_r_d_parameters.html#ab40f1dc973ba1231c829da6c8b250fc4", null ]
 ];

@@ -15,5 +15,13 @@ var classts_1_1_t_s_file_input_buffered =
     [ "getPacketCount", "classts_1_1_t_s_file_input_buffered.html#a1d2af68fbd1a43580411b484f33cb49e", null ],
     [ "canSeek", "classts_1_1_t_s_file_input_buffered.html#a56fc5f34f387db360c6b1281c079ef40", null ],
     [ "seek", "classts_1_1_t_s_file_input_buffered.html#ad230e257f2019270c0612697980ffd51", null ],
-    [ "MIN_BUFFER_SIZE", "classts_1_1_t_s_file_input_buffered.html#af2a92916f1a825022a74670ab8cd158d", null ]
+    [ "open", "classts_1_1_t_s_file_input_buffered.html#a2225aaec898673f83f2b0978372a791e", null ],
+    [ "isOpen", "classts_1_1_t_s_file_input_buffered.html#a1b48d1eea35dbdc6fbd0d23a1af536d2", null ],
+    [ "getErrorSeverityLevel", "classts_1_1_t_s_file_input_buffered.html#a719b7e435a9e34d0c5689f629f51b55a", null ],
+    [ "setErrorSeverityLevel", "classts_1_1_t_s_file_input_buffered.html#a0f37bfa29d1b90e4fe1ec1682ed102db", null ],
+    [ "getFileName", "classts_1_1_t_s_file_input_buffered.html#ac8fa0843d15ab7b8ee249053a898f2e2", null ],
+    [ "close", "classts_1_1_t_s_file_input_buffered.html#ab2afb896ced13544e6e574ed3651ebbe", null ],
+    [ "MIN_BUFFER_SIZE", "classts_1_1_t_s_file_input_buffered.html#af2a92916f1a825022a74670ab8cd158d", null ],
+    [ "_filename", "classts_1_1_t_s_file_input_buffered.html#afddd9ba6efe6431b7d1a1c025f923adc", null ],
+    [ "_total_packets", "classts_1_1_t_s_file_input_buffered.html#afe4cd5c98b8105dc5a11c68f9c3f5224", null ]
 ];

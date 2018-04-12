@@ -11,5 +11,16 @@ var classts_1_1_section_demux =
     [ "getStatus", "classts_1_1_section_demux.html#a76a038eebc7a088f982d5edd4ee1af73", null ],
     [ "hasErrors", "classts_1_1_section_demux.html#a5159f5f60de4f2b375576b6698de5772", null ],
     [ "immediateReset", "classts_1_1_section_demux.html#a43a704795d14f15c00a7b3078d5089f1", null ],
-    [ "immediateResetPID", "classts_1_1_section_demux.html#a96860d43f2cf1fa025d045ed9d000c4a", null ]
+    [ "immediateResetPID", "classts_1_1_section_demux.html#a96860d43f2cf1fa025d045ed9d000c4a", null ],
+    [ "setPIDFilter", "classts_1_1_section_demux.html#ab516f9aefa5e64499bf4752882a637ad", null ],
+    [ "addPID", "classts_1_1_section_demux.html#aa71fd7117f35be69e3d02f001ad896e6", null ],
+    [ "addPIDs", "classts_1_1_section_demux.html#a6f16607b21eda1934624042a2b5aac2e", null ],
+    [ "removePID", "classts_1_1_section_demux.html#af91b7696b93dc51bee12bc4c49f80c3a", null ],
+    [ "pidCount", "classts_1_1_section_demux.html#aa728b209f4142c33cad63b03f24aeef8", null ],
+    [ "reset", "classts_1_1_section_demux.html#abeeb5c91df69f76eea4c45529f416230", null ],
+    [ "resetPID", "classts_1_1_section_demux.html#aa822bbec8af387dccb824136daf402b1", null ],
+    [ "beforeCallingHandler", "classts_1_1_section_demux.html#aed0774fadab9480cd1a632a3fd7fb430", null ],
+    [ "afterCallingHandler", "classts_1_1_section_demux.html#a882c79c2e1a79a50549ea2432bc17c87", null ],
+    [ "_pid_filter", "classts_1_1_section_demux.html#a50a41e649f26188b3f812696460acf87", null ],
+    [ "_packet_count", "classts_1_1_section_demux.html#a18aa49934a3c2a0cd1d7559bda2fa06c", null ]
 ];

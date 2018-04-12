@@ -37,7 +37,7 @@
  <tr style="height: 56px;">
   <td id="projectlogo"><img src="tsduck-32.png"/></td>
    <td id="projectalign"><span id="projectname">TSDuck</span>
-    <span id="projectnumber">Version 3.10-643</span>
+    <span id="projectnumber">Version 3.10-675</span>
     <span id="projectbrief">(TSDuck - The MPEG Transport Stream Toolkit)</span>
    </td>
    <td>        <div id="MSearchBox" class="MSearchBoxInactive">
@@ -1107,254 +1107,272 @@ Enumerations</h2></td></tr>
  }</td></tr>
 <tr class="memdesc:ae6bc1afeeeb9ae9224d25d28e65ecfba"><td class="mdescLeft">&#160;</td><td class="mdescRight">Linkage type values (in linkage_descriptor)  <a href="namespacets.html#ae6bc1afeeeb9ae9224d25d28e65ecfba">More...</a><br /></td></tr>
 <tr class="separator:ae6bc1afeeeb9ae9224d25d28e65ecfba"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ac7e055e7ef7b6e3e2d04a2744b2142cf"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom">: uint16_t { <br />
-&#160;&#160;<a class="el" href="namespacets.html#ac7e055e7ef7b6e3e2d04a2744b2142cfa5e854bc8b1615bda6a23fad70151c326">ts::DBID_DATA_PIPE</a> = 0x0001, 
+<tr class="memitem:ae146dfb8f8972d507c6ed2b8dd3cb4df"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom">: uint8_t { <br />
+&#160;&#160;<a class="el" href="namespacets.html#ae146dfb8f8972d507c6ed2b8dd3cb4dfa35052895151222b80f9693ed7d7489b6">ts::SCRAMBLING_DVB_CSA1</a> = 0x01, 
 <br />
-&#160;&#160;<a class="el" href="namespacets.html#ac7e055e7ef7b6e3e2d04a2744b2142cfa3c4667e64a6226fc2f9a8728b37a89aa">ts::DBID_ASYNC_DATA_STREAM</a> = 0x0002, 
+&#160;&#160;<a class="el" href="namespacets.html#ae146dfb8f8972d507c6ed2b8dd3cb4dfac15174f899aaf0696aa6d09e2eb742af">ts::SCRAMBLING_DVB_CSA2</a> = 0x02, 
 <br />
-&#160;&#160;<a class="el" href="namespacets.html#ac7e055e7ef7b6e3e2d04a2744b2142cfab009ae42169bfbfb58c29edfc1b1e9c0">ts::DBID_SYNC_DATA_STREAM</a> = 0x0003, 
+&#160;&#160;<a class="el" href="namespacets.html#ae146dfb8f8972d507c6ed2b8dd3cb4dfafb3b6d87fd29a0228adb7f8f0dedc4cd">ts::SCRAMBLING_DVB_CSA3_STD</a> = 0x03, 
 <br />
-&#160;&#160;<a class="el" href="namespacets.html#ac7e055e7ef7b6e3e2d04a2744b2142cfa68085ba7aaa707971948593cae187580">ts::DBID_SYNCED_DATA_STREAM</a> = 0x0004, 
+&#160;&#160;<a class="el" href="namespacets.html#ae146dfb8f8972d507c6ed2b8dd3cb4dfad9a39aa98b87162be6ada413abe31f90">ts::SCRAMBLING_DVB_CSA3_MIN</a> = 0x04, 
 <br />
-&#160;&#160;<a class="el" href="namespacets.html#ac7e055e7ef7b6e3e2d04a2744b2142cfad55f828edd163550e9862ba3f2ed7a3d">ts::DBID_MPE</a> = 0x0005, 
+&#160;&#160;<a class="el" href="namespacets.html#ae146dfb8f8972d507c6ed2b8dd3cb4dfae950b8d05d77e0051d3d70c7c5b4c985">ts::SCRAMBLING_DVB_CSA3_FULL</a> = 0x05, 
 <br />
-&#160;&#160;<a class="el" href="namespacets.html#ac7e055e7ef7b6e3e2d04a2744b2142cfa326fddbe00e51a80077b2aaf4877f23e">ts::DBID_DATA_CSL</a> = 0x0006, 
+&#160;&#160;<a class="el" href="namespacets.html#ae146dfb8f8972d507c6ed2b8dd3cb4dfa542978a6b5b2dc6d6f6ac52423770118">ts::SCRAMBLING_DVB_CISSA1</a> = 0x10, 
 <br />
-&#160;&#160;<a class="el" href="namespacets.html#ac7e055e7ef7b6e3e2d04a2744b2142cfa5c4109707c334220f8cd9cab31dcab66">ts::DBID_OBJECT_CSL</a> = 0x0007, 
-<br />
-&#160;&#160;<a class="el" href="namespacets.html#ac7e055e7ef7b6e3e2d04a2744b2142cfa7e3d371de6aa4711f7d7e9fb19d2c7a9">ts::DBID_ATM</a> = 0x0008, 
-<br />
-&#160;&#160;<a class="el" href="namespacets.html#ac7e055e7ef7b6e3e2d04a2744b2142cfa12d754fe6d09fbcd01b5bb4510c4bff2">ts::DBID_HP_ASYNC_DATA_STREAM</a> = 0x0009, 
-<br />
-&#160;&#160;<a class="el" href="namespacets.html#ac7e055e7ef7b6e3e2d04a2744b2142cfa8ed1735a7f3d9752bbe38a03d9341d89">ts::DBID_SSU</a> = 0x000A, 
-<br />
-&#160;&#160;<a class="el" href="namespacets.html#ac7e055e7ef7b6e3e2d04a2744b2142cfadeffb3a87ddbd34e993e4c706ba7bafc">ts::DBID_IPMAC_NOTIFICATION</a> = 0x000B, 
-<br />
-&#160;&#160;<a class="el" href="namespacets.html#ac7e055e7ef7b6e3e2d04a2744b2142cfa891afde52d176ce396665deeea31b0d5">ts::DBID_MHP_OBJECT_CSL</a> = 0x00F0, 
-<br />
-&#160;&#160;<a class="el" href="namespacets.html#ac7e055e7ef7b6e3e2d04a2744b2142cfacc126606247f09353b3101ebfc95e8e8">ts::DBID_MHP_MPE</a> = 0x00F1, 
-<br />
-&#160;&#160;<a class="el" href="namespacets.html#ac7e055e7ef7b6e3e2d04a2744b2142cfaccc56d195853b5abbf89cff2ce7ade16">ts::DBID_EUTELSAT_DATA_PIPE</a> = 0x0100, 
-<br />
-&#160;&#160;<a class="el" href="namespacets.html#ac7e055e7ef7b6e3e2d04a2744b2142cfa31ca12594fb27f27b7380e431b41f780">ts::DBID_EUTELSAT_DATA_STREAM</a> = 0x0101, 
-<br />
-&#160;&#160;<a class="el" href="namespacets.html#ac7e055e7ef7b6e3e2d04a2744b2142cfa59b33466f7b38189e3314f5c36f266a5">ts::DBID_SAGEM_IP</a> = 0x0102, 
-<br />
-&#160;&#160;<a class="el" href="namespacets.html#ac7e055e7ef7b6e3e2d04a2744b2142cfa0dd75ef2f7acdf8d5bbc5d1cdde8c881">ts::DBID_BARCO_DATA_BRD</a> = 0x0103, 
-<br />
-&#160;&#160;<a class="el" href="namespacets.html#ac7e055e7ef7b6e3e2d04a2744b2142cfa82b4aef63934dff2c1fdc06fbe23aea7">ts::DBID_CIBERCITY_MPE</a> = 0x0104, 
-<br />
-&#160;&#160;<a class="el" href="namespacets.html#ac7e055e7ef7b6e3e2d04a2744b2142cfa0437f4faad02fb77dd2b448d5daeb0c4">ts::DBID_CYBERSAT_MPE</a> = 0x0105, 
-<br />
-&#160;&#160;<a class="el" href="namespacets.html#ac7e055e7ef7b6e3e2d04a2744b2142cfa7dd399d26567d830e9f07bc5c636672e">ts::DBID_TDN</a> = 0x0106, 
-<br />
-&#160;&#160;<a class="el" href="namespacets.html#ac7e055e7ef7b6e3e2d04a2744b2142cfafca579ec0e91401b12c2a519a468de74">ts::DBID_OPENTV_DATA_CSL</a> = 0x0107, 
-<br />
-&#160;&#160;<a class="el" href="namespacets.html#ac7e055e7ef7b6e3e2d04a2744b2142cfa54916b1110748ecf821c16a05045feaa">ts::DBID_PANASONIC</a> = 0x0108, 
-<br />
-&#160;&#160;<a class="el" href="namespacets.html#ac7e055e7ef7b6e3e2d04a2744b2142cfa43e0e983e3fd60a45cabc888324ebdc0">ts::DBID_KABEL_DEUTSCHLAND</a> = 0x0109, 
-<br />
-&#160;&#160;<a class="el" href="namespacets.html#ac7e055e7ef7b6e3e2d04a2744b2142cfa440fffe954dcb6170e7e689793620cfb">ts::DBID_TECHNOTREND</a> = 0x010A, 
-<br />
-&#160;&#160;<a class="el" href="namespacets.html#ac7e055e7ef7b6e3e2d04a2744b2142cfab3f83c06663dc1343593f11ce72f5753">ts::DBID_MEDIAHIGHWAY_SSU</a> = 0x010B, 
-<br />
-&#160;&#160;<a class="el" href="namespacets.html#ac7e055e7ef7b6e3e2d04a2744b2142cfa4599d719117300f363db64a26767b174">ts::DBID_GUIDE_PLUS</a> = 0x010C, 
-<br />
-&#160;&#160;<a class="el" href="namespacets.html#ac7e055e7ef7b6e3e2d04a2744b2142cfa3b503c60c8d12691e68ebf8e223661ea">ts::DBID_ACAP_OBJECT_CSL</a> = 0x010D, 
-<br />
-&#160;&#160;<a class="el" href="namespacets.html#ac7e055e7ef7b6e3e2d04a2744b2142cfaa2df52439d3069a905a1151acdb1c6f0">ts::DBID_MICRONAS</a> = 0x010E, 
-<br />
-&#160;&#160;<a class="el" href="namespacets.html#ac7e055e7ef7b6e3e2d04a2744b2142cfa584717d2c80ab6d7e6bdb00df561d889">ts::DBID_POLSAT</a> = 0x0110, 
-<br />
-&#160;&#160;<a class="el" href="namespacets.html#ac7e055e7ef7b6e3e2d04a2744b2142cfa83033c28ce1b1eb77d9939a60b3a012c">ts::DBID_DTG</a> = 0x0111, 
-<br />
-&#160;&#160;<a class="el" href="namespacets.html#ac7e055e7ef7b6e3e2d04a2744b2142cfa711a931e1360897f5c912cd3fa9665d7">ts::DBID_SKYMEDIA</a> = 0x0112, 
-<br />
-&#160;&#160;<a class="el" href="namespacets.html#ac7e055e7ef7b6e3e2d04a2744b2142cfa1a3f0449a12ddbe4a18b89b8016b7884">ts::DBID_INTELLIBYTE</a> = 0x0113, 
-<br />
-&#160;&#160;<a class="el" href="namespacets.html#ac7e055e7ef7b6e3e2d04a2744b2142cfa59ff22ab360f9995df498afdadbada2b">ts::DBID_TELEWEB_DATA_CSL</a> = 0x0114, 
-<br />
-&#160;&#160;<a class="el" href="namespacets.html#ac7e055e7ef7b6e3e2d04a2744b2142cfa15d490344912deab3dd83897548d589a">ts::DBID_TELEWEB_OBJECT_CSL</a> = 0x0115, 
-<br />
-&#160;&#160;<a class="el" href="namespacets.html#ac7e055e7ef7b6e3e2d04a2744b2142cfaed3a7671e9722881b76e6fe211b8ee31">ts::DBID_TELEWEB</a> = 0x0116, 
-<br />
-&#160;&#160;<a class="el" href="namespacets.html#ac7e055e7ef7b6e3e2d04a2744b2142cfa98157cdfc6e2f1ea9e751219e32c543a">ts::DBID_BBC</a> = 0x0117, 
-<br />
-&#160;&#160;<a class="el" href="namespacets.html#ac7e055e7ef7b6e3e2d04a2744b2142cfaa9d610022adcfe725a1428b2e38ea7dd">ts::DBID_ELECTRA</a> = 0x0118, 
-<br />
-&#160;&#160;<a class="el" href="namespacets.html#ac7e055e7ef7b6e3e2d04a2744b2142cfa0037fdd0843f548f9c7082615ddca19f">ts::DBID_BBC_2_3</a> = 0x011A, 
-<br />
-&#160;&#160;<a class="el" href="namespacets.html#ac7e055e7ef7b6e3e2d04a2744b2142cfa6d523bb0eca72dafd66e619f731f0883">ts::DBID_TELETEXT</a> = 0x011B, 
-<br />
-&#160;&#160;<a class="el" href="namespacets.html#ac7e055e7ef7b6e3e2d04a2744b2142cfa59f246b8808845dda6c3d71b1d059630">ts::DBID_SKY_DOWNLOAD_1_5</a> = 0x0120, 
-<br />
-&#160;&#160;<a class="el" href="namespacets.html#ac7e055e7ef7b6e3e2d04a2744b2142cfa7c83af778ad957fd71022cd7d0f3e862">ts::DBID_ICO</a> = 0x0121, 
-<br />
-&#160;&#160;<a class="el" href="namespacets.html#ac7e055e7ef7b6e3e2d04a2744b2142cfafeee380154bc20a319f2880d67db5c96">ts::DBID_CIPLUS_DATA_CSL</a> = 0x0122, 
-<br />
-&#160;&#160;<a class="el" href="namespacets.html#ac7e055e7ef7b6e3e2d04a2744b2142cfa3405658e49464fdcce06972d52ecb26d">ts::DBID_HBBTV</a> = 0x0123, 
-<br />
-&#160;&#160;<a class="el" href="namespacets.html#ac7e055e7ef7b6e3e2d04a2744b2142cfa01d7fae99c9336e582fbfb289ceb5157">ts::DBID_ROVI_PREMIUM</a> = 0x0124, 
-<br />
-&#160;&#160;<a class="el" href="namespacets.html#ac7e055e7ef7b6e3e2d04a2744b2142cfa079d83fe51b6583ceab60f913a9e8c91">ts::DBID_MEDIA_GUIDE</a> = 0x0125, 
-<br />
-&#160;&#160;<a class="el" href="namespacets.html#ac7e055e7ef7b6e3e2d04a2744b2142cfa59d7346e745f824308d433559e6e4f61">ts::DBID_INVIEW</a> = 0x0126, 
-<br />
-&#160;&#160;<a class="el" href="namespacets.html#ac7e055e7ef7b6e3e2d04a2744b2142cfacc92d2c4dd5d3559a62f90ab154a7b79">ts::DBID_BOTECH</a> = 0x0130, 
-<br />
-&#160;&#160;<a class="el" href="namespacets.html#ac7e055e7ef7b6e3e2d04a2744b2142cfa7f5fa6551086bc48fe5780f4967bc706">ts::DBID_SCILLA_PUSHVOD_CSL</a> = 0x0131, 
-<br />
-&#160;&#160;<a class="el" href="namespacets.html#ac7e055e7ef7b6e3e2d04a2744b2142cfa8c9c3f6ec6bc5e81db62f2895e934e2b">ts::DBID_CANAL_PLUS</a> = 0x0140, 
-<br />
-&#160;&#160;<a class="el" href="namespacets.html#ac7e055e7ef7b6e3e2d04a2744b2142cfa6b50db71be608bd959bd7fa3018cf672">ts::DBID_OIPF_OBJECT_CSL</a> = 0x0150, 
-<br />
-&#160;&#160;<a class="el" href="namespacets.html#ac7e055e7ef7b6e3e2d04a2744b2142cfa124d61536e3fcc9649febc1afa691eeb">ts::DBID_4TV</a> = 0x4444, 
-<br />
-&#160;&#160;<a class="el" href="namespacets.html#ac7e055e7ef7b6e3e2d04a2744b2142cfa0735d78b67aafbe7a1c7fd2a29bc40e4">ts::DBID_NOKIA_IP_SSU</a> = 0x4E4F, 
-<br />
-&#160;&#160;<a class="el" href="namespacets.html#ac7e055e7ef7b6e3e2d04a2744b2142cfa899fac929d3280afe18f2e5649366e23">ts::DBID_BBG_DATA_CSL</a> = 0xBBB1, 
-<br />
-&#160;&#160;<a class="el" href="namespacets.html#ac7e055e7ef7b6e3e2d04a2744b2142cfae1fe2058832182955710d87c4c00e0b7">ts::DBID_BBG_OBJECT_CSL</a> = 0xBBB2, 
-<br />
-&#160;&#160;<a class="el" href="namespacets.html#ac7e055e7ef7b6e3e2d04a2744b2142cfabda049b64ab0fdf45a61fd4a2282f523">ts::DBID_BBG</a> = 0xBBBB
+&#160;&#160;<a class="el" href="namespacets.html#ae146dfb8f8972d507c6ed2b8dd3cb4dfa48ea58cadc23b1356897d5e5b3ee0964">ts::SCRAMBLING_ATIS_IIF_IDSA</a> = 0x70
 <br />
  }</td></tr>
-<tr class="memdesc:ac7e055e7ef7b6e3e2d04a2744b2142cf"><td class="mdescLeft">&#160;</td><td class="mdescRight">Data broadcast id values (in data_broadcast[_id]_descriptor)  <a href="namespacets.html#ac7e055e7ef7b6e3e2d04a2744b2142cf">More...</a><br /></td></tr>
-<tr class="separator:ac7e055e7ef7b6e3e2d04a2744b2142cf"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memdesc:ae146dfb8f8972d507c6ed2b8dd3cb4df"><td class="mdescLeft">&#160;</td><td class="mdescRight">Scrambling mode values (in scrambling_descriptor)  <a href="namespacets.html#ae146dfb8f8972d507c6ed2b8dd3cb4df">More...</a><br /></td></tr>
+<tr class="separator:ae146dfb8f8972d507c6ed2b8dd3cb4df"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a1f630b72bfe5d8444b70ed5c591f79db"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom">: uint16_t { <br />
-&#160;&#160;<a class="el" href="namespacets.html#a1f630b72bfe5d8444b70ed5c591f79dbaa2d1bf81289ee39f5819366aa003775e">ts::BID_TVNUMERIC</a> = 0x0086, 
+&#160;&#160;<a class="el" href="namespacets.html#a1f630b72bfe5d8444b70ed5c591f79dba5e854bc8b1615bda6a23fad70151c326">ts::DBID_DATA_PIPE</a> = 0x0001, 
 <br />
-&#160;&#160;<a class="el" href="namespacets.html#a1f630b72bfe5d8444b70ed5c591f79dba3e5052a523c8b6a8bea580345275540b">ts::BID_TVNUMERIC_EUTELSAT</a> = 0xC030, 
+&#160;&#160;<a class="el" href="namespacets.html#a1f630b72bfe5d8444b70ed5c591f79dba3c4667e64a6226fc2f9a8728b37a89aa">ts::DBID_ASYNC_DATA_STREAM</a> = 0x0002, 
 <br />
-&#160;&#160;<a class="el" href="namespacets.html#a1f630b72bfe5d8444b70ed5c591f79dbab2f1ecd8398a5712afd7d79d08f767a0">ts::BID_TVNUMERIC_ASTRA</a> = 0xC031
+&#160;&#160;<a class="el" href="namespacets.html#a1f630b72bfe5d8444b70ed5c591f79dbab009ae42169bfbfb58c29edfc1b1e9c0">ts::DBID_SYNC_DATA_STREAM</a> = 0x0003, 
+<br />
+&#160;&#160;<a class="el" href="namespacets.html#a1f630b72bfe5d8444b70ed5c591f79dba68085ba7aaa707971948593cae187580">ts::DBID_SYNCED_DATA_STREAM</a> = 0x0004, 
+<br />
+&#160;&#160;<a class="el" href="namespacets.html#a1f630b72bfe5d8444b70ed5c591f79dbad55f828edd163550e9862ba3f2ed7a3d">ts::DBID_MPE</a> = 0x0005, 
+<br />
+&#160;&#160;<a class="el" href="namespacets.html#a1f630b72bfe5d8444b70ed5c591f79dba326fddbe00e51a80077b2aaf4877f23e">ts::DBID_DATA_CSL</a> = 0x0006, 
+<br />
+&#160;&#160;<a class="el" href="namespacets.html#a1f630b72bfe5d8444b70ed5c591f79dba5c4109707c334220f8cd9cab31dcab66">ts::DBID_OBJECT_CSL</a> = 0x0007, 
+<br />
+&#160;&#160;<a class="el" href="namespacets.html#a1f630b72bfe5d8444b70ed5c591f79dba7e3d371de6aa4711f7d7e9fb19d2c7a9">ts::DBID_ATM</a> = 0x0008, 
+<br />
+&#160;&#160;<a class="el" href="namespacets.html#a1f630b72bfe5d8444b70ed5c591f79dba12d754fe6d09fbcd01b5bb4510c4bff2">ts::DBID_HP_ASYNC_DATA_STREAM</a> = 0x0009, 
+<br />
+&#160;&#160;<a class="el" href="namespacets.html#a1f630b72bfe5d8444b70ed5c591f79dba8ed1735a7f3d9752bbe38a03d9341d89">ts::DBID_SSU</a> = 0x000A, 
+<br />
+&#160;&#160;<a class="el" href="namespacets.html#a1f630b72bfe5d8444b70ed5c591f79dbadeffb3a87ddbd34e993e4c706ba7bafc">ts::DBID_IPMAC_NOTIFICATION</a> = 0x000B, 
+<br />
+&#160;&#160;<a class="el" href="namespacets.html#a1f630b72bfe5d8444b70ed5c591f79dba891afde52d176ce396665deeea31b0d5">ts::DBID_MHP_OBJECT_CSL</a> = 0x00F0, 
+<br />
+&#160;&#160;<a class="el" href="namespacets.html#a1f630b72bfe5d8444b70ed5c591f79dbacc126606247f09353b3101ebfc95e8e8">ts::DBID_MHP_MPE</a> = 0x00F1, 
+<br />
+&#160;&#160;<a class="el" href="namespacets.html#a1f630b72bfe5d8444b70ed5c591f79dbaccc56d195853b5abbf89cff2ce7ade16">ts::DBID_EUTELSAT_DATA_PIPE</a> = 0x0100, 
+<br />
+&#160;&#160;<a class="el" href="namespacets.html#a1f630b72bfe5d8444b70ed5c591f79dba31ca12594fb27f27b7380e431b41f780">ts::DBID_EUTELSAT_DATA_STREAM</a> = 0x0101, 
+<br />
+&#160;&#160;<a class="el" href="namespacets.html#a1f630b72bfe5d8444b70ed5c591f79dba59b33466f7b38189e3314f5c36f266a5">ts::DBID_SAGEM_IP</a> = 0x0102, 
+<br />
+&#160;&#160;<a class="el" href="namespacets.html#a1f630b72bfe5d8444b70ed5c591f79dba0dd75ef2f7acdf8d5bbc5d1cdde8c881">ts::DBID_BARCO_DATA_BRD</a> = 0x0103, 
+<br />
+&#160;&#160;<a class="el" href="namespacets.html#a1f630b72bfe5d8444b70ed5c591f79dba82b4aef63934dff2c1fdc06fbe23aea7">ts::DBID_CIBERCITY_MPE</a> = 0x0104, 
+<br />
+&#160;&#160;<a class="el" href="namespacets.html#a1f630b72bfe5d8444b70ed5c591f79dba0437f4faad02fb77dd2b448d5daeb0c4">ts::DBID_CYBERSAT_MPE</a> = 0x0105, 
+<br />
+&#160;&#160;<a class="el" href="namespacets.html#a1f630b72bfe5d8444b70ed5c591f79dba7dd399d26567d830e9f07bc5c636672e">ts::DBID_TDN</a> = 0x0106, 
+<br />
+&#160;&#160;<a class="el" href="namespacets.html#a1f630b72bfe5d8444b70ed5c591f79dbafca579ec0e91401b12c2a519a468de74">ts::DBID_OPENTV_DATA_CSL</a> = 0x0107, 
+<br />
+&#160;&#160;<a class="el" href="namespacets.html#a1f630b72bfe5d8444b70ed5c591f79dba54916b1110748ecf821c16a05045feaa">ts::DBID_PANASONIC</a> = 0x0108, 
+<br />
+&#160;&#160;<a class="el" href="namespacets.html#a1f630b72bfe5d8444b70ed5c591f79dba43e0e983e3fd60a45cabc888324ebdc0">ts::DBID_KABEL_DEUTSCHLAND</a> = 0x0109, 
+<br />
+&#160;&#160;<a class="el" href="namespacets.html#a1f630b72bfe5d8444b70ed5c591f79dba440fffe954dcb6170e7e689793620cfb">ts::DBID_TECHNOTREND</a> = 0x010A, 
+<br />
+&#160;&#160;<a class="el" href="namespacets.html#a1f630b72bfe5d8444b70ed5c591f79dbab3f83c06663dc1343593f11ce72f5753">ts::DBID_MEDIAHIGHWAY_SSU</a> = 0x010B, 
+<br />
+&#160;&#160;<a class="el" href="namespacets.html#a1f630b72bfe5d8444b70ed5c591f79dba4599d719117300f363db64a26767b174">ts::DBID_GUIDE_PLUS</a> = 0x010C, 
+<br />
+&#160;&#160;<a class="el" href="namespacets.html#a1f630b72bfe5d8444b70ed5c591f79dba3b503c60c8d12691e68ebf8e223661ea">ts::DBID_ACAP_OBJECT_CSL</a> = 0x010D, 
+<br />
+&#160;&#160;<a class="el" href="namespacets.html#a1f630b72bfe5d8444b70ed5c591f79dbaa2df52439d3069a905a1151acdb1c6f0">ts::DBID_MICRONAS</a> = 0x010E, 
+<br />
+&#160;&#160;<a class="el" href="namespacets.html#a1f630b72bfe5d8444b70ed5c591f79dba584717d2c80ab6d7e6bdb00df561d889">ts::DBID_POLSAT</a> = 0x0110, 
+<br />
+&#160;&#160;<a class="el" href="namespacets.html#a1f630b72bfe5d8444b70ed5c591f79dba83033c28ce1b1eb77d9939a60b3a012c">ts::DBID_DTG</a> = 0x0111, 
+<br />
+&#160;&#160;<a class="el" href="namespacets.html#a1f630b72bfe5d8444b70ed5c591f79dba711a931e1360897f5c912cd3fa9665d7">ts::DBID_SKYMEDIA</a> = 0x0112, 
+<br />
+&#160;&#160;<a class="el" href="namespacets.html#a1f630b72bfe5d8444b70ed5c591f79dba1a3f0449a12ddbe4a18b89b8016b7884">ts::DBID_INTELLIBYTE</a> = 0x0113, 
+<br />
+&#160;&#160;<a class="el" href="namespacets.html#a1f630b72bfe5d8444b70ed5c591f79dba59ff22ab360f9995df498afdadbada2b">ts::DBID_TELEWEB_DATA_CSL</a> = 0x0114, 
+<br />
+&#160;&#160;<a class="el" href="namespacets.html#a1f630b72bfe5d8444b70ed5c591f79dba15d490344912deab3dd83897548d589a">ts::DBID_TELEWEB_OBJECT_CSL</a> = 0x0115, 
+<br />
+&#160;&#160;<a class="el" href="namespacets.html#a1f630b72bfe5d8444b70ed5c591f79dbaed3a7671e9722881b76e6fe211b8ee31">ts::DBID_TELEWEB</a> = 0x0116, 
+<br />
+&#160;&#160;<a class="el" href="namespacets.html#a1f630b72bfe5d8444b70ed5c591f79dba98157cdfc6e2f1ea9e751219e32c543a">ts::DBID_BBC</a> = 0x0117, 
+<br />
+&#160;&#160;<a class="el" href="namespacets.html#a1f630b72bfe5d8444b70ed5c591f79dbaa9d610022adcfe725a1428b2e38ea7dd">ts::DBID_ELECTRA</a> = 0x0118, 
+<br />
+&#160;&#160;<a class="el" href="namespacets.html#a1f630b72bfe5d8444b70ed5c591f79dba0037fdd0843f548f9c7082615ddca19f">ts::DBID_BBC_2_3</a> = 0x011A, 
+<br />
+&#160;&#160;<a class="el" href="namespacets.html#a1f630b72bfe5d8444b70ed5c591f79dba6d523bb0eca72dafd66e619f731f0883">ts::DBID_TELETEXT</a> = 0x011B, 
+<br />
+&#160;&#160;<a class="el" href="namespacets.html#a1f630b72bfe5d8444b70ed5c591f79dba59f246b8808845dda6c3d71b1d059630">ts::DBID_SKY_DOWNLOAD_1_5</a> = 0x0120, 
+<br />
+&#160;&#160;<a class="el" href="namespacets.html#a1f630b72bfe5d8444b70ed5c591f79dba7c83af778ad957fd71022cd7d0f3e862">ts::DBID_ICO</a> = 0x0121, 
+<br />
+&#160;&#160;<a class="el" href="namespacets.html#a1f630b72bfe5d8444b70ed5c591f79dbafeee380154bc20a319f2880d67db5c96">ts::DBID_CIPLUS_DATA_CSL</a> = 0x0122, 
+<br />
+&#160;&#160;<a class="el" href="namespacets.html#a1f630b72bfe5d8444b70ed5c591f79dba3405658e49464fdcce06972d52ecb26d">ts::DBID_HBBTV</a> = 0x0123, 
+<br />
+&#160;&#160;<a class="el" href="namespacets.html#a1f630b72bfe5d8444b70ed5c591f79dba01d7fae99c9336e582fbfb289ceb5157">ts::DBID_ROVI_PREMIUM</a> = 0x0124, 
+<br />
+&#160;&#160;<a class="el" href="namespacets.html#a1f630b72bfe5d8444b70ed5c591f79dba079d83fe51b6583ceab60f913a9e8c91">ts::DBID_MEDIA_GUIDE</a> = 0x0125, 
+<br />
+&#160;&#160;<a class="el" href="namespacets.html#a1f630b72bfe5d8444b70ed5c591f79dba59d7346e745f824308d433559e6e4f61">ts::DBID_INVIEW</a> = 0x0126, 
+<br />
+&#160;&#160;<a class="el" href="namespacets.html#a1f630b72bfe5d8444b70ed5c591f79dbacc92d2c4dd5d3559a62f90ab154a7b79">ts::DBID_BOTECH</a> = 0x0130, 
+<br />
+&#160;&#160;<a class="el" href="namespacets.html#a1f630b72bfe5d8444b70ed5c591f79dba7f5fa6551086bc48fe5780f4967bc706">ts::DBID_SCILLA_PUSHVOD_CSL</a> = 0x0131, 
+<br />
+&#160;&#160;<a class="el" href="namespacets.html#a1f630b72bfe5d8444b70ed5c591f79dba8c9c3f6ec6bc5e81db62f2895e934e2b">ts::DBID_CANAL_PLUS</a> = 0x0140, 
+<br />
+&#160;&#160;<a class="el" href="namespacets.html#a1f630b72bfe5d8444b70ed5c591f79dba6b50db71be608bd959bd7fa3018cf672">ts::DBID_OIPF_OBJECT_CSL</a> = 0x0150, 
+<br />
+&#160;&#160;<a class="el" href="namespacets.html#a1f630b72bfe5d8444b70ed5c591f79dba124d61536e3fcc9649febc1afa691eeb">ts::DBID_4TV</a> = 0x4444, 
+<br />
+&#160;&#160;<a class="el" href="namespacets.html#a1f630b72bfe5d8444b70ed5c591f79dba0735d78b67aafbe7a1c7fd2a29bc40e4">ts::DBID_NOKIA_IP_SSU</a> = 0x4E4F, 
+<br />
+&#160;&#160;<a class="el" href="namespacets.html#a1f630b72bfe5d8444b70ed5c591f79dba899fac929d3280afe18f2e5649366e23">ts::DBID_BBG_DATA_CSL</a> = 0xBBB1, 
+<br />
+&#160;&#160;<a class="el" href="namespacets.html#a1f630b72bfe5d8444b70ed5c591f79dbae1fe2058832182955710d87c4c00e0b7">ts::DBID_BBG_OBJECT_CSL</a> = 0xBBB2, 
+<br />
+&#160;&#160;<a class="el" href="namespacets.html#a1f630b72bfe5d8444b70ed5c591f79dbabda049b64ab0fdf45a61fd4a2282f523">ts::DBID_BBG</a> = 0xBBBB
 <br />
  }</td></tr>
-<tr class="memdesc:a1f630b72bfe5d8444b70ed5c591f79db"><td class="mdescLeft">&#160;</td><td class="mdescRight">DVB-assigned Bouquet Identifier values.  <a href="namespacets.html#a1f630b72bfe5d8444b70ed5c591f79db">More...</a><br /></td></tr>
+<tr class="memdesc:a1f630b72bfe5d8444b70ed5c591f79db"><td class="mdescLeft">&#160;</td><td class="mdescRight">Data broadcast id values (in data_broadcast[_id]_descriptor)  <a href="namespacets.html#a1f630b72bfe5d8444b70ed5c591f79db">More...</a><br /></td></tr>
 <tr class="separator:a1f630b72bfe5d8444b70ed5c591f79db"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a00632472299c29cf2856b2bd4dbb9c25"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom">: uint16_t { <br />
-&#160;&#160;<a class="el" href="namespacets.html#a00632472299c29cf2856b2bd4dbb9c25a1183fa7863df85531cc8c790879136cd">ts::CASID_MEDIAGUARD_MIN</a> = 0x0100, 
+&#160;&#160;<a class="el" href="namespacets.html#a00632472299c29cf2856b2bd4dbb9c25aa2d1bf81289ee39f5819366aa003775e">ts::BID_TVNUMERIC</a> = 0x0086, 
 <br />
-&#160;&#160;<a class="el" href="namespacets.html#a00632472299c29cf2856b2bd4dbb9c25a21faff0f81464fe7ffc1f23920531f1b">ts::CASID_MEDIAGUARD_MAX</a> = 0x01FF, 
+&#160;&#160;<a class="el" href="namespacets.html#a00632472299c29cf2856b2bd4dbb9c25a3e5052a523c8b6a8bea580345275540b">ts::BID_TVNUMERIC_EUTELSAT</a> = 0xC030, 
 <br />
-&#160;&#160;<a class="el" href="namespacets.html#a00632472299c29cf2856b2bd4dbb9c25aaa77af9e1d2faa3a57d1de963cf9f223">ts::CASID_VIACCESS_MIN</a> = 0x0500, 
-<br />
-&#160;&#160;<a class="el" href="namespacets.html#a00632472299c29cf2856b2bd4dbb9c25a2872c4929c4ec4a21f7367f8921ada9e">ts::CASID_VIACCESS_MAX</a> = 0x05FF, 
-<br />
-&#160;&#160;<a class="el" href="namespacets.html#a00632472299c29cf2856b2bd4dbb9c25a6956ef8e23a09136b637dff9f5a6ede9">ts::CASID_NAGRA_MIN</a> = 0x1800, 
-<br />
-&#160;&#160;<a class="el" href="namespacets.html#a00632472299c29cf2856b2bd4dbb9c25aaf747ad50c2a7ac79e63a8c6b89ddc83">ts::CASID_NAGRA_MAX</a> = 0x18FF, 
-<br />
-&#160;&#160;<a class="el" href="namespacets.html#a00632472299c29cf2856b2bd4dbb9c25a57ff1d43b05d798784bde8aa9e376864">ts::CASID_THALESCRYPT_MIN</a> = 0x4A80, 
-<br />
-&#160;&#160;<a class="el" href="namespacets.html#a00632472299c29cf2856b2bd4dbb9c25af5f401cd0482559575e806016d835008">ts::CASID_THALESCRYPT_MAX</a> = 0x4A8F, 
-<br />
-&#160;&#160;<a class="el" href="namespacets.html#a00632472299c29cf2856b2bd4dbb9c25a581c463569cc256c895ffd5209d9c059">ts::CASID_SAFEACCESS</a> = 0x4ADC
+&#160;&#160;<a class="el" href="namespacets.html#a00632472299c29cf2856b2bd4dbb9c25ab2f1ecd8398a5712afd7d79d08f767a0">ts::BID_TVNUMERIC_ASTRA</a> = 0xC031
 <br />
  }</td></tr>
-<tr class="memdesc:a00632472299c29cf2856b2bd4dbb9c25"><td class="mdescLeft">&#160;</td><td class="mdescRight">DVB-assigned CA System Identifier values.  <a href="namespacets.html#a00632472299c29cf2856b2bd4dbb9c25">More...</a><br /></td></tr>
+<tr class="memdesc:a00632472299c29cf2856b2bd4dbb9c25"><td class="mdescLeft">&#160;</td><td class="mdescRight">DVB-assigned Bouquet Identifier values.  <a href="namespacets.html#a00632472299c29cf2856b2bd4dbb9c25">More...</a><br /></td></tr>
 <tr class="separator:a00632472299c29cf2856b2bd4dbb9c25"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:afb5f613a6ef580ef5683820aa4b43c40"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom">: uint16_t { <a class="el" href="namespacets.html#afb5f613a6ef580ef5683820aa4b43c40a00aaa8dbcc42db0c145597826f6455e6">ts::NID_TNT_FRANCE</a> = 0x20FA
+<tr class="memitem:afb5f613a6ef580ef5683820aa4b43c40"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom">: uint16_t { <br />
+&#160;&#160;<a class="el" href="namespacets.html#afb5f613a6ef580ef5683820aa4b43c40a1183fa7863df85531cc8c790879136cd">ts::CASID_MEDIAGUARD_MIN</a> = 0x0100, 
+<br />
+&#160;&#160;<a class="el" href="namespacets.html#afb5f613a6ef580ef5683820aa4b43c40a21faff0f81464fe7ffc1f23920531f1b">ts::CASID_MEDIAGUARD_MAX</a> = 0x01FF, 
+<br />
+&#160;&#160;<a class="el" href="namespacets.html#afb5f613a6ef580ef5683820aa4b43c40aaa77af9e1d2faa3a57d1de963cf9f223">ts::CASID_VIACCESS_MIN</a> = 0x0500, 
+<br />
+&#160;&#160;<a class="el" href="namespacets.html#afb5f613a6ef580ef5683820aa4b43c40a2872c4929c4ec4a21f7367f8921ada9e">ts::CASID_VIACCESS_MAX</a> = 0x05FF, 
+<br />
+&#160;&#160;<a class="el" href="namespacets.html#afb5f613a6ef580ef5683820aa4b43c40a6956ef8e23a09136b637dff9f5a6ede9">ts::CASID_NAGRA_MIN</a> = 0x1800, 
+<br />
+&#160;&#160;<a class="el" href="namespacets.html#afb5f613a6ef580ef5683820aa4b43c40aaf747ad50c2a7ac79e63a8c6b89ddc83">ts::CASID_NAGRA_MAX</a> = 0x18FF, 
+<br />
+&#160;&#160;<a class="el" href="namespacets.html#afb5f613a6ef580ef5683820aa4b43c40a57ff1d43b05d798784bde8aa9e376864">ts::CASID_THALESCRYPT_MIN</a> = 0x4A80, 
+<br />
+&#160;&#160;<a class="el" href="namespacets.html#afb5f613a6ef580ef5683820aa4b43c40af5f401cd0482559575e806016d835008">ts::CASID_THALESCRYPT_MAX</a> = 0x4A8F, 
+<br />
+&#160;&#160;<a class="el" href="namespacets.html#afb5f613a6ef580ef5683820aa4b43c40a581c463569cc256c895ffd5209d9c059">ts::CASID_SAFEACCESS</a> = 0x4ADC
+<br />
  }</td></tr>
-<tr class="memdesc:afb5f613a6ef580ef5683820aa4b43c40"><td class="mdescLeft">&#160;</td><td class="mdescRight">DVB-assigned Network Identifier values.  <a href="namespacets.html#afb5f613a6ef580ef5683820aa4b43c40">More...</a><br /></td></tr>
+<tr class="memdesc:afb5f613a6ef580ef5683820aa4b43c40"><td class="mdescLeft">&#160;</td><td class="mdescRight">DVB-assigned CA System Identifier values.  <a href="namespacets.html#afb5f613a6ef580ef5683820aa4b43c40">More...</a><br /></td></tr>
 <tr class="separator:afb5f613a6ef580ef5683820aa4b43c40"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:abb76a9ed01e1ee38dfc222ccd1818944"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom">{ <br />
-&#160;&#160;<a class="el" href="namespacets.html#abb76a9ed01e1ee38dfc222ccd1818944aa85e5b790ab8964d0073b3c6ab0873a3">ts::OUI_DVB</a> = 0x00015A, 
+<tr class="memitem:a753d87adfc96cfc4af2f9ed714b6f161"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom">: uint16_t { <a class="el" href="namespacets.html#a753d87adfc96cfc4af2f9ed714b6f161a00aaa8dbcc42db0c145597826f6455e6">ts::NID_TNT_FRANCE</a> = 0x20FA
+ }</td></tr>
+<tr class="memdesc:a753d87adfc96cfc4af2f9ed714b6f161"><td class="mdescLeft">&#160;</td><td class="mdescRight">DVB-assigned Network Identifier values.  <a href="namespacets.html#a753d87adfc96cfc4af2f9ed714b6f161">More...</a><br /></td></tr>
+<tr class="separator:a753d87adfc96cfc4af2f9ed714b6f161"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a31d149e67bafccf62f288e7d480fb452"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom">{ <br />
+&#160;&#160;<a class="el" href="namespacets.html#a31d149e67bafccf62f288e7d480fb452aa85e5b790ab8964d0073b3c6ab0873a3">ts::OUI_DVB</a> = 0x00015A, 
 <br />
-&#160;&#160;<a class="el" href="namespacets.html#abb76a9ed01e1ee38dfc222ccd1818944ac26d4d80924b3fd601e80125e942a686">ts::OUI_SKARDIN</a> = 0x001222, 
+&#160;&#160;<a class="el" href="namespacets.html#a31d149e67bafccf62f288e7d480fb452ac26d4d80924b3fd601e80125e942a686">ts::OUI_SKARDIN</a> = 0x001222, 
 <br />
-&#160;&#160;<a class="el" href="namespacets.html#abb76a9ed01e1ee38dfc222ccd1818944a8784c141e8c5ba924a3b8905b79d7dea">ts::OUI_LOGIWAYS</a> = 0x002660
+&#160;&#160;<a class="el" href="namespacets.html#a31d149e67bafccf62f288e7d480fb452a8784c141e8c5ba924a3b8905b79d7dea">ts::OUI_LOGIWAYS</a> = 0x002660
 <br />
  }</td></tr>
-<tr class="memdesc:abb76a9ed01e1ee38dfc222ccd1818944"><td class="mdescLeft">&#160;</td><td class="mdescRight">IEEE-assigned Organizationally Unique Identifier (OUI) values.  <a href="namespacets.html#abb76a9ed01e1ee38dfc222ccd1818944">More...</a><br /></td></tr>
-<tr class="separator:abb76a9ed01e1ee38dfc222ccd1818944"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a3f7c3b2822550c4656455699f258a783"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom">: uint8_t { <br />
-&#160;&#160;<a class="el" href="namespacets.html#a3f7c3b2822550c4656455699f258a783aaf544ad9e36d230a9046a499c6bc5b41">ts::T2MI_BASEBAND_FRAME</a> = 0x00, 
-<br />
-&#160;&#160;<a class="el" href="namespacets.html#a3f7c3b2822550c4656455699f258a783a4bd3382761028c5084ca12b62a40a5c3">ts::T2MI_AUX_IQ_DATA</a> = 0x01, 
-<br />
-&#160;&#160;<a class="el" href="namespacets.html#a3f7c3b2822550c4656455699f258a783ad10f4bcd83245878b2f8937b1fa5dc56">ts::T2MI_ARBITRARY_CELL</a> = 0x02, 
-<br />
-&#160;&#160;<a class="el" href="namespacets.html#a3f7c3b2822550c4656455699f258a783ade595631ce351cfc0d5bfc9925d896d8">ts::T2MI_L1_CURRENT</a> = 0x10, 
-<br />
-&#160;&#160;<a class="el" href="namespacets.html#a3f7c3b2822550c4656455699f258a783a141dd28a9c3171eba7734a61f02871df">ts::T2MI_L1_FUTURE</a> = 0x11, 
-<br />
-&#160;&#160;<a class="el" href="namespacets.html#a3f7c3b2822550c4656455699f258a783a51b4e7a66bfaf0d7173d5bb67981af34">ts::T2MI_P2_BIAS_BALANCING</a> = 0x12, 
-<br />
-&#160;&#160;<a class="el" href="namespacets.html#a3f7c3b2822550c4656455699f258a783a6c74f4088b2403651d260c17de4fee2f">ts::T2MI_DVBT2_TIMESTAMP</a> = 0x20, 
-<br />
-&#160;&#160;<a class="el" href="namespacets.html#a3f7c3b2822550c4656455699f258a783a26be1fb9098dc07057c10b098d70718e">ts::T2MI_INDIVIDUAL_ADDRESSING</a> = 0x21, 
-<br />
-&#160;&#160;<a class="el" href="namespacets.html#a3f7c3b2822550c4656455699f258a783aa59fba9cb3cdbe930591752279f6064b">ts::T2MI_FEF_NULL</a> = 0x30, 
-<br />
-&#160;&#160;<a class="el" href="namespacets.html#a3f7c3b2822550c4656455699f258a783aefdb31c447d2b339d97086b500bbc7c2">ts::T2MI_FEF_IQ_DATA</a> = 0x31, 
-<br />
-&#160;&#160;<a class="el" href="namespacets.html#a3f7c3b2822550c4656455699f258a783a41b9c4d893e263d9077c920cd640deb9">ts::T2MI_FEF_COMPOSITE</a> = 0x32, 
-<br />
-&#160;&#160;<a class="el" href="namespacets.html#a3f7c3b2822550c4656455699f258a783ae66c721c10797abe8a596bf141ac857f">ts::T2MI_FEF_SUBPART</a> = 0x33, 
-<br />
-&#160;&#160;<a class="el" href="namespacets.html#a3f7c3b2822550c4656455699f258a783a7464ca6d243fcd011b4c5c5603060839">ts::T2MI_INVALID_TYPE</a> = 0xFF
-<br />
- }</td></tr>
-<tr class="memdesc:a3f7c3b2822550c4656455699f258a783"><td class="mdescLeft">&#160;</td><td class="mdescRight">T2-MI packet types.  <a href="namespacets.html#a3f7c3b2822550c4656455699f258a783">More...</a><br /></td></tr>
-<tr class="separator:a3f7c3b2822550c4656455699f258a783"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memdesc:a31d149e67bafccf62f288e7d480fb452"><td class="mdescLeft">&#160;</td><td class="mdescRight">IEEE-assigned Organizationally Unique Identifier (OUI) values.  <a href="namespacets.html#a31d149e67bafccf62f288e7d480fb452">More...</a><br /></td></tr>
+<tr class="separator:a31d149e67bafccf62f288e7d480fb452"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ad5057d75fa4afb0b3d4dd5ff1d6f6af9"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom">: uint8_t { <br />
-&#160;&#160;<a class="el" href="namespacets.html#ad5057d75fa4afb0b3d4dd5ff1d6f6af9a85259076df85812a93c5bca421504abb">ts::TELETEXT_DATA_UNIT_ID_NON_SUBTITLE</a> = 0x02, 
+&#160;&#160;<a class="el" href="namespacets.html#ad5057d75fa4afb0b3d4dd5ff1d6f6af9aaf544ad9e36d230a9046a499c6bc5b41">ts::T2MI_BASEBAND_FRAME</a> = 0x00, 
 <br />
-&#160;&#160;<a class="el" href="namespacets.html#ad5057d75fa4afb0b3d4dd5ff1d6f6af9a79796c38a13db5b1487eab29c593b91c">ts::TELETEXT_DATA_UNIT_ID_SUBTITLE</a> = 0x03, 
+&#160;&#160;<a class="el" href="namespacets.html#ad5057d75fa4afb0b3d4dd5ff1d6f6af9a4bd3382761028c5084ca12b62a40a5c3">ts::T2MI_AUX_IQ_DATA</a> = 0x01, 
 <br />
-&#160;&#160;<a class="el" href="namespacets.html#ad5057d75fa4afb0b3d4dd5ff1d6f6af9ad2cd0e7d27c91583979c4bf0b8cf4c37">ts::TELETEXT_DATA_UNIT_ID_INVERTED</a> = 0x0C, 
+&#160;&#160;<a class="el" href="namespacets.html#ad5057d75fa4afb0b3d4dd5ff1d6f6af9ad10f4bcd83245878b2f8937b1fa5dc56">ts::T2MI_ARBITRARY_CELL</a> = 0x02, 
 <br />
-&#160;&#160;<a class="el" href="namespacets.html#ad5057d75fa4afb0b3d4dd5ff1d6f6af9ae288d708b8622af8771f0a3f7cd03291">ts::TELETEXT_DATA_UNIT_ID_VPS</a> = 0xC3, 
+&#160;&#160;<a class="el" href="namespacets.html#ad5057d75fa4afb0b3d4dd5ff1d6f6af9ade595631ce351cfc0d5bfc9925d896d8">ts::T2MI_L1_CURRENT</a> = 0x10, 
 <br />
-&#160;&#160;<a class="el" href="namespacets.html#ad5057d75fa4afb0b3d4dd5ff1d6f6af9a467c25a26b08927760ffc2a8e38d4ed1">ts::TELETEXT_DATA_UNIT_ID_CLOSED_CAPTIONS</a> = 0xC5, 
+&#160;&#160;<a class="el" href="namespacets.html#ad5057d75fa4afb0b3d4dd5ff1d6f6af9a141dd28a9c3171eba7734a61f02871df">ts::T2MI_L1_FUTURE</a> = 0x11, 
 <br />
-&#160;&#160;<a class="el" href="namespacets.html#ad5057d75fa4afb0b3d4dd5ff1d6f6af9a85f29855b5d0d97cc9efa800e80140c3">ts::TELETEXT_DATA_UNIT_ID_STUFFING</a> = 0xFF
+&#160;&#160;<a class="el" href="namespacets.html#ad5057d75fa4afb0b3d4dd5ff1d6f6af9a51b4e7a66bfaf0d7173d5bb67981af34">ts::T2MI_P2_BIAS_BALANCING</a> = 0x12, 
+<br />
+&#160;&#160;<a class="el" href="namespacets.html#ad5057d75fa4afb0b3d4dd5ff1d6f6af9a6c74f4088b2403651d260c17de4fee2f">ts::T2MI_DVBT2_TIMESTAMP</a> = 0x20, 
+<br />
+&#160;&#160;<a class="el" href="namespacets.html#ad5057d75fa4afb0b3d4dd5ff1d6f6af9a26be1fb9098dc07057c10b098d70718e">ts::T2MI_INDIVIDUAL_ADDRESSING</a> = 0x21, 
+<br />
+&#160;&#160;<a class="el" href="namespacets.html#ad5057d75fa4afb0b3d4dd5ff1d6f6af9aa59fba9cb3cdbe930591752279f6064b">ts::T2MI_FEF_NULL</a> = 0x30, 
+<br />
+&#160;&#160;<a class="el" href="namespacets.html#ad5057d75fa4afb0b3d4dd5ff1d6f6af9aefdb31c447d2b339d97086b500bbc7c2">ts::T2MI_FEF_IQ_DATA</a> = 0x31, 
+<br />
+&#160;&#160;<a class="el" href="namespacets.html#ad5057d75fa4afb0b3d4dd5ff1d6f6af9a41b9c4d893e263d9077c920cd640deb9">ts::T2MI_FEF_COMPOSITE</a> = 0x32, 
+<br />
+&#160;&#160;<a class="el" href="namespacets.html#ad5057d75fa4afb0b3d4dd5ff1d6f6af9ae66c721c10797abe8a596bf141ac857f">ts::T2MI_FEF_SUBPART</a> = 0x33, 
+<br />
+&#160;&#160;<a class="el" href="namespacets.html#ad5057d75fa4afb0b3d4dd5ff1d6f6af9a7464ca6d243fcd011b4c5c5603060839">ts::T2MI_INVALID_TYPE</a> = 0xFF
 <br />
  }</td></tr>
-<tr class="memdesc:ad5057d75fa4afb0b3d4dd5ff1d6f6af9"><td class="mdescLeft">&#160;</td><td class="mdescRight">Teletext data unit ids.  <a href="namespacets.html#ad5057d75fa4afb0b3d4dd5ff1d6f6af9">More...</a><br /></td></tr>
+<tr class="memdesc:ad5057d75fa4afb0b3d4dd5ff1d6f6af9"><td class="mdescLeft">&#160;</td><td class="mdescRight">T2-MI packet types.  <a href="namespacets.html#ad5057d75fa4afb0b3d4dd5ff1d6f6af9">More...</a><br /></td></tr>
 <tr class="separator:ad5057d75fa4afb0b3d4dd5ff1d6f6af9"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ad0f2eea2319c609200168fbd6950acfe"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom">: uint8_t { <br />
-&#160;&#160;<a class="el" href="namespacets.html#ad0f2eea2319c609200168fbd6950acfeabd1e31f1bbea2ed8d74137436bda9fda">ts::CUE_INSERT_NULL_SCHEDULE</a> = 0x00, 
+&#160;&#160;<a class="el" href="namespacets.html#ad0f2eea2319c609200168fbd6950acfea85259076df85812a93c5bca421504abb">ts::TELETEXT_DATA_UNIT_ID_NON_SUBTITLE</a> = 0x02, 
 <br />
-&#160;&#160;<a class="el" href="namespacets.html#ad0f2eea2319c609200168fbd6950acfeae13c5ea3f3ba678bc134bcda73543ec2">ts::CUE_ALL_COMMANDS</a> = 0x01, 
+&#160;&#160;<a class="el" href="namespacets.html#ad0f2eea2319c609200168fbd6950acfea79796c38a13db5b1487eab29c593b91c">ts::TELETEXT_DATA_UNIT_ID_SUBTITLE</a> = 0x03, 
 <br />
-&#160;&#160;<a class="el" href="namespacets.html#ad0f2eea2319c609200168fbd6950acfeae65e1e41e02d6395204e82ea428c2870">ts::CUE_SEGMENTATION</a> = 0x02, 
+&#160;&#160;<a class="el" href="namespacets.html#ad0f2eea2319c609200168fbd6950acfead2cd0e7d27c91583979c4bf0b8cf4c37">ts::TELETEXT_DATA_UNIT_ID_INVERTED</a> = 0x0C, 
 <br />
-&#160;&#160;<a class="el" href="namespacets.html#ad0f2eea2319c609200168fbd6950acfeafdfa0fd8f7df084f073efaceb7eb8a25">ts::CUE_TIERED_SPLICING</a> = 0x03, 
+&#160;&#160;<a class="el" href="namespacets.html#ad0f2eea2319c609200168fbd6950acfeae288d708b8622af8771f0a3f7cd03291">ts::TELETEXT_DATA_UNIT_ID_VPS</a> = 0xC3, 
 <br />
-&#160;&#160;<a class="el" href="namespacets.html#ad0f2eea2319c609200168fbd6950acfea615b3dcb6273f33f7a6b0d15d250d649">ts::CUE_TIERED_SEGMENTATION</a> = 0x04
+&#160;&#160;<a class="el" href="namespacets.html#ad0f2eea2319c609200168fbd6950acfea467c25a26b08927760ffc2a8e38d4ed1">ts::TELETEXT_DATA_UNIT_ID_CLOSED_CAPTIONS</a> = 0xC5, 
+<br />
+&#160;&#160;<a class="el" href="namespacets.html#ad0f2eea2319c609200168fbd6950acfea85f29855b5d0d97cc9efa800e80140c3">ts::TELETEXT_DATA_UNIT_ID_STUFFING</a> = 0xFF
 <br />
  }</td></tr>
-<tr class="memdesc:ad0f2eea2319c609200168fbd6950acfe"><td class="mdescLeft">&#160;</td><td class="mdescRight">Cue stream type values in cue_identifier_descriptor.  <a href="namespacets.html#ad0f2eea2319c609200168fbd6950acfe">More...</a><br /></td></tr>
+<tr class="memdesc:ad0f2eea2319c609200168fbd6950acfe"><td class="mdescLeft">&#160;</td><td class="mdescRight">Teletext data unit ids.  <a href="namespacets.html#ad0f2eea2319c609200168fbd6950acfe">More...</a><br /></td></tr>
 <tr class="separator:ad0f2eea2319c609200168fbd6950acfe"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a60d0f1909cfac09dca09c908e886f77e"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom">: uint8_t { <br />
-&#160;&#160;<a class="el" href="namespacets.html#a60d0f1909cfac09dca09c908e886f77ea8f0c591492661b6db10cfe26880e2386">ts::SPLICE_NULL</a> = 0x00, 
+&#160;&#160;<a class="el" href="namespacets.html#a60d0f1909cfac09dca09c908e886f77eabd1e31f1bbea2ed8d74137436bda9fda">ts::CUE_INSERT_NULL_SCHEDULE</a> = 0x00, 
 <br />
-&#160;&#160;<a class="el" href="namespacets.html#a60d0f1909cfac09dca09c908e886f77ea1dd159cdfa4104e98d09e3eaa44d71a4">ts::SPLICE_SCHEDULE</a> = 0x04, 
+&#160;&#160;<a class="el" href="namespacets.html#a60d0f1909cfac09dca09c908e886f77eae13c5ea3f3ba678bc134bcda73543ec2">ts::CUE_ALL_COMMANDS</a> = 0x01, 
 <br />
-&#160;&#160;<a class="el" href="namespacets.html#a60d0f1909cfac09dca09c908e886f77ea719e28f0d4a4aae1421de47f93a2863c">ts::SPLICE_INSERT</a> = 0x05, 
+&#160;&#160;<a class="el" href="namespacets.html#a60d0f1909cfac09dca09c908e886f77eae65e1e41e02d6395204e82ea428c2870">ts::CUE_SEGMENTATION</a> = 0x02, 
 <br />
-&#160;&#160;<a class="el" href="namespacets.html#a60d0f1909cfac09dca09c908e886f77eab6bca349035ff5f80428a5ce045ba403">ts::SPLICE_TIME_SIGNAL</a> = 0x06, 
+&#160;&#160;<a class="el" href="namespacets.html#a60d0f1909cfac09dca09c908e886f77eafdfa0fd8f7df084f073efaceb7eb8a25">ts::CUE_TIERED_SPLICING</a> = 0x03, 
 <br />
-&#160;&#160;<a class="el" href="namespacets.html#a60d0f1909cfac09dca09c908e886f77eae90b3aa4ead45801a78ceb454e179793">ts::SPLICE_BANDWIDTH_RESERVATION</a> = 0x07, 
-<br />
-&#160;&#160;<a class="el" href="namespacets.html#a60d0f1909cfac09dca09c908e886f77ead749f2fea3babc6618100e0cc30a00f2">ts::SPLICE_PRIVATE_COMMAND</a> = 0xFF
+&#160;&#160;<a class="el" href="namespacets.html#a60d0f1909cfac09dca09c908e886f77ea615b3dcb6273f33f7a6b0d15d250d649">ts::CUE_TIERED_SEGMENTATION</a> = 0x04
 <br />
  }</td></tr>
-<tr class="memdesc:a60d0f1909cfac09dca09c908e886f77e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Splice commands in Splice Information Table.  <a href="namespacets.html#a60d0f1909cfac09dca09c908e886f77e">More...</a><br /></td></tr>
+<tr class="memdesc:a60d0f1909cfac09dca09c908e886f77e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Cue stream type values in cue_identifier_descriptor.  <a href="namespacets.html#a60d0f1909cfac09dca09c908e886f77e">More...</a><br /></td></tr>
 <tr class="separator:a60d0f1909cfac09dca09c908e886f77e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a8023a0515801a3345ce010d66d3fd0a2"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom">: uint8_t { <br />
-&#160;&#160;<a class="el" href="namespacets.html#a8023a0515801a3345ce010d66d3fd0a2a18be6f798de7979a9e2dea00cb03db28">ts::SPLICE_DESC_AVAIL</a> = 0x00, 
+&#160;&#160;<a class="el" href="namespacets.html#a8023a0515801a3345ce010d66d3fd0a2a8f0c591492661b6db10cfe26880e2386">ts::SPLICE_NULL</a> = 0x00, 
 <br />
-&#160;&#160;<a class="el" href="namespacets.html#a8023a0515801a3345ce010d66d3fd0a2a4f9642d2b6693f56e5e1d840a2be4d33">ts::SPLICE_DESC_DTMF</a> = 0x01, 
+&#160;&#160;<a class="el" href="namespacets.html#a8023a0515801a3345ce010d66d3fd0a2a1dd159cdfa4104e98d09e3eaa44d71a4">ts::SPLICE_SCHEDULE</a> = 0x04, 
 <br />
-&#160;&#160;<a class="el" href="namespacets.html#a8023a0515801a3345ce010d66d3fd0a2a716ab4bdc6fac7ed8e4fe7c8a804e5a3">ts::SPLICE_DESC_SEGMENT</a> = 0x02, 
+&#160;&#160;<a class="el" href="namespacets.html#a8023a0515801a3345ce010d66d3fd0a2a719e28f0d4a4aae1421de47f93a2863c">ts::SPLICE_INSERT</a> = 0x05, 
 <br />
-&#160;&#160;<a class="el" href="namespacets.html#a8023a0515801a3345ce010d66d3fd0a2ab7f50f9cee12ce7e5a2b781c5a98cb38">ts::SPLICE_DESC_TIME</a> = 0x03
+&#160;&#160;<a class="el" href="namespacets.html#a8023a0515801a3345ce010d66d3fd0a2ab6bca349035ff5f80428a5ce045ba403">ts::SPLICE_TIME_SIGNAL</a> = 0x06, 
+<br />
+&#160;&#160;<a class="el" href="namespacets.html#a8023a0515801a3345ce010d66d3fd0a2ae90b3aa4ead45801a78ceb454e179793">ts::SPLICE_BANDWIDTH_RESERVATION</a> = 0x07, 
+<br />
+&#160;&#160;<a class="el" href="namespacets.html#a8023a0515801a3345ce010d66d3fd0a2ad749f2fea3babc6618100e0cc30a00f2">ts::SPLICE_PRIVATE_COMMAND</a> = 0xFF
 <br />
  }</td></tr>
-<tr class="memdesc:a8023a0515801a3345ce010d66d3fd0a2"><td class="mdescLeft">&#160;</td><td class="mdescRight">Splice descriptor tags in Splice Information Table.  <a href="namespacets.html#a8023a0515801a3345ce010d66d3fd0a2">More...</a><br /></td></tr>
+<tr class="memdesc:a8023a0515801a3345ce010d66d3fd0a2"><td class="mdescLeft">&#160;</td><td class="mdescRight">Splice commands in Splice Information Table.  <a href="namespacets.html#a8023a0515801a3345ce010d66d3fd0a2">More...</a><br /></td></tr>
 <tr class="separator:a8023a0515801a3345ce010d66d3fd0a2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad221f657b726fa77aa01b6f22d018162"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom">: uint8_t { <br />
+&#160;&#160;<a class="el" href="namespacets.html#ad221f657b726fa77aa01b6f22d018162a18be6f798de7979a9e2dea00cb03db28">ts::SPLICE_DESC_AVAIL</a> = 0x00, 
+<br />
+&#160;&#160;<a class="el" href="namespacets.html#ad221f657b726fa77aa01b6f22d018162a4f9642d2b6693f56e5e1d840a2be4d33">ts::SPLICE_DESC_DTMF</a> = 0x01, 
+<br />
+&#160;&#160;<a class="el" href="namespacets.html#ad221f657b726fa77aa01b6f22d018162a716ab4bdc6fac7ed8e4fe7c8a804e5a3">ts::SPLICE_DESC_SEGMENT</a> = 0x02, 
+<br />
+&#160;&#160;<a class="el" href="namespacets.html#ad221f657b726fa77aa01b6f22d018162ab7f50f9cee12ce7e5a2b781c5a98cb38">ts::SPLICE_DESC_TIME</a> = 0x03
+<br />
+ }</td></tr>
+<tr class="memdesc:ad221f657b726fa77aa01b6f22d018162"><td class="mdescLeft">&#160;</td><td class="mdescRight">Splice descriptor tags in Splice Information Table.  <a href="namespacets.html#ad221f657b726fa77aa01b6f22d018162">More...</a><br /></td></tr>
+<tr class="separator:ad221f657b726fa77aa01b6f22d018162"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a6a2873593dbf2b644a7963a5591fd2f0"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom">: uint8_t { <br />
 &#160;&#160;<a class="el" href="namespacets.html#a6a2873593dbf2b644a7963a5591fd2f0add865c554e922bc87e46ef506cab65db">ts::SC_CLEAR</a> = 0, 
 <br />
@@ -1624,14 +1642,6 @@ const size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" hr
 const uint8_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacets.html#ac55a169e153bd77c1579abc033a10415">ts::CC_MAX</a> = 1 &lt;&lt; CC_BITS</td></tr>
 <tr class="memdesc:ac55a169e153bd77c1579abc033a10415"><td class="mdescLeft">&#160;</td><td class="mdescRight">Maximum value of a Continuity Counter (CC). <br /></td></tr>
 <tr class="separator:ac55a169e153bd77c1579abc033a10415"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:abeb235de8cba6067ccd189dadfaceb70"><td class="memItemLeft" align="right" valign="top"><a id="abeb235de8cba6067ccd189dadfaceb70"></a>
-const size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacets.html#abeb235de8cba6067ccd189dadfaceb70">ts::CW_BITS</a> = 64</td></tr>
-<tr class="memdesc:abeb235de8cba6067ccd189dadfaceb70"><td class="mdescLeft">&#160;</td><td class="mdescRight">Size in bits of a DVB Common <a class="el" href="classts_1_1_scrambling.html" title="DVB-CSA (Digital Video Broadcasting Common Scrambling Algorithm). ">Scrambling</a> (DVB-CS) Control Word (CW). <br /></td></tr>
-<tr class="separator:abeb235de8cba6067ccd189dadfaceb70"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a743c706866100a9d7c5b151d382706a7"><td class="memItemLeft" align="right" valign="top"><a id="a743c706866100a9d7c5b151d382706a7"></a>
-const size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacets.html#a743c706866100a9d7c5b151d382706a7">ts::CW_BYTES</a> = CW_BITS / 8</td></tr>
-<tr class="memdesc:a743c706866100a9d7c5b151d382706a7"><td class="mdescLeft">&#160;</td><td class="mdescRight">Size in bytes of a DVB Common <a class="el" href="classts_1_1_scrambling.html" title="DVB-CSA (Digital Video Broadcasting Common Scrambling Algorithm). ">Scrambling</a> (DVB-CS) Control Word (CW). <br /></td></tr>
-<tr class="separator:a743c706866100a9d7c5b151d382706a7"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a95f4bc4a61aba30d50e5751306afbfb5"><td class="memItemLeft" align="right" valign="top"><a id="a95f4bc4a61aba30d50e5751306afbfb5"></a>
 const uint64_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacets.html#a95f4bc4a61aba30d50e5751306afbfb5">ts::INVALID_DTS</a> =</td></tr>
 <tr class="memdesc:a95f4bc4a61aba30d50e5751306afbfb5"><td class="mdescLeft">&#160;</td><td class="mdescRight">An invalid DTS value, can be used as a marker. <br /></td></tr>

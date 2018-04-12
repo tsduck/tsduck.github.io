@@ -17,5 +17,8 @@ var classts_1_1_tuner_parameters =
     [ "Factory", "classts_1_1_tuner_parameters.html#ae9090da5be9aa433810481bd8317ab10", null ],
     [ "fromArgs", "classts_1_1_tuner_parameters.html#a67537c51d7ae78b53ab7d7f7e9e86a1b", null ],
     [ "TheoreticalBitrateForModulation", "classts_1_1_tuner_parameters.html#aa861e39ff04cb97b5c001c42f2688f3f", null ],
+    [ "StoreInRepository", "classts_1_1_tuner_parameters.html#a59cdb7e078e0cd0e812a6b054c0db09f", null ],
+    [ "RetrieveFromRepository", "classts_1_1_tuner_parameters.html#a74525d608dc46bd56cf1cb716f3f07d7", null ],
+    [ "EraseFromRepository", "classts_1_1_tuner_parameters.html#a5bfffe6bd0400ddb02c65d9cc745be58", null ],
     [ "_tuner_type", "classts_1_1_tuner_parameters.html#a4a9c22b2d5977b6e9eee540b2c0e720b", null ]
 ];

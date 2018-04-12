@@ -9,5 +9,20 @@ var classts_1_1json_1_1_array =
     [ "at", "classts_1_1json_1_1_array.html#a71884740bbe51c038c415dec08dff23e", null ],
     [ "set", "classts_1_1json_1_1_array.html#a3f12f2bbc9886089d40d2b3ae6bfd328", null ],
     [ "erase", "classts_1_1json_1_1_array.html#a84a04707efa52b9c11adc6fc2a11dd6c", null ],
-    [ "extractAt", "classts_1_1json_1_1_array.html#a9905d775117b693e0bf93a3020502e31", null ]
+    [ "extractAt", "classts_1_1json_1_1_array.html#a9905d775117b693e0bf93a3020502e31", null ],
+    [ "printed", "classts_1_1json_1_1_array.html#ac9ce92d7ffb1989ad0d9f7e87e76309d", null ],
+    [ "isNull", "classts_1_1json_1_1_array.html#a2aaabe2a8788a9589dd411e79a821abd", null ],
+    [ "isTrue", "classts_1_1json_1_1_array.html#a65536cade062f3413a473e2b35e0ffeb", null ],
+    [ "isFalse", "classts_1_1json_1_1_array.html#abaf566f9560a9af697563de488f3117c", null ],
+    [ "isNumber", "classts_1_1json_1_1_array.html#ae79d7e8f39a9e25badb9dec2779a6563", null ],
+    [ "isString", "classts_1_1json_1_1_array.html#a14b7835cf62e043cf42eee254eaf196a", null ],
+    [ "isObject", "classts_1_1json_1_1_array.html#af1611934e8b25fd47ea529c33c50cff3", null ],
+    [ "toBoolean", "classts_1_1json_1_1_array.html#a3046a126ebe16bfa50ae27da2db1ceda", null ],
+    [ "toInteger", "classts_1_1json_1_1_array.html#acaeb29a11c33e88fbead0e8937cd4e0d", null ],
+    [ "toString", "classts_1_1json_1_1_array.html#a194a0b9443e834ace970273960800d66", null ],
+    [ "getNames", "classts_1_1json_1_1_array.html#ae1bd51f627455099818775e30b42be8b", null ],
+    [ "value", "classts_1_1json_1_1_array.html#a7e0a319ee39dfce369a8c76d953e64f5", null ],
+    [ "remove", "classts_1_1json_1_1_array.html#a3f1a93db2a39f022bb03879a4d82cea0", null ],
+    [ "extract", "classts_1_1json_1_1_array.html#a762db980c049b106a805ba7ba42a252e", null ],
+    [ "add", "classts_1_1json_1_1_array.html#a568ab800352f030b692608132789a61d", null ]
 ];

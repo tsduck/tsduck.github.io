@@ -11,5 +11,8 @@ var classts_1_1_a_c3_attributes =
     [ "audioCodingDescription", "classts_1_1_a_c3_attributes.html#a28fb6d7e6164760cd12736e5fc85bb7c", null ],
     [ "samplingFrequency", "classts_1_1_a_c3_attributes.html#a2b81c08ca90821d9d6c9d95b03d8bbb6", null ],
     [ "dolbySurround", "classts_1_1_a_c3_attributes.html#a83cf4ce1381e055c9d5f2ee2e7039823", null ],
-    [ "componentType", "classts_1_1_a_c3_attributes.html#a26b13cf277c58b25a6f6a76d3118bd7f", null ]
+    [ "componentType", "classts_1_1_a_c3_attributes.html#a26b13cf277c58b25a6f6a76d3118bd7f", null ],
+    [ "isValid", "classts_1_1_a_c3_attributes.html#ad6868f6d1e816357f133ee9ab4551336", null ],
+    [ "invalidate", "classts_1_1_a_c3_attributes.html#a5a9feb6f6c5c825a29e4462b1bc7b13e", null ],
+    [ "_is_valid", "classts_1_1_a_c3_attributes.html#ae93c110893c944d6f3d339252c83c0c9", null ]
 ];

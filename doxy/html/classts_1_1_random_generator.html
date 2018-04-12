@@ -37,7 +37,7 @@
  <tr style="height: 56px;">
   <td id="projectlogo"><img src="tsduck-32.png"/></td>
    <td id="projectalign"><span id="projectname">TSDuck</span>
-    <span id="projectnumber">Version 3.10-643</span>
+    <span id="projectnumber">Version 3.10-675</span>
     <span id="projectbrief">(TSDuck - The MPEG Transport Stream Toolkit)</span>
    </td>
    <td>        <div id="MSearchBox" class="MSearchBoxInactive">
@@ -130,6 +130,9 @@ virtual&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="c
 <tr class="memitem:aa1feea98a848e074c7bd532ef7daaf0a"><td class="memItemLeft" align="right" valign="top">virtual bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classts_1_1_random_generator.html#aa1feea98a848e074c7bd532ef7daaf0a">read</a> (void *addr, size_t size)=0</td></tr>
 <tr class="memdesc:aa1feea98a848e074c7bd532ef7daaf0a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get random data.  <a href="#aa1feea98a848e074c7bd532ef7daaf0a">More...</a><br /></td></tr>
 <tr class="separator:aa1feea98a848e074c7bd532ef7daaf0a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a463db718fafdd7a059f75c1989541953"><td class="memItemLeft" align="right" valign="top">virtual bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classts_1_1_random_generator.html#a463db718fafdd7a059f75c1989541953">readByteBlock</a> (<a class="el" href="classts_1_1_byte_block.html">ByteBlock</a> &amp;data, size_t size)</td></tr>
+<tr class="memdesc:a463db718fafdd7a059f75c1989541953"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get random data in a byte block.  <a href="#a463db718fafdd7a059f75c1989541953">More...</a><br /></td></tr>
+<tr class="separator:a463db718fafdd7a059f75c1989541953"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a99784c0122030f9c3a7efd0c49e2ce2a"><td class="memItemLeft" align="right" valign="top">virtual bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classts_1_1_random_generator.html#a99784c0122030f9c3a7efd0c49e2ce2a">ready</a> () const =0</td></tr>
 <tr class="memdesc:a99784c0122030f9c3a7efd0c49e2ce2a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Check if the PRNG is ready.  <a href="#a99784c0122030f9c3a7efd0c49e2ce2a">More...</a><br /></td></tr>
 <tr class="separator:a99784c0122030f9c3a7efd0c49e2ce2a"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -293,6 +296,52 @@ virtual&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="c
 <dl class="section return"><dt>Returns</dt><dd>True on success, false on error. </dd></dl>
 
 <p>Implemented in <a class="el" href="classts_1_1_better_system_random_generator.html#a687487674890e269a4e2b86f41f2b9a7">ts::BetterSystemRandomGenerator</a>, and <a class="el" href="classts_1_1_system_random_generator.html#a83345d8d868dc277f680638304d3c4c0">ts::SystemRandomGenerator</a>.</p>
+
+</div>
+</div>
+<a id="a463db718fafdd7a059f75c1989541953"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a463db718fafdd7a059f75c1989541953">&#9670;&nbsp;</a></span>readByteBlock()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual bool ts::RandomGenerator::readByteBlock </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classts_1_1_byte_block.html">ByteBlock</a> &amp;&#160;</td>
+          <td class="paramname"><em>data</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">size_t&#160;</td>
+          <td class="paramname"><em>size</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Get random data in a byte block. </p>
+<p>The default implementation uses <a class="el" href="classts_1_1_random_generator.html#aa1feea98a848e074c7bd532ef7daaf0a" title="Get random data. ">read()</a>. </p><dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[out]</td><td class="paramname">data</td><td>Returned random data. </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">size</td><td>Requested size in bytes of random data. </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>True on success, false on error. </dd></dl>
 
 </div>
 </div>
