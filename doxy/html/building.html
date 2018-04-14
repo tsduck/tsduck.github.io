@@ -37,7 +37,7 @@
  <tr style="height: 56px;">
   <td id="projectlogo"><img src="tsduck-32.png"/></td>
    <td id="projectalign"><span id="projectname">TSDuck</span>
-    <span id="projectnumber">Version 3.10-675</span>
+    <span id="projectnumber">Version 3.10-678</span>
     <span id="projectbrief">(TSDuck - The MPEG Transport Stream Toolkit)</span>
    </td>
    <td>        <div id="MSearchBox" class="MSearchBoxInactive">
@@ -121,6 +121,7 @@ $(document).ready(function(){initNavTree('building.html','');});
 <li class="level2"><a href="#instfiles">Installer files</a></li>
 </ul>
 </li>
+<li class="level1"><a href="#nonstdinst">Installing in non-standard locations</a></li>
 </ul>
 </div>
 <div class="textblock"><p>TSDuck can be built on Windows, Linux and macOS.</p>
@@ -233,7 +234,12 @@ Installer files</h2>
 <td class="markdownTableBodyNone">TSDuck-Win64-3.9-580.exe  </td><td class="markdownTableBodyNone">Binary package for 64-bit Windows   </td></tr>
 </table>
 <p>On Linux systems, there are two different packages. The package <code>tsduck</code> contains the tools and plugins. This is the only required package if you just need to use TSDuck. The package named <code>tsduck-devel</code> (or <code>tsduck-dev</code> on Ubuntu) contains the development environment. It is useful only for third-party applications which use the TSDuck library.</p>
-<p>On Windows systems, there is only one binary installer which contains the tools, plugins, documentation and development environment. The user can select which components shall be installed. The development environment is unselected by default. </p>
+<p>On Windows systems, there is only one binary installer which contains the tools, plugins, documentation and development environment. The user can select which components shall be installed. The development environment is unselected by default.</p>
+<h1><a class="anchor" id="nonstdinst"></a>
+Installing in non-standard locations</h1>
+<p>On systems where you have no administration privilege and consequently no right to use the standard installers, you may want to manually install TSDuck is some arbitrary directory.</p>
+<p>On UNIX systems (which include Linux and macOS), you have to rebuild TSDuck from the source repository and install it using a command like this one:</p>
+<div class="fragment"><div class="line">make install SYSPREFIX=$HOME/usr/local</div></div><!-- fragment --><p>On Windows systems, a so-called <em>portable</em> or <em>standalone</em> package will be provided in a future version. </p>
 </div></div><!-- contents -->
 </div><!-- doc-content -->
 <!-- HTML footer for doxygen 1.8.12-->

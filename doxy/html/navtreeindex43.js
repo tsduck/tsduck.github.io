@@ -1,5 +1,6 @@
 var NAVTREEINDEX43 =
 {
+"structts_1_1ecmgscs_1_1_tags.html#afd0406a41e496ef5d61e4ae3308e0f25a7996837e2494a432288ade606d9e0cf2":[7,0,0,1,16,1,6],
 "structts_1_1ecmgscs_1_1_tags.html#afd0406a41e496ef5d61e4ae3308e0f25a7c21828da3893516b5b38b1adf73813f":[7,0,0,1,16,1,9],
 "structts_1_1ecmgscs_1_1_tags.html#afd0406a41e496ef5d61e4ae3308e0f25a7e8b9159970a79c8a0ee67e33e0bfaf1":[7,0,0,1,16,1,11],
 "structts_1_1ecmgscs_1_1_tags.html#afd0406a41e496ef5d61e4ae3308e0f25a8289db0263c39fd9b5bbb48a898f76af":[7,0,0,1,16,1,16],
@@ -248,6 +249,5 @@ var NAVTREEINDEX43 =
 "ts_d_v_b_charset_u_t_f8_8h.html":[8,0,91],
 "ts_d_v_s042_8h.html":[8,0,93],
 "ts_data_broadcast_descriptor_8h.html":[8,0,71],
-"ts_data_broadcast_id_descriptor_8h.html":[8,0,72],
-"ts_dektec_control_8h.html":[8,0,73]
+"ts_data_broadcast_id_descriptor_8h.html":[8,0,72]
 };

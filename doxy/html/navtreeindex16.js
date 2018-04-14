@@ -1,5 +1,6 @@
 var NAVTREEINDEX16 =
 {
+"classts_1_1_output_plugin.html#a2a89ef77c252d85a09bcb1839af24678":[7,0,0,167,10],
 "classts_1_1_output_plugin.html#a2d0cf1aaf45079a08362b558dd7fcb20":[7,0,0,167,22],
 "classts_1_1_output_plugin.html#a2d8ccd8ebc2d6e110922bf4b88e2cd8d":[7,0,0,167,39],
 "classts_1_1_output_plugin.html#a2fa24775812831ffc0a12d7efda4c6d7":[7,0,0,167,79],
@@ -248,6 +249,5 @@ var NAVTREEINDEX16 =
 "classts_1_1_p_s_i_logger_args.html#aaa2972d263582e3c8b37209b9d8c734c":[7,0,0,191,8],
 "classts_1_1_p_s_i_logger_args.html#aaec3c5cc67fd588dcdc525ab80ca7251":[7,0,0,191,6],
 "classts_1_1_p_s_i_logger_args.html#ab6b919997003ed0c24ca8dd8442075a5":[7,0,0,191,4],
-"classts_1_1_p_s_i_logger_args.html#abcd0413725b7f5168947a0402e0b48df":[7,0,0,191,2],
-"classts_1_1_p_s_i_logger_args.html#ac1cae326a0ad6cf78cf336d007d17449":[7,0,0,191,3]
+"classts_1_1_p_s_i_logger_args.html#abcd0413725b7f5168947a0402e0b48df":[7,0,0,191,2]
 };
