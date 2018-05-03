@@ -99,6 +99,10 @@ var hierarchy =
         [ "ts::ServiceDescriptor", "classts_1_1_service_descriptor.html", null ],
         [ "ts::ServiceListDescriptor", "classts_1_1_service_list_descriptor.html", null ],
         [ "ts::ShortEventDescriptor", "classts_1_1_short_event_descriptor.html", null ],
+        [ "ts::SpliceAvailDescriptor", "classts_1_1_splice_avail_descriptor.html", null ],
+        [ "ts::SpliceDTMFDescriptor", "classts_1_1_splice_d_t_m_f_descriptor.html", null ],
+        [ "ts::SpliceSegmentationDescriptor", "classts_1_1_splice_segmentation_descriptor.html", null ],
+        [ "ts::SpliceTimeDescriptor", "classts_1_1_splice_time_descriptor.html", null ],
         [ "ts::SSUDataBroadcastIdDescriptor", "classts_1_1_s_s_u_data_broadcast_id_descriptor.html", null ],
         [ "ts::SSULinkageDescriptor", "classts_1_1_s_s_u_linkage_descriptor.html", null ],
         [ "ts::STDDescriptor", "classts_1_1_s_t_d_descriptor.html", null ],
@@ -141,9 +145,12 @@ var hierarchy =
           [ "ts::SDT", "classts_1_1_s_d_t.html", null ]
         ] ],
         [ "ts::RST", "classts_1_1_r_s_t.html", null ],
+        [ "ts::SpliceInformationTable", "classts_1_1_splice_information_table.html", null ],
         [ "ts::TDT", "classts_1_1_t_d_t.html", null ],
         [ "ts::TOT", "classts_1_1_t_o_t.html", null ]
-      ] ]
+      ] ],
+      [ "ts::SpliceInsert", "classts_1_1_splice_insert.html", null ],
+      [ "ts::SpliceSchedule", "classts_1_1_splice_schedule.html", null ]
     ] ],
     [ "ts::TargetIPSlashDescriptor::Address", "classts_1_1_target_i_p_slash_descriptor_1_1_address.html", null ],
     [ "ts::TargetIPSourceSlashDescriptor::Address", "classts_1_1_target_i_p_source_slash_descriptor_1_1_address.html", null ],
@@ -234,9 +241,9 @@ var hierarchy =
     [ "ts::ContentDescriptor::Entry", "structts_1_1_content_descriptor_1_1_entry.html", null ],
     [ "ts::ServiceListDescriptor::Entry", "structts_1_1_service_list_descriptor_1_1_entry.html", null ],
     [ "ts::SSUDataBroadcastIdDescriptor::Entry", "structts_1_1_s_s_u_data_broadcast_id_descriptor_1_1_entry.html", null ],
+    [ "ts::EutelsatChannelNumberDescriptor::Entry", "structts_1_1_eutelsat_channel_number_descriptor_1_1_entry.html", null ],
     [ "ts::SSULinkageDescriptor::Entry", "structts_1_1_s_s_u_linkage_descriptor_1_1_entry.html", null ],
     [ "ts::SubtitlingDescriptor::Entry", "structts_1_1_subtitling_descriptor_1_1_entry.html", null ],
-    [ "ts::EutelsatChannelNumberDescriptor::Entry", "structts_1_1_eutelsat_channel_number_descriptor_1_1_entry.html", null ],
     [ "ts::ExtendedEventDescriptor::Entry", "structts_1_1_extended_event_descriptor_1_1_entry.html", null ],
     [ "ts::HDSimulcastLogicalChannelDescriptor::Entry", "structts_1_1_h_d_simulcast_logical_channel_descriptor_1_1_entry.html", null ],
     [ "ts::TeletextDescriptor::Entry", "structts_1_1_teletext_descriptor_1_1_entry.html", null ],
@@ -261,6 +268,7 @@ var hierarchy =
     [ "ts::ETID", "classts_1_1_e_t_i_d.html", null ],
     [ "ts::TSAnalyzer::ETIDContext", "classts_1_1_t_s_analyzer_1_1_e_t_i_d_context.html", null ],
     [ "ts::RST::Event", "structts_1_1_r_s_t_1_1_event.html", null ],
+    [ "ts::SpliceSchedule::Event", "classts_1_1_splice_schedule_1_1_event.html", null ],
     [ "ts::LinkageDescriptor::EventLinkageInfo", "classts_1_1_linkage_descriptor_1_1_event_linkage_info.html", null ],
     [ "exception", null, [
       [ "ts::Exception", "classts_1_1_exception.html", [
@@ -375,7 +383,9 @@ var hierarchy =
       ] ]
     ] ],
     [ "ts::tlv::MessageFactory", "classts_1_1tlv_1_1_message_factory.html", null ],
-    [ "ts::MessageQueue< MSG, MUTEX >", "classts_1_1_message_queue.html", null ],
+    [ "ts::MessageQueue< MSG, MUTEX >", "classts_1_1_message_queue.html", [
+      [ "ts::MessagePriorityQueue< MSG, MUTEX, COMPARE >", "classts_1_1_message_priority_queue.html", null ]
+    ] ],
     [ "ts::MessageQueue< LogMessage, NullMutex >", "classts_1_1_message_queue.html", null ],
     [ "ts::MessageQueue< ts::tlv::Message, ts::NullMutex >", "classts_1_1_message_queue.html", null ],
     [ "ts::LinkageDescriptor::MobileHandoverInfo", "classts_1_1_linkage_descriptor_1_1_mobile_handover_info.html", null ],
@@ -535,8 +545,7 @@ var hierarchy =
         [ "ts::UDPReceiver", "classts_1_1_u_d_p_receiver.html", null ]
       ] ]
     ] ],
-    [ "ts::SpliceInfoTable", "classts_1_1_splice_info_table.html", null ],
-    [ "ts::SpliceInsert", "classts_1_1_splice_insert.html", null ],
+    [ "ts::SplicePrivateCommand", "classts_1_1_splice_private_command.html", null ],
     [ "ts::StaticReferencesDVB", "classts_1_1_static_references_d_v_b.html", null ],
     [ "ts::PCRAnalyzer::Status", "structts_1_1_p_c_r_analyzer_1_1_status.html", null ],
     [ "ts::SectionDemux::Status", "structts_1_1_section_demux_1_1_status.html", null ],
@@ -561,9 +570,9 @@ var hierarchy =
     [ "ts::TablesDisplayArgs", "classts_1_1_tables_display_args.html", null ],
     [ "ts::TablesFactory", "classts_1_1_tables_factory.html", null ],
     [ "ts::TablesLoggerArgs", "classts_1_1_tables_logger_args.html", null ],
-    [ "ts::ecmgscs::Tags", "structts_1_1ecmgscs_1_1_tags.html", null ],
-    [ "ts::emmgmux::Tags", "structts_1_1emmgmux_1_1_tags.html", null ],
     [ "ts::duck::Tags", "structts_1_1duck_1_1_tags.html", null ],
+    [ "ts::emmgmux::Tags", "structts_1_1emmgmux_1_1_tags.html", null ],
+    [ "ts::ecmgscs::Tags", "structts_1_1ecmgscs_1_1_tags.html", null ],
     [ "ts::TeletextCharset", "classts_1_1_teletext_charset.html", null ],
     [ "ts::TeletextFrame", "classts_1_1_teletext_frame.html", null ],
     [ "ts::TeletextHandlerInterface", "classts_1_1_teletext_handler_interface.html", null ],
@@ -571,6 +580,7 @@ var hierarchy =
     [ "ts::Thread", "classts_1_1_thread.html", [
       [ "ts::AsyncReport", "classts_1_1_async_report.html", null ],
       [ "ts::ECMGClient", "classts_1_1_e_c_m_g_client.html", null ],
+      [ "ts::EMMGClient", "classts_1_1_e_m_m_g_client.html", null ],
       [ "ts::SystemMonitor", "classts_1_1_system_monitor.html", null ],
       [ "ts::tsp::PluginExecutor", "classts_1_1tsp_1_1_plugin_executor.html", null ],
       [ "ts::UserInterrupt", "classts_1_1_user_interrupt.html", null ]
@@ -578,9 +588,9 @@ var hierarchy =
     [ "ts::ThreadAttributes", "classts_1_1_thread_attributes.html", null ],
     [ "ts::Time", "classts_1_1_time.html", null ],
     [ "ts::TLVSyntax", "classts_1_1_t_l_v_syntax.html", null ],
-    [ "ts::emmgmux::Traits", "structts_1_1emmgmux_1_1_traits.html", null ],
     [ "ts::duck::Traits", "structts_1_1duck_1_1_traits.html", null ],
     [ "ts::ecmgscs::Traits", "structts_1_1ecmgscs_1_1_traits.html", null ],
+    [ "ts::emmgmux::Traits", "structts_1_1emmgmux_1_1_traits.html", null ],
     [ "ts::TransportStreamId", "structts_1_1_transport_stream_id.html", null ],
     [ "ts::TSFileInput", "classts_1_1_t_s_file_input.html", [
       [ "ts::TSFileInputBuffered", "classts_1_1_t_s_file_input_buffered.html", null ]
@@ -627,7 +637,9 @@ var hierarchy =
     [ "ts::Variable< ts::UString >", "classts_1_1_variable.html", null ],
     [ "ts::Variable< uint16_t >", "classts_1_1_variable.html", null ],
     [ "ts::Variable< uint32_t >", "classts_1_1_variable.html", null ],
-    [ "ts::Variable< uint64_t >", "classts_1_1_variable.html", null ],
+    [ "ts::Variable< uint64_t >", "classts_1_1_variable.html", [
+      [ "ts::SpliceTime", "classts_1_1_splice_time.html", null ]
+    ] ],
     [ "ts::Variable< uint8_t >", "classts_1_1_variable.html", null ],
     [ "vector", null, [
       [ "ts::AudioLanguageOptionsVector", "classts_1_1_audio_language_options_vector.html", null ],

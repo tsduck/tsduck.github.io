@@ -66,7 +66,7 @@ var searchData=
   ['ischarptr',['isCharPtr',['../classts_1_1_arg_mix.html#a126feee34df7e3d9f4307d420c07577c',1,'ts::ArgMix']]],
   ['isclear',['isClear',['../structts_1_1_t_s_packet.html#af132c2c94df48698d66e4f59ad3e3a9c',1,'ts::TSPacket']]],
   ['iscombiningdiacritical',['IsCombiningDiacritical',['../namespacets.html#ad70e4a30668195693059a4ff89d1c8c5',1,'ts']]],
-  ['isconnected',['isConnected',['../classts_1_1_e_c_m_g_client.html#aef42710207c5a8fc2908e9d5c9992014',1,'ts::ECMGClient::isConnected()'],['../classts_1_1_t_c_p_connection.html#a0a70d21686a1f82aaa35a795b2d28a94',1,'ts::TCPConnection::isConnected()']]],
+  ['isconnected',['isConnected',['../classts_1_1_e_c_m_g_client.html#aef42710207c5a8fc2908e9d5c9992014',1,'ts::ECMGClient::isConnected()'],['../classts_1_1_e_m_m_g_client.html#a6a1cab5de164160b93c2077a1de90bdc',1,'ts::EMMGClient::isConnected()'],['../classts_1_1_t_c_p_connection.html#a0a70d21686a1f82aaa35a795b2d28a94',1,'ts::TCPConnection::isConnected()']]],
   ['iscurrent',['isCurrent',['../classts_1_1_section.html#a60fd937b5fe52714c8bea4aacca5ccb8',1,'ts::Section']]],
   ['iscurrentthread',['isCurrentThread',['../classts_1_1_thread.html#a176d1f2f087d184a4a241a053593d1e8',1,'ts::Thread']]],
   ['isdebian',['isDebian',['../classts_1_1_sys_info.html#a4441c885ad05d51190852726ac43b682',1,'ts::SysInfo']]],

@@ -7,7 +7,7 @@ var searchData=
   ['errors',['Errors',['../structts_1_1duck_1_1_traits.html#adcf72915124abc00d654c31e3e50683b',1,'ts::duck::Traits::Errors()'],['../structts_1_1ecmgscs_1_1_traits.html#a68f1859499b6827ecb53b687a18cee9a',1,'ts::ecmgscs::Traits::Errors()'],['../structts_1_1emmgmux_1_1_traits.html#a9c6e1b3ca6c40bccfc0d80aa58f18297',1,'ts::emmgmux::Traits::Errors()']]],
   ['etidcontextmap',['ETIDContextMap',['../classts_1_1_t_s_analyzer.html#a26ab4103f83b2d359e820a0660791789',1,'ts::TSAnalyzer']]],
   ['etidcontextptr',['ETIDContextPtr',['../classts_1_1_t_s_analyzer.html#a4ab8579351a356c84929920e9267a00c',1,'ts::TSAnalyzer']]],
-  ['eventlist',['EventList',['../classts_1_1_r_s_t.html#a039eb70ab5fbcbb163780866e728483b',1,'ts::RST']]],
+  ['eventlist',['EventList',['../classts_1_1_r_s_t.html#a039eb70ab5fbcbb163780866e728483b',1,'ts::RST::EventList()'],['../classts_1_1_splice_schedule.html#a22cc73c0ec06648fe1cc0454689d17e4',1,'ts::SpliceSchedule::EventList()']]],
   ['eventmap',['EventMap',['../classts_1_1_e_i_t.html#a961beb2797e20522da0041f9586012b0',1,'ts::EIT']]],
   ['extendedeventlinkagelist',['ExtendedEventLinkageList',['../classts_1_1_linkage_descriptor.html#a247806795668597df456f9f18b6bd680',1,'ts::LinkageDescriptor']]]
 ];

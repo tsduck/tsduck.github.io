@@ -1,7 +1,7 @@
 <map id="ts::IDSA" name="ts::IDSA">
-<area shape="rect" id="node2" href="$classts_1_1_d_v_s042.html" title="ts::DVS042\&lt; AES \&gt;" alt="" coords="93,355,231,380"/>
-<area shape="rect" id="node3" href="$classts_1_1_cipher_chaining_template.html" title="ts::CipherChainingTemplate\l\&lt; AES \&gt;" alt="" coords="5,267,190,305"/>
-<area shape="rect" id="node4" href="$classts_1_1_cipher_chaining.html" title="Base class of all cipher chaining modes. " alt="" coords="44,180,175,205"/>
-<area shape="rect" id="node5" href="$classts_1_1_block_cipher.html" title="Abstract interface of block ciphers. " alt="" coords="25,80,136,105"/>
-<area shape="rect" id="node6" href="$classts_1_1_byte_block.html" title="Definition of a generic block of bytes. " alt="" coords="167,80,266,105"/>
+<area shape="rect" id="node2" href="$classts_1_1_d_v_s042.html" title="ts::DVS042\&lt; AES \&gt;" alt="" coords="101,365,249,392"/>
+<area shape="rect" id="node3" href="$classts_1_1_cipher_chaining_template.html" title="ts::CipherChainingTemplate\l\&lt; AES \&gt;" alt="" coords="5,275,207,316"/>
+<area shape="rect" id="node4" href="$classts_1_1_cipher_chaining.html" title="Base class of all cipher chaining modes. " alt="" coords="47,185,189,212"/>
+<area shape="rect" id="node5" href="$classts_1_1_block_cipher.html" title="Abstract interface of block ciphers. " alt="" coords="29,81,149,108"/>
+<area shape="rect" id="node6" href="$classts_1_1_byte_block.html" title="Definition of a generic block of bytes. " alt="" coords="180,81,288,108"/>
 </map>

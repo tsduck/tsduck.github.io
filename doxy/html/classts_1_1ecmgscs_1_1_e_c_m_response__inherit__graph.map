@@ -1,5 +1,5 @@
 <map id="ts::ecmgscs::ECMResponse" name="ts::ecmgscs::ECMResponse">
-<area shape="rect" id="node2" href="$classts_1_1tlv_1_1_stream_message.html" title="Base class for DVB SimulCrypt TLV messages operating on streams. " alt="" coords="21,152,178,177"/>
-<area shape="rect" id="node3" href="$classts_1_1tlv_1_1_channel_message.html" title="Base class for DVB SimulCrypt TLV messages operating on channels. " alt="" coords="18,79,182,104"/>
-<area shape="rect" id="node4" href="$classts_1_1tlv_1_1_message.html" title="Abstract base class for TLV messages. " alt="" coords="43,5,157,31"/>
+<area shape="rect" id="node2" href="$classts_1_1tlv_1_1_stream_message.html" title="Base class for DVB SimulCrypt TLV messages operating on streams. " alt="" coords="19,155,189,181"/>
+<area shape="rect" id="node3" href="$classts_1_1tlv_1_1_channel_message.html" title="Base class for DVB SimulCrypt TLV messages operating on channels. " alt="" coords="16,80,192,107"/>
+<area shape="rect" id="node4" href="$classts_1_1tlv_1_1_message.html" title="Abstract base class for TLV messages. " alt="" coords="43,5,165,32"/>
 </map>

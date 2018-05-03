@@ -1,9 +1,9 @@
 <map id="ts::AbstractDemux" name="ts::AbstractDemux">
-<area shape="rect" id="node2" href="$classts_1_1_m_p_e_demux.html" title="This class extracts MPE (Multi&#45;Protocol Encapsulation) datagrams from TS packets. ..." alt="" coords="5,79,116,104"/>
-<area shape="rect" id="node3" href="$classts_1_1_section_demux.html" title="This class rebuilds MPEG tables and sections from TS packets. " alt="" coords="140,79,266,104"/>
-<area shape="rect" id="node5" href="$classts_1_1_t2_m_i_demux.html" title="This class analyzes T2&#45;MI (DVB&#45;T2 Modulator Interface) from TS packets. " alt="" coords="290,79,402,104"/>
-<area shape="rect" id="node6" href="$classts_1_1_time_tracker_demux.html" title="A demux which tracks time stamps per PID. " alt="" coords="426,79,581,104"/>
-<area shape="rect" id="node4" href="$classts_1_1_standalone_table_demux.html" title="A SectionDemux which extracts MPEG tables without external handler. " alt="" coords="113,152,293,177"/>
-<area shape="rect" id="node7" href="$classts_1_1_p_e_s_demux.html" title="This class extracts PES packets from TS packets. " alt="" coords="449,152,557,177"/>
-<area shape="rect" id="node8" href="$classts_1_1_teletext_demux.html" title="This class extracts Teletext subtitles from TS packets. " alt="" coords="439,225,567,251"/>
+<area shape="rect" id="node2" href="$classts_1_1_m_p_e_demux.html" title="This class extracts MPE (Multi&#45;Protocol Encapsulation) datagrams from TS packets. ..." alt="" coords="5,80,121,107"/>
+<area shape="rect" id="node3" href="$classts_1_1_section_demux.html" title="This class rebuilds MPEG tables and sections from TS packets. " alt="" coords="145,80,283,107"/>
+<area shape="rect" id="node5" href="$classts_1_1_t2_m_i_demux.html" title="This class analyzes T2&#45;MI (DVB&#45;T2 Modulator Interface) from TS packets. " alt="" coords="307,80,427,107"/>
+<area shape="rect" id="node6" href="$classts_1_1_time_tracker_demux.html" title="A demux which tracks time stamps per PID. " alt="" coords="452,80,621,107"/>
+<area shape="rect" id="node4" href="$classts_1_1_standalone_table_demux.html" title="A SectionDemux which extracts MPEG tables without external handler. " alt="" coords="116,155,312,181"/>
+<area shape="rect" id="node7" href="$classts_1_1_p_e_s_demux.html" title="This class extracts PES packets from TS packets. " alt="" coords="480,155,593,181"/>
+<area shape="rect" id="node8" href="$classts_1_1_teletext_demux.html" title="This class extracts Teletext subtitles from TS packets. " alt="" coords="466,229,607,256"/>
 </map>

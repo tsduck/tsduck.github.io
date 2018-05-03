@@ -1,4 +1,4 @@
-var files_dup =
+var files =
 [
     [ "tsAACDescriptor.h", "ts_a_a_c_descriptor_8h.html", [
       [ "AACDescriptor", "classts_1_1_a_a_c_descriptor.html", "classts_1_1_a_a_c_descriptor" ]
@@ -296,6 +296,9 @@ var files_dup =
       [ "EIT", "classts_1_1_e_i_t.html", "classts_1_1_e_i_t" ],
       [ "Event", "classts_1_1_e_i_t_1_1_event.html", "classts_1_1_e_i_t_1_1_event" ]
     ] ],
+    [ "tsEMMGClient.h", "ts_e_m_m_g_client_8h.html", [
+      [ "EMMGClient", "classts_1_1_e_m_m_g_client.html", "classts_1_1_e_m_m_g_client" ]
+    ] ],
     [ "tsEMMGMUX.h", "ts_e_m_m_g_m_u_x_8h.html", "ts_e_m_m_g_m_u_x_8h" ],
     [ "tsEnhancedAC3Descriptor.h", "ts_enhanced_a_c3_descriptor_8h.html", [
       [ "EnhancedAC3Descriptor", "classts_1_1_enhanced_a_c3_descriptor.html", "classts_1_1_enhanced_a_c3_descriptor" ]
@@ -418,6 +421,9 @@ var files_dup =
     [ "tsMessageDescriptor.h", "ts_message_descriptor_8h.html", [
       [ "MessageDescriptor", "classts_1_1_message_descriptor.html", "classts_1_1_message_descriptor" ]
     ] ],
+    [ "tsMessagePriorityQueue.h", "ts_message_priority_queue_8h.html", [
+      [ "MessagePriorityQueue", "classts_1_1_message_priority_queue.html", "classts_1_1_message_priority_queue" ]
+    ] ],
     [ "tsMessageQueue.h", "ts_message_queue_8h.html", [
       [ "MessageQueue", "classts_1_1_message_queue.html", "classts_1_1_message_queue" ]
     ] ],
@@ -514,7 +520,13 @@ var files_dup =
     [ "tsPMTHandlerInterface.h", "ts_p_m_t_handler_interface_8h.html", [
       [ "PMTHandlerInterface", "classts_1_1_p_m_t_handler_interface.html", "classts_1_1_p_m_t_handler_interface" ]
     ] ],
-    [ "tsPollFiles.h", "ts_poll_files_8h.html", "ts_poll_files_8h" ],
+    [ "tsPolledFile.h", "ts_polled_file_8h.html", "ts_polled_file_8h" ],
+    [ "tsPollFiles.h", "ts_poll_files_8h.html", [
+      [ "PollFiles", "classts_1_1_poll_files.html", "classts_1_1_poll_files" ]
+    ] ],
+    [ "tsPollFilesListener.h", "ts_poll_files_listener_8h.html", [
+      [ "PollFilesListener", "classts_1_1_poll_files_listener.html", "classts_1_1_poll_files_listener" ]
+    ] ],
     [ "tspOptions.h", "tsp_options_8h.html", "tsp_options_8h" ],
     [ "tspOutputExecutor.h", "tsp_output_executor_8h.html", [
       [ "OutputExecutor", "classts_1_1tsp_1_1_output_executor.html", "classts_1_1tsp_1_1_output_executor" ]
@@ -583,6 +595,7 @@ var files_dup =
     [ "tsScramblingDescriptor.h", "ts_scrambling_descriptor_8h.html", [
       [ "ScramblingDescriptor", "classts_1_1_scrambling_descriptor.html", "classts_1_1_scrambling_descriptor" ]
     ] ],
+    [ "tsSCTE35.h", "ts_s_c_t_e35_8h.html", "ts_s_c_t_e35_8h" ],
     [ "tsSCTE52.h", "ts_s_c_t_e52_8h.html", [
       [ "SCTE52_2003", "classts_1_1_s_c_t_e52__2003.html", "classts_1_1_s_c_t_e52__2003" ],
       [ "SCTE52_2008", "classts_1_1_s_c_t_e52__2008.html", "classts_1_1_s_c_t_e52__2008" ]
@@ -645,11 +658,27 @@ var files_dup =
     [ "tsSocketAddress.h", "ts_socket_address_8h.html", [
       [ "SocketAddress", "classts_1_1_socket_address.html", "classts_1_1_socket_address" ]
     ] ],
-    [ "tsSpliceInfoTable.h", "ts_splice_info_table_8h.html", [
-      [ "SpliceInfoTable", "classts_1_1_splice_info_table.html", "classts_1_1_splice_info_table" ]
+    [ "tsSpliceAvailDescriptor.h", "ts_splice_avail_descriptor_8h.html", [
+      [ "SpliceAvailDescriptor", "classts_1_1_splice_avail_descriptor.html", "classts_1_1_splice_avail_descriptor" ]
+    ] ],
+    [ "tsSpliceDTMFDescriptor.h", "ts_splice_d_t_m_f_descriptor_8h.html", [
+      [ "SpliceDTMFDescriptor", "classts_1_1_splice_d_t_m_f_descriptor.html", "classts_1_1_splice_d_t_m_f_descriptor" ]
+    ] ],
+    [ "tsSpliceInformationTable.h", "ts_splice_information_table_8h.html", [
+      [ "SpliceInformationTable", "classts_1_1_splice_information_table.html", "classts_1_1_splice_information_table" ]
     ] ],
     [ "tsSpliceInsert.h", "ts_splice_insert_8h.html", [
       [ "SpliceInsert", "classts_1_1_splice_insert.html", "classts_1_1_splice_insert" ]
+    ] ],
+    [ "tsSpliceSchedule.h", "ts_splice_schedule_8h.html", [
+      [ "Event", "classts_1_1_splice_schedule_1_1_event.html", "classts_1_1_splice_schedule_1_1_event" ],
+      [ "SpliceSchedule", "classts_1_1_splice_schedule.html", "classts_1_1_splice_schedule" ]
+    ] ],
+    [ "tsSpliceSegmentationDescriptor.h", "ts_splice_segmentation_descriptor_8h.html", [
+      [ "SpliceSegmentationDescriptor", "classts_1_1_splice_segmentation_descriptor.html", "classts_1_1_splice_segmentation_descriptor" ]
+    ] ],
+    [ "tsSpliceTimeDescriptor.h", "ts_splice_time_descriptor_8h.html", [
+      [ "SpliceTimeDescriptor", "classts_1_1_splice_time_descriptor.html", "classts_1_1_splice_time_descriptor" ]
     ] ],
     [ "tsSSUDataBroadcastIdDescriptor.h", "ts_s_s_u_data_broadcast_id_descriptor_8h.html", [
       [ "Entry", "structts_1_1_s_s_u_data_broadcast_id_descriptor_1_1_entry.html", "structts_1_1_s_s_u_data_broadcast_id_descriptor_1_1_entry" ],

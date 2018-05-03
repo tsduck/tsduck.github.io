@@ -1,4 +1,4 @@
 <map id="ts::IPMACStreamLocationDescriptor" name="ts::IPMACStreamLocationDescriptor">
-<area shape="rect" id="node2" href="$classts_1_1_abstract_descriptor.html" title="Abstract base class for MPEG PSI/SI descriptors. " alt="" coords="49,79,197,104"/>
-<area shape="rect" id="node3" href="$classts_1_1_abstract_signalization.html" title="Abstract base class for MPEG PSI/SI tables and descriptors. " alt="" coords="41,5,205,31"/>
+<area shape="rect" id="node2" href="$classts_1_1_abstract_descriptor.html" title="Abstract base class for MPEG PSI/SI descriptors. " alt="" coords="50,80,213,107"/>
+<area shape="rect" id="node3" href="$classts_1_1_abstract_signalization.html" title="Abstract base class for MPEG PSI/SI tables and descriptors. " alt="" coords="41,5,221,32"/>
 </map>

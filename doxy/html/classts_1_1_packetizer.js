@@ -9,7 +9,7 @@ var classts_1_1_packetizer =
     [ "setNextContinuityCounter", "classts_1_1_packetizer.html#a95ce9d08faff5e00aab4ebfeb2e3e78b", null ],
     [ "nextContinuityCounter", "classts_1_1_packetizer.html#a26e7e1723fdecb720a590123756a213e", null ],
     [ "atSectionBoundary", "classts_1_1_packetizer.html#ae458825939dfab66d0d411ce951b1175", null ],
-    [ "getNextPacket", "classts_1_1_packetizer.html#a890351f4821fb5727414e900699060f4", null ],
+    [ "getNextPacket", "classts_1_1_packetizer.html#ab790cc9cef44e1a6b58543c7e5709069", null ],
     [ "packetCount", "classts_1_1_packetizer.html#ac06c55bbb819c86ee2840144c04606c0", null ],
     [ "sectionCount", "classts_1_1_packetizer.html#a3c2881ec5311e2b8c6b2919752aa3071", null ],
     [ "reset", "classts_1_1_packetizer.html#ad4ddd430584ff22c604a80bb2e24d7ae", null ],

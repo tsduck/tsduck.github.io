@@ -1,7 +1,7 @@
 <map id="ts::AbstractDeliverySystemDescriptor" name="ts::AbstractDeliverySystemDescriptor">
-<area shape="rect" id="node4" href="$classts_1_1_cable_delivery_system_descriptor.html" title="Representation of a cable_delivery_system_descriptor. " alt="" coords="642,5,870,31"/>
-<area shape="rect" id="node5" href="$classts_1_1_satellite_delivery_system_descriptor.html" title="Representation of a satellite_delivery_system_descriptor. " alt="" coords="666,55,846,93"/>
-<area shape="rect" id="node6" href="$classts_1_1_terrestrial_delivery_system_descriptor.html" title="Representation of a terrestrial_delivery_system_descriptor. " alt="" coords="661,117,851,156"/>
-<area shape="rect" id="node2" href="$classts_1_1_abstract_descriptor.html" title="Abstract base class for MPEG PSI/SI descriptors. " alt="" coords="217,61,366,87"/>
-<area shape="rect" id="node3" href="$classts_1_1_abstract_signalization.html" title="Abstract base class for MPEG PSI/SI tables and descriptors. " alt="" coords="5,61,169,87"/>
+<area shape="rect" id="node4" href="$classts_1_1_cable_delivery_system_descriptor.html" title="Representation of a cable_delivery_system_descriptor. " alt="" coords="692,5,943,32"/>
+<area shape="rect" id="node5" href="$classts_1_1_satellite_delivery_system_descriptor.html" title="Representation of a satellite_delivery_system_descriptor. " alt="" coords="717,57,917,98"/>
+<area shape="rect" id="node6" href="$classts_1_1_terrestrial_delivery_system_descriptor.html" title="Representation of a terrestrial_delivery_system_descriptor. " alt="" coords="712,122,923,163"/>
+<area shape="rect" id="node2" href="$classts_1_1_abstract_descriptor.html" title="Abstract base class for MPEG PSI/SI descriptors. " alt="" coords="233,64,396,91"/>
+<area shape="rect" id="node3" href="$classts_1_1_abstract_signalization.html" title="Abstract base class for MPEG PSI/SI tables and descriptors. " alt="" coords="5,64,185,91"/>
 </map>

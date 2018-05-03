@@ -1,5 +1,5 @@
 <map id="ts::TDT" name="ts::TDT">
-<area shape="rect" id="node2" href="$classts_1_1_abstract_table.html" title="Abstract base class for MPEG PSI/SI tables. " alt="" coords="27,87,147,113"/>
-<area shape="rect" id="node3" href="$classts_1_1_abstract_signalization.html" title="Abstract base class for MPEG PSI/SI tables and descriptors. " alt="" coords="5,5,169,31"/>
-<area shape="rect" id="node4" href="$classts_1_1_time.html" title="The Time class implements a basic representation of time. " alt="" coords="172,87,240,113"/>
+<area shape="rect" id="node2" href="$classts_1_1_abstract_table.html" title="Abstract base class for MPEG PSI/SI tables. " alt="" coords="30,90,161,117"/>
+<area shape="rect" id="node3" href="$classts_1_1_abstract_signalization.html" title="Abstract base class for MPEG PSI/SI tables and descriptors. " alt="" coords="5,5,185,32"/>
+<area shape="rect" id="node4" href="$classts_1_1_time.html" title="The Time class implements a basic representation of time. " alt="" coords="185,90,259,117"/>
 </map>

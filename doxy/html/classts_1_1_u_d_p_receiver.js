@@ -5,6 +5,7 @@ var classts_1_1_u_d_p_receiver =
     [ "addHelp", "classts_1_1_u_d_p_receiver.html#a72dcc15dc8c72f7e5bc625934ff3538b", null ],
     [ "load", "classts_1_1_u_d_p_receiver.html#a431721c3e7a0e3c40bd29af1b087b537", null ],
     [ "receiverSpecified", "classts_1_1_u_d_p_receiver.html#ae8242aac926875832f2c38c81a8e1d9e", null ],
+    [ "setParameters", "classts_1_1_u_d_p_receiver.html#a99978f0a7f6b13e4e1796930168361d8", null ],
     [ "open", "classts_1_1_u_d_p_receiver.html#afd9d6d485163d29b39f2bcdb4515630e", null ],
     [ "receive", "classts_1_1_u_d_p_receiver.html#a5435648126f117939217f022bdb49375", null ],
     [ "bind", "classts_1_1_u_d_p_receiver.html#a805ce9e833d4dfb97470079e35019995", null ],

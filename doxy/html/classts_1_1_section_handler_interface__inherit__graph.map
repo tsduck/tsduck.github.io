@@ -1,8 +1,8 @@
 <map id="ts::SectionHandlerInterface" name="ts::SectionHandlerInterface">
-<area shape="rect" id="node2" href="$classts_1_1_abstract_descrambler.html" title="Abstract base class for DVB descrambler plugins. " alt="" coords="5,79,169,104"/>
-<area shape="rect" id="node3" href="$classts_1_1_m_p_e_demux.html" title="This class extracts MPE (Multi&#45;Protocol Encapsulation) datagrams from TS packets. ..." alt="" coords="193,79,304,104"/>
-<area shape="rect" id="node4" href="$classts_1_1_p_s_i_logger.html" title="This class logs sections and tables. " alt="" coords="328,79,430,104"/>
-<area shape="rect" id="node5" href="$classts_1_1_tables_logger.html" title="This class logs sections and tables. " alt="" coords="454,79,573,104"/>
-<area shape="rect" id="node6" href="$classts_1_1_t_s_analyzer.html" title="A class which analyzes a complete transport stream. " alt="" coords="597,79,705,104"/>
-<area shape="rect" id="node7" href="$classts_1_1_t_s_analyzer_report.html" title="A subclass of TSAnalyzer with reporting capabilities. " alt="" coords="577,152,725,177"/>
+<area shape="rect" id="node2" href="$classts_1_1_abstract_descrambler.html" title="Abstract base class for DVB descrambler plugins. " alt="" coords="5,80,184,107"/>
+<area shape="rect" id="node3" href="$classts_1_1_m_p_e_demux.html" title="This class extracts MPE (Multi&#45;Protocol Encapsulation) datagrams from TS packets. ..." alt="" coords="209,80,325,107"/>
+<area shape="rect" id="node4" href="$classts_1_1_p_s_i_logger.html" title="This class logs sections and tables. " alt="" coords="349,80,456,107"/>
+<area shape="rect" id="node5" href="$classts_1_1_tables_logger.html" title="This class logs sections and tables. " alt="" coords="481,80,607,107"/>
+<area shape="rect" id="node6" href="$classts_1_1_t_s_analyzer.html" title="A class which analyzes a complete transport stream. " alt="" coords="632,80,747,107"/>
+<area shape="rect" id="node7" href="$classts_1_1_t_s_analyzer_report.html" title="A subclass of TSAnalyzer with reporting capabilities. " alt="" coords="611,155,768,181"/>
 </map>

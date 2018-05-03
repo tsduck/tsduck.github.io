@@ -1,26 +1,3 @@
-/*
-@ @licstart  The following is the entire license notice for the
-JavaScript code in this file.
-
-Copyright (C) 1997-2017 by Dimitri van Heesch
-
-This program is free software; you can redistribute it and/or modify
-it under the terms of the GNU General Public License as published by
-the Free Software Foundation; either version 2 of the License, or
-(at your option) any later version.
-
-This program is distributed in the hope that it will be useful,
-but WITHOUT ANY WARRANTY; without even the implied warranty of
- MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
- GNU General Public License for more details.
-
-You should have received a copy of the GNU General Public License along
-with this program; if not, write to the Free Software Foundation, Inc.,
-51 Franklin Street, Fifth Floor, Boston, MA 02110-1301 USA.
-
-@licend  The above is the entire license notice
-for the JavaScript code in this file
-*/
 var NAVTREE =
 [
   [ "TSDuck", "index.html", [
@@ -114,8 +91,8 @@ var NAVTREE =
       [ "Building applications on Linux", "usinglibrary.html#liblinux", null ],
       [ "Building applications on Windows", "usinglibrary.html#libwindows", null ]
     ] ],
-    [ "Namespaces", "namespaces.html", [
-      [ "Namespace List", "namespaces.html", "namespaces_dup" ],
+    [ "Namespaces", null, [
+      [ "Namespace List", "namespaces.html", "namespaces" ],
       [ "Namespace Members", "namespacemembers.html", [
         [ "All", "namespacemembers.html", "namespacemembers_dup" ],
         [ "Functions", "namespacemembers_func.html", "namespacemembers_func" ],
@@ -138,8 +115,8 @@ var NAVTREE =
         [ "Enumerator", "functions_eval.html", "functions_eval" ]
       ] ]
     ] ],
-    [ "Files", "files.html", [
-      [ "File List", "files.html", "files_dup" ],
+    [ "Files", null, [
+      [ "File List", "files.html", "files" ],
       [ "File Members", "globals.html", [
         [ "All", "globals.html", null ],
         [ "Functions", "globals_func.html", null ],
@@ -157,56 +134,57 @@ var NAVTREEINDEX =
 "classts_1_1_abstract_descrambler.html#abc95d267fd2cae08222ff09892af42b4",
 "classts_1_1_application_shared_library.html#a0cb9572d8beca37387cf940c15f3c587",
 "classts_1_1_args.html#ada57b307e21cd62d9eb7439dd2dcbfd1a890d4479bf50fff2d46e44fe74442375",
-"classts_1_1_byte_block.html#a91012f959bab51616ba58f4cacb0d137",
-"classts_1_1_c_t_s1.html#ac3bc8535776f3b6cf2874f65f5db615e",
-"classts_1_1_component_descriptor.html#af23822edabeea1eb26fdd3c3bce59c84",
-"classts_1_1_d_v_b_charset_1_1_invalid_d_v_b_charset.html",
-"classts_1_1_dektec_input_plugin.html#a0547bf1ea95668127d5d2a7c9f82c08a",
-"classts_1_1_descriptor_list.html#ad034c82b0bd236938eb79c29a625e78e",
-"classts_1_1_enhanced_a_c3_descriptor.html#a656c83e401104eb45581a2867fe758dc",
-"classts_1_1_h_e_v_c_video_descriptor.html#a419e6f9e2340b2acb1be86da1c0018b6",
-"classts_1_1_i_pv6_address.html#a8051963386a26576ba9e1ae086c53eb4",
-"classts_1_1_linkage_descriptor_1_1_extended_event_linkage_info.html#a31eb05731c84abcc15a3cd3a5d5c6b24",
-"classts_1_1_monotonic.html#a00de10e3860104f7f7584f427895d64e",
-"classts_1_1_output_plugin.html#a2a89ef77c252d85a09bcb1839af24678",
-"classts_1_1_p_s_i_logger_args.html#ac1cae326a0ad6cf78cf336d007d17449",
-"classts_1_1_processor_plugin.html#a0827b58f80f9ebe28cbcd4859d418403",
-"classts_1_1_report_file.html#a596ac982beb3459f02a57dc802141297",
-"classts_1_1_s_s_u_data_broadcast_id_descriptor.html#a68484783d6a0181c7d21177fceee9ca1",
-"classts_1_1_section_demux.html#a96860d43f2cf1fa025d045ed9d000c4a",
-"classts_1_1_service_list_descriptor.html",
-"classts_1_1_stream_identifier_descriptor.html#ae6a4501c6f2fee77f0963de9d3c7392e",
-"classts_1_1_t_c_p_socket.html#a035616a2efa7f3727864378de8c8a29b",
-"classts_1_1_t_s_analyzer_options.html#a1ed06578f23947b14a76cac83523b2e5",
-"classts_1_1_t_s_file_output_resync.html#a9277384dfc0237e618f0eb9dc241b20e",
-"classts_1_1_target_i_p_slash_descriptor.html#abd94910a0f0e5a955d3450403a0e61d2",
-"classts_1_1_teletext_charset.html",
-"classts_1_1_time.html#a14e379928d4f4e32907f854f9bcb11c4a1b8ec369e3613cbfa9db82cde3ef90c4",
-"classts_1_1_tuner_parameters_a_t_s_c.html#accc6a67ef21fd1edc8fc771d575ae0c2",
-"classts_1_1_u_string.html#a40c75eda5c711a905f131a89713da584",
-"classts_1_1_web_request.html",
-"classts_1_1ecmgscs_1_1_channel_status.html#a6675a7e66ce8ec2262dd33c0c308d18a",
-"classts_1_1emmgmux_1_1_channel_close.html#ab23956c5998a6d1052e94af1db69af39",
-"classts_1_1emmgmux_1_1_stream_error.html#a06188d1081f8650f23d014cddaacab39",
-"classts_1_1json_1_1_string.html#a8e6ba5dab8023d95764dfefb3f4c6016",
-"classts_1_1tlv_1_1_stream_message.html#a7530fe6e8dd39892b63491ee49cb0ec1",
-"classts_1_1tsp_1_1_options.html#af545c8bd5b837b2eb6f84418b7530413",
-"classts_1_1xml_1_1_comment.html#a38755202c502d23ef2e4b2411bd6e6a6",
-"classts_1_1xml_1_1_node.html#a5a851fe45f84aabed5dc34c570bf61c8",
-"hierarchy.html",
-"structts_1_1_p_i_d_operator.html#aaf9d1a1877427ab99041593dc69fc5a3",
-"structts_1_1ecmgscs_1_1_tags.html#afd0406a41e496ef5d61e4ae3308e0f25a7996837e2494a432288ade606d9e0cf2",
-"ts_dektec_control_8h.html",
-"ts_m_p_e_g_8h.html#a320c39cb24c168ea784ed6cbf30c3d56a07e8026c101f61e01d9c23fe0b4ffa35",
-"ts_m_p_e_g_8h.html#a320c39cb24c168ea784ed6cbf30c3d56af2f648264d4a0ea40419b6d81f690e6b",
-"ts_m_p_e_g_8h.html#ae6bc1afeeeb9ae9224d25d28e65ecfbaa0b7411f58c6d969360a7c3e7105b224e",
-"ts_modulation_8h.html#ae4e82c198bc4395f3dc9368516da5b58a0b582d43d238d99727c306ccad2d9a36",
-"ts_platform_8h.html#a8a305fe98ef80b1759d8576b06f67c59",
-"ts_t_s_packet_8h.html#a9eaa3bb4244d103e8504d07a98e7c6e7",
-"ts_u_char_8h.html#a2564508b22b9948c0ac75fde796994a5ac83c0804d2f0df95577d4918b3f883f3",
-"ts_u_char_8h.html#a64e0214114acf42b598d274316faa487",
-"ts_u_char_8h.html#ab45352f96a461cebd187212edb47ce81",
-"ts_u_char_8h.html#af7c27386a87b51c60d933abe62c8bb27"
+"classts_1_1_byte_block.html#a9062d1ed569ae5ddc6412f523ca4543d",
+"classts_1_1_c_t_s1.html#aba86de9dfc56b07e635875592892f2a2",
+"classts_1_1_component_descriptor.html#ae5b592f7701b19d586a8b047b17d81b3",
+"classts_1_1_d_v_b_charset_1_1_duplicate_d_v_b_charset.html#a5e87c201b9198d42e3db2178a4a1de2d",
+"classts_1_1_dektec_input_plugin.html#a01829832ec134fd7bc7dba5b06237b68",
+"classts_1_1_descriptor_list.html#ac1e847b9a580b4dc12d9bdbef4d6c359",
+"classts_1_1_eacem_stream_identifier_descriptor.html#a87a8920d3d2523e9452a5804d33a8ec5",
+"classts_1_1_h_d_simulcast_logical_channel_descriptor.html#abb3e62f29b638ba3187325415d8f8862",
+"classts_1_1_i_p_m_a_c_stream_location_descriptor.html#ae5b592f7701b19d586a8b047b17d81b3",
+"classts_1_1_linkage_descriptor.html#ae02743b0076183fb615027b8bc88b26a",
+"classts_1_1_message_descriptor.html#ae02743b0076183fb615027b8bc88b26a",
+"classts_1_1_output_pager.html#a0c8dd977baccb47f02e330357db92729a63bea84e40c708501c32e33ac84ce9dd",
+"classts_1_1_p_m_t.html#a44fff0acba6c5ba4fa7cd96bc9533092",
+"classts_1_1_private_data_indicator_descriptor.html#a861d449ce53da7fdb3dd92135b91b022",
+"classts_1_1_report_buffer.html#a014f1d296d8b39374f837489ba365a58",
+"classts_1_1_s_d_t_1_1_service.html#ab44ac79cbfc8dedf774ce1942da173bb",
+"classts_1_1_section.html#a750809d986996ef41d6ba4cc62a96086",
+"classts_1_1_service_discovery.html#a6c1bbfddd0b377951e1181ddea997ca8",
+"classts_1_1_splice_avail_descriptor.html#afa66b72c160f30afb1f643a2325ae19b",
+"classts_1_1_stream_identifier_descriptor.html#a2bc8ac82b5f9378a2320d85c952abfb9",
+"classts_1_1_t_c_p_server.html#a2112ba6c6da0b5c11aa22927f146b29e",
+"classts_1_1_t_s_analyzer_1_1_service_context.html#aaccd1527e34ab4ec502d8053217f07f5",
+"classts_1_1_t_s_file_output.html#a0c4309ad89b02b55d84f1c01d81d5abe",
+"classts_1_1_target_i_p_slash_descriptor.html",
+"classts_1_1_target_smartcard_descriptor.html#a682b71fe10051927d6ecc1eeb7135815",
+"classts_1_1_thread_attributes.html#aa026ab5fdbf018c894a83f64ff484a08",
+"classts_1_1_tuner_parameters_a_t_s_c.html#a39a5548d0b9b4657053cc9e3da146767",
+"classts_1_1_u_string.html#a1b306525a16c1cc533e0c6c9f4e7e75c",
+"classts_1_1_video_attributes.html#a31b3befa941346d6b5b18c91fd34ff1c",
+"classts_1_1ecmgscs_1_1_channel_setup.html#ac5f9d03fc3baf0f6bc9b650c08c2dc3f",
+"classts_1_1ecmgscs_1_1_stream_test.html#ac940cc5f719fa470ba8f4d04d7d64830",
+"classts_1_1emmgmux_1_1_stream_close_response.html#a512e1c480177f5e5c4e4ea940c6bf402",
+"classts_1_1json_1_1_object.html#ae79d7e8f39a9e25badb9dec2779a6563",
+"classts_1_1tlv_1_1_serializer.html#ad09f7e1931338b94debcc2455ffa9a7e",
+"classts_1_1tsp_1_1_options.html#ada57b307e21cd62d9eb7439dd2dcbfd1a75e36849327efe3c56b197dc3bf2e99f",
+"classts_1_1xml_1_1_attribute.html#a803555274fa784fdc68403ceaddb3252",
+"classts_1_1xml_1_1_node.html",
+"functions_vars_p.html",
+"structts_1_1_logical_channel_number_descriptor_1_1_entry.html#a35135293bda84cbca433e2540571b1c5",
+"structts_1_1ecmgscs_1_1_tags.html#a5e01a3ddf9394d2fa66b6d5248cc4b55a2753d08bb36eb9235f46be2cd8f54882",
+"ts_com_ids_8h.html",
+"ts_m_p_e_g_8h.html#a1f630b72bfe5d8444b70ed5c591f79dbabda049b64ab0fdf45a61fd4a2282f523",
+"ts_m_p_e_g_8h.html#a320c39cb24c168ea784ed6cbf30c3d56add70fd64756039ba418c23f1e05b63df",
+"ts_m_p_e_g_8h.html#ae146dfb8f8972d507c6ed2b8dd3cb4dfa35052895151222b80f9693ed7d7489b6",
+"ts_modulation_8h.html#aba55fc1506e1299dbed38c039463201fab28dd56e0e693f14368c3df73b16c405",
+"ts_platform_8h.html#a79a35caa42b6509fc23828033c53c5b2",
+"ts_sys_utils_8h.html#af36eee69d0d520464e4eead7a6d1e0df",
+"ts_u_char_8h.html#a21455f5d6a10eba8d5e0340d7d9f01b7",
+"ts_u_char_8h.html#a5dcb1dbda8b44f900dd00ae4eda1a6a8",
+"ts_u_char_8h.html#ab033b03cb7644a753e05cfca9e23ea4f",
+"ts_u_char_8h.html#aee707a95416147cff344edeb6684b6db"
 ];
 
 var SYNCONMSG = 'click to disable panel synchronisation';

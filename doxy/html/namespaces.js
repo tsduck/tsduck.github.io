@@ -1,4 +1,4 @@
-var namespaces_dup =
+var namespaces =
 [
     [ "ts", "namespacets.html", "namespacets" ]
 ];

@@ -1,4 +1,4 @@
 <map id="ts::TCPServer" name="ts::TCPServer">
-<area shape="rect" id="node2" href="$classts_1_1_t_c_p_socket.html" title="Base class for TCP/IP sockets. " alt="" coords="5,79,112,104"/>
-<area shape="rect" id="node3" href="$classts_1_1_socket.html" title="Base class for TCP and UDP sockets. " alt="" coords="19,5,99,31"/>
+<area shape="rect" id="node2" href="$classts_1_1_t_c_p_socket.html" title="Base class for TCP/IP sockets. " alt="" coords="5,80,116,107"/>
+<area shape="rect" id="node3" href="$classts_1_1_socket.html" title="Base class for TCP and UDP sockets. " alt="" coords="17,5,104,32"/>
 </map>

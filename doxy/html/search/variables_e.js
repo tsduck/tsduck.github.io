@@ -26,6 +26,7 @@ var searchData=
   ['no_5fbreak_5fspace',['NO_BREAK_SPACE',['../namespacets.html#ab5168e3da51c3b555ba79b6ff747bd9f',1,'ts']]],
   ['no_5fduplicate',['no_duplicate',['../classts_1_1_tables_logger_args.html#ae1eed65b618d30a126ac78d73dacce9d',1,'ts::TablesLoggerArgs']]],
   ['no_5fmpe_5ffec',['no_mpe_fec',['../classts_1_1_terrestrial_delivery_system_descriptor.html#a3bffa9b61c0f6bd1829aa0786184e8cb',1,'ts::TerrestrialDeliverySystemDescriptor']]],
+  ['no_5fregional_5fblackout',['no_regional_blackout',['../classts_1_1_splice_segmentation_descriptor.html#a922d24282a961cb90d570c770d1f507e',1,'ts::SpliceSegmentationDescriptor']]],
   ['no_5ftime_5fslicing',['no_time_slicing',['../classts_1_1_terrestrial_delivery_system_descriptor.html#a889a35f795d60996ba2e0fab8c0175e8',1,'ts::TerrestrialDeliverySystemDescriptor']]],
   ['nominal_5fcp_5fduration',['nominal_CP_duration',['../classts_1_1ecmgscs_1_1_stream_setup.html#a594ab9ec970bf9f7786e1efebf19db9e',1,'ts::ecmgscs::StreamSetup']]],
   ['non_5fpacked_5fconstraint',['non_packed_constraint',['../classts_1_1_h_e_v_c_video_descriptor.html#a419e6f9e2340b2acb1be86da1c0018b6',1,'ts::HEVCVideoDescriptor']]],

@@ -16,5 +16,5 @@ var searchData=
   ['processid',['ProcessId',['../namespacets.html#ade1d7cf3ca2437414d1d4238149a2d5b',1,'ts']]],
   ['protocol',['Protocol',['../structts_1_1duck_1_1_traits.html#a62deddf4d561718bc49cfe450d0795c4',1,'ts::duck::Traits::Protocol()'],['../structts_1_1ecmgscs_1_1_traits.html#a612e201a08bfe16dc9560220d8d2f8a9',1,'ts::ecmgscs::Traits::Protocol()'],['../structts_1_1emmgmux_1_1_traits.html#adfafa7d94e69e7e5547c68daad095de8',1,'ts::emmgmux::Traits::Protocol()']]],
   ['psiloggerptr',['PSILoggerPtr',['../namespacets.html#a383b83c689b2fc2cc9d13f3244470e7e',1,'ts']]],
-  ['ptsbycomponent',['PTSByComponent',['../classts_1_1_splice_insert.html#a1de362cfc5974971bfe8ebe989e2f8d4',1,'ts::SpliceInsert']]]
+  ['ptsoffsetbycomponent',['PTSOffsetByComponent',['../classts_1_1_splice_segmentation_descriptor.html#a8149556fca697d14dd34f05f94574665',1,'ts::SpliceSegmentationDescriptor']]]
 ];

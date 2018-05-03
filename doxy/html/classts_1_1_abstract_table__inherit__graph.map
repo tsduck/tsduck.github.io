@@ -1,19 +1,20 @@
 <map id="ts::AbstractTable" name="ts::AbstractTable">
-<area shape="rect" id="node3" href="$classts_1_1_abstract_long_table.html" title="Abstract base class for MPEG PSI/SI tables with long sections. " alt="" coords="385,239,534,264"/>
-<area shape="rect" id="node16" href="$classts_1_1_r_s_t.html" title="Representation of a Running Status Table (RST). " alt="" coords="427,288,493,313"/>
-<area shape="rect" id="node17" href="$classts_1_1_t_d_t.html" title="Representation of a Time &amp; Date Table (TDT) " alt="" coords="427,337,492,363"/>
-<area shape="rect" id="node18" href="$classts_1_1_t_o_t.html" title="Representation of a Time Offset Table (TOT) " alt="" coords="427,387,492,412"/>
-<area shape="rect" id="node2" href="$classts_1_1_abstract_signalization.html" title="Abstract base class for MPEG PSI/SI tables and descriptors. " alt="" coords="5,313,169,339"/>
-<area shape="rect" id="node4" href="$classts_1_1_abstract_descriptors_table.html" title="Base class for MPEG tables containing only a list of descriptors (eg. " alt="" coords="582,52,770,77"/>
-<area shape="rect" id="node7" href="$classts_1_1_abstract_transport_list_table.html" title="Abstract base class for tables containing a list of transport stream descriptions. " alt="" coords="593,101,759,140"/>
-<area shape="rect" id="node10" href="$classts_1_1_a_i_t.html" title="Representation of an Application Information Table (AIT) " alt="" coords="646,164,706,189"/>
-<area shape="rect" id="node11" href="$classts_1_1_e_i_t.html" title="Representation of an Event Information Table (EIT) " alt="" coords="646,213,706,239"/>
-<area shape="rect" id="node12" href="$classts_1_1_i_n_t.html" title="Representation of an IP/MAC Notification Table (INT). " alt="" coords="646,263,706,288"/>
-<area shape="rect" id="node13" href="$classts_1_1_p_a_t.html" title="Representation of a Program Association Table (PAT) " alt="" coords="645,312,708,337"/>
-<area shape="rect" id="node14" href="$classts_1_1_p_m_t.html" title="Representation of a Program Map Table (PMT) " alt="" coords="642,361,710,387"/>
-<area shape="rect" id="node15" href="$classts_1_1_s_d_t.html" title="Representation of a Service Description Table (SDT). " alt="" coords="643,411,709,436"/>
-<area shape="rect" id="node5" href="$classts_1_1_c_a_t.html" title="Representation of a Conditional Access Table (CAT). " alt="" coords="822,5,887,31"/>
-<area shape="rect" id="node6" href="$classts_1_1_t_s_d_t.html" title="Representation of a Transport Stream Description Table (TSDT) " alt="" coords="818,55,892,80"/>
-<area shape="rect" id="node8" href="$classts_1_1_b_a_t.html" title="Representation of a Bouquet Association Table (BAT). " alt="" coords="823,105,887,131"/>
-<area shape="rect" id="node9" href="$classts_1_1_n_i_t.html" title="Representation of a Network Information Table (NIT) " alt="" coords="824,155,885,180"/>
+<area shape="rect" id="node3" href="$classts_1_1_abstract_long_table.html" title="Abstract base class for MPEG PSI/SI tables with long sections. " alt="" coords="412,247,573,273"/>
+<area shape="rect" id="node16" href="$classts_1_1_r_s_t.html" title="Representation of a Running Status Table (RST). " alt="" coords="459,297,526,324"/>
+<area shape="rect" id="node17" href="$classts_1_1_splice_info_table.html" title="Representation of an SCTE 35 Splice Information Table. " alt="" coords="423,348,563,375"/>
+<area shape="rect" id="node18" href="$classts_1_1_t_d_t.html" title="Representation of a Time &amp; Date Table (TDT) " alt="" coords="459,399,527,425"/>
+<area shape="rect" id="node19" href="$classts_1_1_t_o_t.html" title="Representation of a Time Offset Table (TOT) " alt="" coords="459,449,527,476"/>
+<area shape="rect" id="node2" href="$classts_1_1_abstract_signalization.html" title="Abstract base class for MPEG PSI/SI tables and descriptors. " alt="" coords="5,348,185,375"/>
+<area shape="rect" id="node4" href="$classts_1_1_abstract_descriptors_table.html" title="Base class for MPEG tables containing only a list of descriptors (eg. " alt="" coords="621,53,825,80"/>
+<area shape="rect" id="node7" href="$classts_1_1_abstract_transport_list_table.html" title="Abstract base class for tables containing a list of transport stream descriptions. " alt="" coords="634,105,813,146"/>
+<area shape="rect" id="node10" href="$classts_1_1_a_i_t.html" title="Representation of an Application Information Table (AIT) " alt="" coords="692,171,755,197"/>
+<area shape="rect" id="node11" href="$classts_1_1_e_i_t.html" title="Representation of an Event Information Table (EIT) " alt="" coords="692,221,755,248"/>
+<area shape="rect" id="node12" href="$classts_1_1_i_n_t.html" title="Representation of an IP/MAC Notification Table (INT). " alt="" coords="691,272,755,299"/>
+<area shape="rect" id="node13" href="$classts_1_1_p_a_t.html" title="Representation of a Program Association Table (PAT) " alt="" coords="691,323,756,349"/>
+<area shape="rect" id="node14" href="$classts_1_1_p_m_t.html" title="Representation of a Program Map Table (PMT) " alt="" coords="689,373,758,400"/>
+<area shape="rect" id="node15" href="$classts_1_1_s_d_t.html" title="Representation of a Service Description Table (SDT). " alt="" coords="689,424,757,451"/>
+<area shape="rect" id="node5" href="$classts_1_1_c_a_t.html" title="Representation of a Conditional Access Table (CAT). " alt="" coords="878,5,945,32"/>
+<area shape="rect" id="node6" href="$classts_1_1_t_s_d_t.html" title="Representation of a Transport Stream Description Table (TSDT) " alt="" coords="873,56,949,83"/>
+<area shape="rect" id="node8" href="$classts_1_1_b_a_t.html" title="Representation of a Bouquet Association Table (BAT). " alt="" coords="878,111,945,137"/>
+<area shape="rect" id="node9" href="$classts_1_1_n_i_t.html" title="Representation of a Network Information Table (NIT) " alt="" coords="879,161,943,188"/>
 </map>

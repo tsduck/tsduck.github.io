@@ -8,6 +8,7 @@ var searchData=
   ['message',['Message',['../classts_1_1tlv_1_1_message.html',1,'ts::tlv']]],
   ['messagedescriptor',['MessageDescriptor',['../classts_1_1_message_descriptor.html',1,'ts']]],
   ['messagefactory',['MessageFactory',['../classts_1_1tlv_1_1_message_factory.html',1,'ts::tlv']]],
+  ['messagepriorityqueue',['MessagePriorityQueue',['../classts_1_1_message_priority_queue.html',1,'ts']]],
   ['messagequeue',['MessageQueue',['../classts_1_1_message_queue.html',1,'ts']]],
   ['messagequeue_3c_20logmessage_2c_20nullmutex_20_3e',['MessageQueue&lt; LogMessage, NullMutex &gt;',['../classts_1_1_message_queue.html',1,'ts']]],
   ['messagequeue_3c_20ts_3a_3atlv_3a_3amessage_2c_20ts_3a_3anullmutex_20_3e',['MessageQueue&lt; ts::tlv::Message, ts::NullMutex &gt;',['../classts_1_1_message_queue.html',1,'ts']]],

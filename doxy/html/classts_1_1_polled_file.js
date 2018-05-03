@@ -7,6 +7,7 @@ var classts_1_1_polled_file =
     ] ],
     [ "getFileName", "classts_1_1_polled_file.html#ad2d89c0cb84afabadc6b280bd886a0dd", null ],
     [ "getStatus", "classts_1_1_polled_file.html#adf41b27242dfbd478cda373a4f1b9c57", null ],
+    [ "getSize", "classts_1_1_polled_file.html#acbe7ecac78797d67ebb774fe720d709d", null ],
     [ "PollFiles", "classts_1_1_polled_file.html#ab1c63916810c42682ff69154eac4feea", null ],
     [ "StatusEnumeration", "classts_1_1_polled_file.html#ade804139e60aa4f01fd3eb958c3014bc", null ]
 ];

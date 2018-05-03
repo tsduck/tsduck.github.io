@@ -1,4 +1,4 @@
 <map id="ts::DVBCSA2" name="ts::DVBCSA2">
-<area shape="rect" id="node2" href="$classts_1_1_cipher_chaining.html" title="Base class of all cipher chaining modes. " alt="" coords="5,79,136,104"/>
-<area shape="rect" id="node3" href="$classts_1_1_block_cipher.html" title="Abstract interface of block ciphers. " alt="" coords="15,5,126,31"/>
+<area shape="rect" id="node2" href="$classts_1_1_cipher_chaining.html" title="Base class of all cipher chaining modes. " alt="" coords="5,80,147,107"/>
+<area shape="rect" id="node3" href="$classts_1_1_block_cipher.html" title="Abstract interface of block ciphers. " alt="" coords="16,5,136,32"/>
 </map>

@@ -1,5 +1,5 @@
 <map id="ts::duck::LogTable" name="ts::duck::LogTable">
-<area shape="rect" id="node2" href="$classts_1_1tlv_1_1_message.html" title="Abstract base class for TLV messages. " alt="" coords="5,12,119,37"/>
-<area shape="rect" id="node3" href="$classts_1_1_variable.html" title="ts::Variable\&lt; ts::SimulCrypt\lDate \&gt;" alt="" coords="144,5,325,44"/>
-<area shape="rect" id="node4" href="$classts_1_1_variable.html" title="ts::Variable\&lt; PID \&gt;" alt="" coords="350,12,482,37"/>
+<area shape="rect" id="node2" href="$classts_1_1tlv_1_1_message.html" title="Abstract base class for TLV messages. " alt="" coords="5,13,128,39"/>
+<area shape="rect" id="node3" href="$classts_1_1_variable.html" title="ts::Variable\&lt; ts::SimulCrypt\lDate \&gt;" alt="" coords="152,5,355,47"/>
+<area shape="rect" id="node4" href="$classts_1_1_variable.html" title="ts::Variable\&lt; PID \&gt;" alt="" coords="379,13,525,39"/>
 </map>

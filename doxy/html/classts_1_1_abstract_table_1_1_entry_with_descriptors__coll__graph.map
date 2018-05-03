@@ -1,4 +1,4 @@
 <map id="ts::AbstractTable::EntryWithDescriptors" name="ts::AbstractTable::EntryWithDescriptors">
-<area shape="rect" id="node2" href="$classts_1_1_abstract_table_1_1_entry_base.html" title="Base inner class for table entries with one or more descriptor lists. " alt="" coords="5,5,133,44"/>
-<area shape="rect" id="node3" href="$classts_1_1_descriptor_list.html" title="List of MPEG PSI/SI descriptors. " alt="" coords="157,12,277,37"/>
+<area shape="rect" id="node2" href="$classts_1_1_abstract_table_1_1_entry_base.html" title="Base inner class for table entries with one or more descriptor lists. " alt="" coords="5,5,144,47"/>
+<area shape="rect" id="node3" href="$classts_1_1_descriptor_list.html" title="List of MPEG PSI/SI descriptors. " alt="" coords="169,13,301,39"/>
 </map>
