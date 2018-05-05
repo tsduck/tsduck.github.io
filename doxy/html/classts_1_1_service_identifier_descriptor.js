@@ -1,0 +1,28 @@
+var classts_1_1_service_identifier_descriptor =
+[
+    [ "ServiceIdentifierDescriptor", "classts_1_1_service_identifier_descriptor.html#aa15cffe01496aa27825ae08bfc62add5", null ],
+    [ "ServiceIdentifierDescriptor", "classts_1_1_service_identifier_descriptor.html#a9411869831f08c676bca44afa8335907", null ],
+    [ "DisplayDescriptor", "classts_1_1_service_identifier_descriptor.html#a69ef9ed9edb0b4f31034d4771dcf0302", null ],
+    [ "serialize", "classts_1_1_service_identifier_descriptor.html#a47f5676d993483c3840939937fef0a3f", null ],
+    [ "deserialize", "classts_1_1_service_identifier_descriptor.html#affc50296ec149d00e09ae804f23fb77f", null ],
+    [ "buildXML", "classts_1_1_service_identifier_descriptor.html#ac3da5da7748302ffcf797f0d4e312750", null ],
+    [ "fromXML", "classts_1_1_service_identifier_descriptor.html#a1b974241028a647cfb7cdea274b4c741", null ],
+    [ "tag", "classts_1_1_service_identifier_descriptor.html#adbe5ac625d65123062037d7af5eb0b93", null ],
+    [ "requiredPDS", "classts_1_1_service_identifier_descriptor.html#afa66b72c160f30afb1f643a2325ae19b", null ],
+    [ "isPrivateDescriptor", "classts_1_1_service_identifier_descriptor.html#a8acad1c54650e12e041d7d147bdf2ba9", null ],
+    [ "deserialize", "classts_1_1_service_identifier_descriptor.html#a87a8920d3d2523e9452a5804d33a8ec5", null ],
+    [ "serializeStart", "classts_1_1_service_identifier_descriptor.html#a2039c886589fa10a8120ba325f5f8bdb", null ],
+    [ "serializeEnd", "classts_1_1_service_identifier_descriptor.html#a682b71fe10051927d6ecc1eeb7135815", null ],
+    [ "isValid", "classts_1_1_service_identifier_descriptor.html#af7aa8ceb8b698ab219c05a36b0e97291", null ],
+    [ "invalidate", "classts_1_1_service_identifier_descriptor.html#a1aca8115129275bdd9c384e822301f0a", null ],
+    [ "xmlName", "classts_1_1_service_identifier_descriptor.html#a77fd80b304a38bdc350eae3d899495bc", null ],
+    [ "toXML", "classts_1_1_service_identifier_descriptor.html#ae5b592f7701b19d586a8b047b17d81b3", null ],
+    [ "checkXMLName", "classts_1_1_service_identifier_descriptor.html#aef9dabba2270e0ac6d4c43f13bb13243", null ],
+    [ "SerializeFixedLength", "classts_1_1_service_identifier_descriptor.html#a861d449ce53da7fdb3dd92135b91b022", null ],
+    [ "SerializeLanguageCode", "classts_1_1_service_identifier_descriptor.html#ae02743b0076183fb615027b8bc88b26a", null ],
+    [ "identifier", "classts_1_1_service_identifier_descriptor.html#aba3cd1d525cb3c3c94d842d22c94b763", null ],
+    [ "_tag", "classts_1_1_service_identifier_descriptor.html#a082368ef5443867889659323c6842912", null ],
+    [ "_required_pds", "classts_1_1_service_identifier_descriptor.html#a53bd8fcd27200d220c6283bd1775c0cd", null ],
+    [ "_xml_name", "classts_1_1_service_identifier_descriptor.html#ae3c088f8d26763cf2c4dc47042ee32e1", null ],
+    [ "_is_valid", "classts_1_1_service_identifier_descriptor.html#a656c83e401104eb45581a2867fe758dc", null ]
+];

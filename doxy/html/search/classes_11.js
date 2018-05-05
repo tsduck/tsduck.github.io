@@ -10,7 +10,7 @@ var searchData=
   ['tablesfactory',['TablesFactory',['../classts_1_1_tables_factory.html',1,'ts']]],
   ['tableslogger',['TablesLogger',['../classts_1_1_tables_logger.html',1,'ts']]],
   ['tablesloggerargs',['TablesLoggerArgs',['../classts_1_1_tables_logger_args.html',1,'ts']]],
-  ['tags',['Tags',['../structts_1_1duck_1_1_tags.html',1,'ts::duck::Tags'],['../structts_1_1emmgmux_1_1_tags.html',1,'ts::emmgmux::Tags'],['../structts_1_1ecmgscs_1_1_tags.html',1,'ts::ecmgscs::Tags']]],
+  ['tags',['Tags',['../structts_1_1ecmgscs_1_1_tags.html',1,'ts::ecmgscs::Tags'],['../structts_1_1emmgmux_1_1_tags.html',1,'ts::emmgmux::Tags'],['../structts_1_1duck_1_1_tags.html',1,'ts::duck::Tags']]],
   ['targetipaddressdescriptor',['TargetIPAddressDescriptor',['../classts_1_1_target_i_p_address_descriptor.html',1,'ts']]],
   ['targetipslashdescriptor',['TargetIPSlashDescriptor',['../classts_1_1_target_i_p_slash_descriptor.html',1,'ts']]],
   ['targetipsourceslashdescriptor',['TargetIPSourceSlashDescriptor',['../classts_1_1_target_i_p_source_slash_descriptor.html',1,'ts']]],

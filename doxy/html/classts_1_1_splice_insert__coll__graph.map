@@ -1,5 +1,5 @@
 <map id="ts::SpliceInsert" name="ts::SpliceInsert">
-<area shape="rect" id="node2" href="$classts_1_1_abstract_signalization.html" title="Abstract base class for MPEG PSI/SI tables and descriptors. " alt="" coords="5,81,185,108"/>
-<area shape="rect" id="node3" href="$classts_1_1_splice_time.html" title="Representation of an SCTE 35 splice_time() structure. " alt="" coords="210,81,325,108"/>
-<area shape="rect" id="node4" href="$classts_1_1_variable.html" title="ts::Variable\&lt; uint64_t \&gt;" alt="" coords="178,5,357,32"/>
+<area shape="rect" id="node2" href="$classts_1_1_abstract_signalization.html" title="Abstract base class for MPEG PSI/SI tables and descriptors. " alt="" coords="5,80,169,105"/>
+<area shape="rect" id="node3" href="$classts_1_1_splice_time.html" title="Representation of an SCTE 35 splice_time() structure. " alt="" coords="194,80,298,105"/>
+<area shape="rect" id="node4" href="$classts_1_1_variable.html" title="ts::Variable\&lt; uint64_t \&gt;" alt="" coords="167,5,325,31"/>
 </map>

@@ -30,6 +30,7 @@ var searchData=
   ['universal_5flnb_5fhigh_5ffrequency',['UNIVERSAL_LNB_HIGH_FREQUENCY',['../classts_1_1_l_n_b.html#ad7e1d5cb01ebcf1ab51f8d651cec2ee1',1,'ts::LNB']]],
   ['universal_5flnb_5flow_5ffrequency',['UNIVERSAL_LNB_LOW_FREQUENCY',['../classts_1_1_l_n_b.html#a2ebb4cd1cfd0cbb1a6ae9b2d4408265c',1,'ts::LNB']]],
   ['universal_5flnb_5fswitch_5ffrequency',['UNIVERSAL_LNB_SWITCH_FREQUENCY',['../classts_1_1_l_n_b.html#adbe2fe40764c9eee1a533bba8ae078c1',1,'ts::LNB']]],
+  ['unix',['Unix',['../group__unix.html',1,'']]],
   ['unixclocknanoseconds',['UnixClockNanoSeconds',['../classts_1_1_time.html#ac3b1dafdfe8ec80e5b30ae31ef92d46a',1,'ts::Time']]],
   ['unixepoch',['UnixEpoch',['../classts_1_1_time.html#aa03160ef9ec377e8acac6eaf0152a426',1,'ts::Time']]],
   ['unixtimetoutc',['UnixTimeToUTC',['../classts_1_1_time.html#ab24b5d828b8a81673a40a9883042ae10',1,'ts::Time']]],

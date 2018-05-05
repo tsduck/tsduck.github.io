@@ -1,5 +1,5 @@
 <map id="ts::DVBCharset" name="ts::DVBCharset">
-<area shape="rect" id="node2" href="$classts_1_1_d_v_b_charset_single_byte.html" title="Definition of a DVB character set using a single byte per character. " alt="" coords="5,80,196,107"/>
-<area shape="rect" id="node3" href="$classts_1_1_d_v_b_charset_u_t_f16.html" title="Definition of the UTF&#45;8 DVB character set. " alt="" coords="220,80,381,107"/>
-<area shape="rect" id="node4" href="$classts_1_1_d_v_b_charset_u_t_f8.html" title="Definition of the UTF&#45;8 DVB character set. " alt="" coords="405,80,559,107"/>
+<area shape="rect" id="node2" href="$classts_1_1_d_v_b_charset_single_byte.html" title="Definition of a DVB character set using a single byte per character. " alt="" coords="5,79,182,104"/>
+<area shape="rect" id="node3" href="$classts_1_1_d_v_b_charset_u_t_f16.html" title="Definition of the UTF&#45;8 DVB character set. " alt="" coords="206,79,360,104"/>
+<area shape="rect" id="node4" href="$classts_1_1_d_v_b_charset_u_t_f8.html" title="Definition of the UTF&#45;8 DVB character set. " alt="" coords="385,79,531,104"/>
 </map>

@@ -1,4 +1,4 @@
 <map id="ts::UDPReceiver" name="ts::UDPReceiver">
-<area shape="rect" id="node2" href="$classts_1_1_u_d_p_socket.html" title="UDP Socket. " alt="" coords="11,80,126,107"/>
-<area shape="rect" id="node3" href="$classts_1_1_socket.html" title="Base class for TCP and UDP sockets. " alt="" coords="25,5,112,32"/>
+<area shape="rect" id="node2" href="$classts_1_1_u_d_p_socket.html" title="UDP Socket. " alt="" coords="11,79,119,104"/>
+<area shape="rect" id="node3" href="$classts_1_1_socket.html" title="Base class for TCP and UDP sockets. " alt="" coords="25,5,105,31"/>
 </map>

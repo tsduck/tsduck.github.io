@@ -1,7 +1,5 @@
 var ts_s_c_t_e35_8h =
 [
-    [ "SplicePrivateCommand", "classts_1_1_splice_private_command.html", "classts_1_1_splice_private_command" ],
-    [ "SpliceTime", "classts_1_1_splice_time.html", "classts_1_1_splice_time" ],
     [ "CUE_INSERT_NULL_SCHEDULE", "ts_s_c_t_e35_8h.html#a60d0f1909cfac09dca09c908e886f77eabd1e31f1bbea2ed8d74137436bda9fda", null ],
     [ "CUE_ALL_COMMANDS", "ts_s_c_t_e35_8h.html#a60d0f1909cfac09dca09c908e886f77eae13c5ea3f3ba678bc134bcda73543ec2", null ],
     [ "CUE_SEGMENTATION", "ts_s_c_t_e35_8h.html#a60d0f1909cfac09dca09c908e886f77eae65e1e41e02d6395204e82ea428c2870", null ],

@@ -1,5 +1,5 @@
 <map id="ts::OneShotPacketizer" name="ts::OneShotPacketizer">
-<area shape="rect" id="node2" href="$classts_1_1_cycling_packetizer.html" title="Cyclic packetization of MPEG sections into Transport Stream packets. " alt="" coords="71,80,228,107"/>
-<area shape="rect" id="node3" href="$classts_1_1_packetizer.html" title="Packetization of MPEG sections into Transport Stream packets. " alt="" coords="5,5,115,32"/>
-<area shape="rect" id="node4" href="$classts_1_1_section_provider_interface.html" title="Abstract interface for classes which provides MPEG Section into a Packetizer. " alt="" coords="139,5,341,32"/>
+<area shape="rect" id="node2" href="$classts_1_1_cycling_packetizer.html" title="Cyclic packetization of MPEG sections into Transport Stream packets. " alt="" coords="66,79,211,104"/>
+<area shape="rect" id="node3" href="$classts_1_1_packetizer.html" title="Packetization of MPEG sections into Transport Stream packets. " alt="" coords="5,5,107,31"/>
+<area shape="rect" id="node4" href="$classts_1_1_section_provider_interface.html" title="Abstract interface for classes which provides MPEG Section into a Packetizer. " alt="" coords="130,5,315,31"/>
 </map>

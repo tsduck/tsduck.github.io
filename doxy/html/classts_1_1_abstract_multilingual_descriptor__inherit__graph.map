@@ -1,0 +1,8 @@
+<map id="ts::AbstractMultilingualDescriptor" name="ts::AbstractMultilingualDescriptor">
+<area shape="rect" id="node4" href="$classts_1_1_application_name_descriptor.html" title="Representation of an application_name_descriptor (AIT specific). " alt="" coords="616,5,817,31"/>
+<area shape="rect" id="node5" href="$classts_1_1_multilingual_bouquet_name_descriptor.html" title="Representation of a multilingual_bouquet_name_descriptor. " alt="" coords="621,55,812,93"/>
+<area shape="rect" id="node6" href="$classts_1_1_multilingual_component_descriptor.html" title="Representation of a multilingual_component_descriptor. " alt="" coords="629,117,804,156"/>
+<area shape="rect" id="node7" href="$classts_1_1_multilingual_network_name_descriptor.html" title="Representation of a multilingual_network_name_descriptor. " alt="" coords="622,180,812,219"/>
+<area shape="rect" id="node2" href="$classts_1_1_abstract_descriptor.html" title="Abstract base class for MPEG PSI/SI descriptors. " alt="" coords="217,93,366,119"/>
+<area shape="rect" id="node3" href="$classts_1_1_abstract_signalization.html" title="Abstract base class for MPEG PSI/SI tables and descriptors. " alt="" coords="5,93,169,119"/>
+</map>

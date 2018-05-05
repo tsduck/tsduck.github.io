@@ -1,4 +1,4 @@
 <map id="ts::tlv::StreamMessage" name="ts::tlv::StreamMessage">
-<area shape="rect" id="node2" href="$classts_1_1tlv_1_1_channel_message.html" title="Base class for DVB SimulCrypt TLV messages operating on channels. " alt="" coords="5,80,181,107"/>
-<area shape="rect" id="node3" href="$classts_1_1tlv_1_1_message.html" title="Abstract base class for TLV messages. " alt="" coords="32,5,155,32"/>
+<area shape="rect" id="node2" href="$classts_1_1tlv_1_1_channel_message.html" title="Base class for DVB SimulCrypt TLV messages operating on channels. " alt="" coords="5,79,169,104"/>
+<area shape="rect" id="node3" href="$classts_1_1tlv_1_1_message.html" title="Abstract base class for TLV messagesAll messages use the same structure as the DVB interfaces defined..." alt="" coords="30,5,144,31"/>
 </map>

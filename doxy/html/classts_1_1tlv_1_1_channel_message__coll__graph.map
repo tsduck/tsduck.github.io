@@ -1,3 +1,3 @@
 <map id="ts::tlv::ChannelMessage" name="ts::tlv::ChannelMessage">
-<area shape="rect" id="node2" href="$classts_1_1tlv_1_1_message.html" title="Abstract base class for TLV messages. " alt="" coords="32,5,155,32"/>
+<area shape="rect" id="node2" href="$classts_1_1tlv_1_1_message.html" title="Abstract base class for TLV messagesAll messages use the same structure as the DVB interfaces defined..." alt="" coords="30,5,144,31"/>
 </map>

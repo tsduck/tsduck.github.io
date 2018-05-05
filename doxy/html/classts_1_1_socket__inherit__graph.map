@@ -1,10 +1,10 @@
 <map id="ts::Socket" name="ts::Socket">
-<area shape="rect" id="node2" href="$classts_1_1_t_c_p_socket.html" title="Base class for TCP/IP sockets. " alt="" coords="338,80,449,107"/>
-<area shape="rect" id="node8" href="$classts_1_1_u_d_p_socket.html" title="UDP Socket. " alt="" coords="475,80,589,107"/>
-<area shape="rect" id="node3" href="$classts_1_1_t_c_p_connection.html" title="Base class for a TCP/IP session. " alt="" coords="176,155,315,181"/>
-<area shape="rect" id="node7" href="$classts_1_1_t_c_p_server.html" title="Implementation of a TCP/IP server. " alt="" coords="339,155,447,181"/>
-<area shape="rect" id="node4" href="$classts_1_1tlv_1_1_connection.html" title="ts::tlv::Connection\l\&lt; ts::Mutex \&gt;" alt="" coords="5,229,144,271"/>
-<area shape="rect" id="node5" href="$classts_1_1_telnet_connection.html" title="Implementation of a half&#45;duplex line oriented telnet connection. " alt="" coords="168,237,323,263"/>
-<area shape="rect" id="node6" href="$classts_1_1tlv_1_1_connection.html" title="TCP connection using TLV messages. " alt="" coords="347,229,485,271"/>
-<area shape="rect" id="node9" href="$classts_1_1_u_d_p_receiver.html" title="UDP datagram receiver with common command line options. " alt="" coords="471,155,598,181"/>
+<area shape="rect" id="node2" href="$classts_1_1_t_c_p_socket.html" title="Base class for TCP/IP sockets. " alt="" coords="317,79,424,104"/>
+<area shape="rect" id="node8" href="$classts_1_1_u_d_p_socket.html" title="UDP Socket. " alt="" coords="450,79,558,104"/>
+<area shape="rect" id="node3" href="$classts_1_1_t_c_p_connection.html" title="Base class for a TCP/IP session. " alt="" coords="161,152,294,177"/>
+<area shape="rect" id="node7" href="$classts_1_1_t_c_p_server.html" title="Implementation of a TCP/IP server. " alt="" coords="318,152,423,177"/>
+<area shape="rect" id="node4" href="$classts_1_1tlv_1_1_connection.html" title="ts::tlv::Connection\l\&lt; ts::Mutex \&gt;" alt="" coords="5,225,133,264"/>
+<area shape="rect" id="node5" href="$classts_1_1_telnet_connection.html" title="Implementation of a half&#45;duplex line oriented telnet connection. " alt="" coords="157,232,299,257"/>
+<area shape="rect" id="node6" href="$classts_1_1tlv_1_1_connection.html" title="TCP connection using TLV messages. " alt="" coords="323,225,450,264"/>
+<area shape="rect" id="node9" href="$classts_1_1_u_d_p_receiver.html" title="UDP datagram receiver with common command line options. " alt="" coords="446,152,566,177"/>
 </map>

@@ -18,6 +18,10 @@ var searchData=
   ['mpedemux',['MPEDemux',['../classts_1_1_m_p_e_demux.html',1,'ts']]],
   ['mpehandlerinterface',['MPEHandlerInterface',['../classts_1_1_m_p_e_handler_interface.html',1,'ts']]],
   ['mpepacket',['MPEPacket',['../classts_1_1_m_p_e_packet.html',1,'ts']]],
+  ['multilingualbouquetnamedescriptor',['MultilingualBouquetNameDescriptor',['../classts_1_1_multilingual_bouquet_name_descriptor.html',1,'ts']]],
+  ['multilingualcomponentdescriptor',['MultilingualComponentDescriptor',['../classts_1_1_multilingual_component_descriptor.html',1,'ts']]],
+  ['multilingualnetworknamedescriptor',['MultilingualNetworkNameDescriptor',['../classts_1_1_multilingual_network_name_descriptor.html',1,'ts']]],
+  ['multilingualservicenamedescriptor',['MultilingualServiceNameDescriptor',['../classts_1_1_multilingual_service_name_descriptor.html',1,'ts']]],
   ['mutex',['Mutex',['../classts_1_1_mutex.html',1,'ts']]],
   ['mutexerror',['MutexError',['../classts_1_1_mutex_1_1_mutex_error.html',1,'ts::Mutex']]],
   ['mutexinterface',['MutexInterface',['../classts_1_1_mutex_interface.html',1,'ts']]]

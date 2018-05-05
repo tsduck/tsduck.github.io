@@ -1,0 +1,9 @@
+<map id="Core classes" name="Core classes">
+<area shape="rect" id="node1" href="$group__cpp.html" title="C++ language features and design patterns. " alt="" coords="162,5,267,31"/>
+<area shape="rect" id="node2" href="$group__windows.html" title="Windows specific features. " alt="" coords="177,55,252,80"/>
+<area shape="rect" id="node3" href="$group__log.html" title="Unified message logging. " alt="" coords="154,104,276,129"/>
+<area shape="rect" id="node4" href="$group__net.html" title="Networking features. " alt="" coords="171,153,259,179"/>
+<area shape="rect" id="node5" href="$group__unix.html" title="Unix specific features. " alt="" coords="191,203,239,228"/>
+<area shape="rect" id="node6" href="$group__system.html" title="Portable operating system layer. " alt="" coords="152,252,278,277"/>
+<area shape="rect" id="node7" href="$group__thread.html" title="Multi&#45;threading and synchronization features. " alt="" coords="160,301,269,327"/>
+</map>

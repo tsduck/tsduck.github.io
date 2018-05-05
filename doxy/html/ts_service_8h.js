@@ -1,6 +1,5 @@
 var ts_service_8h =
 [
-    [ "Service", "classts_1_1_service.html", "classts_1_1_service" ],
     [ "SERVICE_PROPERTY", "ts_service_8h.html#a9a7b9fb429abe0fad7ed211b572cfae7", null ],
     [ "SERVICE_PROPERTY_INT", "ts_service_8h.html#acd51d613d550880d28ce5917068c212d", null ],
     [ "SERVICE_PROPERTY_STRING", "ts_service_8h.html#a5bc5a4515e8e17ea65bede5da694adb2", null ],
