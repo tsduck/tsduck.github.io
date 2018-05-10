@@ -1,6 +1,0 @@
-<map id="Digital TV" name="Digital TV">
-<area shape="rect" id="node1" href="$group__descriptor.html" title="Most common descriptors used in MPEG&#45;DVB systems. " alt="" coords="132,5,294,31"/>
-<area shape="rect" id="node2" href="$group__hardware.html" title="Specific hardware support (Dektec, tuners) " alt="" coords="149,55,277,80"/>
-<area shape="rect" id="node4" href="$group__mpeg.html" title="MPEG&#45;DVB core features. " alt="" coords="152,104,274,129"/>
-<area shape="rect" id="node5" href="$group__table.html" title="Tables used in MPEG&#45;DVB systems. " alt="" coords="147,153,279,179"/>
-</map>

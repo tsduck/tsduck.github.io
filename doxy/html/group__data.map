@@ -1,5 +1,0 @@
-<map id="Data formats" name="Data formats">
-<area shape="rect" id="node1" href="$group__tlv.html" title="Representation of Tag / Length / Value messages. " alt="" coords="157,5,202,31"/>
-<area shape="rect" id="node2" href="$group__xml.html" title="Representation of XML documents. " alt="" coords="155,55,204,80"/>
-<area shape="rect" id="node3" href="$group__json.html" title="Representation of JSON documents. " alt="" coords="151,104,208,129"/>
-</map>

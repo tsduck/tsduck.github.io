@@ -1,5 +1,0 @@
-<map id="ts::ecmgscs::StreamTest" name="ts::ecmgscs::StreamTest">
-<area shape="rect" id="node2" href="$classts_1_1tlv_1_1_stream_message.html" title="Base class for DVB SimulCrypt TLV messages operating on streams. " alt="" coords="10,152,167,177"/>
-<area shape="rect" id="node3" href="$classts_1_1tlv_1_1_channel_message.html" title="Base class for DVB SimulCrypt TLV messages operating on channels. " alt="" coords="7,79,170,104"/>
-<area shape="rect" id="node4" href="$classts_1_1tlv_1_1_message.html" title="Abstract base class for TLV messagesAll messages use the same structure as the DVB interfaces defined..." alt="" coords="32,5,146,31"/>
-</map>

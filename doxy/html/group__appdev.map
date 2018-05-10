@@ -1,5 +1,0 @@
-<map id="Application" name="Application">
-<area shape="rect" id="node1" href="$group__app.html" title="Application management tools. " alt="" coords="147,5,240,31"/>
-<area shape="rect" id="node2" href="$group__plugin.html" title="TSDuck plugin development. " alt="" coords="161,55,226,80"/>
-<area shape="rect" id="node4" href="$group__cmd.html" title="Command line applications. " alt="" coords="140,104,247,129"/>
-</map>

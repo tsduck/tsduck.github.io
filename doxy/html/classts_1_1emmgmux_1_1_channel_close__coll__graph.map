@@ -1,4 +1,0 @@
-<map id="ts::emmgmux::ChannelClose" name="ts::emmgmux::ChannelClose">
-<area shape="rect" id="node2" href="$classts_1_1tlv_1_1_channel_message.html" title="Base class for DVB SimulCrypt TLV messages operating on channels. " alt="" coords="20,79,183,104"/>
-<area shape="rect" id="node3" href="$classts_1_1tlv_1_1_message.html" title="Abstract base class for TLV messagesAll messages use the same structure as the DVB interfaces defined..." alt="" coords="45,5,159,31"/>
-</map>
